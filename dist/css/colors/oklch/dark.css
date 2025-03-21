@@ -1,0 +1,5 @@
+[data-theme="dark"] {
+  --color-black: oklch(1 0 0);
+
+  --color-primary-lightest: oklch(0.496175 0.201675 260.53);
+}

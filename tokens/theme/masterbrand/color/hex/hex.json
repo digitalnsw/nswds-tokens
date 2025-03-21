@@ -1,0 +1,226 @@
+{
+  "primary-lightest": {
+    "$type": "color",
+    "$value": "#0c5ad4"
+  },
+  "primary-lighter": {
+    "$type": "color",
+    "$value": "#0548ad"
+  },
+  "primary-light": {
+    "$type": "color",
+    "$value": "#023688"
+  },
+  "primary": {
+    "$type": "color",
+    "$value": "#002664"
+  },
+  "primary-dark": {
+    "$type": "color",
+    "$value": "#001a4d"
+  },
+  "primary-darker": {
+    "$type": "color",
+    "$value": "#001037"
+  },
+  "primary-darkest": {
+    "$type": "color",
+    "$value": "#000622"
+  },
+  "secondary-lightest": {
+    "$type": "color",
+    "$value": "#f0fbff"
+  },
+  "secondary-lighter": {
+    "$type": "color",
+    "$value": "#e4f6ff"
+  },
+  "secondary-light": {
+    "$type": "color",
+    "$value": "#d7f2fe"
+  },
+  "secondary": {
+    "$type": "color",
+    "$value": "#cbedfd"
+  },
+  "secondary-dark": {
+    "$type": "color",
+    "$value": "#bceafe"
+  },
+  "secondary-darker": {
+    "$type": "color",
+    "$value": "#ade7ff"
+  },
+  "secondary-darkest": {
+    "$type": "color",
+    "$value": "#9de3ff"
+  },
+  "tertiary-lightest": {
+    "$type": "color",
+    "$value": "#5ac9ff"
+  },
+  "tertiary-lighter": {
+    "$type": "color",
+    "$value": "#26aeff"
+  },
+  "tertiary-light": {
+    "$type": "color",
+    "$value": "#008fff"
+  },
+  "tertiary": {
+    "$type": "color",
+    "$value": "#146cfd"
+  },
+  "tertiary-dark": {
+    "$type": "color",
+    "$value": "#0c5ad4"
+  },
+  "tertiary-darker": {
+    "$type": "color",
+    "$value": "#0548ad"
+  },
+  "tertiary-darkest": {
+    "$type": "color",
+    "$value": "#023688"
+  },
+  "accent-lightest": {
+    "$type": "color",
+    "$value": "#f897a2"
+  },
+  "accent-lighter": {
+    "$type": "color",
+    "$value": "#ef7581"
+  },
+  "accent-light": {
+    "$type": "color",
+    "$value": "#e44f5f"
+  },
+  "accent": {
+    "$type": "color",
+    "$value": "#d7153a"
+  },
+  "accent-dark": {
+    "$type": "color",
+    "$value": "#b90e32"
+  },
+  "accent-darker": {
+    "$type": "color",
+    "$value": "#9b072a"
+  },
+  "accent-darkest": {
+    "$type": "color",
+    "$value": "#7e0322"
+  },
+  "success-lightest": {
+    "$type": "color",
+    "$value": "#c4e5c0"
+  },
+  "success-lighter": {
+    "$type": "color",
+    "$value": "#8fc78b"
+  },
+  "success-light": {
+    "$type": "color",
+    "$value": "#58a854"
+  },
+  "success": {
+    "$type": "color",
+    "$value": "#008a07"
+  },
+  "success-dark": {
+    "$type": "color",
+    "$value": "#006a00"
+  },
+  "success-darker": {
+    "$type": "color",
+    "$value": "#004c00"
+  },
+  "success-darkest": {
+    "$type": "color",
+    "$value": "#002f00"
+  },
+  "warning-lightest": {
+    "$type": "color",
+    "$value": "#fdd2c0"
+  },
+  "warning-lighter": {
+    "$type": "color",
+    "$value": "#eea88a"
+  },
+  "warning-light": {
+    "$type": "color",
+    "$value": "#dd7d53"
+  },
+  "warning": {
+    "$type": "color",
+    "$value": "#c95000"
+  },
+  "warning-dark": {
+    "$type": "color",
+    "$value": "#9d3a00"
+  },
+  "warning-darker": {
+    "$type": "color",
+    "$value": "#722600"
+  },
+  "warning-darkest": {
+    "$type": "color",
+    "$value": "#4b1200"
+  },
+  "error-lightest": {
+    "$type": "color",
+    "$value": "#fdc6c6"
+  },
+  "error-lighter": {
+    "$type": "color",
+    "$value": "#ea9295"
+  },
+  "error-light": {
+    "$type": "color",
+    "$value": "#d35d65"
+  },
+  "error": {
+    "$type": "color",
+    "$value": "#b81237"
+  },
+  "error-dark": {
+    "$type": "color",
+    "$value": "#8f0327"
+  },
+  "error-darker": {
+    "$type": "color",
+    "$value": "#690018"
+  },
+  "error-darkest": {
+    "$type": "color",
+    "$value": "#44000a"
+  },
+  "info-lightest": {
+    "$type": "color",
+    "$value": "#acbbd5"
+  },
+  "info-lighter": {
+    "$type": "color",
+    "$value": "#8198c2"
+  },
+  "info-light": {
+    "$type": "color",
+    "$value": "#5775ae"
+  },
+  "info": {
+    "$type": "color",
+    "$value": "#2e5299"
+  },
+  "info-dark": {
+    "$type": "color",
+    "$value": "#203d77"
+  },
+  "info-darker": {
+    "$type": "color",
+    "$value": "#132956"
+  },
+  "info-darkest": {
+    "$type": "color",
+    "$value": "#071738"
+  }
+}

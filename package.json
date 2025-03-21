@@ -1,0 +1,27 @@
+{
+  "name": "@nswds/tokens",
+  "version": "0.0.0",
+  "description": "NSW Design System Application Kit Design Tokens",
+  "homepage": "https://github.com/digitalnsw/nswds-tokens#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitalnsw/nswds-tokens.git"
+  },
+  "scripts": {
+    "semantic-release": "semantic-release"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "author": "NSW Design System",
+  "type": "module",
+  "main": "index.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "semantic-release": "^24.2.3"
+  }
+}
