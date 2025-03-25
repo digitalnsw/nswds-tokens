@@ -1,29 +1,15 @@
 ## [2.1.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.1.0...v2.1.1) (2025-03-25)
 
-
 ### Bug Fixes
 
-* **workflow:** rename environment variable OCO_API_KEY to OCO_OPENAI_API_KEY for clarity and consistency ([6c162b1](https://github.com/digitalnsw/nswds-tokens/commit/6c162b1e0c7d0509321d064d3c18d2bf00428dd7))
-* **workflow:** rename OCO_API_KEY to OCO_OPENAI_API_KEY for clarity ([b980c42](https://github.com/digitalnsw/nswds-tokens/commit/b980c425dbc69e940b8e71fd60d142d2570c57ef))
+- **workflow:** rename environment variable OCO_API_KEY to OCO_OPENAI_API_KEY for clarity and consistency ([6c162b1](https://github.com/digitalnsw/nswds-tokens/commit/6c162b1e0c7d0509321d064d3c18d2bf00428dd7))
+- **workflow:** rename OCO_API_KEY to OCO_OPENAI_API_KEY for clarity ([b980c42](https://github.com/digitalnsw/nswds-tokens/commit/b980c425dbc69e940b8e71fd60d142d2570c57ef))
 
 # [2.1.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.0.0...v2.1.0) (2025-03-25)
 
-
 ### Features
 
-* **workflow:** add OpenCommit GitHub Action workflow for automated commit messages generation ([5ba4c6c](https://github.com/digitalnsw/nswds-tokens/commit/5ba4c6cf9e429f4776c6ade072adf1fe9818fd69))
-
-# 1.0.0 (2025-03-25)
-
-### Features
-
-- add GitHub Actions workflow for autofilling PR descriptions ([6304e82](https://github.com/digitalnsw/nswds-tokens/commit/6304e822759e8ebd60bc146f5871e7eaf31bcaee))
-- add GitHub Actions workflow for automated releases and semantic-release configuration ([0b600a1](https://github.com/digitalnsw/nswds-tokens/commit/0b600a1e1d398e17bfc1ebbd7837d77bb614d015))
-- **colors:** add new color definitions for various themes in hex, hsl, oklch, and rgb formats to enhance design consistency across the application ([74b4def](https://github.com/digitalnsw/nswds-tokens/commit/74b4defec3d7e552de453852b14de47d157c38e6))
-- **colors:** add new color definitions in hex, hsl, oklch, and rgb formats for global and masterbrand themes to enhance design consistency across the application ([a113b2d](https://github.com/digitalnsw/nswds-tokens/commit/a113b2daccbf67ecfc66c96fb77b3c772f17eb3a))
-- **release:** add GitHub Actions workflow for automated releases on main branch ([8ebd9f3](https://github.com/digitalnsw/nswds-tokens/commit/8ebd9f37003af25caaba62f97f455ce07bcc93fa))
-- **release:** add GitHub Actions workflow for automated releases on main branch ([0ad84c0](https://github.com/digitalnsw/nswds-tokens/commit/0ad84c0d3676006be55e519d425cbae499174dd3))
-- **tokens:** add new color tokens in various formats (json, js, css, scss, less) for improved design consistency across the application ([c8cf2d9](https://github.com/digitalnsw/nswds-tokens/commit/c8cf2d9e4eab87b9ec026e92a80067a28fbb7e30))
+- **workflow:** add OpenCommit GitHub Action workflow for automated commit messages generation ([5ba4c6c](https://github.com/digitalnsw/nswds-tokens/commit/5ba4c6cf9e429f4776c6ade072adf1fe9818fd69))
 
 # 2.0.0 (2025-03-24)
 
