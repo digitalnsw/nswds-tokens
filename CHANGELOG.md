@@ -1,3 +1,11 @@
+## [2.1.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.1.0...v2.1.1) (2025-03-25)
+
+
+### Bug Fixes
+
+* **workflow:** rename environment variable OCO_API_KEY to OCO_OPENAI_API_KEY for clarity and consistency ([6c162b1](https://github.com/digitalnsw/nswds-tokens/commit/6c162b1e0c7d0509321d064d3c18d2bf00428dd7))
+* **workflow:** rename OCO_API_KEY to OCO_OPENAI_API_KEY for clarity ([b980c42](https://github.com/digitalnsw/nswds-tokens/commit/b980c425dbc69e940b8e71fd60d142d2570c57ef))
+
 # [2.1.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.0.0...v2.1.0) (2025-03-25)
 
 
