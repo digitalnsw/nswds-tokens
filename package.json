@@ -8,34 +8,9 @@
     "url": "git+https://github.com/digitalnsw/nswds-tokens.git"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
-  },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      "@semantic-release/commit-analyzer",
-      "@semantic-release/release-notes-generator",
-      "@semantic-release/npm",
-      [
-        "@semantic-release/github",
-        {
-          "failComment": false,
-          "failTitle": false,
-          "labels": []
-        }
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json"
-          ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
+    "semantic-release": "semantic-release",
+    "lint": "npx eslint . ",
+    "format": "npx prettier --write ."
   },
   "author": "NSW Design System",
   "type": "module",
@@ -44,8 +19,18 @@
     "access": "public"
   },
   "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^12.0.1",
-    "semantic-release": "^24.2.3"
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.4",
+    "globals": "^16.0.0",
+    "prettier": "3.5.3",
+    "semantic-release": "^24.2.3",
+    "typescript-eslint": "^8.28.0"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.1"
   }
 }
