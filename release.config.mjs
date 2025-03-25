@@ -1,4 +1,4 @@
-module.exports = {
+const releaseConfig = {
   branches: ['main'], // or 'master', or your actual release branch
   plugins: [
     '@semantic-release/commit-analyzer',
@@ -19,4 +19,6 @@ module.exports = {
     '@semantic-release/github',
     '@semantic-release/npm'
   ],
-};
+}
+
+export default releaseConfig
