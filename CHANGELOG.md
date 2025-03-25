@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.0.0...v2.1.0) (2025-03-25)
+
+
+### Features
+
+* **workflow:** add OpenCommit GitHub Action workflow for automated commit messages generation ([5ba4c6c](https://github.com/digitalnsw/nswds-tokens/commit/5ba4c6cf9e429f4776c6ade072adf1fe9818fd69))
+
 # 1.0.0 (2025-03-25)
 
 ### Features
