@@ -1,5 +1,5 @@
 const releaseConfig = {
-  branches: ['main'], // or 'master', or your actual release branch
+  branches: ['main'],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
@@ -9,6 +9,7 @@ const releaseConfig = {
         changelogFile: 'CHANGELOG.md',
       },
     ],
+    '@semantic-release/npm',
     [
       '@semantic-release/git',
       {
@@ -17,7 +18,6 @@ const releaseConfig = {
       },
     ],
     '@semantic-release/github',
-    '@semantic-release/npm'
   ],
 }
 
