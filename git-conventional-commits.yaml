@@ -22,7 +22,7 @@ changelog:
     - perf
     - merge
   includeInvalidCommits: true
-  commitIgnoreRegexPattern: "^WIP "
+  commitIgnoreRegexPattern: '^WIP '
   headlines:
     feat: Features
     fix: Bug Fixes
