@@ -1,0 +1,71 @@
+name: AI PR Title Generator
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, edited]
+
+jobs:
+  generate-title:
+    runs-on: ubuntu-latest
+
+    permissions:
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Get commit messages
+        id: commits
+        run: |
+          COMMITS=$(git log origin/${{ github.base_ref }}..HEAD --pretty=format:"%s" | grep -E "^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)(\(.*\))?: " || echo "")
+          echo "commits<<EOF" >> $GITHUB_OUTPUT
+          echo "$COMMITS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Generate PR title with OpenAI
+        id: ai
+        if: ${{ steps.commits.outputs.commits != '' }}
+        run: |
+          COMMIT_LIST="${{ steps.commits.outputs.commits }}"
+          echo "Commit messages:"
+          echo "$COMMIT_LIST"
+
+          JSON_PAYLOAD=$(jq -n \
+            --arg commits "$COMMIT_LIST" \
+            '{
+              model: "gpt-4",
+              messages: [
+                {
+                  role: "system",
+                  content: "You are an assistant that writes clean, informative pull request titles using the Conventional Commits specification (https://www.conventionalcommits.org/en/v1.0.0/)."
+                },
+                {
+                  role: "user",
+                  content: "Here are the commit messages:\n\n\($commits)\n\nWrite a concise pull request title that follows Conventional Commits format. Use the most appropriate type (e.g., feat, fix, chore, etc). Return only the title, nothing else."
+                }
+              ],
+              temperature: 0.4
+            }')
+
+
+          RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
+            -H "Authorization: Bearer ${{ secrets.OPENAI_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "$JSON_PAYLOAD")
+
+          TITLE=$(echo "$RESPONSE" | jq -r '.choices[0].message.content' | head -n 1)
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+
+      - name: Comment suggested title on PR
+        if: ${{ steps.ai.outputs.title != '' }}
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `${{ steps.ai.outputs.title }}`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `🧠 **Suggested PR Title (via OpenAI):**\n\n> ${title}`
+            });
