@@ -55,7 +55,7 @@ echo ""
 # Optionally prompt to confirm and create PR
 read -p "📝 Use this title to create the PR? [y/N]: " confirm
 if [[ $confirm =~ ^[Yy]$ ]]; then
-  gh pr create --title "$title" --body "Auto-generated title using OpenAI" --head "$branch"
+  gh pr create --title "$title" --body "" --head "$branch"
 else
   echo "🛑 PR not created. You can still copy and use the title manually."
 fi
