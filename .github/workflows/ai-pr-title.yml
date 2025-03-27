@@ -1,0 +1,115 @@
+name: AI PR Title Generator
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, edited]
+
+jobs:
+  generate-title:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read  # Required to fetch commits
+      pull-requests: write  # Required to update PR title
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history for commit diffing
+
+      - name: Debug Git Remote
+        run: |
+          echo "🔍 Verifying Git Remote"
+          git remote -v
+          echo "🔍 Listing refs from origin"
+          git ls-remote origin
+
+      - name: Get commit messages
+        id: commits
+        run: |
+          COMMITS=$(git log origin/${{ github.base_ref }}..HEAD --pretty=format:"%s" | grep -E "^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)(\(.*\))?: " || echo "")
+          echo "commits<<EOF" >> $GITHUB_OUTPUT
+          echo "$COMMITS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Get Current PR Title
+        id: get-pr-title
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+            console.log(`Current PR title: "${pr.title}"`);
+            core.setOutput("pr_title", pr.title);
+
+      - name: Generate PR title with OpenAI
+        id: ai
+        if: ${{ steps.commits.outputs.commits != '' }}
+        run: |
+          COMMIT_LIST="${{ steps.commits.outputs.commits }}"
+          echo "📝 Commit messages detected:"
+          echo "$COMMIT_LIST"
+
+          JSON_PAYLOAD=$(jq -n \
+            --arg commits "$COMMIT_LIST" \
+            '{
+              model: "gpt-4",
+              messages: [
+                {
+                  role: "system",
+                  content: "You are an AI assistant that generates PR titles following the Conventional Commits specification (https://www.conventionalcommits.org/en/v1.0.0/)."
+                },
+                {
+                  role: "user",
+                  content: "Here are the commit messages:\n\n\($commits)\n\nGenerate a clear, informative PR title following the Conventional Commits format. Pick the most appropriate type (feat, fix, chore, etc.), include a scope if relevant, and summarize concisely. Return only the title, nothing else."
+                }
+              ],
+              temperature: 0.4
+            }')
+
+          RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
+            -H "Authorization: Bearer ${{ secrets.OPENAI_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d "$JSON_PAYLOAD")
+
+          TITLE=$(echo "$RESPONSE" | jq -r '.choices[0].message.content' | head -n 1)
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+
+      - name: Validate PR Title
+        id: validate-title
+        run: |
+          PR_TITLE="${{ steps.get-pr-title.outputs.pr_title }}"
+          AI_TITLE="${{ steps.ai.outputs.title }}"
+          
+          # Regex for Conventional Commits format
+          CONVENTIONAL_COMMIT_REGEX="^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)(\(.*\))?: .+"
+
+          echo "🔍 Current PR Title: $PR_TITLE"
+          echo "🧠 Suggested AI PR Title: $AI_TITLE"
+
+          if [[ -z "$PR_TITLE" || ! "$PR_TITLE" =~ $CONVENTIONAL_COMMIT_REGEX ]]; then
+            echo "❌ PR Title is missing or not in Conventional Commits format."
+            echo "✅ Using AI-generated title: $AI_TITLE"
+            echo "update_needed=true" >> $GITHUB_ENV
+          else
+            echo "✅ PR Title is already valid."
+            echo "update_needed=false" >> $GITHUB_ENV
+          fi
+
+      - name: Update PR Title if Invalid or Empty
+        if: env.update_needed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `${{ steps.ai.outputs.title }}`;
+            await github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              title: title
+            });
+            console.log(`✅ PR title updated to: "${title}"`);
