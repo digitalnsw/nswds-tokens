@@ -1,3 +1,11 @@
+# [2.2.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.1.1...v2.2.0) (2025-03-27)
+
+
+### Features
+
+* **github:** add branch name validation workflow to enforce naming conventions ([dafc071](https://github.com/digitalnsw/nswds-tokens/commit/dafc0717ffdf394ca404e4d5a15831d76d241329))
+* **workflows:** add AI PR title generator workflow to automate PR title suggestions based on commit messages ([f717d26](https://github.com/digitalnsw/nswds-tokens/commit/f717d26f939b5dbdc3e8ed19f751f02224e8ab49))
+
 ## [2.1.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.1.0...v2.1.1) (2025-03-25)
 
 ### Bug Fixes
