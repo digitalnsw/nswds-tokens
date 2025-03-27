@@ -1,0 +1,21 @@
+# .github/workflows/validate-branch-name.yml
+name: Validate Branch Name
+
+on:
+  pull_request:
+    types: [opened, edited, reopened]
+
+jobs:
+  check-branch-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check branch name
+        run: |
+          BRANCH_NAME="${{ github.head_ref }}"
+          echo "Branch name: $BRANCH_NAME"
+          if [[ ! "$BRANCH_NAME" =~ ^(feature|bugfix|hotfix|release|docs|build|test|refactor|chore)(/(issue|ticket)/[A-Za-z0-9_-]+)?/[a-z0-9-]+$ ]]; then
+            echo "❌ Branch name '$BRANCH_NAME' does not follow naming convention."
+            exit 1
+          fi
+          echo "✅ Branch name '$BRANCH_NAME' follows naming convention."
+          
