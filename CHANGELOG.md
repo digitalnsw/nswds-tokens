@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.2.0...v2.2.1) (2025-03-27)
+
+
+### Bug Fixes
+
+* **pull-request.sh:** remove auto-generated body text for PR creation to allow for custom descriptions ([f5178e5](https://github.com/digitalnsw/nswds-tokens/commit/f5178e5168602d13fad0287110d8664755e49bc0))
+
 # [2.2.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.1.1...v2.2.0) (2025-03-27)
 
 
