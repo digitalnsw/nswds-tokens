@@ -8,12 +8,14 @@
     "url": "git+https://github.com/digitalnsw/nswds-tokens.git"
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "semantic-release": "semantic-release",
     "lint": "npx eslint . ",
     "format": "npx prettier --write .",
+    "copy-styles": "cp -r src/{css,figma,js,json,less,scss,tailwind,ts} dist/",
     "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean"
   },
   "tsup": {
@@ -34,7 +36,8 @@
       "*.css",
       "*.scss",
       "*.less"
-    ]
+    ],
+    "onSuccess": "npm run copy-styles"
   },
   "author": "NSW Design System",
   "type": "commonjs",
@@ -46,7 +49,10 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
-    }
+    },
+    "./src/css/*": "./src/css/*",
+    "./src/scss/*": "./src/scss/*",
+    "./src/less/*": "./src/less/*"
   },
   "publishConfig": {
     "access": "public",
