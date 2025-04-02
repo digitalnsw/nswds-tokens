@@ -1,5 +1,3 @@
-'use strict';
-
 var __defProp = Object.defineProperty;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __commonJS = (cb, mod) => function __require() {
@@ -10703,16 +10701,6 @@ var brand = {
   placeholder: "./brand/placeholder.svg"
 };
 
-exports.brand = brand;
-exports.colorTokens = colorTokens;
-exports.cssTokens = cssTokens;
-exports.icons = icons;
-exports.jsTokens = jsTokens;
-exports.jsonTokens = jsonTokens;
-exports.lessTokens = lessTokens;
-exports.scssTokens = scssTokens;
-exports.tailwindTokens = tailwindTokens;
-exports.tokens = tokens;
-exports.tsTokens = tsTokens;
+export { brand, colorTokens, cssTokens, icons, jsTokens, jsonTokens, lessTokens, scssTokens, tailwindTokens, tokens, tsTokens };
 //# sourceMappingURL=index.js.map
 //# sourceMappingURL=index.js.map

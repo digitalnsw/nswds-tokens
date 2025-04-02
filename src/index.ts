@@ -70,14 +70,14 @@ import * as masterbrandTailwindOklch from './tailwind/colors/themes/masterbrand/
 import * as masterbrandTailwindRgb from './tailwind/colors/themes/masterbrand/rgb.css';
 
 // TypeScript Imports
-import * as globalTsHex from './ts/colors/global/hex';
-import * as globalTsHsl from './ts/colors/global/hsl';
-import * as globalTsOklch from './ts/colors/global/oklch';
-import * as globalTsRgb from './ts/colors/global/rgb';
-import * as masterbrandTsHex from './ts/colors/themes/masterbrand/hex';
-import * as masterbrandTsHsl from './ts/colors/themes/masterbrand/hsl';
-import * as masterbrandTsOklch from './ts/colors/themes/masterbrand/oklch';
-import * as masterbrandTsRgb from './ts/colors/themes/masterbrand/rgb';
+import * as globalTsHex from './ts/colors/global/hex.js';
+import * as globalTsHsl from './ts/colors/global/hsl.js';
+import * as globalTsOklch from './ts/colors/global/oklch.js';
+import * as globalTsRgb from './ts/colors/global/rgb.js';
+import * as masterbrandTsHex from './ts/colors/themes/masterbrand/hex.js';
+import * as masterbrandTsHsl from './ts/colors/themes/masterbrand/hsl.js';
+import * as masterbrandTsOklch from './ts/colors/themes/masterbrand/oklch.js';
+import * as masterbrandTsRgb from './ts/colors/themes/masterbrand/rgb.js';
 
 export const tokens = {
   colors: {
