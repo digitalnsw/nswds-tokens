@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read  # Required to fetch commits
-      pull-requests: write  # Required to update PR title
+      contents: read # Required to fetch commits
+      pull-requests: write # Required to update PR title
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Fetch full history for commit diffing
+          fetch-depth: 0 # Fetch full history for commit diffing
 
       - name: Debug Git Remote
         run: |
@@ -84,7 +84,7 @@ jobs:
         run: |
           PR_TITLE="${{ steps.get-pr-title.outputs.pr_title }}"
           AI_TITLE="${{ steps.ai.outputs.title }}"
-          
+
           # Regex for Conventional Commits format
           CONVENTIONAL_COMMIT_REGEX="^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)(\(.*\))?: .+"
 
