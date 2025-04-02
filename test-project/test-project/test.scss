@@ -1,0 +1,3 @@
+// Test SCSS imports using proper node_modules path
+@use "../node_modules/@nswds/tokens/src/scss/colors/global/hex" as *;
+@use "../node_modules/@nswds/tokens/src/scss/colors/global/rgb" as *;
