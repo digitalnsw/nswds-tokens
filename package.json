@@ -50,7 +50,21 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "./css/colors/global/*": "./dist/css/colors/global/*",
+    "./css/colors/themes/masterbrand/*": "./dist/css/colors/themes/masterbrand/*",
+    "./tailwind/colors/global/*": "./dist/tailwind/colors/global/*",
+    "./tailwind/colors/themes/masterbrand/*": "./dist/tailwind/colors/themes/masterbrand/*",
+    "./scss/colors/global/*": "./dist/scss/colors/global/*",
+    "./scss/colors/themes/masterbrand/*": "./dist/scss/colors/themes/masterbrand/*",
+    "./less/colors/global/*": "./dist/less/colors/global/*",
+    "./less/colors/themes/masterbrand/*": "./dist/less/colors/themes/masterbrand/*",
+    "./js/colors/global/*": "./dist/js/colors/global/*",
+    "./js/colors/themes/masterbrand/*": "./dist/js/colors/themes/masterbrand/*",
+    "./json/colors/global/*": "./dist/json/colors/global/*",
+    "./json/colors/themes/masterbrand/*": "./dist/json/colors/themes/masterbrand/*",
+    "./ts/colors/global/*": "./dist/ts/colors/global/*",
+    "./ts/colors/themes/masterbrand/*": "./dist/ts/colors/themes/masterbrand/*"
   },
   "publishConfig": {
     "access": "public",
