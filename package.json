@@ -1,33 +1,76 @@
 {
   "name": "@nswds/tokens",
   "version": "2.2.1",
-  "description": "NSW Design System Application Kit Design Tokens",
+  "description": "NSW Application Design System Design Tokens",
   "homepage": "https://github.com/digitalnsw/nswds-tokens#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digitalnsw/nswds-tokens.git"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "semantic-release": "semantic-release",
     "lint": "npx eslint . ",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true,
+    "loader": {
+      ".css": "text",
+      ".scss": "text",
+      ".less": "text",
+      ".js": "js",
+      ".ts": "ts"
+    },
+    "external": [
+      "*.css",
+      "*.scss",
+      "*.less"
+    ]
   },
   "author": "NSW Design System",
-  "type": "module",
-  "main": "index.ts",
+  "type": "commonjs",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@types/node": "^22.13.17",
+    "css-loader": "^7.1.2",
     "eslint": "^9.23.0",
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.4",
     "globals": "^16.0.0",
+    "less": "^4.2.2",
+    "less-loader": "^12.2.0",
     "prettier": "3.5.3",
+    "sass": "^1.86.1",
+    "sass-loader": "^16.0.5",
     "semantic-release": "^24.2.3",
+    "style-loader": "^4.0.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.8.2",
     "typescript-eslint": "^8.28.0"
   },
   "dependencies": {
