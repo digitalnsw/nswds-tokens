@@ -2,11 +2,7 @@
   "primary": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.29,
-        0.1173,
-        259.84
-      ],
+      "channels": [0.29, 0.1173, 259.84],
       "alpha": 1
     },
     "type": "color"
@@ -14,11 +10,7 @@
   "primary-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.503825,
-        0.201675,
-        260.53
-      ],
+      "channels": [0.503825, 0.201675, 260.53],
       "alpha": 1
     },
     "type": "color"
@@ -26,11 +18,7 @@
   "primary-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.43255,
-        0.17355,
-        260.29999999999995
-      ],
+      "channels": [0.43255, 0.17355, 260.29999999999995],
       "alpha": 1
     },
     "type": "color"
@@ -38,11 +26,7 @@
   "primary-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.36127499999999996,
-        0.145425,
-        260.07
-      ],
+      "channels": [0.36127499999999996, 0.145425, 260.07],
       "alpha": 1
     },
     "type": "color"
@@ -50,11 +34,7 @@
   "primary-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.23925,
-        0.099705,
-        259.84
-      ],
+      "channels": [0.23925, 0.099705, 259.84],
       "alpha": 1
     },
     "type": "color"
@@ -62,11 +42,7 @@
   "primary-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.1885,
-        0.08211,
-        259.84
-      ],
+      "channels": [0.1885, 0.08211, 259.84],
       "alpha": 1
     },
     "type": "color"
@@ -74,11 +50,7 @@
   "primary-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.13774999999999998,
-        0.064515,
-        259.84
-      ],
+      "channels": [0.13774999999999998, 0.064515, 259.84],
       "alpha": 1
     },
     "type": "color"
@@ -86,11 +58,7 @@
   "secondary": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.9267,
-        0.0417,
-        227.89
-      ],
+      "channels": [0.9267, 0.0417, 227.89],
       "alpha": 1
     },
     "type": "color"
@@ -98,11 +66,7 @@
   "secondary-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.981675,
-        0.013552500000000002,
-        227.89
-      ],
+      "channels": [0.981675, 0.013552500000000002, 227.89],
       "alpha": 1
     },
     "type": "color"
@@ -110,11 +74,7 @@
   "secondary-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.9633499999999999,
-        0.022935,
-        227.89
-      ],
+      "channels": [0.9633499999999999, 0.022935, 227.89],
       "alpha": 1
     },
     "type": "color"
@@ -122,11 +82,7 @@
   "secondary-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.945025,
-        0.0323175,
-        227.89
-      ],
+      "channels": [0.945025, 0.0323175, 227.89],
       "alpha": 1
     },
     "type": "color"
@@ -134,11 +90,7 @@
   "secondary-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.9110499999999999,
-        0.0543,
-        226.8175
-      ],
+      "channels": [0.9110499999999999, 0.0543, 226.8175],
       "alpha": 1
     },
     "type": "color"
@@ -146,11 +98,7 @@
   "secondary-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.8954,
-        0.0669,
-        225.745
-      ],
+      "channels": [0.8954, 0.0669, 225.745],
       "alpha": 1
     },
     "type": "color"
@@ -158,11 +106,7 @@
   "secondary-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.87975,
-        0.0795,
-        224.67249999999999
-      ],
+      "channels": [0.87975, 0.0795, 224.67249999999999],
       "alpha": 1
     },
     "type": "color"
@@ -170,11 +114,7 @@
   "tertiary": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.5751,
-        0.2298,
-        260.76
-      ],
+      "channels": [0.5751, 0.2298, 260.76],
       "alpha": 1
     },
     "type": "color"
@@ -182,11 +122,7 @@
   "tertiary-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.7918499999999999,
-        0.126525,
-        232.89
-      ],
+      "channels": [0.7918499999999999, 0.126525, 232.89],
       "alpha": 1
     },
     "type": "color"
@@ -194,11 +130,7 @@
   "tertiary-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.7196,
-        0.16095,
-        242.18
-      ],
+      "channels": [0.7196, 0.16095, 242.18],
       "alpha": 1
     },
     "type": "color"
@@ -206,11 +138,7 @@
   "tertiary-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.64735,
-        0.19537500000000002,
-        251.47
-      ],
+      "channels": [0.64735, 0.19537500000000002, 251.47],
       "alpha": 1
     },
     "type": "color"
@@ -218,11 +146,7 @@
   "tertiary-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.503825,
-        0.201675,
-        260.53
-      ],
+      "channels": [0.503825, 0.201675, 260.53],
       "alpha": 1
     },
     "type": "color"
@@ -230,11 +154,7 @@
   "tertiary-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.43255,
-        0.17355,
-        260.29999999999995
-      ],
+      "channels": [0.43255, 0.17355, 260.29999999999995],
       "alpha": 1
     },
     "type": "color"
@@ -242,11 +162,7 @@
   "tertiary-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.36127499999999996,
-        0.145425,
-        260.07
-      ],
+      "channels": [0.36127499999999996, 0.145425, 260.07],
       "alpha": 1
     },
     "type": "color"
@@ -254,11 +170,7 @@
   "accent": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.562,
-        0.2175,
-        20.33
-      ],
+      "channels": [0.562, 0.2175, 20.33],
       "alpha": 1
     },
     "type": "color"
@@ -266,11 +178,7 @@
   "accent-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.778675,
-        0.11662499999999999,
-        13.01
-      ],
+      "channels": [0.778675, 0.11662499999999999, 13.01],
       "alpha": 1
     },
     "type": "color"
@@ -278,11 +186,7 @@
   "accent-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.70645,
-        0.15025,
-        15.45
-      ],
+      "channels": [0.70645, 0.15025, 15.45],
       "alpha": 1
     },
     "type": "color"
@@ -290,11 +194,7 @@
   "accent-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.634225,
-        0.183875,
-        17.89
-      ],
+      "channels": [0.634225, 0.183875, 17.89],
       "alpha": 1
     },
     "type": "color"
@@ -302,11 +202,7 @@
   "accent-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.50075,
-        0.19485,
-        19.529999999999998
-      ],
+      "channels": [0.50075, 0.19485, 19.529999999999998],
       "alpha": 1
     },
     "type": "color"
@@ -314,11 +210,7 @@
   "accent-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.4395,
-        0.17220000000000002,
-        18.729999999999997
-      ],
+      "channels": [0.4395, 0.17220000000000002, 18.729999999999997],
       "alpha": 1
     },
     "type": "color"
@@ -326,11 +218,7 @@
   "accent-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.37825000000000003,
-        0.14955000000000002,
-        17.93
-      ],
+      "channels": [0.37825000000000003, 0.14955000000000002, 17.93],
       "alpha": 1
     },
     "type": "color"
@@ -338,11 +226,7 @@
   "success": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.549,
-        0.1849,
-        142.8
-      ],
+      "channels": [0.549, 0.1849, 142.8],
       "alpha": 1
     },
     "type": "color"
@@ -350,11 +234,7 @@
   "success-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.88725,
-        0.06009250000000001,
-        142.8
-      ],
+      "channels": [0.88725, 0.06009250000000001, 142.8],
       "alpha": 1
     },
     "type": "color"
@@ -362,11 +242,7 @@
   "success-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.7745,
-        0.10169500000000001,
-        142.8
-      ],
+      "channels": [0.7745, 0.10169500000000001, 142.8],
       "alpha": 1
     },
     "type": "color"
@@ -374,11 +250,7 @@
   "success-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.6617500000000001,
-        0.14329750000000002,
-        142.8
-      ],
+      "channels": [0.6617500000000001, 0.14329750000000002, 142.8],
       "alpha": 1
     },
     "type": "color"
@@ -386,11 +258,7 @@
   "success-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.452925,
-        0.157165,
-        142.8
-      ],
+      "channels": [0.452925, 0.157165, 142.8],
       "alpha": 1
     },
     "type": "color"
@@ -398,11 +266,7 @@
   "success-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.35685,
-        0.12943000000000002,
-        142.8
-      ],
+      "channels": [0.35685, 0.12943000000000002, 142.8],
       "alpha": 1
     },
     "type": "color"
@@ -410,11 +274,7 @@
   "success-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.26077500000000003,
-        0.10169500000000001,
-        142.8
-      ],
+      "channels": [0.26077500000000003, 0.10169500000000001, 142.8],
       "alpha": 1
     },
     "type": "color"
@@ -422,11 +282,7 @@
   "warning": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.5833,
-        0.169705,
-        43.9973
-      ],
+      "channels": [0.5833, 0.169705, 43.9973],
       "alpha": 1
     },
     "type": "color"
@@ -434,11 +290,7 @@
   "warning-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.895825,
-        0.055154125,
-        43.9973
-      ],
+      "channels": [0.895825, 0.055154125, 43.9973],
       "alpha": 1
     },
     "type": "color"
@@ -446,11 +298,7 @@
   "warning-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.79165,
-        0.09333775,
-        43.9973
-      ],
+      "channels": [0.79165, 0.09333775, 43.9973],
       "alpha": 1
     },
     "type": "color"
@@ -458,11 +306,7 @@
   "warning-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.6874750000000001,
-        0.131521375,
-        43.9973
-      ],
+      "channels": [0.6874750000000001, 0.131521375, 43.9973],
       "alpha": 1
     },
     "type": "color"
@@ -470,11 +314,7 @@
   "warning-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.4812225,
-        0.14424925,
-        43.9973
-      ],
+      "channels": [0.4812225, 0.14424925, 43.9973],
       "alpha": 1
     },
     "type": "color"
@@ -482,11 +322,7 @@
   "warning-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.37914500000000007,
-        0.1187935,
-        43.9973
-      ],
+      "channels": [0.37914500000000007, 0.1187935, 43.9973],
       "alpha": 1
     },
     "type": "color"
@@ -494,11 +330,7 @@
   "warning-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.2770675,
-        0.09333775,
-        43.9973
-      ],
+      "channels": [0.2770675, 0.09333775, 43.9973],
       "alpha": 1
     },
     "type": "color"
@@ -506,11 +338,7 @@
   "error": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.502,
-        0.1927,
-        18.08
-      ],
+      "channels": [0.502, 0.1927, 18.08],
       "alpha": 1
     },
     "type": "color"
@@ -518,11 +346,7 @@
   "error-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.8755,
-        0.0626275,
-        18.08
-      ],
+      "channels": [0.8755, 0.0626275, 18.08],
       "alpha": 1
     },
     "type": "color"
@@ -530,11 +354,7 @@
   "error-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.751,
-        0.10598500000000001,
-        18.08
-      ],
+      "channels": [0.751, 0.10598500000000001, 18.08],
       "alpha": 1
     },
     "type": "color"
@@ -542,11 +362,7 @@
   "error-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.6265000000000001,
-        0.14934250000000002,
-        18.08
-      ],
+      "channels": [0.6265000000000001, 0.14934250000000002, 18.08],
       "alpha": 1
     },
     "type": "color"
@@ -554,11 +370,7 @@
   "error-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.41415,
-        0.16379500000000002,
-        18.08
-      ],
+      "channels": [0.41415, 0.16379500000000002, 18.08],
       "alpha": 1
     },
     "type": "color"
@@ -566,11 +378,7 @@
   "error-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.32630000000000003,
-        0.13489,
-        18.08
-      ],
+      "channels": [0.32630000000000003, 0.13489, 18.08],
       "alpha": 1
     },
     "type": "color"
@@ -578,11 +386,7 @@
   "error-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.23845,
-        0.10598500000000001,
-        18.08
-      ],
+      "channels": [0.23845, 0.10598500000000001, 18.08],
       "alpha": 1
     },
     "type": "color"
@@ -590,11 +394,7 @@
   "info": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.4506,
-        0.1233,
-        262.35
-      ],
+      "channels": [0.4506, 0.1233, 262.35],
       "alpha": 1
     },
     "type": "color"
@@ -602,11 +402,7 @@
   "info-lightest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.78855,
-        0.0400725,
-        262.35
-      ],
+      "channels": [0.78855, 0.0400725, 262.35],
       "alpha": 1
     },
     "type": "color"
@@ -614,11 +410,7 @@
   "info-lighter": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.6759,
-        0.067815,
-        262.35
-      ],
+      "channels": [0.6759, 0.067815, 262.35],
       "alpha": 1
     },
     "type": "color"
@@ -626,11 +418,7 @@
   "info-light": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.56325,
-        0.0955575,
-        262.35
-      ],
+      "channels": [0.56325, 0.0955575, 262.35],
       "alpha": 1
     },
     "type": "color"
@@ -638,11 +426,7 @@
   "info-dark": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.371745,
-        0.10480500000000001,
-        262.35
-      ],
+      "channels": [0.371745, 0.10480500000000001, 262.35],
       "alpha": 1
     },
     "type": "color"
@@ -650,11 +434,7 @@
   "info-darker": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.29289,
-        0.08631,
-        262.35
-      ],
+      "channels": [0.29289, 0.08631, 262.35],
       "alpha": 1
     },
     "type": "color"
@@ -662,11 +442,7 @@
   "info-darkest": {
     "value": {
       "colorSpace": "oklch",
-      "channels": [
-        0.214035,
-        0.067815,
-        262.35
-      ],
+      "channels": [0.214035, 0.067815, 262.35],
       "alpha": 1
     },
     "type": "color"

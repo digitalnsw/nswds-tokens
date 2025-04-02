@@ -16,7 +16,8 @@
     "lint": "npx eslint . ",
     "format": "npx prettier --write .",
     "copy-styles": "cp -r src/{css,figma,js,json,less,scss,tailwind,ts} dist/",
-    "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean"
+    "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
+    "test:tokens": "tsx test/token-imports/esm-typescript.ts"
   },
   "tsup": {
     "entry": [
@@ -40,19 +41,16 @@
     "onSuccess": "npm run copy-styles"
   },
   "author": "NSW Design System",
-  "type": "commonjs",
+  "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
+      "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    },
-    "./src/css/*": "./src/css/*",
-    "./src/scss/*": "./src/scss/*",
-    "./src/less/*": "./src/less/*"
+    }
   },
   "publishConfig": {
     "access": "public",
@@ -76,6 +74,7 @@
     "semantic-release": "^24.2.3",
     "style-loader": "^4.0.0",
     "tsup": "^8.0.2",
+    "tsx": "^4.0.0",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.28.0"
   },

@@ -1,31 +1,27 @@
 # [2.4.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.3.0...v2.4.0) (2025-04-02)
 
-
 ### Features
 
-* Update Project Description, Add Build Script, Enhance Color Management and Token Exports ([#9](https://github.com/digitalnsw/nswds-tokens/issues/9)) ([06f6e2d](https://github.com/digitalnsw/nswds-tokens/commit/06f6e2d1b8f0d7f70a549d43f2d11446be25b6cb)), closes [#8](https://github.com/digitalnsw/nswds-tokens/issues/8)
+- Update Project Description, Add Build Script, Enhance Color Management and Token Exports ([#9](https://github.com/digitalnsw/nswds-tokens/issues/9)) ([06f6e2d](https://github.com/digitalnsw/nswds-tokens/commit/06f6e2d1b8f0d7f70a549d43f2d11446be25b6cb)), closes [#8](https://github.com/digitalnsw/nswds-tokens/issues/8)
 
 # [2.3.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.2.1...v2.3.0) (2025-04-02)
 
-
 ### Features
 
-* Update Project Description, Add Build Script, Global Color Styles, JavaScript Color Exports, Token Exports, and New Color Files ([#8](https://github.com/digitalnsw/nswds-tokens/issues/8)) ([38a0c8b](https://github.com/digitalnsw/nswds-tokens/commit/38a0c8b0d7c3c5612615a07037adc9f415322a69))
+- Update Project Description, Add Build Script, Global Color Styles, JavaScript Color Exports, Token Exports, and New Color Files ([#8](https://github.com/digitalnsw/nswds-tokens/issues/8)) ([38a0c8b](https://github.com/digitalnsw/nswds-tokens/commit/38a0c8b0d7c3c5612615a07037adc9f415322a69))
 
 ## [2.2.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.2.0...v2.2.1) (2025-03-27)
 
-
 ### Bug Fixes
 
-* **pull-request.sh:** remove auto-generated body text for PR creation to allow for custom descriptions ([f5178e5](https://github.com/digitalnsw/nswds-tokens/commit/f5178e5168602d13fad0287110d8664755e49bc0))
+- **pull-request.sh:** remove auto-generated body text for PR creation to allow for custom descriptions ([f5178e5](https://github.com/digitalnsw/nswds-tokens/commit/f5178e5168602d13fad0287110d8664755e49bc0))
 
 # [2.2.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.1.1...v2.2.0) (2025-03-27)
 
-
 ### Features
 
-* **github:** add branch name validation workflow to enforce naming conventions ([dafc071](https://github.com/digitalnsw/nswds-tokens/commit/dafc0717ffdf394ca404e4d5a15831d76d241329))
-* **workflows:** add AI PR title generator workflow to automate PR title suggestions based on commit messages ([f717d26](https://github.com/digitalnsw/nswds-tokens/commit/f717d26f939b5dbdc3e8ed19f751f02224e8ab49))
+- **github:** add branch name validation workflow to enforce naming conventions ([dafc071](https://github.com/digitalnsw/nswds-tokens/commit/dafc0717ffdf394ca404e4d5a15831d76d241329))
+- **workflows:** add AI PR title generator workflow to automate PR title suggestions based on commit messages ([f717d26](https://github.com/digitalnsw/nswds-tokens/commit/f717d26f939b5dbdc3e8ed19f751f02224e8ab49))
 
 ## [2.1.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.1.0...v2.1.1) (2025-03-25)
 
