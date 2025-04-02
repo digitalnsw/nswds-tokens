@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.4.0...v2.5.0) (2025-04-02)
+
+
+### Features
+
+* **package.json:** add new paths for color assets in various formats to improve asset accessibility and organization ([#12](https://github.com/digitalnsw/nswds-tokens/issues/12)) ([f32c9af](https://github.com/digitalnsw/nswds-tokens/commit/f32c9af56a393f533b72fbfcf59714a0fea7f385))
+
 # [2.4.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.3.0...v2.4.0) (2025-04-02)
 
 ### Features
