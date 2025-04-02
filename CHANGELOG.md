@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.2.1...v2.3.0) (2025-04-02)
+
+
+### Features
+
+* Update Project Description, Add Build Script, Global Color Styles, JavaScript Color Exports, Token Exports, and New Color Files ([#8](https://github.com/digitalnsw/nswds-tokens/issues/8)) ([38a0c8b](https://github.com/digitalnsw/nswds-tokens/commit/38a0c8b0d7c3c5612615a07037adc9f415322a69))
+
 ## [2.2.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.2.0...v2.2.1) (2025-03-27)
 
 
