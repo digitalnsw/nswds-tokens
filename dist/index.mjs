@@ -5679,123 +5679,179 @@ var require_hsl2 = __commonJS({
       primary: {
         value: {
           colorSpace: "hsl",
-          channels: [217.2, 100, 19.61],
+          channels: [
+            217.2,
+            100,
+            19.61
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [216.77, 89.39, 43.99],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "hsl",
-              channels: [216.29, 94.12, 35.01],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "hsl",
-              channels: [216.37, 97.67, 26.93],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "hsl",
-              channels: [218.95, 100, 14.93],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "hsl",
-              channels: [222.31, 100, 10.59],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [228.65, 100, 6.6],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "primary-lightest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            216.77,
+            89.39,
+            43.99
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-lighter": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            216.29,
+            94.12,
+            35.01
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-light": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            216.37,
+            97.67,
+            26.93
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-dark": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            218.95,
+            100,
+            14.93
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-darker": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            222.31,
+            100,
+            10.59
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-darkest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            228.65,
+            100,
+            6.6
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       secondary: {
         value: {
           colorSpace: "hsl",
-          channels: [199.2, 92.7, 89.41],
+          channels: [
+            199.2,
+            92.7,
+            89.41
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [199.45, 100, 97.34],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "hsl",
-              channels: [199.38, 100, 94.73],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "hsl",
-              channels: [199.29, 95.95, 92.09],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "hsl",
-              channels: [198.5, 96.92, 86.75],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "hsl",
-              channels: [197.77, 99.01, 83.9],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [197, 99.86, 80.82],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
       },
-      tertiary: {
+      "secondary-lightest": {
         value: {
           colorSpace: "hsl",
-          channels: [217.35, 98.29, 53.54],
+          channels: [
+            199.45,
+            100,
+            97.34
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-lighter": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            199.38,
+            100,
+            94.73
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-light": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            199.29,
+            95.95,
+            92.09
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-dark": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            198.5,
+            96.92,
+            86.75
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-darker": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            197.77,
+            99.01,
+            83.9
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-darkest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            197,
+            99.86,
+            80.82
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-tertiary": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            217.35,
+            98.29,
+            53.54
+          ],
           alpha: 1
         },
         type: "color",
@@ -5803,7 +5859,11 @@ var require_hsl2 = __commonJS({
           lightest: {
             value: {
               colorSpace: "hsl",
-              channels: [199.75, 99.81, 67.58],
+              channels: [
+                199.75,
+                99.81,
+                67.58
+              ],
               alpha: 1
             },
             type: "color"
@@ -5811,7 +5871,11 @@ var require_hsl2 = __commonJS({
           lighter: {
             value: {
               colorSpace: "hsl",
-              channels: [202.53, 100, 57.56],
+              channels: [
+                202.53,
+                100,
+                57.56
+              ],
               alpha: 1
             },
             type: "color"
@@ -5819,7 +5883,11 @@ var require_hsl2 = __commonJS({
           light: {
             value: {
               colorSpace: "hsl",
-              channels: [204.78, 100, 47],
+              channels: [
+                204.78,
+                100,
+                47
+              ],
               alpha: 1
             },
             type: "color"
@@ -5827,7 +5895,11 @@ var require_hsl2 = __commonJS({
           dark: {
             value: {
               colorSpace: "hsl",
-              channels: [216.77, 89.39, 43.99],
+              channels: [
+                216.77,
+                89.39,
+                43.99
+              ],
               alpha: 1
             },
             type: "color"
@@ -5835,7 +5907,11 @@ var require_hsl2 = __commonJS({
           darker: {
             value: {
               colorSpace: "hsl",
-              channels: [216.29, 94.12, 35.01],
+              channels: [
+                216.29,
+                94.12,
+                35.01
+              ],
               alpha: 1
             },
             type: "color"
@@ -5843,7 +5919,11 @@ var require_hsl2 = __commonJS({
           darkest: {
             value: {
               colorSpace: "hsl",
-              channels: [216.37, 97.67, 26.93],
+              channels: [
+                216.37,
+                97.67,
+                26.93
+              ],
               alpha: 1
             },
             type: "color"
@@ -5853,292 +5933,422 @@ var require_hsl2 = __commonJS({
       accent: {
         value: {
           colorSpace: "hsl",
-          channels: [348.56, 82.17, 46.29],
+          channels: [
+            348.56,
+            82.17,
+            46.29
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [353.39, 86.95, 78.18],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "hsl",
-              channels: [353.95, 78.84, 69.69],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "hsl",
-              channels: [353.52, 73.18, 60.13],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "hsl",
-              channels: [347.26, 85.88, 38.93],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "hsl",
-              channels: [345.89, 90.98, 31.82],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [345, 95.86, 25.31],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "accent-lightest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            353.39,
+            86.95,
+            78.18
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-lighter": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            353.95,
+            78.84,
+            69.69
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-light": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            353.52,
+            73.18,
+            60.13
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-dark": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            347.26,
+            85.88,
+            38.93
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-darker": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            345.89,
+            90.98,
+            31.82
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-darkest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            345,
+            95.86,
+            25.31
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       success: {
         value: {
           colorSpace: "hsl",
-          channels: [123.03, 99.86, 27.07],
+          channels: [
+            123.03,
+            99.86,
+            27.07
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [114.97, 40.73, 82.58],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "hsl",
-              channels: [115.71, 34.69, 66.15],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "hsl",
-              channels: [117.04, 33.36, 49.53],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "hsl",
-              channels: [122.95, 100, 19.11],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "hsl",
-              channels: [122.88, 100, 12.75],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [122.85, 100, 7.59],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "success-lightest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            114.97,
+            40.73,
+            82.58
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-lighter": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            115.71,
+            34.69,
+            66.15
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-light": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            117.04,
+            33.36,
+            49.53
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-dark": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            122.95,
+            100,
+            19.11
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-darker": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            122.88,
+            100,
+            12.75
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-darkest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            122.85,
+            100,
+            7.59
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       warning: {
         value: {
           colorSpace: "hsl",
-          channels: [23.88, 100, 39.41],
+          channels: [
+            23.88,
+            100,
+            39.41
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [17.74, 94.96, 87.24],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "hsl",
-              channels: [17.94, 75.08, 73.77],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "hsl",
-              channels: [18.45, 66.88, 59.6],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "hsl",
-              channels: [24.01, 100, 29.25],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "hsl",
-              channels: [22.64, 100, 20.66],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [18.45, 100, 13.3],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "warning-lightest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            17.74,
+            94.96,
+            87.24
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-lighter": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            17.94,
+            75.08,
+            73.77
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-light": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            18.45,
+            66.88,
+            59.6
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-dark": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            24.01,
+            100,
+            29.25
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-darker": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            22.64,
+            100,
+            20.66
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-darkest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            18.45,
+            100,
+            13.3
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       error: {
         value: {
           colorSpace: "hsl",
-          channels: [346.64, 82.14, 39.61],
+          channels: [
+            346.64,
+            82.14,
+            39.61
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [359.69, 92.77, 88.44],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "hsl",
-              channels: [358.32, 67.17, 74.5],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "hsl",
-              channels: [355.68, 57.13, 59.46],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "hsl",
-              channels: [344.75, 95.28, 28.78],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "hsl",
-              channels: [344.52, 100, 19.69],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [347.44, 100, 12.27],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "error-lightest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            359.69,
+            92.77,
+            88.44
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-lighter": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            358.32,
+            67.17,
+            74.5
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-light": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            355.68,
+            57.13,
+            59.46
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-dark": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            344.75,
+            95.28,
+            28.78
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-darker": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            344.52,
+            100,
+            19.69
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-darkest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            347.44,
+            100,
+            12.27
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       info: {
         value: {
           colorSpace: "hsl",
-          channels: [219.81, 53.78, 39.02],
+          channels: [
+            219.81,
+            53.78,
+            39.02
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [218.63, 32.11, 75.49],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "hsl",
-              channels: [218.81, 34.57, 63.16],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "hsl",
-              channels: [219.17, 34.9, 51.02],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "hsl",
-              channels: [219.86, 57.49, 29.6],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "hsl",
-              channels: [219.94, 64.03, 20.65],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "hsl",
-              channels: [220.32, 77.63, 12.34],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "info-lightest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            218.63,
+            32.11,
+            75.49
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-lighter": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            218.81,
+            34.57,
+            63.16
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-light": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            219.17,
+            34.9,
+            51.02
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-dark": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            219.86,
+            57.49,
+            29.6
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-darker": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            219.94,
+            64.03,
+            20.65
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-darkest": {
+        value: {
+          colorSpace: "hsl",
+          channels: [
+            220.32,
+            77.63,
+            12.34
+          ],
+          alpha: 1
+        },
+        type: "color"
       }
     };
   }
@@ -6151,466 +6361,674 @@ var require_oklch2 = __commonJS({
       primary: {
         value: {
           colorSpace: "oklch",
-          channels: [0.29, 0.1173, 259.84],
+          channels: [
+            0.29,
+            0.1173,
+            259.84
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.503825, 0.201675, 260.53],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.43255, 0.17355, 260.29999999999995],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.36127499999999996, 0.145425, 260.07],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.23925, 0.099705, 259.84],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.1885, 0.08211, 259.84],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.13774999999999998, 0.064515, 259.84],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "primary-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.503825,
+            0.201675,
+            260.53
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.43255,
+            0.17355,
+            260.29999999999995
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.36127499999999996,
+            0.145425,
+            260.07
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.23925,
+            0.099705,
+            259.84
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.1885,
+            0.08211,
+            259.84
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.13774999999999998,
+            0.064515,
+            259.84
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       secondary: {
         value: {
           colorSpace: "oklch",
-          channels: [0.9267, 0.0417, 227.89],
+          channels: [
+            0.9267,
+            0.0417,
+            227.89
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.981675, 0.013552500000000002, 227.89],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.9633499999999999, 0.022935, 227.89],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.945025, 0.0323175, 227.89],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.9110499999999999, 0.0543, 226.8175],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.8954, 0.0669, 225.745],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.87975, 0.0795, 224.67249999999999],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "secondary-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.981675,
+            0.013552500000000002,
+            227.89
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.9633499999999999,
+            0.022935,
+            227.89
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.945025,
+            0.0323175,
+            227.89
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.9110499999999999,
+            0.0543,
+            226.8175
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.8954,
+            0.0669,
+            225.745
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.87975,
+            0.0795,
+            224.67249999999999
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       tertiary: {
         value: {
           colorSpace: "oklch",
-          channels: [0.5751, 0.2298, 260.76],
+          channels: [
+            0.5751,
+            0.2298,
+            260.76
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.7918499999999999, 0.126525, 232.89],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.7196, 0.16095, 242.18],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.64735, 0.19537500000000002, 251.47],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.503825, 0.201675, 260.53],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.43255, 0.17355, 260.29999999999995],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.36127499999999996, 0.145425, 260.07],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "tertiary-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.7918499999999999,
+            0.126525,
+            232.89
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.7196,
+            0.16095,
+            242.18
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.64735,
+            0.19537500000000002,
+            251.47
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.503825,
+            0.201675,
+            260.53
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.43255,
+            0.17355,
+            260.29999999999995
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.36127499999999996,
+            0.145425,
+            260.07
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       accent: {
         value: {
           colorSpace: "oklch",
-          channels: [0.562, 0.2175, 20.33],
+          channels: [
+            0.562,
+            0.2175,
+            20.33
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.778675, 0.11662499999999999, 13.01],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.70645, 0.15025, 15.45],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.634225, 0.183875, 17.89],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.50075, 0.19485, 19.529999999999998],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.4395, 0.17220000000000002, 18.729999999999997],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.37825000000000003, 0.14955000000000002, 17.93],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "accent-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.778675,
+            0.11662499999999999,
+            13.01
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.70645,
+            0.15025,
+            15.45
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.634225,
+            0.183875,
+            17.89
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.50075,
+            0.19485,
+            19.529999999999998
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.4395,
+            0.17220000000000002,
+            18.729999999999997
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.37825000000000003,
+            0.14955000000000002,
+            17.93
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       success: {
         value: {
           colorSpace: "oklch",
-          channels: [0.549, 0.1849, 142.8],
+          channels: [
+            0.549,
+            0.1849,
+            142.8
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.88725, 0.06009250000000001, 142.8],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.7745, 0.10169500000000001, 142.8],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.6617500000000001, 0.14329750000000002, 142.8],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.452925, 0.157165, 142.8],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.35685, 0.12943000000000002, 142.8],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.26077500000000003, 0.10169500000000001, 142.8],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "success-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.88725,
+            0.06009250000000001,
+            142.8
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.7745,
+            0.10169500000000001,
+            142.8
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.6617500000000001,
+            0.14329750000000002,
+            142.8
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.452925,
+            0.157165,
+            142.8
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.35685,
+            0.12943000000000002,
+            142.8
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.26077500000000003,
+            0.10169500000000001,
+            142.8
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       warning: {
         value: {
           colorSpace: "oklch",
-          channels: [0.5833, 0.169705, 43.9973],
+          channels: [
+            0.5833,
+            0.169705,
+            43.9973
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.895825, 0.055154125, 43.9973],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.79165, 0.09333775, 43.9973],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.6874750000000001, 0.131521375, 43.9973],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.4812225, 0.14424925, 43.9973],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.37914500000000007, 0.1187935, 43.9973],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.2770675, 0.09333775, 43.9973],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "warning-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.895825,
+            0.055154125,
+            43.9973
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.79165,
+            0.09333775,
+            43.9973
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.6874750000000001,
+            0.131521375,
+            43.9973
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.4812225,
+            0.14424925,
+            43.9973
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.37914500000000007,
+            0.1187935,
+            43.9973
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.2770675,
+            0.09333775,
+            43.9973
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       error: {
         value: {
           colorSpace: "oklch",
-          channels: [0.502, 0.1927, 18.08],
+          channels: [
+            0.502,
+            0.1927,
+            18.08
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.8755, 0.0626275, 18.08],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.751, 0.10598500000000001, 18.08],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.6265000000000001, 0.14934250000000002, 18.08],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.41415, 0.16379500000000002, 18.08],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.32630000000000003, 0.13489, 18.08],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.23845, 0.10598500000000001, 18.08],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "error-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.8755,
+            0.0626275,
+            18.08
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.751,
+            0.10598500000000001,
+            18.08
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.6265000000000001,
+            0.14934250000000002,
+            18.08
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.41415,
+            0.16379500000000002,
+            18.08
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.32630000000000003,
+            0.13489,
+            18.08
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.23845,
+            0.10598500000000001,
+            18.08
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       info: {
         value: {
           colorSpace: "oklch",
-          channels: [0.4506, 0.1233, 262.35],
+          channels: [
+            0.4506,
+            0.1233,
+            262.35
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.78855, 0.0400725, 262.35],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.6759, 0.067815, 262.35],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.56325, 0.0955575, 262.35],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.371745, 0.10480500000000001, 262.35],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.29289, 0.08631, 262.35],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "oklch",
-              channels: [0.214035, 0.067815, 262.35],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "info-lightest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.78855,
+            0.0400725,
+            262.35
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-lighter": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.6759,
+            0.067815,
+            262.35
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-light": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.56325,
+            0.0955575,
+            262.35
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-dark": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.371745,
+            0.10480500000000001,
+            262.35
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-darker": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.29289,
+            0.08631,
+            262.35
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-darkest": {
+        value: {
+          colorSpace: "oklch",
+          channels: [
+            0.214035,
+            0.067815,
+            262.35
+          ],
+          alpha: 1
+        },
+        type: "color"
       }
     };
   }
@@ -6623,466 +7041,674 @@ var require_rgb2 = __commonJS({
       primary: {
         value: {
           colorSpace: "rgb",
-          channels: [0, 38, 100],
+          channels: [
+            0,
+            38,
+            100
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [12, 90, 212],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [5, 72, 173],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [2, 54, 136],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [0, 26, 77],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [0, 16, 55],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [0, 6, 34],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "primary-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            12,
+            90,
+            212
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            5,
+            72,
+            173
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            2,
+            54,
+            136
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            0,
+            26,
+            77
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            0,
+            16,
+            55
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "primary-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            0,
+            6,
+            34
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       secondary: {
         value: {
           colorSpace: "rgb",
-          channels: [203, 237, 253],
+          channels: [
+            203,
+            237,
+            253
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [240, 251, 255],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [228, 246, 255],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [215, 242, 254],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [188, 234, 254],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [173, 231, 255],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [157, 227, 255],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "secondary-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            240,
+            251,
+            255
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            228,
+            246,
+            255
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            215,
+            242,
+            254
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            188,
+            234,
+            254
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            173,
+            231,
+            255
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "secondary-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            157,
+            227,
+            255
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       tertiary: {
         value: {
           colorSpace: "rgb",
-          channels: [20, 108, 253],
+          channels: [
+            20,
+            108,
+            253
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [90, 201, 255],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [38, 174, 255],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [0, 143, 255],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [12, 90, 212],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [5, 72, 173],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [2, 54, 136],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "tertiary-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            90,
+            201,
+            255
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            38,
+            174,
+            255
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            0,
+            143,
+            255
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            12,
+            90,
+            212
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            5,
+            72,
+            173
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "tertiary-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            2,
+            54,
+            136
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       accent: {
         value: {
           colorSpace: "rgb",
-          channels: [215, 21, 58],
+          channels: [
+            215,
+            21,
+            58
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [248, 151, 162],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [239, 117, 129],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [228, 79, 95],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [185, 14, 50],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [155, 7, 42],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [126, 3, 34],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "accent-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            248,
+            151,
+            162
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            239,
+            117,
+            129
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            228,
+            79,
+            95
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            185,
+            14,
+            50
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            155,
+            7,
+            42
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "accent-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            126,
+            3,
+            34
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       success: {
         value: {
           colorSpace: "rgb",
-          channels: [0, 138, 7],
+          channels: [
+            0,
+            138,
+            7
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [196, 229, 192],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [143, 199, 139],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [88, 168, 84],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [0, 106, 0],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [0, 76, 0],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [0, 47, 0],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "success-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            196,
+            229,
+            192
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            143,
+            199,
+            139
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            88,
+            168,
+            84
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            0,
+            106,
+            0
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            0,
+            76,
+            0
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "success-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            0,
+            47,
+            0
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       warning: {
         value: {
           colorSpace: "rgb",
-          channels: [201, 80, 0],
+          channels: [
+            201,
+            80,
+            0
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [253, 210, 192],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [238, 168, 138],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [221, 125, 83],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [157, 58, 0],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [114, 38, 0],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [75, 18, 0],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "warning-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            253,
+            210,
+            192
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            238,
+            168,
+            138
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            221,
+            125,
+            83
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            157,
+            58,
+            0
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            114,
+            38,
+            0
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "warning-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            75,
+            18,
+            0
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       error: {
         value: {
           colorSpace: "rgb",
-          channels: [184, 18, 55],
+          channels: [
+            184,
+            18,
+            55
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [253, 198, 198],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [234, 146, 149],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [211, 93, 101],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [143, 3, 39],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [105, 0, 24],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [68, 0, 10],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "error-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            253,
+            198,
+            198
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            234,
+            146,
+            149
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            211,
+            93,
+            101
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            143,
+            3,
+            39
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            105,
+            0,
+            24
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "error-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            68,
+            0,
+            10
+          ],
+          alpha: 1
+        },
+        type: "color"
       },
       info: {
         value: {
           colorSpace: "rgb",
-          channels: [46, 82, 153],
+          channels: [
+            46,
+            82,
+            153
+          ],
           alpha: 1
         },
-        type: "color",
-        variants: {
-          lightest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [172, 187, 213],
-              alpha: 1
-            },
-            type: "color"
-          },
-          lighter: {
-            value: {
-              colorSpace: "rgb",
-              channels: [129, 152, 194],
-              alpha: 1
-            },
-            type: "color"
-          },
-          light: {
-            value: {
-              colorSpace: "rgb",
-              channels: [87, 117, 174],
-              alpha: 1
-            },
-            type: "color"
-          },
-          dark: {
-            value: {
-              colorSpace: "rgb",
-              channels: [32, 61, 119],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darker: {
-            value: {
-              colorSpace: "rgb",
-              channels: [19, 41, 86],
-              alpha: 1
-            },
-            type: "color"
-          },
-          darkest: {
-            value: {
-              colorSpace: "rgb",
-              channels: [7, 23, 56],
-              alpha: 1
-            },
-            type: "color"
-          }
-        }
+        type: "color"
+      },
+      "info-lightest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            172,
+            187,
+            213
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-lighter": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            129,
+            152,
+            194
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-light": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            87,
+            117,
+            174
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-dark": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            32,
+            61,
+            119
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-darker": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            19,
+            41,
+            86
+          ],
+          alpha: 1
+        },
+        type: "color"
+      },
+      "info-darkest": {
+        value: {
+          colorSpace: "rgb",
+          channels: [
+            7,
+            23,
+            56
+          ],
+          alpha: 1
+        },
+        type: "color"
       }
     };
   }
