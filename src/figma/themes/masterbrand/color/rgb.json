@@ -2,11 +2,7 @@
   "primary-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        12,
-        90,
-        212
-      ],
+      "channels": [12, 90, 212],
       "alpha": 1
     },
     "type": "color"
@@ -14,11 +10,7 @@
   "primary-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        5,
-        72,
-        173
-      ],
+      "channels": [5, 72, 173],
       "alpha": 1
     },
     "type": "color"
@@ -26,11 +18,7 @@
   "primary-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        2,
-        54,
-        136
-      ],
+      "channels": [2, 54, 136],
       "alpha": 1
     },
     "type": "color"
@@ -38,11 +26,7 @@
   "primary": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        38,
-        100
-      ],
+      "channels": [0, 38, 100],
       "alpha": 1
     },
     "type": "color"
@@ -50,11 +34,7 @@
   "primary-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        26,
-        77
-      ],
+      "channels": [0, 26, 77],
       "alpha": 1
     },
     "type": "color"
@@ -62,11 +42,7 @@
   "primary-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        16,
-        55
-      ],
+      "channels": [0, 16, 55],
       "alpha": 1
     },
     "type": "color"
@@ -74,11 +50,7 @@
   "primary-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        6,
-        34
-      ],
+      "channels": [0, 6, 34],
       "alpha": 1
     },
     "type": "color"
@@ -86,11 +58,7 @@
   "secondary-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        240,
-        251,
-        255
-      ],
+      "channels": [240, 251, 255],
       "alpha": 1
     },
     "type": "color"
@@ -98,11 +66,7 @@
   "secondary-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        228,
-        246,
-        255
-      ],
+      "channels": [228, 246, 255],
       "alpha": 1
     },
     "type": "color"
@@ -110,11 +74,7 @@
   "secondary-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        215,
-        242,
-        254
-      ],
+      "channels": [215, 242, 254],
       "alpha": 1
     },
     "type": "color"
@@ -122,11 +82,7 @@
   "secondary": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        203,
-        237,
-        253
-      ],
+      "channels": [203, 237, 253],
       "alpha": 1
     },
     "type": "color"
@@ -134,11 +90,7 @@
   "secondary-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        188,
-        234,
-        254
-      ],
+      "channels": [188, 234, 254],
       "alpha": 1
     },
     "type": "color"
@@ -146,11 +98,7 @@
   "secondary-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        173,
-        231,
-        255
-      ],
+      "channels": [173, 231, 255],
       "alpha": 1
     },
     "type": "color"
@@ -158,11 +106,7 @@
   "secondary-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        157,
-        227,
-        255
-      ],
+      "channels": [157, 227, 255],
       "alpha": 1
     },
     "type": "color"
@@ -170,11 +114,7 @@
   "tertiary-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        90,
-        201,
-        255
-      ],
+      "channels": [90, 201, 255],
       "alpha": 1
     },
     "type": "color"
@@ -182,11 +122,7 @@
   "tertiary-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        38,
-        174,
-        255
-      ],
+      "channels": [38, 174, 255],
       "alpha": 1
     },
     "type": "color"
@@ -194,11 +130,7 @@
   "tertiary-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        143,
-        255
-      ],
+      "channels": [0, 143, 255],
       "alpha": 1
     },
     "type": "color"
@@ -206,11 +138,7 @@
   "tertiary": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        20,
-        108,
-        253
-      ],
+      "channels": [20, 108, 253],
       "alpha": 1
     },
     "type": "color"
@@ -218,11 +146,7 @@
   "tertiary-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        12,
-        90,
-        212
-      ],
+      "channels": [12, 90, 212],
       "alpha": 1
     },
     "type": "color"
@@ -230,11 +154,7 @@
   "tertiary-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        5,
-        72,
-        173
-      ],
+      "channels": [5, 72, 173],
       "alpha": 1
     },
     "type": "color"
@@ -242,11 +162,7 @@
   "tertiary-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        2,
-        54,
-        136
-      ],
+      "channels": [2, 54, 136],
       "alpha": 1
     },
     "type": "color"
@@ -254,11 +170,7 @@
   "accent-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        248,
-        151,
-        162
-      ],
+      "channels": [248, 151, 162],
       "alpha": 1
     },
     "type": "color"
@@ -266,11 +178,7 @@
   "accent-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        239,
-        117,
-        129
-      ],
+      "channels": [239, 117, 129],
       "alpha": 1
     },
     "type": "color"
@@ -278,11 +186,7 @@
   "accent-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        228,
-        79,
-        95
-      ],
+      "channels": [228, 79, 95],
       "alpha": 1
     },
     "type": "color"
@@ -290,11 +194,7 @@
   "accent": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        215,
-        21,
-        58
-      ],
+      "channels": [215, 21, 58],
       "alpha": 1
     },
     "type": "color"
@@ -302,11 +202,7 @@
   "accent-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        185,
-        14,
-        50
-      ],
+      "channels": [185, 14, 50],
       "alpha": 1
     },
     "type": "color"
@@ -314,11 +210,7 @@
   "accent-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        155,
-        7,
-        42
-      ],
+      "channels": [155, 7, 42],
       "alpha": 1
     },
     "type": "color"
@@ -326,11 +218,7 @@
   "accent-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        126,
-        3,
-        34
-      ],
+      "channels": [126, 3, 34],
       "alpha": 1
     },
     "type": "color"
@@ -338,11 +226,7 @@
   "success-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        196,
-        229,
-        192
-      ],
+      "channels": [196, 229, 192],
       "alpha": 1
     },
     "type": "color"
@@ -350,11 +234,7 @@
   "success-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        143,
-        199,
-        139
-      ],
+      "channels": [143, 199, 139],
       "alpha": 1
     },
     "type": "color"
@@ -362,11 +242,7 @@
   "success-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        88,
-        168,
-        84
-      ],
+      "channels": [88, 168, 84],
       "alpha": 1
     },
     "type": "color"
@@ -374,11 +250,7 @@
   "success": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        138,
-        7
-      ],
+      "channels": [0, 138, 7],
       "alpha": 1
     },
     "type": "color"
@@ -386,11 +258,7 @@
   "success-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        106,
-        0
-      ],
+      "channels": [0, 106, 0],
       "alpha": 1
     },
     "type": "color"
@@ -398,11 +266,7 @@
   "success-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        76,
-        0
-      ],
+      "channels": [0, 76, 0],
       "alpha": 1
     },
     "type": "color"
@@ -410,11 +274,7 @@
   "success-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        0,
-        47,
-        0
-      ],
+      "channels": [0, 47, 0],
       "alpha": 1
     },
     "type": "color"
@@ -422,11 +282,7 @@
   "warning-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        253,
-        210,
-        192
-      ],
+      "channels": [253, 210, 192],
       "alpha": 1
     },
     "type": "color"
@@ -434,11 +290,7 @@
   "warning-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        238,
-        168,
-        138
-      ],
+      "channels": [238, 168, 138],
       "alpha": 1
     },
     "type": "color"
@@ -446,11 +298,7 @@
   "warning-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        221,
-        125,
-        83
-      ],
+      "channels": [221, 125, 83],
       "alpha": 1
     },
     "type": "color"
@@ -458,11 +306,7 @@
   "warning": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        201,
-        80,
-        0
-      ],
+      "channels": [201, 80, 0],
       "alpha": 1
     },
     "type": "color"
@@ -470,11 +314,7 @@
   "warning-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        157,
-        58,
-        0
-      ],
+      "channels": [157, 58, 0],
       "alpha": 1
     },
     "type": "color"
@@ -482,11 +322,7 @@
   "warning-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        114,
-        38,
-        0
-      ],
+      "channels": [114, 38, 0],
       "alpha": 1
     },
     "type": "color"
@@ -494,11 +330,7 @@
   "warning-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        75,
-        18,
-        0
-      ],
+      "channels": [75, 18, 0],
       "alpha": 1
     },
     "type": "color"
@@ -506,11 +338,7 @@
   "error-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        253,
-        198,
-        198
-      ],
+      "channels": [253, 198, 198],
       "alpha": 1
     },
     "type": "color"
@@ -518,11 +346,7 @@
   "error-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        234,
-        146,
-        149
-      ],
+      "channels": [234, 146, 149],
       "alpha": 1
     },
     "type": "color"
@@ -530,11 +354,7 @@
   "error-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        211,
-        93,
-        101
-      ],
+      "channels": [211, 93, 101],
       "alpha": 1
     },
     "type": "color"
@@ -542,11 +362,7 @@
   "error": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        184,
-        18,
-        55
-      ],
+      "channels": [184, 18, 55],
       "alpha": 1
     },
     "type": "color"
@@ -554,11 +370,7 @@
   "error-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        143,
-        3,
-        39
-      ],
+      "channels": [143, 3, 39],
       "alpha": 1
     },
     "type": "color"
@@ -566,11 +378,7 @@
   "error-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        105,
-        0,
-        24
-      ],
+      "channels": [105, 0, 24],
       "alpha": 1
     },
     "type": "color"
@@ -578,11 +386,7 @@
   "error-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        68,
-        0,
-        10
-      ],
+      "channels": [68, 0, 10],
       "alpha": 1
     },
     "type": "color"
@@ -590,11 +394,7 @@
   "info-lightest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        172,
-        187,
-        213
-      ],
+      "channels": [172, 187, 213],
       "alpha": 1
     },
     "type": "color"
@@ -602,11 +402,7 @@
   "info-lighter": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        129,
-        152,
-        194
-      ],
+      "channels": [129, 152, 194],
       "alpha": 1
     },
     "type": "color"
@@ -614,11 +410,7 @@
   "info-light": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        87,
-        117,
-        174
-      ],
+      "channels": [87, 117, 174],
       "alpha": 1
     },
     "type": "color"
@@ -626,11 +418,7 @@
   "info": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        46,
-        82,
-        153
-      ],
+      "channels": [46, 82, 153],
       "alpha": 1
     },
     "type": "color"
@@ -638,11 +426,7 @@
   "info-dark": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        32,
-        61,
-        119
-      ],
+      "channels": [32, 61, 119],
       "alpha": 1
     },
     "type": "color"
@@ -650,11 +434,7 @@
   "info-darker": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        19,
-        41,
-        86
-      ],
+      "channels": [19, 41, 86],
       "alpha": 1
     },
     "type": "color"
@@ -662,11 +442,7 @@
   "info-darkest": {
     "value": {
       "colorSpace": "rgb",
-      "channels": [
-        7,
-        23,
-        56
-      ],
+      "channels": [7, 23, 56],
       "alpha": 1
     },
     "type": "color"
