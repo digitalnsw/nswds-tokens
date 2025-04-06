@@ -18,7 +18,7 @@
     "nsw-grey-800": "hsl(206.67, 11.69%, 15.1%)",
     "nsw-grey-850": "hsl(206.66, 13.37%, 10.7%)",
     "nsw-grey-900": "hsl(206.64, 17.01%, 6.52%)",
-    "nsw-grey-950": "hsl(208.68, 23.47%, 2.8%)",
+    "nsw-grey-950": "hsl(208.68, 23.47%, 2.8%)"
   },
   "nsw-green": {
     "nsw-green-50": "hsl(126.92, 92.48%, 97.87%)",
@@ -39,7 +39,7 @@
     "nsw-green-800": "hsl(120, 100%, 12.55%)",
     "nsw-green-850": "hsl(120.41, 100%, 8.99%)",
     "nsw-green-900": "hsl(120.77, 100%, 5.85%)",
-    "nsw-green-950": "hsl(121.17, 100%, 3.07%)",
+    "nsw-green-950": "hsl(121.17, 100%, 3.07%)"
   },
   "nsw-teal": {
     "nsw-teal-50": "hsl(171.22, 56.11%, 96.73%)",
@@ -60,7 +60,7 @@
     "nsw-teal-800": "hsl(188, 73.17%, 16.08%)",
     "nsw-teal-850": "hsl(187.99, 84.92%, 11.28%)",
     "nsw-teal-900": "hsl(188.56, 96.03%, 7.26%)",
-    "nsw-teal-950": "hsl(190.58, 100%, 3.88%)",
+    "nsw-teal-950": "hsl(190.58, 100%, 3.88%)"
   },
   "nsw-blue": {
     "nsw-blue-50": "hsl(199.45, 100%, 97.34%)",
@@ -81,7 +81,7 @@
     "nsw-blue-800": "hsl(217.2, 100%, 19.61%)",
     "nsw-blue-850": "hsl(218.95, 100%, 14.93%)",
     "nsw-blue-900": "hsl(222.31, 100%, 10.59%)",
-    "nsw-blue-950": "hsl(228.65, 100%, 6.6%)",
+    "nsw-blue-950": "hsl(228.65, 100%, 6.6%)"
   },
   "nsw-purple": {
     "nsw-purple-50": "hsl(250, 100%, 98.76%)",
@@ -102,7 +102,7 @@
     "nsw-purple-800": "hsl(272.21, 73.64%, 25.29%)",
     "nsw-purple-850": "hsl(272.75, 82.69%, 18.56%)",
     "nsw-purple-900": "hsl(272.45, 92.77%, 12.64%)",
-    "nsw-purple-950": "hsl(269.95, 100%, 7.66%)",
+    "nsw-purple-950": "hsl(269.95, 100%, 7.66%)"
   },
   "nsw-fuchsia": {
     "nsw-fuchsia-50": "hsl(322.15, 100%, 98.49%)",
@@ -123,7 +123,7 @@
     "nsw-fuchsia-800": "hsl(314.26, 100%, 19.8%)",
     "nsw-fuchsia-850": "hsl(314.51, 100%, 14.68%)",
     "nsw-fuchsia-900": "hsl(315.33, 100%, 10.15%)",
-    "nsw-fuchsia-950": "hsl(317.48, 100%, 6.11%)",
+    "nsw-fuchsia-950": "hsl(317.48, 100%, 6.11%)"
   },
   "nsw-red": {
     "nsw-red-50": "hsl(350.85, 100%, 98.97%)",
@@ -144,7 +144,7 @@
     "nsw-red-800": "hsl(344.85, 100%, 19.41%)",
     "nsw-red-850": "hsl(346.11, 100%, 14.46%)",
     "nsw-red-900": "hsl(349.15, 100%, 10.03%)",
-    "nsw-red-950": "hsl(352.16, 100%, 6.06%)",
+    "nsw-red-950": "hsl(352.16, 100%, 6.06%)"
   },
   "nsw-orange": {
     "nsw-orange-50": "hsl(27.87, 100%, 98.29%)",
@@ -165,7 +165,7 @@
     "nsw-orange-800": "hsl(10.95, 100%, 29.02%)",
     "nsw-orange-850": "hsl(9.09, 100%, 21.91%)",
     "nsw-orange-900": "hsl(5.29, 100%, 15.58%)",
-    "nsw-orange-950": "hsl(2.01, 100%, 9.91%)",
+    "nsw-orange-950": "hsl(2.01, 100%, 9.91%)"
   },
   "nsw-yellow": {
     "nsw-yellow-50": "hsl(46.46, 100%, 97.31%)",
@@ -186,7 +186,7 @@
     "nsw-yellow-800": "hsl(41.14, 100%, 20.59%)",
     "nsw-yellow-850": "hsl(40.68, 100%, 15.12%)",
     "nsw-yellow-900": "hsl(39.24, 100%, 10.36%)",
-    "nsw-yellow-950": "hsl(35.52, 100%, 6.19%)",
+    "nsw-yellow-950": "hsl(35.52, 100%, 6.19%)"
   },
   "nsw-brown": {
     "nsw-brown-50": "hsl(32.66, 48.5%, 97.07%)",
@@ -207,7 +207,7 @@
     "nsw-brown-800": "hsl(31.58, 53.27%, 20.98%)",
     "nsw-brown-850": "hsl(31.74, 60.03%, 15.18%)",
     "nsw-brown-900": "hsl(31.73, 72.62%, 9.74%)",
-    "nsw-brown-950": "hsl(27.95, 86.11%, 5.27%)",
+    "nsw-brown-950": "hsl(27.95, 86.11%, 5.27%)"
   },
   "nsw-aboriginal-grey": {
     "nsw-aboriginal-grey-50": "hsl(35.99, 11.4%, 97.16%)",
@@ -228,7 +228,7 @@
     "nsw-aboriginal-grey-800": "hsl(223.81, 0%, 17.65%)",
     "nsw-aboriginal-grey-850": "hsl(223.81, 0%, 12.7%)",
     "nsw-aboriginal-grey-900": "hsl(223.81, 0%, 8.01%)",
-    "nsw-aboriginal-grey-950": "hsl(223.81, 0%, 3.63%)",
+    "nsw-aboriginal-grey-950": "hsl(223.81, 0%, 3.63%)"
   },
   "nsw-aboriginal-red": {
     "nsw-aboriginal-red-50": "hsl(0.45, 100%, 98.34%)",
@@ -249,7 +249,7 @@
     "nsw-aboriginal-red-800": "hsl(1.26, 92.26%, 30.39%)",
     "nsw-aboriginal-red-850": "hsl(359.74, 99.82%, 22.68%)",
     "nsw-aboriginal-red-900": "hsl(358.63, 100%, 15.69%)",
-    "nsw-aboriginal-red-950": "hsl(357.82, 100%, 9.76%)",
+    "nsw-aboriginal-red-950": "hsl(357.82, 100%, 9.76%)"
   },
   "nsw-aboriginal-orange": {
     "nsw-aboriginal-orange-50": "hsl(22.11, 100%, 96.57%)",
@@ -270,7 +270,7 @@
     "nsw-aboriginal-orange-800": "hsl(16.76, 100%, 26.67%)",
     "nsw-aboriginal-orange-850": "hsl(15.47, 100%, 20.07%)",
     "nsw-aboriginal-orange-900": "hsl(12.18, 100%, 14.2%)",
-    "nsw-aboriginal-orange-950": "hsl(6.72, 100%, 8.94%)",
+    "nsw-aboriginal-orange-950": "hsl(6.72, 100%, 8.94%)"
   },
   "nsw-aboriginal-brown": {
     "nsw-aboriginal-brown-50": "hsl(23.71, 74.46%, 95.12%)",
@@ -291,7 +291,7 @@
     "nsw-aboriginal-brown-800": "hsl(21, 88.89%, 17.65%)",
     "nsw-aboriginal-brown-850": "hsl(19.73, 95.19%, 12.97%)",
     "nsw-aboriginal-brown-900": "hsl(16.27, 100%, 8.82%)",
-    "nsw-aboriginal-brown-950": "hsl(10.45, 100%, 5.14%)",
+    "nsw-aboriginal-brown-950": "hsl(10.45, 100%, 5.14%)"
   },
   "nsw-aboriginal-yellow": {
     "nsw-aboriginal-yellow-50": "hsl(45.72, 100%, 96.78%)",
@@ -312,7 +312,7 @@
     "nsw-aboriginal-yellow-800": "hsl(41.17, 100%, 26.86%)",
     "nsw-aboriginal-yellow-850": "hsl(41.1, 100%, 19.64%)",
     "nsw-aboriginal-yellow-900": "hsl(40.13, 100%, 13.55%)",
-    "nsw-aboriginal-yellow-950": "hsl(37.35, 100%, 8.33%)",
+    "nsw-aboriginal-yellow-950": "hsl(37.35, 100%, 8.33%)"
   },
   "nsw-aboriginal-green": {
     "nsw-aboriginal-green-50": "hsl(94.61, 37.03%, 96.34%)",
@@ -333,7 +333,7 @@
     "nsw-aboriginal-green-800": "hsl(140.73, 45.45%, 23.73%)",
     "nsw-aboriginal-green-850": "hsl(141.23, 51.5%, 17.2%)",
     "nsw-aboriginal-green-900": "hsl(142.1, 64.01%, 11%)",
-    "nsw-aboriginal-green-950": "hsl(139.39, 83.32%, 5.75%)",
+    "nsw-aboriginal-green-950": "hsl(139.39, 83.32%, 5.75%)"
   },
   "nsw-aboriginal-blue": {
     "nsw-aboriginal-blue-50": "hsl(189.24, 57.11%, 95.67%)",
@@ -354,7 +354,7 @@
     "nsw-aboriginal-blue-800": "hsl(221.31, 58.1%, 20.59%)",
     "nsw-aboriginal-blue-850": "hsl(221.4, 64.27%, 15.08%)",
     "nsw-aboriginal-blue-900": "hsl(222.04, 74.71%, 9.95%)",
-    "nsw-aboriginal-blue-950": "hsl(227.14, 84.88%, 5.65%)",
+    "nsw-aboriginal-blue-950": "hsl(227.14, 84.88%, 5.65%)"
   },
   "nsw-aboriginal-purple": {
     "nsw-aboriginal-purple-50": "hsl(310.68, 42.61%, 96.28%)",
@@ -375,6 +375,6 @@
     "nsw-aboriginal-purple-800": "hsl(309.09, 30.28%, 21.37%)",
     "nsw-aboriginal-purple-850": "hsl(308.99, 33.57%, 15.63%)",
     "nsw-aboriginal-purple-900": "hsl(308.83, 40.05%, 10.18%)",
-    "nsw-aboriginal-purple-950": "hsl(308.92, 54.82%, 5.21%)",
+    "nsw-aboriginal-purple-950": "hsl(308.92, 54.82%, 5.21%)"
   }
 }
