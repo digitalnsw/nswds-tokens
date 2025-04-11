@@ -223,6 +223,7 @@ export const tsTokens = tokens.ts
 // Export icon paths
 export const icons = {
   accountCircle: './icons/account_circle.svg',
+  add: './icons/add.svg',
   attachFile: './icons/attach_file.svg',
   cancel: './icons/cancel.svg',
   check: './icons/check.svg',
