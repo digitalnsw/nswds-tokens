@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.6.0...v2.7.0) (2025-04-11)
+
+
+### Features
+
+* **icons, brand:** Add new icons and profile images for improved UI and branding ([#15](https://github.com/digitalnsw/nswds-tokens/issues/15)) ([f3e3973](https://github.com/digitalnsw/nswds-tokens/commit/f3e397385a31877ee0c8a1c83ce47e9b89bdb0da))
+
 # [2.6.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.5.0...v2.6.0) (2025-04-06)
 
 
