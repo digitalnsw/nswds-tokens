@@ -2,89 +2,112 @@
 
 # Ensure the OpenAI API key is available
 if [ -z "$OPENAI_API_KEY" ]; then
-  echo "❌ OPENAI_API_KEY environment variable not set."
+  printf "❌ OPENAI_API_KEY environment variable not set.\n"
   exit 1
 fi
 
 # Check current branch
-echo "🔍 Current branch:"
+printf "🔍 Current branch:\n"
 BRANCH=$(git branch --show-current)
-echo "$BRANCH"
-echo
+printf "%s\n\n" "$BRANCH"
 
 # Show staged files
-echo "📦 Staged changes:"
+printf "📦 Staged changes:\n"
 STAGED=$(git diff --name-only --cached)
 if [ -z "$STAGED" ]; then
-  echo "No staged changes."
-  read -p "🧩 Do you want to stage all changes? (y/n): " STAGE_CONFIRM
+  printf "No staged changes.\n"
+  printf "🧩 Do you want to stage all changes? (y/n): "
+  read -r STAGE_CONFIRM
   if [[ "$STAGE_CONFIRM" =~ ^[Yy]$ ]]; then
     git add .
     STAGED=$(git diff --name-only --cached)
-    echo "✅ Staged files:"
-    echo "$STAGED"
+    printf "✅ Staged files:\n"
+    printf "%s\n" "$STAGED"
   else
-    echo "❌ No files staged. Exiting."
+    printf "❌ No files staged. Exiting.\n"
     exit 0
   fi
 else
-  echo "$STAGED"
+  printf "%s\n" "$STAGED"
 fi
-echo
+printf "\n"
 
-# Show staged diff (truncated preview)
-echo "🧾 Staged diff:"
-DIFF=$(git diff --cached)
+# Get staged diff (truncated to 300 lines to stay within token limits)
+DIFF=$(git diff --cached | head -n 300)
+
 if [ -z "$DIFF" ]; then
-  echo "No staged diff."
+  printf "No staged diff.\n"
   exit 0
-else
-  echo "$DIFF" | head -n 20
-  echo "…"
 fi
-echo
+
+printf "🧾 Staged diff (first 300 lines):\n"
+printf "%s\n" "$DIFF"
+printf "…\n\n"
 
 # Show recent commits
-echo "📜 Recent commit history:"
+printf "📜 Recent commit history:\n"
 git --no-pager log --oneline -n 10
-echo
+printf "\n"
 
-# Generate commit message using OpenAI
-echo "🧠 Generating commit message using OpenAI…"
+# Create temporary files
+PROMPT_FILE=$(mktemp)
+JSON_FILE=$(mktemp)
 
-PROMPT=$(cat <<EOF
-You're an expert developer writing Conventional Commits.
+# Create the prompt text
+printf "You're an expert developer writing Conventional Commits.\n\n" > "$PROMPT_FILE"
+printf "Given this staged git diff, suggest a commit message using the format:\n" >> "$PROMPT_FILE"
+printf "type(scope): description\n\n" >> "$PROMPT_FILE"
+printf "Optionally, include a short body if helpful.\n\n" >> "$PROMPT_FILE"
+printf "Branch name: %s\n\n" "$BRANCH" >> "$PROMPT_FILE"
+printf "Diff:\n%s\n" "$DIFF" >> "$PROMPT_FILE"
 
-Given this staged git diff, suggest a commit message using the format:
-type(scope): description
+# Encode the prompt file as a JSON string
+ENCODED_PROMPT=$(jq -Rs . < "$PROMPT_FILE")
 
-Optionally, include a short body if helpful.
+# Create the JSON payload file
+printf "{\n" > "$JSON_FILE"
+printf "  \"model\": \"gpt-4\",\n" >> "$JSON_FILE"
+printf "  \"messages\": [\n" >> "$JSON_FILE"
+printf "    {\n" >> "$JSON_FILE"
+printf "      \"role\": \"user\",\n" >> "$JSON_FILE"
+printf "      \"content\": %s\n" "$ENCODED_PROMPT" >> "$JSON_FILE"
+printf "    }\n" >> "$JSON_FILE"
+printf "  ],\n" >> "$JSON_FILE"
+printf "  \"temperature\": 0.4\n" >> "$JSON_FILE"
+printf "}\n" >> "$JSON_FILE"
 
-Diff:
-$DIFF
-EOF
-)
-
-# Call OpenAI API
-COMMIT_MSG=$(curl -s https://api.openai.com/v1/chat/completions \
+# Make the API call
+RESPONSE_FILE=$(mktemp)
+curl -s https://api.openai.com/v1/chat/completions \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -H "Content-Type: application/json" \
-  -d '{
-    "model": "gpt-4",
-    "messages": [{"role": "user", "content": "'"${PROMPT//$'\n'/\\n"}"'"}],
-    "temperature": 0.4
-  }' | jq -r '.choices[0].message.content')
+  -d @"$JSON_FILE" > "$RESPONSE_FILE"
 
-# Display and auto-commit
-echo
-echo "📝 Suggested commit message:"
-echo "$COMMIT_MSG"
-echo
+# Extract the commit message
+COMMIT_MSG=$(jq -r '.choices[0].message.content' < "$RESPONSE_FILE")
 
-read -p "💬 Do you want to use this message to commit? (y/n): " CONFIRM
+# Clean up temporary files
+rm "$PROMPT_FILE"
+rm "$JSON_FILE"
+rm "$RESPONSE_FILE"
+
+# Check if a valid response was returned
+if [ -z "$COMMIT_MSG" ] || [ "$COMMIT_MSG" = "null" ]; then
+  printf "❌ Failed to generate commit message.\n"
+  exit 1
+fi
+
+# Display and confirm commit
+printf "\n"
+printf "📝 Suggested commit message:\n"
+printf "%s\n" "$COMMIT_MSG"
+printf "\n"
+
+printf "💬 Do you want to use this message to commit? (y/n): "
+read -r CONFIRM
 if [[ "$CONFIRM" =~ ^[Yy]$ ]]; then
-  echo "$COMMIT_MSG" | git commit -F -
-  echo "✅ Committed with AI-generated message."
+  printf "%s" "$COMMIT_MSG" | git commit -F -
+  printf "✅ Committed with AI-generated message.\n"
 else
-  echo "❌ Commit cancelled."
+  printf "❌ Commit cancelled.\n"
 fi
