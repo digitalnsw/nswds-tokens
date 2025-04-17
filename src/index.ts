@@ -5,10 +5,10 @@ const globalColorHsl = require('../tokens/global/color/hsl.json')
 const globalColorOklch = require('../tokens/global/color/oklch.json')
 const globalColorRgb = require('../tokens/global/color/rgb.json')
 
-const masterbrandColorHex = require('../tokens/themes/masterbrand/color/hex.json')
-const masterbrandColorHsl = require('../tokens/themes/masterbrand/color/hsl.json')
-const masterbrandColorOklch = require('../tokens/themes/masterbrand/color/oklch.json')
-const masterbrandColorRgb = require('../tokens/themes/masterbrand/color/rgb.json')
+const masterbrandColorHex = require('../tokens/themes/color/masterbrand/hex.json')
+const masterbrandColorHsl = require('../tokens/themes/color/masterbrand/hsl.json')
+const masterbrandColorOklch = require('../tokens/themes/color/masterbrand/oklch.json')
+const masterbrandColorRgb = require('../tokens/themes/color/masterbrand/rgb.json')
 
 // CSS Imports
 import * as globalCssHex from './css/colors/global/hex.css'
