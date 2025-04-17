@@ -9760,1601 +9760,2337 @@ var require_rgb = __commonJS({
   }
 });
 
-// tokens/themes/masterbrand/color/hex.json
+// tokens/themes/color/masterbrand/hex.json
 var require_hex2 = __commonJS({
-  "tokens/themes/masterbrand/color/hex.json"(exports, module) {
+  "tokens/themes/color/masterbrand/hex.json"(exports, module) {
     module.exports = {
-      "primary-lightest": {
-        value: "#0c5ad4",
-        type: "color"
-      },
-      "primary-lighter": {
-        value: "#0548ad",
-        type: "color"
-      },
-      "primary-light": {
-        value: "#023688",
-        type: "color"
-      },
       primary: {
-        value: "#002664",
-        type: "color"
-      },
-      "primary-dark": {
-        value: "#001a4d",
-        type: "color"
-      },
-      "primary-darker": {
-        value: "#001037",
-        type: "color"
-      },
-      "primary-darkest": {
-        value: "#000622",
-        type: "color"
-      },
-      "secondary-lightest": {
-        value: "#f0fbff",
-        type: "color"
-      },
-      "secondary-lighter": {
-        value: "#e4f6ff",
-        type: "color"
-      },
-      "secondary-light": {
-        value: "#d7f2fe",
-        type: "color"
-      },
-      secondary: {
-        value: "#cbedfd",
-        type: "color"
-      },
-      "secondary-dark": {
-        value: "#bceafe",
-        type: "color"
-      },
-      "secondary-darker": {
-        value: "#ade7ff",
-        type: "color"
-      },
-      "secondary-darkest": {
-        value: "#9de3ff",
-        type: "color"
-      },
-      "tertiary-lightest": {
-        value: "#5ac9ff",
-        type: "color"
-      },
-      "tertiary-lighter": {
-        value: "#26aeff",
-        type: "color"
-      },
-      "tertiary-light": {
-        value: "#008fff",
-        type: "color"
-      },
-      tertiary: {
-        value: "#146cfd",
-        type: "color"
-      },
-      "tertiary-dark": {
-        value: "#0c5ad4",
-        type: "color"
-      },
-      "tertiary-darker": {
-        value: "#0548ad",
-        type: "color"
-      },
-      "tertiary-darkest": {
-        value: "#023688",
-        type: "color"
-      },
-      "accent-lightest": {
-        value: "#f897a2",
-        type: "color"
-      },
-      "accent-lighter": {
-        value: "#ef7581",
-        type: "color"
-      },
-      "accent-light": {
-        value: "#e44f5f",
-        type: "color"
+        "50": {
+          $type: "color",
+          $value: "#f0fbff"
+        },
+        "100": {
+          $type: "color",
+          $value: "#e4f6ff"
+        },
+        "150": {
+          $type: "color",
+          $value: "#d7f2fe"
+        },
+        "200": {
+          $type: "color",
+          $value: "#cbedfd"
+        },
+        "250": {
+          $type: "color",
+          $value: "#bceafe"
+        },
+        "300": {
+          $type: "color",
+          $value: "#ade7ff"
+        },
+        "350": {
+          $type: "color",
+          $value: "#9de3ff"
+        },
+        "400": {
+          $type: "color",
+          $value: "#8ce0ff"
+        },
+        "450": {
+          $type: "color",
+          $value: "#5ac9ff"
+        },
+        "500": {
+          $type: "color",
+          $value: "#26aeff"
+        },
+        "550": {
+          $type: "color",
+          $value: "#008fff"
+        },
+        "600": {
+          $type: "color",
+          $value: "#146cfd"
+        },
+        "650": {
+          $type: "color",
+          $value: "#0c5ad4"
+        },
+        "700": {
+          $type: "color",
+          $value: "#0548ad"
+        },
+        "750": {
+          $type: "color",
+          $value: "#023688"
+        },
+        "800": {
+          $type: "color",
+          $value: "#002664"
+        },
+        "850": {
+          $type: "color",
+          $value: "#001a4d"
+        },
+        "900": {
+          $type: "color",
+          $value: "#001037"
+        },
+        "950": {
+          $type: "color",
+          $value: "#000622"
+        }
       },
       accent: {
-        value: "#d7153a",
-        type: "color"
+        "50": {
+          $type: "color",
+          $value: "#fff8f9"
+        },
+        "100": {
+          $type: "color",
+          $value: "#fff2f4"
+        },
+        "150": {
+          $type: "color",
+          $value: "#ffecef"
+        },
+        "200": {
+          $type: "color",
+          $value: "#ffe6ea"
+        },
+        "250": {
+          $type: "color",
+          $value: "#ffdbe0"
+        },
+        "300": {
+          $type: "color",
+          $value: "#ffcfd6"
+        },
+        "350": {
+          $type: "color",
+          $value: "#ffc4cc"
+        },
+        "400": {
+          $type: "color",
+          $value: "#ffb8c1"
+        },
+        "450": {
+          $type: "color",
+          $value: "#f897a2"
+        },
+        "500": {
+          $type: "color",
+          $value: "#ef7581"
+        },
+        "550": {
+          $type: "color",
+          $value: "#e44f5f"
+        },
+        "600": {
+          $type: "color",
+          $value: "#d7153a"
+        },
+        "650": {
+          $type: "color",
+          $value: "#b90e32"
+        },
+        "700": {
+          $type: "color",
+          $value: "#9b072a"
+        },
+        "750": {
+          $type: "color",
+          $value: "#7e0322"
+        },
+        "800": {
+          $type: "color",
+          $value: "#630019"
+        },
+        "850": {
+          $type: "color",
+          $value: "#4c0010"
+        },
+        "900": {
+          $type: "color",
+          $value: "#360008"
+        },
+        "950": {
+          $type: "color",
+          $value: "#210003"
+        }
       },
-      "accent-dark": {
-        value: "#b90e32",
-        type: "color"
-      },
-      "accent-darker": {
-        value: "#9b072a",
-        type: "color"
-      },
-      "accent-darkest": {
-        value: "#7e0322",
-        type: "color"
-      },
-      "success-lightest": {
-        value: "#c4e5c0",
-        type: "color"
-      },
-      "success-lighter": {
-        value: "#8fc78b",
-        type: "color"
-      },
-      "success-light": {
-        value: "#58a854",
-        type: "color"
-      },
-      success: {
-        value: "#008a07",
-        type: "color"
-      },
-      "success-dark": {
-        value: "#006a00",
-        type: "color"
-      },
-      "success-darker": {
-        value: "#004c00",
-        type: "color"
-      },
-      "success-darkest": {
-        value: "#002f00",
-        type: "color"
-      },
-      "warning-lightest": {
-        value: "#fdd2c0",
-        type: "color"
-      },
-      "warning-lighter": {
-        value: "#eea88a",
-        type: "color"
-      },
-      "warning-light": {
-        value: "#dd7d53",
-        type: "color"
-      },
-      warning: {
-        value: "#c95000",
-        type: "color"
-      },
-      "warning-dark": {
-        value: "#9d3a00",
-        type: "color"
-      },
-      "warning-darker": {
-        value: "#722600",
-        type: "color"
-      },
-      "warning-darkest": {
-        value: "#4b1200",
-        type: "color"
-      },
-      "error-lightest": {
-        value: "#fdc6c6",
-        type: "color"
-      },
-      "error-lighter": {
-        value: "#ea9295",
-        type: "color"
-      },
-      "error-light": {
-        value: "#d35d65",
-        type: "color"
-      },
-      error: {
-        value: "#b81237",
-        type: "color"
-      },
-      "error-dark": {
-        value: "#8f0327",
-        type: "color"
-      },
-      "error-darker": {
-        value: "#690018",
-        type: "color"
-      },
-      "error-darkest": {
-        value: "#44000a",
-        type: "color"
-      },
-      "info-lightest": {
-        value: "#acbbd5",
-        type: "color"
-      },
-      "info-lighter": {
-        value: "#8198c2",
-        type: "color"
-      },
-      "info-light": {
-        value: "#5775ae",
-        type: "color"
-      },
-      info: {
-        value: "#2e5299",
-        type: "color"
-      },
-      "info-dark": {
-        value: "#203d77",
-        type: "color"
-      },
-      "info-darker": {
-        value: "#132956",
-        type: "color"
-      },
-      "info-darkest": {
-        value: "#071738",
-        type: "color"
+      grey: {
+        "50": {
+          $type: "color",
+          $value: "#fafafa"
+        },
+        "100": {
+          $type: "color",
+          $value: "#f5f5f5"
+        },
+        "150": {
+          $type: "color",
+          $value: "#f0f0f0"
+        },
+        "200": {
+          $type: "color",
+          $value: "#ebebeb"
+        },
+        "250": {
+          $type: "color",
+          $value: "#e3e5e6"
+        },
+        "300": {
+          $type: "color",
+          $value: "#dcdfe0"
+        },
+        "350": {
+          $type: "color",
+          $value: "#d4d9db"
+        },
+        "400": {
+          $type: "color",
+          $value: "#cdd3d6"
+        },
+        "450": {
+          $type: "color",
+          $value: "#aab0b4"
+        },
+        "500": {
+          $type: "color",
+          $value: "#888f92"
+        },
+        "550": {
+          $type: "color",
+          $value: "#686f72"
+        },
+        "600": {
+          $type: "color",
+          $value: "#495054"
+        },
+        "650": {
+          $type: "color",
+          $value: "#3f4549"
+        },
+        "700": {
+          $type: "color",
+          $value: "#353b3f"
+        },
+        "750": {
+          $type: "color",
+          $value: "#2b3135"
+        },
+        "800": {
+          $type: "color",
+          $value: "#22272b"
+        },
+        "850": {
+          $type: "color",
+          $value: "#181c1f"
+        },
+        "900": {
+          $type: "color",
+          $value: "#0e1113"
+        },
+        "950": {
+          $type: "color",
+          $value: "#050709"
+        }
       }
     };
   }
 });
 
-// tokens/themes/masterbrand/color/hsl.json
+// tokens/themes/color/masterbrand/hsl.json
 var require_hsl2 = __commonJS({
-  "tokens/themes/masterbrand/color/hsl.json"(exports, module) {
+  "tokens/themes/color/masterbrand/hsl.json"(exports, module) {
     module.exports = {
-      "primary-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [216.77, 89.43, 43.98],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "primary-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [216.29, 94.14, 35],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "primary-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [216.37, 97.67, 26.93],
-          alpha: 1
-        },
-        type: "color"
-      },
       primary: {
-        value: {
-          colorSpace: "hsl",
-          channels: [217.2, 100, 19.61],
-          alpha: 1
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              199.45,
+              100,
+              97.34
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [218.95, 100, 14.93],
-          alpha: 1
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              199.38,
+              100,
+              94.73
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [222.31, 100, 10.59],
-          alpha: 1
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              199.3,
+              95.85,
+              92.09
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [228.65, 100, 6.6],
-          alpha: 1
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              199.2,
+              92.59,
+              89.41
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [199.45, 100, 97.34],
-          alpha: 1
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              198.5,
+              96.87,
+              86.75
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [199.38, 100, 94.73],
-          alpha: 1
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              197.76,
+              98.99,
+              83.89
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [199.3, 95.85, 92.09],
-          alpha: 1
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              197,
+              99.87,
+              80.82
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      secondary: {
-        value: {
-          colorSpace: "hsl",
-          channels: [199.2, 92.59, 89.41],
-          alpha: 1
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              196.17,
+              100,
+              77.45
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [198.5, 96.87, 86.75],
-          alpha: 1
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              199.74,
+              99.83,
+              67.57
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [197.76, 98.99, 83.89],
-          alpha: 1
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              202.52,
+              100,
+              57.55
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [197, 99.87, 80.82],
-          alpha: 1
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              204.76,
+              100,
+              46.97
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [199.74, 99.83, 67.57],
-          alpha: 1
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              217.34,
+              98.31,
+              53.53
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [202.52, 100, 57.55],
-          alpha: 1
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              216.77,
+              89.43,
+              43.98
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [204.76, 100, 46.97],
-          alpha: 1
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              216.29,
+              94.14,
+              35
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      tertiary: {
-        value: {
-          colorSpace: "hsl",
-          channels: [217.34, 98.31, 53.53],
-          alpha: 1
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              216.37,
+              97.67,
+              26.93
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [216.77, 89.43, 43.98],
-          alpha: 1
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              217.2,
+              100,
+              19.61
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [216.29, 94.14, 35],
-          alpha: 1
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              218.95,
+              100,
+              14.93
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [216.37, 97.67, 26.93],
-          alpha: 1
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              222.31,
+              100,
+              10.59
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [353.39, 86.96, 78.18],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "accent-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [353.95, 78.84, 69.69],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "accent-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [353.52, 73.17, 60.13],
-          alpha: 1
-        },
-        type: "color"
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              228.65,
+              100,
+              6.6
+            ],
+            alpha: 1
+          }
+        }
       },
       accent: {
-        value: {
-          colorSpace: "hsl",
-          channels: [348.56, 82.2, 46.27],
-          alpha: 1
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              350.85,
+              100,
+              98.97
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              350.7,
+              100,
+              97.7
+            ],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              350.55,
+              100,
+              96.41
+            ],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              350.4,
+              100,
+              95.1
+            ],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              350.92,
+              100,
+              92.94
+            ],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              351.43,
+              100,
+              90.72
+            ],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              351.92,
+              100,
+              88.44
+            ],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              352.39,
+              100,
+              86.08
+            ],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              353.39,
+              86.96,
+              78.18
+            ],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              353.95,
+              78.84,
+              69.69
+            ],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              353.52,
+              73.17,
+              60.13
+            ],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              348.56,
+              82.2,
+              46.27
+            ],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              347.26,
+              85.91,
+              38.92
+            ],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              345.89,
+              91,
+              31.81
+            ],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              345,
+              95.87,
+              25.31
+            ],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              344.85,
+              100,
+              19.41
+            ],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              346.11,
+              100,
+              14.46
+            ],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              349.15,
+              100,
+              10.03
+            ],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              352.16,
+              100,
+              6.06
+            ],
+            alpha: 1
+          }
+        }
       },
-      "accent-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [347.26, 85.91, 38.92],
-          alpha: 1
+      grey: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              223.81,
+              0,
+              98.03
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [345.89, 91, 31.81],
-          alpha: 1
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              223.81,
+              0,
+              96.06
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [345, 95.87, 25.31],
-          alpha: 1
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              223.81,
+              0,
+              94.11
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [114.97, 40.74, 82.58],
-          alpha: 1
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              223.81,
+              0,
+              92.16
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [115.71, 34.7, 66.15],
-          alpha: 1
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              200.05,
+              4.31,
+              89.64
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [117.04, 33.37, 49.53],
-          alpha: 1
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              200.03,
+              6.92,
+              87.13
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      success: {
-        value: {
-          colorSpace: "hsl",
-          channels: [123.04, 100, 27.06],
-          alpha: 1
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              200.02,
+              8.65,
+              84.64
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [122.96, 100, 19.1],
-          alpha: 1
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              200,
+              9.89,
+              82.16
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [122.88, 100, 12.74],
-          alpha: 1
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              200.47,
+              6.03,
+              68.52
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [122.85, 100, 7.59],
-          alpha: 1
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              200.94,
+              4.51,
+              55.36
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [17.74, 94.96, 87.24],
-          alpha: 1
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              201.39,
+              4.91,
+              42.76
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [17.94, 75.09, 73.77],
-          alpha: 1
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              201.82,
+              7.01,
+              30.78
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [18.45, 66.88, 59.6],
-          alpha: 1
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              203.03,
+              7.74,
+              26.71
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      warning: {
-        value: {
-          colorSpace: "hsl",
-          channels: [23.88, 100, 39.41],
-          alpha: 1
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              204.24,
+              8.68,
+              22.73
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [24.01, 100, 29.25],
-          alpha: 1
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              205.45,
+              9.93,
+              18.85
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [22.64, 100, 20.66],
-          alpha: 1
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              206.67,
+              11.69,
+              15.1
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [18.45, 100, 13.3],
-          alpha: 1
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              206.66,
+              13.37,
+              10.7
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "error-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [359.69, 92.79, 88.44],
-          alpha: 1
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              206.64,
+              17.01,
+              6.52
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "error-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [358.32, 67.18, 74.5],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [355.68, 57.14, 59.46],
-          alpha: 1
-        },
-        type: "color"
-      },
-      error: {
-        value: {
-          colorSpace: "hsl",
-          channels: [346.63, 82.18, 39.61],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [344.75, 95.33, 28.77],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [344.52, 100, 19.69],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [347.44, 100, 12.27],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-lightest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [218.63, 32.11, 75.49],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-lighter": {
-        value: {
-          colorSpace: "hsl",
-          channels: [218.81, 34.57, 63.16],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-light": {
-        value: {
-          colorSpace: "hsl",
-          channels: [219.17, 34.9, 51.02],
-          alpha: 1
-        },
-        type: "color"
-      },
-      info: {
-        value: {
-          colorSpace: "hsl",
-          channels: [219.81, 53.77, 39.02],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-dark": {
-        value: {
-          colorSpace: "hsl",
-          channels: [219.87, 57.48, 29.6],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-darker": {
-        value: {
-          colorSpace: "hsl",
-          channels: [219.94, 64.01, 20.66],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-darkest": {
-        value: {
-          colorSpace: "hsl",
-          channels: [220.32, 77.61, 12.34],
-          alpha: 1
-        },
-        type: "color"
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [
+              208.68,
+              23.47,
+              2.8
+            ],
+            alpha: 1
+          }
+        }
       }
     };
   }
 });
 
-// tokens/themes/masterbrand/color/oklch.json
+// tokens/themes/color/masterbrand/oklch.json
 var require_oklch2 = __commonJS({
-  "tokens/themes/masterbrand/color/oklch.json"(exports, module) {
+  "tokens/themes/color/masterbrand/oklch.json"(exports, module) {
     module.exports = {
-      "primary-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5038341615701663, 0.20169915825513662, 260.52773388396713],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "primary-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.43255566986372795, 0.17356468700683536, 260.29913478593846],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "primary-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.3612771781572896, 0.1454302157585341, 260.07053568790974],
-          alpha: 1
-        },
-        type: "color"
-      },
       primary: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.2899986864508513, 0.11729574451023282, 259.841936589881],
-          alpha: 1
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9816683948128555,
+              0.013540580086234762,
+              227.890755564881
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.23924891632195233, 0.0997013828336979, 259.841936589881],
-          alpha: 1
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9633367896257109,
+              0.022914827838243446,
+              227.890755564881
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.18849914619305336, 0.08210702115716298, 259.841936589881],
-          alpha: 1
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9450051844385663,
+              0.032289075590252125,
+              227.890755564881
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.13774937606415438, 0.06451265948062805, 259.841936589881],
-          alpha: 1
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9266735792514218,
+              0.04166332334226081,
+              227.890755564881
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.9816683948128555, 0.013540580086234762, 227.890755564881],
-          alpha: 1
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9110280326138016,
+              0.05428316129852959,
+              226.81685418252806
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.9633367896257109, 0.022914827838243446, 227.890755564881],
-          alpha: 1
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8953824859761815,
+              0.06690299925479838,
+              225.74295280017512
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.9450051844385663, 0.032289075590252125, 227.890755564881],
-          alpha: 1
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8797369393385615,
+              0.07952283721106716,
+              224.66905141782217
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      secondary: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.9266735792514218, 0.04166332334226081, 227.890755564881],
-          alpha: 1
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8640913927009413,
+              0.09214267516733594,
+              223.59515003546923
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.9110280326138016, 0.05428316129852959, 226.81685418252806],
-          alpha: 1
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.7918467078448571,
+              0.12656541375136143,
+              232.8854457721009
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.8953824859761815, 0.06690299925479838, 225.74295280017512],
-          alpha: 1
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.719602022988773,
+              0.1609881523353869,
+              242.17574150873253
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.8797369393385615, 0.07952283721106716, 224.66905141782217],
-          alpha: 1
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.6473573381326887,
+              0.19541089091941238,
+              251.4660372453642
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.7918467078448571, 0.12656541375136143, 232.8854457721009],
-          alpha: 1
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.5751126532766045,
+              0.2298336295034379,
+              260.75633298199585
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.719602022988773, 0.1609881523353869, 242.17574150873253],
-          alpha: 1
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.5038341615701663,
+              0.20169915825513662,
+              260.52773388396713
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.6473573381326887, 0.19541089091941238, 251.4660372453642],
-          alpha: 1
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.43255566986372795,
+              0.17356468700683536,
+              260.29913478593846
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      tertiary: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5751126532766045, 0.2298336295034379, 260.75633298199585],
-          alpha: 1
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.3612771781572896,
+              0.1454302157585341,
+              260.07053568790974
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5038341615701663, 0.20169915825513662, 260.52773388396713],
-          alpha: 1
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.2899986864508513,
+              0.11729574451023282,
+              259.841936589881
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.43255566986372795, 0.17356468700683536, 260.29913478593846],
-          alpha: 1
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.23924891632195233,
+              0.0997013828336979,
+              259.841936589881
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.3612771781572896, 0.1454302157585341, 260.07053568790974],
-          alpha: 1
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.18849914619305336,
+              0.08210702115716298,
+              259.841936589881
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.7786513285230947, 0.11664880226231811, 13.011419492803782],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "accent-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.7064193584802577, 0.15026753878948967, 15.45213465296721],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "accent-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.6341873884374207, 0.18388627531666124, 17.892849813130642],
-          alpha: 1
-        },
-        type: "color"
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.13774937606415438,
+              0.06451265948062805,
+              259.841936589881
+            ],
+            alpha: 1
+          }
+        }
       },
       accent: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5619554183945837, 0.2175050118438328, 20.33356497329407],
-          alpha: 1
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9865629857873716,
+              0.009043874600495525,
+              6.653158456152784
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9731259715747431,
+              0.015305018554684736,
+              6.653158456152784
+            ],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9596889573621147,
+              0.021566162508873946,
+              6.653158456152784
+            ],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9462519431494862,
+              0.027827306463063157,
+              6.653158456152784
+            ],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9224097820035976,
+              0.041627996281084,
+              7.632544925274676
+            ],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8985676208577089,
+              0.05542868609910484,
+              8.611931394396567
+            ],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8747254597118204,
+              0.06922937591712569,
+              9.59131786351846
+            ],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8508832985659317,
+              0.08303006573514653,
+              10.570704332640352
+            ],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.7786513285230947,
+              0.11664880226231811,
+              13.011419492803782
+            ],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.7064193584802577,
+              0.15026753878948967,
+              15.45213465296721
+            ],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.6341873884374207,
+              0.18388627531666124,
+              17.892849813130642
+            ],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.5619554183945837,
+              0.2175050118438328,
+              20.33356497329407
+            ],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.5007084126233001,
+              0.1948505033631296,
+              19.53345435711309
+            ],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.4394614068520166,
+              0.17219599488242637,
+              18.733343740932114
+            ],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.3782144010807331,
+              0.14954148640172313,
+              17.933233124751133
+            ],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.31696739530944956,
+              0.1268869779210199,
+              17.133122508570153
+            ],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.2614981011302959,
+              0.10785393123286692,
+              17.133122508570153
+            ],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.20602880695114223,
+              0.08882088454471393,
+              17.133122508570153
+            ],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.15055951277198854,
+              0.06978783785656095,
+              17.133122508570153
+            ],
+            alpha: 1
+          }
+        }
       },
-      "accent-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5007084126233001, 0.1948505033631296, 19.53345435711309],
-          alpha: 1
+      grey: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9850175274112574,
+              0,
+              null
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.4394614068520166, 0.17219599488242637, 18.733343740932114],
-          alpha: 1
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9700350548225147,
+              0,
+              null
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.3782144010807331, 0.14954148640172313, 17.933233124751133],
-          alpha: 1
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9550525822337722,
+              0,
+              null
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.8872601819234176, 0.060106868790808454, 142.8007543325396],
-          alpha: 1
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9400701096450296,
+              0,
+              null
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.7745203638468352, 0.1017193164152143, 142.8007543325396],
-          alpha: 1
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9208267112856119,
+              0.0019440594503795112,
+              228.8687380011113
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.6617805457702527, 0.14333176403962014, 142.8007543325396],
-          alpha: 1
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.9015833129261941,
+              0.0038881189007590215,
+              228.8687380011113
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      success: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5490407276936703, 0.184944211664026, 142.8007543325396],
-          alpha: 1
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8823399145667763,
+              0.005832178351138532,
+              228.8687380011113
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.452958600347278, 0.1572025799144221, 142.8007543325396],
-          alpha: 1
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.8630965162073586,
+              0.007776237801518043,
+              228.8687380011113
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.35687647300088565, 0.1294609481648182, 142.8007543325396],
-          alpha: 1
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.7539290831519737,
+              0.008632737257709678,
+              229.8058410593526
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.2607943456544934, 0.1017193164152143, 142.8007543325396],
-          alpha: 1
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.6447616500965888,
+              0.009489236713901311,
+              230.74294411759388
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.8958326078740171, 0.05515411503535715, 43.99726534950394],
-          alpha: 1
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.5355942170412039,
+              0.010345736170092946,
+              231.68004717583517
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.7916652157480342, 0.09333773313675825, 43.99726534950394],
-          alpha: 1
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.426426783985819,
+              0.011202235626284581,
+              232.61715023407646
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.6874978236220514, 0.13152135123815933, 43.99726534950394],
-          alpha: 1
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.3871732148397997,
+              0.010991669591883444,
+              234.98382249287215
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      warning: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5833304314960684, 0.16970496933956045, 43.99726534950394],
-          alpha: 1
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.3479196456937804,
+              0.010781103557482309,
+              237.35049475166784
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.4812476059842564, 0.14424922393862638, 43.99726534950394],
-          alpha: 1
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.3086660765477611,
+              0.010570537523081174,
+              239.71716701046353
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.3791647804724445, 0.11879347853769232, 43.99726534950394],
-          alpha: 1
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.26941250740174183,
+              0.010359971488680036,
+              242.08383926925922
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.2770819549606325, 0.09333773313675825, 43.99726534950394],
-          alpha: 1
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.222265318606437,
+              0.00880597576537803,
+              242.08383926925922
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "error-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.8754989819725543, 0.06263564750632042, 18.079140916466272],
-          alpha: 1
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.17511812981113217,
+              0.007251980042076026,
+              242.08383926925922
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "error-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.7509979639451086, 0.10599878808761917, 18.079140916466272],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.626496945917663, 0.14936192866891793, 18.079140916466272],
-          alpha: 1
-        },
-        type: "color"
-      },
-      error: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5019959278902173, 0.19272506925021668, 18.079140916466272],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.4141466405094293, 0.16381630886268417, 18.079140916466272],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.3262973531286413, 0.13490754847515168, 18.079140916466272],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.2384480657478532, 0.10599878808761917, 18.079140916466272],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-lightest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.7885885178062633, 0.04006699378315225, 262.3514946368672],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-lighter": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.6759330152625114, 0.06780568178687302, 262.3514946368672],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-light": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.5632775127187595, 0.0955443697905938, 262.3514946368672],
-          alpha: 1
-        },
-        type: "color"
-      },
-      info: {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.4506220101750076, 0.12328305779431457, 262.3514946368672],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-dark": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.37176315839438123, 0.10479059912516739, 262.3514946368672],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-darker": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.2929043066137549, 0.0862981404560202, 262.3514946368672],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-darkest": {
-        value: {
-          colorSpace: "oklch",
-          channels: [0.2140454548331286, 0.06780568178687302, 262.3514946368672],
-          alpha: 1
-        },
-        type: "color"
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [
+              0.12797094101582737,
+              0.005697984318774021,
+              242.08383926925922
+            ],
+            alpha: 1
+          }
+        }
       }
     };
   }
 });
 
-// tokens/themes/masterbrand/color/rgb.json
+// tokens/themes/color/masterbrand/rgb.json
 var require_rgb2 = __commonJS({
-  "tokens/themes/masterbrand/color/rgb.json"(exports, module) {
+  "tokens/themes/color/masterbrand/rgb.json"(exports, module) {
     module.exports = {
-      "primary-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [12, 90, 212],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "primary-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [5, 72, 173],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "primary-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [2, 54, 136],
-          alpha: 1
-        },
-        type: "color"
-      },
       primary: {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 38, 100],
-          alpha: 1
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              240,
+              251,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 26, 77],
-          alpha: 1
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              228,
+              246,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 16, 55],
-          alpha: 1
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              215,
+              242,
+              254
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "primary-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 6, 34],
-          alpha: 1
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              203,
+              237,
+              253
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [240, 251, 255],
-          alpha: 1
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              188,
+              234,
+              254
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [228, 246, 255],
-          alpha: 1
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              173,
+              231,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [215, 242, 254],
-          alpha: 1
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              157,
+              227,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      secondary: {
-        value: {
-          colorSpace: "rgb",
-          channels: [203, 237, 253],
-          alpha: 1
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              140,
+              224,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [188, 234, 254],
-          alpha: 1
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              90,
+              201,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [173, 231, 255],
-          alpha: 1
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              38,
+              174,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "secondary-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [157, 227, 255],
-          alpha: 1
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              0,
+              143,
+              255
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [90, 201, 255],
-          alpha: 1
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              20,
+              108,
+              253
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [38, 174, 255],
-          alpha: 1
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              12,
+              90,
+              212
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 143, 255],
-          alpha: 1
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              5,
+              72,
+              173
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      tertiary: {
-        value: {
-          colorSpace: "rgb",
-          channels: [20, 108, 253],
-          alpha: 1
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              2,
+              54,
+              136
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [12, 90, 212],
-          alpha: 1
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              0,
+              38,
+              100
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [5, 72, 173],
-          alpha: 1
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              0,
+              26,
+              77
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "tertiary-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [2, 54, 136],
-          alpha: 1
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              0,
+              16,
+              55
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [248, 151, 162],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "accent-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [239, 117, 129],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "accent-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [228, 79, 95],
-          alpha: 1
-        },
-        type: "color"
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              0,
+              6,
+              34
+            ],
+            alpha: 1
+          }
+        }
       },
       accent: {
-        value: {
-          colorSpace: "rgb",
-          channels: [215, 21, 58],
-          alpha: 1
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              248,
+              249
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              242,
+              244
+            ],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              236,
+              239
+            ],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              230,
+              234
+            ],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              219,
+              224
+            ],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              207,
+              214
+            ],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              196,
+              204
+            ],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              255,
+              184,
+              193
+            ],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              248,
+              151,
+              162
+            ],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              239,
+              117,
+              129
+            ],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              228,
+              79,
+              95
+            ],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              215,
+              21,
+              58
+            ],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              185,
+              14,
+              50
+            ],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              155,
+              7,
+              42
+            ],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              126,
+              3,
+              34
+            ],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              99,
+              0,
+              25
+            ],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              76,
+              0,
+              16
+            ],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              54,
+              0,
+              8
+            ],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              33,
+              0,
+              3
+            ],
+            alpha: 1
+          }
+        }
       },
-      "accent-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [185, 14, 50],
-          alpha: 1
+      grey: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              250,
+              250,
+              250
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [155, 7, 42],
-          alpha: 1
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              245,
+              245,
+              245
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "accent-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [126, 3, 34],
-          alpha: 1
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              240,
+              240,
+              240
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [196, 229, 192],
-          alpha: 1
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              235,
+              235,
+              235
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [143, 199, 139],
-          alpha: 1
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              227,
+              229,
+              230
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [88, 168, 84],
-          alpha: 1
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              220,
+              223,
+              224
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      success: {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 138, 7],
-          alpha: 1
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              212,
+              217,
+              219
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 106, 0],
-          alpha: 1
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              205,
+              211,
+              214
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 76, 0],
-          alpha: 1
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              170,
+              176,
+              180
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "success-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [0, 47, 0],
-          alpha: 1
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              136,
+              143,
+              146
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [253, 210, 192],
-          alpha: 1
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              104,
+              111,
+              114
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [238, 168, 138],
-          alpha: 1
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              73,
+              80,
+              84
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [221, 125, 83],
-          alpha: 1
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              63,
+              69,
+              73
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      warning: {
-        value: {
-          colorSpace: "rgb",
-          channels: [201, 80, 0],
-          alpha: 1
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              53,
+              59,
+              63
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [157, 58, 0],
-          alpha: 1
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              43,
+              49,
+              53
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [114, 38, 0],
-          alpha: 1
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              34,
+              39,
+              43
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "warning-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [75, 18, 0],
-          alpha: 1
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              24,
+              28,
+              31
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "error-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [253, 198, 198],
-          alpha: 1
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              14,
+              17,
+              19
+            ],
+            alpha: 1
+          }
         },
-        type: "color"
-      },
-      "error-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [234, 146, 149],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [211, 93, 101],
-          alpha: 1
-        },
-        type: "color"
-      },
-      error: {
-        value: {
-          colorSpace: "rgb",
-          channels: [184, 18, 55],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [143, 3, 39],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [105, 0, 24],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "error-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [68, 0, 10],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-lightest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [172, 187, 213],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-lighter": {
-        value: {
-          colorSpace: "rgb",
-          channels: [129, 152, 194],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-light": {
-        value: {
-          colorSpace: "rgb",
-          channels: [87, 117, 174],
-          alpha: 1
-        },
-        type: "color"
-      },
-      info: {
-        value: {
-          colorSpace: "rgb",
-          channels: [46, 82, 153],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-dark": {
-        value: {
-          colorSpace: "rgb",
-          channels: [32, 61, 119],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-darker": {
-        value: {
-          colorSpace: "rgb",
-          channels: [19, 41, 86],
-          alpha: 1
-        },
-        type: "color"
-      },
-      "info-darkest": {
-        value: {
-          colorSpace: "rgb",
-          channels: [7, 23, 56],
-          alpha: 1
-        },
-        type: "color"
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [
+              5,
+              7,
+              9
+            ],
+            alpha: 1
+          }
+        }
       }
     };
   }
@@ -12909,76 +13645,67 @@ var require_hex4 = __commonJS({
   "src/json/colors/themes/masterbrand/hex.json"(exports, module) {
     module.exports = {
       primary: {
-        "primary-lightest": "#0c5ad4",
-        "primary-lighter": "#0548ad",
-        "primary-light": "#023688",
-        primary: "#002664",
-        "primary-dark": "#001a4d",
-        "primary-darker": "#001037",
-        "primary-darkest": "#000622"
-      },
-      secondary: {
-        "secondary-lightest": "#f0fbff",
-        "secondary-lighter": "#e4f6ff",
-        "secondary-light": "#d7f2fe",
-        secondary: "#cbedfd",
-        "secondary-dark": "#bceafe",
-        "secondary-darker": "#ade7ff",
-        "secondary-darkest": "#9de3ff"
-      },
-      tertiary: {
-        "tertiary-lightest": "#5ac9ff",
-        "tertiary-lighter": "#26aeff",
-        "tertiary-light": "#008fff",
-        tertiary: "#146cfd",
-        "tertiary-dark": "#0c5ad4",
-        "tertiary-darker": "#0548ad",
-        "tertiary-darkest": "#023688"
+        "primary-50": "#f0fbff",
+        "primary-100": "#e4f6ff",
+        "primary-150": "#d7f2fe",
+        "primary-200": "#cbedfd",
+        "primary-250": "#bceafe",
+        "primary-300": "#ade7ff",
+        "primary-350": "#9de3ff",
+        "primary-400": "#8ce0ff",
+        "primary-450": "#5ac9ff",
+        "primary-500": "#26aeff",
+        "primary-550": "#008fff",
+        "primary-600": "#146cfd",
+        "primary-650": "#0c5ad4",
+        "primary-700": "#0548ad",
+        "primary-750": "#023688",
+        "primary-800": "#002664",
+        "primary-850": "#001a4d",
+        "primary-900": "#001037",
+        "primary-950": "#000622"
       },
       accent: {
-        "accent-lightest": "#f897a2",
-        "accent-lighter": "#ef7581",
-        "accent-light": "#e44f5f",
-        accent: "#d7153a",
-        "accent-dark": "#b90e32",
-        "accent-darker": "#9b072a",
-        "accent-darkest": "#7e0322"
+        "accent-50": "#fff8f9",
+        "accent-100": "#fff2f4",
+        "accent-150": "#ffecef",
+        "accent-200": "#ffe6ea",
+        "accent-250": "#ffdbe0",
+        "accent-300": "#ffcfd6",
+        "accent-350": "#ffc4cc",
+        "accent-400": "#ffb8c1",
+        "accent-450": "#f897a2",
+        "accent-500": "#ef7581",
+        "accent-550": "#e44f5f",
+        "accent-600": "#d7153a",
+        "accent-650": "#b90e32",
+        "accent-700": "#9b072a",
+        "accent-750": "#7e0322",
+        "accent-800": "#630019",
+        "accent-850": "#4c0010",
+        "accent-900": "#360008",
+        "accent-950": "#210003"
       },
-      success: {
-        "success-lightest": "#c4e5c0",
-        "success-lighter": "#8fc78b",
-        "success-light": "#58a854",
-        success: "#008a07",
-        "success-dark": "#006a00",
-        "success-darker": "#004c00",
-        "success-darkest": "#002f00"
-      },
-      warning: {
-        "warning-lightest": "#fdd2c0",
-        "warning-lighter": "#eea88a",
-        "warning-light": "#dd7d53",
-        warning: "#c95000",
-        "warning-dark": "#9d3a00",
-        "warning-darker": "#722600",
-        "warning-darkest": "#4b1200"
-      },
-      error: {
-        "error-lightest": "#fdc6c6",
-        "error-lighter": "#ea9295",
-        "error-light": "#d35d65",
-        error: "#b81237",
-        "error-dark": "#8f0327",
-        "error-darker": "#690018",
-        "error-darkest": "#44000a"
-      },
-      info: {
-        "info-lightest": "#acbbd5",
-        "info-lighter": "#8198c2",
-        "info-light": "#5775ae",
-        info: "#2e5299",
-        "info-dark": "#203d77",
-        "info-darker": "#132956",
-        "info-darkest": "#071738"
+      grey: {
+        "grey-50": "#fafafa",
+        "grey-100": "#f5f5f5",
+        "grey-150": "#f0f0f0",
+        "grey-200": "#ebebeb",
+        "grey-250": "#e3e5e6",
+        "grey-300": "#dcdfe0",
+        "grey-350": "#d4d9db",
+        "grey-400": "#cdd3d6",
+        "grey-450": "#aab0b4",
+        "grey-500": "#888f92",
+        "grey-550": "#686f72",
+        "grey-600": "#495054",
+        "grey-650": "#3f4549",
+        "grey-700": "#353b3f",
+        "grey-750": "#2b3135",
+        "grey-800": "#22272b",
+        "grey-850": "#181c1f",
+        "grey-900": "#0e1113",
+        "grey-950": "#050709"
       }
     };
   }
@@ -12989,76 +13716,67 @@ var require_hsl4 = __commonJS({
   "src/json/colors/themes/masterbrand/hsl.json"(exports, module) {
     module.exports = {
       primary: {
-        "primary-lightest": "hsl(216.77, 89.43%, 43.98%)",
-        "primary-lighter": "hsl(216.29, 94.14%, 35%)",
-        "primary-light": "hsl(216.37, 97.67%, 26.93%)",
-        primary: "hsl(217.2, 100%, 19.61%)",
-        "primary-dark": "hsl(218.95, 100%, 14.93%)",
-        "primary-darker": "hsl(222.31, 100%, 10.59%)",
-        "primary-darkest": "hsl(228.65, 100%, 6.6%)"
-      },
-      secondary: {
-        "secondary-lightest": "hsl(199.45, 100%, 97.34%)",
-        "secondary-lighter": "hsl(199.38, 100%, 94.73%)",
-        "secondary-light": "hsl(199.3, 95.85%, 92.09%)",
-        secondary: "hsl(199.2, 92.59%, 89.41%)",
-        "secondary-dark": "hsl(198.5, 96.87%, 86.75%)",
-        "secondary-darker": "hsl(197.76, 98.99%, 83.89%)",
-        "secondary-darkest": "hsl(197, 99.87%, 80.82%)"
-      },
-      tertiary: {
-        "tertiary-lightest": "hsl(199.74, 99.83%, 67.57%)",
-        "tertiary-lighter": "hsl(202.52, 100%, 57.55%)",
-        "tertiary-light": "hsl(204.76, 100%, 46.97%)",
-        tertiary: "hsl(217.34, 98.31%, 53.53%)",
-        "tertiary-dark": "hsl(216.77, 89.43%, 43.98%)",
-        "tertiary-darker": "hsl(216.29, 94.14%, 35%)",
-        "tertiary-darkest": "hsl(216.37, 97.67%, 26.93%)"
+        "primary-50": "hsl(199.45, 100%, 97.34%)",
+        "primary-100": "hsl(199.38, 100%, 94.73%)",
+        "primary-150": "hsl(199.3, 95.85%, 92.09%)",
+        "primary-200": "hsl(199.2, 92.59%, 89.41%)",
+        "primary-250": "hsl(198.5, 96.87%, 86.75%)",
+        "primary-300": "hsl(197.76, 98.99%, 83.89%)",
+        "primary-350": "hsl(197, 99.87%, 80.82%)",
+        "primary-400": "hsl(196.17, 100%, 77.45%)",
+        "primary-450": "hsl(199.74, 99.83%, 67.57%)",
+        "primary-500": "hsl(202.52, 100%, 57.55%)",
+        "primary-550": "hsl(204.76, 100%, 46.97%)",
+        "primary-600": "hsl(217.34, 98.31%, 53.53%)",
+        "primary-650": "hsl(216.77, 89.43%, 43.98%)",
+        "primary-700": "hsl(216.29, 94.14%, 35%)",
+        "primary-750": "hsl(216.37, 97.67%, 26.93%)",
+        "primary-800": "hsl(217.2, 100%, 19.61%)",
+        "primary-850": "hsl(218.95, 100%, 14.93%)",
+        "primary-900": "hsl(222.31, 100%, 10.59%)",
+        "primary-950": "hsl(228.65, 100%, 6.6%)"
       },
       accent: {
-        "accent-lightest": "hsl(353.39, 86.96%, 78.18%)",
-        "accent-lighter": "hsl(353.95, 78.84%, 69.69%)",
-        "accent-light": "hsl(353.52, 73.17%, 60.13%)",
-        accent: "hsl(348.56, 82.2%, 46.27%)",
-        "accent-dark": "hsl(347.26, 85.91%, 38.92%)",
-        "accent-darker": "hsl(345.89, 91%, 31.81%)",
-        "accent-darkest": "hsl(345, 95.87%, 25.31%)"
+        "accent-50": "hsl(350.85, 100%, 98.97%)",
+        "accent-100": "hsl(350.7, 100%, 97.7%)",
+        "accent-150": "hsl(350.55, 100%, 96.41%)",
+        "accent-200": "hsl(350.4, 100%, 95.1%)",
+        "accent-250": "hsl(350.92, 100%, 92.94%)",
+        "accent-300": "hsl(351.43, 100%, 90.72%)",
+        "accent-350": "hsl(351.92, 100%, 88.44%)",
+        "accent-400": "hsl(352.39, 100%, 86.08%)",
+        "accent-450": "hsl(353.39, 86.96%, 78.18%)",
+        "accent-500": "hsl(353.95, 78.84%, 69.69%)",
+        "accent-550": "hsl(353.52, 73.17%, 60.13%)",
+        "accent-600": "hsl(348.56, 82.2%, 46.27%)",
+        "accent-650": "hsl(347.26, 85.91%, 38.92%)",
+        "accent-700": "hsl(345.89, 91%, 31.81%)",
+        "accent-750": "hsl(345, 95.87%, 25.31%)",
+        "accent-800": "hsl(344.85, 100%, 19.41%)",
+        "accent-850": "hsl(346.11, 100%, 14.46%)",
+        "accent-900": "hsl(349.15, 100%, 10.03%)",
+        "accent-950": "hsl(352.16, 100%, 6.06%)"
       },
-      success: {
-        "success-lightest": "hsl(114.97, 40.74%, 82.58%)",
-        "success-lighter": "hsl(115.71, 34.7%, 66.15%)",
-        "success-light": "hsl(117.04, 33.37%, 49.53%)",
-        success: "hsl(123.04, 100%, 27.06%)",
-        "success-dark": "hsl(122.96, 100%, 19.1%)",
-        "success-darker": "hsl(122.88, 100%, 12.74%)",
-        "success-darkest": "hsl(122.85, 100%, 7.59%)"
-      },
-      warning: {
-        "warning-lightest": "hsl(17.74, 94.96%, 87.24%)",
-        "warning-lighter": "hsl(17.94, 75.09%, 73.77%)",
-        "warning-light": "hsl(18.45, 66.88%, 59.6%)",
-        warning: "hsl(23.88, 100%, 39.41%)",
-        "warning-dark": "hsl(24.01, 100%, 29.25%)",
-        "warning-darker": "hsl(22.64, 100%, 20.66%)",
-        "warning-darkest": "hsl(18.45, 100%, 13.3%)"
-      },
-      error: {
-        "error-lightest": "hsl(359.69, 92.79%, 88.44%)",
-        "error-lighter": "hsl(358.32, 67.18%, 74.5%)",
-        "error-light": "hsl(355.68, 57.14%, 59.46%)",
-        error: "hsl(346.63, 82.18%, 39.61%)",
-        "error-dark": "hsl(344.75, 95.33%, 28.77%)",
-        "error-darker": "hsl(344.52, 100%, 19.69%)",
-        "error-darkest": "hsl(347.44, 100%, 12.27%)"
-      },
-      info: {
-        "info-lightest": "hsl(218.63, 32.11%, 75.49%)",
-        "info-lighter": "hsl(218.81, 34.57%, 63.16%)",
-        "info-light": "hsl(219.17, 34.9%, 51.02%)",
-        info: "hsl(219.81, 53.77%, 39.02%)",
-        "info-dark": "hsl(219.87, 57.48%, 29.6%)",
-        "info-darker": "hsl(219.94, 64.01%, 20.66%)",
-        "info-darkest": "hsl(220.32, 77.61%, 12.34%)"
+      grey: {
+        "grey-50": "hsl(223.81, 0%, 98.03%)",
+        "grey-100": "hsl(223.81, 0%, 96.06%)",
+        "grey-150": "hsl(223.81, 0%, 94.11%)",
+        "grey-200": "hsl(223.81, 0%, 92.16%)",
+        "grey-250": "hsl(200.05, 4.31%, 89.64%)",
+        "grey-300": "hsl(200.03, 6.92%, 87.13%)",
+        "grey-350": "hsl(200.02, 8.65%, 84.64%)",
+        "grey-400": "hsl(200, 9.89%, 82.16%)",
+        "grey-450": "hsl(200.47, 6.03%, 68.52%)",
+        "grey-500": "hsl(200.94, 4.51%, 55.36%)",
+        "grey-550": "hsl(201.39, 4.91%, 42.76%)",
+        "grey-600": "hsl(201.82, 7.01%, 30.78%)",
+        "grey-650": "hsl(203.03, 7.74%, 26.71%)",
+        "grey-700": "hsl(204.24, 8.68%, 22.73%)",
+        "grey-750": "hsl(205.45, 9.93%, 18.85%)",
+        "grey-800": "hsl(206.67, 11.69%, 15.1%)",
+        "grey-850": "hsl(206.66, 13.37%, 10.7%)",
+        "grey-900": "hsl(206.64, 17.01%, 6.52%)",
+        "grey-950": "hsl(208.68, 23.47%, 2.8%)"
       }
     };
   }
@@ -13069,76 +13787,67 @@ var require_oklch4 = __commonJS({
   "src/json/colors/themes/masterbrand/oklch.json"(exports, module) {
     module.exports = {
       primary: {
-        "primary-lightest": "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
-        "primary-lighter": "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
-        "primary-light": "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)",
-        primary: "oklch(0.2899986864508513 0.11729574451023282 259.841936589881)",
-        "primary-dark": "oklch(0.23924891632195233 0.0997013828336979 259.841936589881)",
-        "primary-darker": "oklch(0.18849914619305336 0.08210702115716298 259.841936589881)",
-        "primary-darkest": "oklch(0.13774937606415438 0.06451265948062805 259.841936589881)"
-      },
-      secondary: {
-        "secondary-lightest": "oklch(0.9816683948128555 0.013540580086234762 227.890755564881)",
-        "secondary-lighter": "oklch(0.9633367896257109 0.022914827838243446 227.890755564881)",
-        "secondary-light": "oklch(0.9450051844385663 0.032289075590252125 227.890755564881)",
-        secondary: "oklch(0.9266735792514218 0.04166332334226081 227.890755564881)",
-        "secondary-dark": "oklch(0.9110280326138016 0.05428316129852959 226.81685418252806)",
-        "secondary-darker": "oklch(0.8953824859761815 0.06690299925479838 225.74295280017512)",
-        "secondary-darkest": "oklch(0.8797369393385615 0.07952283721106716 224.66905141782217)"
-      },
-      tertiary: {
-        "tertiary-lightest": "oklch(0.7918467078448571 0.12656541375136143 232.8854457721009)",
-        "tertiary-lighter": "oklch(0.719602022988773 0.1609881523353869 242.17574150873253)",
-        "tertiary-light": "oklch(0.6473573381326887 0.19541089091941238 251.4660372453642)",
-        tertiary: "oklch(0.5751126532766045 0.2298336295034379 260.75633298199585)",
-        "tertiary-dark": "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
-        "tertiary-darker": "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
-        "tertiary-darkest": "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)"
+        "primary-50": "oklch(0.9816683948128555 0.013540580086234762 227.890755564881)",
+        "primary-100": "oklch(0.9633367896257109 0.022914827838243446 227.890755564881)",
+        "primary-150": "oklch(0.9450051844385663 0.032289075590252125 227.890755564881)",
+        "primary-200": "oklch(0.9266735792514218 0.04166332334226081 227.890755564881)",
+        "primary-250": "oklch(0.9110280326138016 0.05428316129852959 226.81685418252806)",
+        "primary-300": "oklch(0.8953824859761815 0.06690299925479838 225.74295280017512)",
+        "primary-350": "oklch(0.8797369393385615 0.07952283721106716 224.66905141782217)",
+        "primary-400": "oklch(0.8640913927009413 0.09214267516733594 223.59515003546923)",
+        "primary-450": "oklch(0.7918467078448571 0.12656541375136143 232.8854457721009)",
+        "primary-500": "oklch(0.719602022988773 0.1609881523353869 242.17574150873253)",
+        "primary-550": "oklch(0.6473573381326887 0.19541089091941238 251.4660372453642)",
+        "primary-600": "oklch(0.5751126532766045 0.2298336295034379 260.75633298199585)",
+        "primary-650": "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
+        "primary-700": "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
+        "primary-750": "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)",
+        "primary-800": "oklch(0.2899986864508513 0.11729574451023282 259.841936589881)",
+        "primary-850": "oklch(0.23924891632195233 0.0997013828336979 259.841936589881)",
+        "primary-900": "oklch(0.18849914619305336 0.08210702115716298 259.841936589881)",
+        "primary-950": "oklch(0.13774937606415438 0.06451265948062805 259.841936589881)"
       },
       accent: {
-        "accent-lightest": "oklch(0.7786513285230947 0.11664880226231811 13.011419492803782)",
-        "accent-lighter": "oklch(0.7064193584802577 0.15026753878948967 15.45213465296721)",
-        "accent-light": "oklch(0.6341873884374207 0.18388627531666124 17.892849813130642)",
-        accent: "oklch(0.5619554183945837 0.2175050118438328 20.33356497329407)",
-        "accent-dark": "oklch(0.5007084126233001 0.1948505033631296 19.53345435711309)",
-        "accent-darker": "oklch(0.4394614068520166 0.17219599488242637 18.733343740932114)",
-        "accent-darkest": "oklch(0.3782144010807331 0.14954148640172313 17.933233124751133)"
+        "accent-50": "oklch(0.9865629857873716 0.009043874600495525 6.653158456152784)",
+        "accent-100": "oklch(0.9731259715747431 0.015305018554684736 6.653158456152784)",
+        "accent-150": "oklch(0.9596889573621147 0.021566162508873946 6.653158456152784)",
+        "accent-200": "oklch(0.9462519431494862 0.027827306463063157 6.653158456152784)",
+        "accent-250": "oklch(0.9224097820035976 0.041627996281084 7.632544925274676)",
+        "accent-300": "oklch(0.8985676208577089 0.05542868609910484 8.611931394396567)",
+        "accent-350": "oklch(0.8747254597118204 0.06922937591712569 9.59131786351846)",
+        "accent-400": "oklch(0.8508832985659317 0.08303006573514653 10.570704332640352)",
+        "accent-450": "oklch(0.7786513285230947 0.11664880226231811 13.011419492803782)",
+        "accent-500": "oklch(0.7064193584802577 0.15026753878948967 15.45213465296721)",
+        "accent-550": "oklch(0.6341873884374207 0.18388627531666124 17.892849813130642)",
+        "accent-600": "oklch(0.5619554183945837 0.2175050118438328 20.33356497329407)",
+        "accent-650": "oklch(0.5007084126233001 0.1948505033631296 19.53345435711309)",
+        "accent-700": "oklch(0.4394614068520166 0.17219599488242637 18.733343740932114)",
+        "accent-750": "oklch(0.3782144010807331 0.14954148640172313 17.933233124751133)",
+        "accent-800": "oklch(0.31696739530944956 0.1268869779210199 17.133122508570153)",
+        "accent-850": "oklch(0.2614981011302959 0.10785393123286692 17.133122508570153)",
+        "accent-900": "oklch(0.20602880695114223 0.08882088454471393 17.133122508570153)",
+        "accent-950": "oklch(0.15055951277198854 0.06978783785656095 17.133122508570153)"
       },
-      success: {
-        "success-lightest": "oklch(0.8872601819234176 0.060106868790808454 142.8007543325396)",
-        "success-lighter": "oklch(0.7745203638468352 0.1017193164152143 142.8007543325396)",
-        "success-light": "oklch(0.6617805457702527 0.14333176403962014 142.8007543325396)",
-        success: "oklch(0.5490407276936703 0.184944211664026 142.8007543325396)",
-        "success-dark": "oklch(0.452958600347278 0.1572025799144221 142.8007543325396)",
-        "success-darker": "oklch(0.35687647300088565 0.1294609481648182 142.8007543325396)",
-        "success-darkest": "oklch(0.2607943456544934 0.1017193164152143 142.8007543325396)"
-      },
-      warning: {
-        "warning-lightest": "oklch(0.8958326078740171 0.05515411503535715 43.99726534950394)",
-        "warning-lighter": "oklch(0.7916652157480342 0.09333773313675825 43.99726534950394)",
-        "warning-light": "oklch(0.6874978236220514 0.13152135123815933 43.99726534950394)",
-        warning: "oklch(0.5833304314960684 0.16970496933956045 43.99726534950394)",
-        "warning-dark": "oklch(0.4812476059842564 0.14424922393862638 43.99726534950394)",
-        "warning-darker": "oklch(0.3791647804724445 0.11879347853769232 43.99726534950394)",
-        "warning-darkest": "oklch(0.2770819549606325 0.09333773313675825 43.99726534950394)"
-      },
-      error: {
-        "error-lightest": "oklch(0.8754989819725543 0.06263564750632042 18.079140916466272)",
-        "error-lighter": "oklch(0.7509979639451086 0.10599878808761917 18.079140916466272)",
-        "error-light": "oklch(0.626496945917663 0.14936192866891793 18.079140916466272)",
-        error: "oklch(0.5019959278902173 0.19272506925021668 18.079140916466272)",
-        "error-dark": "oklch(0.4141466405094293 0.16381630886268417 18.079140916466272)",
-        "error-darker": "oklch(0.3262973531286413 0.13490754847515168 18.079140916466272)",
-        "error-darkest": "oklch(0.2384480657478532 0.10599878808761917 18.079140916466272)"
-      },
-      info: {
-        "info-lightest": "oklch(0.7885885178062633 0.04006699378315225 262.3514946368672)",
-        "info-lighter": "oklch(0.6759330152625114 0.06780568178687302 262.3514946368672)",
-        "info-light": "oklch(0.5632775127187595 0.0955443697905938 262.3514946368672)",
-        info: "oklch(0.4506220101750076 0.12328305779431457 262.3514946368672)",
-        "info-dark": "oklch(0.37176315839438123 0.10479059912516739 262.3514946368672)",
-        "info-darker": "oklch(0.2929043066137549 0.0862981404560202 262.3514946368672)",
-        "info-darkest": "oklch(0.2140454548331286 0.06780568178687302 262.3514946368672)"
+      grey: {
+        "grey-50": "oklch(0.9850175274112574 0 none)",
+        "grey-100": "oklch(0.9700350548225147 0 none)",
+        "grey-150": "oklch(0.9550525822337722 0 none)",
+        "grey-200": "oklch(0.9400701096450296 0 none)",
+        "grey-250": "oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113)",
+        "grey-300": "oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113)",
+        "grey-350": "oklch(0.8823399145667763 0.005832178351138532 228.8687380011113)",
+        "grey-400": "oklch(0.8630965162073586 0.007776237801518043 228.8687380011113)",
+        "grey-450": "oklch(0.7539290831519737 0.008632737257709678 229.8058410593526)",
+        "grey-500": "oklch(0.6447616500965888 0.009489236713901311 230.74294411759388)",
+        "grey-550": "oklch(0.5355942170412039 0.010345736170092946 231.68004717583517)",
+        "grey-600": "oklch(0.426426783985819 0.011202235626284581 232.61715023407646)",
+        "grey-650": "oklch(0.3871732148397997 0.010991669591883444 234.98382249287215)",
+        "grey-700": "oklch(0.3479196456937804 0.010781103557482309 237.35049475166784)",
+        "grey-750": "oklch(0.3086660765477611 0.010570537523081174 239.71716701046353)",
+        "grey-800": "oklch(0.26941250740174183 0.010359971488680036 242.08383926925922)",
+        "grey-850": "oklch(0.222265318606437 0.00880597576537803 242.08383926925922)",
+        "grey-900": "oklch(0.17511812981113217 0.007251980042076026 242.08383926925922)",
+        "grey-950": "oklch(0.12797094101582737 0.005697984318774021 242.08383926925922)"
       }
     };
   }
@@ -13149,76 +13858,67 @@ var require_rgb4 = __commonJS({
   "src/json/colors/themes/masterbrand/rgb.json"(exports, module) {
     module.exports = {
       primary: {
-        "primary-lightest": "rgb(12, 90, 212)",
-        "primary-lighter": "rgb(5, 72, 173)",
-        "primary-light": "rgb(2, 54, 136)",
-        primary: "rgb(0, 38, 100)",
-        "primary-dark": "rgb(0, 26, 77)",
-        "primary-darker": "rgb(0, 16, 55)",
-        "primary-darkest": "rgb(0, 6, 34)"
-      },
-      secondary: {
-        "secondary-lightest": "rgb(240, 251, 255)",
-        "secondary-lighter": "rgb(228, 246, 255)",
-        "secondary-light": "rgb(215, 242, 254)",
-        secondary: "rgb(203, 237, 253)",
-        "secondary-dark": "rgb(188, 234, 254)",
-        "secondary-darker": "rgb(173, 231, 255)",
-        "secondary-darkest": "rgb(157, 227, 255)"
-      },
-      tertiary: {
-        "tertiary-lightest": "rgb(90, 201, 255)",
-        "tertiary-lighter": "rgb(38, 174, 255)",
-        "tertiary-light": "rgb(0, 143, 255)",
-        tertiary: "rgb(20, 108, 253)",
-        "tertiary-dark": "rgb(12, 90, 212)",
-        "tertiary-darker": "rgb(5, 72, 173)",
-        "tertiary-darkest": "rgb(2, 54, 136)"
+        "primary-50": "rgb(240, 251, 255)",
+        "primary-100": "rgb(228, 246, 255)",
+        "primary-150": "rgb(215, 242, 254)",
+        "primary-200": "rgb(203, 237, 253)",
+        "primary-250": "rgb(188, 234, 254)",
+        "primary-300": "rgb(173, 231, 255)",
+        "primary-350": "rgb(157, 227, 255)",
+        "primary-400": "rgb(140, 224, 255)",
+        "primary-450": "rgb(90, 201, 255)",
+        "primary-500": "rgb(38, 174, 255)",
+        "primary-550": "rgb(0, 143, 255)",
+        "primary-600": "rgb(20, 108, 253)",
+        "primary-650": "rgb(12, 90, 212)",
+        "primary-700": "rgb(5, 72, 173)",
+        "primary-750": "rgb(2, 54, 136)",
+        "primary-800": "rgb(0, 38, 100)",
+        "primary-850": "rgb(0, 26, 77)",
+        "primary-900": "rgb(0, 16, 55)",
+        "primary-950": "rgb(0, 6, 34)"
       },
       accent: {
-        "accent-lightest": "rgb(248, 151, 162)",
-        "accent-lighter": "rgb(239, 117, 129)",
-        "accent-light": "rgb(228, 79, 95)",
-        accent: "rgb(215, 21, 58)",
-        "accent-dark": "rgb(185, 14, 50)",
-        "accent-darker": "rgb(155, 7, 42)",
-        "accent-darkest": "rgb(126, 3, 34)"
+        "accent-50": "rgb(255, 248, 249)",
+        "accent-100": "rgb(255, 242, 244)",
+        "accent-150": "rgb(255, 236, 239)",
+        "accent-200": "rgb(255, 230, 234)",
+        "accent-250": "rgb(255, 219, 224)",
+        "accent-300": "rgb(255, 207, 214)",
+        "accent-350": "rgb(255, 196, 204)",
+        "accent-400": "rgb(255, 184, 193)",
+        "accent-450": "rgb(248, 151, 162)",
+        "accent-500": "rgb(239, 117, 129)",
+        "accent-550": "rgb(228, 79, 95)",
+        "accent-600": "rgb(215, 21, 58)",
+        "accent-650": "rgb(185, 14, 50)",
+        "accent-700": "rgb(155, 7, 42)",
+        "accent-750": "rgb(126, 3, 34)",
+        "accent-800": "rgb(99, 0, 25)",
+        "accent-850": "rgb(76, 0, 16)",
+        "accent-900": "rgb(54, 0, 8)",
+        "accent-950": "rgb(33, 0, 3)"
       },
-      success: {
-        "success-lightest": "rgb(196, 229, 192)",
-        "success-lighter": "rgb(143, 199, 139)",
-        "success-light": "rgb(88, 168, 84)",
-        success: "rgb(0, 138, 7)",
-        "success-dark": "rgb(0, 106, 0)",
-        "success-darker": "rgb(0, 76, 0)",
-        "success-darkest": "rgb(0, 47, 0)"
-      },
-      warning: {
-        "warning-lightest": "rgb(253, 210, 192)",
-        "warning-lighter": "rgb(238, 168, 138)",
-        "warning-light": "rgb(221, 125, 83)",
-        warning: "rgb(201, 80, 0)",
-        "warning-dark": "rgb(157, 58, 0)",
-        "warning-darker": "rgb(114, 38, 0)",
-        "warning-darkest": "rgb(75, 18, 0)"
-      },
-      error: {
-        "error-lightest": "rgb(253, 198, 198)",
-        "error-lighter": "rgb(234, 146, 149)",
-        "error-light": "rgb(211, 93, 101)",
-        error: "rgb(184, 18, 55)",
-        "error-dark": "rgb(143, 3, 39)",
-        "error-darker": "rgb(105, 0, 24)",
-        "error-darkest": "rgb(68, 0, 10)"
-      },
-      info: {
-        "info-lightest": "rgb(172, 187, 213)",
-        "info-lighter": "rgb(129, 152, 194)",
-        "info-light": "rgb(87, 117, 174)",
-        info: "rgb(46, 82, 153)",
-        "info-dark": "rgb(32, 61, 119)",
-        "info-darker": "rgb(19, 41, 86)",
-        "info-darkest": "rgb(7, 23, 56)"
+      grey: {
+        "grey-50": "rgb(250, 250, 250)",
+        "grey-100": "rgb(245, 245, 245)",
+        "grey-150": "rgb(240, 240, 240)",
+        "grey-200": "rgb(235, 235, 235)",
+        "grey-250": "rgb(227, 229, 230)",
+        "grey-300": "rgb(220, 223, 224)",
+        "grey-350": "rgb(212, 217, 219)",
+        "grey-400": "rgb(205, 211, 214)",
+        "grey-450": "rgb(170, 176, 180)",
+        "grey-500": "rgb(136, 143, 146)",
+        "grey-550": "rgb(104, 111, 114)",
+        "grey-600": "rgb(73, 80, 84)",
+        "grey-650": "rgb(63, 69, 73)",
+        "grey-700": "rgb(53, 59, 63)",
+        "grey-750": "rgb(43, 49, 53)",
+        "grey-800": "rgb(34, 39, 43)",
+        "grey-850": "rgb(24, 28, 31)",
+        "grey-900": "rgb(14, 17, 19)",
+        "grey-950": "rgb(5, 7, 9)"
       }
     };
   }
@@ -13257,28 +13957,28 @@ var hex_exports2 = {};
 __export(hex_exports2, {
   default: () => hex_default2
 });
-var hex_default2 = ":root {\n  --primary-lightest: #0c5ad4;\n  --primary-lighter: #0548ad;\n  --primary-light: #023688;\n  --primary: #002664;\n  --primary-dark: #001a4d;\n  --primary-darker: #001037;\n  --primary-darkest: #000622;\n  --secondary-lightest: #f0fbff;\n  --secondary-lighter: #e4f6ff;\n  --secondary-light: #d7f2fe;\n  --secondary: #cbedfd;\n  --secondary-dark: #bceafe;\n  --secondary-darker: #ade7ff;\n  --secondary-darkest: #9de3ff;\n  --tertiary-lightest: #5ac9ff;\n  --tertiary-lighter: #26aeff;\n  --tertiary-light: #008fff;\n  --tertiary: #146cfd;\n  --tertiary-dark: #0c5ad4;\n  --tertiary-darker: #0548ad;\n  --tertiary-darkest: #023688;\n  --accent-lightest: #f897a2;\n  --accent-lighter: #ef7581;\n  --accent-light: #e44f5f;\n  --accent: #d7153a;\n  --accent-dark: #b90e32;\n  --accent-darker: #9b072a;\n  --accent-darkest: #7e0322;\n  --success-lightest: #c4e5c0;\n  --success-lighter: #8fc78b;\n  --success-light: #58a854;\n  --success: #008a07;\n  --success-dark: #006a00;\n  --success-darker: #004c00;\n  --success-darkest: #002f00;\n  --warning-lightest: #fdd2c0;\n  --warning-lighter: #eea88a;\n  --warning-light: #dd7d53;\n  --warning: #c95000;\n  --warning-dark: #9d3a00;\n  --warning-darker: #722600;\n  --warning-darkest: #4b1200;\n  --error-lightest: #fdc6c6;\n  --error-lighter: #ea9295;\n  --error-light: #d35d65;\n  --error: #b81237;\n  --error-dark: #8f0327;\n  --error-darker: #690018;\n  --error-darkest: #44000a;\n  --info-lightest: #acbbd5;\n  --info-lighter: #8198c2;\n  --info-light: #5775ae;\n  --info: #2e5299;\n  --info-dark: #203d77;\n  --info-darker: #132956;\n  --info-darkest: #071738;\n}\n";
+var hex_default2 = ":root {\n  --primary-50: #f0fbff;\n  --primary-100: #e4f6ff;\n  --primary-150: #d7f2fe;\n  --primary-200: #cbedfd;\n  --primary-250: #bceafe;\n  --primary-300: #ade7ff;\n  --primary-350: #9de3ff;\n  --primary-400: #8ce0ff;\n  --primary-450: #5ac9ff;\n  --primary-500: #26aeff;\n  --primary-550: #008fff;\n  --primary-600: #146cfd;\n  --primary-650: #0c5ad4;\n  --primary-700: #0548ad;\n  --primary-750: #023688;\n  --primary-800: #002664;\n  --primary-850: #001a4d;\n  --primary-900: #001037;\n  --primary-950: #000622;\n  --accent-50: #fff8f9;\n  --accent-100: #fff2f4;\n  --accent-150: #ffecef;\n  --accent-200: #ffe6ea;\n  --accent-250: #ffdbe0;\n  --accent-300: #ffcfd6;\n  --accent-350: #ffc4cc;\n  --accent-400: #ffb8c1;\n  --accent-450: #f897a2;\n  --accent-500: #ef7581;\n  --accent-550: #e44f5f;\n  --accent-600: #d7153a;\n  --accent-650: #b90e32;\n  --accent-700: #9b072a;\n  --accent-750: #7e0322;\n  --accent-800: #630019;\n  --accent-850: #4c0010;\n  --accent-900: #360008;\n  --accent-950: #210003;\n  --grey-50: #fafafa;\n  --grey-100: #f5f5f5;\n  --grey-150: #f0f0f0;\n  --grey-200: #ebebeb;\n  --grey-250: #e3e5e6;\n  --grey-300: #dcdfe0;\n  --grey-350: #d4d9db;\n  --grey-400: #cdd3d6;\n  --grey-450: #aab0b4;\n  --grey-500: #888f92;\n  --grey-550: #686f72;\n  --grey-600: #495054;\n  --grey-650: #3f4549;\n  --grey-700: #353b3f;\n  --grey-750: #2b3135;\n  --grey-800: #22272b;\n  --grey-850: #181c1f;\n  --grey-900: #0e1113;\n  --grey-950: #050709;\n}\n";
 
 // src/css/colors/themes/masterbrand/hsl.css
 var hsl_exports2 = {};
 __export(hsl_exports2, {
   default: () => hsl_default2
 });
-var hsl_default2 = ":root {\n  --primary-lightest: hsl(216.77, 89.43%, 43.98%);\n  --primary-lighter: hsl(216.29, 94.14%, 35%);\n  --primary-light: hsl(216.37, 97.67%, 26.93%);\n  --primary: hsl(217.2, 100%, 19.61%);\n  --primary-dark: hsl(218.95, 100%, 14.93%);\n  --primary-darker: hsl(222.31, 100%, 10.59%);\n  --primary-darkest: hsl(228.65, 100%, 6.6%);\n  --secondary-lightest: hsl(199.45, 100%, 97.34%);\n  --secondary-lighter: hsl(199.38, 100%, 94.73%);\n  --secondary-light: hsl(199.3, 95.85%, 92.09%);\n  --secondary: hsl(199.2, 92.59%, 89.41%);\n  --secondary-dark: hsl(198.5, 96.87%, 86.75%);\n  --secondary-darker: hsl(197.76, 98.99%, 83.89%);\n  --secondary-darkest: hsl(197, 99.87%, 80.82%);\n  --tertiary-lightest: hsl(199.74, 99.83%, 67.57%);\n  --tertiary-lighter: hsl(202.52, 100%, 57.55%);\n  --tertiary-light: hsl(204.76, 100%, 46.97%);\n  --tertiary: hsl(217.34, 98.31%, 53.53%);\n  --tertiary-dark: hsl(216.77, 89.43%, 43.98%);\n  --tertiary-darker: hsl(216.29, 94.14%, 35%);\n  --tertiary-darkest: hsl(216.37, 97.67%, 26.93%);\n  --accent-lightest: hsl(353.39, 86.96%, 78.18%);\n  --accent-lighter: hsl(353.95, 78.84%, 69.69%);\n  --accent-light: hsl(353.52, 73.17%, 60.13%);\n  --accent: hsl(348.56, 82.2%, 46.27%);\n  --accent-dark: hsl(347.26, 85.91%, 38.92%);\n  --accent-darker: hsl(345.89, 91%, 31.81%);\n  --accent-darkest: hsl(345, 95.87%, 25.31%);\n  --success-lightest: hsl(114.97, 40.74%, 82.58%);\n  --success-lighter: hsl(115.71, 34.7%, 66.15%);\n  --success-light: hsl(117.04, 33.37%, 49.53%);\n  --success: hsl(123.04, 100%, 27.06%);\n  --success-dark: hsl(122.96, 100%, 19.1%);\n  --success-darker: hsl(122.88, 100%, 12.74%);\n  --success-darkest: hsl(122.85, 100%, 7.59%);\n  --warning-lightest: hsl(17.74, 94.96%, 87.24%);\n  --warning-lighter: hsl(17.94, 75.09%, 73.77%);\n  --warning-light: hsl(18.45, 66.88%, 59.6%);\n  --warning: hsl(23.88, 100%, 39.41%);\n  --warning-dark: hsl(24.01, 100%, 29.25%);\n  --warning-darker: hsl(22.64, 100%, 20.66%);\n  --warning-darkest: hsl(18.45, 100%, 13.3%);\n  --error-lightest: hsl(359.69, 92.79%, 88.44%);\n  --error-lighter: hsl(358.32, 67.18%, 74.5%);\n  --error-light: hsl(355.68, 57.14%, 59.46%);\n  --error: hsl(346.63, 82.18%, 39.61%);\n  --error-dark: hsl(344.75, 95.33%, 28.77%);\n  --error-darker: hsl(344.52, 100%, 19.69%);\n  --error-darkest: hsl(347.44, 100%, 12.27%);\n  --info-lightest: hsl(218.63, 32.11%, 75.49%);\n  --info-lighter: hsl(218.81, 34.57%, 63.16%);\n  --info-light: hsl(219.17, 34.9%, 51.02%);\n  --info: hsl(219.81, 53.77%, 39.02%);\n  --info-dark: hsl(219.87, 57.48%, 29.6%);\n  --info-darker: hsl(219.94, 64.01%, 20.66%);\n  --info-darkest: hsl(220.32, 77.61%, 12.34%);\n}\n";
+var hsl_default2 = ":root {\n  --primary-50: hsl(199.45, 100%, 97.34%);\n  --primary-100: hsl(199.38, 100%, 94.73%);\n  --primary-150: hsl(199.3, 95.85%, 92.09%);\n  --primary-200: hsl(199.2, 92.59%, 89.41%);\n  --primary-250: hsl(198.5, 96.87%, 86.75%);\n  --primary-300: hsl(197.76, 98.99%, 83.89%);\n  --primary-350: hsl(197, 99.87%, 80.82%);\n  --primary-400: hsl(196.17, 100%, 77.45%);\n  --primary-450: hsl(199.74, 99.83%, 67.57%);\n  --primary-500: hsl(202.52, 100%, 57.55%);\n  --primary-550: hsl(204.76, 100%, 46.97%);\n  --primary-600: hsl(217.34, 98.31%, 53.53%);\n  --primary-650: hsl(216.77, 89.43%, 43.98%);\n  --primary-700: hsl(216.29, 94.14%, 35%);\n  --primary-750: hsl(216.37, 97.67%, 26.93%);\n  --primary-800: hsl(217.2, 100%, 19.61%);\n  --primary-850: hsl(218.95, 100%, 14.93%);\n  --primary-900: hsl(222.31, 100%, 10.59%);\n  --primary-950: hsl(228.65, 100%, 6.6%);\n  --accent-50: hsl(350.85, 100%, 98.97%);\n  --accent-100: hsl(350.7, 100%, 97.7%);\n  --accent-150: hsl(350.55, 100%, 96.41%);\n  --accent-200: hsl(350.4, 100%, 95.1%);\n  --accent-250: hsl(350.92, 100%, 92.94%);\n  --accent-300: hsl(351.43, 100%, 90.72%);\n  --accent-350: hsl(351.92, 100%, 88.44%);\n  --accent-400: hsl(352.39, 100%, 86.08%);\n  --accent-450: hsl(353.39, 86.96%, 78.18%);\n  --accent-500: hsl(353.95, 78.84%, 69.69%);\n  --accent-550: hsl(353.52, 73.17%, 60.13%);\n  --accent-600: hsl(348.56, 82.2%, 46.27%);\n  --accent-650: hsl(347.26, 85.91%, 38.92%);\n  --accent-700: hsl(345.89, 91%, 31.81%);\n  --accent-750: hsl(345, 95.87%, 25.31%);\n  --accent-800: hsl(344.85, 100%, 19.41%);\n  --accent-850: hsl(346.11, 100%, 14.46%);\n  --accent-900: hsl(349.15, 100%, 10.03%);\n  --accent-950: hsl(352.16, 100%, 6.06%);\n  --grey-50: hsl(223.81, 0%, 98.03%);\n  --grey-100: hsl(223.81, 0%, 96.06%);\n  --grey-150: hsl(223.81, 0%, 94.11%);\n  --grey-200: hsl(223.81, 0%, 92.16%);\n  --grey-250: hsl(200.05, 4.31%, 89.64%);\n  --grey-300: hsl(200.03, 6.92%, 87.13%);\n  --grey-350: hsl(200.02, 8.65%, 84.64%);\n  --grey-400: hsl(200, 9.89%, 82.16%);\n  --grey-450: hsl(200.47, 6.03%, 68.52%);\n  --grey-500: hsl(200.94, 4.51%, 55.36%);\n  --grey-550: hsl(201.39, 4.91%, 42.76%);\n  --grey-600: hsl(201.82, 7.01%, 30.78%);\n  --grey-650: hsl(203.03, 7.74%, 26.71%);\n  --grey-700: hsl(204.24, 8.68%, 22.73%);\n  --grey-750: hsl(205.45, 9.93%, 18.85%);\n  --grey-800: hsl(206.67, 11.69%, 15.1%);\n  --grey-850: hsl(206.66, 13.37%, 10.7%);\n  --grey-900: hsl(206.64, 17.01%, 6.52%);\n  --grey-950: hsl(208.68, 23.47%, 2.8%);\n}\n";
 
 // src/css/colors/themes/masterbrand/oklch.css
 var oklch_exports2 = {};
 __export(oklch_exports2, {
   default: () => oklch_default2
 });
-var oklch_default2 = ":root {\n  --primary-lightest: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --primary-lighter: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --primary-light: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --primary: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --primary-dark: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --primary-darker: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --primary-darkest: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --secondary-lightest: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --secondary-lighter: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --secondary-light: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --secondary: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --secondary-dark: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --secondary-darker: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --secondary-darkest: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --tertiary-lightest: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --tertiary-lighter: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --tertiary-light: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --tertiary: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --tertiary-dark: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --tertiary-darker: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --tertiary-darkest: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --accent-lightest: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --accent-lighter: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --accent-light: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --accent: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --accent-dark: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --accent-darker: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --accent-darkest: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --success-lightest: oklch(0.8872601819234176 0.060106868790808454 142.8007543325396);\n  --success-lighter: oklch(0.7745203638468352 0.1017193164152143 142.8007543325396);\n  --success-light: oklch(0.6617805457702527 0.14333176403962014 142.8007543325396);\n  --success: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n  --success-dark: oklch(0.452958600347278 0.1572025799144221 142.8007543325396);\n  --success-darker: oklch(0.35687647300088565 0.1294609481648182 142.8007543325396);\n  --success-darkest: oklch(0.2607943456544934 0.1017193164152143 142.8007543325396);\n  --warning-lightest: oklch(0.8958326078740171 0.05515411503535715 43.99726534950394);\n  --warning-lighter: oklch(0.7916652157480342 0.09333773313675825 43.99726534950394);\n  --warning-light: oklch(0.6874978236220514 0.13152135123815933 43.99726534950394);\n  --warning: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n  --warning-dark: oklch(0.4812476059842564 0.14424922393862638 43.99726534950394);\n  --warning-darker: oklch(0.3791647804724445 0.11879347853769232 43.99726534950394);\n  --warning-darkest: oklch(0.2770819549606325 0.09333773313675825 43.99726534950394);\n  --error-lightest: oklch(0.8754989819725543 0.06263564750632042 18.079140916466272);\n  --error-lighter: oklch(0.7509979639451086 0.10599878808761917 18.079140916466272);\n  --error-light: oklch(0.626496945917663 0.14936192866891793 18.079140916466272);\n  --error: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n  --error-dark: oklch(0.4141466405094293 0.16381630886268417 18.079140916466272);\n  --error-darker: oklch(0.3262973531286413 0.13490754847515168 18.079140916466272);\n  --error-darkest: oklch(0.2384480657478532 0.10599878808761917 18.079140916466272);\n  --info-lightest: oklch(0.7885885178062633 0.04006699378315225 262.3514946368672);\n  --info-lighter: oklch(0.6759330152625114 0.06780568178687302 262.3514946368672);\n  --info-light: oklch(0.5632775127187595 0.0955443697905938 262.3514946368672);\n  --info: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n  --info-dark: oklch(0.37176315839438123 0.10479059912516739 262.3514946368672);\n  --info-darker: oklch(0.2929043066137549 0.0862981404560202 262.3514946368672);\n  --info-darkest: oklch(0.2140454548331286 0.06780568178687302 262.3514946368672);\n}\n";
+var oklch_default2 = ":root {\n  --primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n  --primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n  --accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n  --accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n  --accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n  --accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n  --accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n  --accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n  --accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n  --accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n  --accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n  --accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n  --accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n  --grey-50: oklch(0.9850175274112574 0 0);\n  --grey-100: oklch(0.9700350548225147 0 0);\n  --grey-150: oklch(0.9550525822337722 0 0);\n  --grey-200: oklch(0.9400701096450296 0 0);\n  --grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n  --grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n  --grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n  --grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n  --grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n  --grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n  --grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n  --grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n  --grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n  --grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n  --grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n  --grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n  --grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n  --grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n  --grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n}\n";
 
 // src/css/colors/themes/masterbrand/rgb.css
 var rgb_exports2 = {};
 __export(rgb_exports2, {
   default: () => rgb_default2
 });
-var rgb_default2 = ":root {\n  --primary-lightest: rgb(12, 90, 212);\n  --primary-lighter: rgb(5, 72, 173);\n  --primary-light: rgb(2, 54, 136);\n  --primary: rgb(0, 38, 100);\n  --primary-dark: rgb(0, 26, 77);\n  --primary-darker: rgb(0, 16, 55);\n  --primary-darkest: rgb(0, 6, 34);\n  --secondary-lightest: rgb(240, 251, 255);\n  --secondary-lighter: rgb(228, 246, 255);\n  --secondary-light: rgb(215, 242, 254);\n  --secondary: rgb(203, 237, 253);\n  --secondary-dark: rgb(188, 234, 254);\n  --secondary-darker: rgb(173, 231, 255);\n  --secondary-darkest: rgb(157, 227, 255);\n  --tertiary-lightest: rgb(90, 201, 255);\n  --tertiary-lighter: rgb(38, 174, 255);\n  --tertiary-light: rgb(0, 143, 255);\n  --tertiary: rgb(20, 108, 253);\n  --tertiary-dark: rgb(12, 90, 212);\n  --tertiary-darker: rgb(5, 72, 173);\n  --tertiary-darkest: rgb(2, 54, 136);\n  --accent-lightest: rgb(248, 151, 162);\n  --accent-lighter: rgb(239, 117, 129);\n  --accent-light: rgb(228, 79, 95);\n  --accent: rgb(215, 21, 58);\n  --accent-dark: rgb(185, 14, 50);\n  --accent-darker: rgb(155, 7, 42);\n  --accent-darkest: rgb(126, 3, 34);\n  --success-lightest: rgb(196, 229, 192);\n  --success-lighter: rgb(143, 199, 139);\n  --success-light: rgb(88, 168, 84);\n  --success: rgb(0, 138, 7);\n  --success-dark: rgb(0, 106, 0);\n  --success-darker: rgb(0, 76, 0);\n  --success-darkest: rgb(0, 47, 0);\n  --warning-lightest: rgb(253, 210, 192);\n  --warning-lighter: rgb(238, 168, 138);\n  --warning-light: rgb(221, 125, 83);\n  --warning: rgb(201, 80, 0);\n  --warning-dark: rgb(157, 58, 0);\n  --warning-darker: rgb(114, 38, 0);\n  --warning-darkest: rgb(75, 18, 0);\n  --error-lightest: rgb(253, 198, 198);\n  --error-lighter: rgb(234, 146, 149);\n  --error-light: rgb(211, 93, 101);\n  --error: rgb(184, 18, 55);\n  --error-dark: rgb(143, 3, 39);\n  --error-darker: rgb(105, 0, 24);\n  --error-darkest: rgb(68, 0, 10);\n  --info-lightest: rgb(172, 187, 213);\n  --info-lighter: rgb(129, 152, 194);\n  --info-light: rgb(87, 117, 174);\n  --info: rgb(46, 82, 153);\n  --info-dark: rgb(32, 61, 119);\n  --info-darker: rgb(19, 41, 86);\n  --info-darkest: rgb(7, 23, 56);\n}\n";
+var rgb_default2 = ":root {\n  --primary-50: rgb(240, 251, 255);\n  --primary-100: rgb(228, 246, 255);\n  --primary-150: rgb(215, 242, 254);\n  --primary-200: rgb(203, 237, 253);\n  --primary-250: rgb(188, 234, 254);\n  --primary-300: rgb(173, 231, 255);\n  --primary-350: rgb(157, 227, 255);\n  --primary-400: rgb(140, 224, 255);\n  --primary-450: rgb(90, 201, 255);\n  --primary-500: rgb(38, 174, 255);\n  --primary-550: rgb(0, 143, 255);\n  --primary-600: rgb(20, 108, 253);\n  --primary-650: rgb(12, 90, 212);\n  --primary-700: rgb(5, 72, 173);\n  --primary-750: rgb(2, 54, 136);\n  --primary-800: rgb(0, 38, 100);\n  --primary-850: rgb(0, 26, 77);\n  --primary-900: rgb(0, 16, 55);\n  --primary-950: rgb(0, 6, 34);\n  --accent-50: rgb(255, 248, 249);\n  --accent-100: rgb(255, 242, 244);\n  --accent-150: rgb(255, 236, 239);\n  --accent-200: rgb(255, 230, 234);\n  --accent-250: rgb(255, 219, 224);\n  --accent-300: rgb(255, 207, 214);\n  --accent-350: rgb(255, 196, 204);\n  --accent-400: rgb(255, 184, 193);\n  --accent-450: rgb(248, 151, 162);\n  --accent-500: rgb(239, 117, 129);\n  --accent-550: rgb(228, 79, 95);\n  --accent-600: rgb(215, 21, 58);\n  --accent-650: rgb(185, 14, 50);\n  --accent-700: rgb(155, 7, 42);\n  --accent-750: rgb(126, 3, 34);\n  --accent-800: rgb(99, 0, 25);\n  --accent-850: rgb(76, 0, 16);\n  --accent-900: rgb(54, 0, 8);\n  --accent-950: rgb(33, 0, 3);\n  --grey-50: rgb(250, 250, 250);\n  --grey-100: rgb(245, 245, 245);\n  --grey-150: rgb(240, 240, 240);\n  --grey-200: rgb(235, 235, 235);\n  --grey-250: rgb(227, 229, 230);\n  --grey-300: rgb(220, 223, 224);\n  --grey-350: rgb(212, 217, 219);\n  --grey-400: rgb(205, 211, 214);\n  --grey-450: rgb(170, 176, 180);\n  --grey-500: rgb(136, 143, 146);\n  --grey-550: rgb(104, 111, 114);\n  --grey-600: rgb(73, 80, 84);\n  --grey-650: rgb(63, 69, 73);\n  --grey-700: rgb(53, 59, 63);\n  --grey-750: rgb(43, 49, 53);\n  --grey-800: rgb(34, 39, 43);\n  --grey-850: rgb(24, 28, 31);\n  --grey-900: rgb(14, 17, 19);\n  --grey-950: rgb(5, 7, 9);\n}\n";
 
 // src/js/colors/global/hex.js
 var hex_exports3 = {};
@@ -14888,340 +15588,284 @@ var nswAboriginalPurple4 = {
 var hex_exports4 = {};
 __export(hex_exports4, {
   accent: () => accent,
-  error: () => error,
-  info: () => info,
-  primary: () => primary,
-  secondary: () => secondary,
-  success: () => success,
-  tertiary: () => tertiary,
-  warning: () => warning
+  grey: () => grey,
+  primary: () => primary
 });
 var primary = {
-  lightest: "#0c5ad4",
-  lighter: "#0548ad",
-  light: "#023688",
-  DEFAULT: "#002664",
-  dark: "#001a4d",
-  darker: "#001037",
-  darkest: "#000622"
-};
-var secondary = {
-  lightest: "#f0fbff",
-  lighter: "#e4f6ff",
-  light: "#d7f2fe",
-  DEFAULT: "#cbedfd",
-  dark: "#bceafe",
-  darker: "#ade7ff",
-  darkest: "#9de3ff"
-};
-var tertiary = {
-  lightest: "#5ac9ff",
-  lighter: "#26aeff",
-  light: "#008fff",
-  DEFAULT: "#146cfd",
-  dark: "#0c5ad4",
-  darker: "#0548ad",
-  darkest: "#023688"
+  50: "#f0fbff",
+  100: "#e4f6ff",
+  150: "#d7f2fe",
+  200: "#cbedfd",
+  250: "#bceafe",
+  300: "#ade7ff",
+  350: "#9de3ff",
+  400: "#8ce0ff",
+  450: "#5ac9ff",
+  500: "#26aeff",
+  550: "#008fff",
+  600: "#146cfd",
+  650: "#0c5ad4",
+  700: "#0548ad",
+  750: "#023688",
+  800: "#002664",
+  850: "#001a4d",
+  900: "#001037",
+  950: "#000622"
 };
 var accent = {
-  lightest: "#f897a2",
-  lighter: "#ef7581",
-  light: "#e44f5f",
-  DEFAULT: "#d7153a",
-  dark: "#b90e32",
-  darker: "#9b072a",
-  darkest: "#7e0322"
+  50: "#fff8f9",
+  100: "#fff2f4",
+  150: "#ffecef",
+  200: "#ffe6ea",
+  250: "#ffdbe0",
+  300: "#ffcfd6",
+  350: "#ffc4cc",
+  400: "#ffb8c1",
+  450: "#f897a2",
+  500: "#ef7581",
+  550: "#e44f5f",
+  600: "#d7153a",
+  650: "#b90e32",
+  700: "#9b072a",
+  750: "#7e0322",
+  800: "#630019",
+  850: "#4c0010",
+  900: "#360008",
+  950: "#210003"
 };
-var success = {
-  lightest: "#c4e5c0",
-  lighter: "#8fc78b",
-  light: "#58a854",
-  DEFAULT: "#008a07",
-  dark: "#006a00",
-  darker: "#004c00",
-  darkest: "#002f00"
-};
-var warning = {
-  lightest: "#fdd2c0",
-  lighter: "#eea88a",
-  light: "#dd7d53",
-  DEFAULT: "#c95000",
-  dark: "#9d3a00",
-  darker: "#722600",
-  darkest: "#4b1200"
-};
-var error = {
-  lightest: "#fdc6c6",
-  lighter: "#ea9295",
-  light: "#d35d65",
-  DEFAULT: "#b81237",
-  dark: "#8f0327",
-  darker: "#690018",
-  darkest: "#44000a"
-};
-var info = {
-  lightest: "#acbbd5",
-  lighter: "#8198c2",
-  light: "#5775ae",
-  DEFAULT: "#2e5299",
-  dark: "#203d77",
-  darker: "#132956",
-  darkest: "#071738"
+var grey = {
+  50: "#fafafa",
+  100: "#f5f5f5",
+  150: "#f0f0f0",
+  200: "#ebebeb",
+  250: "#e3e5e6",
+  300: "#dcdfe0",
+  350: "#d4d9db",
+  400: "#cdd3d6",
+  450: "#aab0b4",
+  500: "#888f92",
+  550: "#686f72",
+  600: "#495054",
+  650: "#3f4549",
+  700: "#353b3f",
+  750: "#2b3135",
+  800: "#22272b",
+  850: "#181c1f",
+  900: "#0e1113",
+  950: "#050709"
 };
 
 // src/js/colors/themes/masterbrand/hsl.js
 var hsl_exports4 = {};
 __export(hsl_exports4, {
   accent: () => accent2,
-  error: () => error2,
-  info: () => info2,
-  primary: () => primary2,
-  secondary: () => secondary2,
-  success: () => success2,
-  tertiary: () => tertiary2,
-  warning: () => warning2
+  grey: () => grey2,
+  primary: () => primary2
 });
 var primary2 = {
-  lightest: "hsl(216.77, 89.43%, 43.98%)",
-  lighter: "hsl(216.29, 94.14%, 35%)",
-  light: "hsl(216.37, 97.67%, 26.93%)",
-  DEFAULT: "hsl(217.2, 100%, 19.61%)",
-  dark: "hsl(218.95, 100%, 14.93%)",
-  darker: "hsl(222.31, 100%, 10.59%)",
-  darkest: "hsl(228.65, 100%, 6.6%)"
-};
-var secondary2 = {
-  lightest: "hsl(199.45, 100%, 97.34%)",
-  lighter: "hsl(199.38, 100%, 94.73%)",
-  light: "hsl(199.3, 95.85%, 92.09%)",
-  DEFAULT: "hsl(199.2, 92.59%, 89.41%)",
-  dark: "hsl(198.5, 96.87%, 86.75%)",
-  darker: "hsl(197.76, 98.99%, 83.89%)",
-  darkest: "hsl(197, 99.87%, 80.82%)"
-};
-var tertiary2 = {
-  lightest: "hsl(199.74, 99.83%, 67.57%)",
-  lighter: "hsl(202.52, 100%, 57.55%)",
-  light: "hsl(204.76, 100%, 46.97%)",
-  DEFAULT: "hsl(217.34, 98.31%, 53.53%)",
-  dark: "hsl(216.77, 89.43%, 43.98%)",
-  darker: "hsl(216.29, 94.14%, 35%)",
-  darkest: "hsl(216.37, 97.67%, 26.93%)"
+  50: "hsl(199.45, 100%, 97.34%)",
+  100: "hsl(199.38, 100%, 94.73%)",
+  150: "hsl(199.3, 95.85%, 92.09%)",
+  200: "hsl(199.2, 92.59%, 89.41%)",
+  250: "hsl(198.5, 96.87%, 86.75%)",
+  300: "hsl(197.76, 98.99%, 83.89%)",
+  350: "hsl(197, 99.87%, 80.82%)",
+  400: "hsl(196.17, 100%, 77.45%)",
+  450: "hsl(199.74, 99.83%, 67.57%)",
+  500: "hsl(202.52, 100%, 57.55%)",
+  550: "hsl(204.76, 100%, 46.97%)",
+  600: "hsl(217.34, 98.31%, 53.53%)",
+  650: "hsl(216.77, 89.43%, 43.98%)",
+  700: "hsl(216.29, 94.14%, 35%)",
+  750: "hsl(216.37, 97.67%, 26.93%)",
+  800: "hsl(217.2, 100%, 19.61%)",
+  850: "hsl(218.95, 100%, 14.93%)",
+  900: "hsl(222.31, 100%, 10.59%)",
+  950: "hsl(228.65, 100%, 6.6%)"
 };
 var accent2 = {
-  lightest: "hsl(353.39, 86.96%, 78.18%)",
-  lighter: "hsl(353.95, 78.84%, 69.69%)",
-  light: "hsl(353.52, 73.17%, 60.13%)",
-  DEFAULT: "hsl(348.56, 82.2%, 46.27%)",
-  dark: "hsl(347.26, 85.91%, 38.92%)",
-  darker: "hsl(345.89, 91%, 31.81%)",
-  darkest: "hsl(345, 95.87%, 25.31%)"
+  50: "hsl(350.85, 100%, 98.97%)",
+  100: "hsl(350.7, 100%, 97.7%)",
+  150: "hsl(350.55, 100%, 96.41%)",
+  200: "hsl(350.4, 100%, 95.1%)",
+  250: "hsl(350.92, 100%, 92.94%)",
+  300: "hsl(351.43, 100%, 90.72%)",
+  350: "hsl(351.92, 100%, 88.44%)",
+  400: "hsl(352.39, 100%, 86.08%)",
+  450: "hsl(353.39, 86.96%, 78.18%)",
+  500: "hsl(353.95, 78.84%, 69.69%)",
+  550: "hsl(353.52, 73.17%, 60.13%)",
+  600: "hsl(348.56, 82.2%, 46.27%)",
+  650: "hsl(347.26, 85.91%, 38.92%)",
+  700: "hsl(345.89, 91%, 31.81%)",
+  750: "hsl(345, 95.87%, 25.31%)",
+  800: "hsl(344.85, 100%, 19.41%)",
+  850: "hsl(346.11, 100%, 14.46%)",
+  900: "hsl(349.15, 100%, 10.03%)",
+  950: "hsl(352.16, 100%, 6.06%)"
 };
-var success2 = {
-  lightest: "hsl(114.97, 40.74%, 82.58%)",
-  lighter: "hsl(115.71, 34.7%, 66.15%)",
-  light: "hsl(117.04, 33.37%, 49.53%)",
-  DEFAULT: "hsl(123.04, 100%, 27.06%)",
-  dark: "hsl(122.96, 100%, 19.1%)",
-  darker: "hsl(122.88, 100%, 12.74%)",
-  darkest: "hsl(122.85, 100%, 7.59%)"
-};
-var warning2 = {
-  lightest: "hsl(17.74, 94.96%, 87.24%)",
-  lighter: "hsl(17.94, 75.09%, 73.77%)",
-  light: "hsl(18.45, 66.88%, 59.6%)",
-  DEFAULT: "hsl(23.88, 100%, 39.41%)",
-  dark: "hsl(24.01, 100%, 29.25%)",
-  darker: "hsl(22.64, 100%, 20.66%)",
-  darkest: "hsl(18.45, 100%, 13.3%)"
-};
-var error2 = {
-  lightest: "hsl(359.69, 92.79%, 88.44%)",
-  lighter: "hsl(358.32, 67.18%, 74.5%)",
-  light: "hsl(355.68, 57.14%, 59.46%)",
-  DEFAULT: "hsl(346.63, 82.18%, 39.61%)",
-  dark: "hsl(344.75, 95.33%, 28.77%)",
-  darker: "hsl(344.52, 100%, 19.69%)",
-  darkest: "hsl(347.44, 100%, 12.27%)"
-};
-var info2 = {
-  lightest: "hsl(218.63, 32.11%, 75.49%)",
-  lighter: "hsl(218.81, 34.57%, 63.16%)",
-  light: "hsl(219.17, 34.9%, 51.02%)",
-  DEFAULT: "hsl(219.81, 53.77%, 39.02%)",
-  dark: "hsl(219.87, 57.48%, 29.6%)",
-  darker: "hsl(219.94, 64.01%, 20.66%)",
-  darkest: "hsl(220.32, 77.61%, 12.34%)"
+var grey2 = {
+  50: "hsl(223.81, 0%, 98.03%)",
+  100: "hsl(223.81, 0%, 96.06%)",
+  150: "hsl(223.81, 0%, 94.11%)",
+  200: "hsl(223.81, 0%, 92.16%)",
+  250: "hsl(200.05, 4.31%, 89.64%)",
+  300: "hsl(200.03, 6.92%, 87.13%)",
+  350: "hsl(200.02, 8.65%, 84.64%)",
+  400: "hsl(200, 9.89%, 82.16%)",
+  450: "hsl(200.47, 6.03%, 68.52%)",
+  500: "hsl(200.94, 4.51%, 55.36%)",
+  550: "hsl(201.39, 4.91%, 42.76%)",
+  600: "hsl(201.82, 7.01%, 30.78%)",
+  650: "hsl(203.03, 7.74%, 26.71%)",
+  700: "hsl(204.24, 8.68%, 22.73%)",
+  750: "hsl(205.45, 9.93%, 18.85%)",
+  800: "hsl(206.67, 11.69%, 15.1%)",
+  850: "hsl(206.66, 13.37%, 10.7%)",
+  900: "hsl(206.64, 17.01%, 6.52%)",
+  950: "hsl(208.68, 23.47%, 2.8%)"
 };
 
 // src/js/colors/themes/masterbrand/oklch.js
 var oklch_exports4 = {};
 __export(oklch_exports4, {
   accent: () => accent3,
-  error: () => error3,
-  info: () => info3,
-  primary: () => primary3,
-  secondary: () => secondary3,
-  success: () => success3,
-  tertiary: () => tertiary3,
-  warning: () => warning3
+  grey: () => grey3,
+  primary: () => primary3
 });
 var primary3 = {
-  lightest: "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
-  lighter: "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
-  light: "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)",
-  DEFAULT: "oklch(0.2899986864508513 0.11729574451023282 259.841936589881)",
-  dark: "oklch(0.23924891632195233 0.0997013828336979 259.841936589881)",
-  darker: "oklch(0.18849914619305336 0.08210702115716298 259.841936589881)",
-  darkest: "oklch(0.13774937606415438 0.06451265948062805 259.841936589881)"
-};
-var secondary3 = {
-  lightest: "oklch(0.9816683948128555 0.013540580086234762 227.890755564881)",
-  lighter: "oklch(0.9633367896257109 0.022914827838243446 227.890755564881)",
-  light: "oklch(0.9450051844385663 0.032289075590252125 227.890755564881)",
-  DEFAULT: "oklch(0.9266735792514218 0.04166332334226081 227.890755564881)",
-  dark: "oklch(0.9110280326138016 0.05428316129852959 226.81685418252806)",
-  darker: "oklch(0.8953824859761815 0.06690299925479838 225.74295280017512)",
-  darkest: "oklch(0.8797369393385615 0.07952283721106716 224.66905141782217)"
-};
-var tertiary3 = {
-  lightest: "oklch(0.7918467078448571 0.12656541375136143 232.8854457721009)",
-  lighter: "oklch(0.719602022988773 0.1609881523353869 242.17574150873253)",
-  light: "oklch(0.6473573381326887 0.19541089091941238 251.4660372453642)",
-  DEFAULT: "oklch(0.5751126532766045 0.2298336295034379 260.75633298199585)",
-  dark: "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
-  darker: "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
-  darkest: "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)"
+  50: "oklch(0.9816683948128555 0.013540580086234762 227.890755564881)",
+  100: "oklch(0.9633367896257109 0.022914827838243446 227.890755564881)",
+  150: "oklch(0.9450051844385663 0.032289075590252125 227.890755564881)",
+  200: "oklch(0.9266735792514218 0.04166332334226081 227.890755564881)",
+  250: "oklch(0.9110280326138016 0.05428316129852959 226.81685418252806)",
+  300: "oklch(0.8953824859761815 0.06690299925479838 225.74295280017512)",
+  350: "oklch(0.8797369393385615 0.07952283721106716 224.66905141782217)",
+  400: "oklch(0.8640913927009413 0.09214267516733594 223.59515003546923)",
+  450: "oklch(0.7918467078448571 0.12656541375136143 232.8854457721009)",
+  500: "oklch(0.719602022988773 0.1609881523353869 242.17574150873253)",
+  550: "oklch(0.6473573381326887 0.19541089091941238 251.4660372453642)",
+  600: "oklch(0.5751126532766045 0.2298336295034379 260.75633298199585)",
+  650: "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
+  700: "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
+  750: "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)",
+  800: "oklch(0.2899986864508513 0.11729574451023282 259.841936589881)",
+  850: "oklch(0.23924891632195233 0.0997013828336979 259.841936589881)",
+  900: "oklch(0.18849914619305336 0.08210702115716298 259.841936589881)",
+  950: "oklch(0.13774937606415438 0.06451265948062805 259.841936589881)"
 };
 var accent3 = {
-  lightest: "oklch(0.7786513285230947 0.11664880226231811 13.011419492803782)",
-  lighter: "oklch(0.7064193584802577 0.15026753878948967 15.45213465296721)",
-  light: "oklch(0.6341873884374207 0.18388627531666124 17.892849813130642)",
-  DEFAULT: "oklch(0.5619554183945837 0.2175050118438328 20.33356497329407)",
-  dark: "oklch(0.5007084126233001 0.1948505033631296 19.53345435711309)",
-  darker: "oklch(0.4394614068520166 0.17219599488242637 18.733343740932114)",
-  darkest: "oklch(0.3782144010807331 0.14954148640172313 17.933233124751133)"
+  50: "oklch(0.9865629857873716 0.009043874600495525 6.653158456152784)",
+  100: "oklch(0.9731259715747431 0.015305018554684736 6.653158456152784)",
+  150: "oklch(0.9596889573621147 0.021566162508873946 6.653158456152784)",
+  200: "oklch(0.9462519431494862 0.027827306463063157 6.653158456152784)",
+  250: "oklch(0.9224097820035976 0.041627996281084 7.632544925274676)",
+  300: "oklch(0.8985676208577089 0.05542868609910484 8.611931394396567)",
+  350: "oklch(0.8747254597118204 0.06922937591712569 9.59131786351846)",
+  400: "oklch(0.8508832985659317 0.08303006573514653 10.570704332640352)",
+  450: "oklch(0.7786513285230947 0.11664880226231811 13.011419492803782)",
+  500: "oklch(0.7064193584802577 0.15026753878948967 15.45213465296721)",
+  550: "oklch(0.6341873884374207 0.18388627531666124 17.892849813130642)",
+  600: "oklch(0.5619554183945837 0.2175050118438328 20.33356497329407)",
+  650: "oklch(0.5007084126233001 0.1948505033631296 19.53345435711309)",
+  700: "oklch(0.4394614068520166 0.17219599488242637 18.733343740932114)",
+  750: "oklch(0.3782144010807331 0.14954148640172313 17.933233124751133)",
+  800: "oklch(0.31696739530944956 0.1268869779210199 17.133122508570153)",
+  850: "oklch(0.2614981011302959 0.10785393123286692 17.133122508570153)",
+  900: "oklch(0.20602880695114223 0.08882088454471393 17.133122508570153)",
+  950: "oklch(0.15055951277198854 0.06978783785656095 17.133122508570153)"
 };
-var success3 = {
-  lightest: "oklch(0.8872601819234176 0.060106868790808454 142.8007543325396)",
-  lighter: "oklch(0.7745203638468352 0.1017193164152143 142.8007543325396)",
-  light: "oklch(0.6617805457702527 0.14333176403962014 142.8007543325396)",
-  DEFAULT: "oklch(0.5490407276936703 0.184944211664026 142.8007543325396)",
-  dark: "oklch(0.452958600347278 0.1572025799144221 142.8007543325396)",
-  darker: "oklch(0.35687647300088565 0.1294609481648182 142.8007543325396)",
-  darkest: "oklch(0.2607943456544934 0.1017193164152143 142.8007543325396)"
-};
-var warning3 = {
-  lightest: "oklch(0.8958326078740171 0.05515411503535715 43.99726534950394)",
-  lighter: "oklch(0.7916652157480342 0.09333773313675825 43.99726534950394)",
-  light: "oklch(0.6874978236220514 0.13152135123815933 43.99726534950394)",
-  DEFAULT: "oklch(0.5833304314960684 0.16970496933956045 43.99726534950394)",
-  dark: "oklch(0.4812476059842564 0.14424922393862638 43.99726534950394)",
-  darker: "oklch(0.3791647804724445 0.11879347853769232 43.99726534950394)",
-  darkest: "oklch(0.2770819549606325 0.09333773313675825 43.99726534950394)"
-};
-var error3 = {
-  lightest: "oklch(0.8754989819725543 0.06263564750632042 18.079140916466272)",
-  lighter: "oklch(0.7509979639451086 0.10599878808761917 18.079140916466272)",
-  light: "oklch(0.626496945917663 0.14936192866891793 18.079140916466272)",
-  DEFAULT: "oklch(0.5019959278902173 0.19272506925021668 18.079140916466272)",
-  dark: "oklch(0.4141466405094293 0.16381630886268417 18.079140916466272)",
-  darker: "oklch(0.3262973531286413 0.13490754847515168 18.079140916466272)",
-  darkest: "oklch(0.2384480657478532 0.10599878808761917 18.079140916466272)"
-};
-var info3 = {
-  lightest: "oklch(0.7885885178062633 0.04006699378315225 262.3514946368672)",
-  lighter: "oklch(0.6759330152625114 0.06780568178687302 262.3514946368672)",
-  light: "oklch(0.5632775127187595 0.0955443697905938 262.3514946368672)",
-  DEFAULT: "oklch(0.4506220101750076 0.12328305779431457 262.3514946368672)",
-  dark: "oklch(0.37176315839438123 0.10479059912516739 262.3514946368672)",
-  darker: "oklch(0.2929043066137549 0.0862981404560202 262.3514946368672)",
-  darkest: "oklch(0.2140454548331286 0.06780568178687302 262.3514946368672)"
+var grey3 = {
+  50: "oklch(0.9850175274112574 0 0)",
+  100: "oklch(0.9700350548225147 0 0)",
+  150: "oklch(0.9550525822337722 0 0)",
+  200: "oklch(0.9400701096450296 0 0)",
+  250: "oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113)",
+  300: "oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113)",
+  350: "oklch(0.8823399145667763 0.005832178351138532 228.8687380011113)",
+  400: "oklch(0.8630965162073586 0.007776237801518043 228.8687380011113)",
+  450: "oklch(0.7539290831519737 0.008632737257709678 229.8058410593526)",
+  500: "oklch(0.6447616500965888 0.009489236713901311 230.74294411759388)",
+  550: "oklch(0.5355942170412039 0.010345736170092946 231.68004717583517)",
+  600: "oklch(0.426426783985819 0.011202235626284581 232.61715023407646)",
+  650: "oklch(0.3871732148397997 0.010991669591883444 234.98382249287215)",
+  700: "oklch(0.3479196456937804 0.010781103557482309 237.35049475166784)",
+  750: "oklch(0.3086660765477611 0.010570537523081174 239.71716701046353)",
+  800: "oklch(0.26941250740174183 0.010359971488680036 242.08383926925922)",
+  850: "oklch(0.222265318606437 0.00880597576537803 242.08383926925922)",
+  900: "oklch(0.17511812981113217 0.007251980042076026 242.08383926925922)",
+  950: "oklch(0.12797094101582737 0.005697984318774021 242.08383926925922)"
 };
 
 // src/js/colors/themes/masterbrand/rgb.js
 var rgb_exports4 = {};
 __export(rgb_exports4, {
   accent: () => accent4,
-  error: () => error4,
-  info: () => info4,
-  primary: () => primary4,
-  secondary: () => secondary4,
-  success: () => success4,
-  tertiary: () => tertiary4,
-  warning: () => warning4
+  grey: () => grey4,
+  primary: () => primary4
 });
 var primary4 = {
-  lightest: "rgb(12, 90, 212)",
-  lighter: "rgb(5, 72, 173)",
-  light: "rgb(2, 54, 136)",
-  DEFAULT: "rgb(0, 38, 100)",
-  dark: "rgb(0, 26, 77)",
-  darker: "rgb(0, 16, 55)",
-  darkest: "rgb(0, 6, 34)"
-};
-var secondary4 = {
-  lightest: "rgb(240, 251, 255)",
-  lighter: "rgb(228, 246, 255)",
-  light: "rgb(215, 242, 254)",
-  DEFAULT: "rgb(203, 237, 253)",
-  dark: "rgb(188, 234, 254)",
-  darker: "rgb(173, 231, 255)",
-  darkest: "rgb(157, 227, 255)"
-};
-var tertiary4 = {
-  lightest: "rgb(90, 201, 255)",
-  lighter: "rgb(38, 174, 255)",
-  light: "rgb(0, 143, 255)",
-  DEFAULT: "rgb(20, 108, 253)",
-  dark: "rgb(12, 90, 212)",
-  darker: "rgb(5, 72, 173)",
-  darkest: "rgb(2, 54, 136)"
+  50: "rgb(240, 251, 255)",
+  100: "rgb(228, 246, 255)",
+  150: "rgb(215, 242, 254)",
+  200: "rgb(203, 237, 253)",
+  250: "rgb(188, 234, 254)",
+  300: "rgb(173, 231, 255)",
+  350: "rgb(157, 227, 255)",
+  400: "rgb(140, 224, 255)",
+  450: "rgb(90, 201, 255)",
+  500: "rgb(38, 174, 255)",
+  550: "rgb(0, 143, 255)",
+  600: "rgb(20, 108, 253)",
+  650: "rgb(12, 90, 212)",
+  700: "rgb(5, 72, 173)",
+  750: "rgb(2, 54, 136)",
+  800: "rgb(0, 38, 100)",
+  850: "rgb(0, 26, 77)",
+  900: "rgb(0, 16, 55)",
+  950: "rgb(0, 6, 34)"
 };
 var accent4 = {
-  lightest: "rgb(248, 151, 162)",
-  lighter: "rgb(239, 117, 129)",
-  light: "rgb(228, 79, 95)",
-  DEFAULT: "rgb(215, 21, 58)",
-  dark: "rgb(185, 14, 50)",
-  darker: "rgb(155, 7, 42)",
-  darkest: "rgb(126, 3, 34)"
+  50: "rgb(255, 248, 249)",
+  100: "rgb(255, 242, 244)",
+  150: "rgb(255, 236, 239)",
+  200: "rgb(255, 230, 234)",
+  250: "rgb(255, 219, 224)",
+  300: "rgb(255, 207, 214)",
+  350: "rgb(255, 196, 204)",
+  400: "rgb(255, 184, 193)",
+  450: "rgb(248, 151, 162)",
+  500: "rgb(239, 117, 129)",
+  550: "rgb(228, 79, 95)",
+  600: "rgb(215, 21, 58)",
+  650: "rgb(185, 14, 50)",
+  700: "rgb(155, 7, 42)",
+  750: "rgb(126, 3, 34)",
+  800: "rgb(99, 0, 25)",
+  850: "rgb(76, 0, 16)",
+  900: "rgb(54, 0, 8)",
+  950: "rgb(33, 0, 3)"
 };
-var success4 = {
-  lightest: "rgb(196, 229, 192)",
-  lighter: "rgb(143, 199, 139)",
-  light: "rgb(88, 168, 84)",
-  DEFAULT: "rgb(0, 138, 7)",
-  dark: "rgb(0, 106, 0)",
-  darker: "rgb(0, 76, 0)",
-  darkest: "rgb(0, 47, 0)"
-};
-var warning4 = {
-  lightest: "rgb(253, 210, 192)",
-  lighter: "rgb(238, 168, 138)",
-  light: "rgb(221, 125, 83)",
-  DEFAULT: "rgb(201, 80, 0)",
-  dark: "rgb(157, 58, 0)",
-  darker: "rgb(114, 38, 0)",
-  darkest: "rgb(75, 18, 0)"
-};
-var error4 = {
-  lightest: "rgb(253, 198, 198)",
-  lighter: "rgb(234, 146, 149)",
-  light: "rgb(211, 93, 101)",
-  DEFAULT: "rgb(184, 18, 55)",
-  dark: "rgb(143, 3, 39)",
-  darker: "rgb(105, 0, 24)",
-  darkest: "rgb(68, 0, 10)"
-};
-var info4 = {
-  lightest: "rgb(172, 187, 213)",
-  lighter: "rgb(129, 152, 194)",
-  light: "rgb(87, 117, 174)",
-  DEFAULT: "rgb(46, 82, 153)",
-  dark: "rgb(32, 61, 119)",
-  darker: "rgb(19, 41, 86)",
-  darkest: "rgb(7, 23, 56)"
+var grey4 = {
+  50: "rgb(250, 250, 250)",
+  100: "rgb(245, 245, 245)",
+  150: "rgb(240, 240, 240)",
+  200: "rgb(235, 235, 235)",
+  250: "rgb(227, 229, 230)",
+  300: "rgb(220, 223, 224)",
+  350: "rgb(212, 217, 219)",
+  400: "rgb(205, 211, 214)",
+  450: "rgb(170, 176, 180)",
+  500: "rgb(136, 143, 146)",
+  550: "rgb(104, 111, 114)",
+  600: "rgb(73, 80, 84)",
+  650: "rgb(63, 69, 73)",
+  700: "rgb(53, 59, 63)",
+  750: "rgb(43, 49, 53)",
+  800: "rgb(34, 39, 43)",
+  850: "rgb(24, 28, 31)",
+  900: "rgb(14, 17, 19)",
+  950: "rgb(5, 7, 9)"
 };
 
 // src/less/colors/global/hex.less
@@ -15257,28 +15901,28 @@ var hex_exports6 = {};
 __export(hex_exports6, {
   default: () => hex_default4
 });
-var hex_default4 = "@primary-lightest: #0c5ad4;\n@primary-lighter: #0548ad;\n@primary-light: #023688;\n@primary: #002664;\n@primary-dark: #001a4d;\n@primary-darker: #001037;\n@primary-darkest: #000622;\n@secondary-lightest: #f0fbff;\n@secondary-lighter: #e4f6ff;\n@secondary-light: #d7f2fe;\n@secondary: #cbedfd;\n@secondary-dark: #bceafe;\n@secondary-darker: #ade7ff;\n@secondary-darkest: #9de3ff;\n@tertiary-lightest: #5ac9ff;\n@tertiary-lighter: #26aeff;\n@tertiary-light: #008fff;\n@tertiary: #146cfd;\n@tertiary-dark: #0c5ad4;\n@tertiary-darker: #0548ad;\n@tertiary-darkest: #023688;\n@accent-lightest: #f897a2;\n@accent-lighter: #ef7581;\n@accent-light: #e44f5f;\n@accent: #d7153a;\n@accent-dark: #b90e32;\n@accent-darker: #9b072a;\n@accent-darkest: #7e0322;\n@success-lightest: #c4e5c0;\n@success-lighter: #8fc78b;\n@success-light: #58a854;\n@success: #008a07;\n@success-dark: #006a00;\n@success-darker: #004c00;\n@success-darkest: #002f00;\n@warning-lightest: #fdd2c0;\n@warning-lighter: #eea88a;\n@warning-light: #dd7d53;\n@warning: #c95000;\n@warning-dark: #9d3a00;\n@warning-darker: #722600;\n@warning-darkest: #4b1200;\n@error-lightest: #fdc6c6;\n@error-lighter: #ea9295;\n@error-light: #d35d65;\n@error: #b81237;\n@error-dark: #8f0327;\n@error-darker: #690018;\n@error-darkest: #44000a;\n@info-lightest: #acbbd5;\n@info-lighter: #8198c2;\n@info-light: #5775ae;\n@info: #2e5299;\n@info-dark: #203d77;\n@info-darker: #132956;\n@info-darkest: #071738;\n";
+var hex_default4 = "@primary-50: #f0fbff;\n@primary-100: #e4f6ff;\n@primary-150: #d7f2fe;\n@primary-200: #cbedfd;\n@primary-250: #bceafe;\n@primary-300: #ade7ff;\n@primary-350: #9de3ff;\n@primary-400: #8ce0ff;\n@primary-450: #5ac9ff;\n@primary-500: #26aeff;\n@primary-550: #008fff;\n@primary-600: #146cfd;\n@primary-650: #0c5ad4;\n@primary-700: #0548ad;\n@primary-750: #023688;\n@primary-800: #002664;\n@primary-850: #001a4d;\n@primary-900: #001037;\n@primary-950: #000622;\n@accent-50: #fff8f9;\n@accent-100: #fff2f4;\n@accent-150: #ffecef;\n@accent-200: #ffe6ea;\n@accent-250: #ffdbe0;\n@accent-300: #ffcfd6;\n@accent-350: #ffc4cc;\n@accent-400: #ffb8c1;\n@accent-450: #f897a2;\n@accent-500: #ef7581;\n@accent-550: #e44f5f;\n@accent-600: #d7153a;\n@accent-650: #b90e32;\n@accent-700: #9b072a;\n@accent-750: #7e0322;\n@accent-800: #630019;\n@accent-850: #4c0010;\n@accent-900: #360008;\n@accent-950: #210003;\n@grey-50: #fafafa;\n@grey-100: #f5f5f5;\n@grey-150: #f0f0f0;\n@grey-200: #ebebeb;\n@grey-250: #e3e5e6;\n@grey-300: #dcdfe0;\n@grey-350: #d4d9db;\n@grey-400: #cdd3d6;\n@grey-450: #aab0b4;\n@grey-500: #888f92;\n@grey-550: #686f72;\n@grey-600: #495054;\n@grey-650: #3f4549;\n@grey-700: #353b3f;\n@grey-750: #2b3135;\n@grey-800: #22272b;\n@grey-850: #181c1f;\n@grey-900: #0e1113;\n@grey-950: #050709;\n";
 
 // src/less/colors/themes/masterbrand/hsl.less
 var hsl_exports6 = {};
 __export(hsl_exports6, {
   default: () => hsl_default4
 });
-var hsl_default4 = "@primary-lightest: hsl(216.77, 89.43%, 43.98%);\n@primary-lighter: hsl(216.29, 94.14%, 35%);\n@primary-light: hsl(216.37, 97.67%, 26.93%);\n@primary: hsl(217.2, 100%, 19.61%);\n@primary-dark: hsl(218.95, 100%, 14.93%);\n@primary-darker: hsl(222.31, 100%, 10.59%);\n@primary-darkest: hsl(228.65, 100%, 6.6%);\n@secondary-lightest: hsl(199.45, 100%, 97.34%);\n@secondary-lighter: hsl(199.38, 100%, 94.73%);\n@secondary-light: hsl(199.3, 95.85%, 92.09%);\n@secondary: hsl(199.2, 92.59%, 89.41%);\n@secondary-dark: hsl(198.5, 96.87%, 86.75%);\n@secondary-darker: hsl(197.76, 98.99%, 83.89%);\n@secondary-darkest: hsl(197, 99.87%, 80.82%);\n@tertiary-lightest: hsl(199.74, 99.83%, 67.57%);\n@tertiary-lighter: hsl(202.52, 100%, 57.55%);\n@tertiary-light: hsl(204.76, 100%, 46.97%);\n@tertiary: hsl(217.34, 98.31%, 53.53%);\n@tertiary-dark: hsl(216.77, 89.43%, 43.98%);\n@tertiary-darker: hsl(216.29, 94.14%, 35%);\n@tertiary-darkest: hsl(216.37, 97.67%, 26.93%);\n@accent-lightest: hsl(353.39, 86.96%, 78.18%);\n@accent-lighter: hsl(353.95, 78.84%, 69.69%);\n@accent-light: hsl(353.52, 73.17%, 60.13%);\n@accent: hsl(348.56, 82.2%, 46.27%);\n@accent-dark: hsl(347.26, 85.91%, 38.92%);\n@accent-darker: hsl(345.89, 91%, 31.81%);\n@accent-darkest: hsl(345, 95.87%, 25.31%);\n@success-lightest: hsl(114.97, 40.74%, 82.58%);\n@success-lighter: hsl(115.71, 34.7%, 66.15%);\n@success-light: hsl(117.04, 33.37%, 49.53%);\n@success: hsl(123.04, 100%, 27.06%);\n@success-dark: hsl(122.96, 100%, 19.1%);\n@success-darker: hsl(122.88, 100%, 12.74%);\n@success-darkest: hsl(122.85, 100%, 7.59%);\n@warning-lightest: hsl(17.74, 94.96%, 87.24%);\n@warning-lighter: hsl(17.94, 75.09%, 73.77%);\n@warning-light: hsl(18.45, 66.88%, 59.6%);\n@warning: hsl(23.88, 100%, 39.41%);\n@warning-dark: hsl(24.01, 100%, 29.25%);\n@warning-darker: hsl(22.64, 100%, 20.66%);\n@warning-darkest: hsl(18.45, 100%, 13.3%);\n@error-lightest: hsl(359.69, 92.79%, 88.44%);\n@error-lighter: hsl(358.32, 67.18%, 74.5%);\n@error-light: hsl(355.68, 57.14%, 59.46%);\n@error: hsl(346.63, 82.18%, 39.61%);\n@error-dark: hsl(344.75, 95.33%, 28.77%);\n@error-darker: hsl(344.52, 100%, 19.69%);\n@error-darkest: hsl(347.44, 100%, 12.27%);\n@info-lightest: hsl(218.63, 32.11%, 75.49%);\n@info-lighter: hsl(218.81, 34.57%, 63.16%);\n@info-light: hsl(219.17, 34.9%, 51.02%);\n@info: hsl(219.81, 53.77%, 39.02%);\n@info-dark: hsl(219.87, 57.48%, 29.6%);\n@info-darker: hsl(219.94, 64.01%, 20.66%);\n@info-darkest: hsl(220.32, 77.61%, 12.34%);\n";
+var hsl_default4 = "@primary-50: hsl(199.45, 100%, 97.34%);\n@primary-100: hsl(199.38, 100%, 94.73%);\n@primary-150: hsl(199.3, 95.85%, 92.09%);\n@primary-200: hsl(199.2, 92.59%, 89.41%);\n@primary-250: hsl(198.5, 96.87%, 86.75%);\n@primary-300: hsl(197.76, 98.99%, 83.89%);\n@primary-350: hsl(197, 99.87%, 80.82%);\n@primary-400: hsl(196.17, 100%, 77.45%);\n@primary-450: hsl(199.74, 99.83%, 67.57%);\n@primary-500: hsl(202.52, 100%, 57.55%);\n@primary-550: hsl(204.76, 100%, 46.97%);\n@primary-600: hsl(217.34, 98.31%, 53.53%);\n@primary-650: hsl(216.77, 89.43%, 43.98%);\n@primary-700: hsl(216.29, 94.14%, 35%);\n@primary-750: hsl(216.37, 97.67%, 26.93%);\n@primary-800: hsl(217.2, 100%, 19.61%);\n@primary-850: hsl(218.95, 100%, 14.93%);\n@primary-900: hsl(222.31, 100%, 10.59%);\n@primary-950: hsl(228.65, 100%, 6.6%);\n@accent-50: hsl(350.85, 100%, 98.97%);\n@accent-100: hsl(350.7, 100%, 97.7%);\n@accent-150: hsl(350.55, 100%, 96.41%);\n@accent-200: hsl(350.4, 100%, 95.1%);\n@accent-250: hsl(350.92, 100%, 92.94%);\n@accent-300: hsl(351.43, 100%, 90.72%);\n@accent-350: hsl(351.92, 100%, 88.44%);\n@accent-400: hsl(352.39, 100%, 86.08%);\n@accent-450: hsl(353.39, 86.96%, 78.18%);\n@accent-500: hsl(353.95, 78.84%, 69.69%);\n@accent-550: hsl(353.52, 73.17%, 60.13%);\n@accent-600: hsl(348.56, 82.2%, 46.27%);\n@accent-650: hsl(347.26, 85.91%, 38.92%);\n@accent-700: hsl(345.89, 91%, 31.81%);\n@accent-750: hsl(345, 95.87%, 25.31%);\n@accent-800: hsl(344.85, 100%, 19.41%);\n@accent-850: hsl(346.11, 100%, 14.46%);\n@accent-900: hsl(349.15, 100%, 10.03%);\n@accent-950: hsl(352.16, 100%, 6.06%);\n@grey-50: hsl(223.81, 0%, 98.03%);\n@grey-100: hsl(223.81, 0%, 96.06%);\n@grey-150: hsl(223.81, 0%, 94.11%);\n@grey-200: hsl(223.81, 0%, 92.16%);\n@grey-250: hsl(200.05, 4.31%, 89.64%);\n@grey-300: hsl(200.03, 6.92%, 87.13%);\n@grey-350: hsl(200.02, 8.65%, 84.64%);\n@grey-400: hsl(200, 9.89%, 82.16%);\n@grey-450: hsl(200.47, 6.03%, 68.52%);\n@grey-500: hsl(200.94, 4.51%, 55.36%);\n@grey-550: hsl(201.39, 4.91%, 42.76%);\n@grey-600: hsl(201.82, 7.01%, 30.78%);\n@grey-650: hsl(203.03, 7.74%, 26.71%);\n@grey-700: hsl(204.24, 8.68%, 22.73%);\n@grey-750: hsl(205.45, 9.93%, 18.85%);\n@grey-800: hsl(206.67, 11.69%, 15.1%);\n@grey-850: hsl(206.66, 13.37%, 10.7%);\n@grey-900: hsl(206.64, 17.01%, 6.52%);\n@grey-950: hsl(208.68, 23.47%, 2.8%);\n";
 
 // src/less/colors/themes/masterbrand/oklch.less
 var oklch_exports6 = {};
 __export(oklch_exports6, {
   default: () => oklch_default4
 });
-var oklch_default4 = "@primary-lightest: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n@primary-lighter: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n@primary-light: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n@primary: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n@primary-dark: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n@primary-darker: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n@primary-darkest: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n@secondary-lightest: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n@secondary-lighter: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n@secondary-light: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n@secondary: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n@secondary-dark: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n@secondary-darker: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n@secondary-darkest: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n@tertiary-lightest: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n@tertiary-lighter: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n@tertiary-light: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n@tertiary: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n@tertiary-dark: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n@tertiary-darker: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n@tertiary-darkest: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n@accent-lightest: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n@accent-lighter: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n@accent-light: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n@accent: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n@accent-dark: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n@accent-darker: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n@accent-darkest: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n@success-lightest: oklch(0.8872601819234176 0.060106868790808454 142.8007543325396);\n@success-lighter: oklch(0.7745203638468352 0.1017193164152143 142.8007543325396);\n@success-light: oklch(0.6617805457702527 0.14333176403962014 142.8007543325396);\n@success: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n@success-dark: oklch(0.452958600347278 0.1572025799144221 142.8007543325396);\n@success-darker: oklch(0.35687647300088565 0.1294609481648182 142.8007543325396);\n@success-darkest: oklch(0.2607943456544934 0.1017193164152143 142.8007543325396);\n@warning-lightest: oklch(0.8958326078740171 0.05515411503535715 43.99726534950394);\n@warning-lighter: oklch(0.7916652157480342 0.09333773313675825 43.99726534950394);\n@warning-light: oklch(0.6874978236220514 0.13152135123815933 43.99726534950394);\n@warning: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n@warning-dark: oklch(0.4812476059842564 0.14424922393862638 43.99726534950394);\n@warning-darker: oklch(0.3791647804724445 0.11879347853769232 43.99726534950394);\n@warning-darkest: oklch(0.2770819549606325 0.09333773313675825 43.99726534950394);\n@error-lightest: oklch(0.8754989819725543 0.06263564750632042 18.079140916466272);\n@error-lighter: oklch(0.7509979639451086 0.10599878808761917 18.079140916466272);\n@error-light: oklch(0.626496945917663 0.14936192866891793 18.079140916466272);\n@error: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n@error-dark: oklch(0.4141466405094293 0.16381630886268417 18.079140916466272);\n@error-darker: oklch(0.3262973531286413 0.13490754847515168 18.079140916466272);\n@error-darkest: oklch(0.2384480657478532 0.10599878808761917 18.079140916466272);\n@info-lightest: oklch(0.7885885178062633 0.04006699378315225 262.3514946368672);\n@info-lighter: oklch(0.6759330152625114 0.06780568178687302 262.3514946368672);\n@info-light: oklch(0.5632775127187595 0.0955443697905938 262.3514946368672);\n@info: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n@info-dark: oklch(0.37176315839438123 0.10479059912516739 262.3514946368672);\n@info-darker: oklch(0.2929043066137549 0.0862981404560202 262.3514946368672);\n@info-darkest: oklch(0.2140454548331286 0.06780568178687302 262.3514946368672);\n";
+var oklch_default4 = "@primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n@primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n@primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n@primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n@primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n@primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n@primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n@primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n@primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n@primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n@primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n@primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n@primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n@primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n@primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n@primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n@primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n@primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n@primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n@accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n@accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n@accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n@accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n@accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n@accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n@accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n@accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n@accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n@accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n@accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n@accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n@accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n@accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n@accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n@accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n@accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n@accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n@accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n@grey-50: oklch(0.9850175274112574 0 0);\n@grey-100: oklch(0.9700350548225147 0 0);\n@grey-150: oklch(0.9550525822337722 0 0);\n@grey-200: oklch(0.9400701096450296 0 0);\n@grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n@grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n@grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n@grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n@grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n@grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n@grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n@grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n@grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n@grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n@grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n@grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n@grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n@grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n@grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n";
 
 // src/less/colors/themes/masterbrand/rgb.less
 var rgb_exports6 = {};
 __export(rgb_exports6, {
   default: () => rgb_default4
 });
-var rgb_default4 = "@primary-lightest: rgb(12, 90, 212);\n@primary-lighter: rgb(5, 72, 173);\n@primary-light: rgb(2, 54, 136);\n@primary: rgb(0, 38, 100);\n@primary-dark: rgb(0, 26, 77);\n@primary-darker: rgb(0, 16, 55);\n@primary-darkest: rgb(0, 6, 34);\n@secondary-lightest: rgb(240, 251, 255);\n@secondary-lighter: rgb(228, 246, 255);\n@secondary-light: rgb(215, 242, 254);\n@secondary: rgb(203, 237, 253);\n@secondary-dark: rgb(188, 234, 254);\n@secondary-darker: rgb(173, 231, 255);\n@secondary-darkest: rgb(157, 227, 255);\n@tertiary-lightest: rgb(90, 201, 255);\n@tertiary-lighter: rgb(38, 174, 255);\n@tertiary-light: rgb(0, 143, 255);\n@tertiary: rgb(20, 108, 253);\n@tertiary-dark: rgb(12, 90, 212);\n@tertiary-darker: rgb(5, 72, 173);\n@tertiary-darkest: rgb(2, 54, 136);\n@accent-lightest: rgb(248, 151, 162);\n@accent-lighter: rgb(239, 117, 129);\n@accent-light: rgb(228, 79, 95);\n@accent: rgb(215, 21, 58);\n@accent-dark: rgb(185, 14, 50);\n@accent-darker: rgb(155, 7, 42);\n@accent-darkest: rgb(126, 3, 34);\n@success-lightest: rgb(196, 229, 192);\n@success-lighter: rgb(143, 199, 139);\n@success-light: rgb(88, 168, 84);\n@success: rgb(0, 138, 7);\n@success-dark: rgb(0, 106, 0);\n@success-darker: rgb(0, 76, 0);\n@success-darkest: rgb(0, 47, 0);\n@warning-lightest: rgb(253, 210, 192);\n@warning-lighter: rgb(238, 168, 138);\n@warning-light: rgb(221, 125, 83);\n@warning: rgb(201, 80, 0);\n@warning-dark: rgb(157, 58, 0);\n@warning-darker: rgb(114, 38, 0);\n@warning-darkest: rgb(75, 18, 0);\n@error-lightest: rgb(253, 198, 198);\n@error-lighter: rgb(234, 146, 149);\n@error-light: rgb(211, 93, 101);\n@error: rgb(184, 18, 55);\n@error-dark: rgb(143, 3, 39);\n@error-darker: rgb(105, 0, 24);\n@error-darkest: rgb(68, 0, 10);\n@info-lightest: rgb(172, 187, 213);\n@info-lighter: rgb(129, 152, 194);\n@info-light: rgb(87, 117, 174);\n@info: rgb(46, 82, 153);\n@info-dark: rgb(32, 61, 119);\n@info-darker: rgb(19, 41, 86);\n@info-darkest: rgb(7, 23, 56);\n";
+var rgb_default4 = "@primary-50: rgb(240, 251, 255);\n@primary-100: rgb(228, 246, 255);\n@primary-150: rgb(215, 242, 254);\n@primary-200: rgb(203, 237, 253);\n@primary-250: rgb(188, 234, 254);\n@primary-300: rgb(173, 231, 255);\n@primary-350: rgb(157, 227, 255);\n@primary-400: rgb(140, 224, 255);\n@primary-450: rgb(90, 201, 255);\n@primary-500: rgb(38, 174, 255);\n@primary-550: rgb(0, 143, 255);\n@primary-600: rgb(20, 108, 253);\n@primary-650: rgb(12, 90, 212);\n@primary-700: rgb(5, 72, 173);\n@primary-750: rgb(2, 54, 136);\n@primary-800: rgb(0, 38, 100);\n@primary-850: rgb(0, 26, 77);\n@primary-900: rgb(0, 16, 55);\n@primary-950: rgb(0, 6, 34);\n@accent-50: rgb(255, 248, 249);\n@accent-100: rgb(255, 242, 244);\n@accent-150: rgb(255, 236, 239);\n@accent-200: rgb(255, 230, 234);\n@accent-250: rgb(255, 219, 224);\n@accent-300: rgb(255, 207, 214);\n@accent-350: rgb(255, 196, 204);\n@accent-400: rgb(255, 184, 193);\n@accent-450: rgb(248, 151, 162);\n@accent-500: rgb(239, 117, 129);\n@accent-550: rgb(228, 79, 95);\n@accent-600: rgb(215, 21, 58);\n@accent-650: rgb(185, 14, 50);\n@accent-700: rgb(155, 7, 42);\n@accent-750: rgb(126, 3, 34);\n@accent-800: rgb(99, 0, 25);\n@accent-850: rgb(76, 0, 16);\n@accent-900: rgb(54, 0, 8);\n@accent-950: rgb(33, 0, 3);\n@grey-50: rgb(250, 250, 250);\n@grey-100: rgb(245, 245, 245);\n@grey-150: rgb(240, 240, 240);\n@grey-200: rgb(235, 235, 235);\n@grey-250: rgb(227, 229, 230);\n@grey-300: rgb(220, 223, 224);\n@grey-350: rgb(212, 217, 219);\n@grey-400: rgb(205, 211, 214);\n@grey-450: rgb(170, 176, 180);\n@grey-500: rgb(136, 143, 146);\n@grey-550: rgb(104, 111, 114);\n@grey-600: rgb(73, 80, 84);\n@grey-650: rgb(63, 69, 73);\n@grey-700: rgb(53, 59, 63);\n@grey-750: rgb(43, 49, 53);\n@grey-800: rgb(34, 39, 43);\n@grey-850: rgb(24, 28, 31);\n@grey-900: rgb(14, 17, 19);\n@grey-950: rgb(5, 7, 9);\n";
 
 // src/scss/colors/global/hex.scss
 var hex_exports7 = {};
@@ -15313,28 +15957,28 @@ var hex_exports8 = {};
 __export(hex_exports8, {
   default: () => hex_default6
 });
-var hex_default6 = "$primary-lightest: #0c5ad4;\n$primary-lighter: #0548ad;\n$primary-light: #023688;\n$primary: #002664;\n$primary-dark: #001a4d;\n$primary-darker: #001037;\n$primary-darkest: #000622;\n$secondary-lightest: #f0fbff;\n$secondary-lighter: #e4f6ff;\n$secondary-light: #d7f2fe;\n$secondary: #cbedfd;\n$secondary-dark: #bceafe;\n$secondary-darker: #ade7ff;\n$secondary-darkest: #9de3ff;\n$tertiary-lightest: #5ac9ff;\n$tertiary-lighter: #26aeff;\n$tertiary-light: #008fff;\n$tertiary: #146cfd;\n$tertiary-dark: #0c5ad4;\n$tertiary-darker: #0548ad;\n$tertiary-darkest: #023688;\n$accent-lightest: #f897a2;\n$accent-lighter: #ef7581;\n$accent-light: #e44f5f;\n$accent: #d7153a;\n$accent-dark: #b90e32;\n$accent-darker: #9b072a;\n$accent-darkest: #7e0322;\n$success-lightest: #c4e5c0;\n$success-lighter: #8fc78b;\n$success-light: #58a854;\n$success: #008a07;\n$success-dark: #006a00;\n$success-darker: #004c00;\n$success-darkest: #002f00;\n$warning-lightest: #fdd2c0;\n$warning-lighter: #eea88a;\n$warning-light: #dd7d53;\n$warning: #c95000;\n$warning-dark: #9d3a00;\n$warning-darker: #722600;\n$warning-darkest: #4b1200;\n$error-lightest: #fdc6c6;\n$error-lighter: #ea9295;\n$error-light: #d35d65;\n$error: #b81237;\n$error-dark: #8f0327;\n$error-darker: #690018;\n$error-darkest: #44000a;\n$info-lightest: #acbbd5;\n$info-lighter: #8198c2;\n$info-light: #5775ae;\n$info: #2e5299;\n$info-dark: #203d77;\n$info-darker: #132956;\n$info-darkest: #071738;\n";
+var hex_default6 = "$primary-50: #f0fbff;\n$primary-100: #e4f6ff;\n$primary-150: #d7f2fe;\n$primary-200: #cbedfd;\n$primary-250: #bceafe;\n$primary-300: #ade7ff;\n$primary-350: #9de3ff;\n$primary-400: #8ce0ff;\n$primary-450: #5ac9ff;\n$primary-500: #26aeff;\n$primary-550: #008fff;\n$primary-600: #146cfd;\n$primary-650: #0c5ad4;\n$primary-700: #0548ad;\n$primary-750: #023688;\n$primary-800: #002664;\n$primary-850: #001a4d;\n$primary-900: #001037;\n$primary-950: #000622;\n$accent-50: #fff8f9;\n$accent-100: #fff2f4;\n$accent-150: #ffecef;\n$accent-200: #ffe6ea;\n$accent-250: #ffdbe0;\n$accent-300: #ffcfd6;\n$accent-350: #ffc4cc;\n$accent-400: #ffb8c1;\n$accent-450: #f897a2;\n$accent-500: #ef7581;\n$accent-550: #e44f5f;\n$accent-600: #d7153a;\n$accent-650: #b90e32;\n$accent-700: #9b072a;\n$accent-750: #7e0322;\n$accent-800: #630019;\n$accent-850: #4c0010;\n$accent-900: #360008;\n$accent-950: #210003;\n$grey-50: #fafafa;\n$grey-100: #f5f5f5;\n$grey-150: #f0f0f0;\n$grey-200: #ebebeb;\n$grey-250: #e3e5e6;\n$grey-300: #dcdfe0;\n$grey-350: #d4d9db;\n$grey-400: #cdd3d6;\n$grey-450: #aab0b4;\n$grey-500: #888f92;\n$grey-550: #686f72;\n$grey-600: #495054;\n$grey-650: #3f4549;\n$grey-700: #353b3f;\n$grey-750: #2b3135;\n$grey-800: #22272b;\n$grey-850: #181c1f;\n$grey-900: #0e1113;\n$grey-950: #050709;\n";
 
 // src/scss/colors/themes/masterbrand/hsl.scss
 var hsl_exports8 = {};
 __export(hsl_exports8, {
   default: () => hsl_default6
 });
-var hsl_default6 = "$primary-lightest: hsl(216.77, 89.43%, 43.98%);\n$primary-lighter: hsl(216.29, 94.14%, 35%);\n$primary-light: hsl(216.37, 97.67%, 26.93%);\n$primary: hsl(217.2, 100%, 19.61%);\n$primary-dark: hsl(218.95, 100%, 14.93%);\n$primary-darker: hsl(222.31, 100%, 10.59%);\n$primary-darkest: hsl(228.65, 100%, 6.6%);\n$secondary-lightest: hsl(199.45, 100%, 97.34%);\n$secondary-lighter: hsl(199.38, 100%, 94.73%);\n$secondary-light: hsl(199.3, 95.85%, 92.09%);\n$secondary: hsl(199.2, 92.59%, 89.41%);\n$secondary-dark: hsl(198.5, 96.87%, 86.75%);\n$secondary-darker: hsl(197.76, 98.99%, 83.89%);\n$secondary-darkest: hsl(197, 99.87%, 80.82%);\n$tertiary-lightest: hsl(199.74, 99.83%, 67.57%);\n$tertiary-lighter: hsl(202.52, 100%, 57.55%);\n$tertiary-light: hsl(204.76, 100%, 46.97%);\n$tertiary: hsl(217.34, 98.31%, 53.53%);\n$tertiary-dark: hsl(216.77, 89.43%, 43.98%);\n$tertiary-darker: hsl(216.29, 94.14%, 35%);\n$tertiary-darkest: hsl(216.37, 97.67%, 26.93%);\n$accent-lightest: hsl(353.39, 86.96%, 78.18%);\n$accent-lighter: hsl(353.95, 78.84%, 69.69%);\n$accent-light: hsl(353.52, 73.17%, 60.13%);\n$accent: hsl(348.56, 82.2%, 46.27%);\n$accent-dark: hsl(347.26, 85.91%, 38.92%);\n$accent-darker: hsl(345.89, 91%, 31.81%);\n$accent-darkest: hsl(345, 95.87%, 25.31%);\n$success-lightest: hsl(114.97, 40.74%, 82.58%);\n$success-lighter: hsl(115.71, 34.7%, 66.15%);\n$success-light: hsl(117.04, 33.37%, 49.53%);\n$success: hsl(123.04, 100%, 27.06%);\n$success-dark: hsl(122.96, 100%, 19.1%);\n$success-darker: hsl(122.88, 100%, 12.74%);\n$success-darkest: hsl(122.85, 100%, 7.59%);\n$warning-lightest: hsl(17.74, 94.96%, 87.24%);\n$warning-lighter: hsl(17.94, 75.09%, 73.77%);\n$warning-light: hsl(18.45, 66.88%, 59.6%);\n$warning: hsl(23.88, 100%, 39.41%);\n$warning-dark: hsl(24.01, 100%, 29.25%);\n$warning-darker: hsl(22.64, 100%, 20.66%);\n$warning-darkest: hsl(18.45, 100%, 13.3%);\n$error-lightest: hsl(359.69, 92.79%, 88.44%);\n$error-lighter: hsl(358.32, 67.18%, 74.5%);\n$error-light: hsl(355.68, 57.14%, 59.46%);\n$error: hsl(346.63, 82.18%, 39.61%);\n$error-dark: hsl(344.75, 95.33%, 28.77%);\n$error-darker: hsl(344.52, 100%, 19.69%);\n$error-darkest: hsl(347.44, 100%, 12.27%);\n$info-lightest: hsl(218.63, 32.11%, 75.49%);\n$info-lighter: hsl(218.81, 34.57%, 63.16%);\n$info-light: hsl(219.17, 34.9%, 51.02%);\n$info: hsl(219.81, 53.77%, 39.02%);\n$info-dark: hsl(219.87, 57.48%, 29.6%);\n$info-darker: hsl(219.94, 64.01%, 20.66%);\n$info-darkest: hsl(220.32, 77.61%, 12.34%);\n";
+var hsl_default6 = "$primary-50: hsl(199.45, 100%, 97.34%);\n$primary-100: hsl(199.38, 100%, 94.73%);\n$primary-150: hsl(199.3, 95.85%, 92.09%);\n$primary-200: hsl(199.2, 92.59%, 89.41%);\n$primary-250: hsl(198.5, 96.87%, 86.75%);\n$primary-300: hsl(197.76, 98.99%, 83.89%);\n$primary-350: hsl(197, 99.87%, 80.82%);\n$primary-400: hsl(196.17, 100%, 77.45%);\n$primary-450: hsl(199.74, 99.83%, 67.57%);\n$primary-500: hsl(202.52, 100%, 57.55%);\n$primary-550: hsl(204.76, 100%, 46.97%);\n$primary-600: hsl(217.34, 98.31%, 53.53%);\n$primary-650: hsl(216.77, 89.43%, 43.98%);\n$primary-700: hsl(216.29, 94.14%, 35%);\n$primary-750: hsl(216.37, 97.67%, 26.93%);\n$primary-800: hsl(217.2, 100%, 19.61%);\n$primary-850: hsl(218.95, 100%, 14.93%);\n$primary-900: hsl(222.31, 100%, 10.59%);\n$primary-950: hsl(228.65, 100%, 6.6%);\n$accent-50: hsl(350.85, 100%, 98.97%);\n$accent-100: hsl(350.7, 100%, 97.7%);\n$accent-150: hsl(350.55, 100%, 96.41%);\n$accent-200: hsl(350.4, 100%, 95.1%);\n$accent-250: hsl(350.92, 100%, 92.94%);\n$accent-300: hsl(351.43, 100%, 90.72%);\n$accent-350: hsl(351.92, 100%, 88.44%);\n$accent-400: hsl(352.39, 100%, 86.08%);\n$accent-450: hsl(353.39, 86.96%, 78.18%);\n$accent-500: hsl(353.95, 78.84%, 69.69%);\n$accent-550: hsl(353.52, 73.17%, 60.13%);\n$accent-600: hsl(348.56, 82.2%, 46.27%);\n$accent-650: hsl(347.26, 85.91%, 38.92%);\n$accent-700: hsl(345.89, 91%, 31.81%);\n$accent-750: hsl(345, 95.87%, 25.31%);\n$accent-800: hsl(344.85, 100%, 19.41%);\n$accent-850: hsl(346.11, 100%, 14.46%);\n$accent-900: hsl(349.15, 100%, 10.03%);\n$accent-950: hsl(352.16, 100%, 6.06%);\n$grey-50: hsl(223.81, 0%, 98.03%);\n$grey-100: hsl(223.81, 0%, 96.06%);\n$grey-150: hsl(223.81, 0%, 94.11%);\n$grey-200: hsl(223.81, 0%, 92.16%);\n$grey-250: hsl(200.05, 4.31%, 89.64%);\n$grey-300: hsl(200.03, 6.92%, 87.13%);\n$grey-350: hsl(200.02, 8.65%, 84.64%);\n$grey-400: hsl(200, 9.89%, 82.16%);\n$grey-450: hsl(200.47, 6.03%, 68.52%);\n$grey-500: hsl(200.94, 4.51%, 55.36%);\n$grey-550: hsl(201.39, 4.91%, 42.76%);\n$grey-600: hsl(201.82, 7.01%, 30.78%);\n$grey-650: hsl(203.03, 7.74%, 26.71%);\n$grey-700: hsl(204.24, 8.68%, 22.73%);\n$grey-750: hsl(205.45, 9.93%, 18.85%);\n$grey-800: hsl(206.67, 11.69%, 15.1%);\n$grey-850: hsl(206.66, 13.37%, 10.7%);\n$grey-900: hsl(206.64, 17.01%, 6.52%);\n$grey-950: hsl(208.68, 23.47%, 2.8%);\n";
 
 // src/scss/colors/themes/masterbrand/oklch.scss
 var oklch_exports8 = {};
 __export(oklch_exports8, {
   default: () => oklch_default6
 });
-var oklch_default6 = "$primary-lightest: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n$primary-lighter: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n$primary-light: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n$primary: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n$primary-dark: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n$primary-darker: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n$primary-darkest: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n$secondary-lightest: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n$secondary-lighter: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n$secondary-light: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n$secondary: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n$secondary-dark: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n$secondary-darker: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n$secondary-darkest: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n$tertiary-lightest: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n$tertiary-lighter: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n$tertiary-light: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n$tertiary: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n$tertiary-dark: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n$tertiary-darker: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n$tertiary-darkest: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n$accent-lightest: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n$accent-lighter: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n$accent-light: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n$accent: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n$accent-dark: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n$accent-darker: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n$accent-darkest: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n$success-lightest: oklch(0.8872601819234176 0.060106868790808454 142.8007543325396);\n$success-lighter: oklch(0.7745203638468352 0.1017193164152143 142.8007543325396);\n$success-light: oklch(0.6617805457702527 0.14333176403962014 142.8007543325396);\n$success: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n$success-dark: oklch(0.452958600347278 0.1572025799144221 142.8007543325396);\n$success-darker: oklch(0.35687647300088565 0.1294609481648182 142.8007543325396);\n$success-darkest: oklch(0.2607943456544934 0.1017193164152143 142.8007543325396);\n$warning-lightest: oklch(0.8958326078740171 0.05515411503535715 43.99726534950394);\n$warning-lighter: oklch(0.7916652157480342 0.09333773313675825 43.99726534950394);\n$warning-light: oklch(0.6874978236220514 0.13152135123815933 43.99726534950394);\n$warning: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n$warning-dark: oklch(0.4812476059842564 0.14424922393862638 43.99726534950394);\n$warning-darker: oklch(0.3791647804724445 0.11879347853769232 43.99726534950394);\n$warning-darkest: oklch(0.2770819549606325 0.09333773313675825 43.99726534950394);\n$error-lightest: oklch(0.8754989819725543 0.06263564750632042 18.079140916466272);\n$error-lighter: oklch(0.7509979639451086 0.10599878808761917 18.079140916466272);\n$error-light: oklch(0.626496945917663 0.14936192866891793 18.079140916466272);\n$error: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n$error-dark: oklch(0.4141466405094293 0.16381630886268417 18.079140916466272);\n$error-darker: oklch(0.3262973531286413 0.13490754847515168 18.079140916466272);\n$error-darkest: oklch(0.2384480657478532 0.10599878808761917 18.079140916466272);\n$info-lightest: oklch(0.7885885178062633 0.04006699378315225 262.3514946368672);\n$info-lighter: oklch(0.6759330152625114 0.06780568178687302 262.3514946368672);\n$info-light: oklch(0.5632775127187595 0.0955443697905938 262.3514946368672);\n$info: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n$info-dark: oklch(0.37176315839438123 0.10479059912516739 262.3514946368672);\n$info-darker: oklch(0.2929043066137549 0.0862981404560202 262.3514946368672);\n$info-darkest: oklch(0.2140454548331286 0.06780568178687302 262.3514946368672);\n";
+var oklch_default6 = "$primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n$primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n$primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n$primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n$primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n$primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n$primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n$primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n$primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n$primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n$primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n$primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n$primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n$primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n$primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n$primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n$primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n$primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n$primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n$accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n$accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n$accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n$accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n$accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n$accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n$accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n$accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n$accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n$accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n$accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n$accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n$accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n$accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n$accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n$accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n$accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n$accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n$accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n$grey-50: oklch(0.9850175274112574 0 0);\n$grey-100: oklch(0.9700350548225147 0 0);\n$grey-150: oklch(0.9550525822337722 0 0);\n$grey-200: oklch(0.9400701096450296 0 0);\n$grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n$grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n$grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n$grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n$grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n$grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n$grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n$grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n$grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n$grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n$grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n$grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n$grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n$grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n$grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n";
 
 // src/scss/colors/themes/masterbrand/rgb.scss
 var rgb_exports8 = {};
 __export(rgb_exports8, {
   default: () => rgb_default6
 });
-var rgb_default6 = "$primary-lightest: rgb(12, 90, 212);\n$primary-lighter: rgb(5, 72, 173);\n$primary-light: rgb(2, 54, 136);\n$primary: rgb(0, 38, 100);\n$primary-dark: rgb(0, 26, 77);\n$primary-darker: rgb(0, 16, 55);\n$primary-darkest: rgb(0, 6, 34);\n$secondary-lightest: rgb(240, 251, 255);\n$secondary-lighter: rgb(228, 246, 255);\n$secondary-light: rgb(215, 242, 254);\n$secondary: rgb(203, 237, 253);\n$secondary-dark: rgb(188, 234, 254);\n$secondary-darker: rgb(173, 231, 255);\n$secondary-darkest: rgb(157, 227, 255);\n$tertiary-lightest: rgb(90, 201, 255);\n$tertiary-lighter: rgb(38, 174, 255);\n$tertiary-light: rgb(0, 143, 255);\n$tertiary: rgb(20, 108, 253);\n$tertiary-dark: rgb(12, 90, 212);\n$tertiary-darker: rgb(5, 72, 173);\n$tertiary-darkest: rgb(2, 54, 136);\n$accent-lightest: rgb(248, 151, 162);\n$accent-lighter: rgb(239, 117, 129);\n$accent-light: rgb(228, 79, 95);\n$accent: rgb(215, 21, 58);\n$accent-dark: rgb(185, 14, 50);\n$accent-darker: rgb(155, 7, 42);\n$accent-darkest: rgb(126, 3, 34);\n$success-lightest: rgb(196, 229, 192);\n$success-lighter: rgb(143, 199, 139);\n$success-light: rgb(88, 168, 84);\n$success: rgb(0, 138, 7);\n$success-dark: rgb(0, 106, 0);\n$success-darker: rgb(0, 76, 0);\n$success-darkest: rgb(0, 47, 0);\n$warning-lightest: rgb(253, 210, 192);\n$warning-lighter: rgb(238, 168, 138);\n$warning-light: rgb(221, 125, 83);\n$warning: rgb(201, 80, 0);\n$warning-dark: rgb(157, 58, 0);\n$warning-darker: rgb(114, 38, 0);\n$warning-darkest: rgb(75, 18, 0);\n$error-lightest: rgb(253, 198, 198);\n$error-lighter: rgb(234, 146, 149);\n$error-light: rgb(211, 93, 101);\n$error: rgb(184, 18, 55);\n$error-dark: rgb(143, 3, 39);\n$error-darker: rgb(105, 0, 24);\n$error-darkest: rgb(68, 0, 10);\n$info-lightest: rgb(172, 187, 213);\n$info-lighter: rgb(129, 152, 194);\n$info-light: rgb(87, 117, 174);\n$info: rgb(46, 82, 153);\n$info-dark: rgb(32, 61, 119);\n$info-darker: rgb(19, 41, 86);\n$info-darkest: rgb(7, 23, 56);\n";
+var rgb_default6 = "$primary-50: rgb(240, 251, 255);\n$primary-100: rgb(228, 246, 255);\n$primary-150: rgb(215, 242, 254);\n$primary-200: rgb(203, 237, 253);\n$primary-250: rgb(188, 234, 254);\n$primary-300: rgb(173, 231, 255);\n$primary-350: rgb(157, 227, 255);\n$primary-400: rgb(140, 224, 255);\n$primary-450: rgb(90, 201, 255);\n$primary-500: rgb(38, 174, 255);\n$primary-550: rgb(0, 143, 255);\n$primary-600: rgb(20, 108, 253);\n$primary-650: rgb(12, 90, 212);\n$primary-700: rgb(5, 72, 173);\n$primary-750: rgb(2, 54, 136);\n$primary-800: rgb(0, 38, 100);\n$primary-850: rgb(0, 26, 77);\n$primary-900: rgb(0, 16, 55);\n$primary-950: rgb(0, 6, 34);\n$accent-50: rgb(255, 248, 249);\n$accent-100: rgb(255, 242, 244);\n$accent-150: rgb(255, 236, 239);\n$accent-200: rgb(255, 230, 234);\n$accent-250: rgb(255, 219, 224);\n$accent-300: rgb(255, 207, 214);\n$accent-350: rgb(255, 196, 204);\n$accent-400: rgb(255, 184, 193);\n$accent-450: rgb(248, 151, 162);\n$accent-500: rgb(239, 117, 129);\n$accent-550: rgb(228, 79, 95);\n$accent-600: rgb(215, 21, 58);\n$accent-650: rgb(185, 14, 50);\n$accent-700: rgb(155, 7, 42);\n$accent-750: rgb(126, 3, 34);\n$accent-800: rgb(99, 0, 25);\n$accent-850: rgb(76, 0, 16);\n$accent-900: rgb(54, 0, 8);\n$accent-950: rgb(33, 0, 3);\n$grey-50: rgb(250, 250, 250);\n$grey-100: rgb(245, 245, 245);\n$grey-150: rgb(240, 240, 240);\n$grey-200: rgb(235, 235, 235);\n$grey-250: rgb(227, 229, 230);\n$grey-300: rgb(220, 223, 224);\n$grey-350: rgb(212, 217, 219);\n$grey-400: rgb(205, 211, 214);\n$grey-450: rgb(170, 176, 180);\n$grey-500: rgb(136, 143, 146);\n$grey-550: rgb(104, 111, 114);\n$grey-600: rgb(73, 80, 84);\n$grey-650: rgb(63, 69, 73);\n$grey-700: rgb(53, 59, 63);\n$grey-750: rgb(43, 49, 53);\n$grey-800: rgb(34, 39, 43);\n$grey-850: rgb(24, 28, 31);\n$grey-900: rgb(14, 17, 19);\n$grey-950: rgb(5, 7, 9);\n";
 
 // src/tailwind/colors/global/hex.css
 var hex_exports9 = {};
@@ -15369,28 +16013,28 @@ var hex_exports10 = {};
 __export(hex_exports10, {
   default: () => hex_default8
 });
-var hex_default8 = "@theme inline {\n  --color-primary-lightest: #0c5ad4;\n  --color-primary-lighter: #0548ad;\n  --color-primary-light: #023688;\n  --color-primary: #002664;\n  --color-primary-dark: #001a4d;\n  --color-primary-darker: #001037;\n  --color-primary-darkest: #000622;\n  --color-secondary-lightest: #f0fbff;\n  --color-secondary-lighter: #e4f6ff;\n  --color-secondary-light: #d7f2fe;\n  --color-secondary: #cbedfd;\n  --color-secondary-dark: #bceafe;\n  --color-secondary-darker: #ade7ff;\n  --color-secondary-darkest: #9de3ff;\n  --color-tertiary-lightest: #5ac9ff;\n  --color-tertiary-lighter: #26aeff;\n  --color-tertiary-light: #008fff;\n  --color-tertiary: #146cfd;\n  --color-tertiary-dark: #0c5ad4;\n  --color-tertiary-darker: #0548ad;\n  --color-tertiary-darkest: #023688;\n  --color-accent-lightest: #f897a2;\n  --color-accent-lighter: #ef7581;\n  --color-accent-light: #e44f5f;\n  --color-accent: #d7153a;\n  --color-accent-dark: #b90e32;\n  --color-accent-darker: #9b072a;\n  --color-accent-darkest: #7e0322;\n  --color-success-lightest: #c4e5c0;\n  --color-success-lighter: #8fc78b;\n  --color-success-light: #58a854;\n  --color-success: #008a07;\n  --color-success-dark: #006a00;\n  --color-success-darker: #004c00;\n  --color-success-darkest: #002f00;\n  --color-warning-lightest: #fdd2c0;\n  --color-warning-lighter: #eea88a;\n  --color-warning-light: #dd7d53;\n  --color-warning: #c95000;\n  --color-warning-dark: #9d3a00;\n  --color-warning-darker: #722600;\n  --color-warning-darkest: #4b1200;\n  --color-error-lightest: #fdc6c6;\n  --color-error-lighter: #ea9295;\n  --color-error-light: #d35d65;\n  --color-error: #b81237;\n  --color-error-dark: #8f0327;\n  --color-error-darker: #690018;\n  --color-error-darkest: #44000a;\n  --color-info-lightest: #acbbd5;\n  --color-info-lighter: #8198c2;\n  --color-info-light: #5775ae;\n  --color-info: #2e5299;\n  --color-info-dark: #203d77;\n  --color-info-darker: #132956;\n  --color-info-darkest: #071738;\n}\n";
+var hex_default8 = "@theme inline {\n  --color-primary-50: #f0fbff;\n  --color-primary-100: #e4f6ff;\n  --color-primary-150: #d7f2fe;\n  --color-primary-200: #cbedfd;\n  --color-primary-250: #bceafe;\n  --color-primary-300: #ade7ff;\n  --color-primary-350: #9de3ff;\n  --color-primary-400: #8ce0ff;\n  --color-primary-450: #5ac9ff;\n  --color-primary-500: #26aeff;\n  --color-primary-550: #008fff;\n  --color-primary-600: #146cfd;\n  --color-primary-650: #0c5ad4;\n  --color-primary-700: #0548ad;\n  --color-primary-750: #023688;\n  --color-primary-800: #002664;\n  --color-primary-850: #001a4d;\n  --color-primary-900: #001037;\n  --color-primary-950: #000622;\n  --color-accent-50: #fff8f9;\n  --color-accent-100: #fff2f4;\n  --color-accent-150: #ffecef;\n  --color-accent-200: #ffe6ea;\n  --color-accent-250: #ffdbe0;\n  --color-accent-300: #ffcfd6;\n  --color-accent-350: #ffc4cc;\n  --color-accent-400: #ffb8c1;\n  --color-accent-450: #f897a2;\n  --color-accent-500: #ef7581;\n  --color-accent-550: #e44f5f;\n  --color-accent-600: #d7153a;\n  --color-accent-650: #b90e32;\n  --color-accent-700: #9b072a;\n  --color-accent-750: #7e0322;\n  --color-accent-800: #630019;\n  --color-accent-850: #4c0010;\n  --color-accent-900: #360008;\n  --color-accent-950: #210003;\n  --color-grey-50: #fafafa;\n  --color-grey-100: #f5f5f5;\n  --color-grey-150: #f0f0f0;\n  --color-grey-200: #ebebeb;\n  --color-grey-250: #e3e5e6;\n  --color-grey-300: #dcdfe0;\n  --color-grey-350: #d4d9db;\n  --color-grey-400: #cdd3d6;\n  --color-grey-450: #aab0b4;\n  --color-grey-500: #888f92;\n  --color-grey-550: #686f72;\n  --color-grey-600: #495054;\n  --color-grey-650: #3f4549;\n  --color-grey-700: #353b3f;\n  --color-grey-750: #2b3135;\n  --color-grey-800: #22272b;\n  --color-grey-850: #181c1f;\n  --color-grey-900: #0e1113;\n  --color-grey-950: #050709;\n}\n";
 
 // src/tailwind/colors/themes/masterbrand/hsl.css
 var hsl_exports10 = {};
 __export(hsl_exports10, {
   default: () => hsl_default8
 });
-var hsl_default8 = "@theme inline {\n  --color-primary-lightest: hsl(216.77, 89.43%, 43.98%);\n  --color-primary-lighter: hsl(216.29, 94.14%, 35%);\n  --color-primary-light: hsl(216.37, 97.67%, 26.93%);\n  --color-primary: hsl(217.2, 100%, 19.61%);\n  --color-primary-dark: hsl(218.95, 100%, 14.93%);\n  --color-primary-darker: hsl(222.31, 100%, 10.59%);\n  --color-primary-darkest: hsl(228.65, 100%, 6.6%);\n  --color-secondary-lightest: hsl(199.45, 100%, 97.34%);\n  --color-secondary-lighter: hsl(199.38, 100%, 94.73%);\n  --color-secondary-light: hsl(199.3, 95.85%, 92.09%);\n  --color-secondary: hsl(199.2, 92.59%, 89.41%);\n  --color-secondary-dark: hsl(198.5, 96.87%, 86.75%);\n  --color-secondary-darker: hsl(197.76, 98.99%, 83.89%);\n  --color-secondary-darkest: hsl(197, 99.87%, 80.82%);\n  --color-tertiary-lightest: hsl(199.74, 99.83%, 67.57%);\n  --color-tertiary-lighter: hsl(202.52, 100%, 57.55%);\n  --color-tertiary-light: hsl(204.76, 100%, 46.97%);\n  --color-tertiary: hsl(217.34, 98.31%, 53.53%);\n  --color-tertiary-dark: hsl(216.77, 89.43%, 43.98%);\n  --color-tertiary-darker: hsl(216.29, 94.14%, 35%);\n  --color-tertiary-darkest: hsl(216.37, 97.67%, 26.93%);\n  --color-accent-lightest: hsl(353.39, 86.96%, 78.18%);\n  --color-accent-lighter: hsl(353.95, 78.84%, 69.69%);\n  --color-accent-light: hsl(353.52, 73.17%, 60.13%);\n  --color-accent: hsl(348.56, 82.2%, 46.27%);\n  --color-accent-dark: hsl(347.26, 85.91%, 38.92%);\n  --color-accent-darker: hsl(345.89, 91%, 31.81%);\n  --color-accent-darkest: hsl(345, 95.87%, 25.31%);\n  --color-success-lightest: hsl(114.97, 40.74%, 82.58%);\n  --color-success-lighter: hsl(115.71, 34.7%, 66.15%);\n  --color-success-light: hsl(117.04, 33.37%, 49.53%);\n  --color-success: hsl(123.04, 100%, 27.06%);\n  --color-success-dark: hsl(122.96, 100%, 19.1%);\n  --color-success-darker: hsl(122.88, 100%, 12.74%);\n  --color-success-darkest: hsl(122.85, 100%, 7.59%);\n  --color-warning-lightest: hsl(17.74, 94.96%, 87.24%);\n  --color-warning-lighter: hsl(17.94, 75.09%, 73.77%);\n  --color-warning-light: hsl(18.45, 66.88%, 59.6%);\n  --color-warning: hsl(23.88, 100%, 39.41%);\n  --color-warning-dark: hsl(24.01, 100%, 29.25%);\n  --color-warning-darker: hsl(22.64, 100%, 20.66%);\n  --color-warning-darkest: hsl(18.45, 100%, 13.3%);\n  --color-error-lightest: hsl(359.69, 92.79%, 88.44%);\n  --color-error-lighter: hsl(358.32, 67.18%, 74.5%);\n  --color-error-light: hsl(355.68, 57.14%, 59.46%);\n  --color-error: hsl(346.63, 82.18%, 39.61%);\n  --color-error-dark: hsl(344.75, 95.33%, 28.77%);\n  --color-error-darker: hsl(344.52, 100%, 19.69%);\n  --color-error-darkest: hsl(347.44, 100%, 12.27%);\n  --color-info-lightest: hsl(218.63, 32.11%, 75.49%);\n  --color-info-lighter: hsl(218.81, 34.57%, 63.16%);\n  --color-info-light: hsl(219.17, 34.9%, 51.02%);\n  --color-info: hsl(219.81, 53.77%, 39.02%);\n  --color-info-dark: hsl(219.87, 57.48%, 29.6%);\n  --color-info-darker: hsl(219.94, 64.01%, 20.66%);\n  --color-info-darkest: hsl(220.32, 77.61%, 12.34%);\n}\n";
+var hsl_default8 = "@theme inline {\n  --color-primary-50: hsl(199.45, 100%, 97.34%);\n  --color-primary-100: hsl(199.38, 100%, 94.73%);\n  --color-primary-150: hsl(199.3, 95.85%, 92.09%);\n  --color-primary-200: hsl(199.2, 92.59%, 89.41%);\n  --color-primary-250: hsl(198.5, 96.87%, 86.75%);\n  --color-primary-300: hsl(197.76, 98.99%, 83.89%);\n  --color-primary-350: hsl(197, 99.87%, 80.82%);\n  --color-primary-400: hsl(196.17, 100%, 77.45%);\n  --color-primary-450: hsl(199.74, 99.83%, 67.57%);\n  --color-primary-500: hsl(202.52, 100%, 57.55%);\n  --color-primary-550: hsl(204.76, 100%, 46.97%);\n  --color-primary-600: hsl(217.34, 98.31%, 53.53%);\n  --color-primary-650: hsl(216.77, 89.43%, 43.98%);\n  --color-primary-700: hsl(216.29, 94.14%, 35%);\n  --color-primary-750: hsl(216.37, 97.67%, 26.93%);\n  --color-primary-800: hsl(217.2, 100%, 19.61%);\n  --color-primary-850: hsl(218.95, 100%, 14.93%);\n  --color-primary-900: hsl(222.31, 100%, 10.59%);\n  --color-primary-950: hsl(228.65, 100%, 6.6%);\n  --color-accent-50: hsl(350.85, 100%, 98.97%);\n  --color-accent-100: hsl(350.7, 100%, 97.7%);\n  --color-accent-150: hsl(350.55, 100%, 96.41%);\n  --color-accent-200: hsl(350.4, 100%, 95.1%);\n  --color-accent-250: hsl(350.92, 100%, 92.94%);\n  --color-accent-300: hsl(351.43, 100%, 90.72%);\n  --color-accent-350: hsl(351.92, 100%, 88.44%);\n  --color-accent-400: hsl(352.39, 100%, 86.08%);\n  --color-accent-450: hsl(353.39, 86.96%, 78.18%);\n  --color-accent-500: hsl(353.95, 78.84%, 69.69%);\n  --color-accent-550: hsl(353.52, 73.17%, 60.13%);\n  --color-accent-600: hsl(348.56, 82.2%, 46.27%);\n  --color-accent-650: hsl(347.26, 85.91%, 38.92%);\n  --color-accent-700: hsl(345.89, 91%, 31.81%);\n  --color-accent-750: hsl(345, 95.87%, 25.31%);\n  --color-accent-800: hsl(344.85, 100%, 19.41%);\n  --color-accent-850: hsl(346.11, 100%, 14.46%);\n  --color-accent-900: hsl(349.15, 100%, 10.03%);\n  --color-accent-950: hsl(352.16, 100%, 6.06%);\n  --color-grey-50: hsl(223.81, 0%, 98.03%);\n  --color-grey-100: hsl(223.81, 0%, 96.06%);\n  --color-grey-150: hsl(223.81, 0%, 94.11%);\n  --color-grey-200: hsl(223.81, 0%, 92.16%);\n  --color-grey-250: hsl(200.05, 4.31%, 89.64%);\n  --color-grey-300: hsl(200.03, 6.92%, 87.13%);\n  --color-grey-350: hsl(200.02, 8.65%, 84.64%);\n  --color-grey-400: hsl(200, 9.89%, 82.16%);\n  --color-grey-450: hsl(200.47, 6.03%, 68.52%);\n  --color-grey-500: hsl(200.94, 4.51%, 55.36%);\n  --color-grey-550: hsl(201.39, 4.91%, 42.76%);\n  --color-grey-600: hsl(201.82, 7.01%, 30.78%);\n  --color-grey-650: hsl(203.03, 7.74%, 26.71%);\n  --color-grey-700: hsl(204.24, 8.68%, 22.73%);\n  --color-grey-750: hsl(205.45, 9.93%, 18.85%);\n  --color-grey-800: hsl(206.67, 11.69%, 15.1%);\n  --color-grey-850: hsl(206.66, 13.37%, 10.7%);\n  --color-grey-900: hsl(206.64, 17.01%, 6.52%);\n  --color-grey-950: hsl(208.68, 23.47%, 2.8%);\n}\n";
 
 // src/tailwind/colors/themes/masterbrand/oklch.css
 var oklch_exports10 = {};
 __export(oklch_exports10, {
   default: () => oklch_default8
 });
-var oklch_default8 = "@theme inline {\n  --color-primary-lightest: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --color-primary-lighter: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --color-primary-light: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --color-primary: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --color-primary-dark: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --color-primary-darker: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --color-primary-darkest: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --color-secondary-lightest: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --color-secondary-lighter: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --color-secondary-light: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --color-secondary: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --color-secondary-dark: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --color-secondary-darker: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --color-secondary-darkest: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --color-tertiary-lightest: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --color-tertiary-lighter: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --color-tertiary-light: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --color-tertiary: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --color-tertiary-dark: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --color-tertiary-darker: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --color-tertiary-darkest: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --color-accent-lightest: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --color-accent-lighter: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --color-accent-light: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --color-accent: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --color-accent-dark: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --color-accent-darker: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --color-accent-darkest: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --color-success-lightest: oklch(0.8872601819234176 0.060106868790808454 142.8007543325396);\n  --color-success-lighter: oklch(0.7745203638468352 0.1017193164152143 142.8007543325396);\n  --color-success-light: oklch(0.6617805457702527 0.14333176403962014 142.8007543325396);\n  --color-success: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n  --color-success-dark: oklch(0.452958600347278 0.1572025799144221 142.8007543325396);\n  --color-success-darker: oklch(0.35687647300088565 0.1294609481648182 142.8007543325396);\n  --color-success-darkest: oklch(0.2607943456544934 0.1017193164152143 142.8007543325396);\n  --color-warning-lightest: oklch(0.8958326078740171 0.05515411503535715 43.99726534950394);\n  --color-warning-lighter: oklch(0.7916652157480342 0.09333773313675825 43.99726534950394);\n  --color-warning-light: oklch(0.6874978236220514 0.13152135123815933 43.99726534950394);\n  --color-warning: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n  --color-warning-dark: oklch(0.4812476059842564 0.14424922393862638 43.99726534950394);\n  --color-warning-darker: oklch(0.3791647804724445 0.11879347853769232 43.99726534950394);\n  --color-warning-darkest: oklch(0.2770819549606325 0.09333773313675825 43.99726534950394);\n  --color-error-lightest: oklch(0.8754989819725543 0.06263564750632042 18.079140916466272);\n  --color-error-lighter: oklch(0.7509979639451086 0.10599878808761917 18.079140916466272);\n  --color-error-light: oklch(0.626496945917663 0.14936192866891793 18.079140916466272);\n  --color-error: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n  --color-error-dark: oklch(0.4141466405094293 0.16381630886268417 18.079140916466272);\n  --color-error-darker: oklch(0.3262973531286413 0.13490754847515168 18.079140916466272);\n  --color-error-darkest: oklch(0.2384480657478532 0.10599878808761917 18.079140916466272);\n  --color-info-lightest: oklch(0.7885885178062633 0.04006699378315225 262.3514946368672);\n  --color-info-lighter: oklch(0.6759330152625114 0.06780568178687302 262.3514946368672);\n  --color-info-light: oklch(0.5632775127187595 0.0955443697905938 262.3514946368672);\n  --color-info: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n  --color-info-dark: oklch(0.37176315839438123 0.10479059912516739 262.3514946368672);\n  --color-info-darker: oklch(0.2929043066137549 0.0862981404560202 262.3514946368672);\n  --color-info-darkest: oklch(0.2140454548331286 0.06780568178687302 262.3514946368672);\n}\n";
+var oklch_default8 = "@theme inline {\n  --color-primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --color-primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --color-primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --color-primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --color-primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --color-primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --color-primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --color-primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n  --color-primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --color-primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --color-primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --color-primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --color-primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --color-primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --color-primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --color-primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --color-primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --color-primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --color-primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --color-accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n  --color-accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n  --color-accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n  --color-accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n  --color-accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n  --color-accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n  --color-accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n  --color-accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n  --color-accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --color-accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --color-accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --color-accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --color-accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --color-accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --color-accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --color-accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n  --color-accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n  --color-accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n  --color-accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n  --color-grey-50: oklch(0.9850175274112574 0 0);\n  --color-grey-100: oklch(0.9700350548225147 0 0);\n  --color-grey-150: oklch(0.9550525822337722 0 0);\n  --color-grey-200: oklch(0.9400701096450296 0 0);\n  --color-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n  --color-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n  --color-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n  --color-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n  --color-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n  --color-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n  --color-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n  --color-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n  --color-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n  --color-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n  --color-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n  --color-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n  --color-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n  --color-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n  --color-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n}\n";
 
 // src/tailwind/colors/themes/masterbrand/rgb.css
 var rgb_exports10 = {};
 __export(rgb_exports10, {
   default: () => rgb_default8
 });
-var rgb_default8 = "@theme inline {\n  --color-primary-lightest: rgb(12, 90, 212);\n  --color-primary-lighter: rgb(5, 72, 173);\n  --color-primary-light: rgb(2, 54, 136);\n  --color-primary: rgb(0, 38, 100);\n  --color-primary-dark: rgb(0, 26, 77);\n  --color-primary-darker: rgb(0, 16, 55);\n  --color-primary-darkest: rgb(0, 6, 34);\n  --color-secondary-lightest: rgb(240, 251, 255);\n  --color-secondary-lighter: rgb(228, 246, 255);\n  --color-secondary-light: rgb(215, 242, 254);\n  --color-secondary: rgb(203, 237, 253);\n  --color-secondary-dark: rgb(188, 234, 254);\n  --color-secondary-darker: rgb(173, 231, 255);\n  --color-secondary-darkest: rgb(157, 227, 255);\n  --color-tertiary-lightest: rgb(90, 201, 255);\n  --color-tertiary-lighter: rgb(38, 174, 255);\n  --color-tertiary-light: rgb(0, 143, 255);\n  --color-tertiary: rgb(20, 108, 253);\n  --color-tertiary-dark: rgb(12, 90, 212);\n  --color-tertiary-darker: rgb(5, 72, 173);\n  --color-tertiary-darkest: rgb(2, 54, 136);\n  --color-accent-lightest: rgb(248, 151, 162);\n  --color-accent-lighter: rgb(239, 117, 129);\n  --color-accent-light: rgb(228, 79, 95);\n  --color-accent: rgb(215, 21, 58);\n  --color-accent-dark: rgb(185, 14, 50);\n  --color-accent-darker: rgb(155, 7, 42);\n  --color-accent-darkest: rgb(126, 3, 34);\n  --color-success-lightest: rgb(196, 229, 192);\n  --color-success-lighter: rgb(143, 199, 139);\n  --color-success-light: rgb(88, 168, 84);\n  --color-success: rgb(0, 138, 7);\n  --color-success-dark: rgb(0, 106, 0);\n  --color-success-darker: rgb(0, 76, 0);\n  --color-success-darkest: rgb(0, 47, 0);\n  --color-warning-lightest: rgb(253, 210, 192);\n  --color-warning-lighter: rgb(238, 168, 138);\n  --color-warning-light: rgb(221, 125, 83);\n  --color-warning: rgb(201, 80, 0);\n  --color-warning-dark: rgb(157, 58, 0);\n  --color-warning-darker: rgb(114, 38, 0);\n  --color-warning-darkest: rgb(75, 18, 0);\n  --color-error-lightest: rgb(253, 198, 198);\n  --color-error-lighter: rgb(234, 146, 149);\n  --color-error-light: rgb(211, 93, 101);\n  --color-error: rgb(184, 18, 55);\n  --color-error-dark: rgb(143, 3, 39);\n  --color-error-darker: rgb(105, 0, 24);\n  --color-error-darkest: rgb(68, 0, 10);\n  --color-info-lightest: rgb(172, 187, 213);\n  --color-info-lighter: rgb(129, 152, 194);\n  --color-info-light: rgb(87, 117, 174);\n  --color-info: rgb(46, 82, 153);\n  --color-info-dark: rgb(32, 61, 119);\n  --color-info-darker: rgb(19, 41, 86);\n  --color-info-darkest: rgb(7, 23, 56);\n}\n";
+var rgb_default8 = "@theme inline {\n  --color-primary-50: rgb(240, 251, 255);\n  --color-primary-100: rgb(228, 246, 255);\n  --color-primary-150: rgb(215, 242, 254);\n  --color-primary-200: rgb(203, 237, 253);\n  --color-primary-250: rgb(188, 234, 254);\n  --color-primary-300: rgb(173, 231, 255);\n  --color-primary-350: rgb(157, 227, 255);\n  --color-primary-400: rgb(140, 224, 255);\n  --color-primary-450: rgb(90, 201, 255);\n  --color-primary-500: rgb(38, 174, 255);\n  --color-primary-550: rgb(0, 143, 255);\n  --color-primary-600: rgb(20, 108, 253);\n  --color-primary-650: rgb(12, 90, 212);\n  --color-primary-700: rgb(5, 72, 173);\n  --color-primary-750: rgb(2, 54, 136);\n  --color-primary-800: rgb(0, 38, 100);\n  --color-primary-850: rgb(0, 26, 77);\n  --color-primary-900: rgb(0, 16, 55);\n  --color-primary-950: rgb(0, 6, 34);\n  --color-accent-50: rgb(255, 248, 249);\n  --color-accent-100: rgb(255, 242, 244);\n  --color-accent-150: rgb(255, 236, 239);\n  --color-accent-200: rgb(255, 230, 234);\n  --color-accent-250: rgb(255, 219, 224);\n  --color-accent-300: rgb(255, 207, 214);\n  --color-accent-350: rgb(255, 196, 204);\n  --color-accent-400: rgb(255, 184, 193);\n  --color-accent-450: rgb(248, 151, 162);\n  --color-accent-500: rgb(239, 117, 129);\n  --color-accent-550: rgb(228, 79, 95);\n  --color-accent-600: rgb(215, 21, 58);\n  --color-accent-650: rgb(185, 14, 50);\n  --color-accent-700: rgb(155, 7, 42);\n  --color-accent-750: rgb(126, 3, 34);\n  --color-accent-800: rgb(99, 0, 25);\n  --color-accent-850: rgb(76, 0, 16);\n  --color-accent-900: rgb(54, 0, 8);\n  --color-accent-950: rgb(33, 0, 3);\n  --color-grey-50: rgb(250, 250, 250);\n  --color-grey-100: rgb(245, 245, 245);\n  --color-grey-150: rgb(240, 240, 240);\n  --color-grey-200: rgb(235, 235, 235);\n  --color-grey-250: rgb(227, 229, 230);\n  --color-grey-300: rgb(220, 223, 224);\n  --color-grey-350: rgb(212, 217, 219);\n  --color-grey-400: rgb(205, 211, 214);\n  --color-grey-450: rgb(170, 176, 180);\n  --color-grey-500: rgb(136, 143, 146);\n  --color-grey-550: rgb(104, 111, 114);\n  --color-grey-600: rgb(73, 80, 84);\n  --color-grey-650: rgb(63, 69, 73);\n  --color-grey-700: rgb(53, 59, 63);\n  --color-grey-750: rgb(43, 49, 53);\n  --color-grey-800: rgb(34, 39, 43);\n  --color-grey-850: rgb(24, 28, 31);\n  --color-grey-900: rgb(14, 17, 19);\n  --color-grey-950: rgb(5, 7, 9);\n}\n";
 
 // src/ts/colors/global/hex.ts
 var hex_exports11 = {};
@@ -17000,340 +17644,284 @@ var nswAboriginalPurple8 = {
 var hex_exports12 = {};
 __export(hex_exports12, {
   accent: () => accent5,
-  error: () => error5,
-  info: () => info5,
-  primary: () => primary5,
-  secondary: () => secondary5,
-  success: () => success5,
-  tertiary: () => tertiary5,
-  warning: () => warning5
+  grey: () => grey5,
+  primary: () => primary5
 });
 var primary5 = {
-  lightest: "#0c5ad4",
-  lighter: "#0548ad",
-  light: "#023688",
-  DEFAULT: "#002664",
-  dark: "#001a4d",
-  darker: "#001037",
-  darkest: "#000622"
-};
-var secondary5 = {
-  lightest: "#f0fbff",
-  lighter: "#e4f6ff",
-  light: "#d7f2fe",
-  DEFAULT: "#cbedfd",
-  dark: "#bceafe",
-  darker: "#ade7ff",
-  darkest: "#9de3ff"
-};
-var tertiary5 = {
-  lightest: "#5ac9ff",
-  lighter: "#26aeff",
-  light: "#008fff",
-  DEFAULT: "#146cfd",
-  dark: "#0c5ad4",
-  darker: "#0548ad",
-  darkest: "#023688"
+  "50": "#f0fbff",
+  "100": "#e4f6ff",
+  "150": "#d7f2fe",
+  "200": "#cbedfd",
+  "250": "#bceafe",
+  "300": "#ade7ff",
+  "350": "#9de3ff",
+  "400": "#8ce0ff",
+  "450": "#5ac9ff",
+  "500": "#26aeff",
+  "550": "#008fff",
+  "600": "#146cfd",
+  "650": "#0c5ad4",
+  "700": "#0548ad",
+  "750": "#023688",
+  "800": "#002664",
+  "850": "#001a4d",
+  "900": "#001037",
+  "950": "#000622"
 };
 var accent5 = {
-  lightest: "#f897a2",
-  lighter: "#ef7581",
-  light: "#e44f5f",
-  DEFAULT: "#d7153a",
-  dark: "#b90e32",
-  darker: "#9b072a",
-  darkest: "#7e0322"
+  "50": "#fff8f9",
+  "100": "#fff2f4",
+  "150": "#ffecef",
+  "200": "#ffe6ea",
+  "250": "#ffdbe0",
+  "300": "#ffcfd6",
+  "350": "#ffc4cc",
+  "400": "#ffb8c1",
+  "450": "#f897a2",
+  "500": "#ef7581",
+  "550": "#e44f5f",
+  "600": "#d7153a",
+  "650": "#b90e32",
+  "700": "#9b072a",
+  "750": "#7e0322",
+  "800": "#630019",
+  "850": "#4c0010",
+  "900": "#360008",
+  "950": "#210003"
 };
-var success5 = {
-  lightest: "#c4e5c0",
-  lighter: "#8fc78b",
-  light: "#58a854",
-  DEFAULT: "#008a07",
-  dark: "#006a00",
-  darker: "#004c00",
-  darkest: "#002f00"
-};
-var warning5 = {
-  lightest: "#fdd2c0",
-  lighter: "#eea88a",
-  light: "#dd7d53",
-  DEFAULT: "#c95000",
-  dark: "#9d3a00",
-  darker: "#722600",
-  darkest: "#4b1200"
-};
-var error5 = {
-  lightest: "#fdc6c6",
-  lighter: "#ea9295",
-  light: "#d35d65",
-  DEFAULT: "#b81237",
-  dark: "#8f0327",
-  darker: "#690018",
-  darkest: "#44000a"
-};
-var info5 = {
-  lightest: "#acbbd5",
-  lighter: "#8198c2",
-  light: "#5775ae",
-  DEFAULT: "#2e5299",
-  dark: "#203d77",
-  darker: "#132956",
-  darkest: "#071738"
+var grey5 = {
+  "50": "#fafafa",
+  "100": "#f5f5f5",
+  "150": "#f0f0f0",
+  "200": "#ebebeb",
+  "250": "#e3e5e6",
+  "300": "#dcdfe0",
+  "350": "#d4d9db",
+  "400": "#cdd3d6",
+  "450": "#aab0b4",
+  "500": "#888f92",
+  "550": "#686f72",
+  "600": "#495054",
+  "650": "#3f4549",
+  "700": "#353b3f",
+  "750": "#2b3135",
+  "800": "#22272b",
+  "850": "#181c1f",
+  "900": "#0e1113",
+  "950": "#050709"
 };
 
 // src/ts/colors/themes/masterbrand/hsl.ts
 var hsl_exports12 = {};
 __export(hsl_exports12, {
   accent: () => accent6,
-  error: () => error6,
-  info: () => info6,
-  primary: () => primary6,
-  secondary: () => secondary6,
-  success: () => success6,
-  tertiary: () => tertiary6,
-  warning: () => warning6
+  grey: () => grey6,
+  primary: () => primary6
 });
 var primary6 = {
-  lightest: "hsl(216.77, 89.43%, 43.98%)",
-  lighter: "hsl(216.29, 94.14%, 35%)",
-  light: "hsl(216.37, 97.67%, 26.93%)",
-  DEFAULT: "hsl(217.2, 100%, 19.61%)",
-  dark: "hsl(218.95, 100%, 14.93%)",
-  darker: "hsl(222.31, 100%, 10.59%)",
-  darkest: "hsl(228.65, 100%, 6.6%)"
-};
-var secondary6 = {
-  lightest: "hsl(199.45, 100%, 97.34%)",
-  lighter: "hsl(199.38, 100%, 94.73%)",
-  light: "hsl(199.3, 95.85%, 92.09%)",
-  DEFAULT: "hsl(199.2, 92.59%, 89.41%)",
-  dark: "hsl(198.5, 96.87%, 86.75%)",
-  darker: "hsl(197.76, 98.99%, 83.89%)",
-  darkest: "hsl(197, 99.87%, 80.82%)"
-};
-var tertiary6 = {
-  lightest: "hsl(199.74, 99.83%, 67.57%)",
-  lighter: "hsl(202.52, 100%, 57.55%)",
-  light: "hsl(204.76, 100%, 46.97%)",
-  DEFAULT: "hsl(217.34, 98.31%, 53.53%)",
-  dark: "hsl(216.77, 89.43%, 43.98%)",
-  darker: "hsl(216.29, 94.14%, 35%)",
-  darkest: "hsl(216.37, 97.67%, 26.93%)"
+  "50": "hsl(199.45, 100%, 97.34%)",
+  "100": "hsl(199.38, 100%, 94.73%)",
+  "150": "hsl(199.3, 95.85%, 92.09%)",
+  "200": "hsl(199.2, 92.59%, 89.41%)",
+  "250": "hsl(198.5, 96.87%, 86.75%)",
+  "300": "hsl(197.76, 98.99%, 83.89%)",
+  "350": "hsl(197, 99.87%, 80.82%)",
+  "400": "hsl(196.17, 100%, 77.45%)",
+  "450": "hsl(199.74, 99.83%, 67.57%)",
+  "500": "hsl(202.52, 100%, 57.55%)",
+  "550": "hsl(204.76, 100%, 46.97%)",
+  "600": "hsl(217.34, 98.31%, 53.53%)",
+  "650": "hsl(216.77, 89.43%, 43.98%)",
+  "700": "hsl(216.29, 94.14%, 35%)",
+  "750": "hsl(216.37, 97.67%, 26.93%)",
+  "800": "hsl(217.2, 100%, 19.61%)",
+  "850": "hsl(218.95, 100%, 14.93%)",
+  "900": "hsl(222.31, 100%, 10.59%)",
+  "950": "hsl(228.65, 100%, 6.6%)"
 };
 var accent6 = {
-  lightest: "hsl(353.39, 86.96%, 78.18%)",
-  lighter: "hsl(353.95, 78.84%, 69.69%)",
-  light: "hsl(353.52, 73.17%, 60.13%)",
-  DEFAULT: "hsl(348.56, 82.2%, 46.27%)",
-  dark: "hsl(347.26, 85.91%, 38.92%)",
-  darker: "hsl(345.89, 91%, 31.81%)",
-  darkest: "hsl(345, 95.87%, 25.31%)"
+  "50": "hsl(350.85, 100%, 98.97%)",
+  "100": "hsl(350.7, 100%, 97.7%)",
+  "150": "hsl(350.55, 100%, 96.41%)",
+  "200": "hsl(350.4, 100%, 95.1%)",
+  "250": "hsl(350.92, 100%, 92.94%)",
+  "300": "hsl(351.43, 100%, 90.72%)",
+  "350": "hsl(351.92, 100%, 88.44%)",
+  "400": "hsl(352.39, 100%, 86.08%)",
+  "450": "hsl(353.39, 86.96%, 78.18%)",
+  "500": "hsl(353.95, 78.84%, 69.69%)",
+  "550": "hsl(353.52, 73.17%, 60.13%)",
+  "600": "hsl(348.56, 82.2%, 46.27%)",
+  "650": "hsl(347.26, 85.91%, 38.92%)",
+  "700": "hsl(345.89, 91%, 31.81%)",
+  "750": "hsl(345, 95.87%, 25.31%)",
+  "800": "hsl(344.85, 100%, 19.41%)",
+  "850": "hsl(346.11, 100%, 14.46%)",
+  "900": "hsl(349.15, 100%, 10.03%)",
+  "950": "hsl(352.16, 100%, 6.06%)"
 };
-var success6 = {
-  lightest: "hsl(114.97, 40.74%, 82.58%)",
-  lighter: "hsl(115.71, 34.7%, 66.15%)",
-  light: "hsl(117.04, 33.37%, 49.53%)",
-  DEFAULT: "hsl(123.04, 100%, 27.06%)",
-  dark: "hsl(122.96, 100%, 19.1%)",
-  darker: "hsl(122.88, 100%, 12.74%)",
-  darkest: "hsl(122.85, 100%, 7.59%)"
-};
-var warning6 = {
-  lightest: "hsl(17.74, 94.96%, 87.24%)",
-  lighter: "hsl(17.94, 75.09%, 73.77%)",
-  light: "hsl(18.45, 66.88%, 59.6%)",
-  DEFAULT: "hsl(23.88, 100%, 39.41%)",
-  dark: "hsl(24.01, 100%, 29.25%)",
-  darker: "hsl(22.64, 100%, 20.66%)",
-  darkest: "hsl(18.45, 100%, 13.3%)"
-};
-var error6 = {
-  lightest: "hsl(359.69, 92.79%, 88.44%)",
-  lighter: "hsl(358.32, 67.18%, 74.5%)",
-  light: "hsl(355.68, 57.14%, 59.46%)",
-  DEFAULT: "hsl(346.63, 82.18%, 39.61%)",
-  dark: "hsl(344.75, 95.33%, 28.77%)",
-  darker: "hsl(344.52, 100%, 19.69%)",
-  darkest: "hsl(347.44, 100%, 12.27%)"
-};
-var info6 = {
-  lightest: "hsl(218.63, 32.11%, 75.49%)",
-  lighter: "hsl(218.81, 34.57%, 63.16%)",
-  light: "hsl(219.17, 34.9%, 51.02%)",
-  DEFAULT: "hsl(219.81, 53.77%, 39.02%)",
-  dark: "hsl(219.87, 57.48%, 29.6%)",
-  darker: "hsl(219.94, 64.01%, 20.66%)",
-  darkest: "hsl(220.32, 77.61%, 12.34%)"
+var grey6 = {
+  "50": "hsl(223.81, 0%, 98.03%)",
+  "100": "hsl(223.81, 0%, 96.06%)",
+  "150": "hsl(223.81, 0%, 94.11%)",
+  "200": "hsl(223.81, 0%, 92.16%)",
+  "250": "hsl(200.05, 4.31%, 89.64%)",
+  "300": "hsl(200.03, 6.92%, 87.13%)",
+  "350": "hsl(200.02, 8.65%, 84.64%)",
+  "400": "hsl(200, 9.89%, 82.16%)",
+  "450": "hsl(200.47, 6.03%, 68.52%)",
+  "500": "hsl(200.94, 4.51%, 55.36%)",
+  "550": "hsl(201.39, 4.91%, 42.76%)",
+  "600": "hsl(201.82, 7.01%, 30.78%)",
+  "650": "hsl(203.03, 7.74%, 26.71%)",
+  "700": "hsl(204.24, 8.68%, 22.73%)",
+  "750": "hsl(205.45, 9.93%, 18.85%)",
+  "800": "hsl(206.67, 11.69%, 15.1%)",
+  "850": "hsl(206.66, 13.37%, 10.7%)",
+  "900": "hsl(206.64, 17.01%, 6.52%)",
+  "950": "hsl(208.68, 23.47%, 2.8%)"
 };
 
 // src/ts/colors/themes/masterbrand/oklch.ts
 var oklch_exports12 = {};
 __export(oklch_exports12, {
   accent: () => accent7,
-  error: () => error7,
-  info: () => info7,
-  primary: () => primary7,
-  secondary: () => secondary7,
-  success: () => success7,
-  tertiary: () => tertiary7,
-  warning: () => warning7
+  grey: () => grey7,
+  primary: () => primary7
 });
 var primary7 = {
-  lightest: "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
-  lighter: "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
-  light: "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)",
-  DEFAULT: "oklch(0.2899986864508513 0.11729574451023282 259.841936589881)",
-  dark: "oklch(0.23924891632195233 0.0997013828336979 259.841936589881)",
-  darker: "oklch(0.18849914619305336 0.08210702115716298 259.841936589881)",
-  darkest: "oklch(0.13774937606415438 0.06451265948062805 259.841936589881)"
-};
-var secondary7 = {
-  lightest: "oklch(0.9816683948128555 0.013540580086234762 227.890755564881)",
-  lighter: "oklch(0.9633367896257109 0.022914827838243446 227.890755564881)",
-  light: "oklch(0.9450051844385663 0.032289075590252125 227.890755564881)",
-  DEFAULT: "oklch(0.9266735792514218 0.04166332334226081 227.890755564881)",
-  dark: "oklch(0.9110280326138016 0.05428316129852959 226.81685418252806)",
-  darker: "oklch(0.8953824859761815 0.06690299925479838 225.74295280017512)",
-  darkest: "oklch(0.8797369393385615 0.07952283721106716 224.66905141782217)"
-};
-var tertiary7 = {
-  lightest: "oklch(0.7918467078448571 0.12656541375136143 232.8854457721009)",
-  lighter: "oklch(0.719602022988773 0.1609881523353869 242.17574150873253)",
-  light: "oklch(0.6473573381326887 0.19541089091941238 251.4660372453642)",
-  DEFAULT: "oklch(0.5751126532766045 0.2298336295034379 260.75633298199585)",
-  dark: "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
-  darker: "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
-  darkest: "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)"
+  "50": "oklch(0.9816683948128555 0.013540580086234762 227.890755564881)",
+  "100": "oklch(0.9633367896257109 0.022914827838243446 227.890755564881)",
+  "150": "oklch(0.9450051844385663 0.032289075590252125 227.890755564881)",
+  "200": "oklch(0.9266735792514218 0.04166332334226081 227.890755564881)",
+  "250": "oklch(0.9110280326138016 0.05428316129852959 226.81685418252806)",
+  "300": "oklch(0.8953824859761815 0.06690299925479838 225.74295280017512)",
+  "350": "oklch(0.8797369393385615 0.07952283721106716 224.66905141782217)",
+  "400": "oklch(0.8640913927009413 0.09214267516733594 223.59515003546923)",
+  "450": "oklch(0.7918467078448571 0.12656541375136143 232.8854457721009)",
+  "500": "oklch(0.719602022988773 0.1609881523353869 242.17574150873253)",
+  "550": "oklch(0.6473573381326887 0.19541089091941238 251.4660372453642)",
+  "600": "oklch(0.5751126532766045 0.2298336295034379 260.75633298199585)",
+  "650": "oklch(0.5038341615701663 0.20169915825513662 260.52773388396713)",
+  "700": "oklch(0.43255566986372795 0.17356468700683536 260.29913478593846)",
+  "750": "oklch(0.3612771781572896 0.1454302157585341 260.07053568790974)",
+  "800": "oklch(0.2899986864508513 0.11729574451023282 259.841936589881)",
+  "850": "oklch(0.23924891632195233 0.0997013828336979 259.841936589881)",
+  "900": "oklch(0.18849914619305336 0.08210702115716298 259.841936589881)",
+  "950": "oklch(0.13774937606415438 0.06451265948062805 259.841936589881)"
 };
 var accent7 = {
-  lightest: "oklch(0.7786513285230947 0.11664880226231811 13.011419492803782)",
-  lighter: "oklch(0.7064193584802577 0.15026753878948967 15.45213465296721)",
-  light: "oklch(0.6341873884374207 0.18388627531666124 17.892849813130642)",
-  DEFAULT: "oklch(0.5619554183945837 0.2175050118438328 20.33356497329407)",
-  dark: "oklch(0.5007084126233001 0.1948505033631296 19.53345435711309)",
-  darker: "oklch(0.4394614068520166 0.17219599488242637 18.733343740932114)",
-  darkest: "oklch(0.3782144010807331 0.14954148640172313 17.933233124751133)"
+  "50": "oklch(0.9865629857873716 0.009043874600495525 6.653158456152784)",
+  "100": "oklch(0.9731259715747431 0.015305018554684736 6.653158456152784)",
+  "150": "oklch(0.9596889573621147 0.021566162508873946 6.653158456152784)",
+  "200": "oklch(0.9462519431494862 0.027827306463063157 6.653158456152784)",
+  "250": "oklch(0.9224097820035976 0.041627996281084 7.632544925274676)",
+  "300": "oklch(0.8985676208577089 0.05542868609910484 8.611931394396567)",
+  "350": "oklch(0.8747254597118204 0.06922937591712569 9.59131786351846)",
+  "400": "oklch(0.8508832985659317 0.08303006573514653 10.570704332640352)",
+  "450": "oklch(0.7786513285230947 0.11664880226231811 13.011419492803782)",
+  "500": "oklch(0.7064193584802577 0.15026753878948967 15.45213465296721)",
+  "550": "oklch(0.6341873884374207 0.18388627531666124 17.892849813130642)",
+  "600": "oklch(0.5619554183945837 0.2175050118438328 20.33356497329407)",
+  "650": "oklch(0.5007084126233001 0.1948505033631296 19.53345435711309)",
+  "700": "oklch(0.4394614068520166 0.17219599488242637 18.733343740932114)",
+  "750": "oklch(0.3782144010807331 0.14954148640172313 17.933233124751133)",
+  "800": "oklch(0.31696739530944956 0.1268869779210199 17.133122508570153)",
+  "850": "oklch(0.2614981011302959 0.10785393123286692 17.133122508570153)",
+  "900": "oklch(0.20602880695114223 0.08882088454471393 17.133122508570153)",
+  "950": "oklch(0.15055951277198854 0.06978783785656095 17.133122508570153)"
 };
-var success7 = {
-  lightest: "oklch(0.8872601819234176 0.060106868790808454 142.8007543325396)",
-  lighter: "oklch(0.7745203638468352 0.1017193164152143 142.8007543325396)",
-  light: "oklch(0.6617805457702527 0.14333176403962014 142.8007543325396)",
-  DEFAULT: "oklch(0.5490407276936703 0.184944211664026 142.8007543325396)",
-  dark: "oklch(0.452958600347278 0.1572025799144221 142.8007543325396)",
-  darker: "oklch(0.35687647300088565 0.1294609481648182 142.8007543325396)",
-  darkest: "oklch(0.2607943456544934 0.1017193164152143 142.8007543325396)"
-};
-var warning7 = {
-  lightest: "oklch(0.8958326078740171 0.05515411503535715 43.99726534950394)",
-  lighter: "oklch(0.7916652157480342 0.09333773313675825 43.99726534950394)",
-  light: "oklch(0.6874978236220514 0.13152135123815933 43.99726534950394)",
-  DEFAULT: "oklch(0.5833304314960684 0.16970496933956045 43.99726534950394)",
-  dark: "oklch(0.4812476059842564 0.14424922393862638 43.99726534950394)",
-  darker: "oklch(0.3791647804724445 0.11879347853769232 43.99726534950394)",
-  darkest: "oklch(0.2770819549606325 0.09333773313675825 43.99726534950394)"
-};
-var error7 = {
-  lightest: "oklch(0.8754989819725543 0.06263564750632042 18.079140916466272)",
-  lighter: "oklch(0.7509979639451086 0.10599878808761917 18.079140916466272)",
-  light: "oklch(0.626496945917663 0.14936192866891793 18.079140916466272)",
-  DEFAULT: "oklch(0.5019959278902173 0.19272506925021668 18.079140916466272)",
-  dark: "oklch(0.4141466405094293 0.16381630886268417 18.079140916466272)",
-  darker: "oklch(0.3262973531286413 0.13490754847515168 18.079140916466272)",
-  darkest: "oklch(0.2384480657478532 0.10599878808761917 18.079140916466272)"
-};
-var info7 = {
-  lightest: "oklch(0.7885885178062633 0.04006699378315225 262.3514946368672)",
-  lighter: "oklch(0.6759330152625114 0.06780568178687302 262.3514946368672)",
-  light: "oklch(0.5632775127187595 0.0955443697905938 262.3514946368672)",
-  DEFAULT: "oklch(0.4506220101750076 0.12328305779431457 262.3514946368672)",
-  dark: "oklch(0.37176315839438123 0.10479059912516739 262.3514946368672)",
-  darker: "oklch(0.2929043066137549 0.0862981404560202 262.3514946368672)",
-  darkest: "oklch(0.2140454548331286 0.06780568178687302 262.3514946368672)"
+var grey7 = {
+  "50": "oklch(0.9850175274112574 0 0)",
+  "100": "oklch(0.9700350548225147 0 0)",
+  "150": "oklch(0.9550525822337722 0 0)",
+  "200": "oklch(0.9400701096450296 0 0)",
+  "250": "oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113)",
+  "300": "oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113)",
+  "350": "oklch(0.8823399145667763 0.005832178351138532 228.8687380011113)",
+  "400": "oklch(0.8630965162073586 0.007776237801518043 228.8687380011113)",
+  "450": "oklch(0.7539290831519737 0.008632737257709678 229.8058410593526)",
+  "500": "oklch(0.6447616500965888 0.009489236713901311 230.74294411759388)",
+  "550": "oklch(0.5355942170412039 0.010345736170092946 231.68004717583517)",
+  "600": "oklch(0.426426783985819 0.011202235626284581 232.61715023407646)",
+  "650": "oklch(0.3871732148397997 0.010991669591883444 234.98382249287215)",
+  "700": "oklch(0.3479196456937804 0.010781103557482309 237.35049475166784)",
+  "750": "oklch(0.3086660765477611 0.010570537523081174 239.71716701046353)",
+  "800": "oklch(0.26941250740174183 0.010359971488680036 242.08383926925922)",
+  "850": "oklch(0.222265318606437 0.00880597576537803 242.08383926925922)",
+  "900": "oklch(0.17511812981113217 0.007251980042076026 242.08383926925922)",
+  "950": "oklch(0.12797094101582737 0.005697984318774021 242.08383926925922)"
 };
 
 // src/ts/colors/themes/masterbrand/rgb.ts
 var rgb_exports12 = {};
 __export(rgb_exports12, {
   accent: () => accent8,
-  error: () => error8,
-  info: () => info8,
-  primary: () => primary8,
-  secondary: () => secondary8,
-  success: () => success8,
-  tertiary: () => tertiary8,
-  warning: () => warning8
+  grey: () => grey8,
+  primary: () => primary8
 });
 var primary8 = {
-  lightest: "rgb(12, 90, 212)",
-  lighter: "rgb(5, 72, 173)",
-  light: "rgb(2, 54, 136)",
-  DEFAULT: "rgb(0, 38, 100)",
-  dark: "rgb(0, 26, 77)",
-  darker: "rgb(0, 16, 55)",
-  darkest: "rgb(0, 6, 34)"
-};
-var secondary8 = {
-  lightest: "rgb(240, 251, 255)",
-  lighter: "rgb(228, 246, 255)",
-  light: "rgb(215, 242, 254)",
-  DEFAULT: "rgb(203, 237, 253)",
-  dark: "rgb(188, 234, 254)",
-  darker: "rgb(173, 231, 255)",
-  darkest: "rgb(157, 227, 255)"
-};
-var tertiary8 = {
-  lightest: "rgb(90, 201, 255)",
-  lighter: "rgb(38, 174, 255)",
-  light: "rgb(0, 143, 255)",
-  DEFAULT: "rgb(20, 108, 253)",
-  dark: "rgb(12, 90, 212)",
-  darker: "rgb(5, 72, 173)",
-  darkest: "rgb(2, 54, 136)"
+  "50": "rgb(240, 251, 255)",
+  "100": "rgb(228, 246, 255)",
+  "150": "rgb(215, 242, 254)",
+  "200": "rgb(203, 237, 253)",
+  "250": "rgb(188, 234, 254)",
+  "300": "rgb(173, 231, 255)",
+  "350": "rgb(157, 227, 255)",
+  "400": "rgb(140, 224, 255)",
+  "450": "rgb(90, 201, 255)",
+  "500": "rgb(38, 174, 255)",
+  "550": "rgb(0, 143, 255)",
+  "600": "rgb(20, 108, 253)",
+  "650": "rgb(12, 90, 212)",
+  "700": "rgb(5, 72, 173)",
+  "750": "rgb(2, 54, 136)",
+  "800": "rgb(0, 38, 100)",
+  "850": "rgb(0, 26, 77)",
+  "900": "rgb(0, 16, 55)",
+  "950": "rgb(0, 6, 34)"
 };
 var accent8 = {
-  lightest: "rgb(248, 151, 162)",
-  lighter: "rgb(239, 117, 129)",
-  light: "rgb(228, 79, 95)",
-  DEFAULT: "rgb(215, 21, 58)",
-  dark: "rgb(185, 14, 50)",
-  darker: "rgb(155, 7, 42)",
-  darkest: "rgb(126, 3, 34)"
+  "50": "rgb(255, 248, 249)",
+  "100": "rgb(255, 242, 244)",
+  "150": "rgb(255, 236, 239)",
+  "200": "rgb(255, 230, 234)",
+  "250": "rgb(255, 219, 224)",
+  "300": "rgb(255, 207, 214)",
+  "350": "rgb(255, 196, 204)",
+  "400": "rgb(255, 184, 193)",
+  "450": "rgb(248, 151, 162)",
+  "500": "rgb(239, 117, 129)",
+  "550": "rgb(228, 79, 95)",
+  "600": "rgb(215, 21, 58)",
+  "650": "rgb(185, 14, 50)",
+  "700": "rgb(155, 7, 42)",
+  "750": "rgb(126, 3, 34)",
+  "800": "rgb(99, 0, 25)",
+  "850": "rgb(76, 0, 16)",
+  "900": "rgb(54, 0, 8)",
+  "950": "rgb(33, 0, 3)"
 };
-var success8 = {
-  lightest: "rgb(196, 229, 192)",
-  lighter: "rgb(143, 199, 139)",
-  light: "rgb(88, 168, 84)",
-  DEFAULT: "rgb(0, 138, 7)",
-  dark: "rgb(0, 106, 0)",
-  darker: "rgb(0, 76, 0)",
-  darkest: "rgb(0, 47, 0)"
-};
-var warning8 = {
-  lightest: "rgb(253, 210, 192)",
-  lighter: "rgb(238, 168, 138)",
-  light: "rgb(221, 125, 83)",
-  DEFAULT: "rgb(201, 80, 0)",
-  dark: "rgb(157, 58, 0)",
-  darker: "rgb(114, 38, 0)",
-  darkest: "rgb(75, 18, 0)"
-};
-var error8 = {
-  lightest: "rgb(253, 198, 198)",
-  lighter: "rgb(234, 146, 149)",
-  light: "rgb(211, 93, 101)",
-  DEFAULT: "rgb(184, 18, 55)",
-  dark: "rgb(143, 3, 39)",
-  darker: "rgb(105, 0, 24)",
-  darkest: "rgb(68, 0, 10)"
-};
-var info8 = {
-  lightest: "rgb(172, 187, 213)",
-  lighter: "rgb(129, 152, 194)",
-  light: "rgb(87, 117, 174)",
-  DEFAULT: "rgb(46, 82, 153)",
-  dark: "rgb(32, 61, 119)",
-  darker: "rgb(19, 41, 86)",
-  darkest: "rgb(7, 23, 56)"
+var grey8 = {
+  "50": "rgb(250, 250, 250)",
+  "100": "rgb(245, 245, 245)",
+  "150": "rgb(240, 240, 240)",
+  "200": "rgb(235, 235, 235)",
+  "250": "rgb(227, 229, 230)",
+  "300": "rgb(220, 223, 224)",
+  "350": "rgb(212, 217, 219)",
+  "400": "rgb(205, 211, 214)",
+  "450": "rgb(170, 176, 180)",
+  "500": "rgb(136, 143, 146)",
+  "550": "rgb(104, 111, 114)",
+  "600": "rgb(73, 80, 84)",
+  "650": "rgb(63, 69, 73)",
+  "700": "rgb(53, 59, 63)",
+  "750": "rgb(43, 49, 53)",
+  "800": "rgb(34, 39, 43)",
+  "850": "rgb(24, 28, 31)",
+  "900": "rgb(14, 17, 19)",
+  "950": "rgb(5, 7, 9)"
 };
 
 // src/index.ts
@@ -17493,6 +18081,7 @@ var tailwindTokens = tokens.tailwind;
 var tsTokens = tokens.ts;
 var icons = {
   accountCircle: "./icons/account_circle.svg",
+  add: "./icons/add.svg",
   attachFile: "./icons/attach_file.svg",
   cancel: "./icons/cancel.svg",
   check: "./icons/check.svg",

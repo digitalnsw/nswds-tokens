@@ -1562,508 +1562,276 @@ declare namespace globalJsRgb {
   export { nswAboriginalBlue$4 as nswAboriginalBlue, nswAboriginalBrown$4 as nswAboriginalBrown, nswAboriginalGreen$4 as nswAboriginalGreen, nswAboriginalGrey$4 as nswAboriginalGrey, nswAboriginalOrange$4 as nswAboriginalOrange, nswAboriginalPurple$4 as nswAboriginalPurple, nswAboriginalRed$4 as nswAboriginalRed, nswAboriginalYellow$4 as nswAboriginalYellow, nswBlue$4 as nswBlue, nswBrown$4 as nswBrown, nswFuchsia$4 as nswFuchsia, nswGreen$4 as nswGreen, nswGrey$4 as nswGrey, nswOrange$4 as nswOrange, nswPurple$4 as nswPurple, nswRed$4 as nswRed, nswTeal$4 as nswTeal, nswYellow$4 as nswYellow };
 }
 
-declare namespace primary$7 {
-    let lightest: string;
-    let lighter: string;
-    let light: string;
-    let DEFAULT: string;
-    let dark: string;
-    let darker: string;
-    let darkest: string;
-}
-declare namespace secondary$7 {
-    let lightest_1: string;
-    export { lightest_1 as lightest };
-    let lighter_1: string;
-    export { lighter_1 as lighter };
-    let light_1: string;
-    export { light_1 as light };
-    let DEFAULT_1: string;
-    export { DEFAULT_1 as DEFAULT };
-    let dark_1: string;
-    export { dark_1 as dark };
-    let darker_1: string;
-    export { darker_1 as darker };
-    let darkest_1: string;
-    export { darkest_1 as darkest };
-}
-declare namespace tertiary$7 {
-    let lightest_2: string;
-    export { lightest_2 as lightest };
-    let lighter_2: string;
-    export { lighter_2 as lighter };
-    let light_2: string;
-    export { light_2 as light };
-    let DEFAULT_2: string;
-    export { DEFAULT_2 as DEFAULT };
-    let dark_2: string;
-    export { dark_2 as dark };
-    let darker_2: string;
-    export { darker_2 as darker };
-    let darkest_2: string;
-    export { darkest_2 as darkest };
-}
-declare namespace accent$7 {
-    let lightest_3: string;
-    export { lightest_3 as lightest };
-    let lighter_3: string;
-    export { lighter_3 as lighter };
-    let light_3: string;
-    export { light_3 as light };
-    let DEFAULT_3: string;
-    export { DEFAULT_3 as DEFAULT };
-    let dark_3: string;
-    export { dark_3 as dark };
-    let darker_3: string;
-    export { darker_3 as darker };
-    let darkest_3: string;
-    export { darkest_3 as darkest };
-}
-declare namespace success$7 {
-    let lightest_4: string;
-    export { lightest_4 as lightest };
-    let lighter_4: string;
-    export { lighter_4 as lighter };
-    let light_4: string;
-    export { light_4 as light };
-    let DEFAULT_4: string;
-    export { DEFAULT_4 as DEFAULT };
-    let dark_4: string;
-    export { dark_4 as dark };
-    let darker_4: string;
-    export { darker_4 as darker };
-    let darkest_4: string;
-    export { darkest_4 as darkest };
-}
-declare namespace warning$7 {
-    let lightest_5: string;
-    export { lightest_5 as lightest };
-    let lighter_5: string;
-    export { lighter_5 as lighter };
-    let light_5: string;
-    export { light_5 as light };
-    let DEFAULT_5: string;
-    export { DEFAULT_5 as DEFAULT };
-    let dark_5: string;
-    export { dark_5 as dark };
-    let darker_5: string;
-    export { darker_5 as darker };
-    let darkest_5: string;
-    export { darkest_5 as darkest };
-}
-declare namespace error$7 {
-    let lightest_6: string;
-    export { lightest_6 as lightest };
-    let lighter_6: string;
-    export { lighter_6 as lighter };
-    let light_6: string;
-    export { light_6 as light };
-    let DEFAULT_6: string;
-    export { DEFAULT_6 as DEFAULT };
-    let dark_6: string;
-    export { dark_6 as dark };
-    let darker_6: string;
-    export { darker_6 as darker };
-    let darkest_6: string;
-    export { darkest_6 as darkest };
-}
-declare namespace info$7 {
-    let lightest_7: string;
-    export { lightest_7 as lightest };
-    let lighter_7: string;
-    export { lighter_7 as lighter };
-    let light_7: string;
-    export { light_7 as light };
-    let DEFAULT_7: string;
-    export { DEFAULT_7 as DEFAULT };
-    let dark_7: string;
-    export { dark_7 as dark };
-    let darker_7: string;
-    export { darker_7 as darker };
-    let darkest_7: string;
-    export { darkest_7 as darkest };
-}
+declare const primary$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
 
 declare namespace masterbrandJsHex {
-  export { accent$7 as accent, error$7 as error, info$7 as info, primary$7 as primary, secondary$7 as secondary, success$7 as success, tertiary$7 as tertiary, warning$7 as warning };
+  export { accent$7 as accent, grey$7 as grey, primary$7 as primary };
 }
 
-declare namespace primary$6 {
-    let lightest: string;
-    let lighter: string;
-    let light: string;
-    let DEFAULT: string;
-    let dark: string;
-    let darker: string;
-    let darkest: string;
-}
-declare namespace secondary$6 {
-    let lightest_1: string;
-    export { lightest_1 as lightest };
-    let lighter_1: string;
-    export { lighter_1 as lighter };
-    let light_1: string;
-    export { light_1 as light };
-    let DEFAULT_1: string;
-    export { DEFAULT_1 as DEFAULT };
-    let dark_1: string;
-    export { dark_1 as dark };
-    let darker_1: string;
-    export { darker_1 as darker };
-    let darkest_1: string;
-    export { darkest_1 as darkest };
-}
-declare namespace tertiary$6 {
-    let lightest_2: string;
-    export { lightest_2 as lightest };
-    let lighter_2: string;
-    export { lighter_2 as lighter };
-    let light_2: string;
-    export { light_2 as light };
-    let DEFAULT_2: string;
-    export { DEFAULT_2 as DEFAULT };
-    let dark_2: string;
-    export { dark_2 as dark };
-    let darker_2: string;
-    export { darker_2 as darker };
-    let darkest_2: string;
-    export { darkest_2 as darkest };
-}
-declare namespace accent$6 {
-    let lightest_3: string;
-    export { lightest_3 as lightest };
-    let lighter_3: string;
-    export { lighter_3 as lighter };
-    let light_3: string;
-    export { light_3 as light };
-    let DEFAULT_3: string;
-    export { DEFAULT_3 as DEFAULT };
-    let dark_3: string;
-    export { dark_3 as dark };
-    let darker_3: string;
-    export { darker_3 as darker };
-    let darkest_3: string;
-    export { darkest_3 as darkest };
-}
-declare namespace success$6 {
-    let lightest_4: string;
-    export { lightest_4 as lightest };
-    let lighter_4: string;
-    export { lighter_4 as lighter };
-    let light_4: string;
-    export { light_4 as light };
-    let DEFAULT_4: string;
-    export { DEFAULT_4 as DEFAULT };
-    let dark_4: string;
-    export { dark_4 as dark };
-    let darker_4: string;
-    export { darker_4 as darker };
-    let darkest_4: string;
-    export { darkest_4 as darkest };
-}
-declare namespace warning$6 {
-    let lightest_5: string;
-    export { lightest_5 as lightest };
-    let lighter_5: string;
-    export { lighter_5 as lighter };
-    let light_5: string;
-    export { light_5 as light };
-    let DEFAULT_5: string;
-    export { DEFAULT_5 as DEFAULT };
-    let dark_5: string;
-    export { dark_5 as dark };
-    let darker_5: string;
-    export { darker_5 as darker };
-    let darkest_5: string;
-    export { darkest_5 as darkest };
-}
-declare namespace error$6 {
-    let lightest_6: string;
-    export { lightest_6 as lightest };
-    let lighter_6: string;
-    export { lighter_6 as lighter };
-    let light_6: string;
-    export { light_6 as light };
-    let DEFAULT_6: string;
-    export { DEFAULT_6 as DEFAULT };
-    let dark_6: string;
-    export { dark_6 as dark };
-    let darker_6: string;
-    export { darker_6 as darker };
-    let darkest_6: string;
-    export { darkest_6 as darkest };
-}
-declare namespace info$6 {
-    let lightest_7: string;
-    export { lightest_7 as lightest };
-    let lighter_7: string;
-    export { lighter_7 as lighter };
-    let light_7: string;
-    export { light_7 as light };
-    let DEFAULT_7: string;
-    export { DEFAULT_7 as DEFAULT };
-    let dark_7: string;
-    export { dark_7 as dark };
-    let darker_7: string;
-    export { darker_7 as darker };
-    let darkest_7: string;
-    export { darkest_7 as darkest };
-}
+declare const primary$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
 
 declare namespace masterbrandJsHsl {
-  export { accent$6 as accent, error$6 as error, info$6 as info, primary$6 as primary, secondary$6 as secondary, success$6 as success, tertiary$6 as tertiary, warning$6 as warning };
+  export { accent$6 as accent, grey$6 as grey, primary$6 as primary };
 }
 
-declare namespace primary$5 {
-    let lightest: string;
-    let lighter: string;
-    let light: string;
-    let DEFAULT: string;
-    let dark: string;
-    let darker: string;
-    let darkest: string;
-}
-declare namespace secondary$5 {
-    let lightest_1: string;
-    export { lightest_1 as lightest };
-    let lighter_1: string;
-    export { lighter_1 as lighter };
-    let light_1: string;
-    export { light_1 as light };
-    let DEFAULT_1: string;
-    export { DEFAULT_1 as DEFAULT };
-    let dark_1: string;
-    export { dark_1 as dark };
-    let darker_1: string;
-    export { darker_1 as darker };
-    let darkest_1: string;
-    export { darkest_1 as darkest };
-}
-declare namespace tertiary$5 {
-    let lightest_2: string;
-    export { lightest_2 as lightest };
-    let lighter_2: string;
-    export { lighter_2 as lighter };
-    let light_2: string;
-    export { light_2 as light };
-    let DEFAULT_2: string;
-    export { DEFAULT_2 as DEFAULT };
-    let dark_2: string;
-    export { dark_2 as dark };
-    let darker_2: string;
-    export { darker_2 as darker };
-    let darkest_2: string;
-    export { darkest_2 as darkest };
-}
-declare namespace accent$5 {
-    let lightest_3: string;
-    export { lightest_3 as lightest };
-    let lighter_3: string;
-    export { lighter_3 as lighter };
-    let light_3: string;
-    export { light_3 as light };
-    let DEFAULT_3: string;
-    export { DEFAULT_3 as DEFAULT };
-    let dark_3: string;
-    export { dark_3 as dark };
-    let darker_3: string;
-    export { darker_3 as darker };
-    let darkest_3: string;
-    export { darkest_3 as darkest };
-}
-declare namespace success$5 {
-    let lightest_4: string;
-    export { lightest_4 as lightest };
-    let lighter_4: string;
-    export { lighter_4 as lighter };
-    let light_4: string;
-    export { light_4 as light };
-    let DEFAULT_4: string;
-    export { DEFAULT_4 as DEFAULT };
-    let dark_4: string;
-    export { dark_4 as dark };
-    let darker_4: string;
-    export { darker_4 as darker };
-    let darkest_4: string;
-    export { darkest_4 as darkest };
-}
-declare namespace warning$5 {
-    let lightest_5: string;
-    export { lightest_5 as lightest };
-    let lighter_5: string;
-    export { lighter_5 as lighter };
-    let light_5: string;
-    export { light_5 as light };
-    let DEFAULT_5: string;
-    export { DEFAULT_5 as DEFAULT };
-    let dark_5: string;
-    export { dark_5 as dark };
-    let darker_5: string;
-    export { darker_5 as darker };
-    let darkest_5: string;
-    export { darkest_5 as darkest };
-}
-declare namespace error$5 {
-    let lightest_6: string;
-    export { lightest_6 as lightest };
-    let lighter_6: string;
-    export { lighter_6 as lighter };
-    let light_6: string;
-    export { light_6 as light };
-    let DEFAULT_6: string;
-    export { DEFAULT_6 as DEFAULT };
-    let dark_6: string;
-    export { dark_6 as dark };
-    let darker_6: string;
-    export { darker_6 as darker };
-    let darkest_6: string;
-    export { darkest_6 as darkest };
-}
-declare namespace info$5 {
-    let lightest_7: string;
-    export { lightest_7 as lightest };
-    let lighter_7: string;
-    export { lighter_7 as lighter };
-    let light_7: string;
-    export { light_7 as light };
-    let DEFAULT_7: string;
-    export { DEFAULT_7 as DEFAULT };
-    let dark_7: string;
-    export { dark_7 as dark };
-    let darker_7: string;
-    export { darker_7 as darker };
-    let darkest_7: string;
-    export { darkest_7 as darkest };
-}
+declare const primary$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
 
 declare namespace masterbrandJsOklch {
-  export { accent$5 as accent, error$5 as error, info$5 as info, primary$5 as primary, secondary$5 as secondary, success$5 as success, tertiary$5 as tertiary, warning$5 as warning };
+  export { accent$5 as accent, grey$5 as grey, primary$5 as primary };
 }
 
-declare namespace primary$4 {
-    let lightest: string;
-    let lighter: string;
-    let light: string;
-    let DEFAULT: string;
-    let dark: string;
-    let darker: string;
-    let darkest: string;
-}
-declare namespace secondary$4 {
-    let lightest_1: string;
-    export { lightest_1 as lightest };
-    let lighter_1: string;
-    export { lighter_1 as lighter };
-    let light_1: string;
-    export { light_1 as light };
-    let DEFAULT_1: string;
-    export { DEFAULT_1 as DEFAULT };
-    let dark_1: string;
-    export { dark_1 as dark };
-    let darker_1: string;
-    export { darker_1 as darker };
-    let darkest_1: string;
-    export { darkest_1 as darkest };
-}
-declare namespace tertiary$4 {
-    let lightest_2: string;
-    export { lightest_2 as lightest };
-    let lighter_2: string;
-    export { lighter_2 as lighter };
-    let light_2: string;
-    export { light_2 as light };
-    let DEFAULT_2: string;
-    export { DEFAULT_2 as DEFAULT };
-    let dark_2: string;
-    export { dark_2 as dark };
-    let darker_2: string;
-    export { darker_2 as darker };
-    let darkest_2: string;
-    export { darkest_2 as darkest };
-}
-declare namespace accent$4 {
-    let lightest_3: string;
-    export { lightest_3 as lightest };
-    let lighter_3: string;
-    export { lighter_3 as lighter };
-    let light_3: string;
-    export { light_3 as light };
-    let DEFAULT_3: string;
-    export { DEFAULT_3 as DEFAULT };
-    let dark_3: string;
-    export { dark_3 as dark };
-    let darker_3: string;
-    export { darker_3 as darker };
-    let darkest_3: string;
-    export { darkest_3 as darkest };
-}
-declare namespace success$4 {
-    let lightest_4: string;
-    export { lightest_4 as lightest };
-    let lighter_4: string;
-    export { lighter_4 as lighter };
-    let light_4: string;
-    export { light_4 as light };
-    let DEFAULT_4: string;
-    export { DEFAULT_4 as DEFAULT };
-    let dark_4: string;
-    export { dark_4 as dark };
-    let darker_4: string;
-    export { darker_4 as darker };
-    let darkest_4: string;
-    export { darkest_4 as darkest };
-}
-declare namespace warning$4 {
-    let lightest_5: string;
-    export { lightest_5 as lightest };
-    let lighter_5: string;
-    export { lighter_5 as lighter };
-    let light_5: string;
-    export { light_5 as light };
-    let DEFAULT_5: string;
-    export { DEFAULT_5 as DEFAULT };
-    let dark_5: string;
-    export { dark_5 as dark };
-    let darker_5: string;
-    export { darker_5 as darker };
-    let darkest_5: string;
-    export { darkest_5 as darkest };
-}
-declare namespace error$4 {
-    let lightest_6: string;
-    export { lightest_6 as lightest };
-    let lighter_6: string;
-    export { lighter_6 as lighter };
-    let light_6: string;
-    export { light_6 as light };
-    let DEFAULT_6: string;
-    export { DEFAULT_6 as DEFAULT };
-    let dark_6: string;
-    export { dark_6 as dark };
-    let darker_6: string;
-    export { darker_6 as darker };
-    let darkest_6: string;
-    export { darkest_6 as darkest };
-}
-declare namespace info$4 {
-    let lightest_7: string;
-    export { lightest_7 as lightest };
-    let lighter_7: string;
-    export { lighter_7 as lighter };
-    let light_7: string;
-    export { light_7 as light };
-    let DEFAULT_7: string;
-    export { DEFAULT_7 as DEFAULT };
-    let dark_7: string;
-    export { dark_7 as dark };
-    let darker_7: string;
-    export { darker_7 as darker };
-    let darkest_7: string;
-    export { darkest_7 as darkest };
-}
+declare const primary$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
 
 declare namespace masterbrandJsRgb {
-  export { accent$4 as accent, error$4 as error, info$4 as info, primary$4 as primary, secondary$4 as secondary, success$4 as success, tertiary$4 as tertiary, warning$4 as warning };
+  export { accent$4 as accent, grey$4 as grey, primary$4 as primary };
 }
 
 declare namespace globalLessHex {
@@ -3713,319 +3481,278 @@ declare namespace globalTsRgb {
 }
 
 declare const primary$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const secondary$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const tertiary$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 declare const accent$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
-declare const success$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const warning$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const error$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const info$3: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+declare const grey$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 
 declare namespace masterbrandTsHex {
-  export { accent$3 as accent, error$3 as error, info$3 as info, primary$3 as primary, secondary$3 as secondary, success$3 as success, tertiary$3 as tertiary, warning$3 as warning };
+  export { accent$3 as accent, grey$3 as grey, primary$3 as primary };
 }
 
 declare const primary$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const secondary$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const tertiary$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 declare const accent$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
-declare const success$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const warning$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const error$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const info$2: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+declare const grey$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 
 declare namespace masterbrandTsHsl {
-  export { accent$2 as accent, error$2 as error, info$2 as info, primary$2 as primary, secondary$2 as secondary, success$2 as success, tertiary$2 as tertiary, warning$2 as warning };
+  export { accent$2 as accent, grey$2 as grey, primary$2 as primary };
 }
 
 declare const primary$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const secondary$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const tertiary$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 declare const accent$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
-declare const success$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const warning$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const error$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const info$1: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+declare const grey$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 
 declare namespace masterbrandTsOklch {
-  export { accent$1 as accent, error$1 as error, info$1 as info, primary$1 as primary, secondary$1 as secondary, success$1 as success, tertiary$1 as tertiary, warning$1 as warning };
+  export { accent$1 as accent, grey$1 as grey, primary$1 as primary };
 }
 
 declare const primary: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const secondary: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const tertiary: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 declare const accent: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
-declare const success: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const warning: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const error: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
-};
-declare const info: {
-    lightest: string;
-    lighter: string;
-    light: string;
-    DEFAULT: string;
-    dark: string;
-    darker: string;
-    darkest: string;
+declare const grey: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
 };
 
 declare const masterbrandTsRgb_accent: typeof accent;
-declare const masterbrandTsRgb_error: typeof error;
-declare const masterbrandTsRgb_info: typeof info;
+declare const masterbrandTsRgb_grey: typeof grey;
 declare const masterbrandTsRgb_primary: typeof primary;
-declare const masterbrandTsRgb_secondary: typeof secondary;
-declare const masterbrandTsRgb_success: typeof success;
-declare const masterbrandTsRgb_tertiary: typeof tertiary;
-declare const masterbrandTsRgb_warning: typeof warning;
 declare namespace masterbrandTsRgb {
-  export { masterbrandTsRgb_accent as accent, masterbrandTsRgb_error as error, masterbrandTsRgb_info as info, masterbrandTsRgb_primary as primary, masterbrandTsRgb_secondary as secondary, masterbrandTsRgb_success as success, masterbrandTsRgb_tertiary as tertiary, masterbrandTsRgb_warning as warning };
+  export { masterbrandTsRgb_accent as accent, masterbrandTsRgb_grey as grey, masterbrandTsRgb_primary as primary };
 }
 
 declare const tokens: {
@@ -4288,6 +4015,7 @@ declare const tsTokens: {
 };
 declare const icons: {
     accountCircle: string;
+    add: string;
     attachFile: string;
     cancel: string;
     check: string;
