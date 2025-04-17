@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.7.0...v2.8.0) (2025-04-17)
+
+
+### Features
+
+* **tokens, icons:** Add new color tokens and SVG icons, refactor color variables and structure, update imports and format JSON files ([#16](https://github.com/digitalnsw/nswds-tokens/issues/16)) ([8e759f1](https://github.com/digitalnsw/nswds-tokens/commit/8e759f155acdb036069a20249ab082a69fab665c))
+
 # [2.7.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.6.0...v2.7.0) (2025-04-11)
 
 
