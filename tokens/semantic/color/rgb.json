@@ -1,0 +1,618 @@
+{
+  "success": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [239, 249, 237],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [224, 243, 222],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [210, 236, 207],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [196, 229, 192],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [170, 214, 165],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [143, 199, 138],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [116, 183, 111],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [88, 168, 84],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [73, 161, 70],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [57, 153, 54],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [37, 146, 36],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 138, 7],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 114, 4],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 90, 2],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 68, 1],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 47, 0],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 34, 0],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 22, 0],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 11, 0],
+        "alpha": 1
+      }
+    }
+  },
+  "warning": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [255, 243, 237],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [255, 232, 222],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [255, 221, 207],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [253, 210, 192],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [246, 189, 165],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [238, 168, 138],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [230, 147, 111],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [221, 125, 83],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [216, 114, 68],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [211, 103, 52],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [206, 92, 33],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [201, 80, 0],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [168, 63, 3],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [136, 47, 3],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [105, 32, 1],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [75, 18, 0],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [57, 10, 0],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [39, 4, 0],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [23, 1, 0],
+        "alpha": 1
+      }
+    }
+  },
+  "danger": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [255, 240, 239],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [255, 226, 225],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [255, 212, 212],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [253, 198, 198],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [244, 172, 173],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [234, 146, 148],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [223, 120, 124],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [211, 93, 101],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [205, 78, 89],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [198, 63, 78],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [191, 44, 66],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [184, 18, 55],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [153, 11, 42],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [124, 6, 31],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [95, 2, 20],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [68, 0, 10],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [51, 0, 5],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [35, 0, 2],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [20, 0, 1],
+        "alpha": 1
+      }
+    }
+  },
+  "info": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [233, 238, 247],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [212, 221, 235],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [192, 204, 224],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [172, 187, 213],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [150, 169, 204],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [128, 152, 194],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [107, 134, 184],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [87, 117, 174],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [77, 108, 169],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [66, 100, 164],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [56, 91, 158],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [46, 82, 153],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [35, 66, 127],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [25, 51, 102],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [16, 37, 79],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [7, 23, 56],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [4, 15, 42],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [2, 7, 28],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [0, 3, 15],
+        "alpha": 1
+      }
+    }
+  }
+}

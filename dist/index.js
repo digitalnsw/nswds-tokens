@@ -10011,11 +10011,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              199.45,
-              100,
-              97.34
-            ],
+            channels: [199.45, 100, 97.34],
             alpha: 1
           }
         },
@@ -10023,11 +10019,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              199.38,
-              100,
-              94.73
-            ],
+            channels: [199.38, 100, 94.73],
             alpha: 1
           }
         },
@@ -10035,11 +10027,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              199.3,
-              95.85,
-              92.09
-            ],
+            channels: [199.3, 95.85, 92.09],
             alpha: 1
           }
         },
@@ -10047,11 +10035,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              199.2,
-              92.59,
-              89.41
-            ],
+            channels: [199.2, 92.59, 89.41],
             alpha: 1
           }
         },
@@ -10059,11 +10043,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              198.5,
-              96.87,
-              86.75
-            ],
+            channels: [198.5, 96.87, 86.75],
             alpha: 1
           }
         },
@@ -10071,11 +10051,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              197.76,
-              98.99,
-              83.89
-            ],
+            channels: [197.76, 98.99, 83.89],
             alpha: 1
           }
         },
@@ -10083,11 +10059,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              197,
-              99.87,
-              80.82
-            ],
+            channels: [197, 99.87, 80.82],
             alpha: 1
           }
         },
@@ -10095,11 +10067,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              196.17,
-              100,
-              77.45
-            ],
+            channels: [196.17, 100, 77.45],
             alpha: 1
           }
         },
@@ -10107,11 +10075,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              199.74,
-              99.83,
-              67.57
-            ],
+            channels: [199.74, 99.83, 67.57],
             alpha: 1
           }
         },
@@ -10119,11 +10083,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              202.52,
-              100,
-              57.55
-            ],
+            channels: [202.52, 100, 57.55],
             alpha: 1
           }
         },
@@ -10131,11 +10091,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              204.76,
-              100,
-              46.97
-            ],
+            channels: [204.76, 100, 46.97],
             alpha: 1
           }
         },
@@ -10143,11 +10099,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              217.34,
-              98.31,
-              53.53
-            ],
+            channels: [217.34, 98.31, 53.53],
             alpha: 1
           }
         },
@@ -10155,11 +10107,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              216.77,
-              89.43,
-              43.98
-            ],
+            channels: [216.77, 89.43, 43.98],
             alpha: 1
           }
         },
@@ -10167,11 +10115,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              216.29,
-              94.14,
-              35
-            ],
+            channels: [216.29, 94.14, 35],
             alpha: 1
           }
         },
@@ -10179,11 +10123,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              216.37,
-              97.67,
-              26.93
-            ],
+            channels: [216.37, 97.67, 26.93],
             alpha: 1
           }
         },
@@ -10191,11 +10131,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              217.2,
-              100,
-              19.61
-            ],
+            channels: [217.2, 100, 19.61],
             alpha: 1
           }
         },
@@ -10203,11 +10139,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              218.95,
-              100,
-              14.93
-            ],
+            channels: [218.95, 100, 14.93],
             alpha: 1
           }
         },
@@ -10215,11 +10147,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              222.31,
-              100,
-              10.59
-            ],
+            channels: [222.31, 100, 10.59],
             alpha: 1
           }
         },
@@ -10227,11 +10155,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              228.65,
-              100,
-              6.6
-            ],
+            channels: [228.65, 100, 6.6],
             alpha: 1
           }
         }
@@ -10241,11 +10165,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              350.85,
-              100,
-              98.97
-            ],
+            channels: [350.85, 100, 98.97],
             alpha: 1
           }
         },
@@ -10253,11 +10173,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              350.7,
-              100,
-              97.7
-            ],
+            channels: [350.7, 100, 97.7],
             alpha: 1
           }
         },
@@ -10265,11 +10181,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              350.55,
-              100,
-              96.41
-            ],
+            channels: [350.55, 100, 96.41],
             alpha: 1
           }
         },
@@ -10277,11 +10189,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              350.4,
-              100,
-              95.1
-            ],
+            channels: [350.4, 100, 95.1],
             alpha: 1
           }
         },
@@ -10289,11 +10197,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              350.92,
-              100,
-              92.94
-            ],
+            channels: [350.92, 100, 92.94],
             alpha: 1
           }
         },
@@ -10301,11 +10205,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              351.43,
-              100,
-              90.72
-            ],
+            channels: [351.43, 100, 90.72],
             alpha: 1
           }
         },
@@ -10313,11 +10213,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              351.92,
-              100,
-              88.44
-            ],
+            channels: [351.92, 100, 88.44],
             alpha: 1
           }
         },
@@ -10325,11 +10221,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              352.39,
-              100,
-              86.08
-            ],
+            channels: [352.39, 100, 86.08],
             alpha: 1
           }
         },
@@ -10337,11 +10229,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              353.39,
-              86.96,
-              78.18
-            ],
+            channels: [353.39, 86.96, 78.18],
             alpha: 1
           }
         },
@@ -10349,11 +10237,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              353.95,
-              78.84,
-              69.69
-            ],
+            channels: [353.95, 78.84, 69.69],
             alpha: 1
           }
         },
@@ -10361,11 +10245,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              353.52,
-              73.17,
-              60.13
-            ],
+            channels: [353.52, 73.17, 60.13],
             alpha: 1
           }
         },
@@ -10373,11 +10253,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              348.56,
-              82.2,
-              46.27
-            ],
+            channels: [348.56, 82.2, 46.27],
             alpha: 1
           }
         },
@@ -10385,11 +10261,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              347.26,
-              85.91,
-              38.92
-            ],
+            channels: [347.26, 85.91, 38.92],
             alpha: 1
           }
         },
@@ -10397,11 +10269,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              345.89,
-              91,
-              31.81
-            ],
+            channels: [345.89, 91, 31.81],
             alpha: 1
           }
         },
@@ -10409,11 +10277,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              345,
-              95.87,
-              25.31
-            ],
+            channels: [345, 95.87, 25.31],
             alpha: 1
           }
         },
@@ -10421,11 +10285,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              344.85,
-              100,
-              19.41
-            ],
+            channels: [344.85, 100, 19.41],
             alpha: 1
           }
         },
@@ -10433,11 +10293,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              346.11,
-              100,
-              14.46
-            ],
+            channels: [346.11, 100, 14.46],
             alpha: 1
           }
         },
@@ -10445,11 +10301,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              349.15,
-              100,
-              10.03
-            ],
+            channels: [349.15, 100, 10.03],
             alpha: 1
           }
         },
@@ -10457,11 +10309,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              352.16,
-              100,
-              6.06
-            ],
+            channels: [352.16, 100, 6.06],
             alpha: 1
           }
         }
@@ -10471,11 +10319,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              223.81,
-              0,
-              98.03
-            ],
+            channels: [223.81, 0, 98.03],
             alpha: 1
           }
         },
@@ -10483,11 +10327,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              223.81,
-              0,
-              96.06
-            ],
+            channels: [223.81, 0, 96.06],
             alpha: 1
           }
         },
@@ -10495,11 +10335,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              223.81,
-              0,
-              94.11
-            ],
+            channels: [223.81, 0, 94.11],
             alpha: 1
           }
         },
@@ -10507,11 +10343,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              223.81,
-              0,
-              92.16
-            ],
+            channels: [223.81, 0, 92.16],
             alpha: 1
           }
         },
@@ -10519,11 +10351,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              200.05,
-              4.31,
-              89.64
-            ],
+            channels: [200.05, 4.31, 89.64],
             alpha: 1
           }
         },
@@ -10531,11 +10359,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              200.03,
-              6.92,
-              87.13
-            ],
+            channels: [200.03, 6.92, 87.13],
             alpha: 1
           }
         },
@@ -10543,11 +10367,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              200.02,
-              8.65,
-              84.64
-            ],
+            channels: [200.02, 8.65, 84.64],
             alpha: 1
           }
         },
@@ -10555,11 +10375,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              200,
-              9.89,
-              82.16
-            ],
+            channels: [200, 9.89, 82.16],
             alpha: 1
           }
         },
@@ -10567,11 +10383,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              200.47,
-              6.03,
-              68.52
-            ],
+            channels: [200.47, 6.03, 68.52],
             alpha: 1
           }
         },
@@ -10579,11 +10391,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              200.94,
-              4.51,
-              55.36
-            ],
+            channels: [200.94, 4.51, 55.36],
             alpha: 1
           }
         },
@@ -10591,11 +10399,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              201.39,
-              4.91,
-              42.76
-            ],
+            channels: [201.39, 4.91, 42.76],
             alpha: 1
           }
         },
@@ -10603,11 +10407,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              201.82,
-              7.01,
-              30.78
-            ],
+            channels: [201.82, 7.01, 30.78],
             alpha: 1
           }
         },
@@ -10615,11 +10415,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              203.03,
-              7.74,
-              26.71
-            ],
+            channels: [203.03, 7.74, 26.71],
             alpha: 1
           }
         },
@@ -10627,11 +10423,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              204.24,
-              8.68,
-              22.73
-            ],
+            channels: [204.24, 8.68, 22.73],
             alpha: 1
           }
         },
@@ -10639,11 +10431,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              205.45,
-              9.93,
-              18.85
-            ],
+            channels: [205.45, 9.93, 18.85],
             alpha: 1
           }
         },
@@ -10651,11 +10439,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              206.67,
-              11.69,
-              15.1
-            ],
+            channels: [206.67, 11.69, 15.1],
             alpha: 1
           }
         },
@@ -10663,11 +10447,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              206.66,
-              13.37,
-              10.7
-            ],
+            channels: [206.66, 13.37, 10.7],
             alpha: 1
           }
         },
@@ -10675,11 +10455,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              206.64,
-              17.01,
-              6.52
-            ],
+            channels: [206.64, 17.01, 6.52],
             alpha: 1
           }
         },
@@ -10687,11 +10463,7 @@ var require_hsl2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "hsl",
-            channels: [
-              208.68,
-              23.47,
-              2.8
-            ],
+            channels: [208.68, 23.47, 2.8],
             alpha: 1
           }
         }
@@ -10709,11 +10481,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9816683948128555,
-              0.013540580086234762,
-              227.890755564881
-            ],
+            channels: [0.9816683948128555, 0.013540580086234762, 227.890755564881],
             alpha: 1
           }
         },
@@ -10721,11 +10489,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9633367896257109,
-              0.022914827838243446,
-              227.890755564881
-            ],
+            channels: [0.9633367896257109, 0.022914827838243446, 227.890755564881],
             alpha: 1
           }
         },
@@ -10733,11 +10497,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9450051844385663,
-              0.032289075590252125,
-              227.890755564881
-            ],
+            channels: [0.9450051844385663, 0.032289075590252125, 227.890755564881],
             alpha: 1
           }
         },
@@ -10745,11 +10505,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9266735792514218,
-              0.04166332334226081,
-              227.890755564881
-            ],
+            channels: [0.9266735792514218, 0.04166332334226081, 227.890755564881],
             alpha: 1
           }
         },
@@ -10757,11 +10513,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9110280326138016,
-              0.05428316129852959,
-              226.81685418252806
-            ],
+            channels: [0.9110280326138016, 0.05428316129852959, 226.81685418252806],
             alpha: 1
           }
         },
@@ -10769,11 +10521,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8953824859761815,
-              0.06690299925479838,
-              225.74295280017512
-            ],
+            channels: [0.8953824859761815, 0.06690299925479838, 225.74295280017512],
             alpha: 1
           }
         },
@@ -10781,11 +10529,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8797369393385615,
-              0.07952283721106716,
-              224.66905141782217
-            ],
+            channels: [0.8797369393385615, 0.07952283721106716, 224.66905141782217],
             alpha: 1
           }
         },
@@ -10793,11 +10537,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8640913927009413,
-              0.09214267516733594,
-              223.59515003546923
-            ],
+            channels: [0.8640913927009413, 0.09214267516733594, 223.59515003546923],
             alpha: 1
           }
         },
@@ -10805,11 +10545,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.7918467078448571,
-              0.12656541375136143,
-              232.8854457721009
-            ],
+            channels: [0.7918467078448571, 0.12656541375136143, 232.8854457721009],
             alpha: 1
           }
         },
@@ -10817,11 +10553,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.719602022988773,
-              0.1609881523353869,
-              242.17574150873253
-            ],
+            channels: [0.719602022988773, 0.1609881523353869, 242.17574150873253],
             alpha: 1
           }
         },
@@ -10829,11 +10561,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.6473573381326887,
-              0.19541089091941238,
-              251.4660372453642
-            ],
+            channels: [0.6473573381326887, 0.19541089091941238, 251.4660372453642],
             alpha: 1
           }
         },
@@ -10841,11 +10569,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.5751126532766045,
-              0.2298336295034379,
-              260.75633298199585
-            ],
+            channels: [0.5751126532766045, 0.2298336295034379, 260.75633298199585],
             alpha: 1
           }
         },
@@ -10853,11 +10577,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.5038341615701663,
-              0.20169915825513662,
-              260.52773388396713
-            ],
+            channels: [0.5038341615701663, 0.20169915825513662, 260.52773388396713],
             alpha: 1
           }
         },
@@ -10865,11 +10585,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.43255566986372795,
-              0.17356468700683536,
-              260.29913478593846
-            ],
+            channels: [0.43255566986372795, 0.17356468700683536, 260.29913478593846],
             alpha: 1
           }
         },
@@ -10877,11 +10593,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.3612771781572896,
-              0.1454302157585341,
-              260.07053568790974
-            ],
+            channels: [0.3612771781572896, 0.1454302157585341, 260.07053568790974],
             alpha: 1
           }
         },
@@ -10889,11 +10601,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.2899986864508513,
-              0.11729574451023282,
-              259.841936589881
-            ],
+            channels: [0.2899986864508513, 0.11729574451023282, 259.841936589881],
             alpha: 1
           }
         },
@@ -10901,11 +10609,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.23924891632195233,
-              0.0997013828336979,
-              259.841936589881
-            ],
+            channels: [0.23924891632195233, 0.0997013828336979, 259.841936589881],
             alpha: 1
           }
         },
@@ -10913,11 +10617,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.18849914619305336,
-              0.08210702115716298,
-              259.841936589881
-            ],
+            channels: [0.18849914619305336, 0.08210702115716298, 259.841936589881],
             alpha: 1
           }
         },
@@ -10925,11 +10625,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.13774937606415438,
-              0.06451265948062805,
-              259.841936589881
-            ],
+            channels: [0.13774937606415438, 0.06451265948062805, 259.841936589881],
             alpha: 1
           }
         }
@@ -10939,11 +10635,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9865629857873716,
-              0.009043874600495525,
-              6.653158456152784
-            ],
+            channels: [0.9865629857873716, 0.009043874600495525, 6.653158456152784],
             alpha: 1
           }
         },
@@ -10951,11 +10643,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9731259715747431,
-              0.015305018554684736,
-              6.653158456152784
-            ],
+            channels: [0.9731259715747431, 0.015305018554684736, 6.653158456152784],
             alpha: 1
           }
         },
@@ -10963,11 +10651,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9596889573621147,
-              0.021566162508873946,
-              6.653158456152784
-            ],
+            channels: [0.9596889573621147, 0.021566162508873946, 6.653158456152784],
             alpha: 1
           }
         },
@@ -10975,11 +10659,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9462519431494862,
-              0.027827306463063157,
-              6.653158456152784
-            ],
+            channels: [0.9462519431494862, 0.027827306463063157, 6.653158456152784],
             alpha: 1
           }
         },
@@ -10987,11 +10667,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9224097820035976,
-              0.041627996281084,
-              7.632544925274676
-            ],
+            channels: [0.9224097820035976, 0.041627996281084, 7.632544925274676],
             alpha: 1
           }
         },
@@ -10999,11 +10675,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8985676208577089,
-              0.05542868609910484,
-              8.611931394396567
-            ],
+            channels: [0.8985676208577089, 0.05542868609910484, 8.611931394396567],
             alpha: 1
           }
         },
@@ -11011,11 +10683,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8747254597118204,
-              0.06922937591712569,
-              9.59131786351846
-            ],
+            channels: [0.8747254597118204, 0.06922937591712569, 9.59131786351846],
             alpha: 1
           }
         },
@@ -11023,11 +10691,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8508832985659317,
-              0.08303006573514653,
-              10.570704332640352
-            ],
+            channels: [0.8508832985659317, 0.08303006573514653, 10.570704332640352],
             alpha: 1
           }
         },
@@ -11035,11 +10699,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.7786513285230947,
-              0.11664880226231811,
-              13.011419492803782
-            ],
+            channels: [0.7786513285230947, 0.11664880226231811, 13.011419492803782],
             alpha: 1
           }
         },
@@ -11047,11 +10707,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.7064193584802577,
-              0.15026753878948967,
-              15.45213465296721
-            ],
+            channels: [0.7064193584802577, 0.15026753878948967, 15.45213465296721],
             alpha: 1
           }
         },
@@ -11059,11 +10715,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.6341873884374207,
-              0.18388627531666124,
-              17.892849813130642
-            ],
+            channels: [0.6341873884374207, 0.18388627531666124, 17.892849813130642],
             alpha: 1
           }
         },
@@ -11071,11 +10723,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.5619554183945837,
-              0.2175050118438328,
-              20.33356497329407
-            ],
+            channels: [0.5619554183945837, 0.2175050118438328, 20.33356497329407],
             alpha: 1
           }
         },
@@ -11083,11 +10731,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.5007084126233001,
-              0.1948505033631296,
-              19.53345435711309
-            ],
+            channels: [0.5007084126233001, 0.1948505033631296, 19.53345435711309],
             alpha: 1
           }
         },
@@ -11095,11 +10739,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.4394614068520166,
-              0.17219599488242637,
-              18.733343740932114
-            ],
+            channels: [0.4394614068520166, 0.17219599488242637, 18.733343740932114],
             alpha: 1
           }
         },
@@ -11107,11 +10747,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.3782144010807331,
-              0.14954148640172313,
-              17.933233124751133
-            ],
+            channels: [0.3782144010807331, 0.14954148640172313, 17.933233124751133],
             alpha: 1
           }
         },
@@ -11119,11 +10755,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.31696739530944956,
-              0.1268869779210199,
-              17.133122508570153
-            ],
+            channels: [0.31696739530944956, 0.1268869779210199, 17.133122508570153],
             alpha: 1
           }
         },
@@ -11131,11 +10763,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.2614981011302959,
-              0.10785393123286692,
-              17.133122508570153
-            ],
+            channels: [0.2614981011302959, 0.10785393123286692, 17.133122508570153],
             alpha: 1
           }
         },
@@ -11143,11 +10771,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.20602880695114223,
-              0.08882088454471393,
-              17.133122508570153
-            ],
+            channels: [0.20602880695114223, 0.08882088454471393, 17.133122508570153],
             alpha: 1
           }
         },
@@ -11155,11 +10779,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.15055951277198854,
-              0.06978783785656095,
-              17.133122508570153
-            ],
+            channels: [0.15055951277198854, 0.06978783785656095, 17.133122508570153],
             alpha: 1
           }
         }
@@ -11169,11 +10789,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9850175274112574,
-              0,
-              null
-            ],
+            channels: [0.9850175274112574, 0, null],
             alpha: 1
           }
         },
@@ -11181,11 +10797,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9700350548225147,
-              0,
-              null
-            ],
+            channels: [0.9700350548225147, 0, null],
             alpha: 1
           }
         },
@@ -11193,11 +10805,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9550525822337722,
-              0,
-              null
-            ],
+            channels: [0.9550525822337722, 0, null],
             alpha: 1
           }
         },
@@ -11205,11 +10813,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9400701096450296,
-              0,
-              null
-            ],
+            channels: [0.9400701096450296, 0, null],
             alpha: 1
           }
         },
@@ -11217,11 +10821,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9208267112856119,
-              0.0019440594503795112,
-              228.8687380011113
-            ],
+            channels: [0.9208267112856119, 0.0019440594503795112, 228.8687380011113],
             alpha: 1
           }
         },
@@ -11229,11 +10829,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.9015833129261941,
-              0.0038881189007590215,
-              228.8687380011113
-            ],
+            channels: [0.9015833129261941, 0.0038881189007590215, 228.8687380011113],
             alpha: 1
           }
         },
@@ -11241,11 +10837,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8823399145667763,
-              0.005832178351138532,
-              228.8687380011113
-            ],
+            channels: [0.8823399145667763, 0.005832178351138532, 228.8687380011113],
             alpha: 1
           }
         },
@@ -11253,11 +10845,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.8630965162073586,
-              0.007776237801518043,
-              228.8687380011113
-            ],
+            channels: [0.8630965162073586, 0.007776237801518043, 228.8687380011113],
             alpha: 1
           }
         },
@@ -11265,11 +10853,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.7539290831519737,
-              0.008632737257709678,
-              229.8058410593526
-            ],
+            channels: [0.7539290831519737, 0.008632737257709678, 229.8058410593526],
             alpha: 1
           }
         },
@@ -11277,11 +10861,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.6447616500965888,
-              0.009489236713901311,
-              230.74294411759388
-            ],
+            channels: [0.6447616500965888, 0.009489236713901311, 230.74294411759388],
             alpha: 1
           }
         },
@@ -11289,11 +10869,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.5355942170412039,
-              0.010345736170092946,
-              231.68004717583517
-            ],
+            channels: [0.5355942170412039, 0.010345736170092946, 231.68004717583517],
             alpha: 1
           }
         },
@@ -11301,11 +10877,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.426426783985819,
-              0.011202235626284581,
-              232.61715023407646
-            ],
+            channels: [0.426426783985819, 0.011202235626284581, 232.61715023407646],
             alpha: 1
           }
         },
@@ -11313,11 +10885,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.3871732148397997,
-              0.010991669591883444,
-              234.98382249287215
-            ],
+            channels: [0.3871732148397997, 0.010991669591883444, 234.98382249287215],
             alpha: 1
           }
         },
@@ -11325,11 +10893,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.3479196456937804,
-              0.010781103557482309,
-              237.35049475166784
-            ],
+            channels: [0.3479196456937804, 0.010781103557482309, 237.35049475166784],
             alpha: 1
           }
         },
@@ -11337,11 +10901,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.3086660765477611,
-              0.010570537523081174,
-              239.71716701046353
-            ],
+            channels: [0.3086660765477611, 0.010570537523081174, 239.71716701046353],
             alpha: 1
           }
         },
@@ -11349,11 +10909,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.26941250740174183,
-              0.010359971488680036,
-              242.08383926925922
-            ],
+            channels: [0.26941250740174183, 0.010359971488680036, 242.08383926925922],
             alpha: 1
           }
         },
@@ -11361,11 +10917,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.222265318606437,
-              0.00880597576537803,
-              242.08383926925922
-            ],
+            channels: [0.222265318606437, 0.00880597576537803, 242.08383926925922],
             alpha: 1
           }
         },
@@ -11373,11 +10925,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.17511812981113217,
-              0.007251980042076026,
-              242.08383926925922
-            ],
+            channels: [0.17511812981113217, 0.007251980042076026, 242.08383926925922],
             alpha: 1
           }
         },
@@ -11385,11 +10933,7 @@ var require_oklch2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "oklch",
-            channels: [
-              0.12797094101582737,
-              0.005697984318774021,
-              242.08383926925922
-            ],
+            channels: [0.12797094101582737, 0.005697984318774021, 242.08383926925922],
             alpha: 1
           }
         }
@@ -11407,11 +10951,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              240,
-              251,
-              255
-            ],
+            channels: [240, 251, 255],
             alpha: 1
           }
         },
@@ -11419,11 +10959,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              228,
-              246,
-              255
-            ],
+            channels: [228, 246, 255],
             alpha: 1
           }
         },
@@ -11431,11 +10967,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              215,
-              242,
-              254
-            ],
+            channels: [215, 242, 254],
             alpha: 1
           }
         },
@@ -11443,11 +10975,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              203,
-              237,
-              253
-            ],
+            channels: [203, 237, 253],
             alpha: 1
           }
         },
@@ -11455,11 +10983,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              188,
-              234,
-              254
-            ],
+            channels: [188, 234, 254],
             alpha: 1
           }
         },
@@ -11467,11 +10991,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              173,
-              231,
-              255
-            ],
+            channels: [173, 231, 255],
             alpha: 1
           }
         },
@@ -11479,11 +10999,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              157,
-              227,
-              255
-            ],
+            channels: [157, 227, 255],
             alpha: 1
           }
         },
@@ -11491,11 +11007,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              140,
-              224,
-              255
-            ],
+            channels: [140, 224, 255],
             alpha: 1
           }
         },
@@ -11503,11 +11015,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              90,
-              201,
-              255
-            ],
+            channels: [90, 201, 255],
             alpha: 1
           }
         },
@@ -11515,11 +11023,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              38,
-              174,
-              255
-            ],
+            channels: [38, 174, 255],
             alpha: 1
           }
         },
@@ -11527,11 +11031,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              0,
-              143,
-              255
-            ],
+            channels: [0, 143, 255],
             alpha: 1
           }
         },
@@ -11539,11 +11039,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              20,
-              108,
-              253
-            ],
+            channels: [20, 108, 253],
             alpha: 1
           }
         },
@@ -11551,11 +11047,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              12,
-              90,
-              212
-            ],
+            channels: [12, 90, 212],
             alpha: 1
           }
         },
@@ -11563,11 +11055,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              5,
-              72,
-              173
-            ],
+            channels: [5, 72, 173],
             alpha: 1
           }
         },
@@ -11575,11 +11063,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              2,
-              54,
-              136
-            ],
+            channels: [2, 54, 136],
             alpha: 1
           }
         },
@@ -11587,11 +11071,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              0,
-              38,
-              100
-            ],
+            channels: [0, 38, 100],
             alpha: 1
           }
         },
@@ -11599,11 +11079,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              0,
-              26,
-              77
-            ],
+            channels: [0, 26, 77],
             alpha: 1
           }
         },
@@ -11611,11 +11087,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              0,
-              16,
-              55
-            ],
+            channels: [0, 16, 55],
             alpha: 1
           }
         },
@@ -11623,11 +11095,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              0,
-              6,
-              34
-            ],
+            channels: [0, 6, 34],
             alpha: 1
           }
         }
@@ -11637,11 +11105,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              248,
-              249
-            ],
+            channels: [255, 248, 249],
             alpha: 1
           }
         },
@@ -11649,11 +11113,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              242,
-              244
-            ],
+            channels: [255, 242, 244],
             alpha: 1
           }
         },
@@ -11661,11 +11121,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              236,
-              239
-            ],
+            channels: [255, 236, 239],
             alpha: 1
           }
         },
@@ -11673,11 +11129,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              230,
-              234
-            ],
+            channels: [255, 230, 234],
             alpha: 1
           }
         },
@@ -11685,11 +11137,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              219,
-              224
-            ],
+            channels: [255, 219, 224],
             alpha: 1
           }
         },
@@ -11697,11 +11145,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              207,
-              214
-            ],
+            channels: [255, 207, 214],
             alpha: 1
           }
         },
@@ -11709,11 +11153,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              196,
-              204
-            ],
+            channels: [255, 196, 204],
             alpha: 1
           }
         },
@@ -11721,11 +11161,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              255,
-              184,
-              193
-            ],
+            channels: [255, 184, 193],
             alpha: 1
           }
         },
@@ -11733,11 +11169,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              248,
-              151,
-              162
-            ],
+            channels: [248, 151, 162],
             alpha: 1
           }
         },
@@ -11745,11 +11177,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              239,
-              117,
-              129
-            ],
+            channels: [239, 117, 129],
             alpha: 1
           }
         },
@@ -11757,11 +11185,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              228,
-              79,
-              95
-            ],
+            channels: [228, 79, 95],
             alpha: 1
           }
         },
@@ -11769,11 +11193,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              215,
-              21,
-              58
-            ],
+            channels: [215, 21, 58],
             alpha: 1
           }
         },
@@ -11781,11 +11201,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              185,
-              14,
-              50
-            ],
+            channels: [185, 14, 50],
             alpha: 1
           }
         },
@@ -11793,11 +11209,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              155,
-              7,
-              42
-            ],
+            channels: [155, 7, 42],
             alpha: 1
           }
         },
@@ -11805,11 +11217,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              126,
-              3,
-              34
-            ],
+            channels: [126, 3, 34],
             alpha: 1
           }
         },
@@ -11817,11 +11225,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              99,
-              0,
-              25
-            ],
+            channels: [99, 0, 25],
             alpha: 1
           }
         },
@@ -11829,11 +11233,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              76,
-              0,
-              16
-            ],
+            channels: [76, 0, 16],
             alpha: 1
           }
         },
@@ -11841,11 +11241,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              54,
-              0,
-              8
-            ],
+            channels: [54, 0, 8],
             alpha: 1
           }
         },
@@ -11853,11 +11249,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              33,
-              0,
-              3
-            ],
+            channels: [33, 0, 3],
             alpha: 1
           }
         }
@@ -11867,11 +11259,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              250,
-              250,
-              250
-            ],
+            channels: [250, 250, 250],
             alpha: 1
           }
         },
@@ -11879,11 +11267,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              245,
-              245,
-              245
-            ],
+            channels: [245, 245, 245],
             alpha: 1
           }
         },
@@ -11891,11 +11275,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              240,
-              240,
-              240
-            ],
+            channels: [240, 240, 240],
             alpha: 1
           }
         },
@@ -11903,11 +11283,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              235,
-              235,
-              235
-            ],
+            channels: [235, 235, 235],
             alpha: 1
           }
         },
@@ -11915,11 +11291,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              227,
-              229,
-              230
-            ],
+            channels: [227, 229, 230],
             alpha: 1
           }
         },
@@ -11927,11 +11299,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              220,
-              223,
-              224
-            ],
+            channels: [220, 223, 224],
             alpha: 1
           }
         },
@@ -11939,11 +11307,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              212,
-              217,
-              219
-            ],
+            channels: [212, 217, 219],
             alpha: 1
           }
         },
@@ -11951,11 +11315,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              205,
-              211,
-              214
-            ],
+            channels: [205, 211, 214],
             alpha: 1
           }
         },
@@ -11963,11 +11323,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              170,
-              176,
-              180
-            ],
+            channels: [170, 176, 180],
             alpha: 1
           }
         },
@@ -11975,11 +11331,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              136,
-              143,
-              146
-            ],
+            channels: [136, 143, 146],
             alpha: 1
           }
         },
@@ -11987,11 +11339,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              104,
-              111,
-              114
-            ],
+            channels: [104, 111, 114],
             alpha: 1
           }
         },
@@ -11999,11 +11347,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              73,
-              80,
-              84
-            ],
+            channels: [73, 80, 84],
             alpha: 1
           }
         },
@@ -12011,11 +11355,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              63,
-              69,
-              73
-            ],
+            channels: [63, 69, 73],
             alpha: 1
           }
         },
@@ -12023,11 +11363,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              53,
-              59,
-              63
-            ],
+            channels: [53, 59, 63],
             alpha: 1
           }
         },
@@ -12035,11 +11371,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              43,
-              49,
-              53
-            ],
+            channels: [43, 49, 53],
             alpha: 1
           }
         },
@@ -12047,11 +11379,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              34,
-              39,
-              43
-            ],
+            channels: [34, 39, 43],
             alpha: 1
           }
         },
@@ -12059,11 +11387,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              24,
-              28,
-              31
-            ],
+            channels: [24, 28, 31],
             alpha: 1
           }
         },
@@ -12071,11 +11395,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              14,
-              17,
-              19
-            ],
+            channels: [14, 17, 19],
             alpha: 1
           }
         },
@@ -12083,11 +11403,7 @@ var require_rgb2 = __commonJS({
           $type: "color",
           $value: {
             colorSpace: "rgb",
-            channels: [
-              5,
-              7,
-              9
-            ],
+            channels: [5, 7, 9],
             alpha: 1
           }
         }

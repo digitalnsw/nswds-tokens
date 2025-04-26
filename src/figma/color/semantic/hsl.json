@@ -1,0 +1,618 @@
+{
+  "success": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [113.15, 52.52, 95.43],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [113.26, 45.54, 91.13],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [113.38, 42.97, 86.84],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [113.51, 41.57, 82.55],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [114.16, 37.16, 74.26],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [114.93, 34.81, 66.02],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [115.88, 33.38, 57.78],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [117.14, 33.33, 49.41],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [117.67, 39.56, 45.11],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [118.38, 47.88, 40.58],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [119.53, 60.48, 35.56],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [123.04, 100, 27.06],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [121.8, 99.36, 22.38],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [120.9, 99.22, 17.81],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [120.32, 99.47, 13.4],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [120, 100, 9.22],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [120.32, 100, 6.51],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [120.63, 100, 4.07],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [121.08, 100, 1.88],
+        "alpha": 1
+      }
+    }
+  },
+  "warning": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.53, 100, 96.97],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.59, 100, 93.77],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.65, 99.09, 90.53],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.7, 93.85, 87.25],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.77, 81.71, 80.57],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.84, 74.94, 73.78],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.98, 70.36, 66.84],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [18.26, 66.99, 59.61],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [18.61, 65.61, 55.79],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [19.18, 64.53, 51.69],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [20.31, 72.21, 46.96],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [23.88, 100, 39.41],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [21.95, 96.66, 33.46],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [20.07, 95.99, 27.13],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [17.86, 97.32, 20.78],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [14.4, 100, 14.71],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [11.43, 100, 10.95],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [7.67, 100, 7.5],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [4.64, 100, 4.34],
+        "alpha": 1
+      }
+    }
+  },
+  "danger": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [0.78, 100, 97.61],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [0.56, 100, 94.61],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [0.3, 100, 91.55],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [0, 93.22, 88.43],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [359.39, 76.34, 81.59],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [358.59, 67.4, 74.56],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [357.51, 61.52, 67.27],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [355.93, 57.28, 59.61],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [354.77, 55.6, 55.49],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [353.23, 54.28, 51.09],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [350.97, 62.34, 46.16],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [346.63, 82.18, 39.61],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [346.89, 86.15, 32.28],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [347.25, 91.31, 25.33],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [348.45, 96, 19.02],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [351.18, 100, 13.33],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [352.99, 100, 9.85],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [354.47, 100, 6.66],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [355.5, 100, 3.76],
+        "alpha": 1
+      }
+    }
+  },
+  "info": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [217.99, 45.88, 94],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [218, 37.47, 87.77],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [218.02, 34.49, 81.6],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [218.05, 32.8, 75.49],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [218.29, 34.23, 69.31],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [218.57, 34.87, 63.2],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [218.9, 35.05, 57.15],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [219.31, 34.94, 51.18],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [219.41, 37.55, 48.13],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [219.52, 42.28, 45.1],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [219.66, 47.62, 42.06],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [219.81, 53.77, 39.02],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [219.87, 56.39, 31.92],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [219.93, 60.27, 25.07],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [220.02, 66.59, 18.51],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [220.41, 77.78, 12.35],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [222.21, 84, 8.9],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [226.63, 89.54, 5.83],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [230.65, 94.13, 3.12],
+        "alpha": 1
+      }
+    }
+  }
+}

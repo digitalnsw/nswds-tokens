@@ -1,30 +1,27 @@
 # [2.8.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.7.0...v2.8.0) (2025-04-17)
 
-
 ### Features
 
-* **tokens, icons:** Add new color tokens and SVG icons, refactor color variables and structure, update imports and format JSON files ([#16](https://github.com/digitalnsw/nswds-tokens/issues/16)) ([8e759f1](https://github.com/digitalnsw/nswds-tokens/commit/8e759f155acdb036069a20249ab082a69fab665c))
+- **tokens, icons:** Add new color tokens and SVG icons, refactor color variables and structure, update imports and format JSON files ([#16](https://github.com/digitalnsw/nswds-tokens/issues/16)) ([8e759f1](https://github.com/digitalnsw/nswds-tokens/commit/8e759f155acdb036069a20249ab082a69fab665c))
 
 # [2.7.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.6.0...v2.7.0) (2025-04-11)
 
-
 ### Features
 
-* **icons, brand:** Add new icons and profile images for improved UI and branding ([#15](https://github.com/digitalnsw/nswds-tokens/issues/15)) ([f3e3973](https://github.com/digitalnsw/nswds-tokens/commit/f3e397385a31877ee0c8a1c83ce47e9b89bdb0da))
+- **icons, brand:** Add new icons and profile images for improved UI and branding ([#15](https://github.com/digitalnsw/nswds-tokens/issues/15)) ([f3e3973](https://github.com/digitalnsw/nswds-tokens/commit/f3e397385a31877ee0c8a1c83ce47e9b89bdb0da))
 
 # [2.6.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.5.0...v2.6.0) (2025-04-06)
 
-
 ### Features
 
-* **colors:** add Aboriginal palette and update color definitions across all formats ([032bb51](https://github.com/digitalnsw/nswds-tokens/commit/032bb5193714caea0e1f0bb8bfe07ffbb513fefd))
-* **colors:** add comprehensive color definitions in hex, hsl, and oklch formats for various color categories to enhance design consistency and accessibility across the application ([cc702d9](https://github.com/digitalnsw/nswds-tokens/commit/cc702d97cf7c137c1a080a018dde592cc6228505))
-* **colors:** update color definitions in hex, hsl, and oklch files to improve consistency and add new colors for Aboriginal themes ([8a43c8d](https://github.com/digitalnsw/nswds-tokens/commit/8a43c8d11c9b20d040803b1e114267d891a06ede))
-* **colors:** update color definitions to improve accessibility and consistency across the application ([0e1c778](https://github.com/digitalnsw/nswds-tokens/commit/0e1c778918a75470cfce80ba14411eb5285e5d6f))
-* **colors:** update color values for nswGrey, nswTeal, nswFuchsia, nswYellow, and add new Aboriginal color palettes to enhance design consistency and accessibility ([0434fe3](https://github.com/digitalnsw/nswds-tokens/commit/0434fe38b4d30bd3fb1abe6ce4ac462762d98849))
-* **git-commit-inspect.sh:** add a script to inspect current branch, staged changes, and recent commit history to streamline commit process ([be5348e](https://github.com/digitalnsw/nswds-tokens/commit/be5348e70f52c5d1024f72b92c983ee3fcb8b9a1))
-* **icons:** add new SVG icons for grid view, list, and palette to enhance UI options ([7360993](https://github.com/digitalnsw/nswds-tokens/commit/73609937a0aa5230315ef8facefd3a0279f0bd8e))
-* **tailwind:** update color definitions and add new Aboriginal color palette to enhance design consistency and accessibility ([17640e6](https://github.com/digitalnsw/nswds-tokens/commit/17640e6d8569a55ae448aa748adbea89dfc01ea1))
+- **colors:** add Aboriginal palette and update color definitions across all formats ([032bb51](https://github.com/digitalnsw/nswds-tokens/commit/032bb5193714caea0e1f0bb8bfe07ffbb513fefd))
+- **colors:** add comprehensive color definitions in hex, hsl, and oklch formats for various color categories to enhance design consistency and accessibility across the application ([cc702d9](https://github.com/digitalnsw/nswds-tokens/commit/cc702d97cf7c137c1a080a018dde592cc6228505))
+- **colors:** update color definitions in hex, hsl, and oklch files to improve consistency and add new colors for Aboriginal themes ([8a43c8d](https://github.com/digitalnsw/nswds-tokens/commit/8a43c8d11c9b20d040803b1e114267d891a06ede))
+- **colors:** update color definitions to improve accessibility and consistency across the application ([0e1c778](https://github.com/digitalnsw/nswds-tokens/commit/0e1c778918a75470cfce80ba14411eb5285e5d6f))
+- **colors:** update color values for nswGrey, nswTeal, nswFuchsia, nswYellow, and add new Aboriginal color palettes to enhance design consistency and accessibility ([0434fe3](https://github.com/digitalnsw/nswds-tokens/commit/0434fe38b4d30bd3fb1abe6ce4ac462762d98849))
+- **git-commit-inspect.sh:** add a script to inspect current branch, staged changes, and recent commit history to streamline commit process ([be5348e](https://github.com/digitalnsw/nswds-tokens/commit/be5348e70f52c5d1024f72b92c983ee3fcb8b9a1))
+- **icons:** add new SVG icons for grid view, list, and palette to enhance UI options ([7360993](https://github.com/digitalnsw/nswds-tokens/commit/73609937a0aa5230315ef8facefd3a0279f0bd8e))
+- **tailwind:** update color definitions and add new Aboriginal color palette to enhance design consistency and accessibility ([17640e6](https://github.com/digitalnsw/nswds-tokens/commit/17640e6d8569a55ae448aa748adbea89dfc01ea1))
 
 # [2.5.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.4.0...v2.5.0) (2025-04-02)
 
