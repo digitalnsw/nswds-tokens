@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.8.0...v2.9.0) (2025-04-26)
+
+
+### Features
+
+* **changelog:** update changelog for version 2.8.0 with new features and improvements ([#17](https://github.com/digitalnsw/nswds-tokens/issues/17)) ([86054b4](https://github.com/digitalnsw/nswds-tokens/commit/86054b4353ccf82d19302ff4355f8f0b561d3f70))
+
 # [2.8.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.7.0...v2.8.0) (2025-04-17)
 
 ### Features
