@@ -30,6 +30,22 @@ declare namespace masterbrandCssRgb {
   export {  };
 }
 
+declare namespace semanticCssHex {
+  export {  };
+}
+
+declare namespace semanticCssHsl {
+  export {  };
+}
+
+declare namespace semanticCssOklch {
+  export {  };
+}
+
+declare namespace semanticCssRgb {
+  export {  };
+}
+
 declare const nswGrey$7: {
     50: string;
     100: string;
@@ -1834,6 +1850,362 @@ declare namespace masterbrandJsRgb {
   export { accent$4 as accent, grey$4 as grey, primary$4 as primary };
 }
 
+declare const success$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const warning$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const danger$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const info$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace semanticJsHex {
+  export { danger$7 as danger, info$7 as info, success$7 as success, warning$7 as warning };
+}
+
+declare const success$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const warning$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const danger$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const info$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace semanticJsHsl {
+  export { danger$6 as danger, info$6 as info, success$6 as success, warning$6 as warning };
+}
+
+declare const success$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const warning$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const danger$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const info$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace semanticJsOklch {
+  export { danger$5 as danger, info$5 as info, success$5 as success, warning$5 as warning };
+}
+
+declare const success$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const warning$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const danger$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const info$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace semanticJsRgb {
+  export { danger$4 as danger, info$4 as info, success$4 as success, warning$4 as warning };
+}
+
 declare namespace globalLessHex {
   export {  };
 }
@@ -1863,6 +2235,22 @@ declare namespace masterbrandLessOklch {
 }
 
 declare namespace masterbrandLessRgb {
+  export {  };
+}
+
+declare namespace semanticLessHex {
+  export {  };
+}
+
+declare namespace semanticLessHsl {
+  export {  };
+}
+
+declare namespace semanticLessOklch {
+  export {  };
+}
+
+declare namespace semanticLessRgb {
   export {  };
 }
 
@@ -1898,6 +2286,22 @@ declare namespace masterbrandScssRgb {
   export {  };
 }
 
+declare namespace semanticScssHex {
+  export {  };
+}
+
+declare namespace semanticScssHsl {
+  export {  };
+}
+
+declare namespace semanticScssOklch {
+  export {  };
+}
+
+declare namespace semanticScssRgb {
+  export {  };
+}
+
 declare namespace globalTailwindHex {
   export {  };
 }
@@ -1927,6 +2331,22 @@ declare namespace masterbrandTailwindOklch {
 }
 
 declare namespace masterbrandTailwindRgb {
+  export {  };
+}
+
+declare namespace semanticTailwindHex {
+  export {  };
+}
+
+declare namespace semanticTailwindHsl {
+  export {  };
+}
+
+declare namespace semanticTailwindOklch {
+  export {  };
+}
+
+declare namespace semanticTailwindRgb {
   export {  };
 }
 
@@ -3755,6 +4175,366 @@ declare namespace masterbrandTsRgb {
   export { masterbrandTsRgb_accent as accent, masterbrandTsRgb_grey as grey, masterbrandTsRgb_primary as primary };
 }
 
+declare const success$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace semanticTsHex {
+  export { danger$3 as danger, info$3 as info, success$3 as success, warning$3 as warning };
+}
+
+declare const success$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace semanticTsHsl {
+  export { danger$2 as danger, info$2 as info, success$2 as success, warning$2 as warning };
+}
+
+declare const success$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace semanticTsOklch {
+  export { danger$1 as danger, info$1 as info, success$1 as success, warning$1 as warning };
+}
+
+declare const success: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare const semanticTsRgb_danger: typeof danger;
+declare const semanticTsRgb_info: typeof info;
+declare const semanticTsRgb_success: typeof success;
+declare const semanticTsRgb_warning: typeof warning;
+declare namespace semanticTsRgb {
+  export { semanticTsRgb_danger as danger, semanticTsRgb_info as info, semanticTsRgb_success as success, semanticTsRgb_warning as warning };
+}
+
 declare const tokens: {
     colors: {
         global: {
@@ -3770,6 +4550,12 @@ declare const tokens: {
                 oklch: any;
                 rgb: any;
             };
+        };
+        semantic: {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
         };
     };
     css: {
@@ -3787,6 +4573,12 @@ declare const tokens: {
                 rgb: typeof masterbrandCssRgb;
             };
         };
+        semantic: {
+            hex: typeof semanticCssHex;
+            hsl: typeof semanticCssHsl;
+            oklch: typeof semanticCssOklch;
+            rgb: typeof semanticCssRgb;
+        };
     };
     js: {
         global: {
@@ -3802,6 +4594,12 @@ declare const tokens: {
                 oklch: typeof masterbrandJsOklch;
                 rgb: typeof masterbrandJsRgb;
             };
+        };
+        semantic: {
+            hex: typeof semanticJsHex;
+            hsl: typeof semanticJsHsl;
+            oklch: typeof semanticJsOklch;
+            rgb: typeof semanticJsRgb;
         };
     };
     json: {
@@ -3819,6 +4617,12 @@ declare const tokens: {
                 rgb: any;
             };
         };
+        semantic: {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
     };
     less: {
         global: {
@@ -3834,6 +4638,12 @@ declare const tokens: {
                 oklch: typeof masterbrandLessOklch;
                 rgb: typeof masterbrandLessRgb;
             };
+        };
+        semantic: {
+            hex: typeof semanticLessHex;
+            hsl: typeof semanticLessHsl;
+            oklch: typeof semanticLessOklch;
+            rgb: typeof semanticLessRgb;
         };
     };
     scss: {
@@ -3851,6 +4661,12 @@ declare const tokens: {
                 rgb: typeof masterbrandScssRgb;
             };
         };
+        semantic: {
+            hex: typeof semanticScssHex;
+            hsl: typeof semanticScssHsl;
+            oklch: typeof semanticScssOklch;
+            rgb: typeof semanticScssRgb;
+        };
     };
     tailwind: {
         global: {
@@ -3867,6 +4683,12 @@ declare const tokens: {
                 rgb: typeof masterbrandTailwindRgb;
             };
         };
+        semantic: {
+            hex: typeof semanticTailwindHex;
+            hsl: typeof semanticTailwindHsl;
+            oklch: typeof semanticTailwindOklch;
+            rgb: typeof semanticTailwindRgb;
+        };
     };
     ts: {
         global: {
@@ -3882,6 +4704,12 @@ declare const tokens: {
                 oklch: typeof masterbrandTsOklch;
                 rgb: typeof masterbrandTsRgb;
             };
+        };
+        semantic: {
+            hex: typeof semanticTsHex;
+            hsl: typeof semanticTsHsl;
+            oklch: typeof semanticTsOklch;
+            rgb: typeof semanticTsRgb;
         };
     };
 };
@@ -3900,6 +4728,12 @@ declare const colorTokens: {
             rgb: any;
         };
     };
+    semantic: {
+        hex: any;
+        hsl: any;
+        oklch: any;
+        rgb: any;
+    };
 };
 declare const cssTokens: {
     global: {
@@ -3915,6 +4749,12 @@ declare const cssTokens: {
             oklch: typeof masterbrandCssOklch;
             rgb: typeof masterbrandCssRgb;
         };
+    };
+    semantic: {
+        hex: typeof semanticCssHex;
+        hsl: typeof semanticCssHsl;
+        oklch: typeof semanticCssOklch;
+        rgb: typeof semanticCssRgb;
     };
 };
 declare const jsTokens: {
@@ -3932,6 +4772,12 @@ declare const jsTokens: {
             rgb: typeof masterbrandJsRgb;
         };
     };
+    semantic: {
+        hex: typeof semanticJsHex;
+        hsl: typeof semanticJsHsl;
+        oklch: typeof semanticJsOklch;
+        rgb: typeof semanticJsRgb;
+    };
 };
 declare const jsonTokens: {
     global: {
@@ -3947,6 +4793,12 @@ declare const jsonTokens: {
             oklch: any;
             rgb: any;
         };
+    };
+    semantic: {
+        hex: any;
+        hsl: any;
+        oklch: any;
+        rgb: any;
     };
 };
 declare const lessTokens: {
@@ -3964,6 +4816,12 @@ declare const lessTokens: {
             rgb: typeof masterbrandLessRgb;
         };
     };
+    semantic: {
+        hex: typeof semanticLessHex;
+        hsl: typeof semanticLessHsl;
+        oklch: typeof semanticLessOklch;
+        rgb: typeof semanticLessRgb;
+    };
 };
 declare const scssTokens: {
     global: {
@@ -3979,6 +4837,12 @@ declare const scssTokens: {
             oklch: typeof masterbrandScssOklch;
             rgb: typeof masterbrandScssRgb;
         };
+    };
+    semantic: {
+        hex: typeof semanticScssHex;
+        hsl: typeof semanticScssHsl;
+        oklch: typeof semanticScssOklch;
+        rgb: typeof semanticScssRgb;
     };
 };
 declare const tailwindTokens: {
@@ -3996,6 +4860,12 @@ declare const tailwindTokens: {
             rgb: typeof masterbrandTailwindRgb;
         };
     };
+    semantic: {
+        hex: typeof semanticTailwindHex;
+        hsl: typeof semanticTailwindHsl;
+        oklch: typeof semanticTailwindOklch;
+        rgb: typeof semanticTailwindRgb;
+    };
 };
 declare const tsTokens: {
     global: {
@@ -4012,21 +4882,31 @@ declare const tsTokens: {
             rgb: typeof masterbrandTsRgb;
         };
     };
+    semantic: {
+        hex: typeof semanticTsHex;
+        hsl: typeof semanticTsHsl;
+        oklch: typeof semanticTsOklch;
+        rgb: typeof semanticTsRgb;
+    };
 };
 declare const icons: {
-    accountCircle: string;
+    account_circle: string;
     add: string;
     attachFile: string;
+    calendarMonth: string;
+    calendarToday: string;
     cancel: string;
-    check: string;
     checkCircle: string;
+    check: string;
     chevronDown: string;
     chevronLeft: string;
     chevronRight: string;
     chevronUp: string;
+    circle: string;
     close: string;
     collapseAll: string;
     computer: string;
+    contrast: string;
     copy: string;
     darkMode: string;
     delete: string;
@@ -4037,37 +4917,71 @@ declare const icons: {
     doubleArrowLeft: string;
     doubleArrowRight: string;
     download: string;
+    dragIndicator: string;
     east: string;
     error: string;
     exclamation: string;
-    grid_view: string;
     eye: string;
     favorite: string;
+    formatAlignCenter: string;
+    formatAlignJustify: string;
+    formatAlignLeft: string;
+    formatAlignRight: string;
+    formatBold: string;
+    formatColorText: string;
+    formatH1: string;
+    formatH2: string;
+    formatH3: string;
+    formatH4: string;
+    formatItalic: string;
+    formatListBulleted: string;
+    formatListNumbered: string;
+    formatQuote: string;
+    formatSize: string;
+    formatUnderlined: string;
+    grid_on: string;
+    gridView: string;
     help: string;
     info: string;
     language: string;
+    laptop: string;
     lightMode: string;
     link: string;
     list: string;
     login: string;
     logout: string;
+    mail: string;
     menu: string;
     moreHoriz: string;
     moreVert: string;
     north: string;
+    notifications: string;
     openInNew: string;
     palette: string;
+    person: string;
     print: string;
     progressActivity: string;
     remove: string;
     search: string;
+    sentimentDissatisfied: string;
+    sentimentNeutral: string;
+    sentimentSatisfied: string;
+    sentimentVeryDissatisfied: string;
+    sentimentVerySatisfied: string;
     settingsBrightness: string;
+    settings: string;
     share: string;
     sideNavigation: string;
+    smartphone: string;
     south: string;
+    tablet: string;
+    toc: string;
     unfoldLess: string;
     unfoldMore: string;
     upload: string;
+    viewColumn: string;
+    viewList: string;
+    warning: string;
     west: string;
 };
 declare const brand: {

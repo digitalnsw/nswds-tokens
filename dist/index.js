@@ -11412,8 +11412,2200 @@ var require_rgb2 = __commonJS({
   }
 });
 
-// src/json/colors/global/hex.json
+// tokens/semantic/color/hex.json
 var require_hex3 = __commonJS({
+  "tokens/semantic/color/hex.json"(exports, module) {
+    module.exports = {
+      success: {
+        "50": {
+          $type: "color",
+          $value: "#eff9ed"
+        },
+        "100": {
+          $type: "color",
+          $value: "#e0f3de"
+        },
+        "150": {
+          $type: "color",
+          $value: "#d2eccf"
+        },
+        "200": {
+          $type: "color",
+          $value: "#c4e5c0"
+        },
+        "250": {
+          $type: "color",
+          $value: "#aad6a5"
+        },
+        "300": {
+          $type: "color",
+          $value: "#8fc78a"
+        },
+        "350": {
+          $type: "color",
+          $value: "#74b76f"
+        },
+        "400": {
+          $type: "color",
+          $value: "#58a854"
+        },
+        "450": {
+          $type: "color",
+          $value: "#49a146"
+        },
+        "500": {
+          $type: "color",
+          $value: "#399936"
+        },
+        "550": {
+          $type: "color",
+          $value: "#259224"
+        },
+        "600": {
+          $type: "color",
+          $value: "#008a07"
+        },
+        "650": {
+          $type: "color",
+          $value: "#007204"
+        },
+        "700": {
+          $type: "color",
+          $value: "#005a02"
+        },
+        "750": {
+          $type: "color",
+          $value: "#004401"
+        },
+        "800": {
+          $type: "color",
+          $value: "#002f00"
+        },
+        "850": {
+          $type: "color",
+          $value: "#002200"
+        },
+        "900": {
+          $type: "color",
+          $value: "#001600"
+        },
+        "950": {
+          $type: "color",
+          $value: "#000b00"
+        }
+      },
+      warning: {
+        "50": {
+          $type: "color",
+          $value: "#fff3ed"
+        },
+        "100": {
+          $type: "color",
+          $value: "#ffe8de"
+        },
+        "150": {
+          $type: "color",
+          $value: "#ffddcf"
+        },
+        "200": {
+          $type: "color",
+          $value: "#fdd2c0"
+        },
+        "250": {
+          $type: "color",
+          $value: "#f6bda5"
+        },
+        "300": {
+          $type: "color",
+          $value: "#eea88a"
+        },
+        "350": {
+          $type: "color",
+          $value: "#e6936f"
+        },
+        "400": {
+          $type: "color",
+          $value: "#dd7d53"
+        },
+        "450": {
+          $type: "color",
+          $value: "#d87244"
+        },
+        "500": {
+          $type: "color",
+          $value: "#d36734"
+        },
+        "550": {
+          $type: "color",
+          $value: "#ce5c21"
+        },
+        "600": {
+          $type: "color",
+          $value: "#c95000"
+        },
+        "650": {
+          $type: "color",
+          $value: "#a83f03"
+        },
+        "700": {
+          $type: "color",
+          $value: "#882f03"
+        },
+        "750": {
+          $type: "color",
+          $value: "#692001"
+        },
+        "800": {
+          $type: "color",
+          $value: "#4b1200"
+        },
+        "850": {
+          $type: "color",
+          $value: "#390a00"
+        },
+        "900": {
+          $type: "color",
+          $value: "#270400"
+        },
+        "950": {
+          $type: "color",
+          $value: "#170100"
+        }
+      },
+      danger: {
+        "50": {
+          $type: "color",
+          $value: "#fff0ef"
+        },
+        "100": {
+          $type: "color",
+          $value: "#ffe2e1"
+        },
+        "150": {
+          $type: "color",
+          $value: "#ffd4d4"
+        },
+        "200": {
+          $type: "color",
+          $value: "#fdc6c6"
+        },
+        "250": {
+          $type: "color",
+          $value: "#f4acad"
+        },
+        "300": {
+          $type: "color",
+          $value: "#ea9294"
+        },
+        "350": {
+          $type: "color",
+          $value: "#df787c"
+        },
+        "400": {
+          $type: "color",
+          $value: "#d35d65"
+        },
+        "450": {
+          $type: "color",
+          $value: "#cd4e59"
+        },
+        "500": {
+          $type: "color",
+          $value: "#c63f4e"
+        },
+        "550": {
+          $type: "color",
+          $value: "#bf2c42"
+        },
+        "600": {
+          $type: "color",
+          $value: "#b81237"
+        },
+        "650": {
+          $type: "color",
+          $value: "#990b2a"
+        },
+        "700": {
+          $type: "color",
+          $value: "#7c061f"
+        },
+        "750": {
+          $type: "color",
+          $value: "#5f0214"
+        },
+        "800": {
+          $type: "color",
+          $value: "#44000a"
+        },
+        "850": {
+          $type: "color",
+          $value: "#330005"
+        },
+        "900": {
+          $type: "color",
+          $value: "#230002"
+        },
+        "950": {
+          $type: "color",
+          $value: "#140001"
+        }
+      },
+      info: {
+        "50": {
+          $type: "color",
+          $value: "#e9eef7"
+        },
+        "100": {
+          $type: "color",
+          $value: "#d4ddeb"
+        },
+        "150": {
+          $type: "color",
+          $value: "#c0cce0"
+        },
+        "200": {
+          $type: "color",
+          $value: "#acbbd5"
+        },
+        "250": {
+          $type: "color",
+          $value: "#96a9cc"
+        },
+        "300": {
+          $type: "color",
+          $value: "#8098c2"
+        },
+        "350": {
+          $type: "color",
+          $value: "#6b86b8"
+        },
+        "400": {
+          $type: "color",
+          $value: "#5775ae"
+        },
+        "450": {
+          $type: "color",
+          $value: "#4d6ca9"
+        },
+        "500": {
+          $type: "color",
+          $value: "#4264a4"
+        },
+        "550": {
+          $type: "color",
+          $value: "#385b9e"
+        },
+        "600": {
+          $type: "color",
+          $value: "#2e5299"
+        },
+        "650": {
+          $type: "color",
+          $value: "#23427f"
+        },
+        "700": {
+          $type: "color",
+          $value: "#193366"
+        },
+        "750": {
+          $type: "color",
+          $value: "#10254f"
+        },
+        "800": {
+          $type: "color",
+          $value: "#071738"
+        },
+        "850": {
+          $type: "color",
+          $value: "#040f2a"
+        },
+        "900": {
+          $type: "color",
+          $value: "#02071c"
+        },
+        "950": {
+          $type: "color",
+          $value: "#00030f"
+        }
+      }
+    };
+  }
+});
+
+// tokens/semantic/color/hsl.json
+var require_hsl3 = __commonJS({
+  "tokens/semantic/color/hsl.json"(exports, module) {
+    module.exports = {
+      success: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [113.15, 52.52, 95.43],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [113.26, 45.54, 91.13],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [113.38, 42.97, 86.84],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [113.51, 41.57, 82.55],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [114.16, 37.16, 74.26],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [114.93, 34.81, 66.02],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [115.88, 33.38, 57.78],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [117.14, 33.33, 49.41],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [117.67, 39.56, 45.11],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [118.38, 47.88, 40.58],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [119.53, 60.48, 35.56],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [123.04, 100, 27.06],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [121.8, 99.36, 22.38],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [120.9, 99.22, 17.81],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [120.32, 99.47, 13.4],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [120, 100, 9.22],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [120.32, 100, 6.51],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [120.63, 100, 4.07],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [121.08, 100, 1.88],
+            alpha: 1
+          }
+        }
+      },
+      warning: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.53, 100, 96.97],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.59, 100, 93.77],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.65, 99.09, 90.53],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.7, 93.85, 87.25],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.77, 81.71, 80.57],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.84, 74.94, 73.78],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.98, 70.36, 66.84],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [18.26, 66.99, 59.61],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [18.61, 65.61, 55.79],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [19.18, 64.53, 51.69],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [20.31, 72.21, 46.96],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [23.88, 100, 39.41],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [21.95, 96.66, 33.46],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [20.07, 95.99, 27.13],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [17.86, 97.32, 20.78],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [14.4, 100, 14.71],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [11.43, 100, 10.95],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [7.67, 100, 7.5],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [4.64, 100, 4.34],
+            alpha: 1
+          }
+        }
+      },
+      danger: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [0.78, 100, 97.61],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [0.56, 100, 94.61],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [0.3, 100, 91.55],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [0, 93.22, 88.43],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [359.39, 76.34, 81.59],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [358.59, 67.4, 74.56],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [357.51, 61.52, 67.27],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [355.93, 57.28, 59.61],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [354.77, 55.6, 55.49],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [353.23, 54.28, 51.09],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [350.97, 62.34, 46.16],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [346.63, 82.18, 39.61],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [346.89, 86.15, 32.28],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [347.25, 91.31, 25.33],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [348.45, 96, 19.02],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [351.18, 100, 13.33],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [352.99, 100, 9.85],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [354.47, 100, 6.66],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [355.5, 100, 3.76],
+            alpha: 1
+          }
+        }
+      },
+      info: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [217.99, 45.88, 94],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [218, 37.47, 87.77],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [218.02, 34.49, 81.6],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [218.05, 32.8, 75.49],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [218.29, 34.23, 69.31],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [218.57, 34.87, 63.2],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [218.9, 35.05, 57.15],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [219.31, 34.94, 51.18],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [219.41, 37.55, 48.13],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [219.52, 42.28, 45.1],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [219.66, 47.62, 42.06],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [219.81, 53.77, 39.02],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [219.87, 56.39, 31.92],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [219.93, 60.27, 25.07],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [220.02, 66.59, 18.51],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [220.41, 77.78, 12.35],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [222.21, 84, 8.9],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [226.63, 89.54, 5.83],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "hsl",
+            channels: [230.65, 94.13, 3.12],
+            alpha: 1
+          }
+        }
+      }
+    };
+  }
+});
+
+// tokens/semantic/color/oklch.json
+var require_oklch3 = __commonJS({
+  "tokens/semantic/color/oklch.json"(exports, module) {
+    module.exports = {
+      success: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9720355476100955, 0.01978729853872853, 142.11752406542539],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.944071095220191, 0.03348619752707904, 142.11752406542539],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9161066428302864, 0.04718509651542956, 142.11752406542539],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8881421904403819, 0.06088399550378008, 142.11752406542539],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8312289461835737, 0.0814134964867239, 142.2964842668701],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.7743157019267655, 0.10194299746966773, 142.47544446831483],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.7174024576699572, 0.12247249845261154, 142.65440466975954],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.660489213413149, 0.14300199943555536, 142.83336487120425],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6326270919832794, 0.153487552492673, 142.8252122365381],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6047649705534097, 0.16397310554979067, 142.81705960187193],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.57690284912354, 0.17445865860690835, 142.80890696720576],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5490407276936703, 0.184944211664026, 142.8007543325396],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.4778879989458421, 0.16120283434453703, 142.72440047135717],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.40673527019801387, 0.13746145702504803, 142.64804661017473],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.3355825414501856, 0.11372007970555903, 142.57169274899232],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.26442981270235744, 0.08997870238607004, 142.49533888780988],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.21815459547944488, 0.07648189702815954, 142.49533888780988],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.17187937825653232, 0.06298509167024903, 142.49533888780988],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.12560416103361977, 0.04948828631233853, 142.49533888780988],
+            alpha: 1
+          }
+        }
+      },
+      warning: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9739777778864123, 0.017695077274685146, 43.9454781334139],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9479555557728245, 0.029945515387928705, 43.9454781334139],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9219333336592369, 0.042195953501172265, 43.9454781334139],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8959111115456492, 0.05444639161441583, 43.9454781334139],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8436567377995562, 0.07383969866253859, 43.88732593200177],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.7914023640534633, 0.09323300571066136, 43.829173730589645],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.7391479903073703, 0.11262631275878413, 43.77102152917751],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6868936165612773, 0.13201961980690688, 43.71286932776538],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6610028202949751, 0.14144095719007027, 43.78396833320002],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.635112024028673, 0.15086229457323366, 43.85506733863466],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6092212277623706, 0.16028363195639705, 43.9261663440693],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5833304314960684, 0.16970496933956045, 43.99726534950394],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.507009085738871, 0.149901753081645, 42.56483564766481],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.43068773998167365, 0.13009853682372957, 41.13240594582567],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.3543663942244763, 0.11029532056581412, 39.69997624398653],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.2780450484672789, 0.09049210430789867, 38.26754654214739],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.2293871649855051, 0.07691828866171387, 38.26754654214739],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.1807292815037313, 0.06334447301552906, 38.26754654214739],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.13207139802195747, 0.04977065736934427, 38.26754654214739],
+            alpha: 1
+          }
+        }
+      },
+      danger: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9688081012787089, 0.02046893571008903, 18.42817489942577],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9376162025574177, 0.034639737355535286, 18.42817489942577],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9064243038361265, 0.048810539000981534, 18.42817489942577],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8752324051148354, 0.06298134064642778, 18.42817489942577],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8133068732197568, 0.08452871651344564, 18.398482771634782],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.7513813413246784, 0.1060760923804635, 18.368790643843795],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6894558094295998, 0.12762346824748136, 18.339098516052807],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6275302775345213, 0.1491708441144992, 18.30940638826182],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5961466901234453, 0.1600594003984286, 18.251840020312933],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5647631027123693, 0.17094795668235796, 18.194273652364046],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5333795153012932, 0.1818365129662873, 18.13670728441516],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5019959278902173, 0.19272506925021668, 18.079140916466272],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.43761291207168196, 0.16911051005163913, 18.72632727121819],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.3732298962531466, 0.1454959508530616, 19.3735136259701],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.30884688043461134, 0.12188139165448407, 20.020699980722014],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.244463864616076, 0.09826683245590653, 20.66788633547393],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.2016826883082627, 0.08352680758752055, 20.66788633547393],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.15890151200044939, 0.06878678271913458, 20.66788633547393],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.1161203356926361, 0.0540467578507486, 20.66788633547393],
+            alpha: 1
+          }
+        }
+      },
+      info: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.9472470414070251, 0.01319114316017373, 261.49146551846417],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8944940828140502, 0.02232347304029401, 261.49146551846417],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.8417411242210754, 0.03145580292041429, 261.49146551846417],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.7889881656281005, 0.04058813280053457, 261.49146551846417],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.7327975333484203, 0.05432284288357939, 261.7505460408388],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.6766069010687401, 0.06805755296662422, 262.0096265632134],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.62041626878906, 0.08179226304966905, 262.268707085588],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5642256365093798, 0.09552697313271387, 262.52778760796264],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5358247299257868, 0.10246599429811404, 262.4837143651888],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.5074238233421937, 0.10940501546351422, 262.4396411224149],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.47902291675860065, 0.1163440366289144, 262.395567879641],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.4506220101750076, 0.12328305779431457, 262.3514946368672],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.3914472612047992, 0.10948475002303204, 262.3659717757216],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.33227251223459087, 0.09568644225174952, 262.3804489145761],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.2730977632643825, 0.08188813448046699, 262.3949260534306],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.21392301429417415, 0.06808982670918445, 262.409403192285],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.1764864867926937, 0.057876352702806784, 262.409403192285],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.13904995929121322, 0.047662878696429115, 262.409403192285],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "oklch",
+            channels: [0.10161343178973273, 0.03744940469005145, 262.409403192285],
+            alpha: 1
+          }
+        }
+      }
+    };
+  }
+});
+
+// tokens/semantic/color/rgb.json
+var require_rgb3 = __commonJS({
+  "tokens/semantic/color/rgb.json"(exports, module) {
+    module.exports = {
+      success: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [239, 249, 237],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [224, 243, 222],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [210, 236, 207],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [196, 229, 192],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [170, 214, 165],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [143, 199, 138],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [116, 183, 111],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [88, 168, 84],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [73, 161, 70],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [57, 153, 54],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [37, 146, 36],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 138, 7],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 114, 4],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 90, 2],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 68, 1],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 47, 0],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 34, 0],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 22, 0],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 11, 0],
+            alpha: 1
+          }
+        }
+      },
+      warning: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [255, 243, 237],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [255, 232, 222],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [255, 221, 207],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [253, 210, 192],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [246, 189, 165],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [238, 168, 138],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [230, 147, 111],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [221, 125, 83],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [216, 114, 68],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [211, 103, 52],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [206, 92, 33],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [201, 80, 0],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [168, 63, 3],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [136, 47, 3],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [105, 32, 1],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [75, 18, 0],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [57, 10, 0],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [39, 4, 0],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [23, 1, 0],
+            alpha: 1
+          }
+        }
+      },
+      danger: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [255, 240, 239],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [255, 226, 225],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [255, 212, 212],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [253, 198, 198],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [244, 172, 173],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [234, 146, 148],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [223, 120, 124],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [211, 93, 101],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [205, 78, 89],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [198, 63, 78],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [191, 44, 66],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [184, 18, 55],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [153, 11, 42],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [124, 6, 31],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [95, 2, 20],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [68, 0, 10],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [51, 0, 5],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [35, 0, 2],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [20, 0, 1],
+            alpha: 1
+          }
+        }
+      },
+      info: {
+        "50": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [233, 238, 247],
+            alpha: 1
+          }
+        },
+        "100": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [212, 221, 235],
+            alpha: 1
+          }
+        },
+        "150": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [192, 204, 224],
+            alpha: 1
+          }
+        },
+        "200": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [172, 187, 213],
+            alpha: 1
+          }
+        },
+        "250": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [150, 169, 204],
+            alpha: 1
+          }
+        },
+        "300": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [128, 152, 194],
+            alpha: 1
+          }
+        },
+        "350": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [107, 134, 184],
+            alpha: 1
+          }
+        },
+        "400": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [87, 117, 174],
+            alpha: 1
+          }
+        },
+        "450": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [77, 108, 169],
+            alpha: 1
+          }
+        },
+        "500": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [66, 100, 164],
+            alpha: 1
+          }
+        },
+        "550": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [56, 91, 158],
+            alpha: 1
+          }
+        },
+        "600": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [46, 82, 153],
+            alpha: 1
+          }
+        },
+        "650": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [35, 66, 127],
+            alpha: 1
+          }
+        },
+        "700": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [25, 51, 102],
+            alpha: 1
+          }
+        },
+        "750": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [16, 37, 79],
+            alpha: 1
+          }
+        },
+        "800": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [7, 23, 56],
+            alpha: 1
+          }
+        },
+        "850": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [4, 15, 42],
+            alpha: 1
+          }
+        },
+        "900": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [2, 7, 28],
+            alpha: 1
+          }
+        },
+        "950": {
+          $type: "color",
+          $value: {
+            colorSpace: "rgb",
+            channels: [0, 3, 15],
+            alpha: 1
+          }
+        }
+      }
+    };
+  }
+});
+
+// src/json/colors/global/hex.json
+var require_hex4 = __commonJS({
   "src/json/colors/global/hex.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
@@ -11799,7 +13991,7 @@ var require_hex3 = __commonJS({
 });
 
 // src/json/colors/global/hsl.json
-var require_hsl3 = __commonJS({
+var require_hsl4 = __commonJS({
   "src/json/colors/global/hsl.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
@@ -12185,7 +14377,7 @@ var require_hsl3 = __commonJS({
 });
 
 // src/json/colors/global/oklch.json
-var require_oklch3 = __commonJS({
+var require_oklch4 = __commonJS({
   "src/json/colors/global/oklch.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
@@ -12571,7 +14763,7 @@ var require_oklch3 = __commonJS({
 });
 
 // src/json/colors/global/rgb.json
-var require_rgb3 = __commonJS({
+var require_rgb4 = __commonJS({
   "src/json/colors/global/rgb.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
@@ -12957,7 +15149,7 @@ var require_rgb3 = __commonJS({
 });
 
 // src/json/colors/themes/masterbrand/hex.json
-var require_hex4 = __commonJS({
+var require_hex5 = __commonJS({
   "src/json/colors/themes/masterbrand/hex.json"(exports, module) {
     module.exports = {
       primary: {
@@ -13028,7 +15220,7 @@ var require_hex4 = __commonJS({
 });
 
 // src/json/colors/themes/masterbrand/hsl.json
-var require_hsl4 = __commonJS({
+var require_hsl5 = __commonJS({
   "src/json/colors/themes/masterbrand/hsl.json"(exports, module) {
     module.exports = {
       primary: {
@@ -13099,7 +15291,7 @@ var require_hsl4 = __commonJS({
 });
 
 // src/json/colors/themes/masterbrand/oklch.json
-var require_oklch4 = __commonJS({
+var require_oklch5 = __commonJS({
   "src/json/colors/themes/masterbrand/oklch.json"(exports, module) {
     module.exports = {
       primary: {
@@ -13170,7 +15362,7 @@ var require_oklch4 = __commonJS({
 });
 
 // src/json/colors/themes/masterbrand/rgb.json
-var require_rgb4 = __commonJS({
+var require_rgb5 = __commonJS({
   "src/json/colors/themes/masterbrand/rgb.json"(exports, module) {
     module.exports = {
       primary: {
@@ -13240,6 +15432,374 @@ var require_rgb4 = __commonJS({
   }
 });
 
+// src/json/colors/semantic/hex.json
+var require_hex6 = __commonJS({
+  "src/json/colors/semantic/hex.json"(exports, module) {
+    module.exports = {
+      success: {
+        "success-50": "#eff9ed",
+        "success-100": "#e0f3de",
+        "success-150": "#d2eccf",
+        "success-200": "#c4e5c0",
+        "success-250": "#aad6a5",
+        "success-300": "#8fc78a",
+        "success-350": "#74b76f",
+        "success-400": "#58a854",
+        "success-450": "#49a146",
+        "success-500": "#399936",
+        "success-550": "#259224",
+        "success-600": "#008a07",
+        "success-650": "#007204",
+        "success-700": "#005a02",
+        "success-750": "#004401",
+        "success-800": "#002f00",
+        "success-850": "#002200",
+        "success-900": "#001600",
+        "success-950": "#000b00"
+      },
+      warning: {
+        "warning-50": "#fff3ed",
+        "warning-100": "#ffe8de",
+        "warning-150": "#ffddcf",
+        "warning-200": "#fdd2c0",
+        "warning-250": "#f6bda5",
+        "warning-300": "#eea88a",
+        "warning-350": "#e6936f",
+        "warning-400": "#dd7d53",
+        "warning-450": "#d87244",
+        "warning-500": "#d36734",
+        "warning-550": "#ce5c21",
+        "warning-600": "#c95000",
+        "warning-650": "#a83f03",
+        "warning-700": "#882f03",
+        "warning-750": "#692001",
+        "warning-800": "#4b1200",
+        "warning-850": "#390a00",
+        "warning-900": "#270400",
+        "warning-950": "#170100"
+      },
+      danger: {
+        "danger-50": "#fff0ef",
+        "danger-100": "#ffe2e1",
+        "danger-150": "#ffd4d4",
+        "danger-200": "#fdc6c6",
+        "danger-250": "#f4acad",
+        "danger-300": "#ea9294",
+        "danger-350": "#df787c",
+        "danger-400": "#d35d65",
+        "danger-450": "#cd4e59",
+        "danger-500": "#c63f4e",
+        "danger-550": "#bf2c42",
+        "danger-600": "#b81237",
+        "danger-650": "#990b2a",
+        "danger-700": "#7c061f",
+        "danger-750": "#5f0214",
+        "danger-800": "#44000a",
+        "danger-850": "#330005",
+        "danger-900": "#230002",
+        "danger-950": "#140001"
+      },
+      info: {
+        "info-50": "#e9eef7",
+        "info-100": "#d4ddeb",
+        "info-150": "#c0cce0",
+        "info-200": "#acbbd5",
+        "info-250": "#96a9cc",
+        "info-300": "#8098c2",
+        "info-350": "#6b86b8",
+        "info-400": "#5775ae",
+        "info-450": "#4d6ca9",
+        "info-500": "#4264a4",
+        "info-550": "#385b9e",
+        "info-600": "#2e5299",
+        "info-650": "#23427f",
+        "info-700": "#193366",
+        "info-750": "#10254f",
+        "info-800": "#071738",
+        "info-850": "#040f2a",
+        "info-900": "#02071c",
+        "info-950": "#00030f"
+      }
+    };
+  }
+});
+
+// src/json/colors/semantic/hsl.json
+var require_hsl6 = __commonJS({
+  "src/json/colors/semantic/hsl.json"(exports, module) {
+    module.exports = {
+      success: {
+        "success-50": "hsl(113.15, 52.52%, 95.43%)",
+        "success-100": "hsl(113.26, 45.54%, 91.13%)",
+        "success-150": "hsl(113.38, 42.97%, 86.84%)",
+        "success-200": "hsl(113.51, 41.57%, 82.55%)",
+        "success-250": "hsl(114.16, 37.16%, 74.26%)",
+        "success-300": "hsl(114.93, 34.81%, 66.02%)",
+        "success-350": "hsl(115.88, 33.38%, 57.78%)",
+        "success-400": "hsl(117.14, 33.33%, 49.41%)",
+        "success-450": "hsl(117.67, 39.56%, 45.11%)",
+        "success-500": "hsl(118.38, 47.88%, 40.58%)",
+        "success-550": "hsl(119.53, 60.48%, 35.56%)",
+        "success-600": "hsl(123.04, 100%, 27.06%)",
+        "success-650": "hsl(121.8, 99.36%, 22.38%)",
+        "success-700": "hsl(120.9, 99.22%, 17.81%)",
+        "success-750": "hsl(120.32, 99.47%, 13.4%)",
+        "success-800": "hsl(120, 100%, 9.22%)",
+        "success-850": "hsl(120.32, 100%, 6.51%)",
+        "success-900": "hsl(120.63, 100%, 4.07%)",
+        "success-950": "hsl(121.08, 100%, 1.88%)"
+      },
+      warning: {
+        "warning-50": "hsl(17.53, 100%, 96.97%)",
+        "warning-100": "hsl(17.59, 100%, 93.77%)",
+        "warning-150": "hsl(17.65, 99.09%, 90.53%)",
+        "warning-200": "hsl(17.7, 93.85%, 87.25%)",
+        "warning-250": "hsl(17.77, 81.71%, 80.57%)",
+        "warning-300": "hsl(17.84, 74.94%, 73.78%)",
+        "warning-350": "hsl(17.98, 70.36%, 66.84%)",
+        "warning-400": "hsl(18.26, 66.99%, 59.61%)",
+        "warning-450": "hsl(18.61, 65.61%, 55.79%)",
+        "warning-500": "hsl(19.18, 64.53%, 51.69%)",
+        "warning-550": "hsl(20.31, 72.21%, 46.96%)",
+        "warning-600": "hsl(23.88, 100%, 39.41%)",
+        "warning-650": "hsl(21.95, 96.66%, 33.46%)",
+        "warning-700": "hsl(20.07, 95.99%, 27.13%)",
+        "warning-750": "hsl(17.86, 97.32%, 20.78%)",
+        "warning-800": "hsl(14.4, 100%, 14.71%)",
+        "warning-850": "hsl(11.43, 100%, 10.95%)",
+        "warning-900": "hsl(7.67, 100%, 7.5%)",
+        "warning-950": "hsl(4.64, 100%, 4.34%)"
+      },
+      danger: {
+        "danger-50": "hsl(0.78, 100%, 97.61%)",
+        "danger-100": "hsl(0.56, 100%, 94.61%)",
+        "danger-150": "hsl(0.3, 100%, 91.55%)",
+        "danger-200": "hsl(0, 93.22%, 88.43%)",
+        "danger-250": "hsl(359.39, 76.34%, 81.59%)",
+        "danger-300": "hsl(358.59, 67.4%, 74.56%)",
+        "danger-350": "hsl(357.51, 61.52%, 67.27%)",
+        "danger-400": "hsl(355.93, 57.28%, 59.61%)",
+        "danger-450": "hsl(354.77, 55.6%, 55.49%)",
+        "danger-500": "hsl(353.23, 54.28%, 51.09%)",
+        "danger-550": "hsl(350.97, 62.34%, 46.16%)",
+        "danger-600": "hsl(346.63, 82.18%, 39.61%)",
+        "danger-650": "hsl(346.89, 86.15%, 32.28%)",
+        "danger-700": "hsl(347.25, 91.31%, 25.33%)",
+        "danger-750": "hsl(348.45, 96%, 19.02%)",
+        "danger-800": "hsl(351.18, 100%, 13.33%)",
+        "danger-850": "hsl(352.99, 100%, 9.85%)",
+        "danger-900": "hsl(354.47, 100%, 6.66%)",
+        "danger-950": "hsl(355.5, 100%, 3.76%)"
+      },
+      info: {
+        "info-50": "hsl(217.99, 45.88%, 94%)",
+        "info-100": "hsl(218, 37.47%, 87.77%)",
+        "info-150": "hsl(218.02, 34.49%, 81.6%)",
+        "info-200": "hsl(218.05, 32.8%, 75.49%)",
+        "info-250": "hsl(218.29, 34.23%, 69.31%)",
+        "info-300": "hsl(218.57, 34.87%, 63.2%)",
+        "info-350": "hsl(218.9, 35.05%, 57.15%)",
+        "info-400": "hsl(219.31, 34.94%, 51.18%)",
+        "info-450": "hsl(219.41, 37.55%, 48.13%)",
+        "info-500": "hsl(219.52, 42.28%, 45.1%)",
+        "info-550": "hsl(219.66, 47.62%, 42.06%)",
+        "info-600": "hsl(219.81, 53.77%, 39.02%)",
+        "info-650": "hsl(219.87, 56.39%, 31.92%)",
+        "info-700": "hsl(219.93, 60.27%, 25.07%)",
+        "info-750": "hsl(220.02, 66.59%, 18.51%)",
+        "info-800": "hsl(220.41, 77.78%, 12.35%)",
+        "info-850": "hsl(222.21, 84%, 8.9%)",
+        "info-900": "hsl(226.63, 89.54%, 5.83%)",
+        "info-950": "hsl(230.65, 94.13%, 3.12%)"
+      }
+    };
+  }
+});
+
+// src/json/colors/semantic/oklch.json
+var require_oklch6 = __commonJS({
+  "src/json/colors/semantic/oklch.json"(exports, module) {
+    module.exports = {
+      success: {
+        "success-50": "oklch(0.9720355476100955 0.01978729853872853 142.11752406542539)",
+        "success-100": "oklch(0.944071095220191 0.03348619752707904 142.11752406542539)",
+        "success-150": "oklch(0.9161066428302864 0.04718509651542956 142.11752406542539)",
+        "success-200": "oklch(0.8881421904403819 0.06088399550378008 142.11752406542539)",
+        "success-250": "oklch(0.8312289461835737 0.0814134964867239 142.2964842668701)",
+        "success-300": "oklch(0.7743157019267655 0.10194299746966773 142.47544446831483)",
+        "success-350": "oklch(0.7174024576699572 0.12247249845261154 142.65440466975954)",
+        "success-400": "oklch(0.660489213413149 0.14300199943555536 142.83336487120425)",
+        "success-450": "oklch(0.6326270919832794 0.153487552492673 142.8252122365381)",
+        "success-500": "oklch(0.6047649705534097 0.16397310554979067 142.81705960187193)",
+        "success-550": "oklch(0.57690284912354 0.17445865860690835 142.80890696720576)",
+        "success-600": "oklch(0.5490407276936703 0.184944211664026 142.8007543325396)",
+        "success-650": "oklch(0.4778879989458421 0.16120283434453703 142.72440047135717)",
+        "success-700": "oklch(0.40673527019801387 0.13746145702504803 142.64804661017473)",
+        "success-750": "oklch(0.3355825414501856 0.11372007970555903 142.57169274899232)",
+        "success-800": "oklch(0.26442981270235744 0.08997870238607004 142.49533888780988)",
+        "success-850": "oklch(0.21815459547944488 0.07648189702815954 142.49533888780988)",
+        "success-900": "oklch(0.17187937825653232 0.06298509167024903 142.49533888780988)",
+        "success-950": "oklch(0.12560416103361977 0.04948828631233853 142.49533888780988)"
+      },
+      warning: {
+        "warning-50": "oklch(0.9739777778864123 0.017695077274685146 43.9454781334139)",
+        "warning-100": "oklch(0.9479555557728245 0.029945515387928705 43.9454781334139)",
+        "warning-150": "oklch(0.9219333336592369 0.042195953501172265 43.9454781334139)",
+        "warning-200": "oklch(0.8959111115456492 0.05444639161441583 43.9454781334139)",
+        "warning-250": "oklch(0.8436567377995562 0.07383969866253859 43.88732593200177)",
+        "warning-300": "oklch(0.7914023640534633 0.09323300571066136 43.829173730589645)",
+        "warning-350": "oklch(0.7391479903073703 0.11262631275878413 43.77102152917751)",
+        "warning-400": "oklch(0.6868936165612773 0.13201961980690688 43.71286932776538)",
+        "warning-450": "oklch(0.6610028202949751 0.14144095719007027 43.78396833320002)",
+        "warning-500": "oklch(0.635112024028673 0.15086229457323366 43.85506733863466)",
+        "warning-550": "oklch(0.6092212277623706 0.16028363195639705 43.9261663440693)",
+        "warning-600": "oklch(0.5833304314960684 0.16970496933956045 43.99726534950394)",
+        "warning-650": "oklch(0.507009085738871 0.149901753081645 42.56483564766481)",
+        "warning-700": "oklch(0.43068773998167365 0.13009853682372957 41.13240594582567)",
+        "warning-750": "oklch(0.3543663942244763 0.11029532056581412 39.69997624398653)",
+        "warning-800": "oklch(0.2780450484672789 0.09049210430789867 38.26754654214739)",
+        "warning-850": "oklch(0.2293871649855051 0.07691828866171387 38.26754654214739)",
+        "warning-900": "oklch(0.1807292815037313 0.06334447301552906 38.26754654214739)",
+        "warning-950": "oklch(0.13207139802195747 0.04977065736934427 38.26754654214739)"
+      },
+      danger: {
+        "danger-50": "oklch(0.9688081012787089 0.02046893571008903 18.42817489942577)",
+        "danger-100": "oklch(0.9376162025574177 0.034639737355535286 18.42817489942577)",
+        "danger-150": "oklch(0.9064243038361265 0.048810539000981534 18.42817489942577)",
+        "danger-200": "oklch(0.8752324051148354 0.06298134064642778 18.42817489942577)",
+        "danger-250": "oklch(0.8133068732197568 0.08452871651344564 18.398482771634782)",
+        "danger-300": "oklch(0.7513813413246784 0.1060760923804635 18.368790643843795)",
+        "danger-350": "oklch(0.6894558094295998 0.12762346824748136 18.339098516052807)",
+        "danger-400": "oklch(0.6275302775345213 0.1491708441144992 18.30940638826182)",
+        "danger-450": "oklch(0.5961466901234453 0.1600594003984286 18.251840020312933)",
+        "danger-500": "oklch(0.5647631027123693 0.17094795668235796 18.194273652364046)",
+        "danger-550": "oklch(0.5333795153012932 0.1818365129662873 18.13670728441516)",
+        "danger-600": "oklch(0.5019959278902173 0.19272506925021668 18.079140916466272)",
+        "danger-650": "oklch(0.43761291207168196 0.16911051005163913 18.72632727121819)",
+        "danger-700": "oklch(0.3732298962531466 0.1454959508530616 19.3735136259701)",
+        "danger-750": "oklch(0.30884688043461134 0.12188139165448407 20.020699980722014)",
+        "danger-800": "oklch(0.244463864616076 0.09826683245590653 20.66788633547393)",
+        "danger-850": "oklch(0.2016826883082627 0.08352680758752055 20.66788633547393)",
+        "danger-900": "oklch(0.15890151200044939 0.06878678271913458 20.66788633547393)",
+        "danger-950": "oklch(0.1161203356926361 0.0540467578507486 20.66788633547393)"
+      },
+      info: {
+        "info-50": "oklch(0.9472470414070251 0.01319114316017373 261.49146551846417)",
+        "info-100": "oklch(0.8944940828140502 0.02232347304029401 261.49146551846417)",
+        "info-150": "oklch(0.8417411242210754 0.03145580292041429 261.49146551846417)",
+        "info-200": "oklch(0.7889881656281005 0.04058813280053457 261.49146551846417)",
+        "info-250": "oklch(0.7327975333484203 0.05432284288357939 261.7505460408388)",
+        "info-300": "oklch(0.6766069010687401 0.06805755296662422 262.0096265632134)",
+        "info-350": "oklch(0.62041626878906 0.08179226304966905 262.268707085588)",
+        "info-400": "oklch(0.5642256365093798 0.09552697313271387 262.52778760796264)",
+        "info-450": "oklch(0.5358247299257868 0.10246599429811404 262.4837143651888)",
+        "info-500": "oklch(0.5074238233421937 0.10940501546351422 262.4396411224149)",
+        "info-550": "oklch(0.47902291675860065 0.1163440366289144 262.395567879641)",
+        "info-600": "oklch(0.4506220101750076 0.12328305779431457 262.3514946368672)",
+        "info-650": "oklch(0.3914472612047992 0.10948475002303204 262.3659717757216)",
+        "info-700": "oklch(0.33227251223459087 0.09568644225174952 262.3804489145761)",
+        "info-750": "oklch(0.2730977632643825 0.08188813448046699 262.3949260534306)",
+        "info-800": "oklch(0.21392301429417415 0.06808982670918445 262.409403192285)",
+        "info-850": "oklch(0.1764864867926937 0.057876352702806784 262.409403192285)",
+        "info-900": "oklch(0.13904995929121322 0.047662878696429115 262.409403192285)",
+        "info-950": "oklch(0.10161343178973273 0.03744940469005145 262.409403192285)"
+      }
+    };
+  }
+});
+
+// src/json/colors/semantic/rgb.json
+var require_rgb6 = __commonJS({
+  "src/json/colors/semantic/rgb.json"(exports, module) {
+    module.exports = {
+      success: {
+        "success-50": "rgb(239, 249, 237)",
+        "success-100": "rgb(224, 243, 222)",
+        "success-150": "rgb(210, 236, 207)",
+        "success-200": "rgb(196, 229, 192)",
+        "success-250": "rgb(170, 214, 165)",
+        "success-300": "rgb(143, 199, 138)",
+        "success-350": "rgb(116, 183, 111)",
+        "success-400": "rgb(88, 168, 84)",
+        "success-450": "rgb(73, 161, 70)",
+        "success-500": "rgb(57, 153, 54)",
+        "success-550": "rgb(37, 146, 36)",
+        "success-600": "rgb(0, 138, 7)",
+        "success-650": "rgb(0, 114, 4)",
+        "success-700": "rgb(0, 90, 2)",
+        "success-750": "rgb(0, 68, 1)",
+        "success-800": "rgb(0, 47, 0)",
+        "success-850": "rgb(0, 34, 0)",
+        "success-900": "rgb(0, 22, 0)",
+        "success-950": "rgb(0, 11, 0)"
+      },
+      warning: {
+        "warning-50": "rgb(255, 243, 237)",
+        "warning-100": "rgb(255, 232, 222)",
+        "warning-150": "rgb(255, 221, 207)",
+        "warning-200": "rgb(253, 210, 192)",
+        "warning-250": "rgb(246, 189, 165)",
+        "warning-300": "rgb(238, 168, 138)",
+        "warning-350": "rgb(230, 147, 111)",
+        "warning-400": "rgb(221, 125, 83)",
+        "warning-450": "rgb(216, 114, 68)",
+        "warning-500": "rgb(211, 103, 52)",
+        "warning-550": "rgb(206, 92, 33)",
+        "warning-600": "rgb(201, 80, 0)",
+        "warning-650": "rgb(168, 63, 3)",
+        "warning-700": "rgb(136, 47, 3)",
+        "warning-750": "rgb(105, 32, 1)",
+        "warning-800": "rgb(75, 18, 0)",
+        "warning-850": "rgb(57, 10, 0)",
+        "warning-900": "rgb(39, 4, 0)",
+        "warning-950": "rgb(23, 1, 0)"
+      },
+      danger: {
+        "danger-50": "rgb(255, 240, 239)",
+        "danger-100": "rgb(255, 226, 225)",
+        "danger-150": "rgb(255, 212, 212)",
+        "danger-200": "rgb(253, 198, 198)",
+        "danger-250": "rgb(244, 172, 173)",
+        "danger-300": "rgb(234, 146, 148)",
+        "danger-350": "rgb(223, 120, 124)",
+        "danger-400": "rgb(211, 93, 101)",
+        "danger-450": "rgb(205, 78, 89)",
+        "danger-500": "rgb(198, 63, 78)",
+        "danger-550": "rgb(191, 44, 66)",
+        "danger-600": "rgb(184, 18, 55)",
+        "danger-650": "rgb(153, 11, 42)",
+        "danger-700": "rgb(124, 6, 31)",
+        "danger-750": "rgb(95, 2, 20)",
+        "danger-800": "rgb(68, 0, 10)",
+        "danger-850": "rgb(51, 0, 5)",
+        "danger-900": "rgb(35, 0, 2)",
+        "danger-950": "rgb(20, 0, 1)"
+      },
+      info: {
+        "info-50": "rgb(233, 238, 247)",
+        "info-100": "rgb(212, 221, 235)",
+        "info-150": "rgb(192, 204, 224)",
+        "info-200": "rgb(172, 187, 213)",
+        "info-250": "rgb(150, 169, 204)",
+        "info-300": "rgb(128, 152, 194)",
+        "info-350": "rgb(107, 134, 184)",
+        "info-400": "rgb(87, 117, 174)",
+        "info-450": "rgb(77, 108, 169)",
+        "info-500": "rgb(66, 100, 164)",
+        "info-550": "rgb(56, 91, 158)",
+        "info-600": "rgb(46, 82, 153)",
+        "info-650": "rgb(35, 66, 127)",
+        "info-700": "rgb(25, 51, 102)",
+        "info-750": "rgb(16, 37, 79)",
+        "info-800": "rgb(7, 23, 56)",
+        "info-850": "rgb(4, 15, 42)",
+        "info-900": "rgb(2, 7, 28)",
+        "info-950": "rgb(0, 3, 15)"
+      }
+    };
+  }
+});
+
 // src/css/colors/global/hex.css
 var hex_exports = {};
 __export(hex_exports, {
@@ -13296,9 +15856,37 @@ __export(rgb_exports2, {
 });
 var rgb_default2 = ":root {\n  --primary-50: rgb(240, 251, 255);\n  --primary-100: rgb(228, 246, 255);\n  --primary-150: rgb(215, 242, 254);\n  --primary-200: rgb(203, 237, 253);\n  --primary-250: rgb(188, 234, 254);\n  --primary-300: rgb(173, 231, 255);\n  --primary-350: rgb(157, 227, 255);\n  --primary-400: rgb(140, 224, 255);\n  --primary-450: rgb(90, 201, 255);\n  --primary-500: rgb(38, 174, 255);\n  --primary-550: rgb(0, 143, 255);\n  --primary-600: rgb(20, 108, 253);\n  --primary-650: rgb(12, 90, 212);\n  --primary-700: rgb(5, 72, 173);\n  --primary-750: rgb(2, 54, 136);\n  --primary-800: rgb(0, 38, 100);\n  --primary-850: rgb(0, 26, 77);\n  --primary-900: rgb(0, 16, 55);\n  --primary-950: rgb(0, 6, 34);\n  --accent-50: rgb(255, 248, 249);\n  --accent-100: rgb(255, 242, 244);\n  --accent-150: rgb(255, 236, 239);\n  --accent-200: rgb(255, 230, 234);\n  --accent-250: rgb(255, 219, 224);\n  --accent-300: rgb(255, 207, 214);\n  --accent-350: rgb(255, 196, 204);\n  --accent-400: rgb(255, 184, 193);\n  --accent-450: rgb(248, 151, 162);\n  --accent-500: rgb(239, 117, 129);\n  --accent-550: rgb(228, 79, 95);\n  --accent-600: rgb(215, 21, 58);\n  --accent-650: rgb(185, 14, 50);\n  --accent-700: rgb(155, 7, 42);\n  --accent-750: rgb(126, 3, 34);\n  --accent-800: rgb(99, 0, 25);\n  --accent-850: rgb(76, 0, 16);\n  --accent-900: rgb(54, 0, 8);\n  --accent-950: rgb(33, 0, 3);\n  --grey-50: rgb(250, 250, 250);\n  --grey-100: rgb(245, 245, 245);\n  --grey-150: rgb(240, 240, 240);\n  --grey-200: rgb(235, 235, 235);\n  --grey-250: rgb(227, 229, 230);\n  --grey-300: rgb(220, 223, 224);\n  --grey-350: rgb(212, 217, 219);\n  --grey-400: rgb(205, 211, 214);\n  --grey-450: rgb(170, 176, 180);\n  --grey-500: rgb(136, 143, 146);\n  --grey-550: rgb(104, 111, 114);\n  --grey-600: rgb(73, 80, 84);\n  --grey-650: rgb(63, 69, 73);\n  --grey-700: rgb(53, 59, 63);\n  --grey-750: rgb(43, 49, 53);\n  --grey-800: rgb(34, 39, 43);\n  --grey-850: rgb(24, 28, 31);\n  --grey-900: rgb(14, 17, 19);\n  --grey-950: rgb(5, 7, 9);\n}\n";
 
-// src/js/colors/global/hex.js
+// src/css/colors/semantic/hex.css
 var hex_exports3 = {};
 __export(hex_exports3, {
+  default: () => hex_default3
+});
+var hex_default3 = ":root {\n  --success-50: #eff9ed;\n  --success-100: #e0f3de;\n  --success-150: #d2eccf;\n  --success-200: #c4e5c0;\n  --success-250: #aad6a5;\n  --success-300: #8fc78a;\n  --success-350: #74b76f;\n  --success-400: #58a854;\n  --success-450: #49a146;\n  --success-500: #399936;\n  --success-550: #259224;\n  --success-600: #008a07;\n  --success-650: #007204;\n  --success-700: #005a02;\n  --success-750: #004401;\n  --success-800: #002f00;\n  --success-850: #002200;\n  --success-900: #001600;\n  --success-950: #000b00;\n  --warning-50: #fff3ed;\n  --warning-100: #ffe8de;\n  --warning-150: #ffddcf;\n  --warning-200: #fdd2c0;\n  --warning-250: #f6bda5;\n  --warning-300: #eea88a;\n  --warning-350: #e6936f;\n  --warning-400: #dd7d53;\n  --warning-450: #d87244;\n  --warning-500: #d36734;\n  --warning-550: #ce5c21;\n  --warning-600: #c95000;\n  --warning-650: #a83f03;\n  --warning-700: #882f03;\n  --warning-750: #692001;\n  --warning-800: #4b1200;\n  --warning-850: #390a00;\n  --warning-900: #270400;\n  --warning-950: #170100;\n  --danger-50: #fff0ef;\n  --danger-100: #ffe2e1;\n  --danger-150: #ffd4d4;\n  --danger-200: #fdc6c6;\n  --danger-250: #f4acad;\n  --danger-300: #ea9294;\n  --danger-350: #df787c;\n  --danger-400: #d35d65;\n  --danger-450: #cd4e59;\n  --danger-500: #c63f4e;\n  --danger-550: #bf2c42;\n  --danger-600: #b81237;\n  --danger-650: #990b2a;\n  --danger-700: #7c061f;\n  --danger-750: #5f0214;\n  --danger-800: #44000a;\n  --danger-850: #330005;\n  --danger-900: #230002;\n  --danger-950: #140001;\n  --info-50: #e9eef7;\n  --info-100: #d4ddeb;\n  --info-150: #c0cce0;\n  --info-200: #acbbd5;\n  --info-250: #96a9cc;\n  --info-300: #8098c2;\n  --info-350: #6b86b8;\n  --info-400: #5775ae;\n  --info-450: #4d6ca9;\n  --info-500: #4264a4;\n  --info-550: #385b9e;\n  --info-600: #2e5299;\n  --info-650: #23427f;\n  --info-700: #193366;\n  --info-750: #10254f;\n  --info-800: #071738;\n  --info-850: #040f2a;\n  --info-900: #02071c;\n  --info-950: #00030f;\n}\n";
+
+// src/css/colors/semantic/hsl.css
+var hsl_exports3 = {};
+__export(hsl_exports3, {
+  default: () => hsl_default3
+});
+var hsl_default3 = ":root {\n  --success-50: hsl(113.15, 52.52%, 95.43%);\n  --success-100: hsl(113.26, 45.54%, 91.13%);\n  --success-150: hsl(113.38, 42.97%, 86.84%);\n  --success-200: hsl(113.51, 41.57%, 82.55%);\n  --success-250: hsl(114.16, 37.16%, 74.26%);\n  --success-300: hsl(114.93, 34.81%, 66.02%);\n  --success-350: hsl(115.88, 33.38%, 57.78%);\n  --success-400: hsl(117.14, 33.33%, 49.41%);\n  --success-450: hsl(117.67, 39.56%, 45.11%);\n  --success-500: hsl(118.38, 47.88%, 40.58%);\n  --success-550: hsl(119.53, 60.48%, 35.56%);\n  --success-600: hsl(123.04, 100%, 27.06%);\n  --success-650: hsl(121.8, 99.36%, 22.38%);\n  --success-700: hsl(120.9, 99.22%, 17.81%);\n  --success-750: hsl(120.32, 99.47%, 13.4%);\n  --success-800: hsl(120, 100%, 9.22%);\n  --success-850: hsl(120.32, 100%, 6.51%);\n  --success-900: hsl(120.63, 100%, 4.07%);\n  --success-950: hsl(121.08, 100%, 1.88%);\n  --warning-50: hsl(17.53, 100%, 96.97%);\n  --warning-100: hsl(17.59, 100%, 93.77%);\n  --warning-150: hsl(17.65, 99.09%, 90.53%);\n  --warning-200: hsl(17.7, 93.85%, 87.25%);\n  --warning-250: hsl(17.77, 81.71%, 80.57%);\n  --warning-300: hsl(17.84, 74.94%, 73.78%);\n  --warning-350: hsl(17.98, 70.36%, 66.84%);\n  --warning-400: hsl(18.26, 66.99%, 59.61%);\n  --warning-450: hsl(18.61, 65.61%, 55.79%);\n  --warning-500: hsl(19.18, 64.53%, 51.69%);\n  --warning-550: hsl(20.31, 72.21%, 46.96%);\n  --warning-600: hsl(23.88, 100%, 39.41%);\n  --warning-650: hsl(21.95, 96.66%, 33.46%);\n  --warning-700: hsl(20.07, 95.99%, 27.13%);\n  --warning-750: hsl(17.86, 97.32%, 20.78%);\n  --warning-800: hsl(14.4, 100%, 14.71%);\n  --warning-850: hsl(11.43, 100%, 10.95%);\n  --warning-900: hsl(7.67, 100%, 7.5%);\n  --warning-950: hsl(4.64, 100%, 4.34%);\n  --danger-50: hsl(0.78, 100%, 97.61%);\n  --danger-100: hsl(0.56, 100%, 94.61%);\n  --danger-150: hsl(0.3, 100%, 91.55%);\n  --danger-200: hsl(0, 93.22%, 88.43%);\n  --danger-250: hsl(359.39, 76.34%, 81.59%);\n  --danger-300: hsl(358.59, 67.4%, 74.56%);\n  --danger-350: hsl(357.51, 61.52%, 67.27%);\n  --danger-400: hsl(355.93, 57.28%, 59.61%);\n  --danger-450: hsl(354.77, 55.6%, 55.49%);\n  --danger-500: hsl(353.23, 54.28%, 51.09%);\n  --danger-550: hsl(350.97, 62.34%, 46.16%);\n  --danger-600: hsl(346.63, 82.18%, 39.61%);\n  --danger-650: hsl(346.89, 86.15%, 32.28%);\n  --danger-700: hsl(347.25, 91.31%, 25.33%);\n  --danger-750: hsl(348.45, 96%, 19.02%);\n  --danger-800: hsl(351.18, 100%, 13.33%);\n  --danger-850: hsl(352.99, 100%, 9.85%);\n  --danger-900: hsl(354.47, 100%, 6.66%);\n  --danger-950: hsl(355.5, 100%, 3.76%);\n  --info-50: hsl(217.99, 45.88%, 94%);\n  --info-100: hsl(218, 37.47%, 87.77%);\n  --info-150: hsl(218.02, 34.49%, 81.6%);\n  --info-200: hsl(218.05, 32.8%, 75.49%);\n  --info-250: hsl(218.29, 34.23%, 69.31%);\n  --info-300: hsl(218.57, 34.87%, 63.2%);\n  --info-350: hsl(218.9, 35.05%, 57.15%);\n  --info-400: hsl(219.31, 34.94%, 51.18%);\n  --info-450: hsl(219.41, 37.55%, 48.13%);\n  --info-500: hsl(219.52, 42.28%, 45.1%);\n  --info-550: hsl(219.66, 47.62%, 42.06%);\n  --info-600: hsl(219.81, 53.77%, 39.02%);\n  --info-650: hsl(219.87, 56.39%, 31.92%);\n  --info-700: hsl(219.93, 60.27%, 25.07%);\n  --info-750: hsl(220.02, 66.59%, 18.51%);\n  --info-800: hsl(220.41, 77.78%, 12.35%);\n  --info-850: hsl(222.21, 84%, 8.9%);\n  --info-900: hsl(226.63, 89.54%, 5.83%);\n  --info-950: hsl(230.65, 94.13%, 3.12%);\n}\n";
+
+// src/css/colors/semantic/oklch.css
+var oklch_exports3 = {};
+__export(oklch_exports3, {
+  default: () => oklch_default3
+});
+var oklch_default3 = ":root {\n  --success-50: oklch(0.9720355476100955 0.01978729853872853 142.11752406542539);\n  --success-100: oklch(0.944071095220191 0.03348619752707904 142.11752406542539);\n  --success-150: oklch(0.9161066428302864 0.04718509651542956 142.11752406542539);\n  --success-200: oklch(0.8881421904403819 0.06088399550378008 142.11752406542539);\n  --success-250: oklch(0.8312289461835737 0.0814134964867239 142.2964842668701);\n  --success-300: oklch(0.7743157019267655 0.10194299746966773 142.47544446831483);\n  --success-350: oklch(0.7174024576699572 0.12247249845261154 142.65440466975954);\n  --success-400: oklch(0.660489213413149 0.14300199943555536 142.83336487120425);\n  --success-450: oklch(0.6326270919832794 0.153487552492673 142.8252122365381);\n  --success-500: oklch(0.6047649705534097 0.16397310554979067 142.81705960187193);\n  --success-550: oklch(0.57690284912354 0.17445865860690835 142.80890696720576);\n  --success-600: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n  --success-650: oklch(0.4778879989458421 0.16120283434453703 142.72440047135717);\n  --success-700: oklch(0.40673527019801387 0.13746145702504803 142.64804661017473);\n  --success-750: oklch(0.3355825414501856 0.11372007970555903 142.57169274899232);\n  --success-800: oklch(0.26442981270235744 0.08997870238607004 142.49533888780988);\n  --success-850: oklch(0.21815459547944488 0.07648189702815954 142.49533888780988);\n  --success-900: oklch(0.17187937825653232 0.06298509167024903 142.49533888780988);\n  --success-950: oklch(0.12560416103361977 0.04948828631233853 142.49533888780988);\n  --warning-50: oklch(0.9739777778864123 0.017695077274685146 43.9454781334139);\n  --warning-100: oklch(0.9479555557728245 0.029945515387928705 43.9454781334139);\n  --warning-150: oklch(0.9219333336592369 0.042195953501172265 43.9454781334139);\n  --warning-200: oklch(0.8959111115456492 0.05444639161441583 43.9454781334139);\n  --warning-250: oklch(0.8436567377995562 0.07383969866253859 43.88732593200177);\n  --warning-300: oklch(0.7914023640534633 0.09323300571066136 43.829173730589645);\n  --warning-350: oklch(0.7391479903073703 0.11262631275878413 43.77102152917751);\n  --warning-400: oklch(0.6868936165612773 0.13201961980690688 43.71286932776538);\n  --warning-450: oklch(0.6610028202949751 0.14144095719007027 43.78396833320002);\n  --warning-500: oklch(0.635112024028673 0.15086229457323366 43.85506733863466);\n  --warning-550: oklch(0.6092212277623706 0.16028363195639705 43.9261663440693);\n  --warning-600: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n  --warning-650: oklch(0.507009085738871 0.149901753081645 42.56483564766481);\n  --warning-700: oklch(0.43068773998167365 0.13009853682372957 41.13240594582567);\n  --warning-750: oklch(0.3543663942244763 0.11029532056581412 39.69997624398653);\n  --warning-800: oklch(0.2780450484672789 0.09049210430789867 38.26754654214739);\n  --warning-850: oklch(0.2293871649855051 0.07691828866171387 38.26754654214739);\n  --warning-900: oklch(0.1807292815037313 0.06334447301552906 38.26754654214739);\n  --warning-950: oklch(0.13207139802195747 0.04977065736934427 38.26754654214739);\n  --danger-50: oklch(0.9688081012787089 0.02046893571008903 18.42817489942577);\n  --danger-100: oklch(0.9376162025574177 0.034639737355535286 18.42817489942577);\n  --danger-150: oklch(0.9064243038361265 0.048810539000981534 18.42817489942577);\n  --danger-200: oklch(0.8752324051148354 0.06298134064642778 18.42817489942577);\n  --danger-250: oklch(0.8133068732197568 0.08452871651344564 18.398482771634782);\n  --danger-300: oklch(0.7513813413246784 0.1060760923804635 18.368790643843795);\n  --danger-350: oklch(0.6894558094295998 0.12762346824748136 18.339098516052807);\n  --danger-400: oklch(0.6275302775345213 0.1491708441144992 18.30940638826182);\n  --danger-450: oklch(0.5961466901234453 0.1600594003984286 18.251840020312933);\n  --danger-500: oklch(0.5647631027123693 0.17094795668235796 18.194273652364046);\n  --danger-550: oklch(0.5333795153012932 0.1818365129662873 18.13670728441516);\n  --danger-600: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n  --danger-650: oklch(0.43761291207168196 0.16911051005163913 18.72632727121819);\n  --danger-700: oklch(0.3732298962531466 0.1454959508530616 19.3735136259701);\n  --danger-750: oklch(0.30884688043461134 0.12188139165448407 20.020699980722014);\n  --danger-800: oklch(0.244463864616076 0.09826683245590653 20.66788633547393);\n  --danger-850: oklch(0.2016826883082627 0.08352680758752055 20.66788633547393);\n  --danger-900: oklch(0.15890151200044939 0.06878678271913458 20.66788633547393);\n  --danger-950: oklch(0.1161203356926361 0.0540467578507486 20.66788633547393);\n  --info-50: oklch(0.9472470414070251 0.01319114316017373 261.49146551846417);\n  --info-100: oklch(0.8944940828140502 0.02232347304029401 261.49146551846417);\n  --info-150: oklch(0.8417411242210754 0.03145580292041429 261.49146551846417);\n  --info-200: oklch(0.7889881656281005 0.04058813280053457 261.49146551846417);\n  --info-250: oklch(0.7327975333484203 0.05432284288357939 261.7505460408388);\n  --info-300: oklch(0.6766069010687401 0.06805755296662422 262.0096265632134);\n  --info-350: oklch(0.62041626878906 0.08179226304966905 262.268707085588);\n  --info-400: oklch(0.5642256365093798 0.09552697313271387 262.52778760796264);\n  --info-450: oklch(0.5358247299257868 0.10246599429811404 262.4837143651888);\n  --info-500: oklch(0.5074238233421937 0.10940501546351422 262.4396411224149);\n  --info-550: oklch(0.47902291675860065 0.1163440366289144 262.395567879641);\n  --info-600: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n  --info-650: oklch(0.3914472612047992 0.10948475002303204 262.3659717757216);\n  --info-700: oklch(0.33227251223459087 0.09568644225174952 262.3804489145761);\n  --info-750: oklch(0.2730977632643825 0.08188813448046699 262.3949260534306);\n  --info-800: oklch(0.21392301429417415 0.06808982670918445 262.409403192285);\n  --info-850: oklch(0.1764864867926937 0.057876352702806784 262.409403192285);\n  --info-900: oklch(0.13904995929121322 0.047662878696429115 262.409403192285);\n  --info-950: oklch(0.10161343178973273 0.03744940469005145 262.409403192285);\n}\n";
+
+// src/css/colors/semantic/rgb.css
+var rgb_exports3 = {};
+__export(rgb_exports3, {
+  default: () => rgb_default3
+});
+var rgb_default3 = ":root {\n  --success-50: rgb(239, 249, 237);\n  --success-100: rgb(224, 243, 222);\n  --success-150: rgb(210, 236, 207);\n  --success-200: rgb(196, 229, 192);\n  --success-250: rgb(170, 214, 165);\n  --success-300: rgb(143, 199, 138);\n  --success-350: rgb(116, 183, 111);\n  --success-400: rgb(88, 168, 84);\n  --success-450: rgb(73, 161, 70);\n  --success-500: rgb(57, 153, 54);\n  --success-550: rgb(37, 146, 36);\n  --success-600: rgb(0, 138, 7);\n  --success-650: rgb(0, 114, 4);\n  --success-700: rgb(0, 90, 2);\n  --success-750: rgb(0, 68, 1);\n  --success-800: rgb(0, 47, 0);\n  --success-850: rgb(0, 34, 0);\n  --success-900: rgb(0, 22, 0);\n  --success-950: rgb(0, 11, 0);\n  --warning-50: rgb(255, 243, 237);\n  --warning-100: rgb(255, 232, 222);\n  --warning-150: rgb(255, 221, 207);\n  --warning-200: rgb(253, 210, 192);\n  --warning-250: rgb(246, 189, 165);\n  --warning-300: rgb(238, 168, 138);\n  --warning-350: rgb(230, 147, 111);\n  --warning-400: rgb(221, 125, 83);\n  --warning-450: rgb(216, 114, 68);\n  --warning-500: rgb(211, 103, 52);\n  --warning-550: rgb(206, 92, 33);\n  --warning-600: rgb(201, 80, 0);\n  --warning-650: rgb(168, 63, 3);\n  --warning-700: rgb(136, 47, 3);\n  --warning-750: rgb(105, 32, 1);\n  --warning-800: rgb(75, 18, 0);\n  --warning-850: rgb(57, 10, 0);\n  --warning-900: rgb(39, 4, 0);\n  --warning-950: rgb(23, 1, 0);\n  --danger-50: rgb(255, 240, 239);\n  --danger-100: rgb(255, 226, 225);\n  --danger-150: rgb(255, 212, 212);\n  --danger-200: rgb(253, 198, 198);\n  --danger-250: rgb(244, 172, 173);\n  --danger-300: rgb(234, 146, 148);\n  --danger-350: rgb(223, 120, 124);\n  --danger-400: rgb(211, 93, 101);\n  --danger-450: rgb(205, 78, 89);\n  --danger-500: rgb(198, 63, 78);\n  --danger-550: rgb(191, 44, 66);\n  --danger-600: rgb(184, 18, 55);\n  --danger-650: rgb(153, 11, 42);\n  --danger-700: rgb(124, 6, 31);\n  --danger-750: rgb(95, 2, 20);\n  --danger-800: rgb(68, 0, 10);\n  --danger-850: rgb(51, 0, 5);\n  --danger-900: rgb(35, 0, 2);\n  --danger-950: rgb(20, 0, 1);\n  --info-50: rgb(233, 238, 247);\n  --info-100: rgb(212, 221, 235);\n  --info-150: rgb(192, 204, 224);\n  --info-200: rgb(172, 187, 213);\n  --info-250: rgb(150, 169, 204);\n  --info-300: rgb(128, 152, 194);\n  --info-350: rgb(107, 134, 184);\n  --info-400: rgb(87, 117, 174);\n  --info-450: rgb(77, 108, 169);\n  --info-500: rgb(66, 100, 164);\n  --info-550: rgb(56, 91, 158);\n  --info-600: rgb(46, 82, 153);\n  --info-650: rgb(35, 66, 127);\n  --info-700: rgb(25, 51, 102);\n  --info-750: rgb(16, 37, 79);\n  --info-800: rgb(7, 23, 56);\n  --info-850: rgb(4, 15, 42);\n  --info-900: rgb(2, 7, 28);\n  --info-950: rgb(0, 3, 15);\n}\n";
+
+// src/js/colors/global/hex.js
+var hex_exports4 = {};
+__export(hex_exports4, {
   nswAboriginalBlue: () => nswAboriginalBlue,
   nswAboriginalBrown: () => nswAboriginalBrown,
   nswAboriginalGreen: () => nswAboriginalGreen,
@@ -13698,8 +16286,8 @@ var nswAboriginalPurple = {
 };
 
 // src/js/colors/global/hsl.js
-var hsl_exports3 = {};
-__export(hsl_exports3, {
+var hsl_exports4 = {};
+__export(hsl_exports4, {
   nswAboriginalBlue: () => nswAboriginalBlue2,
   nswAboriginalBrown: () => nswAboriginalBrown2,
   nswAboriginalGreen: () => nswAboriginalGreen2,
@@ -14099,8 +16687,8 @@ var nswAboriginalPurple2 = {
 };
 
 // src/js/colors/global/oklch.js
-var oklch_exports3 = {};
-__export(oklch_exports3, {
+var oklch_exports4 = {};
+__export(oklch_exports4, {
   nswAboriginalBlue: () => nswAboriginalBlue3,
   nswAboriginalBrown: () => nswAboriginalBrown3,
   nswAboriginalGreen: () => nswAboriginalGreen3,
@@ -14500,8 +17088,8 @@ var nswAboriginalPurple3 = {
 };
 
 // src/js/colors/global/rgb.js
-var rgb_exports3 = {};
-__export(rgb_exports3, {
+var rgb_exports4 = {};
+__export(rgb_exports4, {
   nswAboriginalBlue: () => nswAboriginalBlue4,
   nswAboriginalBrown: () => nswAboriginalBrown4,
   nswAboriginalGreen: () => nswAboriginalGreen4,
@@ -14901,8 +17489,8 @@ var nswAboriginalPurple4 = {
 };
 
 // src/js/colors/themes/masterbrand/hex.js
-var hex_exports4 = {};
-__export(hex_exports4, {
+var hex_exports5 = {};
+__export(hex_exports5, {
   accent: () => accent,
   grey: () => grey,
   primary: () => primary
@@ -14972,8 +17560,8 @@ var grey = {
 };
 
 // src/js/colors/themes/masterbrand/hsl.js
-var hsl_exports4 = {};
-__export(hsl_exports4, {
+var hsl_exports5 = {};
+__export(hsl_exports5, {
   accent: () => accent2,
   grey: () => grey2,
   primary: () => primary2
@@ -15043,8 +17631,8 @@ var grey2 = {
 };
 
 // src/js/colors/themes/masterbrand/oklch.js
-var oklch_exports4 = {};
-__export(oklch_exports4, {
+var oklch_exports5 = {};
+__export(oklch_exports5, {
   accent: () => accent3,
   grey: () => grey3,
   primary: () => primary3
@@ -15114,8 +17702,8 @@ var grey3 = {
 };
 
 // src/js/colors/themes/masterbrand/rgb.js
-var rgb_exports4 = {};
-__export(rgb_exports4, {
+var rgb_exports5 = {};
+__export(rgb_exports5, {
   accent: () => accent4,
   grey: () => grey4,
   primary: () => primary4
@@ -15184,177 +17772,633 @@ var grey4 = {
   950: "rgb(5, 7, 9)"
 };
 
-// src/less/colors/global/hex.less
-var hex_exports5 = {};
-__export(hex_exports5, {
-  default: () => hex_default3
-});
-var hex_default3 = "@nsw-grey-50: #fafafa;\n@nsw-grey-100: #f5f5f5;\n@nsw-grey-150: #f0f0f0;\n@nsw-grey-200: #ebebeb;\n@nsw-grey-250: #e3e5e6;\n@nsw-grey-300: #dcdfe0;\n@nsw-grey-350: #d4d9db;\n@nsw-grey-400: #cdd3d6;\n@nsw-grey-450: #aab0b4;\n@nsw-grey-500: #888f92;\n@nsw-grey-550: #686f72;\n@nsw-grey-600: #495054;\n@nsw-grey-650: #3f4549;\n@nsw-grey-700: #353b3f;\n@nsw-grey-750: #2b3135;\n@nsw-grey-800: #22272b;\n@nsw-grey-850: #181c1f;\n@nsw-grey-900: #0e1113;\n@nsw-grey-950: #050709;\n@nsw-green-50: #f5fff6;\n@nsw-green-100: #ecfdee;\n@nsw-green-150: #e4fce7;\n@nsw-green-200: #dbfadf;\n@nsw-green-250: #cff7d4;\n@nsw-green-300: #c2f4c9;\n@nsw-green-350: #b5f0be;\n@nsw-green-400: #a8edb3;\n@nsw-green-450: #8adc98;\n@nsw-green-500: #6acc7d;\n@nsw-green-550: #45bb62;\n@nsw-green-600: #00aa45;\n@nsw-green-650: #078e32;\n@nsw-green-700: #077320;\n@nsw-green-750: #03590f;\n@nsw-green-800: #004000;\n@nsw-green-850: #003000;\n@nsw-green-900: #002000;\n@nsw-green-950: #001100;\n@nsw-teal-50: #f2fbfa;\n@nsw-teal-100: #e7f7f5;\n@nsw-teal-150: #dcf2ef;\n@nsw-teal-200: #d1eeea;\n@nsw-teal-250: #c1eae7;\n@nsw-teal-300: #afe5e5;\n@nsw-teal-350: #9ee0e5;\n@nsw-teal-400: #8cdbe5;\n@nsw-teal-450: #75c4cf;\n@nsw-teal-500: #5eacb9;\n@nsw-teal-550: #4696a3;\n@nsw-teal-600: #2e808e;\n@nsw-teal-650: #256f7b;\n@nsw-teal-700: #1c5f69;\n@nsw-teal-750: #144e58;\n@nsw-teal-800: #0b3f47;\n@nsw-teal-850: #042f35;\n@nsw-teal-900: #011f24;\n@nsw-teal-950: #001114;\n@nsw-blue-50: #f0fbff;\n@nsw-blue-100: #e4f6ff;\n@nsw-blue-150: #d7f2fe;\n@nsw-blue-200: #cbedfd;\n@nsw-blue-250: #bceafe;\n@nsw-blue-300: #ade7ff;\n@nsw-blue-350: #9de3ff;\n@nsw-blue-400: #8ce0ff;\n@nsw-blue-450: #5ac9ff;\n@nsw-blue-500: #26aeff;\n@nsw-blue-550: #008fff;\n@nsw-blue-600: #146cfd;\n@nsw-blue-650: #0c5ad4;\n@nsw-blue-700: #0548ad;\n@nsw-blue-750: #023688;\n@nsw-blue-800: #002664;\n@nsw-blue-850: #001a4d;\n@nsw-blue-900: #001037;\n@nsw-blue-950: #000622;\n@nsw-purple-50: #f9f7ff;\n@nsw-purple-100: #f2f0ff;\n@nsw-purple-150: #ece8fe;\n@nsw-purple-200: #e6e1fd;\n@nsw-purple-250: #e0d9fe;\n@nsw-purple-300: #dad0fe;\n@nsw-purple-350: #d4c8ff;\n@nsw-purple-400: #cebfff;\n@nsw-purple-450: #baa6fc;\n@nsw-purple-500: #a68df9;\n@nsw-purple-550: #9372f5;\n@nsw-purple-600: #8055f1;\n@nsw-purple-650: #7243cf;\n@nsw-purple-700: #6432ae;\n@nsw-purple-750: #54218e;\n@nsw-purple-800: #441170;\n@nsw-purple-850: #330856;\n@nsw-purple-900: #23023e;\n@nsw-purple-950: #130027;\n@nsw-fuchsia-50: #fff6fd;\n@nsw-fuchsia-100: #ffeef9;\n@nsw-fuchsia-150: #fee6f6;\n@nsw-fuchsia-200: #fddef2;\n@nsw-fuchsia-250: #fbd4ef;\n@nsw-fuchsia-300: #f9c9eb;\n@nsw-fuchsia-350: #f7bfe9;\n@nsw-fuchsia-400: #f4b5e6;\n@nsw-fuchsia-450: #ef96da;\n@nsw-fuchsia-500: #e975cc;\n@nsw-fuchsia-550: #e150be;\n@nsw-fuchsia-600: #d912ae;\n@nsw-fuchsia-650: #bb0c94;\n@nsw-fuchsia-700: #9d067b;\n@nsw-fuchsia-750: #810264;\n@nsw-fuchsia-800: #65004d;\n@nsw-fuchsia-850: #4d003a;\n@nsw-fuchsia-900: #370028;\n@nsw-fuchsia-950: #220017;\n@nsw-red-50: #fff8f9;\n@nsw-red-100: #fff2f4;\n@nsw-red-150: #ffecef;\n@nsw-red-200: #ffe6ea;\n@nsw-red-250: #ffdbe0;\n@nsw-red-300: #ffcfd6;\n@nsw-red-350: #ffc4cc;\n@nsw-red-400: #ffb8c1;\n@nsw-red-450: #f897a2;\n@nsw-red-500: #ef7581;\n@nsw-red-550: #e44f5f;\n@nsw-red-600: #d7153a;\n@nsw-red-650: #b90e32;\n@nsw-red-700: #9b072a;\n@nsw-red-750: #7e0322;\n@nsw-red-800: #630019;\n@nsw-red-850: #4c0010;\n@nsw-red-900: #360008;\n@nsw-red-950: #210003;\n@nsw-orange-50: #fffaf6;\n@nsw-orange-100: #fff6ee;\n@nsw-orange-150: #fef1e7;\n@nsw-orange-200: #fdeddf;\n@nsw-orange-250: #fee5ce;\n@nsw-orange-300: #ffddbd;\n@nsw-orange-350: #ffd6ab;\n@nsw-orange-400: #ffce99;\n@nsw-orange-450: #fdb678;\n@nsw-orange-500: #fb9d58;\n@nsw-orange-550: #f78139;\n@nsw-orange-600: #f3631b;\n@nsw-orange-650: #db5115;\n@nsw-orange-700: #c33f0e;\n@nsw-orange-750: #ab2e06;\n@nsw-orange-800: #941b00;\n@nsw-orange-850: #730f00;\n@nsw-orange-900: #530400;\n@nsw-orange-950: #350000;\n@nsw-yellow-50: #fffcf0;\n@nsw-yellow-100: #fffae5;\n@nsw-yellow-150: #fff7da;\n@nsw-yellow-200: #fff4cf;\n@nsw-yellow-250: #fff1c2;\n@nsw-yellow-300: #feeeb5;\n@nsw-yellow-350: #feeaa8;\n@nsw-yellow-400: #fde79a;\n@nsw-yellow-450: #fbda80;\n@nsw-yellow-500: #facd63;\n@nsw-yellow-550: #fabe42;\n@nsw-yellow-600: #faaf05;\n@nsw-yellow-650: #d49403;\n@nsw-yellow-700: #af7a01;\n@nsw-yellow-750: #8b6000;\n@nsw-yellow-800: #694800;\n@nsw-yellow-850: #503500;\n@nsw-yellow-900: #392400;\n@nsw-yellow-950: #221300;\n@nsw-brown-50: #fbf8f4;\n@nsw-brown-100: #f6f1ea;\n@nsw-brown-150: #f2eae1;\n@nsw-brown-200: #ede3d7;\n@nsw-brown-250: #ecdece;\n@nsw-brown-300: #eadac6;\n@nsw-brown-350: #e9d5bd;\n@nsw-brown-400: #e8d0b5;\n@nsw-brown-450: #dbbf9f;\n@nsw-brown-500: #cfae89;\n@nsw-brown-550: #c29d73;\n@nsw-brown-600: #b68d5d;\n@nsw-brown-650: #9c764b;\n@nsw-brown-700: #82603a;\n@nsw-brown-750: #6a4b29;\n@nsw-brown-800: #523719;\n@nsw-brown-850: #3e280f;\n@nsw-brown-900: #2b1a07;\n@nsw-brown-950: #190d02;\n@nsw-aboriginal-grey-50: #f9f8f7;\n@nsw-aboriginal-grey-100: #f2f1ef;\n@nsw-aboriginal-grey-150: #ebeae8;\n@nsw-aboriginal-grey-200: #e5e3e0;\n@nsw-aboriginal-grey-250: #dfdcd8;\n@nsw-aboriginal-grey-300: #d8d4d1;\n@nsw-aboriginal-grey-350: #d2cdc9;\n@nsw-aboriginal-grey-400: #ccc6c2;\n@nsw-aboriginal-grey-450: #ada8a5;\n@nsw-aboriginal-grey-500: #8e8b8a;\n@nsw-aboriginal-grey-550: #71706f;\n@nsw-aboriginal-grey-600: #555555;\n@nsw-aboriginal-grey-650: #4b4b4b;\n@nsw-aboriginal-grey-700: #404040;\n@nsw-aboriginal-grey-750: #373737;\n@nsw-aboriginal-grey-800: #2d2d2d;\n@nsw-aboriginal-grey-850: #202020;\n@nsw-aboriginal-grey-900: #141414;\n@nsw-aboriginal-grey-950: #090909;\n@nsw-aboriginal-red-50: #fff5f5;\n@nsw-aboriginal-red-100: #ffebeb;\n@nsw-aboriginal-red-150: #fee2e2;\n@nsw-aboriginal-red-200: #fdd9d9;\n@nsw-aboriginal-red-250: #fdd0d0;\n@nsw-aboriginal-red-300: #fcc7c6;\n@nsw-aboriginal-red-350: #fcbdbd;\n@nsw-aboriginal-red-400: #fbb4b3;\n@nsw-aboriginal-red-450: #f79693;\n@nsw-aboriginal-red-500: #f27771;\n@nsw-aboriginal-red-550: #ea554c;\n@nsw-aboriginal-red-600: #e1261c;\n@nsw-aboriginal-red-650: #cd1f17;\n@nsw-aboriginal-red-700: #ba1811;\n@nsw-aboriginal-red-750: #a7110b;\n@nsw-aboriginal-red-800: #950906;\n@nsw-aboriginal-red-850: #740001;\n@nsw-aboriginal-red-900: #540000;\n@nsw-aboriginal-red-950: #360000;\n@nsw-aboriginal-orange-50: #fff4ec;\n@nsw-aboriginal-orange-100: #fee9dd;\n@nsw-aboriginal-orange-150: #fcdfcd;\n@nsw-aboriginal-orange-200: #f9d4be;\n@nsw-aboriginal-orange-250: #f8caae;\n@nsw-aboriginal-orange-300: #f7bf9e;\n@nsw-aboriginal-orange-350: #f6b58e;\n@nsw-aboriginal-orange-400: #f4aa7d;\n@nsw-aboriginal-orange-450: #f39a66;\n@nsw-aboriginal-orange-500: #f2894f;\n@nsw-aboriginal-orange-550: #f07736;\n@nsw-aboriginal-orange-600: #ee6314;\n@nsw-aboriginal-orange-650: #d45310;\n@nsw-aboriginal-orange-700: #ba440a;\n@nsw-aboriginal-orange-750: #a13505;\n@nsw-aboriginal-orange-800: #882600;\n@nsw-aboriginal-orange-850: #691900;\n@nsw-aboriginal-orange-900: #4c0d00;\n@nsw-aboriginal-orange-950: #300300;\n@nsw-aboriginal-brown-50: #fcf1e9;\n@nsw-aboriginal-brown-100: #f6e3d7;\n@nsw-aboriginal-brown-150: #efd5c4;\n@nsw-aboriginal-brown-200: #e9c8b2;\n@nsw-aboriginal-brown-250: #e4ba9f;\n@nsw-aboriginal-brown-300: #dead8c;\n@nsw-aboriginal-brown-350: #d99f78;\n@nsw-aboriginal-brown-400: #d39165;\n@nsw-aboriginal-brown-450: #c68158;\n@nsw-aboriginal-brown-500: #b9724b;\n@nsw-aboriginal-brown-550: #ab623e;\n@nsw-aboriginal-brown-600: #9e5332;\n@nsw-aboriginal-brown-650: #8b4627;\n@nsw-aboriginal-brown-700: #79391c;\n@nsw-aboriginal-brown-750: #672d10;\n@nsw-aboriginal-brown-800: #552105;\n@nsw-aboriginal-brown-850: #411602;\n@nsw-aboriginal-brown-900: #2d0c00;\n@nsw-aboriginal-brown-950: #1b0400;\n@nsw-aboriginal-yellow-50: #fffcee;\n@nsw-aboriginal-yellow-100: #fff8e0;\n@nsw-aboriginal-yellow-150: #fff5d3;\n@nsw-aboriginal-yellow-200: #fff1c5;\n@nsw-aboriginal-yellow-250: #ffeeb7;\n@nsw-aboriginal-yellow-300: #ffeba9;\n@nsw-aboriginal-yellow-350: #fee79b;\n@nsw-aboriginal-yellow-400: #fee48c;\n@nsw-aboriginal-yellow-450: #fed675;\n@nsw-aboriginal-yellow-500: #fec85d;\n@nsw-aboriginal-yellow-550: #feb944;\n@nsw-aboriginal-yellow-600: #fea927;\n@nsw-aboriginal-yellow-650: #df961c;\n@nsw-aboriginal-yellow-700: #c18312;\n@nsw-aboriginal-yellow-750: #a57007;\n@nsw-aboriginal-yellow-800: #895e00;\n@nsw-aboriginal-yellow-850: #694700;\n@nsw-aboriginal-yellow-900: #4c3000;\n@nsw-aboriginal-yellow-950: #2f1c00;\n@nsw-aboriginal-green-50: #f5f9f2;\n@nsw-aboriginal-green-100: #ecf3e7;\n@nsw-aboriginal-green-150: #e3ecdc;\n@nsw-aboriginal-green-200: #dae6d1;\n@nsw-aboriginal-green-250: #d1e0c6;\n@nsw-aboriginal-green-300: #c7d9ba;\n@nsw-aboriginal-green-350: #bed3af;\n@nsw-aboriginal-green-400: #b5cda4;\n@nsw-aboriginal-green-450: #a5c28e;\n@nsw-aboriginal-green-500: #95b777;\n@nsw-aboriginal-green-550: #86ac60;\n@nsw-aboriginal-green-600: #78a146;\n@nsw-aboriginal-green-650: #5f8f44;\n@nsw-aboriginal-green-700: #497d40;\n@nsw-aboriginal-green-750: #346a3b;\n@nsw-aboriginal-green-800: #215834;\n@nsw-aboriginal-green-850: #154225;\n@nsw-aboriginal-green-900: #0a2e17;\n@nsw-aboriginal-green-950: #021b0a;\n@nsw-aboriginal-blue-50: #eef8fa;\n@nsw-aboriginal-blue-100: #dff1f4;\n@nsw-aboriginal-blue-150: #d0e9ee;\n@nsw-aboriginal-blue-200: #c1e2e8;\n@nsw-aboriginal-blue-250: #b2dbe2;\n@nsw-aboriginal-blue-300: #a3d4dc;\n@nsw-aboriginal-blue-350: #94ccd7;\n@nsw-aboriginal-blue-400: #84c5d1;\n@nsw-aboriginal-blue-450: #67aec0;\n@nsw-aboriginal-blue-500: #4a96b0;\n@nsw-aboriginal-blue-550: #2e7fa1;\n@nsw-aboriginal-blue-600: #0d6791;\n@nsw-aboriginal-blue-650: #145782;\n@nsw-aboriginal-blue-700: #174773;\n@nsw-aboriginal-blue-750: #183763;\n@nsw-aboriginal-blue-800: #162953;\n@nsw-aboriginal-blue-850: #0e1d3f;\n@nsw-aboriginal-blue-900: #06122c;\n@nsw-aboriginal-blue-950: #02071b;\n@nsw-aboriginal-purple-50: #faf1f8;\n@nsw-aboriginal-purple-100: #f2e5f0;\n@nsw-aboriginal-purple-150: #ebd8e8;\n@nsw-aboriginal-purple-200: #e4cce0;\n@nsw-aboriginal-purple-250: #ddbfd8;\n@nsw-aboriginal-purple-300: #d7b3d1;\n@nsw-aboriginal-purple-350: #d0a6c9;\n@nsw-aboriginal-purple-400: #c99ac2;\n@nsw-aboriginal-purple-450: #bd8bb6;\n@nsw-aboriginal-purple-500: #b17caa;\n@nsw-aboriginal-purple-550: #a66d9f;\n@nsw-aboriginal-purple-600: #9a5e93;\n@nsw-aboriginal-purple-650: #844f7e;\n@nsw-aboriginal-purple-700: #6f4169;\n@nsw-aboriginal-purple-750: #5b3355;\n@nsw-aboriginal-purple-800: #472642;\n@nsw-aboriginal-purple-850: #351a31;\n@nsw-aboriginal-purple-900: #241021;\n@nsw-aboriginal-purple-950: #150612;\n";
-
-// src/less/colors/global/hsl.less
-var hsl_exports5 = {};
-__export(hsl_exports5, {
-  default: () => hsl_default3
-});
-var hsl_default3 = "@nsw-grey-50: hsl(223.81, 0%, 98.03%);\n@nsw-grey-100: hsl(223.81, 0%, 96.06%);\n@nsw-grey-150: hsl(223.81, 0%, 94.11%);\n@nsw-grey-200: hsl(223.81, 0%, 92.16%);\n@nsw-grey-250: hsl(200.05, 4.31%, 89.64%);\n@nsw-grey-300: hsl(200.03, 6.92%, 87.13%);\n@nsw-grey-350: hsl(200.02, 8.65%, 84.64%);\n@nsw-grey-400: hsl(200, 9.89%, 82.16%);\n@nsw-grey-450: hsl(200.47, 6.03%, 68.52%);\n@nsw-grey-500: hsl(200.94, 4.51%, 55.36%);\n@nsw-grey-550: hsl(201.39, 4.91%, 42.76%);\n@nsw-grey-600: hsl(201.82, 7.01%, 30.78%);\n@nsw-grey-650: hsl(203.03, 7.74%, 26.71%);\n@nsw-grey-700: hsl(204.24, 8.68%, 22.73%);\n@nsw-grey-750: hsl(205.45, 9.93%, 18.85%);\n@nsw-grey-800: hsl(206.67, 11.69%, 15.1%);\n@nsw-grey-850: hsl(206.66, 13.37%, 10.7%);\n@nsw-grey-900: hsl(206.64, 17.01%, 6.52%);\n@nsw-grey-950: hsl(208.68, 23.47%, 2.8%);\n@nsw-green-50: hsl(126.92, 92.48%, 97.87%);\n@nsw-green-100: hsl(127.18, 81.76%, 95.93%);\n@nsw-green-150: hsl(127.45, 77.77%, 93.96%);\n@nsw-green-200: hsl(127.74, 75.61%, 91.96%);\n@nsw-green-250: hsl(128.12, 71.21%, 88.91%);\n@nsw-green-300: hsl(128.55, 68.62%, 85.81%);\n@nsw-green-350: hsl(129.02, 66.91%, 82.65%);\n@nsw-green-400: hsl(129.57, 65.71%, 79.41%);\n@nsw-green-450: hsl(130.48, 54.36%, 70.18%);\n@nsw-green-500: hsl(131.91, 48.76%, 60.63%);\n@nsw-green-550: hsl(134.54, 46.29%, 50.21%);\n@nsw-green-600: hsl(144.35, 100%, 33.33%);\n@nsw-green-650: hsl(139.28, 90.98%, 29.11%);\n@nsw-green-700: hsl(134.23, 89.08%, 23.77%);\n@nsw-green-750: hsl(127.99, 92.45%, 18.06%);\n@nsw-green-800: hsl(120, 100%, 12.55%);\n@nsw-green-850: hsl(120.41, 100%, 8.99%);\n@nsw-green-900: hsl(120.77, 100%, 5.85%);\n@nsw-green-950: hsl(121.17, 100%, 3.07%);\n@nsw-teal-50: hsl(171.22, 56.11%, 96.73%);\n@nsw-teal-100: hsl(171.38, 49.48%, 93.72%);\n@nsw-teal-150: hsl(171.55, 47.18%, 90.69%);\n@nsw-teal-200: hsl(171.72, 46.03%, 87.65%);\n@nsw-teal-250: hsl(176, 49.12%, 83.57%);\n@nsw-teal-300: hsl(180.06, 50.95%, 79.35%);\n@nsw-teal-350: hsl(183.68, 57.18%, 75.79%);\n@nsw-teal-400: hsl(186.74, 63.12%, 72.35%);\n@nsw-teal-450: hsl(187.41, 48.14%, 63.4%);\n@nsw-teal-500: hsl(188, 39.25%, 54.56%);\n@nsw-teal-550: hsl(188.48, 39.69%, 45.78%);\n@nsw-teal-600: hsl(188.75, 51.06%, 36.86%);\n@nsw-teal-650: hsl(188.61, 53.88%, 31.46%);\n@nsw-teal-700: hsl(188.45, 57.8%, 26.19%);\n@nsw-teal-750: hsl(188.26, 63.6%, 21.07%);\n@nsw-teal-800: hsl(188, 73.17%, 16.08%);\n@nsw-teal-850: hsl(187.99, 84.92%, 11.28%);\n@nsw-teal-900: hsl(188.56, 96.03%, 7.26%);\n@nsw-teal-950: hsl(190.58, 100%, 3.88%);\n@nsw-blue-50: hsl(199.45, 100%, 97.34%);\n@nsw-blue-100: hsl(199.38, 100%, 94.73%);\n@nsw-blue-150: hsl(199.3, 95.85%, 92.09%);\n@nsw-blue-200: hsl(199.2, 92.59%, 89.41%);\n@nsw-blue-250: hsl(198.5, 96.87%, 86.75%);\n@nsw-blue-300: hsl(197.76, 98.99%, 83.89%);\n@nsw-blue-350: hsl(197, 99.87%, 80.82%);\n@nsw-blue-400: hsl(196.17, 100%, 77.45%);\n@nsw-blue-450: hsl(199.74, 99.83%, 67.57%);\n@nsw-blue-500: hsl(202.52, 100%, 57.55%);\n@nsw-blue-550: hsl(204.76, 100%, 46.97%);\n@nsw-blue-600: hsl(217.34, 98.31%, 53.53%);\n@nsw-blue-650: hsl(216.77, 89.43%, 43.98%);\n@nsw-blue-700: hsl(216.29, 94.14%, 35%);\n@nsw-blue-750: hsl(216.37, 97.67%, 26.93%);\n@nsw-blue-800: hsl(217.2, 100%, 19.61%);\n@nsw-blue-850: hsl(218.95, 100%, 14.93%);\n@nsw-blue-900: hsl(222.31, 100%, 10.59%);\n@nsw-blue-950: hsl(228.65, 100%, 6.6%);\n@nsw-purple-50: hsl(250, 100%, 98.76%);\n@nsw-purple-100: hsl(250.23, 100%, 97.09%);\n@nsw-purple-150: hsl(250.47, 93.41%, 95.41%);\n@nsw-purple-200: hsl(250.71, 87.5%, 93.73%);\n@nsw-purple-250: hsl(251.53, 93.83%, 92.23%);\n@nsw-purple-300: hsl(252.35, 97.33%, 90.69%);\n@nsw-purple-350: hsl(253.2, 99.18%, 89.09%);\n@nsw-purple-400: hsl(254.06, 100%, 87.45%);\n@nsw-purple-450: hsl(253.9, 94.13%, 82.01%);\n@nsw-purple-500: hsl(254.11, 90.14%, 76.39%);\n@nsw-purple-550: hsl(254.88, 87.11%, 70.46%);\n@nsw-purple-600: hsl(256.54, 84.78%, 63.92%);\n@nsw-purple-650: hsl(260.32, 59.17%, 53.67%);\n@nsw-purple-700: hsl(264.12, 55.46%, 43.83%);\n@nsw-purple-750: hsl(268.02, 62.04%, 34.39%);\n@nsw-purple-800: hsl(272.21, 73.64%, 25.29%);\n@nsw-purple-850: hsl(272.75, 82.69%, 18.56%);\n@nsw-purple-900: hsl(272.45, 92.77%, 12.64%);\n@nsw-purple-950: hsl(269.95, 100%, 7.66%);\n@nsw-fuchsia-50: hsl(322.15, 100%, 98.49%);\n@nsw-fuchsia-100: hsl(321.87, 100%, 96.73%);\n@nsw-fuchsia-150: hsl(321.58, 93.98%, 94.94%);\n@nsw-fuchsia-200: hsl(321.29, 88.57%, 93.14%);\n@nsw-fuchsia-250: hsl(319.35, 84.42%, 90.79%);\n@nsw-fuchsia-300: hsl(317.38, 80.69%, 88.38%);\n@nsw-fuchsia-350: hsl(315.37, 77.28%, 85.89%);\n@nsw-fuchsia-400: hsl(313.33, 74.12%, 83.33%);\n@nsw-fuchsia-450: hsl(314.16, 73.33%, 76.26%);\n@nsw-fuchsia-500: hsl(314.67, 72.14%, 68.62%);\n@nsw-fuchsia-550: hsl(314.69, 71.13%, 59.86%);\n@nsw-fuchsia-600: hsl(312.96, 84.68%, 46.08%);\n@nsw-fuchsia-650: hsl(313.17, 88.39%, 38.86%);\n@nsw-fuchsia-700: hsl(313.38, 92.9%, 31.95%);\n@nsw-fuchsia-750: hsl(313.72, 96.8%, 25.62%);\n@nsw-fuchsia-800: hsl(314.26, 100%, 19.8%);\n@nsw-fuchsia-850: hsl(314.51, 100%, 14.68%);\n@nsw-fuchsia-900: hsl(315.33, 100%, 10.15%);\n@nsw-fuchsia-950: hsl(317.48, 100%, 6.11%);\n@nsw-red-50: hsl(350.85, 100%, 98.97%);\n@nsw-red-100: hsl(350.7, 100%, 97.7%);\n@nsw-red-150: hsl(350.55, 100%, 96.41%);\n@nsw-red-200: hsl(350.4, 100%, 95.1%);\n@nsw-red-250: hsl(350.92, 100%, 92.94%);\n@nsw-red-300: hsl(351.43, 100%, 90.72%);\n@nsw-red-350: hsl(351.92, 100%, 88.44%);\n@nsw-red-400: hsl(352.39, 100%, 86.08%);\n@nsw-red-450: hsl(353.39, 86.96%, 78.18%);\n@nsw-red-500: hsl(353.95, 78.84%, 69.69%);\n@nsw-red-550: hsl(353.52, 73.17%, 60.13%);\n@nsw-red-600: hsl(348.56, 82.2%, 46.27%);\n@nsw-red-650: hsl(347.26, 85.91%, 38.92%);\n@nsw-red-700: hsl(345.89, 91%, 31.81%);\n@nsw-red-750: hsl(345, 95.87%, 25.31%);\n@nsw-red-800: hsl(344.85, 100%, 19.41%);\n@nsw-red-850: hsl(346.11, 100%, 14.46%);\n@nsw-red-900: hsl(349.15, 100%, 10.03%);\n@nsw-red-950: hsl(352.16, 100%, 6.06%);\n@nsw-orange-50: hsl(27.87, 100%, 98.29%);\n@nsw-orange-100: hsl(27.91, 96.98%, 96.64%);\n@nsw-orange-150: hsl(27.96, 91.29%, 94.99%);\n@nsw-orange-200: hsl(28, 88.24%, 93.33%);\n@nsw-orange-250: hsl(28.75, 96.77%, 90.26%);\n@nsw-orange-300: hsl(29.52, 99.73%, 87.03%);\n@nsw-orange-350: hsl(30.32, 100%, 83.62%);\n@nsw-orange-400: hsl(31.18, 100%, 80%);\n@nsw-orange-450: hsl(28.25, 96.8%, 73.02%);\n@nsw-orange-500: hsl(25.48, 94.77%, 66.34%);\n@nsw-orange-550: hsl(22.75, 92.62%, 59.79%);\n@nsw-orange-600: hsl(20, 90%, 52.94%);\n@nsw-orange-650: hsl(18.26, 82.63%, 47%);\n@nsw-orange-700: hsl(16.43, 86.72%, 40.94%);\n@nsw-orange-750: hsl(14.39, 93.12%, 34.79%);\n@nsw-orange-800: hsl(10.95, 100%, 29.02%);\n@nsw-orange-850: hsl(9.09, 100%, 21.91%);\n@nsw-orange-900: hsl(5.29, 100%, 15.58%);\n@nsw-orange-950: hsl(2.01, 100%, 9.91%);\n@nsw-yellow-50: hsl(46.46, 100%, 97.31%);\n@nsw-yellow-100: hsl(46.38, 100%, 95.09%);\n@nsw-yellow-150: hsl(46.31, 100%, 92.85%);\n@nsw-yellow-200: hsl(46.25, 100%, 90.59%);\n@nsw-yellow-250: hsl(46.33, 98.56%, 88%);\n@nsw-yellow-300: hsl(46.42, 97.54%, 85.35%);\n@nsw-yellow-350: hsl(46.53, 96.75%, 82.62%);\n@nsw-yellow-400: hsl(46.67, 96.12%, 79.8%);\n@nsw-yellow-450: hsl(43.95, 94.26%, 74.28%);\n@nsw-yellow-500: hsl(41.83, 94.17%, 68.55%);\n@nsw-yellow-550: hsl(40.46, 94.83%, 62.04%);\n@nsw-yellow-600: hsl(41.63, 96.08%, 50%);\n@nsw-yellow-650: hsl(41.71, 97.59%, 41.99%);\n@nsw-yellow-700: hsl(41.69, 98.72%, 34.44%);\n@nsw-yellow-750: hsl(41.53, 99.5%, 27.31%);\n@nsw-yellow-800: hsl(41.14, 100%, 20.59%);\n@nsw-yellow-850: hsl(40.68, 100%, 15.12%);\n@nsw-yellow-900: hsl(39.24, 100%, 10.36%);\n@nsw-yellow-950: hsl(35.52, 100%, 6.19%);\n@nsw-brown-50: hsl(32.66, 48.5%, 97.07%);\n@nsw-brown-100: hsl(32.68, 41.61%, 94.25%);\n@nsw-brown-150: hsl(32.7, 39.2%, 91.43%);\n@nsw-brown-200: hsl(32.73, 37.93%, 88.63%);\n@nsw-brown-250: hsl(32.47, 43.13%, 86.7%);\n@nsw-brown-300: hsl(32.23, 47.04%, 84.79%);\n@nsw-brown-350: hsl(31.99, 50.11%, 82.88%);\n@nsw-brown-400: hsl(31.76, 52.58%, 80.98%);\n@nsw-brown-450: hsl(31.83, 46.02%, 74.17%);\n@nsw-brown-500: hsl(31.93, 42.16%, 67.4%);\n@nsw-brown-550: hsl(32.1, 39.63%, 60.67%);\n@nsw-brown-600: hsl(32.36, 37.87%, 53.92%);\n@nsw-brown-650: hsl(32.04, 34.94%, 45.3%);\n@nsw-brown-700: hsl(31.77, 38.54%, 36.92%);\n@nsw-brown-750: hsl(31.59, 43.99%, 28.81%);\n@nsw-brown-800: hsl(31.58, 53.27%, 20.98%);\n@nsw-brown-850: hsl(31.74, 60.03%, 15.18%);\n@nsw-brown-900: hsl(31.73, 72.62%, 9.74%);\n@nsw-brown-950: hsl(27.95, 86.11%, 5.27%);\n@nsw-aboriginal-grey-50: hsl(35.99, 11.4%, 97.16%);\n@nsw-aboriginal-grey-100: hsl(36, 9.67%, 94.37%);\n@nsw-aboriginal-grey-150: hsl(36, 9.08%, 91.59%);\n@nsw-aboriginal-grey-200: hsl(36, 8.77%, 88.82%);\n@nsw-aboriginal-grey-250: hsl(32.79, 8.86%, 86.06%);\n@nsw-aboriginal-grey-300: hsl(29.76, 8.93%, 83.34%);\n@nsw-aboriginal-grey-350: hsl(26.85, 8.96%, 80.67%);\n@nsw-aboriginal-grey-400: hsl(24, 8.93%, 78.04%);\n@nsw-aboriginal-grey-450: hsl(23.99, 4.23%, 66.26%);\n@nsw-aboriginal-grey-500: hsl(23.97, 2.04%, 54.85%);\n@nsw-aboriginal-grey-550: hsl(23.95, 1.01%, 43.86%);\n@nsw-aboriginal-grey-600: hsl(223.81, 0%, 33.33%);\n@nsw-aboriginal-grey-650: hsl(223.81, 0%, 29.26%);\n@nsw-aboriginal-grey-700: hsl(223.81, 0%, 25.29%);\n@nsw-aboriginal-grey-750: hsl(223.81, 0%, 21.41%);\n@nsw-aboriginal-grey-800: hsl(223.81, 0%, 17.65%);\n@nsw-aboriginal-grey-850: hsl(223.81, 0%, 12.7%);\n@nsw-aboriginal-grey-900: hsl(223.81, 0%, 8.01%);\n@nsw-aboriginal-grey-950: hsl(223.81, 0%, 3.63%);\n@nsw-aboriginal-red-50: hsl(0.45, 100%, 98.34%);\n@nsw-aboriginal-red-100: hsl(0.31, 100%, 96.31%);\n@nsw-aboriginal-red-150: hsl(0.16, 96.42%, 94.24%);\n@nsw-aboriginal-red-200: hsl(360, 90%, 92.16%);\n@nsw-aboriginal-red-250: hsl(0.23, 91.24%, 90.28%);\n@nsw-aboriginal-red-300: hsl(0.45, 91.36%, 88.35%);\n@nsw-aboriginal-red-350: hsl(0.65, 90.86%, 86.36%);\n@nsw-aboriginal-red-400: hsl(0.83, 90%, 84.31%);\n@nsw-aboriginal-red-450: hsl(1.95, 86.73%, 77.32%);\n@nsw-aboriginal-red-500: hsl(2.8, 82.84%, 69.6%);\n@nsw-aboriginal-red-550: hsl(3.23, 79.15%, 60.92%);\n@nsw-aboriginal-red-600: hsl(3.05, 77.87%, 49.61%);\n@nsw-aboriginal-red-650: hsl(2.8, 80.26%, 44.7%);\n@nsw-aboriginal-red-700: hsl(2.5, 83.29%, 39.86%);\n@nsw-aboriginal-red-750: hsl(2.1, 87.31%, 35.06%);\n@nsw-aboriginal-red-800: hsl(1.26, 92.26%, 30.39%);\n@nsw-aboriginal-red-850: hsl(359.74, 99.82%, 22.68%);\n@nsw-aboriginal-red-900: hsl(358.63, 100%, 15.69%);\n@nsw-aboriginal-red-950: hsl(357.82, 100%, 9.76%);\n@nsw-aboriginal-orange-50: hsl(22.11, 100%, 96.57%);\n@nsw-aboriginal-orange-100: hsl(22.19, 93.98%, 93.1%);\n@nsw-aboriginal-orange-150: hsl(22.28, 87.05%, 89.61%);\n@nsw-aboriginal-orange-200: hsl(22.37, 83.1%, 86.08%);\n@nsw-aboriginal-orange-250: hsl(22.42, 84.33%, 82.75%);\n@nsw-aboriginal-orange-300: hsl(22.48, 84.74%, 79.37%);\n@nsw-aboriginal-orange-350: hsl(22.56, 84.7%, 75.91%);\n@nsw-aboriginal-orange-400: hsl(22.69, 84.4%, 72.35%);\n@nsw-aboriginal-orange-450: hsl(21.88, 85.61%, 67.77%);\n@nsw-aboriginal-orange-500: hsl(21.18, 86.15%, 63.01%);\n@nsw-aboriginal-orange-550: hsl(20.78, 86.28%, 57.76%);\n@nsw-aboriginal-orange-600: hsl(21.74, 86.51%, 50.59%);\n@nsw-aboriginal-orange-650: hsl(20.61, 86.17%, 44.61%);\n@nsw-aboriginal-orange-700: hsl(19.56, 89.48%, 38.49%);\n@nsw-aboriginal-orange-750: hsl(18.46, 94.45%, 32.41%);\n@nsw-aboriginal-orange-800: hsl(16.76, 100%, 26.67%);\n@nsw-aboriginal-orange-850: hsl(15.47, 100%, 20.07%);\n@nsw-aboriginal-orange-900: hsl(12.18, 100%, 14.2%);\n@nsw-aboriginal-orange-950: hsl(6.72, 100%, 8.94%);\n@nsw-aboriginal-brown-50: hsl(23.71, 74.46%, 95.12%);\n@nsw-aboriginal-brown-100: hsl(23.8, 62.46%, 90.28%);\n@nsw-aboriginal-brown-150: hsl(23.89, 58.05%, 85.44%);\n@nsw-aboriginal-brown-200: hsl(24, 55.56%, 80.59%);\n@nsw-aboriginal-brown-250: hsl(23.94, 55.92%, 75.8%);\n@nsw-aboriginal-brown-300: hsl(23.91, 55.95%, 70.98%);\n@nsw-aboriginal-brown-350: hsl(23.92, 55.79%, 66.12%);\n@nsw-aboriginal-brown-400: hsl(24, 55.56%, 61.18%);\n@nsw-aboriginal-brown-450: hsl(22.67, 49.07%, 55.96%);\n@nsw-aboriginal-brown-500: hsl(21.29, 43.84%, 50.82%);\n@nsw-aboriginal-brown-550: hsl(19.86, 46.79%, 45.77%);\n@nsw-aboriginal-brown-600: hsl(18.33, 51.92%, 40.78%);\n@nsw-aboriginal-brown-650: hsl(18.72, 56.45%, 34.86%);\n@nsw-aboriginal-brown-700: hsl(19.21, 62.79%, 29.04%);\n@nsw-aboriginal-brown-750: hsl(19.97, 72.56%, 23.3%);\n@nsw-aboriginal-brown-800: hsl(21, 88.89%, 17.65%);\n@nsw-aboriginal-brown-850: hsl(19.73, 95.19%, 12.97%);\n@nsw-aboriginal-brown-900: hsl(16.27, 100%, 8.82%);\n@nsw-aboriginal-brown-950: hsl(10.45, 100%, 5.14%);\n@nsw-aboriginal-yellow-50: hsl(45.72, 100%, 96.78%);\n@nsw-aboriginal-yellow-100: hsl(45.63, 100%, 94.1%);\n@nsw-aboriginal-yellow-150: hsl(45.57, 100%, 91.38%);\n@nsw-aboriginal-yellow-200: hsl(45.52, 100%, 88.63%);\n@nsw-aboriginal-yellow-250: hsl(45.68, 99.59%, 85.94%);\n@nsw-aboriginal-yellow-300: hsl(45.86, 99.15%, 83.16%);\n@nsw-aboriginal-yellow-350: hsl(46.07, 98.71%, 80.28%);\n@nsw-aboriginal-yellow-400: hsl(46.32, 98.28%, 77.25%);\n@nsw-aboriginal-yellow-450: hsl(42.77, 97.91%, 72.64%);\n@nsw-aboriginal-yellow-500: hsl(39.92, 98.26%, 68.02%);\n@nsw-aboriginal-yellow-550: hsl(37.69, 98.75%, 63.17%);\n@nsw-aboriginal-yellow-600: hsl(36.28, 99.08%, 57.45%);\n@nsw-aboriginal-yellow-650: hsl(37.45, 77.64%, 49.26%);\n@nsw-aboriginal-yellow-700: hsl(38.69, 83.35%, 41.35%);\n@nsw-aboriginal-yellow-750: hsl(40.07, 91.76%, 33.66%);\n@nsw-aboriginal-yellow-800: hsl(41.17, 100%, 26.86%);\n@nsw-aboriginal-yellow-850: hsl(41.1, 100%, 19.64%);\n@nsw-aboriginal-yellow-900: hsl(40.13, 100%, 13.55%);\n@nsw-aboriginal-yellow-950: hsl(37.35, 100%, 8.33%);\n@nsw-aboriginal-green-50: hsl(94.61, 37.03%, 96.34%);\n@nsw-aboriginal-green-100: hsl(94.51, 32.21%, 92.9%);\n@nsw-aboriginal-green-150: hsl(94.4, 30.49%, 89.48%);\n@nsw-aboriginal-green-200: hsl(94.29, 29.58%, 86.08%);\n@nsw-aboriginal-green-250: hsl(94.5, 29.43%, 82.62%);\n@nsw-aboriginal-green-300: hsl(94.72, 29.3%, 79.18%);\n@nsw-aboriginal-green-350: hsl(94.92, 29.18%, 75.76%);\n@nsw-aboriginal-green-400: hsl(95.12, 29.08%, 72.35%);\n@nsw-aboriginal-green-450: hsl(93.46, 30.08%, 65.88%);\n@nsw-aboriginal-green-500: hsl(91.63, 30.85%, 59.29%);\n@nsw-aboriginal-green-550: hsl(89.55, 31.61%, 52.5%);\n@nsw-aboriginal-green-600: hsl(87.03, 39.39%, 45.29%);\n@nsw-aboriginal-green-650: hsl(97.99, 35.67%, 41.28%);\n@nsw-aboriginal-green-700: hsl(111.48, 32.13%, 36.95%);\n@nsw-aboriginal-green-750: hsl(127.58, 34.41%, 30.98%);\n@nsw-aboriginal-green-800: hsl(140.73, 45.45%, 23.73%);\n@nsw-aboriginal-green-850: hsl(141.23, 51.5%, 17.2%);\n@nsw-aboriginal-green-900: hsl(142.1, 64.01%, 11%);\n@nsw-aboriginal-green-950: hsl(139.39, 83.32%, 5.75%);\n@nsw-aboriginal-blue-50: hsl(189.24, 57.11%, 95.67%);\n@nsw-aboriginal-blue-100: hsl(189.24, 49.64%, 91.57%);\n@nsw-aboriginal-blue-150: hsl(189.24, 47.11%, 87.45%);\n@nsw-aboriginal-blue-200: hsl(189.23, 45.88%, 83.33%);\n@nsw-aboriginal-blue-250: hsl(189.29, 45.53%, 79.28%);\n@nsw-aboriginal-blue-300: hsl(189.34, 45.39%, 75.19%);\n@nsw-aboriginal-blue-350: hsl(189.36, 45.41%, 71.06%);\n@nsw-aboriginal-blue-400: hsl(189.35, 45.56%, 66.86%);\n@nsw-aboriginal-blue-450: hsl(192.66, 41.82%, 57.86%);\n@nsw-aboriginal-blue-500: hsl(195.5, 40.89%, 49.12%);\n@nsw-aboriginal-blue-550: hsl(197.85, 55.74%, 40.47%);\n@nsw-aboriginal-blue-600: hsl(199.09, 83.54%, 30.98%);\n@nsw-aboriginal-blue-650: hsl(203.84, 73.26%, 29.5%);\n@nsw-aboriginal-blue-700: hsl(208.96, 66.46%, 27.09%);\n@nsw-aboriginal-blue-750: hsl(214.68, 61.55%, 24.07%);\n@nsw-aboriginal-blue-800: hsl(221.31, 58.1%, 20.59%);\n@nsw-aboriginal-blue-850: hsl(221.4, 64.27%, 15.08%);\n@nsw-aboriginal-blue-900: hsl(222.04, 74.71%, 9.95%);\n@nsw-aboriginal-blue-950: hsl(227.14, 84.88%, 5.65%);\n@nsw-aboriginal-purple-50: hsl(310.68, 42.61%, 96.28%);\n@nsw-aboriginal-purple-100: hsl(310.46, 34.93%, 92.41%);\n@nsw-aboriginal-purple-150: hsl(310.24, 32.24%, 88.56%);\n@nsw-aboriginal-purple-200: hsl(310, 30.77%, 84.71%);\n@nsw-aboriginal-purple-250: hsl(309.75, 30.82%, 80.93%);\n@nsw-aboriginal-purple-300: hsl(309.5, 30.72%, 77.16%);\n@nsw-aboriginal-purple-350: hsl(309.22, 30.55%, 73.39%);\n@nsw-aboriginal-purple-400: hsl(308.94, 30.32%, 69.61%);\n@nsw-aboriginal-purple-450: hsl(308.5, 27.72%, 64.31%);\n@nsw-aboriginal-purple-500: hsl(308.03, 25.74%, 59.05%);\n@nsw-aboriginal-purple-550: hsl(307.53, 24.18%, 53.83%);\n@nsw-aboriginal-purple-600: hsl(307, 24.19%, 48.63%);\n@nsw-aboriginal-purple-650: hsl(307.56, 25.08%, 41.48%);\n@nsw-aboriginal-purple-700: hsl(308.1, 26.24%, 34.55%);\n@nsw-aboriginal-purple-750: hsl(308.61, 27.86%, 27.83%);\n@nsw-aboriginal-purple-800: hsl(309.09, 30.28%, 21.37%);\n@nsw-aboriginal-purple-850: hsl(308.99, 33.57%, 15.63%);\n@nsw-aboriginal-purple-900: hsl(308.83, 40.05%, 10.18%);\n@nsw-aboriginal-purple-950: hsl(308.92, 54.82%, 5.21%);\n";
-
-// src/less/colors/global/oklch.less
-var oklch_exports5 = {};
-__export(oklch_exports5, {
-  default: () => oklch_default3
-});
-var oklch_default3 = "@nsw-grey-50: oklch(0.9850175274112574 0 0);\n@nsw-grey-100: oklch(0.9700350548225147 0 0);\n@nsw-grey-150: oklch(0.9550525822337722 0 0);\n@nsw-grey-200: oklch(0.9400701096450296 0 0);\n@nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n@nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n@nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n@nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n@nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n@nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n@nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n@nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n@nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n@nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n@nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n@nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n@nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n@nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n@nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n@nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);\n@nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);\n@nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);\n@nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);\n@nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);\n@nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);\n@nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);\n@nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);\n@nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);\n@nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);\n@nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);\n@nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);\n@nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);\n@nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);\n@nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);\n@nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);\n@nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);\n@nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);\n@nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);\n@nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);\n@nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);\n@nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);\n@nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);\n@nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);\n@nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);\n@nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);\n@nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);\n@nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);\n@nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);\n@nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);\n@nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);\n@nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);\n@nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);\n@nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);\n@nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);\n@nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);\n@nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);\n@nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);\n@nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n@nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n@nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n@nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n@nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n@nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n@nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n@nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n@nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n@nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n@nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n@nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n@nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n@nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n@nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n@nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n@nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n@nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n@nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n@nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);\n@nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);\n@nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);\n@nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);\n@nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);\n@nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);\n@nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);\n@nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);\n@nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);\n@nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);\n@nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);\n@nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);\n@nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);\n@nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);\n@nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);\n@nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);\n@nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);\n@nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);\n@nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);\n@nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);\n@nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);\n@nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);\n@nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);\n@nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);\n@nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);\n@nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);\n@nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);\n@nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);\n@nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);\n@nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);\n@nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);\n@nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);\n@nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);\n@nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);\n@nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);\n@nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);\n@nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);\n@nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);\n@nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n@nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n@nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n@nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n@nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n@nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n@nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n@nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n@nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n@nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n@nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n@nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n@nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n@nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n@nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n@nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n@nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n@nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n@nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n@nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);\n@nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);\n@nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);\n@nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);\n@nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);\n@nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);\n@nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);\n@nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);\n@nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);\n@nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);\n@nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);\n@nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);\n@nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);\n@nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);\n@nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);\n@nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);\n@nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);\n@nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);\n@nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);\n@nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);\n@nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);\n@nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);\n@nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);\n@nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);\n@nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);\n@nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);\n@nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);\n@nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);\n@nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);\n@nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);\n@nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);\n@nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);\n@nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);\n@nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);\n@nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);\n@nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);\n@nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);\n@nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);\n@nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);\n@nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);\n@nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);\n@nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);\n@nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);\n@nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);\n@nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);\n@nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);\n@nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);\n@nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);\n@nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);\n@nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);\n@nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);\n@nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);\n@nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);\n@nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);\n@nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);\n@nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);\n@nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);\n@nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);\n@nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);\n@nsw-aboriginal-grey-150: oklch(0.9374064828896956 0.0035614326327228986 78.29695339492076);\n@nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);\n@nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);\n@nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);\n@nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);\n@nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);\n@nsw-aboriginal-grey-450: oklch(0.7350703829754051 0.006541023270606863 56.288635534075496);\n@nsw-aboriginal-grey-500: oklch(0.6398913199703631 0.004360682180404575 56.288635534075496);\n@nsw-aboriginal-grey-550: oklch(0.544712256965321 0.0021803410902022876 56.288635534075496);\n@nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 none);\n@nsw-aboriginal-grey-650: oklch(0.4114406365077532 0 none);\n@nsw-aboriginal-grey-700: oklch(0.3733480790552275 0 none);\n@nsw-aboriginal-grey-750: oklch(0.3352555216027018 0 none);\n@nsw-aboriginal-grey-800: oklch(0.29716296415017607 0 none);\n@nsw-aboriginal-grey-850: oklch(0.24515944542389526 0 none);\n@nsw-aboriginal-grey-900: oklch(0.19315592669761444 0 none);\n@nsw-aboriginal-grey-950: oklch(0.14115240797133363 0 none);\n@nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);\n@nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);\n@nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);\n@nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);\n@nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);\n@nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);\n@nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);\n@nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);\n@nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);\n@nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);\n@nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);\n@nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);\n@nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);\n@nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);\n@nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);\n@nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);\n@nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);\n@nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);\n@nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);\n@nsw-aboriginal-orange-50: oklch(0.9738855126989008 0.016602591530904584 52.55546216454561);\n@nsw-aboriginal-orange-100: oklch(0.9477710253978014 0.028096693359992375 52.55546216454561);\n@nsw-aboriginal-orange-150: oklch(0.9216565380967021 0.039590795189080166 52.55546216454561);\n@nsw-aboriginal-orange-200: oklch(0.8955420507956029 0.05108489701816796 52.55546216454561);\n@nsw-aboriginal-orange-250: oklch(0.8714459985514821 0.06477537243882539 52.40983339193463);\n@nsw-aboriginal-orange-300: oklch(0.8473499463073613 0.07846584785948284 52.264204619323664);\n@nsw-aboriginal-orange-350: oklch(0.8232538940632406 0.09215632328014028 52.11857584671269);\n@nsw-aboriginal-orange-400: oklch(0.7991578418191198 0.10584679870079772 51.97294707410171);\n@nsw-aboriginal-orange-450: oklch(0.7660019575057643 0.12652886278666134 49.87887684512948);\n@nsw-aboriginal-orange-500: oklch(0.7328460731924087 0.14721092687252496 47.784806616157255);\n@nsw-aboriginal-orange-550: oklch(0.6996901888790532 0.16789299095838855 45.69073638718503);\n@nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);\n@nsw-aboriginal-orange-650: oklch(0.6048689295059245 0.17619193861850896 42.06662366880586);\n@nsw-aboriginal-orange-700: oklch(0.5432035544461513 0.16380882219276577 40.53658117939892);\n@nsw-aboriginal-orange-750: oklch(0.48153817938637805 0.15142570576702258 39.00653868999199);\n@nsw-aboriginal-orange-800: oklch(0.41987280432660484 0.13904258934127936 37.47649620058505);\n@nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);\n@nsw-aboriginal-orange-900: oklch(0.27291732281229314 0.09732981253889555 37.47649620058505);\n@nsw-aboriginal-orange-950: oklch(0.1994395820551373 0.07647342413770365 37.47649620058505);\n@nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);\n@nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);\n@nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);\n@nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);\n@nsw-aboriginal-brown-250: oklch(0.819495130372929 0.060854957675237686 55.274819963495716);\n@nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);\n@nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);\n@nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);\n@nsw-aboriginal-brown-450: oklch(0.6658642886991106 0.10220482966257746 51.472089235271014);\n@nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);\n@nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);\n@nsw-aboriginal-brown-600: oklch(0.5259341610634539 0.10991146182440867 43.512391998616614);\n@nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);\n@nsw-aboriginal-brown-700: oklch(0.42307648380765683 0.09792470862615782 44.09883922975184);\n@nsw-aboriginal-brown-750: oklch(0.37164764517975835 0.09193133202703241 44.39206284531945);\n@nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);\n@nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);\n@nsw-aboriginal-brown-900: oklch(0.20814222425870887 0.06015656879953489 44.68528646088706);\n@nsw-aboriginal-brown-950: oklch(0.15210393311213338 0.04726587548534884 44.68528646088706);\n@nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);\n@nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);\n@nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);\n@nsw-aboriginal-yellow-200: oklch(0.9583504843687841 0.05877873378798942 92.48002960723814);\n@nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);\n@nsw-aboriginal-yellow-300: oklch(0.9399189898584743 0.08519720131855335 92.98100357955929);\n@nsw-aboriginal-yellow-350: oklch(0.9307032426033194 0.09840643508383531 93.23149056571987);\n@nsw-aboriginal-yellow-400: oklch(0.9214874953481644 0.11161566884911728 93.48197755188043);\n@nsw-aboriginal-yellow-450: oklch(0.8910195189839808 0.12436290150788638 87.85568397462671);\n@nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);\n@nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);\n@nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);\n@nsw-aboriginal-yellow-650: oklch(0.7283788119804733 0.14880860016855085 72.64225880919277);\n@nsw-aboriginal-yellow-700: oklch(0.6571420340695165 0.13501260085290803 74.30771437551996);\n@nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);\n@nsw-aboriginal-yellow-800: oklch(0.5146684782476031 0.10742060222162236 77.63862550817437);\n@nsw-aboriginal-yellow-850: oklch(0.42460149455427254 0.09130751188837902 77.63862550817437);\n@nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);\n@nsw-aboriginal-yellow-950: oklch(0.24446752716761147 0.059081331221892304 77.63862550817437);\n@nsw-aboriginal-green-50: oklch(0.9775400515432829 0.010033373009012674 131.56364967590204);\n@nsw-aboriginal-green-100: oklch(0.9550801030865659 0.016979554322944526 131.56364967590204);\n@nsw-aboriginal-green-150: oklch(0.9326201546298487 0.023925735636876375 131.56364967590204);\n@nsw-aboriginal-green-200: oklch(0.9101602061731316 0.030871916950808227 131.56364967590204);\n@nsw-aboriginal-green-250: oklch(0.8874934999312177 0.03857982981011093 131.78279512830795);\n@nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);\n@nsw-aboriginal-green-350: oklch(0.8421600874473898 0.053995655528716345 132.22108603311983);\n@nsw-aboriginal-green-400: oklch(0.8194933812054759 0.061703568388019055 132.44023148552574);\n@nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);\n@nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);\n@nsw-aboriginal-green-550: oklch(0.6989797391259933 0.11210775194181792 130.29024651396378);\n@nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);\n@nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);\n@nsw-aboriginal-green-700: oklch(0.5360283164657826 0.10630157240635738 140.91243379535533);\n@nsw-aboriginal-green-750: oklch(0.47463821214892454 0.09499778537966062 146.58185826464475);\n@nsw-aboriginal-green-800: oklch(0.41324810783206634 0.08369399835296387 152.25128273393418);\n@nsw-aboriginal-green-850: oklch(0.3409296889614547 0.07113989860001929 152.25128273393418);\n@nsw-aboriginal-green-900: oklch(0.2686112700908431 0.05858579884707471 152.25128273393418);\n@nsw-aboriginal-green-950: oklch(0.1962928512202315 0.04603169909413013 152.25128273393418);\n@nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);\n@nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);\n@nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);\n@nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);\n@nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);\n@nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);\n@nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);\n@nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);\n@nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);\n@nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);\n@nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);\n@nsw-aboriginal-blue-600: oklch(0.48681410550334053 0.10128236457958428 236.48205409186096);\n@nsw-aboriginal-blue-650: oklch(0.43774688628471914 0.09607362828959434 243.31473157010598);\n@nsw-aboriginal-blue-700: oklch(0.3886796670660978 0.09086489199960439 250.147409048351);\n@nsw-aboriginal-blue-750: oklch(0.3396124478474764 0.08565615570961443 256.980086526596);\n@nsw-aboriginal-blue-800: oklch(0.290545228628855 0.0804474194196245 263.81276400484103);\n@nsw-aboriginal-blue-850: oklch(0.23969981361880538 0.06838030650668082 263.81276400484103);\n@nsw-aboriginal-blue-900: oklch(0.18885439860875575 0.05631319359373715 263.81276400484103);\n@nsw-aboriginal-blue-950: oklch(0.13800898359870611 0.04424608068079347 263.81276400484103);\n@nsw-aboriginal-purple-50: oklch(0.9677519235816936 0.01225423399018933 331.39469318233586);\n@nsw-aboriginal-purple-100: oklch(0.9355038471633873 0.020737934444935786 331.39469318233586);\n@nsw-aboriginal-purple-150: oklch(0.903255770745081 0.02922163489968224 331.39469318233586);\n@nsw-aboriginal-purple-200: oklch(0.8710076943267746 0.0377053353544287 331.39469318233586);\n@nsw-aboriginal-purple-250: oklch(0.8389191100209297 0.04764157951006853 331.4172179039917);\n@nsw-aboriginal-purple-300: oklch(0.8068305257150847 0.05757782366570837 331.4397426256475);\n@nsw-aboriginal-purple-350: oklch(0.7747419414092399 0.06751406782134821 331.46226734730334);\n@nsw-aboriginal-purple-400: oklch(0.742653357103395 0.07745031197698804 331.48479206895917);\n@nsw-aboriginal-purple-450: oklch(0.6987279730890662 0.08461715270888535 331.3997569775923);\n@nsw-aboriginal-purple-500: oklch(0.6548025890747375 0.09178399344078267 331.31472188622536);\n@nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);\n@nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);\n@nsw-aboriginal-purple-650: oklch(0.5059681066477375 0.09597195429905764 331.53840819994554);\n@nsw-aboriginal-purple-700: oklch(0.4449843922493949 0.08582623369353798 331.93216469639947);\n@nsw-aboriginal-purple-750: oklch(0.38400067785105235 0.07568051308801832 332.32592119285346);\n@nsw-aboriginal-purple-800: oklch(0.3230169634527098 0.06553479248249865 332.7196776893074);\n@nsw-aboriginal-purple-850: oklch(0.2664889948484856 0.05570457361012385 332.7196776893074);\n@nsw-aboriginal-purple-900: oklch(0.20996102624426138 0.04587435473774905 332.7196776893074);\n@nsw-aboriginal-purple-950: oklch(0.15343305764003715 0.036044135865374256 332.7196776893074);\n";
-
-// src/less/colors/global/rgb.less
-var rgb_exports5 = {};
-__export(rgb_exports5, {
-  default: () => rgb_default3
-});
-var rgb_default3 = "@nsw-grey-50: rgb(250, 250, 250);\n@nsw-grey-100: rgb(245, 245, 245);\n@nsw-grey-150: rgb(240, 240, 240);\n@nsw-grey-200: rgb(235, 235, 235);\n@nsw-grey-250: rgb(227, 229, 230);\n@nsw-grey-300: rgb(220, 223, 224);\n@nsw-grey-350: rgb(212, 217, 219);\n@nsw-grey-400: rgb(205, 211, 214);\n@nsw-grey-450: rgb(170, 176, 180);\n@nsw-grey-500: rgb(136, 143, 146);\n@nsw-grey-550: rgb(104, 111, 114);\n@nsw-grey-600: rgb(73, 80, 84);\n@nsw-grey-650: rgb(63, 69, 73);\n@nsw-grey-700: rgb(53, 59, 63);\n@nsw-grey-750: rgb(43, 49, 53);\n@nsw-grey-800: rgb(34, 39, 43);\n@nsw-grey-850: rgb(24, 28, 31);\n@nsw-grey-900: rgb(14, 17, 19);\n@nsw-grey-950: rgb(5, 7, 9);\n@nsw-green-50: rgb(245, 255, 246);\n@nsw-green-100: rgb(236, 253, 238);\n@nsw-green-150: rgb(228, 252, 231);\n@nsw-green-200: rgb(219, 250, 223);\n@nsw-green-250: rgb(207, 247, 212);\n@nsw-green-300: rgb(194, 244, 201);\n@nsw-green-350: rgb(181, 240, 190);\n@nsw-green-400: rgb(168, 237, 179);\n@nsw-green-450: rgb(138, 220, 152);\n@nsw-green-500: rgb(106, 204, 125);\n@nsw-green-550: rgb(69, 187, 98);\n@nsw-green-600: rgb(0, 170, 69);\n@nsw-green-650: rgb(7, 142, 50);\n@nsw-green-700: rgb(7, 115, 32);\n@nsw-green-750: rgb(3, 89, 15);\n@nsw-green-800: rgb(0, 64, 0);\n@nsw-green-850: rgb(0, 48, 0);\n@nsw-green-900: rgb(0, 32, 0);\n@nsw-green-950: rgb(0, 17, 0);\n@nsw-teal-50: rgb(242, 251, 250);\n@nsw-teal-100: rgb(231, 247, 245);\n@nsw-teal-150: rgb(220, 242, 239);\n@nsw-teal-200: rgb(209, 238, 234);\n@nsw-teal-250: rgb(193, 234, 231);\n@nsw-teal-300: rgb(175, 229, 229);\n@nsw-teal-350: rgb(158, 224, 229);\n@nsw-teal-400: rgb(140, 219, 229);\n@nsw-teal-450: rgb(117, 196, 207);\n@nsw-teal-500: rgb(94, 172, 185);\n@nsw-teal-550: rgb(70, 150, 163);\n@nsw-teal-600: rgb(46, 128, 142);\n@nsw-teal-650: rgb(37, 111, 123);\n@nsw-teal-700: rgb(28, 95, 105);\n@nsw-teal-750: rgb(20, 78, 88);\n@nsw-teal-800: rgb(11, 63, 71);\n@nsw-teal-850: rgb(4, 47, 53);\n@nsw-teal-900: rgb(1, 31, 36);\n@nsw-teal-950: rgb(0, 17, 20);\n@nsw-blue-50: rgb(240, 251, 255);\n@nsw-blue-100: rgb(228, 246, 255);\n@nsw-blue-150: rgb(215, 242, 254);\n@nsw-blue-200: rgb(203, 237, 253);\n@nsw-blue-250: rgb(188, 234, 254);\n@nsw-blue-300: rgb(173, 231, 255);\n@nsw-blue-350: rgb(157, 227, 255);\n@nsw-blue-400: rgb(140, 224, 255);\n@nsw-blue-450: rgb(90, 201, 255);\n@nsw-blue-500: rgb(38, 174, 255);\n@nsw-blue-550: rgb(0, 143, 255);\n@nsw-blue-600: rgb(20, 108, 253);\n@nsw-blue-650: rgb(12, 90, 212);\n@nsw-blue-700: rgb(5, 72, 173);\n@nsw-blue-750: rgb(2, 54, 136);\n@nsw-blue-800: rgb(0, 38, 100);\n@nsw-blue-850: rgb(0, 26, 77);\n@nsw-blue-900: rgb(0, 16, 55);\n@nsw-blue-950: rgb(0, 6, 34);\n@nsw-purple-50: rgb(249, 247, 255);\n@nsw-purple-100: rgb(242, 240, 255);\n@nsw-purple-150: rgb(236, 232, 254);\n@nsw-purple-200: rgb(230, 225, 253);\n@nsw-purple-250: rgb(224, 217, 254);\n@nsw-purple-300: rgb(218, 208, 254);\n@nsw-purple-350: rgb(212, 200, 255);\n@nsw-purple-400: rgb(206, 191, 255);\n@nsw-purple-450: rgb(186, 166, 252);\n@nsw-purple-500: rgb(166, 141, 249);\n@nsw-purple-550: rgb(147, 114, 245);\n@nsw-purple-600: rgb(128, 85, 241);\n@nsw-purple-650: rgb(114, 67, 207);\n@nsw-purple-700: rgb(100, 50, 174);\n@nsw-purple-750: rgb(84, 33, 142);\n@nsw-purple-800: rgb(68, 17, 112);\n@nsw-purple-850: rgb(51, 8, 86);\n@nsw-purple-900: rgb(35, 2, 62);\n@nsw-purple-950: rgb(19, 0, 39);\n@nsw-fuchsia-50: rgb(255, 246, 253);\n@nsw-fuchsia-100: rgb(255, 238, 249);\n@nsw-fuchsia-150: rgb(254, 230, 246);\n@nsw-fuchsia-200: rgb(253, 222, 242);\n@nsw-fuchsia-250: rgb(251, 212, 239);\n@nsw-fuchsia-300: rgb(249, 201, 235);\n@nsw-fuchsia-350: rgb(247, 191, 233);\n@nsw-fuchsia-400: rgb(244, 181, 230);\n@nsw-fuchsia-450: rgb(239, 150, 218);\n@nsw-fuchsia-500: rgb(233, 117, 204);\n@nsw-fuchsia-550: rgb(225, 80, 190);\n@nsw-fuchsia-600: rgb(217, 18, 174);\n@nsw-fuchsia-650: rgb(187, 12, 148);\n@nsw-fuchsia-700: rgb(157, 6, 123);\n@nsw-fuchsia-750: rgb(129, 2, 100);\n@nsw-fuchsia-800: rgb(101, 0, 77);\n@nsw-fuchsia-850: rgb(77, 0, 58);\n@nsw-fuchsia-900: rgb(55, 0, 40);\n@nsw-fuchsia-950: rgb(34, 0, 23);\n@nsw-red-50: rgb(255, 248, 249);\n@nsw-red-100: rgb(255, 242, 244);\n@nsw-red-150: rgb(255, 236, 239);\n@nsw-red-200: rgb(255, 230, 234);\n@nsw-red-250: rgb(255, 219, 224);\n@nsw-red-300: rgb(255, 207, 214);\n@nsw-red-350: rgb(255, 196, 204);\n@nsw-red-400: rgb(255, 184, 193);\n@nsw-red-450: rgb(248, 151, 162);\n@nsw-red-500: rgb(239, 117, 129);\n@nsw-red-550: rgb(228, 79, 95);\n@nsw-red-600: rgb(215, 21, 58);\n@nsw-red-650: rgb(185, 14, 50);\n@nsw-red-700: rgb(155, 7, 42);\n@nsw-red-750: rgb(126, 3, 34);\n@nsw-red-800: rgb(99, 0, 25);\n@nsw-red-850: rgb(76, 0, 16);\n@nsw-red-900: rgb(54, 0, 8);\n@nsw-red-950: rgb(33, 0, 3);\n@nsw-orange-50: rgb(255, 250, 246);\n@nsw-orange-100: rgb(255, 246, 238);\n@nsw-orange-150: rgb(254, 241, 231);\n@nsw-orange-200: rgb(253, 237, 223);\n@nsw-orange-250: rgb(254, 229, 206);\n@nsw-orange-300: rgb(255, 221, 189);\n@nsw-orange-350: rgb(255, 214, 171);\n@nsw-orange-400: rgb(255, 206, 153);\n@nsw-orange-450: rgb(253, 182, 120);\n@nsw-orange-500: rgb(251, 157, 88);\n@nsw-orange-550: rgb(247, 129, 57);\n@nsw-orange-600: rgb(243, 99, 27);\n@nsw-orange-650: rgb(219, 81, 21);\n@nsw-orange-700: rgb(195, 63, 14);\n@nsw-orange-750: rgb(171, 46, 6);\n@nsw-orange-800: rgb(148, 27, 0);\n@nsw-orange-850: rgb(115, 15, 0);\n@nsw-orange-900: rgb(83, 4, 0);\n@nsw-orange-950: rgb(53, 0, 0);\n@nsw-yellow-50: rgb(255, 252, 240);\n@nsw-yellow-100: rgb(255, 250, 229);\n@nsw-yellow-150: rgb(255, 247, 218);\n@nsw-yellow-200: rgb(255, 244, 207);\n@nsw-yellow-250: rgb(255, 241, 194);\n@nsw-yellow-300: rgb(254, 238, 181);\n@nsw-yellow-350: rgb(254, 234, 168);\n@nsw-yellow-400: rgb(253, 231, 154);\n@nsw-yellow-450: rgb(251, 218, 128);\n@nsw-yellow-500: rgb(250, 205, 99);\n@nsw-yellow-550: rgb(250, 190, 66);\n@nsw-yellow-600: rgb(250, 175, 5);\n@nsw-yellow-650: rgb(212, 148, 3);\n@nsw-yellow-700: rgb(175, 122, 1);\n@nsw-yellow-750: rgb(139, 96, 0);\n@nsw-yellow-800: rgb(105, 72, 0);\n@nsw-yellow-850: rgb(80, 53, 0);\n@nsw-yellow-900: rgb(57, 36, 0);\n@nsw-yellow-950: rgb(34, 19, 0);\n@nsw-brown-50: rgb(251, 248, 244);\n@nsw-brown-100: rgb(246, 241, 234);\n@nsw-brown-150: rgb(242, 234, 225);\n@nsw-brown-200: rgb(237, 227, 215);\n@nsw-brown-250: rgb(236, 222, 206);\n@nsw-brown-300: rgb(234, 218, 198);\n@nsw-brown-350: rgb(233, 213, 189);\n@nsw-brown-400: rgb(232, 208, 181);\n@nsw-brown-450: rgb(219, 191, 159);\n@nsw-brown-500: rgb(207, 174, 137);\n@nsw-brown-550: rgb(194, 157, 115);\n@nsw-brown-600: rgb(182, 141, 93);\n@nsw-brown-650: rgb(156, 118, 75);\n@nsw-brown-700: rgb(130, 96, 58);\n@nsw-brown-750: rgb(106, 75, 41);\n@nsw-brown-800: rgb(82, 55, 25);\n@nsw-brown-850: rgb(62, 40, 15);\n@nsw-brown-900: rgb(43, 26, 7);\n@nsw-brown-950: rgb(25, 13, 2);\n@nsw-aboriginal-grey-50: rgb(249, 248, 247);\n@nsw-aboriginal-grey-100: rgb(242, 241, 239);\n@nsw-aboriginal-grey-150: rgb(235, 234, 232);\n@nsw-aboriginal-grey-200: rgb(229, 227, 224);\n@nsw-aboriginal-grey-250: rgb(223, 220, 216);\n@nsw-aboriginal-grey-300: rgb(216, 212, 209);\n@nsw-aboriginal-grey-350: rgb(210, 205, 201);\n@nsw-aboriginal-grey-400: rgb(204, 198, 194);\n@nsw-aboriginal-grey-450: rgb(173, 168, 165);\n@nsw-aboriginal-grey-500: rgb(142, 139, 138);\n@nsw-aboriginal-grey-550: rgb(113, 112, 111);\n@nsw-aboriginal-grey-600: rgb(85, 85, 85);\n@nsw-aboriginal-grey-650: rgb(75, 75, 75);\n@nsw-aboriginal-grey-700: rgb(64, 64, 64);\n@nsw-aboriginal-grey-750: rgb(55, 55, 55);\n@nsw-aboriginal-grey-800: rgb(45, 45, 45);\n@nsw-aboriginal-grey-850: rgb(32, 32, 32);\n@nsw-aboriginal-grey-900: rgb(20, 20, 20);\n@nsw-aboriginal-grey-950: rgb(9, 9, 9);\n@nsw-aboriginal-red-50: rgb(255, 245, 245);\n@nsw-aboriginal-red-100: rgb(255, 235, 235);\n@nsw-aboriginal-red-150: rgb(254, 226, 226);\n@nsw-aboriginal-red-200: rgb(253, 217, 217);\n@nsw-aboriginal-red-250: rgb(253, 208, 208);\n@nsw-aboriginal-red-300: rgb(252, 199, 198);\n@nsw-aboriginal-red-350: rgb(252, 189, 189);\n@nsw-aboriginal-red-400: rgb(251, 180, 179);\n@nsw-aboriginal-red-450: rgb(247, 150, 147);\n@nsw-aboriginal-red-500: rgb(242, 119, 113);\n@nsw-aboriginal-red-550: rgb(234, 85, 76);\n@nsw-aboriginal-red-600: rgb(225, 38, 28);\n@nsw-aboriginal-red-650: rgb(205, 31, 23);\n@nsw-aboriginal-red-700: rgb(186, 24, 17);\n@nsw-aboriginal-red-750: rgb(167, 17, 11);\n@nsw-aboriginal-red-800: rgb(149, 9, 6);\n@nsw-aboriginal-red-850: rgb(116, 0, 1);\n@nsw-aboriginal-red-900: rgb(84, 0, 0);\n@nsw-aboriginal-red-950: rgb(54, 0, 0);\n@nsw-aboriginal-orange-50: rgb(255, 244, 236);\n@nsw-aboriginal-orange-100: rgb(254, 233, 221);\n@nsw-aboriginal-orange-150: rgb(252, 223, 205);\n@nsw-aboriginal-orange-200: rgb(249, 212, 190);\n@nsw-aboriginal-orange-250: rgb(248, 202, 174);\n@nsw-aboriginal-orange-300: rgb(247, 191, 158);\n@nsw-aboriginal-orange-350: rgb(246, 181, 142);\n@nsw-aboriginal-orange-400: rgb(244, 170, 125);\n@nsw-aboriginal-orange-450: rgb(243, 154, 102);\n@nsw-aboriginal-orange-500: rgb(242, 137, 79);\n@nsw-aboriginal-orange-550: rgb(240, 119, 54);\n@nsw-aboriginal-orange-600: rgb(238, 99, 20);\n@nsw-aboriginal-orange-650: rgb(212, 83, 16);\n@nsw-aboriginal-orange-700: rgb(186, 68, 10);\n@nsw-aboriginal-orange-750: rgb(161, 53, 5);\n@nsw-aboriginal-orange-800: rgb(136, 38, 0);\n@nsw-aboriginal-orange-850: rgb(105, 25, 0);\n@nsw-aboriginal-orange-900: rgb(76, 13, 0);\n@nsw-aboriginal-orange-950: rgb(48, 3, 0);\n@nsw-aboriginal-brown-50: rgb(252, 241, 233);\n@nsw-aboriginal-brown-100: rgb(246, 227, 215);\n@nsw-aboriginal-brown-150: rgb(239, 213, 196);\n@nsw-aboriginal-brown-200: rgb(233, 200, 178);\n@nsw-aboriginal-brown-250: rgb(228, 186, 159);\n@nsw-aboriginal-brown-300: rgb(222, 173, 140);\n@nsw-aboriginal-brown-350: rgb(217, 159, 120);\n@nsw-aboriginal-brown-400: rgb(211, 145, 101);\n@nsw-aboriginal-brown-450: rgb(198, 129, 88);\n@nsw-aboriginal-brown-500: rgb(185, 114, 75);\n@nsw-aboriginal-brown-550: rgb(171, 98, 62);\n@nsw-aboriginal-brown-600: rgb(158, 83, 50);\n@nsw-aboriginal-brown-650: rgb(139, 70, 39);\n@nsw-aboriginal-brown-700: rgb(121, 57, 28);\n@nsw-aboriginal-brown-750: rgb(103, 45, 16);\n@nsw-aboriginal-brown-800: rgb(85, 33, 5);\n@nsw-aboriginal-brown-850: rgb(65, 22, 2);\n@nsw-aboriginal-brown-900: rgb(45, 12, 0);\n@nsw-aboriginal-brown-950: rgb(27, 4, 0);\n@nsw-aboriginal-yellow-50: rgb(255, 252, 238);\n@nsw-aboriginal-yellow-100: rgb(255, 248, 224);\n@nsw-aboriginal-yellow-150: rgb(255, 245, 211);\n@nsw-aboriginal-yellow-200: rgb(255, 241, 197);\n@nsw-aboriginal-yellow-250: rgb(255, 238, 183);\n@nsw-aboriginal-yellow-300: rgb(255, 235, 169);\n@nsw-aboriginal-yellow-350: rgb(254, 231, 155);\n@nsw-aboriginal-yellow-400: rgb(254, 228, 140);\n@nsw-aboriginal-yellow-450: rgb(254, 214, 117);\n@nsw-aboriginal-yellow-500: rgb(254, 200, 93);\n@nsw-aboriginal-yellow-550: rgb(254, 185, 68);\n@nsw-aboriginal-yellow-600: rgb(254, 169, 39);\n@nsw-aboriginal-yellow-650: rgb(223, 150, 28);\n@nsw-aboriginal-yellow-700: rgb(193, 131, 18);\n@nsw-aboriginal-yellow-750: rgb(165, 112, 7);\n@nsw-aboriginal-yellow-800: rgb(137, 94, 0);\n@nsw-aboriginal-yellow-850: rgb(105, 71, 0);\n@nsw-aboriginal-yellow-900: rgb(76, 48, 0);\n@nsw-aboriginal-yellow-950: rgb(47, 28, 0);\n@nsw-aboriginal-green-50: rgb(245, 249, 242);\n@nsw-aboriginal-green-100: rgb(236, 243, 231);\n@nsw-aboriginal-green-150: rgb(227, 236, 220);\n@nsw-aboriginal-green-200: rgb(218, 230, 209);\n@nsw-aboriginal-green-250: rgb(209, 224, 198);\n@nsw-aboriginal-green-300: rgb(199, 217, 186);\n@nsw-aboriginal-green-350: rgb(190, 211, 175);\n@nsw-aboriginal-green-400: rgb(181, 205, 164);\n@nsw-aboriginal-green-450: rgb(165, 194, 142);\n@nsw-aboriginal-green-500: rgb(149, 183, 119);\n@nsw-aboriginal-green-550: rgb(134, 172, 96);\n@nsw-aboriginal-green-600: rgb(120, 161, 70);\n@nsw-aboriginal-green-650: rgb(95, 143, 68);\n@nsw-aboriginal-green-700: rgb(73, 125, 64);\n@nsw-aboriginal-green-750: rgb(52, 106, 59);\n@nsw-aboriginal-green-800: rgb(33, 88, 52);\n@nsw-aboriginal-green-850: rgb(21, 66, 37);\n@nsw-aboriginal-green-900: rgb(10, 46, 23);\n@nsw-aboriginal-green-950: rgb(2, 27, 10);\n@nsw-aboriginal-blue-50: rgb(238, 248, 250);\n@nsw-aboriginal-blue-100: rgb(223, 241, 244);\n@nsw-aboriginal-blue-150: rgb(208, 233, 238);\n@nsw-aboriginal-blue-200: rgb(193, 226, 232);\n@nsw-aboriginal-blue-250: rgb(178, 219, 226);\n@nsw-aboriginal-blue-300: rgb(163, 212, 220);\n@nsw-aboriginal-blue-350: rgb(148, 204, 215);\n@nsw-aboriginal-blue-400: rgb(132, 197, 209);\n@nsw-aboriginal-blue-450: rgb(103, 174, 192);\n@nsw-aboriginal-blue-500: rgb(74, 150, 176);\n@nsw-aboriginal-blue-550: rgb(46, 127, 161);\n@nsw-aboriginal-blue-600: rgb(13, 103, 145);\n@nsw-aboriginal-blue-650: rgb(20, 87, 130);\n@nsw-aboriginal-blue-700: rgb(23, 71, 115);\n@nsw-aboriginal-blue-750: rgb(24, 55, 99);\n@nsw-aboriginal-blue-800: rgb(22, 41, 83);\n@nsw-aboriginal-blue-850: rgb(14, 29, 63);\n@nsw-aboriginal-blue-900: rgb(6, 18, 44);\n@nsw-aboriginal-blue-950: rgb(2, 7, 27);\n@nsw-aboriginal-purple-50: rgb(250, 241, 248);\n@nsw-aboriginal-purple-100: rgb(242, 229, 240);\n@nsw-aboriginal-purple-150: rgb(235, 216, 232);\n@nsw-aboriginal-purple-200: rgb(228, 204, 224);\n@nsw-aboriginal-purple-250: rgb(221, 191, 216);\n@nsw-aboriginal-purple-300: rgb(215, 179, 209);\n@nsw-aboriginal-purple-350: rgb(208, 166, 201);\n@nsw-aboriginal-purple-400: rgb(201, 154, 194);\n@nsw-aboriginal-purple-450: rgb(189, 139, 182);\n@nsw-aboriginal-purple-500: rgb(177, 124, 170);\n@nsw-aboriginal-purple-550: rgb(166, 109, 159);\n@nsw-aboriginal-purple-600: rgb(154, 94, 147);\n@nsw-aboriginal-purple-650: rgb(132, 79, 126);\n@nsw-aboriginal-purple-700: rgb(111, 65, 105);\n@nsw-aboriginal-purple-750: rgb(91, 51, 85);\n@nsw-aboriginal-purple-800: rgb(71, 38, 66);\n@nsw-aboriginal-purple-850: rgb(53, 26, 49);\n@nsw-aboriginal-purple-900: rgb(36, 16, 33);\n@nsw-aboriginal-purple-950: rgb(21, 6, 18);\n";
-
-// src/less/colors/themes/masterbrand/hex.less
+// src/js/colors/semantic/hex.js
 var hex_exports6 = {};
 __export(hex_exports6, {
-  default: () => hex_default4
+  danger: () => danger,
+  info: () => info,
+  success: () => success,
+  warning: () => warning
 });
-var hex_default4 = "@primary-50: #f0fbff;\n@primary-100: #e4f6ff;\n@primary-150: #d7f2fe;\n@primary-200: #cbedfd;\n@primary-250: #bceafe;\n@primary-300: #ade7ff;\n@primary-350: #9de3ff;\n@primary-400: #8ce0ff;\n@primary-450: #5ac9ff;\n@primary-500: #26aeff;\n@primary-550: #008fff;\n@primary-600: #146cfd;\n@primary-650: #0c5ad4;\n@primary-700: #0548ad;\n@primary-750: #023688;\n@primary-800: #002664;\n@primary-850: #001a4d;\n@primary-900: #001037;\n@primary-950: #000622;\n@accent-50: #fff8f9;\n@accent-100: #fff2f4;\n@accent-150: #ffecef;\n@accent-200: #ffe6ea;\n@accent-250: #ffdbe0;\n@accent-300: #ffcfd6;\n@accent-350: #ffc4cc;\n@accent-400: #ffb8c1;\n@accent-450: #f897a2;\n@accent-500: #ef7581;\n@accent-550: #e44f5f;\n@accent-600: #d7153a;\n@accent-650: #b90e32;\n@accent-700: #9b072a;\n@accent-750: #7e0322;\n@accent-800: #630019;\n@accent-850: #4c0010;\n@accent-900: #360008;\n@accent-950: #210003;\n@grey-50: #fafafa;\n@grey-100: #f5f5f5;\n@grey-150: #f0f0f0;\n@grey-200: #ebebeb;\n@grey-250: #e3e5e6;\n@grey-300: #dcdfe0;\n@grey-350: #d4d9db;\n@grey-400: #cdd3d6;\n@grey-450: #aab0b4;\n@grey-500: #888f92;\n@grey-550: #686f72;\n@grey-600: #495054;\n@grey-650: #3f4549;\n@grey-700: #353b3f;\n@grey-750: #2b3135;\n@grey-800: #22272b;\n@grey-850: #181c1f;\n@grey-900: #0e1113;\n@grey-950: #050709;\n";
+var success = {
+  50: "#eff9ed",
+  100: "#e0f3de",
+  150: "#d2eccf",
+  200: "#c4e5c0",
+  250: "#aad6a5",
+  300: "#8fc78a",
+  350: "#74b76f",
+  400: "#58a854",
+  450: "#49a146",
+  500: "#399936",
+  550: "#259224",
+  600: "#008a07",
+  650: "#007204",
+  700: "#005a02",
+  750: "#004401",
+  800: "#002f00",
+  850: "#002200",
+  900: "#001600",
+  950: "#000b00"
+};
+var warning = {
+  50: "#fff3ed",
+  100: "#ffe8de",
+  150: "#ffddcf",
+  200: "#fdd2c0",
+  250: "#f6bda5",
+  300: "#eea88a",
+  350: "#e6936f",
+  400: "#dd7d53",
+  450: "#d87244",
+  500: "#d36734",
+  550: "#ce5c21",
+  600: "#c95000",
+  650: "#a83f03",
+  700: "#882f03",
+  750: "#692001",
+  800: "#4b1200",
+  850: "#390a00",
+  900: "#270400",
+  950: "#170100"
+};
+var danger = {
+  50: "#fff0ef",
+  100: "#ffe2e1",
+  150: "#ffd4d4",
+  200: "#fdc6c6",
+  250: "#f4acad",
+  300: "#ea9294",
+  350: "#df787c",
+  400: "#d35d65",
+  450: "#cd4e59",
+  500: "#c63f4e",
+  550: "#bf2c42",
+  600: "#b81237",
+  650: "#990b2a",
+  700: "#7c061f",
+  750: "#5f0214",
+  800: "#44000a",
+  850: "#330005",
+  900: "#230002",
+  950: "#140001"
+};
+var info = {
+  50: "#e9eef7",
+  100: "#d4ddeb",
+  150: "#c0cce0",
+  200: "#acbbd5",
+  250: "#96a9cc",
+  300: "#8098c2",
+  350: "#6b86b8",
+  400: "#5775ae",
+  450: "#4d6ca9",
+  500: "#4264a4",
+  550: "#385b9e",
+  600: "#2e5299",
+  650: "#23427f",
+  700: "#193366",
+  750: "#10254f",
+  800: "#071738",
+  850: "#040f2a",
+  900: "#02071c",
+  950: "#00030f"
+};
 
-// src/less/colors/themes/masterbrand/hsl.less
+// src/js/colors/semantic/hsl.js
 var hsl_exports6 = {};
 __export(hsl_exports6, {
-  default: () => hsl_default4
+  danger: () => danger2,
+  info: () => info2,
+  success: () => success2,
+  warning: () => warning2
 });
-var hsl_default4 = "@primary-50: hsl(199.45, 100%, 97.34%);\n@primary-100: hsl(199.38, 100%, 94.73%);\n@primary-150: hsl(199.3, 95.85%, 92.09%);\n@primary-200: hsl(199.2, 92.59%, 89.41%);\n@primary-250: hsl(198.5, 96.87%, 86.75%);\n@primary-300: hsl(197.76, 98.99%, 83.89%);\n@primary-350: hsl(197, 99.87%, 80.82%);\n@primary-400: hsl(196.17, 100%, 77.45%);\n@primary-450: hsl(199.74, 99.83%, 67.57%);\n@primary-500: hsl(202.52, 100%, 57.55%);\n@primary-550: hsl(204.76, 100%, 46.97%);\n@primary-600: hsl(217.34, 98.31%, 53.53%);\n@primary-650: hsl(216.77, 89.43%, 43.98%);\n@primary-700: hsl(216.29, 94.14%, 35%);\n@primary-750: hsl(216.37, 97.67%, 26.93%);\n@primary-800: hsl(217.2, 100%, 19.61%);\n@primary-850: hsl(218.95, 100%, 14.93%);\n@primary-900: hsl(222.31, 100%, 10.59%);\n@primary-950: hsl(228.65, 100%, 6.6%);\n@accent-50: hsl(350.85, 100%, 98.97%);\n@accent-100: hsl(350.7, 100%, 97.7%);\n@accent-150: hsl(350.55, 100%, 96.41%);\n@accent-200: hsl(350.4, 100%, 95.1%);\n@accent-250: hsl(350.92, 100%, 92.94%);\n@accent-300: hsl(351.43, 100%, 90.72%);\n@accent-350: hsl(351.92, 100%, 88.44%);\n@accent-400: hsl(352.39, 100%, 86.08%);\n@accent-450: hsl(353.39, 86.96%, 78.18%);\n@accent-500: hsl(353.95, 78.84%, 69.69%);\n@accent-550: hsl(353.52, 73.17%, 60.13%);\n@accent-600: hsl(348.56, 82.2%, 46.27%);\n@accent-650: hsl(347.26, 85.91%, 38.92%);\n@accent-700: hsl(345.89, 91%, 31.81%);\n@accent-750: hsl(345, 95.87%, 25.31%);\n@accent-800: hsl(344.85, 100%, 19.41%);\n@accent-850: hsl(346.11, 100%, 14.46%);\n@accent-900: hsl(349.15, 100%, 10.03%);\n@accent-950: hsl(352.16, 100%, 6.06%);\n@grey-50: hsl(223.81, 0%, 98.03%);\n@grey-100: hsl(223.81, 0%, 96.06%);\n@grey-150: hsl(223.81, 0%, 94.11%);\n@grey-200: hsl(223.81, 0%, 92.16%);\n@grey-250: hsl(200.05, 4.31%, 89.64%);\n@grey-300: hsl(200.03, 6.92%, 87.13%);\n@grey-350: hsl(200.02, 8.65%, 84.64%);\n@grey-400: hsl(200, 9.89%, 82.16%);\n@grey-450: hsl(200.47, 6.03%, 68.52%);\n@grey-500: hsl(200.94, 4.51%, 55.36%);\n@grey-550: hsl(201.39, 4.91%, 42.76%);\n@grey-600: hsl(201.82, 7.01%, 30.78%);\n@grey-650: hsl(203.03, 7.74%, 26.71%);\n@grey-700: hsl(204.24, 8.68%, 22.73%);\n@grey-750: hsl(205.45, 9.93%, 18.85%);\n@grey-800: hsl(206.67, 11.69%, 15.1%);\n@grey-850: hsl(206.66, 13.37%, 10.7%);\n@grey-900: hsl(206.64, 17.01%, 6.52%);\n@grey-950: hsl(208.68, 23.47%, 2.8%);\n";
+var success2 = {
+  50: "hsl(113.15, 52.52%, 95.43%)",
+  100: "hsl(113.26, 45.54%, 91.13%)",
+  150: "hsl(113.38, 42.97%, 86.84%)",
+  200: "hsl(113.51, 41.57%, 82.55%)",
+  250: "hsl(114.16, 37.16%, 74.26%)",
+  300: "hsl(114.93, 34.81%, 66.02%)",
+  350: "hsl(115.88, 33.38%, 57.78%)",
+  400: "hsl(117.14, 33.33%, 49.41%)",
+  450: "hsl(117.67, 39.56%, 45.11%)",
+  500: "hsl(118.38, 47.88%, 40.58%)",
+  550: "hsl(119.53, 60.48%, 35.56%)",
+  600: "hsl(123.04, 100%, 27.06%)",
+  650: "hsl(121.8, 99.36%, 22.38%)",
+  700: "hsl(120.9, 99.22%, 17.81%)",
+  750: "hsl(120.32, 99.47%, 13.4%)",
+  800: "hsl(120, 100%, 9.22%)",
+  850: "hsl(120.32, 100%, 6.51%)",
+  900: "hsl(120.63, 100%, 4.07%)",
+  950: "hsl(121.08, 100%, 1.88%)"
+};
+var warning2 = {
+  50: "hsl(17.53, 100%, 96.97%)",
+  100: "hsl(17.59, 100%, 93.77%)",
+  150: "hsl(17.65, 99.09%, 90.53%)",
+  200: "hsl(17.7, 93.85%, 87.25%)",
+  250: "hsl(17.77, 81.71%, 80.57%)",
+  300: "hsl(17.84, 74.94%, 73.78%)",
+  350: "hsl(17.98, 70.36%, 66.84%)",
+  400: "hsl(18.26, 66.99%, 59.61%)",
+  450: "hsl(18.61, 65.61%, 55.79%)",
+  500: "hsl(19.18, 64.53%, 51.69%)",
+  550: "hsl(20.31, 72.21%, 46.96%)",
+  600: "hsl(23.88, 100%, 39.41%)",
+  650: "hsl(21.95, 96.66%, 33.46%)",
+  700: "hsl(20.07, 95.99%, 27.13%)",
+  750: "hsl(17.86, 97.32%, 20.78%)",
+  800: "hsl(14.4, 100%, 14.71%)",
+  850: "hsl(11.43, 100%, 10.95%)",
+  900: "hsl(7.67, 100%, 7.5%)",
+  950: "hsl(4.64, 100%, 4.34%)"
+};
+var danger2 = {
+  50: "hsl(0.78, 100%, 97.61%)",
+  100: "hsl(0.56, 100%, 94.61%)",
+  150: "hsl(0.3, 100%, 91.55%)",
+  200: "hsl(0, 93.22%, 88.43%)",
+  250: "hsl(359.39, 76.34%, 81.59%)",
+  300: "hsl(358.59, 67.4%, 74.56%)",
+  350: "hsl(357.51, 61.52%, 67.27%)",
+  400: "hsl(355.93, 57.28%, 59.61%)",
+  450: "hsl(354.77, 55.6%, 55.49%)",
+  500: "hsl(353.23, 54.28%, 51.09%)",
+  550: "hsl(350.97, 62.34%, 46.16%)",
+  600: "hsl(346.63, 82.18%, 39.61%)",
+  650: "hsl(346.89, 86.15%, 32.28%)",
+  700: "hsl(347.25, 91.31%, 25.33%)",
+  750: "hsl(348.45, 96%, 19.02%)",
+  800: "hsl(351.18, 100%, 13.33%)",
+  850: "hsl(352.99, 100%, 9.85%)",
+  900: "hsl(354.47, 100%, 6.66%)",
+  950: "hsl(355.5, 100%, 3.76%)"
+};
+var info2 = {
+  50: "hsl(217.99, 45.88%, 94%)",
+  100: "hsl(218, 37.47%, 87.77%)",
+  150: "hsl(218.02, 34.49%, 81.6%)",
+  200: "hsl(218.05, 32.8%, 75.49%)",
+  250: "hsl(218.29, 34.23%, 69.31%)",
+  300: "hsl(218.57, 34.87%, 63.2%)",
+  350: "hsl(218.9, 35.05%, 57.15%)",
+  400: "hsl(219.31, 34.94%, 51.18%)",
+  450: "hsl(219.41, 37.55%, 48.13%)",
+  500: "hsl(219.52, 42.28%, 45.1%)",
+  550: "hsl(219.66, 47.62%, 42.06%)",
+  600: "hsl(219.81, 53.77%, 39.02%)",
+  650: "hsl(219.87, 56.39%, 31.92%)",
+  700: "hsl(219.93, 60.27%, 25.07%)",
+  750: "hsl(220.02, 66.59%, 18.51%)",
+  800: "hsl(220.41, 77.78%, 12.35%)",
+  850: "hsl(222.21, 84%, 8.9%)",
+  900: "hsl(226.63, 89.54%, 5.83%)",
+  950: "hsl(230.65, 94.13%, 3.12%)"
+};
 
-// src/less/colors/themes/masterbrand/oklch.less
+// src/js/colors/semantic/oklch.js
 var oklch_exports6 = {};
 __export(oklch_exports6, {
-  default: () => oklch_default4
+  danger: () => danger3,
+  info: () => info3,
+  success: () => success3,
+  warning: () => warning3
 });
-var oklch_default4 = "@primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n@primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n@primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n@primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n@primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n@primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n@primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n@primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n@primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n@primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n@primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n@primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n@primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n@primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n@primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n@primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n@primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n@primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n@primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n@accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n@accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n@accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n@accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n@accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n@accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n@accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n@accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n@accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n@accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n@accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n@accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n@accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n@accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n@accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n@accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n@accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n@accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n@accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n@grey-50: oklch(0.9850175274112574 0 0);\n@grey-100: oklch(0.9700350548225147 0 0);\n@grey-150: oklch(0.9550525822337722 0 0);\n@grey-200: oklch(0.9400701096450296 0 0);\n@grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n@grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n@grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n@grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n@grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n@grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n@grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n@grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n@grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n@grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n@grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n@grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n@grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n@grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n@grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n";
+var success3 = {
+  50: "oklch(0.9720355476100955 0.01978729853872853 142.11752406542539)",
+  100: "oklch(0.944071095220191 0.03348619752707904 142.11752406542539)",
+  150: "oklch(0.9161066428302864 0.04718509651542956 142.11752406542539)",
+  200: "oklch(0.8881421904403819 0.06088399550378008 142.11752406542539)",
+  250: "oklch(0.8312289461835737 0.0814134964867239 142.2964842668701)",
+  300: "oklch(0.7743157019267655 0.10194299746966773 142.47544446831483)",
+  350: "oklch(0.7174024576699572 0.12247249845261154 142.65440466975954)",
+  400: "oklch(0.660489213413149 0.14300199943555536 142.83336487120425)",
+  450: "oklch(0.6326270919832794 0.153487552492673 142.8252122365381)",
+  500: "oklch(0.6047649705534097 0.16397310554979067 142.81705960187193)",
+  550: "oklch(0.57690284912354 0.17445865860690835 142.80890696720576)",
+  600: "oklch(0.5490407276936703 0.184944211664026 142.8007543325396)",
+  650: "oklch(0.4778879989458421 0.16120283434453703 142.72440047135717)",
+  700: "oklch(0.40673527019801387 0.13746145702504803 142.64804661017473)",
+  750: "oklch(0.3355825414501856 0.11372007970555903 142.57169274899232)",
+  800: "oklch(0.26442981270235744 0.08997870238607004 142.49533888780988)",
+  850: "oklch(0.21815459547944488 0.07648189702815954 142.49533888780988)",
+  900: "oklch(0.17187937825653232 0.06298509167024903 142.49533888780988)",
+  950: "oklch(0.12560416103361977 0.04948828631233853 142.49533888780988)"
+};
+var warning3 = {
+  50: "oklch(0.9739777778864123 0.017695077274685146 43.9454781334139)",
+  100: "oklch(0.9479555557728245 0.029945515387928705 43.9454781334139)",
+  150: "oklch(0.9219333336592369 0.042195953501172265 43.9454781334139)",
+  200: "oklch(0.8959111115456492 0.05444639161441583 43.9454781334139)",
+  250: "oklch(0.8436567377995562 0.07383969866253859 43.88732593200177)",
+  300: "oklch(0.7914023640534633 0.09323300571066136 43.829173730589645)",
+  350: "oklch(0.7391479903073703 0.11262631275878413 43.77102152917751)",
+  400: "oklch(0.6868936165612773 0.13201961980690688 43.71286932776538)",
+  450: "oklch(0.6610028202949751 0.14144095719007027 43.78396833320002)",
+  500: "oklch(0.635112024028673 0.15086229457323366 43.85506733863466)",
+  550: "oklch(0.6092212277623706 0.16028363195639705 43.9261663440693)",
+  600: "oklch(0.5833304314960684 0.16970496933956045 43.99726534950394)",
+  650: "oklch(0.507009085738871 0.149901753081645 42.56483564766481)",
+  700: "oklch(0.43068773998167365 0.13009853682372957 41.13240594582567)",
+  750: "oklch(0.3543663942244763 0.11029532056581412 39.69997624398653)",
+  800: "oklch(0.2780450484672789 0.09049210430789867 38.26754654214739)",
+  850: "oklch(0.2293871649855051 0.07691828866171387 38.26754654214739)",
+  900: "oklch(0.1807292815037313 0.06334447301552906 38.26754654214739)",
+  950: "oklch(0.13207139802195747 0.04977065736934427 38.26754654214739)"
+};
+var danger3 = {
+  50: "oklch(0.9688081012787089 0.02046893571008903 18.42817489942577)",
+  100: "oklch(0.9376162025574177 0.034639737355535286 18.42817489942577)",
+  150: "oklch(0.9064243038361265 0.048810539000981534 18.42817489942577)",
+  200: "oklch(0.8752324051148354 0.06298134064642778 18.42817489942577)",
+  250: "oklch(0.8133068732197568 0.08452871651344564 18.398482771634782)",
+  300: "oklch(0.7513813413246784 0.1060760923804635 18.368790643843795)",
+  350: "oklch(0.6894558094295998 0.12762346824748136 18.339098516052807)",
+  400: "oklch(0.6275302775345213 0.1491708441144992 18.30940638826182)",
+  450: "oklch(0.5961466901234453 0.1600594003984286 18.251840020312933)",
+  500: "oklch(0.5647631027123693 0.17094795668235796 18.194273652364046)",
+  550: "oklch(0.5333795153012932 0.1818365129662873 18.13670728441516)",
+  600: "oklch(0.5019959278902173 0.19272506925021668 18.079140916466272)",
+  650: "oklch(0.43761291207168196 0.16911051005163913 18.72632727121819)",
+  700: "oklch(0.3732298962531466 0.1454959508530616 19.3735136259701)",
+  750: "oklch(0.30884688043461134 0.12188139165448407 20.020699980722014)",
+  800: "oklch(0.244463864616076 0.09826683245590653 20.66788633547393)",
+  850: "oklch(0.2016826883082627 0.08352680758752055 20.66788633547393)",
+  900: "oklch(0.15890151200044939 0.06878678271913458 20.66788633547393)",
+  950: "oklch(0.1161203356926361 0.0540467578507486 20.66788633547393)"
+};
+var info3 = {
+  50: "oklch(0.9472470414070251 0.01319114316017373 261.49146551846417)",
+  100: "oklch(0.8944940828140502 0.02232347304029401 261.49146551846417)",
+  150: "oklch(0.8417411242210754 0.03145580292041429 261.49146551846417)",
+  200: "oklch(0.7889881656281005 0.04058813280053457 261.49146551846417)",
+  250: "oklch(0.7327975333484203 0.05432284288357939 261.7505460408388)",
+  300: "oklch(0.6766069010687401 0.06805755296662422 262.0096265632134)",
+  350: "oklch(0.62041626878906 0.08179226304966905 262.268707085588)",
+  400: "oklch(0.5642256365093798 0.09552697313271387 262.52778760796264)",
+  450: "oklch(0.5358247299257868 0.10246599429811404 262.4837143651888)",
+  500: "oklch(0.5074238233421937 0.10940501546351422 262.4396411224149)",
+  550: "oklch(0.47902291675860065 0.1163440366289144 262.395567879641)",
+  600: "oklch(0.4506220101750076 0.12328305779431457 262.3514946368672)",
+  650: "oklch(0.3914472612047992 0.10948475002303204 262.3659717757216)",
+  700: "oklch(0.33227251223459087 0.09568644225174952 262.3804489145761)",
+  750: "oklch(0.2730977632643825 0.08188813448046699 262.3949260534306)",
+  800: "oklch(0.21392301429417415 0.06808982670918445 262.409403192285)",
+  850: "oklch(0.1764864867926937 0.057876352702806784 262.409403192285)",
+  900: "oklch(0.13904995929121322 0.047662878696429115 262.409403192285)",
+  950: "oklch(0.10161343178973273 0.03744940469005145 262.409403192285)"
+};
 
-// src/less/colors/themes/masterbrand/rgb.less
+// src/js/colors/semantic/rgb.js
 var rgb_exports6 = {};
 __export(rgb_exports6, {
-  default: () => rgb_default4
+  danger: () => danger4,
+  info: () => info4,
+  success: () => success4,
+  warning: () => warning4
 });
-var rgb_default4 = "@primary-50: rgb(240, 251, 255);\n@primary-100: rgb(228, 246, 255);\n@primary-150: rgb(215, 242, 254);\n@primary-200: rgb(203, 237, 253);\n@primary-250: rgb(188, 234, 254);\n@primary-300: rgb(173, 231, 255);\n@primary-350: rgb(157, 227, 255);\n@primary-400: rgb(140, 224, 255);\n@primary-450: rgb(90, 201, 255);\n@primary-500: rgb(38, 174, 255);\n@primary-550: rgb(0, 143, 255);\n@primary-600: rgb(20, 108, 253);\n@primary-650: rgb(12, 90, 212);\n@primary-700: rgb(5, 72, 173);\n@primary-750: rgb(2, 54, 136);\n@primary-800: rgb(0, 38, 100);\n@primary-850: rgb(0, 26, 77);\n@primary-900: rgb(0, 16, 55);\n@primary-950: rgb(0, 6, 34);\n@accent-50: rgb(255, 248, 249);\n@accent-100: rgb(255, 242, 244);\n@accent-150: rgb(255, 236, 239);\n@accent-200: rgb(255, 230, 234);\n@accent-250: rgb(255, 219, 224);\n@accent-300: rgb(255, 207, 214);\n@accent-350: rgb(255, 196, 204);\n@accent-400: rgb(255, 184, 193);\n@accent-450: rgb(248, 151, 162);\n@accent-500: rgb(239, 117, 129);\n@accent-550: rgb(228, 79, 95);\n@accent-600: rgb(215, 21, 58);\n@accent-650: rgb(185, 14, 50);\n@accent-700: rgb(155, 7, 42);\n@accent-750: rgb(126, 3, 34);\n@accent-800: rgb(99, 0, 25);\n@accent-850: rgb(76, 0, 16);\n@accent-900: rgb(54, 0, 8);\n@accent-950: rgb(33, 0, 3);\n@grey-50: rgb(250, 250, 250);\n@grey-100: rgb(245, 245, 245);\n@grey-150: rgb(240, 240, 240);\n@grey-200: rgb(235, 235, 235);\n@grey-250: rgb(227, 229, 230);\n@grey-300: rgb(220, 223, 224);\n@grey-350: rgb(212, 217, 219);\n@grey-400: rgb(205, 211, 214);\n@grey-450: rgb(170, 176, 180);\n@grey-500: rgb(136, 143, 146);\n@grey-550: rgb(104, 111, 114);\n@grey-600: rgb(73, 80, 84);\n@grey-650: rgb(63, 69, 73);\n@grey-700: rgb(53, 59, 63);\n@grey-750: rgb(43, 49, 53);\n@grey-800: rgb(34, 39, 43);\n@grey-850: rgb(24, 28, 31);\n@grey-900: rgb(14, 17, 19);\n@grey-950: rgb(5, 7, 9);\n";
+var success4 = {
+  50: "rgb(239, 249, 237)",
+  100: "rgb(224, 243, 222)",
+  150: "rgb(210, 236, 207)",
+  200: "rgb(196, 229, 192)",
+  250: "rgb(170, 214, 165)",
+  300: "rgb(143, 199, 138)",
+  350: "rgb(116, 183, 111)",
+  400: "rgb(88, 168, 84)",
+  450: "rgb(73, 161, 70)",
+  500: "rgb(57, 153, 54)",
+  550: "rgb(37, 146, 36)",
+  600: "rgb(0, 138, 7)",
+  650: "rgb(0, 114, 4)",
+  700: "rgb(0, 90, 2)",
+  750: "rgb(0, 68, 1)",
+  800: "rgb(0, 47, 0)",
+  850: "rgb(0, 34, 0)",
+  900: "rgb(0, 22, 0)",
+  950: "rgb(0, 11, 0)"
+};
+var warning4 = {
+  50: "rgb(255, 243, 237)",
+  100: "rgb(255, 232, 222)",
+  150: "rgb(255, 221, 207)",
+  200: "rgb(253, 210, 192)",
+  250: "rgb(246, 189, 165)",
+  300: "rgb(238, 168, 138)",
+  350: "rgb(230, 147, 111)",
+  400: "rgb(221, 125, 83)",
+  450: "rgb(216, 114, 68)",
+  500: "rgb(211, 103, 52)",
+  550: "rgb(206, 92, 33)",
+  600: "rgb(201, 80, 0)",
+  650: "rgb(168, 63, 3)",
+  700: "rgb(136, 47, 3)",
+  750: "rgb(105, 32, 1)",
+  800: "rgb(75, 18, 0)",
+  850: "rgb(57, 10, 0)",
+  900: "rgb(39, 4, 0)",
+  950: "rgb(23, 1, 0)"
+};
+var danger4 = {
+  50: "rgb(255, 240, 239)",
+  100: "rgb(255, 226, 225)",
+  150: "rgb(255, 212, 212)",
+  200: "rgb(253, 198, 198)",
+  250: "rgb(244, 172, 173)",
+  300: "rgb(234, 146, 148)",
+  350: "rgb(223, 120, 124)",
+  400: "rgb(211, 93, 101)",
+  450: "rgb(205, 78, 89)",
+  500: "rgb(198, 63, 78)",
+  550: "rgb(191, 44, 66)",
+  600: "rgb(184, 18, 55)",
+  650: "rgb(153, 11, 42)",
+  700: "rgb(124, 6, 31)",
+  750: "rgb(95, 2, 20)",
+  800: "rgb(68, 0, 10)",
+  850: "rgb(51, 0, 5)",
+  900: "rgb(35, 0, 2)",
+  950: "rgb(20, 0, 1)"
+};
+var info4 = {
+  50: "rgb(233, 238, 247)",
+  100: "rgb(212, 221, 235)",
+  150: "rgb(192, 204, 224)",
+  200: "rgb(172, 187, 213)",
+  250: "rgb(150, 169, 204)",
+  300: "rgb(128, 152, 194)",
+  350: "rgb(107, 134, 184)",
+  400: "rgb(87, 117, 174)",
+  450: "rgb(77, 108, 169)",
+  500: "rgb(66, 100, 164)",
+  550: "rgb(56, 91, 158)",
+  600: "rgb(46, 82, 153)",
+  650: "rgb(35, 66, 127)",
+  700: "rgb(25, 51, 102)",
+  750: "rgb(16, 37, 79)",
+  800: "rgb(7, 23, 56)",
+  850: "rgb(4, 15, 42)",
+  900: "rgb(2, 7, 28)",
+  950: "rgb(0, 3, 15)"
+};
 
-// src/scss/colors/global/hex.scss
+// src/less/colors/global/hex.less
 var hex_exports7 = {};
 __export(hex_exports7, {
-  default: () => hex_default5
+  default: () => hex_default4
 });
-var hex_default5 = "$nsw-grey-50: #fafafa;\n$nsw-grey-100: #f5f5f5;\n$nsw-grey-150: #f0f0f0;\n$nsw-grey-200: #ebebeb;\n$nsw-grey-250: #e3e5e6;\n$nsw-grey-300: #dcdfe0;\n$nsw-grey-350: #d4d9db;\n$nsw-grey-400: #cdd3d6;\n$nsw-grey-450: #aab0b4;\n$nsw-grey-500: #888f92;\n$nsw-grey-550: #686f72;\n$nsw-grey-600: #495054;\n$nsw-grey-650: #3f4549;\n$nsw-grey-700: #353b3f;\n$nsw-grey-750: #2b3135;\n$nsw-grey-800: #22272b;\n$nsw-grey-850: #181c1f;\n$nsw-grey-900: #0e1113;\n$nsw-grey-950: #050709;\n$nsw-green-50: #f5fff6;\n$nsw-green-100: #ecfdee;\n$nsw-green-150: #e4fce7;\n$nsw-green-200: #dbfadf;\n$nsw-green-250: #cff7d4;\n$nsw-green-300: #c2f4c9;\n$nsw-green-350: #b5f0be;\n$nsw-green-400: #a8edb3;\n$nsw-green-450: #8adc98;\n$nsw-green-500: #6acc7d;\n$nsw-green-550: #45bb62;\n$nsw-green-600: #00aa45;\n$nsw-green-650: #078e32;\n$nsw-green-700: #077320;\n$nsw-green-750: #03590f;\n$nsw-green-800: #004000;\n$nsw-green-850: #003000;\n$nsw-green-900: #002000;\n$nsw-green-950: #001100;\n$nsw-teal-50: #f2fbfa;\n$nsw-teal-100: #e7f7f5;\n$nsw-teal-150: #dcf2ef;\n$nsw-teal-200: #d1eeea;\n$nsw-teal-250: #c1eae7;\n$nsw-teal-300: #afe5e5;\n$nsw-teal-350: #9ee0e5;\n$nsw-teal-400: #8cdbe5;\n$nsw-teal-450: #75c4cf;\n$nsw-teal-500: #5eacb9;\n$nsw-teal-550: #4696a3;\n$nsw-teal-600: #2e808e;\n$nsw-teal-650: #256f7b;\n$nsw-teal-700: #1c5f69;\n$nsw-teal-750: #144e58;\n$nsw-teal-800: #0b3f47;\n$nsw-teal-850: #042f35;\n$nsw-teal-900: #011f24;\n$nsw-teal-950: #001114;\n$nsw-blue-50: #f0fbff;\n$nsw-blue-100: #e4f6ff;\n$nsw-blue-150: #d7f2fe;\n$nsw-blue-200: #cbedfd;\n$nsw-blue-250: #bceafe;\n$nsw-blue-300: #ade7ff;\n$nsw-blue-350: #9de3ff;\n$nsw-blue-400: #8ce0ff;\n$nsw-blue-450: #5ac9ff;\n$nsw-blue-500: #26aeff;\n$nsw-blue-550: #008fff;\n$nsw-blue-600: #146cfd;\n$nsw-blue-650: #0c5ad4;\n$nsw-blue-700: #0548ad;\n$nsw-blue-750: #023688;\n$nsw-blue-800: #002664;\n$nsw-blue-850: #001a4d;\n$nsw-blue-900: #001037;\n$nsw-blue-950: #000622;\n$nsw-purple-50: #f9f7ff;\n$nsw-purple-100: #f2f0ff;\n$nsw-purple-150: #ece8fe;\n$nsw-purple-200: #e6e1fd;\n$nsw-purple-250: #e0d9fe;\n$nsw-purple-300: #dad0fe;\n$nsw-purple-350: #d4c8ff;\n$nsw-purple-400: #cebfff;\n$nsw-purple-450: #baa6fc;\n$nsw-purple-500: #a68df9;\n$nsw-purple-550: #9372f5;\n$nsw-purple-600: #8055f1;\n$nsw-purple-650: #7243cf;\n$nsw-purple-700: #6432ae;\n$nsw-purple-750: #54218e;\n$nsw-purple-800: #441170;\n$nsw-purple-850: #330856;\n$nsw-purple-900: #23023e;\n$nsw-purple-950: #130027;\n$nsw-fuchsia-50: #fff6fd;\n$nsw-fuchsia-100: #ffeef9;\n$nsw-fuchsia-150: #fee6f6;\n$nsw-fuchsia-200: #fddef2;\n$nsw-fuchsia-250: #fbd4ef;\n$nsw-fuchsia-300: #f9c9eb;\n$nsw-fuchsia-350: #f7bfe9;\n$nsw-fuchsia-400: #f4b5e6;\n$nsw-fuchsia-450: #ef96da;\n$nsw-fuchsia-500: #e975cc;\n$nsw-fuchsia-550: #e150be;\n$nsw-fuchsia-600: #d912ae;\n$nsw-fuchsia-650: #bb0c94;\n$nsw-fuchsia-700: #9d067b;\n$nsw-fuchsia-750: #810264;\n$nsw-fuchsia-800: #65004d;\n$nsw-fuchsia-850: #4d003a;\n$nsw-fuchsia-900: #370028;\n$nsw-fuchsia-950: #220017;\n$nsw-red-50: #fff8f9;\n$nsw-red-100: #fff2f4;\n$nsw-red-150: #ffecef;\n$nsw-red-200: #ffe6ea;\n$nsw-red-250: #ffdbe0;\n$nsw-red-300: #ffcfd6;\n$nsw-red-350: #ffc4cc;\n$nsw-red-400: #ffb8c1;\n$nsw-red-450: #f897a2;\n$nsw-red-500: #ef7581;\n$nsw-red-550: #e44f5f;\n$nsw-red-600: #d7153a;\n$nsw-red-650: #b90e32;\n$nsw-red-700: #9b072a;\n$nsw-red-750: #7e0322;\n$nsw-red-800: #630019;\n$nsw-red-850: #4c0010;\n$nsw-red-900: #360008;\n$nsw-red-950: #210003;\n$nsw-orange-50: #fffaf6;\n$nsw-orange-100: #fff6ee;\n$nsw-orange-150: #fef1e7;\n$nsw-orange-200: #fdeddf;\n$nsw-orange-250: #fee5ce;\n$nsw-orange-300: #ffddbd;\n$nsw-orange-350: #ffd6ab;\n$nsw-orange-400: #ffce99;\n$nsw-orange-450: #fdb678;\n$nsw-orange-500: #fb9d58;\n$nsw-orange-550: #f78139;\n$nsw-orange-600: #f3631b;\n$nsw-orange-650: #db5115;\n$nsw-orange-700: #c33f0e;\n$nsw-orange-750: #ab2e06;\n$nsw-orange-800: #941b00;\n$nsw-orange-850: #730f00;\n$nsw-orange-900: #530400;\n$nsw-orange-950: #350000;\n$nsw-yellow-50: #fffcf0;\n$nsw-yellow-100: #fffae5;\n$nsw-yellow-150: #fff7da;\n$nsw-yellow-200: #fff4cf;\n$nsw-yellow-250: #fff1c2;\n$nsw-yellow-300: #feeeb5;\n$nsw-yellow-350: #feeaa8;\n$nsw-yellow-400: #fde79a;\n$nsw-yellow-450: #fbda80;\n$nsw-yellow-500: #facd63;\n$nsw-yellow-550: #fabe42;\n$nsw-yellow-600: #faaf05;\n$nsw-yellow-650: #d49403;\n$nsw-yellow-700: #af7a01;\n$nsw-yellow-750: #8b6000;\n$nsw-yellow-800: #694800;\n$nsw-yellow-850: #503500;\n$nsw-yellow-900: #392400;\n$nsw-yellow-950: #221300;\n$nsw-brown-50: #fbf8f4;\n$nsw-brown-100: #f6f1ea;\n$nsw-brown-150: #f2eae1;\n$nsw-brown-200: #ede3d7;\n$nsw-brown-250: #ecdece;\n$nsw-brown-300: #eadac6;\n$nsw-brown-350: #e9d5bd;\n$nsw-brown-400: #e8d0b5;\n$nsw-brown-450: #dbbf9f;\n$nsw-brown-500: #cfae89;\n$nsw-brown-550: #c29d73;\n$nsw-brown-600: #b68d5d;\n$nsw-brown-650: #9c764b;\n$nsw-brown-700: #82603a;\n$nsw-brown-750: #6a4b29;\n$nsw-brown-800: #523719;\n$nsw-brown-850: #3e280f;\n$nsw-brown-900: #2b1a07;\n$nsw-brown-950: #190d02;\n$nsw-aboriginal-grey-50: #f9f8f7;\n$nsw-aboriginal-grey-100: #f2f1ef;\n$nsw-aboriginal-grey-150: #ebeae8;\n$nsw-aboriginal-grey-200: #e5e3e0;\n$nsw-aboriginal-grey-250: #dfdcd8;\n$nsw-aboriginal-grey-300: #d8d4d1;\n$nsw-aboriginal-grey-350: #d2cdc9;\n$nsw-aboriginal-grey-400: #ccc6c2;\n$nsw-aboriginal-grey-450: #ada8a5;\n$nsw-aboriginal-grey-500: #8e8b8a;\n$nsw-aboriginal-grey-550: #71706f;\n$nsw-aboriginal-grey-600: #555555;\n$nsw-aboriginal-grey-650: #4b4b4b;\n$nsw-aboriginal-grey-700: #404040;\n$nsw-aboriginal-grey-750: #373737;\n$nsw-aboriginal-grey-800: #2d2d2d;\n$nsw-aboriginal-grey-850: #202020;\n$nsw-aboriginal-grey-900: #141414;\n$nsw-aboriginal-grey-950: #090909;\n$nsw-aboriginal-red-50: #fff5f5;\n$nsw-aboriginal-red-100: #ffebeb;\n$nsw-aboriginal-red-150: #fee2e2;\n$nsw-aboriginal-red-200: #fdd9d9;\n$nsw-aboriginal-red-250: #fdd0d0;\n$nsw-aboriginal-red-300: #fcc7c6;\n$nsw-aboriginal-red-350: #fcbdbd;\n$nsw-aboriginal-red-400: #fbb4b3;\n$nsw-aboriginal-red-450: #f79693;\n$nsw-aboriginal-red-500: #f27771;\n$nsw-aboriginal-red-550: #ea554c;\n$nsw-aboriginal-red-600: #e1261c;\n$nsw-aboriginal-red-650: #cd1f17;\n$nsw-aboriginal-red-700: #ba1811;\n$nsw-aboriginal-red-750: #a7110b;\n$nsw-aboriginal-red-800: #950906;\n$nsw-aboriginal-red-850: #740001;\n$nsw-aboriginal-red-900: #540000;\n$nsw-aboriginal-red-950: #360000;\n$nsw-aboriginal-orange-50: #fff4ec;\n$nsw-aboriginal-orange-100: #fee9dd;\n$nsw-aboriginal-orange-150: #fcdfcd;\n$nsw-aboriginal-orange-200: #f9d4be;\n$nsw-aboriginal-orange-250: #f8caae;\n$nsw-aboriginal-orange-300: #f7bf9e;\n$nsw-aboriginal-orange-350: #f6b58e;\n$nsw-aboriginal-orange-400: #f4aa7d;\n$nsw-aboriginal-orange-450: #f39a66;\n$nsw-aboriginal-orange-500: #f2894f;\n$nsw-aboriginal-orange-550: #f07736;\n$nsw-aboriginal-orange-600: #ee6314;\n$nsw-aboriginal-orange-650: #d45310;\n$nsw-aboriginal-orange-700: #ba440a;\n$nsw-aboriginal-orange-750: #a13505;\n$nsw-aboriginal-orange-800: #882600;\n$nsw-aboriginal-orange-850: #691900;\n$nsw-aboriginal-orange-900: #4c0d00;\n$nsw-aboriginal-orange-950: #300300;\n$nsw-aboriginal-brown-50: #fcf1e9;\n$nsw-aboriginal-brown-100: #f6e3d7;\n$nsw-aboriginal-brown-150: #efd5c4;\n$nsw-aboriginal-brown-200: #e9c8b2;\n$nsw-aboriginal-brown-250: #e4ba9f;\n$nsw-aboriginal-brown-300: #dead8c;\n$nsw-aboriginal-brown-350: #d99f78;\n$nsw-aboriginal-brown-400: #d39165;\n$nsw-aboriginal-brown-450: #c68158;\n$nsw-aboriginal-brown-500: #b9724b;\n$nsw-aboriginal-brown-550: #ab623e;\n$nsw-aboriginal-brown-600: #9e5332;\n$nsw-aboriginal-brown-650: #8b4627;\n$nsw-aboriginal-brown-700: #79391c;\n$nsw-aboriginal-brown-750: #672d10;\n$nsw-aboriginal-brown-800: #552105;\n$nsw-aboriginal-brown-850: #411602;\n$nsw-aboriginal-brown-900: #2d0c00;\n$nsw-aboriginal-brown-950: #1b0400;\n$nsw-aboriginal-yellow-50: #fffcee;\n$nsw-aboriginal-yellow-100: #fff8e0;\n$nsw-aboriginal-yellow-150: #fff5d3;\n$nsw-aboriginal-yellow-200: #fff1c5;\n$nsw-aboriginal-yellow-250: #ffeeb7;\n$nsw-aboriginal-yellow-300: #ffeba9;\n$nsw-aboriginal-yellow-350: #fee79b;\n$nsw-aboriginal-yellow-400: #fee48c;\n$nsw-aboriginal-yellow-450: #fed675;\n$nsw-aboriginal-yellow-500: #fec85d;\n$nsw-aboriginal-yellow-550: #feb944;\n$nsw-aboriginal-yellow-600: #fea927;\n$nsw-aboriginal-yellow-650: #df961c;\n$nsw-aboriginal-yellow-700: #c18312;\n$nsw-aboriginal-yellow-750: #a57007;\n$nsw-aboriginal-yellow-800: #895e00;\n$nsw-aboriginal-yellow-850: #694700;\n$nsw-aboriginal-yellow-900: #4c3000;\n$nsw-aboriginal-yellow-950: #2f1c00;\n$nsw-aboriginal-green-50: #f5f9f2;\n$nsw-aboriginal-green-100: #ecf3e7;\n$nsw-aboriginal-green-150: #e3ecdc;\n$nsw-aboriginal-green-200: #dae6d1;\n$nsw-aboriginal-green-250: #d1e0c6;\n$nsw-aboriginal-green-300: #c7d9ba;\n$nsw-aboriginal-green-350: #bed3af;\n$nsw-aboriginal-green-400: #b5cda4;\n$nsw-aboriginal-green-450: #a5c28e;\n$nsw-aboriginal-green-500: #95b777;\n$nsw-aboriginal-green-550: #86ac60;\n$nsw-aboriginal-green-600: #78a146;\n$nsw-aboriginal-green-650: #5f8f44;\n$nsw-aboriginal-green-700: #497d40;\n$nsw-aboriginal-green-750: #346a3b;\n$nsw-aboriginal-green-800: #215834;\n$nsw-aboriginal-green-850: #154225;\n$nsw-aboriginal-green-900: #0a2e17;\n$nsw-aboriginal-green-950: #021b0a;\n$nsw-aboriginal-blue-50: #eef8fa;\n$nsw-aboriginal-blue-100: #dff1f4;\n$nsw-aboriginal-blue-150: #d0e9ee;\n$nsw-aboriginal-blue-200: #c1e2e8;\n$nsw-aboriginal-blue-250: #b2dbe2;\n$nsw-aboriginal-blue-300: #a3d4dc;\n$nsw-aboriginal-blue-350: #94ccd7;\n$nsw-aboriginal-blue-400: #84c5d1;\n$nsw-aboriginal-blue-450: #67aec0;\n$nsw-aboriginal-blue-500: #4a96b0;\n$nsw-aboriginal-blue-550: #2e7fa1;\n$nsw-aboriginal-blue-600: #0d6791;\n$nsw-aboriginal-blue-650: #145782;\n$nsw-aboriginal-blue-700: #174773;\n$nsw-aboriginal-blue-750: #183763;\n$nsw-aboriginal-blue-800: #162953;\n$nsw-aboriginal-blue-850: #0e1d3f;\n$nsw-aboriginal-blue-900: #06122c;\n$nsw-aboriginal-blue-950: #02071b;\n$nsw-aboriginal-purple-50: #faf1f8;\n$nsw-aboriginal-purple-100: #f2e5f0;\n$nsw-aboriginal-purple-150: #ebd8e8;\n$nsw-aboriginal-purple-200: #e4cce0;\n$nsw-aboriginal-purple-250: #ddbfd8;\n$nsw-aboriginal-purple-300: #d7b3d1;\n$nsw-aboriginal-purple-350: #d0a6c9;\n$nsw-aboriginal-purple-400: #c99ac2;\n$nsw-aboriginal-purple-450: #bd8bb6;\n$nsw-aboriginal-purple-500: #b17caa;\n$nsw-aboriginal-purple-550: #a66d9f;\n$nsw-aboriginal-purple-600: #9a5e93;\n$nsw-aboriginal-purple-650: #844f7e;\n$nsw-aboriginal-purple-700: #6f4169;\n$nsw-aboriginal-purple-750: #5b3355;\n$nsw-aboriginal-purple-800: #472642;\n$nsw-aboriginal-purple-850: #351a31;\n$nsw-aboriginal-purple-900: #241021;\n$nsw-aboriginal-purple-950: #150612;\n";
+var hex_default4 = "@nsw-grey-50: #fafafa;\n@nsw-grey-100: #f5f5f5;\n@nsw-grey-150: #f0f0f0;\n@nsw-grey-200: #ebebeb;\n@nsw-grey-250: #e3e5e6;\n@nsw-grey-300: #dcdfe0;\n@nsw-grey-350: #d4d9db;\n@nsw-grey-400: #cdd3d6;\n@nsw-grey-450: #aab0b4;\n@nsw-grey-500: #888f92;\n@nsw-grey-550: #686f72;\n@nsw-grey-600: #495054;\n@nsw-grey-650: #3f4549;\n@nsw-grey-700: #353b3f;\n@nsw-grey-750: #2b3135;\n@nsw-grey-800: #22272b;\n@nsw-grey-850: #181c1f;\n@nsw-grey-900: #0e1113;\n@nsw-grey-950: #050709;\n@nsw-green-50: #f5fff6;\n@nsw-green-100: #ecfdee;\n@nsw-green-150: #e4fce7;\n@nsw-green-200: #dbfadf;\n@nsw-green-250: #cff7d4;\n@nsw-green-300: #c2f4c9;\n@nsw-green-350: #b5f0be;\n@nsw-green-400: #a8edb3;\n@nsw-green-450: #8adc98;\n@nsw-green-500: #6acc7d;\n@nsw-green-550: #45bb62;\n@nsw-green-600: #00aa45;\n@nsw-green-650: #078e32;\n@nsw-green-700: #077320;\n@nsw-green-750: #03590f;\n@nsw-green-800: #004000;\n@nsw-green-850: #003000;\n@nsw-green-900: #002000;\n@nsw-green-950: #001100;\n@nsw-teal-50: #f2fbfa;\n@nsw-teal-100: #e7f7f5;\n@nsw-teal-150: #dcf2ef;\n@nsw-teal-200: #d1eeea;\n@nsw-teal-250: #c1eae7;\n@nsw-teal-300: #afe5e5;\n@nsw-teal-350: #9ee0e5;\n@nsw-teal-400: #8cdbe5;\n@nsw-teal-450: #75c4cf;\n@nsw-teal-500: #5eacb9;\n@nsw-teal-550: #4696a3;\n@nsw-teal-600: #2e808e;\n@nsw-teal-650: #256f7b;\n@nsw-teal-700: #1c5f69;\n@nsw-teal-750: #144e58;\n@nsw-teal-800: #0b3f47;\n@nsw-teal-850: #042f35;\n@nsw-teal-900: #011f24;\n@nsw-teal-950: #001114;\n@nsw-blue-50: #f0fbff;\n@nsw-blue-100: #e4f6ff;\n@nsw-blue-150: #d7f2fe;\n@nsw-blue-200: #cbedfd;\n@nsw-blue-250: #bceafe;\n@nsw-blue-300: #ade7ff;\n@nsw-blue-350: #9de3ff;\n@nsw-blue-400: #8ce0ff;\n@nsw-blue-450: #5ac9ff;\n@nsw-blue-500: #26aeff;\n@nsw-blue-550: #008fff;\n@nsw-blue-600: #146cfd;\n@nsw-blue-650: #0c5ad4;\n@nsw-blue-700: #0548ad;\n@nsw-blue-750: #023688;\n@nsw-blue-800: #002664;\n@nsw-blue-850: #001a4d;\n@nsw-blue-900: #001037;\n@nsw-blue-950: #000622;\n@nsw-purple-50: #f9f7ff;\n@nsw-purple-100: #f2f0ff;\n@nsw-purple-150: #ece8fe;\n@nsw-purple-200: #e6e1fd;\n@nsw-purple-250: #e0d9fe;\n@nsw-purple-300: #dad0fe;\n@nsw-purple-350: #d4c8ff;\n@nsw-purple-400: #cebfff;\n@nsw-purple-450: #baa6fc;\n@nsw-purple-500: #a68df9;\n@nsw-purple-550: #9372f5;\n@nsw-purple-600: #8055f1;\n@nsw-purple-650: #7243cf;\n@nsw-purple-700: #6432ae;\n@nsw-purple-750: #54218e;\n@nsw-purple-800: #441170;\n@nsw-purple-850: #330856;\n@nsw-purple-900: #23023e;\n@nsw-purple-950: #130027;\n@nsw-fuchsia-50: #fff6fd;\n@nsw-fuchsia-100: #ffeef9;\n@nsw-fuchsia-150: #fee6f6;\n@nsw-fuchsia-200: #fddef2;\n@nsw-fuchsia-250: #fbd4ef;\n@nsw-fuchsia-300: #f9c9eb;\n@nsw-fuchsia-350: #f7bfe9;\n@nsw-fuchsia-400: #f4b5e6;\n@nsw-fuchsia-450: #ef96da;\n@nsw-fuchsia-500: #e975cc;\n@nsw-fuchsia-550: #e150be;\n@nsw-fuchsia-600: #d912ae;\n@nsw-fuchsia-650: #bb0c94;\n@nsw-fuchsia-700: #9d067b;\n@nsw-fuchsia-750: #810264;\n@nsw-fuchsia-800: #65004d;\n@nsw-fuchsia-850: #4d003a;\n@nsw-fuchsia-900: #370028;\n@nsw-fuchsia-950: #220017;\n@nsw-red-50: #fff8f9;\n@nsw-red-100: #fff2f4;\n@nsw-red-150: #ffecef;\n@nsw-red-200: #ffe6ea;\n@nsw-red-250: #ffdbe0;\n@nsw-red-300: #ffcfd6;\n@nsw-red-350: #ffc4cc;\n@nsw-red-400: #ffb8c1;\n@nsw-red-450: #f897a2;\n@nsw-red-500: #ef7581;\n@nsw-red-550: #e44f5f;\n@nsw-red-600: #d7153a;\n@nsw-red-650: #b90e32;\n@nsw-red-700: #9b072a;\n@nsw-red-750: #7e0322;\n@nsw-red-800: #630019;\n@nsw-red-850: #4c0010;\n@nsw-red-900: #360008;\n@nsw-red-950: #210003;\n@nsw-orange-50: #fffaf6;\n@nsw-orange-100: #fff6ee;\n@nsw-orange-150: #fef1e7;\n@nsw-orange-200: #fdeddf;\n@nsw-orange-250: #fee5ce;\n@nsw-orange-300: #ffddbd;\n@nsw-orange-350: #ffd6ab;\n@nsw-orange-400: #ffce99;\n@nsw-orange-450: #fdb678;\n@nsw-orange-500: #fb9d58;\n@nsw-orange-550: #f78139;\n@nsw-orange-600: #f3631b;\n@nsw-orange-650: #db5115;\n@nsw-orange-700: #c33f0e;\n@nsw-orange-750: #ab2e06;\n@nsw-orange-800: #941b00;\n@nsw-orange-850: #730f00;\n@nsw-orange-900: #530400;\n@nsw-orange-950: #350000;\n@nsw-yellow-50: #fffcf0;\n@nsw-yellow-100: #fffae5;\n@nsw-yellow-150: #fff7da;\n@nsw-yellow-200: #fff4cf;\n@nsw-yellow-250: #fff1c2;\n@nsw-yellow-300: #feeeb5;\n@nsw-yellow-350: #feeaa8;\n@nsw-yellow-400: #fde79a;\n@nsw-yellow-450: #fbda80;\n@nsw-yellow-500: #facd63;\n@nsw-yellow-550: #fabe42;\n@nsw-yellow-600: #faaf05;\n@nsw-yellow-650: #d49403;\n@nsw-yellow-700: #af7a01;\n@nsw-yellow-750: #8b6000;\n@nsw-yellow-800: #694800;\n@nsw-yellow-850: #503500;\n@nsw-yellow-900: #392400;\n@nsw-yellow-950: #221300;\n@nsw-brown-50: #fbf8f4;\n@nsw-brown-100: #f6f1ea;\n@nsw-brown-150: #f2eae1;\n@nsw-brown-200: #ede3d7;\n@nsw-brown-250: #ecdece;\n@nsw-brown-300: #eadac6;\n@nsw-brown-350: #e9d5bd;\n@nsw-brown-400: #e8d0b5;\n@nsw-brown-450: #dbbf9f;\n@nsw-brown-500: #cfae89;\n@nsw-brown-550: #c29d73;\n@nsw-brown-600: #b68d5d;\n@nsw-brown-650: #9c764b;\n@nsw-brown-700: #82603a;\n@nsw-brown-750: #6a4b29;\n@nsw-brown-800: #523719;\n@nsw-brown-850: #3e280f;\n@nsw-brown-900: #2b1a07;\n@nsw-brown-950: #190d02;\n@nsw-aboriginal-grey-50: #f9f8f7;\n@nsw-aboriginal-grey-100: #f2f1ef;\n@nsw-aboriginal-grey-150: #ebeae8;\n@nsw-aboriginal-grey-200: #e5e3e0;\n@nsw-aboriginal-grey-250: #dfdcd8;\n@nsw-aboriginal-grey-300: #d8d4d1;\n@nsw-aboriginal-grey-350: #d2cdc9;\n@nsw-aboriginal-grey-400: #ccc6c2;\n@nsw-aboriginal-grey-450: #ada8a5;\n@nsw-aboriginal-grey-500: #8e8b8a;\n@nsw-aboriginal-grey-550: #71706f;\n@nsw-aboriginal-grey-600: #555555;\n@nsw-aboriginal-grey-650: #4b4b4b;\n@nsw-aboriginal-grey-700: #404040;\n@nsw-aboriginal-grey-750: #373737;\n@nsw-aboriginal-grey-800: #2d2d2d;\n@nsw-aboriginal-grey-850: #202020;\n@nsw-aboriginal-grey-900: #141414;\n@nsw-aboriginal-grey-950: #090909;\n@nsw-aboriginal-red-50: #fff5f5;\n@nsw-aboriginal-red-100: #ffebeb;\n@nsw-aboriginal-red-150: #fee2e2;\n@nsw-aboriginal-red-200: #fdd9d9;\n@nsw-aboriginal-red-250: #fdd0d0;\n@nsw-aboriginal-red-300: #fcc7c6;\n@nsw-aboriginal-red-350: #fcbdbd;\n@nsw-aboriginal-red-400: #fbb4b3;\n@nsw-aboriginal-red-450: #f79693;\n@nsw-aboriginal-red-500: #f27771;\n@nsw-aboriginal-red-550: #ea554c;\n@nsw-aboriginal-red-600: #e1261c;\n@nsw-aboriginal-red-650: #cd1f17;\n@nsw-aboriginal-red-700: #ba1811;\n@nsw-aboriginal-red-750: #a7110b;\n@nsw-aboriginal-red-800: #950906;\n@nsw-aboriginal-red-850: #740001;\n@nsw-aboriginal-red-900: #540000;\n@nsw-aboriginal-red-950: #360000;\n@nsw-aboriginal-orange-50: #fff4ec;\n@nsw-aboriginal-orange-100: #fee9dd;\n@nsw-aboriginal-orange-150: #fcdfcd;\n@nsw-aboriginal-orange-200: #f9d4be;\n@nsw-aboriginal-orange-250: #f8caae;\n@nsw-aboriginal-orange-300: #f7bf9e;\n@nsw-aboriginal-orange-350: #f6b58e;\n@nsw-aboriginal-orange-400: #f4aa7d;\n@nsw-aboriginal-orange-450: #f39a66;\n@nsw-aboriginal-orange-500: #f2894f;\n@nsw-aboriginal-orange-550: #f07736;\n@nsw-aboriginal-orange-600: #ee6314;\n@nsw-aboriginal-orange-650: #d45310;\n@nsw-aboriginal-orange-700: #ba440a;\n@nsw-aboriginal-orange-750: #a13505;\n@nsw-aboriginal-orange-800: #882600;\n@nsw-aboriginal-orange-850: #691900;\n@nsw-aboriginal-orange-900: #4c0d00;\n@nsw-aboriginal-orange-950: #300300;\n@nsw-aboriginal-brown-50: #fcf1e9;\n@nsw-aboriginal-brown-100: #f6e3d7;\n@nsw-aboriginal-brown-150: #efd5c4;\n@nsw-aboriginal-brown-200: #e9c8b2;\n@nsw-aboriginal-brown-250: #e4ba9f;\n@nsw-aboriginal-brown-300: #dead8c;\n@nsw-aboriginal-brown-350: #d99f78;\n@nsw-aboriginal-brown-400: #d39165;\n@nsw-aboriginal-brown-450: #c68158;\n@nsw-aboriginal-brown-500: #b9724b;\n@nsw-aboriginal-brown-550: #ab623e;\n@nsw-aboriginal-brown-600: #9e5332;\n@nsw-aboriginal-brown-650: #8b4627;\n@nsw-aboriginal-brown-700: #79391c;\n@nsw-aboriginal-brown-750: #672d10;\n@nsw-aboriginal-brown-800: #552105;\n@nsw-aboriginal-brown-850: #411602;\n@nsw-aboriginal-brown-900: #2d0c00;\n@nsw-aboriginal-brown-950: #1b0400;\n@nsw-aboriginal-yellow-50: #fffcee;\n@nsw-aboriginal-yellow-100: #fff8e0;\n@nsw-aboriginal-yellow-150: #fff5d3;\n@nsw-aboriginal-yellow-200: #fff1c5;\n@nsw-aboriginal-yellow-250: #ffeeb7;\n@nsw-aboriginal-yellow-300: #ffeba9;\n@nsw-aboriginal-yellow-350: #fee79b;\n@nsw-aboriginal-yellow-400: #fee48c;\n@nsw-aboriginal-yellow-450: #fed675;\n@nsw-aboriginal-yellow-500: #fec85d;\n@nsw-aboriginal-yellow-550: #feb944;\n@nsw-aboriginal-yellow-600: #fea927;\n@nsw-aboriginal-yellow-650: #df961c;\n@nsw-aboriginal-yellow-700: #c18312;\n@nsw-aboriginal-yellow-750: #a57007;\n@nsw-aboriginal-yellow-800: #895e00;\n@nsw-aboriginal-yellow-850: #694700;\n@nsw-aboriginal-yellow-900: #4c3000;\n@nsw-aboriginal-yellow-950: #2f1c00;\n@nsw-aboriginal-green-50: #f5f9f2;\n@nsw-aboriginal-green-100: #ecf3e7;\n@nsw-aboriginal-green-150: #e3ecdc;\n@nsw-aboriginal-green-200: #dae6d1;\n@nsw-aboriginal-green-250: #d1e0c6;\n@nsw-aboriginal-green-300: #c7d9ba;\n@nsw-aboriginal-green-350: #bed3af;\n@nsw-aboriginal-green-400: #b5cda4;\n@nsw-aboriginal-green-450: #a5c28e;\n@nsw-aboriginal-green-500: #95b777;\n@nsw-aboriginal-green-550: #86ac60;\n@nsw-aboriginal-green-600: #78a146;\n@nsw-aboriginal-green-650: #5f8f44;\n@nsw-aboriginal-green-700: #497d40;\n@nsw-aboriginal-green-750: #346a3b;\n@nsw-aboriginal-green-800: #215834;\n@nsw-aboriginal-green-850: #154225;\n@nsw-aboriginal-green-900: #0a2e17;\n@nsw-aboriginal-green-950: #021b0a;\n@nsw-aboriginal-blue-50: #eef8fa;\n@nsw-aboriginal-blue-100: #dff1f4;\n@nsw-aboriginal-blue-150: #d0e9ee;\n@nsw-aboriginal-blue-200: #c1e2e8;\n@nsw-aboriginal-blue-250: #b2dbe2;\n@nsw-aboriginal-blue-300: #a3d4dc;\n@nsw-aboriginal-blue-350: #94ccd7;\n@nsw-aboriginal-blue-400: #84c5d1;\n@nsw-aboriginal-blue-450: #67aec0;\n@nsw-aboriginal-blue-500: #4a96b0;\n@nsw-aboriginal-blue-550: #2e7fa1;\n@nsw-aboriginal-blue-600: #0d6791;\n@nsw-aboriginal-blue-650: #145782;\n@nsw-aboriginal-blue-700: #174773;\n@nsw-aboriginal-blue-750: #183763;\n@nsw-aboriginal-blue-800: #162953;\n@nsw-aboriginal-blue-850: #0e1d3f;\n@nsw-aboriginal-blue-900: #06122c;\n@nsw-aboriginal-blue-950: #02071b;\n@nsw-aboriginal-purple-50: #faf1f8;\n@nsw-aboriginal-purple-100: #f2e5f0;\n@nsw-aboriginal-purple-150: #ebd8e8;\n@nsw-aboriginal-purple-200: #e4cce0;\n@nsw-aboriginal-purple-250: #ddbfd8;\n@nsw-aboriginal-purple-300: #d7b3d1;\n@nsw-aboriginal-purple-350: #d0a6c9;\n@nsw-aboriginal-purple-400: #c99ac2;\n@nsw-aboriginal-purple-450: #bd8bb6;\n@nsw-aboriginal-purple-500: #b17caa;\n@nsw-aboriginal-purple-550: #a66d9f;\n@nsw-aboriginal-purple-600: #9a5e93;\n@nsw-aboriginal-purple-650: #844f7e;\n@nsw-aboriginal-purple-700: #6f4169;\n@nsw-aboriginal-purple-750: #5b3355;\n@nsw-aboriginal-purple-800: #472642;\n@nsw-aboriginal-purple-850: #351a31;\n@nsw-aboriginal-purple-900: #241021;\n@nsw-aboriginal-purple-950: #150612;\n";
 
-// src/scss/colors/global/hsl.scss
+// src/less/colors/global/hsl.less
 var hsl_exports7 = {};
 __export(hsl_exports7, {
-  default: () => hsl_default5
+  default: () => hsl_default4
 });
-var hsl_default5 = "$nsw-grey-50: hsl(223.81, 0%, 98.03%);\n$nsw-grey-100: hsl(223.81, 0%, 96.06%);\n$nsw-grey-150: hsl(223.81, 0%, 94.11%);\n$nsw-grey-200: hsl(223.81, 0%, 92.16%);\n$nsw-grey-250: hsl(200.05, 4.31%, 89.64%);\n$nsw-grey-300: hsl(200.03, 6.92%, 87.13%);\n$nsw-grey-350: hsl(200.02, 8.65%, 84.64%);\n$nsw-grey-400: hsl(200, 9.89%, 82.16%);\n$nsw-grey-450: hsl(200.47, 6.03%, 68.52%);\n$nsw-grey-500: hsl(200.94, 4.51%, 55.36%);\n$nsw-grey-550: hsl(201.39, 4.91%, 42.76%);\n$nsw-grey-600: hsl(201.82, 7.01%, 30.78%);\n$nsw-grey-650: hsl(203.03, 7.74%, 26.71%);\n$nsw-grey-700: hsl(204.24, 8.68%, 22.73%);\n$nsw-grey-750: hsl(205.45, 9.93%, 18.85%);\n$nsw-grey-800: hsl(206.67, 11.69%, 15.1%);\n$nsw-grey-850: hsl(206.66, 13.37%, 10.7%);\n$nsw-grey-900: hsl(206.64, 17.01%, 6.52%);\n$nsw-grey-950: hsl(208.68, 23.47%, 2.8%);\n$nsw-green-50: hsl(126.92, 92.48%, 97.87%);\n$nsw-green-100: hsl(127.18, 81.76%, 95.93%);\n$nsw-green-150: hsl(127.45, 77.77%, 93.96%);\n$nsw-green-200: hsl(127.74, 75.61%, 91.96%);\n$nsw-green-250: hsl(128.12, 71.21%, 88.91%);\n$nsw-green-300: hsl(128.55, 68.62%, 85.81%);\n$nsw-green-350: hsl(129.02, 66.91%, 82.65%);\n$nsw-green-400: hsl(129.57, 65.71%, 79.41%);\n$nsw-green-450: hsl(130.48, 54.36%, 70.18%);\n$nsw-green-500: hsl(131.91, 48.76%, 60.63%);\n$nsw-green-550: hsl(134.54, 46.29%, 50.21%);\n$nsw-green-600: hsl(144.35, 100%, 33.33%);\n$nsw-green-650: hsl(139.28, 90.98%, 29.11%);\n$nsw-green-700: hsl(134.23, 89.08%, 23.77%);\n$nsw-green-750: hsl(127.99, 92.45%, 18.06%);\n$nsw-green-800: hsl(120, 100%, 12.55%);\n$nsw-green-850: hsl(120.41, 100%, 8.99%);\n$nsw-green-900: hsl(120.77, 100%, 5.85%);\n$nsw-green-950: hsl(121.17, 100%, 3.07%);\n$nsw-teal-50: hsl(171.22, 56.11%, 96.73%);\n$nsw-teal-100: hsl(171.38, 49.48%, 93.72%);\n$nsw-teal-150: hsl(171.55, 47.18%, 90.69%);\n$nsw-teal-200: hsl(171.72, 46.03%, 87.65%);\n$nsw-teal-250: hsl(176, 49.12%, 83.57%);\n$nsw-teal-300: hsl(180.06, 50.95%, 79.35%);\n$nsw-teal-350: hsl(183.68, 57.18%, 75.79%);\n$nsw-teal-400: hsl(186.74, 63.12%, 72.35%);\n$nsw-teal-450: hsl(187.41, 48.14%, 63.4%);\n$nsw-teal-500: hsl(188, 39.25%, 54.56%);\n$nsw-teal-550: hsl(188.48, 39.69%, 45.78%);\n$nsw-teal-600: hsl(188.75, 51.06%, 36.86%);\n$nsw-teal-650: hsl(188.61, 53.88%, 31.46%);\n$nsw-teal-700: hsl(188.45, 57.8%, 26.19%);\n$nsw-teal-750: hsl(188.26, 63.6%, 21.07%);\n$nsw-teal-800: hsl(188, 73.17%, 16.08%);\n$nsw-teal-850: hsl(187.99, 84.92%, 11.28%);\n$nsw-teal-900: hsl(188.56, 96.03%, 7.26%);\n$nsw-teal-950: hsl(190.58, 100%, 3.88%);\n$nsw-blue-50: hsl(199.45, 100%, 97.34%);\n$nsw-blue-100: hsl(199.38, 100%, 94.73%);\n$nsw-blue-150: hsl(199.3, 95.85%, 92.09%);\n$nsw-blue-200: hsl(199.2, 92.59%, 89.41%);\n$nsw-blue-250: hsl(198.5, 96.87%, 86.75%);\n$nsw-blue-300: hsl(197.76, 98.99%, 83.89%);\n$nsw-blue-350: hsl(197, 99.87%, 80.82%);\n$nsw-blue-400: hsl(196.17, 100%, 77.45%);\n$nsw-blue-450: hsl(199.74, 99.83%, 67.57%);\n$nsw-blue-500: hsl(202.52, 100%, 57.55%);\n$nsw-blue-550: hsl(204.76, 100%, 46.97%);\n$nsw-blue-600: hsl(217.34, 98.31%, 53.53%);\n$nsw-blue-650: hsl(216.77, 89.43%, 43.98%);\n$nsw-blue-700: hsl(216.29, 94.14%, 35%);\n$nsw-blue-750: hsl(216.37, 97.67%, 26.93%);\n$nsw-blue-800: hsl(217.2, 100%, 19.61%);\n$nsw-blue-850: hsl(218.95, 100%, 14.93%);\n$nsw-blue-900: hsl(222.31, 100%, 10.59%);\n$nsw-blue-950: hsl(228.65, 100%, 6.6%);\n$nsw-purple-50: hsl(250, 100%, 98.76%);\n$nsw-purple-100: hsl(250.23, 100%, 97.09%);\n$nsw-purple-150: hsl(250.47, 93.41%, 95.41%);\n$nsw-purple-200: hsl(250.71, 87.5%, 93.73%);\n$nsw-purple-250: hsl(251.53, 93.83%, 92.23%);\n$nsw-purple-300: hsl(252.35, 97.33%, 90.69%);\n$nsw-purple-350: hsl(253.2, 99.18%, 89.09%);\n$nsw-purple-400: hsl(254.06, 100%, 87.45%);\n$nsw-purple-450: hsl(253.9, 94.13%, 82.01%);\n$nsw-purple-500: hsl(254.11, 90.14%, 76.39%);\n$nsw-purple-550: hsl(254.88, 87.11%, 70.46%);\n$nsw-purple-600: hsl(256.54, 84.78%, 63.92%);\n$nsw-purple-650: hsl(260.32, 59.17%, 53.67%);\n$nsw-purple-700: hsl(264.12, 55.46%, 43.83%);\n$nsw-purple-750: hsl(268.02, 62.04%, 34.39%);\n$nsw-purple-800: hsl(272.21, 73.64%, 25.29%);\n$nsw-purple-850: hsl(272.75, 82.69%, 18.56%);\n$nsw-purple-900: hsl(272.45, 92.77%, 12.64%);\n$nsw-purple-950: hsl(269.95, 100%, 7.66%);\n$nsw-fuchsia-50: hsl(322.15, 100%, 98.49%);\n$nsw-fuchsia-100: hsl(321.87, 100%, 96.73%);\n$nsw-fuchsia-150: hsl(321.58, 93.98%, 94.94%);\n$nsw-fuchsia-200: hsl(321.29, 88.57%, 93.14%);\n$nsw-fuchsia-250: hsl(319.35, 84.42%, 90.79%);\n$nsw-fuchsia-300: hsl(317.38, 80.69%, 88.38%);\n$nsw-fuchsia-350: hsl(315.37, 77.28%, 85.89%);\n$nsw-fuchsia-400: hsl(313.33, 74.12%, 83.33%);\n$nsw-fuchsia-450: hsl(314.16, 73.33%, 76.26%);\n$nsw-fuchsia-500: hsl(314.67, 72.14%, 68.62%);\n$nsw-fuchsia-550: hsl(314.69, 71.13%, 59.86%);\n$nsw-fuchsia-600: hsl(312.96, 84.68%, 46.08%);\n$nsw-fuchsia-650: hsl(313.17, 88.39%, 38.86%);\n$nsw-fuchsia-700: hsl(313.38, 92.9%, 31.95%);\n$nsw-fuchsia-750: hsl(313.72, 96.8%, 25.62%);\n$nsw-fuchsia-800: hsl(314.26, 100%, 19.8%);\n$nsw-fuchsia-850: hsl(314.51, 100%, 14.68%);\n$nsw-fuchsia-900: hsl(315.33, 100%, 10.15%);\n$nsw-fuchsia-950: hsl(317.48, 100%, 6.11%);\n$nsw-red-50: hsl(350.85, 100%, 98.97%);\n$nsw-red-100: hsl(350.7, 100%, 97.7%);\n$nsw-red-150: hsl(350.55, 100%, 96.41%);\n$nsw-red-200: hsl(350.4, 100%, 95.1%);\n$nsw-red-250: hsl(350.92, 100%, 92.94%);\n$nsw-red-300: hsl(351.43, 100%, 90.72%);\n$nsw-red-350: hsl(351.92, 100%, 88.44%);\n$nsw-red-400: hsl(352.39, 100%, 86.08%);\n$nsw-red-450: hsl(353.39, 86.96%, 78.18%);\n$nsw-red-500: hsl(353.95, 78.84%, 69.69%);\n$nsw-red-550: hsl(353.52, 73.17%, 60.13%);\n$nsw-red-600: hsl(348.56, 82.2%, 46.27%);\n$nsw-red-650: hsl(347.26, 85.91%, 38.92%);\n$nsw-red-700: hsl(345.89, 91%, 31.81%);\n$nsw-red-750: hsl(345, 95.87%, 25.31%);\n$nsw-red-800: hsl(344.85, 100%, 19.41%);\n$nsw-red-850: hsl(346.11, 100%, 14.46%);\n$nsw-red-900: hsl(349.15, 100%, 10.03%);\n$nsw-red-950: hsl(352.16, 100%, 6.06%);\n$nsw-orange-50: hsl(27.87, 100%, 98.29%);\n$nsw-orange-100: hsl(27.91, 96.98%, 96.64%);\n$nsw-orange-150: hsl(27.96, 91.29%, 94.99%);\n$nsw-orange-200: hsl(28, 88.24%, 93.33%);\n$nsw-orange-250: hsl(28.75, 96.77%, 90.26%);\n$nsw-orange-300: hsl(29.52, 99.73%, 87.03%);\n$nsw-orange-350: hsl(30.32, 100%, 83.62%);\n$nsw-orange-400: hsl(31.18, 100%, 80%);\n$nsw-orange-450: hsl(28.25, 96.8%, 73.02%);\n$nsw-orange-500: hsl(25.48, 94.77%, 66.34%);\n$nsw-orange-550: hsl(22.75, 92.62%, 59.79%);\n$nsw-orange-600: hsl(20, 90%, 52.94%);\n$nsw-orange-650: hsl(18.26, 82.63%, 47%);\n$nsw-orange-700: hsl(16.43, 86.72%, 40.94%);\n$nsw-orange-750: hsl(14.39, 93.12%, 34.79%);\n$nsw-orange-800: hsl(10.95, 100%, 29.02%);\n$nsw-orange-850: hsl(9.09, 100%, 21.91%);\n$nsw-orange-900: hsl(5.29, 100%, 15.58%);\n$nsw-orange-950: hsl(2.01, 100%, 9.91%);\n$nsw-yellow-50: hsl(46.46, 100%, 97.31%);\n$nsw-yellow-100: hsl(46.38, 100%, 95.09%);\n$nsw-yellow-150: hsl(46.31, 100%, 92.85%);\n$nsw-yellow-200: hsl(46.25, 100%, 90.59%);\n$nsw-yellow-250: hsl(46.33, 98.56%, 88%);\n$nsw-yellow-300: hsl(46.42, 97.54%, 85.35%);\n$nsw-yellow-350: hsl(46.53, 96.75%, 82.62%);\n$nsw-yellow-400: hsl(46.67, 96.12%, 79.8%);\n$nsw-yellow-450: hsl(43.95, 94.26%, 74.28%);\n$nsw-yellow-500: hsl(41.83, 94.17%, 68.55%);\n$nsw-yellow-550: hsl(40.46, 94.83%, 62.04%);\n$nsw-yellow-600: hsl(41.63, 96.08%, 50%);\n$nsw-yellow-650: hsl(41.71, 97.59%, 41.99%);\n$nsw-yellow-700: hsl(41.69, 98.72%, 34.44%);\n$nsw-yellow-750: hsl(41.53, 99.5%, 27.31%);\n$nsw-yellow-800: hsl(41.14, 100%, 20.59%);\n$nsw-yellow-850: hsl(40.68, 100%, 15.12%);\n$nsw-yellow-900: hsl(39.24, 100%, 10.36%);\n$nsw-yellow-950: hsl(35.52, 100%, 6.19%);\n$nsw-brown-50: hsl(32.66, 48.5%, 97.07%);\n$nsw-brown-100: hsl(32.68, 41.61%, 94.25%);\n$nsw-brown-150: hsl(32.7, 39.2%, 91.43%);\n$nsw-brown-200: hsl(32.73, 37.93%, 88.63%);\n$nsw-brown-250: hsl(32.47, 43.13%, 86.7%);\n$nsw-brown-300: hsl(32.23, 47.04%, 84.79%);\n$nsw-brown-350: hsl(31.99, 50.11%, 82.88%);\n$nsw-brown-400: hsl(31.76, 52.58%, 80.98%);\n$nsw-brown-450: hsl(31.83, 46.02%, 74.17%);\n$nsw-brown-500: hsl(31.93, 42.16%, 67.4%);\n$nsw-brown-550: hsl(32.1, 39.63%, 60.67%);\n$nsw-brown-600: hsl(32.36, 37.87%, 53.92%);\n$nsw-brown-650: hsl(32.04, 34.94%, 45.3%);\n$nsw-brown-700: hsl(31.77, 38.54%, 36.92%);\n$nsw-brown-750: hsl(31.59, 43.99%, 28.81%);\n$nsw-brown-800: hsl(31.58, 53.27%, 20.98%);\n$nsw-brown-850: hsl(31.74, 60.03%, 15.18%);\n$nsw-brown-900: hsl(31.73, 72.62%, 9.74%);\n$nsw-brown-950: hsl(27.95, 86.11%, 5.27%);\n$nsw-aboriginal-grey-50: hsl(35.99, 11.4%, 97.16%);\n$nsw-aboriginal-grey-100: hsl(36, 9.67%, 94.37%);\n$nsw-aboriginal-grey-150: hsl(36, 9.08%, 91.59%);\n$nsw-aboriginal-grey-200: hsl(36, 8.77%, 88.82%);\n$nsw-aboriginal-grey-250: hsl(32.79, 8.86%, 86.06%);\n$nsw-aboriginal-grey-300: hsl(29.76, 8.93%, 83.34%);\n$nsw-aboriginal-grey-350: hsl(26.85, 8.96%, 80.67%);\n$nsw-aboriginal-grey-400: hsl(24, 8.93%, 78.04%);\n$nsw-aboriginal-grey-450: hsl(23.99, 4.23%, 66.26%);\n$nsw-aboriginal-grey-500: hsl(23.97, 2.04%, 54.85%);\n$nsw-aboriginal-grey-550: hsl(23.95, 1.01%, 43.86%);\n$nsw-aboriginal-grey-600: hsl(223.81, 0%, 33.33%);\n$nsw-aboriginal-grey-650: hsl(223.81, 0%, 29.26%);\n$nsw-aboriginal-grey-700: hsl(223.81, 0%, 25.29%);\n$nsw-aboriginal-grey-750: hsl(223.81, 0%, 21.41%);\n$nsw-aboriginal-grey-800: hsl(223.81, 0%, 17.65%);\n$nsw-aboriginal-grey-850: hsl(223.81, 0%, 12.7%);\n$nsw-aboriginal-grey-900: hsl(223.81, 0%, 8.01%);\n$nsw-aboriginal-grey-950: hsl(223.81, 0%, 3.63%);\n$nsw-aboriginal-red-50: hsl(0.45, 100%, 98.34%);\n$nsw-aboriginal-red-100: hsl(0.31, 100%, 96.31%);\n$nsw-aboriginal-red-150: hsl(0.16, 96.42%, 94.24%);\n$nsw-aboriginal-red-200: hsl(360, 90%, 92.16%);\n$nsw-aboriginal-red-250: hsl(0.23, 91.24%, 90.28%);\n$nsw-aboriginal-red-300: hsl(0.45, 91.36%, 88.35%);\n$nsw-aboriginal-red-350: hsl(0.65, 90.86%, 86.36%);\n$nsw-aboriginal-red-400: hsl(0.83, 90%, 84.31%);\n$nsw-aboriginal-red-450: hsl(1.95, 86.73%, 77.32%);\n$nsw-aboriginal-red-500: hsl(2.8, 82.84%, 69.6%);\n$nsw-aboriginal-red-550: hsl(3.23, 79.15%, 60.92%);\n$nsw-aboriginal-red-600: hsl(3.05, 77.87%, 49.61%);\n$nsw-aboriginal-red-650: hsl(2.8, 80.26%, 44.7%);\n$nsw-aboriginal-red-700: hsl(2.5, 83.29%, 39.86%);\n$nsw-aboriginal-red-750: hsl(2.1, 87.31%, 35.06%);\n$nsw-aboriginal-red-800: hsl(1.26, 92.26%, 30.39%);\n$nsw-aboriginal-red-850: hsl(359.74, 99.82%, 22.68%);\n$nsw-aboriginal-red-900: hsl(358.63, 100%, 15.69%);\n$nsw-aboriginal-red-950: hsl(357.82, 100%, 9.76%);\n$nsw-aboriginal-orange-50: hsl(22.11, 100%, 96.57%);\n$nsw-aboriginal-orange-100: hsl(22.19, 93.98%, 93.1%);\n$nsw-aboriginal-orange-150: hsl(22.28, 87.05%, 89.61%);\n$nsw-aboriginal-orange-200: hsl(22.37, 83.1%, 86.08%);\n$nsw-aboriginal-orange-250: hsl(22.42, 84.33%, 82.75%);\n$nsw-aboriginal-orange-300: hsl(22.48, 84.74%, 79.37%);\n$nsw-aboriginal-orange-350: hsl(22.56, 84.7%, 75.91%);\n$nsw-aboriginal-orange-400: hsl(22.69, 84.4%, 72.35%);\n$nsw-aboriginal-orange-450: hsl(21.88, 85.61%, 67.77%);\n$nsw-aboriginal-orange-500: hsl(21.18, 86.15%, 63.01%);\n$nsw-aboriginal-orange-550: hsl(20.78, 86.28%, 57.76%);\n$nsw-aboriginal-orange-600: hsl(21.74, 86.51%, 50.59%);\n$nsw-aboriginal-orange-650: hsl(20.61, 86.17%, 44.61%);\n$nsw-aboriginal-orange-700: hsl(19.56, 89.48%, 38.49%);\n$nsw-aboriginal-orange-750: hsl(18.46, 94.45%, 32.41%);\n$nsw-aboriginal-orange-800: hsl(16.76, 100%, 26.67%);\n$nsw-aboriginal-orange-850: hsl(15.47, 100%, 20.07%);\n$nsw-aboriginal-orange-900: hsl(12.18, 100%, 14.2%);\n$nsw-aboriginal-orange-950: hsl(6.72, 100%, 8.94%);\n$nsw-aboriginal-brown-50: hsl(23.71, 74.46%, 95.12%);\n$nsw-aboriginal-brown-100: hsl(23.8, 62.46%, 90.28%);\n$nsw-aboriginal-brown-150: hsl(23.89, 58.05%, 85.44%);\n$nsw-aboriginal-brown-200: hsl(24, 55.56%, 80.59%);\n$nsw-aboriginal-brown-250: hsl(23.94, 55.92%, 75.8%);\n$nsw-aboriginal-brown-300: hsl(23.91, 55.95%, 70.98%);\n$nsw-aboriginal-brown-350: hsl(23.92, 55.79%, 66.12%);\n$nsw-aboriginal-brown-400: hsl(24, 55.56%, 61.18%);\n$nsw-aboriginal-brown-450: hsl(22.67, 49.07%, 55.96%);\n$nsw-aboriginal-brown-500: hsl(21.29, 43.84%, 50.82%);\n$nsw-aboriginal-brown-550: hsl(19.86, 46.79%, 45.77%);\n$nsw-aboriginal-brown-600: hsl(18.33, 51.92%, 40.78%);\n$nsw-aboriginal-brown-650: hsl(18.72, 56.45%, 34.86%);\n$nsw-aboriginal-brown-700: hsl(19.21, 62.79%, 29.04%);\n$nsw-aboriginal-brown-750: hsl(19.97, 72.56%, 23.3%);\n$nsw-aboriginal-brown-800: hsl(21, 88.89%, 17.65%);\n$nsw-aboriginal-brown-850: hsl(19.73, 95.19%, 12.97%);\n$nsw-aboriginal-brown-900: hsl(16.27, 100%, 8.82%);\n$nsw-aboriginal-brown-950: hsl(10.45, 100%, 5.14%);\n$nsw-aboriginal-yellow-50: hsl(45.72, 100%, 96.78%);\n$nsw-aboriginal-yellow-100: hsl(45.63, 100%, 94.1%);\n$nsw-aboriginal-yellow-150: hsl(45.57, 100%, 91.38%);\n$nsw-aboriginal-yellow-200: hsl(45.52, 100%, 88.63%);\n$nsw-aboriginal-yellow-250: hsl(45.68, 99.59%, 85.94%);\n$nsw-aboriginal-yellow-300: hsl(45.86, 99.15%, 83.16%);\n$nsw-aboriginal-yellow-350: hsl(46.07, 98.71%, 80.28%);\n$nsw-aboriginal-yellow-400: hsl(46.32, 98.28%, 77.25%);\n$nsw-aboriginal-yellow-450: hsl(42.77, 97.91%, 72.64%);\n$nsw-aboriginal-yellow-500: hsl(39.92, 98.26%, 68.02%);\n$nsw-aboriginal-yellow-550: hsl(37.69, 98.75%, 63.17%);\n$nsw-aboriginal-yellow-600: hsl(36.28, 99.08%, 57.45%);\n$nsw-aboriginal-yellow-650: hsl(37.45, 77.64%, 49.26%);\n$nsw-aboriginal-yellow-700: hsl(38.69, 83.35%, 41.35%);\n$nsw-aboriginal-yellow-750: hsl(40.07, 91.76%, 33.66%);\n$nsw-aboriginal-yellow-800: hsl(41.17, 100%, 26.86%);\n$nsw-aboriginal-yellow-850: hsl(41.1, 100%, 19.64%);\n$nsw-aboriginal-yellow-900: hsl(40.13, 100%, 13.55%);\n$nsw-aboriginal-yellow-950: hsl(37.35, 100%, 8.33%);\n$nsw-aboriginal-green-50: hsl(94.61, 37.03%, 96.34%);\n$nsw-aboriginal-green-100: hsl(94.51, 32.21%, 92.9%);\n$nsw-aboriginal-green-150: hsl(94.4, 30.49%, 89.48%);\n$nsw-aboriginal-green-200: hsl(94.29, 29.58%, 86.08%);\n$nsw-aboriginal-green-250: hsl(94.5, 29.43%, 82.62%);\n$nsw-aboriginal-green-300: hsl(94.72, 29.3%, 79.18%);\n$nsw-aboriginal-green-350: hsl(94.92, 29.18%, 75.76%);\n$nsw-aboriginal-green-400: hsl(95.12, 29.08%, 72.35%);\n$nsw-aboriginal-green-450: hsl(93.46, 30.08%, 65.88%);\n$nsw-aboriginal-green-500: hsl(91.63, 30.85%, 59.29%);\n$nsw-aboriginal-green-550: hsl(89.55, 31.61%, 52.5%);\n$nsw-aboriginal-green-600: hsl(87.03, 39.39%, 45.29%);\n$nsw-aboriginal-green-650: hsl(97.99, 35.67%, 41.28%);\n$nsw-aboriginal-green-700: hsl(111.48, 32.13%, 36.95%);\n$nsw-aboriginal-green-750: hsl(127.58, 34.41%, 30.98%);\n$nsw-aboriginal-green-800: hsl(140.73, 45.45%, 23.73%);\n$nsw-aboriginal-green-850: hsl(141.23, 51.5%, 17.2%);\n$nsw-aboriginal-green-900: hsl(142.1, 64.01%, 11%);\n$nsw-aboriginal-green-950: hsl(139.39, 83.32%, 5.75%);\n$nsw-aboriginal-blue-50: hsl(189.24, 57.11%, 95.67%);\n$nsw-aboriginal-blue-100: hsl(189.24, 49.64%, 91.57%);\n$nsw-aboriginal-blue-150: hsl(189.24, 47.11%, 87.45%);\n$nsw-aboriginal-blue-200: hsl(189.23, 45.88%, 83.33%);\n$nsw-aboriginal-blue-250: hsl(189.29, 45.53%, 79.28%);\n$nsw-aboriginal-blue-300: hsl(189.34, 45.39%, 75.19%);\n$nsw-aboriginal-blue-350: hsl(189.36, 45.41%, 71.06%);\n$nsw-aboriginal-blue-400: hsl(189.35, 45.56%, 66.86%);\n$nsw-aboriginal-blue-450: hsl(192.66, 41.82%, 57.86%);\n$nsw-aboriginal-blue-500: hsl(195.5, 40.89%, 49.12%);\n$nsw-aboriginal-blue-550: hsl(197.85, 55.74%, 40.47%);\n$nsw-aboriginal-blue-600: hsl(199.09, 83.54%, 30.98%);\n$nsw-aboriginal-blue-650: hsl(203.84, 73.26%, 29.5%);\n$nsw-aboriginal-blue-700: hsl(208.96, 66.46%, 27.09%);\n$nsw-aboriginal-blue-750: hsl(214.68, 61.55%, 24.07%);\n$nsw-aboriginal-blue-800: hsl(221.31, 58.1%, 20.59%);\n$nsw-aboriginal-blue-850: hsl(221.4, 64.27%, 15.08%);\n$nsw-aboriginal-blue-900: hsl(222.04, 74.71%, 9.95%);\n$nsw-aboriginal-blue-950: hsl(227.14, 84.88%, 5.65%);\n$nsw-aboriginal-purple-50: hsl(310.68, 42.61%, 96.28%);\n$nsw-aboriginal-purple-100: hsl(310.46, 34.93%, 92.41%);\n$nsw-aboriginal-purple-150: hsl(310.24, 32.24%, 88.56%);\n$nsw-aboriginal-purple-200: hsl(310, 30.77%, 84.71%);\n$nsw-aboriginal-purple-250: hsl(309.75, 30.82%, 80.93%);\n$nsw-aboriginal-purple-300: hsl(309.5, 30.72%, 77.16%);\n$nsw-aboriginal-purple-350: hsl(309.22, 30.55%, 73.39%);\n$nsw-aboriginal-purple-400: hsl(308.94, 30.32%, 69.61%);\n$nsw-aboriginal-purple-450: hsl(308.5, 27.72%, 64.31%);\n$nsw-aboriginal-purple-500: hsl(308.03, 25.74%, 59.05%);\n$nsw-aboriginal-purple-550: hsl(307.53, 24.18%, 53.83%);\n$nsw-aboriginal-purple-600: hsl(307, 24.19%, 48.63%);\n$nsw-aboriginal-purple-650: hsl(307.56, 25.08%, 41.48%);\n$nsw-aboriginal-purple-700: hsl(308.1, 26.24%, 34.55%);\n$nsw-aboriginal-purple-750: hsl(308.61, 27.86%, 27.83%);\n$nsw-aboriginal-purple-800: hsl(309.09, 30.28%, 21.37%);\n$nsw-aboriginal-purple-850: hsl(308.99, 33.57%, 15.63%);\n$nsw-aboriginal-purple-900: hsl(308.83, 40.05%, 10.18%);\n$nsw-aboriginal-purple-950: hsl(308.92, 54.82%, 5.21%);\n";
+var hsl_default4 = "@nsw-grey-50: hsl(223.81, 0%, 98.03%);\n@nsw-grey-100: hsl(223.81, 0%, 96.06%);\n@nsw-grey-150: hsl(223.81, 0%, 94.11%);\n@nsw-grey-200: hsl(223.81, 0%, 92.16%);\n@nsw-grey-250: hsl(200.05, 4.31%, 89.64%);\n@nsw-grey-300: hsl(200.03, 6.92%, 87.13%);\n@nsw-grey-350: hsl(200.02, 8.65%, 84.64%);\n@nsw-grey-400: hsl(200, 9.89%, 82.16%);\n@nsw-grey-450: hsl(200.47, 6.03%, 68.52%);\n@nsw-grey-500: hsl(200.94, 4.51%, 55.36%);\n@nsw-grey-550: hsl(201.39, 4.91%, 42.76%);\n@nsw-grey-600: hsl(201.82, 7.01%, 30.78%);\n@nsw-grey-650: hsl(203.03, 7.74%, 26.71%);\n@nsw-grey-700: hsl(204.24, 8.68%, 22.73%);\n@nsw-grey-750: hsl(205.45, 9.93%, 18.85%);\n@nsw-grey-800: hsl(206.67, 11.69%, 15.1%);\n@nsw-grey-850: hsl(206.66, 13.37%, 10.7%);\n@nsw-grey-900: hsl(206.64, 17.01%, 6.52%);\n@nsw-grey-950: hsl(208.68, 23.47%, 2.8%);\n@nsw-green-50: hsl(126.92, 92.48%, 97.87%);\n@nsw-green-100: hsl(127.18, 81.76%, 95.93%);\n@nsw-green-150: hsl(127.45, 77.77%, 93.96%);\n@nsw-green-200: hsl(127.74, 75.61%, 91.96%);\n@nsw-green-250: hsl(128.12, 71.21%, 88.91%);\n@nsw-green-300: hsl(128.55, 68.62%, 85.81%);\n@nsw-green-350: hsl(129.02, 66.91%, 82.65%);\n@nsw-green-400: hsl(129.57, 65.71%, 79.41%);\n@nsw-green-450: hsl(130.48, 54.36%, 70.18%);\n@nsw-green-500: hsl(131.91, 48.76%, 60.63%);\n@nsw-green-550: hsl(134.54, 46.29%, 50.21%);\n@nsw-green-600: hsl(144.35, 100%, 33.33%);\n@nsw-green-650: hsl(139.28, 90.98%, 29.11%);\n@nsw-green-700: hsl(134.23, 89.08%, 23.77%);\n@nsw-green-750: hsl(127.99, 92.45%, 18.06%);\n@nsw-green-800: hsl(120, 100%, 12.55%);\n@nsw-green-850: hsl(120.41, 100%, 8.99%);\n@nsw-green-900: hsl(120.77, 100%, 5.85%);\n@nsw-green-950: hsl(121.17, 100%, 3.07%);\n@nsw-teal-50: hsl(171.22, 56.11%, 96.73%);\n@nsw-teal-100: hsl(171.38, 49.48%, 93.72%);\n@nsw-teal-150: hsl(171.55, 47.18%, 90.69%);\n@nsw-teal-200: hsl(171.72, 46.03%, 87.65%);\n@nsw-teal-250: hsl(176, 49.12%, 83.57%);\n@nsw-teal-300: hsl(180.06, 50.95%, 79.35%);\n@nsw-teal-350: hsl(183.68, 57.18%, 75.79%);\n@nsw-teal-400: hsl(186.74, 63.12%, 72.35%);\n@nsw-teal-450: hsl(187.41, 48.14%, 63.4%);\n@nsw-teal-500: hsl(188, 39.25%, 54.56%);\n@nsw-teal-550: hsl(188.48, 39.69%, 45.78%);\n@nsw-teal-600: hsl(188.75, 51.06%, 36.86%);\n@nsw-teal-650: hsl(188.61, 53.88%, 31.46%);\n@nsw-teal-700: hsl(188.45, 57.8%, 26.19%);\n@nsw-teal-750: hsl(188.26, 63.6%, 21.07%);\n@nsw-teal-800: hsl(188, 73.17%, 16.08%);\n@nsw-teal-850: hsl(187.99, 84.92%, 11.28%);\n@nsw-teal-900: hsl(188.56, 96.03%, 7.26%);\n@nsw-teal-950: hsl(190.58, 100%, 3.88%);\n@nsw-blue-50: hsl(199.45, 100%, 97.34%);\n@nsw-blue-100: hsl(199.38, 100%, 94.73%);\n@nsw-blue-150: hsl(199.3, 95.85%, 92.09%);\n@nsw-blue-200: hsl(199.2, 92.59%, 89.41%);\n@nsw-blue-250: hsl(198.5, 96.87%, 86.75%);\n@nsw-blue-300: hsl(197.76, 98.99%, 83.89%);\n@nsw-blue-350: hsl(197, 99.87%, 80.82%);\n@nsw-blue-400: hsl(196.17, 100%, 77.45%);\n@nsw-blue-450: hsl(199.74, 99.83%, 67.57%);\n@nsw-blue-500: hsl(202.52, 100%, 57.55%);\n@nsw-blue-550: hsl(204.76, 100%, 46.97%);\n@nsw-blue-600: hsl(217.34, 98.31%, 53.53%);\n@nsw-blue-650: hsl(216.77, 89.43%, 43.98%);\n@nsw-blue-700: hsl(216.29, 94.14%, 35%);\n@nsw-blue-750: hsl(216.37, 97.67%, 26.93%);\n@nsw-blue-800: hsl(217.2, 100%, 19.61%);\n@nsw-blue-850: hsl(218.95, 100%, 14.93%);\n@nsw-blue-900: hsl(222.31, 100%, 10.59%);\n@nsw-blue-950: hsl(228.65, 100%, 6.6%);\n@nsw-purple-50: hsl(250, 100%, 98.76%);\n@nsw-purple-100: hsl(250.23, 100%, 97.09%);\n@nsw-purple-150: hsl(250.47, 93.41%, 95.41%);\n@nsw-purple-200: hsl(250.71, 87.5%, 93.73%);\n@nsw-purple-250: hsl(251.53, 93.83%, 92.23%);\n@nsw-purple-300: hsl(252.35, 97.33%, 90.69%);\n@nsw-purple-350: hsl(253.2, 99.18%, 89.09%);\n@nsw-purple-400: hsl(254.06, 100%, 87.45%);\n@nsw-purple-450: hsl(253.9, 94.13%, 82.01%);\n@nsw-purple-500: hsl(254.11, 90.14%, 76.39%);\n@nsw-purple-550: hsl(254.88, 87.11%, 70.46%);\n@nsw-purple-600: hsl(256.54, 84.78%, 63.92%);\n@nsw-purple-650: hsl(260.32, 59.17%, 53.67%);\n@nsw-purple-700: hsl(264.12, 55.46%, 43.83%);\n@nsw-purple-750: hsl(268.02, 62.04%, 34.39%);\n@nsw-purple-800: hsl(272.21, 73.64%, 25.29%);\n@nsw-purple-850: hsl(272.75, 82.69%, 18.56%);\n@nsw-purple-900: hsl(272.45, 92.77%, 12.64%);\n@nsw-purple-950: hsl(269.95, 100%, 7.66%);\n@nsw-fuchsia-50: hsl(322.15, 100%, 98.49%);\n@nsw-fuchsia-100: hsl(321.87, 100%, 96.73%);\n@nsw-fuchsia-150: hsl(321.58, 93.98%, 94.94%);\n@nsw-fuchsia-200: hsl(321.29, 88.57%, 93.14%);\n@nsw-fuchsia-250: hsl(319.35, 84.42%, 90.79%);\n@nsw-fuchsia-300: hsl(317.38, 80.69%, 88.38%);\n@nsw-fuchsia-350: hsl(315.37, 77.28%, 85.89%);\n@nsw-fuchsia-400: hsl(313.33, 74.12%, 83.33%);\n@nsw-fuchsia-450: hsl(314.16, 73.33%, 76.26%);\n@nsw-fuchsia-500: hsl(314.67, 72.14%, 68.62%);\n@nsw-fuchsia-550: hsl(314.69, 71.13%, 59.86%);\n@nsw-fuchsia-600: hsl(312.96, 84.68%, 46.08%);\n@nsw-fuchsia-650: hsl(313.17, 88.39%, 38.86%);\n@nsw-fuchsia-700: hsl(313.38, 92.9%, 31.95%);\n@nsw-fuchsia-750: hsl(313.72, 96.8%, 25.62%);\n@nsw-fuchsia-800: hsl(314.26, 100%, 19.8%);\n@nsw-fuchsia-850: hsl(314.51, 100%, 14.68%);\n@nsw-fuchsia-900: hsl(315.33, 100%, 10.15%);\n@nsw-fuchsia-950: hsl(317.48, 100%, 6.11%);\n@nsw-red-50: hsl(350.85, 100%, 98.97%);\n@nsw-red-100: hsl(350.7, 100%, 97.7%);\n@nsw-red-150: hsl(350.55, 100%, 96.41%);\n@nsw-red-200: hsl(350.4, 100%, 95.1%);\n@nsw-red-250: hsl(350.92, 100%, 92.94%);\n@nsw-red-300: hsl(351.43, 100%, 90.72%);\n@nsw-red-350: hsl(351.92, 100%, 88.44%);\n@nsw-red-400: hsl(352.39, 100%, 86.08%);\n@nsw-red-450: hsl(353.39, 86.96%, 78.18%);\n@nsw-red-500: hsl(353.95, 78.84%, 69.69%);\n@nsw-red-550: hsl(353.52, 73.17%, 60.13%);\n@nsw-red-600: hsl(348.56, 82.2%, 46.27%);\n@nsw-red-650: hsl(347.26, 85.91%, 38.92%);\n@nsw-red-700: hsl(345.89, 91%, 31.81%);\n@nsw-red-750: hsl(345, 95.87%, 25.31%);\n@nsw-red-800: hsl(344.85, 100%, 19.41%);\n@nsw-red-850: hsl(346.11, 100%, 14.46%);\n@nsw-red-900: hsl(349.15, 100%, 10.03%);\n@nsw-red-950: hsl(352.16, 100%, 6.06%);\n@nsw-orange-50: hsl(27.87, 100%, 98.29%);\n@nsw-orange-100: hsl(27.91, 96.98%, 96.64%);\n@nsw-orange-150: hsl(27.96, 91.29%, 94.99%);\n@nsw-orange-200: hsl(28, 88.24%, 93.33%);\n@nsw-orange-250: hsl(28.75, 96.77%, 90.26%);\n@nsw-orange-300: hsl(29.52, 99.73%, 87.03%);\n@nsw-orange-350: hsl(30.32, 100%, 83.62%);\n@nsw-orange-400: hsl(31.18, 100%, 80%);\n@nsw-orange-450: hsl(28.25, 96.8%, 73.02%);\n@nsw-orange-500: hsl(25.48, 94.77%, 66.34%);\n@nsw-orange-550: hsl(22.75, 92.62%, 59.79%);\n@nsw-orange-600: hsl(20, 90%, 52.94%);\n@nsw-orange-650: hsl(18.26, 82.63%, 47%);\n@nsw-orange-700: hsl(16.43, 86.72%, 40.94%);\n@nsw-orange-750: hsl(14.39, 93.12%, 34.79%);\n@nsw-orange-800: hsl(10.95, 100%, 29.02%);\n@nsw-orange-850: hsl(9.09, 100%, 21.91%);\n@nsw-orange-900: hsl(5.29, 100%, 15.58%);\n@nsw-orange-950: hsl(2.01, 100%, 9.91%);\n@nsw-yellow-50: hsl(46.46, 100%, 97.31%);\n@nsw-yellow-100: hsl(46.38, 100%, 95.09%);\n@nsw-yellow-150: hsl(46.31, 100%, 92.85%);\n@nsw-yellow-200: hsl(46.25, 100%, 90.59%);\n@nsw-yellow-250: hsl(46.33, 98.56%, 88%);\n@nsw-yellow-300: hsl(46.42, 97.54%, 85.35%);\n@nsw-yellow-350: hsl(46.53, 96.75%, 82.62%);\n@nsw-yellow-400: hsl(46.67, 96.12%, 79.8%);\n@nsw-yellow-450: hsl(43.95, 94.26%, 74.28%);\n@nsw-yellow-500: hsl(41.83, 94.17%, 68.55%);\n@nsw-yellow-550: hsl(40.46, 94.83%, 62.04%);\n@nsw-yellow-600: hsl(41.63, 96.08%, 50%);\n@nsw-yellow-650: hsl(41.71, 97.59%, 41.99%);\n@nsw-yellow-700: hsl(41.69, 98.72%, 34.44%);\n@nsw-yellow-750: hsl(41.53, 99.5%, 27.31%);\n@nsw-yellow-800: hsl(41.14, 100%, 20.59%);\n@nsw-yellow-850: hsl(40.68, 100%, 15.12%);\n@nsw-yellow-900: hsl(39.24, 100%, 10.36%);\n@nsw-yellow-950: hsl(35.52, 100%, 6.19%);\n@nsw-brown-50: hsl(32.66, 48.5%, 97.07%);\n@nsw-brown-100: hsl(32.68, 41.61%, 94.25%);\n@nsw-brown-150: hsl(32.7, 39.2%, 91.43%);\n@nsw-brown-200: hsl(32.73, 37.93%, 88.63%);\n@nsw-brown-250: hsl(32.47, 43.13%, 86.7%);\n@nsw-brown-300: hsl(32.23, 47.04%, 84.79%);\n@nsw-brown-350: hsl(31.99, 50.11%, 82.88%);\n@nsw-brown-400: hsl(31.76, 52.58%, 80.98%);\n@nsw-brown-450: hsl(31.83, 46.02%, 74.17%);\n@nsw-brown-500: hsl(31.93, 42.16%, 67.4%);\n@nsw-brown-550: hsl(32.1, 39.63%, 60.67%);\n@nsw-brown-600: hsl(32.36, 37.87%, 53.92%);\n@nsw-brown-650: hsl(32.04, 34.94%, 45.3%);\n@nsw-brown-700: hsl(31.77, 38.54%, 36.92%);\n@nsw-brown-750: hsl(31.59, 43.99%, 28.81%);\n@nsw-brown-800: hsl(31.58, 53.27%, 20.98%);\n@nsw-brown-850: hsl(31.74, 60.03%, 15.18%);\n@nsw-brown-900: hsl(31.73, 72.62%, 9.74%);\n@nsw-brown-950: hsl(27.95, 86.11%, 5.27%);\n@nsw-aboriginal-grey-50: hsl(35.99, 11.4%, 97.16%);\n@nsw-aboriginal-grey-100: hsl(36, 9.67%, 94.37%);\n@nsw-aboriginal-grey-150: hsl(36, 9.08%, 91.59%);\n@nsw-aboriginal-grey-200: hsl(36, 8.77%, 88.82%);\n@nsw-aboriginal-grey-250: hsl(32.79, 8.86%, 86.06%);\n@nsw-aboriginal-grey-300: hsl(29.76, 8.93%, 83.34%);\n@nsw-aboriginal-grey-350: hsl(26.85, 8.96%, 80.67%);\n@nsw-aboriginal-grey-400: hsl(24, 8.93%, 78.04%);\n@nsw-aboriginal-grey-450: hsl(23.99, 4.23%, 66.26%);\n@nsw-aboriginal-grey-500: hsl(23.97, 2.04%, 54.85%);\n@nsw-aboriginal-grey-550: hsl(23.95, 1.01%, 43.86%);\n@nsw-aboriginal-grey-600: hsl(223.81, 0%, 33.33%);\n@nsw-aboriginal-grey-650: hsl(223.81, 0%, 29.26%);\n@nsw-aboriginal-grey-700: hsl(223.81, 0%, 25.29%);\n@nsw-aboriginal-grey-750: hsl(223.81, 0%, 21.41%);\n@nsw-aboriginal-grey-800: hsl(223.81, 0%, 17.65%);\n@nsw-aboriginal-grey-850: hsl(223.81, 0%, 12.7%);\n@nsw-aboriginal-grey-900: hsl(223.81, 0%, 8.01%);\n@nsw-aboriginal-grey-950: hsl(223.81, 0%, 3.63%);\n@nsw-aboriginal-red-50: hsl(0.45, 100%, 98.34%);\n@nsw-aboriginal-red-100: hsl(0.31, 100%, 96.31%);\n@nsw-aboriginal-red-150: hsl(0.16, 96.42%, 94.24%);\n@nsw-aboriginal-red-200: hsl(360, 90%, 92.16%);\n@nsw-aboriginal-red-250: hsl(0.23, 91.24%, 90.28%);\n@nsw-aboriginal-red-300: hsl(0.45, 91.36%, 88.35%);\n@nsw-aboriginal-red-350: hsl(0.65, 90.86%, 86.36%);\n@nsw-aboriginal-red-400: hsl(0.83, 90%, 84.31%);\n@nsw-aboriginal-red-450: hsl(1.95, 86.73%, 77.32%);\n@nsw-aboriginal-red-500: hsl(2.8, 82.84%, 69.6%);\n@nsw-aboriginal-red-550: hsl(3.23, 79.15%, 60.92%);\n@nsw-aboriginal-red-600: hsl(3.05, 77.87%, 49.61%);\n@nsw-aboriginal-red-650: hsl(2.8, 80.26%, 44.7%);\n@nsw-aboriginal-red-700: hsl(2.5, 83.29%, 39.86%);\n@nsw-aboriginal-red-750: hsl(2.1, 87.31%, 35.06%);\n@nsw-aboriginal-red-800: hsl(1.26, 92.26%, 30.39%);\n@nsw-aboriginal-red-850: hsl(359.74, 99.82%, 22.68%);\n@nsw-aboriginal-red-900: hsl(358.63, 100%, 15.69%);\n@nsw-aboriginal-red-950: hsl(357.82, 100%, 9.76%);\n@nsw-aboriginal-orange-50: hsl(22.11, 100%, 96.57%);\n@nsw-aboriginal-orange-100: hsl(22.19, 93.98%, 93.1%);\n@nsw-aboriginal-orange-150: hsl(22.28, 87.05%, 89.61%);\n@nsw-aboriginal-orange-200: hsl(22.37, 83.1%, 86.08%);\n@nsw-aboriginal-orange-250: hsl(22.42, 84.33%, 82.75%);\n@nsw-aboriginal-orange-300: hsl(22.48, 84.74%, 79.37%);\n@nsw-aboriginal-orange-350: hsl(22.56, 84.7%, 75.91%);\n@nsw-aboriginal-orange-400: hsl(22.69, 84.4%, 72.35%);\n@nsw-aboriginal-orange-450: hsl(21.88, 85.61%, 67.77%);\n@nsw-aboriginal-orange-500: hsl(21.18, 86.15%, 63.01%);\n@nsw-aboriginal-orange-550: hsl(20.78, 86.28%, 57.76%);\n@nsw-aboriginal-orange-600: hsl(21.74, 86.51%, 50.59%);\n@nsw-aboriginal-orange-650: hsl(20.61, 86.17%, 44.61%);\n@nsw-aboriginal-orange-700: hsl(19.56, 89.48%, 38.49%);\n@nsw-aboriginal-orange-750: hsl(18.46, 94.45%, 32.41%);\n@nsw-aboriginal-orange-800: hsl(16.76, 100%, 26.67%);\n@nsw-aboriginal-orange-850: hsl(15.47, 100%, 20.07%);\n@nsw-aboriginal-orange-900: hsl(12.18, 100%, 14.2%);\n@nsw-aboriginal-orange-950: hsl(6.72, 100%, 8.94%);\n@nsw-aboriginal-brown-50: hsl(23.71, 74.46%, 95.12%);\n@nsw-aboriginal-brown-100: hsl(23.8, 62.46%, 90.28%);\n@nsw-aboriginal-brown-150: hsl(23.89, 58.05%, 85.44%);\n@nsw-aboriginal-brown-200: hsl(24, 55.56%, 80.59%);\n@nsw-aboriginal-brown-250: hsl(23.94, 55.92%, 75.8%);\n@nsw-aboriginal-brown-300: hsl(23.91, 55.95%, 70.98%);\n@nsw-aboriginal-brown-350: hsl(23.92, 55.79%, 66.12%);\n@nsw-aboriginal-brown-400: hsl(24, 55.56%, 61.18%);\n@nsw-aboriginal-brown-450: hsl(22.67, 49.07%, 55.96%);\n@nsw-aboriginal-brown-500: hsl(21.29, 43.84%, 50.82%);\n@nsw-aboriginal-brown-550: hsl(19.86, 46.79%, 45.77%);\n@nsw-aboriginal-brown-600: hsl(18.33, 51.92%, 40.78%);\n@nsw-aboriginal-brown-650: hsl(18.72, 56.45%, 34.86%);\n@nsw-aboriginal-brown-700: hsl(19.21, 62.79%, 29.04%);\n@nsw-aboriginal-brown-750: hsl(19.97, 72.56%, 23.3%);\n@nsw-aboriginal-brown-800: hsl(21, 88.89%, 17.65%);\n@nsw-aboriginal-brown-850: hsl(19.73, 95.19%, 12.97%);\n@nsw-aboriginal-brown-900: hsl(16.27, 100%, 8.82%);\n@nsw-aboriginal-brown-950: hsl(10.45, 100%, 5.14%);\n@nsw-aboriginal-yellow-50: hsl(45.72, 100%, 96.78%);\n@nsw-aboriginal-yellow-100: hsl(45.63, 100%, 94.1%);\n@nsw-aboriginal-yellow-150: hsl(45.57, 100%, 91.38%);\n@nsw-aboriginal-yellow-200: hsl(45.52, 100%, 88.63%);\n@nsw-aboriginal-yellow-250: hsl(45.68, 99.59%, 85.94%);\n@nsw-aboriginal-yellow-300: hsl(45.86, 99.15%, 83.16%);\n@nsw-aboriginal-yellow-350: hsl(46.07, 98.71%, 80.28%);\n@nsw-aboriginal-yellow-400: hsl(46.32, 98.28%, 77.25%);\n@nsw-aboriginal-yellow-450: hsl(42.77, 97.91%, 72.64%);\n@nsw-aboriginal-yellow-500: hsl(39.92, 98.26%, 68.02%);\n@nsw-aboriginal-yellow-550: hsl(37.69, 98.75%, 63.17%);\n@nsw-aboriginal-yellow-600: hsl(36.28, 99.08%, 57.45%);\n@nsw-aboriginal-yellow-650: hsl(37.45, 77.64%, 49.26%);\n@nsw-aboriginal-yellow-700: hsl(38.69, 83.35%, 41.35%);\n@nsw-aboriginal-yellow-750: hsl(40.07, 91.76%, 33.66%);\n@nsw-aboriginal-yellow-800: hsl(41.17, 100%, 26.86%);\n@nsw-aboriginal-yellow-850: hsl(41.1, 100%, 19.64%);\n@nsw-aboriginal-yellow-900: hsl(40.13, 100%, 13.55%);\n@nsw-aboriginal-yellow-950: hsl(37.35, 100%, 8.33%);\n@nsw-aboriginal-green-50: hsl(94.61, 37.03%, 96.34%);\n@nsw-aboriginal-green-100: hsl(94.51, 32.21%, 92.9%);\n@nsw-aboriginal-green-150: hsl(94.4, 30.49%, 89.48%);\n@nsw-aboriginal-green-200: hsl(94.29, 29.58%, 86.08%);\n@nsw-aboriginal-green-250: hsl(94.5, 29.43%, 82.62%);\n@nsw-aboriginal-green-300: hsl(94.72, 29.3%, 79.18%);\n@nsw-aboriginal-green-350: hsl(94.92, 29.18%, 75.76%);\n@nsw-aboriginal-green-400: hsl(95.12, 29.08%, 72.35%);\n@nsw-aboriginal-green-450: hsl(93.46, 30.08%, 65.88%);\n@nsw-aboriginal-green-500: hsl(91.63, 30.85%, 59.29%);\n@nsw-aboriginal-green-550: hsl(89.55, 31.61%, 52.5%);\n@nsw-aboriginal-green-600: hsl(87.03, 39.39%, 45.29%);\n@nsw-aboriginal-green-650: hsl(97.99, 35.67%, 41.28%);\n@nsw-aboriginal-green-700: hsl(111.48, 32.13%, 36.95%);\n@nsw-aboriginal-green-750: hsl(127.58, 34.41%, 30.98%);\n@nsw-aboriginal-green-800: hsl(140.73, 45.45%, 23.73%);\n@nsw-aboriginal-green-850: hsl(141.23, 51.5%, 17.2%);\n@nsw-aboriginal-green-900: hsl(142.1, 64.01%, 11%);\n@nsw-aboriginal-green-950: hsl(139.39, 83.32%, 5.75%);\n@nsw-aboriginal-blue-50: hsl(189.24, 57.11%, 95.67%);\n@nsw-aboriginal-blue-100: hsl(189.24, 49.64%, 91.57%);\n@nsw-aboriginal-blue-150: hsl(189.24, 47.11%, 87.45%);\n@nsw-aboriginal-blue-200: hsl(189.23, 45.88%, 83.33%);\n@nsw-aboriginal-blue-250: hsl(189.29, 45.53%, 79.28%);\n@nsw-aboriginal-blue-300: hsl(189.34, 45.39%, 75.19%);\n@nsw-aboriginal-blue-350: hsl(189.36, 45.41%, 71.06%);\n@nsw-aboriginal-blue-400: hsl(189.35, 45.56%, 66.86%);\n@nsw-aboriginal-blue-450: hsl(192.66, 41.82%, 57.86%);\n@nsw-aboriginal-blue-500: hsl(195.5, 40.89%, 49.12%);\n@nsw-aboriginal-blue-550: hsl(197.85, 55.74%, 40.47%);\n@nsw-aboriginal-blue-600: hsl(199.09, 83.54%, 30.98%);\n@nsw-aboriginal-blue-650: hsl(203.84, 73.26%, 29.5%);\n@nsw-aboriginal-blue-700: hsl(208.96, 66.46%, 27.09%);\n@nsw-aboriginal-blue-750: hsl(214.68, 61.55%, 24.07%);\n@nsw-aboriginal-blue-800: hsl(221.31, 58.1%, 20.59%);\n@nsw-aboriginal-blue-850: hsl(221.4, 64.27%, 15.08%);\n@nsw-aboriginal-blue-900: hsl(222.04, 74.71%, 9.95%);\n@nsw-aboriginal-blue-950: hsl(227.14, 84.88%, 5.65%);\n@nsw-aboriginal-purple-50: hsl(310.68, 42.61%, 96.28%);\n@nsw-aboriginal-purple-100: hsl(310.46, 34.93%, 92.41%);\n@nsw-aboriginal-purple-150: hsl(310.24, 32.24%, 88.56%);\n@nsw-aboriginal-purple-200: hsl(310, 30.77%, 84.71%);\n@nsw-aboriginal-purple-250: hsl(309.75, 30.82%, 80.93%);\n@nsw-aboriginal-purple-300: hsl(309.5, 30.72%, 77.16%);\n@nsw-aboriginal-purple-350: hsl(309.22, 30.55%, 73.39%);\n@nsw-aboriginal-purple-400: hsl(308.94, 30.32%, 69.61%);\n@nsw-aboriginal-purple-450: hsl(308.5, 27.72%, 64.31%);\n@nsw-aboriginal-purple-500: hsl(308.03, 25.74%, 59.05%);\n@nsw-aboriginal-purple-550: hsl(307.53, 24.18%, 53.83%);\n@nsw-aboriginal-purple-600: hsl(307, 24.19%, 48.63%);\n@nsw-aboriginal-purple-650: hsl(307.56, 25.08%, 41.48%);\n@nsw-aboriginal-purple-700: hsl(308.1, 26.24%, 34.55%);\n@nsw-aboriginal-purple-750: hsl(308.61, 27.86%, 27.83%);\n@nsw-aboriginal-purple-800: hsl(309.09, 30.28%, 21.37%);\n@nsw-aboriginal-purple-850: hsl(308.99, 33.57%, 15.63%);\n@nsw-aboriginal-purple-900: hsl(308.83, 40.05%, 10.18%);\n@nsw-aboriginal-purple-950: hsl(308.92, 54.82%, 5.21%);\n";
 
-// src/scss/colors/global/oklch.scss
+// src/less/colors/global/oklch.less
 var oklch_exports7 = {};
 __export(oklch_exports7, {
-  default: () => oklch_default5
+  default: () => oklch_default4
 });
-var oklch_default5 = "$nsw-grey-50: oklch(0.9850175274112574 0 0);\n$nsw-grey-100: oklch(0.9700350548225147 0 0);\n$nsw-grey-150: oklch(0.9550525822337722 0 0);\n$nsw-grey-200: oklch(0.9400701096450296 0 0);\n$nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n$nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n$nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n$nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n$nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n$nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n$nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n$nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n$nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n$nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n$nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n$nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n$nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n$nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n$nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n$nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);\n$nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);\n$nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);\n$nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);\n$nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);\n$nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);\n$nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);\n$nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);\n$nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);\n$nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);\n$nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);\n$nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);\n$nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);\n$nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);\n$nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);\n$nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);\n$nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);\n$nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);\n$nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);\n$nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);\n$nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);\n$nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);\n$nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);\n$nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);\n$nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);\n$nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);\n$nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);\n$nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);\n$nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);\n$nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);\n$nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);\n$nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);\n$nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);\n$nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);\n$nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);\n$nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);\n$nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);\n$nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);\n$nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n$nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n$nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n$nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n$nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n$nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n$nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n$nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n$nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n$nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n$nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n$nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n$nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n$nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n$nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n$nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n$nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n$nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n$nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n$nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);\n$nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);\n$nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);\n$nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);\n$nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);\n$nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);\n$nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);\n$nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);\n$nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);\n$nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);\n$nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);\n$nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);\n$nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);\n$nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);\n$nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);\n$nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);\n$nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);\n$nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);\n$nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);\n$nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);\n$nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);\n$nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);\n$nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);\n$nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);\n$nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);\n$nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);\n$nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);\n$nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);\n$nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);\n$nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);\n$nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);\n$nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);\n$nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);\n$nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);\n$nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);\n$nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);\n$nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);\n$nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);\n$nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n$nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n$nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n$nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n$nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n$nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n$nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n$nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n$nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n$nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n$nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n$nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n$nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n$nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n$nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n$nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n$nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n$nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n$nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n$nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);\n$nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);\n$nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);\n$nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);\n$nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);\n$nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);\n$nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);\n$nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);\n$nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);\n$nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);\n$nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);\n$nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);\n$nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);\n$nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);\n$nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);\n$nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);\n$nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);\n$nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);\n$nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);\n$nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);\n$nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);\n$nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);\n$nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);\n$nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);\n$nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);\n$nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);\n$nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);\n$nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);\n$nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);\n$nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);\n$nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);\n$nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);\n$nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);\n$nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);\n$nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);\n$nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);\n$nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);\n$nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);\n$nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);\n$nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);\n$nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);\n$nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);\n$nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);\n$nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);\n$nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);\n$nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);\n$nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);\n$nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);\n$nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);\n$nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);\n$nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);\n$nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);\n$nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);\n$nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);\n$nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);\n$nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);\n$nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);\n$nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);\n$nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);\n$nsw-aboriginal-grey-150: oklch(0.9374064828896956 0.0035614326327228986 78.29695339492076);\n$nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);\n$nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);\n$nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);\n$nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);\n$nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);\n$nsw-aboriginal-grey-450: oklch(0.7350703829754051 0.006541023270606863 56.288635534075496);\n$nsw-aboriginal-grey-500: oklch(0.6398913199703631 0.004360682180404575 56.288635534075496);\n$nsw-aboriginal-grey-550: oklch(0.544712256965321 0.0021803410902022876 56.288635534075496);\n$nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 none);\n$nsw-aboriginal-grey-650: oklch(0.4114406365077532 0 none);\n$nsw-aboriginal-grey-700: oklch(0.3733480790552275 0 none);\n$nsw-aboriginal-grey-750: oklch(0.3352555216027018 0 none);\n$nsw-aboriginal-grey-800: oklch(0.29716296415017607 0 none);\n$nsw-aboriginal-grey-850: oklch(0.24515944542389526 0 none);\n$nsw-aboriginal-grey-900: oklch(0.19315592669761444 0 none);\n$nsw-aboriginal-grey-950: oklch(0.14115240797133363 0 none);\n$nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);\n$nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);\n$nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);\n$nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);\n$nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);\n$nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);\n$nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);\n$nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);\n$nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);\n$nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);\n$nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);\n$nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);\n$nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);\n$nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);\n$nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);\n$nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);\n$nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);\n$nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);\n$nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);\n$nsw-aboriginal-orange-50: oklch(0.9738855126989008 0.016602591530904584 52.55546216454561);\n$nsw-aboriginal-orange-100: oklch(0.9477710253978014 0.028096693359992375 52.55546216454561);\n$nsw-aboriginal-orange-150: oklch(0.9216565380967021 0.039590795189080166 52.55546216454561);\n$nsw-aboriginal-orange-200: oklch(0.8955420507956029 0.05108489701816796 52.55546216454561);\n$nsw-aboriginal-orange-250: oklch(0.8714459985514821 0.06477537243882539 52.40983339193463);\n$nsw-aboriginal-orange-300: oklch(0.8473499463073613 0.07846584785948284 52.264204619323664);\n$nsw-aboriginal-orange-350: oklch(0.8232538940632406 0.09215632328014028 52.11857584671269);\n$nsw-aboriginal-orange-400: oklch(0.7991578418191198 0.10584679870079772 51.97294707410171);\n$nsw-aboriginal-orange-450: oklch(0.7660019575057643 0.12652886278666134 49.87887684512948);\n$nsw-aboriginal-orange-500: oklch(0.7328460731924087 0.14721092687252496 47.784806616157255);\n$nsw-aboriginal-orange-550: oklch(0.6996901888790532 0.16789299095838855 45.69073638718503);\n$nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);\n$nsw-aboriginal-orange-650: oklch(0.6048689295059245 0.17619193861850896 42.06662366880586);\n$nsw-aboriginal-orange-700: oklch(0.5432035544461513 0.16380882219276577 40.53658117939892);\n$nsw-aboriginal-orange-750: oklch(0.48153817938637805 0.15142570576702258 39.00653868999199);\n$nsw-aboriginal-orange-800: oklch(0.41987280432660484 0.13904258934127936 37.47649620058505);\n$nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);\n$nsw-aboriginal-orange-900: oklch(0.27291732281229314 0.09732981253889555 37.47649620058505);\n$nsw-aboriginal-orange-950: oklch(0.1994395820551373 0.07647342413770365 37.47649620058505);\n$nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);\n$nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);\n$nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);\n$nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);\n$nsw-aboriginal-brown-250: oklch(0.819495130372929 0.060854957675237686 55.274819963495716);\n$nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);\n$nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);\n$nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);\n$nsw-aboriginal-brown-450: oklch(0.6658642886991106 0.10220482966257746 51.472089235271014);\n$nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);\n$nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);\n$nsw-aboriginal-brown-600: oklch(0.5259341610634539 0.10991146182440867 43.512391998616614);\n$nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);\n$nsw-aboriginal-brown-700: oklch(0.42307648380765683 0.09792470862615782 44.09883922975184);\n$nsw-aboriginal-brown-750: oklch(0.37164764517975835 0.09193133202703241 44.39206284531945);\n$nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);\n$nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);\n$nsw-aboriginal-brown-900: oklch(0.20814222425870887 0.06015656879953489 44.68528646088706);\n$nsw-aboriginal-brown-950: oklch(0.15210393311213338 0.04726587548534884 44.68528646088706);\n$nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);\n$nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);\n$nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);\n$nsw-aboriginal-yellow-200: oklch(0.9583504843687841 0.05877873378798942 92.48002960723814);\n$nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);\n$nsw-aboriginal-yellow-300: oklch(0.9399189898584743 0.08519720131855335 92.98100357955929);\n$nsw-aboriginal-yellow-350: oklch(0.9307032426033194 0.09840643508383531 93.23149056571987);\n$nsw-aboriginal-yellow-400: oklch(0.9214874953481644 0.11161566884911728 93.48197755188043);\n$nsw-aboriginal-yellow-450: oklch(0.8910195189839808 0.12436290150788638 87.85568397462671);\n$nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);\n$nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);\n$nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);\n$nsw-aboriginal-yellow-650: oklch(0.7283788119804733 0.14880860016855085 72.64225880919277);\n$nsw-aboriginal-yellow-700: oklch(0.6571420340695165 0.13501260085290803 74.30771437551996);\n$nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);\n$nsw-aboriginal-yellow-800: oklch(0.5146684782476031 0.10742060222162236 77.63862550817437);\n$nsw-aboriginal-yellow-850: oklch(0.42460149455427254 0.09130751188837902 77.63862550817437);\n$nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);\n$nsw-aboriginal-yellow-950: oklch(0.24446752716761147 0.059081331221892304 77.63862550817437);\n$nsw-aboriginal-green-50: oklch(0.9775400515432829 0.010033373009012674 131.56364967590204);\n$nsw-aboriginal-green-100: oklch(0.9550801030865659 0.016979554322944526 131.56364967590204);\n$nsw-aboriginal-green-150: oklch(0.9326201546298487 0.023925735636876375 131.56364967590204);\n$nsw-aboriginal-green-200: oklch(0.9101602061731316 0.030871916950808227 131.56364967590204);\n$nsw-aboriginal-green-250: oklch(0.8874934999312177 0.03857982981011093 131.78279512830795);\n$nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);\n$nsw-aboriginal-green-350: oklch(0.8421600874473898 0.053995655528716345 132.22108603311983);\n$nsw-aboriginal-green-400: oklch(0.8194933812054759 0.061703568388019055 132.44023148552574);\n$nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);\n$nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);\n$nsw-aboriginal-green-550: oklch(0.6989797391259933 0.11210775194181792 130.29024651396378);\n$nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);\n$nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);\n$nsw-aboriginal-green-700: oklch(0.5360283164657826 0.10630157240635738 140.91243379535533);\n$nsw-aboriginal-green-750: oklch(0.47463821214892454 0.09499778537966062 146.58185826464475);\n$nsw-aboriginal-green-800: oklch(0.41324810783206634 0.08369399835296387 152.25128273393418);\n$nsw-aboriginal-green-850: oklch(0.3409296889614547 0.07113989860001929 152.25128273393418);\n$nsw-aboriginal-green-900: oklch(0.2686112700908431 0.05858579884707471 152.25128273393418);\n$nsw-aboriginal-green-950: oklch(0.1962928512202315 0.04603169909413013 152.25128273393418);\n$nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);\n$nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);\n$nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);\n$nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);\n$nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);\n$nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);\n$nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);\n$nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);\n$nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);\n$nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);\n$nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);\n$nsw-aboriginal-blue-600: oklch(0.48681410550334053 0.10128236457958428 236.48205409186096);\n$nsw-aboriginal-blue-650: oklch(0.43774688628471914 0.09607362828959434 243.31473157010598);\n$nsw-aboriginal-blue-700: oklch(0.3886796670660978 0.09086489199960439 250.147409048351);\n$nsw-aboriginal-blue-750: oklch(0.3396124478474764 0.08565615570961443 256.980086526596);\n$nsw-aboriginal-blue-800: oklch(0.290545228628855 0.0804474194196245 263.81276400484103);\n$nsw-aboriginal-blue-850: oklch(0.23969981361880538 0.06838030650668082 263.81276400484103);\n$nsw-aboriginal-blue-900: oklch(0.18885439860875575 0.05631319359373715 263.81276400484103);\n$nsw-aboriginal-blue-950: oklch(0.13800898359870611 0.04424608068079347 263.81276400484103);\n$nsw-aboriginal-purple-50: oklch(0.9677519235816936 0.01225423399018933 331.39469318233586);\n$nsw-aboriginal-purple-100: oklch(0.9355038471633873 0.020737934444935786 331.39469318233586);\n$nsw-aboriginal-purple-150: oklch(0.903255770745081 0.02922163489968224 331.39469318233586);\n$nsw-aboriginal-purple-200: oklch(0.8710076943267746 0.0377053353544287 331.39469318233586);\n$nsw-aboriginal-purple-250: oklch(0.8389191100209297 0.04764157951006853 331.4172179039917);\n$nsw-aboriginal-purple-300: oklch(0.8068305257150847 0.05757782366570837 331.4397426256475);\n$nsw-aboriginal-purple-350: oklch(0.7747419414092399 0.06751406782134821 331.46226734730334);\n$nsw-aboriginal-purple-400: oklch(0.742653357103395 0.07745031197698804 331.48479206895917);\n$nsw-aboriginal-purple-450: oklch(0.6987279730890662 0.08461715270888535 331.3997569775923);\n$nsw-aboriginal-purple-500: oklch(0.6548025890747375 0.09178399344078267 331.31472188622536);\n$nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);\n$nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);\n$nsw-aboriginal-purple-650: oklch(0.5059681066477375 0.09597195429905764 331.53840819994554);\n$nsw-aboriginal-purple-700: oklch(0.4449843922493949 0.08582623369353798 331.93216469639947);\n$nsw-aboriginal-purple-750: oklch(0.38400067785105235 0.07568051308801832 332.32592119285346);\n$nsw-aboriginal-purple-800: oklch(0.3230169634527098 0.06553479248249865 332.7196776893074);\n$nsw-aboriginal-purple-850: oklch(0.2664889948484856 0.05570457361012385 332.7196776893074);\n$nsw-aboriginal-purple-900: oklch(0.20996102624426138 0.04587435473774905 332.7196776893074);\n$nsw-aboriginal-purple-950: oklch(0.15343305764003715 0.036044135865374256 332.7196776893074);\n";
+var oklch_default4 = "@nsw-grey-50: oklch(0.9850175274112574 0 0);\n@nsw-grey-100: oklch(0.9700350548225147 0 0);\n@nsw-grey-150: oklch(0.9550525822337722 0 0);\n@nsw-grey-200: oklch(0.9400701096450296 0 0);\n@nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n@nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n@nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n@nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n@nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n@nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n@nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n@nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n@nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n@nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n@nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n@nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n@nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n@nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n@nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n@nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);\n@nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);\n@nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);\n@nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);\n@nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);\n@nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);\n@nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);\n@nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);\n@nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);\n@nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);\n@nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);\n@nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);\n@nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);\n@nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);\n@nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);\n@nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);\n@nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);\n@nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);\n@nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);\n@nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);\n@nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);\n@nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);\n@nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);\n@nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);\n@nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);\n@nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);\n@nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);\n@nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);\n@nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);\n@nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);\n@nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);\n@nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);\n@nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);\n@nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);\n@nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);\n@nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);\n@nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);\n@nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);\n@nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n@nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n@nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n@nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n@nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n@nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n@nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n@nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n@nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n@nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n@nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n@nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n@nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n@nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n@nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n@nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n@nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n@nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n@nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n@nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);\n@nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);\n@nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);\n@nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);\n@nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);\n@nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);\n@nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);\n@nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);\n@nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);\n@nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);\n@nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);\n@nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);\n@nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);\n@nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);\n@nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);\n@nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);\n@nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);\n@nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);\n@nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);\n@nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);\n@nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);\n@nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);\n@nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);\n@nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);\n@nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);\n@nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);\n@nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);\n@nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);\n@nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);\n@nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);\n@nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);\n@nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);\n@nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);\n@nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);\n@nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);\n@nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);\n@nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);\n@nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);\n@nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n@nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n@nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n@nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n@nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n@nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n@nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n@nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n@nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n@nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n@nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n@nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n@nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n@nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n@nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n@nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n@nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n@nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n@nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n@nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);\n@nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);\n@nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);\n@nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);\n@nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);\n@nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);\n@nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);\n@nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);\n@nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);\n@nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);\n@nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);\n@nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);\n@nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);\n@nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);\n@nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);\n@nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);\n@nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);\n@nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);\n@nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);\n@nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);\n@nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);\n@nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);\n@nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);\n@nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);\n@nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);\n@nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);\n@nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);\n@nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);\n@nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);\n@nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);\n@nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);\n@nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);\n@nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);\n@nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);\n@nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);\n@nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);\n@nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);\n@nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);\n@nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);\n@nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);\n@nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);\n@nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);\n@nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);\n@nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);\n@nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);\n@nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);\n@nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);\n@nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);\n@nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);\n@nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);\n@nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);\n@nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);\n@nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);\n@nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);\n@nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);\n@nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);\n@nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);\n@nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);\n@nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);\n@nsw-aboriginal-grey-150: oklch(0.9374064828896956 0.0035614326327228986 78.29695339492076);\n@nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);\n@nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);\n@nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);\n@nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);\n@nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);\n@nsw-aboriginal-grey-450: oklch(0.7350703829754051 0.006541023270606863 56.288635534075496);\n@nsw-aboriginal-grey-500: oklch(0.6398913199703631 0.004360682180404575 56.288635534075496);\n@nsw-aboriginal-grey-550: oklch(0.544712256965321 0.0021803410902022876 56.288635534075496);\n@nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 none);\n@nsw-aboriginal-grey-650: oklch(0.4114406365077532 0 none);\n@nsw-aboriginal-grey-700: oklch(0.3733480790552275 0 none);\n@nsw-aboriginal-grey-750: oklch(0.3352555216027018 0 none);\n@nsw-aboriginal-grey-800: oklch(0.29716296415017607 0 none);\n@nsw-aboriginal-grey-850: oklch(0.24515944542389526 0 none);\n@nsw-aboriginal-grey-900: oklch(0.19315592669761444 0 none);\n@nsw-aboriginal-grey-950: oklch(0.14115240797133363 0 none);\n@nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);\n@nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);\n@nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);\n@nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);\n@nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);\n@nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);\n@nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);\n@nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);\n@nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);\n@nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);\n@nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);\n@nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);\n@nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);\n@nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);\n@nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);\n@nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);\n@nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);\n@nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);\n@nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);\n@nsw-aboriginal-orange-50: oklch(0.9738855126989008 0.016602591530904584 52.55546216454561);\n@nsw-aboriginal-orange-100: oklch(0.9477710253978014 0.028096693359992375 52.55546216454561);\n@nsw-aboriginal-orange-150: oklch(0.9216565380967021 0.039590795189080166 52.55546216454561);\n@nsw-aboriginal-orange-200: oklch(0.8955420507956029 0.05108489701816796 52.55546216454561);\n@nsw-aboriginal-orange-250: oklch(0.8714459985514821 0.06477537243882539 52.40983339193463);\n@nsw-aboriginal-orange-300: oklch(0.8473499463073613 0.07846584785948284 52.264204619323664);\n@nsw-aboriginal-orange-350: oklch(0.8232538940632406 0.09215632328014028 52.11857584671269);\n@nsw-aboriginal-orange-400: oklch(0.7991578418191198 0.10584679870079772 51.97294707410171);\n@nsw-aboriginal-orange-450: oklch(0.7660019575057643 0.12652886278666134 49.87887684512948);\n@nsw-aboriginal-orange-500: oklch(0.7328460731924087 0.14721092687252496 47.784806616157255);\n@nsw-aboriginal-orange-550: oklch(0.6996901888790532 0.16789299095838855 45.69073638718503);\n@nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);\n@nsw-aboriginal-orange-650: oklch(0.6048689295059245 0.17619193861850896 42.06662366880586);\n@nsw-aboriginal-orange-700: oklch(0.5432035544461513 0.16380882219276577 40.53658117939892);\n@nsw-aboriginal-orange-750: oklch(0.48153817938637805 0.15142570576702258 39.00653868999199);\n@nsw-aboriginal-orange-800: oklch(0.41987280432660484 0.13904258934127936 37.47649620058505);\n@nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);\n@nsw-aboriginal-orange-900: oklch(0.27291732281229314 0.09732981253889555 37.47649620058505);\n@nsw-aboriginal-orange-950: oklch(0.1994395820551373 0.07647342413770365 37.47649620058505);\n@nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);\n@nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);\n@nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);\n@nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);\n@nsw-aboriginal-brown-250: oklch(0.819495130372929 0.060854957675237686 55.274819963495716);\n@nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);\n@nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);\n@nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);\n@nsw-aboriginal-brown-450: oklch(0.6658642886991106 0.10220482966257746 51.472089235271014);\n@nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);\n@nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);\n@nsw-aboriginal-brown-600: oklch(0.5259341610634539 0.10991146182440867 43.512391998616614);\n@nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);\n@nsw-aboriginal-brown-700: oklch(0.42307648380765683 0.09792470862615782 44.09883922975184);\n@nsw-aboriginal-brown-750: oklch(0.37164764517975835 0.09193133202703241 44.39206284531945);\n@nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);\n@nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);\n@nsw-aboriginal-brown-900: oklch(0.20814222425870887 0.06015656879953489 44.68528646088706);\n@nsw-aboriginal-brown-950: oklch(0.15210393311213338 0.04726587548534884 44.68528646088706);\n@nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);\n@nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);\n@nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);\n@nsw-aboriginal-yellow-200: oklch(0.9583504843687841 0.05877873378798942 92.48002960723814);\n@nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);\n@nsw-aboriginal-yellow-300: oklch(0.9399189898584743 0.08519720131855335 92.98100357955929);\n@nsw-aboriginal-yellow-350: oklch(0.9307032426033194 0.09840643508383531 93.23149056571987);\n@nsw-aboriginal-yellow-400: oklch(0.9214874953481644 0.11161566884911728 93.48197755188043);\n@nsw-aboriginal-yellow-450: oklch(0.8910195189839808 0.12436290150788638 87.85568397462671);\n@nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);\n@nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);\n@nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);\n@nsw-aboriginal-yellow-650: oklch(0.7283788119804733 0.14880860016855085 72.64225880919277);\n@nsw-aboriginal-yellow-700: oklch(0.6571420340695165 0.13501260085290803 74.30771437551996);\n@nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);\n@nsw-aboriginal-yellow-800: oklch(0.5146684782476031 0.10742060222162236 77.63862550817437);\n@nsw-aboriginal-yellow-850: oklch(0.42460149455427254 0.09130751188837902 77.63862550817437);\n@nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);\n@nsw-aboriginal-yellow-950: oklch(0.24446752716761147 0.059081331221892304 77.63862550817437);\n@nsw-aboriginal-green-50: oklch(0.9775400515432829 0.010033373009012674 131.56364967590204);\n@nsw-aboriginal-green-100: oklch(0.9550801030865659 0.016979554322944526 131.56364967590204);\n@nsw-aboriginal-green-150: oklch(0.9326201546298487 0.023925735636876375 131.56364967590204);\n@nsw-aboriginal-green-200: oklch(0.9101602061731316 0.030871916950808227 131.56364967590204);\n@nsw-aboriginal-green-250: oklch(0.8874934999312177 0.03857982981011093 131.78279512830795);\n@nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);\n@nsw-aboriginal-green-350: oklch(0.8421600874473898 0.053995655528716345 132.22108603311983);\n@nsw-aboriginal-green-400: oklch(0.8194933812054759 0.061703568388019055 132.44023148552574);\n@nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);\n@nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);\n@nsw-aboriginal-green-550: oklch(0.6989797391259933 0.11210775194181792 130.29024651396378);\n@nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);\n@nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);\n@nsw-aboriginal-green-700: oklch(0.5360283164657826 0.10630157240635738 140.91243379535533);\n@nsw-aboriginal-green-750: oklch(0.47463821214892454 0.09499778537966062 146.58185826464475);\n@nsw-aboriginal-green-800: oklch(0.41324810783206634 0.08369399835296387 152.25128273393418);\n@nsw-aboriginal-green-850: oklch(0.3409296889614547 0.07113989860001929 152.25128273393418);\n@nsw-aboriginal-green-900: oklch(0.2686112700908431 0.05858579884707471 152.25128273393418);\n@nsw-aboriginal-green-950: oklch(0.1962928512202315 0.04603169909413013 152.25128273393418);\n@nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);\n@nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);\n@nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);\n@nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);\n@nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);\n@nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);\n@nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);\n@nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);\n@nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);\n@nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);\n@nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);\n@nsw-aboriginal-blue-600: oklch(0.48681410550334053 0.10128236457958428 236.48205409186096);\n@nsw-aboriginal-blue-650: oklch(0.43774688628471914 0.09607362828959434 243.31473157010598);\n@nsw-aboriginal-blue-700: oklch(0.3886796670660978 0.09086489199960439 250.147409048351);\n@nsw-aboriginal-blue-750: oklch(0.3396124478474764 0.08565615570961443 256.980086526596);\n@nsw-aboriginal-blue-800: oklch(0.290545228628855 0.0804474194196245 263.81276400484103);\n@nsw-aboriginal-blue-850: oklch(0.23969981361880538 0.06838030650668082 263.81276400484103);\n@nsw-aboriginal-blue-900: oklch(0.18885439860875575 0.05631319359373715 263.81276400484103);\n@nsw-aboriginal-blue-950: oklch(0.13800898359870611 0.04424608068079347 263.81276400484103);\n@nsw-aboriginal-purple-50: oklch(0.9677519235816936 0.01225423399018933 331.39469318233586);\n@nsw-aboriginal-purple-100: oklch(0.9355038471633873 0.020737934444935786 331.39469318233586);\n@nsw-aboriginal-purple-150: oklch(0.903255770745081 0.02922163489968224 331.39469318233586);\n@nsw-aboriginal-purple-200: oklch(0.8710076943267746 0.0377053353544287 331.39469318233586);\n@nsw-aboriginal-purple-250: oklch(0.8389191100209297 0.04764157951006853 331.4172179039917);\n@nsw-aboriginal-purple-300: oklch(0.8068305257150847 0.05757782366570837 331.4397426256475);\n@nsw-aboriginal-purple-350: oklch(0.7747419414092399 0.06751406782134821 331.46226734730334);\n@nsw-aboriginal-purple-400: oklch(0.742653357103395 0.07745031197698804 331.48479206895917);\n@nsw-aboriginal-purple-450: oklch(0.6987279730890662 0.08461715270888535 331.3997569775923);\n@nsw-aboriginal-purple-500: oklch(0.6548025890747375 0.09178399344078267 331.31472188622536);\n@nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);\n@nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);\n@nsw-aboriginal-purple-650: oklch(0.5059681066477375 0.09597195429905764 331.53840819994554);\n@nsw-aboriginal-purple-700: oklch(0.4449843922493949 0.08582623369353798 331.93216469639947);\n@nsw-aboriginal-purple-750: oklch(0.38400067785105235 0.07568051308801832 332.32592119285346);\n@nsw-aboriginal-purple-800: oklch(0.3230169634527098 0.06553479248249865 332.7196776893074);\n@nsw-aboriginal-purple-850: oklch(0.2664889948484856 0.05570457361012385 332.7196776893074);\n@nsw-aboriginal-purple-900: oklch(0.20996102624426138 0.04587435473774905 332.7196776893074);\n@nsw-aboriginal-purple-950: oklch(0.15343305764003715 0.036044135865374256 332.7196776893074);\n";
 
-// src/scss/colors/global/rgb.scss
+// src/less/colors/global/rgb.less
 var rgb_exports7 = {};
 __export(rgb_exports7, {
-  default: () => rgb_default5
+  default: () => rgb_default4
 });
-var rgb_default5 = "$nsw-grey-50: rgb(250, 250, 250);\n$nsw-grey-100: rgb(245, 245, 245);\n$nsw-grey-150: rgb(240, 240, 240);\n$nsw-grey-200: rgb(235, 235, 235);\n$nsw-grey-250: rgb(227, 229, 230);\n$nsw-grey-300: rgb(220, 223, 224);\n$nsw-grey-350: rgb(212, 217, 219);\n$nsw-grey-400: rgb(205, 211, 214);\n$nsw-grey-450: rgb(170, 176, 180);\n$nsw-grey-500: rgb(136, 143, 146);\n$nsw-grey-550: rgb(104, 111, 114);\n$nsw-grey-600: rgb(73, 80, 84);\n$nsw-grey-650: rgb(63, 69, 73);\n$nsw-grey-700: rgb(53, 59, 63);\n$nsw-grey-750: rgb(43, 49, 53);\n$nsw-grey-800: rgb(34, 39, 43);\n$nsw-grey-850: rgb(24, 28, 31);\n$nsw-grey-900: rgb(14, 17, 19);\n$nsw-grey-950: rgb(5, 7, 9);\n$nsw-green-50: rgb(245, 255, 246);\n$nsw-green-100: rgb(236, 253, 238);\n$nsw-green-150: rgb(228, 252, 231);\n$nsw-green-200: rgb(219, 250, 223);\n$nsw-green-250: rgb(207, 247, 212);\n$nsw-green-300: rgb(194, 244, 201);\n$nsw-green-350: rgb(181, 240, 190);\n$nsw-green-400: rgb(168, 237, 179);\n$nsw-green-450: rgb(138, 220, 152);\n$nsw-green-500: rgb(106, 204, 125);\n$nsw-green-550: rgb(69, 187, 98);\n$nsw-green-600: rgb(0, 170, 69);\n$nsw-green-650: rgb(7, 142, 50);\n$nsw-green-700: rgb(7, 115, 32);\n$nsw-green-750: rgb(3, 89, 15);\n$nsw-green-800: rgb(0, 64, 0);\n$nsw-green-850: rgb(0, 48, 0);\n$nsw-green-900: rgb(0, 32, 0);\n$nsw-green-950: rgb(0, 17, 0);\n$nsw-teal-50: rgb(242, 251, 250);\n$nsw-teal-100: rgb(231, 247, 245);\n$nsw-teal-150: rgb(220, 242, 239);\n$nsw-teal-200: rgb(209, 238, 234);\n$nsw-teal-250: rgb(193, 234, 231);\n$nsw-teal-300: rgb(175, 229, 229);\n$nsw-teal-350: rgb(158, 224, 229);\n$nsw-teal-400: rgb(140, 219, 229);\n$nsw-teal-450: rgb(117, 196, 207);\n$nsw-teal-500: rgb(94, 172, 185);\n$nsw-teal-550: rgb(70, 150, 163);\n$nsw-teal-600: rgb(46, 128, 142);\n$nsw-teal-650: rgb(37, 111, 123);\n$nsw-teal-700: rgb(28, 95, 105);\n$nsw-teal-750: rgb(20, 78, 88);\n$nsw-teal-800: rgb(11, 63, 71);\n$nsw-teal-850: rgb(4, 47, 53);\n$nsw-teal-900: rgb(1, 31, 36);\n$nsw-teal-950: rgb(0, 17, 20);\n$nsw-blue-50: rgb(240, 251, 255);\n$nsw-blue-100: rgb(228, 246, 255);\n$nsw-blue-150: rgb(215, 242, 254);\n$nsw-blue-200: rgb(203, 237, 253);\n$nsw-blue-250: rgb(188, 234, 254);\n$nsw-blue-300: rgb(173, 231, 255);\n$nsw-blue-350: rgb(157, 227, 255);\n$nsw-blue-400: rgb(140, 224, 255);\n$nsw-blue-450: rgb(90, 201, 255);\n$nsw-blue-500: rgb(38, 174, 255);\n$nsw-blue-550: rgb(0, 143, 255);\n$nsw-blue-600: rgb(20, 108, 253);\n$nsw-blue-650: rgb(12, 90, 212);\n$nsw-blue-700: rgb(5, 72, 173);\n$nsw-blue-750: rgb(2, 54, 136);\n$nsw-blue-800: rgb(0, 38, 100);\n$nsw-blue-850: rgb(0, 26, 77);\n$nsw-blue-900: rgb(0, 16, 55);\n$nsw-blue-950: rgb(0, 6, 34);\n$nsw-purple-50: rgb(249, 247, 255);\n$nsw-purple-100: rgb(242, 240, 255);\n$nsw-purple-150: rgb(236, 232, 254);\n$nsw-purple-200: rgb(230, 225, 253);\n$nsw-purple-250: rgb(224, 217, 254);\n$nsw-purple-300: rgb(218, 208, 254);\n$nsw-purple-350: rgb(212, 200, 255);\n$nsw-purple-400: rgb(206, 191, 255);\n$nsw-purple-450: rgb(186, 166, 252);\n$nsw-purple-500: rgb(166, 141, 249);\n$nsw-purple-550: rgb(147, 114, 245);\n$nsw-purple-600: rgb(128, 85, 241);\n$nsw-purple-650: rgb(114, 67, 207);\n$nsw-purple-700: rgb(100, 50, 174);\n$nsw-purple-750: rgb(84, 33, 142);\n$nsw-purple-800: rgb(68, 17, 112);\n$nsw-purple-850: rgb(51, 8, 86);\n$nsw-purple-900: rgb(35, 2, 62);\n$nsw-purple-950: rgb(19, 0, 39);\n$nsw-fuchsia-50: rgb(255, 246, 253);\n$nsw-fuchsia-100: rgb(255, 238, 249);\n$nsw-fuchsia-150: rgb(254, 230, 246);\n$nsw-fuchsia-200: rgb(253, 222, 242);\n$nsw-fuchsia-250: rgb(251, 212, 239);\n$nsw-fuchsia-300: rgb(249, 201, 235);\n$nsw-fuchsia-350: rgb(247, 191, 233);\n$nsw-fuchsia-400: rgb(244, 181, 230);\n$nsw-fuchsia-450: rgb(239, 150, 218);\n$nsw-fuchsia-500: rgb(233, 117, 204);\n$nsw-fuchsia-550: rgb(225, 80, 190);\n$nsw-fuchsia-600: rgb(217, 18, 174);\n$nsw-fuchsia-650: rgb(187, 12, 148);\n$nsw-fuchsia-700: rgb(157, 6, 123);\n$nsw-fuchsia-750: rgb(129, 2, 100);\n$nsw-fuchsia-800: rgb(101, 0, 77);\n$nsw-fuchsia-850: rgb(77, 0, 58);\n$nsw-fuchsia-900: rgb(55, 0, 40);\n$nsw-fuchsia-950: rgb(34, 0, 23);\n$nsw-red-50: rgb(255, 248, 249);\n$nsw-red-100: rgb(255, 242, 244);\n$nsw-red-150: rgb(255, 236, 239);\n$nsw-red-200: rgb(255, 230, 234);\n$nsw-red-250: rgb(255, 219, 224);\n$nsw-red-300: rgb(255, 207, 214);\n$nsw-red-350: rgb(255, 196, 204);\n$nsw-red-400: rgb(255, 184, 193);\n$nsw-red-450: rgb(248, 151, 162);\n$nsw-red-500: rgb(239, 117, 129);\n$nsw-red-550: rgb(228, 79, 95);\n$nsw-red-600: rgb(215, 21, 58);\n$nsw-red-650: rgb(185, 14, 50);\n$nsw-red-700: rgb(155, 7, 42);\n$nsw-red-750: rgb(126, 3, 34);\n$nsw-red-800: rgb(99, 0, 25);\n$nsw-red-850: rgb(76, 0, 16);\n$nsw-red-900: rgb(54, 0, 8);\n$nsw-red-950: rgb(33, 0, 3);\n$nsw-orange-50: rgb(255, 250, 246);\n$nsw-orange-100: rgb(255, 246, 238);\n$nsw-orange-150: rgb(254, 241, 231);\n$nsw-orange-200: rgb(253, 237, 223);\n$nsw-orange-250: rgb(254, 229, 206);\n$nsw-orange-300: rgb(255, 221, 189);\n$nsw-orange-350: rgb(255, 214, 171);\n$nsw-orange-400: rgb(255, 206, 153);\n$nsw-orange-450: rgb(253, 182, 120);\n$nsw-orange-500: rgb(251, 157, 88);\n$nsw-orange-550: rgb(247, 129, 57);\n$nsw-orange-600: rgb(243, 99, 27);\n$nsw-orange-650: rgb(219, 81, 21);\n$nsw-orange-700: rgb(195, 63, 14);\n$nsw-orange-750: rgb(171, 46, 6);\n$nsw-orange-800: rgb(148, 27, 0);\n$nsw-orange-850: rgb(115, 15, 0);\n$nsw-orange-900: rgb(83, 4, 0);\n$nsw-orange-950: rgb(53, 0, 0);\n$nsw-yellow-50: rgb(255, 252, 240);\n$nsw-yellow-100: rgb(255, 250, 229);\n$nsw-yellow-150: rgb(255, 247, 218);\n$nsw-yellow-200: rgb(255, 244, 207);\n$nsw-yellow-250: rgb(255, 241, 194);\n$nsw-yellow-300: rgb(254, 238, 181);\n$nsw-yellow-350: rgb(254, 234, 168);\n$nsw-yellow-400: rgb(253, 231, 154);\n$nsw-yellow-450: rgb(251, 218, 128);\n$nsw-yellow-500: rgb(250, 205, 99);\n$nsw-yellow-550: rgb(250, 190, 66);\n$nsw-yellow-600: rgb(250, 175, 5);\n$nsw-yellow-650: rgb(212, 148, 3);\n$nsw-yellow-700: rgb(175, 122, 1);\n$nsw-yellow-750: rgb(139, 96, 0);\n$nsw-yellow-800: rgb(105, 72, 0);\n$nsw-yellow-850: rgb(80, 53, 0);\n$nsw-yellow-900: rgb(57, 36, 0);\n$nsw-yellow-950: rgb(34, 19, 0);\n$nsw-brown-50: rgb(251, 248, 244);\n$nsw-brown-100: rgb(246, 241, 234);\n$nsw-brown-150: rgb(242, 234, 225);\n$nsw-brown-200: rgb(237, 227, 215);\n$nsw-brown-250: rgb(236, 222, 206);\n$nsw-brown-300: rgb(234, 218, 198);\n$nsw-brown-350: rgb(233, 213, 189);\n$nsw-brown-400: rgb(232, 208, 181);\n$nsw-brown-450: rgb(219, 191, 159);\n$nsw-brown-500: rgb(207, 174, 137);\n$nsw-brown-550: rgb(194, 157, 115);\n$nsw-brown-600: rgb(182, 141, 93);\n$nsw-brown-650: rgb(156, 118, 75);\n$nsw-brown-700: rgb(130, 96, 58);\n$nsw-brown-750: rgb(106, 75, 41);\n$nsw-brown-800: rgb(82, 55, 25);\n$nsw-brown-850: rgb(62, 40, 15);\n$nsw-brown-900: rgb(43, 26, 7);\n$nsw-brown-950: rgb(25, 13, 2);\n$nsw-aboriginal-grey-50: rgb(249, 248, 247);\n$nsw-aboriginal-grey-100: rgb(242, 241, 239);\n$nsw-aboriginal-grey-150: rgb(235, 234, 232);\n$nsw-aboriginal-grey-200: rgb(229, 227, 224);\n$nsw-aboriginal-grey-250: rgb(223, 220, 216);\n$nsw-aboriginal-grey-300: rgb(216, 212, 209);\n$nsw-aboriginal-grey-350: rgb(210, 205, 201);\n$nsw-aboriginal-grey-400: rgb(204, 198, 194);\n$nsw-aboriginal-grey-450: rgb(173, 168, 165);\n$nsw-aboriginal-grey-500: rgb(142, 139, 138);\n$nsw-aboriginal-grey-550: rgb(113, 112, 111);\n$nsw-aboriginal-grey-600: rgb(85, 85, 85);\n$nsw-aboriginal-grey-650: rgb(75, 75, 75);\n$nsw-aboriginal-grey-700: rgb(64, 64, 64);\n$nsw-aboriginal-grey-750: rgb(55, 55, 55);\n$nsw-aboriginal-grey-800: rgb(45, 45, 45);\n$nsw-aboriginal-grey-850: rgb(32, 32, 32);\n$nsw-aboriginal-grey-900: rgb(20, 20, 20);\n$nsw-aboriginal-grey-950: rgb(9, 9, 9);\n$nsw-aboriginal-red-50: rgb(255, 245, 245);\n$nsw-aboriginal-red-100: rgb(255, 235, 235);\n$nsw-aboriginal-red-150: rgb(254, 226, 226);\n$nsw-aboriginal-red-200: rgb(253, 217, 217);\n$nsw-aboriginal-red-250: rgb(253, 208, 208);\n$nsw-aboriginal-red-300: rgb(252, 199, 198);\n$nsw-aboriginal-red-350: rgb(252, 189, 189);\n$nsw-aboriginal-red-400: rgb(251, 180, 179);\n$nsw-aboriginal-red-450: rgb(247, 150, 147);\n$nsw-aboriginal-red-500: rgb(242, 119, 113);\n$nsw-aboriginal-red-550: rgb(234, 85, 76);\n$nsw-aboriginal-red-600: rgb(225, 38, 28);\n$nsw-aboriginal-red-650: rgb(205, 31, 23);\n$nsw-aboriginal-red-700: rgb(186, 24, 17);\n$nsw-aboriginal-red-750: rgb(167, 17, 11);\n$nsw-aboriginal-red-800: rgb(149, 9, 6);\n$nsw-aboriginal-red-850: rgb(116, 0, 1);\n$nsw-aboriginal-red-900: rgb(84, 0, 0);\n$nsw-aboriginal-red-950: rgb(54, 0, 0);\n$nsw-aboriginal-orange-50: rgb(255, 244, 236);\n$nsw-aboriginal-orange-100: rgb(254, 233, 221);\n$nsw-aboriginal-orange-150: rgb(252, 223, 205);\n$nsw-aboriginal-orange-200: rgb(249, 212, 190);\n$nsw-aboriginal-orange-250: rgb(248, 202, 174);\n$nsw-aboriginal-orange-300: rgb(247, 191, 158);\n$nsw-aboriginal-orange-350: rgb(246, 181, 142);\n$nsw-aboriginal-orange-400: rgb(244, 170, 125);\n$nsw-aboriginal-orange-450: rgb(243, 154, 102);\n$nsw-aboriginal-orange-500: rgb(242, 137, 79);\n$nsw-aboriginal-orange-550: rgb(240, 119, 54);\n$nsw-aboriginal-orange-600: rgb(238, 99, 20);\n$nsw-aboriginal-orange-650: rgb(212, 83, 16);\n$nsw-aboriginal-orange-700: rgb(186, 68, 10);\n$nsw-aboriginal-orange-750: rgb(161, 53, 5);\n$nsw-aboriginal-orange-800: rgb(136, 38, 0);\n$nsw-aboriginal-orange-850: rgb(105, 25, 0);\n$nsw-aboriginal-orange-900: rgb(76, 13, 0);\n$nsw-aboriginal-orange-950: rgb(48, 3, 0);\n$nsw-aboriginal-brown-50: rgb(252, 241, 233);\n$nsw-aboriginal-brown-100: rgb(246, 227, 215);\n$nsw-aboriginal-brown-150: rgb(239, 213, 196);\n$nsw-aboriginal-brown-200: rgb(233, 200, 178);\n$nsw-aboriginal-brown-250: rgb(228, 186, 159);\n$nsw-aboriginal-brown-300: rgb(222, 173, 140);\n$nsw-aboriginal-brown-350: rgb(217, 159, 120);\n$nsw-aboriginal-brown-400: rgb(211, 145, 101);\n$nsw-aboriginal-brown-450: rgb(198, 129, 88);\n$nsw-aboriginal-brown-500: rgb(185, 114, 75);\n$nsw-aboriginal-brown-550: rgb(171, 98, 62);\n$nsw-aboriginal-brown-600: rgb(158, 83, 50);\n$nsw-aboriginal-brown-650: rgb(139, 70, 39);\n$nsw-aboriginal-brown-700: rgb(121, 57, 28);\n$nsw-aboriginal-brown-750: rgb(103, 45, 16);\n$nsw-aboriginal-brown-800: rgb(85, 33, 5);\n$nsw-aboriginal-brown-850: rgb(65, 22, 2);\n$nsw-aboriginal-brown-900: rgb(45, 12, 0);\n$nsw-aboriginal-brown-950: rgb(27, 4, 0);\n$nsw-aboriginal-yellow-50: rgb(255, 252, 238);\n$nsw-aboriginal-yellow-100: rgb(255, 248, 224);\n$nsw-aboriginal-yellow-150: rgb(255, 245, 211);\n$nsw-aboriginal-yellow-200: rgb(255, 241, 197);\n$nsw-aboriginal-yellow-250: rgb(255, 238, 183);\n$nsw-aboriginal-yellow-300: rgb(255, 235, 169);\n$nsw-aboriginal-yellow-350: rgb(254, 231, 155);\n$nsw-aboriginal-yellow-400: rgb(254, 228, 140);\n$nsw-aboriginal-yellow-450: rgb(254, 214, 117);\n$nsw-aboriginal-yellow-500: rgb(254, 200, 93);\n$nsw-aboriginal-yellow-550: rgb(254, 185, 68);\n$nsw-aboriginal-yellow-600: rgb(254, 169, 39);\n$nsw-aboriginal-yellow-650: rgb(223, 150, 28);\n$nsw-aboriginal-yellow-700: rgb(193, 131, 18);\n$nsw-aboriginal-yellow-750: rgb(165, 112, 7);\n$nsw-aboriginal-yellow-800: rgb(137, 94, 0);\n$nsw-aboriginal-yellow-850: rgb(105, 71, 0);\n$nsw-aboriginal-yellow-900: rgb(76, 48, 0);\n$nsw-aboriginal-yellow-950: rgb(47, 28, 0);\n$nsw-aboriginal-green-50: rgb(245, 249, 242);\n$nsw-aboriginal-green-100: rgb(236, 243, 231);\n$nsw-aboriginal-green-150: rgb(227, 236, 220);\n$nsw-aboriginal-green-200: rgb(218, 230, 209);\n$nsw-aboriginal-green-250: rgb(209, 224, 198);\n$nsw-aboriginal-green-300: rgb(199, 217, 186);\n$nsw-aboriginal-green-350: rgb(190, 211, 175);\n$nsw-aboriginal-green-400: rgb(181, 205, 164);\n$nsw-aboriginal-green-450: rgb(165, 194, 142);\n$nsw-aboriginal-green-500: rgb(149, 183, 119);\n$nsw-aboriginal-green-550: rgb(134, 172, 96);\n$nsw-aboriginal-green-600: rgb(120, 161, 70);\n$nsw-aboriginal-green-650: rgb(95, 143, 68);\n$nsw-aboriginal-green-700: rgb(73, 125, 64);\n$nsw-aboriginal-green-750: rgb(52, 106, 59);\n$nsw-aboriginal-green-800: rgb(33, 88, 52);\n$nsw-aboriginal-green-850: rgb(21, 66, 37);\n$nsw-aboriginal-green-900: rgb(10, 46, 23);\n$nsw-aboriginal-green-950: rgb(2, 27, 10);\n$nsw-aboriginal-blue-50: rgb(238, 248, 250);\n$nsw-aboriginal-blue-100: rgb(223, 241, 244);\n$nsw-aboriginal-blue-150: rgb(208, 233, 238);\n$nsw-aboriginal-blue-200: rgb(193, 226, 232);\n$nsw-aboriginal-blue-250: rgb(178, 219, 226);\n$nsw-aboriginal-blue-300: rgb(163, 212, 220);\n$nsw-aboriginal-blue-350: rgb(148, 204, 215);\n$nsw-aboriginal-blue-400: rgb(132, 197, 209);\n$nsw-aboriginal-blue-450: rgb(103, 174, 192);\n$nsw-aboriginal-blue-500: rgb(74, 150, 176);\n$nsw-aboriginal-blue-550: rgb(46, 127, 161);\n$nsw-aboriginal-blue-600: rgb(13, 103, 145);\n$nsw-aboriginal-blue-650: rgb(20, 87, 130);\n$nsw-aboriginal-blue-700: rgb(23, 71, 115);\n$nsw-aboriginal-blue-750: rgb(24, 55, 99);\n$nsw-aboriginal-blue-800: rgb(22, 41, 83);\n$nsw-aboriginal-blue-850: rgb(14, 29, 63);\n$nsw-aboriginal-blue-900: rgb(6, 18, 44);\n$nsw-aboriginal-blue-950: rgb(2, 7, 27);\n$nsw-aboriginal-purple-50: rgb(250, 241, 248);\n$nsw-aboriginal-purple-100: rgb(242, 229, 240);\n$nsw-aboriginal-purple-150: rgb(235, 216, 232);\n$nsw-aboriginal-purple-200: rgb(228, 204, 224);\n$nsw-aboriginal-purple-250: rgb(221, 191, 216);\n$nsw-aboriginal-purple-300: rgb(215, 179, 209);\n$nsw-aboriginal-purple-350: rgb(208, 166, 201);\n$nsw-aboriginal-purple-400: rgb(201, 154, 194);\n$nsw-aboriginal-purple-450: rgb(189, 139, 182);\n$nsw-aboriginal-purple-500: rgb(177, 124, 170);\n$nsw-aboriginal-purple-550: rgb(166, 109, 159);\n$nsw-aboriginal-purple-600: rgb(154, 94, 147);\n$nsw-aboriginal-purple-650: rgb(132, 79, 126);\n$nsw-aboriginal-purple-700: rgb(111, 65, 105);\n$nsw-aboriginal-purple-750: rgb(91, 51, 85);\n$nsw-aboriginal-purple-800: rgb(71, 38, 66);\n$nsw-aboriginal-purple-850: rgb(53, 26, 49);\n$nsw-aboriginal-purple-900: rgb(36, 16, 33);\n$nsw-aboriginal-purple-950: rgb(21, 6, 18);\n";
+var rgb_default4 = "@nsw-grey-50: rgb(250, 250, 250);\n@nsw-grey-100: rgb(245, 245, 245);\n@nsw-grey-150: rgb(240, 240, 240);\n@nsw-grey-200: rgb(235, 235, 235);\n@nsw-grey-250: rgb(227, 229, 230);\n@nsw-grey-300: rgb(220, 223, 224);\n@nsw-grey-350: rgb(212, 217, 219);\n@nsw-grey-400: rgb(205, 211, 214);\n@nsw-grey-450: rgb(170, 176, 180);\n@nsw-grey-500: rgb(136, 143, 146);\n@nsw-grey-550: rgb(104, 111, 114);\n@nsw-grey-600: rgb(73, 80, 84);\n@nsw-grey-650: rgb(63, 69, 73);\n@nsw-grey-700: rgb(53, 59, 63);\n@nsw-grey-750: rgb(43, 49, 53);\n@nsw-grey-800: rgb(34, 39, 43);\n@nsw-grey-850: rgb(24, 28, 31);\n@nsw-grey-900: rgb(14, 17, 19);\n@nsw-grey-950: rgb(5, 7, 9);\n@nsw-green-50: rgb(245, 255, 246);\n@nsw-green-100: rgb(236, 253, 238);\n@nsw-green-150: rgb(228, 252, 231);\n@nsw-green-200: rgb(219, 250, 223);\n@nsw-green-250: rgb(207, 247, 212);\n@nsw-green-300: rgb(194, 244, 201);\n@nsw-green-350: rgb(181, 240, 190);\n@nsw-green-400: rgb(168, 237, 179);\n@nsw-green-450: rgb(138, 220, 152);\n@nsw-green-500: rgb(106, 204, 125);\n@nsw-green-550: rgb(69, 187, 98);\n@nsw-green-600: rgb(0, 170, 69);\n@nsw-green-650: rgb(7, 142, 50);\n@nsw-green-700: rgb(7, 115, 32);\n@nsw-green-750: rgb(3, 89, 15);\n@nsw-green-800: rgb(0, 64, 0);\n@nsw-green-850: rgb(0, 48, 0);\n@nsw-green-900: rgb(0, 32, 0);\n@nsw-green-950: rgb(0, 17, 0);\n@nsw-teal-50: rgb(242, 251, 250);\n@nsw-teal-100: rgb(231, 247, 245);\n@nsw-teal-150: rgb(220, 242, 239);\n@nsw-teal-200: rgb(209, 238, 234);\n@nsw-teal-250: rgb(193, 234, 231);\n@nsw-teal-300: rgb(175, 229, 229);\n@nsw-teal-350: rgb(158, 224, 229);\n@nsw-teal-400: rgb(140, 219, 229);\n@nsw-teal-450: rgb(117, 196, 207);\n@nsw-teal-500: rgb(94, 172, 185);\n@nsw-teal-550: rgb(70, 150, 163);\n@nsw-teal-600: rgb(46, 128, 142);\n@nsw-teal-650: rgb(37, 111, 123);\n@nsw-teal-700: rgb(28, 95, 105);\n@nsw-teal-750: rgb(20, 78, 88);\n@nsw-teal-800: rgb(11, 63, 71);\n@nsw-teal-850: rgb(4, 47, 53);\n@nsw-teal-900: rgb(1, 31, 36);\n@nsw-teal-950: rgb(0, 17, 20);\n@nsw-blue-50: rgb(240, 251, 255);\n@nsw-blue-100: rgb(228, 246, 255);\n@nsw-blue-150: rgb(215, 242, 254);\n@nsw-blue-200: rgb(203, 237, 253);\n@nsw-blue-250: rgb(188, 234, 254);\n@nsw-blue-300: rgb(173, 231, 255);\n@nsw-blue-350: rgb(157, 227, 255);\n@nsw-blue-400: rgb(140, 224, 255);\n@nsw-blue-450: rgb(90, 201, 255);\n@nsw-blue-500: rgb(38, 174, 255);\n@nsw-blue-550: rgb(0, 143, 255);\n@nsw-blue-600: rgb(20, 108, 253);\n@nsw-blue-650: rgb(12, 90, 212);\n@nsw-blue-700: rgb(5, 72, 173);\n@nsw-blue-750: rgb(2, 54, 136);\n@nsw-blue-800: rgb(0, 38, 100);\n@nsw-blue-850: rgb(0, 26, 77);\n@nsw-blue-900: rgb(0, 16, 55);\n@nsw-blue-950: rgb(0, 6, 34);\n@nsw-purple-50: rgb(249, 247, 255);\n@nsw-purple-100: rgb(242, 240, 255);\n@nsw-purple-150: rgb(236, 232, 254);\n@nsw-purple-200: rgb(230, 225, 253);\n@nsw-purple-250: rgb(224, 217, 254);\n@nsw-purple-300: rgb(218, 208, 254);\n@nsw-purple-350: rgb(212, 200, 255);\n@nsw-purple-400: rgb(206, 191, 255);\n@nsw-purple-450: rgb(186, 166, 252);\n@nsw-purple-500: rgb(166, 141, 249);\n@nsw-purple-550: rgb(147, 114, 245);\n@nsw-purple-600: rgb(128, 85, 241);\n@nsw-purple-650: rgb(114, 67, 207);\n@nsw-purple-700: rgb(100, 50, 174);\n@nsw-purple-750: rgb(84, 33, 142);\n@nsw-purple-800: rgb(68, 17, 112);\n@nsw-purple-850: rgb(51, 8, 86);\n@nsw-purple-900: rgb(35, 2, 62);\n@nsw-purple-950: rgb(19, 0, 39);\n@nsw-fuchsia-50: rgb(255, 246, 253);\n@nsw-fuchsia-100: rgb(255, 238, 249);\n@nsw-fuchsia-150: rgb(254, 230, 246);\n@nsw-fuchsia-200: rgb(253, 222, 242);\n@nsw-fuchsia-250: rgb(251, 212, 239);\n@nsw-fuchsia-300: rgb(249, 201, 235);\n@nsw-fuchsia-350: rgb(247, 191, 233);\n@nsw-fuchsia-400: rgb(244, 181, 230);\n@nsw-fuchsia-450: rgb(239, 150, 218);\n@nsw-fuchsia-500: rgb(233, 117, 204);\n@nsw-fuchsia-550: rgb(225, 80, 190);\n@nsw-fuchsia-600: rgb(217, 18, 174);\n@nsw-fuchsia-650: rgb(187, 12, 148);\n@nsw-fuchsia-700: rgb(157, 6, 123);\n@nsw-fuchsia-750: rgb(129, 2, 100);\n@nsw-fuchsia-800: rgb(101, 0, 77);\n@nsw-fuchsia-850: rgb(77, 0, 58);\n@nsw-fuchsia-900: rgb(55, 0, 40);\n@nsw-fuchsia-950: rgb(34, 0, 23);\n@nsw-red-50: rgb(255, 248, 249);\n@nsw-red-100: rgb(255, 242, 244);\n@nsw-red-150: rgb(255, 236, 239);\n@nsw-red-200: rgb(255, 230, 234);\n@nsw-red-250: rgb(255, 219, 224);\n@nsw-red-300: rgb(255, 207, 214);\n@nsw-red-350: rgb(255, 196, 204);\n@nsw-red-400: rgb(255, 184, 193);\n@nsw-red-450: rgb(248, 151, 162);\n@nsw-red-500: rgb(239, 117, 129);\n@nsw-red-550: rgb(228, 79, 95);\n@nsw-red-600: rgb(215, 21, 58);\n@nsw-red-650: rgb(185, 14, 50);\n@nsw-red-700: rgb(155, 7, 42);\n@nsw-red-750: rgb(126, 3, 34);\n@nsw-red-800: rgb(99, 0, 25);\n@nsw-red-850: rgb(76, 0, 16);\n@nsw-red-900: rgb(54, 0, 8);\n@nsw-red-950: rgb(33, 0, 3);\n@nsw-orange-50: rgb(255, 250, 246);\n@nsw-orange-100: rgb(255, 246, 238);\n@nsw-orange-150: rgb(254, 241, 231);\n@nsw-orange-200: rgb(253, 237, 223);\n@nsw-orange-250: rgb(254, 229, 206);\n@nsw-orange-300: rgb(255, 221, 189);\n@nsw-orange-350: rgb(255, 214, 171);\n@nsw-orange-400: rgb(255, 206, 153);\n@nsw-orange-450: rgb(253, 182, 120);\n@nsw-orange-500: rgb(251, 157, 88);\n@nsw-orange-550: rgb(247, 129, 57);\n@nsw-orange-600: rgb(243, 99, 27);\n@nsw-orange-650: rgb(219, 81, 21);\n@nsw-orange-700: rgb(195, 63, 14);\n@nsw-orange-750: rgb(171, 46, 6);\n@nsw-orange-800: rgb(148, 27, 0);\n@nsw-orange-850: rgb(115, 15, 0);\n@nsw-orange-900: rgb(83, 4, 0);\n@nsw-orange-950: rgb(53, 0, 0);\n@nsw-yellow-50: rgb(255, 252, 240);\n@nsw-yellow-100: rgb(255, 250, 229);\n@nsw-yellow-150: rgb(255, 247, 218);\n@nsw-yellow-200: rgb(255, 244, 207);\n@nsw-yellow-250: rgb(255, 241, 194);\n@nsw-yellow-300: rgb(254, 238, 181);\n@nsw-yellow-350: rgb(254, 234, 168);\n@nsw-yellow-400: rgb(253, 231, 154);\n@nsw-yellow-450: rgb(251, 218, 128);\n@nsw-yellow-500: rgb(250, 205, 99);\n@nsw-yellow-550: rgb(250, 190, 66);\n@nsw-yellow-600: rgb(250, 175, 5);\n@nsw-yellow-650: rgb(212, 148, 3);\n@nsw-yellow-700: rgb(175, 122, 1);\n@nsw-yellow-750: rgb(139, 96, 0);\n@nsw-yellow-800: rgb(105, 72, 0);\n@nsw-yellow-850: rgb(80, 53, 0);\n@nsw-yellow-900: rgb(57, 36, 0);\n@nsw-yellow-950: rgb(34, 19, 0);\n@nsw-brown-50: rgb(251, 248, 244);\n@nsw-brown-100: rgb(246, 241, 234);\n@nsw-brown-150: rgb(242, 234, 225);\n@nsw-brown-200: rgb(237, 227, 215);\n@nsw-brown-250: rgb(236, 222, 206);\n@nsw-brown-300: rgb(234, 218, 198);\n@nsw-brown-350: rgb(233, 213, 189);\n@nsw-brown-400: rgb(232, 208, 181);\n@nsw-brown-450: rgb(219, 191, 159);\n@nsw-brown-500: rgb(207, 174, 137);\n@nsw-brown-550: rgb(194, 157, 115);\n@nsw-brown-600: rgb(182, 141, 93);\n@nsw-brown-650: rgb(156, 118, 75);\n@nsw-brown-700: rgb(130, 96, 58);\n@nsw-brown-750: rgb(106, 75, 41);\n@nsw-brown-800: rgb(82, 55, 25);\n@nsw-brown-850: rgb(62, 40, 15);\n@nsw-brown-900: rgb(43, 26, 7);\n@nsw-brown-950: rgb(25, 13, 2);\n@nsw-aboriginal-grey-50: rgb(249, 248, 247);\n@nsw-aboriginal-grey-100: rgb(242, 241, 239);\n@nsw-aboriginal-grey-150: rgb(235, 234, 232);\n@nsw-aboriginal-grey-200: rgb(229, 227, 224);\n@nsw-aboriginal-grey-250: rgb(223, 220, 216);\n@nsw-aboriginal-grey-300: rgb(216, 212, 209);\n@nsw-aboriginal-grey-350: rgb(210, 205, 201);\n@nsw-aboriginal-grey-400: rgb(204, 198, 194);\n@nsw-aboriginal-grey-450: rgb(173, 168, 165);\n@nsw-aboriginal-grey-500: rgb(142, 139, 138);\n@nsw-aboriginal-grey-550: rgb(113, 112, 111);\n@nsw-aboriginal-grey-600: rgb(85, 85, 85);\n@nsw-aboriginal-grey-650: rgb(75, 75, 75);\n@nsw-aboriginal-grey-700: rgb(64, 64, 64);\n@nsw-aboriginal-grey-750: rgb(55, 55, 55);\n@nsw-aboriginal-grey-800: rgb(45, 45, 45);\n@nsw-aboriginal-grey-850: rgb(32, 32, 32);\n@nsw-aboriginal-grey-900: rgb(20, 20, 20);\n@nsw-aboriginal-grey-950: rgb(9, 9, 9);\n@nsw-aboriginal-red-50: rgb(255, 245, 245);\n@nsw-aboriginal-red-100: rgb(255, 235, 235);\n@nsw-aboriginal-red-150: rgb(254, 226, 226);\n@nsw-aboriginal-red-200: rgb(253, 217, 217);\n@nsw-aboriginal-red-250: rgb(253, 208, 208);\n@nsw-aboriginal-red-300: rgb(252, 199, 198);\n@nsw-aboriginal-red-350: rgb(252, 189, 189);\n@nsw-aboriginal-red-400: rgb(251, 180, 179);\n@nsw-aboriginal-red-450: rgb(247, 150, 147);\n@nsw-aboriginal-red-500: rgb(242, 119, 113);\n@nsw-aboriginal-red-550: rgb(234, 85, 76);\n@nsw-aboriginal-red-600: rgb(225, 38, 28);\n@nsw-aboriginal-red-650: rgb(205, 31, 23);\n@nsw-aboriginal-red-700: rgb(186, 24, 17);\n@nsw-aboriginal-red-750: rgb(167, 17, 11);\n@nsw-aboriginal-red-800: rgb(149, 9, 6);\n@nsw-aboriginal-red-850: rgb(116, 0, 1);\n@nsw-aboriginal-red-900: rgb(84, 0, 0);\n@nsw-aboriginal-red-950: rgb(54, 0, 0);\n@nsw-aboriginal-orange-50: rgb(255, 244, 236);\n@nsw-aboriginal-orange-100: rgb(254, 233, 221);\n@nsw-aboriginal-orange-150: rgb(252, 223, 205);\n@nsw-aboriginal-orange-200: rgb(249, 212, 190);\n@nsw-aboriginal-orange-250: rgb(248, 202, 174);\n@nsw-aboriginal-orange-300: rgb(247, 191, 158);\n@nsw-aboriginal-orange-350: rgb(246, 181, 142);\n@nsw-aboriginal-orange-400: rgb(244, 170, 125);\n@nsw-aboriginal-orange-450: rgb(243, 154, 102);\n@nsw-aboriginal-orange-500: rgb(242, 137, 79);\n@nsw-aboriginal-orange-550: rgb(240, 119, 54);\n@nsw-aboriginal-orange-600: rgb(238, 99, 20);\n@nsw-aboriginal-orange-650: rgb(212, 83, 16);\n@nsw-aboriginal-orange-700: rgb(186, 68, 10);\n@nsw-aboriginal-orange-750: rgb(161, 53, 5);\n@nsw-aboriginal-orange-800: rgb(136, 38, 0);\n@nsw-aboriginal-orange-850: rgb(105, 25, 0);\n@nsw-aboriginal-orange-900: rgb(76, 13, 0);\n@nsw-aboriginal-orange-950: rgb(48, 3, 0);\n@nsw-aboriginal-brown-50: rgb(252, 241, 233);\n@nsw-aboriginal-brown-100: rgb(246, 227, 215);\n@nsw-aboriginal-brown-150: rgb(239, 213, 196);\n@nsw-aboriginal-brown-200: rgb(233, 200, 178);\n@nsw-aboriginal-brown-250: rgb(228, 186, 159);\n@nsw-aboriginal-brown-300: rgb(222, 173, 140);\n@nsw-aboriginal-brown-350: rgb(217, 159, 120);\n@nsw-aboriginal-brown-400: rgb(211, 145, 101);\n@nsw-aboriginal-brown-450: rgb(198, 129, 88);\n@nsw-aboriginal-brown-500: rgb(185, 114, 75);\n@nsw-aboriginal-brown-550: rgb(171, 98, 62);\n@nsw-aboriginal-brown-600: rgb(158, 83, 50);\n@nsw-aboriginal-brown-650: rgb(139, 70, 39);\n@nsw-aboriginal-brown-700: rgb(121, 57, 28);\n@nsw-aboriginal-brown-750: rgb(103, 45, 16);\n@nsw-aboriginal-brown-800: rgb(85, 33, 5);\n@nsw-aboriginal-brown-850: rgb(65, 22, 2);\n@nsw-aboriginal-brown-900: rgb(45, 12, 0);\n@nsw-aboriginal-brown-950: rgb(27, 4, 0);\n@nsw-aboriginal-yellow-50: rgb(255, 252, 238);\n@nsw-aboriginal-yellow-100: rgb(255, 248, 224);\n@nsw-aboriginal-yellow-150: rgb(255, 245, 211);\n@nsw-aboriginal-yellow-200: rgb(255, 241, 197);\n@nsw-aboriginal-yellow-250: rgb(255, 238, 183);\n@nsw-aboriginal-yellow-300: rgb(255, 235, 169);\n@nsw-aboriginal-yellow-350: rgb(254, 231, 155);\n@nsw-aboriginal-yellow-400: rgb(254, 228, 140);\n@nsw-aboriginal-yellow-450: rgb(254, 214, 117);\n@nsw-aboriginal-yellow-500: rgb(254, 200, 93);\n@nsw-aboriginal-yellow-550: rgb(254, 185, 68);\n@nsw-aboriginal-yellow-600: rgb(254, 169, 39);\n@nsw-aboriginal-yellow-650: rgb(223, 150, 28);\n@nsw-aboriginal-yellow-700: rgb(193, 131, 18);\n@nsw-aboriginal-yellow-750: rgb(165, 112, 7);\n@nsw-aboriginal-yellow-800: rgb(137, 94, 0);\n@nsw-aboriginal-yellow-850: rgb(105, 71, 0);\n@nsw-aboriginal-yellow-900: rgb(76, 48, 0);\n@nsw-aboriginal-yellow-950: rgb(47, 28, 0);\n@nsw-aboriginal-green-50: rgb(245, 249, 242);\n@nsw-aboriginal-green-100: rgb(236, 243, 231);\n@nsw-aboriginal-green-150: rgb(227, 236, 220);\n@nsw-aboriginal-green-200: rgb(218, 230, 209);\n@nsw-aboriginal-green-250: rgb(209, 224, 198);\n@nsw-aboriginal-green-300: rgb(199, 217, 186);\n@nsw-aboriginal-green-350: rgb(190, 211, 175);\n@nsw-aboriginal-green-400: rgb(181, 205, 164);\n@nsw-aboriginal-green-450: rgb(165, 194, 142);\n@nsw-aboriginal-green-500: rgb(149, 183, 119);\n@nsw-aboriginal-green-550: rgb(134, 172, 96);\n@nsw-aboriginal-green-600: rgb(120, 161, 70);\n@nsw-aboriginal-green-650: rgb(95, 143, 68);\n@nsw-aboriginal-green-700: rgb(73, 125, 64);\n@nsw-aboriginal-green-750: rgb(52, 106, 59);\n@nsw-aboriginal-green-800: rgb(33, 88, 52);\n@nsw-aboriginal-green-850: rgb(21, 66, 37);\n@nsw-aboriginal-green-900: rgb(10, 46, 23);\n@nsw-aboriginal-green-950: rgb(2, 27, 10);\n@nsw-aboriginal-blue-50: rgb(238, 248, 250);\n@nsw-aboriginal-blue-100: rgb(223, 241, 244);\n@nsw-aboriginal-blue-150: rgb(208, 233, 238);\n@nsw-aboriginal-blue-200: rgb(193, 226, 232);\n@nsw-aboriginal-blue-250: rgb(178, 219, 226);\n@nsw-aboriginal-blue-300: rgb(163, 212, 220);\n@nsw-aboriginal-blue-350: rgb(148, 204, 215);\n@nsw-aboriginal-blue-400: rgb(132, 197, 209);\n@nsw-aboriginal-blue-450: rgb(103, 174, 192);\n@nsw-aboriginal-blue-500: rgb(74, 150, 176);\n@nsw-aboriginal-blue-550: rgb(46, 127, 161);\n@nsw-aboriginal-blue-600: rgb(13, 103, 145);\n@nsw-aboriginal-blue-650: rgb(20, 87, 130);\n@nsw-aboriginal-blue-700: rgb(23, 71, 115);\n@nsw-aboriginal-blue-750: rgb(24, 55, 99);\n@nsw-aboriginal-blue-800: rgb(22, 41, 83);\n@nsw-aboriginal-blue-850: rgb(14, 29, 63);\n@nsw-aboriginal-blue-900: rgb(6, 18, 44);\n@nsw-aboriginal-blue-950: rgb(2, 7, 27);\n@nsw-aboriginal-purple-50: rgb(250, 241, 248);\n@nsw-aboriginal-purple-100: rgb(242, 229, 240);\n@nsw-aboriginal-purple-150: rgb(235, 216, 232);\n@nsw-aboriginal-purple-200: rgb(228, 204, 224);\n@nsw-aboriginal-purple-250: rgb(221, 191, 216);\n@nsw-aboriginal-purple-300: rgb(215, 179, 209);\n@nsw-aboriginal-purple-350: rgb(208, 166, 201);\n@nsw-aboriginal-purple-400: rgb(201, 154, 194);\n@nsw-aboriginal-purple-450: rgb(189, 139, 182);\n@nsw-aboriginal-purple-500: rgb(177, 124, 170);\n@nsw-aboriginal-purple-550: rgb(166, 109, 159);\n@nsw-aboriginal-purple-600: rgb(154, 94, 147);\n@nsw-aboriginal-purple-650: rgb(132, 79, 126);\n@nsw-aboriginal-purple-700: rgb(111, 65, 105);\n@nsw-aboriginal-purple-750: rgb(91, 51, 85);\n@nsw-aboriginal-purple-800: rgb(71, 38, 66);\n@nsw-aboriginal-purple-850: rgb(53, 26, 49);\n@nsw-aboriginal-purple-900: rgb(36, 16, 33);\n@nsw-aboriginal-purple-950: rgb(21, 6, 18);\n";
 
-// src/scss/colors/themes/masterbrand/hex.scss
+// src/less/colors/themes/masterbrand/hex.less
 var hex_exports8 = {};
 __export(hex_exports8, {
-  default: () => hex_default6
+  default: () => hex_default5
 });
-var hex_default6 = "$primary-50: #f0fbff;\n$primary-100: #e4f6ff;\n$primary-150: #d7f2fe;\n$primary-200: #cbedfd;\n$primary-250: #bceafe;\n$primary-300: #ade7ff;\n$primary-350: #9de3ff;\n$primary-400: #8ce0ff;\n$primary-450: #5ac9ff;\n$primary-500: #26aeff;\n$primary-550: #008fff;\n$primary-600: #146cfd;\n$primary-650: #0c5ad4;\n$primary-700: #0548ad;\n$primary-750: #023688;\n$primary-800: #002664;\n$primary-850: #001a4d;\n$primary-900: #001037;\n$primary-950: #000622;\n$accent-50: #fff8f9;\n$accent-100: #fff2f4;\n$accent-150: #ffecef;\n$accent-200: #ffe6ea;\n$accent-250: #ffdbe0;\n$accent-300: #ffcfd6;\n$accent-350: #ffc4cc;\n$accent-400: #ffb8c1;\n$accent-450: #f897a2;\n$accent-500: #ef7581;\n$accent-550: #e44f5f;\n$accent-600: #d7153a;\n$accent-650: #b90e32;\n$accent-700: #9b072a;\n$accent-750: #7e0322;\n$accent-800: #630019;\n$accent-850: #4c0010;\n$accent-900: #360008;\n$accent-950: #210003;\n$grey-50: #fafafa;\n$grey-100: #f5f5f5;\n$grey-150: #f0f0f0;\n$grey-200: #ebebeb;\n$grey-250: #e3e5e6;\n$grey-300: #dcdfe0;\n$grey-350: #d4d9db;\n$grey-400: #cdd3d6;\n$grey-450: #aab0b4;\n$grey-500: #888f92;\n$grey-550: #686f72;\n$grey-600: #495054;\n$grey-650: #3f4549;\n$grey-700: #353b3f;\n$grey-750: #2b3135;\n$grey-800: #22272b;\n$grey-850: #181c1f;\n$grey-900: #0e1113;\n$grey-950: #050709;\n";
+var hex_default5 = "@primary-50: #f0fbff;\n@primary-100: #e4f6ff;\n@primary-150: #d7f2fe;\n@primary-200: #cbedfd;\n@primary-250: #bceafe;\n@primary-300: #ade7ff;\n@primary-350: #9de3ff;\n@primary-400: #8ce0ff;\n@primary-450: #5ac9ff;\n@primary-500: #26aeff;\n@primary-550: #008fff;\n@primary-600: #146cfd;\n@primary-650: #0c5ad4;\n@primary-700: #0548ad;\n@primary-750: #023688;\n@primary-800: #002664;\n@primary-850: #001a4d;\n@primary-900: #001037;\n@primary-950: #000622;\n@accent-50: #fff8f9;\n@accent-100: #fff2f4;\n@accent-150: #ffecef;\n@accent-200: #ffe6ea;\n@accent-250: #ffdbe0;\n@accent-300: #ffcfd6;\n@accent-350: #ffc4cc;\n@accent-400: #ffb8c1;\n@accent-450: #f897a2;\n@accent-500: #ef7581;\n@accent-550: #e44f5f;\n@accent-600: #d7153a;\n@accent-650: #b90e32;\n@accent-700: #9b072a;\n@accent-750: #7e0322;\n@accent-800: #630019;\n@accent-850: #4c0010;\n@accent-900: #360008;\n@accent-950: #210003;\n@grey-50: #fafafa;\n@grey-100: #f5f5f5;\n@grey-150: #f0f0f0;\n@grey-200: #ebebeb;\n@grey-250: #e3e5e6;\n@grey-300: #dcdfe0;\n@grey-350: #d4d9db;\n@grey-400: #cdd3d6;\n@grey-450: #aab0b4;\n@grey-500: #888f92;\n@grey-550: #686f72;\n@grey-600: #495054;\n@grey-650: #3f4549;\n@grey-700: #353b3f;\n@grey-750: #2b3135;\n@grey-800: #22272b;\n@grey-850: #181c1f;\n@grey-900: #0e1113;\n@grey-950: #050709;\n";
 
-// src/scss/colors/themes/masterbrand/hsl.scss
+// src/less/colors/themes/masterbrand/hsl.less
 var hsl_exports8 = {};
 __export(hsl_exports8, {
-  default: () => hsl_default6
+  default: () => hsl_default5
 });
-var hsl_default6 = "$primary-50: hsl(199.45, 100%, 97.34%);\n$primary-100: hsl(199.38, 100%, 94.73%);\n$primary-150: hsl(199.3, 95.85%, 92.09%);\n$primary-200: hsl(199.2, 92.59%, 89.41%);\n$primary-250: hsl(198.5, 96.87%, 86.75%);\n$primary-300: hsl(197.76, 98.99%, 83.89%);\n$primary-350: hsl(197, 99.87%, 80.82%);\n$primary-400: hsl(196.17, 100%, 77.45%);\n$primary-450: hsl(199.74, 99.83%, 67.57%);\n$primary-500: hsl(202.52, 100%, 57.55%);\n$primary-550: hsl(204.76, 100%, 46.97%);\n$primary-600: hsl(217.34, 98.31%, 53.53%);\n$primary-650: hsl(216.77, 89.43%, 43.98%);\n$primary-700: hsl(216.29, 94.14%, 35%);\n$primary-750: hsl(216.37, 97.67%, 26.93%);\n$primary-800: hsl(217.2, 100%, 19.61%);\n$primary-850: hsl(218.95, 100%, 14.93%);\n$primary-900: hsl(222.31, 100%, 10.59%);\n$primary-950: hsl(228.65, 100%, 6.6%);\n$accent-50: hsl(350.85, 100%, 98.97%);\n$accent-100: hsl(350.7, 100%, 97.7%);\n$accent-150: hsl(350.55, 100%, 96.41%);\n$accent-200: hsl(350.4, 100%, 95.1%);\n$accent-250: hsl(350.92, 100%, 92.94%);\n$accent-300: hsl(351.43, 100%, 90.72%);\n$accent-350: hsl(351.92, 100%, 88.44%);\n$accent-400: hsl(352.39, 100%, 86.08%);\n$accent-450: hsl(353.39, 86.96%, 78.18%);\n$accent-500: hsl(353.95, 78.84%, 69.69%);\n$accent-550: hsl(353.52, 73.17%, 60.13%);\n$accent-600: hsl(348.56, 82.2%, 46.27%);\n$accent-650: hsl(347.26, 85.91%, 38.92%);\n$accent-700: hsl(345.89, 91%, 31.81%);\n$accent-750: hsl(345, 95.87%, 25.31%);\n$accent-800: hsl(344.85, 100%, 19.41%);\n$accent-850: hsl(346.11, 100%, 14.46%);\n$accent-900: hsl(349.15, 100%, 10.03%);\n$accent-950: hsl(352.16, 100%, 6.06%);\n$grey-50: hsl(223.81, 0%, 98.03%);\n$grey-100: hsl(223.81, 0%, 96.06%);\n$grey-150: hsl(223.81, 0%, 94.11%);\n$grey-200: hsl(223.81, 0%, 92.16%);\n$grey-250: hsl(200.05, 4.31%, 89.64%);\n$grey-300: hsl(200.03, 6.92%, 87.13%);\n$grey-350: hsl(200.02, 8.65%, 84.64%);\n$grey-400: hsl(200, 9.89%, 82.16%);\n$grey-450: hsl(200.47, 6.03%, 68.52%);\n$grey-500: hsl(200.94, 4.51%, 55.36%);\n$grey-550: hsl(201.39, 4.91%, 42.76%);\n$grey-600: hsl(201.82, 7.01%, 30.78%);\n$grey-650: hsl(203.03, 7.74%, 26.71%);\n$grey-700: hsl(204.24, 8.68%, 22.73%);\n$grey-750: hsl(205.45, 9.93%, 18.85%);\n$grey-800: hsl(206.67, 11.69%, 15.1%);\n$grey-850: hsl(206.66, 13.37%, 10.7%);\n$grey-900: hsl(206.64, 17.01%, 6.52%);\n$grey-950: hsl(208.68, 23.47%, 2.8%);\n";
+var hsl_default5 = "@primary-50: hsl(199.45, 100%, 97.34%);\n@primary-100: hsl(199.38, 100%, 94.73%);\n@primary-150: hsl(199.3, 95.85%, 92.09%);\n@primary-200: hsl(199.2, 92.59%, 89.41%);\n@primary-250: hsl(198.5, 96.87%, 86.75%);\n@primary-300: hsl(197.76, 98.99%, 83.89%);\n@primary-350: hsl(197, 99.87%, 80.82%);\n@primary-400: hsl(196.17, 100%, 77.45%);\n@primary-450: hsl(199.74, 99.83%, 67.57%);\n@primary-500: hsl(202.52, 100%, 57.55%);\n@primary-550: hsl(204.76, 100%, 46.97%);\n@primary-600: hsl(217.34, 98.31%, 53.53%);\n@primary-650: hsl(216.77, 89.43%, 43.98%);\n@primary-700: hsl(216.29, 94.14%, 35%);\n@primary-750: hsl(216.37, 97.67%, 26.93%);\n@primary-800: hsl(217.2, 100%, 19.61%);\n@primary-850: hsl(218.95, 100%, 14.93%);\n@primary-900: hsl(222.31, 100%, 10.59%);\n@primary-950: hsl(228.65, 100%, 6.6%);\n@accent-50: hsl(350.85, 100%, 98.97%);\n@accent-100: hsl(350.7, 100%, 97.7%);\n@accent-150: hsl(350.55, 100%, 96.41%);\n@accent-200: hsl(350.4, 100%, 95.1%);\n@accent-250: hsl(350.92, 100%, 92.94%);\n@accent-300: hsl(351.43, 100%, 90.72%);\n@accent-350: hsl(351.92, 100%, 88.44%);\n@accent-400: hsl(352.39, 100%, 86.08%);\n@accent-450: hsl(353.39, 86.96%, 78.18%);\n@accent-500: hsl(353.95, 78.84%, 69.69%);\n@accent-550: hsl(353.52, 73.17%, 60.13%);\n@accent-600: hsl(348.56, 82.2%, 46.27%);\n@accent-650: hsl(347.26, 85.91%, 38.92%);\n@accent-700: hsl(345.89, 91%, 31.81%);\n@accent-750: hsl(345, 95.87%, 25.31%);\n@accent-800: hsl(344.85, 100%, 19.41%);\n@accent-850: hsl(346.11, 100%, 14.46%);\n@accent-900: hsl(349.15, 100%, 10.03%);\n@accent-950: hsl(352.16, 100%, 6.06%);\n@grey-50: hsl(223.81, 0%, 98.03%);\n@grey-100: hsl(223.81, 0%, 96.06%);\n@grey-150: hsl(223.81, 0%, 94.11%);\n@grey-200: hsl(223.81, 0%, 92.16%);\n@grey-250: hsl(200.05, 4.31%, 89.64%);\n@grey-300: hsl(200.03, 6.92%, 87.13%);\n@grey-350: hsl(200.02, 8.65%, 84.64%);\n@grey-400: hsl(200, 9.89%, 82.16%);\n@grey-450: hsl(200.47, 6.03%, 68.52%);\n@grey-500: hsl(200.94, 4.51%, 55.36%);\n@grey-550: hsl(201.39, 4.91%, 42.76%);\n@grey-600: hsl(201.82, 7.01%, 30.78%);\n@grey-650: hsl(203.03, 7.74%, 26.71%);\n@grey-700: hsl(204.24, 8.68%, 22.73%);\n@grey-750: hsl(205.45, 9.93%, 18.85%);\n@grey-800: hsl(206.67, 11.69%, 15.1%);\n@grey-850: hsl(206.66, 13.37%, 10.7%);\n@grey-900: hsl(206.64, 17.01%, 6.52%);\n@grey-950: hsl(208.68, 23.47%, 2.8%);\n";
 
-// src/scss/colors/themes/masterbrand/oklch.scss
+// src/less/colors/themes/masterbrand/oklch.less
 var oklch_exports8 = {};
 __export(oklch_exports8, {
-  default: () => oklch_default6
+  default: () => oklch_default5
 });
-var oklch_default6 = "$primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n$primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n$primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n$primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n$primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n$primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n$primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n$primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n$primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n$primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n$primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n$primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n$primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n$primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n$primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n$primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n$primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n$primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n$primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n$accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n$accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n$accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n$accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n$accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n$accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n$accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n$accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n$accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n$accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n$accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n$accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n$accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n$accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n$accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n$accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n$accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n$accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n$accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n$grey-50: oklch(0.9850175274112574 0 0);\n$grey-100: oklch(0.9700350548225147 0 0);\n$grey-150: oklch(0.9550525822337722 0 0);\n$grey-200: oklch(0.9400701096450296 0 0);\n$grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n$grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n$grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n$grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n$grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n$grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n$grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n$grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n$grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n$grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n$grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n$grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n$grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n$grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n$grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n";
+var oklch_default5 = "@primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n@primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n@primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n@primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n@primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n@primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n@primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n@primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n@primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n@primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n@primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n@primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n@primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n@primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n@primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n@primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n@primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n@primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n@primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n@accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n@accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n@accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n@accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n@accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n@accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n@accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n@accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n@accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n@accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n@accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n@accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n@accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n@accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n@accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n@accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n@accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n@accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n@accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n@grey-50: oklch(0.9850175274112574 0 0);\n@grey-100: oklch(0.9700350548225147 0 0);\n@grey-150: oklch(0.9550525822337722 0 0);\n@grey-200: oklch(0.9400701096450296 0 0);\n@grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n@grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n@grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n@grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n@grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n@grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n@grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n@grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n@grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n@grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n@grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n@grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n@grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n@grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n@grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n";
 
-// src/scss/colors/themes/masterbrand/rgb.scss
+// src/less/colors/themes/masterbrand/rgb.less
 var rgb_exports8 = {};
 __export(rgb_exports8, {
-  default: () => rgb_default6
+  default: () => rgb_default5
 });
-var rgb_default6 = "$primary-50: rgb(240, 251, 255);\n$primary-100: rgb(228, 246, 255);\n$primary-150: rgb(215, 242, 254);\n$primary-200: rgb(203, 237, 253);\n$primary-250: rgb(188, 234, 254);\n$primary-300: rgb(173, 231, 255);\n$primary-350: rgb(157, 227, 255);\n$primary-400: rgb(140, 224, 255);\n$primary-450: rgb(90, 201, 255);\n$primary-500: rgb(38, 174, 255);\n$primary-550: rgb(0, 143, 255);\n$primary-600: rgb(20, 108, 253);\n$primary-650: rgb(12, 90, 212);\n$primary-700: rgb(5, 72, 173);\n$primary-750: rgb(2, 54, 136);\n$primary-800: rgb(0, 38, 100);\n$primary-850: rgb(0, 26, 77);\n$primary-900: rgb(0, 16, 55);\n$primary-950: rgb(0, 6, 34);\n$accent-50: rgb(255, 248, 249);\n$accent-100: rgb(255, 242, 244);\n$accent-150: rgb(255, 236, 239);\n$accent-200: rgb(255, 230, 234);\n$accent-250: rgb(255, 219, 224);\n$accent-300: rgb(255, 207, 214);\n$accent-350: rgb(255, 196, 204);\n$accent-400: rgb(255, 184, 193);\n$accent-450: rgb(248, 151, 162);\n$accent-500: rgb(239, 117, 129);\n$accent-550: rgb(228, 79, 95);\n$accent-600: rgb(215, 21, 58);\n$accent-650: rgb(185, 14, 50);\n$accent-700: rgb(155, 7, 42);\n$accent-750: rgb(126, 3, 34);\n$accent-800: rgb(99, 0, 25);\n$accent-850: rgb(76, 0, 16);\n$accent-900: rgb(54, 0, 8);\n$accent-950: rgb(33, 0, 3);\n$grey-50: rgb(250, 250, 250);\n$grey-100: rgb(245, 245, 245);\n$grey-150: rgb(240, 240, 240);\n$grey-200: rgb(235, 235, 235);\n$grey-250: rgb(227, 229, 230);\n$grey-300: rgb(220, 223, 224);\n$grey-350: rgb(212, 217, 219);\n$grey-400: rgb(205, 211, 214);\n$grey-450: rgb(170, 176, 180);\n$grey-500: rgb(136, 143, 146);\n$grey-550: rgb(104, 111, 114);\n$grey-600: rgb(73, 80, 84);\n$grey-650: rgb(63, 69, 73);\n$grey-700: rgb(53, 59, 63);\n$grey-750: rgb(43, 49, 53);\n$grey-800: rgb(34, 39, 43);\n$grey-850: rgb(24, 28, 31);\n$grey-900: rgb(14, 17, 19);\n$grey-950: rgb(5, 7, 9);\n";
+var rgb_default5 = "@primary-50: rgb(240, 251, 255);\n@primary-100: rgb(228, 246, 255);\n@primary-150: rgb(215, 242, 254);\n@primary-200: rgb(203, 237, 253);\n@primary-250: rgb(188, 234, 254);\n@primary-300: rgb(173, 231, 255);\n@primary-350: rgb(157, 227, 255);\n@primary-400: rgb(140, 224, 255);\n@primary-450: rgb(90, 201, 255);\n@primary-500: rgb(38, 174, 255);\n@primary-550: rgb(0, 143, 255);\n@primary-600: rgb(20, 108, 253);\n@primary-650: rgb(12, 90, 212);\n@primary-700: rgb(5, 72, 173);\n@primary-750: rgb(2, 54, 136);\n@primary-800: rgb(0, 38, 100);\n@primary-850: rgb(0, 26, 77);\n@primary-900: rgb(0, 16, 55);\n@primary-950: rgb(0, 6, 34);\n@accent-50: rgb(255, 248, 249);\n@accent-100: rgb(255, 242, 244);\n@accent-150: rgb(255, 236, 239);\n@accent-200: rgb(255, 230, 234);\n@accent-250: rgb(255, 219, 224);\n@accent-300: rgb(255, 207, 214);\n@accent-350: rgb(255, 196, 204);\n@accent-400: rgb(255, 184, 193);\n@accent-450: rgb(248, 151, 162);\n@accent-500: rgb(239, 117, 129);\n@accent-550: rgb(228, 79, 95);\n@accent-600: rgb(215, 21, 58);\n@accent-650: rgb(185, 14, 50);\n@accent-700: rgb(155, 7, 42);\n@accent-750: rgb(126, 3, 34);\n@accent-800: rgb(99, 0, 25);\n@accent-850: rgb(76, 0, 16);\n@accent-900: rgb(54, 0, 8);\n@accent-950: rgb(33, 0, 3);\n@grey-50: rgb(250, 250, 250);\n@grey-100: rgb(245, 245, 245);\n@grey-150: rgb(240, 240, 240);\n@grey-200: rgb(235, 235, 235);\n@grey-250: rgb(227, 229, 230);\n@grey-300: rgb(220, 223, 224);\n@grey-350: rgb(212, 217, 219);\n@grey-400: rgb(205, 211, 214);\n@grey-450: rgb(170, 176, 180);\n@grey-500: rgb(136, 143, 146);\n@grey-550: rgb(104, 111, 114);\n@grey-600: rgb(73, 80, 84);\n@grey-650: rgb(63, 69, 73);\n@grey-700: rgb(53, 59, 63);\n@grey-750: rgb(43, 49, 53);\n@grey-800: rgb(34, 39, 43);\n@grey-850: rgb(24, 28, 31);\n@grey-900: rgb(14, 17, 19);\n@grey-950: rgb(5, 7, 9);\n";
 
-// src/tailwind/colors/global/hex.css
+// src/less/colors/semantic/hex.less
 var hex_exports9 = {};
 __export(hex_exports9, {
-  default: () => hex_default7
+  default: () => hex_default6
 });
-var hex_default7 = "@theme {\n  --color-nsw-grey-50: #fafafa;\n  --color-nsw-grey-100: #f5f5f5;\n  --color-nsw-grey-150: #f0f0f0;\n  --color-nsw-grey-200: #ebebeb;\n  --color-nsw-grey-250: #e3e5e6;\n  --color-nsw-grey-300: #dcdfe0;\n  --color-nsw-grey-350: #d4d9db;\n  --color-nsw-grey-400: #cdd3d6;\n  --color-nsw-grey-450: #aab0b4;\n  --color-nsw-grey-500: #888f92;\n  --color-nsw-grey-550: #686f72;\n  --color-nsw-grey-600: #495054;\n  --color-nsw-grey-650: #3f4549;\n  --color-nsw-grey-700: #353b3f;\n  --color-nsw-grey-750: #2b3135;\n  --color-nsw-grey-800: #22272b;\n  --color-nsw-grey-850: #181c1f;\n  --color-nsw-grey-900: #0e1113;\n  --color-nsw-grey-950: #050709;\n  --color-nsw-green-50: #f5fff6;\n  --color-nsw-green-100: #ecfdee;\n  --color-nsw-green-150: #e4fce7;\n  --color-nsw-green-200: #dbfadf;\n  --color-nsw-green-250: #cff7d4;\n  --color-nsw-green-300: #c2f4c9;\n  --color-nsw-green-350: #b5f0be;\n  --color-nsw-green-400: #a8edb3;\n  --color-nsw-green-450: #8adc98;\n  --color-nsw-green-500: #6acc7d;\n  --color-nsw-green-550: #45bb62;\n  --color-nsw-green-600: #00aa45;\n  --color-nsw-green-650: #078e32;\n  --color-nsw-green-700: #077320;\n  --color-nsw-green-750: #03590f;\n  --color-nsw-green-800: #004000;\n  --color-nsw-green-850: #003000;\n  --color-nsw-green-900: #002000;\n  --color-nsw-green-950: #001100;\n  --color-nsw-teal-50: #f2fbfa;\n  --color-nsw-teal-100: #e7f7f5;\n  --color-nsw-teal-150: #dcf2ef;\n  --color-nsw-teal-200: #d1eeea;\n  --color-nsw-teal-250: #c1eae7;\n  --color-nsw-teal-300: #afe5e5;\n  --color-nsw-teal-350: #9ee0e5;\n  --color-nsw-teal-400: #8cdbe5;\n  --color-nsw-teal-450: #75c4cf;\n  --color-nsw-teal-500: #5eacb9;\n  --color-nsw-teal-550: #4696a3;\n  --color-nsw-teal-600: #2e808e;\n  --color-nsw-teal-650: #256f7b;\n  --color-nsw-teal-700: #1c5f69;\n  --color-nsw-teal-750: #144e58;\n  --color-nsw-teal-800: #0b3f47;\n  --color-nsw-teal-850: #042f35;\n  --color-nsw-teal-900: #011f24;\n  --color-nsw-teal-950: #001114;\n  --color-nsw-blue-50: #f0fbff;\n  --color-nsw-blue-100: #e4f6ff;\n  --color-nsw-blue-150: #d7f2fe;\n  --color-nsw-blue-200: #cbedfd;\n  --color-nsw-blue-250: #bceafe;\n  --color-nsw-blue-300: #ade7ff;\n  --color-nsw-blue-350: #9de3ff;\n  --color-nsw-blue-400: #8ce0ff;\n  --color-nsw-blue-450: #5ac9ff;\n  --color-nsw-blue-500: #26aeff;\n  --color-nsw-blue-550: #008fff;\n  --color-nsw-blue-600: #146cfd;\n  --color-nsw-blue-650: #0c5ad4;\n  --color-nsw-blue-700: #0548ad;\n  --color-nsw-blue-750: #023688;\n  --color-nsw-blue-800: #002664;\n  --color-nsw-blue-850: #001a4d;\n  --color-nsw-blue-900: #001037;\n  --color-nsw-blue-950: #000622;\n  --color-nsw-purple-50: #f9f7ff;\n  --color-nsw-purple-100: #f2f0ff;\n  --color-nsw-purple-150: #ece8fe;\n  --color-nsw-purple-200: #e6e1fd;\n  --color-nsw-purple-250: #e0d9fe;\n  --color-nsw-purple-300: #dad0fe;\n  --color-nsw-purple-350: #d4c8ff;\n  --color-nsw-purple-400: #cebfff;\n  --color-nsw-purple-450: #baa6fc;\n  --color-nsw-purple-500: #a68df9;\n  --color-nsw-purple-550: #9372f5;\n  --color-nsw-purple-600: #8055f1;\n  --color-nsw-purple-650: #7243cf;\n  --color-nsw-purple-700: #6432ae;\n  --color-nsw-purple-750: #54218e;\n  --color-nsw-purple-800: #441170;\n  --color-nsw-purple-850: #330856;\n  --color-nsw-purple-900: #23023e;\n  --color-nsw-purple-950: #130027;\n  --color-nsw-fuchsia-50: #fff6fd;\n  --color-nsw-fuchsia-100: #ffeef9;\n  --color-nsw-fuchsia-150: #fee6f6;\n  --color-nsw-fuchsia-200: #fddef2;\n  --color-nsw-fuchsia-250: #fbd4ef;\n  --color-nsw-fuchsia-300: #f9c9eb;\n  --color-nsw-fuchsia-350: #f7bfe9;\n  --color-nsw-fuchsia-400: #f4b5e6;\n  --color-nsw-fuchsia-450: #ef96da;\n  --color-nsw-fuchsia-500: #e975cc;\n  --color-nsw-fuchsia-550: #e150be;\n  --color-nsw-fuchsia-600: #d912ae;\n  --color-nsw-fuchsia-650: #bb0c94;\n  --color-nsw-fuchsia-700: #9d067b;\n  --color-nsw-fuchsia-750: #810264;\n  --color-nsw-fuchsia-800: #65004d;\n  --color-nsw-fuchsia-850: #4d003a;\n  --color-nsw-fuchsia-900: #370028;\n  --color-nsw-fuchsia-950: #220017;\n  --color-nsw-red-50: #fff8f9;\n  --color-nsw-red-100: #fff2f4;\n  --color-nsw-red-150: #ffecef;\n  --color-nsw-red-200: #ffe6ea;\n  --color-nsw-red-250: #ffdbe0;\n  --color-nsw-red-300: #ffcfd6;\n  --color-nsw-red-350: #ffc4cc;\n  --color-nsw-red-400: #ffb8c1;\n  --color-nsw-red-450: #f897a2;\n  --color-nsw-red-500: #ef7581;\n  --color-nsw-red-550: #e44f5f;\n  --color-nsw-red-600: #d7153a;\n  --color-nsw-red-650: #b90e32;\n  --color-nsw-red-700: #9b072a;\n  --color-nsw-red-750: #7e0322;\n  --color-nsw-red-800: #630019;\n  --color-nsw-red-850: #4c0010;\n  --color-nsw-red-900: #360008;\n  --color-nsw-red-950: #210003;\n  --color-nsw-orange-50: #fffaf6;\n  --color-nsw-orange-100: #fff6ee;\n  --color-nsw-orange-150: #fef1e7;\n  --color-nsw-orange-200: #fdeddf;\n  --color-nsw-orange-250: #fee5ce;\n  --color-nsw-orange-300: #ffddbd;\n  --color-nsw-orange-350: #ffd6ab;\n  --color-nsw-orange-400: #ffce99;\n  --color-nsw-orange-450: #fdb678;\n  --color-nsw-orange-500: #fb9d58;\n  --color-nsw-orange-550: #f78139;\n  --color-nsw-orange-600: #f3631b;\n  --color-nsw-orange-650: #db5115;\n  --color-nsw-orange-700: #c33f0e;\n  --color-nsw-orange-750: #ab2e06;\n  --color-nsw-orange-800: #941b00;\n  --color-nsw-orange-850: #730f00;\n  --color-nsw-orange-900: #530400;\n  --color-nsw-orange-950: #350000;\n  --color-nsw-yellow-50: #fffcf0;\n  --color-nsw-yellow-100: #fffae5;\n  --color-nsw-yellow-150: #fff7da;\n  --color-nsw-yellow-200: #fff4cf;\n  --color-nsw-yellow-250: #fff1c2;\n  --color-nsw-yellow-300: #feeeb5;\n  --color-nsw-yellow-350: #feeaa8;\n  --color-nsw-yellow-400: #fde79a;\n  --color-nsw-yellow-450: #fbda80;\n  --color-nsw-yellow-500: #facd63;\n  --color-nsw-yellow-550: #fabe42;\n  --color-nsw-yellow-600: #faaf05;\n  --color-nsw-yellow-650: #d49403;\n  --color-nsw-yellow-700: #af7a01;\n  --color-nsw-yellow-750: #8b6000;\n  --color-nsw-yellow-800: #694800;\n  --color-nsw-yellow-850: #503500;\n  --color-nsw-yellow-900: #392400;\n  --color-nsw-yellow-950: #221300;\n  --color-nsw-brown-50: #fbf8f4;\n  --color-nsw-brown-100: #f6f1ea;\n  --color-nsw-brown-150: #f2eae1;\n  --color-nsw-brown-200: #ede3d7;\n  --color-nsw-brown-250: #ecdece;\n  --color-nsw-brown-300: #eadac6;\n  --color-nsw-brown-350: #e9d5bd;\n  --color-nsw-brown-400: #e8d0b5;\n  --color-nsw-brown-450: #dbbf9f;\n  --color-nsw-brown-500: #cfae89;\n  --color-nsw-brown-550: #c29d73;\n  --color-nsw-brown-600: #b68d5d;\n  --color-nsw-brown-650: #9c764b;\n  --color-nsw-brown-700: #82603a;\n  --color-nsw-brown-750: #6a4b29;\n  --color-nsw-brown-800: #523719;\n  --color-nsw-brown-850: #3e280f;\n  --color-nsw-brown-900: #2b1a07;\n  --color-nsw-brown-950: #190d02;\n  --color-nsw-aboriginal-grey-50: #f9f8f7;\n  --color-nsw-aboriginal-grey-100: #f2f1ef;\n  --color-nsw-aboriginal-grey-150: #ebeae8;\n  --color-nsw-aboriginal-grey-200: #e5e3e0;\n  --color-nsw-aboriginal-grey-250: #dfdcd8;\n  --color-nsw-aboriginal-grey-300: #d8d4d1;\n  --color-nsw-aboriginal-grey-350: #d2cdc9;\n  --color-nsw-aboriginal-grey-400: #ccc6c2;\n  --color-nsw-aboriginal-grey-450: #ada8a5;\n  --color-nsw-aboriginal-grey-500: #8e8b8a;\n  --color-nsw-aboriginal-grey-550: #71706f;\n  --color-nsw-aboriginal-grey-600: #555555;\n  --color-nsw-aboriginal-grey-650: #4b4b4b;\n  --color-nsw-aboriginal-grey-700: #404040;\n  --color-nsw-aboriginal-grey-750: #373737;\n  --color-nsw-aboriginal-grey-800: #2d2d2d;\n  --color-nsw-aboriginal-grey-850: #202020;\n  --color-nsw-aboriginal-grey-900: #141414;\n  --color-nsw-aboriginal-grey-950: #090909;\n  --color-nsw-aboriginal-red-50: #fff5f5;\n  --color-nsw-aboriginal-red-100: #ffebeb;\n  --color-nsw-aboriginal-red-150: #fee2e2;\n  --color-nsw-aboriginal-red-200: #fdd9d9;\n  --color-nsw-aboriginal-red-250: #fdd0d0;\n  --color-nsw-aboriginal-red-300: #fcc7c6;\n  --color-nsw-aboriginal-red-350: #fcbdbd;\n  --color-nsw-aboriginal-red-400: #fbb4b3;\n  --color-nsw-aboriginal-red-450: #f79693;\n  --color-nsw-aboriginal-red-500: #f27771;\n  --color-nsw-aboriginal-red-550: #ea554c;\n  --color-nsw-aboriginal-red-600: #e1261c;\n  --color-nsw-aboriginal-red-650: #cd1f17;\n  --color-nsw-aboriginal-red-700: #ba1811;\n  --color-nsw-aboriginal-red-750: #a7110b;\n  --color-nsw-aboriginal-red-800: #950906;\n  --color-nsw-aboriginal-red-850: #740001;\n  --color-nsw-aboriginal-red-900: #540000;\n  --color-nsw-aboriginal-red-950: #360000;\n  --color-nsw-aboriginal-orange-50: #fff4ec;\n  --color-nsw-aboriginal-orange-100: #fee9dd;\n  --color-nsw-aboriginal-orange-150: #fcdfcd;\n  --color-nsw-aboriginal-orange-200: #f9d4be;\n  --color-nsw-aboriginal-orange-250: #f8caae;\n  --color-nsw-aboriginal-orange-300: #f7bf9e;\n  --color-nsw-aboriginal-orange-350: #f6b58e;\n  --color-nsw-aboriginal-orange-400: #f4aa7d;\n  --color-nsw-aboriginal-orange-450: #f39a66;\n  --color-nsw-aboriginal-orange-500: #f2894f;\n  --color-nsw-aboriginal-orange-550: #f07736;\n  --color-nsw-aboriginal-orange-600: #ee6314;\n  --color-nsw-aboriginal-orange-650: #d45310;\n  --color-nsw-aboriginal-orange-700: #ba440a;\n  --color-nsw-aboriginal-orange-750: #a13505;\n  --color-nsw-aboriginal-orange-800: #882600;\n  --color-nsw-aboriginal-orange-850: #691900;\n  --color-nsw-aboriginal-orange-900: #4c0d00;\n  --color-nsw-aboriginal-orange-950: #300300;\n  --color-nsw-aboriginal-brown-50: #fcf1e9;\n  --color-nsw-aboriginal-brown-100: #f6e3d7;\n  --color-nsw-aboriginal-brown-150: #efd5c4;\n  --color-nsw-aboriginal-brown-200: #e9c8b2;\n  --color-nsw-aboriginal-brown-250: #e4ba9f;\n  --color-nsw-aboriginal-brown-300: #dead8c;\n  --color-nsw-aboriginal-brown-350: #d99f78;\n  --color-nsw-aboriginal-brown-400: #d39165;\n  --color-nsw-aboriginal-brown-450: #c68158;\n  --color-nsw-aboriginal-brown-500: #b9724b;\n  --color-nsw-aboriginal-brown-550: #ab623e;\n  --color-nsw-aboriginal-brown-600: #9e5332;\n  --color-nsw-aboriginal-brown-650: #8b4627;\n  --color-nsw-aboriginal-brown-700: #79391c;\n  --color-nsw-aboriginal-brown-750: #672d10;\n  --color-nsw-aboriginal-brown-800: #552105;\n  --color-nsw-aboriginal-brown-850: #411602;\n  --color-nsw-aboriginal-brown-900: #2d0c00;\n  --color-nsw-aboriginal-brown-950: #1b0400;\n  --color-nsw-aboriginal-yellow-50: #fffcee;\n  --color-nsw-aboriginal-yellow-100: #fff8e0;\n  --color-nsw-aboriginal-yellow-150: #fff5d3;\n  --color-nsw-aboriginal-yellow-200: #fff1c5;\n  --color-nsw-aboriginal-yellow-250: #ffeeb7;\n  --color-nsw-aboriginal-yellow-300: #ffeba9;\n  --color-nsw-aboriginal-yellow-350: #fee79b;\n  --color-nsw-aboriginal-yellow-400: #fee48c;\n  --color-nsw-aboriginal-yellow-450: #fed675;\n  --color-nsw-aboriginal-yellow-500: #fec85d;\n  --color-nsw-aboriginal-yellow-550: #feb944;\n  --color-nsw-aboriginal-yellow-600: #fea927;\n  --color-nsw-aboriginal-yellow-650: #df961c;\n  --color-nsw-aboriginal-yellow-700: #c18312;\n  --color-nsw-aboriginal-yellow-750: #a57007;\n  --color-nsw-aboriginal-yellow-800: #895e00;\n  --color-nsw-aboriginal-yellow-850: #694700;\n  --color-nsw-aboriginal-yellow-900: #4c3000;\n  --color-nsw-aboriginal-yellow-950: #2f1c00;\n  --color-nsw-aboriginal-green-50: #f5f9f2;\n  --color-nsw-aboriginal-green-100: #ecf3e7;\n  --color-nsw-aboriginal-green-150: #e3ecdc;\n  --color-nsw-aboriginal-green-200: #dae6d1;\n  --color-nsw-aboriginal-green-250: #d1e0c6;\n  --color-nsw-aboriginal-green-300: #c7d9ba;\n  --color-nsw-aboriginal-green-350: #bed3af;\n  --color-nsw-aboriginal-green-400: #b5cda4;\n  --color-nsw-aboriginal-green-450: #a5c28e;\n  --color-nsw-aboriginal-green-500: #95b777;\n  --color-nsw-aboriginal-green-550: #86ac60;\n  --color-nsw-aboriginal-green-600: #78a146;\n  --color-nsw-aboriginal-green-650: #5f8f44;\n  --color-nsw-aboriginal-green-700: #497d40;\n  --color-nsw-aboriginal-green-750: #346a3b;\n  --color-nsw-aboriginal-green-800: #215834;\n  --color-nsw-aboriginal-green-850: #154225;\n  --color-nsw-aboriginal-green-900: #0a2e17;\n  --color-nsw-aboriginal-green-950: #021b0a;\n  --color-nsw-aboriginal-blue-50: #eef8fa;\n  --color-nsw-aboriginal-blue-100: #dff1f4;\n  --color-nsw-aboriginal-blue-150: #d0e9ee;\n  --color-nsw-aboriginal-blue-200: #c1e2e8;\n  --color-nsw-aboriginal-blue-250: #b2dbe2;\n  --color-nsw-aboriginal-blue-300: #a3d4dc;\n  --color-nsw-aboriginal-blue-350: #94ccd7;\n  --color-nsw-aboriginal-blue-400: #84c5d1;\n  --color-nsw-aboriginal-blue-450: #67aec0;\n  --color-nsw-aboriginal-blue-500: #4a96b0;\n  --color-nsw-aboriginal-blue-550: #2e7fa1;\n  --color-nsw-aboriginal-blue-600: #0d6791;\n  --color-nsw-aboriginal-blue-650: #145782;\n  --color-nsw-aboriginal-blue-700: #174773;\n  --color-nsw-aboriginal-blue-750: #183763;\n  --color-nsw-aboriginal-blue-800: #162953;\n  --color-nsw-aboriginal-blue-850: #0e1d3f;\n  --color-nsw-aboriginal-blue-900: #06122c;\n  --color-nsw-aboriginal-blue-950: #02071b;\n  --color-nsw-aboriginal-purple-50: #faf1f8;\n  --color-nsw-aboriginal-purple-100: #f2e5f0;\n  --color-nsw-aboriginal-purple-150: #ebd8e8;\n  --color-nsw-aboriginal-purple-200: #e4cce0;\n  --color-nsw-aboriginal-purple-250: #ddbfd8;\n  --color-nsw-aboriginal-purple-300: #d7b3d1;\n  --color-nsw-aboriginal-purple-350: #d0a6c9;\n  --color-nsw-aboriginal-purple-400: #c99ac2;\n  --color-nsw-aboriginal-purple-450: #bd8bb6;\n  --color-nsw-aboriginal-purple-500: #b17caa;\n  --color-nsw-aboriginal-purple-550: #a66d9f;\n  --color-nsw-aboriginal-purple-600: #9a5e93;\n  --color-nsw-aboriginal-purple-650: #844f7e;\n  --color-nsw-aboriginal-purple-700: #6f4169;\n  --color-nsw-aboriginal-purple-750: #5b3355;\n  --color-nsw-aboriginal-purple-800: #472642;\n  --color-nsw-aboriginal-purple-850: #351a31;\n  --color-nsw-aboriginal-purple-900: #241021;\n  --color-nsw-aboriginal-purple-950: #150612;\n}\n";
+var hex_default6 = "@success-50: #eff9ed;\n@success-100: #e0f3de;\n@success-150: #d2eccf;\n@success-200: #c4e5c0;\n@success-250: #aad6a5;\n@success-300: #8fc78a;\n@success-350: #74b76f;\n@success-400: #58a854;\n@success-450: #49a146;\n@success-500: #399936;\n@success-550: #259224;\n@success-600: #008a07;\n@success-650: #007204;\n@success-700: #005a02;\n@success-750: #004401;\n@success-800: #002f00;\n@success-850: #002200;\n@success-900: #001600;\n@success-950: #000b00;\n@warning-50: #fff3ed;\n@warning-100: #ffe8de;\n@warning-150: #ffddcf;\n@warning-200: #fdd2c0;\n@warning-250: #f6bda5;\n@warning-300: #eea88a;\n@warning-350: #e6936f;\n@warning-400: #dd7d53;\n@warning-450: #d87244;\n@warning-500: #d36734;\n@warning-550: #ce5c21;\n@warning-600: #c95000;\n@warning-650: #a83f03;\n@warning-700: #882f03;\n@warning-750: #692001;\n@warning-800: #4b1200;\n@warning-850: #390a00;\n@warning-900: #270400;\n@warning-950: #170100;\n@danger-50: #fff0ef;\n@danger-100: #ffe2e1;\n@danger-150: #ffd4d4;\n@danger-200: #fdc6c6;\n@danger-250: #f4acad;\n@danger-300: #ea9294;\n@danger-350: #df787c;\n@danger-400: #d35d65;\n@danger-450: #cd4e59;\n@danger-500: #c63f4e;\n@danger-550: #bf2c42;\n@danger-600: #b81237;\n@danger-650: #990b2a;\n@danger-700: #7c061f;\n@danger-750: #5f0214;\n@danger-800: #44000a;\n@danger-850: #330005;\n@danger-900: #230002;\n@danger-950: #140001;\n@info-50: #e9eef7;\n@info-100: #d4ddeb;\n@info-150: #c0cce0;\n@info-200: #acbbd5;\n@info-250: #96a9cc;\n@info-300: #8098c2;\n@info-350: #6b86b8;\n@info-400: #5775ae;\n@info-450: #4d6ca9;\n@info-500: #4264a4;\n@info-550: #385b9e;\n@info-600: #2e5299;\n@info-650: #23427f;\n@info-700: #193366;\n@info-750: #10254f;\n@info-800: #071738;\n@info-850: #040f2a;\n@info-900: #02071c;\n@info-950: #00030f;\n";
 
-// src/tailwind/colors/global/hsl.css
+// src/less/colors/semantic/hsl.less
 var hsl_exports9 = {};
 __export(hsl_exports9, {
-  default: () => hsl_default7
+  default: () => hsl_default6
 });
-var hsl_default7 = "@theme {\n  --color-nsw-grey-50: hsl(223.81, 0%, 98.03%);\n  --color-nsw-grey-100: hsl(223.81, 0%, 96.06%);\n  --color-nsw-grey-150: hsl(223.81, 0%, 94.11%);\n  --color-nsw-grey-200: hsl(223.81, 0%, 92.16%);\n  --color-nsw-grey-250: hsl(200.05, 4.31%, 89.64%);\n  --color-nsw-grey-300: hsl(200.03, 6.92%, 87.13%);\n  --color-nsw-grey-350: hsl(200.02, 8.65%, 84.64%);\n  --color-nsw-grey-400: hsl(200, 9.89%, 82.16%);\n  --color-nsw-grey-450: hsl(200.47, 6.03%, 68.52%);\n  --color-nsw-grey-500: hsl(200.94, 4.51%, 55.36%);\n  --color-nsw-grey-550: hsl(201.39, 4.91%, 42.76%);\n  --color-nsw-grey-600: hsl(201.82, 7.01%, 30.78%);\n  --color-nsw-grey-650: hsl(203.03, 7.74%, 26.71%);\n  --color-nsw-grey-700: hsl(204.24, 8.68%, 22.73%);\n  --color-nsw-grey-750: hsl(205.45, 9.93%, 18.85%);\n  --color-nsw-grey-800: hsl(206.67, 11.69%, 15.1%);\n  --color-nsw-grey-850: hsl(206.66, 13.37%, 10.7%);\n  --color-nsw-grey-900: hsl(206.64, 17.01%, 6.52%);\n  --color-nsw-grey-950: hsl(208.68, 23.47%, 2.8%);\n  --color-nsw-green-50: hsl(126.92, 92.48%, 97.87%);\n  --color-nsw-green-100: hsl(127.18, 81.76%, 95.93%);\n  --color-nsw-green-150: hsl(127.45, 77.77%, 93.96%);\n  --color-nsw-green-200: hsl(127.74, 75.61%, 91.96%);\n  --color-nsw-green-250: hsl(128.12, 71.21%, 88.91%);\n  --color-nsw-green-300: hsl(128.55, 68.62%, 85.81%);\n  --color-nsw-green-350: hsl(129.02, 66.91%, 82.65%);\n  --color-nsw-green-400: hsl(129.57, 65.71%, 79.41%);\n  --color-nsw-green-450: hsl(130.48, 54.36%, 70.18%);\n  --color-nsw-green-500: hsl(131.91, 48.76%, 60.63%);\n  --color-nsw-green-550: hsl(134.54, 46.29%, 50.21%);\n  --color-nsw-green-600: hsl(144.35, 100%, 33.33%);\n  --color-nsw-green-650: hsl(139.28, 90.98%, 29.11%);\n  --color-nsw-green-700: hsl(134.23, 89.08%, 23.77%);\n  --color-nsw-green-750: hsl(127.99, 92.45%, 18.06%);\n  --color-nsw-green-800: hsl(120, 100%, 12.55%);\n  --color-nsw-green-850: hsl(120.41, 100%, 8.99%);\n  --color-nsw-green-900: hsl(120.77, 100%, 5.85%);\n  --color-nsw-green-950: hsl(121.17, 100%, 3.07%);\n  --color-nsw-teal-50: hsl(171.22, 56.11%, 96.73%);\n  --color-nsw-teal-100: hsl(171.38, 49.48%, 93.72%);\n  --color-nsw-teal-150: hsl(171.55, 47.18%, 90.69%);\n  --color-nsw-teal-200: hsl(171.72, 46.03%, 87.65%);\n  --color-nsw-teal-250: hsl(176, 49.12%, 83.57%);\n  --color-nsw-teal-300: hsl(180.06, 50.95%, 79.35%);\n  --color-nsw-teal-350: hsl(183.68, 57.18%, 75.79%);\n  --color-nsw-teal-400: hsl(186.74, 63.12%, 72.35%);\n  --color-nsw-teal-450: hsl(187.41, 48.14%, 63.4%);\n  --color-nsw-teal-500: hsl(188, 39.25%, 54.56%);\n  --color-nsw-teal-550: hsl(188.48, 39.69%, 45.78%);\n  --color-nsw-teal-600: hsl(188.75, 51.06%, 36.86%);\n  --color-nsw-teal-650: hsl(188.61, 53.88%, 31.46%);\n  --color-nsw-teal-700: hsl(188.45, 57.8%, 26.19%);\n  --color-nsw-teal-750: hsl(188.26, 63.6%, 21.07%);\n  --color-nsw-teal-800: hsl(188, 73.17%, 16.08%);\n  --color-nsw-teal-850: hsl(187.99, 84.92%, 11.28%);\n  --color-nsw-teal-900: hsl(188.56, 96.03%, 7.26%);\n  --color-nsw-teal-950: hsl(190.58, 100%, 3.88%);\n  --color-nsw-blue-50: hsl(199.45, 100%, 97.34%);\n  --color-nsw-blue-100: hsl(199.38, 100%, 94.73%);\n  --color-nsw-blue-150: hsl(199.3, 95.85%, 92.09%);\n  --color-nsw-blue-200: hsl(199.2, 92.59%, 89.41%);\n  --color-nsw-blue-250: hsl(198.5, 96.87%, 86.75%);\n  --color-nsw-blue-300: hsl(197.76, 98.99%, 83.89%);\n  --color-nsw-blue-350: hsl(197, 99.87%, 80.82%);\n  --color-nsw-blue-400: hsl(196.17, 100%, 77.45%);\n  --color-nsw-blue-450: hsl(199.74, 99.83%, 67.57%);\n  --color-nsw-blue-500: hsl(202.52, 100%, 57.55%);\n  --color-nsw-blue-550: hsl(204.76, 100%, 46.97%);\n  --color-nsw-blue-600: hsl(217.34, 98.31%, 53.53%);\n  --color-nsw-blue-650: hsl(216.77, 89.43%, 43.98%);\n  --color-nsw-blue-700: hsl(216.29, 94.14%, 35%);\n  --color-nsw-blue-750: hsl(216.37, 97.67%, 26.93%);\n  --color-nsw-blue-800: hsl(217.2, 100%, 19.61%);\n  --color-nsw-blue-850: hsl(218.95, 100%, 14.93%);\n  --color-nsw-blue-900: hsl(222.31, 100%, 10.59%);\n  --color-nsw-blue-950: hsl(228.65, 100%, 6.6%);\n  --color-nsw-purple-50: hsl(250, 100%, 98.76%);\n  --color-nsw-purple-100: hsl(250.23, 100%, 97.09%);\n  --color-nsw-purple-150: hsl(250.47, 93.41%, 95.41%);\n  --color-nsw-purple-200: hsl(250.71, 87.5%, 93.73%);\n  --color-nsw-purple-250: hsl(251.53, 93.83%, 92.23%);\n  --color-nsw-purple-300: hsl(252.35, 97.33%, 90.69%);\n  --color-nsw-purple-350: hsl(253.2, 99.18%, 89.09%);\n  --color-nsw-purple-400: hsl(254.06, 100%, 87.45%);\n  --color-nsw-purple-450: hsl(253.9, 94.13%, 82.01%);\n  --color-nsw-purple-500: hsl(254.11, 90.14%, 76.39%);\n  --color-nsw-purple-550: hsl(254.88, 87.11%, 70.46%);\n  --color-nsw-purple-600: hsl(256.54, 84.78%, 63.92%);\n  --color-nsw-purple-650: hsl(260.32, 59.17%, 53.67%);\n  --color-nsw-purple-700: hsl(264.12, 55.46%, 43.83%);\n  --color-nsw-purple-750: hsl(268.02, 62.04%, 34.39%);\n  --color-nsw-purple-800: hsl(272.21, 73.64%, 25.29%);\n  --color-nsw-purple-850: hsl(272.75, 82.69%, 18.56%);\n  --color-nsw-purple-900: hsl(272.45, 92.77%, 12.64%);\n  --color-nsw-purple-950: hsl(269.95, 100%, 7.66%);\n  --color-nsw-fuchsia-50: hsl(322.15, 100%, 98.49%);\n  --color-nsw-fuchsia-100: hsl(321.87, 100%, 96.73%);\n  --color-nsw-fuchsia-150: hsl(321.58, 93.98%, 94.94%);\n  --color-nsw-fuchsia-200: hsl(321.29, 88.57%, 93.14%);\n  --color-nsw-fuchsia-250: hsl(319.35, 84.42%, 90.79%);\n  --color-nsw-fuchsia-300: hsl(317.38, 80.69%, 88.38%);\n  --color-nsw-fuchsia-350: hsl(315.37, 77.28%, 85.89%);\n  --color-nsw-fuchsia-400: hsl(313.33, 74.12%, 83.33%);\n  --color-nsw-fuchsia-450: hsl(314.16, 73.33%, 76.26%);\n  --color-nsw-fuchsia-500: hsl(314.67, 72.14%, 68.62%);\n  --color-nsw-fuchsia-550: hsl(314.69, 71.13%, 59.86%);\n  --color-nsw-fuchsia-600: hsl(312.96, 84.68%, 46.08%);\n  --color-nsw-fuchsia-650: hsl(313.17, 88.39%, 38.86%);\n  --color-nsw-fuchsia-700: hsl(313.38, 92.9%, 31.95%);\n  --color-nsw-fuchsia-750: hsl(313.72, 96.8%, 25.62%);\n  --color-nsw-fuchsia-800: hsl(314.26, 100%, 19.8%);\n  --color-nsw-fuchsia-850: hsl(314.51, 100%, 14.68%);\n  --color-nsw-fuchsia-900: hsl(315.33, 100%, 10.15%);\n  --color-nsw-fuchsia-950: hsl(317.48, 100%, 6.11%);\n  --color-nsw-red-50: hsl(350.85, 100%, 98.97%);\n  --color-nsw-red-100: hsl(350.7, 100%, 97.7%);\n  --color-nsw-red-150: hsl(350.55, 100%, 96.41%);\n  --color-nsw-red-200: hsl(350.4, 100%, 95.1%);\n  --color-nsw-red-250: hsl(350.92, 100%, 92.94%);\n  --color-nsw-red-300: hsl(351.43, 100%, 90.72%);\n  --color-nsw-red-350: hsl(351.92, 100%, 88.44%);\n  --color-nsw-red-400: hsl(352.39, 100%, 86.08%);\n  --color-nsw-red-450: hsl(353.39, 86.96%, 78.18%);\n  --color-nsw-red-500: hsl(353.95, 78.84%, 69.69%);\n  --color-nsw-red-550: hsl(353.52, 73.17%, 60.13%);\n  --color-nsw-red-600: hsl(348.56, 82.2%, 46.27%);\n  --color-nsw-red-650: hsl(347.26, 85.91%, 38.92%);\n  --color-nsw-red-700: hsl(345.89, 91%, 31.81%);\n  --color-nsw-red-750: hsl(345, 95.87%, 25.31%);\n  --color-nsw-red-800: hsl(344.85, 100%, 19.41%);\n  --color-nsw-red-850: hsl(346.11, 100%, 14.46%);\n  --color-nsw-red-900: hsl(349.15, 100%, 10.03%);\n  --color-nsw-red-950: hsl(352.16, 100%, 6.06%);\n  --color-nsw-orange-50: hsl(27.87, 100%, 98.29%);\n  --color-nsw-orange-100: hsl(27.91, 96.98%, 96.64%);\n  --color-nsw-orange-150: hsl(27.96, 91.29%, 94.99%);\n  --color-nsw-orange-200: hsl(28, 88.24%, 93.33%);\n  --color-nsw-orange-250: hsl(28.75, 96.77%, 90.26%);\n  --color-nsw-orange-300: hsl(29.52, 99.73%, 87.03%);\n  --color-nsw-orange-350: hsl(30.32, 100%, 83.62%);\n  --color-nsw-orange-400: hsl(31.18, 100%, 80%);\n  --color-nsw-orange-450: hsl(28.25, 96.8%, 73.02%);\n  --color-nsw-orange-500: hsl(25.48, 94.77%, 66.34%);\n  --color-nsw-orange-550: hsl(22.75, 92.62%, 59.79%);\n  --color-nsw-orange-600: hsl(20, 90%, 52.94%);\n  --color-nsw-orange-650: hsl(18.26, 82.63%, 47%);\n  --color-nsw-orange-700: hsl(16.43, 86.72%, 40.94%);\n  --color-nsw-orange-750: hsl(14.39, 93.12%, 34.79%);\n  --color-nsw-orange-800: hsl(10.95, 100%, 29.02%);\n  --color-nsw-orange-850: hsl(9.09, 100%, 21.91%);\n  --color-nsw-orange-900: hsl(5.29, 100%, 15.58%);\n  --color-nsw-orange-950: hsl(2.01, 100%, 9.91%);\n  --color-nsw-yellow-50: hsl(46.46, 100%, 97.31%);\n  --color-nsw-yellow-100: hsl(46.38, 100%, 95.09%);\n  --color-nsw-yellow-150: hsl(46.31, 100%, 92.85%);\n  --color-nsw-yellow-200: hsl(46.25, 100%, 90.59%);\n  --color-nsw-yellow-250: hsl(46.33, 98.56%, 88%);\n  --color-nsw-yellow-300: hsl(46.42, 97.54%, 85.35%);\n  --color-nsw-yellow-350: hsl(46.53, 96.75%, 82.62%);\n  --color-nsw-yellow-400: hsl(46.67, 96.12%, 79.8%);\n  --color-nsw-yellow-450: hsl(43.95, 94.26%, 74.28%);\n  --color-nsw-yellow-500: hsl(41.83, 94.17%, 68.55%);\n  --color-nsw-yellow-550: hsl(40.46, 94.83%, 62.04%);\n  --color-nsw-yellow-600: hsl(41.63, 96.08%, 50%);\n  --color-nsw-yellow-650: hsl(41.71, 97.59%, 41.99%);\n  --color-nsw-yellow-700: hsl(41.69, 98.72%, 34.44%);\n  --color-nsw-yellow-750: hsl(41.53, 99.5%, 27.31%);\n  --color-nsw-yellow-800: hsl(41.14, 100%, 20.59%);\n  --color-nsw-yellow-850: hsl(40.68, 100%, 15.12%);\n  --color-nsw-yellow-900: hsl(39.24, 100%, 10.36%);\n  --color-nsw-yellow-950: hsl(35.52, 100%, 6.19%);\n  --color-nsw-brown-50: hsl(32.66, 48.5%, 97.07%);\n  --color-nsw-brown-100: hsl(32.68, 41.61%, 94.25%);\n  --color-nsw-brown-150: hsl(32.7, 39.2%, 91.43%);\n  --color-nsw-brown-200: hsl(32.73, 37.93%, 88.63%);\n  --color-nsw-brown-250: hsl(32.47, 43.13%, 86.7%);\n  --color-nsw-brown-300: hsl(32.23, 47.04%, 84.79%);\n  --color-nsw-brown-350: hsl(31.99, 50.11%, 82.88%);\n  --color-nsw-brown-400: hsl(31.76, 52.58%, 80.98%);\n  --color-nsw-brown-450: hsl(31.83, 46.02%, 74.17%);\n  --color-nsw-brown-500: hsl(31.93, 42.16%, 67.4%);\n  --color-nsw-brown-550: hsl(32.1, 39.63%, 60.67%);\n  --color-nsw-brown-600: hsl(32.36, 37.87%, 53.92%);\n  --color-nsw-brown-650: hsl(32.04, 34.94%, 45.3%);\n  --color-nsw-brown-700: hsl(31.77, 38.54%, 36.92%);\n  --color-nsw-brown-750: hsl(31.59, 43.99%, 28.81%);\n  --color-nsw-brown-800: hsl(31.58, 53.27%, 20.98%);\n  --color-nsw-brown-850: hsl(31.74, 60.03%, 15.18%);\n  --color-nsw-brown-900: hsl(31.73, 72.62%, 9.74%);\n  --color-nsw-brown-950: hsl(27.95, 86.11%, 5.27%);\n  --color-nsw-aboriginal-grey-50: hsl(35.99, 11.4%, 97.16%);\n  --color-nsw-aboriginal-grey-100: hsl(36, 9.67%, 94.37%);\n  --color-nsw-aboriginal-grey-150: hsl(36, 9.08%, 91.59%);\n  --color-nsw-aboriginal-grey-200: hsl(36, 8.77%, 88.82%);\n  --color-nsw-aboriginal-grey-250: hsl(32.79, 8.86%, 86.06%);\n  --color-nsw-aboriginal-grey-300: hsl(29.76, 8.93%, 83.34%);\n  --color-nsw-aboriginal-grey-350: hsl(26.85, 8.96%, 80.67%);\n  --color-nsw-aboriginal-grey-400: hsl(24, 8.93%, 78.04%);\n  --color-nsw-aboriginal-grey-450: hsl(23.99, 4.23%, 66.26%);\n  --color-nsw-aboriginal-grey-500: hsl(23.97, 2.04%, 54.85%);\n  --color-nsw-aboriginal-grey-550: hsl(23.95, 1.01%, 43.86%);\n  --color-nsw-aboriginal-grey-600: hsl(223.81, 0%, 33.33%);\n  --color-nsw-aboriginal-grey-650: hsl(223.81, 0%, 29.26%);\n  --color-nsw-aboriginal-grey-700: hsl(223.81, 0%, 25.29%);\n  --color-nsw-aboriginal-grey-750: hsl(223.81, 0%, 21.41%);\n  --color-nsw-aboriginal-grey-800: hsl(223.81, 0%, 17.65%);\n  --color-nsw-aboriginal-grey-850: hsl(223.81, 0%, 12.7%);\n  --color-nsw-aboriginal-grey-900: hsl(223.81, 0%, 8.01%);\n  --color-nsw-aboriginal-grey-950: hsl(223.81, 0%, 3.63%);\n  --color-nsw-aboriginal-red-50: hsl(0.45, 100%, 98.34%);\n  --color-nsw-aboriginal-red-100: hsl(0.31, 100%, 96.31%);\n  --color-nsw-aboriginal-red-150: hsl(0.16, 96.42%, 94.24%);\n  --color-nsw-aboriginal-red-200: hsl(360, 90%, 92.16%);\n  --color-nsw-aboriginal-red-250: hsl(0.23, 91.24%, 90.28%);\n  --color-nsw-aboriginal-red-300: hsl(0.45, 91.36%, 88.35%);\n  --color-nsw-aboriginal-red-350: hsl(0.65, 90.86%, 86.36%);\n  --color-nsw-aboriginal-red-400: hsl(0.83, 90%, 84.31%);\n  --color-nsw-aboriginal-red-450: hsl(1.95, 86.73%, 77.32%);\n  --color-nsw-aboriginal-red-500: hsl(2.8, 82.84%, 69.6%);\n  --color-nsw-aboriginal-red-550: hsl(3.23, 79.15%, 60.92%);\n  --color-nsw-aboriginal-red-600: hsl(3.05, 77.87%, 49.61%);\n  --color-nsw-aboriginal-red-650: hsl(2.8, 80.26%, 44.7%);\n  --color-nsw-aboriginal-red-700: hsl(2.5, 83.29%, 39.86%);\n  --color-nsw-aboriginal-red-750: hsl(2.1, 87.31%, 35.06%);\n  --color-nsw-aboriginal-red-800: hsl(1.26, 92.26%, 30.39%);\n  --color-nsw-aboriginal-red-850: hsl(359.74, 99.82%, 22.68%);\n  --color-nsw-aboriginal-red-900: hsl(358.63, 100%, 15.69%);\n  --color-nsw-aboriginal-red-950: hsl(357.82, 100%, 9.76%);\n  --color-nsw-aboriginal-orange-50: hsl(22.11, 100%, 96.57%);\n  --color-nsw-aboriginal-orange-100: hsl(22.19, 93.98%, 93.1%);\n  --color-nsw-aboriginal-orange-150: hsl(22.28, 87.05%, 89.61%);\n  --color-nsw-aboriginal-orange-200: hsl(22.37, 83.1%, 86.08%);\n  --color-nsw-aboriginal-orange-250: hsl(22.42, 84.33%, 82.75%);\n  --color-nsw-aboriginal-orange-300: hsl(22.48, 84.74%, 79.37%);\n  --color-nsw-aboriginal-orange-350: hsl(22.56, 84.7%, 75.91%);\n  --color-nsw-aboriginal-orange-400: hsl(22.69, 84.4%, 72.35%);\n  --color-nsw-aboriginal-orange-450: hsl(21.88, 85.61%, 67.77%);\n  --color-nsw-aboriginal-orange-500: hsl(21.18, 86.15%, 63.01%);\n  --color-nsw-aboriginal-orange-550: hsl(20.78, 86.28%, 57.76%);\n  --color-nsw-aboriginal-orange-600: hsl(21.74, 86.51%, 50.59%);\n  --color-nsw-aboriginal-orange-650: hsl(20.61, 86.17%, 44.61%);\n  --color-nsw-aboriginal-orange-700: hsl(19.56, 89.48%, 38.49%);\n  --color-nsw-aboriginal-orange-750: hsl(18.46, 94.45%, 32.41%);\n  --color-nsw-aboriginal-orange-800: hsl(16.76, 100%, 26.67%);\n  --color-nsw-aboriginal-orange-850: hsl(15.47, 100%, 20.07%);\n  --color-nsw-aboriginal-orange-900: hsl(12.18, 100%, 14.2%);\n  --color-nsw-aboriginal-orange-950: hsl(6.72, 100%, 8.94%);\n  --color-nsw-aboriginal-brown-50: hsl(23.71, 74.46%, 95.12%);\n  --color-nsw-aboriginal-brown-100: hsl(23.8, 62.46%, 90.28%);\n  --color-nsw-aboriginal-brown-150: hsl(23.89, 58.05%, 85.44%);\n  --color-nsw-aboriginal-brown-200: hsl(24, 55.56%, 80.59%);\n  --color-nsw-aboriginal-brown-250: hsl(23.94, 55.92%, 75.8%);\n  --color-nsw-aboriginal-brown-300: hsl(23.91, 55.95%, 70.98%);\n  --color-nsw-aboriginal-brown-350: hsl(23.92, 55.79%, 66.12%);\n  --color-nsw-aboriginal-brown-400: hsl(24, 55.56%, 61.18%);\n  --color-nsw-aboriginal-brown-450: hsl(22.67, 49.07%, 55.96%);\n  --color-nsw-aboriginal-brown-500: hsl(21.29, 43.84%, 50.82%);\n  --color-nsw-aboriginal-brown-550: hsl(19.86, 46.79%, 45.77%);\n  --color-nsw-aboriginal-brown-600: hsl(18.33, 51.92%, 40.78%);\n  --color-nsw-aboriginal-brown-650: hsl(18.72, 56.45%, 34.86%);\n  --color-nsw-aboriginal-brown-700: hsl(19.21, 62.79%, 29.04%);\n  --color-nsw-aboriginal-brown-750: hsl(19.97, 72.56%, 23.3%);\n  --color-nsw-aboriginal-brown-800: hsl(21, 88.89%, 17.65%);\n  --color-nsw-aboriginal-brown-850: hsl(19.73, 95.19%, 12.97%);\n  --color-nsw-aboriginal-brown-900: hsl(16.27, 100%, 8.82%);\n  --color-nsw-aboriginal-brown-950: hsl(10.45, 100%, 5.14%);\n  --color-nsw-aboriginal-yellow-50: hsl(45.72, 100%, 96.78%);\n  --color-nsw-aboriginal-yellow-100: hsl(45.63, 100%, 94.1%);\n  --color-nsw-aboriginal-yellow-150: hsl(45.57, 100%, 91.38%);\n  --color-nsw-aboriginal-yellow-200: hsl(45.52, 100%, 88.63%);\n  --color-nsw-aboriginal-yellow-250: hsl(45.68, 99.59%, 85.94%);\n  --color-nsw-aboriginal-yellow-300: hsl(45.86, 99.15%, 83.16%);\n  --color-nsw-aboriginal-yellow-350: hsl(46.07, 98.71%, 80.28%);\n  --color-nsw-aboriginal-yellow-400: hsl(46.32, 98.28%, 77.25%);\n  --color-nsw-aboriginal-yellow-450: hsl(42.77, 97.91%, 72.64%);\n  --color-nsw-aboriginal-yellow-500: hsl(39.92, 98.26%, 68.02%);\n  --color-nsw-aboriginal-yellow-550: hsl(37.69, 98.75%, 63.17%);\n  --color-nsw-aboriginal-yellow-600: hsl(36.28, 99.08%, 57.45%);\n  --color-nsw-aboriginal-yellow-650: hsl(37.45, 77.64%, 49.26%);\n  --color-nsw-aboriginal-yellow-700: hsl(38.69, 83.35%, 41.35%);\n  --color-nsw-aboriginal-yellow-750: hsl(40.07, 91.76%, 33.66%);\n  --color-nsw-aboriginal-yellow-800: hsl(41.17, 100%, 26.86%);\n  --color-nsw-aboriginal-yellow-850: hsl(41.1, 100%, 19.64%);\n  --color-nsw-aboriginal-yellow-900: hsl(40.13, 100%, 13.55%);\n  --color-nsw-aboriginal-yellow-950: hsl(37.35, 100%, 8.33%);\n  --color-nsw-aboriginal-green-50: hsl(94.61, 37.03%, 96.34%);\n  --color-nsw-aboriginal-green-100: hsl(94.51, 32.21%, 92.9%);\n  --color-nsw-aboriginal-green-150: hsl(94.4, 30.49%, 89.48%);\n  --color-nsw-aboriginal-green-200: hsl(94.29, 29.58%, 86.08%);\n  --color-nsw-aboriginal-green-250: hsl(94.5, 29.43%, 82.62%);\n  --color-nsw-aboriginal-green-300: hsl(94.72, 29.3%, 79.18%);\n  --color-nsw-aboriginal-green-350: hsl(94.92, 29.18%, 75.76%);\n  --color-nsw-aboriginal-green-400: hsl(95.12, 29.08%, 72.35%);\n  --color-nsw-aboriginal-green-450: hsl(93.46, 30.08%, 65.88%);\n  --color-nsw-aboriginal-green-500: hsl(91.63, 30.85%, 59.29%);\n  --color-nsw-aboriginal-green-550: hsl(89.55, 31.61%, 52.5%);\n  --color-nsw-aboriginal-green-600: hsl(87.03, 39.39%, 45.29%);\n  --color-nsw-aboriginal-green-650: hsl(97.99, 35.67%, 41.28%);\n  --color-nsw-aboriginal-green-700: hsl(111.48, 32.13%, 36.95%);\n  --color-nsw-aboriginal-green-750: hsl(127.58, 34.41%, 30.98%);\n  --color-nsw-aboriginal-green-800: hsl(140.73, 45.45%, 23.73%);\n  --color-nsw-aboriginal-green-850: hsl(141.23, 51.5%, 17.2%);\n  --color-nsw-aboriginal-green-900: hsl(142.1, 64.01%, 11%);\n  --color-nsw-aboriginal-green-950: hsl(139.39, 83.32%, 5.75%);\n  --color-nsw-aboriginal-blue-50: hsl(189.24, 57.11%, 95.67%);\n  --color-nsw-aboriginal-blue-100: hsl(189.24, 49.64%, 91.57%);\n  --color-nsw-aboriginal-blue-150: hsl(189.24, 47.11%, 87.45%);\n  --color-nsw-aboriginal-blue-200: hsl(189.23, 45.88%, 83.33%);\n  --color-nsw-aboriginal-blue-250: hsl(189.29, 45.53%, 79.28%);\n  --color-nsw-aboriginal-blue-300: hsl(189.34, 45.39%, 75.19%);\n  --color-nsw-aboriginal-blue-350: hsl(189.36, 45.41%, 71.06%);\n  --color-nsw-aboriginal-blue-400: hsl(189.35, 45.56%, 66.86%);\n  --color-nsw-aboriginal-blue-450: hsl(192.66, 41.82%, 57.86%);\n  --color-nsw-aboriginal-blue-500: hsl(195.5, 40.89%, 49.12%);\n  --color-nsw-aboriginal-blue-550: hsl(197.85, 55.74%, 40.47%);\n  --color-nsw-aboriginal-blue-600: hsl(199.09, 83.54%, 30.98%);\n  --color-nsw-aboriginal-blue-650: hsl(203.84, 73.26%, 29.5%);\n  --color-nsw-aboriginal-blue-700: hsl(208.96, 66.46%, 27.09%);\n  --color-nsw-aboriginal-blue-750: hsl(214.68, 61.55%, 24.07%);\n  --color-nsw-aboriginal-blue-800: hsl(221.31, 58.1%, 20.59%);\n  --color-nsw-aboriginal-blue-850: hsl(221.4, 64.27%, 15.08%);\n  --color-nsw-aboriginal-blue-900: hsl(222.04, 74.71%, 9.95%);\n  --color-nsw-aboriginal-blue-950: hsl(227.14, 84.88%, 5.65%);\n  --color-nsw-aboriginal-purple-50: hsl(310.68, 42.61%, 96.28%);\n  --color-nsw-aboriginal-purple-100: hsl(310.46, 34.93%, 92.41%);\n  --color-nsw-aboriginal-purple-150: hsl(310.24, 32.24%, 88.56%);\n  --color-nsw-aboriginal-purple-200: hsl(310, 30.77%, 84.71%);\n  --color-nsw-aboriginal-purple-250: hsl(309.75, 30.82%, 80.93%);\n  --color-nsw-aboriginal-purple-300: hsl(309.5, 30.72%, 77.16%);\n  --color-nsw-aboriginal-purple-350: hsl(309.22, 30.55%, 73.39%);\n  --color-nsw-aboriginal-purple-400: hsl(308.94, 30.32%, 69.61%);\n  --color-nsw-aboriginal-purple-450: hsl(308.5, 27.72%, 64.31%);\n  --color-nsw-aboriginal-purple-500: hsl(308.03, 25.74%, 59.05%);\n  --color-nsw-aboriginal-purple-550: hsl(307.53, 24.18%, 53.83%);\n  --color-nsw-aboriginal-purple-600: hsl(307, 24.19%, 48.63%);\n  --color-nsw-aboriginal-purple-650: hsl(307.56, 25.08%, 41.48%);\n  --color-nsw-aboriginal-purple-700: hsl(308.1, 26.24%, 34.55%);\n  --color-nsw-aboriginal-purple-750: hsl(308.61, 27.86%, 27.83%);\n  --color-nsw-aboriginal-purple-800: hsl(309.09, 30.28%, 21.37%);\n  --color-nsw-aboriginal-purple-850: hsl(308.99, 33.57%, 15.63%);\n  --color-nsw-aboriginal-purple-900: hsl(308.83, 40.05%, 10.18%);\n  --color-nsw-aboriginal-purple-950: hsl(308.92, 54.82%, 5.21%);\n}\n";
+var hsl_default6 = "@success-50: hsl(113.15, 52.52%, 95.43%);\n@success-100: hsl(113.26, 45.54%, 91.13%);\n@success-150: hsl(113.38, 42.97%, 86.84%);\n@success-200: hsl(113.51, 41.57%, 82.55%);\n@success-250: hsl(114.16, 37.16%, 74.26%);\n@success-300: hsl(114.93, 34.81%, 66.02%);\n@success-350: hsl(115.88, 33.38%, 57.78%);\n@success-400: hsl(117.14, 33.33%, 49.41%);\n@success-450: hsl(117.67, 39.56%, 45.11%);\n@success-500: hsl(118.38, 47.88%, 40.58%);\n@success-550: hsl(119.53, 60.48%, 35.56%);\n@success-600: hsl(123.04, 100%, 27.06%);\n@success-650: hsl(121.8, 99.36%, 22.38%);\n@success-700: hsl(120.9, 99.22%, 17.81%);\n@success-750: hsl(120.32, 99.47%, 13.4%);\n@success-800: hsl(120, 100%, 9.22%);\n@success-850: hsl(120.32, 100%, 6.51%);\n@success-900: hsl(120.63, 100%, 4.07%);\n@success-950: hsl(121.08, 100%, 1.88%);\n@warning-50: hsl(17.53, 100%, 96.97%);\n@warning-100: hsl(17.59, 100%, 93.77%);\n@warning-150: hsl(17.65, 99.09%, 90.53%);\n@warning-200: hsl(17.7, 93.85%, 87.25%);\n@warning-250: hsl(17.77, 81.71%, 80.57%);\n@warning-300: hsl(17.84, 74.94%, 73.78%);\n@warning-350: hsl(17.98, 70.36%, 66.84%);\n@warning-400: hsl(18.26, 66.99%, 59.61%);\n@warning-450: hsl(18.61, 65.61%, 55.79%);\n@warning-500: hsl(19.18, 64.53%, 51.69%);\n@warning-550: hsl(20.31, 72.21%, 46.96%);\n@warning-600: hsl(23.88, 100%, 39.41%);\n@warning-650: hsl(21.95, 96.66%, 33.46%);\n@warning-700: hsl(20.07, 95.99%, 27.13%);\n@warning-750: hsl(17.86, 97.32%, 20.78%);\n@warning-800: hsl(14.4, 100%, 14.71%);\n@warning-850: hsl(11.43, 100%, 10.95%);\n@warning-900: hsl(7.67, 100%, 7.5%);\n@warning-950: hsl(4.64, 100%, 4.34%);\n@danger-50: hsl(0.78, 100%, 97.61%);\n@danger-100: hsl(0.56, 100%, 94.61%);\n@danger-150: hsl(0.3, 100%, 91.55%);\n@danger-200: hsl(0, 93.22%, 88.43%);\n@danger-250: hsl(359.39, 76.34%, 81.59%);\n@danger-300: hsl(358.59, 67.4%, 74.56%);\n@danger-350: hsl(357.51, 61.52%, 67.27%);\n@danger-400: hsl(355.93, 57.28%, 59.61%);\n@danger-450: hsl(354.77, 55.6%, 55.49%);\n@danger-500: hsl(353.23, 54.28%, 51.09%);\n@danger-550: hsl(350.97, 62.34%, 46.16%);\n@danger-600: hsl(346.63, 82.18%, 39.61%);\n@danger-650: hsl(346.89, 86.15%, 32.28%);\n@danger-700: hsl(347.25, 91.31%, 25.33%);\n@danger-750: hsl(348.45, 96%, 19.02%);\n@danger-800: hsl(351.18, 100%, 13.33%);\n@danger-850: hsl(352.99, 100%, 9.85%);\n@danger-900: hsl(354.47, 100%, 6.66%);\n@danger-950: hsl(355.5, 100%, 3.76%);\n@info-50: hsl(217.99, 45.88%, 94%);\n@info-100: hsl(218, 37.47%, 87.77%);\n@info-150: hsl(218.02, 34.49%, 81.6%);\n@info-200: hsl(218.05, 32.8%, 75.49%);\n@info-250: hsl(218.29, 34.23%, 69.31%);\n@info-300: hsl(218.57, 34.87%, 63.2%);\n@info-350: hsl(218.9, 35.05%, 57.15%);\n@info-400: hsl(219.31, 34.94%, 51.18%);\n@info-450: hsl(219.41, 37.55%, 48.13%);\n@info-500: hsl(219.52, 42.28%, 45.1%);\n@info-550: hsl(219.66, 47.62%, 42.06%);\n@info-600: hsl(219.81, 53.77%, 39.02%);\n@info-650: hsl(219.87, 56.39%, 31.92%);\n@info-700: hsl(219.93, 60.27%, 25.07%);\n@info-750: hsl(220.02, 66.59%, 18.51%);\n@info-800: hsl(220.41, 77.78%, 12.35%);\n@info-850: hsl(222.21, 84%, 8.9%);\n@info-900: hsl(226.63, 89.54%, 5.83%);\n@info-950: hsl(230.65, 94.13%, 3.12%);\n";
 
-// src/tailwind/colors/global/oklch.css
+// src/less/colors/semantic/oklch.less
 var oklch_exports9 = {};
 __export(oklch_exports9, {
-  default: () => oklch_default7
+  default: () => oklch_default6
 });
-var oklch_default7 = "@theme {\n  --color-nsw-grey-50: oklch(0.9850175274112574 0 0);\n  --color-nsw-grey-100: oklch(0.9700350548225147 0 0);\n  --color-nsw-grey-150: oklch(0.9550525822337722 0 0);\n  --color-nsw-grey-200: oklch(0.9400701096450296 0 0);\n  --color-nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n  --color-nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n  --color-nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n  --color-nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n  --color-nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n  --color-nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n  --color-nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n  --color-nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n  --color-nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n  --color-nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n  --color-nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n  --color-nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n  --color-nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n  --color-nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n  --color-nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n  --color-nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);\n  --color-nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);\n  --color-nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);\n  --color-nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);\n  --color-nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);\n  --color-nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);\n  --color-nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);\n  --color-nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);\n  --color-nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);\n  --color-nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);\n  --color-nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);\n  --color-nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);\n  --color-nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);\n  --color-nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);\n  --color-nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);\n  --color-nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);\n  --color-nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);\n  --color-nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);\n  --color-nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);\n  --color-nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);\n  --color-nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);\n  --color-nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);\n  --color-nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);\n  --color-nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);\n  --color-nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);\n  --color-nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);\n  --color-nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);\n  --color-nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);\n  --color-nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);\n  --color-nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);\n  --color-nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);\n  --color-nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);\n  --color-nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);\n  --color-nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);\n  --color-nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);\n  --color-nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);\n  --color-nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);\n  --color-nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);\n  --color-nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --color-nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --color-nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --color-nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --color-nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --color-nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --color-nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --color-nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n  --color-nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --color-nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --color-nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --color-nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --color-nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --color-nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --color-nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --color-nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --color-nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --color-nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --color-nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --color-nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);\n  --color-nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);\n  --color-nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);\n  --color-nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);\n  --color-nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);\n  --color-nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);\n  --color-nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);\n  --color-nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);\n  --color-nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);\n  --color-nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);\n  --color-nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);\n  --color-nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);\n  --color-nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);\n  --color-nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);\n  --color-nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);\n  --color-nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);\n  --color-nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);\n  --color-nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);\n  --color-nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);\n  --color-nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);\n  --color-nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);\n  --color-nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);\n  --color-nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);\n  --color-nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);\n  --color-nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);\n  --color-nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);\n  --color-nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);\n  --color-nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);\n  --color-nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);\n  --color-nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);\n  --color-nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);\n  --color-nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);\n  --color-nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);\n  --color-nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);\n  --color-nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);\n  --color-nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);\n  --color-nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);\n  --color-nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);\n  --color-nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n  --color-nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n  --color-nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n  --color-nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n  --color-nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n  --color-nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n  --color-nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n  --color-nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n  --color-nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --color-nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --color-nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --color-nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --color-nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --color-nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --color-nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --color-nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n  --color-nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n  --color-nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n  --color-nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n  --color-nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);\n  --color-nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);\n  --color-nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);\n  --color-nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);\n  --color-nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);\n  --color-nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);\n  --color-nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);\n  --color-nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);\n  --color-nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);\n  --color-nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);\n  --color-nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);\n  --color-nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);\n  --color-nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);\n  --color-nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);\n  --color-nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);\n  --color-nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);\n  --color-nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);\n  --color-nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);\n  --color-nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);\n  --color-nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);\n  --color-nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);\n  --color-nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);\n  --color-nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);\n  --color-nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);\n  --color-nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);\n  --color-nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);\n  --color-nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);\n  --color-nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);\n  --color-nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);\n  --color-nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);\n  --color-nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);\n  --color-nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);\n  --color-nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);\n  --color-nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);\n  --color-nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);\n  --color-nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);\n  --color-nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);\n  --color-nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);\n  --color-nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);\n  --color-nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);\n  --color-nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);\n  --color-nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);\n  --color-nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);\n  --color-nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);\n  --color-nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);\n  --color-nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);\n  --color-nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);\n  --color-nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);\n  --color-nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);\n  --color-nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);\n  --color-nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);\n  --color-nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);\n  --color-nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);\n  --color-nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);\n  --color-nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);\n  --color-nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);\n  --color-nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);\n  --color-nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);\n  --color-nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);\n  --color-nsw-aboriginal-grey-150: oklch(\n    0.9374064828896956 0.0035614326327228986 78.29695339492076\n  );\n  --color-nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);\n  --color-nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);\n  --color-nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);\n  --color-nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);\n  --color-nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);\n  --color-nsw-aboriginal-grey-450: oklch(\n    0.7350703829754051 0.006541023270606863 56.288635534075496\n  );\n  --color-nsw-aboriginal-grey-500: oklch(\n    0.6398913199703631 0.004360682180404575 56.288635534075496\n  );\n  --color-nsw-aboriginal-grey-550: oklch(\n    0.544712256965321 0.0021803410902022876 56.288635534075496\n  );\n  --color-nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 none);\n  --color-nsw-aboriginal-grey-650: oklch(0.4114406365077532 0 none);\n  --color-nsw-aboriginal-grey-700: oklch(0.3733480790552275 0 none);\n  --color-nsw-aboriginal-grey-750: oklch(0.3352555216027018 0 none);\n  --color-nsw-aboriginal-grey-800: oklch(0.29716296415017607 0 none);\n  --color-nsw-aboriginal-grey-850: oklch(0.24515944542389526 0 none);\n  --color-nsw-aboriginal-grey-900: oklch(0.19315592669761444 0 none);\n  --color-nsw-aboriginal-grey-950: oklch(0.14115240797133363 0 none);\n  --color-nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);\n  --color-nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);\n  --color-nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);\n  --color-nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);\n  --color-nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);\n  --color-nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);\n  --color-nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);\n  --color-nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);\n  --color-nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);\n  --color-nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);\n  --color-nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);\n  --color-nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);\n  --color-nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);\n  --color-nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);\n  --color-nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);\n  --color-nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);\n  --color-nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);\n  --color-nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);\n  --color-nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);\n  --color-nsw-aboriginal-orange-50: oklch(\n    0.9738855126989008 0.016602591530904584 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-100: oklch(\n    0.9477710253978014 0.028096693359992375 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-150: oklch(\n    0.9216565380967021 0.039590795189080166 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-200: oklch(\n    0.8955420507956029 0.05108489701816796 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-250: oklch(\n    0.8714459985514821 0.06477537243882539 52.40983339193463\n  );\n  --color-nsw-aboriginal-orange-300: oklch(\n    0.8473499463073613 0.07846584785948284 52.264204619323664\n  );\n  --color-nsw-aboriginal-orange-350: oklch(\n    0.8232538940632406 0.09215632328014028 52.11857584671269\n  );\n  --color-nsw-aboriginal-orange-400: oklch(\n    0.7991578418191198 0.10584679870079772 51.97294707410171\n  );\n  --color-nsw-aboriginal-orange-450: oklch(\n    0.7660019575057643 0.12652886278666134 49.87887684512948\n  );\n  --color-nsw-aboriginal-orange-500: oklch(\n    0.7328460731924087 0.14721092687252496 47.784806616157255\n  );\n  --color-nsw-aboriginal-orange-550: oklch(\n    0.6996901888790532 0.16789299095838855 45.69073638718503\n  );\n  --color-nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);\n  --color-nsw-aboriginal-orange-650: oklch(\n    0.6048689295059245 0.17619193861850896 42.06662366880586\n  );\n  --color-nsw-aboriginal-orange-700: oklch(\n    0.5432035544461513 0.16380882219276577 40.53658117939892\n  );\n  --color-nsw-aboriginal-orange-750: oklch(\n    0.48153817938637805 0.15142570576702258 39.00653868999199\n  );\n  --color-nsw-aboriginal-orange-800: oklch(\n    0.41987280432660484 0.13904258934127936 37.47649620058505\n  );\n  --color-nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);\n  --color-nsw-aboriginal-orange-900: oklch(\n    0.27291732281229314 0.09732981253889555 37.47649620058505\n  );\n  --color-nsw-aboriginal-orange-950: oklch(\n    0.1994395820551373 0.07647342413770365 37.47649620058505\n  );\n  --color-nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);\n  --color-nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);\n  --color-nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);\n  --color-nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);\n  --color-nsw-aboriginal-brown-250: oklch(\n    0.819495130372929 0.060854957675237686 55.274819963495716\n  );\n  --color-nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);\n  --color-nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);\n  --color-nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);\n  --color-nsw-aboriginal-brown-450: oklch(\n    0.6658642886991106 0.10220482966257746 51.472089235271014\n  );\n  --color-nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);\n  --color-nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);\n  --color-nsw-aboriginal-brown-600: oklch(\n    0.5259341610634539 0.10991146182440867 43.512391998616614\n  );\n  --color-nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);\n  --color-nsw-aboriginal-brown-700: oklch(\n    0.42307648380765683 0.09792470862615782 44.09883922975184\n  );\n  --color-nsw-aboriginal-brown-750: oklch(\n    0.37164764517975835 0.09193133202703241 44.39206284531945\n  );\n  --color-nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);\n  --color-nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);\n  --color-nsw-aboriginal-brown-900: oklch(\n    0.20814222425870887 0.06015656879953489 44.68528646088706\n  );\n  --color-nsw-aboriginal-brown-950: oklch(\n    0.15210393311213338 0.04726587548534884 44.68528646088706\n  );\n  --color-nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);\n  --color-nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);\n  --color-nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);\n  --color-nsw-aboriginal-yellow-200: oklch(\n    0.9583504843687841 0.05877873378798942 92.48002960723814\n  );\n  --color-nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);\n  --color-nsw-aboriginal-yellow-300: oklch(\n    0.9399189898584743 0.08519720131855335 92.98100357955929\n  );\n  --color-nsw-aboriginal-yellow-350: oklch(\n    0.9307032426033194 0.09840643508383531 93.23149056571987\n  );\n  --color-nsw-aboriginal-yellow-400: oklch(\n    0.9214874953481644 0.11161566884911728 93.48197755188043\n  );\n  --color-nsw-aboriginal-yellow-450: oklch(\n    0.8910195189839808 0.12436290150788638 87.85568397462671\n  );\n  --color-nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);\n  --color-nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);\n  --color-nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);\n  --color-nsw-aboriginal-yellow-650: oklch(\n    0.7283788119804733 0.14880860016855085 72.64225880919277\n  );\n  --color-nsw-aboriginal-yellow-700: oklch(\n    0.6571420340695165 0.13501260085290803 74.30771437551996\n  );\n  --color-nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);\n  --color-nsw-aboriginal-yellow-800: oklch(\n    0.5146684782476031 0.10742060222162236 77.63862550817437\n  );\n  --color-nsw-aboriginal-yellow-850: oklch(\n    0.42460149455427254 0.09130751188837902 77.63862550817437\n  );\n  --color-nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);\n  --color-nsw-aboriginal-yellow-950: oklch(\n    0.24446752716761147 0.059081331221892304 77.63862550817437\n  );\n  --color-nsw-aboriginal-green-50: oklch(\n    0.9775400515432829 0.010033373009012674 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-100: oklch(\n    0.9550801030865659 0.016979554322944526 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-150: oklch(\n    0.9326201546298487 0.023925735636876375 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-200: oklch(\n    0.9101602061731316 0.030871916950808227 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-250: oklch(\n    0.8874934999312177 0.03857982981011093 131.78279512830795\n  );\n  --color-nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);\n  --color-nsw-aboriginal-green-350: oklch(\n    0.8421600874473898 0.053995655528716345 132.22108603311983\n  );\n  --color-nsw-aboriginal-green-400: oklch(\n    0.8194933812054759 0.061703568388019055 132.44023148552574\n  );\n  --color-nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);\n  --color-nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);\n  --color-nsw-aboriginal-green-550: oklch(\n    0.6989797391259933 0.11210775194181792 130.29024651396378\n  );\n  --color-nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);\n  --color-nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);\n  --color-nsw-aboriginal-green-700: oklch(\n    0.5360283164657826 0.10630157240635738 140.91243379535533\n  );\n  --color-nsw-aboriginal-green-750: oklch(\n    0.47463821214892454 0.09499778537966062 146.58185826464475\n  );\n  --color-nsw-aboriginal-green-800: oklch(\n    0.41324810783206634 0.08369399835296387 152.25128273393418\n  );\n  --color-nsw-aboriginal-green-850: oklch(\n    0.3409296889614547 0.07113989860001929 152.25128273393418\n  );\n  --color-nsw-aboriginal-green-900: oklch(\n    0.2686112700908431 0.05858579884707471 152.25128273393418\n  );\n  --color-nsw-aboriginal-green-950: oklch(\n    0.1962928512202315 0.04603169909413013 152.25128273393418\n  );\n  --color-nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);\n  --color-nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);\n  --color-nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);\n  --color-nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);\n  --color-nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);\n  --color-nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);\n  --color-nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);\n  --color-nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);\n  --color-nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);\n  --color-nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);\n  --color-nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);\n  --color-nsw-aboriginal-blue-600: oklch(\n    0.48681410550334053 0.10128236457958428 236.48205409186096\n  );\n  --color-nsw-aboriginal-blue-650: oklch(\n    0.43774688628471914 0.09607362828959434 243.31473157010598\n  );\n  --color-nsw-aboriginal-blue-700: oklch(0.3886796670660978 0.09086489199960439 250.147409048351);\n  --color-nsw-aboriginal-blue-750: oklch(0.3396124478474764 0.08565615570961443 256.980086526596);\n  --color-nsw-aboriginal-blue-800: oklch(0.290545228628855 0.0804474194196245 263.81276400484103);\n  --color-nsw-aboriginal-blue-850: oklch(\n    0.23969981361880538 0.06838030650668082 263.81276400484103\n  );\n  --color-nsw-aboriginal-blue-900: oklch(\n    0.18885439860875575 0.05631319359373715 263.81276400484103\n  );\n  --color-nsw-aboriginal-blue-950: oklch(\n    0.13800898359870611 0.04424608068079347 263.81276400484103\n  );\n  --color-nsw-aboriginal-purple-50: oklch(\n    0.9677519235816936 0.01225423399018933 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-100: oklch(\n    0.9355038471633873 0.020737934444935786 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-150: oklch(\n    0.903255770745081 0.02922163489968224 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-200: oklch(\n    0.8710076943267746 0.0377053353544287 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-250: oklch(\n    0.8389191100209297 0.04764157951006853 331.4172179039917\n  );\n  --color-nsw-aboriginal-purple-300: oklch(\n    0.8068305257150847 0.05757782366570837 331.4397426256475\n  );\n  --color-nsw-aboriginal-purple-350: oklch(\n    0.7747419414092399 0.06751406782134821 331.46226734730334\n  );\n  --color-nsw-aboriginal-purple-400: oklch(\n    0.742653357103395 0.07745031197698804 331.48479206895917\n  );\n  --color-nsw-aboriginal-purple-450: oklch(\n    0.6987279730890662 0.08461715270888535 331.3997569775923\n  );\n  --color-nsw-aboriginal-purple-500: oklch(\n    0.6548025890747375 0.09178399344078267 331.31472188622536\n  );\n  --color-nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);\n  --color-nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);\n  --color-nsw-aboriginal-purple-650: oklch(\n    0.5059681066477375 0.09597195429905764 331.53840819994554\n  );\n  --color-nsw-aboriginal-purple-700: oklch(\n    0.4449843922493949 0.08582623369353798 331.93216469639947\n  );\n  --color-nsw-aboriginal-purple-750: oklch(\n    0.38400067785105235 0.07568051308801832 332.32592119285346\n  );\n  --color-nsw-aboriginal-purple-800: oklch(\n    0.3230169634527098 0.06553479248249865 332.7196776893074\n  );\n  --color-nsw-aboriginal-purple-850: oklch(\n    0.2664889948484856 0.05570457361012385 332.7196776893074\n  );\n  --color-nsw-aboriginal-purple-900: oklch(\n    0.20996102624426138 0.04587435473774905 332.7196776893074\n  );\n  --color-nsw-aboriginal-purple-950: oklch(\n    0.15343305764003715 0.036044135865374256 332.7196776893074\n  );\n}\n";
+var oklch_default6 = "@success-50: oklch(0.9720355476100955 0.01978729853872853 142.11752406542539);\n@success-100: oklch(0.944071095220191 0.03348619752707904 142.11752406542539);\n@success-150: oklch(0.9161066428302864 0.04718509651542956 142.11752406542539);\n@success-200: oklch(0.8881421904403819 0.06088399550378008 142.11752406542539);\n@success-250: oklch(0.8312289461835737 0.0814134964867239 142.2964842668701);\n@success-300: oklch(0.7743157019267655 0.10194299746966773 142.47544446831483);\n@success-350: oklch(0.7174024576699572 0.12247249845261154 142.65440466975954);\n@success-400: oklch(0.660489213413149 0.14300199943555536 142.83336487120425);\n@success-450: oklch(0.6326270919832794 0.153487552492673 142.8252122365381);\n@success-500: oklch(0.6047649705534097 0.16397310554979067 142.81705960187193);\n@success-550: oklch(0.57690284912354 0.17445865860690835 142.80890696720576);\n@success-600: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n@success-650: oklch(0.4778879989458421 0.16120283434453703 142.72440047135717);\n@success-700: oklch(0.40673527019801387 0.13746145702504803 142.64804661017473);\n@success-750: oklch(0.3355825414501856 0.11372007970555903 142.57169274899232);\n@success-800: oklch(0.26442981270235744 0.08997870238607004 142.49533888780988);\n@success-850: oklch(0.21815459547944488 0.07648189702815954 142.49533888780988);\n@success-900: oklch(0.17187937825653232 0.06298509167024903 142.49533888780988);\n@success-950: oklch(0.12560416103361977 0.04948828631233853 142.49533888780988);\n@warning-50: oklch(0.9739777778864123 0.017695077274685146 43.9454781334139);\n@warning-100: oklch(0.9479555557728245 0.029945515387928705 43.9454781334139);\n@warning-150: oklch(0.9219333336592369 0.042195953501172265 43.9454781334139);\n@warning-200: oklch(0.8959111115456492 0.05444639161441583 43.9454781334139);\n@warning-250: oklch(0.8436567377995562 0.07383969866253859 43.88732593200177);\n@warning-300: oklch(0.7914023640534633 0.09323300571066136 43.829173730589645);\n@warning-350: oklch(0.7391479903073703 0.11262631275878413 43.77102152917751);\n@warning-400: oklch(0.6868936165612773 0.13201961980690688 43.71286932776538);\n@warning-450: oklch(0.6610028202949751 0.14144095719007027 43.78396833320002);\n@warning-500: oklch(0.635112024028673 0.15086229457323366 43.85506733863466);\n@warning-550: oklch(0.6092212277623706 0.16028363195639705 43.9261663440693);\n@warning-600: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n@warning-650: oklch(0.507009085738871 0.149901753081645 42.56483564766481);\n@warning-700: oklch(0.43068773998167365 0.13009853682372957 41.13240594582567);\n@warning-750: oklch(0.3543663942244763 0.11029532056581412 39.69997624398653);\n@warning-800: oklch(0.2780450484672789 0.09049210430789867 38.26754654214739);\n@warning-850: oklch(0.2293871649855051 0.07691828866171387 38.26754654214739);\n@warning-900: oklch(0.1807292815037313 0.06334447301552906 38.26754654214739);\n@warning-950: oklch(0.13207139802195747 0.04977065736934427 38.26754654214739);\n@danger-50: oklch(0.9688081012787089 0.02046893571008903 18.42817489942577);\n@danger-100: oklch(0.9376162025574177 0.034639737355535286 18.42817489942577);\n@danger-150: oklch(0.9064243038361265 0.048810539000981534 18.42817489942577);\n@danger-200: oklch(0.8752324051148354 0.06298134064642778 18.42817489942577);\n@danger-250: oklch(0.8133068732197568 0.08452871651344564 18.398482771634782);\n@danger-300: oklch(0.7513813413246784 0.1060760923804635 18.368790643843795);\n@danger-350: oklch(0.6894558094295998 0.12762346824748136 18.339098516052807);\n@danger-400: oklch(0.6275302775345213 0.1491708441144992 18.30940638826182);\n@danger-450: oklch(0.5961466901234453 0.1600594003984286 18.251840020312933);\n@danger-500: oklch(0.5647631027123693 0.17094795668235796 18.194273652364046);\n@danger-550: oklch(0.5333795153012932 0.1818365129662873 18.13670728441516);\n@danger-600: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n@danger-650: oklch(0.43761291207168196 0.16911051005163913 18.72632727121819);\n@danger-700: oklch(0.3732298962531466 0.1454959508530616 19.3735136259701);\n@danger-750: oklch(0.30884688043461134 0.12188139165448407 20.020699980722014);\n@danger-800: oklch(0.244463864616076 0.09826683245590653 20.66788633547393);\n@danger-850: oklch(0.2016826883082627 0.08352680758752055 20.66788633547393);\n@danger-900: oklch(0.15890151200044939 0.06878678271913458 20.66788633547393);\n@danger-950: oklch(0.1161203356926361 0.0540467578507486 20.66788633547393);\n@info-50: oklch(0.9472470414070251 0.01319114316017373 261.49146551846417);\n@info-100: oklch(0.8944940828140502 0.02232347304029401 261.49146551846417);\n@info-150: oklch(0.8417411242210754 0.03145580292041429 261.49146551846417);\n@info-200: oklch(0.7889881656281005 0.04058813280053457 261.49146551846417);\n@info-250: oklch(0.7327975333484203 0.05432284288357939 261.7505460408388);\n@info-300: oklch(0.6766069010687401 0.06805755296662422 262.0096265632134);\n@info-350: oklch(0.62041626878906 0.08179226304966905 262.268707085588);\n@info-400: oklch(0.5642256365093798 0.09552697313271387 262.52778760796264);\n@info-450: oklch(0.5358247299257868 0.10246599429811404 262.4837143651888);\n@info-500: oklch(0.5074238233421937 0.10940501546351422 262.4396411224149);\n@info-550: oklch(0.47902291675860065 0.1163440366289144 262.395567879641);\n@info-600: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n@info-650: oklch(0.3914472612047992 0.10948475002303204 262.3659717757216);\n@info-700: oklch(0.33227251223459087 0.09568644225174952 262.3804489145761);\n@info-750: oklch(0.2730977632643825 0.08188813448046699 262.3949260534306);\n@info-800: oklch(0.21392301429417415 0.06808982670918445 262.409403192285);\n@info-850: oklch(0.1764864867926937 0.057876352702806784 262.409403192285);\n@info-900: oklch(0.13904995929121322 0.047662878696429115 262.409403192285);\n@info-950: oklch(0.10161343178973273 0.03744940469005145 262.409403192285);\n";
 
-// src/tailwind/colors/global/rgb.css
+// src/less/colors/semantic/rgb.less
 var rgb_exports9 = {};
 __export(rgb_exports9, {
-  default: () => rgb_default7
+  default: () => rgb_default6
 });
-var rgb_default7 = "@theme {\n  --color-nsw-grey-50: rgb(250, 250, 250);\n  --color-nsw-grey-100: rgb(245, 245, 245);\n  --color-nsw-grey-150: rgb(240, 240, 240);\n  --color-nsw-grey-200: rgb(235, 235, 235);\n  --color-nsw-grey-250: rgb(227, 229, 230);\n  --color-nsw-grey-300: rgb(220, 223, 224);\n  --color-nsw-grey-350: rgb(212, 217, 219);\n  --color-nsw-grey-400: rgb(205, 211, 214);\n  --color-nsw-grey-450: rgb(170, 176, 180);\n  --color-nsw-grey-500: rgb(136, 143, 146);\n  --color-nsw-grey-550: rgb(104, 111, 114);\n  --color-nsw-grey-600: rgb(73, 80, 84);\n  --color-nsw-grey-650: rgb(63, 69, 73);\n  --color-nsw-grey-700: rgb(53, 59, 63);\n  --color-nsw-grey-750: rgb(43, 49, 53);\n  --color-nsw-grey-800: rgb(34, 39, 43);\n  --color-nsw-grey-850: rgb(24, 28, 31);\n  --color-nsw-grey-900: rgb(14, 17, 19);\n  --color-nsw-grey-950: rgb(5, 7, 9);\n  --color-nsw-green-50: rgb(245, 255, 246);\n  --color-nsw-green-100: rgb(236, 253, 238);\n  --color-nsw-green-150: rgb(228, 252, 231);\n  --color-nsw-green-200: rgb(219, 250, 223);\n  --color-nsw-green-250: rgb(207, 247, 212);\n  --color-nsw-green-300: rgb(194, 244, 201);\n  --color-nsw-green-350: rgb(181, 240, 190);\n  --color-nsw-green-400: rgb(168, 237, 179);\n  --color-nsw-green-450: rgb(138, 220, 152);\n  --color-nsw-green-500: rgb(106, 204, 125);\n  --color-nsw-green-550: rgb(69, 187, 98);\n  --color-nsw-green-600: rgb(0, 170, 69);\n  --color-nsw-green-650: rgb(7, 142, 50);\n  --color-nsw-green-700: rgb(7, 115, 32);\n  --color-nsw-green-750: rgb(3, 89, 15);\n  --color-nsw-green-800: rgb(0, 64, 0);\n  --color-nsw-green-850: rgb(0, 48, 0);\n  --color-nsw-green-900: rgb(0, 32, 0);\n  --color-nsw-green-950: rgb(0, 17, 0);\n  --color-nsw-teal-50: rgb(242, 251, 250);\n  --color-nsw-teal-100: rgb(231, 247, 245);\n  --color-nsw-teal-150: rgb(220, 242, 239);\n  --color-nsw-teal-200: rgb(209, 238, 234);\n  --color-nsw-teal-250: rgb(193, 234, 231);\n  --color-nsw-teal-300: rgb(175, 229, 229);\n  --color-nsw-teal-350: rgb(158, 224, 229);\n  --color-nsw-teal-400: rgb(140, 219, 229);\n  --color-nsw-teal-450: rgb(117, 196, 207);\n  --color-nsw-teal-500: rgb(94, 172, 185);\n  --color-nsw-teal-550: rgb(70, 150, 163);\n  --color-nsw-teal-600: rgb(46, 128, 142);\n  --color-nsw-teal-650: rgb(37, 111, 123);\n  --color-nsw-teal-700: rgb(28, 95, 105);\n  --color-nsw-teal-750: rgb(20, 78, 88);\n  --color-nsw-teal-800: rgb(11, 63, 71);\n  --color-nsw-teal-850: rgb(4, 47, 53);\n  --color-nsw-teal-900: rgb(1, 31, 36);\n  --color-nsw-teal-950: rgb(0, 17, 20);\n  --color-nsw-blue-50: rgb(240, 251, 255);\n  --color-nsw-blue-100: rgb(228, 246, 255);\n  --color-nsw-blue-150: rgb(215, 242, 254);\n  --color-nsw-blue-200: rgb(203, 237, 253);\n  --color-nsw-blue-250: rgb(188, 234, 254);\n  --color-nsw-blue-300: rgb(173, 231, 255);\n  --color-nsw-blue-350: rgb(157, 227, 255);\n  --color-nsw-blue-400: rgb(140, 224, 255);\n  --color-nsw-blue-450: rgb(90, 201, 255);\n  --color-nsw-blue-500: rgb(38, 174, 255);\n  --color-nsw-blue-550: rgb(0, 143, 255);\n  --color-nsw-blue-600: rgb(20, 108, 253);\n  --color-nsw-blue-650: rgb(12, 90, 212);\n  --color-nsw-blue-700: rgb(5, 72, 173);\n  --color-nsw-blue-750: rgb(2, 54, 136);\n  --color-nsw-blue-800: rgb(0, 38, 100);\n  --color-nsw-blue-850: rgb(0, 26, 77);\n  --color-nsw-blue-900: rgb(0, 16, 55);\n  --color-nsw-blue-950: rgb(0, 6, 34);\n  --color-nsw-purple-50: rgb(249, 247, 255);\n  --color-nsw-purple-100: rgb(242, 240, 255);\n  --color-nsw-purple-150: rgb(236, 232, 254);\n  --color-nsw-purple-200: rgb(230, 225, 253);\n  --color-nsw-purple-250: rgb(224, 217, 254);\n  --color-nsw-purple-300: rgb(218, 208, 254);\n  --color-nsw-purple-350: rgb(212, 200, 255);\n  --color-nsw-purple-400: rgb(206, 191, 255);\n  --color-nsw-purple-450: rgb(186, 166, 252);\n  --color-nsw-purple-500: rgb(166, 141, 249);\n  --color-nsw-purple-550: rgb(147, 114, 245);\n  --color-nsw-purple-600: rgb(128, 85, 241);\n  --color-nsw-purple-650: rgb(114, 67, 207);\n  --color-nsw-purple-700: rgb(100, 50, 174);\n  --color-nsw-purple-750: rgb(84, 33, 142);\n  --color-nsw-purple-800: rgb(68, 17, 112);\n  --color-nsw-purple-850: rgb(51, 8, 86);\n  --color-nsw-purple-900: rgb(35, 2, 62);\n  --color-nsw-purple-950: rgb(19, 0, 39);\n  --color-nsw-fuchsia-50: rgb(255, 246, 253);\n  --color-nsw-fuchsia-100: rgb(255, 238, 249);\n  --color-nsw-fuchsia-150: rgb(254, 230, 246);\n  --color-nsw-fuchsia-200: rgb(253, 222, 242);\n  --color-nsw-fuchsia-250: rgb(251, 212, 239);\n  --color-nsw-fuchsia-300: rgb(249, 201, 235);\n  --color-nsw-fuchsia-350: rgb(247, 191, 233);\n  --color-nsw-fuchsia-400: rgb(244, 181, 230);\n  --color-nsw-fuchsia-450: rgb(239, 150, 218);\n  --color-nsw-fuchsia-500: rgb(233, 117, 204);\n  --color-nsw-fuchsia-550: rgb(225, 80, 190);\n  --color-nsw-fuchsia-600: rgb(217, 18, 174);\n  --color-nsw-fuchsia-650: rgb(187, 12, 148);\n  --color-nsw-fuchsia-700: rgb(157, 6, 123);\n  --color-nsw-fuchsia-750: rgb(129, 2, 100);\n  --color-nsw-fuchsia-800: rgb(101, 0, 77);\n  --color-nsw-fuchsia-850: rgb(77, 0, 58);\n  --color-nsw-fuchsia-900: rgb(55, 0, 40);\n  --color-nsw-fuchsia-950: rgb(34, 0, 23);\n  --color-nsw-red-50: rgb(255, 248, 249);\n  --color-nsw-red-100: rgb(255, 242, 244);\n  --color-nsw-red-150: rgb(255, 236, 239);\n  --color-nsw-red-200: rgb(255, 230, 234);\n  --color-nsw-red-250: rgb(255, 219, 224);\n  --color-nsw-red-300: rgb(255, 207, 214);\n  --color-nsw-red-350: rgb(255, 196, 204);\n  --color-nsw-red-400: rgb(255, 184, 193);\n  --color-nsw-red-450: rgb(248, 151, 162);\n  --color-nsw-red-500: rgb(239, 117, 129);\n  --color-nsw-red-550: rgb(228, 79, 95);\n  --color-nsw-red-600: rgb(215, 21, 58);\n  --color-nsw-red-650: rgb(185, 14, 50);\n  --color-nsw-red-700: rgb(155, 7, 42);\n  --color-nsw-red-750: rgb(126, 3, 34);\n  --color-nsw-red-800: rgb(99, 0, 25);\n  --color-nsw-red-850: rgb(76, 0, 16);\n  --color-nsw-red-900: rgb(54, 0, 8);\n  --color-nsw-red-950: rgb(33, 0, 3);\n  --color-nsw-orange-50: rgb(255, 250, 246);\n  --color-nsw-orange-100: rgb(255, 246, 238);\n  --color-nsw-orange-150: rgb(254, 241, 231);\n  --color-nsw-orange-200: rgb(253, 237, 223);\n  --color-nsw-orange-250: rgb(254, 229, 206);\n  --color-nsw-orange-300: rgb(255, 221, 189);\n  --color-nsw-orange-350: rgb(255, 214, 171);\n  --color-nsw-orange-400: rgb(255, 206, 153);\n  --color-nsw-orange-450: rgb(253, 182, 120);\n  --color-nsw-orange-500: rgb(251, 157, 88);\n  --color-nsw-orange-550: rgb(247, 129, 57);\n  --color-nsw-orange-600: rgb(243, 99, 27);\n  --color-nsw-orange-650: rgb(219, 81, 21);\n  --color-nsw-orange-700: rgb(195, 63, 14);\n  --color-nsw-orange-750: rgb(171, 46, 6);\n  --color-nsw-orange-800: rgb(148, 27, 0);\n  --color-nsw-orange-850: rgb(115, 15, 0);\n  --color-nsw-orange-900: rgb(83, 4, 0);\n  --color-nsw-orange-950: rgb(53, 0, 0);\n  --color-nsw-yellow-50: rgb(255, 252, 240);\n  --color-nsw-yellow-100: rgb(255, 250, 229);\n  --color-nsw-yellow-150: rgb(255, 247, 218);\n  --color-nsw-yellow-200: rgb(255, 244, 207);\n  --color-nsw-yellow-250: rgb(255, 241, 194);\n  --color-nsw-yellow-300: rgb(254, 238, 181);\n  --color-nsw-yellow-350: rgb(254, 234, 168);\n  --color-nsw-yellow-400: rgb(253, 231, 154);\n  --color-nsw-yellow-450: rgb(251, 218, 128);\n  --color-nsw-yellow-500: rgb(250, 205, 99);\n  --color-nsw-yellow-550: rgb(250, 190, 66);\n  --color-nsw-yellow-600: rgb(250, 175, 5);\n  --color-nsw-yellow-650: rgb(212, 148, 3);\n  --color-nsw-yellow-700: rgb(175, 122, 1);\n  --color-nsw-yellow-750: rgb(139, 96, 0);\n  --color-nsw-yellow-800: rgb(105, 72, 0);\n  --color-nsw-yellow-850: rgb(80, 53, 0);\n  --color-nsw-yellow-900: rgb(57, 36, 0);\n  --color-nsw-yellow-950: rgb(34, 19, 0);\n  --color-nsw-brown-50: rgb(251, 248, 244);\n  --color-nsw-brown-100: rgb(246, 241, 234);\n  --color-nsw-brown-150: rgb(242, 234, 225);\n  --color-nsw-brown-200: rgb(237, 227, 215);\n  --color-nsw-brown-250: rgb(236, 222, 206);\n  --color-nsw-brown-300: rgb(234, 218, 198);\n  --color-nsw-brown-350: rgb(233, 213, 189);\n  --color-nsw-brown-400: rgb(232, 208, 181);\n  --color-nsw-brown-450: rgb(219, 191, 159);\n  --color-nsw-brown-500: rgb(207, 174, 137);\n  --color-nsw-brown-550: rgb(194, 157, 115);\n  --color-nsw-brown-600: rgb(182, 141, 93);\n  --color-nsw-brown-650: rgb(156, 118, 75);\n  --color-nsw-brown-700: rgb(130, 96, 58);\n  --color-nsw-brown-750: rgb(106, 75, 41);\n  --color-nsw-brown-800: rgb(82, 55, 25);\n  --color-nsw-brown-850: rgb(62, 40, 15);\n  --color-nsw-brown-900: rgb(43, 26, 7);\n  --color-nsw-brown-950: rgb(25, 13, 2);\n  --color-nsw-aboriginal-grey-50: rgb(249, 248, 247);\n  --color-nsw-aboriginal-grey-100: rgb(242, 241, 239);\n  --color-nsw-aboriginal-grey-150: rgb(235, 234, 232);\n  --color-nsw-aboriginal-grey-200: rgb(229, 227, 224);\n  --color-nsw-aboriginal-grey-250: rgb(223, 220, 216);\n  --color-nsw-aboriginal-grey-300: rgb(216, 212, 209);\n  --color-nsw-aboriginal-grey-350: rgb(210, 205, 201);\n  --color-nsw-aboriginal-grey-400: rgb(204, 198, 194);\n  --color-nsw-aboriginal-grey-450: rgb(173, 168, 165);\n  --color-nsw-aboriginal-grey-500: rgb(142, 139, 138);\n  --color-nsw-aboriginal-grey-550: rgb(113, 112, 111);\n  --color-nsw-aboriginal-grey-600: rgb(85, 85, 85);\n  --color-nsw-aboriginal-grey-650: rgb(75, 75, 75);\n  --color-nsw-aboriginal-grey-700: rgb(64, 64, 64);\n  --color-nsw-aboriginal-grey-750: rgb(55, 55, 55);\n  --color-nsw-aboriginal-grey-800: rgb(45, 45, 45);\n  --color-nsw-aboriginal-grey-850: rgb(32, 32, 32);\n  --color-nsw-aboriginal-grey-900: rgb(20, 20, 20);\n  --color-nsw-aboriginal-grey-950: rgb(9, 9, 9);\n  --color-nsw-aboriginal-red-50: rgb(255, 245, 245);\n  --color-nsw-aboriginal-red-100: rgb(255, 235, 235);\n  --color-nsw-aboriginal-red-150: rgb(254, 226, 226);\n  --color-nsw-aboriginal-red-200: rgb(253, 217, 217);\n  --color-nsw-aboriginal-red-250: rgb(253, 208, 208);\n  --color-nsw-aboriginal-red-300: rgb(252, 199, 198);\n  --color-nsw-aboriginal-red-350: rgb(252, 189, 189);\n  --color-nsw-aboriginal-red-400: rgb(251, 180, 179);\n  --color-nsw-aboriginal-red-450: rgb(247, 150, 147);\n  --color-nsw-aboriginal-red-500: rgb(242, 119, 113);\n  --color-nsw-aboriginal-red-550: rgb(234, 85, 76);\n  --color-nsw-aboriginal-red-600: rgb(225, 38, 28);\n  --color-nsw-aboriginal-red-650: rgb(205, 31, 23);\n  --color-nsw-aboriginal-red-700: rgb(186, 24, 17);\n  --color-nsw-aboriginal-red-750: rgb(167, 17, 11);\n  --color-nsw-aboriginal-red-800: rgb(149, 9, 6);\n  --color-nsw-aboriginal-red-850: rgb(116, 0, 1);\n  --color-nsw-aboriginal-red-900: rgb(84, 0, 0);\n  --color-nsw-aboriginal-red-950: rgb(54, 0, 0);\n  --color-nsw-aboriginal-orange-50: rgb(255, 244, 236);\n  --color-nsw-aboriginal-orange-100: rgb(254, 233, 221);\n  --color-nsw-aboriginal-orange-150: rgb(252, 223, 205);\n  --color-nsw-aboriginal-orange-200: rgb(249, 212, 190);\n  --color-nsw-aboriginal-orange-250: rgb(248, 202, 174);\n  --color-nsw-aboriginal-orange-300: rgb(247, 191, 158);\n  --color-nsw-aboriginal-orange-350: rgb(246, 181, 142);\n  --color-nsw-aboriginal-orange-400: rgb(244, 170, 125);\n  --color-nsw-aboriginal-orange-450: rgb(243, 154, 102);\n  --color-nsw-aboriginal-orange-500: rgb(242, 137, 79);\n  --color-nsw-aboriginal-orange-550: rgb(240, 119, 54);\n  --color-nsw-aboriginal-orange-600: rgb(238, 99, 20);\n  --color-nsw-aboriginal-orange-650: rgb(212, 83, 16);\n  --color-nsw-aboriginal-orange-700: rgb(186, 68, 10);\n  --color-nsw-aboriginal-orange-750: rgb(161, 53, 5);\n  --color-nsw-aboriginal-orange-800: rgb(136, 38, 0);\n  --color-nsw-aboriginal-orange-850: rgb(105, 25, 0);\n  --color-nsw-aboriginal-orange-900: rgb(76, 13, 0);\n  --color-nsw-aboriginal-orange-950: rgb(48, 3, 0);\n  --color-nsw-aboriginal-brown-50: rgb(252, 241, 233);\n  --color-nsw-aboriginal-brown-100: rgb(246, 227, 215);\n  --color-nsw-aboriginal-brown-150: rgb(239, 213, 196);\n  --color-nsw-aboriginal-brown-200: rgb(233, 200, 178);\n  --color-nsw-aboriginal-brown-250: rgb(228, 186, 159);\n  --color-nsw-aboriginal-brown-300: rgb(222, 173, 140);\n  --color-nsw-aboriginal-brown-350: rgb(217, 159, 120);\n  --color-nsw-aboriginal-brown-400: rgb(211, 145, 101);\n  --color-nsw-aboriginal-brown-450: rgb(198, 129, 88);\n  --color-nsw-aboriginal-brown-500: rgb(185, 114, 75);\n  --color-nsw-aboriginal-brown-550: rgb(171, 98, 62);\n  --color-nsw-aboriginal-brown-600: rgb(158, 83, 50);\n  --color-nsw-aboriginal-brown-650: rgb(139, 70, 39);\n  --color-nsw-aboriginal-brown-700: rgb(121, 57, 28);\n  --color-nsw-aboriginal-brown-750: rgb(103, 45, 16);\n  --color-nsw-aboriginal-brown-800: rgb(85, 33, 5);\n  --color-nsw-aboriginal-brown-850: rgb(65, 22, 2);\n  --color-nsw-aboriginal-brown-900: rgb(45, 12, 0);\n  --color-nsw-aboriginal-brown-950: rgb(27, 4, 0);\n  --color-nsw-aboriginal-yellow-50: rgb(255, 252, 238);\n  --color-nsw-aboriginal-yellow-100: rgb(255, 248, 224);\n  --color-nsw-aboriginal-yellow-150: rgb(255, 245, 211);\n  --color-nsw-aboriginal-yellow-200: rgb(255, 241, 197);\n  --color-nsw-aboriginal-yellow-250: rgb(255, 238, 183);\n  --color-nsw-aboriginal-yellow-300: rgb(255, 235, 169);\n  --color-nsw-aboriginal-yellow-350: rgb(254, 231, 155);\n  --color-nsw-aboriginal-yellow-400: rgb(254, 228, 140);\n  --color-nsw-aboriginal-yellow-450: rgb(254, 214, 117);\n  --color-nsw-aboriginal-yellow-500: rgb(254, 200, 93);\n  --color-nsw-aboriginal-yellow-550: rgb(254, 185, 68);\n  --color-nsw-aboriginal-yellow-600: rgb(254, 169, 39);\n  --color-nsw-aboriginal-yellow-650: rgb(223, 150, 28);\n  --color-nsw-aboriginal-yellow-700: rgb(193, 131, 18);\n  --color-nsw-aboriginal-yellow-750: rgb(165, 112, 7);\n  --color-nsw-aboriginal-yellow-800: rgb(137, 94, 0);\n  --color-nsw-aboriginal-yellow-850: rgb(105, 71, 0);\n  --color-nsw-aboriginal-yellow-900: rgb(76, 48, 0);\n  --color-nsw-aboriginal-yellow-950: rgb(47, 28, 0);\n  --color-nsw-aboriginal-green-50: rgb(245, 249, 242);\n  --color-nsw-aboriginal-green-100: rgb(236, 243, 231);\n  --color-nsw-aboriginal-green-150: rgb(227, 236, 220);\n  --color-nsw-aboriginal-green-200: rgb(218, 230, 209);\n  --color-nsw-aboriginal-green-250: rgb(209, 224, 198);\n  --color-nsw-aboriginal-green-300: rgb(199, 217, 186);\n  --color-nsw-aboriginal-green-350: rgb(190, 211, 175);\n  --color-nsw-aboriginal-green-400: rgb(181, 205, 164);\n  --color-nsw-aboriginal-green-450: rgb(165, 194, 142);\n  --color-nsw-aboriginal-green-500: rgb(149, 183, 119);\n  --color-nsw-aboriginal-green-550: rgb(134, 172, 96);\n  --color-nsw-aboriginal-green-600: rgb(120, 161, 70);\n  --color-nsw-aboriginal-green-650: rgb(95, 143, 68);\n  --color-nsw-aboriginal-green-700: rgb(73, 125, 64);\n  --color-nsw-aboriginal-green-750: rgb(52, 106, 59);\n  --color-nsw-aboriginal-green-800: rgb(33, 88, 52);\n  --color-nsw-aboriginal-green-850: rgb(21, 66, 37);\n  --color-nsw-aboriginal-green-900: rgb(10, 46, 23);\n  --color-nsw-aboriginal-green-950: rgb(2, 27, 10);\n  --color-nsw-aboriginal-blue-50: rgb(238, 248, 250);\n  --color-nsw-aboriginal-blue-100: rgb(223, 241, 244);\n  --color-nsw-aboriginal-blue-150: rgb(208, 233, 238);\n  --color-nsw-aboriginal-blue-200: rgb(193, 226, 232);\n  --color-nsw-aboriginal-blue-250: rgb(178, 219, 226);\n  --color-nsw-aboriginal-blue-300: rgb(163, 212, 220);\n  --color-nsw-aboriginal-blue-350: rgb(148, 204, 215);\n  --color-nsw-aboriginal-blue-400: rgb(132, 197, 209);\n  --color-nsw-aboriginal-blue-450: rgb(103, 174, 192);\n  --color-nsw-aboriginal-blue-500: rgb(74, 150, 176);\n  --color-nsw-aboriginal-blue-550: rgb(46, 127, 161);\n  --color-nsw-aboriginal-blue-600: rgb(13, 103, 145);\n  --color-nsw-aboriginal-blue-650: rgb(20, 87, 130);\n  --color-nsw-aboriginal-blue-700: rgb(23, 71, 115);\n  --color-nsw-aboriginal-blue-750: rgb(24, 55, 99);\n  --color-nsw-aboriginal-blue-800: rgb(22, 41, 83);\n  --color-nsw-aboriginal-blue-850: rgb(14, 29, 63);\n  --color-nsw-aboriginal-blue-900: rgb(6, 18, 44);\n  --color-nsw-aboriginal-blue-950: rgb(2, 7, 27);\n  --color-nsw-aboriginal-purple-50: rgb(250, 241, 248);\n  --color-nsw-aboriginal-purple-100: rgb(242, 229, 240);\n  --color-nsw-aboriginal-purple-150: rgb(235, 216, 232);\n  --color-nsw-aboriginal-purple-200: rgb(228, 204, 224);\n  --color-nsw-aboriginal-purple-250: rgb(221, 191, 216);\n  --color-nsw-aboriginal-purple-300: rgb(215, 179, 209);\n  --color-nsw-aboriginal-purple-350: rgb(208, 166, 201);\n  --color-nsw-aboriginal-purple-400: rgb(201, 154, 194);\n  --color-nsw-aboriginal-purple-450: rgb(189, 139, 182);\n  --color-nsw-aboriginal-purple-500: rgb(177, 124, 170);\n  --color-nsw-aboriginal-purple-550: rgb(166, 109, 159);\n  --color-nsw-aboriginal-purple-600: rgb(154, 94, 147);\n  --color-nsw-aboriginal-purple-650: rgb(132, 79, 126);\n  --color-nsw-aboriginal-purple-700: rgb(111, 65, 105);\n  --color-nsw-aboriginal-purple-750: rgb(91, 51, 85);\n  --color-nsw-aboriginal-purple-800: rgb(71, 38, 66);\n  --color-nsw-aboriginal-purple-850: rgb(53, 26, 49);\n  --color-nsw-aboriginal-purple-900: rgb(36, 16, 33);\n  --color-nsw-aboriginal-purple-950: rgb(21, 6, 18);\n}\n";
+var rgb_default6 = "@success-50: rgb(239, 249, 237);\n@success-100: rgb(224, 243, 222);\n@success-150: rgb(210, 236, 207);\n@success-200: rgb(196, 229, 192);\n@success-250: rgb(170, 214, 165);\n@success-300: rgb(143, 199, 138);\n@success-350: rgb(116, 183, 111);\n@success-400: rgb(88, 168, 84);\n@success-450: rgb(73, 161, 70);\n@success-500: rgb(57, 153, 54);\n@success-550: rgb(37, 146, 36);\n@success-600: rgb(0, 138, 7);\n@success-650: rgb(0, 114, 4);\n@success-700: rgb(0, 90, 2);\n@success-750: rgb(0, 68, 1);\n@success-800: rgb(0, 47, 0);\n@success-850: rgb(0, 34, 0);\n@success-900: rgb(0, 22, 0);\n@success-950: rgb(0, 11, 0);\n@warning-50: rgb(255, 243, 237);\n@warning-100: rgb(255, 232, 222);\n@warning-150: rgb(255, 221, 207);\n@warning-200: rgb(253, 210, 192);\n@warning-250: rgb(246, 189, 165);\n@warning-300: rgb(238, 168, 138);\n@warning-350: rgb(230, 147, 111);\n@warning-400: rgb(221, 125, 83);\n@warning-450: rgb(216, 114, 68);\n@warning-500: rgb(211, 103, 52);\n@warning-550: rgb(206, 92, 33);\n@warning-600: rgb(201, 80, 0);\n@warning-650: rgb(168, 63, 3);\n@warning-700: rgb(136, 47, 3);\n@warning-750: rgb(105, 32, 1);\n@warning-800: rgb(75, 18, 0);\n@warning-850: rgb(57, 10, 0);\n@warning-900: rgb(39, 4, 0);\n@warning-950: rgb(23, 1, 0);\n@danger-50: rgb(255, 240, 239);\n@danger-100: rgb(255, 226, 225);\n@danger-150: rgb(255, 212, 212);\n@danger-200: rgb(253, 198, 198);\n@danger-250: rgb(244, 172, 173);\n@danger-300: rgb(234, 146, 148);\n@danger-350: rgb(223, 120, 124);\n@danger-400: rgb(211, 93, 101);\n@danger-450: rgb(205, 78, 89);\n@danger-500: rgb(198, 63, 78);\n@danger-550: rgb(191, 44, 66);\n@danger-600: rgb(184, 18, 55);\n@danger-650: rgb(153, 11, 42);\n@danger-700: rgb(124, 6, 31);\n@danger-750: rgb(95, 2, 20);\n@danger-800: rgb(68, 0, 10);\n@danger-850: rgb(51, 0, 5);\n@danger-900: rgb(35, 0, 2);\n@danger-950: rgb(20, 0, 1);\n@info-50: rgb(233, 238, 247);\n@info-100: rgb(212, 221, 235);\n@info-150: rgb(192, 204, 224);\n@info-200: rgb(172, 187, 213);\n@info-250: rgb(150, 169, 204);\n@info-300: rgb(128, 152, 194);\n@info-350: rgb(107, 134, 184);\n@info-400: rgb(87, 117, 174);\n@info-450: rgb(77, 108, 169);\n@info-500: rgb(66, 100, 164);\n@info-550: rgb(56, 91, 158);\n@info-600: rgb(46, 82, 153);\n@info-650: rgb(35, 66, 127);\n@info-700: rgb(25, 51, 102);\n@info-750: rgb(16, 37, 79);\n@info-800: rgb(7, 23, 56);\n@info-850: rgb(4, 15, 42);\n@info-900: rgb(2, 7, 28);\n@info-950: rgb(0, 3, 15);\n";
 
-// src/tailwind/colors/themes/masterbrand/hex.css
+// src/scss/colors/global/hex.scss
 var hex_exports10 = {};
 __export(hex_exports10, {
-  default: () => hex_default8
+  default: () => hex_default7
 });
-var hex_default8 = "@theme inline {\n  --color-primary-50: #f0fbff;\n  --color-primary-100: #e4f6ff;\n  --color-primary-150: #d7f2fe;\n  --color-primary-200: #cbedfd;\n  --color-primary-250: #bceafe;\n  --color-primary-300: #ade7ff;\n  --color-primary-350: #9de3ff;\n  --color-primary-400: #8ce0ff;\n  --color-primary-450: #5ac9ff;\n  --color-primary-500: #26aeff;\n  --color-primary-550: #008fff;\n  --color-primary-600: #146cfd;\n  --color-primary-650: #0c5ad4;\n  --color-primary-700: #0548ad;\n  --color-primary-750: #023688;\n  --color-primary-800: #002664;\n  --color-primary-850: #001a4d;\n  --color-primary-900: #001037;\n  --color-primary-950: #000622;\n  --color-accent-50: #fff8f9;\n  --color-accent-100: #fff2f4;\n  --color-accent-150: #ffecef;\n  --color-accent-200: #ffe6ea;\n  --color-accent-250: #ffdbe0;\n  --color-accent-300: #ffcfd6;\n  --color-accent-350: #ffc4cc;\n  --color-accent-400: #ffb8c1;\n  --color-accent-450: #f897a2;\n  --color-accent-500: #ef7581;\n  --color-accent-550: #e44f5f;\n  --color-accent-600: #d7153a;\n  --color-accent-650: #b90e32;\n  --color-accent-700: #9b072a;\n  --color-accent-750: #7e0322;\n  --color-accent-800: #630019;\n  --color-accent-850: #4c0010;\n  --color-accent-900: #360008;\n  --color-accent-950: #210003;\n  --color-grey-50: #fafafa;\n  --color-grey-100: #f5f5f5;\n  --color-grey-150: #f0f0f0;\n  --color-grey-200: #ebebeb;\n  --color-grey-250: #e3e5e6;\n  --color-grey-300: #dcdfe0;\n  --color-grey-350: #d4d9db;\n  --color-grey-400: #cdd3d6;\n  --color-grey-450: #aab0b4;\n  --color-grey-500: #888f92;\n  --color-grey-550: #686f72;\n  --color-grey-600: #495054;\n  --color-grey-650: #3f4549;\n  --color-grey-700: #353b3f;\n  --color-grey-750: #2b3135;\n  --color-grey-800: #22272b;\n  --color-grey-850: #181c1f;\n  --color-grey-900: #0e1113;\n  --color-grey-950: #050709;\n}\n";
+var hex_default7 = "$nsw-grey-50: #fafafa;\n$nsw-grey-100: #f5f5f5;\n$nsw-grey-150: #f0f0f0;\n$nsw-grey-200: #ebebeb;\n$nsw-grey-250: #e3e5e6;\n$nsw-grey-300: #dcdfe0;\n$nsw-grey-350: #d4d9db;\n$nsw-grey-400: #cdd3d6;\n$nsw-grey-450: #aab0b4;\n$nsw-grey-500: #888f92;\n$nsw-grey-550: #686f72;\n$nsw-grey-600: #495054;\n$nsw-grey-650: #3f4549;\n$nsw-grey-700: #353b3f;\n$nsw-grey-750: #2b3135;\n$nsw-grey-800: #22272b;\n$nsw-grey-850: #181c1f;\n$nsw-grey-900: #0e1113;\n$nsw-grey-950: #050709;\n$nsw-green-50: #f5fff6;\n$nsw-green-100: #ecfdee;\n$nsw-green-150: #e4fce7;\n$nsw-green-200: #dbfadf;\n$nsw-green-250: #cff7d4;\n$nsw-green-300: #c2f4c9;\n$nsw-green-350: #b5f0be;\n$nsw-green-400: #a8edb3;\n$nsw-green-450: #8adc98;\n$nsw-green-500: #6acc7d;\n$nsw-green-550: #45bb62;\n$nsw-green-600: #00aa45;\n$nsw-green-650: #078e32;\n$nsw-green-700: #077320;\n$nsw-green-750: #03590f;\n$nsw-green-800: #004000;\n$nsw-green-850: #003000;\n$nsw-green-900: #002000;\n$nsw-green-950: #001100;\n$nsw-teal-50: #f2fbfa;\n$nsw-teal-100: #e7f7f5;\n$nsw-teal-150: #dcf2ef;\n$nsw-teal-200: #d1eeea;\n$nsw-teal-250: #c1eae7;\n$nsw-teal-300: #afe5e5;\n$nsw-teal-350: #9ee0e5;\n$nsw-teal-400: #8cdbe5;\n$nsw-teal-450: #75c4cf;\n$nsw-teal-500: #5eacb9;\n$nsw-teal-550: #4696a3;\n$nsw-teal-600: #2e808e;\n$nsw-teal-650: #256f7b;\n$nsw-teal-700: #1c5f69;\n$nsw-teal-750: #144e58;\n$nsw-teal-800: #0b3f47;\n$nsw-teal-850: #042f35;\n$nsw-teal-900: #011f24;\n$nsw-teal-950: #001114;\n$nsw-blue-50: #f0fbff;\n$nsw-blue-100: #e4f6ff;\n$nsw-blue-150: #d7f2fe;\n$nsw-blue-200: #cbedfd;\n$nsw-blue-250: #bceafe;\n$nsw-blue-300: #ade7ff;\n$nsw-blue-350: #9de3ff;\n$nsw-blue-400: #8ce0ff;\n$nsw-blue-450: #5ac9ff;\n$nsw-blue-500: #26aeff;\n$nsw-blue-550: #008fff;\n$nsw-blue-600: #146cfd;\n$nsw-blue-650: #0c5ad4;\n$nsw-blue-700: #0548ad;\n$nsw-blue-750: #023688;\n$nsw-blue-800: #002664;\n$nsw-blue-850: #001a4d;\n$nsw-blue-900: #001037;\n$nsw-blue-950: #000622;\n$nsw-purple-50: #f9f7ff;\n$nsw-purple-100: #f2f0ff;\n$nsw-purple-150: #ece8fe;\n$nsw-purple-200: #e6e1fd;\n$nsw-purple-250: #e0d9fe;\n$nsw-purple-300: #dad0fe;\n$nsw-purple-350: #d4c8ff;\n$nsw-purple-400: #cebfff;\n$nsw-purple-450: #baa6fc;\n$nsw-purple-500: #a68df9;\n$nsw-purple-550: #9372f5;\n$nsw-purple-600: #8055f1;\n$nsw-purple-650: #7243cf;\n$nsw-purple-700: #6432ae;\n$nsw-purple-750: #54218e;\n$nsw-purple-800: #441170;\n$nsw-purple-850: #330856;\n$nsw-purple-900: #23023e;\n$nsw-purple-950: #130027;\n$nsw-fuchsia-50: #fff6fd;\n$nsw-fuchsia-100: #ffeef9;\n$nsw-fuchsia-150: #fee6f6;\n$nsw-fuchsia-200: #fddef2;\n$nsw-fuchsia-250: #fbd4ef;\n$nsw-fuchsia-300: #f9c9eb;\n$nsw-fuchsia-350: #f7bfe9;\n$nsw-fuchsia-400: #f4b5e6;\n$nsw-fuchsia-450: #ef96da;\n$nsw-fuchsia-500: #e975cc;\n$nsw-fuchsia-550: #e150be;\n$nsw-fuchsia-600: #d912ae;\n$nsw-fuchsia-650: #bb0c94;\n$nsw-fuchsia-700: #9d067b;\n$nsw-fuchsia-750: #810264;\n$nsw-fuchsia-800: #65004d;\n$nsw-fuchsia-850: #4d003a;\n$nsw-fuchsia-900: #370028;\n$nsw-fuchsia-950: #220017;\n$nsw-red-50: #fff8f9;\n$nsw-red-100: #fff2f4;\n$nsw-red-150: #ffecef;\n$nsw-red-200: #ffe6ea;\n$nsw-red-250: #ffdbe0;\n$nsw-red-300: #ffcfd6;\n$nsw-red-350: #ffc4cc;\n$nsw-red-400: #ffb8c1;\n$nsw-red-450: #f897a2;\n$nsw-red-500: #ef7581;\n$nsw-red-550: #e44f5f;\n$nsw-red-600: #d7153a;\n$nsw-red-650: #b90e32;\n$nsw-red-700: #9b072a;\n$nsw-red-750: #7e0322;\n$nsw-red-800: #630019;\n$nsw-red-850: #4c0010;\n$nsw-red-900: #360008;\n$nsw-red-950: #210003;\n$nsw-orange-50: #fffaf6;\n$nsw-orange-100: #fff6ee;\n$nsw-orange-150: #fef1e7;\n$nsw-orange-200: #fdeddf;\n$nsw-orange-250: #fee5ce;\n$nsw-orange-300: #ffddbd;\n$nsw-orange-350: #ffd6ab;\n$nsw-orange-400: #ffce99;\n$nsw-orange-450: #fdb678;\n$nsw-orange-500: #fb9d58;\n$nsw-orange-550: #f78139;\n$nsw-orange-600: #f3631b;\n$nsw-orange-650: #db5115;\n$nsw-orange-700: #c33f0e;\n$nsw-orange-750: #ab2e06;\n$nsw-orange-800: #941b00;\n$nsw-orange-850: #730f00;\n$nsw-orange-900: #530400;\n$nsw-orange-950: #350000;\n$nsw-yellow-50: #fffcf0;\n$nsw-yellow-100: #fffae5;\n$nsw-yellow-150: #fff7da;\n$nsw-yellow-200: #fff4cf;\n$nsw-yellow-250: #fff1c2;\n$nsw-yellow-300: #feeeb5;\n$nsw-yellow-350: #feeaa8;\n$nsw-yellow-400: #fde79a;\n$nsw-yellow-450: #fbda80;\n$nsw-yellow-500: #facd63;\n$nsw-yellow-550: #fabe42;\n$nsw-yellow-600: #faaf05;\n$nsw-yellow-650: #d49403;\n$nsw-yellow-700: #af7a01;\n$nsw-yellow-750: #8b6000;\n$nsw-yellow-800: #694800;\n$nsw-yellow-850: #503500;\n$nsw-yellow-900: #392400;\n$nsw-yellow-950: #221300;\n$nsw-brown-50: #fbf8f4;\n$nsw-brown-100: #f6f1ea;\n$nsw-brown-150: #f2eae1;\n$nsw-brown-200: #ede3d7;\n$nsw-brown-250: #ecdece;\n$nsw-brown-300: #eadac6;\n$nsw-brown-350: #e9d5bd;\n$nsw-brown-400: #e8d0b5;\n$nsw-brown-450: #dbbf9f;\n$nsw-brown-500: #cfae89;\n$nsw-brown-550: #c29d73;\n$nsw-brown-600: #b68d5d;\n$nsw-brown-650: #9c764b;\n$nsw-brown-700: #82603a;\n$nsw-brown-750: #6a4b29;\n$nsw-brown-800: #523719;\n$nsw-brown-850: #3e280f;\n$nsw-brown-900: #2b1a07;\n$nsw-brown-950: #190d02;\n$nsw-aboriginal-grey-50: #f9f8f7;\n$nsw-aboriginal-grey-100: #f2f1ef;\n$nsw-aboriginal-grey-150: #ebeae8;\n$nsw-aboriginal-grey-200: #e5e3e0;\n$nsw-aboriginal-grey-250: #dfdcd8;\n$nsw-aboriginal-grey-300: #d8d4d1;\n$nsw-aboriginal-grey-350: #d2cdc9;\n$nsw-aboriginal-grey-400: #ccc6c2;\n$nsw-aboriginal-grey-450: #ada8a5;\n$nsw-aboriginal-grey-500: #8e8b8a;\n$nsw-aboriginal-grey-550: #71706f;\n$nsw-aboriginal-grey-600: #555555;\n$nsw-aboriginal-grey-650: #4b4b4b;\n$nsw-aboriginal-grey-700: #404040;\n$nsw-aboriginal-grey-750: #373737;\n$nsw-aboriginal-grey-800: #2d2d2d;\n$nsw-aboriginal-grey-850: #202020;\n$nsw-aboriginal-grey-900: #141414;\n$nsw-aboriginal-grey-950: #090909;\n$nsw-aboriginal-red-50: #fff5f5;\n$nsw-aboriginal-red-100: #ffebeb;\n$nsw-aboriginal-red-150: #fee2e2;\n$nsw-aboriginal-red-200: #fdd9d9;\n$nsw-aboriginal-red-250: #fdd0d0;\n$nsw-aboriginal-red-300: #fcc7c6;\n$nsw-aboriginal-red-350: #fcbdbd;\n$nsw-aboriginal-red-400: #fbb4b3;\n$nsw-aboriginal-red-450: #f79693;\n$nsw-aboriginal-red-500: #f27771;\n$nsw-aboriginal-red-550: #ea554c;\n$nsw-aboriginal-red-600: #e1261c;\n$nsw-aboriginal-red-650: #cd1f17;\n$nsw-aboriginal-red-700: #ba1811;\n$nsw-aboriginal-red-750: #a7110b;\n$nsw-aboriginal-red-800: #950906;\n$nsw-aboriginal-red-850: #740001;\n$nsw-aboriginal-red-900: #540000;\n$nsw-aboriginal-red-950: #360000;\n$nsw-aboriginal-orange-50: #fff4ec;\n$nsw-aboriginal-orange-100: #fee9dd;\n$nsw-aboriginal-orange-150: #fcdfcd;\n$nsw-aboriginal-orange-200: #f9d4be;\n$nsw-aboriginal-orange-250: #f8caae;\n$nsw-aboriginal-orange-300: #f7bf9e;\n$nsw-aboriginal-orange-350: #f6b58e;\n$nsw-aboriginal-orange-400: #f4aa7d;\n$nsw-aboriginal-orange-450: #f39a66;\n$nsw-aboriginal-orange-500: #f2894f;\n$nsw-aboriginal-orange-550: #f07736;\n$nsw-aboriginal-orange-600: #ee6314;\n$nsw-aboriginal-orange-650: #d45310;\n$nsw-aboriginal-orange-700: #ba440a;\n$nsw-aboriginal-orange-750: #a13505;\n$nsw-aboriginal-orange-800: #882600;\n$nsw-aboriginal-orange-850: #691900;\n$nsw-aboriginal-orange-900: #4c0d00;\n$nsw-aboriginal-orange-950: #300300;\n$nsw-aboriginal-brown-50: #fcf1e9;\n$nsw-aboriginal-brown-100: #f6e3d7;\n$nsw-aboriginal-brown-150: #efd5c4;\n$nsw-aboriginal-brown-200: #e9c8b2;\n$nsw-aboriginal-brown-250: #e4ba9f;\n$nsw-aboriginal-brown-300: #dead8c;\n$nsw-aboriginal-brown-350: #d99f78;\n$nsw-aboriginal-brown-400: #d39165;\n$nsw-aboriginal-brown-450: #c68158;\n$nsw-aboriginal-brown-500: #b9724b;\n$nsw-aboriginal-brown-550: #ab623e;\n$nsw-aboriginal-brown-600: #9e5332;\n$nsw-aboriginal-brown-650: #8b4627;\n$nsw-aboriginal-brown-700: #79391c;\n$nsw-aboriginal-brown-750: #672d10;\n$nsw-aboriginal-brown-800: #552105;\n$nsw-aboriginal-brown-850: #411602;\n$nsw-aboriginal-brown-900: #2d0c00;\n$nsw-aboriginal-brown-950: #1b0400;\n$nsw-aboriginal-yellow-50: #fffcee;\n$nsw-aboriginal-yellow-100: #fff8e0;\n$nsw-aboriginal-yellow-150: #fff5d3;\n$nsw-aboriginal-yellow-200: #fff1c5;\n$nsw-aboriginal-yellow-250: #ffeeb7;\n$nsw-aboriginal-yellow-300: #ffeba9;\n$nsw-aboriginal-yellow-350: #fee79b;\n$nsw-aboriginal-yellow-400: #fee48c;\n$nsw-aboriginal-yellow-450: #fed675;\n$nsw-aboriginal-yellow-500: #fec85d;\n$nsw-aboriginal-yellow-550: #feb944;\n$nsw-aboriginal-yellow-600: #fea927;\n$nsw-aboriginal-yellow-650: #df961c;\n$nsw-aboriginal-yellow-700: #c18312;\n$nsw-aboriginal-yellow-750: #a57007;\n$nsw-aboriginal-yellow-800: #895e00;\n$nsw-aboriginal-yellow-850: #694700;\n$nsw-aboriginal-yellow-900: #4c3000;\n$nsw-aboriginal-yellow-950: #2f1c00;\n$nsw-aboriginal-green-50: #f5f9f2;\n$nsw-aboriginal-green-100: #ecf3e7;\n$nsw-aboriginal-green-150: #e3ecdc;\n$nsw-aboriginal-green-200: #dae6d1;\n$nsw-aboriginal-green-250: #d1e0c6;\n$nsw-aboriginal-green-300: #c7d9ba;\n$nsw-aboriginal-green-350: #bed3af;\n$nsw-aboriginal-green-400: #b5cda4;\n$nsw-aboriginal-green-450: #a5c28e;\n$nsw-aboriginal-green-500: #95b777;\n$nsw-aboriginal-green-550: #86ac60;\n$nsw-aboriginal-green-600: #78a146;\n$nsw-aboriginal-green-650: #5f8f44;\n$nsw-aboriginal-green-700: #497d40;\n$nsw-aboriginal-green-750: #346a3b;\n$nsw-aboriginal-green-800: #215834;\n$nsw-aboriginal-green-850: #154225;\n$nsw-aboriginal-green-900: #0a2e17;\n$nsw-aboriginal-green-950: #021b0a;\n$nsw-aboriginal-blue-50: #eef8fa;\n$nsw-aboriginal-blue-100: #dff1f4;\n$nsw-aboriginal-blue-150: #d0e9ee;\n$nsw-aboriginal-blue-200: #c1e2e8;\n$nsw-aboriginal-blue-250: #b2dbe2;\n$nsw-aboriginal-blue-300: #a3d4dc;\n$nsw-aboriginal-blue-350: #94ccd7;\n$nsw-aboriginal-blue-400: #84c5d1;\n$nsw-aboriginal-blue-450: #67aec0;\n$nsw-aboriginal-blue-500: #4a96b0;\n$nsw-aboriginal-blue-550: #2e7fa1;\n$nsw-aboriginal-blue-600: #0d6791;\n$nsw-aboriginal-blue-650: #145782;\n$nsw-aboriginal-blue-700: #174773;\n$nsw-aboriginal-blue-750: #183763;\n$nsw-aboriginal-blue-800: #162953;\n$nsw-aboriginal-blue-850: #0e1d3f;\n$nsw-aboriginal-blue-900: #06122c;\n$nsw-aboriginal-blue-950: #02071b;\n$nsw-aboriginal-purple-50: #faf1f8;\n$nsw-aboriginal-purple-100: #f2e5f0;\n$nsw-aboriginal-purple-150: #ebd8e8;\n$nsw-aboriginal-purple-200: #e4cce0;\n$nsw-aboriginal-purple-250: #ddbfd8;\n$nsw-aboriginal-purple-300: #d7b3d1;\n$nsw-aboriginal-purple-350: #d0a6c9;\n$nsw-aboriginal-purple-400: #c99ac2;\n$nsw-aboriginal-purple-450: #bd8bb6;\n$nsw-aboriginal-purple-500: #b17caa;\n$nsw-aboriginal-purple-550: #a66d9f;\n$nsw-aboriginal-purple-600: #9a5e93;\n$nsw-aboriginal-purple-650: #844f7e;\n$nsw-aboriginal-purple-700: #6f4169;\n$nsw-aboriginal-purple-750: #5b3355;\n$nsw-aboriginal-purple-800: #472642;\n$nsw-aboriginal-purple-850: #351a31;\n$nsw-aboriginal-purple-900: #241021;\n$nsw-aboriginal-purple-950: #150612;\n";
 
-// src/tailwind/colors/themes/masterbrand/hsl.css
+// src/scss/colors/global/hsl.scss
 var hsl_exports10 = {};
 __export(hsl_exports10, {
-  default: () => hsl_default8
+  default: () => hsl_default7
 });
-var hsl_default8 = "@theme inline {\n  --color-primary-50: hsl(199.45, 100%, 97.34%);\n  --color-primary-100: hsl(199.38, 100%, 94.73%);\n  --color-primary-150: hsl(199.3, 95.85%, 92.09%);\n  --color-primary-200: hsl(199.2, 92.59%, 89.41%);\n  --color-primary-250: hsl(198.5, 96.87%, 86.75%);\n  --color-primary-300: hsl(197.76, 98.99%, 83.89%);\n  --color-primary-350: hsl(197, 99.87%, 80.82%);\n  --color-primary-400: hsl(196.17, 100%, 77.45%);\n  --color-primary-450: hsl(199.74, 99.83%, 67.57%);\n  --color-primary-500: hsl(202.52, 100%, 57.55%);\n  --color-primary-550: hsl(204.76, 100%, 46.97%);\n  --color-primary-600: hsl(217.34, 98.31%, 53.53%);\n  --color-primary-650: hsl(216.77, 89.43%, 43.98%);\n  --color-primary-700: hsl(216.29, 94.14%, 35%);\n  --color-primary-750: hsl(216.37, 97.67%, 26.93%);\n  --color-primary-800: hsl(217.2, 100%, 19.61%);\n  --color-primary-850: hsl(218.95, 100%, 14.93%);\n  --color-primary-900: hsl(222.31, 100%, 10.59%);\n  --color-primary-950: hsl(228.65, 100%, 6.6%);\n  --color-accent-50: hsl(350.85, 100%, 98.97%);\n  --color-accent-100: hsl(350.7, 100%, 97.7%);\n  --color-accent-150: hsl(350.55, 100%, 96.41%);\n  --color-accent-200: hsl(350.4, 100%, 95.1%);\n  --color-accent-250: hsl(350.92, 100%, 92.94%);\n  --color-accent-300: hsl(351.43, 100%, 90.72%);\n  --color-accent-350: hsl(351.92, 100%, 88.44%);\n  --color-accent-400: hsl(352.39, 100%, 86.08%);\n  --color-accent-450: hsl(353.39, 86.96%, 78.18%);\n  --color-accent-500: hsl(353.95, 78.84%, 69.69%);\n  --color-accent-550: hsl(353.52, 73.17%, 60.13%);\n  --color-accent-600: hsl(348.56, 82.2%, 46.27%);\n  --color-accent-650: hsl(347.26, 85.91%, 38.92%);\n  --color-accent-700: hsl(345.89, 91%, 31.81%);\n  --color-accent-750: hsl(345, 95.87%, 25.31%);\n  --color-accent-800: hsl(344.85, 100%, 19.41%);\n  --color-accent-850: hsl(346.11, 100%, 14.46%);\n  --color-accent-900: hsl(349.15, 100%, 10.03%);\n  --color-accent-950: hsl(352.16, 100%, 6.06%);\n  --color-grey-50: hsl(223.81, 0%, 98.03%);\n  --color-grey-100: hsl(223.81, 0%, 96.06%);\n  --color-grey-150: hsl(223.81, 0%, 94.11%);\n  --color-grey-200: hsl(223.81, 0%, 92.16%);\n  --color-grey-250: hsl(200.05, 4.31%, 89.64%);\n  --color-grey-300: hsl(200.03, 6.92%, 87.13%);\n  --color-grey-350: hsl(200.02, 8.65%, 84.64%);\n  --color-grey-400: hsl(200, 9.89%, 82.16%);\n  --color-grey-450: hsl(200.47, 6.03%, 68.52%);\n  --color-grey-500: hsl(200.94, 4.51%, 55.36%);\n  --color-grey-550: hsl(201.39, 4.91%, 42.76%);\n  --color-grey-600: hsl(201.82, 7.01%, 30.78%);\n  --color-grey-650: hsl(203.03, 7.74%, 26.71%);\n  --color-grey-700: hsl(204.24, 8.68%, 22.73%);\n  --color-grey-750: hsl(205.45, 9.93%, 18.85%);\n  --color-grey-800: hsl(206.67, 11.69%, 15.1%);\n  --color-grey-850: hsl(206.66, 13.37%, 10.7%);\n  --color-grey-900: hsl(206.64, 17.01%, 6.52%);\n  --color-grey-950: hsl(208.68, 23.47%, 2.8%);\n}\n";
+var hsl_default7 = "$nsw-grey-50: hsl(223.81, 0%, 98.03%);\n$nsw-grey-100: hsl(223.81, 0%, 96.06%);\n$nsw-grey-150: hsl(223.81, 0%, 94.11%);\n$nsw-grey-200: hsl(223.81, 0%, 92.16%);\n$nsw-grey-250: hsl(200.05, 4.31%, 89.64%);\n$nsw-grey-300: hsl(200.03, 6.92%, 87.13%);\n$nsw-grey-350: hsl(200.02, 8.65%, 84.64%);\n$nsw-grey-400: hsl(200, 9.89%, 82.16%);\n$nsw-grey-450: hsl(200.47, 6.03%, 68.52%);\n$nsw-grey-500: hsl(200.94, 4.51%, 55.36%);\n$nsw-grey-550: hsl(201.39, 4.91%, 42.76%);\n$nsw-grey-600: hsl(201.82, 7.01%, 30.78%);\n$nsw-grey-650: hsl(203.03, 7.74%, 26.71%);\n$nsw-grey-700: hsl(204.24, 8.68%, 22.73%);\n$nsw-grey-750: hsl(205.45, 9.93%, 18.85%);\n$nsw-grey-800: hsl(206.67, 11.69%, 15.1%);\n$nsw-grey-850: hsl(206.66, 13.37%, 10.7%);\n$nsw-grey-900: hsl(206.64, 17.01%, 6.52%);\n$nsw-grey-950: hsl(208.68, 23.47%, 2.8%);\n$nsw-green-50: hsl(126.92, 92.48%, 97.87%);\n$nsw-green-100: hsl(127.18, 81.76%, 95.93%);\n$nsw-green-150: hsl(127.45, 77.77%, 93.96%);\n$nsw-green-200: hsl(127.74, 75.61%, 91.96%);\n$nsw-green-250: hsl(128.12, 71.21%, 88.91%);\n$nsw-green-300: hsl(128.55, 68.62%, 85.81%);\n$nsw-green-350: hsl(129.02, 66.91%, 82.65%);\n$nsw-green-400: hsl(129.57, 65.71%, 79.41%);\n$nsw-green-450: hsl(130.48, 54.36%, 70.18%);\n$nsw-green-500: hsl(131.91, 48.76%, 60.63%);\n$nsw-green-550: hsl(134.54, 46.29%, 50.21%);\n$nsw-green-600: hsl(144.35, 100%, 33.33%);\n$nsw-green-650: hsl(139.28, 90.98%, 29.11%);\n$nsw-green-700: hsl(134.23, 89.08%, 23.77%);\n$nsw-green-750: hsl(127.99, 92.45%, 18.06%);\n$nsw-green-800: hsl(120, 100%, 12.55%);\n$nsw-green-850: hsl(120.41, 100%, 8.99%);\n$nsw-green-900: hsl(120.77, 100%, 5.85%);\n$nsw-green-950: hsl(121.17, 100%, 3.07%);\n$nsw-teal-50: hsl(171.22, 56.11%, 96.73%);\n$nsw-teal-100: hsl(171.38, 49.48%, 93.72%);\n$nsw-teal-150: hsl(171.55, 47.18%, 90.69%);\n$nsw-teal-200: hsl(171.72, 46.03%, 87.65%);\n$nsw-teal-250: hsl(176, 49.12%, 83.57%);\n$nsw-teal-300: hsl(180.06, 50.95%, 79.35%);\n$nsw-teal-350: hsl(183.68, 57.18%, 75.79%);\n$nsw-teal-400: hsl(186.74, 63.12%, 72.35%);\n$nsw-teal-450: hsl(187.41, 48.14%, 63.4%);\n$nsw-teal-500: hsl(188, 39.25%, 54.56%);\n$nsw-teal-550: hsl(188.48, 39.69%, 45.78%);\n$nsw-teal-600: hsl(188.75, 51.06%, 36.86%);\n$nsw-teal-650: hsl(188.61, 53.88%, 31.46%);\n$nsw-teal-700: hsl(188.45, 57.8%, 26.19%);\n$nsw-teal-750: hsl(188.26, 63.6%, 21.07%);\n$nsw-teal-800: hsl(188, 73.17%, 16.08%);\n$nsw-teal-850: hsl(187.99, 84.92%, 11.28%);\n$nsw-teal-900: hsl(188.56, 96.03%, 7.26%);\n$nsw-teal-950: hsl(190.58, 100%, 3.88%);\n$nsw-blue-50: hsl(199.45, 100%, 97.34%);\n$nsw-blue-100: hsl(199.38, 100%, 94.73%);\n$nsw-blue-150: hsl(199.3, 95.85%, 92.09%);\n$nsw-blue-200: hsl(199.2, 92.59%, 89.41%);\n$nsw-blue-250: hsl(198.5, 96.87%, 86.75%);\n$nsw-blue-300: hsl(197.76, 98.99%, 83.89%);\n$nsw-blue-350: hsl(197, 99.87%, 80.82%);\n$nsw-blue-400: hsl(196.17, 100%, 77.45%);\n$nsw-blue-450: hsl(199.74, 99.83%, 67.57%);\n$nsw-blue-500: hsl(202.52, 100%, 57.55%);\n$nsw-blue-550: hsl(204.76, 100%, 46.97%);\n$nsw-blue-600: hsl(217.34, 98.31%, 53.53%);\n$nsw-blue-650: hsl(216.77, 89.43%, 43.98%);\n$nsw-blue-700: hsl(216.29, 94.14%, 35%);\n$nsw-blue-750: hsl(216.37, 97.67%, 26.93%);\n$nsw-blue-800: hsl(217.2, 100%, 19.61%);\n$nsw-blue-850: hsl(218.95, 100%, 14.93%);\n$nsw-blue-900: hsl(222.31, 100%, 10.59%);\n$nsw-blue-950: hsl(228.65, 100%, 6.6%);\n$nsw-purple-50: hsl(250, 100%, 98.76%);\n$nsw-purple-100: hsl(250.23, 100%, 97.09%);\n$nsw-purple-150: hsl(250.47, 93.41%, 95.41%);\n$nsw-purple-200: hsl(250.71, 87.5%, 93.73%);\n$nsw-purple-250: hsl(251.53, 93.83%, 92.23%);\n$nsw-purple-300: hsl(252.35, 97.33%, 90.69%);\n$nsw-purple-350: hsl(253.2, 99.18%, 89.09%);\n$nsw-purple-400: hsl(254.06, 100%, 87.45%);\n$nsw-purple-450: hsl(253.9, 94.13%, 82.01%);\n$nsw-purple-500: hsl(254.11, 90.14%, 76.39%);\n$nsw-purple-550: hsl(254.88, 87.11%, 70.46%);\n$nsw-purple-600: hsl(256.54, 84.78%, 63.92%);\n$nsw-purple-650: hsl(260.32, 59.17%, 53.67%);\n$nsw-purple-700: hsl(264.12, 55.46%, 43.83%);\n$nsw-purple-750: hsl(268.02, 62.04%, 34.39%);\n$nsw-purple-800: hsl(272.21, 73.64%, 25.29%);\n$nsw-purple-850: hsl(272.75, 82.69%, 18.56%);\n$nsw-purple-900: hsl(272.45, 92.77%, 12.64%);\n$nsw-purple-950: hsl(269.95, 100%, 7.66%);\n$nsw-fuchsia-50: hsl(322.15, 100%, 98.49%);\n$nsw-fuchsia-100: hsl(321.87, 100%, 96.73%);\n$nsw-fuchsia-150: hsl(321.58, 93.98%, 94.94%);\n$nsw-fuchsia-200: hsl(321.29, 88.57%, 93.14%);\n$nsw-fuchsia-250: hsl(319.35, 84.42%, 90.79%);\n$nsw-fuchsia-300: hsl(317.38, 80.69%, 88.38%);\n$nsw-fuchsia-350: hsl(315.37, 77.28%, 85.89%);\n$nsw-fuchsia-400: hsl(313.33, 74.12%, 83.33%);\n$nsw-fuchsia-450: hsl(314.16, 73.33%, 76.26%);\n$nsw-fuchsia-500: hsl(314.67, 72.14%, 68.62%);\n$nsw-fuchsia-550: hsl(314.69, 71.13%, 59.86%);\n$nsw-fuchsia-600: hsl(312.96, 84.68%, 46.08%);\n$nsw-fuchsia-650: hsl(313.17, 88.39%, 38.86%);\n$nsw-fuchsia-700: hsl(313.38, 92.9%, 31.95%);\n$nsw-fuchsia-750: hsl(313.72, 96.8%, 25.62%);\n$nsw-fuchsia-800: hsl(314.26, 100%, 19.8%);\n$nsw-fuchsia-850: hsl(314.51, 100%, 14.68%);\n$nsw-fuchsia-900: hsl(315.33, 100%, 10.15%);\n$nsw-fuchsia-950: hsl(317.48, 100%, 6.11%);\n$nsw-red-50: hsl(350.85, 100%, 98.97%);\n$nsw-red-100: hsl(350.7, 100%, 97.7%);\n$nsw-red-150: hsl(350.55, 100%, 96.41%);\n$nsw-red-200: hsl(350.4, 100%, 95.1%);\n$nsw-red-250: hsl(350.92, 100%, 92.94%);\n$nsw-red-300: hsl(351.43, 100%, 90.72%);\n$nsw-red-350: hsl(351.92, 100%, 88.44%);\n$nsw-red-400: hsl(352.39, 100%, 86.08%);\n$nsw-red-450: hsl(353.39, 86.96%, 78.18%);\n$nsw-red-500: hsl(353.95, 78.84%, 69.69%);\n$nsw-red-550: hsl(353.52, 73.17%, 60.13%);\n$nsw-red-600: hsl(348.56, 82.2%, 46.27%);\n$nsw-red-650: hsl(347.26, 85.91%, 38.92%);\n$nsw-red-700: hsl(345.89, 91%, 31.81%);\n$nsw-red-750: hsl(345, 95.87%, 25.31%);\n$nsw-red-800: hsl(344.85, 100%, 19.41%);\n$nsw-red-850: hsl(346.11, 100%, 14.46%);\n$nsw-red-900: hsl(349.15, 100%, 10.03%);\n$nsw-red-950: hsl(352.16, 100%, 6.06%);\n$nsw-orange-50: hsl(27.87, 100%, 98.29%);\n$nsw-orange-100: hsl(27.91, 96.98%, 96.64%);\n$nsw-orange-150: hsl(27.96, 91.29%, 94.99%);\n$nsw-orange-200: hsl(28, 88.24%, 93.33%);\n$nsw-orange-250: hsl(28.75, 96.77%, 90.26%);\n$nsw-orange-300: hsl(29.52, 99.73%, 87.03%);\n$nsw-orange-350: hsl(30.32, 100%, 83.62%);\n$nsw-orange-400: hsl(31.18, 100%, 80%);\n$nsw-orange-450: hsl(28.25, 96.8%, 73.02%);\n$nsw-orange-500: hsl(25.48, 94.77%, 66.34%);\n$nsw-orange-550: hsl(22.75, 92.62%, 59.79%);\n$nsw-orange-600: hsl(20, 90%, 52.94%);\n$nsw-orange-650: hsl(18.26, 82.63%, 47%);\n$nsw-orange-700: hsl(16.43, 86.72%, 40.94%);\n$nsw-orange-750: hsl(14.39, 93.12%, 34.79%);\n$nsw-orange-800: hsl(10.95, 100%, 29.02%);\n$nsw-orange-850: hsl(9.09, 100%, 21.91%);\n$nsw-orange-900: hsl(5.29, 100%, 15.58%);\n$nsw-orange-950: hsl(2.01, 100%, 9.91%);\n$nsw-yellow-50: hsl(46.46, 100%, 97.31%);\n$nsw-yellow-100: hsl(46.38, 100%, 95.09%);\n$nsw-yellow-150: hsl(46.31, 100%, 92.85%);\n$nsw-yellow-200: hsl(46.25, 100%, 90.59%);\n$nsw-yellow-250: hsl(46.33, 98.56%, 88%);\n$nsw-yellow-300: hsl(46.42, 97.54%, 85.35%);\n$nsw-yellow-350: hsl(46.53, 96.75%, 82.62%);\n$nsw-yellow-400: hsl(46.67, 96.12%, 79.8%);\n$nsw-yellow-450: hsl(43.95, 94.26%, 74.28%);\n$nsw-yellow-500: hsl(41.83, 94.17%, 68.55%);\n$nsw-yellow-550: hsl(40.46, 94.83%, 62.04%);\n$nsw-yellow-600: hsl(41.63, 96.08%, 50%);\n$nsw-yellow-650: hsl(41.71, 97.59%, 41.99%);\n$nsw-yellow-700: hsl(41.69, 98.72%, 34.44%);\n$nsw-yellow-750: hsl(41.53, 99.5%, 27.31%);\n$nsw-yellow-800: hsl(41.14, 100%, 20.59%);\n$nsw-yellow-850: hsl(40.68, 100%, 15.12%);\n$nsw-yellow-900: hsl(39.24, 100%, 10.36%);\n$nsw-yellow-950: hsl(35.52, 100%, 6.19%);\n$nsw-brown-50: hsl(32.66, 48.5%, 97.07%);\n$nsw-brown-100: hsl(32.68, 41.61%, 94.25%);\n$nsw-brown-150: hsl(32.7, 39.2%, 91.43%);\n$nsw-brown-200: hsl(32.73, 37.93%, 88.63%);\n$nsw-brown-250: hsl(32.47, 43.13%, 86.7%);\n$nsw-brown-300: hsl(32.23, 47.04%, 84.79%);\n$nsw-brown-350: hsl(31.99, 50.11%, 82.88%);\n$nsw-brown-400: hsl(31.76, 52.58%, 80.98%);\n$nsw-brown-450: hsl(31.83, 46.02%, 74.17%);\n$nsw-brown-500: hsl(31.93, 42.16%, 67.4%);\n$nsw-brown-550: hsl(32.1, 39.63%, 60.67%);\n$nsw-brown-600: hsl(32.36, 37.87%, 53.92%);\n$nsw-brown-650: hsl(32.04, 34.94%, 45.3%);\n$nsw-brown-700: hsl(31.77, 38.54%, 36.92%);\n$nsw-brown-750: hsl(31.59, 43.99%, 28.81%);\n$nsw-brown-800: hsl(31.58, 53.27%, 20.98%);\n$nsw-brown-850: hsl(31.74, 60.03%, 15.18%);\n$nsw-brown-900: hsl(31.73, 72.62%, 9.74%);\n$nsw-brown-950: hsl(27.95, 86.11%, 5.27%);\n$nsw-aboriginal-grey-50: hsl(35.99, 11.4%, 97.16%);\n$nsw-aboriginal-grey-100: hsl(36, 9.67%, 94.37%);\n$nsw-aboriginal-grey-150: hsl(36, 9.08%, 91.59%);\n$nsw-aboriginal-grey-200: hsl(36, 8.77%, 88.82%);\n$nsw-aboriginal-grey-250: hsl(32.79, 8.86%, 86.06%);\n$nsw-aboriginal-grey-300: hsl(29.76, 8.93%, 83.34%);\n$nsw-aboriginal-grey-350: hsl(26.85, 8.96%, 80.67%);\n$nsw-aboriginal-grey-400: hsl(24, 8.93%, 78.04%);\n$nsw-aboriginal-grey-450: hsl(23.99, 4.23%, 66.26%);\n$nsw-aboriginal-grey-500: hsl(23.97, 2.04%, 54.85%);\n$nsw-aboriginal-grey-550: hsl(23.95, 1.01%, 43.86%);\n$nsw-aboriginal-grey-600: hsl(223.81, 0%, 33.33%);\n$nsw-aboriginal-grey-650: hsl(223.81, 0%, 29.26%);\n$nsw-aboriginal-grey-700: hsl(223.81, 0%, 25.29%);\n$nsw-aboriginal-grey-750: hsl(223.81, 0%, 21.41%);\n$nsw-aboriginal-grey-800: hsl(223.81, 0%, 17.65%);\n$nsw-aboriginal-grey-850: hsl(223.81, 0%, 12.7%);\n$nsw-aboriginal-grey-900: hsl(223.81, 0%, 8.01%);\n$nsw-aboriginal-grey-950: hsl(223.81, 0%, 3.63%);\n$nsw-aboriginal-red-50: hsl(0.45, 100%, 98.34%);\n$nsw-aboriginal-red-100: hsl(0.31, 100%, 96.31%);\n$nsw-aboriginal-red-150: hsl(0.16, 96.42%, 94.24%);\n$nsw-aboriginal-red-200: hsl(360, 90%, 92.16%);\n$nsw-aboriginal-red-250: hsl(0.23, 91.24%, 90.28%);\n$nsw-aboriginal-red-300: hsl(0.45, 91.36%, 88.35%);\n$nsw-aboriginal-red-350: hsl(0.65, 90.86%, 86.36%);\n$nsw-aboriginal-red-400: hsl(0.83, 90%, 84.31%);\n$nsw-aboriginal-red-450: hsl(1.95, 86.73%, 77.32%);\n$nsw-aboriginal-red-500: hsl(2.8, 82.84%, 69.6%);\n$nsw-aboriginal-red-550: hsl(3.23, 79.15%, 60.92%);\n$nsw-aboriginal-red-600: hsl(3.05, 77.87%, 49.61%);\n$nsw-aboriginal-red-650: hsl(2.8, 80.26%, 44.7%);\n$nsw-aboriginal-red-700: hsl(2.5, 83.29%, 39.86%);\n$nsw-aboriginal-red-750: hsl(2.1, 87.31%, 35.06%);\n$nsw-aboriginal-red-800: hsl(1.26, 92.26%, 30.39%);\n$nsw-aboriginal-red-850: hsl(359.74, 99.82%, 22.68%);\n$nsw-aboriginal-red-900: hsl(358.63, 100%, 15.69%);\n$nsw-aboriginal-red-950: hsl(357.82, 100%, 9.76%);\n$nsw-aboriginal-orange-50: hsl(22.11, 100%, 96.57%);\n$nsw-aboriginal-orange-100: hsl(22.19, 93.98%, 93.1%);\n$nsw-aboriginal-orange-150: hsl(22.28, 87.05%, 89.61%);\n$nsw-aboriginal-orange-200: hsl(22.37, 83.1%, 86.08%);\n$nsw-aboriginal-orange-250: hsl(22.42, 84.33%, 82.75%);\n$nsw-aboriginal-orange-300: hsl(22.48, 84.74%, 79.37%);\n$nsw-aboriginal-orange-350: hsl(22.56, 84.7%, 75.91%);\n$nsw-aboriginal-orange-400: hsl(22.69, 84.4%, 72.35%);\n$nsw-aboriginal-orange-450: hsl(21.88, 85.61%, 67.77%);\n$nsw-aboriginal-orange-500: hsl(21.18, 86.15%, 63.01%);\n$nsw-aboriginal-orange-550: hsl(20.78, 86.28%, 57.76%);\n$nsw-aboriginal-orange-600: hsl(21.74, 86.51%, 50.59%);\n$nsw-aboriginal-orange-650: hsl(20.61, 86.17%, 44.61%);\n$nsw-aboriginal-orange-700: hsl(19.56, 89.48%, 38.49%);\n$nsw-aboriginal-orange-750: hsl(18.46, 94.45%, 32.41%);\n$nsw-aboriginal-orange-800: hsl(16.76, 100%, 26.67%);\n$nsw-aboriginal-orange-850: hsl(15.47, 100%, 20.07%);\n$nsw-aboriginal-orange-900: hsl(12.18, 100%, 14.2%);\n$nsw-aboriginal-orange-950: hsl(6.72, 100%, 8.94%);\n$nsw-aboriginal-brown-50: hsl(23.71, 74.46%, 95.12%);\n$nsw-aboriginal-brown-100: hsl(23.8, 62.46%, 90.28%);\n$nsw-aboriginal-brown-150: hsl(23.89, 58.05%, 85.44%);\n$nsw-aboriginal-brown-200: hsl(24, 55.56%, 80.59%);\n$nsw-aboriginal-brown-250: hsl(23.94, 55.92%, 75.8%);\n$nsw-aboriginal-brown-300: hsl(23.91, 55.95%, 70.98%);\n$nsw-aboriginal-brown-350: hsl(23.92, 55.79%, 66.12%);\n$nsw-aboriginal-brown-400: hsl(24, 55.56%, 61.18%);\n$nsw-aboriginal-brown-450: hsl(22.67, 49.07%, 55.96%);\n$nsw-aboriginal-brown-500: hsl(21.29, 43.84%, 50.82%);\n$nsw-aboriginal-brown-550: hsl(19.86, 46.79%, 45.77%);\n$nsw-aboriginal-brown-600: hsl(18.33, 51.92%, 40.78%);\n$nsw-aboriginal-brown-650: hsl(18.72, 56.45%, 34.86%);\n$nsw-aboriginal-brown-700: hsl(19.21, 62.79%, 29.04%);\n$nsw-aboriginal-brown-750: hsl(19.97, 72.56%, 23.3%);\n$nsw-aboriginal-brown-800: hsl(21, 88.89%, 17.65%);\n$nsw-aboriginal-brown-850: hsl(19.73, 95.19%, 12.97%);\n$nsw-aboriginal-brown-900: hsl(16.27, 100%, 8.82%);\n$nsw-aboriginal-brown-950: hsl(10.45, 100%, 5.14%);\n$nsw-aboriginal-yellow-50: hsl(45.72, 100%, 96.78%);\n$nsw-aboriginal-yellow-100: hsl(45.63, 100%, 94.1%);\n$nsw-aboriginal-yellow-150: hsl(45.57, 100%, 91.38%);\n$nsw-aboriginal-yellow-200: hsl(45.52, 100%, 88.63%);\n$nsw-aboriginal-yellow-250: hsl(45.68, 99.59%, 85.94%);\n$nsw-aboriginal-yellow-300: hsl(45.86, 99.15%, 83.16%);\n$nsw-aboriginal-yellow-350: hsl(46.07, 98.71%, 80.28%);\n$nsw-aboriginal-yellow-400: hsl(46.32, 98.28%, 77.25%);\n$nsw-aboriginal-yellow-450: hsl(42.77, 97.91%, 72.64%);\n$nsw-aboriginal-yellow-500: hsl(39.92, 98.26%, 68.02%);\n$nsw-aboriginal-yellow-550: hsl(37.69, 98.75%, 63.17%);\n$nsw-aboriginal-yellow-600: hsl(36.28, 99.08%, 57.45%);\n$nsw-aboriginal-yellow-650: hsl(37.45, 77.64%, 49.26%);\n$nsw-aboriginal-yellow-700: hsl(38.69, 83.35%, 41.35%);\n$nsw-aboriginal-yellow-750: hsl(40.07, 91.76%, 33.66%);\n$nsw-aboriginal-yellow-800: hsl(41.17, 100%, 26.86%);\n$nsw-aboriginal-yellow-850: hsl(41.1, 100%, 19.64%);\n$nsw-aboriginal-yellow-900: hsl(40.13, 100%, 13.55%);\n$nsw-aboriginal-yellow-950: hsl(37.35, 100%, 8.33%);\n$nsw-aboriginal-green-50: hsl(94.61, 37.03%, 96.34%);\n$nsw-aboriginal-green-100: hsl(94.51, 32.21%, 92.9%);\n$nsw-aboriginal-green-150: hsl(94.4, 30.49%, 89.48%);\n$nsw-aboriginal-green-200: hsl(94.29, 29.58%, 86.08%);\n$nsw-aboriginal-green-250: hsl(94.5, 29.43%, 82.62%);\n$nsw-aboriginal-green-300: hsl(94.72, 29.3%, 79.18%);\n$nsw-aboriginal-green-350: hsl(94.92, 29.18%, 75.76%);\n$nsw-aboriginal-green-400: hsl(95.12, 29.08%, 72.35%);\n$nsw-aboriginal-green-450: hsl(93.46, 30.08%, 65.88%);\n$nsw-aboriginal-green-500: hsl(91.63, 30.85%, 59.29%);\n$nsw-aboriginal-green-550: hsl(89.55, 31.61%, 52.5%);\n$nsw-aboriginal-green-600: hsl(87.03, 39.39%, 45.29%);\n$nsw-aboriginal-green-650: hsl(97.99, 35.67%, 41.28%);\n$nsw-aboriginal-green-700: hsl(111.48, 32.13%, 36.95%);\n$nsw-aboriginal-green-750: hsl(127.58, 34.41%, 30.98%);\n$nsw-aboriginal-green-800: hsl(140.73, 45.45%, 23.73%);\n$nsw-aboriginal-green-850: hsl(141.23, 51.5%, 17.2%);\n$nsw-aboriginal-green-900: hsl(142.1, 64.01%, 11%);\n$nsw-aboriginal-green-950: hsl(139.39, 83.32%, 5.75%);\n$nsw-aboriginal-blue-50: hsl(189.24, 57.11%, 95.67%);\n$nsw-aboriginal-blue-100: hsl(189.24, 49.64%, 91.57%);\n$nsw-aboriginal-blue-150: hsl(189.24, 47.11%, 87.45%);\n$nsw-aboriginal-blue-200: hsl(189.23, 45.88%, 83.33%);\n$nsw-aboriginal-blue-250: hsl(189.29, 45.53%, 79.28%);\n$nsw-aboriginal-blue-300: hsl(189.34, 45.39%, 75.19%);\n$nsw-aboriginal-blue-350: hsl(189.36, 45.41%, 71.06%);\n$nsw-aboriginal-blue-400: hsl(189.35, 45.56%, 66.86%);\n$nsw-aboriginal-blue-450: hsl(192.66, 41.82%, 57.86%);\n$nsw-aboriginal-blue-500: hsl(195.5, 40.89%, 49.12%);\n$nsw-aboriginal-blue-550: hsl(197.85, 55.74%, 40.47%);\n$nsw-aboriginal-blue-600: hsl(199.09, 83.54%, 30.98%);\n$nsw-aboriginal-blue-650: hsl(203.84, 73.26%, 29.5%);\n$nsw-aboriginal-blue-700: hsl(208.96, 66.46%, 27.09%);\n$nsw-aboriginal-blue-750: hsl(214.68, 61.55%, 24.07%);\n$nsw-aboriginal-blue-800: hsl(221.31, 58.1%, 20.59%);\n$nsw-aboriginal-blue-850: hsl(221.4, 64.27%, 15.08%);\n$nsw-aboriginal-blue-900: hsl(222.04, 74.71%, 9.95%);\n$nsw-aboriginal-blue-950: hsl(227.14, 84.88%, 5.65%);\n$nsw-aboriginal-purple-50: hsl(310.68, 42.61%, 96.28%);\n$nsw-aboriginal-purple-100: hsl(310.46, 34.93%, 92.41%);\n$nsw-aboriginal-purple-150: hsl(310.24, 32.24%, 88.56%);\n$nsw-aboriginal-purple-200: hsl(310, 30.77%, 84.71%);\n$nsw-aboriginal-purple-250: hsl(309.75, 30.82%, 80.93%);\n$nsw-aboriginal-purple-300: hsl(309.5, 30.72%, 77.16%);\n$nsw-aboriginal-purple-350: hsl(309.22, 30.55%, 73.39%);\n$nsw-aboriginal-purple-400: hsl(308.94, 30.32%, 69.61%);\n$nsw-aboriginal-purple-450: hsl(308.5, 27.72%, 64.31%);\n$nsw-aboriginal-purple-500: hsl(308.03, 25.74%, 59.05%);\n$nsw-aboriginal-purple-550: hsl(307.53, 24.18%, 53.83%);\n$nsw-aboriginal-purple-600: hsl(307, 24.19%, 48.63%);\n$nsw-aboriginal-purple-650: hsl(307.56, 25.08%, 41.48%);\n$nsw-aboriginal-purple-700: hsl(308.1, 26.24%, 34.55%);\n$nsw-aboriginal-purple-750: hsl(308.61, 27.86%, 27.83%);\n$nsw-aboriginal-purple-800: hsl(309.09, 30.28%, 21.37%);\n$nsw-aboriginal-purple-850: hsl(308.99, 33.57%, 15.63%);\n$nsw-aboriginal-purple-900: hsl(308.83, 40.05%, 10.18%);\n$nsw-aboriginal-purple-950: hsl(308.92, 54.82%, 5.21%);\n";
 
-// src/tailwind/colors/themes/masterbrand/oklch.css
+// src/scss/colors/global/oklch.scss
 var oklch_exports10 = {};
 __export(oklch_exports10, {
-  default: () => oklch_default8
+  default: () => oklch_default7
 });
-var oklch_default8 = "@theme inline {\n  --color-primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --color-primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --color-primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --color-primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --color-primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --color-primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --color-primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --color-primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n  --color-primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --color-primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --color-primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --color-primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --color-primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --color-primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --color-primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --color-primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --color-primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --color-primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --color-primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --color-accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n  --color-accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n  --color-accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n  --color-accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n  --color-accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n  --color-accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n  --color-accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n  --color-accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n  --color-accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --color-accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --color-accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --color-accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --color-accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --color-accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --color-accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --color-accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n  --color-accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n  --color-accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n  --color-accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n  --color-grey-50: oklch(0.9850175274112574 0 0);\n  --color-grey-100: oklch(0.9700350548225147 0 0);\n  --color-grey-150: oklch(0.9550525822337722 0 0);\n  --color-grey-200: oklch(0.9400701096450296 0 0);\n  --color-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n  --color-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n  --color-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n  --color-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n  --color-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n  --color-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n  --color-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n  --color-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n  --color-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n  --color-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n  --color-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n  --color-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n  --color-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n  --color-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n  --color-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n}\n";
+var oklch_default7 = "$nsw-grey-50: oklch(0.9850175274112574 0 0);\n$nsw-grey-100: oklch(0.9700350548225147 0 0);\n$nsw-grey-150: oklch(0.9550525822337722 0 0);\n$nsw-grey-200: oklch(0.9400701096450296 0 0);\n$nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n$nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n$nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n$nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n$nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n$nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n$nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n$nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n$nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n$nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n$nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n$nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n$nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n$nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n$nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n$nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);\n$nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);\n$nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);\n$nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);\n$nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);\n$nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);\n$nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);\n$nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);\n$nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);\n$nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);\n$nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);\n$nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);\n$nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);\n$nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);\n$nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);\n$nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);\n$nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);\n$nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);\n$nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);\n$nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);\n$nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);\n$nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);\n$nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);\n$nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);\n$nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);\n$nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);\n$nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);\n$nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);\n$nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);\n$nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);\n$nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);\n$nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);\n$nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);\n$nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);\n$nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);\n$nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);\n$nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);\n$nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);\n$nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n$nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n$nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n$nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n$nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n$nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n$nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n$nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n$nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n$nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n$nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n$nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n$nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n$nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n$nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n$nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n$nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n$nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n$nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n$nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);\n$nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);\n$nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);\n$nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);\n$nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);\n$nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);\n$nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);\n$nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);\n$nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);\n$nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);\n$nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);\n$nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);\n$nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);\n$nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);\n$nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);\n$nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);\n$nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);\n$nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);\n$nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);\n$nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);\n$nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);\n$nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);\n$nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);\n$nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);\n$nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);\n$nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);\n$nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);\n$nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);\n$nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);\n$nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);\n$nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);\n$nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);\n$nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);\n$nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);\n$nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);\n$nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);\n$nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);\n$nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);\n$nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n$nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n$nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n$nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n$nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n$nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n$nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n$nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n$nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n$nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n$nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n$nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n$nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n$nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n$nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n$nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n$nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n$nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n$nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n$nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);\n$nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);\n$nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);\n$nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);\n$nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);\n$nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);\n$nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);\n$nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);\n$nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);\n$nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);\n$nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);\n$nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);\n$nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);\n$nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);\n$nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);\n$nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);\n$nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);\n$nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);\n$nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);\n$nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);\n$nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);\n$nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);\n$nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);\n$nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);\n$nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);\n$nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);\n$nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);\n$nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);\n$nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);\n$nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);\n$nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);\n$nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);\n$nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);\n$nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);\n$nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);\n$nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);\n$nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);\n$nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);\n$nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);\n$nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);\n$nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);\n$nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);\n$nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);\n$nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);\n$nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);\n$nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);\n$nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);\n$nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);\n$nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);\n$nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);\n$nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);\n$nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);\n$nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);\n$nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);\n$nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);\n$nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);\n$nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);\n$nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);\n$nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);\n$nsw-aboriginal-grey-150: oklch(0.9374064828896956 0.0035614326327228986 78.29695339492076);\n$nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);\n$nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);\n$nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);\n$nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);\n$nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);\n$nsw-aboriginal-grey-450: oklch(0.7350703829754051 0.006541023270606863 56.288635534075496);\n$nsw-aboriginal-grey-500: oklch(0.6398913199703631 0.004360682180404575 56.288635534075496);\n$nsw-aboriginal-grey-550: oklch(0.544712256965321 0.0021803410902022876 56.288635534075496);\n$nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 none);\n$nsw-aboriginal-grey-650: oklch(0.4114406365077532 0 none);\n$nsw-aboriginal-grey-700: oklch(0.3733480790552275 0 none);\n$nsw-aboriginal-grey-750: oklch(0.3352555216027018 0 none);\n$nsw-aboriginal-grey-800: oklch(0.29716296415017607 0 none);\n$nsw-aboriginal-grey-850: oklch(0.24515944542389526 0 none);\n$nsw-aboriginal-grey-900: oklch(0.19315592669761444 0 none);\n$nsw-aboriginal-grey-950: oklch(0.14115240797133363 0 none);\n$nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);\n$nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);\n$nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);\n$nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);\n$nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);\n$nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);\n$nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);\n$nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);\n$nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);\n$nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);\n$nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);\n$nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);\n$nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);\n$nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);\n$nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);\n$nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);\n$nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);\n$nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);\n$nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);\n$nsw-aboriginal-orange-50: oklch(0.9738855126989008 0.016602591530904584 52.55546216454561);\n$nsw-aboriginal-orange-100: oklch(0.9477710253978014 0.028096693359992375 52.55546216454561);\n$nsw-aboriginal-orange-150: oklch(0.9216565380967021 0.039590795189080166 52.55546216454561);\n$nsw-aboriginal-orange-200: oklch(0.8955420507956029 0.05108489701816796 52.55546216454561);\n$nsw-aboriginal-orange-250: oklch(0.8714459985514821 0.06477537243882539 52.40983339193463);\n$nsw-aboriginal-orange-300: oklch(0.8473499463073613 0.07846584785948284 52.264204619323664);\n$nsw-aboriginal-orange-350: oklch(0.8232538940632406 0.09215632328014028 52.11857584671269);\n$nsw-aboriginal-orange-400: oklch(0.7991578418191198 0.10584679870079772 51.97294707410171);\n$nsw-aboriginal-orange-450: oklch(0.7660019575057643 0.12652886278666134 49.87887684512948);\n$nsw-aboriginal-orange-500: oklch(0.7328460731924087 0.14721092687252496 47.784806616157255);\n$nsw-aboriginal-orange-550: oklch(0.6996901888790532 0.16789299095838855 45.69073638718503);\n$nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);\n$nsw-aboriginal-orange-650: oklch(0.6048689295059245 0.17619193861850896 42.06662366880586);\n$nsw-aboriginal-orange-700: oklch(0.5432035544461513 0.16380882219276577 40.53658117939892);\n$nsw-aboriginal-orange-750: oklch(0.48153817938637805 0.15142570576702258 39.00653868999199);\n$nsw-aboriginal-orange-800: oklch(0.41987280432660484 0.13904258934127936 37.47649620058505);\n$nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);\n$nsw-aboriginal-orange-900: oklch(0.27291732281229314 0.09732981253889555 37.47649620058505);\n$nsw-aboriginal-orange-950: oklch(0.1994395820551373 0.07647342413770365 37.47649620058505);\n$nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);\n$nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);\n$nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);\n$nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);\n$nsw-aboriginal-brown-250: oklch(0.819495130372929 0.060854957675237686 55.274819963495716);\n$nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);\n$nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);\n$nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);\n$nsw-aboriginal-brown-450: oklch(0.6658642886991106 0.10220482966257746 51.472089235271014);\n$nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);\n$nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);\n$nsw-aboriginal-brown-600: oklch(0.5259341610634539 0.10991146182440867 43.512391998616614);\n$nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);\n$nsw-aboriginal-brown-700: oklch(0.42307648380765683 0.09792470862615782 44.09883922975184);\n$nsw-aboriginal-brown-750: oklch(0.37164764517975835 0.09193133202703241 44.39206284531945);\n$nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);\n$nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);\n$nsw-aboriginal-brown-900: oklch(0.20814222425870887 0.06015656879953489 44.68528646088706);\n$nsw-aboriginal-brown-950: oklch(0.15210393311213338 0.04726587548534884 44.68528646088706);\n$nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);\n$nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);\n$nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);\n$nsw-aboriginal-yellow-200: oklch(0.9583504843687841 0.05877873378798942 92.48002960723814);\n$nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);\n$nsw-aboriginal-yellow-300: oklch(0.9399189898584743 0.08519720131855335 92.98100357955929);\n$nsw-aboriginal-yellow-350: oklch(0.9307032426033194 0.09840643508383531 93.23149056571987);\n$nsw-aboriginal-yellow-400: oklch(0.9214874953481644 0.11161566884911728 93.48197755188043);\n$nsw-aboriginal-yellow-450: oklch(0.8910195189839808 0.12436290150788638 87.85568397462671);\n$nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);\n$nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);\n$nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);\n$nsw-aboriginal-yellow-650: oklch(0.7283788119804733 0.14880860016855085 72.64225880919277);\n$nsw-aboriginal-yellow-700: oklch(0.6571420340695165 0.13501260085290803 74.30771437551996);\n$nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);\n$nsw-aboriginal-yellow-800: oklch(0.5146684782476031 0.10742060222162236 77.63862550817437);\n$nsw-aboriginal-yellow-850: oklch(0.42460149455427254 0.09130751188837902 77.63862550817437);\n$nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);\n$nsw-aboriginal-yellow-950: oklch(0.24446752716761147 0.059081331221892304 77.63862550817437);\n$nsw-aboriginal-green-50: oklch(0.9775400515432829 0.010033373009012674 131.56364967590204);\n$nsw-aboriginal-green-100: oklch(0.9550801030865659 0.016979554322944526 131.56364967590204);\n$nsw-aboriginal-green-150: oklch(0.9326201546298487 0.023925735636876375 131.56364967590204);\n$nsw-aboriginal-green-200: oklch(0.9101602061731316 0.030871916950808227 131.56364967590204);\n$nsw-aboriginal-green-250: oklch(0.8874934999312177 0.03857982981011093 131.78279512830795);\n$nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);\n$nsw-aboriginal-green-350: oklch(0.8421600874473898 0.053995655528716345 132.22108603311983);\n$nsw-aboriginal-green-400: oklch(0.8194933812054759 0.061703568388019055 132.44023148552574);\n$nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);\n$nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);\n$nsw-aboriginal-green-550: oklch(0.6989797391259933 0.11210775194181792 130.29024651396378);\n$nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);\n$nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);\n$nsw-aboriginal-green-700: oklch(0.5360283164657826 0.10630157240635738 140.91243379535533);\n$nsw-aboriginal-green-750: oklch(0.47463821214892454 0.09499778537966062 146.58185826464475);\n$nsw-aboriginal-green-800: oklch(0.41324810783206634 0.08369399835296387 152.25128273393418);\n$nsw-aboriginal-green-850: oklch(0.3409296889614547 0.07113989860001929 152.25128273393418);\n$nsw-aboriginal-green-900: oklch(0.2686112700908431 0.05858579884707471 152.25128273393418);\n$nsw-aboriginal-green-950: oklch(0.1962928512202315 0.04603169909413013 152.25128273393418);\n$nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);\n$nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);\n$nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);\n$nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);\n$nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);\n$nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);\n$nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);\n$nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);\n$nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);\n$nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);\n$nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);\n$nsw-aboriginal-blue-600: oklch(0.48681410550334053 0.10128236457958428 236.48205409186096);\n$nsw-aboriginal-blue-650: oklch(0.43774688628471914 0.09607362828959434 243.31473157010598);\n$nsw-aboriginal-blue-700: oklch(0.3886796670660978 0.09086489199960439 250.147409048351);\n$nsw-aboriginal-blue-750: oklch(0.3396124478474764 0.08565615570961443 256.980086526596);\n$nsw-aboriginal-blue-800: oklch(0.290545228628855 0.0804474194196245 263.81276400484103);\n$nsw-aboriginal-blue-850: oklch(0.23969981361880538 0.06838030650668082 263.81276400484103);\n$nsw-aboriginal-blue-900: oklch(0.18885439860875575 0.05631319359373715 263.81276400484103);\n$nsw-aboriginal-blue-950: oklch(0.13800898359870611 0.04424608068079347 263.81276400484103);\n$nsw-aboriginal-purple-50: oklch(0.9677519235816936 0.01225423399018933 331.39469318233586);\n$nsw-aboriginal-purple-100: oklch(0.9355038471633873 0.020737934444935786 331.39469318233586);\n$nsw-aboriginal-purple-150: oklch(0.903255770745081 0.02922163489968224 331.39469318233586);\n$nsw-aboriginal-purple-200: oklch(0.8710076943267746 0.0377053353544287 331.39469318233586);\n$nsw-aboriginal-purple-250: oklch(0.8389191100209297 0.04764157951006853 331.4172179039917);\n$nsw-aboriginal-purple-300: oklch(0.8068305257150847 0.05757782366570837 331.4397426256475);\n$nsw-aboriginal-purple-350: oklch(0.7747419414092399 0.06751406782134821 331.46226734730334);\n$nsw-aboriginal-purple-400: oklch(0.742653357103395 0.07745031197698804 331.48479206895917);\n$nsw-aboriginal-purple-450: oklch(0.6987279730890662 0.08461715270888535 331.3997569775923);\n$nsw-aboriginal-purple-500: oklch(0.6548025890747375 0.09178399344078267 331.31472188622536);\n$nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);\n$nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);\n$nsw-aboriginal-purple-650: oklch(0.5059681066477375 0.09597195429905764 331.53840819994554);\n$nsw-aboriginal-purple-700: oklch(0.4449843922493949 0.08582623369353798 331.93216469639947);\n$nsw-aboriginal-purple-750: oklch(0.38400067785105235 0.07568051308801832 332.32592119285346);\n$nsw-aboriginal-purple-800: oklch(0.3230169634527098 0.06553479248249865 332.7196776893074);\n$nsw-aboriginal-purple-850: oklch(0.2664889948484856 0.05570457361012385 332.7196776893074);\n$nsw-aboriginal-purple-900: oklch(0.20996102624426138 0.04587435473774905 332.7196776893074);\n$nsw-aboriginal-purple-950: oklch(0.15343305764003715 0.036044135865374256 332.7196776893074);\n";
 
-// src/tailwind/colors/themes/masterbrand/rgb.css
+// src/scss/colors/global/rgb.scss
 var rgb_exports10 = {};
 __export(rgb_exports10, {
-  default: () => rgb_default8
+  default: () => rgb_default7
 });
-var rgb_default8 = "@theme inline {\n  --color-primary-50: rgb(240, 251, 255);\n  --color-primary-100: rgb(228, 246, 255);\n  --color-primary-150: rgb(215, 242, 254);\n  --color-primary-200: rgb(203, 237, 253);\n  --color-primary-250: rgb(188, 234, 254);\n  --color-primary-300: rgb(173, 231, 255);\n  --color-primary-350: rgb(157, 227, 255);\n  --color-primary-400: rgb(140, 224, 255);\n  --color-primary-450: rgb(90, 201, 255);\n  --color-primary-500: rgb(38, 174, 255);\n  --color-primary-550: rgb(0, 143, 255);\n  --color-primary-600: rgb(20, 108, 253);\n  --color-primary-650: rgb(12, 90, 212);\n  --color-primary-700: rgb(5, 72, 173);\n  --color-primary-750: rgb(2, 54, 136);\n  --color-primary-800: rgb(0, 38, 100);\n  --color-primary-850: rgb(0, 26, 77);\n  --color-primary-900: rgb(0, 16, 55);\n  --color-primary-950: rgb(0, 6, 34);\n  --color-accent-50: rgb(255, 248, 249);\n  --color-accent-100: rgb(255, 242, 244);\n  --color-accent-150: rgb(255, 236, 239);\n  --color-accent-200: rgb(255, 230, 234);\n  --color-accent-250: rgb(255, 219, 224);\n  --color-accent-300: rgb(255, 207, 214);\n  --color-accent-350: rgb(255, 196, 204);\n  --color-accent-400: rgb(255, 184, 193);\n  --color-accent-450: rgb(248, 151, 162);\n  --color-accent-500: rgb(239, 117, 129);\n  --color-accent-550: rgb(228, 79, 95);\n  --color-accent-600: rgb(215, 21, 58);\n  --color-accent-650: rgb(185, 14, 50);\n  --color-accent-700: rgb(155, 7, 42);\n  --color-accent-750: rgb(126, 3, 34);\n  --color-accent-800: rgb(99, 0, 25);\n  --color-accent-850: rgb(76, 0, 16);\n  --color-accent-900: rgb(54, 0, 8);\n  --color-accent-950: rgb(33, 0, 3);\n  --color-grey-50: rgb(250, 250, 250);\n  --color-grey-100: rgb(245, 245, 245);\n  --color-grey-150: rgb(240, 240, 240);\n  --color-grey-200: rgb(235, 235, 235);\n  --color-grey-250: rgb(227, 229, 230);\n  --color-grey-300: rgb(220, 223, 224);\n  --color-grey-350: rgb(212, 217, 219);\n  --color-grey-400: rgb(205, 211, 214);\n  --color-grey-450: rgb(170, 176, 180);\n  --color-grey-500: rgb(136, 143, 146);\n  --color-grey-550: rgb(104, 111, 114);\n  --color-grey-600: rgb(73, 80, 84);\n  --color-grey-650: rgb(63, 69, 73);\n  --color-grey-700: rgb(53, 59, 63);\n  --color-grey-750: rgb(43, 49, 53);\n  --color-grey-800: rgb(34, 39, 43);\n  --color-grey-850: rgb(24, 28, 31);\n  --color-grey-900: rgb(14, 17, 19);\n  --color-grey-950: rgb(5, 7, 9);\n}\n";
+var rgb_default7 = "$nsw-grey-50: rgb(250, 250, 250);\n$nsw-grey-100: rgb(245, 245, 245);\n$nsw-grey-150: rgb(240, 240, 240);\n$nsw-grey-200: rgb(235, 235, 235);\n$nsw-grey-250: rgb(227, 229, 230);\n$nsw-grey-300: rgb(220, 223, 224);\n$nsw-grey-350: rgb(212, 217, 219);\n$nsw-grey-400: rgb(205, 211, 214);\n$nsw-grey-450: rgb(170, 176, 180);\n$nsw-grey-500: rgb(136, 143, 146);\n$nsw-grey-550: rgb(104, 111, 114);\n$nsw-grey-600: rgb(73, 80, 84);\n$nsw-grey-650: rgb(63, 69, 73);\n$nsw-grey-700: rgb(53, 59, 63);\n$nsw-grey-750: rgb(43, 49, 53);\n$nsw-grey-800: rgb(34, 39, 43);\n$nsw-grey-850: rgb(24, 28, 31);\n$nsw-grey-900: rgb(14, 17, 19);\n$nsw-grey-950: rgb(5, 7, 9);\n$nsw-green-50: rgb(245, 255, 246);\n$nsw-green-100: rgb(236, 253, 238);\n$nsw-green-150: rgb(228, 252, 231);\n$nsw-green-200: rgb(219, 250, 223);\n$nsw-green-250: rgb(207, 247, 212);\n$nsw-green-300: rgb(194, 244, 201);\n$nsw-green-350: rgb(181, 240, 190);\n$nsw-green-400: rgb(168, 237, 179);\n$nsw-green-450: rgb(138, 220, 152);\n$nsw-green-500: rgb(106, 204, 125);\n$nsw-green-550: rgb(69, 187, 98);\n$nsw-green-600: rgb(0, 170, 69);\n$nsw-green-650: rgb(7, 142, 50);\n$nsw-green-700: rgb(7, 115, 32);\n$nsw-green-750: rgb(3, 89, 15);\n$nsw-green-800: rgb(0, 64, 0);\n$nsw-green-850: rgb(0, 48, 0);\n$nsw-green-900: rgb(0, 32, 0);\n$nsw-green-950: rgb(0, 17, 0);\n$nsw-teal-50: rgb(242, 251, 250);\n$nsw-teal-100: rgb(231, 247, 245);\n$nsw-teal-150: rgb(220, 242, 239);\n$nsw-teal-200: rgb(209, 238, 234);\n$nsw-teal-250: rgb(193, 234, 231);\n$nsw-teal-300: rgb(175, 229, 229);\n$nsw-teal-350: rgb(158, 224, 229);\n$nsw-teal-400: rgb(140, 219, 229);\n$nsw-teal-450: rgb(117, 196, 207);\n$nsw-teal-500: rgb(94, 172, 185);\n$nsw-teal-550: rgb(70, 150, 163);\n$nsw-teal-600: rgb(46, 128, 142);\n$nsw-teal-650: rgb(37, 111, 123);\n$nsw-teal-700: rgb(28, 95, 105);\n$nsw-teal-750: rgb(20, 78, 88);\n$nsw-teal-800: rgb(11, 63, 71);\n$nsw-teal-850: rgb(4, 47, 53);\n$nsw-teal-900: rgb(1, 31, 36);\n$nsw-teal-950: rgb(0, 17, 20);\n$nsw-blue-50: rgb(240, 251, 255);\n$nsw-blue-100: rgb(228, 246, 255);\n$nsw-blue-150: rgb(215, 242, 254);\n$nsw-blue-200: rgb(203, 237, 253);\n$nsw-blue-250: rgb(188, 234, 254);\n$nsw-blue-300: rgb(173, 231, 255);\n$nsw-blue-350: rgb(157, 227, 255);\n$nsw-blue-400: rgb(140, 224, 255);\n$nsw-blue-450: rgb(90, 201, 255);\n$nsw-blue-500: rgb(38, 174, 255);\n$nsw-blue-550: rgb(0, 143, 255);\n$nsw-blue-600: rgb(20, 108, 253);\n$nsw-blue-650: rgb(12, 90, 212);\n$nsw-blue-700: rgb(5, 72, 173);\n$nsw-blue-750: rgb(2, 54, 136);\n$nsw-blue-800: rgb(0, 38, 100);\n$nsw-blue-850: rgb(0, 26, 77);\n$nsw-blue-900: rgb(0, 16, 55);\n$nsw-blue-950: rgb(0, 6, 34);\n$nsw-purple-50: rgb(249, 247, 255);\n$nsw-purple-100: rgb(242, 240, 255);\n$nsw-purple-150: rgb(236, 232, 254);\n$nsw-purple-200: rgb(230, 225, 253);\n$nsw-purple-250: rgb(224, 217, 254);\n$nsw-purple-300: rgb(218, 208, 254);\n$nsw-purple-350: rgb(212, 200, 255);\n$nsw-purple-400: rgb(206, 191, 255);\n$nsw-purple-450: rgb(186, 166, 252);\n$nsw-purple-500: rgb(166, 141, 249);\n$nsw-purple-550: rgb(147, 114, 245);\n$nsw-purple-600: rgb(128, 85, 241);\n$nsw-purple-650: rgb(114, 67, 207);\n$nsw-purple-700: rgb(100, 50, 174);\n$nsw-purple-750: rgb(84, 33, 142);\n$nsw-purple-800: rgb(68, 17, 112);\n$nsw-purple-850: rgb(51, 8, 86);\n$nsw-purple-900: rgb(35, 2, 62);\n$nsw-purple-950: rgb(19, 0, 39);\n$nsw-fuchsia-50: rgb(255, 246, 253);\n$nsw-fuchsia-100: rgb(255, 238, 249);\n$nsw-fuchsia-150: rgb(254, 230, 246);\n$nsw-fuchsia-200: rgb(253, 222, 242);\n$nsw-fuchsia-250: rgb(251, 212, 239);\n$nsw-fuchsia-300: rgb(249, 201, 235);\n$nsw-fuchsia-350: rgb(247, 191, 233);\n$nsw-fuchsia-400: rgb(244, 181, 230);\n$nsw-fuchsia-450: rgb(239, 150, 218);\n$nsw-fuchsia-500: rgb(233, 117, 204);\n$nsw-fuchsia-550: rgb(225, 80, 190);\n$nsw-fuchsia-600: rgb(217, 18, 174);\n$nsw-fuchsia-650: rgb(187, 12, 148);\n$nsw-fuchsia-700: rgb(157, 6, 123);\n$nsw-fuchsia-750: rgb(129, 2, 100);\n$nsw-fuchsia-800: rgb(101, 0, 77);\n$nsw-fuchsia-850: rgb(77, 0, 58);\n$nsw-fuchsia-900: rgb(55, 0, 40);\n$nsw-fuchsia-950: rgb(34, 0, 23);\n$nsw-red-50: rgb(255, 248, 249);\n$nsw-red-100: rgb(255, 242, 244);\n$nsw-red-150: rgb(255, 236, 239);\n$nsw-red-200: rgb(255, 230, 234);\n$nsw-red-250: rgb(255, 219, 224);\n$nsw-red-300: rgb(255, 207, 214);\n$nsw-red-350: rgb(255, 196, 204);\n$nsw-red-400: rgb(255, 184, 193);\n$nsw-red-450: rgb(248, 151, 162);\n$nsw-red-500: rgb(239, 117, 129);\n$nsw-red-550: rgb(228, 79, 95);\n$nsw-red-600: rgb(215, 21, 58);\n$nsw-red-650: rgb(185, 14, 50);\n$nsw-red-700: rgb(155, 7, 42);\n$nsw-red-750: rgb(126, 3, 34);\n$nsw-red-800: rgb(99, 0, 25);\n$nsw-red-850: rgb(76, 0, 16);\n$nsw-red-900: rgb(54, 0, 8);\n$nsw-red-950: rgb(33, 0, 3);\n$nsw-orange-50: rgb(255, 250, 246);\n$nsw-orange-100: rgb(255, 246, 238);\n$nsw-orange-150: rgb(254, 241, 231);\n$nsw-orange-200: rgb(253, 237, 223);\n$nsw-orange-250: rgb(254, 229, 206);\n$nsw-orange-300: rgb(255, 221, 189);\n$nsw-orange-350: rgb(255, 214, 171);\n$nsw-orange-400: rgb(255, 206, 153);\n$nsw-orange-450: rgb(253, 182, 120);\n$nsw-orange-500: rgb(251, 157, 88);\n$nsw-orange-550: rgb(247, 129, 57);\n$nsw-orange-600: rgb(243, 99, 27);\n$nsw-orange-650: rgb(219, 81, 21);\n$nsw-orange-700: rgb(195, 63, 14);\n$nsw-orange-750: rgb(171, 46, 6);\n$nsw-orange-800: rgb(148, 27, 0);\n$nsw-orange-850: rgb(115, 15, 0);\n$nsw-orange-900: rgb(83, 4, 0);\n$nsw-orange-950: rgb(53, 0, 0);\n$nsw-yellow-50: rgb(255, 252, 240);\n$nsw-yellow-100: rgb(255, 250, 229);\n$nsw-yellow-150: rgb(255, 247, 218);\n$nsw-yellow-200: rgb(255, 244, 207);\n$nsw-yellow-250: rgb(255, 241, 194);\n$nsw-yellow-300: rgb(254, 238, 181);\n$nsw-yellow-350: rgb(254, 234, 168);\n$nsw-yellow-400: rgb(253, 231, 154);\n$nsw-yellow-450: rgb(251, 218, 128);\n$nsw-yellow-500: rgb(250, 205, 99);\n$nsw-yellow-550: rgb(250, 190, 66);\n$nsw-yellow-600: rgb(250, 175, 5);\n$nsw-yellow-650: rgb(212, 148, 3);\n$nsw-yellow-700: rgb(175, 122, 1);\n$nsw-yellow-750: rgb(139, 96, 0);\n$nsw-yellow-800: rgb(105, 72, 0);\n$nsw-yellow-850: rgb(80, 53, 0);\n$nsw-yellow-900: rgb(57, 36, 0);\n$nsw-yellow-950: rgb(34, 19, 0);\n$nsw-brown-50: rgb(251, 248, 244);\n$nsw-brown-100: rgb(246, 241, 234);\n$nsw-brown-150: rgb(242, 234, 225);\n$nsw-brown-200: rgb(237, 227, 215);\n$nsw-brown-250: rgb(236, 222, 206);\n$nsw-brown-300: rgb(234, 218, 198);\n$nsw-brown-350: rgb(233, 213, 189);\n$nsw-brown-400: rgb(232, 208, 181);\n$nsw-brown-450: rgb(219, 191, 159);\n$nsw-brown-500: rgb(207, 174, 137);\n$nsw-brown-550: rgb(194, 157, 115);\n$nsw-brown-600: rgb(182, 141, 93);\n$nsw-brown-650: rgb(156, 118, 75);\n$nsw-brown-700: rgb(130, 96, 58);\n$nsw-brown-750: rgb(106, 75, 41);\n$nsw-brown-800: rgb(82, 55, 25);\n$nsw-brown-850: rgb(62, 40, 15);\n$nsw-brown-900: rgb(43, 26, 7);\n$nsw-brown-950: rgb(25, 13, 2);\n$nsw-aboriginal-grey-50: rgb(249, 248, 247);\n$nsw-aboriginal-grey-100: rgb(242, 241, 239);\n$nsw-aboriginal-grey-150: rgb(235, 234, 232);\n$nsw-aboriginal-grey-200: rgb(229, 227, 224);\n$nsw-aboriginal-grey-250: rgb(223, 220, 216);\n$nsw-aboriginal-grey-300: rgb(216, 212, 209);\n$nsw-aboriginal-grey-350: rgb(210, 205, 201);\n$nsw-aboriginal-grey-400: rgb(204, 198, 194);\n$nsw-aboriginal-grey-450: rgb(173, 168, 165);\n$nsw-aboriginal-grey-500: rgb(142, 139, 138);\n$nsw-aboriginal-grey-550: rgb(113, 112, 111);\n$nsw-aboriginal-grey-600: rgb(85, 85, 85);\n$nsw-aboriginal-grey-650: rgb(75, 75, 75);\n$nsw-aboriginal-grey-700: rgb(64, 64, 64);\n$nsw-aboriginal-grey-750: rgb(55, 55, 55);\n$nsw-aboriginal-grey-800: rgb(45, 45, 45);\n$nsw-aboriginal-grey-850: rgb(32, 32, 32);\n$nsw-aboriginal-grey-900: rgb(20, 20, 20);\n$nsw-aboriginal-grey-950: rgb(9, 9, 9);\n$nsw-aboriginal-red-50: rgb(255, 245, 245);\n$nsw-aboriginal-red-100: rgb(255, 235, 235);\n$nsw-aboriginal-red-150: rgb(254, 226, 226);\n$nsw-aboriginal-red-200: rgb(253, 217, 217);\n$nsw-aboriginal-red-250: rgb(253, 208, 208);\n$nsw-aboriginal-red-300: rgb(252, 199, 198);\n$nsw-aboriginal-red-350: rgb(252, 189, 189);\n$nsw-aboriginal-red-400: rgb(251, 180, 179);\n$nsw-aboriginal-red-450: rgb(247, 150, 147);\n$nsw-aboriginal-red-500: rgb(242, 119, 113);\n$nsw-aboriginal-red-550: rgb(234, 85, 76);\n$nsw-aboriginal-red-600: rgb(225, 38, 28);\n$nsw-aboriginal-red-650: rgb(205, 31, 23);\n$nsw-aboriginal-red-700: rgb(186, 24, 17);\n$nsw-aboriginal-red-750: rgb(167, 17, 11);\n$nsw-aboriginal-red-800: rgb(149, 9, 6);\n$nsw-aboriginal-red-850: rgb(116, 0, 1);\n$nsw-aboriginal-red-900: rgb(84, 0, 0);\n$nsw-aboriginal-red-950: rgb(54, 0, 0);\n$nsw-aboriginal-orange-50: rgb(255, 244, 236);\n$nsw-aboriginal-orange-100: rgb(254, 233, 221);\n$nsw-aboriginal-orange-150: rgb(252, 223, 205);\n$nsw-aboriginal-orange-200: rgb(249, 212, 190);\n$nsw-aboriginal-orange-250: rgb(248, 202, 174);\n$nsw-aboriginal-orange-300: rgb(247, 191, 158);\n$nsw-aboriginal-orange-350: rgb(246, 181, 142);\n$nsw-aboriginal-orange-400: rgb(244, 170, 125);\n$nsw-aboriginal-orange-450: rgb(243, 154, 102);\n$nsw-aboriginal-orange-500: rgb(242, 137, 79);\n$nsw-aboriginal-orange-550: rgb(240, 119, 54);\n$nsw-aboriginal-orange-600: rgb(238, 99, 20);\n$nsw-aboriginal-orange-650: rgb(212, 83, 16);\n$nsw-aboriginal-orange-700: rgb(186, 68, 10);\n$nsw-aboriginal-orange-750: rgb(161, 53, 5);\n$nsw-aboriginal-orange-800: rgb(136, 38, 0);\n$nsw-aboriginal-orange-850: rgb(105, 25, 0);\n$nsw-aboriginal-orange-900: rgb(76, 13, 0);\n$nsw-aboriginal-orange-950: rgb(48, 3, 0);\n$nsw-aboriginal-brown-50: rgb(252, 241, 233);\n$nsw-aboriginal-brown-100: rgb(246, 227, 215);\n$nsw-aboriginal-brown-150: rgb(239, 213, 196);\n$nsw-aboriginal-brown-200: rgb(233, 200, 178);\n$nsw-aboriginal-brown-250: rgb(228, 186, 159);\n$nsw-aboriginal-brown-300: rgb(222, 173, 140);\n$nsw-aboriginal-brown-350: rgb(217, 159, 120);\n$nsw-aboriginal-brown-400: rgb(211, 145, 101);\n$nsw-aboriginal-brown-450: rgb(198, 129, 88);\n$nsw-aboriginal-brown-500: rgb(185, 114, 75);\n$nsw-aboriginal-brown-550: rgb(171, 98, 62);\n$nsw-aboriginal-brown-600: rgb(158, 83, 50);\n$nsw-aboriginal-brown-650: rgb(139, 70, 39);\n$nsw-aboriginal-brown-700: rgb(121, 57, 28);\n$nsw-aboriginal-brown-750: rgb(103, 45, 16);\n$nsw-aboriginal-brown-800: rgb(85, 33, 5);\n$nsw-aboriginal-brown-850: rgb(65, 22, 2);\n$nsw-aboriginal-brown-900: rgb(45, 12, 0);\n$nsw-aboriginal-brown-950: rgb(27, 4, 0);\n$nsw-aboriginal-yellow-50: rgb(255, 252, 238);\n$nsw-aboriginal-yellow-100: rgb(255, 248, 224);\n$nsw-aboriginal-yellow-150: rgb(255, 245, 211);\n$nsw-aboriginal-yellow-200: rgb(255, 241, 197);\n$nsw-aboriginal-yellow-250: rgb(255, 238, 183);\n$nsw-aboriginal-yellow-300: rgb(255, 235, 169);\n$nsw-aboriginal-yellow-350: rgb(254, 231, 155);\n$nsw-aboriginal-yellow-400: rgb(254, 228, 140);\n$nsw-aboriginal-yellow-450: rgb(254, 214, 117);\n$nsw-aboriginal-yellow-500: rgb(254, 200, 93);\n$nsw-aboriginal-yellow-550: rgb(254, 185, 68);\n$nsw-aboriginal-yellow-600: rgb(254, 169, 39);\n$nsw-aboriginal-yellow-650: rgb(223, 150, 28);\n$nsw-aboriginal-yellow-700: rgb(193, 131, 18);\n$nsw-aboriginal-yellow-750: rgb(165, 112, 7);\n$nsw-aboriginal-yellow-800: rgb(137, 94, 0);\n$nsw-aboriginal-yellow-850: rgb(105, 71, 0);\n$nsw-aboriginal-yellow-900: rgb(76, 48, 0);\n$nsw-aboriginal-yellow-950: rgb(47, 28, 0);\n$nsw-aboriginal-green-50: rgb(245, 249, 242);\n$nsw-aboriginal-green-100: rgb(236, 243, 231);\n$nsw-aboriginal-green-150: rgb(227, 236, 220);\n$nsw-aboriginal-green-200: rgb(218, 230, 209);\n$nsw-aboriginal-green-250: rgb(209, 224, 198);\n$nsw-aboriginal-green-300: rgb(199, 217, 186);\n$nsw-aboriginal-green-350: rgb(190, 211, 175);\n$nsw-aboriginal-green-400: rgb(181, 205, 164);\n$nsw-aboriginal-green-450: rgb(165, 194, 142);\n$nsw-aboriginal-green-500: rgb(149, 183, 119);\n$nsw-aboriginal-green-550: rgb(134, 172, 96);\n$nsw-aboriginal-green-600: rgb(120, 161, 70);\n$nsw-aboriginal-green-650: rgb(95, 143, 68);\n$nsw-aboriginal-green-700: rgb(73, 125, 64);\n$nsw-aboriginal-green-750: rgb(52, 106, 59);\n$nsw-aboriginal-green-800: rgb(33, 88, 52);\n$nsw-aboriginal-green-850: rgb(21, 66, 37);\n$nsw-aboriginal-green-900: rgb(10, 46, 23);\n$nsw-aboriginal-green-950: rgb(2, 27, 10);\n$nsw-aboriginal-blue-50: rgb(238, 248, 250);\n$nsw-aboriginal-blue-100: rgb(223, 241, 244);\n$nsw-aboriginal-blue-150: rgb(208, 233, 238);\n$nsw-aboriginal-blue-200: rgb(193, 226, 232);\n$nsw-aboriginal-blue-250: rgb(178, 219, 226);\n$nsw-aboriginal-blue-300: rgb(163, 212, 220);\n$nsw-aboriginal-blue-350: rgb(148, 204, 215);\n$nsw-aboriginal-blue-400: rgb(132, 197, 209);\n$nsw-aboriginal-blue-450: rgb(103, 174, 192);\n$nsw-aboriginal-blue-500: rgb(74, 150, 176);\n$nsw-aboriginal-blue-550: rgb(46, 127, 161);\n$nsw-aboriginal-blue-600: rgb(13, 103, 145);\n$nsw-aboriginal-blue-650: rgb(20, 87, 130);\n$nsw-aboriginal-blue-700: rgb(23, 71, 115);\n$nsw-aboriginal-blue-750: rgb(24, 55, 99);\n$nsw-aboriginal-blue-800: rgb(22, 41, 83);\n$nsw-aboriginal-blue-850: rgb(14, 29, 63);\n$nsw-aboriginal-blue-900: rgb(6, 18, 44);\n$nsw-aboriginal-blue-950: rgb(2, 7, 27);\n$nsw-aboriginal-purple-50: rgb(250, 241, 248);\n$nsw-aboriginal-purple-100: rgb(242, 229, 240);\n$nsw-aboriginal-purple-150: rgb(235, 216, 232);\n$nsw-aboriginal-purple-200: rgb(228, 204, 224);\n$nsw-aboriginal-purple-250: rgb(221, 191, 216);\n$nsw-aboriginal-purple-300: rgb(215, 179, 209);\n$nsw-aboriginal-purple-350: rgb(208, 166, 201);\n$nsw-aboriginal-purple-400: rgb(201, 154, 194);\n$nsw-aboriginal-purple-450: rgb(189, 139, 182);\n$nsw-aboriginal-purple-500: rgb(177, 124, 170);\n$nsw-aboriginal-purple-550: rgb(166, 109, 159);\n$nsw-aboriginal-purple-600: rgb(154, 94, 147);\n$nsw-aboriginal-purple-650: rgb(132, 79, 126);\n$nsw-aboriginal-purple-700: rgb(111, 65, 105);\n$nsw-aboriginal-purple-750: rgb(91, 51, 85);\n$nsw-aboriginal-purple-800: rgb(71, 38, 66);\n$nsw-aboriginal-purple-850: rgb(53, 26, 49);\n$nsw-aboriginal-purple-900: rgb(36, 16, 33);\n$nsw-aboriginal-purple-950: rgb(21, 6, 18);\n";
 
-// src/ts/colors/global/hex.ts
+// src/scss/colors/themes/masterbrand/hex.scss
 var hex_exports11 = {};
 __export(hex_exports11, {
+  default: () => hex_default8
+});
+var hex_default8 = "$primary-50: #f0fbff;\n$primary-100: #e4f6ff;\n$primary-150: #d7f2fe;\n$primary-200: #cbedfd;\n$primary-250: #bceafe;\n$primary-300: #ade7ff;\n$primary-350: #9de3ff;\n$primary-400: #8ce0ff;\n$primary-450: #5ac9ff;\n$primary-500: #26aeff;\n$primary-550: #008fff;\n$primary-600: #146cfd;\n$primary-650: #0c5ad4;\n$primary-700: #0548ad;\n$primary-750: #023688;\n$primary-800: #002664;\n$primary-850: #001a4d;\n$primary-900: #001037;\n$primary-950: #000622;\n$accent-50: #fff8f9;\n$accent-100: #fff2f4;\n$accent-150: #ffecef;\n$accent-200: #ffe6ea;\n$accent-250: #ffdbe0;\n$accent-300: #ffcfd6;\n$accent-350: #ffc4cc;\n$accent-400: #ffb8c1;\n$accent-450: #f897a2;\n$accent-500: #ef7581;\n$accent-550: #e44f5f;\n$accent-600: #d7153a;\n$accent-650: #b90e32;\n$accent-700: #9b072a;\n$accent-750: #7e0322;\n$accent-800: #630019;\n$accent-850: #4c0010;\n$accent-900: #360008;\n$accent-950: #210003;\n$grey-50: #fafafa;\n$grey-100: #f5f5f5;\n$grey-150: #f0f0f0;\n$grey-200: #ebebeb;\n$grey-250: #e3e5e6;\n$grey-300: #dcdfe0;\n$grey-350: #d4d9db;\n$grey-400: #cdd3d6;\n$grey-450: #aab0b4;\n$grey-500: #888f92;\n$grey-550: #686f72;\n$grey-600: #495054;\n$grey-650: #3f4549;\n$grey-700: #353b3f;\n$grey-750: #2b3135;\n$grey-800: #22272b;\n$grey-850: #181c1f;\n$grey-900: #0e1113;\n$grey-950: #050709;\n";
+
+// src/scss/colors/themes/masterbrand/hsl.scss
+var hsl_exports11 = {};
+__export(hsl_exports11, {
+  default: () => hsl_default8
+});
+var hsl_default8 = "$primary-50: hsl(199.45, 100%, 97.34%);\n$primary-100: hsl(199.38, 100%, 94.73%);\n$primary-150: hsl(199.3, 95.85%, 92.09%);\n$primary-200: hsl(199.2, 92.59%, 89.41%);\n$primary-250: hsl(198.5, 96.87%, 86.75%);\n$primary-300: hsl(197.76, 98.99%, 83.89%);\n$primary-350: hsl(197, 99.87%, 80.82%);\n$primary-400: hsl(196.17, 100%, 77.45%);\n$primary-450: hsl(199.74, 99.83%, 67.57%);\n$primary-500: hsl(202.52, 100%, 57.55%);\n$primary-550: hsl(204.76, 100%, 46.97%);\n$primary-600: hsl(217.34, 98.31%, 53.53%);\n$primary-650: hsl(216.77, 89.43%, 43.98%);\n$primary-700: hsl(216.29, 94.14%, 35%);\n$primary-750: hsl(216.37, 97.67%, 26.93%);\n$primary-800: hsl(217.2, 100%, 19.61%);\n$primary-850: hsl(218.95, 100%, 14.93%);\n$primary-900: hsl(222.31, 100%, 10.59%);\n$primary-950: hsl(228.65, 100%, 6.6%);\n$accent-50: hsl(350.85, 100%, 98.97%);\n$accent-100: hsl(350.7, 100%, 97.7%);\n$accent-150: hsl(350.55, 100%, 96.41%);\n$accent-200: hsl(350.4, 100%, 95.1%);\n$accent-250: hsl(350.92, 100%, 92.94%);\n$accent-300: hsl(351.43, 100%, 90.72%);\n$accent-350: hsl(351.92, 100%, 88.44%);\n$accent-400: hsl(352.39, 100%, 86.08%);\n$accent-450: hsl(353.39, 86.96%, 78.18%);\n$accent-500: hsl(353.95, 78.84%, 69.69%);\n$accent-550: hsl(353.52, 73.17%, 60.13%);\n$accent-600: hsl(348.56, 82.2%, 46.27%);\n$accent-650: hsl(347.26, 85.91%, 38.92%);\n$accent-700: hsl(345.89, 91%, 31.81%);\n$accent-750: hsl(345, 95.87%, 25.31%);\n$accent-800: hsl(344.85, 100%, 19.41%);\n$accent-850: hsl(346.11, 100%, 14.46%);\n$accent-900: hsl(349.15, 100%, 10.03%);\n$accent-950: hsl(352.16, 100%, 6.06%);\n$grey-50: hsl(223.81, 0%, 98.03%);\n$grey-100: hsl(223.81, 0%, 96.06%);\n$grey-150: hsl(223.81, 0%, 94.11%);\n$grey-200: hsl(223.81, 0%, 92.16%);\n$grey-250: hsl(200.05, 4.31%, 89.64%);\n$grey-300: hsl(200.03, 6.92%, 87.13%);\n$grey-350: hsl(200.02, 8.65%, 84.64%);\n$grey-400: hsl(200, 9.89%, 82.16%);\n$grey-450: hsl(200.47, 6.03%, 68.52%);\n$grey-500: hsl(200.94, 4.51%, 55.36%);\n$grey-550: hsl(201.39, 4.91%, 42.76%);\n$grey-600: hsl(201.82, 7.01%, 30.78%);\n$grey-650: hsl(203.03, 7.74%, 26.71%);\n$grey-700: hsl(204.24, 8.68%, 22.73%);\n$grey-750: hsl(205.45, 9.93%, 18.85%);\n$grey-800: hsl(206.67, 11.69%, 15.1%);\n$grey-850: hsl(206.66, 13.37%, 10.7%);\n$grey-900: hsl(206.64, 17.01%, 6.52%);\n$grey-950: hsl(208.68, 23.47%, 2.8%);\n";
+
+// src/scss/colors/themes/masterbrand/oklch.scss
+var oklch_exports11 = {};
+__export(oklch_exports11, {
+  default: () => oklch_default8
+});
+var oklch_default8 = "$primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n$primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n$primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n$primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n$primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n$primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n$primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n$primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n$primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n$primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n$primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n$primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n$primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n$primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n$primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n$primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n$primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n$primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n$primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n$accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n$accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n$accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n$accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n$accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n$accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n$accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n$accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n$accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n$accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n$accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n$accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n$accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n$accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n$accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n$accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n$accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n$accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n$accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n$grey-50: oklch(0.9850175274112574 0 0);\n$grey-100: oklch(0.9700350548225147 0 0);\n$grey-150: oklch(0.9550525822337722 0 0);\n$grey-200: oklch(0.9400701096450296 0 0);\n$grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n$grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n$grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n$grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n$grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n$grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n$grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n$grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n$grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n$grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n$grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n$grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n$grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n$grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n$grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n";
+
+// src/scss/colors/themes/masterbrand/rgb.scss
+var rgb_exports11 = {};
+__export(rgb_exports11, {
+  default: () => rgb_default8
+});
+var rgb_default8 = "$primary-50: rgb(240, 251, 255);\n$primary-100: rgb(228, 246, 255);\n$primary-150: rgb(215, 242, 254);\n$primary-200: rgb(203, 237, 253);\n$primary-250: rgb(188, 234, 254);\n$primary-300: rgb(173, 231, 255);\n$primary-350: rgb(157, 227, 255);\n$primary-400: rgb(140, 224, 255);\n$primary-450: rgb(90, 201, 255);\n$primary-500: rgb(38, 174, 255);\n$primary-550: rgb(0, 143, 255);\n$primary-600: rgb(20, 108, 253);\n$primary-650: rgb(12, 90, 212);\n$primary-700: rgb(5, 72, 173);\n$primary-750: rgb(2, 54, 136);\n$primary-800: rgb(0, 38, 100);\n$primary-850: rgb(0, 26, 77);\n$primary-900: rgb(0, 16, 55);\n$primary-950: rgb(0, 6, 34);\n$accent-50: rgb(255, 248, 249);\n$accent-100: rgb(255, 242, 244);\n$accent-150: rgb(255, 236, 239);\n$accent-200: rgb(255, 230, 234);\n$accent-250: rgb(255, 219, 224);\n$accent-300: rgb(255, 207, 214);\n$accent-350: rgb(255, 196, 204);\n$accent-400: rgb(255, 184, 193);\n$accent-450: rgb(248, 151, 162);\n$accent-500: rgb(239, 117, 129);\n$accent-550: rgb(228, 79, 95);\n$accent-600: rgb(215, 21, 58);\n$accent-650: rgb(185, 14, 50);\n$accent-700: rgb(155, 7, 42);\n$accent-750: rgb(126, 3, 34);\n$accent-800: rgb(99, 0, 25);\n$accent-850: rgb(76, 0, 16);\n$accent-900: rgb(54, 0, 8);\n$accent-950: rgb(33, 0, 3);\n$grey-50: rgb(250, 250, 250);\n$grey-100: rgb(245, 245, 245);\n$grey-150: rgb(240, 240, 240);\n$grey-200: rgb(235, 235, 235);\n$grey-250: rgb(227, 229, 230);\n$grey-300: rgb(220, 223, 224);\n$grey-350: rgb(212, 217, 219);\n$grey-400: rgb(205, 211, 214);\n$grey-450: rgb(170, 176, 180);\n$grey-500: rgb(136, 143, 146);\n$grey-550: rgb(104, 111, 114);\n$grey-600: rgb(73, 80, 84);\n$grey-650: rgb(63, 69, 73);\n$grey-700: rgb(53, 59, 63);\n$grey-750: rgb(43, 49, 53);\n$grey-800: rgb(34, 39, 43);\n$grey-850: rgb(24, 28, 31);\n$grey-900: rgb(14, 17, 19);\n$grey-950: rgb(5, 7, 9);\n";
+
+// src/scss/colors/semantic/hex.scss
+var hex_exports12 = {};
+__export(hex_exports12, {
+  default: () => hex_default9
+});
+var hex_default9 = "$success-50: #eff9ed;\n$success-100: #e0f3de;\n$success-150: #d2eccf;\n$success-200: #c4e5c0;\n$success-250: #aad6a5;\n$success-300: #8fc78a;\n$success-350: #74b76f;\n$success-400: #58a854;\n$success-450: #49a146;\n$success-500: #399936;\n$success-550: #259224;\n$success-600: #008a07;\n$success-650: #007204;\n$success-700: #005a02;\n$success-750: #004401;\n$success-800: #002f00;\n$success-850: #002200;\n$success-900: #001600;\n$success-950: #000b00;\n$warning-50: #fff3ed;\n$warning-100: #ffe8de;\n$warning-150: #ffddcf;\n$warning-200: #fdd2c0;\n$warning-250: #f6bda5;\n$warning-300: #eea88a;\n$warning-350: #e6936f;\n$warning-400: #dd7d53;\n$warning-450: #d87244;\n$warning-500: #d36734;\n$warning-550: #ce5c21;\n$warning-600: #c95000;\n$warning-650: #a83f03;\n$warning-700: #882f03;\n$warning-750: #692001;\n$warning-800: #4b1200;\n$warning-850: #390a00;\n$warning-900: #270400;\n$warning-950: #170100;\n$danger-50: #fff0ef;\n$danger-100: #ffe2e1;\n$danger-150: #ffd4d4;\n$danger-200: #fdc6c6;\n$danger-250: #f4acad;\n$danger-300: #ea9294;\n$danger-350: #df787c;\n$danger-400: #d35d65;\n$danger-450: #cd4e59;\n$danger-500: #c63f4e;\n$danger-550: #bf2c42;\n$danger-600: #b81237;\n$danger-650: #990b2a;\n$danger-700: #7c061f;\n$danger-750: #5f0214;\n$danger-800: #44000a;\n$danger-850: #330005;\n$danger-900: #230002;\n$danger-950: #140001;\n$info-50: #e9eef7;\n$info-100: #d4ddeb;\n$info-150: #c0cce0;\n$info-200: #acbbd5;\n$info-250: #96a9cc;\n$info-300: #8098c2;\n$info-350: #6b86b8;\n$info-400: #5775ae;\n$info-450: #4d6ca9;\n$info-500: #4264a4;\n$info-550: #385b9e;\n$info-600: #2e5299;\n$info-650: #23427f;\n$info-700: #193366;\n$info-750: #10254f;\n$info-800: #071738;\n$info-850: #040f2a;\n$info-900: #02071c;\n$info-950: #00030f;\n";
+
+// src/scss/colors/semantic/hsl.scss
+var hsl_exports12 = {};
+__export(hsl_exports12, {
+  default: () => hsl_default9
+});
+var hsl_default9 = "$success-50: hsl(113.15, 52.52%, 95.43%);\n$success-100: hsl(113.26, 45.54%, 91.13%);\n$success-150: hsl(113.38, 42.97%, 86.84%);\n$success-200: hsl(113.51, 41.57%, 82.55%);\n$success-250: hsl(114.16, 37.16%, 74.26%);\n$success-300: hsl(114.93, 34.81%, 66.02%);\n$success-350: hsl(115.88, 33.38%, 57.78%);\n$success-400: hsl(117.14, 33.33%, 49.41%);\n$success-450: hsl(117.67, 39.56%, 45.11%);\n$success-500: hsl(118.38, 47.88%, 40.58%);\n$success-550: hsl(119.53, 60.48%, 35.56%);\n$success-600: hsl(123.04, 100%, 27.06%);\n$success-650: hsl(121.8, 99.36%, 22.38%);\n$success-700: hsl(120.9, 99.22%, 17.81%);\n$success-750: hsl(120.32, 99.47%, 13.4%);\n$success-800: hsl(120, 100%, 9.22%);\n$success-850: hsl(120.32, 100%, 6.51%);\n$success-900: hsl(120.63, 100%, 4.07%);\n$success-950: hsl(121.08, 100%, 1.88%);\n$warning-50: hsl(17.53, 100%, 96.97%);\n$warning-100: hsl(17.59, 100%, 93.77%);\n$warning-150: hsl(17.65, 99.09%, 90.53%);\n$warning-200: hsl(17.7, 93.85%, 87.25%);\n$warning-250: hsl(17.77, 81.71%, 80.57%);\n$warning-300: hsl(17.84, 74.94%, 73.78%);\n$warning-350: hsl(17.98, 70.36%, 66.84%);\n$warning-400: hsl(18.26, 66.99%, 59.61%);\n$warning-450: hsl(18.61, 65.61%, 55.79%);\n$warning-500: hsl(19.18, 64.53%, 51.69%);\n$warning-550: hsl(20.31, 72.21%, 46.96%);\n$warning-600: hsl(23.88, 100%, 39.41%);\n$warning-650: hsl(21.95, 96.66%, 33.46%);\n$warning-700: hsl(20.07, 95.99%, 27.13%);\n$warning-750: hsl(17.86, 97.32%, 20.78%);\n$warning-800: hsl(14.4, 100%, 14.71%);\n$warning-850: hsl(11.43, 100%, 10.95%);\n$warning-900: hsl(7.67, 100%, 7.5%);\n$warning-950: hsl(4.64, 100%, 4.34%);\n$danger-50: hsl(0.78, 100%, 97.61%);\n$danger-100: hsl(0.56, 100%, 94.61%);\n$danger-150: hsl(0.3, 100%, 91.55%);\n$danger-200: hsl(0, 93.22%, 88.43%);\n$danger-250: hsl(359.39, 76.34%, 81.59%);\n$danger-300: hsl(358.59, 67.4%, 74.56%);\n$danger-350: hsl(357.51, 61.52%, 67.27%);\n$danger-400: hsl(355.93, 57.28%, 59.61%);\n$danger-450: hsl(354.77, 55.6%, 55.49%);\n$danger-500: hsl(353.23, 54.28%, 51.09%);\n$danger-550: hsl(350.97, 62.34%, 46.16%);\n$danger-600: hsl(346.63, 82.18%, 39.61%);\n$danger-650: hsl(346.89, 86.15%, 32.28%);\n$danger-700: hsl(347.25, 91.31%, 25.33%);\n$danger-750: hsl(348.45, 96%, 19.02%);\n$danger-800: hsl(351.18, 100%, 13.33%);\n$danger-850: hsl(352.99, 100%, 9.85%);\n$danger-900: hsl(354.47, 100%, 6.66%);\n$danger-950: hsl(355.5, 100%, 3.76%);\n$info-50: hsl(217.99, 45.88%, 94%);\n$info-100: hsl(218, 37.47%, 87.77%);\n$info-150: hsl(218.02, 34.49%, 81.6%);\n$info-200: hsl(218.05, 32.8%, 75.49%);\n$info-250: hsl(218.29, 34.23%, 69.31%);\n$info-300: hsl(218.57, 34.87%, 63.2%);\n$info-350: hsl(218.9, 35.05%, 57.15%);\n$info-400: hsl(219.31, 34.94%, 51.18%);\n$info-450: hsl(219.41, 37.55%, 48.13%);\n$info-500: hsl(219.52, 42.28%, 45.1%);\n$info-550: hsl(219.66, 47.62%, 42.06%);\n$info-600: hsl(219.81, 53.77%, 39.02%);\n$info-650: hsl(219.87, 56.39%, 31.92%);\n$info-700: hsl(219.93, 60.27%, 25.07%);\n$info-750: hsl(220.02, 66.59%, 18.51%);\n$info-800: hsl(220.41, 77.78%, 12.35%);\n$info-850: hsl(222.21, 84%, 8.9%);\n$info-900: hsl(226.63, 89.54%, 5.83%);\n$info-950: hsl(230.65, 94.13%, 3.12%);\n";
+
+// src/scss/colors/semantic/oklch.scss
+var oklch_exports12 = {};
+__export(oklch_exports12, {
+  default: () => oklch_default9
+});
+var oklch_default9 = "$success-50: oklch(0.9720355476100955 0.01978729853872853 142.11752406542539);\n$success-100: oklch(0.944071095220191 0.03348619752707904 142.11752406542539);\n$success-150: oklch(0.9161066428302864 0.04718509651542956 142.11752406542539);\n$success-200: oklch(0.8881421904403819 0.06088399550378008 142.11752406542539);\n$success-250: oklch(0.8312289461835737 0.0814134964867239 142.2964842668701);\n$success-300: oklch(0.7743157019267655 0.10194299746966773 142.47544446831483);\n$success-350: oklch(0.7174024576699572 0.12247249845261154 142.65440466975954);\n$success-400: oklch(0.660489213413149 0.14300199943555536 142.83336487120425);\n$success-450: oklch(0.6326270919832794 0.153487552492673 142.8252122365381);\n$success-500: oklch(0.6047649705534097 0.16397310554979067 142.81705960187193);\n$success-550: oklch(0.57690284912354 0.17445865860690835 142.80890696720576);\n$success-600: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n$success-650: oklch(0.4778879989458421 0.16120283434453703 142.72440047135717);\n$success-700: oklch(0.40673527019801387 0.13746145702504803 142.64804661017473);\n$success-750: oklch(0.3355825414501856 0.11372007970555903 142.57169274899232);\n$success-800: oklch(0.26442981270235744 0.08997870238607004 142.49533888780988);\n$success-850: oklch(0.21815459547944488 0.07648189702815954 142.49533888780988);\n$success-900: oklch(0.17187937825653232 0.06298509167024903 142.49533888780988);\n$success-950: oklch(0.12560416103361977 0.04948828631233853 142.49533888780988);\n$warning-50: oklch(0.9739777778864123 0.017695077274685146 43.9454781334139);\n$warning-100: oklch(0.9479555557728245 0.029945515387928705 43.9454781334139);\n$warning-150: oklch(0.9219333336592369 0.042195953501172265 43.9454781334139);\n$warning-200: oklch(0.8959111115456492 0.05444639161441583 43.9454781334139);\n$warning-250: oklch(0.8436567377995562 0.07383969866253859 43.88732593200177);\n$warning-300: oklch(0.7914023640534633 0.09323300571066136 43.829173730589645);\n$warning-350: oklch(0.7391479903073703 0.11262631275878413 43.77102152917751);\n$warning-400: oklch(0.6868936165612773 0.13201961980690688 43.71286932776538);\n$warning-450: oklch(0.6610028202949751 0.14144095719007027 43.78396833320002);\n$warning-500: oklch(0.635112024028673 0.15086229457323366 43.85506733863466);\n$warning-550: oklch(0.6092212277623706 0.16028363195639705 43.9261663440693);\n$warning-600: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n$warning-650: oklch(0.507009085738871 0.149901753081645 42.56483564766481);\n$warning-700: oklch(0.43068773998167365 0.13009853682372957 41.13240594582567);\n$warning-750: oklch(0.3543663942244763 0.11029532056581412 39.69997624398653);\n$warning-800: oklch(0.2780450484672789 0.09049210430789867 38.26754654214739);\n$warning-850: oklch(0.2293871649855051 0.07691828866171387 38.26754654214739);\n$warning-900: oklch(0.1807292815037313 0.06334447301552906 38.26754654214739);\n$warning-950: oklch(0.13207139802195747 0.04977065736934427 38.26754654214739);\n$danger-50: oklch(0.9688081012787089 0.02046893571008903 18.42817489942577);\n$danger-100: oklch(0.9376162025574177 0.034639737355535286 18.42817489942577);\n$danger-150: oklch(0.9064243038361265 0.048810539000981534 18.42817489942577);\n$danger-200: oklch(0.8752324051148354 0.06298134064642778 18.42817489942577);\n$danger-250: oklch(0.8133068732197568 0.08452871651344564 18.398482771634782);\n$danger-300: oklch(0.7513813413246784 0.1060760923804635 18.368790643843795);\n$danger-350: oklch(0.6894558094295998 0.12762346824748136 18.339098516052807);\n$danger-400: oklch(0.6275302775345213 0.1491708441144992 18.30940638826182);\n$danger-450: oklch(0.5961466901234453 0.1600594003984286 18.251840020312933);\n$danger-500: oklch(0.5647631027123693 0.17094795668235796 18.194273652364046);\n$danger-550: oklch(0.5333795153012932 0.1818365129662873 18.13670728441516);\n$danger-600: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n$danger-650: oklch(0.43761291207168196 0.16911051005163913 18.72632727121819);\n$danger-700: oklch(0.3732298962531466 0.1454959508530616 19.3735136259701);\n$danger-750: oklch(0.30884688043461134 0.12188139165448407 20.020699980722014);\n$danger-800: oklch(0.244463864616076 0.09826683245590653 20.66788633547393);\n$danger-850: oklch(0.2016826883082627 0.08352680758752055 20.66788633547393);\n$danger-900: oklch(0.15890151200044939 0.06878678271913458 20.66788633547393);\n$danger-950: oklch(0.1161203356926361 0.0540467578507486 20.66788633547393);\n$info-50: oklch(0.9472470414070251 0.01319114316017373 261.49146551846417);\n$info-100: oklch(0.8944940828140502 0.02232347304029401 261.49146551846417);\n$info-150: oklch(0.8417411242210754 0.03145580292041429 261.49146551846417);\n$info-200: oklch(0.7889881656281005 0.04058813280053457 261.49146551846417);\n$info-250: oklch(0.7327975333484203 0.05432284288357939 261.7505460408388);\n$info-300: oklch(0.6766069010687401 0.06805755296662422 262.0096265632134);\n$info-350: oklch(0.62041626878906 0.08179226304966905 262.268707085588);\n$info-400: oklch(0.5642256365093798 0.09552697313271387 262.52778760796264);\n$info-450: oklch(0.5358247299257868 0.10246599429811404 262.4837143651888);\n$info-500: oklch(0.5074238233421937 0.10940501546351422 262.4396411224149);\n$info-550: oklch(0.47902291675860065 0.1163440366289144 262.395567879641);\n$info-600: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n$info-650: oklch(0.3914472612047992 0.10948475002303204 262.3659717757216);\n$info-700: oklch(0.33227251223459087 0.09568644225174952 262.3804489145761);\n$info-750: oklch(0.2730977632643825 0.08188813448046699 262.3949260534306);\n$info-800: oklch(0.21392301429417415 0.06808982670918445 262.409403192285);\n$info-850: oklch(0.1764864867926937 0.057876352702806784 262.409403192285);\n$info-900: oklch(0.13904995929121322 0.047662878696429115 262.409403192285);\n$info-950: oklch(0.10161343178973273 0.03744940469005145 262.409403192285);\n";
+
+// src/scss/colors/semantic/rgb.scss
+var rgb_exports12 = {};
+__export(rgb_exports12, {
+  default: () => rgb_default9
+});
+var rgb_default9 = "$success-50: rgb(239, 249, 237);\n$success-100: rgb(224, 243, 222);\n$success-150: rgb(210, 236, 207);\n$success-200: rgb(196, 229, 192);\n$success-250: rgb(170, 214, 165);\n$success-300: rgb(143, 199, 138);\n$success-350: rgb(116, 183, 111);\n$success-400: rgb(88, 168, 84);\n$success-450: rgb(73, 161, 70);\n$success-500: rgb(57, 153, 54);\n$success-550: rgb(37, 146, 36);\n$success-600: rgb(0, 138, 7);\n$success-650: rgb(0, 114, 4);\n$success-700: rgb(0, 90, 2);\n$success-750: rgb(0, 68, 1);\n$success-800: rgb(0, 47, 0);\n$success-850: rgb(0, 34, 0);\n$success-900: rgb(0, 22, 0);\n$success-950: rgb(0, 11, 0);\n$warning-50: rgb(255, 243, 237);\n$warning-100: rgb(255, 232, 222);\n$warning-150: rgb(255, 221, 207);\n$warning-200: rgb(253, 210, 192);\n$warning-250: rgb(246, 189, 165);\n$warning-300: rgb(238, 168, 138);\n$warning-350: rgb(230, 147, 111);\n$warning-400: rgb(221, 125, 83);\n$warning-450: rgb(216, 114, 68);\n$warning-500: rgb(211, 103, 52);\n$warning-550: rgb(206, 92, 33);\n$warning-600: rgb(201, 80, 0);\n$warning-650: rgb(168, 63, 3);\n$warning-700: rgb(136, 47, 3);\n$warning-750: rgb(105, 32, 1);\n$warning-800: rgb(75, 18, 0);\n$warning-850: rgb(57, 10, 0);\n$warning-900: rgb(39, 4, 0);\n$warning-950: rgb(23, 1, 0);\n$danger-50: rgb(255, 240, 239);\n$danger-100: rgb(255, 226, 225);\n$danger-150: rgb(255, 212, 212);\n$danger-200: rgb(253, 198, 198);\n$danger-250: rgb(244, 172, 173);\n$danger-300: rgb(234, 146, 148);\n$danger-350: rgb(223, 120, 124);\n$danger-400: rgb(211, 93, 101);\n$danger-450: rgb(205, 78, 89);\n$danger-500: rgb(198, 63, 78);\n$danger-550: rgb(191, 44, 66);\n$danger-600: rgb(184, 18, 55);\n$danger-650: rgb(153, 11, 42);\n$danger-700: rgb(124, 6, 31);\n$danger-750: rgb(95, 2, 20);\n$danger-800: rgb(68, 0, 10);\n$danger-850: rgb(51, 0, 5);\n$danger-900: rgb(35, 0, 2);\n$danger-950: rgb(20, 0, 1);\n$info-50: rgb(233, 238, 247);\n$info-100: rgb(212, 221, 235);\n$info-150: rgb(192, 204, 224);\n$info-200: rgb(172, 187, 213);\n$info-250: rgb(150, 169, 204);\n$info-300: rgb(128, 152, 194);\n$info-350: rgb(107, 134, 184);\n$info-400: rgb(87, 117, 174);\n$info-450: rgb(77, 108, 169);\n$info-500: rgb(66, 100, 164);\n$info-550: rgb(56, 91, 158);\n$info-600: rgb(46, 82, 153);\n$info-650: rgb(35, 66, 127);\n$info-700: rgb(25, 51, 102);\n$info-750: rgb(16, 37, 79);\n$info-800: rgb(7, 23, 56);\n$info-850: rgb(4, 15, 42);\n$info-900: rgb(2, 7, 28);\n$info-950: rgb(0, 3, 15);\n";
+
+// src/tailwind/colors/global/hex.css
+var hex_exports13 = {};
+__export(hex_exports13, {
+  default: () => hex_default10
+});
+var hex_default10 = "@theme {\n  --color-nsw-grey-50: #fafafa;\n  --color-nsw-grey-100: #f5f5f5;\n  --color-nsw-grey-150: #f0f0f0;\n  --color-nsw-grey-200: #ebebeb;\n  --color-nsw-grey-250: #e3e5e6;\n  --color-nsw-grey-300: #dcdfe0;\n  --color-nsw-grey-350: #d4d9db;\n  --color-nsw-grey-400: #cdd3d6;\n  --color-nsw-grey-450: #aab0b4;\n  --color-nsw-grey-500: #888f92;\n  --color-nsw-grey-550: #686f72;\n  --color-nsw-grey-600: #495054;\n  --color-nsw-grey-650: #3f4549;\n  --color-nsw-grey-700: #353b3f;\n  --color-nsw-grey-750: #2b3135;\n  --color-nsw-grey-800: #22272b;\n  --color-nsw-grey-850: #181c1f;\n  --color-nsw-grey-900: #0e1113;\n  --color-nsw-grey-950: #050709;\n  --color-nsw-green-50: #f5fff6;\n  --color-nsw-green-100: #ecfdee;\n  --color-nsw-green-150: #e4fce7;\n  --color-nsw-green-200: #dbfadf;\n  --color-nsw-green-250: #cff7d4;\n  --color-nsw-green-300: #c2f4c9;\n  --color-nsw-green-350: #b5f0be;\n  --color-nsw-green-400: #a8edb3;\n  --color-nsw-green-450: #8adc98;\n  --color-nsw-green-500: #6acc7d;\n  --color-nsw-green-550: #45bb62;\n  --color-nsw-green-600: #00aa45;\n  --color-nsw-green-650: #078e32;\n  --color-nsw-green-700: #077320;\n  --color-nsw-green-750: #03590f;\n  --color-nsw-green-800: #004000;\n  --color-nsw-green-850: #003000;\n  --color-nsw-green-900: #002000;\n  --color-nsw-green-950: #001100;\n  --color-nsw-teal-50: #f2fbfa;\n  --color-nsw-teal-100: #e7f7f5;\n  --color-nsw-teal-150: #dcf2ef;\n  --color-nsw-teal-200: #d1eeea;\n  --color-nsw-teal-250: #c1eae7;\n  --color-nsw-teal-300: #afe5e5;\n  --color-nsw-teal-350: #9ee0e5;\n  --color-nsw-teal-400: #8cdbe5;\n  --color-nsw-teal-450: #75c4cf;\n  --color-nsw-teal-500: #5eacb9;\n  --color-nsw-teal-550: #4696a3;\n  --color-nsw-teal-600: #2e808e;\n  --color-nsw-teal-650: #256f7b;\n  --color-nsw-teal-700: #1c5f69;\n  --color-nsw-teal-750: #144e58;\n  --color-nsw-teal-800: #0b3f47;\n  --color-nsw-teal-850: #042f35;\n  --color-nsw-teal-900: #011f24;\n  --color-nsw-teal-950: #001114;\n  --color-nsw-blue-50: #f0fbff;\n  --color-nsw-blue-100: #e4f6ff;\n  --color-nsw-blue-150: #d7f2fe;\n  --color-nsw-blue-200: #cbedfd;\n  --color-nsw-blue-250: #bceafe;\n  --color-nsw-blue-300: #ade7ff;\n  --color-nsw-blue-350: #9de3ff;\n  --color-nsw-blue-400: #8ce0ff;\n  --color-nsw-blue-450: #5ac9ff;\n  --color-nsw-blue-500: #26aeff;\n  --color-nsw-blue-550: #008fff;\n  --color-nsw-blue-600: #146cfd;\n  --color-nsw-blue-650: #0c5ad4;\n  --color-nsw-blue-700: #0548ad;\n  --color-nsw-blue-750: #023688;\n  --color-nsw-blue-800: #002664;\n  --color-nsw-blue-850: #001a4d;\n  --color-nsw-blue-900: #001037;\n  --color-nsw-blue-950: #000622;\n  --color-nsw-purple-50: #f9f7ff;\n  --color-nsw-purple-100: #f2f0ff;\n  --color-nsw-purple-150: #ece8fe;\n  --color-nsw-purple-200: #e6e1fd;\n  --color-nsw-purple-250: #e0d9fe;\n  --color-nsw-purple-300: #dad0fe;\n  --color-nsw-purple-350: #d4c8ff;\n  --color-nsw-purple-400: #cebfff;\n  --color-nsw-purple-450: #baa6fc;\n  --color-nsw-purple-500: #a68df9;\n  --color-nsw-purple-550: #9372f5;\n  --color-nsw-purple-600: #8055f1;\n  --color-nsw-purple-650: #7243cf;\n  --color-nsw-purple-700: #6432ae;\n  --color-nsw-purple-750: #54218e;\n  --color-nsw-purple-800: #441170;\n  --color-nsw-purple-850: #330856;\n  --color-nsw-purple-900: #23023e;\n  --color-nsw-purple-950: #130027;\n  --color-nsw-fuchsia-50: #fff6fd;\n  --color-nsw-fuchsia-100: #ffeef9;\n  --color-nsw-fuchsia-150: #fee6f6;\n  --color-nsw-fuchsia-200: #fddef2;\n  --color-nsw-fuchsia-250: #fbd4ef;\n  --color-nsw-fuchsia-300: #f9c9eb;\n  --color-nsw-fuchsia-350: #f7bfe9;\n  --color-nsw-fuchsia-400: #f4b5e6;\n  --color-nsw-fuchsia-450: #ef96da;\n  --color-nsw-fuchsia-500: #e975cc;\n  --color-nsw-fuchsia-550: #e150be;\n  --color-nsw-fuchsia-600: #d912ae;\n  --color-nsw-fuchsia-650: #bb0c94;\n  --color-nsw-fuchsia-700: #9d067b;\n  --color-nsw-fuchsia-750: #810264;\n  --color-nsw-fuchsia-800: #65004d;\n  --color-nsw-fuchsia-850: #4d003a;\n  --color-nsw-fuchsia-900: #370028;\n  --color-nsw-fuchsia-950: #220017;\n  --color-nsw-red-50: #fff8f9;\n  --color-nsw-red-100: #fff2f4;\n  --color-nsw-red-150: #ffecef;\n  --color-nsw-red-200: #ffe6ea;\n  --color-nsw-red-250: #ffdbe0;\n  --color-nsw-red-300: #ffcfd6;\n  --color-nsw-red-350: #ffc4cc;\n  --color-nsw-red-400: #ffb8c1;\n  --color-nsw-red-450: #f897a2;\n  --color-nsw-red-500: #ef7581;\n  --color-nsw-red-550: #e44f5f;\n  --color-nsw-red-600: #d7153a;\n  --color-nsw-red-650: #b90e32;\n  --color-nsw-red-700: #9b072a;\n  --color-nsw-red-750: #7e0322;\n  --color-nsw-red-800: #630019;\n  --color-nsw-red-850: #4c0010;\n  --color-nsw-red-900: #360008;\n  --color-nsw-red-950: #210003;\n  --color-nsw-orange-50: #fffaf6;\n  --color-nsw-orange-100: #fff6ee;\n  --color-nsw-orange-150: #fef1e7;\n  --color-nsw-orange-200: #fdeddf;\n  --color-nsw-orange-250: #fee5ce;\n  --color-nsw-orange-300: #ffddbd;\n  --color-nsw-orange-350: #ffd6ab;\n  --color-nsw-orange-400: #ffce99;\n  --color-nsw-orange-450: #fdb678;\n  --color-nsw-orange-500: #fb9d58;\n  --color-nsw-orange-550: #f78139;\n  --color-nsw-orange-600: #f3631b;\n  --color-nsw-orange-650: #db5115;\n  --color-nsw-orange-700: #c33f0e;\n  --color-nsw-orange-750: #ab2e06;\n  --color-nsw-orange-800: #941b00;\n  --color-nsw-orange-850: #730f00;\n  --color-nsw-orange-900: #530400;\n  --color-nsw-orange-950: #350000;\n  --color-nsw-yellow-50: #fffcf0;\n  --color-nsw-yellow-100: #fffae5;\n  --color-nsw-yellow-150: #fff7da;\n  --color-nsw-yellow-200: #fff4cf;\n  --color-nsw-yellow-250: #fff1c2;\n  --color-nsw-yellow-300: #feeeb5;\n  --color-nsw-yellow-350: #feeaa8;\n  --color-nsw-yellow-400: #fde79a;\n  --color-nsw-yellow-450: #fbda80;\n  --color-nsw-yellow-500: #facd63;\n  --color-nsw-yellow-550: #fabe42;\n  --color-nsw-yellow-600: #faaf05;\n  --color-nsw-yellow-650: #d49403;\n  --color-nsw-yellow-700: #af7a01;\n  --color-nsw-yellow-750: #8b6000;\n  --color-nsw-yellow-800: #694800;\n  --color-nsw-yellow-850: #503500;\n  --color-nsw-yellow-900: #392400;\n  --color-nsw-yellow-950: #221300;\n  --color-nsw-brown-50: #fbf8f4;\n  --color-nsw-brown-100: #f6f1ea;\n  --color-nsw-brown-150: #f2eae1;\n  --color-nsw-brown-200: #ede3d7;\n  --color-nsw-brown-250: #ecdece;\n  --color-nsw-brown-300: #eadac6;\n  --color-nsw-brown-350: #e9d5bd;\n  --color-nsw-brown-400: #e8d0b5;\n  --color-nsw-brown-450: #dbbf9f;\n  --color-nsw-brown-500: #cfae89;\n  --color-nsw-brown-550: #c29d73;\n  --color-nsw-brown-600: #b68d5d;\n  --color-nsw-brown-650: #9c764b;\n  --color-nsw-brown-700: #82603a;\n  --color-nsw-brown-750: #6a4b29;\n  --color-nsw-brown-800: #523719;\n  --color-nsw-brown-850: #3e280f;\n  --color-nsw-brown-900: #2b1a07;\n  --color-nsw-brown-950: #190d02;\n  --color-nsw-aboriginal-grey-50: #f9f8f7;\n  --color-nsw-aboriginal-grey-100: #f2f1ef;\n  --color-nsw-aboriginal-grey-150: #ebeae8;\n  --color-nsw-aboriginal-grey-200: #e5e3e0;\n  --color-nsw-aboriginal-grey-250: #dfdcd8;\n  --color-nsw-aboriginal-grey-300: #d8d4d1;\n  --color-nsw-aboriginal-grey-350: #d2cdc9;\n  --color-nsw-aboriginal-grey-400: #ccc6c2;\n  --color-nsw-aboriginal-grey-450: #ada8a5;\n  --color-nsw-aboriginal-grey-500: #8e8b8a;\n  --color-nsw-aboriginal-grey-550: #71706f;\n  --color-nsw-aboriginal-grey-600: #555555;\n  --color-nsw-aboriginal-grey-650: #4b4b4b;\n  --color-nsw-aboriginal-grey-700: #404040;\n  --color-nsw-aboriginal-grey-750: #373737;\n  --color-nsw-aboriginal-grey-800: #2d2d2d;\n  --color-nsw-aboriginal-grey-850: #202020;\n  --color-nsw-aboriginal-grey-900: #141414;\n  --color-nsw-aboriginal-grey-950: #090909;\n  --color-nsw-aboriginal-red-50: #fff5f5;\n  --color-nsw-aboriginal-red-100: #ffebeb;\n  --color-nsw-aboriginal-red-150: #fee2e2;\n  --color-nsw-aboriginal-red-200: #fdd9d9;\n  --color-nsw-aboriginal-red-250: #fdd0d0;\n  --color-nsw-aboriginal-red-300: #fcc7c6;\n  --color-nsw-aboriginal-red-350: #fcbdbd;\n  --color-nsw-aboriginal-red-400: #fbb4b3;\n  --color-nsw-aboriginal-red-450: #f79693;\n  --color-nsw-aboriginal-red-500: #f27771;\n  --color-nsw-aboriginal-red-550: #ea554c;\n  --color-nsw-aboriginal-red-600: #e1261c;\n  --color-nsw-aboriginal-red-650: #cd1f17;\n  --color-nsw-aboriginal-red-700: #ba1811;\n  --color-nsw-aboriginal-red-750: #a7110b;\n  --color-nsw-aboriginal-red-800: #950906;\n  --color-nsw-aboriginal-red-850: #740001;\n  --color-nsw-aboriginal-red-900: #540000;\n  --color-nsw-aboriginal-red-950: #360000;\n  --color-nsw-aboriginal-orange-50: #fff4ec;\n  --color-nsw-aboriginal-orange-100: #fee9dd;\n  --color-nsw-aboriginal-orange-150: #fcdfcd;\n  --color-nsw-aboriginal-orange-200: #f9d4be;\n  --color-nsw-aboriginal-orange-250: #f8caae;\n  --color-nsw-aboriginal-orange-300: #f7bf9e;\n  --color-nsw-aboriginal-orange-350: #f6b58e;\n  --color-nsw-aboriginal-orange-400: #f4aa7d;\n  --color-nsw-aboriginal-orange-450: #f39a66;\n  --color-nsw-aboriginal-orange-500: #f2894f;\n  --color-nsw-aboriginal-orange-550: #f07736;\n  --color-nsw-aboriginal-orange-600: #ee6314;\n  --color-nsw-aboriginal-orange-650: #d45310;\n  --color-nsw-aboriginal-orange-700: #ba440a;\n  --color-nsw-aboriginal-orange-750: #a13505;\n  --color-nsw-aboriginal-orange-800: #882600;\n  --color-nsw-aboriginal-orange-850: #691900;\n  --color-nsw-aboriginal-orange-900: #4c0d00;\n  --color-nsw-aboriginal-orange-950: #300300;\n  --color-nsw-aboriginal-brown-50: #fcf1e9;\n  --color-nsw-aboriginal-brown-100: #f6e3d7;\n  --color-nsw-aboriginal-brown-150: #efd5c4;\n  --color-nsw-aboriginal-brown-200: #e9c8b2;\n  --color-nsw-aboriginal-brown-250: #e4ba9f;\n  --color-nsw-aboriginal-brown-300: #dead8c;\n  --color-nsw-aboriginal-brown-350: #d99f78;\n  --color-nsw-aboriginal-brown-400: #d39165;\n  --color-nsw-aboriginal-brown-450: #c68158;\n  --color-nsw-aboriginal-brown-500: #b9724b;\n  --color-nsw-aboriginal-brown-550: #ab623e;\n  --color-nsw-aboriginal-brown-600: #9e5332;\n  --color-nsw-aboriginal-brown-650: #8b4627;\n  --color-nsw-aboriginal-brown-700: #79391c;\n  --color-nsw-aboriginal-brown-750: #672d10;\n  --color-nsw-aboriginal-brown-800: #552105;\n  --color-nsw-aboriginal-brown-850: #411602;\n  --color-nsw-aboriginal-brown-900: #2d0c00;\n  --color-nsw-aboriginal-brown-950: #1b0400;\n  --color-nsw-aboriginal-yellow-50: #fffcee;\n  --color-nsw-aboriginal-yellow-100: #fff8e0;\n  --color-nsw-aboriginal-yellow-150: #fff5d3;\n  --color-nsw-aboriginal-yellow-200: #fff1c5;\n  --color-nsw-aboriginal-yellow-250: #ffeeb7;\n  --color-nsw-aboriginal-yellow-300: #ffeba9;\n  --color-nsw-aboriginal-yellow-350: #fee79b;\n  --color-nsw-aboriginal-yellow-400: #fee48c;\n  --color-nsw-aboriginal-yellow-450: #fed675;\n  --color-nsw-aboriginal-yellow-500: #fec85d;\n  --color-nsw-aboriginal-yellow-550: #feb944;\n  --color-nsw-aboriginal-yellow-600: #fea927;\n  --color-nsw-aboriginal-yellow-650: #df961c;\n  --color-nsw-aboriginal-yellow-700: #c18312;\n  --color-nsw-aboriginal-yellow-750: #a57007;\n  --color-nsw-aboriginal-yellow-800: #895e00;\n  --color-nsw-aboriginal-yellow-850: #694700;\n  --color-nsw-aboriginal-yellow-900: #4c3000;\n  --color-nsw-aboriginal-yellow-950: #2f1c00;\n  --color-nsw-aboriginal-green-50: #f5f9f2;\n  --color-nsw-aboriginal-green-100: #ecf3e7;\n  --color-nsw-aboriginal-green-150: #e3ecdc;\n  --color-nsw-aboriginal-green-200: #dae6d1;\n  --color-nsw-aboriginal-green-250: #d1e0c6;\n  --color-nsw-aboriginal-green-300: #c7d9ba;\n  --color-nsw-aboriginal-green-350: #bed3af;\n  --color-nsw-aboriginal-green-400: #b5cda4;\n  --color-nsw-aboriginal-green-450: #a5c28e;\n  --color-nsw-aboriginal-green-500: #95b777;\n  --color-nsw-aboriginal-green-550: #86ac60;\n  --color-nsw-aboriginal-green-600: #78a146;\n  --color-nsw-aboriginal-green-650: #5f8f44;\n  --color-nsw-aboriginal-green-700: #497d40;\n  --color-nsw-aboriginal-green-750: #346a3b;\n  --color-nsw-aboriginal-green-800: #215834;\n  --color-nsw-aboriginal-green-850: #154225;\n  --color-nsw-aboriginal-green-900: #0a2e17;\n  --color-nsw-aboriginal-green-950: #021b0a;\n  --color-nsw-aboriginal-blue-50: #eef8fa;\n  --color-nsw-aboriginal-blue-100: #dff1f4;\n  --color-nsw-aboriginal-blue-150: #d0e9ee;\n  --color-nsw-aboriginal-blue-200: #c1e2e8;\n  --color-nsw-aboriginal-blue-250: #b2dbe2;\n  --color-nsw-aboriginal-blue-300: #a3d4dc;\n  --color-nsw-aboriginal-blue-350: #94ccd7;\n  --color-nsw-aboriginal-blue-400: #84c5d1;\n  --color-nsw-aboriginal-blue-450: #67aec0;\n  --color-nsw-aboriginal-blue-500: #4a96b0;\n  --color-nsw-aboriginal-blue-550: #2e7fa1;\n  --color-nsw-aboriginal-blue-600: #0d6791;\n  --color-nsw-aboriginal-blue-650: #145782;\n  --color-nsw-aboriginal-blue-700: #174773;\n  --color-nsw-aboriginal-blue-750: #183763;\n  --color-nsw-aboriginal-blue-800: #162953;\n  --color-nsw-aboriginal-blue-850: #0e1d3f;\n  --color-nsw-aboriginal-blue-900: #06122c;\n  --color-nsw-aboriginal-blue-950: #02071b;\n  --color-nsw-aboriginal-purple-50: #faf1f8;\n  --color-nsw-aboriginal-purple-100: #f2e5f0;\n  --color-nsw-aboriginal-purple-150: #ebd8e8;\n  --color-nsw-aboriginal-purple-200: #e4cce0;\n  --color-nsw-aboriginal-purple-250: #ddbfd8;\n  --color-nsw-aboriginal-purple-300: #d7b3d1;\n  --color-nsw-aboriginal-purple-350: #d0a6c9;\n  --color-nsw-aboriginal-purple-400: #c99ac2;\n  --color-nsw-aboriginal-purple-450: #bd8bb6;\n  --color-nsw-aboriginal-purple-500: #b17caa;\n  --color-nsw-aboriginal-purple-550: #a66d9f;\n  --color-nsw-aboriginal-purple-600: #9a5e93;\n  --color-nsw-aboriginal-purple-650: #844f7e;\n  --color-nsw-aboriginal-purple-700: #6f4169;\n  --color-nsw-aboriginal-purple-750: #5b3355;\n  --color-nsw-aboriginal-purple-800: #472642;\n  --color-nsw-aboriginal-purple-850: #351a31;\n  --color-nsw-aboriginal-purple-900: #241021;\n  --color-nsw-aboriginal-purple-950: #150612;\n}\n";
+
+// src/tailwind/colors/global/hsl.css
+var hsl_exports13 = {};
+__export(hsl_exports13, {
+  default: () => hsl_default10
+});
+var hsl_default10 = "@theme {\n  --color-nsw-grey-50: hsl(223.81, 0%, 98.03%);\n  --color-nsw-grey-100: hsl(223.81, 0%, 96.06%);\n  --color-nsw-grey-150: hsl(223.81, 0%, 94.11%);\n  --color-nsw-grey-200: hsl(223.81, 0%, 92.16%);\n  --color-nsw-grey-250: hsl(200.05, 4.31%, 89.64%);\n  --color-nsw-grey-300: hsl(200.03, 6.92%, 87.13%);\n  --color-nsw-grey-350: hsl(200.02, 8.65%, 84.64%);\n  --color-nsw-grey-400: hsl(200, 9.89%, 82.16%);\n  --color-nsw-grey-450: hsl(200.47, 6.03%, 68.52%);\n  --color-nsw-grey-500: hsl(200.94, 4.51%, 55.36%);\n  --color-nsw-grey-550: hsl(201.39, 4.91%, 42.76%);\n  --color-nsw-grey-600: hsl(201.82, 7.01%, 30.78%);\n  --color-nsw-grey-650: hsl(203.03, 7.74%, 26.71%);\n  --color-nsw-grey-700: hsl(204.24, 8.68%, 22.73%);\n  --color-nsw-grey-750: hsl(205.45, 9.93%, 18.85%);\n  --color-nsw-grey-800: hsl(206.67, 11.69%, 15.1%);\n  --color-nsw-grey-850: hsl(206.66, 13.37%, 10.7%);\n  --color-nsw-grey-900: hsl(206.64, 17.01%, 6.52%);\n  --color-nsw-grey-950: hsl(208.68, 23.47%, 2.8%);\n  --color-nsw-green-50: hsl(126.92, 92.48%, 97.87%);\n  --color-nsw-green-100: hsl(127.18, 81.76%, 95.93%);\n  --color-nsw-green-150: hsl(127.45, 77.77%, 93.96%);\n  --color-nsw-green-200: hsl(127.74, 75.61%, 91.96%);\n  --color-nsw-green-250: hsl(128.12, 71.21%, 88.91%);\n  --color-nsw-green-300: hsl(128.55, 68.62%, 85.81%);\n  --color-nsw-green-350: hsl(129.02, 66.91%, 82.65%);\n  --color-nsw-green-400: hsl(129.57, 65.71%, 79.41%);\n  --color-nsw-green-450: hsl(130.48, 54.36%, 70.18%);\n  --color-nsw-green-500: hsl(131.91, 48.76%, 60.63%);\n  --color-nsw-green-550: hsl(134.54, 46.29%, 50.21%);\n  --color-nsw-green-600: hsl(144.35, 100%, 33.33%);\n  --color-nsw-green-650: hsl(139.28, 90.98%, 29.11%);\n  --color-nsw-green-700: hsl(134.23, 89.08%, 23.77%);\n  --color-nsw-green-750: hsl(127.99, 92.45%, 18.06%);\n  --color-nsw-green-800: hsl(120, 100%, 12.55%);\n  --color-nsw-green-850: hsl(120.41, 100%, 8.99%);\n  --color-nsw-green-900: hsl(120.77, 100%, 5.85%);\n  --color-nsw-green-950: hsl(121.17, 100%, 3.07%);\n  --color-nsw-teal-50: hsl(171.22, 56.11%, 96.73%);\n  --color-nsw-teal-100: hsl(171.38, 49.48%, 93.72%);\n  --color-nsw-teal-150: hsl(171.55, 47.18%, 90.69%);\n  --color-nsw-teal-200: hsl(171.72, 46.03%, 87.65%);\n  --color-nsw-teal-250: hsl(176, 49.12%, 83.57%);\n  --color-nsw-teal-300: hsl(180.06, 50.95%, 79.35%);\n  --color-nsw-teal-350: hsl(183.68, 57.18%, 75.79%);\n  --color-nsw-teal-400: hsl(186.74, 63.12%, 72.35%);\n  --color-nsw-teal-450: hsl(187.41, 48.14%, 63.4%);\n  --color-nsw-teal-500: hsl(188, 39.25%, 54.56%);\n  --color-nsw-teal-550: hsl(188.48, 39.69%, 45.78%);\n  --color-nsw-teal-600: hsl(188.75, 51.06%, 36.86%);\n  --color-nsw-teal-650: hsl(188.61, 53.88%, 31.46%);\n  --color-nsw-teal-700: hsl(188.45, 57.8%, 26.19%);\n  --color-nsw-teal-750: hsl(188.26, 63.6%, 21.07%);\n  --color-nsw-teal-800: hsl(188, 73.17%, 16.08%);\n  --color-nsw-teal-850: hsl(187.99, 84.92%, 11.28%);\n  --color-nsw-teal-900: hsl(188.56, 96.03%, 7.26%);\n  --color-nsw-teal-950: hsl(190.58, 100%, 3.88%);\n  --color-nsw-blue-50: hsl(199.45, 100%, 97.34%);\n  --color-nsw-blue-100: hsl(199.38, 100%, 94.73%);\n  --color-nsw-blue-150: hsl(199.3, 95.85%, 92.09%);\n  --color-nsw-blue-200: hsl(199.2, 92.59%, 89.41%);\n  --color-nsw-blue-250: hsl(198.5, 96.87%, 86.75%);\n  --color-nsw-blue-300: hsl(197.76, 98.99%, 83.89%);\n  --color-nsw-blue-350: hsl(197, 99.87%, 80.82%);\n  --color-nsw-blue-400: hsl(196.17, 100%, 77.45%);\n  --color-nsw-blue-450: hsl(199.74, 99.83%, 67.57%);\n  --color-nsw-blue-500: hsl(202.52, 100%, 57.55%);\n  --color-nsw-blue-550: hsl(204.76, 100%, 46.97%);\n  --color-nsw-blue-600: hsl(217.34, 98.31%, 53.53%);\n  --color-nsw-blue-650: hsl(216.77, 89.43%, 43.98%);\n  --color-nsw-blue-700: hsl(216.29, 94.14%, 35%);\n  --color-nsw-blue-750: hsl(216.37, 97.67%, 26.93%);\n  --color-nsw-blue-800: hsl(217.2, 100%, 19.61%);\n  --color-nsw-blue-850: hsl(218.95, 100%, 14.93%);\n  --color-nsw-blue-900: hsl(222.31, 100%, 10.59%);\n  --color-nsw-blue-950: hsl(228.65, 100%, 6.6%);\n  --color-nsw-purple-50: hsl(250, 100%, 98.76%);\n  --color-nsw-purple-100: hsl(250.23, 100%, 97.09%);\n  --color-nsw-purple-150: hsl(250.47, 93.41%, 95.41%);\n  --color-nsw-purple-200: hsl(250.71, 87.5%, 93.73%);\n  --color-nsw-purple-250: hsl(251.53, 93.83%, 92.23%);\n  --color-nsw-purple-300: hsl(252.35, 97.33%, 90.69%);\n  --color-nsw-purple-350: hsl(253.2, 99.18%, 89.09%);\n  --color-nsw-purple-400: hsl(254.06, 100%, 87.45%);\n  --color-nsw-purple-450: hsl(253.9, 94.13%, 82.01%);\n  --color-nsw-purple-500: hsl(254.11, 90.14%, 76.39%);\n  --color-nsw-purple-550: hsl(254.88, 87.11%, 70.46%);\n  --color-nsw-purple-600: hsl(256.54, 84.78%, 63.92%);\n  --color-nsw-purple-650: hsl(260.32, 59.17%, 53.67%);\n  --color-nsw-purple-700: hsl(264.12, 55.46%, 43.83%);\n  --color-nsw-purple-750: hsl(268.02, 62.04%, 34.39%);\n  --color-nsw-purple-800: hsl(272.21, 73.64%, 25.29%);\n  --color-nsw-purple-850: hsl(272.75, 82.69%, 18.56%);\n  --color-nsw-purple-900: hsl(272.45, 92.77%, 12.64%);\n  --color-nsw-purple-950: hsl(269.95, 100%, 7.66%);\n  --color-nsw-fuchsia-50: hsl(322.15, 100%, 98.49%);\n  --color-nsw-fuchsia-100: hsl(321.87, 100%, 96.73%);\n  --color-nsw-fuchsia-150: hsl(321.58, 93.98%, 94.94%);\n  --color-nsw-fuchsia-200: hsl(321.29, 88.57%, 93.14%);\n  --color-nsw-fuchsia-250: hsl(319.35, 84.42%, 90.79%);\n  --color-nsw-fuchsia-300: hsl(317.38, 80.69%, 88.38%);\n  --color-nsw-fuchsia-350: hsl(315.37, 77.28%, 85.89%);\n  --color-nsw-fuchsia-400: hsl(313.33, 74.12%, 83.33%);\n  --color-nsw-fuchsia-450: hsl(314.16, 73.33%, 76.26%);\n  --color-nsw-fuchsia-500: hsl(314.67, 72.14%, 68.62%);\n  --color-nsw-fuchsia-550: hsl(314.69, 71.13%, 59.86%);\n  --color-nsw-fuchsia-600: hsl(312.96, 84.68%, 46.08%);\n  --color-nsw-fuchsia-650: hsl(313.17, 88.39%, 38.86%);\n  --color-nsw-fuchsia-700: hsl(313.38, 92.9%, 31.95%);\n  --color-nsw-fuchsia-750: hsl(313.72, 96.8%, 25.62%);\n  --color-nsw-fuchsia-800: hsl(314.26, 100%, 19.8%);\n  --color-nsw-fuchsia-850: hsl(314.51, 100%, 14.68%);\n  --color-nsw-fuchsia-900: hsl(315.33, 100%, 10.15%);\n  --color-nsw-fuchsia-950: hsl(317.48, 100%, 6.11%);\n  --color-nsw-red-50: hsl(350.85, 100%, 98.97%);\n  --color-nsw-red-100: hsl(350.7, 100%, 97.7%);\n  --color-nsw-red-150: hsl(350.55, 100%, 96.41%);\n  --color-nsw-red-200: hsl(350.4, 100%, 95.1%);\n  --color-nsw-red-250: hsl(350.92, 100%, 92.94%);\n  --color-nsw-red-300: hsl(351.43, 100%, 90.72%);\n  --color-nsw-red-350: hsl(351.92, 100%, 88.44%);\n  --color-nsw-red-400: hsl(352.39, 100%, 86.08%);\n  --color-nsw-red-450: hsl(353.39, 86.96%, 78.18%);\n  --color-nsw-red-500: hsl(353.95, 78.84%, 69.69%);\n  --color-nsw-red-550: hsl(353.52, 73.17%, 60.13%);\n  --color-nsw-red-600: hsl(348.56, 82.2%, 46.27%);\n  --color-nsw-red-650: hsl(347.26, 85.91%, 38.92%);\n  --color-nsw-red-700: hsl(345.89, 91%, 31.81%);\n  --color-nsw-red-750: hsl(345, 95.87%, 25.31%);\n  --color-nsw-red-800: hsl(344.85, 100%, 19.41%);\n  --color-nsw-red-850: hsl(346.11, 100%, 14.46%);\n  --color-nsw-red-900: hsl(349.15, 100%, 10.03%);\n  --color-nsw-red-950: hsl(352.16, 100%, 6.06%);\n  --color-nsw-orange-50: hsl(27.87, 100%, 98.29%);\n  --color-nsw-orange-100: hsl(27.91, 96.98%, 96.64%);\n  --color-nsw-orange-150: hsl(27.96, 91.29%, 94.99%);\n  --color-nsw-orange-200: hsl(28, 88.24%, 93.33%);\n  --color-nsw-orange-250: hsl(28.75, 96.77%, 90.26%);\n  --color-nsw-orange-300: hsl(29.52, 99.73%, 87.03%);\n  --color-nsw-orange-350: hsl(30.32, 100%, 83.62%);\n  --color-nsw-orange-400: hsl(31.18, 100%, 80%);\n  --color-nsw-orange-450: hsl(28.25, 96.8%, 73.02%);\n  --color-nsw-orange-500: hsl(25.48, 94.77%, 66.34%);\n  --color-nsw-orange-550: hsl(22.75, 92.62%, 59.79%);\n  --color-nsw-orange-600: hsl(20, 90%, 52.94%);\n  --color-nsw-orange-650: hsl(18.26, 82.63%, 47%);\n  --color-nsw-orange-700: hsl(16.43, 86.72%, 40.94%);\n  --color-nsw-orange-750: hsl(14.39, 93.12%, 34.79%);\n  --color-nsw-orange-800: hsl(10.95, 100%, 29.02%);\n  --color-nsw-orange-850: hsl(9.09, 100%, 21.91%);\n  --color-nsw-orange-900: hsl(5.29, 100%, 15.58%);\n  --color-nsw-orange-950: hsl(2.01, 100%, 9.91%);\n  --color-nsw-yellow-50: hsl(46.46, 100%, 97.31%);\n  --color-nsw-yellow-100: hsl(46.38, 100%, 95.09%);\n  --color-nsw-yellow-150: hsl(46.31, 100%, 92.85%);\n  --color-nsw-yellow-200: hsl(46.25, 100%, 90.59%);\n  --color-nsw-yellow-250: hsl(46.33, 98.56%, 88%);\n  --color-nsw-yellow-300: hsl(46.42, 97.54%, 85.35%);\n  --color-nsw-yellow-350: hsl(46.53, 96.75%, 82.62%);\n  --color-nsw-yellow-400: hsl(46.67, 96.12%, 79.8%);\n  --color-nsw-yellow-450: hsl(43.95, 94.26%, 74.28%);\n  --color-nsw-yellow-500: hsl(41.83, 94.17%, 68.55%);\n  --color-nsw-yellow-550: hsl(40.46, 94.83%, 62.04%);\n  --color-nsw-yellow-600: hsl(41.63, 96.08%, 50%);\n  --color-nsw-yellow-650: hsl(41.71, 97.59%, 41.99%);\n  --color-nsw-yellow-700: hsl(41.69, 98.72%, 34.44%);\n  --color-nsw-yellow-750: hsl(41.53, 99.5%, 27.31%);\n  --color-nsw-yellow-800: hsl(41.14, 100%, 20.59%);\n  --color-nsw-yellow-850: hsl(40.68, 100%, 15.12%);\n  --color-nsw-yellow-900: hsl(39.24, 100%, 10.36%);\n  --color-nsw-yellow-950: hsl(35.52, 100%, 6.19%);\n  --color-nsw-brown-50: hsl(32.66, 48.5%, 97.07%);\n  --color-nsw-brown-100: hsl(32.68, 41.61%, 94.25%);\n  --color-nsw-brown-150: hsl(32.7, 39.2%, 91.43%);\n  --color-nsw-brown-200: hsl(32.73, 37.93%, 88.63%);\n  --color-nsw-brown-250: hsl(32.47, 43.13%, 86.7%);\n  --color-nsw-brown-300: hsl(32.23, 47.04%, 84.79%);\n  --color-nsw-brown-350: hsl(31.99, 50.11%, 82.88%);\n  --color-nsw-brown-400: hsl(31.76, 52.58%, 80.98%);\n  --color-nsw-brown-450: hsl(31.83, 46.02%, 74.17%);\n  --color-nsw-brown-500: hsl(31.93, 42.16%, 67.4%);\n  --color-nsw-brown-550: hsl(32.1, 39.63%, 60.67%);\n  --color-nsw-brown-600: hsl(32.36, 37.87%, 53.92%);\n  --color-nsw-brown-650: hsl(32.04, 34.94%, 45.3%);\n  --color-nsw-brown-700: hsl(31.77, 38.54%, 36.92%);\n  --color-nsw-brown-750: hsl(31.59, 43.99%, 28.81%);\n  --color-nsw-brown-800: hsl(31.58, 53.27%, 20.98%);\n  --color-nsw-brown-850: hsl(31.74, 60.03%, 15.18%);\n  --color-nsw-brown-900: hsl(31.73, 72.62%, 9.74%);\n  --color-nsw-brown-950: hsl(27.95, 86.11%, 5.27%);\n  --color-nsw-aboriginal-grey-50: hsl(35.99, 11.4%, 97.16%);\n  --color-nsw-aboriginal-grey-100: hsl(36, 9.67%, 94.37%);\n  --color-nsw-aboriginal-grey-150: hsl(36, 9.08%, 91.59%);\n  --color-nsw-aboriginal-grey-200: hsl(36, 8.77%, 88.82%);\n  --color-nsw-aboriginal-grey-250: hsl(32.79, 8.86%, 86.06%);\n  --color-nsw-aboriginal-grey-300: hsl(29.76, 8.93%, 83.34%);\n  --color-nsw-aboriginal-grey-350: hsl(26.85, 8.96%, 80.67%);\n  --color-nsw-aboriginal-grey-400: hsl(24, 8.93%, 78.04%);\n  --color-nsw-aboriginal-grey-450: hsl(23.99, 4.23%, 66.26%);\n  --color-nsw-aboriginal-grey-500: hsl(23.97, 2.04%, 54.85%);\n  --color-nsw-aboriginal-grey-550: hsl(23.95, 1.01%, 43.86%);\n  --color-nsw-aboriginal-grey-600: hsl(223.81, 0%, 33.33%);\n  --color-nsw-aboriginal-grey-650: hsl(223.81, 0%, 29.26%);\n  --color-nsw-aboriginal-grey-700: hsl(223.81, 0%, 25.29%);\n  --color-nsw-aboriginal-grey-750: hsl(223.81, 0%, 21.41%);\n  --color-nsw-aboriginal-grey-800: hsl(223.81, 0%, 17.65%);\n  --color-nsw-aboriginal-grey-850: hsl(223.81, 0%, 12.7%);\n  --color-nsw-aboriginal-grey-900: hsl(223.81, 0%, 8.01%);\n  --color-nsw-aboriginal-grey-950: hsl(223.81, 0%, 3.63%);\n  --color-nsw-aboriginal-red-50: hsl(0.45, 100%, 98.34%);\n  --color-nsw-aboriginal-red-100: hsl(0.31, 100%, 96.31%);\n  --color-nsw-aboriginal-red-150: hsl(0.16, 96.42%, 94.24%);\n  --color-nsw-aboriginal-red-200: hsl(360, 90%, 92.16%);\n  --color-nsw-aboriginal-red-250: hsl(0.23, 91.24%, 90.28%);\n  --color-nsw-aboriginal-red-300: hsl(0.45, 91.36%, 88.35%);\n  --color-nsw-aboriginal-red-350: hsl(0.65, 90.86%, 86.36%);\n  --color-nsw-aboriginal-red-400: hsl(0.83, 90%, 84.31%);\n  --color-nsw-aboriginal-red-450: hsl(1.95, 86.73%, 77.32%);\n  --color-nsw-aboriginal-red-500: hsl(2.8, 82.84%, 69.6%);\n  --color-nsw-aboriginal-red-550: hsl(3.23, 79.15%, 60.92%);\n  --color-nsw-aboriginal-red-600: hsl(3.05, 77.87%, 49.61%);\n  --color-nsw-aboriginal-red-650: hsl(2.8, 80.26%, 44.7%);\n  --color-nsw-aboriginal-red-700: hsl(2.5, 83.29%, 39.86%);\n  --color-nsw-aboriginal-red-750: hsl(2.1, 87.31%, 35.06%);\n  --color-nsw-aboriginal-red-800: hsl(1.26, 92.26%, 30.39%);\n  --color-nsw-aboriginal-red-850: hsl(359.74, 99.82%, 22.68%);\n  --color-nsw-aboriginal-red-900: hsl(358.63, 100%, 15.69%);\n  --color-nsw-aboriginal-red-950: hsl(357.82, 100%, 9.76%);\n  --color-nsw-aboriginal-orange-50: hsl(22.11, 100%, 96.57%);\n  --color-nsw-aboriginal-orange-100: hsl(22.19, 93.98%, 93.1%);\n  --color-nsw-aboriginal-orange-150: hsl(22.28, 87.05%, 89.61%);\n  --color-nsw-aboriginal-orange-200: hsl(22.37, 83.1%, 86.08%);\n  --color-nsw-aboriginal-orange-250: hsl(22.42, 84.33%, 82.75%);\n  --color-nsw-aboriginal-orange-300: hsl(22.48, 84.74%, 79.37%);\n  --color-nsw-aboriginal-orange-350: hsl(22.56, 84.7%, 75.91%);\n  --color-nsw-aboriginal-orange-400: hsl(22.69, 84.4%, 72.35%);\n  --color-nsw-aboriginal-orange-450: hsl(21.88, 85.61%, 67.77%);\n  --color-nsw-aboriginal-orange-500: hsl(21.18, 86.15%, 63.01%);\n  --color-nsw-aboriginal-orange-550: hsl(20.78, 86.28%, 57.76%);\n  --color-nsw-aboriginal-orange-600: hsl(21.74, 86.51%, 50.59%);\n  --color-nsw-aboriginal-orange-650: hsl(20.61, 86.17%, 44.61%);\n  --color-nsw-aboriginal-orange-700: hsl(19.56, 89.48%, 38.49%);\n  --color-nsw-aboriginal-orange-750: hsl(18.46, 94.45%, 32.41%);\n  --color-nsw-aboriginal-orange-800: hsl(16.76, 100%, 26.67%);\n  --color-nsw-aboriginal-orange-850: hsl(15.47, 100%, 20.07%);\n  --color-nsw-aboriginal-orange-900: hsl(12.18, 100%, 14.2%);\n  --color-nsw-aboriginal-orange-950: hsl(6.72, 100%, 8.94%);\n  --color-nsw-aboriginal-brown-50: hsl(23.71, 74.46%, 95.12%);\n  --color-nsw-aboriginal-brown-100: hsl(23.8, 62.46%, 90.28%);\n  --color-nsw-aboriginal-brown-150: hsl(23.89, 58.05%, 85.44%);\n  --color-nsw-aboriginal-brown-200: hsl(24, 55.56%, 80.59%);\n  --color-nsw-aboriginal-brown-250: hsl(23.94, 55.92%, 75.8%);\n  --color-nsw-aboriginal-brown-300: hsl(23.91, 55.95%, 70.98%);\n  --color-nsw-aboriginal-brown-350: hsl(23.92, 55.79%, 66.12%);\n  --color-nsw-aboriginal-brown-400: hsl(24, 55.56%, 61.18%);\n  --color-nsw-aboriginal-brown-450: hsl(22.67, 49.07%, 55.96%);\n  --color-nsw-aboriginal-brown-500: hsl(21.29, 43.84%, 50.82%);\n  --color-nsw-aboriginal-brown-550: hsl(19.86, 46.79%, 45.77%);\n  --color-nsw-aboriginal-brown-600: hsl(18.33, 51.92%, 40.78%);\n  --color-nsw-aboriginal-brown-650: hsl(18.72, 56.45%, 34.86%);\n  --color-nsw-aboriginal-brown-700: hsl(19.21, 62.79%, 29.04%);\n  --color-nsw-aboriginal-brown-750: hsl(19.97, 72.56%, 23.3%);\n  --color-nsw-aboriginal-brown-800: hsl(21, 88.89%, 17.65%);\n  --color-nsw-aboriginal-brown-850: hsl(19.73, 95.19%, 12.97%);\n  --color-nsw-aboriginal-brown-900: hsl(16.27, 100%, 8.82%);\n  --color-nsw-aboriginal-brown-950: hsl(10.45, 100%, 5.14%);\n  --color-nsw-aboriginal-yellow-50: hsl(45.72, 100%, 96.78%);\n  --color-nsw-aboriginal-yellow-100: hsl(45.63, 100%, 94.1%);\n  --color-nsw-aboriginal-yellow-150: hsl(45.57, 100%, 91.38%);\n  --color-nsw-aboriginal-yellow-200: hsl(45.52, 100%, 88.63%);\n  --color-nsw-aboriginal-yellow-250: hsl(45.68, 99.59%, 85.94%);\n  --color-nsw-aboriginal-yellow-300: hsl(45.86, 99.15%, 83.16%);\n  --color-nsw-aboriginal-yellow-350: hsl(46.07, 98.71%, 80.28%);\n  --color-nsw-aboriginal-yellow-400: hsl(46.32, 98.28%, 77.25%);\n  --color-nsw-aboriginal-yellow-450: hsl(42.77, 97.91%, 72.64%);\n  --color-nsw-aboriginal-yellow-500: hsl(39.92, 98.26%, 68.02%);\n  --color-nsw-aboriginal-yellow-550: hsl(37.69, 98.75%, 63.17%);\n  --color-nsw-aboriginal-yellow-600: hsl(36.28, 99.08%, 57.45%);\n  --color-nsw-aboriginal-yellow-650: hsl(37.45, 77.64%, 49.26%);\n  --color-nsw-aboriginal-yellow-700: hsl(38.69, 83.35%, 41.35%);\n  --color-nsw-aboriginal-yellow-750: hsl(40.07, 91.76%, 33.66%);\n  --color-nsw-aboriginal-yellow-800: hsl(41.17, 100%, 26.86%);\n  --color-nsw-aboriginal-yellow-850: hsl(41.1, 100%, 19.64%);\n  --color-nsw-aboriginal-yellow-900: hsl(40.13, 100%, 13.55%);\n  --color-nsw-aboriginal-yellow-950: hsl(37.35, 100%, 8.33%);\n  --color-nsw-aboriginal-green-50: hsl(94.61, 37.03%, 96.34%);\n  --color-nsw-aboriginal-green-100: hsl(94.51, 32.21%, 92.9%);\n  --color-nsw-aboriginal-green-150: hsl(94.4, 30.49%, 89.48%);\n  --color-nsw-aboriginal-green-200: hsl(94.29, 29.58%, 86.08%);\n  --color-nsw-aboriginal-green-250: hsl(94.5, 29.43%, 82.62%);\n  --color-nsw-aboriginal-green-300: hsl(94.72, 29.3%, 79.18%);\n  --color-nsw-aboriginal-green-350: hsl(94.92, 29.18%, 75.76%);\n  --color-nsw-aboriginal-green-400: hsl(95.12, 29.08%, 72.35%);\n  --color-nsw-aboriginal-green-450: hsl(93.46, 30.08%, 65.88%);\n  --color-nsw-aboriginal-green-500: hsl(91.63, 30.85%, 59.29%);\n  --color-nsw-aboriginal-green-550: hsl(89.55, 31.61%, 52.5%);\n  --color-nsw-aboriginal-green-600: hsl(87.03, 39.39%, 45.29%);\n  --color-nsw-aboriginal-green-650: hsl(97.99, 35.67%, 41.28%);\n  --color-nsw-aboriginal-green-700: hsl(111.48, 32.13%, 36.95%);\n  --color-nsw-aboriginal-green-750: hsl(127.58, 34.41%, 30.98%);\n  --color-nsw-aboriginal-green-800: hsl(140.73, 45.45%, 23.73%);\n  --color-nsw-aboriginal-green-850: hsl(141.23, 51.5%, 17.2%);\n  --color-nsw-aboriginal-green-900: hsl(142.1, 64.01%, 11%);\n  --color-nsw-aboriginal-green-950: hsl(139.39, 83.32%, 5.75%);\n  --color-nsw-aboriginal-blue-50: hsl(189.24, 57.11%, 95.67%);\n  --color-nsw-aboriginal-blue-100: hsl(189.24, 49.64%, 91.57%);\n  --color-nsw-aboriginal-blue-150: hsl(189.24, 47.11%, 87.45%);\n  --color-nsw-aboriginal-blue-200: hsl(189.23, 45.88%, 83.33%);\n  --color-nsw-aboriginal-blue-250: hsl(189.29, 45.53%, 79.28%);\n  --color-nsw-aboriginal-blue-300: hsl(189.34, 45.39%, 75.19%);\n  --color-nsw-aboriginal-blue-350: hsl(189.36, 45.41%, 71.06%);\n  --color-nsw-aboriginal-blue-400: hsl(189.35, 45.56%, 66.86%);\n  --color-nsw-aboriginal-blue-450: hsl(192.66, 41.82%, 57.86%);\n  --color-nsw-aboriginal-blue-500: hsl(195.5, 40.89%, 49.12%);\n  --color-nsw-aboriginal-blue-550: hsl(197.85, 55.74%, 40.47%);\n  --color-nsw-aboriginal-blue-600: hsl(199.09, 83.54%, 30.98%);\n  --color-nsw-aboriginal-blue-650: hsl(203.84, 73.26%, 29.5%);\n  --color-nsw-aboriginal-blue-700: hsl(208.96, 66.46%, 27.09%);\n  --color-nsw-aboriginal-blue-750: hsl(214.68, 61.55%, 24.07%);\n  --color-nsw-aboriginal-blue-800: hsl(221.31, 58.1%, 20.59%);\n  --color-nsw-aboriginal-blue-850: hsl(221.4, 64.27%, 15.08%);\n  --color-nsw-aboriginal-blue-900: hsl(222.04, 74.71%, 9.95%);\n  --color-nsw-aboriginal-blue-950: hsl(227.14, 84.88%, 5.65%);\n  --color-nsw-aboriginal-purple-50: hsl(310.68, 42.61%, 96.28%);\n  --color-nsw-aboriginal-purple-100: hsl(310.46, 34.93%, 92.41%);\n  --color-nsw-aboriginal-purple-150: hsl(310.24, 32.24%, 88.56%);\n  --color-nsw-aboriginal-purple-200: hsl(310, 30.77%, 84.71%);\n  --color-nsw-aboriginal-purple-250: hsl(309.75, 30.82%, 80.93%);\n  --color-nsw-aboriginal-purple-300: hsl(309.5, 30.72%, 77.16%);\n  --color-nsw-aboriginal-purple-350: hsl(309.22, 30.55%, 73.39%);\n  --color-nsw-aboriginal-purple-400: hsl(308.94, 30.32%, 69.61%);\n  --color-nsw-aboriginal-purple-450: hsl(308.5, 27.72%, 64.31%);\n  --color-nsw-aboriginal-purple-500: hsl(308.03, 25.74%, 59.05%);\n  --color-nsw-aboriginal-purple-550: hsl(307.53, 24.18%, 53.83%);\n  --color-nsw-aboriginal-purple-600: hsl(307, 24.19%, 48.63%);\n  --color-nsw-aboriginal-purple-650: hsl(307.56, 25.08%, 41.48%);\n  --color-nsw-aboriginal-purple-700: hsl(308.1, 26.24%, 34.55%);\n  --color-nsw-aboriginal-purple-750: hsl(308.61, 27.86%, 27.83%);\n  --color-nsw-aboriginal-purple-800: hsl(309.09, 30.28%, 21.37%);\n  --color-nsw-aboriginal-purple-850: hsl(308.99, 33.57%, 15.63%);\n  --color-nsw-aboriginal-purple-900: hsl(308.83, 40.05%, 10.18%);\n  --color-nsw-aboriginal-purple-950: hsl(308.92, 54.82%, 5.21%);\n}\n";
+
+// src/tailwind/colors/global/oklch.css
+var oklch_exports13 = {};
+__export(oklch_exports13, {
+  default: () => oklch_default10
+});
+var oklch_default10 = "@theme {\n  --color-nsw-grey-50: oklch(0.9850175274112574 0 0);\n  --color-nsw-grey-100: oklch(0.9700350548225147 0 0);\n  --color-nsw-grey-150: oklch(0.9550525822337722 0 0);\n  --color-nsw-grey-200: oklch(0.9400701096450296 0 0);\n  --color-nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n  --color-nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n  --color-nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n  --color-nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n  --color-nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n  --color-nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n  --color-nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n  --color-nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n  --color-nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n  --color-nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n  --color-nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n  --color-nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n  --color-nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n  --color-nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n  --color-nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n  --color-nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);\n  --color-nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);\n  --color-nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);\n  --color-nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);\n  --color-nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);\n  --color-nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);\n  --color-nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);\n  --color-nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);\n  --color-nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);\n  --color-nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);\n  --color-nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);\n  --color-nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);\n  --color-nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);\n  --color-nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);\n  --color-nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);\n  --color-nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);\n  --color-nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);\n  --color-nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);\n  --color-nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);\n  --color-nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);\n  --color-nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);\n  --color-nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);\n  --color-nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);\n  --color-nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);\n  --color-nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);\n  --color-nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);\n  --color-nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);\n  --color-nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);\n  --color-nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);\n  --color-nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);\n  --color-nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);\n  --color-nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);\n  --color-nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);\n  --color-nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);\n  --color-nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);\n  --color-nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);\n  --color-nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);\n  --color-nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);\n  --color-nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --color-nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --color-nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --color-nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --color-nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --color-nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --color-nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --color-nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n  --color-nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --color-nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --color-nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --color-nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --color-nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --color-nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --color-nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --color-nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --color-nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --color-nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --color-nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --color-nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);\n  --color-nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);\n  --color-nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);\n  --color-nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);\n  --color-nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);\n  --color-nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);\n  --color-nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);\n  --color-nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);\n  --color-nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);\n  --color-nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);\n  --color-nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);\n  --color-nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);\n  --color-nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);\n  --color-nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);\n  --color-nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);\n  --color-nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);\n  --color-nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);\n  --color-nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);\n  --color-nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);\n  --color-nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);\n  --color-nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);\n  --color-nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);\n  --color-nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);\n  --color-nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);\n  --color-nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);\n  --color-nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);\n  --color-nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);\n  --color-nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);\n  --color-nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);\n  --color-nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);\n  --color-nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);\n  --color-nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);\n  --color-nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);\n  --color-nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);\n  --color-nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);\n  --color-nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);\n  --color-nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);\n  --color-nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);\n  --color-nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n  --color-nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n  --color-nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n  --color-nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n  --color-nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n  --color-nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n  --color-nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n  --color-nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n  --color-nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --color-nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --color-nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --color-nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --color-nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --color-nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --color-nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --color-nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n  --color-nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n  --color-nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n  --color-nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n  --color-nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);\n  --color-nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);\n  --color-nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);\n  --color-nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);\n  --color-nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);\n  --color-nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);\n  --color-nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);\n  --color-nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);\n  --color-nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);\n  --color-nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);\n  --color-nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);\n  --color-nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);\n  --color-nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);\n  --color-nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);\n  --color-nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);\n  --color-nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);\n  --color-nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);\n  --color-nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);\n  --color-nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);\n  --color-nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);\n  --color-nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);\n  --color-nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);\n  --color-nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);\n  --color-nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);\n  --color-nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);\n  --color-nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);\n  --color-nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);\n  --color-nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);\n  --color-nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);\n  --color-nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);\n  --color-nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);\n  --color-nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);\n  --color-nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);\n  --color-nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);\n  --color-nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);\n  --color-nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);\n  --color-nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);\n  --color-nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);\n  --color-nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);\n  --color-nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);\n  --color-nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);\n  --color-nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);\n  --color-nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);\n  --color-nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);\n  --color-nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);\n  --color-nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);\n  --color-nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);\n  --color-nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);\n  --color-nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);\n  --color-nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);\n  --color-nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);\n  --color-nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);\n  --color-nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);\n  --color-nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);\n  --color-nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);\n  --color-nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);\n  --color-nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);\n  --color-nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);\n  --color-nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);\n  --color-nsw-aboriginal-grey-150: oklch(\n    0.9374064828896956 0.0035614326327228986 78.29695339492076\n  );\n  --color-nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);\n  --color-nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);\n  --color-nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);\n  --color-nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);\n  --color-nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);\n  --color-nsw-aboriginal-grey-450: oklch(\n    0.7350703829754051 0.006541023270606863 56.288635534075496\n  );\n  --color-nsw-aboriginal-grey-500: oklch(\n    0.6398913199703631 0.004360682180404575 56.288635534075496\n  );\n  --color-nsw-aboriginal-grey-550: oklch(\n    0.544712256965321 0.0021803410902022876 56.288635534075496\n  );\n  --color-nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 none);\n  --color-nsw-aboriginal-grey-650: oklch(0.4114406365077532 0 none);\n  --color-nsw-aboriginal-grey-700: oklch(0.3733480790552275 0 none);\n  --color-nsw-aboriginal-grey-750: oklch(0.3352555216027018 0 none);\n  --color-nsw-aboriginal-grey-800: oklch(0.29716296415017607 0 none);\n  --color-nsw-aboriginal-grey-850: oklch(0.24515944542389526 0 none);\n  --color-nsw-aboriginal-grey-900: oklch(0.19315592669761444 0 none);\n  --color-nsw-aboriginal-grey-950: oklch(0.14115240797133363 0 none);\n  --color-nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);\n  --color-nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);\n  --color-nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);\n  --color-nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);\n  --color-nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);\n  --color-nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);\n  --color-nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);\n  --color-nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);\n  --color-nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);\n  --color-nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);\n  --color-nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);\n  --color-nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);\n  --color-nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);\n  --color-nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);\n  --color-nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);\n  --color-nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);\n  --color-nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);\n  --color-nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);\n  --color-nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);\n  --color-nsw-aboriginal-orange-50: oklch(\n    0.9738855126989008 0.016602591530904584 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-100: oklch(\n    0.9477710253978014 0.028096693359992375 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-150: oklch(\n    0.9216565380967021 0.039590795189080166 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-200: oklch(\n    0.8955420507956029 0.05108489701816796 52.55546216454561\n  );\n  --color-nsw-aboriginal-orange-250: oklch(\n    0.8714459985514821 0.06477537243882539 52.40983339193463\n  );\n  --color-nsw-aboriginal-orange-300: oklch(\n    0.8473499463073613 0.07846584785948284 52.264204619323664\n  );\n  --color-nsw-aboriginal-orange-350: oklch(\n    0.8232538940632406 0.09215632328014028 52.11857584671269\n  );\n  --color-nsw-aboriginal-orange-400: oklch(\n    0.7991578418191198 0.10584679870079772 51.97294707410171\n  );\n  --color-nsw-aboriginal-orange-450: oklch(\n    0.7660019575057643 0.12652886278666134 49.87887684512948\n  );\n  --color-nsw-aboriginal-orange-500: oklch(\n    0.7328460731924087 0.14721092687252496 47.784806616157255\n  );\n  --color-nsw-aboriginal-orange-550: oklch(\n    0.6996901888790532 0.16789299095838855 45.69073638718503\n  );\n  --color-nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);\n  --color-nsw-aboriginal-orange-650: oklch(\n    0.6048689295059245 0.17619193861850896 42.06662366880586\n  );\n  --color-nsw-aboriginal-orange-700: oklch(\n    0.5432035544461513 0.16380882219276577 40.53658117939892\n  );\n  --color-nsw-aboriginal-orange-750: oklch(\n    0.48153817938637805 0.15142570576702258 39.00653868999199\n  );\n  --color-nsw-aboriginal-orange-800: oklch(\n    0.41987280432660484 0.13904258934127936 37.47649620058505\n  );\n  --color-nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);\n  --color-nsw-aboriginal-orange-900: oklch(\n    0.27291732281229314 0.09732981253889555 37.47649620058505\n  );\n  --color-nsw-aboriginal-orange-950: oklch(\n    0.1994395820551373 0.07647342413770365 37.47649620058505\n  );\n  --color-nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);\n  --color-nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);\n  --color-nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);\n  --color-nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);\n  --color-nsw-aboriginal-brown-250: oklch(\n    0.819495130372929 0.060854957675237686 55.274819963495716\n  );\n  --color-nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);\n  --color-nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);\n  --color-nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);\n  --color-nsw-aboriginal-brown-450: oklch(\n    0.6658642886991106 0.10220482966257746 51.472089235271014\n  );\n  --color-nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);\n  --color-nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);\n  --color-nsw-aboriginal-brown-600: oklch(\n    0.5259341610634539 0.10991146182440867 43.512391998616614\n  );\n  --color-nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);\n  --color-nsw-aboriginal-brown-700: oklch(\n    0.42307648380765683 0.09792470862615782 44.09883922975184\n  );\n  --color-nsw-aboriginal-brown-750: oklch(\n    0.37164764517975835 0.09193133202703241 44.39206284531945\n  );\n  --color-nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);\n  --color-nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);\n  --color-nsw-aboriginal-brown-900: oklch(\n    0.20814222425870887 0.06015656879953489 44.68528646088706\n  );\n  --color-nsw-aboriginal-brown-950: oklch(\n    0.15210393311213338 0.04726587548534884 44.68528646088706\n  );\n  --color-nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);\n  --color-nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);\n  --color-nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);\n  --color-nsw-aboriginal-yellow-200: oklch(\n    0.9583504843687841 0.05877873378798942 92.48002960723814\n  );\n  --color-nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);\n  --color-nsw-aboriginal-yellow-300: oklch(\n    0.9399189898584743 0.08519720131855335 92.98100357955929\n  );\n  --color-nsw-aboriginal-yellow-350: oklch(\n    0.9307032426033194 0.09840643508383531 93.23149056571987\n  );\n  --color-nsw-aboriginal-yellow-400: oklch(\n    0.9214874953481644 0.11161566884911728 93.48197755188043\n  );\n  --color-nsw-aboriginal-yellow-450: oklch(\n    0.8910195189839808 0.12436290150788638 87.85568397462671\n  );\n  --color-nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);\n  --color-nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);\n  --color-nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);\n  --color-nsw-aboriginal-yellow-650: oklch(\n    0.7283788119804733 0.14880860016855085 72.64225880919277\n  );\n  --color-nsw-aboriginal-yellow-700: oklch(\n    0.6571420340695165 0.13501260085290803 74.30771437551996\n  );\n  --color-nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);\n  --color-nsw-aboriginal-yellow-800: oklch(\n    0.5146684782476031 0.10742060222162236 77.63862550817437\n  );\n  --color-nsw-aboriginal-yellow-850: oklch(\n    0.42460149455427254 0.09130751188837902 77.63862550817437\n  );\n  --color-nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);\n  --color-nsw-aboriginal-yellow-950: oklch(\n    0.24446752716761147 0.059081331221892304 77.63862550817437\n  );\n  --color-nsw-aboriginal-green-50: oklch(\n    0.9775400515432829 0.010033373009012674 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-100: oklch(\n    0.9550801030865659 0.016979554322944526 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-150: oklch(\n    0.9326201546298487 0.023925735636876375 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-200: oklch(\n    0.9101602061731316 0.030871916950808227 131.56364967590204\n  );\n  --color-nsw-aboriginal-green-250: oklch(\n    0.8874934999312177 0.03857982981011093 131.78279512830795\n  );\n  --color-nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);\n  --color-nsw-aboriginal-green-350: oklch(\n    0.8421600874473898 0.053995655528716345 132.22108603311983\n  );\n  --color-nsw-aboriginal-green-400: oklch(\n    0.8194933812054759 0.061703568388019055 132.44023148552574\n  );\n  --color-nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);\n  --color-nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);\n  --color-nsw-aboriginal-green-550: oklch(\n    0.6989797391259933 0.11210775194181792 130.29024651396378\n  );\n  --color-nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);\n  --color-nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);\n  --color-nsw-aboriginal-green-700: oklch(\n    0.5360283164657826 0.10630157240635738 140.91243379535533\n  );\n  --color-nsw-aboriginal-green-750: oklch(\n    0.47463821214892454 0.09499778537966062 146.58185826464475\n  );\n  --color-nsw-aboriginal-green-800: oklch(\n    0.41324810783206634 0.08369399835296387 152.25128273393418\n  );\n  --color-nsw-aboriginal-green-850: oklch(\n    0.3409296889614547 0.07113989860001929 152.25128273393418\n  );\n  --color-nsw-aboriginal-green-900: oklch(\n    0.2686112700908431 0.05858579884707471 152.25128273393418\n  );\n  --color-nsw-aboriginal-green-950: oklch(\n    0.1962928512202315 0.04603169909413013 152.25128273393418\n  );\n  --color-nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);\n  --color-nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);\n  --color-nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);\n  --color-nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);\n  --color-nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);\n  --color-nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);\n  --color-nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);\n  --color-nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);\n  --color-nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);\n  --color-nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);\n  --color-nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);\n  --color-nsw-aboriginal-blue-600: oklch(\n    0.48681410550334053 0.10128236457958428 236.48205409186096\n  );\n  --color-nsw-aboriginal-blue-650: oklch(\n    0.43774688628471914 0.09607362828959434 243.31473157010598\n  );\n  --color-nsw-aboriginal-blue-700: oklch(0.3886796670660978 0.09086489199960439 250.147409048351);\n  --color-nsw-aboriginal-blue-750: oklch(0.3396124478474764 0.08565615570961443 256.980086526596);\n  --color-nsw-aboriginal-blue-800: oklch(0.290545228628855 0.0804474194196245 263.81276400484103);\n  --color-nsw-aboriginal-blue-850: oklch(\n    0.23969981361880538 0.06838030650668082 263.81276400484103\n  );\n  --color-nsw-aboriginal-blue-900: oklch(\n    0.18885439860875575 0.05631319359373715 263.81276400484103\n  );\n  --color-nsw-aboriginal-blue-950: oklch(\n    0.13800898359870611 0.04424608068079347 263.81276400484103\n  );\n  --color-nsw-aboriginal-purple-50: oklch(\n    0.9677519235816936 0.01225423399018933 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-100: oklch(\n    0.9355038471633873 0.020737934444935786 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-150: oklch(\n    0.903255770745081 0.02922163489968224 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-200: oklch(\n    0.8710076943267746 0.0377053353544287 331.39469318233586\n  );\n  --color-nsw-aboriginal-purple-250: oklch(\n    0.8389191100209297 0.04764157951006853 331.4172179039917\n  );\n  --color-nsw-aboriginal-purple-300: oklch(\n    0.8068305257150847 0.05757782366570837 331.4397426256475\n  );\n  --color-nsw-aboriginal-purple-350: oklch(\n    0.7747419414092399 0.06751406782134821 331.46226734730334\n  );\n  --color-nsw-aboriginal-purple-400: oklch(\n    0.742653357103395 0.07745031197698804 331.48479206895917\n  );\n  --color-nsw-aboriginal-purple-450: oklch(\n    0.6987279730890662 0.08461715270888535 331.3997569775923\n  );\n  --color-nsw-aboriginal-purple-500: oklch(\n    0.6548025890747375 0.09178399344078267 331.31472188622536\n  );\n  --color-nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);\n  --color-nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);\n  --color-nsw-aboriginal-purple-650: oklch(\n    0.5059681066477375 0.09597195429905764 331.53840819994554\n  );\n  --color-nsw-aboriginal-purple-700: oklch(\n    0.4449843922493949 0.08582623369353798 331.93216469639947\n  );\n  --color-nsw-aboriginal-purple-750: oklch(\n    0.38400067785105235 0.07568051308801832 332.32592119285346\n  );\n  --color-nsw-aboriginal-purple-800: oklch(\n    0.3230169634527098 0.06553479248249865 332.7196776893074\n  );\n  --color-nsw-aboriginal-purple-850: oklch(\n    0.2664889948484856 0.05570457361012385 332.7196776893074\n  );\n  --color-nsw-aboriginal-purple-900: oklch(\n    0.20996102624426138 0.04587435473774905 332.7196776893074\n  );\n  --color-nsw-aboriginal-purple-950: oklch(\n    0.15343305764003715 0.036044135865374256 332.7196776893074\n  );\n}\n";
+
+// src/tailwind/colors/global/rgb.css
+var rgb_exports13 = {};
+__export(rgb_exports13, {
+  default: () => rgb_default10
+});
+var rgb_default10 = "@theme {\n  --color-nsw-grey-50: rgb(250, 250, 250);\n  --color-nsw-grey-100: rgb(245, 245, 245);\n  --color-nsw-grey-150: rgb(240, 240, 240);\n  --color-nsw-grey-200: rgb(235, 235, 235);\n  --color-nsw-grey-250: rgb(227, 229, 230);\n  --color-nsw-grey-300: rgb(220, 223, 224);\n  --color-nsw-grey-350: rgb(212, 217, 219);\n  --color-nsw-grey-400: rgb(205, 211, 214);\n  --color-nsw-grey-450: rgb(170, 176, 180);\n  --color-nsw-grey-500: rgb(136, 143, 146);\n  --color-nsw-grey-550: rgb(104, 111, 114);\n  --color-nsw-grey-600: rgb(73, 80, 84);\n  --color-nsw-grey-650: rgb(63, 69, 73);\n  --color-nsw-grey-700: rgb(53, 59, 63);\n  --color-nsw-grey-750: rgb(43, 49, 53);\n  --color-nsw-grey-800: rgb(34, 39, 43);\n  --color-nsw-grey-850: rgb(24, 28, 31);\n  --color-nsw-grey-900: rgb(14, 17, 19);\n  --color-nsw-grey-950: rgb(5, 7, 9);\n  --color-nsw-green-50: rgb(245, 255, 246);\n  --color-nsw-green-100: rgb(236, 253, 238);\n  --color-nsw-green-150: rgb(228, 252, 231);\n  --color-nsw-green-200: rgb(219, 250, 223);\n  --color-nsw-green-250: rgb(207, 247, 212);\n  --color-nsw-green-300: rgb(194, 244, 201);\n  --color-nsw-green-350: rgb(181, 240, 190);\n  --color-nsw-green-400: rgb(168, 237, 179);\n  --color-nsw-green-450: rgb(138, 220, 152);\n  --color-nsw-green-500: rgb(106, 204, 125);\n  --color-nsw-green-550: rgb(69, 187, 98);\n  --color-nsw-green-600: rgb(0, 170, 69);\n  --color-nsw-green-650: rgb(7, 142, 50);\n  --color-nsw-green-700: rgb(7, 115, 32);\n  --color-nsw-green-750: rgb(3, 89, 15);\n  --color-nsw-green-800: rgb(0, 64, 0);\n  --color-nsw-green-850: rgb(0, 48, 0);\n  --color-nsw-green-900: rgb(0, 32, 0);\n  --color-nsw-green-950: rgb(0, 17, 0);\n  --color-nsw-teal-50: rgb(242, 251, 250);\n  --color-nsw-teal-100: rgb(231, 247, 245);\n  --color-nsw-teal-150: rgb(220, 242, 239);\n  --color-nsw-teal-200: rgb(209, 238, 234);\n  --color-nsw-teal-250: rgb(193, 234, 231);\n  --color-nsw-teal-300: rgb(175, 229, 229);\n  --color-nsw-teal-350: rgb(158, 224, 229);\n  --color-nsw-teal-400: rgb(140, 219, 229);\n  --color-nsw-teal-450: rgb(117, 196, 207);\n  --color-nsw-teal-500: rgb(94, 172, 185);\n  --color-nsw-teal-550: rgb(70, 150, 163);\n  --color-nsw-teal-600: rgb(46, 128, 142);\n  --color-nsw-teal-650: rgb(37, 111, 123);\n  --color-nsw-teal-700: rgb(28, 95, 105);\n  --color-nsw-teal-750: rgb(20, 78, 88);\n  --color-nsw-teal-800: rgb(11, 63, 71);\n  --color-nsw-teal-850: rgb(4, 47, 53);\n  --color-nsw-teal-900: rgb(1, 31, 36);\n  --color-nsw-teal-950: rgb(0, 17, 20);\n  --color-nsw-blue-50: rgb(240, 251, 255);\n  --color-nsw-blue-100: rgb(228, 246, 255);\n  --color-nsw-blue-150: rgb(215, 242, 254);\n  --color-nsw-blue-200: rgb(203, 237, 253);\n  --color-nsw-blue-250: rgb(188, 234, 254);\n  --color-nsw-blue-300: rgb(173, 231, 255);\n  --color-nsw-blue-350: rgb(157, 227, 255);\n  --color-nsw-blue-400: rgb(140, 224, 255);\n  --color-nsw-blue-450: rgb(90, 201, 255);\n  --color-nsw-blue-500: rgb(38, 174, 255);\n  --color-nsw-blue-550: rgb(0, 143, 255);\n  --color-nsw-blue-600: rgb(20, 108, 253);\n  --color-nsw-blue-650: rgb(12, 90, 212);\n  --color-nsw-blue-700: rgb(5, 72, 173);\n  --color-nsw-blue-750: rgb(2, 54, 136);\n  --color-nsw-blue-800: rgb(0, 38, 100);\n  --color-nsw-blue-850: rgb(0, 26, 77);\n  --color-nsw-blue-900: rgb(0, 16, 55);\n  --color-nsw-blue-950: rgb(0, 6, 34);\n  --color-nsw-purple-50: rgb(249, 247, 255);\n  --color-nsw-purple-100: rgb(242, 240, 255);\n  --color-nsw-purple-150: rgb(236, 232, 254);\n  --color-nsw-purple-200: rgb(230, 225, 253);\n  --color-nsw-purple-250: rgb(224, 217, 254);\n  --color-nsw-purple-300: rgb(218, 208, 254);\n  --color-nsw-purple-350: rgb(212, 200, 255);\n  --color-nsw-purple-400: rgb(206, 191, 255);\n  --color-nsw-purple-450: rgb(186, 166, 252);\n  --color-nsw-purple-500: rgb(166, 141, 249);\n  --color-nsw-purple-550: rgb(147, 114, 245);\n  --color-nsw-purple-600: rgb(128, 85, 241);\n  --color-nsw-purple-650: rgb(114, 67, 207);\n  --color-nsw-purple-700: rgb(100, 50, 174);\n  --color-nsw-purple-750: rgb(84, 33, 142);\n  --color-nsw-purple-800: rgb(68, 17, 112);\n  --color-nsw-purple-850: rgb(51, 8, 86);\n  --color-nsw-purple-900: rgb(35, 2, 62);\n  --color-nsw-purple-950: rgb(19, 0, 39);\n  --color-nsw-fuchsia-50: rgb(255, 246, 253);\n  --color-nsw-fuchsia-100: rgb(255, 238, 249);\n  --color-nsw-fuchsia-150: rgb(254, 230, 246);\n  --color-nsw-fuchsia-200: rgb(253, 222, 242);\n  --color-nsw-fuchsia-250: rgb(251, 212, 239);\n  --color-nsw-fuchsia-300: rgb(249, 201, 235);\n  --color-nsw-fuchsia-350: rgb(247, 191, 233);\n  --color-nsw-fuchsia-400: rgb(244, 181, 230);\n  --color-nsw-fuchsia-450: rgb(239, 150, 218);\n  --color-nsw-fuchsia-500: rgb(233, 117, 204);\n  --color-nsw-fuchsia-550: rgb(225, 80, 190);\n  --color-nsw-fuchsia-600: rgb(217, 18, 174);\n  --color-nsw-fuchsia-650: rgb(187, 12, 148);\n  --color-nsw-fuchsia-700: rgb(157, 6, 123);\n  --color-nsw-fuchsia-750: rgb(129, 2, 100);\n  --color-nsw-fuchsia-800: rgb(101, 0, 77);\n  --color-nsw-fuchsia-850: rgb(77, 0, 58);\n  --color-nsw-fuchsia-900: rgb(55, 0, 40);\n  --color-nsw-fuchsia-950: rgb(34, 0, 23);\n  --color-nsw-red-50: rgb(255, 248, 249);\n  --color-nsw-red-100: rgb(255, 242, 244);\n  --color-nsw-red-150: rgb(255, 236, 239);\n  --color-nsw-red-200: rgb(255, 230, 234);\n  --color-nsw-red-250: rgb(255, 219, 224);\n  --color-nsw-red-300: rgb(255, 207, 214);\n  --color-nsw-red-350: rgb(255, 196, 204);\n  --color-nsw-red-400: rgb(255, 184, 193);\n  --color-nsw-red-450: rgb(248, 151, 162);\n  --color-nsw-red-500: rgb(239, 117, 129);\n  --color-nsw-red-550: rgb(228, 79, 95);\n  --color-nsw-red-600: rgb(215, 21, 58);\n  --color-nsw-red-650: rgb(185, 14, 50);\n  --color-nsw-red-700: rgb(155, 7, 42);\n  --color-nsw-red-750: rgb(126, 3, 34);\n  --color-nsw-red-800: rgb(99, 0, 25);\n  --color-nsw-red-850: rgb(76, 0, 16);\n  --color-nsw-red-900: rgb(54, 0, 8);\n  --color-nsw-red-950: rgb(33, 0, 3);\n  --color-nsw-orange-50: rgb(255, 250, 246);\n  --color-nsw-orange-100: rgb(255, 246, 238);\n  --color-nsw-orange-150: rgb(254, 241, 231);\n  --color-nsw-orange-200: rgb(253, 237, 223);\n  --color-nsw-orange-250: rgb(254, 229, 206);\n  --color-nsw-orange-300: rgb(255, 221, 189);\n  --color-nsw-orange-350: rgb(255, 214, 171);\n  --color-nsw-orange-400: rgb(255, 206, 153);\n  --color-nsw-orange-450: rgb(253, 182, 120);\n  --color-nsw-orange-500: rgb(251, 157, 88);\n  --color-nsw-orange-550: rgb(247, 129, 57);\n  --color-nsw-orange-600: rgb(243, 99, 27);\n  --color-nsw-orange-650: rgb(219, 81, 21);\n  --color-nsw-orange-700: rgb(195, 63, 14);\n  --color-nsw-orange-750: rgb(171, 46, 6);\n  --color-nsw-orange-800: rgb(148, 27, 0);\n  --color-nsw-orange-850: rgb(115, 15, 0);\n  --color-nsw-orange-900: rgb(83, 4, 0);\n  --color-nsw-orange-950: rgb(53, 0, 0);\n  --color-nsw-yellow-50: rgb(255, 252, 240);\n  --color-nsw-yellow-100: rgb(255, 250, 229);\n  --color-nsw-yellow-150: rgb(255, 247, 218);\n  --color-nsw-yellow-200: rgb(255, 244, 207);\n  --color-nsw-yellow-250: rgb(255, 241, 194);\n  --color-nsw-yellow-300: rgb(254, 238, 181);\n  --color-nsw-yellow-350: rgb(254, 234, 168);\n  --color-nsw-yellow-400: rgb(253, 231, 154);\n  --color-nsw-yellow-450: rgb(251, 218, 128);\n  --color-nsw-yellow-500: rgb(250, 205, 99);\n  --color-nsw-yellow-550: rgb(250, 190, 66);\n  --color-nsw-yellow-600: rgb(250, 175, 5);\n  --color-nsw-yellow-650: rgb(212, 148, 3);\n  --color-nsw-yellow-700: rgb(175, 122, 1);\n  --color-nsw-yellow-750: rgb(139, 96, 0);\n  --color-nsw-yellow-800: rgb(105, 72, 0);\n  --color-nsw-yellow-850: rgb(80, 53, 0);\n  --color-nsw-yellow-900: rgb(57, 36, 0);\n  --color-nsw-yellow-950: rgb(34, 19, 0);\n  --color-nsw-brown-50: rgb(251, 248, 244);\n  --color-nsw-brown-100: rgb(246, 241, 234);\n  --color-nsw-brown-150: rgb(242, 234, 225);\n  --color-nsw-brown-200: rgb(237, 227, 215);\n  --color-nsw-brown-250: rgb(236, 222, 206);\n  --color-nsw-brown-300: rgb(234, 218, 198);\n  --color-nsw-brown-350: rgb(233, 213, 189);\n  --color-nsw-brown-400: rgb(232, 208, 181);\n  --color-nsw-brown-450: rgb(219, 191, 159);\n  --color-nsw-brown-500: rgb(207, 174, 137);\n  --color-nsw-brown-550: rgb(194, 157, 115);\n  --color-nsw-brown-600: rgb(182, 141, 93);\n  --color-nsw-brown-650: rgb(156, 118, 75);\n  --color-nsw-brown-700: rgb(130, 96, 58);\n  --color-nsw-brown-750: rgb(106, 75, 41);\n  --color-nsw-brown-800: rgb(82, 55, 25);\n  --color-nsw-brown-850: rgb(62, 40, 15);\n  --color-nsw-brown-900: rgb(43, 26, 7);\n  --color-nsw-brown-950: rgb(25, 13, 2);\n  --color-nsw-aboriginal-grey-50: rgb(249, 248, 247);\n  --color-nsw-aboriginal-grey-100: rgb(242, 241, 239);\n  --color-nsw-aboriginal-grey-150: rgb(235, 234, 232);\n  --color-nsw-aboriginal-grey-200: rgb(229, 227, 224);\n  --color-nsw-aboriginal-grey-250: rgb(223, 220, 216);\n  --color-nsw-aboriginal-grey-300: rgb(216, 212, 209);\n  --color-nsw-aboriginal-grey-350: rgb(210, 205, 201);\n  --color-nsw-aboriginal-grey-400: rgb(204, 198, 194);\n  --color-nsw-aboriginal-grey-450: rgb(173, 168, 165);\n  --color-nsw-aboriginal-grey-500: rgb(142, 139, 138);\n  --color-nsw-aboriginal-grey-550: rgb(113, 112, 111);\n  --color-nsw-aboriginal-grey-600: rgb(85, 85, 85);\n  --color-nsw-aboriginal-grey-650: rgb(75, 75, 75);\n  --color-nsw-aboriginal-grey-700: rgb(64, 64, 64);\n  --color-nsw-aboriginal-grey-750: rgb(55, 55, 55);\n  --color-nsw-aboriginal-grey-800: rgb(45, 45, 45);\n  --color-nsw-aboriginal-grey-850: rgb(32, 32, 32);\n  --color-nsw-aboriginal-grey-900: rgb(20, 20, 20);\n  --color-nsw-aboriginal-grey-950: rgb(9, 9, 9);\n  --color-nsw-aboriginal-red-50: rgb(255, 245, 245);\n  --color-nsw-aboriginal-red-100: rgb(255, 235, 235);\n  --color-nsw-aboriginal-red-150: rgb(254, 226, 226);\n  --color-nsw-aboriginal-red-200: rgb(253, 217, 217);\n  --color-nsw-aboriginal-red-250: rgb(253, 208, 208);\n  --color-nsw-aboriginal-red-300: rgb(252, 199, 198);\n  --color-nsw-aboriginal-red-350: rgb(252, 189, 189);\n  --color-nsw-aboriginal-red-400: rgb(251, 180, 179);\n  --color-nsw-aboriginal-red-450: rgb(247, 150, 147);\n  --color-nsw-aboriginal-red-500: rgb(242, 119, 113);\n  --color-nsw-aboriginal-red-550: rgb(234, 85, 76);\n  --color-nsw-aboriginal-red-600: rgb(225, 38, 28);\n  --color-nsw-aboriginal-red-650: rgb(205, 31, 23);\n  --color-nsw-aboriginal-red-700: rgb(186, 24, 17);\n  --color-nsw-aboriginal-red-750: rgb(167, 17, 11);\n  --color-nsw-aboriginal-red-800: rgb(149, 9, 6);\n  --color-nsw-aboriginal-red-850: rgb(116, 0, 1);\n  --color-nsw-aboriginal-red-900: rgb(84, 0, 0);\n  --color-nsw-aboriginal-red-950: rgb(54, 0, 0);\n  --color-nsw-aboriginal-orange-50: rgb(255, 244, 236);\n  --color-nsw-aboriginal-orange-100: rgb(254, 233, 221);\n  --color-nsw-aboriginal-orange-150: rgb(252, 223, 205);\n  --color-nsw-aboriginal-orange-200: rgb(249, 212, 190);\n  --color-nsw-aboriginal-orange-250: rgb(248, 202, 174);\n  --color-nsw-aboriginal-orange-300: rgb(247, 191, 158);\n  --color-nsw-aboriginal-orange-350: rgb(246, 181, 142);\n  --color-nsw-aboriginal-orange-400: rgb(244, 170, 125);\n  --color-nsw-aboriginal-orange-450: rgb(243, 154, 102);\n  --color-nsw-aboriginal-orange-500: rgb(242, 137, 79);\n  --color-nsw-aboriginal-orange-550: rgb(240, 119, 54);\n  --color-nsw-aboriginal-orange-600: rgb(238, 99, 20);\n  --color-nsw-aboriginal-orange-650: rgb(212, 83, 16);\n  --color-nsw-aboriginal-orange-700: rgb(186, 68, 10);\n  --color-nsw-aboriginal-orange-750: rgb(161, 53, 5);\n  --color-nsw-aboriginal-orange-800: rgb(136, 38, 0);\n  --color-nsw-aboriginal-orange-850: rgb(105, 25, 0);\n  --color-nsw-aboriginal-orange-900: rgb(76, 13, 0);\n  --color-nsw-aboriginal-orange-950: rgb(48, 3, 0);\n  --color-nsw-aboriginal-brown-50: rgb(252, 241, 233);\n  --color-nsw-aboriginal-brown-100: rgb(246, 227, 215);\n  --color-nsw-aboriginal-brown-150: rgb(239, 213, 196);\n  --color-nsw-aboriginal-brown-200: rgb(233, 200, 178);\n  --color-nsw-aboriginal-brown-250: rgb(228, 186, 159);\n  --color-nsw-aboriginal-brown-300: rgb(222, 173, 140);\n  --color-nsw-aboriginal-brown-350: rgb(217, 159, 120);\n  --color-nsw-aboriginal-brown-400: rgb(211, 145, 101);\n  --color-nsw-aboriginal-brown-450: rgb(198, 129, 88);\n  --color-nsw-aboriginal-brown-500: rgb(185, 114, 75);\n  --color-nsw-aboriginal-brown-550: rgb(171, 98, 62);\n  --color-nsw-aboriginal-brown-600: rgb(158, 83, 50);\n  --color-nsw-aboriginal-brown-650: rgb(139, 70, 39);\n  --color-nsw-aboriginal-brown-700: rgb(121, 57, 28);\n  --color-nsw-aboriginal-brown-750: rgb(103, 45, 16);\n  --color-nsw-aboriginal-brown-800: rgb(85, 33, 5);\n  --color-nsw-aboriginal-brown-850: rgb(65, 22, 2);\n  --color-nsw-aboriginal-brown-900: rgb(45, 12, 0);\n  --color-nsw-aboriginal-brown-950: rgb(27, 4, 0);\n  --color-nsw-aboriginal-yellow-50: rgb(255, 252, 238);\n  --color-nsw-aboriginal-yellow-100: rgb(255, 248, 224);\n  --color-nsw-aboriginal-yellow-150: rgb(255, 245, 211);\n  --color-nsw-aboriginal-yellow-200: rgb(255, 241, 197);\n  --color-nsw-aboriginal-yellow-250: rgb(255, 238, 183);\n  --color-nsw-aboriginal-yellow-300: rgb(255, 235, 169);\n  --color-nsw-aboriginal-yellow-350: rgb(254, 231, 155);\n  --color-nsw-aboriginal-yellow-400: rgb(254, 228, 140);\n  --color-nsw-aboriginal-yellow-450: rgb(254, 214, 117);\n  --color-nsw-aboriginal-yellow-500: rgb(254, 200, 93);\n  --color-nsw-aboriginal-yellow-550: rgb(254, 185, 68);\n  --color-nsw-aboriginal-yellow-600: rgb(254, 169, 39);\n  --color-nsw-aboriginal-yellow-650: rgb(223, 150, 28);\n  --color-nsw-aboriginal-yellow-700: rgb(193, 131, 18);\n  --color-nsw-aboriginal-yellow-750: rgb(165, 112, 7);\n  --color-nsw-aboriginal-yellow-800: rgb(137, 94, 0);\n  --color-nsw-aboriginal-yellow-850: rgb(105, 71, 0);\n  --color-nsw-aboriginal-yellow-900: rgb(76, 48, 0);\n  --color-nsw-aboriginal-yellow-950: rgb(47, 28, 0);\n  --color-nsw-aboriginal-green-50: rgb(245, 249, 242);\n  --color-nsw-aboriginal-green-100: rgb(236, 243, 231);\n  --color-nsw-aboriginal-green-150: rgb(227, 236, 220);\n  --color-nsw-aboriginal-green-200: rgb(218, 230, 209);\n  --color-nsw-aboriginal-green-250: rgb(209, 224, 198);\n  --color-nsw-aboriginal-green-300: rgb(199, 217, 186);\n  --color-nsw-aboriginal-green-350: rgb(190, 211, 175);\n  --color-nsw-aboriginal-green-400: rgb(181, 205, 164);\n  --color-nsw-aboriginal-green-450: rgb(165, 194, 142);\n  --color-nsw-aboriginal-green-500: rgb(149, 183, 119);\n  --color-nsw-aboriginal-green-550: rgb(134, 172, 96);\n  --color-nsw-aboriginal-green-600: rgb(120, 161, 70);\n  --color-nsw-aboriginal-green-650: rgb(95, 143, 68);\n  --color-nsw-aboriginal-green-700: rgb(73, 125, 64);\n  --color-nsw-aboriginal-green-750: rgb(52, 106, 59);\n  --color-nsw-aboriginal-green-800: rgb(33, 88, 52);\n  --color-nsw-aboriginal-green-850: rgb(21, 66, 37);\n  --color-nsw-aboriginal-green-900: rgb(10, 46, 23);\n  --color-nsw-aboriginal-green-950: rgb(2, 27, 10);\n  --color-nsw-aboriginal-blue-50: rgb(238, 248, 250);\n  --color-nsw-aboriginal-blue-100: rgb(223, 241, 244);\n  --color-nsw-aboriginal-blue-150: rgb(208, 233, 238);\n  --color-nsw-aboriginal-blue-200: rgb(193, 226, 232);\n  --color-nsw-aboriginal-blue-250: rgb(178, 219, 226);\n  --color-nsw-aboriginal-blue-300: rgb(163, 212, 220);\n  --color-nsw-aboriginal-blue-350: rgb(148, 204, 215);\n  --color-nsw-aboriginal-blue-400: rgb(132, 197, 209);\n  --color-nsw-aboriginal-blue-450: rgb(103, 174, 192);\n  --color-nsw-aboriginal-blue-500: rgb(74, 150, 176);\n  --color-nsw-aboriginal-blue-550: rgb(46, 127, 161);\n  --color-nsw-aboriginal-blue-600: rgb(13, 103, 145);\n  --color-nsw-aboriginal-blue-650: rgb(20, 87, 130);\n  --color-nsw-aboriginal-blue-700: rgb(23, 71, 115);\n  --color-nsw-aboriginal-blue-750: rgb(24, 55, 99);\n  --color-nsw-aboriginal-blue-800: rgb(22, 41, 83);\n  --color-nsw-aboriginal-blue-850: rgb(14, 29, 63);\n  --color-nsw-aboriginal-blue-900: rgb(6, 18, 44);\n  --color-nsw-aboriginal-blue-950: rgb(2, 7, 27);\n  --color-nsw-aboriginal-purple-50: rgb(250, 241, 248);\n  --color-nsw-aboriginal-purple-100: rgb(242, 229, 240);\n  --color-nsw-aboriginal-purple-150: rgb(235, 216, 232);\n  --color-nsw-aboriginal-purple-200: rgb(228, 204, 224);\n  --color-nsw-aboriginal-purple-250: rgb(221, 191, 216);\n  --color-nsw-aboriginal-purple-300: rgb(215, 179, 209);\n  --color-nsw-aboriginal-purple-350: rgb(208, 166, 201);\n  --color-nsw-aboriginal-purple-400: rgb(201, 154, 194);\n  --color-nsw-aboriginal-purple-450: rgb(189, 139, 182);\n  --color-nsw-aboriginal-purple-500: rgb(177, 124, 170);\n  --color-nsw-aboriginal-purple-550: rgb(166, 109, 159);\n  --color-nsw-aboriginal-purple-600: rgb(154, 94, 147);\n  --color-nsw-aboriginal-purple-650: rgb(132, 79, 126);\n  --color-nsw-aboriginal-purple-700: rgb(111, 65, 105);\n  --color-nsw-aboriginal-purple-750: rgb(91, 51, 85);\n  --color-nsw-aboriginal-purple-800: rgb(71, 38, 66);\n  --color-nsw-aboriginal-purple-850: rgb(53, 26, 49);\n  --color-nsw-aboriginal-purple-900: rgb(36, 16, 33);\n  --color-nsw-aboriginal-purple-950: rgb(21, 6, 18);\n}\n";
+
+// src/tailwind/colors/themes/masterbrand/hex.css
+var hex_exports14 = {};
+__export(hex_exports14, {
+  default: () => hex_default11
+});
+var hex_default11 = "@theme inline {\n  --color-primary-50: #f0fbff;\n  --color-primary-100: #e4f6ff;\n  --color-primary-150: #d7f2fe;\n  --color-primary-200: #cbedfd;\n  --color-primary-250: #bceafe;\n  --color-primary-300: #ade7ff;\n  --color-primary-350: #9de3ff;\n  --color-primary-400: #8ce0ff;\n  --color-primary-450: #5ac9ff;\n  --color-primary-500: #26aeff;\n  --color-primary-550: #008fff;\n  --color-primary-600: #146cfd;\n  --color-primary-650: #0c5ad4;\n  --color-primary-700: #0548ad;\n  --color-primary-750: #023688;\n  --color-primary-800: #002664;\n  --color-primary-850: #001a4d;\n  --color-primary-900: #001037;\n  --color-primary-950: #000622;\n  --color-accent-50: #fff8f9;\n  --color-accent-100: #fff2f4;\n  --color-accent-150: #ffecef;\n  --color-accent-200: #ffe6ea;\n  --color-accent-250: #ffdbe0;\n  --color-accent-300: #ffcfd6;\n  --color-accent-350: #ffc4cc;\n  --color-accent-400: #ffb8c1;\n  --color-accent-450: #f897a2;\n  --color-accent-500: #ef7581;\n  --color-accent-550: #e44f5f;\n  --color-accent-600: #d7153a;\n  --color-accent-650: #b90e32;\n  --color-accent-700: #9b072a;\n  --color-accent-750: #7e0322;\n  --color-accent-800: #630019;\n  --color-accent-850: #4c0010;\n  --color-accent-900: #360008;\n  --color-accent-950: #210003;\n  --color-grey-50: #fafafa;\n  --color-grey-100: #f5f5f5;\n  --color-grey-150: #f0f0f0;\n  --color-grey-200: #ebebeb;\n  --color-grey-250: #e3e5e6;\n  --color-grey-300: #dcdfe0;\n  --color-grey-350: #d4d9db;\n  --color-grey-400: #cdd3d6;\n  --color-grey-450: #aab0b4;\n  --color-grey-500: #888f92;\n  --color-grey-550: #686f72;\n  --color-grey-600: #495054;\n  --color-grey-650: #3f4549;\n  --color-grey-700: #353b3f;\n  --color-grey-750: #2b3135;\n  --color-grey-800: #22272b;\n  --color-grey-850: #181c1f;\n  --color-grey-900: #0e1113;\n  --color-grey-950: #050709;\n}\n";
+
+// src/tailwind/colors/themes/masterbrand/hsl.css
+var hsl_exports14 = {};
+__export(hsl_exports14, {
+  default: () => hsl_default11
+});
+var hsl_default11 = "@theme inline {\n  --color-primary-50: hsl(199.45, 100%, 97.34%);\n  --color-primary-100: hsl(199.38, 100%, 94.73%);\n  --color-primary-150: hsl(199.3, 95.85%, 92.09%);\n  --color-primary-200: hsl(199.2, 92.59%, 89.41%);\n  --color-primary-250: hsl(198.5, 96.87%, 86.75%);\n  --color-primary-300: hsl(197.76, 98.99%, 83.89%);\n  --color-primary-350: hsl(197, 99.87%, 80.82%);\n  --color-primary-400: hsl(196.17, 100%, 77.45%);\n  --color-primary-450: hsl(199.74, 99.83%, 67.57%);\n  --color-primary-500: hsl(202.52, 100%, 57.55%);\n  --color-primary-550: hsl(204.76, 100%, 46.97%);\n  --color-primary-600: hsl(217.34, 98.31%, 53.53%);\n  --color-primary-650: hsl(216.77, 89.43%, 43.98%);\n  --color-primary-700: hsl(216.29, 94.14%, 35%);\n  --color-primary-750: hsl(216.37, 97.67%, 26.93%);\n  --color-primary-800: hsl(217.2, 100%, 19.61%);\n  --color-primary-850: hsl(218.95, 100%, 14.93%);\n  --color-primary-900: hsl(222.31, 100%, 10.59%);\n  --color-primary-950: hsl(228.65, 100%, 6.6%);\n  --color-accent-50: hsl(350.85, 100%, 98.97%);\n  --color-accent-100: hsl(350.7, 100%, 97.7%);\n  --color-accent-150: hsl(350.55, 100%, 96.41%);\n  --color-accent-200: hsl(350.4, 100%, 95.1%);\n  --color-accent-250: hsl(350.92, 100%, 92.94%);\n  --color-accent-300: hsl(351.43, 100%, 90.72%);\n  --color-accent-350: hsl(351.92, 100%, 88.44%);\n  --color-accent-400: hsl(352.39, 100%, 86.08%);\n  --color-accent-450: hsl(353.39, 86.96%, 78.18%);\n  --color-accent-500: hsl(353.95, 78.84%, 69.69%);\n  --color-accent-550: hsl(353.52, 73.17%, 60.13%);\n  --color-accent-600: hsl(348.56, 82.2%, 46.27%);\n  --color-accent-650: hsl(347.26, 85.91%, 38.92%);\n  --color-accent-700: hsl(345.89, 91%, 31.81%);\n  --color-accent-750: hsl(345, 95.87%, 25.31%);\n  --color-accent-800: hsl(344.85, 100%, 19.41%);\n  --color-accent-850: hsl(346.11, 100%, 14.46%);\n  --color-accent-900: hsl(349.15, 100%, 10.03%);\n  --color-accent-950: hsl(352.16, 100%, 6.06%);\n  --color-grey-50: hsl(223.81, 0%, 98.03%);\n  --color-grey-100: hsl(223.81, 0%, 96.06%);\n  --color-grey-150: hsl(223.81, 0%, 94.11%);\n  --color-grey-200: hsl(223.81, 0%, 92.16%);\n  --color-grey-250: hsl(200.05, 4.31%, 89.64%);\n  --color-grey-300: hsl(200.03, 6.92%, 87.13%);\n  --color-grey-350: hsl(200.02, 8.65%, 84.64%);\n  --color-grey-400: hsl(200, 9.89%, 82.16%);\n  --color-grey-450: hsl(200.47, 6.03%, 68.52%);\n  --color-grey-500: hsl(200.94, 4.51%, 55.36%);\n  --color-grey-550: hsl(201.39, 4.91%, 42.76%);\n  --color-grey-600: hsl(201.82, 7.01%, 30.78%);\n  --color-grey-650: hsl(203.03, 7.74%, 26.71%);\n  --color-grey-700: hsl(204.24, 8.68%, 22.73%);\n  --color-grey-750: hsl(205.45, 9.93%, 18.85%);\n  --color-grey-800: hsl(206.67, 11.69%, 15.1%);\n  --color-grey-850: hsl(206.66, 13.37%, 10.7%);\n  --color-grey-900: hsl(206.64, 17.01%, 6.52%);\n  --color-grey-950: hsl(208.68, 23.47%, 2.8%);\n}\n";
+
+// src/tailwind/colors/themes/masterbrand/oklch.css
+var oklch_exports14 = {};
+__export(oklch_exports14, {
+  default: () => oklch_default11
+});
+var oklch_default11 = "@theme inline {\n  --color-primary-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);\n  --color-primary-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);\n  --color-primary-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);\n  --color-primary-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);\n  --color-primary-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);\n  --color-primary-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);\n  --color-primary-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);\n  --color-primary-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);\n  --color-primary-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);\n  --color-primary-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);\n  --color-primary-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);\n  --color-primary-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);\n  --color-primary-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);\n  --color-primary-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);\n  --color-primary-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);\n  --color-primary-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);\n  --color-primary-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);\n  --color-primary-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);\n  --color-primary-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);\n  --color-accent-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);\n  --color-accent-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);\n  --color-accent-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);\n  --color-accent-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);\n  --color-accent-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);\n  --color-accent-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);\n  --color-accent-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);\n  --color-accent-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);\n  --color-accent-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);\n  --color-accent-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);\n  --color-accent-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);\n  --color-accent-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);\n  --color-accent-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);\n  --color-accent-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);\n  --color-accent-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);\n  --color-accent-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);\n  --color-accent-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);\n  --color-accent-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);\n  --color-accent-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);\n  --color-grey-50: oklch(0.9850175274112574 0 0);\n  --color-grey-100: oklch(0.9700350548225147 0 0);\n  --color-grey-150: oklch(0.9550525822337722 0 0);\n  --color-grey-200: oklch(0.9400701096450296 0 0);\n  --color-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);\n  --color-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);\n  --color-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);\n  --color-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);\n  --color-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);\n  --color-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);\n  --color-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);\n  --color-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);\n  --color-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);\n  --color-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);\n  --color-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);\n  --color-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);\n  --color-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);\n  --color-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);\n  --color-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);\n}\n";
+
+// src/tailwind/colors/themes/masterbrand/rgb.css
+var rgb_exports14 = {};
+__export(rgb_exports14, {
+  default: () => rgb_default11
+});
+var rgb_default11 = "@theme inline {\n  --color-primary-50: rgb(240, 251, 255);\n  --color-primary-100: rgb(228, 246, 255);\n  --color-primary-150: rgb(215, 242, 254);\n  --color-primary-200: rgb(203, 237, 253);\n  --color-primary-250: rgb(188, 234, 254);\n  --color-primary-300: rgb(173, 231, 255);\n  --color-primary-350: rgb(157, 227, 255);\n  --color-primary-400: rgb(140, 224, 255);\n  --color-primary-450: rgb(90, 201, 255);\n  --color-primary-500: rgb(38, 174, 255);\n  --color-primary-550: rgb(0, 143, 255);\n  --color-primary-600: rgb(20, 108, 253);\n  --color-primary-650: rgb(12, 90, 212);\n  --color-primary-700: rgb(5, 72, 173);\n  --color-primary-750: rgb(2, 54, 136);\n  --color-primary-800: rgb(0, 38, 100);\n  --color-primary-850: rgb(0, 26, 77);\n  --color-primary-900: rgb(0, 16, 55);\n  --color-primary-950: rgb(0, 6, 34);\n  --color-accent-50: rgb(255, 248, 249);\n  --color-accent-100: rgb(255, 242, 244);\n  --color-accent-150: rgb(255, 236, 239);\n  --color-accent-200: rgb(255, 230, 234);\n  --color-accent-250: rgb(255, 219, 224);\n  --color-accent-300: rgb(255, 207, 214);\n  --color-accent-350: rgb(255, 196, 204);\n  --color-accent-400: rgb(255, 184, 193);\n  --color-accent-450: rgb(248, 151, 162);\n  --color-accent-500: rgb(239, 117, 129);\n  --color-accent-550: rgb(228, 79, 95);\n  --color-accent-600: rgb(215, 21, 58);\n  --color-accent-650: rgb(185, 14, 50);\n  --color-accent-700: rgb(155, 7, 42);\n  --color-accent-750: rgb(126, 3, 34);\n  --color-accent-800: rgb(99, 0, 25);\n  --color-accent-850: rgb(76, 0, 16);\n  --color-accent-900: rgb(54, 0, 8);\n  --color-accent-950: rgb(33, 0, 3);\n  --color-grey-50: rgb(250, 250, 250);\n  --color-grey-100: rgb(245, 245, 245);\n  --color-grey-150: rgb(240, 240, 240);\n  --color-grey-200: rgb(235, 235, 235);\n  --color-grey-250: rgb(227, 229, 230);\n  --color-grey-300: rgb(220, 223, 224);\n  --color-grey-350: rgb(212, 217, 219);\n  --color-grey-400: rgb(205, 211, 214);\n  --color-grey-450: rgb(170, 176, 180);\n  --color-grey-500: rgb(136, 143, 146);\n  --color-grey-550: rgb(104, 111, 114);\n  --color-grey-600: rgb(73, 80, 84);\n  --color-grey-650: rgb(63, 69, 73);\n  --color-grey-700: rgb(53, 59, 63);\n  --color-grey-750: rgb(43, 49, 53);\n  --color-grey-800: rgb(34, 39, 43);\n  --color-grey-850: rgb(24, 28, 31);\n  --color-grey-900: rgb(14, 17, 19);\n  --color-grey-950: rgb(5, 7, 9);\n}\n";
+
+// src/tailwind/colors/semantic/hex.css
+var hex_exports15 = {};
+__export(hex_exports15, {
+  default: () => hex_default12
+});
+var hex_default12 = "@theme {\n  --color-success-50: #eff9ed;\n  --color-success-100: #e0f3de;\n  --color-success-150: #d2eccf;\n  --color-success-200: #c4e5c0;\n  --color-success-250: #aad6a5;\n  --color-success-300: #8fc78a;\n  --color-success-350: #74b76f;\n  --color-success-400: #58a854;\n  --color-success-450: #49a146;\n  --color-success-500: #399936;\n  --color-success-550: #259224;\n  --color-success-600: #008a07;\n  --color-success-650: #007204;\n  --color-success-700: #005a02;\n  --color-success-750: #004401;\n  --color-success-800: #002f00;\n  --color-success-850: #002200;\n  --color-success-900: #001600;\n  --color-success-950: #000b00;\n  --color-warning-50: #fff3ed;\n  --color-warning-100: #ffe8de;\n  --color-warning-150: #ffddcf;\n  --color-warning-200: #fdd2c0;\n  --color-warning-250: #f6bda5;\n  --color-warning-300: #eea88a;\n  --color-warning-350: #e6936f;\n  --color-warning-400: #dd7d53;\n  --color-warning-450: #d87244;\n  --color-warning-500: #d36734;\n  --color-warning-550: #ce5c21;\n  --color-warning-600: #c95000;\n  --color-warning-650: #a83f03;\n  --color-warning-700: #882f03;\n  --color-warning-750: #692001;\n  --color-warning-800: #4b1200;\n  --color-warning-850: #390a00;\n  --color-warning-900: #270400;\n  --color-warning-950: #170100;\n  --color-danger-50: #fff0ef;\n  --color-danger-100: #ffe2e1;\n  --color-danger-150: #ffd4d4;\n  --color-danger-200: #fdc6c6;\n  --color-danger-250: #f4acad;\n  --color-danger-300: #ea9294;\n  --color-danger-350: #df787c;\n  --color-danger-400: #d35d65;\n  --color-danger-450: #cd4e59;\n  --color-danger-500: #c63f4e;\n  --color-danger-550: #bf2c42;\n  --color-danger-600: #b81237;\n  --color-danger-650: #990b2a;\n  --color-danger-700: #7c061f;\n  --color-danger-750: #5f0214;\n  --color-danger-800: #44000a;\n  --color-danger-850: #330005;\n  --color-danger-900: #230002;\n  --color-danger-950: #140001;\n  --color-info-50: #e9eef7;\n  --color-info-100: #d4ddeb;\n  --color-info-150: #c0cce0;\n  --color-info-200: #acbbd5;\n  --color-info-250: #96a9cc;\n  --color-info-300: #8098c2;\n  --color-info-350: #6b86b8;\n  --color-info-400: #5775ae;\n  --color-info-450: #4d6ca9;\n  --color-info-500: #4264a4;\n  --color-info-550: #385b9e;\n  --color-info-600: #2e5299;\n  --color-info-650: #23427f;\n  --color-info-700: #193366;\n  --color-info-750: #10254f;\n  --color-info-800: #071738;\n  --color-info-850: #040f2a;\n  --color-info-900: #02071c;\n  --color-info-950: #00030f;\n}\n";
+
+// src/tailwind/colors/semantic/hsl.css
+var hsl_exports15 = {};
+__export(hsl_exports15, {
+  default: () => hsl_default12
+});
+var hsl_default12 = "@theme {\n  --color-success-50: hsl(113.15, 52.52%, 95.43%);\n  --color-success-100: hsl(113.26, 45.54%, 91.13%);\n  --color-success-150: hsl(113.38, 42.97%, 86.84%);\n  --color-success-200: hsl(113.51, 41.57%, 82.55%);\n  --color-success-250: hsl(114.16, 37.16%, 74.26%);\n  --color-success-300: hsl(114.93, 34.81%, 66.02%);\n  --color-success-350: hsl(115.88, 33.38%, 57.78%);\n  --color-success-400: hsl(117.14, 33.33%, 49.41%);\n  --color-success-450: hsl(117.67, 39.56%, 45.11%);\n  --color-success-500: hsl(118.38, 47.88%, 40.58%);\n  --color-success-550: hsl(119.53, 60.48%, 35.56%);\n  --color-success-600: hsl(123.04, 100%, 27.06%);\n  --color-success-650: hsl(121.8, 99.36%, 22.38%);\n  --color-success-700: hsl(120.9, 99.22%, 17.81%);\n  --color-success-750: hsl(120.32, 99.47%, 13.4%);\n  --color-success-800: hsl(120, 100%, 9.22%);\n  --color-success-850: hsl(120.32, 100%, 6.51%);\n  --color-success-900: hsl(120.63, 100%, 4.07%);\n  --color-success-950: hsl(121.08, 100%, 1.88%);\n  --color-warning-50: hsl(17.53, 100%, 96.97%);\n  --color-warning-100: hsl(17.59, 100%, 93.77%);\n  --color-warning-150: hsl(17.65, 99.09%, 90.53%);\n  --color-warning-200: hsl(17.7, 93.85%, 87.25%);\n  --color-warning-250: hsl(17.77, 81.71%, 80.57%);\n  --color-warning-300: hsl(17.84, 74.94%, 73.78%);\n  --color-warning-350: hsl(17.98, 70.36%, 66.84%);\n  --color-warning-400: hsl(18.26, 66.99%, 59.61%);\n  --color-warning-450: hsl(18.61, 65.61%, 55.79%);\n  --color-warning-500: hsl(19.18, 64.53%, 51.69%);\n  --color-warning-550: hsl(20.31, 72.21%, 46.96%);\n  --color-warning-600: hsl(23.88, 100%, 39.41%);\n  --color-warning-650: hsl(21.95, 96.66%, 33.46%);\n  --color-warning-700: hsl(20.07, 95.99%, 27.13%);\n  --color-warning-750: hsl(17.86, 97.32%, 20.78%);\n  --color-warning-800: hsl(14.4, 100%, 14.71%);\n  --color-warning-850: hsl(11.43, 100%, 10.95%);\n  --color-warning-900: hsl(7.67, 100%, 7.5%);\n  --color-warning-950: hsl(4.64, 100%, 4.34%);\n  --color-danger-50: hsl(0.78, 100%, 97.61%);\n  --color-danger-100: hsl(0.56, 100%, 94.61%);\n  --color-danger-150: hsl(0.3, 100%, 91.55%);\n  --color-danger-200: hsl(0, 93.22%, 88.43%);\n  --color-danger-250: hsl(359.39, 76.34%, 81.59%);\n  --color-danger-300: hsl(358.59, 67.4%, 74.56%);\n  --color-danger-350: hsl(357.51, 61.52%, 67.27%);\n  --color-danger-400: hsl(355.93, 57.28%, 59.61%);\n  --color-danger-450: hsl(354.77, 55.6%, 55.49%);\n  --color-danger-500: hsl(353.23, 54.28%, 51.09%);\n  --color-danger-550: hsl(350.97, 62.34%, 46.16%);\n  --color-danger-600: hsl(346.63, 82.18%, 39.61%);\n  --color-danger-650: hsl(346.89, 86.15%, 32.28%);\n  --color-danger-700: hsl(347.25, 91.31%, 25.33%);\n  --color-danger-750: hsl(348.45, 96%, 19.02%);\n  --color-danger-800: hsl(351.18, 100%, 13.33%);\n  --color-danger-850: hsl(352.99, 100%, 9.85%);\n  --color-danger-900: hsl(354.47, 100%, 6.66%);\n  --color-danger-950: hsl(355.5, 100%, 3.76%);\n  --color-info-50: hsl(217.99, 45.88%, 94%);\n  --color-info-100: hsl(218, 37.47%, 87.77%);\n  --color-info-150: hsl(218.02, 34.49%, 81.6%);\n  --color-info-200: hsl(218.05, 32.8%, 75.49%);\n  --color-info-250: hsl(218.29, 34.23%, 69.31%);\n  --color-info-300: hsl(218.57, 34.87%, 63.2%);\n  --color-info-350: hsl(218.9, 35.05%, 57.15%);\n  --color-info-400: hsl(219.31, 34.94%, 51.18%);\n  --color-info-450: hsl(219.41, 37.55%, 48.13%);\n  --color-info-500: hsl(219.52, 42.28%, 45.1%);\n  --color-info-550: hsl(219.66, 47.62%, 42.06%);\n  --color-info-600: hsl(219.81, 53.77%, 39.02%);\n  --color-info-650: hsl(219.87, 56.39%, 31.92%);\n  --color-info-700: hsl(219.93, 60.27%, 25.07%);\n  --color-info-750: hsl(220.02, 66.59%, 18.51%);\n  --color-info-800: hsl(220.41, 77.78%, 12.35%);\n  --color-info-850: hsl(222.21, 84%, 8.9%);\n  --color-info-900: hsl(226.63, 89.54%, 5.83%);\n  --color-info-950: hsl(230.65, 94.13%, 3.12%);\n}\n";
+
+// src/tailwind/colors/semantic/oklch.css
+var oklch_exports15 = {};
+__export(oklch_exports15, {
+  default: () => oklch_default12
+});
+var oklch_default12 = "@theme {\n  --color-success-50: oklch(0.9720355476100955 0.01978729853872853 142.11752406542539);\n  --color-success-100: oklch(0.944071095220191 0.03348619752707904 142.11752406542539);\n  --color-success-150: oklch(0.9161066428302864 0.04718509651542956 142.11752406542539);\n  --color-success-200: oklch(0.8881421904403819 0.06088399550378008 142.11752406542539);\n  --color-success-250: oklch(0.8312289461835737 0.0814134964867239 142.2964842668701);\n  --color-success-300: oklch(0.7743157019267655 0.10194299746966773 142.47544446831483);\n  --color-success-350: oklch(0.7174024576699572 0.12247249845261154 142.65440466975954);\n  --color-success-400: oklch(0.660489213413149 0.14300199943555536 142.83336487120425);\n  --color-success-450: oklch(0.6326270919832794 0.153487552492673 142.8252122365381);\n  --color-success-500: oklch(0.6047649705534097 0.16397310554979067 142.81705960187193);\n  --color-success-550: oklch(0.57690284912354 0.17445865860690835 142.80890696720576);\n  --color-success-600: oklch(0.5490407276936703 0.184944211664026 142.8007543325396);\n  --color-success-650: oklch(0.4778879989458421 0.16120283434453703 142.72440047135717);\n  --color-success-700: oklch(0.40673527019801387 0.13746145702504803 142.64804661017473);\n  --color-success-750: oklch(0.3355825414501856 0.11372007970555903 142.57169274899232);\n  --color-success-800: oklch(0.26442981270235744 0.08997870238607004 142.49533888780988);\n  --color-success-850: oklch(0.21815459547944488 0.07648189702815954 142.49533888780988);\n  --color-success-900: oklch(0.17187937825653232 0.06298509167024903 142.49533888780988);\n  --color-success-950: oklch(0.12560416103361977 0.04948828631233853 142.49533888780988);\n  --color-warning-50: oklch(0.9739777778864123 0.017695077274685146 43.9454781334139);\n  --color-warning-100: oklch(0.9479555557728245 0.029945515387928705 43.9454781334139);\n  --color-warning-150: oklch(0.9219333336592369 0.042195953501172265 43.9454781334139);\n  --color-warning-200: oklch(0.8959111115456492 0.05444639161441583 43.9454781334139);\n  --color-warning-250: oklch(0.8436567377995562 0.07383969866253859 43.88732593200177);\n  --color-warning-300: oklch(0.7914023640534633 0.09323300571066136 43.829173730589645);\n  --color-warning-350: oklch(0.7391479903073703 0.11262631275878413 43.77102152917751);\n  --color-warning-400: oklch(0.6868936165612773 0.13201961980690688 43.71286932776538);\n  --color-warning-450: oklch(0.6610028202949751 0.14144095719007027 43.78396833320002);\n  --color-warning-500: oklch(0.635112024028673 0.15086229457323366 43.85506733863466);\n  --color-warning-550: oklch(0.6092212277623706 0.16028363195639705 43.9261663440693);\n  --color-warning-600: oklch(0.5833304314960684 0.16970496933956045 43.99726534950394);\n  --color-warning-650: oklch(0.507009085738871 0.149901753081645 42.56483564766481);\n  --color-warning-700: oklch(0.43068773998167365 0.13009853682372957 41.13240594582567);\n  --color-warning-750: oklch(0.3543663942244763 0.11029532056581412 39.69997624398653);\n  --color-warning-800: oklch(0.2780450484672789 0.09049210430789867 38.26754654214739);\n  --color-warning-850: oklch(0.2293871649855051 0.07691828866171387 38.26754654214739);\n  --color-warning-900: oklch(0.1807292815037313 0.06334447301552906 38.26754654214739);\n  --color-warning-950: oklch(0.13207139802195747 0.04977065736934427 38.26754654214739);\n  --color-danger-50: oklch(0.9688081012787089 0.02046893571008903 18.42817489942577);\n  --color-danger-100: oklch(0.9376162025574177 0.034639737355535286 18.42817489942577);\n  --color-danger-150: oklch(0.9064243038361265 0.048810539000981534 18.42817489942577);\n  --color-danger-200: oklch(0.8752324051148354 0.06298134064642778 18.42817489942577);\n  --color-danger-250: oklch(0.8133068732197568 0.08452871651344564 18.398482771634782);\n  --color-danger-300: oklch(0.7513813413246784 0.1060760923804635 18.368790643843795);\n  --color-danger-350: oklch(0.6894558094295998 0.12762346824748136 18.339098516052807);\n  --color-danger-400: oklch(0.6275302775345213 0.1491708441144992 18.30940638826182);\n  --color-danger-450: oklch(0.5961466901234453 0.1600594003984286 18.251840020312933);\n  --color-danger-500: oklch(0.5647631027123693 0.17094795668235796 18.194273652364046);\n  --color-danger-550: oklch(0.5333795153012932 0.1818365129662873 18.13670728441516);\n  --color-danger-600: oklch(0.5019959278902173 0.19272506925021668 18.079140916466272);\n  --color-danger-650: oklch(0.43761291207168196 0.16911051005163913 18.72632727121819);\n  --color-danger-700: oklch(0.3732298962531466 0.1454959508530616 19.3735136259701);\n  --color-danger-750: oklch(0.30884688043461134 0.12188139165448407 20.020699980722014);\n  --color-danger-800: oklch(0.244463864616076 0.09826683245590653 20.66788633547393);\n  --color-danger-850: oklch(0.2016826883082627 0.08352680758752055 20.66788633547393);\n  --color-danger-900: oklch(0.15890151200044939 0.06878678271913458 20.66788633547393);\n  --color-danger-950: oklch(0.1161203356926361 0.0540467578507486 20.66788633547393);\n  --color-info-50: oklch(0.9472470414070251 0.01319114316017373 261.49146551846417);\n  --color-info-100: oklch(0.8944940828140502 0.02232347304029401 261.49146551846417);\n  --color-info-150: oklch(0.8417411242210754 0.03145580292041429 261.49146551846417);\n  --color-info-200: oklch(0.7889881656281005 0.04058813280053457 261.49146551846417);\n  --color-info-250: oklch(0.7327975333484203 0.05432284288357939 261.7505460408388);\n  --color-info-300: oklch(0.6766069010687401 0.06805755296662422 262.0096265632134);\n  --color-info-350: oklch(0.62041626878906 0.08179226304966905 262.268707085588);\n  --color-info-400: oklch(0.5642256365093798 0.09552697313271387 262.52778760796264);\n  --color-info-450: oklch(0.5358247299257868 0.10246599429811404 262.4837143651888);\n  --color-info-500: oklch(0.5074238233421937 0.10940501546351422 262.4396411224149);\n  --color-info-550: oklch(0.47902291675860065 0.1163440366289144 262.395567879641);\n  --color-info-600: oklch(0.4506220101750076 0.12328305779431457 262.3514946368672);\n  --color-info-650: oklch(0.3914472612047992 0.10948475002303204 262.3659717757216);\n  --color-info-700: oklch(0.33227251223459087 0.09568644225174952 262.3804489145761);\n  --color-info-750: oklch(0.2730977632643825 0.08188813448046699 262.3949260534306);\n  --color-info-800: oklch(0.21392301429417415 0.06808982670918445 262.409403192285);\n  --color-info-850: oklch(0.1764864867926937 0.057876352702806784 262.409403192285);\n  --color-info-900: oklch(0.13904995929121322 0.047662878696429115 262.409403192285);\n  --color-info-950: oklch(0.10161343178973273 0.03744940469005145 262.409403192285);\n}\n";
+
+// src/tailwind/colors/semantic/rgb.css
+var rgb_exports15 = {};
+__export(rgb_exports15, {
+  default: () => rgb_default12
+});
+var rgb_default12 = "@theme {\n  --color-success-50: rgb(239, 249, 237);\n  --color-success-100: rgb(224, 243, 222);\n  --color-success-150: rgb(210, 236, 207);\n  --color-success-200: rgb(196, 229, 192);\n  --color-success-250: rgb(170, 214, 165);\n  --color-success-300: rgb(143, 199, 138);\n  --color-success-350: rgb(116, 183, 111);\n  --color-success-400: rgb(88, 168, 84);\n  --color-success-450: rgb(73, 161, 70);\n  --color-success-500: rgb(57, 153, 54);\n  --color-success-550: rgb(37, 146, 36);\n  --color-success-600: rgb(0, 138, 7);\n  --color-success-650: rgb(0, 114, 4);\n  --color-success-700: rgb(0, 90, 2);\n  --color-success-750: rgb(0, 68, 1);\n  --color-success-800: rgb(0, 47, 0);\n  --color-success-850: rgb(0, 34, 0);\n  --color-success-900: rgb(0, 22, 0);\n  --color-success-950: rgb(0, 11, 0);\n  --color-warning-50: rgb(255, 243, 237);\n  --color-warning-100: rgb(255, 232, 222);\n  --color-warning-150: rgb(255, 221, 207);\n  --color-warning-200: rgb(253, 210, 192);\n  --color-warning-250: rgb(246, 189, 165);\n  --color-warning-300: rgb(238, 168, 138);\n  --color-warning-350: rgb(230, 147, 111);\n  --color-warning-400: rgb(221, 125, 83);\n  --color-warning-450: rgb(216, 114, 68);\n  --color-warning-500: rgb(211, 103, 52);\n  --color-warning-550: rgb(206, 92, 33);\n  --color-warning-600: rgb(201, 80, 0);\n  --color-warning-650: rgb(168, 63, 3);\n  --color-warning-700: rgb(136, 47, 3);\n  --color-warning-750: rgb(105, 32, 1);\n  --color-warning-800: rgb(75, 18, 0);\n  --color-warning-850: rgb(57, 10, 0);\n  --color-warning-900: rgb(39, 4, 0);\n  --color-warning-950: rgb(23, 1, 0);\n  --color-danger-50: rgb(255, 240, 239);\n  --color-danger-100: rgb(255, 226, 225);\n  --color-danger-150: rgb(255, 212, 212);\n  --color-danger-200: rgb(253, 198, 198);\n  --color-danger-250: rgb(244, 172, 173);\n  --color-danger-300: rgb(234, 146, 148);\n  --color-danger-350: rgb(223, 120, 124);\n  --color-danger-400: rgb(211, 93, 101);\n  --color-danger-450: rgb(205, 78, 89);\n  --color-danger-500: rgb(198, 63, 78);\n  --color-danger-550: rgb(191, 44, 66);\n  --color-danger-600: rgb(184, 18, 55);\n  --color-danger-650: rgb(153, 11, 42);\n  --color-danger-700: rgb(124, 6, 31);\n  --color-danger-750: rgb(95, 2, 20);\n  --color-danger-800: rgb(68, 0, 10);\n  --color-danger-850: rgb(51, 0, 5);\n  --color-danger-900: rgb(35, 0, 2);\n  --color-danger-950: rgb(20, 0, 1);\n  --color-info-50: rgb(233, 238, 247);\n  --color-info-100: rgb(212, 221, 235);\n  --color-info-150: rgb(192, 204, 224);\n  --color-info-200: rgb(172, 187, 213);\n  --color-info-250: rgb(150, 169, 204);\n  --color-info-300: rgb(128, 152, 194);\n  --color-info-350: rgb(107, 134, 184);\n  --color-info-400: rgb(87, 117, 174);\n  --color-info-450: rgb(77, 108, 169);\n  --color-info-500: rgb(66, 100, 164);\n  --color-info-550: rgb(56, 91, 158);\n  --color-info-600: rgb(46, 82, 153);\n  --color-info-650: rgb(35, 66, 127);\n  --color-info-700: rgb(25, 51, 102);\n  --color-info-750: rgb(16, 37, 79);\n  --color-info-800: rgb(7, 23, 56);\n  --color-info-850: rgb(4, 15, 42);\n  --color-info-900: rgb(2, 7, 28);\n  --color-info-950: rgb(0, 3, 15);\n}\n";
+
+// src/ts/colors/global/hex.ts
+var hex_exports16 = {};
+__export(hex_exports16, {
   nswAboriginalBlue: () => nswAboriginalBlue5,
   nswAboriginalBrown: () => nswAboriginalBrown5,
   nswAboriginalGreen: () => nswAboriginalGreen5,
@@ -15754,8 +18798,8 @@ var nswAboriginalPurple5 = {
 };
 
 // src/ts/colors/global/hsl.ts
-var hsl_exports11 = {};
-__export(hsl_exports11, {
+var hsl_exports16 = {};
+__export(hsl_exports16, {
   nswAboriginalBlue: () => nswAboriginalBlue6,
   nswAboriginalBrown: () => nswAboriginalBrown6,
   nswAboriginalGreen: () => nswAboriginalGreen6,
@@ -16155,8 +19199,8 @@ var nswAboriginalPurple6 = {
 };
 
 // src/ts/colors/global/oklch.ts
-var oklch_exports11 = {};
-__export(oklch_exports11, {
+var oklch_exports16 = {};
+__export(oklch_exports16, {
   nswAboriginalBlue: () => nswAboriginalBlue7,
   nswAboriginalBrown: () => nswAboriginalBrown7,
   nswAboriginalGreen: () => nswAboriginalGreen7,
@@ -16556,8 +19600,8 @@ var nswAboriginalPurple7 = {
 };
 
 // src/ts/colors/global/rgb.ts
-var rgb_exports11 = {};
-__export(rgb_exports11, {
+var rgb_exports16 = {};
+__export(rgb_exports16, {
   nswAboriginalBlue: () => nswAboriginalBlue8,
   nswAboriginalBrown: () => nswAboriginalBrown8,
   nswAboriginalGreen: () => nswAboriginalGreen8,
@@ -16957,8 +20001,8 @@ var nswAboriginalPurple8 = {
 };
 
 // src/ts/colors/themes/masterbrand/hex.ts
-var hex_exports12 = {};
-__export(hex_exports12, {
+var hex_exports17 = {};
+__export(hex_exports17, {
   accent: () => accent5,
   grey: () => grey5,
   primary: () => primary5
@@ -17028,8 +20072,8 @@ var grey5 = {
 };
 
 // src/ts/colors/themes/masterbrand/hsl.ts
-var hsl_exports12 = {};
-__export(hsl_exports12, {
+var hsl_exports17 = {};
+__export(hsl_exports17, {
   accent: () => accent6,
   grey: () => grey6,
   primary: () => primary6
@@ -17099,8 +20143,8 @@ var grey6 = {
 };
 
 // src/ts/colors/themes/masterbrand/oklch.ts
-var oklch_exports12 = {};
-__export(oklch_exports12, {
+var oklch_exports17 = {};
+__export(oklch_exports17, {
   accent: () => accent7,
   grey: () => grey7,
   primary: () => primary7
@@ -17170,8 +20214,8 @@ var grey7 = {
 };
 
 // src/ts/colors/themes/masterbrand/rgb.ts
-var rgb_exports12 = {};
-__export(rgb_exports12, {
+var rgb_exports17 = {};
+__export(rgb_exports17, {
   accent: () => accent8,
   grey: () => grey8,
   primary: () => primary8
@@ -17240,6 +20284,378 @@ var grey8 = {
   "950": "rgb(5, 7, 9)"
 };
 
+// src/ts/colors/semantic/hex.ts
+var hex_exports18 = {};
+__export(hex_exports18, {
+  danger: () => danger5,
+  info: () => info5,
+  success: () => success5,
+  warning: () => warning5
+});
+var success5 = {
+  "50": "#eff9ed",
+  "100": "#e0f3de",
+  "150": "#d2eccf",
+  "200": "#c4e5c0",
+  "250": "#aad6a5",
+  "300": "#8fc78a",
+  "350": "#74b76f",
+  "400": "#58a854",
+  "450": "#49a146",
+  "500": "#399936",
+  "550": "#259224",
+  "600": "#008a07",
+  "650": "#007204",
+  "700": "#005a02",
+  "750": "#004401",
+  "800": "#002f00",
+  "850": "#002200",
+  "900": "#001600",
+  "950": "#000b00"
+};
+var warning5 = {
+  "50": "#fff3ed",
+  "100": "#ffe8de",
+  "150": "#ffddcf",
+  "200": "#fdd2c0",
+  "250": "#f6bda5",
+  "300": "#eea88a",
+  "350": "#e6936f",
+  "400": "#dd7d53",
+  "450": "#d87244",
+  "500": "#d36734",
+  "550": "#ce5c21",
+  "600": "#c95000",
+  "650": "#a83f03",
+  "700": "#882f03",
+  "750": "#692001",
+  "800": "#4b1200",
+  "850": "#390a00",
+  "900": "#270400",
+  "950": "#170100"
+};
+var danger5 = {
+  "50": "#fff0ef",
+  "100": "#ffe2e1",
+  "150": "#ffd4d4",
+  "200": "#fdc6c6",
+  "250": "#f4acad",
+  "300": "#ea9294",
+  "350": "#df787c",
+  "400": "#d35d65",
+  "450": "#cd4e59",
+  "500": "#c63f4e",
+  "550": "#bf2c42",
+  "600": "#b81237",
+  "650": "#990b2a",
+  "700": "#7c061f",
+  "750": "#5f0214",
+  "800": "#44000a",
+  "850": "#330005",
+  "900": "#230002",
+  "950": "#140001"
+};
+var info5 = {
+  "50": "#e9eef7",
+  "100": "#d4ddeb",
+  "150": "#c0cce0",
+  "200": "#acbbd5",
+  "250": "#96a9cc",
+  "300": "#8098c2",
+  "350": "#6b86b8",
+  "400": "#5775ae",
+  "450": "#4d6ca9",
+  "500": "#4264a4",
+  "550": "#385b9e",
+  "600": "#2e5299",
+  "650": "#23427f",
+  "700": "#193366",
+  "750": "#10254f",
+  "800": "#071738",
+  "850": "#040f2a",
+  "900": "#02071c",
+  "950": "#00030f"
+};
+
+// src/ts/colors/semantic/hsl.ts
+var hsl_exports18 = {};
+__export(hsl_exports18, {
+  danger: () => danger6,
+  info: () => info6,
+  success: () => success6,
+  warning: () => warning6
+});
+var success6 = {
+  "50": "hsl(113.15, 52.52%, 95.43%)",
+  "100": "hsl(113.26, 45.54%, 91.13%)",
+  "150": "hsl(113.38, 42.97%, 86.84%)",
+  "200": "hsl(113.51, 41.57%, 82.55%)",
+  "250": "hsl(114.16, 37.16%, 74.26%)",
+  "300": "hsl(114.93, 34.81%, 66.02%)",
+  "350": "hsl(115.88, 33.38%, 57.78%)",
+  "400": "hsl(117.14, 33.33%, 49.41%)",
+  "450": "hsl(117.67, 39.56%, 45.11%)",
+  "500": "hsl(118.38, 47.88%, 40.58%)",
+  "550": "hsl(119.53, 60.48%, 35.56%)",
+  "600": "hsl(123.04, 100%, 27.06%)",
+  "650": "hsl(121.8, 99.36%, 22.38%)",
+  "700": "hsl(120.9, 99.22%, 17.81%)",
+  "750": "hsl(120.32, 99.47%, 13.4%)",
+  "800": "hsl(120, 100%, 9.22%)",
+  "850": "hsl(120.32, 100%, 6.51%)",
+  "900": "hsl(120.63, 100%, 4.07%)",
+  "950": "hsl(121.08, 100%, 1.88%)"
+};
+var warning6 = {
+  "50": "hsl(17.53, 100%, 96.97%)",
+  "100": "hsl(17.59, 100%, 93.77%)",
+  "150": "hsl(17.65, 99.09%, 90.53%)",
+  "200": "hsl(17.7, 93.85%, 87.25%)",
+  "250": "hsl(17.77, 81.71%, 80.57%)",
+  "300": "hsl(17.84, 74.94%, 73.78%)",
+  "350": "hsl(17.98, 70.36%, 66.84%)",
+  "400": "hsl(18.26, 66.99%, 59.61%)",
+  "450": "hsl(18.61, 65.61%, 55.79%)",
+  "500": "hsl(19.18, 64.53%, 51.69%)",
+  "550": "hsl(20.31, 72.21%, 46.96%)",
+  "600": "hsl(23.88, 100%, 39.41%)",
+  "650": "hsl(21.95, 96.66%, 33.46%)",
+  "700": "hsl(20.07, 95.99%, 27.13%)",
+  "750": "hsl(17.86, 97.32%, 20.78%)",
+  "800": "hsl(14.4, 100%, 14.71%)",
+  "850": "hsl(11.43, 100%, 10.95%)",
+  "900": "hsl(7.67, 100%, 7.5%)",
+  "950": "hsl(4.64, 100%, 4.34%)"
+};
+var danger6 = {
+  "50": "hsl(0.78, 100%, 97.61%)",
+  "100": "hsl(0.56, 100%, 94.61%)",
+  "150": "hsl(0.3, 100%, 91.55%)",
+  "200": "hsl(0, 93.22%, 88.43%)",
+  "250": "hsl(359.39, 76.34%, 81.59%)",
+  "300": "hsl(358.59, 67.4%, 74.56%)",
+  "350": "hsl(357.51, 61.52%, 67.27%)",
+  "400": "hsl(355.93, 57.28%, 59.61%)",
+  "450": "hsl(354.77, 55.6%, 55.49%)",
+  "500": "hsl(353.23, 54.28%, 51.09%)",
+  "550": "hsl(350.97, 62.34%, 46.16%)",
+  "600": "hsl(346.63, 82.18%, 39.61%)",
+  "650": "hsl(346.89, 86.15%, 32.28%)",
+  "700": "hsl(347.25, 91.31%, 25.33%)",
+  "750": "hsl(348.45, 96%, 19.02%)",
+  "800": "hsl(351.18, 100%, 13.33%)",
+  "850": "hsl(352.99, 100%, 9.85%)",
+  "900": "hsl(354.47, 100%, 6.66%)",
+  "950": "hsl(355.5, 100%, 3.76%)"
+};
+var info6 = {
+  "50": "hsl(217.99, 45.88%, 94%)",
+  "100": "hsl(218, 37.47%, 87.77%)",
+  "150": "hsl(218.02, 34.49%, 81.6%)",
+  "200": "hsl(218.05, 32.8%, 75.49%)",
+  "250": "hsl(218.29, 34.23%, 69.31%)",
+  "300": "hsl(218.57, 34.87%, 63.2%)",
+  "350": "hsl(218.9, 35.05%, 57.15%)",
+  "400": "hsl(219.31, 34.94%, 51.18%)",
+  "450": "hsl(219.41, 37.55%, 48.13%)",
+  "500": "hsl(219.52, 42.28%, 45.1%)",
+  "550": "hsl(219.66, 47.62%, 42.06%)",
+  "600": "hsl(219.81, 53.77%, 39.02%)",
+  "650": "hsl(219.87, 56.39%, 31.92%)",
+  "700": "hsl(219.93, 60.27%, 25.07%)",
+  "750": "hsl(220.02, 66.59%, 18.51%)",
+  "800": "hsl(220.41, 77.78%, 12.35%)",
+  "850": "hsl(222.21, 84%, 8.9%)",
+  "900": "hsl(226.63, 89.54%, 5.83%)",
+  "950": "hsl(230.65, 94.13%, 3.12%)"
+};
+
+// src/ts/colors/semantic/oklch.ts
+var oklch_exports18 = {};
+__export(oklch_exports18, {
+  danger: () => danger7,
+  info: () => info7,
+  success: () => success7,
+  warning: () => warning7
+});
+var success7 = {
+  "50": "oklch(0.9720355476100955 0.01978729853872853 142.11752406542539)",
+  "100": "oklch(0.944071095220191 0.03348619752707904 142.11752406542539)",
+  "150": "oklch(0.9161066428302864 0.04718509651542956 142.11752406542539)",
+  "200": "oklch(0.8881421904403819 0.06088399550378008 142.11752406542539)",
+  "250": "oklch(0.8312289461835737 0.0814134964867239 142.2964842668701)",
+  "300": "oklch(0.7743157019267655 0.10194299746966773 142.47544446831483)",
+  "350": "oklch(0.7174024576699572 0.12247249845261154 142.65440466975954)",
+  "400": "oklch(0.660489213413149 0.14300199943555536 142.83336487120425)",
+  "450": "oklch(0.6326270919832794 0.153487552492673 142.8252122365381)",
+  "500": "oklch(0.6047649705534097 0.16397310554979067 142.81705960187193)",
+  "550": "oklch(0.57690284912354 0.17445865860690835 142.80890696720576)",
+  "600": "oklch(0.5490407276936703 0.184944211664026 142.8007543325396)",
+  "650": "oklch(0.4778879989458421 0.16120283434453703 142.72440047135717)",
+  "700": "oklch(0.40673527019801387 0.13746145702504803 142.64804661017473)",
+  "750": "oklch(0.3355825414501856 0.11372007970555903 142.57169274899232)",
+  "800": "oklch(0.26442981270235744 0.08997870238607004 142.49533888780988)",
+  "850": "oklch(0.21815459547944488 0.07648189702815954 142.49533888780988)",
+  "900": "oklch(0.17187937825653232 0.06298509167024903 142.49533888780988)",
+  "950": "oklch(0.12560416103361977 0.04948828631233853 142.49533888780988)"
+};
+var warning7 = {
+  "50": "oklch(0.9739777778864123 0.017695077274685146 43.9454781334139)",
+  "100": "oklch(0.9479555557728245 0.029945515387928705 43.9454781334139)",
+  "150": "oklch(0.9219333336592369 0.042195953501172265 43.9454781334139)",
+  "200": "oklch(0.8959111115456492 0.05444639161441583 43.9454781334139)",
+  "250": "oklch(0.8436567377995562 0.07383969866253859 43.88732593200177)",
+  "300": "oklch(0.7914023640534633 0.09323300571066136 43.829173730589645)",
+  "350": "oklch(0.7391479903073703 0.11262631275878413 43.77102152917751)",
+  "400": "oklch(0.6868936165612773 0.13201961980690688 43.71286932776538)",
+  "450": "oklch(0.6610028202949751 0.14144095719007027 43.78396833320002)",
+  "500": "oklch(0.635112024028673 0.15086229457323366 43.85506733863466)",
+  "550": "oklch(0.6092212277623706 0.16028363195639705 43.9261663440693)",
+  "600": "oklch(0.5833304314960684 0.16970496933956045 43.99726534950394)",
+  "650": "oklch(0.507009085738871 0.149901753081645 42.56483564766481)",
+  "700": "oklch(0.43068773998167365 0.13009853682372957 41.13240594582567)",
+  "750": "oklch(0.3543663942244763 0.11029532056581412 39.69997624398653)",
+  "800": "oklch(0.2780450484672789 0.09049210430789867 38.26754654214739)",
+  "850": "oklch(0.2293871649855051 0.07691828866171387 38.26754654214739)",
+  "900": "oklch(0.1807292815037313 0.06334447301552906 38.26754654214739)",
+  "950": "oklch(0.13207139802195747 0.04977065736934427 38.26754654214739)"
+};
+var danger7 = {
+  "50": "oklch(0.9688081012787089 0.02046893571008903 18.42817489942577)",
+  "100": "oklch(0.9376162025574177 0.034639737355535286 18.42817489942577)",
+  "150": "oklch(0.9064243038361265 0.048810539000981534 18.42817489942577)",
+  "200": "oklch(0.8752324051148354 0.06298134064642778 18.42817489942577)",
+  "250": "oklch(0.8133068732197568 0.08452871651344564 18.398482771634782)",
+  "300": "oklch(0.7513813413246784 0.1060760923804635 18.368790643843795)",
+  "350": "oklch(0.6894558094295998 0.12762346824748136 18.339098516052807)",
+  "400": "oklch(0.6275302775345213 0.1491708441144992 18.30940638826182)",
+  "450": "oklch(0.5961466901234453 0.1600594003984286 18.251840020312933)",
+  "500": "oklch(0.5647631027123693 0.17094795668235796 18.194273652364046)",
+  "550": "oklch(0.5333795153012932 0.1818365129662873 18.13670728441516)",
+  "600": "oklch(0.5019959278902173 0.19272506925021668 18.079140916466272)",
+  "650": "oklch(0.43761291207168196 0.16911051005163913 18.72632727121819)",
+  "700": "oklch(0.3732298962531466 0.1454959508530616 19.3735136259701)",
+  "750": "oklch(0.30884688043461134 0.12188139165448407 20.020699980722014)",
+  "800": "oklch(0.244463864616076 0.09826683245590653 20.66788633547393)",
+  "850": "oklch(0.2016826883082627 0.08352680758752055 20.66788633547393)",
+  "900": "oklch(0.15890151200044939 0.06878678271913458 20.66788633547393)",
+  "950": "oklch(0.1161203356926361 0.0540467578507486 20.66788633547393)"
+};
+var info7 = {
+  "50": "oklch(0.9472470414070251 0.01319114316017373 261.49146551846417)",
+  "100": "oklch(0.8944940828140502 0.02232347304029401 261.49146551846417)",
+  "150": "oklch(0.8417411242210754 0.03145580292041429 261.49146551846417)",
+  "200": "oklch(0.7889881656281005 0.04058813280053457 261.49146551846417)",
+  "250": "oklch(0.7327975333484203 0.05432284288357939 261.7505460408388)",
+  "300": "oklch(0.6766069010687401 0.06805755296662422 262.0096265632134)",
+  "350": "oklch(0.62041626878906 0.08179226304966905 262.268707085588)",
+  "400": "oklch(0.5642256365093798 0.09552697313271387 262.52778760796264)",
+  "450": "oklch(0.5358247299257868 0.10246599429811404 262.4837143651888)",
+  "500": "oklch(0.5074238233421937 0.10940501546351422 262.4396411224149)",
+  "550": "oklch(0.47902291675860065 0.1163440366289144 262.395567879641)",
+  "600": "oklch(0.4506220101750076 0.12328305779431457 262.3514946368672)",
+  "650": "oklch(0.3914472612047992 0.10948475002303204 262.3659717757216)",
+  "700": "oklch(0.33227251223459087 0.09568644225174952 262.3804489145761)",
+  "750": "oklch(0.2730977632643825 0.08188813448046699 262.3949260534306)",
+  "800": "oklch(0.21392301429417415 0.06808982670918445 262.409403192285)",
+  "850": "oklch(0.1764864867926937 0.057876352702806784 262.409403192285)",
+  "900": "oklch(0.13904995929121322 0.047662878696429115 262.409403192285)",
+  "950": "oklch(0.10161343178973273 0.03744940469005145 262.409403192285)"
+};
+
+// src/ts/colors/semantic/rgb.ts
+var rgb_exports18 = {};
+__export(rgb_exports18, {
+  danger: () => danger8,
+  info: () => info8,
+  success: () => success8,
+  warning: () => warning8
+});
+var success8 = {
+  "50": "rgb(239, 249, 237)",
+  "100": "rgb(224, 243, 222)",
+  "150": "rgb(210, 236, 207)",
+  "200": "rgb(196, 229, 192)",
+  "250": "rgb(170, 214, 165)",
+  "300": "rgb(143, 199, 138)",
+  "350": "rgb(116, 183, 111)",
+  "400": "rgb(88, 168, 84)",
+  "450": "rgb(73, 161, 70)",
+  "500": "rgb(57, 153, 54)",
+  "550": "rgb(37, 146, 36)",
+  "600": "rgb(0, 138, 7)",
+  "650": "rgb(0, 114, 4)",
+  "700": "rgb(0, 90, 2)",
+  "750": "rgb(0, 68, 1)",
+  "800": "rgb(0, 47, 0)",
+  "850": "rgb(0, 34, 0)",
+  "900": "rgb(0, 22, 0)",
+  "950": "rgb(0, 11, 0)"
+};
+var warning8 = {
+  "50": "rgb(255, 243, 237)",
+  "100": "rgb(255, 232, 222)",
+  "150": "rgb(255, 221, 207)",
+  "200": "rgb(253, 210, 192)",
+  "250": "rgb(246, 189, 165)",
+  "300": "rgb(238, 168, 138)",
+  "350": "rgb(230, 147, 111)",
+  "400": "rgb(221, 125, 83)",
+  "450": "rgb(216, 114, 68)",
+  "500": "rgb(211, 103, 52)",
+  "550": "rgb(206, 92, 33)",
+  "600": "rgb(201, 80, 0)",
+  "650": "rgb(168, 63, 3)",
+  "700": "rgb(136, 47, 3)",
+  "750": "rgb(105, 32, 1)",
+  "800": "rgb(75, 18, 0)",
+  "850": "rgb(57, 10, 0)",
+  "900": "rgb(39, 4, 0)",
+  "950": "rgb(23, 1, 0)"
+};
+var danger8 = {
+  "50": "rgb(255, 240, 239)",
+  "100": "rgb(255, 226, 225)",
+  "150": "rgb(255, 212, 212)",
+  "200": "rgb(253, 198, 198)",
+  "250": "rgb(244, 172, 173)",
+  "300": "rgb(234, 146, 148)",
+  "350": "rgb(223, 120, 124)",
+  "400": "rgb(211, 93, 101)",
+  "450": "rgb(205, 78, 89)",
+  "500": "rgb(198, 63, 78)",
+  "550": "rgb(191, 44, 66)",
+  "600": "rgb(184, 18, 55)",
+  "650": "rgb(153, 11, 42)",
+  "700": "rgb(124, 6, 31)",
+  "750": "rgb(95, 2, 20)",
+  "800": "rgb(68, 0, 10)",
+  "850": "rgb(51, 0, 5)",
+  "900": "rgb(35, 0, 2)",
+  "950": "rgb(20, 0, 1)"
+};
+var info8 = {
+  "50": "rgb(233, 238, 247)",
+  "100": "rgb(212, 221, 235)",
+  "150": "rgb(192, 204, 224)",
+  "200": "rgb(172, 187, 213)",
+  "250": "rgb(150, 169, 204)",
+  "300": "rgb(128, 152, 194)",
+  "350": "rgb(107, 134, 184)",
+  "400": "rgb(87, 117, 174)",
+  "450": "rgb(77, 108, 169)",
+  "500": "rgb(66, 100, 164)",
+  "550": "rgb(56, 91, 158)",
+  "600": "rgb(46, 82, 153)",
+  "650": "rgb(35, 66, 127)",
+  "700": "rgb(25, 51, 102)",
+  "750": "rgb(16, 37, 79)",
+  "800": "rgb(7, 23, 56)",
+  "850": "rgb(4, 15, 42)",
+  "900": "rgb(2, 7, 28)",
+  "950": "rgb(0, 3, 15)"
+};
+
 // src/index.ts
 var globalColorHex = require_hex();
 var globalColorHsl = require_hsl();
@@ -17249,14 +20665,22 @@ var masterbrandColorHex = require_hex2();
 var masterbrandColorHsl = require_hsl2();
 var masterbrandColorOklch = require_oklch2();
 var masterbrandColorRgb = require_rgb2();
-var globalJsonHex = require_hex3();
-var globalJsonHsl = require_hsl3();
-var globalJsonOklch = require_oklch3();
-var globalJsonRgb = require_rgb3();
-var masterbrandJsonHex = require_hex4();
-var masterbrandJsonHsl = require_hsl4();
-var masterbrandJsonOklch = require_oklch4();
-var masterbrandJsonRgb = require_rgb4();
+var semanticColorHex = require_hex3();
+var semanticColorHsl = require_hsl3();
+var semanticColorOklch = require_oklch3();
+var semanticColorRgb = require_rgb3();
+var globalJsonHex = require_hex4();
+var globalJsonHsl = require_hsl4();
+var globalJsonOklch = require_oklch4();
+var globalJsonRgb = require_rgb4();
+var masterbrandJsonHex = require_hex5();
+var masterbrandJsonHsl = require_hsl5();
+var masterbrandJsonOklch = require_oklch5();
+var masterbrandJsonRgb = require_rgb5();
+var semanticJsonHex = require_hex6();
+var semanticJsonHsl = require_hsl6();
+var semanticJsonOklch = require_oklch6();
+var semanticJsonRgb = require_rgb6();
 var tokens = {
   colors: {
     global: {
@@ -17272,6 +20696,12 @@ var tokens = {
         oklch: masterbrandColorOklch,
         rgb: masterbrandColorRgb
       }
+    },
+    semantic: {
+      hex: semanticColorHex,
+      hsl: semanticColorHsl,
+      oklch: semanticColorOklch,
+      rgb: semanticColorRgb
     }
   },
   css: {
@@ -17288,22 +20718,34 @@ var tokens = {
         oklch: oklch_exports2,
         rgb: rgb_exports2
       }
-    }
-  },
-  js: {
-    global: {
+    },
+    semantic: {
       hex: hex_exports3,
       hsl: hsl_exports3,
       oklch: oklch_exports3,
       rgb: rgb_exports3
+    }
+  },
+  js: {
+    global: {
+      hex: hex_exports4,
+      hsl: hsl_exports4,
+      oklch: oklch_exports4,
+      rgb: rgb_exports4
     },
     themes: {
       masterbrand: {
-        hex: hex_exports4,
-        hsl: hsl_exports4,
-        oklch: oklch_exports4,
-        rgb: rgb_exports4
+        hex: hex_exports5,
+        hsl: hsl_exports5,
+        oklch: oklch_exports5,
+        rgb: rgb_exports5
       }
+    },
+    semantic: {
+      hex: hex_exports6,
+      hsl: hsl_exports6,
+      oklch: oklch_exports6,
+      rgb: rgb_exports6
     }
   },
   json: {
@@ -17320,25 +20762,15 @@ var tokens = {
         oklch: masterbrandJsonOklch,
         rgb: masterbrandJsonRgb
       }
+    },
+    semantic: {
+      hex: semanticJsonHex,
+      hsl: semanticJsonHsl,
+      oklch: semanticJsonOklch,
+      rgb: semanticJsonRgb
     }
   },
   less: {
-    global: {
-      hex: hex_exports5,
-      hsl: hsl_exports5,
-      oklch: oklch_exports5,
-      rgb: rgb_exports5
-    },
-    themes: {
-      masterbrand: {
-        hex: hex_exports6,
-        hsl: hsl_exports6,
-        oklch: oklch_exports6,
-        rgb: rgb_exports6
-      }
-    }
-  },
-  scss: {
     global: {
       hex: hex_exports7,
       hsl: hsl_exports7,
@@ -17352,38 +20784,78 @@ var tokens = {
         oklch: oklch_exports8,
         rgb: rgb_exports8
       }
-    }
-  },
-  tailwind: {
-    global: {
+    },
+    semantic: {
       hex: hex_exports9,
       hsl: hsl_exports9,
       oklch: oklch_exports9,
       rgb: rgb_exports9
+    }
+  },
+  scss: {
+    global: {
+      hex: hex_exports10,
+      hsl: hsl_exports10,
+      oklch: oklch_exports10,
+      rgb: rgb_exports10
     },
     themes: {
       masterbrand: {
-        hex: hex_exports10,
-        hsl: hsl_exports10,
-        oklch: oklch_exports10,
-        rgb: rgb_exports10
+        hex: hex_exports11,
+        hsl: hsl_exports11,
+        oklch: oklch_exports11,
+        rgb: rgb_exports11
       }
+    },
+    semantic: {
+      hex: hex_exports12,
+      hsl: hsl_exports12,
+      oklch: oklch_exports12,
+      rgb: rgb_exports12
+    }
+  },
+  tailwind: {
+    global: {
+      hex: hex_exports13,
+      hsl: hsl_exports13,
+      oklch: oklch_exports13,
+      rgb: rgb_exports13
+    },
+    themes: {
+      masterbrand: {
+        hex: hex_exports14,
+        hsl: hsl_exports14,
+        oklch: oklch_exports14,
+        rgb: rgb_exports14
+      }
+    },
+    semantic: {
+      hex: hex_exports15,
+      hsl: hsl_exports15,
+      oklch: oklch_exports15,
+      rgb: rgb_exports15
     }
   },
   ts: {
     global: {
-      hex: hex_exports11,
-      hsl: hsl_exports11,
-      oklch: oklch_exports11,
-      rgb: rgb_exports11
+      hex: hex_exports16,
+      hsl: hsl_exports16,
+      oklch: oklch_exports16,
+      rgb: rgb_exports16
     },
     themes: {
       masterbrand: {
-        hex: hex_exports12,
-        hsl: hsl_exports12,
-        oklch: oklch_exports12,
-        rgb: rgb_exports12
+        hex: hex_exports17,
+        hsl: hsl_exports17,
+        oklch: oklch_exports17,
+        rgb: rgb_exports17
       }
+    },
+    semantic: {
+      hex: hex_exports18,
+      hsl: hsl_exports18,
+      oklch: oklch_exports18,
+      rgb: rgb_exports18
     }
   }
 };
@@ -17396,19 +20868,23 @@ var scssTokens = tokens.scss;
 var tailwindTokens = tokens.tailwind;
 var tsTokens = tokens.ts;
 var icons = {
-  accountCircle: "./icons/account_circle.svg",
+  account_circle: "./icons/account_circle.svg",
   add: "./icons/add.svg",
   attachFile: "./icons/attach_file.svg",
+  calendarMonth: "./icons/calendar_month.svg",
+  calendarToday: "./icons/calendar_today.svg",
   cancel: "./icons/cancel.svg",
-  check: "./icons/check.svg",
   checkCircle: "./icons/check_circle.svg",
+  check: "./icons/check.svg",
   chevronDown: "./icons/chevron_down.svg",
   chevronLeft: "./icons/chevron_left.svg",
   chevronRight: "./icons/chevron_right.svg",
   chevronUp: "./icons/chevron_up.svg",
+  circle: "./icons/circle.svg",
   close: "./icons/close.svg",
   collapseAll: "./icons/collapse_all.svg",
   computer: "./icons/computer.svg",
+  contrast: "./icons/contrast.svg",
   copy: "./icons/copy.svg",
   darkMode: "./icons/dark_mode.svg",
   delete: "./icons/delete.svg",
@@ -17419,37 +20895,71 @@ var icons = {
   doubleArrowLeft: "./icons/double_arrow_left.svg",
   doubleArrowRight: "./icons/double_arrow_right.svg",
   download: "./icons/download.svg",
+  dragIndicator: "./icons/drag_indicator.svg",
   east: "./icons/east.svg",
   error: "./icons/error.svg",
   exclamation: "./icons/exclamation.svg",
-  grid_view: "./icons/grid_view.svg",
   eye: "./icons/eye.svg",
   favorite: "./icons/favorite.svg",
+  formatAlignCenter: "./icons/format_align_center.svg",
+  formatAlignJustify: "./icons/format_align_justify.svg",
+  formatAlignLeft: "./icons/format_align_left.svg",
+  formatAlignRight: "./icons/format_align_right.svg",
+  formatBold: "./icons/format_bold.svg",
+  formatColorText: "./icons/format_color_text.svg",
+  formatH1: "./icons/format_h1.svg",
+  formatH2: "./icons/format_h2.svg",
+  formatH3: "./icons/format_h3.svg",
+  formatH4: "./icons/format_h4.svg",
+  formatItalic: "./icons/format_italic.svg",
+  formatListBulleted: "./icons/format_list_bulleted.svg",
+  formatListNumbered: "./icons/format_list_numbered.svg",
+  formatQuote: "./icons/format_quote.svg",
+  formatSize: "./icons/format_size.svg",
+  formatUnderlined: "./icons/format_underlined.svg",
+  grid_on: "./icons/grid_on.svg",
+  gridView: "./icons/grid_view.svg",
   help: "./icons/help.svg",
   info: "./icons/info.svg",
   language: "./icons/language.svg",
+  laptop: "./icons/laptop.svg",
   lightMode: "./icons/light_mode.svg",
   link: "./icons/link.svg",
   list: "./icons/list.svg",
   login: "./icons/login.svg",
   logout: "./icons/logout.svg",
+  mail: "./icons/mail.svg",
   menu: "./icons/menu.svg",
   moreHoriz: "./icons/more_horiz.svg",
   moreVert: "./icons/more_vert.svg",
   north: "./icons/north.svg",
+  notifications: "./icons/notifications.svg",
   openInNew: "./icons/open_in_new.svg",
   palette: "./icons/palette.svg",
+  person: "./icons/person.svg",
   print: "./icons/print.svg",
   progressActivity: "./icons/progress_activity.svg",
   remove: "./icons/remove.svg",
   search: "./icons/search.svg",
+  sentimentDissatisfied: "./icons/sentiment_dissatisfied.svg",
+  sentimentNeutral: "./icons/sentiment_neutral.svg",
+  sentimentSatisfied: "./icons/sentiment_satisfied.svg",
+  sentimentVeryDissatisfied: "./icons/sentiment_very_dissatisfied.svg",
+  sentimentVerySatisfied: "./icons/sentiment_very_satisfied.svg",
   settingsBrightness: "./icons/settings_brightness.svg",
+  settings: "./icons/settings.svg",
   share: "./icons/share.svg",
   sideNavigation: "./icons/side_navigation.svg",
+  smartphone: "./icons/smartphone.svg",
   south: "./icons/south.svg",
+  tablet: "./icons/tablet.svg",
+  toc: "./icons/toc.svg",
   unfoldLess: "./icons/unfold_less.svg",
   unfoldMore: "./icons/unfold_more.svg",
   upload: "./icons/upload.svg",
+  viewColumn: "./icons/view_column.svg",
+  viewList: "./icons/view_list.svg",
+  warning: "./icons/warning.svg",
   west: "./icons/west.svg"
 };
 var brand = {
