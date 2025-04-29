@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.9.0...v2.10.0) (2025-04-29)
+
+
+### Features
+
+* **brand, icons, colors, scripts, css, figma:** Update assets, color definitions, scripts, and add new features for improved UI, design consistency, and accessibility ([#18](https://github.com/digitalnsw/nswds-tokens/issues/18)) ([980a0fe](https://github.com/digitalnsw/nswds-tokens/commit/980a0fe754cb1aff0689c7862f930c9441958313))
+
 # [2.9.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.8.0...v2.9.0) (2025-04-26)
 
 
