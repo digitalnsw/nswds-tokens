@@ -13,8 +13,15 @@ jobs:
         run: |
           BRANCH_NAME="${{ github.head_ref }}"
           echo "Branch name: $BRANCH_NAME"
-          if [[ ! "$BRANCH_NAME" =~ ^(feature|bugfix|hotfix|release|docs|build|test|refactor|chore)(/(issue|ticket)/[A-Za-z0-9_-]+)?/[a-z0-9-]+$ ]]; then
+
+          # Conventional branches
+          CONVENTIONAL='^(feature|bugfix|hotfix|release|docs|build|test|refactor|chore)(/(issue|ticket)/[A-Za-z0-9_-]+)?/[a-z0-9-]+$'
+          # Snyk upgrade branches (e.g. snyk-upgrade-2f8022b72cb12ebf155b1f759613d752)
+          SNYK='^snyk-upgrade-[0-9a-f]{32}$'
+
+          if [[ ! "$BRANCH_NAME" =~ $CONVENTIONAL && ! "$BRANCH_NAME" =~ $SNYK ]]; then
             echo "❌ Branch name '$BRANCH_NAME' does not follow naming convention."
             exit 1
           fi
+
           echo "✅ Branch name '$BRANCH_NAME' follows naming convention."
