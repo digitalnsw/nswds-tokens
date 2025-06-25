@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.10.0...v2.11.0) (2025-06-25)
+
+
+### Features
+
+* **colors:** update aboriginal blue color values ([#20](https://github.com/digitalnsw/nswds-tokens/issues/20)) ([82cc170](https://github.com/digitalnsw/nswds-tokens/commit/82cc1709ef2df00f458d7a0ba8789b3c8d51143a))
+
 # [2.10.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.9.0...v2.10.0) (2025-04-29)
 
 
