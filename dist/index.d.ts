@@ -4890,6 +4890,16 @@ declare const tsTokens: {
     };
 };
 declare const icons: {
+    article: string;
+    view_module: string;
+    edit_square: string;
+    edit: string;
+    file_open: string;
+    open_in_full: string;
+    page_info: string;
+    save: string;
+    star: string;
+    table_view: string;
     account_circle: string;
     add: string;
     attachFile: string;

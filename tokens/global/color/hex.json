@@ -1298,31 +1298,31 @@
     },
     "650": {
       "$type": "color",
-      "$value": "#145782"
+      "$value": "#095d84"
     },
     "700": {
       "$type": "color",
-      "$value": "#174773"
+      "$value": "#055377"
     },
     "750": {
       "$type": "color",
-      "$value": "#183763"
+      "$value": "#02496a"
     },
     "800": {
       "$type": "color",
-      "$value": "#162953"
+      "$value": "#00405e"
     },
     "850": {
       "$type": "color",
-      "$value": "#0e1d3f"
+      "$value": "#002f48"
     },
     "900": {
       "$type": "color",
-      "$value": "#06122c"
+      "$value": "#002033"
     },
     "950": {
       "$type": "color",
-      "$value": "#02071b"
+      "$value": "#00111f"
     }
   },
   "nsw-aboriginal-purple": {
