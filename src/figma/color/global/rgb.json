@@ -4,7 +4,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [250, 250, 250],
+        "channels": [
+          250,
+          250,
+          250
+        ],
         "alpha": 1
       }
     },
@@ -12,7 +16,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [245, 245, 245],
+        "channels": [
+          245,
+          245,
+          245
+        ],
         "alpha": 1
       }
     },
@@ -20,7 +28,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [240, 240, 240],
+        "channels": [
+          240,
+          240,
+          240
+        ],
         "alpha": 1
       }
     },
@@ -28,7 +40,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [235, 235, 235],
+        "channels": [
+          235,
+          235,
+          235
+        ],
         "alpha": 1
       }
     },
@@ -36,7 +52,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [227, 229, 230],
+        "channels": [
+          227,
+          229,
+          230
+        ],
         "alpha": 1
       }
     },
@@ -44,7 +64,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [220, 223, 224],
+        "channels": [
+          220,
+          223,
+          224
+        ],
         "alpha": 1
       }
     },
@@ -52,7 +76,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [212, 217, 219],
+        "channels": [
+          212,
+          217,
+          219
+        ],
         "alpha": 1
       }
     },
@@ -60,7 +88,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [205, 211, 214],
+        "channels": [
+          205,
+          211,
+          214
+        ],
         "alpha": 1
       }
     },
@@ -68,7 +100,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [170, 176, 180],
+        "channels": [
+          170,
+          176,
+          180
+        ],
         "alpha": 1
       }
     },
@@ -76,7 +112,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [136, 143, 146],
+        "channels": [
+          136,
+          143,
+          146
+        ],
         "alpha": 1
       }
     },
@@ -84,7 +124,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [104, 111, 114],
+        "channels": [
+          104,
+          111,
+          114
+        ],
         "alpha": 1
       }
     },
@@ -92,7 +136,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [73, 80, 84],
+        "channels": [
+          73,
+          80,
+          84
+        ],
         "alpha": 1
       }
     },
@@ -100,7 +148,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [63, 69, 73],
+        "channels": [
+          63,
+          69,
+          73
+        ],
         "alpha": 1
       }
     },
@@ -108,7 +160,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [53, 59, 63],
+        "channels": [
+          53,
+          59,
+          63
+        ],
         "alpha": 1
       }
     },
@@ -116,7 +172,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [43, 49, 53],
+        "channels": [
+          43,
+          49,
+          53
+        ],
         "alpha": 1
       }
     },
@@ -124,7 +184,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [34, 39, 43],
+        "channels": [
+          34,
+          39,
+          43
+        ],
         "alpha": 1
       }
     },
@@ -132,7 +196,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [24, 28, 31],
+        "channels": [
+          24,
+          28,
+          31
+        ],
         "alpha": 1
       }
     },
@@ -140,7 +208,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [14, 17, 19],
+        "channels": [
+          14,
+          17,
+          19
+        ],
         "alpha": 1
       }
     },
@@ -148,7 +220,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [5, 7, 9],
+        "channels": [
+          5,
+          7,
+          9
+        ],
         "alpha": 1
       }
     }
@@ -158,7 +234,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [245, 255, 246],
+        "channels": [
+          245,
+          255,
+          246
+        ],
         "alpha": 1
       }
     },
@@ -166,7 +246,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [236, 253, 238],
+        "channels": [
+          236,
+          253,
+          238
+        ],
         "alpha": 1
       }
     },
@@ -174,7 +258,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [228, 252, 231],
+        "channels": [
+          228,
+          252,
+          231
+        ],
         "alpha": 1
       }
     },
@@ -182,7 +270,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [219, 250, 223],
+        "channels": [
+          219,
+          250,
+          223
+        ],
         "alpha": 1
       }
     },
@@ -190,7 +282,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [207, 247, 212],
+        "channels": [
+          207,
+          247,
+          212
+        ],
         "alpha": 1
       }
     },
@@ -198,7 +294,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [194, 244, 201],
+        "channels": [
+          194,
+          244,
+          201
+        ],
         "alpha": 1
       }
     },
@@ -206,7 +306,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [181, 240, 190],
+        "channels": [
+          181,
+          240,
+          190
+        ],
         "alpha": 1
       }
     },
@@ -214,7 +318,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [168, 237, 179],
+        "channels": [
+          168,
+          237,
+          179
+        ],
         "alpha": 1
       }
     },
@@ -222,7 +330,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [138, 220, 152],
+        "channels": [
+          138,
+          220,
+          152
+        ],
         "alpha": 1
       }
     },
@@ -230,7 +342,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [106, 204, 125],
+        "channels": [
+          106,
+          204,
+          125
+        ],
         "alpha": 1
       }
     },
@@ -238,7 +354,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [69, 187, 98],
+        "channels": [
+          69,
+          187,
+          98
+        ],
         "alpha": 1
       }
     },
@@ -246,7 +366,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 170, 69],
+        "channels": [
+          0,
+          170,
+          69
+        ],
         "alpha": 1
       }
     },
@@ -254,7 +378,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [7, 142, 50],
+        "channels": [
+          7,
+          142,
+          50
+        ],
         "alpha": 1
       }
     },
@@ -262,7 +390,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [7, 115, 32],
+        "channels": [
+          7,
+          115,
+          32
+        ],
         "alpha": 1
       }
     },
@@ -270,7 +402,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [3, 89, 15],
+        "channels": [
+          3,
+          89,
+          15
+        ],
         "alpha": 1
       }
     },
@@ -278,7 +414,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 64, 0],
+        "channels": [
+          0,
+          64,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -286,7 +426,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 48, 0],
+        "channels": [
+          0,
+          48,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -294,7 +438,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 32, 0],
+        "channels": [
+          0,
+          32,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -302,7 +450,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 17, 0],
+        "channels": [
+          0,
+          17,
+          0
+        ],
         "alpha": 1
       }
     }
@@ -312,7 +464,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [242, 251, 250],
+        "channels": [
+          242,
+          251,
+          250
+        ],
         "alpha": 1
       }
     },
@@ -320,7 +476,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [231, 247, 245],
+        "channels": [
+          231,
+          247,
+          245
+        ],
         "alpha": 1
       }
     },
@@ -328,7 +488,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [220, 242, 239],
+        "channels": [
+          220,
+          242,
+          239
+        ],
         "alpha": 1
       }
     },
@@ -336,7 +500,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [209, 238, 234],
+        "channels": [
+          209,
+          238,
+          234
+        ],
         "alpha": 1
       }
     },
@@ -344,7 +512,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [193, 234, 231],
+        "channels": [
+          193,
+          234,
+          231
+        ],
         "alpha": 1
       }
     },
@@ -352,7 +524,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [175, 229, 229],
+        "channels": [
+          175,
+          229,
+          229
+        ],
         "alpha": 1
       }
     },
@@ -360,7 +536,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [158, 224, 229],
+        "channels": [
+          158,
+          224,
+          229
+        ],
         "alpha": 1
       }
     },
@@ -368,7 +548,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [140, 219, 229],
+        "channels": [
+          140,
+          219,
+          229
+        ],
         "alpha": 1
       }
     },
@@ -376,7 +560,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [117, 196, 207],
+        "channels": [
+          117,
+          196,
+          207
+        ],
         "alpha": 1
       }
     },
@@ -384,7 +572,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [94, 172, 185],
+        "channels": [
+          94,
+          172,
+          185
+        ],
         "alpha": 1
       }
     },
@@ -392,7 +584,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [70, 150, 163],
+        "channels": [
+          70,
+          150,
+          163
+        ],
         "alpha": 1
       }
     },
@@ -400,7 +596,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [46, 128, 142],
+        "channels": [
+          46,
+          128,
+          142
+        ],
         "alpha": 1
       }
     },
@@ -408,7 +608,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [37, 111, 123],
+        "channels": [
+          37,
+          111,
+          123
+        ],
         "alpha": 1
       }
     },
@@ -416,7 +620,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [28, 95, 105],
+        "channels": [
+          28,
+          95,
+          105
+        ],
         "alpha": 1
       }
     },
@@ -424,7 +632,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [20, 78, 88],
+        "channels": [
+          20,
+          78,
+          88
+        ],
         "alpha": 1
       }
     },
@@ -432,7 +644,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [11, 63, 71],
+        "channels": [
+          11,
+          63,
+          71
+        ],
         "alpha": 1
       }
     },
@@ -440,7 +656,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [4, 47, 53],
+        "channels": [
+          4,
+          47,
+          53
+        ],
         "alpha": 1
       }
     },
@@ -448,7 +668,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [1, 31, 36],
+        "channels": [
+          1,
+          31,
+          36
+        ],
         "alpha": 1
       }
     },
@@ -456,7 +680,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 17, 20],
+        "channels": [
+          0,
+          17,
+          20
+        ],
         "alpha": 1
       }
     }
@@ -466,7 +694,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [240, 251, 255],
+        "channels": [
+          240,
+          251,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -474,7 +706,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [228, 246, 255],
+        "channels": [
+          228,
+          246,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -482,7 +718,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [215, 242, 254],
+        "channels": [
+          215,
+          242,
+          254
+        ],
         "alpha": 1
       }
     },
@@ -490,7 +730,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [203, 237, 253],
+        "channels": [
+          203,
+          237,
+          253
+        ],
         "alpha": 1
       }
     },
@@ -498,7 +742,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [188, 234, 254],
+        "channels": [
+          188,
+          234,
+          254
+        ],
         "alpha": 1
       }
     },
@@ -506,7 +754,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [173, 231, 255],
+        "channels": [
+          173,
+          231,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -514,7 +766,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [157, 227, 255],
+        "channels": [
+          157,
+          227,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -522,7 +778,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [140, 224, 255],
+        "channels": [
+          140,
+          224,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -530,7 +790,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [90, 201, 255],
+        "channels": [
+          90,
+          201,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -538,7 +802,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [38, 174, 255],
+        "channels": [
+          38,
+          174,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -546,7 +814,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 143, 255],
+        "channels": [
+          0,
+          143,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -554,7 +826,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [20, 108, 253],
+        "channels": [
+          20,
+          108,
+          253
+        ],
         "alpha": 1
       }
     },
@@ -562,7 +838,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [12, 90, 212],
+        "channels": [
+          12,
+          90,
+          212
+        ],
         "alpha": 1
       }
     },
@@ -570,7 +850,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [5, 72, 173],
+        "channels": [
+          5,
+          72,
+          173
+        ],
         "alpha": 1
       }
     },
@@ -578,7 +862,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [2, 54, 136],
+        "channels": [
+          2,
+          54,
+          136
+        ],
         "alpha": 1
       }
     },
@@ -586,7 +874,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 38, 100],
+        "channels": [
+          0,
+          38,
+          100
+        ],
         "alpha": 1
       }
     },
@@ -594,7 +886,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 26, 77],
+        "channels": [
+          0,
+          26,
+          77
+        ],
         "alpha": 1
       }
     },
@@ -602,7 +898,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 16, 55],
+        "channels": [
+          0,
+          16,
+          55
+        ],
         "alpha": 1
       }
     },
@@ -610,7 +910,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [0, 6, 34],
+        "channels": [
+          0,
+          6,
+          34
+        ],
         "alpha": 1
       }
     }
@@ -620,7 +924,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [249, 247, 255],
+        "channels": [
+          249,
+          247,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -628,7 +936,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [242, 240, 255],
+        "channels": [
+          242,
+          240,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -636,7 +948,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [236, 232, 254],
+        "channels": [
+          236,
+          232,
+          254
+        ],
         "alpha": 1
       }
     },
@@ -644,7 +960,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [230, 225, 253],
+        "channels": [
+          230,
+          225,
+          253
+        ],
         "alpha": 1
       }
     },
@@ -652,7 +972,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [224, 217, 254],
+        "channels": [
+          224,
+          217,
+          254
+        ],
         "alpha": 1
       }
     },
@@ -660,7 +984,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [218, 208, 254],
+        "channels": [
+          218,
+          208,
+          254
+        ],
         "alpha": 1
       }
     },
@@ -668,7 +996,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [212, 200, 255],
+        "channels": [
+          212,
+          200,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -676,7 +1008,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [206, 191, 255],
+        "channels": [
+          206,
+          191,
+          255
+        ],
         "alpha": 1
       }
     },
@@ -684,7 +1020,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [186, 166, 252],
+        "channels": [
+          186,
+          166,
+          252
+        ],
         "alpha": 1
       }
     },
@@ -692,7 +1032,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [166, 141, 249],
+        "channels": [
+          166,
+          141,
+          249
+        ],
         "alpha": 1
       }
     },
@@ -700,7 +1044,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [147, 114, 245],
+        "channels": [
+          147,
+          114,
+          245
+        ],
         "alpha": 1
       }
     },
@@ -708,7 +1056,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [128, 85, 241],
+        "channels": [
+          128,
+          85,
+          241
+        ],
         "alpha": 1
       }
     },
@@ -716,7 +1068,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [114, 67, 207],
+        "channels": [
+          114,
+          67,
+          207
+        ],
         "alpha": 1
       }
     },
@@ -724,7 +1080,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [100, 50, 174],
+        "channels": [
+          100,
+          50,
+          174
+        ],
         "alpha": 1
       }
     },
@@ -732,7 +1092,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [84, 33, 142],
+        "channels": [
+          84,
+          33,
+          142
+        ],
         "alpha": 1
       }
     },
@@ -740,7 +1104,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [68, 17, 112],
+        "channels": [
+          68,
+          17,
+          112
+        ],
         "alpha": 1
       }
     },
@@ -748,7 +1116,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [51, 8, 86],
+        "channels": [
+          51,
+          8,
+          86
+        ],
         "alpha": 1
       }
     },
@@ -756,7 +1128,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [35, 2, 62],
+        "channels": [
+          35,
+          2,
+          62
+        ],
         "alpha": 1
       }
     },
@@ -764,7 +1140,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [19, 0, 39],
+        "channels": [
+          19,
+          0,
+          39
+        ],
         "alpha": 1
       }
     }
@@ -774,7 +1154,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 246, 253],
+        "channels": [
+          255,
+          246,
+          253
+        ],
         "alpha": 1
       }
     },
@@ -782,7 +1166,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 238, 249],
+        "channels": [
+          255,
+          238,
+          249
+        ],
         "alpha": 1
       }
     },
@@ -790,7 +1178,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 230, 246],
+        "channels": [
+          254,
+          230,
+          246
+        ],
         "alpha": 1
       }
     },
@@ -798,7 +1190,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [253, 222, 242],
+        "channels": [
+          253,
+          222,
+          242
+        ],
         "alpha": 1
       }
     },
@@ -806,7 +1202,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [251, 212, 239],
+        "channels": [
+          251,
+          212,
+          239
+        ],
         "alpha": 1
       }
     },
@@ -814,7 +1214,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [249, 201, 235],
+        "channels": [
+          249,
+          201,
+          235
+        ],
         "alpha": 1
       }
     },
@@ -822,7 +1226,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [247, 191, 233],
+        "channels": [
+          247,
+          191,
+          233
+        ],
         "alpha": 1
       }
     },
@@ -830,7 +1238,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [244, 181, 230],
+        "channels": [
+          244,
+          181,
+          230
+        ],
         "alpha": 1
       }
     },
@@ -838,7 +1250,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [239, 150, 218],
+        "channels": [
+          239,
+          150,
+          218
+        ],
         "alpha": 1
       }
     },
@@ -846,7 +1262,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [233, 117, 204],
+        "channels": [
+          233,
+          117,
+          204
+        ],
         "alpha": 1
       }
     },
@@ -854,7 +1274,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [225, 80, 190],
+        "channels": [
+          225,
+          80,
+          190
+        ],
         "alpha": 1
       }
     },
@@ -862,7 +1286,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [217, 18, 174],
+        "channels": [
+          217,
+          18,
+          174
+        ],
         "alpha": 1
       }
     },
@@ -870,7 +1298,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [187, 12, 148],
+        "channels": [
+          187,
+          12,
+          148
+        ],
         "alpha": 1
       }
     },
@@ -878,7 +1310,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [157, 6, 123],
+        "channels": [
+          157,
+          6,
+          123
+        ],
         "alpha": 1
       }
     },
@@ -886,7 +1322,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [129, 2, 100],
+        "channels": [
+          129,
+          2,
+          100
+        ],
         "alpha": 1
       }
     },
@@ -894,7 +1334,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [101, 0, 77],
+        "channels": [
+          101,
+          0,
+          77
+        ],
         "alpha": 1
       }
     },
@@ -902,7 +1346,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [77, 0, 58],
+        "channels": [
+          77,
+          0,
+          58
+        ],
         "alpha": 1
       }
     },
@@ -910,7 +1358,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [55, 0, 40],
+        "channels": [
+          55,
+          0,
+          40
+        ],
         "alpha": 1
       }
     },
@@ -918,7 +1370,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [34, 0, 23],
+        "channels": [
+          34,
+          0,
+          23
+        ],
         "alpha": 1
       }
     }
@@ -928,7 +1384,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 248, 249],
+        "channels": [
+          255,
+          248,
+          249
+        ],
         "alpha": 1
       }
     },
@@ -936,7 +1396,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 242, 244],
+        "channels": [
+          255,
+          242,
+          244
+        ],
         "alpha": 1
       }
     },
@@ -944,7 +1408,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 236, 239],
+        "channels": [
+          255,
+          236,
+          239
+        ],
         "alpha": 1
       }
     },
@@ -952,7 +1420,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 230, 234],
+        "channels": [
+          255,
+          230,
+          234
+        ],
         "alpha": 1
       }
     },
@@ -960,7 +1432,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 219, 224],
+        "channels": [
+          255,
+          219,
+          224
+        ],
         "alpha": 1
       }
     },
@@ -968,7 +1444,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 207, 214],
+        "channels": [
+          255,
+          207,
+          214
+        ],
         "alpha": 1
       }
     },
@@ -976,7 +1456,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 196, 204],
+        "channels": [
+          255,
+          196,
+          204
+        ],
         "alpha": 1
       }
     },
@@ -984,7 +1468,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 184, 193],
+        "channels": [
+          255,
+          184,
+          193
+        ],
         "alpha": 1
       }
     },
@@ -992,7 +1480,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [248, 151, 162],
+        "channels": [
+          248,
+          151,
+          162
+        ],
         "alpha": 1
       }
     },
@@ -1000,7 +1492,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [239, 117, 129],
+        "channels": [
+          239,
+          117,
+          129
+        ],
         "alpha": 1
       }
     },
@@ -1008,7 +1504,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [228, 79, 95],
+        "channels": [
+          228,
+          79,
+          95
+        ],
         "alpha": 1
       }
     },
@@ -1016,7 +1516,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [215, 21, 58],
+        "channels": [
+          215,
+          21,
+          58
+        ],
         "alpha": 1
       }
     },
@@ -1024,7 +1528,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [185, 14, 50],
+        "channels": [
+          185,
+          14,
+          50
+        ],
         "alpha": 1
       }
     },
@@ -1032,7 +1540,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [155, 7, 42],
+        "channels": [
+          155,
+          7,
+          42
+        ],
         "alpha": 1
       }
     },
@@ -1040,7 +1552,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [126, 3, 34],
+        "channels": [
+          126,
+          3,
+          34
+        ],
         "alpha": 1
       }
     },
@@ -1048,7 +1564,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [99, 0, 25],
+        "channels": [
+          99,
+          0,
+          25
+        ],
         "alpha": 1
       }
     },
@@ -1056,7 +1576,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [76, 0, 16],
+        "channels": [
+          76,
+          0,
+          16
+        ],
         "alpha": 1
       }
     },
@@ -1064,7 +1588,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [54, 0, 8],
+        "channels": [
+          54,
+          0,
+          8
+        ],
         "alpha": 1
       }
     },
@@ -1072,7 +1600,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [33, 0, 3],
+        "channels": [
+          33,
+          0,
+          3
+        ],
         "alpha": 1
       }
     }
@@ -1082,7 +1614,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 250, 246],
+        "channels": [
+          255,
+          250,
+          246
+        ],
         "alpha": 1
       }
     },
@@ -1090,7 +1626,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 246, 238],
+        "channels": [
+          255,
+          246,
+          238
+        ],
         "alpha": 1
       }
     },
@@ -1098,7 +1638,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 241, 231],
+        "channels": [
+          254,
+          241,
+          231
+        ],
         "alpha": 1
       }
     },
@@ -1106,7 +1650,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [253, 237, 223],
+        "channels": [
+          253,
+          237,
+          223
+        ],
         "alpha": 1
       }
     },
@@ -1114,7 +1662,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 229, 206],
+        "channels": [
+          254,
+          229,
+          206
+        ],
         "alpha": 1
       }
     },
@@ -1122,7 +1674,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 221, 189],
+        "channels": [
+          255,
+          221,
+          189
+        ],
         "alpha": 1
       }
     },
@@ -1130,7 +1686,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 214, 171],
+        "channels": [
+          255,
+          214,
+          171
+        ],
         "alpha": 1
       }
     },
@@ -1138,7 +1698,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 206, 153],
+        "channels": [
+          255,
+          206,
+          153
+        ],
         "alpha": 1
       }
     },
@@ -1146,7 +1710,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [253, 182, 120],
+        "channels": [
+          253,
+          182,
+          120
+        ],
         "alpha": 1
       }
     },
@@ -1154,7 +1722,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [251, 157, 88],
+        "channels": [
+          251,
+          157,
+          88
+        ],
         "alpha": 1
       }
     },
@@ -1162,7 +1734,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [247, 129, 57],
+        "channels": [
+          247,
+          129,
+          57
+        ],
         "alpha": 1
       }
     },
@@ -1170,7 +1746,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [243, 99, 27],
+        "channels": [
+          243,
+          99,
+          27
+        ],
         "alpha": 1
       }
     },
@@ -1178,7 +1758,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [219, 81, 21],
+        "channels": [
+          219,
+          81,
+          21
+        ],
         "alpha": 1
       }
     },
@@ -1186,7 +1770,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [195, 63, 14],
+        "channels": [
+          195,
+          63,
+          14
+        ],
         "alpha": 1
       }
     },
@@ -1194,7 +1782,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [171, 46, 6],
+        "channels": [
+          171,
+          46,
+          6
+        ],
         "alpha": 1
       }
     },
@@ -1202,7 +1794,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [148, 27, 0],
+        "channels": [
+          148,
+          27,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1210,7 +1806,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [115, 15, 0],
+        "channels": [
+          115,
+          15,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1218,7 +1818,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [83, 4, 0],
+        "channels": [
+          83,
+          4,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1226,7 +1830,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [53, 0, 0],
+        "channels": [
+          53,
+          0,
+          0
+        ],
         "alpha": 1
       }
     }
@@ -1236,7 +1844,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 252, 240],
+        "channels": [
+          255,
+          252,
+          240
+        ],
         "alpha": 1
       }
     },
@@ -1244,7 +1856,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 250, 229],
+        "channels": [
+          255,
+          250,
+          229
+        ],
         "alpha": 1
       }
     },
@@ -1252,7 +1868,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 247, 218],
+        "channels": [
+          255,
+          247,
+          218
+        ],
         "alpha": 1
       }
     },
@@ -1260,7 +1880,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 244, 207],
+        "channels": [
+          255,
+          244,
+          207
+        ],
         "alpha": 1
       }
     },
@@ -1268,7 +1892,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 241, 194],
+        "channels": [
+          255,
+          241,
+          194
+        ],
         "alpha": 1
       }
     },
@@ -1276,7 +1904,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 238, 181],
+        "channels": [
+          254,
+          238,
+          181
+        ],
         "alpha": 1
       }
     },
@@ -1284,7 +1916,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 234, 168],
+        "channels": [
+          254,
+          234,
+          168
+        ],
         "alpha": 1
       }
     },
@@ -1292,7 +1928,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [253, 231, 154],
+        "channels": [
+          253,
+          231,
+          154
+        ],
         "alpha": 1
       }
     },
@@ -1300,7 +1940,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [251, 218, 128],
+        "channels": [
+          251,
+          218,
+          128
+        ],
         "alpha": 1
       }
     },
@@ -1308,7 +1952,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [250, 205, 99],
+        "channels": [
+          250,
+          205,
+          99
+        ],
         "alpha": 1
       }
     },
@@ -1316,7 +1964,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [250, 190, 66],
+        "channels": [
+          250,
+          190,
+          66
+        ],
         "alpha": 1
       }
     },
@@ -1324,7 +1976,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [250, 175, 5],
+        "channels": [
+          250,
+          175,
+          5
+        ],
         "alpha": 1
       }
     },
@@ -1332,7 +1988,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [212, 148, 3],
+        "channels": [
+          212,
+          148,
+          3
+        ],
         "alpha": 1
       }
     },
@@ -1340,7 +2000,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [175, 122, 1],
+        "channels": [
+          175,
+          122,
+          1
+        ],
         "alpha": 1
       }
     },
@@ -1348,7 +2012,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [139, 96, 0],
+        "channels": [
+          139,
+          96,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1356,7 +2024,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [105, 72, 0],
+        "channels": [
+          105,
+          72,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1364,7 +2036,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [80, 53, 0],
+        "channels": [
+          80,
+          53,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1372,7 +2048,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [57, 36, 0],
+        "channels": [
+          57,
+          36,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1380,7 +2060,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [34, 19, 0],
+        "channels": [
+          34,
+          19,
+          0
+        ],
         "alpha": 1
       }
     }
@@ -1390,7 +2074,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [251, 248, 244],
+        "channels": [
+          251,
+          248,
+          244
+        ],
         "alpha": 1
       }
     },
@@ -1398,7 +2086,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [246, 241, 234],
+        "channels": [
+          246,
+          241,
+          234
+        ],
         "alpha": 1
       }
     },
@@ -1406,7 +2098,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [242, 234, 225],
+        "channels": [
+          242,
+          234,
+          225
+        ],
         "alpha": 1
       }
     },
@@ -1414,7 +2110,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [237, 227, 215],
+        "channels": [
+          237,
+          227,
+          215
+        ],
         "alpha": 1
       }
     },
@@ -1422,7 +2122,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [236, 222, 206],
+        "channels": [
+          236,
+          222,
+          206
+        ],
         "alpha": 1
       }
     },
@@ -1430,7 +2134,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [234, 218, 198],
+        "channels": [
+          234,
+          218,
+          198
+        ],
         "alpha": 1
       }
     },
@@ -1438,7 +2146,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [233, 213, 189],
+        "channels": [
+          233,
+          213,
+          189
+        ],
         "alpha": 1
       }
     },
@@ -1446,7 +2158,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [232, 208, 181],
+        "channels": [
+          232,
+          208,
+          181
+        ],
         "alpha": 1
       }
     },
@@ -1454,7 +2170,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [219, 191, 159],
+        "channels": [
+          219,
+          191,
+          159
+        ],
         "alpha": 1
       }
     },
@@ -1462,7 +2182,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [207, 174, 137],
+        "channels": [
+          207,
+          174,
+          137
+        ],
         "alpha": 1
       }
     },
@@ -1470,7 +2194,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [194, 157, 115],
+        "channels": [
+          194,
+          157,
+          115
+        ],
         "alpha": 1
       }
     },
@@ -1478,7 +2206,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [182, 141, 93],
+        "channels": [
+          182,
+          141,
+          93
+        ],
         "alpha": 1
       }
     },
@@ -1486,7 +2218,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [156, 118, 75],
+        "channels": [
+          156,
+          118,
+          75
+        ],
         "alpha": 1
       }
     },
@@ -1494,7 +2230,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [130, 96, 58],
+        "channels": [
+          130,
+          96,
+          58
+        ],
         "alpha": 1
       }
     },
@@ -1502,7 +2242,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [106, 75, 41],
+        "channels": [
+          106,
+          75,
+          41
+        ],
         "alpha": 1
       }
     },
@@ -1510,7 +2254,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [82, 55, 25],
+        "channels": [
+          82,
+          55,
+          25
+        ],
         "alpha": 1
       }
     },
@@ -1518,7 +2266,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [62, 40, 15],
+        "channels": [
+          62,
+          40,
+          15
+        ],
         "alpha": 1
       }
     },
@@ -1526,7 +2278,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [43, 26, 7],
+        "channels": [
+          43,
+          26,
+          7
+        ],
         "alpha": 1
       }
     },
@@ -1534,7 +2290,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [25, 13, 2],
+        "channels": [
+          25,
+          13,
+          2
+        ],
         "alpha": 1
       }
     }
@@ -1544,7 +2304,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [249, 248, 247],
+        "channels": [
+          249,
+          248,
+          247
+        ],
         "alpha": 1
       }
     },
@@ -1552,7 +2316,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [242, 241, 239],
+        "channels": [
+          242,
+          241,
+          239
+        ],
         "alpha": 1
       }
     },
@@ -1560,7 +2328,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [235, 234, 232],
+        "channels": [
+          235,
+          234,
+          232
+        ],
         "alpha": 1
       }
     },
@@ -1568,7 +2340,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [229, 227, 224],
+        "channels": [
+          229,
+          227,
+          224
+        ],
         "alpha": 1
       }
     },
@@ -1576,7 +2352,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [223, 220, 216],
+        "channels": [
+          223,
+          220,
+          216
+        ],
         "alpha": 1
       }
     },
@@ -1584,7 +2364,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [216, 212, 209],
+        "channels": [
+          216,
+          212,
+          209
+        ],
         "alpha": 1
       }
     },
@@ -1592,7 +2376,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [210, 205, 201],
+        "channels": [
+          210,
+          205,
+          201
+        ],
         "alpha": 1
       }
     },
@@ -1600,7 +2388,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [204, 198, 194],
+        "channels": [
+          204,
+          198,
+          194
+        ],
         "alpha": 1
       }
     },
@@ -1608,7 +2400,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [173, 168, 165],
+        "channels": [
+          173,
+          168,
+          165
+        ],
         "alpha": 1
       }
     },
@@ -1616,7 +2412,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [142, 139, 138],
+        "channels": [
+          142,
+          139,
+          138
+        ],
         "alpha": 1
       }
     },
@@ -1624,7 +2424,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [113, 112, 111],
+        "channels": [
+          113,
+          112,
+          111
+        ],
         "alpha": 1
       }
     },
@@ -1632,7 +2436,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [85, 85, 85],
+        "channels": [
+          85,
+          85,
+          85
+        ],
         "alpha": 1
       }
     },
@@ -1640,7 +2448,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [75, 75, 75],
+        "channels": [
+          75,
+          75,
+          75
+        ],
         "alpha": 1
       }
     },
@@ -1648,7 +2460,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [64, 64, 64],
+        "channels": [
+          64,
+          64,
+          64
+        ],
         "alpha": 1
       }
     },
@@ -1656,7 +2472,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [55, 55, 55],
+        "channels": [
+          55,
+          55,
+          55
+        ],
         "alpha": 1
       }
     },
@@ -1664,7 +2484,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [45, 45, 45],
+        "channels": [
+          45,
+          45,
+          45
+        ],
         "alpha": 1
       }
     },
@@ -1672,7 +2496,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [32, 32, 32],
+        "channels": [
+          32,
+          32,
+          32
+        ],
         "alpha": 1
       }
     },
@@ -1680,7 +2508,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [20, 20, 20],
+        "channels": [
+          20,
+          20,
+          20
+        ],
         "alpha": 1
       }
     },
@@ -1688,7 +2520,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [9, 9, 9],
+        "channels": [
+          9,
+          9,
+          9
+        ],
         "alpha": 1
       }
     }
@@ -1698,7 +2534,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 245, 245],
+        "channels": [
+          255,
+          245,
+          245
+        ],
         "alpha": 1
       }
     },
@@ -1706,7 +2546,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 235, 235],
+        "channels": [
+          255,
+          235,
+          235
+        ],
         "alpha": 1
       }
     },
@@ -1714,7 +2558,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 226, 226],
+        "channels": [
+          254,
+          226,
+          226
+        ],
         "alpha": 1
       }
     },
@@ -1722,7 +2570,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [253, 217, 217],
+        "channels": [
+          253,
+          217,
+          217
+        ],
         "alpha": 1
       }
     },
@@ -1730,7 +2582,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [253, 208, 208],
+        "channels": [
+          253,
+          208,
+          208
+        ],
         "alpha": 1
       }
     },
@@ -1738,7 +2594,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [252, 199, 198],
+        "channels": [
+          252,
+          199,
+          198
+        ],
         "alpha": 1
       }
     },
@@ -1746,7 +2606,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [252, 189, 189],
+        "channels": [
+          252,
+          189,
+          189
+        ],
         "alpha": 1
       }
     },
@@ -1754,7 +2618,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [251, 180, 179],
+        "channels": [
+          251,
+          180,
+          179
+        ],
         "alpha": 1
       }
     },
@@ -1762,7 +2630,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [247, 150, 147],
+        "channels": [
+          247,
+          150,
+          147
+        ],
         "alpha": 1
       }
     },
@@ -1770,7 +2642,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [242, 119, 113],
+        "channels": [
+          242,
+          119,
+          113
+        ],
         "alpha": 1
       }
     },
@@ -1778,7 +2654,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [234, 85, 76],
+        "channels": [
+          234,
+          85,
+          76
+        ],
         "alpha": 1
       }
     },
@@ -1786,7 +2666,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [225, 38, 28],
+        "channels": [
+          225,
+          38,
+          28
+        ],
         "alpha": 1
       }
     },
@@ -1794,7 +2678,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [205, 31, 23],
+        "channels": [
+          205,
+          31,
+          23
+        ],
         "alpha": 1
       }
     },
@@ -1802,7 +2690,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [186, 24, 17],
+        "channels": [
+          186,
+          24,
+          17
+        ],
         "alpha": 1
       }
     },
@@ -1810,7 +2702,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [167, 17, 11],
+        "channels": [
+          167,
+          17,
+          11
+        ],
         "alpha": 1
       }
     },
@@ -1818,7 +2714,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [149, 9, 6],
+        "channels": [
+          149,
+          9,
+          6
+        ],
         "alpha": 1
       }
     },
@@ -1826,7 +2726,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [116, 0, 1],
+        "channels": [
+          116,
+          0,
+          1
+        ],
         "alpha": 1
       }
     },
@@ -1834,7 +2738,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [84, 0, 0],
+        "channels": [
+          84,
+          0,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1842,7 +2750,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [54, 0, 0],
+        "channels": [
+          54,
+          0,
+          0
+        ],
         "alpha": 1
       }
     }
@@ -1852,7 +2764,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 244, 236],
+        "channels": [
+          255,
+          244,
+          236
+        ],
         "alpha": 1
       }
     },
@@ -1860,7 +2776,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 233, 221],
+        "channels": [
+          254,
+          233,
+          221
+        ],
         "alpha": 1
       }
     },
@@ -1868,7 +2788,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [252, 223, 205],
+        "channels": [
+          252,
+          223,
+          205
+        ],
         "alpha": 1
       }
     },
@@ -1876,7 +2800,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [249, 212, 190],
+        "channels": [
+          249,
+          212,
+          190
+        ],
         "alpha": 1
       }
     },
@@ -1884,7 +2812,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [248, 202, 174],
+        "channels": [
+          248,
+          202,
+          174
+        ],
         "alpha": 1
       }
     },
@@ -1892,7 +2824,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [247, 191, 158],
+        "channels": [
+          247,
+          191,
+          158
+        ],
         "alpha": 1
       }
     },
@@ -1900,7 +2836,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [246, 181, 142],
+        "channels": [
+          246,
+          181,
+          142
+        ],
         "alpha": 1
       }
     },
@@ -1908,7 +2848,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [244, 170, 125],
+        "channels": [
+          244,
+          170,
+          125
+        ],
         "alpha": 1
       }
     },
@@ -1916,7 +2860,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [243, 154, 102],
+        "channels": [
+          243,
+          154,
+          102
+        ],
         "alpha": 1
       }
     },
@@ -1924,7 +2872,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [242, 137, 79],
+        "channels": [
+          242,
+          137,
+          79
+        ],
         "alpha": 1
       }
     },
@@ -1932,7 +2884,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [240, 119, 54],
+        "channels": [
+          240,
+          119,
+          54
+        ],
         "alpha": 1
       }
     },
@@ -1940,7 +2896,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [238, 99, 20],
+        "channels": [
+          238,
+          99,
+          20
+        ],
         "alpha": 1
       }
     },
@@ -1948,7 +2908,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [212, 83, 16],
+        "channels": [
+          212,
+          83,
+          16
+        ],
         "alpha": 1
       }
     },
@@ -1956,7 +2920,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [186, 68, 10],
+        "channels": [
+          186,
+          68,
+          10
+        ],
         "alpha": 1
       }
     },
@@ -1964,7 +2932,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [161, 53, 5],
+        "channels": [
+          161,
+          53,
+          5
+        ],
         "alpha": 1
       }
     },
@@ -1972,7 +2944,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [136, 38, 0],
+        "channels": [
+          136,
+          38,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1980,7 +2956,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [105, 25, 0],
+        "channels": [
+          105,
+          25,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1988,7 +2968,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [76, 13, 0],
+        "channels": [
+          76,
+          13,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -1996,7 +2980,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [48, 3, 0],
+        "channels": [
+          48,
+          3,
+          0
+        ],
         "alpha": 1
       }
     }
@@ -2006,7 +2994,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [252, 241, 233],
+        "channels": [
+          252,
+          241,
+          233
+        ],
         "alpha": 1
       }
     },
@@ -2014,7 +3006,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [246, 227, 215],
+        "channels": [
+          246,
+          227,
+          215
+        ],
         "alpha": 1
       }
     },
@@ -2022,7 +3018,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [239, 213, 196],
+        "channels": [
+          239,
+          213,
+          196
+        ],
         "alpha": 1
       }
     },
@@ -2030,7 +3030,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [233, 200, 178],
+        "channels": [
+          233,
+          200,
+          178
+        ],
         "alpha": 1
       }
     },
@@ -2038,7 +3042,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [228, 186, 159],
+        "channels": [
+          228,
+          186,
+          159
+        ],
         "alpha": 1
       }
     },
@@ -2046,7 +3054,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [222, 173, 140],
+        "channels": [
+          222,
+          173,
+          140
+        ],
         "alpha": 1
       }
     },
@@ -2054,7 +3066,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [217, 159, 120],
+        "channels": [
+          217,
+          159,
+          120
+        ],
         "alpha": 1
       }
     },
@@ -2062,7 +3078,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [211, 145, 101],
+        "channels": [
+          211,
+          145,
+          101
+        ],
         "alpha": 1
       }
     },
@@ -2070,7 +3090,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [198, 129, 88],
+        "channels": [
+          198,
+          129,
+          88
+        ],
         "alpha": 1
       }
     },
@@ -2078,7 +3102,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [185, 114, 75],
+        "channels": [
+          185,
+          114,
+          75
+        ],
         "alpha": 1
       }
     },
@@ -2086,7 +3114,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [171, 98, 62],
+        "channels": [
+          171,
+          98,
+          62
+        ],
         "alpha": 1
       }
     },
@@ -2094,7 +3126,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [158, 83, 50],
+        "channels": [
+          158,
+          83,
+          50
+        ],
         "alpha": 1
       }
     },
@@ -2102,7 +3138,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [139, 70, 39],
+        "channels": [
+          139,
+          70,
+          39
+        ],
         "alpha": 1
       }
     },
@@ -2110,7 +3150,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [121, 57, 28],
+        "channels": [
+          121,
+          57,
+          28
+        ],
         "alpha": 1
       }
     },
@@ -2118,7 +3162,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [103, 45, 16],
+        "channels": [
+          103,
+          45,
+          16
+        ],
         "alpha": 1
       }
     },
@@ -2126,7 +3174,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [85, 33, 5],
+        "channels": [
+          85,
+          33,
+          5
+        ],
         "alpha": 1
       }
     },
@@ -2134,7 +3186,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [65, 22, 2],
+        "channels": [
+          65,
+          22,
+          2
+        ],
         "alpha": 1
       }
     },
@@ -2142,7 +3198,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [45, 12, 0],
+        "channels": [
+          45,
+          12,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -2150,7 +3210,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [27, 4, 0],
+        "channels": [
+          27,
+          4,
+          0
+        ],
         "alpha": 1
       }
     }
@@ -2160,7 +3224,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 252, 238],
+        "channels": [
+          255,
+          252,
+          238
+        ],
         "alpha": 1
       }
     },
@@ -2168,7 +3236,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 248, 224],
+        "channels": [
+          255,
+          248,
+          224
+        ],
         "alpha": 1
       }
     },
@@ -2176,7 +3248,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 245, 211],
+        "channels": [
+          255,
+          245,
+          211
+        ],
         "alpha": 1
       }
     },
@@ -2184,7 +3260,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 241, 197],
+        "channels": [
+          255,
+          241,
+          197
+        ],
         "alpha": 1
       }
     },
@@ -2192,7 +3272,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 238, 183],
+        "channels": [
+          255,
+          238,
+          183
+        ],
         "alpha": 1
       }
     },
@@ -2200,7 +3284,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [255, 235, 169],
+        "channels": [
+          255,
+          235,
+          169
+        ],
         "alpha": 1
       }
     },
@@ -2208,7 +3296,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 231, 155],
+        "channels": [
+          254,
+          231,
+          155
+        ],
         "alpha": 1
       }
     },
@@ -2216,7 +3308,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 228, 140],
+        "channels": [
+          254,
+          228,
+          140
+        ],
         "alpha": 1
       }
     },
@@ -2224,7 +3320,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 214, 117],
+        "channels": [
+          254,
+          214,
+          117
+        ],
         "alpha": 1
       }
     },
@@ -2232,7 +3332,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 200, 93],
+        "channels": [
+          254,
+          200,
+          93
+        ],
         "alpha": 1
       }
     },
@@ -2240,7 +3344,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 185, 68],
+        "channels": [
+          254,
+          185,
+          68
+        ],
         "alpha": 1
       }
     },
@@ -2248,7 +3356,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [254, 169, 39],
+        "channels": [
+          254,
+          169,
+          39
+        ],
         "alpha": 1
       }
     },
@@ -2256,7 +3368,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [223, 150, 28],
+        "channels": [
+          223,
+          150,
+          28
+        ],
         "alpha": 1
       }
     },
@@ -2264,7 +3380,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [193, 131, 18],
+        "channels": [
+          193,
+          131,
+          18
+        ],
         "alpha": 1
       }
     },
@@ -2272,7 +3392,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [165, 112, 7],
+        "channels": [
+          165,
+          112,
+          7
+        ],
         "alpha": 1
       }
     },
@@ -2280,7 +3404,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [137, 94, 0],
+        "channels": [
+          137,
+          94,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -2288,7 +3416,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [105, 71, 0],
+        "channels": [
+          105,
+          71,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -2296,7 +3428,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [76, 48, 0],
+        "channels": [
+          76,
+          48,
+          0
+        ],
         "alpha": 1
       }
     },
@@ -2304,7 +3440,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [47, 28, 0],
+        "channels": [
+          47,
+          28,
+          0
+        ],
         "alpha": 1
       }
     }
@@ -2314,7 +3454,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [245, 249, 242],
+        "channels": [
+          245,
+          249,
+          242
+        ],
         "alpha": 1
       }
     },
@@ -2322,7 +3466,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [236, 243, 231],
+        "channels": [
+          236,
+          243,
+          231
+        ],
         "alpha": 1
       }
     },
@@ -2330,7 +3478,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [227, 236, 220],
+        "channels": [
+          227,
+          236,
+          220
+        ],
         "alpha": 1
       }
     },
@@ -2338,7 +3490,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [218, 230, 209],
+        "channels": [
+          218,
+          230,
+          209
+        ],
         "alpha": 1
       }
     },
@@ -2346,7 +3502,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [209, 224, 198],
+        "channels": [
+          209,
+          224,
+          198
+        ],
         "alpha": 1
       }
     },
@@ -2354,7 +3514,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [199, 217, 186],
+        "channels": [
+          199,
+          217,
+          186
+        ],
         "alpha": 1
       }
     },
@@ -2362,7 +3526,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [190, 211, 175],
+        "channels": [
+          190,
+          211,
+          175
+        ],
         "alpha": 1
       }
     },
@@ -2370,7 +3538,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [181, 205, 164],
+        "channels": [
+          181,
+          205,
+          164
+        ],
         "alpha": 1
       }
     },
@@ -2378,7 +3550,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [165, 194, 142],
+        "channels": [
+          165,
+          194,
+          142
+        ],
         "alpha": 1
       }
     },
@@ -2386,7 +3562,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [149, 183, 119],
+        "channels": [
+          149,
+          183,
+          119
+        ],
         "alpha": 1
       }
     },
@@ -2394,7 +3574,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [134, 172, 96],
+        "channels": [
+          134,
+          172,
+          96
+        ],
         "alpha": 1
       }
     },
@@ -2402,7 +3586,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [120, 161, 70],
+        "channels": [
+          120,
+          161,
+          70
+        ],
         "alpha": 1
       }
     },
@@ -2410,7 +3598,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [95, 143, 68],
+        "channels": [
+          95,
+          143,
+          68
+        ],
         "alpha": 1
       }
     },
@@ -2418,7 +3610,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [73, 125, 64],
+        "channels": [
+          73,
+          125,
+          64
+        ],
         "alpha": 1
       }
     },
@@ -2426,7 +3622,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [52, 106, 59],
+        "channels": [
+          52,
+          106,
+          59
+        ],
         "alpha": 1
       }
     },
@@ -2434,7 +3634,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [33, 88, 52],
+        "channels": [
+          33,
+          88,
+          52
+        ],
         "alpha": 1
       }
     },
@@ -2442,7 +3646,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [21, 66, 37],
+        "channels": [
+          21,
+          66,
+          37
+        ],
         "alpha": 1
       }
     },
@@ -2450,7 +3658,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [10, 46, 23],
+        "channels": [
+          10,
+          46,
+          23
+        ],
         "alpha": 1
       }
     },
@@ -2458,171 +3670,46 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [2, 27, 10],
+        "channels": [
+          2,
+          27,
+          10
+        ],
         "alpha": 1
       }
     }
   },
   "nsw-aboriginal-blue": {
-    "50": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [238, 248, 250],
-        "alpha": 1
-      }
-    },
-    "100": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [223, 241, 244],
-        "alpha": 1
-      }
-    },
-    "150": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [208, 233, 238],
-        "alpha": 1
-      }
-    },
-    "200": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [193, 226, 232],
-        "alpha": 1
-      }
-    },
-    "250": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [178, 219, 226],
-        "alpha": 1
-      }
-    },
-    "300": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [163, 212, 220],
-        "alpha": 1
-      }
-    },
-    "350": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [148, 204, 215],
-        "alpha": 1
-      }
-    },
-    "400": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [132, 197, 209],
-        "alpha": 1
-      }
-    },
-    "450": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [103, 174, 192],
-        "alpha": 1
-      }
-    },
-    "500": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [74, 150, 176],
-        "alpha": 1
-      }
-    },
-    "550": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [46, 127, 161],
-        "alpha": 1
-      }
-    },
-    "600": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [13, 103, 145],
-        "alpha": 1
-      }
-    },
-    "650": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [20, 87, 130],
-        "alpha": 1
-      }
-    },
-    "700": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [23, 71, 115],
-        "alpha": 1
-      }
-    },
-    "750": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [24, 55, 99],
-        "alpha": 1
-      }
-    },
-    "800": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [22, 41, 83],
-        "alpha": 1
-      }
-    },
-    "850": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [14, 29, 63],
-        "alpha": 1
-      }
-    },
-    "900": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [6, 18, 44],
-        "alpha": 1
-      }
-    },
-    "950": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "rgb",
-        "channels": [2, 7, 27],
-        "alpha": 1
-      }
-    }
+    "nsw-aboriginal-blue-50": "rgb(238, 248, 250)",
+    "nsw-aboriginal-blue-100": "rgb(223, 241, 244)",
+    "nsw-aboriginal-blue-150": "rgb(208, 233, 238)",
+    "nsw-aboriginal-blue-200": "rgb(193, 226, 232)",
+    "nsw-aboriginal-blue-250": "rgb(178, 219, 226)",
+    "nsw-aboriginal-blue-300": "rgb(163, 212, 220)",
+    "nsw-aboriginal-blue-350": "rgb(148, 204, 215)",
+    "nsw-aboriginal-blue-400": "rgb(132, 197, 209)",
+    "nsw-aboriginal-blue-450": "rgb(103, 174, 192)",
+    "nsw-aboriginal-blue-500": "rgb(74, 150, 176)",
+    "nsw-aboriginal-blue-550": "rgb(46, 127, 161)",
+    "nsw-aboriginal-blue-600": "rgb(13, 103, 145)",
+    "nsw-aboriginal-blue-650": "rgb(9, 93, 132)",
+    "nsw-aboriginal-blue-700": "rgb(5, 83, 119)",
+    "nsw-aboriginal-blue-750": "rgb(2, 73, 106)",
+    "nsw-aboriginal-blue-800": "rgb(0, 64, 94)",
+    "nsw-aboriginal-blue-850": "rgb(0, 47, 72)",
+    "nsw-aboriginal-blue-900": "rgb(0, 32, 51)",
+    "nsw-aboriginal-blue-950": "rgb(0, 17, 31)"
   },
   "nsw-aboriginal-purple": {
     "50": {
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [250, 241, 248],
+        "channels": [
+          250,
+          241,
+          248
+        ],
         "alpha": 1
       }
     },
@@ -2630,7 +3717,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [242, 229, 240],
+        "channels": [
+          242,
+          229,
+          240
+        ],
         "alpha": 1
       }
     },
@@ -2638,7 +3729,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [235, 216, 232],
+        "channels": [
+          235,
+          216,
+          232
+        ],
         "alpha": 1
       }
     },
@@ -2646,7 +3741,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [228, 204, 224],
+        "channels": [
+          228,
+          204,
+          224
+        ],
         "alpha": 1
       }
     },
@@ -2654,7 +3753,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [221, 191, 216],
+        "channels": [
+          221,
+          191,
+          216
+        ],
         "alpha": 1
       }
     },
@@ -2662,7 +3765,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [215, 179, 209],
+        "channels": [
+          215,
+          179,
+          209
+        ],
         "alpha": 1
       }
     },
@@ -2670,7 +3777,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [208, 166, 201],
+        "channels": [
+          208,
+          166,
+          201
+        ],
         "alpha": 1
       }
     },
@@ -2678,7 +3789,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [201, 154, 194],
+        "channels": [
+          201,
+          154,
+          194
+        ],
         "alpha": 1
       }
     },
@@ -2686,7 +3801,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [189, 139, 182],
+        "channels": [
+          189,
+          139,
+          182
+        ],
         "alpha": 1
       }
     },
@@ -2694,7 +3813,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [177, 124, 170],
+        "channels": [
+          177,
+          124,
+          170
+        ],
         "alpha": 1
       }
     },
@@ -2702,7 +3825,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [166, 109, 159],
+        "channels": [
+          166,
+          109,
+          159
+        ],
         "alpha": 1
       }
     },
@@ -2710,7 +3837,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [154, 94, 147],
+        "channels": [
+          154,
+          94,
+          147
+        ],
         "alpha": 1
       }
     },
@@ -2718,7 +3849,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [132, 79, 126],
+        "channels": [
+          132,
+          79,
+          126
+        ],
         "alpha": 1
       }
     },
@@ -2726,7 +3861,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [111, 65, 105],
+        "channels": [
+          111,
+          65,
+          105
+        ],
         "alpha": 1
       }
     },
@@ -2734,7 +3873,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [91, 51, 85],
+        "channels": [
+          91,
+          51,
+          85
+        ],
         "alpha": 1
       }
     },
@@ -2742,7 +3885,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [71, 38, 66],
+        "channels": [
+          71,
+          38,
+          66
+        ],
         "alpha": 1
       }
     },
@@ -2750,7 +3897,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [53, 26, 49],
+        "channels": [
+          53,
+          26,
+          49
+        ],
         "alpha": 1
       }
     },
@@ -2758,7 +3909,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [36, 16, 33],
+        "channels": [
+          36,
+          16,
+          33
+        ],
         "alpha": 1
       }
     },
@@ -2766,7 +3921,11 @@
       "$type": "color",
       "$value": {
         "colorSpace": "rgb",
-        "channels": [21, 6, 18],
+        "channels": [
+          21,
+          6,
+          18
+        ],
         "alpha": 1
       }
     }
