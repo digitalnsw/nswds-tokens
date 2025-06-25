@@ -303,6 +303,16 @@ export const tsTokens = tokens.ts
 
 // Export icon paths
 export const icons = {
+  article: './icons/article.svg',
+  view_module: './icons/view_module.svg',
+  edit_square: './icons/edit_square.svg',
+  edit: './icons/edit.svg',
+  file_open: './icons/file_open.svg',
+  open_in_full: './icons/open_in_full.svg',
+  page_info: './icons/page_info.svg',
+  save: './icons/save.svg',
+  star: './icons/star.svg',
+  table_view: './icons/table_view.svg',
   account_circle: './icons/account_circle.svg',
   add: './icons/add.svg',
   attachFile: './icons/attach_file.svg',

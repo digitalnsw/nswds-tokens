@@ -1248,82 +1248,25 @@
     }
   },
   "nsw-aboriginal-blue": {
-    "50": {
-      "$type": "color",
-      "$value": "#eef8fa"
-    },
-    "100": {
-      "$type": "color",
-      "$value": "#dff1f4"
-    },
-    "150": {
-      "$type": "color",
-      "$value": "#d0e9ee"
-    },
-    "200": {
-      "$type": "color",
-      "$value": "#c1e2e8"
-    },
-    "250": {
-      "$type": "color",
-      "$value": "#b2dbe2"
-    },
-    "300": {
-      "$type": "color",
-      "$value": "#a3d4dc"
-    },
-    "350": {
-      "$type": "color",
-      "$value": "#94ccd7"
-    },
-    "400": {
-      "$type": "color",
-      "$value": "#84c5d1"
-    },
-    "450": {
-      "$type": "color",
-      "$value": "#67aec0"
-    },
-    "500": {
-      "$type": "color",
-      "$value": "#4a96b0"
-    },
-    "550": {
-      "$type": "color",
-      "$value": "#2e7fa1"
-    },
-    "600": {
-      "$type": "color",
-      "$value": "#0d6791"
-    },
-    "650": {
-      "$type": "color",
-      "$value": "#145782"
-    },
-    "700": {
-      "$type": "color",
-      "$value": "#174773"
-    },
-    "750": {
-      "$type": "color",
-      "$value": "#183763"
-    },
-    "800": {
-      "$type": "color",
-      "$value": "#162953"
-    },
-    "850": {
-      "$type": "color",
-      "$value": "#0e1d3f"
-    },
-    "900": {
-      "$type": "color",
-      "$value": "#06122c"
-    },
-    "950": {
-      "$type": "color",
-      "$value": "#02071b"
-    }
+    "nsw-aboriginal-blue-50": "#eef8fa",
+    "nsw-aboriginal-blue-100": "#dff1f4",
+    "nsw-aboriginal-blue-150": "#d0e9ee",
+    "nsw-aboriginal-blue-200": "#c1e2e8",
+    "nsw-aboriginal-blue-250": "#b2dbe2",
+    "nsw-aboriginal-blue-300": "#a3d4dc",
+    "nsw-aboriginal-blue-350": "#94ccd7",
+    "nsw-aboriginal-blue-400": "#84c5d1",
+    "nsw-aboriginal-blue-450": "#67aec0",
+    "nsw-aboriginal-blue-500": "#4a96b0",
+    "nsw-aboriginal-blue-550": "#2e7fa1",
+    "nsw-aboriginal-blue-600": "#0d6791",
+    "nsw-aboriginal-blue-650": "#095d84",
+    "nsw-aboriginal-blue-700": "#055377",
+    "nsw-aboriginal-blue-750": "#02496a",
+    "nsw-aboriginal-blue-800": "#00405e",
+    "nsw-aboriginal-blue-850": "#002f48",
+    "nsw-aboriginal-blue-900": "#002033",
+    "nsw-aboriginal-blue-950": "#00111f"
   },
   "nsw-aboriginal-purple": {
     "50": {
