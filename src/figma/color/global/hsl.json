@@ -2451,7 +2451,7 @@
         "channels": [
           223.81,
           0,
-          29.26
+          28.62
         ],
         "alpha": 1
       }
@@ -2463,7 +2463,7 @@
         "channels": [
           223.81,
           0,
-          25.29
+          24.04
         ],
         "alpha": 1
       }
@@ -2475,7 +2475,7 @@
         "channels": [
           223.81,
           0,
-          21.41
+          19.59
         ],
         "alpha": 1
       }
@@ -2487,7 +2487,7 @@
         "channels": [
           223.81,
           0,
-          17.65
+          15.29
         ],
         "alpha": 1
       }
@@ -2499,7 +2499,7 @@
         "channels": [
           223.81,
           0,
-          12.7
+          10.85
         ],
         "alpha": 1
       }
@@ -2511,7 +2511,7 @@
         "channels": [
           223.81,
           0,
-          8.01
+          6.64
         ],
         "alpha": 1
       }
@@ -2523,7 +2523,7 @@
         "channels": [
           223.81,
           0,
-          3.63
+          2.81
         ],
         "alpha": 1
       }
@@ -3680,25 +3680,234 @@
     }
   },
   "nsw-aboriginal-blue": {
-    "nsw-aboriginal-blue-50": "hsl(189.24, 57.11%, 95.67%)",
-    "nsw-aboriginal-blue-100": "hsl(189.24, 49.64%, 91.57%)",
-    "nsw-aboriginal-blue-150": "hsl(189.24, 47.11%, 87.45%)",
-    "nsw-aboriginal-blue-200": "hsl(189.23, 45.88%, 83.33%)",
-    "nsw-aboriginal-blue-250": "hsl(189.29, 45.53%, 79.28%)",
-    "nsw-aboriginal-blue-300": "hsl(189.34, 45.39%, 75.19%)",
-    "nsw-aboriginal-blue-350": "hsl(189.36, 45.41%, 71.06%)",
-    "nsw-aboriginal-blue-400": "hsl(189.35, 45.56%, 66.86%)",
-    "nsw-aboriginal-blue-450": "hsl(192.66, 41.82%, 57.86%)",
-    "nsw-aboriginal-blue-500": "hsl(195.5, 40.89%, 49.12%)",
-    "nsw-aboriginal-blue-550": "hsl(197.85, 55.74%, 40.47%)",
-    "nsw-aboriginal-blue-600": "hsl(199.09, 83.54%, 30.98%)",
-    "nsw-aboriginal-blue-650": "hsl(198.97, 87.58%, 27.58%)",
-    "nsw-aboriginal-blue-700": "hsl(198.92, 91.86%, 24.33%)",
-    "nsw-aboriginal-blue-750": "hsl(198.97, 96.01%, 21.29%)",
-    "nsw-aboriginal-blue-800": "hsl(199.15, 100%, 18.43%)",
-    "nsw-aboriginal-blue-850": "hsl(199.78, 100%, 13.65%)",
-    "nsw-aboriginal-blue-900": "hsl(201.38, 100%, 9.4%)",
-    "nsw-aboriginal-blue-950": "hsl(205.34, 100%, 5.61%)"
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.24,
+          57.11,
+          95.67
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.24,
+          49.64,
+          91.57
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.24,
+          47.11,
+          87.45
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.23,
+          45.88,
+          83.33
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.29,
+          45.53,
+          79.28
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.34,
+          45.39,
+          75.19
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.36,
+          45.41,
+          71.06
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.35,
+          45.56,
+          66.86
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          192.66,
+          41.82,
+          57.86
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          195.5,
+          40.89,
+          49.12
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          197.85,
+          55.74,
+          40.47
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.09,
+          83.54,
+          30.98
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          198.97,
+          87.58,
+          27.58
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          198.92,
+          91.86,
+          24.33
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          198.97,
+          96.01,
+          21.29
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.15,
+          100,
+          18.43
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.78,
+          100,
+          13.65
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          201.38,
+          100,
+          9.4
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          205.34,
+          100,
+          5.61
+        ],
+        "alpha": 1
+      }
+    }
   },
   "nsw-aboriginal-purple": {
     "50": {

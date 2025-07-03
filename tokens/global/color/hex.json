@@ -830,31 +830,31 @@
     },
     "650": {
       "$type": "color",
-      "$value": "#4b4b4b"
+      "$value": "#494949"
     },
     "700": {
       "$type": "color",
-      "$value": "#404040"
+      "$value": "#3d3d3d"
     },
     "750": {
       "$type": "color",
-      "$value": "#373737"
+      "$value": "#323232"
     },
     "800": {
       "$type": "color",
-      "$value": "#2d2d2d"
+      "$value": "#272727"
     },
     "850": {
       "$type": "color",
-      "$value": "#202020"
+      "$value": "#1c1c1c"
     },
     "900": {
       "$type": "color",
-      "$value": "#141414"
+      "$value": "#111111"
     },
     "950": {
       "$type": "color",
-      "$value": "#090909"
+      "$value": "#070707"
     }
   },
   "nsw-aboriginal-red": {
