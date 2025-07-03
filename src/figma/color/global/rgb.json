@@ -2449,9 +2449,9 @@
       "$value": {
         "colorSpace": "rgb",
         "channels": [
-          75,
-          75,
-          75
+          73,
+          73,
+          73
         ],
         "alpha": 1
       }
@@ -2461,9 +2461,9 @@
       "$value": {
         "colorSpace": "rgb",
         "channels": [
-          64,
-          64,
-          64
+          61,
+          61,
+          61
         ],
         "alpha": 1
       }
@@ -2473,9 +2473,9 @@
       "$value": {
         "colorSpace": "rgb",
         "channels": [
-          55,
-          55,
-          55
+          50,
+          50,
+          50
         ],
         "alpha": 1
       }
@@ -2485,9 +2485,9 @@
       "$value": {
         "colorSpace": "rgb",
         "channels": [
-          45,
-          45,
-          45
+          39,
+          39,
+          39
         ],
         "alpha": 1
       }
@@ -2497,9 +2497,9 @@
       "$value": {
         "colorSpace": "rgb",
         "channels": [
-          32,
-          32,
-          32
+          28,
+          28,
+          28
         ],
         "alpha": 1
       }
@@ -2509,9 +2509,9 @@
       "$value": {
         "colorSpace": "rgb",
         "channels": [
-          20,
-          20,
-          20
+          17,
+          17,
+          17
         ],
         "alpha": 1
       }
@@ -2521,9 +2521,9 @@
       "$value": {
         "colorSpace": "rgb",
         "channels": [
-          9,
-          9,
-          9
+          7,
+          7,
+          7
         ],
         "alpha": 1
       }
@@ -3680,25 +3680,234 @@
     }
   },
   "nsw-aboriginal-blue": {
-    "nsw-aboriginal-blue-50": "rgb(238, 248, 250)",
-    "nsw-aboriginal-blue-100": "rgb(223, 241, 244)",
-    "nsw-aboriginal-blue-150": "rgb(208, 233, 238)",
-    "nsw-aboriginal-blue-200": "rgb(193, 226, 232)",
-    "nsw-aboriginal-blue-250": "rgb(178, 219, 226)",
-    "nsw-aboriginal-blue-300": "rgb(163, 212, 220)",
-    "nsw-aboriginal-blue-350": "rgb(148, 204, 215)",
-    "nsw-aboriginal-blue-400": "rgb(132, 197, 209)",
-    "nsw-aboriginal-blue-450": "rgb(103, 174, 192)",
-    "nsw-aboriginal-blue-500": "rgb(74, 150, 176)",
-    "nsw-aboriginal-blue-550": "rgb(46, 127, 161)",
-    "nsw-aboriginal-blue-600": "rgb(13, 103, 145)",
-    "nsw-aboriginal-blue-650": "rgb(9, 93, 132)",
-    "nsw-aboriginal-blue-700": "rgb(5, 83, 119)",
-    "nsw-aboriginal-blue-750": "rgb(2, 73, 106)",
-    "nsw-aboriginal-blue-800": "rgb(0, 64, 94)",
-    "nsw-aboriginal-blue-850": "rgb(0, 47, 72)",
-    "nsw-aboriginal-blue-900": "rgb(0, 32, 51)",
-    "nsw-aboriginal-blue-950": "rgb(0, 17, 31)"
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          238,
+          248,
+          250
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          223,
+          241,
+          244
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          208,
+          233,
+          238
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          193,
+          226,
+          232
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          178,
+          219,
+          226
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          163,
+          212,
+          220
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          148,
+          204,
+          215
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          132,
+          197,
+          209
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          103,
+          174,
+          192
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          74,
+          150,
+          176
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          46,
+          127,
+          161
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          13,
+          103,
+          145
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          9,
+          93,
+          132
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          5,
+          83,
+          119
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          2,
+          73,
+          106
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          0,
+          64,
+          94
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          0,
+          47,
+          72
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          0,
+          32,
+          51
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          0,
+          17,
+          31
+        ],
+        "alpha": 1
+      }
+    }
   },
   "nsw-aboriginal-purple": {
     "50": {
