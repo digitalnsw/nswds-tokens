@@ -1,3 +1,10 @@
+# [2.12.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.11.0...v2.12.0) (2025-07-03)
+
+
+### Features
+
+* trigger npm release ([567df2b](https://github.com/digitalnsw/nswds-tokens/commit/567df2b81e9d9911acfd49492fcd7859113c0e21))
+
 # [2.11.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.10.0...v2.11.0) (2025-06-25)
 
 
