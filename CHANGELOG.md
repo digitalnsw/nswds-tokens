@@ -1,3 +1,10 @@
+# [2.13.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.12.0...v2.13.0) (2025-07-29)
+
+
+### Features
+
+* **icons, index.ts:** Add and export new SVG icons for enhanced UI components ([#22](https://github.com/digitalnsw/nswds-tokens/issues/22)) ([4a40124](https://github.com/digitalnsw/nswds-tokens/commit/4a4012493afdffeaa16764f36aab39ccc178db03))
+
 # [2.12.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.11.0...v2.12.0) (2025-07-03)
 
 
