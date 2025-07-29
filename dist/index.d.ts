@@ -4890,6 +4890,23 @@ declare const tsTokens: {
     };
 };
 declare const icons: {
+    work: string;
+    add_circle: string;
+    add_location: string;
+    add_photo: string;
+    business_center: string;
+    corporate: string;
+    distance: string;
+    encrypted: string;
+    eye_off: string;
+    face: string;
+    image: string;
+    lock_person: string;
+    lock: string;
+    my_location: string;
+    pin_drop: string;
+    tune: string;
+    visibility_lock: string;
     article: string;
     view_module: string;
     edit_square: string;
