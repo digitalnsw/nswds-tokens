@@ -24972,6 +24972,23 @@ var scssTokens = tokens.scss;
 var tailwindTokens = tokens.tailwind;
 var tsTokens = tokens.ts;
 var icons = {
+  work: "./icons/work.svg",
+  add_circle: "./icons/add_circle.svg",
+  add_location: "./icons/add_location.svg",
+  add_photo: "./icons/add_photo.svg",
+  business_center: "./icons/business_center.svg",
+  corporate: "./icons/corporate.svg",
+  distance: "./icons/distance.svg",
+  encrypted: "./icons/encrypted.svg",
+  eye_off: "./icons/eye_off.svg",
+  face: "./icons/face.svg",
+  image: "./icons/image.svg",
+  lock_person: "./icons/lock_person.svg",
+  lock: "./icons/lock.svg",
+  my_location: "./icons/my_location.svg",
+  pin_drop: "./icons/pin_drop.svg",
+  tune: "./icons/tune.svg",
+  visibility_lock: "./icons/visibility_lock.svg",
   article: "./icons/article.svg",
   view_module: "./icons/view_module.svg",
   edit_square: "./icons/edit_square.svg",
