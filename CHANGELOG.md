@@ -1,3 +1,10 @@
+# [2.14.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.13.0...v2.14.0) (2025-08-06)
+
+
+### Features
+
+* **icons:** add new SVG icons for alarm, bookmark, docs, draft, edit_document, editor_choice, import_contacts, license, premium, refresh, and schedule to enhance UI options ([#23](https://github.com/digitalnsw/nswds-tokens/issues/23)) ([8746f2f](https://github.com/digitalnsw/nswds-tokens/commit/8746f2f9a9b0b2a2aa8f6659b8183ff046299edd))
+
 # [2.13.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.12.0...v2.13.0) (2025-07-29)
 
 
