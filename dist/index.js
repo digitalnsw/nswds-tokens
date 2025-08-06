@@ -24972,6 +24972,17 @@ var scssTokens = tokens.scss;
 var tailwindTokens = tokens.tailwind;
 var tsTokens = tokens.ts;
 var icons = {
+  schedule: "./icons/schedule.svg",
+  alarm: "./icons/alarm.svg",
+  bookmark: "./icons/bookmark.svg",
+  docs: "./icons/docs.svg",
+  draft: "./icons/draft.svg",
+  edit_document: "./icons/edit_document.svg",
+  editor_choice: "./icons/editor_choice.svg",
+  import_contacts: "./icons/import_contacts.svg",
+  license: "./icons/license.svg",
+  premium: "./icons/premium.svg",
+  refresh: "./icons/refresh.svg",
   work: "./icons/work.svg",
   add_circle: "./icons/add_circle.svg",
   add_location: "./icons/add_location.svg",
