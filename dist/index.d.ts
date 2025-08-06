@@ -4890,6 +4890,17 @@ declare const tsTokens: {
     };
 };
 declare const icons: {
+    schedule: string;
+    alarm: string;
+    bookmark: string;
+    docs: string;
+    draft: string;
+    edit_document: string;
+    editor_choice: string;
+    import_contacts: string;
+    license: string;
+    premium: string;
+    refresh: string;
     work: string;
     add_circle: string;
     add_location: string;
