@@ -1,3 +1,10 @@
+# [2.15.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.14.0...v2.15.0) (2025-08-13)
+
+
+### Features
+
+* **tailwind:** add new color themes for data visualization in hex, hsl, oklch, and rgb formats to enhance design flexibility and support various color models ([#24](https://github.com/digitalnsw/nswds-tokens/issues/24)) ([4488483](https://github.com/digitalnsw/nswds-tokens/commit/4488483059c055aef559846dd6365da8b7067df6))
+
 # [2.14.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.13.0...v2.14.0) (2025-08-06)
 
 
