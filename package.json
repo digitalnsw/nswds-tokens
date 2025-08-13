@@ -71,6 +71,7 @@
     "./scss/colors/semantic/*": "./dist/scss/colors/semantic/*",
     "./tailwind/colors/global/*": "./dist/tailwind/colors/global/*",
     "./tailwind/colors/themes/masterbrand/*": "./dist/tailwind/colors/themes/masterbrand/*",
+    "./tailwind/colors/themes/data-visualisation/*": "./dist/tailwind/colors/themes/data-visualisation/*",
     "./tailwind/colors/semantic/*": "./dist/tailwind/colors/semantic/*",
     "./ts/colors/global/*": "./dist/ts/colors/global/*",
     "./ts/colors/themes/masterbrand/*": "./dist/ts/colors/themes/masterbrand/*",
