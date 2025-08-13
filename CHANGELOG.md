@@ -1,3 +1,10 @@
+# [2.18.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.17.0...v2.18.0) (2025-08-13)
+
+
+### Features
+
+* **release.config.mjs:** add custom release rules for style changes to trigger patch releases for better versioning control ([725b8f3](https://github.com/digitalnsw/nswds-tokens/commit/725b8f3ba01c772ab298cd2fc391f0c549fd5525))
+
 # [2.17.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.16.0...v2.17.0) (2025-08-13)
 
 
