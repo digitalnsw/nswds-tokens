@@ -1,3 +1,10 @@
+# [2.16.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.15.0...v2.16.0) (2025-08-13)
+
+
+### Features
+
+* **index.ts:** add data visualisation color themes to support new design requirements ([#25](https://github.com/digitalnsw/nswds-tokens/issues/25)) ([48e6311](https://github.com/digitalnsw/nswds-tokens/commit/48e63111e149f271b4fc7957a3964f2849b86c63))
+
 # [2.15.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.14.0...v2.15.0) (2025-08-13)
 
 
