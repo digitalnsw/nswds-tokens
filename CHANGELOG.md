@@ -1,3 +1,10 @@
+# [2.17.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.16.0...v2.17.0) (2025-08-13)
+
+
+### Features
+
+* **tailwind:** Add new path mapping for data-visualisation theme in package.json ([#26](https://github.com/digitalnsw/nswds-tokens/issues/26)) ([a714b47](https://github.com/digitalnsw/nswds-tokens/commit/a714b4732bcc159b8616003574557fbaa3be9b5b))
+
 # [2.16.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.15.0...v2.16.0) (2025-08-13)
 
 
