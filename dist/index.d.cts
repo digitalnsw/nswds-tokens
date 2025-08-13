@@ -2334,6 +2334,22 @@ declare namespace masterbrandTailwindRgb {
   export {  };
 }
 
+declare namespace datavisTailwindHex {
+  export {  };
+}
+
+declare namespace datavisTailwindHsl {
+  export {  };
+}
+
+declare namespace datavisTailwindOklch {
+  export {  };
+}
+
+declare namespace datavisTailwindRgb {
+  export {  };
+}
+
 declare namespace semanticTailwindHex {
   export {  };
 }
@@ -4682,6 +4698,12 @@ declare const tokens: {
                 oklch: typeof masterbrandTailwindOklch;
                 rgb: typeof masterbrandTailwindRgb;
             };
+            'data-visualisation': {
+                hex: typeof datavisTailwindHex;
+                hsl: typeof datavisTailwindHsl;
+                oklch: typeof datavisTailwindOklch;
+                rgb: typeof datavisTailwindRgb;
+            };
         };
         semantic: {
             hex: typeof semanticTailwindHex;
@@ -4858,6 +4880,12 @@ declare const tailwindTokens: {
             hsl: typeof masterbrandTailwindHsl;
             oklch: typeof masterbrandTailwindOklch;
             rgb: typeof masterbrandTailwindRgb;
+        };
+        'data-visualisation': {
+            hex: typeof datavisTailwindHex;
+            hsl: typeof datavisTailwindHsl;
+            oklch: typeof datavisTailwindOklch;
+            rgb: typeof datavisTailwindRgb;
         };
     };
     semantic: {
