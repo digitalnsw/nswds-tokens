@@ -94,6 +94,10 @@ import * as masterbrandTailwindHex from './tailwind/colors/themes/masterbrand/he
 import * as masterbrandTailwindHsl from './tailwind/colors/themes/masterbrand/hsl.css'
 import * as masterbrandTailwindOklch from './tailwind/colors/themes/masterbrand/oklch.css'
 import * as masterbrandTailwindRgb from './tailwind/colors/themes/masterbrand/rgb.css'
+import * as datavisTailwindHex from './tailwind/colors/themes/data-visualisation/hex.css'
+import * as datavisTailwindHsl from './tailwind/colors/themes/data-visualisation/hsl.css'
+import * as datavisTailwindOklch from './tailwind/colors/themes/data-visualisation/oklch.css'
+import * as datavisTailwindRgb from './tailwind/colors/themes/data-visualisation/rgb.css'
 import * as semanticTailwindHex from './tailwind/colors/semantic/hex.css'
 import * as semanticTailwindHsl from './tailwind/colors/semantic/hsl.css'
 import * as semanticTailwindOklch from './tailwind/colors/semantic/oklch.css'
@@ -259,6 +263,12 @@ export const tokens = {
         hsl: masterbrandTailwindHsl,
         oklch: masterbrandTailwindOklch,
         rgb: masterbrandTailwindRgb,
+      },
+      'data-visualisation': {
+        hex: datavisTailwindHex,
+        hsl: datavisTailwindHsl,
+        oklch: datavisTailwindOklch,
+        rgb: datavisTailwindRgb,
       },
     },
     semantic: {
