@@ -1,3 +1,10 @@
+# [2.20.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.19.1...v2.20.0) (2025-08-20)
+
+
+### Features
+
+* **hex.css:** add new color variables for NSW theme to enhance styling options and maintain consistency across the application ([#30](https://github.com/digitalnsw/nswds-tokens/issues/30)) ([d3496da](https://github.com/digitalnsw/nswds-tokens/commit/d3496da5d8f5acb144431cdab2c024d78c4676cd))
+
 ## [2.19.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.19.0...v2.19.1) (2025-08-20)
 
 # [2.19.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.18.1...v2.19.0) (2025-08-20)
