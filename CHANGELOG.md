@@ -1,3 +1,10 @@
+# [2.19.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.18.1...v2.19.0) (2025-08-20)
+
+
+### Features
+
+* **icons:** add new SVG icons for accessibility, add_box, bolt, change_history, code_blocks, code, commit, deployed_code, graph_1, graph_2, hearing, keyboard, merge, and sell to enhance UI components and functionality ([#28](https://github.com/digitalnsw/nswds-tokens/issues/28)) ([906a80d](https://github.com/digitalnsw/nswds-tokens/commit/906a80d48ff96f7ee2fc50e24e904af37d2dd369))
+
 ## [2.18.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.18.0...v2.18.1) (2025-08-13)
 
 # [2.18.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.17.0...v2.18.0) (2025-08-13)
