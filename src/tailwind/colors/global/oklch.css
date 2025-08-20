@@ -1,492 +1,689 @@
+@theme {
+  --color-nsw-grey-50: var(--nsw-grey-50);
+  --color-nsw-grey-100: var(--nsw-grey-100);
+  --color-nsw-grey-150: var(--nsw-grey-150);
+  --color-nsw-grey-200: var(--nsw-grey-200);
+  --color-nsw-grey-250: var(--nsw-grey-250);
+  --color-nsw-grey-300: var(--nsw-grey-300);
+  --color-nsw-grey-350: var(--nsw-grey-350);
+  --color-nsw-grey-400: var(--nsw-grey-400);
+  --color-nsw-grey-450: var(--nsw-grey-450);
+  --color-nsw-grey-500: var(--nsw-grey-500);
+  --color-nsw-grey-550: var(--nsw-grey-550);
+  --color-nsw-grey-600: var(--nsw-grey-600);
+  --color-nsw-grey-650: var(--nsw-grey-650);
+  --color-nsw-grey-700: var(--nsw-grey-700);
+  --color-nsw-grey-750: var(--nsw-grey-750);
+  --color-nsw-grey-800: var(--nsw-grey-800);
+  --color-nsw-grey-850: var(--nsw-grey-850);
+  --color-nsw-grey-900: var(--nsw-grey-900);
+  --color-nsw-grey-950: var(--nsw-grey-950);
+  --color-nsw-green-50: var(--nsw-green-50);
+  --color-nsw-green-100: var(--nsw-green-100);
+  --color-nsw-green-150: var(--nsw-green-150);
+  --color-nsw-green-200: var(--nsw-green-200);
+  --color-nsw-green-250: var(--nsw-green-250);
+  --color-nsw-green-300: var(--nsw-green-300);
+  --color-nsw-green-350: var(--nsw-green-350);
+  --color-nsw-green-400: var(--nsw-green-400);
+  --color-nsw-green-450: var(--nsw-green-450);
+  --color-nsw-green-500: var(--nsw-green-500);
+  --color-nsw-green-550: var(--nsw-green-550);
+  --color-nsw-green-600: var(--nsw-green-600);
+  --color-nsw-green-650: var(--nsw-green-650);
+  --color-nsw-green-700: var(--nsw-green-700);
+  --color-nsw-green-750: var(--nsw-green-750);
+  --color-nsw-green-800: var(--nsw-green-800);
+  --color-nsw-green-850: var(--nsw-green-850);
+  --color-nsw-green-900: var(--nsw-green-900);
+  --color-nsw-green-950: var(--nsw-green-950);
+  --color-nsw-teal-50: var(--nsw-teal-50);
+  --color-nsw-teal-100: var(--nsw-teal-100);
+  --color-nsw-teal-150: var(--nsw-teal-150);
+  --color-nsw-teal-200: var(--nsw-teal-200);
+  --color-nsw-teal-250: var(--nsw-teal-250);
+  --color-nsw-teal-300: var(--nsw-teal-300);
+  --color-nsw-teal-350: var(--nsw-teal-350);
+  --color-nsw-teal-400: var(--nsw-teal-400);
+  --color-nsw-teal-450: var(--nsw-teal-450);
+  --color-nsw-teal-500: var(--nsw-teal-500);
+  --color-nsw-teal-550: var(--nsw-teal-550);
+  --color-nsw-teal-600: var(--nsw-teal-600);
+  --color-nsw-teal-650: var(--nsw-teal-650);
+  --color-nsw-teal-700: var(--nsw-teal-700);
+  --color-nsw-teal-750: var(--nsw-teal-750);
+  --color-nsw-teal-800: var(--nsw-teal-800);
+  --color-nsw-teal-850: var(--nsw-teal-850);
+  --color-nsw-teal-900: var(--nsw-teal-900);
+  --color-nsw-teal-950: var(--nsw-teal-950);
+  --color-nsw-blue-50: var(--nsw-blue-50);
+  --color-nsw-blue-100: var(--nsw-blue-100);
+  --color-nsw-blue-150: var(--nsw-blue-150);
+  --color-nsw-blue-200: var(--nsw-blue-200);
+  --color-nsw-blue-250: var(--nsw-blue-250);
+  --color-nsw-blue-300: var(--nsw-blue-300);
+  --color-nsw-blue-350: var(--nsw-blue-350);
+  --color-nsw-blue-400: var(--nsw-blue-400);
+  --color-nsw-blue-450: var(--nsw-blue-450);
+  --color-nsw-blue-500: var(--nsw-blue-500);
+  --color-nsw-blue-550: var(--nsw-blue-550);
+  --color-nsw-blue-600: var(--nsw-blue-600);
+  --color-nsw-blue-650: var(--nsw-blue-650);
+  --color-nsw-blue-700: var(--nsw-blue-700);
+  --color-nsw-blue-750: var(--nsw-blue-750);
+  --color-nsw-blue-800: var(--nsw-blue-800);
+  --color-nsw-blue-850: var(--nsw-blue-850);
+  --color-nsw-blue-900: var(--nsw-blue-900);
+  --color-nsw-blue-950: var(--nsw-blue-950);
+  --color-nsw-purple-50: var(--nsw-purple-50);
+  --color-nsw-purple-100: var(--nsw-purple-100);
+  --color-nsw-purple-150: var(--nsw-purple-150);
+  --color-nsw-purple-200: var(--nsw-purple-200);
+  --color-nsw-purple-250: var(--nsw-purple-250);
+  --color-nsw-purple-300: var(--nsw-purple-300);
+  --color-nsw-purple-350: var(--nsw-purple-350);
+  --color-nsw-purple-400: var(--nsw-purple-400);
+  --color-nsw-purple-450: var(--nsw-purple-450);
+  --color-nsw-purple-500: var(--nsw-purple-500);
+  --color-nsw-purple-550: var(--nsw-purple-550);
+  --color-nsw-purple-600: var(--nsw-purple-600);
+  --color-nsw-purple-650: var(--nsw-purple-650);
+  --color-nsw-purple-700: var(--nsw-purple-700);
+  --color-nsw-purple-750: var(--nsw-purple-750);
+  --color-nsw-purple-800: var(--nsw-purple-800);
+  --color-nsw-purple-850: var(--nsw-purple-850);
+  --color-nsw-purple-900: var(--nsw-purple-900);
+  --color-nsw-purple-950: var(--nsw-purple-950);
+  --color-nsw-fuchsia-50: var(--nsw-fuchsia-50);
+  --color-nsw-fuchsia-100: var(--nsw-fuchsia-100);
+  --color-nsw-fuchsia-150: var(--nsw-fuchsia-150);
+  --color-nsw-fuchsia-200: var(--nsw-fuchsia-200);
+  --color-nsw-fuchsia-250: var(--nsw-fuchsia-250);
+  --color-nsw-fuchsia-300: var(--nsw-fuchsia-300);
+  --color-nsw-fuchsia-350: var(--nsw-fuchsia-350);
+  --color-nsw-fuchsia-400: var(--nsw-fuchsia-400);
+  --color-nsw-fuchsia-450: var(--nsw-fuchsia-450);
+  --color-nsw-fuchsia-500: var(--nsw-fuchsia-500);
+  --color-nsw-fuchsia-550: var(--nsw-fuchsia-550);
+  --color-nsw-fuchsia-600: var(--nsw-fuchsia-600);
+  --color-nsw-fuchsia-650: var(--nsw-fuchsia-650);
+  --color-nsw-fuchsia-700: var(--nsw-fuchsia-700);
+  --color-nsw-fuchsia-750: var(--nsw-fuchsia-750);
+  --color-nsw-fuchsia-800: var(--nsw-fuchsia-800);
+  --color-nsw-fuchsia-850: var(--nsw-fuchsia-850);
+  --color-nsw-fuchsia-900: var(--nsw-fuchsia-900);
+  --color-nsw-fuchsia-950: var(--nsw-fuchsia-950);
+  --color-nsw-red-50: var(--nsw-red-50);
+  --color-nsw-red-100: var(--nsw-red-100);
+  --color-nsw-red-150: var(--nsw-red-150);
+  --color-nsw-red-200: var(--nsw-red-200);
+  --color-nsw-red-250: var(--nsw-red-250);
+  --color-nsw-red-300: var(--nsw-red-300);
+  --color-nsw-red-350: var(--nsw-red-350);
+  --color-nsw-red-400: var(--nsw-red-400);
+  --color-nsw-red-450: var(--nsw-red-450);
+  --color-nsw-red-500: var(--nsw-red-500);
+  --color-nsw-red-550: var(--nsw-red-550);
+  --color-nsw-red-600: var(--nsw-red-600);
+  --color-nsw-red-650: var(--nsw-red-650);
+  --color-nsw-red-700: var(--nsw-red-700);
+  --color-nsw-red-750: var(--nsw-red-750);
+  --color-nsw-red-800: var(--nsw-red-800);
+  --color-nsw-red-850: var(--nsw-red-850);
+  --color-nsw-red-900: var(--nsw-red-900);
+  --color-nsw-red-950: var(--nsw-red-950);
+  --color-nsw-orange-50: var(--nsw-orange-50);
+  --color-nsw-orange-100: var(--nsw-orange-100);
+  --color-nsw-orange-150: var(--nsw-orange-150);
+  --color-nsw-orange-200: var(--nsw-orange-200);
+  --color-nsw-orange-250: var(--nsw-orange-250);
+  --color-nsw-orange-300: var(--nsw-orange-300);
+  --color-nsw-orange-350: var(--nsw-orange-350);
+  --color-nsw-orange-400: var(--nsw-orange-400);
+  --color-nsw-orange-450: var(--nsw-orange-450);
+  --color-nsw-orange-500: var(--nsw-orange-500);
+  --color-nsw-orange-550: var(--nsw-orange-550);
+  --color-nsw-orange-600: var(--nsw-orange-600);
+  --color-nsw-orange-650: var(--nsw-orange-650);
+  --color-nsw-orange-700: var(--nsw-orange-700);
+  --color-nsw-orange-750: var(--nsw-orange-750);
+  --color-nsw-orange-800: var(--nsw-orange-800);
+  --color-nsw-orange-850: var(--nsw-orange-850);
+  --color-nsw-orange-900: var(--nsw-orange-900);
+  --color-nsw-orange-950: var(--nsw-orange-950);
+  --color-nsw-yellow-50: var(--nsw-yellow-50);
+  --color-nsw-yellow-100: var(--nsw-yellow-100);
+  --color-nsw-yellow-150: var(--nsw-yellow-150);
+  --color-nsw-yellow-200: var(--nsw-yellow-200);
+  --color-nsw-yellow-250: var(--nsw-yellow-250);
+  --color-nsw-yellow-300: var(--nsw-yellow-300);
+  --color-nsw-yellow-350: var(--nsw-yellow-350);
+  --color-nsw-yellow-400: var(--nsw-yellow-400);
+  --color-nsw-yellow-450: var(--nsw-yellow-450);
+  --color-nsw-yellow-500: var(--nsw-yellow-500);
+  --color-nsw-yellow-550: var(--nsw-yellow-550);
+  --color-nsw-yellow-600: var(--nsw-yellow-600);
+  --color-nsw-yellow-650: var(--nsw-yellow-650);
+  --color-nsw-yellow-700: var(--nsw-yellow-700);
+  --color-nsw-yellow-750: var(--nsw-yellow-750);
+  --color-nsw-yellow-800: var(--nsw-yellow-800);
+  --color-nsw-yellow-850: var(--nsw-yellow-850);
+  --color-nsw-yellow-900: var(--nsw-yellow-900);
+  --color-nsw-yellow-950: var(--nsw-yellow-950);
+  --color-nsw-brown-50: var(--nsw-brown-50);
+  --color-nsw-brown-100: var(--nsw-brown-100);
+  --color-nsw-brown-150: var(--nsw-brown-150);
+  --color-nsw-brown-200: var(--nsw-brown-200);
+  --color-nsw-brown-250: var(--nsw-brown-250);
+  --color-nsw-brown-300: var(--nsw-brown-300);
+  --color-nsw-brown-350: var(--nsw-brown-350);
+  --color-nsw-brown-400: var(--nsw-brown-400);
+  --color-nsw-brown-450: var(--nsw-brown-450);
+  --color-nsw-brown-500: var(--nsw-brown-500);
+  --color-nsw-brown-550: var(--nsw-brown-550);
+  --color-nsw-brown-600: var(--nsw-brown-600);
+  --color-nsw-brown-650: var(--nsw-brown-650);
+  --color-nsw-brown-700: var(--nsw-brown-700);
+  --color-nsw-brown-750: var(--nsw-brown-750);
+  --color-nsw-brown-800: var(--nsw-brown-800);
+  --color-nsw-brown-850: var(--nsw-brown-850);
+  --color-nsw-brown-900: var(--nsw-brown-900);
+  --color-nsw-brown-950: var(--nsw-brown-950);
+  --color-nsw-aboriginal-grey-50: var(--nsw-aboriginal-grey-50);
+  --color-nsw-aboriginal-grey-100: var(--nsw-aboriginal-grey-100);
+  --color-nsw-aboriginal-grey-150: var(--nsw-aboriginal-grey-150);
+  --color-nsw-aboriginal-grey-200: var(--nsw-aboriginal-grey-200);
+  --color-nsw-aboriginal-grey-250: var(--nsw-aboriginal-grey-250);
+  --color-nsw-aboriginal-grey-300: var(--nsw-aboriginal-grey-300);
+  --color-nsw-aboriginal-grey-350: var(--nsw-aboriginal-grey-350);
+  --color-nsw-aboriginal-grey-400: var(--nsw-aboriginal-grey-400);
+  --color-nsw-aboriginal-grey-450: var(--nsw-aboriginal-grey-450);
+  --color-nsw-aboriginal-grey-500: var(--nsw-aboriginal-grey-500);
+  --color-nsw-aboriginal-grey-550: var(--nsw-aboriginal-grey-550);
+  --color-nsw-aboriginal-grey-600: var(--nsw-aboriginal-grey-600);
+  --color-nsw-aboriginal-grey-650: var(--nsw-aboriginal-grey-650);
+  --color-nsw-aboriginal-grey-700: var(--nsw-aboriginal-grey-700);
+  --color-nsw-aboriginal-grey-750: var(--nsw-aboriginal-grey-750);
+  --color-nsw-aboriginal-grey-800: var(--nsw-aboriginal-grey-800);
+  --color-nsw-aboriginal-grey-850: var(--nsw-aboriginal-grey-850);
+  --color-nsw-aboriginal-grey-900: var(--nsw-aboriginal-grey-900);
+  --color-nsw-aboriginal-grey-950: var(--nsw-aboriginal-grey-950);
+  --color-nsw-aboriginal-red-50: var(--nsw-aboriginal-red-50);
+  --color-nsw-aboriginal-red-100: var(--nsw-aboriginal-red-100);
+  --color-nsw-aboriginal-red-150: var(--nsw-aboriginal-red-150);
+  --color-nsw-aboriginal-red-200: var(--nsw-aboriginal-red-200);
+  --color-nsw-aboriginal-red-250: var(--nsw-aboriginal-red-250);
+  --color-nsw-aboriginal-red-300: var(--nsw-aboriginal-red-300);
+  --color-nsw-aboriginal-red-350: var(--nsw-aboriginal-red-350);
+  --color-nsw-aboriginal-red-400: var(--nsw-aboriginal-red-400);
+  --color-nsw-aboriginal-red-450: var(--nsw-aboriginal-red-450);
+  --color-nsw-aboriginal-red-500: var(--nsw-aboriginal-red-500);
+  --color-nsw-aboriginal-red-550: var(--nsw-aboriginal-red-550);
+  --color-nsw-aboriginal-red-600: var(--nsw-aboriginal-red-600);
+  --color-nsw-aboriginal-red-650: var(--nsw-aboriginal-red-650);
+  --color-nsw-aboriginal-red-700: var(--nsw-aboriginal-red-700);
+  --color-nsw-aboriginal-red-750: var(--nsw-aboriginal-red-750);
+  --color-nsw-aboriginal-red-800: var(--nsw-aboriginal-red-800);
+  --color-nsw-aboriginal-red-850: var(--nsw-aboriginal-red-850);
+  --color-nsw-aboriginal-red-900: var(--nsw-aboriginal-red-900);
+  --color-nsw-aboriginal-red-950: var(--nsw-aboriginal-red-950);
+  --color-nsw-aboriginal-orange-50: var(--nsw-aboriginal-orange-50);
+  --color-nsw-aboriginal-orange-100: var(--nsw-aboriginal-orange-100);
+  --color-nsw-aboriginal-orange-150: var(--nsw-aboriginal-orange-150);
+  --color-nsw-aboriginal-orange-200: var(--nsw-aboriginal-orange-200);
+  --color-nsw-aboriginal-orange-250: var(--nsw-aboriginal-orange-250);
+  --color-nsw-aboriginal-orange-300: var(--nsw-aboriginal-orange-300);
+  --color-nsw-aboriginal-orange-350: var(--nsw-aboriginal-orange-350);
+  --color-nsw-aboriginal-orange-400: var(--nsw-aboriginal-orange-400);
+  --color-nsw-aboriginal-orange-450: var(--nsw-aboriginal-orange-450);
+  --color-nsw-aboriginal-orange-500: var(--nsw-aboriginal-orange-500);
+  --color-nsw-aboriginal-orange-550: var(--nsw-aboriginal-orange-550);
+  --color-nsw-aboriginal-orange-600: var(--nsw-aboriginal-orange-600);
+  --color-nsw-aboriginal-orange-650: var(--nsw-aboriginal-orange-650);
+  --color-nsw-aboriginal-orange-700: var(--nsw-aboriginal-orange-700);
+  --color-nsw-aboriginal-orange-750: var(--nsw-aboriginal-orange-750);
+  --color-nsw-aboriginal-orange-800: var(--nsw-aboriginal-orange-800);
+  --color-nsw-aboriginal-orange-850: var(--nsw-aboriginal-orange-850);
+  --color-nsw-aboriginal-orange-900: var(--nsw-aboriginal-orange-900);
+  --color-nsw-aboriginal-orange-950: var(--nsw-aboriginal-orange-950);
+  --color-nsw-aboriginal-brown-50: var(--nsw-aboriginal-brown-50);
+  --color-nsw-aboriginal-brown-100: var(--nsw-aboriginal-brown-100);
+  --color-nsw-aboriginal-brown-150: var(--nsw-aboriginal-brown-150);
+  --color-nsw-aboriginal-brown-200: var(--nsw-aboriginal-brown-200);
+  --color-nsw-aboriginal-brown-250: var(--nsw-aboriginal-brown-250);
+  --color-nsw-aboriginal-brown-300: var(--nsw-aboriginal-brown-300);
+  --color-nsw-aboriginal-brown-350: var(--nsw-aboriginal-brown-350);
+  --color-nsw-aboriginal-brown-400: var(--nsw-aboriginal-brown-400);
+  --color-nsw-aboriginal-brown-450: var(--nsw-aboriginal-brown-450);
+  --color-nsw-aboriginal-brown-500: var(--nsw-aboriginal-brown-500);
+  --color-nsw-aboriginal-brown-550: var(--nsw-aboriginal-brown-550);
+  --color-nsw-aboriginal-brown-600: var(--nsw-aboriginal-brown-600);
+  --color-nsw-aboriginal-brown-650: var(--nsw-aboriginal-brown-650);
+  --color-nsw-aboriginal-brown-700: var(--nsw-aboriginal-brown-700);
+  --color-nsw-aboriginal-brown-750: var(--nsw-aboriginal-brown-750);
+  --color-nsw-aboriginal-brown-800: var(--nsw-aboriginal-brown-800);
+  --color-nsw-aboriginal-brown-850: var(--nsw-aboriginal-brown-850);
+  --color-nsw-aboriginal-brown-900: var(--nsw-aboriginal-brown-900);
+  --color-nsw-aboriginal-brown-950: var(--nsw-aboriginal-brown-950);
+  --color-nsw-aboriginal-yellow-50: var(--nsw-aboriginal-yellow-50);
+  --color-nsw-aboriginal-yellow-100: var(--nsw-aboriginal-yellow-100);
+  --color-nsw-aboriginal-yellow-150: var(--nsw-aboriginal-yellow-150);
+  --color-nsw-aboriginal-yellow-200: var(--nsw-aboriginal-yellow-200);
+  --color-nsw-aboriginal-yellow-250: var(--nsw-aboriginal-yellow-250);
+  --color-nsw-aboriginal-yellow-300: var(--nsw-aboriginal-yellow-300);
+  --color-nsw-aboriginal-yellow-350: var(--nsw-aboriginal-yellow-350);
+  --color-nsw-aboriginal-yellow-400: var(--nsw-aboriginal-yellow-400);
+  --color-nsw-aboriginal-yellow-450: var(--nsw-aboriginal-yellow-450);
+  --color-nsw-aboriginal-yellow-500: var(--nsw-aboriginal-yellow-500);
+  --color-nsw-aboriginal-yellow-550: var(--nsw-aboriginal-yellow-550);
+  --color-nsw-aboriginal-yellow-600: var(--nsw-aboriginal-yellow-600);
+  --color-nsw-aboriginal-yellow-650: var(--nsw-aboriginal-yellow-650);
+  --color-nsw-aboriginal-yellow-700: var(--nsw-aboriginal-yellow-700);
+  --color-nsw-aboriginal-yellow-750: var(--nsw-aboriginal-yellow-750);
+  --color-nsw-aboriginal-yellow-800: var(--nsw-aboriginal-yellow-800);
+  --color-nsw-aboriginal-yellow-850: var(--nsw-aboriginal-yellow-850);
+  --color-nsw-aboriginal-yellow-900: var(--nsw-aboriginal-yellow-900);
+  --color-nsw-aboriginal-yellow-950: var(--nsw-aboriginal-yellow-950);
+  --color-nsw-aboriginal-green-50: var(--nsw-aboriginal-green-50);
+  --color-nsw-aboriginal-green-100: var(--nsw-aboriginal-green-100);
+  --color-nsw-aboriginal-green-150: var(--nsw-aboriginal-green-150);
+  --color-nsw-aboriginal-green-200: var(--nsw-aboriginal-green-200);
+  --color-nsw-aboriginal-green-250: var(--nsw-aboriginal-green-250);
+  --color-nsw-aboriginal-green-300: var(--nsw-aboriginal-green-300);
+  --color-nsw-aboriginal-green-350: var(--nsw-aboriginal-green-350);
+  --color-nsw-aboriginal-green-400: var(--nsw-aboriginal-green-400);
+  --color-nsw-aboriginal-green-450: var(--nsw-aboriginal-green-450);
+  --color-nsw-aboriginal-green-500: var(--nsw-aboriginal-green-500);
+  --color-nsw-aboriginal-green-550: var(--nsw-aboriginal-green-550);
+  --color-nsw-aboriginal-green-600: var(--nsw-aboriginal-green-600);
+  --color-nsw-aboriginal-green-650: var(--nsw-aboriginal-green-650);
+  --color-nsw-aboriginal-green-700: var(--nsw-aboriginal-green-700);
+  --color-nsw-aboriginal-green-750: var(--nsw-aboriginal-green-750);
+  --color-nsw-aboriginal-green-800: var(--nsw-aboriginal-green-800);
+  --color-nsw-aboriginal-green-850: var(--nsw-aboriginal-green-850);
+  --color-nsw-aboriginal-green-900: var(--nsw-aboriginal-green-900);
+  --color-nsw-aboriginal-green-950: var(--nsw-aboriginal-green-950);
+  --color-nsw-aboriginal-blue-50: var(--nsw-aboriginal-blue-50);
+  --color-nsw-aboriginal-blue-100: var(--nsw-aboriginal-blue-100);
+  --color-nsw-aboriginal-blue-150: var(--nsw-aboriginal-blue-150);
+  --color-nsw-aboriginal-blue-200: var(--nsw-aboriginal-blue-200);
+  --color-nsw-aboriginal-blue-250: var(--nsw-aboriginal-blue-250);
+  --color-nsw-aboriginal-blue-300: var(--nsw-aboriginal-blue-300);
+  --color-nsw-aboriginal-blue-350: var(--nsw-aboriginal-blue-350);
+  --color-nsw-aboriginal-blue-400: var(--nsw-aboriginal-blue-400);
+  --color-nsw-aboriginal-blue-450: var(--nsw-aboriginal-blue-450);
+  --color-nsw-aboriginal-blue-500: var(--nsw-aboriginal-blue-500);
+  --color-nsw-aboriginal-blue-550: var(--nsw-aboriginal-blue-550);
+  --color-nsw-aboriginal-blue-600: var(--nsw-aboriginal-blue-600);
+  --color-nsw-aboriginal-blue-650: var(--nsw-aboriginal-blue-650);
+  --color-nsw-aboriginal-blue-700: var(--nsw-aboriginal-blue-700);
+  --color-nsw-aboriginal-blue-750: var(--nsw-aboriginal-blue-750);
+  --color-nsw-aboriginal-blue-800: var(--nsw-aboriginal-blue-800);
+  --color-nsw-aboriginal-blue-850: var(--nsw-aboriginal-blue-850);
+  --color-nsw-aboriginal-blue-900: var(--nsw-aboriginal-blue-900);
+  --color-nsw-aboriginal-blue-950: var(--nsw-aboriginal-blue-950);
+  --color-nsw-aboriginal-purple-50: var(--nsw-aboriginal-purple-50);
+  --color-nsw-aboriginal-purple-100: var(--nsw-aboriginal-purple-100);
+  --color-nsw-aboriginal-purple-150: var(--nsw-aboriginal-purple-150);
+  --color-nsw-aboriginal-purple-200: var(--nsw-aboriginal-purple-200);
+  --color-nsw-aboriginal-purple-250: var(--nsw-aboriginal-purple-250);
+  --color-nsw-aboriginal-purple-300: var(--nsw-aboriginal-purple-300);
+  --color-nsw-aboriginal-purple-350: var(--nsw-aboriginal-purple-350);
+  --color-nsw-aboriginal-purple-400: var(--nsw-aboriginal-purple-400);
+  --color-nsw-aboriginal-purple-450: var(--nsw-aboriginal-purple-450);
+  --color-nsw-aboriginal-purple-500: var(--nsw-aboriginal-purple-500);
+  --color-nsw-aboriginal-purple-550: var(--nsw-aboriginal-purple-550);
+  --color-nsw-aboriginal-purple-600: var(--nsw-aboriginal-purple-600);
+  --color-nsw-aboriginal-purple-650: var(--nsw-aboriginal-purple-650);
+  --color-nsw-aboriginal-purple-700: var(--nsw-aboriginal-purple-700);
+  --color-nsw-aboriginal-purple-750: var(--nsw-aboriginal-purple-750);
+  --color-nsw-aboriginal-purple-800: var(--nsw-aboriginal-purple-800);
+  --color-nsw-aboriginal-purple-850: var(--nsw-aboriginal-purple-850);
+  --color-nsw-aboriginal-purple-900: var(--nsw-aboriginal-purple-900);
+  --color-nsw-aboriginal-purple-950: var(--nsw-aboriginal-purple-950);
+}
+
 :root {
-  --color-nsw-grey-50: oklch(0.9850175274112574 0 0);
-  --color-nsw-grey-100: oklch(0.9700350548225147 0 0);
-  --color-nsw-grey-150: oklch(0.9550525822337722 0 0);
-  --color-nsw-grey-200: oklch(0.9400701096450296 0 0);
-  --color-nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);
-  --color-nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);
-  --color-nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);
-  --color-nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);
-  --color-nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);
-  --color-nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);
-  --color-nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);
-  --color-nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);
-  --color-nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);
-  --color-nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);
-  --color-nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);
-  --color-nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);
-  --color-nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);
-  --color-nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);
-  --color-nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);
-  --color-nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);
-  --color-nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);
-  --color-nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);
-  --color-nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);
-  --color-nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);
-  --color-nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);
-  --color-nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);
-  --color-nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);
-  --color-nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);
-  --color-nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);
-  --color-nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);
-  --color-nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);
-  --color-nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);
-  --color-nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);
-  --color-nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);
-  --color-nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);
-  --color-nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);
-  --color-nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);
-  --color-nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);
-  --color-nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);
-  --color-nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);
-  --color-nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);
-  --color-nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);
-  --color-nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);
-  --color-nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);
-  --color-nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);
-  --color-nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);
-  --color-nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);
-  --color-nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);
-  --color-nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);
-  --color-nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);
-  --color-nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);
-  --color-nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);
-  --color-nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);
-  --color-nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);
-  --color-nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);
-  --color-nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);
-  --color-nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);
-  --color-nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);
-  --color-nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);
-  --color-nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);
-  --color-nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);
-  --color-nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);
-  --color-nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);
-  --color-nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);
-  --color-nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);
-  --color-nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);
-  --color-nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);
-  --color-nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);
-  --color-nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);
-  --color-nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);
-  --color-nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);
-  --color-nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);
-  --color-nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);
-  --color-nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);
-  --color-nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);
-  --color-nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);
-  --color-nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);
-  --color-nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);
-  --color-nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);
-  --color-nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);
-  --color-nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);
-  --color-nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);
-  --color-nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);
-  --color-nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);
-  --color-nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);
-  --color-nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);
-  --color-nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);
-  --color-nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);
-  --color-nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);
-  --color-nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);
-  --color-nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);
-  --color-nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);
-  --color-nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);
-  --color-nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);
-  --color-nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);
-  --color-nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);
-  --color-nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);
-  --color-nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);
-  --color-nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);
-  --color-nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);
-  --color-nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);
-  --color-nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);
-  --color-nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);
-  --color-nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);
-  --color-nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);
-  --color-nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);
-  --color-nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);
-  --color-nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);
-  --color-nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);
-  --color-nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);
-  --color-nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);
-  --color-nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);
-  --color-nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);
-  --color-nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);
-  --color-nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);
-  --color-nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);
-  --color-nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);
-  --color-nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);
-  --color-nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);
-  --color-nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);
-  --color-nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);
-  --color-nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);
-  --color-nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);
-  --color-nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);
-  --color-nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);
-  --color-nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);
-  --color-nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);
-  --color-nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);
-  --color-nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);
-  --color-nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);
-  --color-nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);
-  --color-nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);
-  --color-nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);
-  --color-nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);
-  --color-nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);
-  --color-nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);
-  --color-nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);
-  --color-nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);
-  --color-nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);
-  --color-nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);
-  --color-nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);
-  --color-nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);
-  --color-nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);
-  --color-nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);
-  --color-nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);
-  --color-nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);
-  --color-nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);
-  --color-nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);
-  --color-nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);
-  --color-nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);
-  --color-nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);
-  --color-nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);
-  --color-nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);
-  --color-nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);
-  --color-nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);
-  --color-nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);
-  --color-nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);
-  --color-nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);
-  --color-nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);
-  --color-nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);
-  --color-nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);
-  --color-nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);
-  --color-nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);
-  --color-nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);
-  --color-nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);
-  --color-nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);
-  --color-nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);
-  --color-nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);
-  --color-nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);
-  --color-nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);
-  --color-nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);
-  --color-nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);
-  --color-nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);
-  --color-nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);
-  --color-nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);
-  --color-nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);
-  --color-nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);
-  --color-nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);
-  --color-nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);
-  --color-nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);
-  --color-nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);
-  --color-nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);
-  --color-nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);
-  --color-nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);
-  --color-nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);
-  --color-nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);
-  --color-nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);
-  --color-nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);
-  --color-nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);
-  --color-nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);
-  --color-nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);
-  --color-nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);
-  --color-nsw-aboriginal-grey-150: oklch(
-    0.9374064828896956 0.0035614326327228986 78.29695339492076
-  );
-  --color-nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);
-  --color-nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);
-  --color-nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);
-  --color-nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);
-  --color-nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);
-  --color-nsw-aboriginal-grey-450: oklch(
-    0.7350703829754051 0.006541023270606863 56.288635534075496
-  );
-  --color-nsw-aboriginal-grey-500: oklch(
-    0.6398913199703631 0.004360682180404575 56.288635534075496
-  );
-  --color-nsw-aboriginal-grey-550: oklch(
-    0.544712256965321 0.0021803410902022876 56.288635534075496
-  );
-  --color-nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 0);
-  --color-nsw-aboriginal-grey-650: oklch(0.40533514521305436 0 0);
-  --color-nsw-aboriginal-grey-700: oklch(0.3611370964658298 0 0);
-  --color-nsw-aboriginal-grey-750: oklch(0.3169390477186052 0 0);
-  --color-nsw-aboriginal-grey-800: oklch(0.27274099897138065 0 0);
-  --color-nsw-aboriginal-grey-850: oklch(0.22501132415138902 0 0);
-  --color-nsw-aboriginal-grey-900: oklch(0.17728164933139742 0 0);
-  --color-nsw-aboriginal-grey-950: oklch(0.12955197451140582 0 0);
-  --color-nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);
-  --color-nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);
-  --color-nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);
-  --color-nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);
-  --color-nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);
-  --color-nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);
-  --color-nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);
-  --color-nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);
-  --color-nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);
-  --color-nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);
-  --color-nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);
-  --color-nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);
-  --color-nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);
-  --color-nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);
-  --color-nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);
-  --color-nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);
-  --color-nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);
-  --color-nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);
-  --color-nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);
-  --color-nsw-aboriginal-orange-50: oklch(
-    0.9738855126989008 0.016602591530904584 52.55546216454561
-  );
-  --color-nsw-aboriginal-orange-100: oklch(
-    0.9477710253978014 0.028096693359992375 52.55546216454561
-  );
-  --color-nsw-aboriginal-orange-150: oklch(
-    0.9216565380967021 0.039590795189080166 52.55546216454561
-  );
-  --color-nsw-aboriginal-orange-200: oklch(
-    0.8955420507956029 0.05108489701816796 52.55546216454561
-  );
-  --color-nsw-aboriginal-orange-250: oklch(
-    0.8714459985514821 0.06477537243882539 52.40983339193463
-  );
-  --color-nsw-aboriginal-orange-300: oklch(
-    0.8473499463073613 0.07846584785948284 52.264204619323664
-  );
-  --color-nsw-aboriginal-orange-350: oklch(
-    0.8232538940632406 0.09215632328014028 52.11857584671269
-  );
-  --color-nsw-aboriginal-orange-400: oklch(
-    0.7991578418191198 0.10584679870079772 51.97294707410171
-  );
-  --color-nsw-aboriginal-orange-450: oklch(
-    0.7660019575057643 0.12652886278666134 49.87887684512948
-  );
-  --color-nsw-aboriginal-orange-500: oklch(
-    0.7328460731924087 0.14721092687252496 47.784806616157255
-  );
-  --color-nsw-aboriginal-orange-550: oklch(
-    0.6996901888790532 0.16789299095838855 45.69073638718503
-  );
-  --color-nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);
-  --color-nsw-aboriginal-orange-650: oklch(
-    0.6048689295059245 0.17619193861850896 42.06662366880586
-  );
-  --color-nsw-aboriginal-orange-700: oklch(
-    0.5432035544461513 0.16380882219276577 40.53658117939892
-  );
-  --color-nsw-aboriginal-orange-750: oklch(
-    0.48153817938637805 0.15142570576702258 39.00653868999199
-  );
-  --color-nsw-aboriginal-orange-800: oklch(
-    0.41987280432660484 0.13904258934127936 37.47649620058505
-  );
-  --color-nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);
-  --color-nsw-aboriginal-orange-900: oklch(
-    0.27291732281229314 0.09732981253889555 37.47649620058505
-  );
-  --color-nsw-aboriginal-orange-950: oklch(
-    0.1994395820551373 0.07647342413770365 37.47649620058505
-  );
-  --color-nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);
-  --color-nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);
-  --color-nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);
-  --color-nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);
-  --color-nsw-aboriginal-brown-250: oklch(
-    0.819495130372929 0.060854957675237686 55.274819963495716
-  );
-  --color-nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);
-  --color-nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);
-  --color-nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);
-  --color-nsw-aboriginal-brown-450: oklch(
-    0.6658642886991106 0.10220482966257746 51.472089235271014
-  );
-  --color-nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);
-  --color-nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);
-  --color-nsw-aboriginal-brown-600: oklch(
-    0.5259341610634539 0.10991146182440867 43.512391998616614
-  );
-  --color-nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);
-  --color-nsw-aboriginal-brown-700: oklch(
-    0.42307648380765683 0.09792470862615782 44.09883922975184
-  );
-  --color-nsw-aboriginal-brown-750: oklch(
-    0.37164764517975835 0.09193133202703241 44.39206284531945
-  );
-  --color-nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);
-  --color-nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);
-  --color-nsw-aboriginal-brown-900: oklch(
-    0.20814222425870887 0.06015656879953489 44.68528646088706
-  );
-  --color-nsw-aboriginal-brown-950: oklch(
-    0.15210393311213338 0.04726587548534884 44.68528646088706
-  );
-  --color-nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);
-  --color-nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);
-  --color-nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);
-  --color-nsw-aboriginal-yellow-200: oklch(
-    0.9583504843687841 0.05877873378798942 92.48002960723814
-  );
-  --color-nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);
-  --color-nsw-aboriginal-yellow-300: oklch(
-    0.9399189898584743 0.08519720131855335 92.98100357955929
-  );
-  --color-nsw-aboriginal-yellow-350: oklch(
-    0.9307032426033194 0.09840643508383531 93.23149056571987
-  );
-  --color-nsw-aboriginal-yellow-400: oklch(
-    0.9214874953481644 0.11161566884911728 93.48197755188043
-  );
-  --color-nsw-aboriginal-yellow-450: oklch(
-    0.8910195189839808 0.12436290150788638 87.85568397462671
-  );
-  --color-nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);
-  --color-nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);
-  --color-nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);
-  --color-nsw-aboriginal-yellow-650: oklch(
-    0.7283788119804733 0.14880860016855085 72.64225880919277
-  );
-  --color-nsw-aboriginal-yellow-700: oklch(
-    0.6571420340695165 0.13501260085290803 74.30771437551996
-  );
-  --color-nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);
-  --color-nsw-aboriginal-yellow-800: oklch(
-    0.5146684782476031 0.10742060222162236 77.63862550817437
-  );
-  --color-nsw-aboriginal-yellow-850: oklch(
-    0.42460149455427254 0.09130751188837902 77.63862550817437
-  );
-  --color-nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);
-  --color-nsw-aboriginal-yellow-950: oklch(
-    0.24446752716761147 0.059081331221892304 77.63862550817437
-  );
-  --color-nsw-aboriginal-green-50: oklch(
-    0.9775400515432829 0.010033373009012674 131.56364967590204
-  );
-  --color-nsw-aboriginal-green-100: oklch(
-    0.9550801030865659 0.016979554322944526 131.56364967590204
-  );
-  --color-nsw-aboriginal-green-150: oklch(
-    0.9326201546298487 0.023925735636876375 131.56364967590204
-  );
-  --color-nsw-aboriginal-green-200: oklch(
-    0.9101602061731316 0.030871916950808227 131.56364967590204
-  );
-  --color-nsw-aboriginal-green-250: oklch(
-    0.8874934999312177 0.03857982981011093 131.78279512830795
-  );
-  --color-nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);
-  --color-nsw-aboriginal-green-350: oklch(
-    0.8421600874473898 0.053995655528716345 132.22108603311983
-  );
-  --color-nsw-aboriginal-green-400: oklch(
-    0.8194933812054759 0.061703568388019055 132.44023148552574
-  );
-  --color-nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);
-  --color-nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);
-  --color-nsw-aboriginal-green-550: oklch(
-    0.6989797391259933 0.11210775194181792 130.29024651396378
-  );
-  --color-nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);
-  --color-nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);
-  --color-nsw-aboriginal-green-700: oklch(
-    0.5360283164657826 0.10630157240635738 140.91243379535533
-  );
-  --color-nsw-aboriginal-green-750: oklch(
-    0.47463821214892454 0.09499778537966062 146.58185826464475
-  );
-  --color-nsw-aboriginal-green-800: oklch(
-    0.41324810783206634 0.08369399835296387 152.25128273393418
-  );
-  --color-nsw-aboriginal-green-850: oklch(
-    0.3409296889614547 0.07113989860001929 152.25128273393418
-  );
-  --color-nsw-aboriginal-green-900: oklch(
-    0.2686112700908431 0.05858579884707471 152.25128273393418
-  );
-  --color-nsw-aboriginal-green-950: oklch(
-    0.1962928512202315 0.04603169909413013 152.25128273393418
-  );
-  --color-nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);
-  --color-nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);
-  --color-nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);
-  --color-nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);
-  --color-nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);
-  --color-nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);
-  --color-nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);
-  --color-nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);
-  --color-nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);
-  --color-nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);
-  --color-nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);
-  --color-nsw-aboriginal-blue-600: oklch(
-    0.48681410550334053 0.10128236457958428 236.48205409186096
-  );
-  --color-nsw-aboriginal-blue-650: oklch(
-    0.45314276771770134 0.09524485078789424 236.66470281995805
-  );
-  --color-nsw-aboriginal-blue-700: oklch(0.4194714299320621 0.0892073369962042 236.84735154805517);
-  --color-nsw-aboriginal-blue-750: oklch(0.3858000921464229 0.08316982320451415 237.0300002761523);
-  --color-nsw-aboriginal-blue-800: oklch(0.3521287543607837 0.0771323094128241 237.21264900424939);
-  --color-nsw-aboriginal-blue-850: oklch(
-    0.29050622234764656 0.06556246300090049 237.21264900424939
-  );
-  --color-nsw-aboriginal-blue-900: oklch(
-    0.22888369033450942 0.053992616588976874 237.21264900424939
-  );
-  --color-nsw-aboriginal-blue-950: oklch(
-    0.16726115832137228 0.04242277017705326 237.21264900424939
-  );
-  --color-nsw-aboriginal-purple-50: oklch(
-    0.9677519235816936 0.01225423399018933 331.39469318233586
-  );
-  --color-nsw-aboriginal-purple-100: oklch(
-    0.9355038471633873 0.020737934444935786 331.39469318233586
-  );
-  --color-nsw-aboriginal-purple-150: oklch(
-    0.903255770745081 0.02922163489968224 331.39469318233586
-  );
-  --color-nsw-aboriginal-purple-200: oklch(
-    0.8710076943267746 0.0377053353544287 331.39469318233586
-  );
-  --color-nsw-aboriginal-purple-250: oklch(
-    0.8389191100209297 0.04764157951006853 331.4172179039917
-  );
-  --color-nsw-aboriginal-purple-300: oklch(
-    0.8068305257150847 0.05757782366570837 331.4397426256475
-  );
-  --color-nsw-aboriginal-purple-350: oklch(
-    0.7747419414092399 0.06751406782134821 331.46226734730334
-  );
-  --color-nsw-aboriginal-purple-400: oklch(
-    0.742653357103395 0.07745031197698804 331.48479206895917
-  );
-  --color-nsw-aboriginal-purple-450: oklch(
-    0.6987279730890662 0.08461715270888535 331.3997569775923
-  );
-  --color-nsw-aboriginal-purple-500: oklch(
-    0.6548025890747375 0.09178399344078267 331.31472188622536
-  );
-  --color-nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);
-  --color-nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);
-  --color-nsw-aboriginal-purple-650: oklch(
-    0.5059681066477375 0.09597195429905764 331.53840819994554
-  );
-  --color-nsw-aboriginal-purple-700: oklch(
-    0.4449843922493949 0.08582623369353798 331.93216469639947
-  );
-  --color-nsw-aboriginal-purple-750: oklch(
-    0.38400067785105235 0.07568051308801832 332.32592119285346
-  );
-  --color-nsw-aboriginal-purple-800: oklch(
-    0.3230169634527098 0.06553479248249865 332.7196776893074
-  );
-  --color-nsw-aboriginal-purple-850: oklch(
-    0.2664889948484856 0.05570457361012385 332.7196776893074
-  );
-  --color-nsw-aboriginal-purple-900: oklch(
-    0.20996102624426138 0.04587435473774905 332.7196776893074
-  );
-  --color-nsw-aboriginal-purple-950: oklch(
-    0.15343305764003715 0.036044135865374256 332.7196776893074
-  );
+  --nsw-grey-50: oklch(0.9850175274112574 0 0);
+  --nsw-grey-100: oklch(0.9700350548225147 0 0);
+  --nsw-grey-150: oklch(0.9550525822337722 0 0);
+  --nsw-grey-200: oklch(0.9400701096450296 0 0);
+  --nsw-grey-250: oklch(0.9208267112856119 0.0019440594503795112 228.8687380011113);
+  --nsw-grey-300: oklch(0.9015833129261941 0.0038881189007590215 228.8687380011113);
+  --nsw-grey-350: oklch(0.8823399145667763 0.005832178351138532 228.8687380011113);
+  --nsw-grey-400: oklch(0.8630965162073586 0.007776237801518043 228.8687380011113);
+  --nsw-grey-450: oklch(0.7539290831519737 0.008632737257709678 229.8058410593526);
+  --nsw-grey-500: oklch(0.6447616500965888 0.009489236713901311 230.74294411759388);
+  --nsw-grey-550: oklch(0.5355942170412039 0.010345736170092946 231.68004717583517);
+  --nsw-grey-600: oklch(0.426426783985819 0.011202235626284581 232.61715023407646);
+  --nsw-grey-650: oklch(0.3871732148397997 0.010991669591883444 234.98382249287215);
+  --nsw-grey-700: oklch(0.3479196456937804 0.010781103557482309 237.35049475166784);
+  --nsw-grey-750: oklch(0.3086660765477611 0.010570537523081174 239.71716701046353);
+  --nsw-grey-800: oklch(0.26941250740174183 0.010359971488680036 242.08383926925922);
+  --nsw-grey-850: oklch(0.222265318606437 0.00880597576537803 242.08383926925922);
+  --nsw-grey-900: oklch(0.17511812981113217 0.007251980042076026 242.08383926925922);
+  --nsw-grey-950: oklch(0.12797094101582737 0.005697984318774021 242.08383926925922);
+  --nsw-green-50: oklch(0.9888862054005949 0.015684460842301393 148.90450809902686);
+  --nsw-green-100: oklch(0.9777724108011899 0.026542933733125437 148.90450809902686);
+  --nsw-green-150: oklch(0.966658616201785 0.03740140662394948 148.90450809902686);
+  --nsw-green-200: oklch(0.9555448216023799 0.04825987951477352 148.90450809902686);
+  --nsw-green-250: oklch(0.93795442561214 0.06251830190357965 148.8847612358868);
+  --nsw-green-300: oklch(0.9203640296219002 0.07677672429238579 148.86501437274677);
+  --nsw-green-350: oklch(0.9027736336316604 0.09103514668119192 148.84526750960674);
+  --nsw-green-400: oklch(0.8851832376414206 0.10529356906999805 148.82552064646669);
+  --nsw-green-450: oklch(0.8248441293359839 0.12523789819884273 148.68573660212806);
+  --nsw-green-500: oklch(0.7645050210305473 0.14518222732768743 148.54595255778946);
+  --nsw-green-550: oklch(0.7041659127251108 0.16512655645653213 148.40616851345084);
+  --nsw-green-600: oklch(0.6438268044196741 0.18507088558537682 148.2663844691122);
+  --nsw-green-650: oklch(0.5633395874961222 0.16618487162330642 146.82362307378662);
+  --nsw-green-700: oklch(0.4828523705725703 0.147298857661236 145.38086167846106);
+  --nsw-green-750: oklch(0.40236515364901837 0.12841284369916556 143.9381002831355);
+  --nsw-green-800: oklch(0.3218779367254665 0.10952682973709514 142.4953388878099);
+  --nsw-green-850: oklch(0.2655492977985099 0.09309780527653087 142.4953388878099);
+  --nsw-green-900: oklch(0.20922065887155322 0.07666878081596659 142.4953388878099);
+  --nsw-green-950: oklch(0.15289201994459659 0.060239756355402324 142.4953388878099);
+  --nsw-teal-50: oklch(0.9817421856952406 0.010019570541999173 186.58790176853086);
+  --nsw-teal-100: oklch(0.9634843713904812 0.01695619630184475 186.58790176853086);
+  --nsw-teal-150: oklch(0.9452265570857217 0.02389282206169033 186.58790176853086);
+  --nsw-teal-200: oklch(0.9269687427809623 0.03082944782153591 186.58790176853086);
+  --nsw-teal-250: oklch(0.9062032463653427 0.042800313186136286 191.43372937544774);
+  --nsw-teal-300: oklch(0.8854377499497231 0.054771178550736654 196.27955698236462);
+  --nsw-teal-350: oklch(0.8646722535341036 0.06674204391533703 201.1253845892815);
+  --nsw-teal-400: oklch(0.843906757118484 0.0787129092799374 205.9712121961984);
+  --nsw-teal-450: oklch(0.7720750773324279 0.0790813961169628 207.2003147622988);
+  --nsw-teal-500: oklch(0.7002433975463718 0.07944988295398821 208.4294173283992);
+  --nsw-teal-550: oklch(0.6284117177603156 0.07981836979101362 209.6585198944996);
+  --nsw-teal-600: oklch(0.5565800379742595 0.08018685662803901 210.8876224606);
+  --nsw-teal-650: oklch(0.5022148272886866 0.07346217392494098 210.7415844616744);
+  --nsw-teal-700: oklch(0.44784961660311384 0.06673749122184294 210.5955464627488);
+  --nsw-teal-750: oklch(0.39348440591754097 0.06001280851874492 210.4495084638232);
+  --nsw-teal-800: oklch(0.33911919523196815 0.05328812581564689 210.3034704648976);
+  --nsw-teal-850: oklch(0.2797733360663737 0.04529490694329986 210.3034704648976);
+  --nsw-teal-900: oklch(0.2204274769007793 0.037301688070952826 210.3034704648976);
+  --nsw-teal-950: oklch(0.16108161773518487 0.029308469198605788 210.3034704648976);
+  --nsw-blue-50: oklch(0.9816683948128555 0.013540580086234762 227.890755564881);
+  --nsw-blue-100: oklch(0.9633367896257109 0.022914827838243446 227.890755564881);
+  --nsw-blue-150: oklch(0.9450051844385663 0.032289075590252125 227.890755564881);
+  --nsw-blue-200: oklch(0.9266735792514218 0.04166332334226081 227.890755564881);
+  --nsw-blue-250: oklch(0.9110280326138016 0.05428316129852959 226.81685418252806);
+  --nsw-blue-300: oklch(0.8953824859761815 0.06690299925479838 225.74295280017512);
+  --nsw-blue-350: oklch(0.8797369393385615 0.07952283721106716 224.66905141782217);
+  --nsw-blue-400: oklch(0.8640913927009413 0.09214267516733594 223.59515003546923);
+  --nsw-blue-450: oklch(0.7918467078448571 0.12656541375136143 232.8854457721009);
+  --nsw-blue-500: oklch(0.719602022988773 0.1609881523353869 242.17574150873253);
+  --nsw-blue-550: oklch(0.6473573381326887 0.19541089091941238 251.4660372453642);
+  --nsw-blue-600: oklch(0.5751126532766045 0.2298336295034379 260.75633298199585);
+  --nsw-blue-650: oklch(0.5038341615701663 0.20169915825513662 260.52773388396713);
+  --nsw-blue-700: oklch(0.43255566986372795 0.17356468700683536 260.29913478593846);
+  --nsw-blue-750: oklch(0.3612771781572896 0.1454302157585341 260.07053568790974);
+  --nsw-blue-800: oklch(0.2899986864508513 0.11729574451023282 259.841936589881);
+  --nsw-blue-850: oklch(0.23924891632195233 0.0997013828336979 259.841936589881);
+  --nsw-blue-900: oklch(0.18849914619305336 0.08210702115716298 259.841936589881);
+  --nsw-blue-950: oklch(0.13774937606415438 0.06451265948062805 259.841936589881);
+  --nsw-purple-50: oklch(0.9805379794123148 0.012378795916481191 293.8323307371206);
+  --nsw-purple-100: oklch(0.9610759588246297 0.020948731550968172 293.8323307371206);
+  --nsw-purple-150: oklch(0.9416139382369446 0.029518667185455153 293.8323307371206);
+  --nsw-purple-200: oklch(0.9221519176492594 0.038088602819942134 293.8323307371206);
+  --nsw-purple-250: oklch(0.9013385389929451 0.05096960178613127 294.16162791277);
+  --nsw-purple-300: oklch(0.8805251603366309 0.06385060075232041 294.4909250884194);
+  --nsw-purple-350: oklch(0.8597117816803166 0.07673159971850954 294.8202222640688);
+  --nsw-purple-400: oklch(0.8388984030240023 0.08961259868469867 295.1495194397181);
+  --nsw-purple-450: oklch(0.7746062729566157 0.12261307668256607 293.98756051942956);
+  --nsw-purple-500: oklch(0.7103141428892291 0.15561355468043347 292.825601599141);
+  --nsw-purple-550: oklch(0.6460220128218426 0.1886140326783009 291.6636426788525);
+  --nsw-purple-600: oklch(0.5817298827544559 0.2216145106761683 290.50168375856396);
+  --nsw-purple-650: oklch(0.5169868726378744 0.203439148040165 293.5593313045061);
+  --nsw-purple-700: oklch(0.4522438625212928 0.18526378540416166 296.6169788504482);
+  --nsw-purple-750: oklch(0.3875008524047112 0.16708842276815833 299.67462639639035);
+  --nsw-purple-800: oklch(0.32275784228812965 0.14891306013215502 302.7322739423325);
+  --nsw-purple-850: oklch(0.26627521988770697 0.12657610111233178 302.7322739423325);
+  --nsw-purple-900: oklch(0.2097925974872843 0.10423914209250851 302.7322739423325);
+  --nsw-purple-950: oklch(0.1533099750868616 0.08190218307268526 302.7322739423325);
+  --nsw-fuchsia-50: oklch(0.9829623738966177 0.01392018614736864 339.13418980883597);
+  --nsw-fuchsia-100: oklch(0.9659247477932353 0.023557238095546926 339.13418980883597);
+  --nsw-fuchsia-150: oklch(0.9488871216898529 0.03319429004372521 339.13418980883597);
+  --nsw-fuchsia-200: oklch(0.9318494955864706 0.0428313419919035 339.13418980883597);
+  --nsw-fuchsia-250: oklch(0.9103421700940119 0.056169859500935226 337.9783379111923);
+  --nsw-fuchsia-300: oklch(0.8888348446015532 0.06950837700996695 336.8224860135486);
+  --nsw-fuchsia-350: oklch(0.8673275191090944 0.08284689451899868 335.6666341159049);
+  --nsw-fuchsia-400: oklch(0.8458201936166357 0.09618541202803041 334.5107822182612);
+  --nsw-fuchsia-450: oklch(0.78467847613666 0.13569730252807746 335.94616447972885);
+  --nsw-fuchsia-500: oklch(0.7235367586566843 0.17520919302812454 337.3815467411964);
+  --nsw-fuchsia-550: oklch(0.6623950411767086 0.2147210835281716 338.816929002664);
+  --nsw-fuchsia-600: oklch(0.6012533236967328 0.25423297402821865 340.2523112641316);
+  --nsw-fuchsia-650: oklch(0.5360839646226407 0.22738751413049402 340.61577057263503);
+  --nsw-fuchsia-700: oklch(0.4709146055485488 0.20054205423276938 340.9792298811385);
+  --nsw-fuchsia-750: oklch(0.40574524647445687 0.17369659433504472 341.342689189642);
+  --nsw-fuchsia-800: oklch(0.3405758874003649 0.1468511344373201 341.7061484981454);
+  --nsw-fuchsia-850: oklch(0.28097510710530105 0.12482346427172208 341.7061484981454);
+  --nsw-fuchsia-900: oklch(0.22137432681023717 0.10279579410612406 341.7061484981454);
+  --nsw-fuchsia-950: oklch(0.1617735465151733 0.08076812394052604 341.7061484981454);
+  --nsw-red-50: oklch(0.9865629857873716 0.009043874600495525 6.653158456152784);
+  --nsw-red-100: oklch(0.9731259715747431 0.015305018554684736 6.653158456152784);
+  --nsw-red-150: oklch(0.9596889573621147 0.021566162508873946 6.653158456152784);
+  --nsw-red-200: oklch(0.9462519431494862 0.027827306463063157 6.653158456152784);
+  --nsw-red-250: oklch(0.9224097820035976 0.041627996281084 7.632544925274676);
+  --nsw-red-300: oklch(0.8985676208577089 0.05542868609910484 8.611931394396567);
+  --nsw-red-350: oklch(0.8747254597118204 0.06922937591712569 9.59131786351846);
+  --nsw-red-400: oklch(0.8508832985659317 0.08303006573514653 10.570704332640352);
+  --nsw-red-450: oklch(0.7786513285230947 0.11664880226231811 13.011419492803782);
+  --nsw-red-500: oklch(0.7064193584802577 0.15026753878948967 15.45213465296721);
+  --nsw-red-550: oklch(0.6341873884374207 0.18388627531666124 17.892849813130642);
+  --nsw-red-600: oklch(0.5619554183945837 0.2175050118438328 20.33356497329407);
+  --nsw-red-650: oklch(0.5007084126233001 0.1948505033631296 19.53345435711309);
+  --nsw-red-700: oklch(0.4394614068520166 0.17219599488242637 18.733343740932114);
+  --nsw-red-750: oklch(0.3782144010807331 0.14954148640172313 17.933233124751133);
+  --nsw-red-800: oklch(0.31696739530944956 0.1268869779210199 17.133122508570153);
+  --nsw-red-850: oklch(0.2614981011302959 0.10785393123286692 17.133122508570153);
+  --nsw-red-900: oklch(0.20602880695114223 0.08882088454471393 17.133122508570153);
+  --nsw-red-950: oklch(0.15055951277198854 0.06978783785656095 17.133122508570153);
+  --nsw-orange-50: oklch(0.9887596459640142 0.008284590272523786 63.743373146104155);
+  --nsw-orange-100: oklch(0.9775192919280284 0.014020075845809487 63.743373146104155);
+  --nsw-orange-150: oklch(0.9662789378920427 0.019755561419095187 63.743373146104155);
+  --nsw-orange-200: oklch(0.9550385838560569 0.025491046992380886 63.743373146104155);
+  --nsw-orange-250: oklch(0.9367837854692349 0.041089180700628024 64.93015241128123);
+  --nsw-orange-300: oklch(0.9185289870824129 0.05668731440887516 66.1169316764583);
+  --nsw-orange-350: oklch(0.900274188695591 0.07228544811712229 67.30371094163536);
+  --nsw-orange-400: oklch(0.882019390308769 0.08788358182536943 68.49049020681242);
+  --nsw-orange-450: oklch(0.8301180073463059 0.11402000052072006 61.90488982503486);
+  --nsw-orange-500: oklch(0.7782166243838429 0.1401564192160707 55.31928944325728);
+  --nsw-orange-550: oklch(0.7263152414213797 0.16629283791142135 48.73368906147971);
+  --nsw-orange-600: oklch(0.6744138584589167 0.192429256606772 42.14808867970214);
+  --nsw-orange-650: oklch(0.6138601814796794 0.18416658101442235 39.866677723327115);
+  --nsw-orange-700: oklch(0.5533065045004422 0.17590390542207268 37.585266766952095);
+  --nsw-orange-750: oklch(0.49275282752120486 0.16764122982972302 35.303855810577076);
+  --nsw-orange-800: oklch(0.4321991505419676 0.15937855423737338 33.02244485420205);
+  --nsw-orange-850: oklch(0.3565642991971233 0.13547177110176736 33.02244485420205);
+  --nsw-orange-900: oklch(0.2809294478522789 0.11156498796616136 33.02244485420205);
+  --nsw-orange-950: oklch(0.2052945965074346 0.08765820483055536 33.02244485420205);
+  --nsw-yellow-50: oklch(0.9916099103487608 0.016065385220578425 93.38344614252667);
+  --nsw-yellow-100: oklch(0.9832198206975215 0.02718757498867118 93.38344614252667);
+  --nsw-yellow-150: oklch(0.9748297310462821 0.03830976475676393 93.38344614252667);
+  --nsw-yellow-200: oklch(0.9664396413950429 0.049431954524856686 93.38344614252667);
+  --nsw-yellow-250: oklch(0.9570183122704129 0.061834853226387446 93.5472306553523);
+  --nsw-yellow-300: oklch(0.9475969831457829 0.0742377519279182 93.71101516817794);
+  --nsw-yellow-350: oklch(0.938175654021153 0.08664065062944896 93.87479968100357);
+  --nsw-yellow-400: oklch(0.928754324896523 0.09904354933097972 94.0385841938292);
+  --nsw-yellow-450: oklch(0.8978251501132377 0.11612212707646741 89.92658895694369);
+  --nsw-yellow-500: oklch(0.8668959753299523 0.13320070482195506 85.81459372005818);
+  --nsw-yellow-550: oklch(0.8359668005466669 0.15027928256744275 81.7025984831727);
+  --nsw-yellow-600: oklch(0.8050376257633817 0.16735786031293043 77.59060324628719);
+  --nsw-yellow-650: oklch(0.7106097269644318 0.14773585550069343 77.86265854004408);
+  --nsw-yellow-700: oklch(0.6161818281654818 0.12811385068845643 78.13471383380096);
+  --nsw-yellow-750: oklch(0.521753929366532 0.1084918458762194 78.40676912755785);
+  --nsw-yellow-800: oklch(0.42732603056758206 0.08886984106398241 78.67882442131474);
+  --nsw-yellow-850: oklch(0.3525439752182552 0.07553936490438505 78.67882442131474);
+  --nsw-yellow-900: oklch(0.27776191986892834 0.06220888874478769 78.67882442131474);
+  --nsw-yellow-950: oklch(0.20297986451960148 0.04887841258519032 78.67882442131474);
+  --nsw-brown-50: oklch(0.9801175930362143 0.006321527123876961 72.56545339108834);
+  --nsw-brown-100: oklch(0.9602351860724284 0.010697968978868705 72.56545339108834);
+  --nsw-brown-150: oklch(0.9403527791086426 0.01507441083386045 72.56545339108834);
+  --nsw-brown-200: oklch(0.9204703721448568 0.01945085268885219 72.56545339108834);
+  --nsw-brown-250: oklch(0.9079853218058483 0.0258503316070154 72.0409329158382);
+  --nsw-brown-300: oklch(0.8955002714668399 0.03224981052517861 71.51641244058807);
+  --nsw-brown-350: oklch(0.8830152211278313 0.03864928944334182 70.99189196533794);
+  --nsw-brown-400: oklch(0.8705301707888228 0.04504876836150503 70.4673714900878);
+  --nsw-brown-450: oklch(0.8207420162298631 0.05412276224933329 70.37812098088949);
+  --nsw-brown-500: oklch(0.7709538616709035 0.06319675613716154 70.2888704716912);
+  --nsw-brown-550: oklch(0.7211657071119438 0.0722707500249898 70.1996199624929);
+  --nsw-brown-600: oklch(0.6713775525529841 0.08134474391281805 70.1103694532946);
+  --nsw-brown-650: oklch(0.5938734136361322 0.0756351453597017 69.31281465877314);
+  --nsw-brown-700: oklch(0.5163692747192803 0.06992554680658533 68.51525986425168);
+  --nsw-brown-750: oklch(0.4388651358024283 0.06421594825346898 67.71770506973021);
+  --nsw-brown-800: oklch(0.3613609968855764 0.058506349700352615 66.92015027520875);
+  --nsw-brown-850: oklch(0.2981228224306005 0.04973039724529972 66.92015027520875);
+  --nsw-brown-900: oklch(0.23488464797562464 0.04095444479024683 66.92015027520875);
+  --nsw-brown-950: oklch(0.17164647352064877 0.03217849233519394 66.92015027520875);
+  --nsw-aboriginal-grey-50: oklch(0.9791354942965652 0.0014935040072708932 78.29695339492076);
+  --nsw-aboriginal-grey-100: oklch(0.9582709885931304 0.002527468319996896 78.29695339492076);
+  --nsw-aboriginal-grey-150: oklch(0.9374064828896956 0.0035614326327228986 78.29695339492076);
+  --nsw-aboriginal-grey-200: oklch(0.9165419771862608 0.004595396945448901 78.29695339492076);
+  --nsw-aboriginal-grey-250: oklch(0.8949688443848074 0.005626888799288963 72.79487392970944);
+  --nsw-aboriginal-grey-300: oklch(0.8733957115833539 0.006658380653129026 67.29279446449813);
+  --nsw-aboriginal-grey-350: oklch(0.8518225787819006 0.007689872506969089 61.79071499928681);
+  --nsw-aboriginal-grey-400: oklch(0.8302494459804471 0.00872136436080915 56.288635534075496);
+  --nsw-aboriginal-grey-450: oklch(0.7350703829754051 0.006541023270606863 56.288635534075496);
+  --nsw-aboriginal-grey-500: oklch(0.6398913199703631 0.004360682180404575 56.288635534075496);
+  --nsw-aboriginal-grey-550: oklch(0.544712256965321 0.0021803410902022876 56.288635534075496);
+  --nsw-aboriginal-grey-600: oklch(0.4495331939602789 0 0);
+  --nsw-aboriginal-grey-650: oklch(0.40533514521305436 0 0);
+  --nsw-aboriginal-grey-700: oklch(0.3611370964658298 0 0);
+  --nsw-aboriginal-grey-750: oklch(0.3169390477186052 0 0);
+  --nsw-aboriginal-grey-800: oklch(0.27274099897138065 0 0);
+  --nsw-aboriginal-grey-850: oklch(0.22501132415138902 0 0);
+  --nsw-aboriginal-grey-900: oklch(0.17728164933139742 0 0);
+  --nsw-aboriginal-grey-950: oklch(0.12955197451140582 0 0);
+  --nsw-aboriginal-red-50: oklch(0.978848545028836 0.013064906949875194 17.91008855652266);
+  --nsw-aboriginal-red-100: oklch(0.9576970900576719 0.022109842530558015 17.91008855652266);
+  --nsw-aboriginal-red-150: oklch(0.9365456350865078 0.031154778111240837 17.91008855652266);
+  --nsw-aboriginal-red-200: oklch(0.9153941801153438 0.04019971369192366 17.91008855652266);
+  --nsw-aboriginal-red-250: oklch(0.8955549511653824 0.05093833595471205 18.4044656497934);
+  --nsw-aboriginal-red-300: oklch(0.875715722215421 0.06167695821750044 18.898842743064147);
+  --nsw-aboriginal-red-350: oklch(0.8558764932654596 0.07241558048028882 19.393219836334893);
+  --nsw-aboriginal-red-400: oklch(0.8360372643154982 0.08315420274307721 19.887596929605635);
+  --nsw-aboriginal-red-450: oklch(0.7733920694093943 0.11749463840365235 22.199733756281407);
+  --nsw-aboriginal-red-500: oklch(0.7107468745032904 0.15183507406422747 24.51187058295718);
+  --nsw-aboriginal-red-550: oklch(0.6481016795971866 0.1861755097248026 26.824007409632948);
+  --nsw-aboriginal-red-600: oklch(0.5854564846910827 0.22051594538537772 29.13614423630872);
+  --nsw-aboriginal-red-650: oklch(0.5451949665626711 0.20759504477588905 29.116922576503878);
+  --nsw-aboriginal-red-700: oklch(0.5049334484342595 0.1946741441664004 29.09770091669904);
+  --nsw-aboriginal-red-750: oklch(0.4646719303058479 0.1817532435569117 29.078479256894198);
+  --nsw-aboriginal-red-800: oklch(0.4244104121774363 0.16883234294742303 29.059257597089356);
+  --nsw-aboriginal-red-850: oklch(0.3501385900463849 0.14350749150530956 29.059257597089356);
+  --nsw-aboriginal-red-900: oklch(0.2758667679153336 0.11818264006319612 29.059257597089356);
+  --nsw-aboriginal-red-950: oklch(0.20159494578428225 0.09285778862108267 29.059257597089356);
+  --nsw-aboriginal-orange-50: oklch(0.9738855126989008 0.016602591530904584 52.55546216454561);
+  --nsw-aboriginal-orange-100: oklch(0.9477710253978014 0.028096693359992375 52.55546216454561);
+  --nsw-aboriginal-orange-150: oklch(0.9216565380967021 0.039590795189080166 52.55546216454561);
+  --nsw-aboriginal-orange-200: oklch(0.8955420507956029 0.05108489701816796 52.55546216454561);
+  --nsw-aboriginal-orange-250: oklch(0.8714459985514821 0.06477537243882539 52.40983339193463);
+  --nsw-aboriginal-orange-300: oklch(0.8473499463073613 0.07846584785948284 52.264204619323664);
+  --nsw-aboriginal-orange-350: oklch(0.8232538940632406 0.09215632328014028 52.11857584671269);
+  --nsw-aboriginal-orange-400: oklch(0.7991578418191198 0.10584679870079772 51.97294707410171);
+  --nsw-aboriginal-orange-450: oklch(0.7660019575057643 0.12652886278666134 49.87887684512948);
+  --nsw-aboriginal-orange-500: oklch(0.7328460731924087 0.14721092687252496 47.784806616157255);
+  --nsw-aboriginal-orange-550: oklch(0.6996901888790532 0.16789299095838855 45.69073638718503);
+  --nsw-aboriginal-orange-600: oklch(0.6665343045656977 0.18857505504425218 43.5966661582128);
+  --nsw-aboriginal-orange-650: oklch(0.6048689295059245 0.17619193861850896 42.06662366880586);
+  --nsw-aboriginal-orange-700: oklch(0.5432035544461513 0.16380882219276577 40.53658117939892);
+  --nsw-aboriginal-orange-750: oklch(0.48153817938637805 0.15142570576702258 39.00653868999199);
+  --nsw-aboriginal-orange-800: oklch(0.41987280432660484 0.13904258934127936 37.47649620058505);
+  --nsw-aboriginal-orange-850: oklch(0.346395063569449 0.11818620094008746 37.47649620058505);
+  --nsw-aboriginal-orange-900: oklch(0.27291732281229314 0.09732981253889555 37.47649620058505);
+  --nsw-aboriginal-orange-950: oklch(0.1994395820551373 0.07647342413770365 37.47649620058505);
+  --nsw-aboriginal-brown-50: oklch(0.9637894047428377 0.015576586829445453 55.65798606883124);
+  --nsw-aboriginal-brown-100: oklch(0.9275788094856755 0.02636037771136923 55.65798606883124);
+  --nsw-aboriginal-brown-150: oklch(0.8913682142285133 0.037144168593293 55.65798606883124);
+  --nsw-aboriginal-brown-200: oklch(0.855157618971351 0.04792795947521678 55.65798606883124);
+  --nsw-aboriginal-brown-250: oklch(0.819495130372929 0.060854957675237686 55.274819963495716);
+  --nsw-aboriginal-brown-300: oklch(0.783832641774507 0.07378195587525858 54.8916538581602);
+  --nsw-aboriginal-brown-350: oklch(0.7481701531760849 0.0867089540752795 54.50848775282467);
+  --nsw-aboriginal-brown-400: oklch(0.7125076645776629 0.0996359522753004 54.125321647489145);
+  --nsw-aboriginal-brown-450: oklch(0.6658642886991106 0.10220482966257746 51.472089235271014);
+  --nsw-aboriginal-brown-500: oklch(0.6192209128205584 0.10477370704985453 48.81885682305288);
+  --nsw-aboriginal-brown-550: oklch(0.5725775369420062 0.1073425844371316 46.165624410834745);
+  --nsw-aboriginal-brown-600: oklch(0.5259341610634539 0.10991146182440867 43.512391998616614);
+  --nsw-aboriginal-brown-650: oklch(0.4745053224355554 0.10391808522528324 43.80561561418423);
+  --nsw-aboriginal-brown-700: oklch(0.42307648380765683 0.09792470862615782 44.09883922975184);
+  --nsw-aboriginal-brown-750: oklch(0.37164764517975835 0.09193133202703241 44.39206284531945);
+  --nsw-aboriginal-brown-800: oklch(0.3202188065518598 0.08593795542790698 44.68528646088706);
+  --nsw-aboriginal-brown-850: oklch(0.2641805154052843 0.07304726211372094 44.68528646088706);
+  --nsw-aboriginal-brown-900: oklch(0.20814222425870887 0.06015656879953489 44.68528646088706);
+  --nsw-aboriginal-brown-950: oklch(0.15210393311213338 0.04726587548534884 44.68528646088706);
+  --nsw-aboriginal-yellow-50: oklch(0.989587621092196 0.019103088481096563 92.48002960723814);
+  --nsw-aboriginal-yellow-100: oklch(0.979175242184392 0.03232830358339418 92.48002960723814);
+  --nsw-aboriginal-yellow-150: oklch(0.9687628632765881 0.0455535186856918 92.48002960723814);
+  --nsw-aboriginal-yellow-200: oklch(0.9583504843687841 0.05877873378798942 92.48002960723814);
+  --nsw-aboriginal-yellow-250: oklch(0.9491347371136292 0.07198796755327139 92.7305165933987);
+  --nsw-aboriginal-yellow-300: oklch(0.9399189898584743 0.08519720131855335 92.98100357955929);
+  --nsw-aboriginal-yellow-350: oklch(0.9307032426033194 0.09840643508383531 93.23149056571987);
+  --nsw-aboriginal-yellow-400: oklch(0.9214874953481644 0.11161566884911728 93.48197755188043);
+  --nsw-aboriginal-yellow-450: oklch(0.8910195189839808 0.12436290150788638 87.85568397462671);
+  --nsw-aboriginal-yellow-500: oklch(0.8605515426197972 0.1371101341666555 82.22939039737301);
+  --nsw-aboriginal-yellow-550: oklch(0.8300835662556136 0.1498573668254246 76.60309682011929);
+  --nsw-aboriginal-yellow-600: oklch(0.79961558989143 0.1626045994841937 70.97680324286557);
+  --nsw-aboriginal-yellow-650: oklch(0.7283788119804733 0.14880860016855085 72.64225880919277);
+  --nsw-aboriginal-yellow-700: oklch(0.6571420340695165 0.13501260085290803 74.30771437551996);
+  --nsw-aboriginal-yellow-750: oklch(0.5859052561585598 0.1212166015372652 75.97316994184717);
+  --nsw-aboriginal-yellow-800: oklch(0.5146684782476031 0.10742060222162236 77.63862550817437);
+  --nsw-aboriginal-yellow-850: oklch(0.42460149455427254 0.09130751188837902 77.63862550817437);
+  --nsw-aboriginal-yellow-900: oklch(0.334534510860942 0.07519442155513566 77.63862550817437);
+  --nsw-aboriginal-yellow-950: oklch(0.24446752716761147 0.059081331221892304 77.63862550817437);
+  --nsw-aboriginal-green-50: oklch(0.9775400515432829 0.010033373009012674 131.56364967590204);
+  --nsw-aboriginal-green-100: oklch(0.9550801030865659 0.016979554322944526 131.56364967590204);
+  --nsw-aboriginal-green-150: oklch(0.9326201546298487 0.023925735636876375 131.56364967590204);
+  --nsw-aboriginal-green-200: oklch(0.9101602061731316 0.030871916950808227 131.56364967590204);
+  --nsw-aboriginal-green-250: oklch(0.8874934999312177 0.03857982981011093 131.78279512830795);
+  --nsw-aboriginal-green-300: oklch(0.8648267936893037 0.04628774266941364 132.0019405807139);
+  --nsw-aboriginal-green-350: oklch(0.8421600874473898 0.053995655528716345 132.22108603311983);
+  --nsw-aboriginal-green-400: oklch(0.8194933812054759 0.061703568388019055 132.44023148552574);
+  --nsw-aboriginal-green-450: oklch(0.7793221671789816 0.078504962905952 131.72356982833844);
+  --nsw-aboriginal-green-500: oklch(0.7391509531524875 0.09530635742388496 131.0069081711511);
+  --nsw-aboriginal-green-550: oklch(0.6989797391259933 0.11210775194181792 130.29024651396378);
+  --nsw-aboriginal-green-600: oklch(0.658808525099499 0.12890914645975088 129.57358485677648);
+  --nsw-aboriginal-green-650: oklch(0.5974184207826408 0.11760535943305413 135.2430093260659);
+  --nsw-aboriginal-green-700: oklch(0.5360283164657826 0.10630157240635738 140.91243379535533);
+  --nsw-aboriginal-green-750: oklch(0.47463821214892454 0.09499778537966062 146.58185826464475);
+  --nsw-aboriginal-green-800: oklch(0.41324810783206634 0.08369399835296387 152.25128273393418);
+  --nsw-aboriginal-green-850: oklch(0.3409296889614547 0.07113989860001929 152.25128273393418);
+  --nsw-aboriginal-green-900: oklch(0.2686112700908431 0.05858579884707471 152.25128273393418);
+  --nsw-aboriginal-green-950: oklch(0.1962928512202315 0.04603169909413013 152.25128273393418);
+  --nsw-aboriginal-blue-50: oklch(0.9726963960813712 0.01158607281784324 209.8212580578204);
+  --nsw-aboriginal-blue-100: oklch(0.9453927921627423 0.019607200153273174 209.8212580578204);
+  --nsw-aboriginal-blue-150: oklch(0.9180891882441133 0.027628327488703107 209.8212580578204);
+  --nsw-aboriginal-blue-200: oklch(0.8907855843254845 0.035649454824133044 209.8212580578204);
+  --nsw-aboriginal-blue-250: oklch(0.8640751367196432 0.04375221215713473 209.95866132774938);
+  --nsw-aboriginal-blue-300: oklch(0.8373646891138018 0.05185496949013642 210.09606459767838);
+  --nsw-aboriginal-blue-350: oklch(0.8106542415079605 0.0599577268231381 210.23346786760737);
+  --nsw-aboriginal-blue-400: oklch(0.7839437939021192 0.06806048415613979 210.37087113753637);
+  --nsw-aboriginal-blue-450: oklch(0.7096613718024245 0.0763659542620009 216.89866687611752);
+  --nsw-aboriginal-blue-500: oklch(0.6353789497027299 0.08467142436786204 223.42646261469866);
+  --nsw-aboriginal-blue-550: oklch(0.5610965276030352 0.09297689447372316 229.9542583532798);
+  --nsw-aboriginal-blue-600: oklch(0.48681410550334053 0.10128236457958428 236.48205409186096);
+  --nsw-aboriginal-blue-650: oklch(0.45314276771770134 0.09524485078789424 236.66470281995805);
+  --nsw-aboriginal-blue-700: oklch(0.4194714299320621 0.0892073369962042 236.84735154805517);
+  --nsw-aboriginal-blue-750: oklch(0.3858000921464229 0.08316982320451415 237.0300002761523);
+  --nsw-aboriginal-blue-800: oklch(0.3521287543607837 0.0771323094128241 237.21264900424939);
+  --nsw-aboriginal-blue-850: oklch(0.29050622234764656 0.06556246300090049 237.21264900424939);
+  --nsw-aboriginal-blue-900: oklch(0.22888369033450942 0.053992616588976874 237.21264900424939);
+  --nsw-aboriginal-blue-950: oklch(0.16726115832137228 0.04242277017705326 237.21264900424939);
+  --nsw-aboriginal-purple-50: oklch(0.9677519235816936 0.01225423399018933 331.39469318233586);
+  --nsw-aboriginal-purple-100: oklch(0.9355038471633873 0.020737934444935786 331.39469318233586);
+  --nsw-aboriginal-purple-150: oklch(0.903255770745081 0.02922163489968224 331.39469318233586);
+  --nsw-aboriginal-purple-200: oklch(0.8710076943267746 0.0377053353544287 331.39469318233586);
+  --nsw-aboriginal-purple-250: oklch(0.8389191100209297 0.04764157951006853 331.4172179039917);
+  --nsw-aboriginal-purple-300: oklch(0.8068305257150847 0.05757782366570837 331.4397426256475);
+  --nsw-aboriginal-purple-350: oklch(0.7747419414092399 0.06751406782134821 331.46226734730334);
+  --nsw-aboriginal-purple-400: oklch(0.742653357103395 0.07745031197698804 331.48479206895917);
+  --nsw-aboriginal-purple-450: oklch(0.6987279730890662 0.08461715270888535 331.3997569775923);
+  --nsw-aboriginal-purple-500: oklch(0.6548025890747375 0.09178399344078267 331.31472188622536);
+  --nsw-aboriginal-purple-550: oklch(0.6108772050604088 0.09895083417268 331.2296867948585);
+  --nsw-aboriginal-purple-600: oklch(0.56695182104608 0.10611767490457731 331.1446517034916);
+  --nsw-aboriginal-purple-650: oklch(0.5059681066477375 0.09597195429905764 331.53840819994554);
+  --nsw-aboriginal-purple-700: oklch(0.4449843922493949 0.08582623369353798 331.93216469639947);
+  --nsw-aboriginal-purple-750: oklch(0.38400067785105235 0.07568051308801832 332.32592119285346);
+  --nsw-aboriginal-purple-800: oklch(0.3230169634527098 0.06553479248249865 332.7196776893074);
+  --nsw-aboriginal-purple-850: oklch(0.2664889948484856 0.05570457361012385 332.7196776893074);
+  --nsw-aboriginal-purple-900: oklch(0.20996102624426138 0.04587435473774905 332.7196776893074);
+  --nsw-aboriginal-purple-950: oklch(0.15343305764003715 0.036044135865374256 332.7196776893074);
 }
