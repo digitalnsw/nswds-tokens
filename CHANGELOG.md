@@ -1,3 +1,10 @@
+# [2.21.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.20.0...v2.21.0) (2025-08-20)
+
+
+### Features
+
+* **tailwind:** update color variables to remove redundant prefix for consistency and clarity across theme files ([#31](https://github.com/digitalnsw/nswds-tokens/issues/31)) ([f9f9881](https://github.com/digitalnsw/nswds-tokens/commit/f9f9881adff0100260ed014bb0dc69b99b12b7ee))
+
 # [2.20.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.19.1...v2.20.0) (2025-08-20)
 
 
