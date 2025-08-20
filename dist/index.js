@@ -25006,6 +25006,20 @@ var scssTokens = tokens.scss;
 var tailwindTokens = tokens.tailwind;
 var tsTokens = tokens.ts;
 var icons = {
+  sell: "./icons/sell.svg",
+  accessibility: "./icons/accessibility.svg",
+  add_box: "./icons/add_box.svg",
+  bolt: "./icons/bolt.svg",
+  change_history: "./icons/change_history.svg",
+  code_blocks: "./icons/code_blocks.svg",
+  code: "./icons/code.svg",
+  commit: "./icons/commit.svg",
+  deployed_code: "./icons/deployed_code.svg",
+  graph_1: "./icons/graph_1.svg",
+  graph_2: "./icons/graph_2.svg",
+  hearing: "./icons/hearing.svg",
+  keyboard: "./icons/keyboard.svg",
+  merge: "./icons/merge.svg",
   schedule: "./icons/schedule.svg",
   alarm: "./icons/alarm.svg",
   bookmark: "./icons/bookmark.svg",

@@ -4918,6 +4918,20 @@ declare const tsTokens: {
     };
 };
 declare const icons: {
+    sell: string;
+    accessibility: string;
+    add_box: string;
+    bolt: string;
+    change_history: string;
+    code_blocks: string;
+    code: string;
+    commit: string;
+    deployed_code: string;
+    graph_1: string;
+    graph_2: string;
+    hearing: string;
+    keyboard: string;
+    merge: string;
     schedule: string;
     alarm: string;
     bookmark: string;
