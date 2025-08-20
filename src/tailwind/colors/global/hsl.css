@@ -1,4 +1,4 @@
-@theme {
+:root {
   --color-nsw-grey-50: hsl(223.81, 0%, 98.03%);
   --color-nsw-grey-100: hsl(223.81, 0%, 96.06%);
   --color-nsw-grey-150: hsl(223.81, 0%, 94.11%);
