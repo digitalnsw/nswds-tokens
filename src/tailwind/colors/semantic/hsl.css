@@ -1,4 +1,4 @@
-@theme {
+:root {
   --color-success-50: hsl(113.15, 52.52%, 95.43%);
   --color-success-100: hsl(113.26, 45.54%, 91.13%);
   --color-success-150: hsl(113.38, 42.97%, 86.84%);

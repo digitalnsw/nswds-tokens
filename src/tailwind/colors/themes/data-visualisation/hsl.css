@@ -1,4 +1,4 @@
-@theme inline {
+:root {
   --color-ember-50: hsl(206.67, 11.69%, 15.1%);
   --color-ember-100: hsl(213.18, 36.6%, 17.05%);
   --color-ember-150: hsl(223.18, 45.97%, 20.45%);
