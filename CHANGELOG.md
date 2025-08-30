@@ -1,3 +1,10 @@
+# [2.22.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.21.0...v2.22.0) (2025-08-30)
+
+
+### Features
+
+* **icons:** add complete Material Symbols Rounded icon set ([#32](https://github.com/digitalnsw/nswds-tokens/issues/32)) ([3376b39](https://github.com/digitalnsw/nswds-tokens/commit/3376b39b8d0b4b4878d8d5a9eaa53f34a959bdfb))
+
 # [2.21.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.20.0...v2.21.0) (2025-08-20)
 
 
