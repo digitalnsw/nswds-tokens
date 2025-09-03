@@ -37,7 +37,12 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: Update tokens from Figma
-          title: Update tokens from Figma
+          commit-message: |
+            feat(tokens): update design tokens from Figma
+            - Sync latest design token values from Figma design system
+            - Update color tokens, spacing, typography, and component tokens
+            - Regenerate CSS and JavaScript output files
+            - Maintain compatibility with existing token structure
+          title: 'feat(tokens): update design tokens from Figma'
           body: 'Update tokens from Figma from file: https://www.figma.com/file/${{ github.event.inputs.file_key }}'
-          branch: update-tokens
+          branch: chore/update-tokens
