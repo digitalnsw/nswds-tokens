@@ -17,7 +17,9 @@
     "format": "npx prettier --write .",
     "copy-styles": "cp -r src/{css,figma,js,json,less,scss,tailwind,ts,icons,brand} dist/",
     "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
-    "test:tokens": "tsx test/token-imports/esm-typescript.ts"
+    "test:tokens": "tsx test/token-imports/esm-typescript.ts",
+    "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",
+    "sync-figma-to-tokens": "tsx scripts/sync_figma_to_tokens.ts"
   },
   "tsup": {
     "entry": [
@@ -82,6 +84,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.23.0",
+    "@figma/rest-api-spec": "^0.33.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/node": "^22.13.17",
@@ -99,11 +102,13 @@
     "style-loader": "^4.0.0",
     "ts-node": "^10.9.2",
     "tsup": "^8.0.2",
-    "tsx": "^4.0.0",
-    "typescript": "^5.8.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.8.3",
     "typescript-eslint": "^8.28.0"
   },
   "dependencies": {
-    "@eslint/eslintrc": "^3.3.1"
+    "@eslint/eslintrc": "^3.3.1",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.2"
   }
 }

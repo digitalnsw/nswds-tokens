@@ -2,463 +2,235 @@
   "primary": {
     "50": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [199.45, 100, 97.34],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.50}"
     },
     "100": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [199.38, 100, 94.73],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.100}"
     },
     "150": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [199.3, 95.85, 92.09],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.150}"
     },
     "200": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [199.2, 92.59, 89.41],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.200}"
     },
     "250": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [198.5, 96.87, 86.75],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.250}"
     },
     "300": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [197.76, 98.99, 83.89],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.300}"
     },
     "350": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [197, 99.87, 80.82],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.350}"
     },
     "400": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [196.17, 100, 77.45],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.400}"
     },
     "450": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [199.74, 99.83, 67.57],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.450}"
     },
     "500": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [202.52, 100, 57.55],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.500}"
     },
     "550": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [204.76, 100, 46.97],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.550}"
     },
     "600": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [217.34, 98.31, 53.53],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.600}"
     },
     "650": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [216.77, 89.43, 43.98],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.650}"
     },
     "700": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [216.29, 94.14, 35],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.700}"
     },
     "750": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [216.37, 97.67, 26.93],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.750}"
     },
     "800": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [217.2, 100, 19.61],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.800}"
     },
     "850": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [218.95, 100, 14.93],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.850}"
     },
     "900": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [222.31, 100, 10.59],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.900}"
     },
     "950": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [228.65, 100, 6.6],
-        "alpha": 1
-      }
+      "$value": "{nsw-blue.950}"
     }
   },
   "accent": {
     "50": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [350.85, 100, 98.97],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.50}"
     },
     "100": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [350.7, 100, 97.7],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.100}"
     },
     "150": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [350.55, 100, 96.41],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.150}"
     },
     "200": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [350.4, 100, 95.1],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.200}"
     },
     "250": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [350.92, 100, 92.94],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.250}"
     },
     "300": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [351.43, 100, 90.72],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.300}"
     },
     "350": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [351.92, 100, 88.44],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.350}"
     },
     "400": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [352.39, 100, 86.08],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.400}"
     },
     "450": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [353.39, 86.96, 78.18],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.450}"
     },
     "500": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [353.95, 78.84, 69.69],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.500}"
     },
     "550": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [353.52, 73.17, 60.13],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.550}"
     },
     "600": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [348.56, 82.2, 46.27],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.600}"
     },
     "650": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [347.26, 85.91, 38.92],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.650}"
     },
     "700": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [345.89, 91, 31.81],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.700}"
     },
     "750": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [345, 95.87, 25.31],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.750}"
     },
     "800": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [344.85, 100, 19.41],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.800}"
     },
     "850": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [346.11, 100, 14.46],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.850}"
     },
     "900": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [349.15, 100, 10.03],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.900}"
     },
     "950": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [352.16, 100, 6.06],
-        "alpha": 1
-      }
+      "$value": "{nsw-red.950}"
     }
   },
   "grey": {
     "50": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [223.81, 0, 98.03],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.50}"
     },
     "100": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [223.81, 0, 96.06],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.100}"
     },
     "150": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [223.81, 0, 94.11],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.150}"
     },
     "200": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [223.81, 0, 92.16],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.200}"
     },
     "250": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [200.05, 4.31, 89.64],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.250}"
     },
     "300": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [200.03, 6.92, 87.13],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.300}"
     },
     "350": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [200.02, 8.65, 84.64],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.350}"
     },
     "400": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [200, 9.89, 82.16],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.400}"
     },
     "450": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [200.47, 6.03, 68.52],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.450}"
     },
     "500": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [200.94, 4.51, 55.36],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.500}"
     },
     "550": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [201.39, 4.91, 42.76],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.550}"
     },
     "600": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [201.82, 7.01, 30.78],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.600}"
     },
     "650": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [203.03, 7.74, 26.71],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.650}"
     },
     "700": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [204.24, 8.68, 22.73],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.700}"
     },
     "750": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [205.45, 9.93, 18.85],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.750}"
     },
     "800": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [206.67, 11.69, 15.1],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.800}"
     },
     "850": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [206.66, 13.37, 10.7],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.850}"
     },
     "900": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [206.64, 17.01, 6.52],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.900}"
     },
     "950": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "hsl",
-        "channels": [208.68, 23.47, 2.8],
-        "alpha": 1
-      }
+      "$value": "{nsw-grey.950}"
     }
   }
 }
