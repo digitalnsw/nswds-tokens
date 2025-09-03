@@ -1,3 +1,10 @@
+# [2.24.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.23.0...v2.24.0) (2025-09-03)
+
+
+### Features
+
+* **figma:** Implement design token sync with Figma using GitHub Actions ([#35](https://github.com/digitalnsw/nswds-tokens/issues/35)) ([984890f](https://github.com/digitalnsw/nswds-tokens/commit/984890f84a6b4acd2a0a0a3f2719b3f9c31d2ccb))
+
 # [2.23.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.22.0...v2.23.0) (2025-09-03)
 
 
