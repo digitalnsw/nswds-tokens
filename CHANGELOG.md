@@ -1,3 +1,10 @@
+# [2.23.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.22.0...v2.23.0) (2025-09-03)
+
+
+### Features
+
+* **figma integration:** Add Figma API integration for design token management, tests, utility functions, and GitHub Actions workflow ([#33](https://github.com/digitalnsw/nswds-tokens/issues/33)) ([3393458](https://github.com/digitalnsw/nswds-tokens/commit/3393458cd0def1beee9a46229de0c6eb37eeb4dc))
+
 # [2.22.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.21.0...v2.22.0) (2025-08-30)
 
 
