@@ -15,7 +15,7 @@
     "semantic-release": "semantic-release",
     "lint": "npx eslint . ",
     "format": "npx prettier --write .",
-    "copy-styles": "cp -r src/{css,figma,js,json,less,scss,tailwind,ts,icons,brand} dist/",
+    "copy-styles": "cp -r src/{css,figma,js,json,less,scss,tailwind,ts,brand} dist/",
     "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
     "test:tokens": "tsx test/token-imports/esm-typescript.ts",
     "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",
@@ -87,6 +87,7 @@
     "@figma/rest-api-spec": "^0.33.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
+    "@types/culori": "^4.0.1",
     "@types/node": "^22.13.17",
     "css-loader": "^7.1.2",
     "eslint": "^9.23.0",
@@ -108,7 +109,8 @@
   },
   "dependencies": {
     "@eslint/eslintrc": "^3.3.1",
-    "dotenv": "^17.2.3",
-    "axios": "^1.12.2"
+    "axios": "^1.12.2",
+    "culori": "^4.0.2",
+    "dotenv": "^17.2.3"
   }
 }
