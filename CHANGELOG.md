@@ -1,3 +1,10 @@
+## [2.25.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.0...v2.25.1) (2025-10-27)
+
+
+### Bug Fixes
+
+* restore masterbrand color metadata ([#41](https://github.com/digitalnsw/nswds-tokens/issues/41)) ([320f2be](https://github.com/digitalnsw/nswds-tokens/commit/320f2beed048438caf1c1d62de5c8e16d798b9b8))
+
 # [2.25.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.24.5...v2.25.0) (2025-10-27)
 
 
