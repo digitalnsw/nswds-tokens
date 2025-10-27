@@ -1,3 +1,10 @@
+# [2.25.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.24.5...v2.25.0) (2025-10-27)
+
+
+### Features
+
+* **index.cjs:** Remove unused icons from distribution file and project ([#40](https://github.com/digitalnsw/nswds-tokens/issues/40)) ([483bce1](https://github.com/digitalnsw/nswds-tokens/commit/483bce17191e75a475107a11c295f8aabc17ff79))
+
 ## [2.24.5](https://github.com/digitalnsw/nswds-tokens/compare/v2.24.4...v2.24.5) (2025-10-21)
 
 
