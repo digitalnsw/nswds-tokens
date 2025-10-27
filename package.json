@@ -15,7 +15,7 @@
     "semantic-release": "semantic-release",
     "lint": "npx eslint . ",
     "format": "npx prettier --write .",
-    "copy-styles": "cp -r src/{css,figma,js,json,less,scss,tailwind,ts,brand} dist/",
+    "copy-styles": "node scripts/copy-styles.mjs",
     "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
     "test:tokens": "tsx test/token-imports/esm-typescript.ts",
     "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",

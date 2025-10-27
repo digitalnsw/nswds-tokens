@@ -6,14 +6,99 @@ const globalColorOklch = require('../tokens/global/color/oklch.json')
 const globalColorRgb = require('../tokens/global/color/rgb.json')
 
 const masterbrandColorHex = require('../tokens/themes/color/masterbrand/hex.json')
-const masterbrandColorHsl = require('../tokens/themes/color/masterbrand/hsl.json')
-const masterbrandColorOklch = require('../tokens/themes/color/masterbrand/oklch.json')
-const masterbrandColorRgb = require('../tokens/themes/color/masterbrand/rgb.json')
+const rawMasterbrandColorHsl = require('../tokens/themes/color/masterbrand/hsl.json')
+const rawMasterbrandColorOklch = require('../tokens/themes/color/masterbrand/oklch.json')
+const rawMasterbrandColorRgb = require('../tokens/themes/color/masterbrand/rgb.json')
 
 const semanticColorHex = require('../tokens/semantic/color/hex.json')
 const semanticColorHsl = require('../tokens/semantic/color/hsl.json')
 const semanticColorOklch = require('../tokens/semantic/color/oklch.json')
 const semanticColorRgb = require('../tokens/semantic/color/rgb.json')
+
+type AnyObject = Record<string, unknown>
+
+type ColorValue = {
+  colorSpace: string
+  channels: unknown
+  alpha?: unknown
+  [key: string]: unknown
+}
+
+type AliasLookup = Record<string, ColorValue>
+
+const ALIAS_PATTERN = /^\{([\w-]+(?:\.[\w-]+)*)\}$/
+
+const isObject = (value: unknown): value is AnyObject =>
+  typeof value === 'object' && value !== null && !Array.isArray(value)
+
+const clone = <T>(value: T): T => JSON.parse(JSON.stringify(value))
+
+const buildColorLookup = (palette: AnyObject): AliasLookup => {
+  const lookup: AliasLookup = {}
+
+  const walk = (node: AnyObject, path: string[]): void => {
+    if ('$value' in node && isObject(node.$value) && 'colorSpace' in node.$value) {
+      lookup[path.join('.')] = node.$value as ColorValue
+    }
+
+    for (const [key, value] of Object.entries(node)) {
+      if (key === '$value' || key === '$type') continue
+
+      if (isObject(value)) {
+        walk(value, [...path, key])
+      }
+    }
+  }
+
+  for (const [key, value] of Object.entries(palette)) {
+    if (isObject(value)) {
+      walk(value, [key])
+    }
+  }
+
+  return lookup
+}
+
+const rehydrateAliases = (palette: AnyObject, lookup: AliasLookup): AnyObject => {
+  if (!isObject(palette)) {
+    return palette
+  }
+
+  const cloned = clone(palette)
+
+  const walk = (node: AnyObject): void => {
+    if (typeof node.$value === 'string') {
+      const match = ALIAS_PATTERN.exec(node.$value)
+      if (match) {
+        const alias = match[1]
+        const resolved = lookup[alias]
+        if (resolved) {
+          node.$value = clone(resolved)
+        }
+      }
+    }
+
+    for (const [key, value] of Object.entries(node)) {
+      if (key === '$value' || key === '$type') continue
+
+      if (isObject(value)) {
+        walk(value)
+      }
+    }
+  }
+
+  walk(cloned)
+
+  return cloned
+}
+
+const globalHslLookup = buildColorLookup(globalColorHsl)
+const globalOklchLookup = buildColorLookup(globalColorOklch)
+const globalRgbLookup = buildColorLookup(globalColorRgb)
+
+const masterbrandColorHsl = rehydrateAliases(rawMasterbrandColorHsl, globalHslLookup)
+const masterbrandColorOklch = rehydrateAliases(rawMasterbrandColorOklch, globalOklchLookup)
+const masterbrandColorRgb = rehydrateAliases(rawMasterbrandColorRgb, globalRgbLookup)
 
 // CSS Imports
 import * as globalCssHex from './css/colors/global/hex.css'
