@@ -4551,6 +4551,8 @@ declare namespace semanticTsRgb {
   export { semanticTsRgb_danger as danger, semanticTsRgb_info as info, semanticTsRgb_success as success, semanticTsRgb_warning as warning };
 }
 
+type AnyObject = Record<string, unknown>;
+
 declare const tokens: {
     colors: {
         global: {
@@ -4562,9 +4564,9 @@ declare const tokens: {
         themes: {
             masterbrand: {
                 hex: any;
-                hsl: any;
-                oklch: any;
-                rgb: any;
+                hsl: AnyObject;
+                oklch: AnyObject;
+                rgb: AnyObject;
             };
         };
         semantic: {
@@ -4745,9 +4747,9 @@ declare const colorTokens: {
     themes: {
         masterbrand: {
             hex: any;
-            hsl: any;
-            oklch: any;
-            rgb: any;
+            hsl: AnyObject;
+            oklch: AnyObject;
+            rgb: AnyObject;
         };
     };
     semantic: {

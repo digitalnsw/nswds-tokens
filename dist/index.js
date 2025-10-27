@@ -24110,13 +24110,68 @@ var globalColorHsl = require_hsl();
 var globalColorOklch = require_oklch();
 var globalColorRgb = require_rgb();
 var masterbrandColorHex = require_hex2();
-var masterbrandColorHsl = require_hsl2();
-var masterbrandColorOklch = require_oklch2();
-var masterbrandColorRgb = require_rgb2();
+var rawMasterbrandColorHsl = require_hsl2();
+var rawMasterbrandColorOklch = require_oklch2();
+var rawMasterbrandColorRgb = require_rgb2();
 var semanticColorHex = require_hex3();
 var semanticColorHsl = require_hsl3();
 var semanticColorOklch = require_oklch3();
 var semanticColorRgb = require_rgb3();
+var ALIAS_PATTERN = /^\{([\w-]+(?:\.[\w-]+)*)\}$/;
+var isObject = (value) => typeof value === "object" && value !== null && !Array.isArray(value);
+var clone = (value) => JSON.parse(JSON.stringify(value));
+var buildColorLookup = (palette) => {
+  const lookup = {};
+  const walk = (node, path) => {
+    if ("$value" in node && isObject(node.$value) && "colorSpace" in node.$value) {
+      lookup[path.join(".")] = node.$value;
+    }
+    for (const [key, value] of Object.entries(node)) {
+      if (key === "$value" || key === "$type") continue;
+      if (isObject(value)) {
+        walk(value, [...path, key]);
+      }
+    }
+  };
+  for (const [key, value] of Object.entries(palette)) {
+    if (isObject(value)) {
+      walk(value, [key]);
+    }
+  }
+  return lookup;
+};
+var rehydrateAliases = (palette, lookup) => {
+  if (!isObject(palette)) {
+    return palette;
+  }
+  const cloned = clone(palette);
+  const walk = (node) => {
+    if (typeof node.$value === "string") {
+      const match = ALIAS_PATTERN.exec(node.$value);
+      if (match) {
+        const alias = match[1];
+        const resolved = lookup[alias];
+        if (resolved) {
+          node.$value = clone(resolved);
+        }
+      }
+    }
+    for (const [key, value] of Object.entries(node)) {
+      if (key === "$value" || key === "$type") continue;
+      if (isObject(value)) {
+        walk(value);
+      }
+    }
+  };
+  walk(cloned);
+  return cloned;
+};
+var globalHslLookup = buildColorLookup(globalColorHsl);
+var globalOklchLookup = buildColorLookup(globalColorOklch);
+var globalRgbLookup = buildColorLookup(globalColorRgb);
+var masterbrandColorHsl = rehydrateAliases(rawMasterbrandColorHsl, globalHslLookup);
+var masterbrandColorOklch = rehydrateAliases(rawMasterbrandColorOklch, globalOklchLookup);
+var masterbrandColorRgb = rehydrateAliases(rawMasterbrandColorRgb, globalRgbLookup);
 var globalJsonHex = require_hex4();
 var globalJsonHsl = require_hsl4();
 var globalJsonOklch = require_oklch4();
