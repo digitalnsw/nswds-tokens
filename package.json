@@ -76,7 +76,8 @@
     "./tailwind/colors/semantic/*": "./dist/tailwind/colors/semantic/*",
     "./ts/colors/global/*": "./dist/ts/colors/global/*",
     "./ts/colors/themes/*": "./dist/ts/colors/themes/*",
-    "./ts/colors/semantic/*": "./dist/ts/colors/semantic/*"
+    "./ts/colors/semantic/*": "./dist/ts/colors/semantic/*",
+    "./tokens/*": "./dist/tokens/*"
   },
   "publishConfig": {
     "access": "public",
