@@ -1,0 +1,4142 @@
+{
+  "nsw-grey": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          98.03
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          96.06
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          94.11
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          92.16
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          200.05,
+          4.31,
+          89.64
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          200.03,
+          6.92,
+          87.13
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          200.02,
+          8.65,
+          84.64
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          200,
+          9.89,
+          82.16
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          200.47,
+          6.03,
+          68.52
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          200.94,
+          4.51,
+          55.36
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          201.39,
+          4.91,
+          42.76
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          201.82,
+          7.01,
+          30.78
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          203.03,
+          7.74,
+          26.71
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          204.24,
+          8.68,
+          22.73
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          205.45,
+          9.93,
+          18.85
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          206.67,
+          11.69,
+          15.1
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          206.66,
+          13.37,
+          10.7
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          206.64,
+          17.01,
+          6.52
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          208.68,
+          23.47,
+          2.8
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-green": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          126.92,
+          92.48,
+          97.87
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          127.18,
+          81.76,
+          95.93
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          127.45,
+          77.77,
+          93.96
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          127.74,
+          75.61,
+          91.96
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          128.12,
+          71.21,
+          88.91
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          128.55,
+          68.62,
+          85.81
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          129.02,
+          66.91,
+          82.65
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          129.57,
+          65.71,
+          79.41
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          130.48,
+          54.36,
+          70.18
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          131.91,
+          48.76,
+          60.63
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          134.54,
+          46.29,
+          50.21
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          144.35,
+          100,
+          33.33
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          139.28,
+          90.98,
+          29.11
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          134.23,
+          89.08,
+          23.77
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          127.99,
+          92.45,
+          18.06
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          120,
+          100,
+          12.55
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          120.41,
+          100,
+          8.99
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          120.77,
+          100,
+          5.85
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          121.17,
+          100,
+          3.07
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-teal": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          171.22,
+          56.11,
+          96.73
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          171.38,
+          49.48,
+          93.72
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          171.55,
+          47.18,
+          90.69
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          171.72,
+          46.03,
+          87.65
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          176,
+          49.12,
+          83.57
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          180.06,
+          50.95,
+          79.35
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          183.68,
+          57.18,
+          75.79
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          186.74,
+          63.12,
+          72.35
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          187.41,
+          48.14,
+          63.4
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188,
+          39.25,
+          54.56
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188.48,
+          39.69,
+          45.78
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188.75,
+          51.06,
+          36.86
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188.61,
+          53.88,
+          31.46
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188.45,
+          57.8,
+          26.19
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188.26,
+          63.6,
+          21.07
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188,
+          73.17,
+          16.08
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          187.99,
+          84.92,
+          11.28
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          188.56,
+          96.03,
+          7.26
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          190.58,
+          100,
+          3.88
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-blue": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.45,
+          100,
+          97.34
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.38,
+          100,
+          94.73
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.3,
+          95.85,
+          92.09
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.2,
+          92.59,
+          89.41
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          198.5,
+          96.87,
+          86.75
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          197.76,
+          98.99,
+          83.89
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          197,
+          99.87,
+          80.82
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          196.17,
+          100,
+          77.45
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.74,
+          99.83,
+          67.57
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          202.52,
+          100,
+          57.55
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          204.76,
+          100,
+          46.97
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          217.34,
+          98.31,
+          53.53
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          216.77,
+          89.43,
+          43.98
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          216.29,
+          94.14,
+          35
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          216.37,
+          97.67,
+          26.93
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          217.2,
+          100,
+          19.61
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          218.95,
+          100,
+          14.93
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          222.31,
+          100,
+          10.59
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          228.65,
+          100,
+          6.6
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-purple": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          250,
+          100,
+          98.76
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          250.23,
+          100,
+          97.09
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          250.47,
+          93.41,
+          95.41
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          250.71,
+          87.5,
+          93.73
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          251.53,
+          93.83,
+          92.23
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          252.35,
+          97.33,
+          90.69
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          253.2,
+          99.18,
+          89.09
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          254.06,
+          100,
+          87.45
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          253.9,
+          94.13,
+          82.01
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          254.11,
+          90.14,
+          76.39
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          254.88,
+          87.11,
+          70.46
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          256.54,
+          84.78,
+          63.92
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          260.32,
+          59.17,
+          53.67
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          264.12,
+          55.46,
+          43.83
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          268.02,
+          62.04,
+          34.39
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          272.21,
+          73.64,
+          25.29
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          272.75,
+          82.69,
+          18.56
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          272.45,
+          92.77,
+          12.64
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          269.95,
+          100,
+          7.66
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-fuchsia": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          322.15,
+          100,
+          98.49
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          321.87,
+          100,
+          96.73
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          321.58,
+          93.98,
+          94.94
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          321.29,
+          88.57,
+          93.14
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          319.35,
+          84.42,
+          90.79
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          317.38,
+          80.69,
+          88.38
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          315.37,
+          77.28,
+          85.89
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          313.33,
+          74.12,
+          83.33
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          314.16,
+          73.33,
+          76.26
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          314.67,
+          72.14,
+          68.62
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          314.69,
+          71.13,
+          59.86
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          312.96,
+          84.68,
+          46.08
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          313.17,
+          88.39,
+          38.86
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          313.38,
+          92.9,
+          31.95
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          313.72,
+          96.8,
+          25.62
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          314.26,
+          100,
+          19.8
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          314.51,
+          100,
+          14.68
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          315.33,
+          100,
+          10.15
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          317.48,
+          100,
+          6.11
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-red": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          350.85,
+          100,
+          98.97
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          350.7,
+          100,
+          97.7
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          350.55,
+          100,
+          96.41
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          350.4,
+          100,
+          95.1
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          350.92,
+          100,
+          92.94
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          351.43,
+          100,
+          90.72
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          351.92,
+          100,
+          88.44
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          352.39,
+          100,
+          86.08
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          353.39,
+          86.96,
+          78.18
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          353.95,
+          78.84,
+          69.69
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          353.52,
+          73.17,
+          60.13
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          348.56,
+          82.2,
+          46.27
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          347.26,
+          85.91,
+          38.92
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          345.89,
+          91,
+          31.81
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          345,
+          95.87,
+          25.31
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          344.85,
+          100,
+          19.41
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          346.11,
+          100,
+          14.46
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          349.15,
+          100,
+          10.03
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          352.16,
+          100,
+          6.06
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-orange": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          27.87,
+          100,
+          98.29
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          27.91,
+          96.98,
+          96.64
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          27.96,
+          91.29,
+          94.99
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          28,
+          88.24,
+          93.33
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          28.75,
+          96.77,
+          90.26
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          29.52,
+          99.73,
+          87.03
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          30.32,
+          100,
+          83.62
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.18,
+          100,
+          80
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          28.25,
+          96.8,
+          73.02
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          25.48,
+          94.77,
+          66.34
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.75,
+          92.62,
+          59.79
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          20,
+          90,
+          52.94
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          18.26,
+          82.63,
+          47
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          16.43,
+          86.72,
+          40.94
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          14.39,
+          93.12,
+          34.79
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          10.95,
+          100,
+          29.02
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          9.09,
+          100,
+          21.91
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          5.29,
+          100,
+          15.58
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          2.01,
+          100,
+          9.91
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-yellow": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.46,
+          100,
+          97.31
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.38,
+          100,
+          95.09
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.31,
+          100,
+          92.85
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.25,
+          100,
+          90.59
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.33,
+          98.56,
+          88
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.42,
+          97.54,
+          85.35
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.53,
+          96.75,
+          82.62
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.67,
+          96.12,
+          79.8
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          43.95,
+          94.26,
+          74.28
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.83,
+          94.17,
+          68.55
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          40.46,
+          94.83,
+          62.04
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.63,
+          96.08,
+          50
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.71,
+          97.59,
+          41.99
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.69,
+          98.72,
+          34.44
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.53,
+          99.5,
+          27.31
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.14,
+          100,
+          20.59
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          40.68,
+          100,
+          15.12
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          39.24,
+          100,
+          10.36
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          35.52,
+          100,
+          6.19
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-brown": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.66,
+          48.5,
+          97.07
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.68,
+          41.61,
+          94.25
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.7,
+          39.2,
+          91.43
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.73,
+          37.93,
+          88.63
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.47,
+          43.13,
+          86.7
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.23,
+          47.04,
+          84.79
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.99,
+          50.11,
+          82.88
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.76,
+          52.58,
+          80.98
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.83,
+          46.02,
+          74.17
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.93,
+          42.16,
+          67.4
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.1,
+          39.63,
+          60.67
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.36,
+          37.87,
+          53.92
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.04,
+          34.94,
+          45.3
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.77,
+          38.54,
+          36.92
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.59,
+          43.99,
+          28.81
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.58,
+          53.27,
+          20.98
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.74,
+          60.03,
+          15.18
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          31.73,
+          72.62,
+          9.74
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          27.95,
+          86.11,
+          5.27
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-grey": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          35.99,
+          11.4,
+          97.16
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          36,
+          9.67,
+          94.37
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          36,
+          9.08,
+          91.59
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          36,
+          8.77,
+          88.82
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          32.79,
+          8.86,
+          86.06
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          29.76,
+          8.93,
+          83.34
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          26.85,
+          8.96,
+          80.67
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          24,
+          8.93,
+          78.04
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.99,
+          4.23,
+          66.26
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.97,
+          2.04,
+          54.85
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.95,
+          1.01,
+          43.86
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          33.33
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          28.62
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          24.04
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          19.59
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          15.29
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          10.85
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          6.64
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          223.81,
+          0,
+          2.81
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-red": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          0.45,
+          100,
+          98.34
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          0.31,
+          100,
+          96.31
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          0.16,
+          96.42,
+          94.24
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          360,
+          90,
+          92.16
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          0.23,
+          91.24,
+          90.28
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          0.45,
+          91.36,
+          88.35
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          0.65,
+          90.86,
+          86.36
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          0.83,
+          90,
+          84.31
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          1.95,
+          86.73,
+          77.32
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          2.8,
+          82.84,
+          69.6
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          3.23,
+          79.15,
+          60.92
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          3.05,
+          77.87,
+          49.61
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          2.8,
+          80.26,
+          44.7
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          2.5,
+          83.29,
+          39.86
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          2.1,
+          87.31,
+          35.06
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          1.26,
+          92.26,
+          30.39
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          359.74,
+          99.82,
+          22.68
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          358.63,
+          100,
+          15.69
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          357.82,
+          100,
+          9.76
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-orange": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.11,
+          100,
+          96.57
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.19,
+          93.98,
+          93.1
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.28,
+          87.05,
+          89.61
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.37,
+          83.1,
+          86.08
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.42,
+          84.33,
+          82.75
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.48,
+          84.74,
+          79.37
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.56,
+          84.7,
+          75.91
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.69,
+          84.4,
+          72.35
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          21.88,
+          85.61,
+          67.77
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          21.18,
+          86.15,
+          63.01
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          20.78,
+          86.28,
+          57.76
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          21.74,
+          86.51,
+          50.59
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          20.61,
+          86.17,
+          44.61
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          19.56,
+          89.48,
+          38.49
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          18.46,
+          94.45,
+          32.41
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          16.76,
+          100,
+          26.67
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          15.47,
+          100,
+          20.07
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          12.18,
+          100,
+          14.2
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          6.72,
+          100,
+          8.94
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-brown": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.71,
+          74.46,
+          95.12
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.8,
+          62.46,
+          90.28
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.89,
+          58.05,
+          85.44
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          24,
+          55.56,
+          80.59
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.94,
+          55.92,
+          75.8
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.91,
+          55.95,
+          70.98
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          23.92,
+          55.79,
+          66.12
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          24,
+          55.56,
+          61.18
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          22.67,
+          49.07,
+          55.96
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          21.29,
+          43.84,
+          50.82
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          19.86,
+          46.79,
+          45.77
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          18.33,
+          51.92,
+          40.78
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          18.72,
+          56.45,
+          34.86
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          19.21,
+          62.79,
+          29.04
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          19.97,
+          72.56,
+          23.3
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          21,
+          88.89,
+          17.65
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          19.73,
+          95.19,
+          12.97
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          16.27,
+          100,
+          8.82
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          10.45,
+          100,
+          5.14
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-yellow": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          45.72,
+          100,
+          96.78
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          45.63,
+          100,
+          94.1
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          45.57,
+          100,
+          91.38
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          45.52,
+          100,
+          88.63
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          45.68,
+          99.59,
+          85.94
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          45.86,
+          99.15,
+          83.16
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.07,
+          98.71,
+          80.28
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          46.32,
+          98.28,
+          77.25
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          42.77,
+          97.91,
+          72.64
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          39.92,
+          98.26,
+          68.02
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          37.69,
+          98.75,
+          63.17
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          36.28,
+          99.08,
+          57.45
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          37.45,
+          77.64,
+          49.26
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          38.69,
+          83.35,
+          41.35
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          40.07,
+          91.76,
+          33.66
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.17,
+          100,
+          26.86
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          41.1,
+          100,
+          19.64
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          40.13,
+          100,
+          13.55
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          37.35,
+          100,
+          8.33
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-green": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          94.61,
+          37.03,
+          96.34
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          94.51,
+          32.21,
+          92.9
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          94.4,
+          30.49,
+          89.48
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          94.29,
+          29.58,
+          86.08
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          94.5,
+          29.43,
+          82.62
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          94.72,
+          29.3,
+          79.18
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          94.92,
+          29.18,
+          75.76
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          95.12,
+          29.08,
+          72.35
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          93.46,
+          30.08,
+          65.88
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          91.63,
+          30.85,
+          59.29
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          89.55,
+          31.61,
+          52.5
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          87.03,
+          39.39,
+          45.29
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          97.99,
+          35.67,
+          41.28
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          111.48,
+          32.13,
+          36.95
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          127.58,
+          34.41,
+          30.98
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          140.73,
+          45.45,
+          23.73
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          141.23,
+          51.5,
+          17.2
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          142.1,
+          64.01,
+          11
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          139.39,
+          83.32,
+          5.75
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-blue": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.24,
+          57.11,
+          95.67
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.24,
+          49.64,
+          91.57
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.24,
+          47.11,
+          87.45
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.23,
+          45.88,
+          83.33
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.29,
+          45.53,
+          79.28
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.34,
+          45.39,
+          75.19
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.36,
+          45.41,
+          71.06
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          189.35,
+          45.56,
+          66.86
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          192.66,
+          41.82,
+          57.86
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          195.5,
+          40.89,
+          49.12
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          197.85,
+          55.74,
+          40.47
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.09,
+          83.54,
+          30.98
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          198.97,
+          87.58,
+          27.58
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          198.92,
+          91.86,
+          24.33
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          198.97,
+          96.01,
+          21.29
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.15,
+          100,
+          18.43
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          199.78,
+          100,
+          13.65
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          201.38,
+          100,
+          9.4
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          205.34,
+          100,
+          5.61
+        ],
+        "alpha": 1
+      }
+    }
+  },
+  "nsw-aboriginal-purple": {
+    "50": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          310.68,
+          42.61,
+          96.28
+        ],
+        "alpha": 1
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          310.46,
+          34.93,
+          92.41
+        ],
+        "alpha": 1
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          310.24,
+          32.24,
+          88.56
+        ],
+        "alpha": 1
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          310,
+          30.77,
+          84.71
+        ],
+        "alpha": 1
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          309.75,
+          30.82,
+          80.93
+        ],
+        "alpha": 1
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          309.5,
+          30.72,
+          77.16
+        ],
+        "alpha": 1
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          309.22,
+          30.55,
+          73.39
+        ],
+        "alpha": 1
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.94,
+          30.32,
+          69.61
+        ],
+        "alpha": 1
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.5,
+          27.72,
+          64.31
+        ],
+        "alpha": 1
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.03,
+          25.74,
+          59.05
+        ],
+        "alpha": 1
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          307.53,
+          24.18,
+          53.83
+        ],
+        "alpha": 1
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          307,
+          24.19,
+          48.63
+        ],
+        "alpha": 1
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          307.56,
+          25.08,
+          41.48
+        ],
+        "alpha": 1
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.1,
+          26.24,
+          34.55
+        ],
+        "alpha": 1
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.61,
+          27.86,
+          27.83
+        ],
+        "alpha": 1
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          309.09,
+          30.28,
+          21.37
+        ],
+        "alpha": 1
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.99,
+          33.57,
+          15.63
+        ],
+        "alpha": 1
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.83,
+          40.05,
+          10.18
+        ],
+        "alpha": 1
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "hsl",
+        "channels": [
+          308.92,
+          54.82,
+          5.21
+        ],
+        "alpha": 1
+      }
+    }
+  }
+}
