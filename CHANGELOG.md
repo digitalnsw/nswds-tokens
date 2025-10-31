@@ -1,3 +1,10 @@
+## [2.25.2](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.1...v2.25.2) (2025-10-31)
+
+
+### Bug Fixes
+
+* rehydrate masterbrand tokens during build ([#42](https://github.com/digitalnsw/nswds-tokens/issues/42)) ([6c570c7](https://github.com/digitalnsw/nswds-tokens/commit/6c570c75a3928c596505120c86748fec7a0fd29f))
+
 ## [2.25.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.0...v2.25.1) (2025-10-27)
 
 
