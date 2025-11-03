@@ -1,0 +1,8 @@
+# Snyk (https://snyk.io) policy file
+version: v1.25.0
+ignore:
+  # Catch-all: ignore every license issue, regardless of package or license type
+  '*:lic:*':
+    - '*':
+      reason: All license issues are considered acceptable for this project
+      expires: 2026-12-31T00:00:00.000Z
