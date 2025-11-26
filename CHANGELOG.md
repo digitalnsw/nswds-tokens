@@ -1,3 +1,10 @@
+## [2.25.5](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.4...v2.25.5) (2025-11-26)
+
+
+### Bug Fixes
+
+* upgrade axios from 1.13.1 to 1.13.2 ([#46](https://github.com/digitalnsw/nswds-tokens/issues/46)) ([93773a3](https://github.com/digitalnsw/nswds-tokens/commit/93773a377bfdbfc3d23f8ac017a08d0c5afc9828))
+
 ## [2.25.4](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.3...v2.25.4) (2025-11-23)
 
 
