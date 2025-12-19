@@ -1,3 +1,5 @@
+## [2.25.6](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.5...v2.25.6) (2025-12-19)
+
 ## [2.25.5](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.4...v2.25.5) (2025-11-26)
 
 
