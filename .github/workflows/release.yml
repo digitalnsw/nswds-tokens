@@ -1,12 +1,11 @@
 name: Release
 on:
   push:
-    branches:
-      - main # or main
+    branches: [main]
 
 permissions:
-  id-token: write  # Required for OIDC
-  contents: read # for checkout
+  id-token: write
+  contents: read
 
 jobs:
   release:
@@ -26,6 +25,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "lts/*"
+          registry-url: "https://registry.npmjs.org"
       - name: Install dependencies
         run: npm clean-install
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
