@@ -65,7 +65,7 @@ jobs:
                 },
                 {
                   role: "user",
-                  content: "Here are the commit messages:\n\n\($commits)\n\nGenerate a clear, informative PR title following the Conventional Commits format. Pick the most appropriate type (feat, fix, chore, etc.), include a scope if relevant, and summarize concisely. Return only the title, nothing else."
+                  content: "Here are the commit messages:\n\n\($commits)\n\nGenerate a clear, informative PR title following the Conventional Commits format. Pick the most appropriate type (feat, fix, docs, style, refactor, test, chore, build, ci, perf) and format the title like: type(scope): Short description"
                 }
               ],
               temperature: 0.4
@@ -76,8 +76,17 @@ jobs:
             -H "Content-Type: application/json" \
             -d "$JSON_PAYLOAD")
 
-          TITLE=$(echo "$RESPONSE" | jq -r '.choices[0].message.content' | head -n 1)
-          echo "title=$TITLE" >> $GITHUB_OUTPUT
+          # Extract first line of AI response, normalize to single line and trim whitespace
+          RAW_TITLE=$(echo "$RESPONSE" | jq -r '.choices[0].message.content' | sed -n '1p')
+          TITLE=$(printf '%s' "$RAW_TITLE" | tr '\n' ' ' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+          echo "AI suggested title: $TITLE"
+
+          # Safely write the title to GITHUB_OUTPUT using heredoc to avoid shell interpretation
+          {
+            echo "title<<EOF"
+            printf '%s\n' "$TITLE"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
 
       - name: Validate PR Title
         id: validate-title
