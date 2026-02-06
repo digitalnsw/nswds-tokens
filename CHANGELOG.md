@@ -1,3 +1,10 @@
+# [2.26.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.6...v2.26.0) (2026-02-06)
+
+
+### Features
+
+* **prism.css, README.md, package.json:** Add Prism CSS usage documentation, include prism.css in package exports, and create new Prism syntax highlighting styles ([#51](https://github.com/digitalnsw/nswds-tokens/issues/51)) ([11b7c93](https://github.com/digitalnsw/nswds-tokens/commit/11b7c930820a72c6973bfc8baeff75b673db93db))
+
 ## [2.25.6](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.5...v2.25.6) (2025-12-19)
 
 ## [2.25.5](https://github.com/digitalnsw/nswds-tokens/compare/v2.25.4...v2.25.5) (2025-11-26)
