@@ -57,6 +57,24 @@ There are a few common ways to consume the tokens. Adjust paths to match your `d
 }
 ```
 
+### 1a. Prism CSS (standalone)
+
+```css
+@import '@nswds/tokens/prism.css';
+```
+
+Or via JS/TS (for bundlers that support CSS imports):
+
+```ts
+import '@nswds/tokens/prism.css';
+```
+
+The full path is also available:
+
+```css
+@import '@nswds/tokens/css/prism/prism.css';
+```
+
 ### 2. Sass / SCSS variables or maps
 
 ```scss
