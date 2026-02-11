@@ -1,6 +1,6 @@
 name: AI PR Title Generator
 
-on:
+"on":
   pull_request:
     types: [opened, reopened, synchronize, edited]
 
@@ -9,29 +9,36 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: read # Required to fetch commits
-      pull-requests: write # Required to update PR title
+      contents: read
+      pull-requests: write
+
+    env:
+      OPENAI_MODEL: gpt-4o-mini
+      CONVENTIONAL_COMMIT_REGEX_DEFAULT: '^(feat|fix|refactor|perf|style|test|build|ops|docs|chore|merge|revert)(\([^)]*\))?!?: .+'
+      CONVENTIONAL_COMMIT_TYPES_CSV_DEFAULT: 'feat, fix, refactor, perf, style, test, build, ops, docs, chore, merge, revert'
+      CONVENTIONAL_COMMIT_DEFAULT_TYPE_DEFAULT: chore
 
     steps:
       - name: Checkout code
+        if: ${{ github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetch full history for commit diffing
+          fetch-depth: 0
 
-      - name: Debug Git Remote
+      - name: Load Conventional Commit config
+        id: conventional-config
+        if: ${{ github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        shell: bash
         run: |
-          echo "🔍 Verifying Git Remote"
-          git remote -v
-          echo "🔍 Listing refs from origin"
-          git ls-remote origin
-
-      - name: Get commit messages
-        id: commits
-        run: |
-          COMMITS=$(git log origin/${{ github.base_ref }}..HEAD --pretty=format:"%s" | grep -E "^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)(\(.*\))?: " || echo "")
-          echo "commits<<EOF" >> $GITHUB_OUTPUT
-          echo "$COMMITS" >> $GITHUB_OUTPUT
-          echo "EOF" >> $GITHUB_OUTPUT
+          set -euo pipefail
+          REGEX="$(./conventional-commit-config.sh regex)"
+          TYPES_CSV="$(./conventional-commit-config.sh csv)"
+          DEFAULT_TYPE="$(./conventional-commit-config.sh safe-default)"
+          {
+            printf 'regex=%s\n' "$REGEX"
+            printf 'types_csv=%s\n' "$TYPES_CSV"
+            printf 'default_type=%s\n' "$DEFAULT_TYPE"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Get Current PR Title
         id: get-pr-title
@@ -44,81 +51,261 @@ jobs:
               pull_number: context.issue.number
             });
             console.log(`Current PR title: "${pr.title}"`);
-            core.setOutput("pr_title", pr.title);
-
-      - name: Generate PR title with OpenAI
-        id: ai
-        if: ${{ steps.commits.outputs.commits != '' }}
-        run: |
-          COMMIT_LIST="${{ steps.commits.outputs.commits }}"
-          echo "📝 Commit messages detected:"
-          echo "$COMMIT_LIST"
-
-          JSON_PAYLOAD=$(jq -n \
-            --arg commits "$COMMIT_LIST" \
-            '{
-              model: "gpt-4",
-              messages: [
-                {
-                  role: "system",
-                  content: "You are an AI assistant that generates PR titles following the Conventional Commits specification (https://www.conventionalcommits.org/en/v1.0.0/)."
-                },
-                {
-                  role: "user",
-                  content: "Here are the commit messages:\n\n\($commits)\n\nGenerate a clear, informative PR title following the Conventional Commits format. Pick the most appropriate type (feat, fix, docs, style, refactor, test, chore, build, ci, perf) and format the title like: type(scope): Short description"
-                }
-              ],
-              temperature: 0.4
-            }')
-
-          RESPONSE=$(curl -s https://api.openai.com/v1/chat/completions \
-            -H "Authorization: Bearer ${{ secrets.OPENAI_API_KEY }}" \
-            -H "Content-Type: application/json" \
-            -d "$JSON_PAYLOAD")
-
-          # Extract first line of AI response, normalize to single line and trim whitespace
-          RAW_TITLE=$(echo "$RESPONSE" | jq -r '.choices[0].message.content' | sed -n '1p')
-          TITLE=$(printf '%s' "$RAW_TITLE" | tr '\n' ' ' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
-          echo "AI suggested title: $TITLE"
-
-          # Safely write the title to GITHUB_OUTPUT using heredoc to avoid shell interpretation
-          {
-            echo "title<<EOF"
-            printf '%s\n' "$TITLE"
-            echo "EOF"
-          } >> $GITHUB_OUTPUT
+            core.setOutput("pr_title", pr.title || "");
 
       - name: Validate PR Title
         id: validate-title
+        shell: bash
+        env:
+          PR_TITLE: ${{ steps.get-pr-title.outputs.pr_title }}
+          ORIGINAL_TITLE: ${{ github.event.pull_request.title }}
+          CONVENTIONAL_COMMIT_REGEX: ${{ steps.conventional-config.outputs.regex || env.CONVENTIONAL_COMMIT_REGEX_DEFAULT }}
         run: |
-          PR_TITLE="${{ steps.get-pr-title.outputs.pr_title }}"
-          AI_TITLE="${{ steps.ai.outputs.title }}"
+          set -euo pipefail
 
-          # Regex for Conventional Commits format
-          CONVENTIONAL_COMMIT_REGEX="^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)(\(.*\))?: .+"
+          PR_TITLE="${PR_TITLE-}"
+          REGEX="${CONVENTIONAL_COMMIT_REGEX}"
 
           echo "🔍 Current PR Title: $PR_TITLE"
-          echo "🧠 Suggested AI PR Title: $AI_TITLE"
 
-          if [[ -z "$PR_TITLE" || ! "$PR_TITLE" =~ $CONVENTIONAL_COMMIT_REGEX ]]; then
+          if [[ -z "$PR_TITLE" || ! "$PR_TITLE" =~ $REGEX ]]; then
             echo "❌ PR Title is missing or not in Conventional Commits format."
-            echo "✅ Using AI-generated title: $AI_TITLE"
-            echo "update_needed=true" >> $GITHUB_ENV
+            echo "update_needed=true" >> "$GITHUB_OUTPUT"
           else
             echo "✅ PR Title is already valid."
-            echo "update_needed=false" >> $GITHUB_ENV
+            echo "update_needed=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Update PR Title if Invalid or Empty
-        if: env.update_needed == 'true'
+          # Preserve the title from the triggering event so we can avoid overwriting a human edit mid-run.
+          # (Using the event payload avoids race windows between earlier steps.)
+          ORIGINAL_TITLE="${ORIGINAL_TITLE-}"
+          DELIM="TITLE_$(date +%s)_$RANDOM"
+          {
+            echo "original_title<<$DELIM"
+            printf '%s\n' "$ORIGINAL_TITLE"
+            echo "$DELIM"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: "Note: Skipped (PR from fork)"
+        if: ${{ github.event.pull_request.head.repo.full_name != github.event.pull_request.base.repo.full_name }}
+        shell: bash
+        run: |
+          echo "ℹ️ Skipping: PR is from a fork, so repo secrets / write permissions may be unavailable."
+
+      - name: Get commit messages
+        id: commits
+        if: ${{ steps.validate-title.outputs.update_needed == 'true' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
         uses: actions/github-script@v7
+        env:
+          CONVENTIONAL_COMMIT_REGEX: ${{ steps.conventional-config.outputs.regex || env.CONVENTIONAL_COMMIT_REGEX_DEFAULT }}
         with:
           script: |
-            const title = `${{ steps.ai.outputs.title }}`;
+            const { owner, repo } = context.repo;
+            const pull_number = context.payload.pull_request.number;
+
+            const commits = await github.paginate(github.rest.pulls.listCommits, {
+              owner,
+              repo,
+              pull_number,
+              per_page: 100,
+            });
+
+            const subjects = commits
+              .map(c => (c.commit?.message || '').split('\n')[0].trim())
+              .filter(Boolean);
+
+            const conventional = new RegExp(process.env.CONVENTIONAL_COMMIT_REGEX);
+            const selected = subjects.filter(s => conventional.test(s));
+            const out = (selected.length ? selected : subjects).join('\n');
+
+            if (!out) {
+              core.setOutput('commits', '');
+              core.setOutput('commits_b64', '');
+              console.log('❌ No commit subjects available for this PR.');
+              return;
+            }
+
+            // Do not log commit subjects.
+            console.log(`📝 Commit subjects found: ${subjects.length} (conventional: ${selected.length})`);
+            core.setOutput('commits', out);
+            core.setOutput('commits_b64', Buffer.from(out, 'utf8').toString('base64'));
+
+      - name: Ensure jq is available
+        if: ${{ steps.validate-title.outputs.update_needed == 'true' && steps.commits.outputs.commits != '' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! command -v jq >/dev/null 2>&1; then
+            sudo apt-get update -y
+            sudo apt-get install -y jq
+          fi
+
+      - name: Generate PR title with OpenAI (Responses API)
+        id: ai
+        if: ${{ steps.validate-title.outputs.update_needed == 'true' && steps.commits.outputs.commits != '' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        shell: bash
+        env:
+          COMMITS_B64: ${{ steps.commits.outputs.commits_b64 }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          CONVENTIONAL_COMMIT_REGEX: ${{ steps.conventional-config.outputs.regex || env.CONVENTIONAL_COMMIT_REGEX_DEFAULT }}
+          CONVENTIONAL_COMMIT_TYPES_CSV: ${{ steps.conventional-config.outputs.types_csv || env.CONVENTIONAL_COMMIT_TYPES_CSV_DEFAULT }}
+          DEFAULT_CONVENTIONAL_COMMIT_TYPE: ${{ steps.conventional-config.outputs.default_type || env.CONVENTIONAL_COMMIT_DEFAULT_TYPE_DEFAULT }}
+        run: |
+          set -euo pipefail
+
+          if [[ -z "${COMMITS_B64-}" ]]; then
+            echo "❌ Missing commit list (base64)."
+            exit 1
+          fi
+
+          COMMIT_LIST="$(printf '%s' "$COMMITS_B64" | base64 -d)"
+
+          # Don't echo commit messages. Keep a small breadcrumb.
+          COMMIT_COUNT="$(printf '%s\n' "$COMMIT_LIST" | sed '/^[[:space:]]*$/d' | wc -l | tr -d ' ')"
+          echo "📝 Commit subjects provided to the model: $COMMIT_COUNT"
+
+          JSON_PAYLOAD="$(jq -n --arg commits "$COMMIT_LIST" --arg model "$OPENAI_MODEL" --arg allowedTypes "$CONVENTIONAL_COMMIT_TYPES_CSV" '{
+            model: $model,
+            input: [
+              {
+                role: "system",
+                content: [
+                  {
+                    type: "input_text",
+                    text: ("You generate PR titles following Conventional Commits: type(scope): description (or type: description). Allowed types: " + $allowedTypes + ". Output ONLY the title line (no quotes, no code fences, no prefixes like Title:).")
+                  }
+                ]
+              },
+              {
+                role: "user",
+                content: [
+                  {
+                    type: "input_text",
+                    text: ("Commit subjects:\n\n" + $commits + "\n\nGenerate exactly one PR title in Conventional Commits format.")
+                  }
+                ]
+              }
+            ],
+            temperature: 0.4,
+            max_output_tokens: 80
+          }')"
+
+          API_KEY="${OPENAI_API_KEY-}"
+          if [[ -z "${API_KEY:-}" ]]; then
+            echo "❌ Missing secrets.OPENAI_API_KEY. Add it in repo settings."
+            exit 1
+          fi
+
+          set +e
+          RESPONSE="$(
+            curl -sS --fail-with-body "https://api.openai.com/v1/responses" \
+              -H "Authorization: Bearer ${API_KEY}" \
+              -H "Content-Type: application/json" \
+              -d "$JSON_PAYLOAD"
+          )"
+          curl_status=$?
+          set -e
+
+          if [[ $curl_status -ne 0 ]]; then
+            echo "❌ OpenAI API request failed (curl exit code: $curl_status)."
+            echo "$RESPONSE" | head -c 400
+            echo
+            exit 1
+          fi
+
+          # Fail fast with a clear message if the API returns non-JSON (auth/proxy errors can be HTML).
+          if ! echo "$RESPONSE" | jq -e . >/dev/null 2>&1; then
+            echo "❌ OpenAI API returned a non-JSON response."
+            echo "$RESPONSE" | head -c 400
+            echo
+            exit 1
+          fi
+
+          if echo "$RESPONSE" | jq -e '.error' >/dev/null; then
+            errType="$(echo "$RESPONSE" | jq -r '.error.type // "unknown"')"
+            errMsg="$(echo "$RESPONSE" | jq -r '.error.message // ""' | head -c 200)"
+            echo "❌ OpenAI API error ($errType): $errMsg"
+            exit 1
+          fi
+
+          RAW_TITLE="$(echo "$RESPONSE" | jq -r '
+            [(.output[]? | select(.type=="message") | .content[]? | select(.type=="output_text") | .text)] | join("")
+          ' | sed -e 's/\r//g' | sed -n '/^[[:space:]]*[^[:space:]]/ {p; q;}')"
+
+          if [[ -z "${RAW_TITLE:-}" ]]; then
+            echo "❌ Could not extract title from response (no output_text)."
+            exit 1
+          fi
+
+          TITLE="$(printf '%s' "$RAW_TITLE" | head -n 1 | tr '\n' ' ' | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')"
+          TITLE="$(printf '%s' "$TITLE" | sed -E 's/^Title:[[:space:]]*//I')"
+          TITLE="$(printf '%s' "$TITLE" | sed -E 's/^["'\''`]+|["'\''`]+$//g')"
+          TITLE="$(printf '%s' "$TITLE" | sed -E 's/^```[a-zA-Z0-9_-]*//; s/```$//')"
+          TITLE="$(printf '%s' "$TITLE" | sed -E 's/[[:space:]]+/ /g')"
+
+          REGEX="${CONVENTIONAL_COMMIT_REGEX}"
+          if [[ ! "$TITLE" =~ $REGEX ]]; then
+            echo "⚠️ AI title failed validation."
+
+            FIRST_LINE="$(printf '%s\n' "$COMMIT_LIST" | sed -n '/[^[:space:]]/ {p; q;}')"
+            if [[ -n "$FIRST_LINE" && "$FIRST_LINE" =~ $REGEX ]]; then
+              TITLE="$FIRST_LINE"
+              echo "↪️ Falling back to first conventional subject."
+            else
+              TITLE="${DEFAULT_CONVENTIONAL_COMMIT_TYPE}: update"
+              echo "↪️ Falling back to generic title."
+            fi
+          else
+            echo "🧠 AI suggested title: $TITLE"
+          fi
+
+          DELIM="TITLE_$(date +%s)_$RANDOM"
+          {
+            echo "title<<$DELIM"
+            printf '%s\n' "$TITLE"
+            echo "$DELIM"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Update PR Title if Invalid or Empty
+        # Gate on having a suggested title; prevents hard-fail when AI didn't run.
+        if: ${{ steps.validate-title.outputs.update_needed == 'true' && steps.ai.outputs.title != '' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        uses: actions/github-script@v7
+        env:
+          CONVENTIONAL_COMMIT_REGEX: ${{ steps.conventional-config.outputs.regex || env.CONVENTIONAL_COMMIT_REGEX_DEFAULT }}
+        with:
+          script: |
+            const suggestedTitle = ${{ toJson(steps.ai.outputs.title) }};
+            const originalTitle = ${{ toJson(steps.validate-title.outputs.original_title) }};
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+
+            const conventional = new RegExp(process.env.CONVENTIONAL_COMMIT_REGEX);
+
+            if (pr.title !== originalTitle) {
+              console.log(`ℹ️ PR title changed during the run. Skipping update. Current: "${pr.title}"`);
+              return;
+            }
+
+            if (conventional.test(pr.title || "")) {
+              console.log(`ℹ️ PR title is already valid. Skipping update. Current: "${pr.title}"`);
+              return;
+            }
+
             await github.rest.pulls.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: context.issue.number,
-              title: title
+              title: suggestedTitle
             });
-            console.log(`✅ PR title updated to: "${title}"`);
+
+            console.log(`✅ PR title updated to: "${suggestedTitle}"`);
+
+      - name: "Note: Skipped update (no title available)"
+        if: ${{ steps.validate-title.outputs.update_needed == 'true' && steps.ai.outputs.title == '' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        shell: bash
+        run: |
+          echo "ℹ️ Update was needed, but no suggested title was available (commit extraction or AI step may have been skipped)."

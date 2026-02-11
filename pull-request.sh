@@ -1,10 +1,30 @@
 #!/bin/bash
+set -euo pipefail
+
+# Dependencies used by this script and conventional-commit-config.sh
+REQUIRED_CMDS=(git jq curl gh awk sed grep paste head)
+for cmd in "${REQUIRED_CMDS[@]}"; do
+  if ! command -v "$cmd" >/dev/null 2>&1; then
+    echo "❌ Missing dependency: $cmd"
+    exit 1
+  fi
+done
 
 # Ensure API key is set
-if [ -z "$OPENAI_API_KEY" ]; then
+if [ -z "${OPENAI_API_KEY:-}" ]; then
   echo "❌ Please set your OPENAI_API_KEY environment variable."
   exit 1
 fi
+
+# Load Conventional Commit config
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CONVENTIONAL_CONFIG_SCRIPT="${SCRIPT_DIR}/conventional-commit-config.sh"
+if [[ ! -x "$CONVENTIONAL_CONFIG_SCRIPT" ]]; then
+  echo "❌ Missing helper script: ${CONVENTIONAL_CONFIG_SCRIPT}"
+  exit 1
+fi
+CONVENTIONAL_COMMIT_REGEX="$("$CONVENTIONAL_CONFIG_SCRIPT" regex)"
+CONVENTIONAL_COMMIT_TYPES_CSV="$("$CONVENTIONAL_CONFIG_SCRIPT" csv)"
 
 # Set model and endpoint
 MODEL="gpt-4"
@@ -15,7 +35,7 @@ branch=$(git rev-parse --abbrev-ref HEAD)
 default_branch=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
 
 # Extract commits from current branch
-commits=$(git log "$default_branch"..HEAD --pretty=format:"%s" | grep -E "^(feat|fix|docs|style|refactor|test|chore|build|ci|perf)(\(.*\))?: ")
+commits=$(git log "$default_branch"..HEAD --pretty=format:"%s" | grep -E "$CONVENTIONAL_COMMIT_REGEX" || true)
 
 if [ -z "$commits" ]; then
   echo "❌ No Conventional Commits found on this branch."
@@ -25,6 +45,7 @@ fi
 # Prepare JSON payload with Conventional Commit title prompt
 messages=$(jq -n \
   --arg commits "$commits" \
+  --arg allowedTypes "$CONVENTIONAL_COMMIT_TYPES_CSV" \
   '[
     {
       "role": "system",
@@ -32,7 +53,7 @@ messages=$(jq -n \
     },
     {
       "role": "user",
-      "content": "Here are the commit messages:\n\n\($commits)\n\nWrite a concise PR title that summarizes the changes and follows the Conventional Commits format. Use an appropriate type (e.g., feat, fix, chore) and include a scope in parentheses if applicable. Return only the title and nothing else."
+      "content": "Here are the commit messages:\n\n\($commits)\n\nWrite a concise PR title that summarizes the changes and follows the Conventional Commits format. Allowed types: \($allowedTypes). Include a scope in parentheses if applicable. Return only the title and nothing else."
     }
   ]'
 )
