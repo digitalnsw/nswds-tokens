@@ -1,3 +1,10 @@
+# [2.27.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.26.1...v2.27.0) (2026-02-11)
+
+
+### Features
+
+* **github workflows:** enhance AI PR title generator with improved commit extraction and validation logic ([#53](https://github.com/digitalnsw/nswds-tokens/issues/53)) ([2b81402](https://github.com/digitalnsw/nswds-tokens/commit/2b81402b7f5b68fccc423901e15c3ce50967c7f8))
+
 ## [2.26.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.26.0...v2.26.1) (2026-02-11)
 
 
