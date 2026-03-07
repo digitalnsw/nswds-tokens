@@ -1,3 +1,10 @@
+## [2.27.2](https://github.com/digitalnsw/nswds-tokens/compare/v2.27.1...v2.27.2) (2026-03-07)
+
+
+### Bug Fixes
+
+* upgrade dotenv from 17.2.4 to 17.3.1 ([#55](https://github.com/digitalnsw/nswds-tokens/issues/55)) ([07f39ea](https://github.com/digitalnsw/nswds-tokens/commit/07f39ea3bbd1a001f2c45c6b84ac34d6a830b487))
+
 ## [2.27.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.27.0...v2.27.1) (2026-03-01)
 
 
