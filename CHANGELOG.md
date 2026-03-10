@@ -1,3 +1,10 @@
+# [2.28.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.27.2...v2.28.0) (2026-03-10)
+
+
+### Features
+
+* **create-branch.sh:** enhance branch creation script with push option and usage instructions ([#56](https://github.com/digitalnsw/nswds-tokens/issues/56)) ([39bc058](https://github.com/digitalnsw/nswds-tokens/commit/39bc0587700afa33dda7027e74aef42bf619eab6))
+
 ## [2.27.2](https://github.com/digitalnsw/nswds-tokens/compare/v2.27.1...v2.27.2) (2026-03-07)
 
 
