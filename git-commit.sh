@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -euo pipefail
 
 # Dependencies
@@ -276,6 +276,105 @@ read -r CONFIRM
 if [[ "$CONFIRM" =~ ^[Yy]$ ]]; then
   printf "%s" "$COMMIT_MSG" | git commit -F -
   printf "✅ Committed with AI-generated message.\n"
+
+  DEFAULT_PUSH_BRANCH="$BRANCH"
+  if [[ -z "$DEFAULT_PUSH_BRANCH" || "$DEFAULT_PUSH_BRANCH" == "HEAD" ]]; then
+    DEFAULT_PUSH_BRANCH="$(git rev-parse --abbrev-ref HEAD 2>/dev/null || true)"
+  fi
+
+  printf "\n🚀 Push this commit to origin?\n"
+  if [[ -n "$DEFAULT_PUSH_BRANCH" && "$DEFAULT_PUSH_BRANCH" != "HEAD" ]]; then
+    printf "  1) Push current branch to origin/%s\n" "$DEFAULT_PUSH_BRANCH"
+  else
+    printf "  1) Push HEAD to a branch name you provide\n"
+  fi
+  printf "  2) Push HEAD to a different remote branch name\n"
+  printf "  3) Skip push\n"
+  printf "Choose (1/2/3): "
+  read -r PUSH_CHOICE
+
+  PUSH_BRANCH=""
+  PUSH_SOURCE_REF=""
+  case "$PUSH_CHOICE" in
+    1)
+      if [[ -n "$DEFAULT_PUSH_BRANCH" && "$DEFAULT_PUSH_BRANCH" != "HEAD" ]]; then
+        PUSH_BRANCH="$DEFAULT_PUSH_BRANCH"
+        PUSH_SOURCE_REF="$DEFAULT_PUSH_BRANCH"
+      else
+        read -r -p "Enter branch name to push: " PUSH_BRANCH
+        PUSH_SOURCE_REF="HEAD"
+      fi
+      ;;
+    2)
+      read -r -p "Enter branch name to push: " PUSH_BRANCH
+      PUSH_SOURCE_REF="HEAD"
+      ;;
+    3)
+      ;;
+    *)
+      printf "ℹ️ Invalid option. Skipping push.\n"
+      ;;
+  esac
+
+  if [[ -n "$PUSH_BRANCH" ]]; then
+    PUSH_BRANCH="$(printf "%s" "$PUSH_BRANCH" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')"
+    PUSH_BRANCH="${PUSH_BRANCH#refs/heads/}"
+
+    if [[ -z "$PUSH_BRANCH" ]]; then
+      printf "⚠️ No branch name provided. Skipping push.\n"
+    elif ! git check-ref-format --branch "$PUSH_BRANCH" >/dev/null 2>&1; then
+      printf "❌ Invalid branch name: %s\n" "$PUSH_BRANCH"
+      printf "ℹ️ Push skipped.\n"
+    else
+      if [[ -z "$PUSH_SOURCE_REF" ]]; then
+        PUSH_SOURCE_REF="HEAD"
+      fi
+
+      if [[ "$PUSH_SOURCE_REF" != "HEAD" ]] && ! git show-ref --verify --quiet "refs/heads/$PUSH_SOURCE_REF"; then
+        printf "❌ Local branch '%s' does not exist. Skipping push.\n" "$PUSH_SOURCE_REF"
+      else
+        PUSH_REFSPEC="${PUSH_SOURCE_REF}:refs/heads/${PUSH_BRANCH}"
+        FORCE_PUSH="false"
+        read -r -p "Use --force-with-lease for this push? (y/N): " FORCE_PUSH_CONFIRM
+        if [[ "${FORCE_PUSH_CONFIRM:-}" =~ ^[Yy]$ ]]; then
+          printf "⚠️ Force push can rewrite remote history.\n"
+          read -r -p "Type 'force' to confirm: " FORCE_PUSH_TOKEN
+          if [[ "${FORCE_PUSH_TOKEN:-}" == "force" ]]; then
+            FORCE_PUSH="true"
+          else
+            printf "ℹ️ Force push not confirmed. Using normal push.\n"
+          fi
+        fi
+
+        PUSH_ARGS=(origin "$PUSH_REFSPEC")
+        PUSH_COMMAND_DISPLAY="git push origin ${PUSH_REFSPEC}"
+        if [[ "$FORCE_PUSH" == "true" ]]; then
+          PUSH_ARGS=(--force-with-lease origin "$PUSH_REFSPEC")
+          PUSH_COMMAND_DISPLAY="git push --force-with-lease origin ${PUSH_REFSPEC}"
+        fi
+
+        if git push "${PUSH_ARGS[@]}"; then
+          if [[ "$FORCE_PUSH" == "true" ]]; then
+            printf "✅ Force-pushed %s to origin/%s with --force-with-lease.\n" "$PUSH_SOURCE_REF" "$PUSH_BRANCH"
+          else
+            printf "✅ Pushed %s to origin/%s.\n" "$PUSH_SOURCE_REF" "$PUSH_BRANCH"
+          fi
+        else
+          PUSH_EXIT_CODE=$?
+          if [[ "$FORCE_PUSH" == "true" ]]; then
+            printf "❌ Force push failed (exit %s).\n" "$PUSH_EXIT_CODE"
+          else
+            printf "❌ Push failed (exit %s).\n" "$PUSH_EXIT_CODE"
+          fi
+          printf "ℹ️ Commit is still local. Retry manually: %s\n" "$PUSH_COMMAND_DISPLAY"
+        fi
+      fi
+    fi
+  elif [[ "$PUSH_CHOICE" == "1" || "$PUSH_CHOICE" == "2" ]]; then
+    printf "⚠️ No branch name provided. Skipping push.\n"
+  else
+    printf "ℹ️ Push skipped.\n"
+  fi
 else
   printf "❌ Commit cancelled.\n"
 fi
