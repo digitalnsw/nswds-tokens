@@ -1,3 +1,10 @@
+## [2.28.3](https://github.com/digitalnsw/nswds-tokens/compare/v2.28.2...v2.28.3) (2026-03-29)
+
+
+### Bug Fixes
+
+* upgrade @eslint/eslintrc from 3.3.4 to 3.3.5 ([#59](https://github.com/digitalnsw/nswds-tokens/issues/59)) ([509f8f4](https://github.com/digitalnsw/nswds-tokens/commit/509f8f4e79b01c5922e953367e01142842631b91))
+
 ## [2.28.2](https://github.com/digitalnsw/nswds-tokens/compare/v2.28.1...v2.28.2) (2026-03-22)
 
 
