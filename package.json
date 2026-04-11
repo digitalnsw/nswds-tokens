@@ -116,7 +116,7 @@
   },
   "dependencies": {
     "@eslint/eslintrc": "^3.3.5",
-    "axios": "^1.13.6",
+    "axios": "^1.15.0",
     "culori": "^4.0.2",
     "dotenv": "^17.3.1"
   }
