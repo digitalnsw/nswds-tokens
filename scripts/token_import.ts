@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 
 import { colorApproximatelyEqual, parseColor } from './color.js'
-import { areSetsEqual } from './utils.js'
+import { areSetsEqual, assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 import { Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import {
   GetLocalVariablesResponse,
@@ -30,7 +30,7 @@ export function readJsonFiles(files: string[]) {
     if (path.basename(file) === '.DS_Store') {
       return
     }
-    const baseFileName = path.basename(file)
+    const baseFileName = assertSafePathSegment(path.basename(file), 'token file name')
     const { collectionName, modeName } = collectionAndModeFromFileName(baseFileName)
 
     if (seenCollectionsAndModes.has(`${collectionName}.${modeName}`)) {
@@ -56,6 +56,7 @@ function flattenTokensFile(tokensFile: TokensFile) {
   const flattenedTokens: { [tokenName: string]: Token } = {}
 
   Object.entries(tokensFile).forEach(([tokenGroup, groupValues]) => {
+    assertSafeObjectKey(tokenGroup, 'token group name')
     traverseCollection({ key: tokenGroup, object: groupValues, tokens: flattenedTokens })
   })
 
@@ -76,11 +77,14 @@ function traverseCollection({
     return
   }
 
+  assertSafeObjectKey(key, 'token name')
+
   if (object.$value !== undefined) {
     tokens[key] = object
   } else {
     Object.entries<TokenOrTokenGroup>(object).forEach(([key2, object2]) => {
       if (key2.charAt(0) !== '$' && typeof object2 === 'object') {
+        assertSafeObjectKey(key2, 'token name')
         traverseCollection({
           key: `${key}/${key2}`,
           object: object2,
@@ -123,9 +127,7 @@ function isAlias(value: string) {
 
 function variableValueFromToken(
   token: Token,
-  localVariablesByCollectionAndName: {
-    [variableCollectionId: string]: { [variableName: string]: LocalVariable }
-  },
+  localVariablesByCollectionAndName: Map<string, Map<string, LocalVariable>>,
 ): VariableValue {
   if (typeof token.$value === 'string' && isAlias(token.$value)) {
     // Assume aliases are in the format {group.subgroup.token} with any number of optional groups/subgroups
@@ -134,11 +136,12 @@ function variableValueFromToken(
 
     // When mapping aliases to existing local variables, we assume that variable names
     // are unique *across all collections* in the Figma file
-    for (const localVariablesByName of Object.values(localVariablesByCollectionAndName)) {
-      if (localVariablesByName[value]) {
+    for (const localVariablesByName of localVariablesByCollectionAndName.values()) {
+      const aliasedVariable = localVariablesByName.get(value)
+      if (aliasedVariable) {
         return {
           type: 'VARIABLE_ALIAS',
-          id: localVariablesByName[value].id,
+          id: aliasedVariable.id,
         }
       }
     }
@@ -236,31 +239,30 @@ export function generatePostVariablesPayload(
   tokensByFile: FlattenedTokensByFile,
   localVariables: GetLocalVariablesResponse,
 ) {
-  const localVariableCollectionsByName: { [name: string]: LocalVariableCollection } = {}
-  const localVariablesByCollectionAndName: {
-    [variableCollectionId: string]: { [variableName: string]: LocalVariable }
-  } = {}
+  const localVariableCollectionsByName = new Map<string, LocalVariableCollection>()
+  const localVariablesByCollectionAndName = new Map<string, Map<string, LocalVariable>>()
 
   Object.values(localVariables.meta.variableCollections).forEach((collection) => {
-    if (localVariableCollectionsByName[collection.name]) {
+    if (localVariableCollectionsByName.has(collection.name)) {
       throw new Error(`Duplicate variable collection in file: ${collection.name}`)
     }
 
-    localVariableCollectionsByName[collection.name] = collection
+    localVariableCollectionsByName.set(collection.name, collection)
   })
 
   Object.values(localVariables.meta.variables).forEach((variable) => {
-    if (!localVariablesByCollectionAndName[variable.variableCollectionId]) {
-      localVariablesByCollectionAndName[variable.variableCollectionId] = {}
+    let localVariablesByName = localVariablesByCollectionAndName.get(variable.variableCollectionId)
+    if (!localVariablesByName) {
+      localVariablesByName = new Map<string, LocalVariable>()
+      localVariablesByCollectionAndName.set(variable.variableCollectionId, localVariablesByName)
     }
 
-    localVariablesByCollectionAndName[variable.variableCollectionId][variable.name] = variable
+    localVariablesByName.set(variable.name, variable)
   })
 
-  console.log(
-    'Local variable collections in Figma file:',
-    Object.keys(localVariableCollectionsByName),
-  )
+  console.log('Local variable collections in Figma file:', [
+    ...localVariableCollectionsByName.keys(),
+  ])
 
   const postVariablesPayload: PostVariablesRequestBody = {
     variableCollections: [],
@@ -272,7 +274,7 @@ export function generatePostVariablesPayload(
   Object.entries(tokensByFile).forEach(([fileName, tokens]) => {
     const { collectionName, modeName } = collectionAndModeFromFileName(fileName)
 
-    const variableCollection = localVariableCollectionsByName[collectionName]
+    const variableCollection = localVariableCollectionsByName.get(collectionName)
     // Use the actual variable collection id or use the name as the temporary id
     const variableCollectionId = variableCollection ? variableCollection.id : collectionName
     const variableMode = variableCollection?.modes.find((mode) => mode.name === modeName)
@@ -315,10 +317,12 @@ export function generatePostVariablesPayload(
       })
     }
 
-    const localVariablesByName = localVariablesByCollectionAndName[variableCollection?.id] || {}
+    const localVariablesByName =
+      (variableCollection && localVariablesByCollectionAndName.get(variableCollection.id)) ||
+      new Map<string, LocalVariable>()
 
     Object.entries(tokens).forEach(([tokenName, token]) => {
-      const variable = localVariablesByName[tokenName]
+      const variable = localVariablesByName.get(tokenName)
       const variableId = variable ? variable.id : tokenName
       const variableInPayload = postVariablesPayload.variables!.find(
         (v) =>

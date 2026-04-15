@@ -447,4 +447,88 @@ describe('tokenFilesFromLocalVariables', () => {
       'Token name collision in primitives.mode1.json: "color" conflicts with an existing token group',
     )
   })
+
+  it('rejects unsafe token path segments from Figma', () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:1:1': {
+            id: 'VariableCollectionId:1:1',
+            name: 'primitives',
+            modes: [{ modeId: '1:0', name: 'mode1' }],
+            defaultModeId: '1:0',
+            remote: false,
+            key: 'variableKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:2:1'],
+          },
+        },
+        variables: {
+          'VariableID:2:1': {
+            id: 'VariableID:2:1',
+            name: 'color/__proto__',
+            key: 'variable_key',
+            variableCollectionId: 'VariableCollectionId:1:1',
+            resolvedType: 'COLOR',
+            valuesByMode: {
+              '1:0': { r: 1, g: 0, b: 0, a: 1 },
+            },
+            remote: false,
+            description: 'Unsafe token path',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    expect(() => tokenFilesFromLocalVariables(localVariablesResponse)).toThrowError(
+      'Invalid token path segment in "color/__proto__": "__proto__"',
+    )
+  })
+
+  it('rejects unsafe collection names from Figma', () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:1:1': {
+            id: 'VariableCollectionId:1:1',
+            name: '../primitives',
+            modes: [{ modeId: '1:0', name: 'mode1' }],
+            defaultModeId: '1:0',
+            remote: false,
+            key: 'variableKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:2:1'],
+          },
+        },
+        variables: {
+          'VariableID:2:1': {
+            id: 'VariableID:2:1',
+            name: 'color/brand',
+            key: 'variable_key',
+            variableCollectionId: 'VariableCollectionId:1:1',
+            resolvedType: 'COLOR',
+            valuesByMode: {
+              '1:0': { r: 1, g: 0, b: 0, a: 1 },
+            },
+            remote: false,
+            description: 'Nested color token',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    expect(() => tokenFilesFromLocalVariables(localVariablesResponse)).toThrowError(
+      'Invalid collection name: "../primitives"',
+    )
+  })
 })
