@@ -1,3 +1,4 @@
+import * as fs from 'fs'
 import * as path from 'path'
 
 export function green(msg: string) {
@@ -46,10 +47,35 @@ export function resolvePathInsideDirectory(
     throw new Error(`A ${context} is required`)
   }
 
-  const resolvedPath = path.resolve(allowedRoot, targetPath)
-  const relativePath = path.relative(allowedRoot, resolvedPath)
+  const allowedRootRealPath = fs.realpathSync.native(allowedRoot)
+  const resolvedPath = path.resolve(allowedRootRealPath, targetPath)
+  const relativePath = path.relative(allowedRootRealPath, resolvedPath)
 
-  if (relativePath.startsWith('..') || path.isAbsolute(relativePath)) {
+  if (
+    relativePath === '..' ||
+    relativePath.startsWith(`..${path.sep}`) ||
+    path.isAbsolute(relativePath)
+  ) {
+    throw new Error(`Invalid ${context}: "${targetPath}" must stay within ${allowedRoot}`)
+  }
+
+  let existingPath = resolvedPath
+  while (!fs.existsSync(existingPath)) {
+    const parentPath = path.dirname(existingPath)
+    if (parentPath === existingPath) {
+      throw new Error(`Invalid ${context}: "${targetPath}" must stay within ${allowedRoot}`)
+    }
+    existingPath = parentPath
+  }
+
+  const existingRealPath = fs.realpathSync.native(existingPath)
+  const existingRelativePath = path.relative(allowedRootRealPath, existingRealPath)
+
+  if (
+    existingRelativePath === '..' ||
+    existingRelativePath.startsWith(`..${path.sep}`) ||
+    path.isAbsolute(existingRelativePath)
+  ) {
     throw new Error(`Invalid ${context}: "${targetPath}" must stay within ${allowedRoot}`)
   }
 
