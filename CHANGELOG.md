@@ -1,3 +1,10 @@
+# [2.29.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.28.4...v2.29.0) (2026-04-15)
+
+
+### Features
+
+* **security:** Enhance Security Measures and Implement Safety Checks for Token and Path Handling ([#62](https://github.com/digitalnsw/nswds-tokens/issues/62)) ([748e54b](https://github.com/digitalnsw/nswds-tokens/commit/748e54b520aec82c4eeeba2321bb71f465d0a883))
+
 ## [2.28.4](https://github.com/digitalnsw/nswds-tokens/compare/v2.28.3...v2.28.4) (2026-04-12)
 
 
