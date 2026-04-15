@@ -30,11 +30,11 @@ export interface Token {
   }
 }
 
-export type TokenOrTokenGroup =
-  | Token
-  | ({
-      [tokenName: string]: Token
-    } & { $type?: never; $value?: never })
+export type TokenGroup = {
+  [tokenName: string]: TokenOrTokenGroup
+} & { $type?: never; $value?: never }
+
+export type TokenOrTokenGroup = Token | TokenGroup
 
 /**
  * Defines what we expect a Design Tokens file to look like in the codebase.

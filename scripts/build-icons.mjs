@@ -11,6 +11,7 @@ const outFile = path.join(__dirname, '..', './scripts/index.ts')
 const files = (await readdir(iconsDir)).filter((f) => f.endsWith('.svg')).sort()
 
 const isIdentifier = (s) => /^[A-Za-z_$][A-Za-z0-9_$]*$/.test(s)
+
 const lines = files
   .map((f) => {
     const key = f.replace(/\.svg$/, '')

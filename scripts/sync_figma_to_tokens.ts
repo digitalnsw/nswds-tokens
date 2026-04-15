@@ -1,9 +1,10 @@
 import 'dotenv/config'
 import * as fs from 'fs'
+import * as path from 'path'
 
 import FigmaApi from './figma_api.js'
 
-import { green } from './utils.js'
+import { assertSafePathSegment, green, resolvePathInsideDirectory } from './utils.js'
 import { tokenFilesFromLocalVariables } from './token_export.js'
 
 /**
@@ -18,7 +19,7 @@ import { tokenFilesFromLocalVariables } from './token_export.js'
 
 async function main() {
   if (!process.env.PERSONAL_ACCESS_TOKEN || !process.env.FILE_KEY) {
-    throw new Error('PERSONAL_ACCESS_TOKEN and FILE_KEY environemnt variables are required')
+    throw new Error('PERSONAL_ACCESS_TOKEN and FILE_KEY environment variables are required')
   }
   const fileKey = process.env.FILE_KEY
 
@@ -32,17 +33,21 @@ async function main() {
   if (outputArgIdx !== -1) {
     outputDir = process.argv[outputArgIdx + 1]
   }
+  const outputDirPath = resolvePathInsideDirectory(outputDir, process.cwd(), 'output directory')
+  const outputDirLabel = path.relative(process.cwd(), outputDirPath) || '.'
 
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir)
+  if (!fs.existsSync(outputDirPath)) {
+    fs.mkdirSync(outputDirPath, { recursive: true })
   }
 
   Object.entries(tokensFiles).forEach(([fileName, fileContent]) => {
-    fs.writeFileSync(`${outputDir}/${fileName}`, JSON.stringify(fileContent, null, 2))
-    console.log(`Wrote ${fileName}`)
+    const safeFileName = assertSafePathSegment(fileName, 'token file name')
+    const outputFilePath = path.join(outputDirPath, safeFileName)
+    fs.writeFileSync(outputFilePath, JSON.stringify(fileContent, null, 2))
+    console.log(`Wrote ${path.relative(process.cwd(), outputFilePath)}`)
   })
 
-  console.log(green(`✅ Tokens files have been written to the ${outputDir} directory`))
+  console.log(green(`✅ Tokens files have been written to the ${outputDirLabel} directory`))
 }
 
 main()
