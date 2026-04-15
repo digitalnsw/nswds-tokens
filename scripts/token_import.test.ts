@@ -50,6 +50,7 @@ vi.mock('fs', () => {
       $foo: 'bar',
       token1: { $type: 'string', $value: 'value1' },
     }),
+    'unsafe_key.mode1.json': '{"__proto__":{"$type":"string","$value":"value1"}}',
   }
 
   return {
@@ -120,6 +121,12 @@ describe('readJsonFiles', () => {
     expect(() => {
       readJsonFiles(['empty_file.mode1.json'])
     }).toThrowError('Invalid tokens file: empty_file.mode1.json. File is empty.')
+  })
+
+  it('rejects unsafe token keys', () => {
+    expect(() => {
+      readJsonFiles(['unsafe_key.mode1.json'])
+    }).toThrowError('Invalid token group name: "__proto__"')
   })
 })
 

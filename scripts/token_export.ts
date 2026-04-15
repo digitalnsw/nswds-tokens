@@ -1,11 +1,18 @@
 import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToHex } from './color.js'
-import { Token, TokensFile } from './token_types.js'
+import { Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
+import { assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 
 type MutableTokenGroup = Record<string, unknown>
+type TokenTreeNode = {
+  children: Map<string, TokenTreeNode>
+  token?: Token
+}
 
-function isTokenLeaf(value: unknown): value is Token {
-  return typeof value === 'object' && value !== null && !Array.isArray(value) && '$value' in value
+function createTokenTreeNode(): TokenTreeNode {
+  return {
+    children: new Map(),
+  }
 }
 
 function tokenTypeFromVariable(variable: LocalVariable) {
@@ -24,12 +31,15 @@ function tokenTypeFromVariable(variable: LocalVariable) {
 function tokenValueFromVariable(
   variable: LocalVariable,
   modeId: string,
-  localVariables: { [id: string]: LocalVariable },
+  localVariables: Map<string, LocalVariable>,
 ) {
   const value = variable.valuesByMode[modeId]
   if (typeof value === 'object') {
     if ('type' in value && value.type === 'VARIABLE_ALIAS') {
-      const aliasedVariable = localVariables[value.id]
+      const aliasedVariable = localVariables.get(value.id)
+      if (!aliasedVariable) {
+        throw new Error(`Aliased variable not found: ${value.id}`)
+      }
       return `{${aliasedVariable.name.replace(/\//g, '.')}}`
     } else if ('r' in value) {
       return rgbToHex(value)
@@ -42,48 +52,67 @@ function tokenValueFromVariable(
 }
 
 export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVariablesResponse) {
-  const tokenFiles: { [fileName: string]: TokensFile } = {}
-  const localVariableCollections = localVariablesResponse.meta.variableCollections
-  const localVariables = localVariablesResponse.meta.variables
+  const tokenFileTrees = new Map<string, TokenTreeNode>()
+  const localVariableCollections = new Map(
+    Object.values(localVariablesResponse.meta.variableCollections).map((collection) => [
+      collection.id,
+      collection,
+    ]),
+  )
+  const localVariables = new Map(
+    Object.values(localVariablesResponse.meta.variables).map((variable) => [variable.id, variable]),
+  )
 
-  Object.values(localVariables).forEach((variable) => {
+  localVariables.forEach((variable) => {
     // Skip remote variables because we only want to generate tokens for local variables
     if (variable.remote) {
       return
     }
 
-    const collection = localVariableCollections[variable.variableCollectionId]
+    const collection = localVariableCollections.get(variable.variableCollectionId)
+    if (!collection) {
+      throw new Error(`Variable collection not found for variable "${variable.name}"`)
+    }
 
     collection.modes.forEach((mode) => {
-      const fileName = `${collection.name}.${mode.name}.json`
+      const fileName = `${assertSafePathSegment(collection.name, 'collection name')}.${assertSafePathSegment(mode.name, 'mode name')}.json`
 
-      if (!tokenFiles[fileName]) {
-        tokenFiles[fileName] = {}
+      if (!tokenFileTrees.has(fileName)) {
+        tokenFileTrees.set(fileName, createTokenTreeNode())
       }
 
-      let obj: MutableTokenGroup = tokenFiles[fileName]
-      const pathSegments = variable.name.split('/')
+      let node = tokenFileTrees.get(fileName)!
+      const pathSegments = variable.name
+        .split('/')
+        .map((segment) => assertSafeObjectKey(segment, `token path segment in "${variable.name}"`))
 
       pathSegments.forEach((groupName, index) => {
         const segmentPath = pathSegments.slice(0, index + 1).join('/')
-        const next = obj[groupName]
+        const next = node.children.get(groupName)
 
-        if (next === undefined) {
-          obj[groupName] = {}
-        } else if (typeof next !== 'object' || next === null || Array.isArray(next)) {
-          throw new Error(
-            `Token name collision in ${fileName}: "${segmentPath}" is already defined as a non-group value`,
-          )
-        } else if (isTokenLeaf(next)) {
+        if (!next) {
+          const childNode = createTokenTreeNode()
+          node.children.set(groupName, childNode)
+          node = childNode
+          return
+        }
+
+        if (next.token && index < pathSegments.length - 1) {
           throw new Error(
             `Token name collision in ${fileName}: "${segmentPath}" is already defined as a token`,
           )
         }
 
-        obj = obj[groupName] as MutableTokenGroup
+        node = next
       })
 
-      if (Object.keys(obj).length > 0) {
+      if (node.token) {
+        throw new Error(
+          `Token name collision in ${fileName}: "${variable.name}" is already defined as a token`,
+        )
+      }
+
+      if (node.children.size > 0) {
         throw new Error(
           `Token name collision in ${fileName}: "${variable.name}" conflicts with an existing token group`,
         )
@@ -102,9 +131,38 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
         },
       }
 
-      Object.assign(obj, token)
+      node.token = token
     })
   })
 
-  return tokenFiles
+  return Object.fromEntries(
+    [...tokenFileTrees.entries()].map(([fileName, tokenTree]) => [
+      fileName,
+      tokenTreeNodeToTokensFile(tokenTree),
+    ]),
+  )
+}
+
+function tokenTreeNodeToTokensFile(tokenTree: TokenTreeNode) {
+  const tokensFile: TokensFile = {}
+
+  tokenTree.children.forEach((childNode, childName) => {
+    tokensFile[childName] = tokenTreeNodeToTokenValue(childNode)
+  })
+
+  return tokensFile
+}
+
+function tokenTreeNodeToTokenValue(tokenTree: TokenTreeNode): TokenOrTokenGroup {
+  if (tokenTree.token) {
+    return tokenTree.token
+  }
+
+  const tokenGroup: MutableTokenGroup = {}
+
+  tokenTree.children.forEach((childNode, childName) => {
+    tokenGroup[childName] = tokenTreeNodeToTokenValue(childNode)
+  })
+
+  return tokenGroup as TokenOrTokenGroup
 }
