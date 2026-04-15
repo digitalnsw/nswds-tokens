@@ -142,7 +142,7 @@ nvm use
 npm install
 ```
 
-Use Node.js 20 or newer for local development. This repo now runs `vitest@4` for `npm run test:tokens`, and that toolchain requires Node 20+.
+Use Node.js `^20.19.0` or `>=22.12.0` for local development. This repo now runs `vitest@4` for `npm run test:tokens`, and that toolchain requires at least Node `20.19.0` on the Node 20 release line.
 
 Build:
 
