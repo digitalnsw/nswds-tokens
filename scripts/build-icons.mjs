@@ -11,21 +11,11 @@ const outFile = path.join(__dirname, '..', './scripts/index.ts')
 const files = (await readdir(iconsDir)).filter((f) => f.endsWith('.svg')).sort()
 
 const isIdentifier = (s) => /^[A-Za-z_$][A-Za-z0-9_$]*$/.test(s)
-const computedKeyExpressions = new Map([['password', '"pass" + "word"']])
-
-const renderKey = (key) => {
-  const computedKeyExpression = computedKeyExpressions.get(key)
-  if (computedKeyExpression) {
-    return `[${computedKeyExpression}]`
-  }
-
-  return isIdentifier(key) ? key : JSON.stringify(key)
-}
 
 const lines = files
   .map((f) => {
     const key = f.replace(/\.svg$/, '')
-    const safeKey = renderKey(key)
+    const safeKey = isIdentifier(key) ? key : JSON.stringify(key)
     const value = JSON.stringify(`./icons/${f}`)
     return `  ${safeKey}: ${value},`
   })

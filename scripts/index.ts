@@ -2538,7 +2538,7 @@ export const icons = {
   partner_reports: "./icons/partner_reports.svg",
   party_mode: "./icons/party_mode.svg",
   passkey: "./icons/passkey.svg",
-  ["pass" + "word"]: "./icons/password.svg",
+  password: "./icons/password.svg",
   password_2: "./icons/password_2.svg",
   password_2_off: "./icons/password_2_off.svg",
   patient_list: "./icons/patient_list.svg",

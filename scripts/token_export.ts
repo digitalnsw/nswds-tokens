@@ -1,9 +1,8 @@
 import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToHex } from './color.js'
-import { Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
+import { Token, TokenGroup, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import { assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 
-type MutableTokenGroup = Record<string, unknown>
 type TokenTreeNode = {
   children: Map<string, TokenTreeNode>
   token?: Token
@@ -158,11 +157,11 @@ function tokenTreeNodeToTokenValue(tokenTree: TokenTreeNode): TokenOrTokenGroup 
     return tokenTree.token
   }
 
-  const tokenGroup: MutableTokenGroup = {}
+  const tokenGroup: TokenGroup = {}
 
   tokenTree.children.forEach((childNode, childName) => {
     tokenGroup[childName] = tokenTreeNodeToTokenValue(childNode)
   })
 
-  return tokenGroup as TokenOrTokenGroup
+  return tokenGroup
 }
