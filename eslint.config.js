@@ -17,5 +17,5 @@ export default defineConfig([
       'prettier/prettier': 'error', // Enforce Prettier formatting
     },
   },
-  globalIgnores(['!node_modules/', 'node_modules/*', 'dist/*']),
+  globalIgnores(['dist/**', 'scripts/index.ts']),
 ])

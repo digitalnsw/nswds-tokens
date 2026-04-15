@@ -13,7 +13,8 @@ async function main() {
   const fileKey = process.env.FILE_KEY
 
   const TOKENS_DIR = 'tokens'
-  const tokensFiles = fs.readdirSync(TOKENS_DIR)
+  const tokensFiles = fs
+    .readdirSync(TOKENS_DIR)
     .filter((file: string) => {
       const fullPath = `${TOKENS_DIR}/${file}`
       return fs.statSync(fullPath).isFile()
