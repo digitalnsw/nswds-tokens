@@ -2,6 +2,8 @@ import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToHex } from './color.js'
 import { Token, TokensFile } from './token_types.js'
 
+type MutableTokenGroup = Record<string, unknown>
+
 function tokenTypeFromVariable(variable: LocalVariable) {
   switch (variable.resolvedType) {
     case 'BOOLEAN':
@@ -55,11 +57,15 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
         tokenFiles[fileName] = {}
       }
 
-      let obj: any = tokenFiles[fileName]
+      let obj: MutableTokenGroup = tokenFiles[fileName]
 
       variable.name.split('/').forEach((groupName) => {
-        obj[groupName] = obj[groupName] || {}
-        obj = obj[groupName]
+        const next = obj[groupName]
+        if (typeof next !== 'object' || next === null || Array.isArray(next) || '$value' in next) {
+          obj[groupName] = {}
+        }
+
+        obj = obj[groupName] as MutableTokenGroup
       })
 
       const token: Token = {

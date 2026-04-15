@@ -313,6 +313,7 @@ if [[ "$CONFIRM" =~ ^[Yy]$ ]]; then
       ;;
     *)
       printf "ℹ️ Invalid option. Skipping push.\n"
+      PUSH_CHOICE="3"
       ;;
   esac
 
@@ -346,11 +347,20 @@ if [[ "$CONFIRM" =~ ^[Yy]$ ]]; then
           fi
         fi
 
-        PUSH_ARGS=(origin "$PUSH_REFSPEC")
-        PUSH_COMMAND_DISPLAY="git push origin ${PUSH_REFSPEC}"
-        if [[ "$FORCE_PUSH" == "true" ]]; then
-          PUSH_ARGS=(--force-with-lease origin "$PUSH_REFSPEC")
-          PUSH_COMMAND_DISPLAY="git push --force-with-lease origin ${PUSH_REFSPEC}"
+        if [[ "$PUSH_SOURCE_REF" != "HEAD" ]]; then
+          PUSH_ARGS=(--set-upstream origin "$PUSH_REFSPEC")
+          PUSH_COMMAND_DISPLAY="git push --set-upstream origin ${PUSH_REFSPEC}"
+          if [[ "$FORCE_PUSH" == "true" ]]; then
+            PUSH_ARGS=(--force-with-lease --set-upstream origin "$PUSH_REFSPEC")
+            PUSH_COMMAND_DISPLAY="git push --force-with-lease --set-upstream origin ${PUSH_REFSPEC}"
+          fi
+        else
+          PUSH_ARGS=(origin "$PUSH_REFSPEC")
+          PUSH_COMMAND_DISPLAY="git push origin ${PUSH_REFSPEC}"
+          if [[ "$FORCE_PUSH" == "true" ]]; then
+            PUSH_ARGS=(--force-with-lease origin "$PUSH_REFSPEC")
+            PUSH_COMMAND_DISPLAY="git push --force-with-lease origin ${PUSH_REFSPEC}"
+          fi
         fi
 
         if git push "${PUSH_ARGS[@]}"; then

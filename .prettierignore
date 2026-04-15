@@ -14,5 +14,7 @@ test-results
 junit.xml
 docs
 out
+dist
+scripts/index.ts
 package-lock.json
 public

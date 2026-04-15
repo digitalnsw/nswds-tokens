@@ -2,8 +2,16 @@
 
 set -euo pipefail
 
-# Allowed types
-ALLOWED_TYPES="feature|bugfix|hotfix|release|docs|build|test|refactor|chore"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BRANCH_CONFIG_SCRIPT="${SCRIPT_DIR}/branch-name-config.sh"
+
+if [[ ! -f "$BRANCH_CONFIG_SCRIPT" ]]; then
+  echo "❌ Branch config not found: $BRANCH_CONFIG_SCRIPT"
+  exit 1
+fi
+
+# shellcheck source=./branch-name-config.sh
+source "$BRANCH_CONFIG_SCRIPT"
 
 usage() {
   echo "Usage: ./create-branch.sh {branch-name} [--no-push]"
@@ -38,11 +46,8 @@ if [[ $# -gt 0 ]]; then
   exit 1
 fi
 
-# Regex pattern
-pattern="^(${ALLOWED_TYPES})(/(issue|ticket)/[A-Za-z0-9_-]+)?/[a-z0-9-]+$"
-
 # Check against pattern
-if [[ $branch_name =~ $pattern ]]; then
+if [[ $branch_name =~ $BRANCH_REGEX ]]; then
   git checkout -b "$branch_name"
   echo "✅ Branch '$branch_name' created."
   if [[ "$push_to_remote" == "true" ]]; then
@@ -55,6 +60,6 @@ if [[ $branch_name =~ $pattern ]]; then
 else
   echo "❌ Branch name '$branch_name' does not follow naming convention."
   echo "✅ Format: {type}[/issue/{number} | /ticket/{id}]/{short-description}"
-  echo "📌 Allowed types: $ALLOWED_TYPES"
+  echo "📌 Allowed types: $BRANCH_TYPES_CSV"
   exit 1
 fi
