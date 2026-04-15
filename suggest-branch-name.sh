@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-BASE_REQUIRED_CMDS=(git sed grep awk tr head wc paste cut sort uniq)
+BASE_REQUIRED_CMDS=(git cat sed grep awk tr head wc paste cut sort uniq)
 for cmd in "${BASE_REQUIRED_CMDS[@]}"; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
     printf "❌ Missing dependency: %s\n" "$cmd" >&2
@@ -81,6 +81,15 @@ fi
 
 CONVENTIONAL_COMMIT_TYPES_CSV="$("$CONVENTIONAL_CONFIG_SCRIPT" csv)"
 
+BRANCH_CONFIG_SCRIPT="${SCRIPT_DIR}/branch-name-config.sh"
+if [[ ! -f "$BRANCH_CONFIG_SCRIPT" ]]; then
+  printf "❌ Branch config not found: %s\n" "$BRANCH_CONFIG_SCRIPT" >&2
+  exit 1
+fi
+
+# shellcheck source=./branch-name-config.sh
+source "$BRANCH_CONFIG_SCRIPT"
+
 USE_OPENAI_API="true"
 if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   printf "ℹ️ OPENAI_API_KEY is not set; skipping AI suggestion and using fallback.\n" >&2
@@ -109,15 +118,11 @@ if [[ "$USE_OPENAI_API" == "true" ]]; then
   fi
 fi
 
-# Mirrors .github/workflows/validate-branch-name.yml.
-BRANCH_REGEX='^(feature|bugfix|hotfix|release|docs|build|test|refactor|chore)(/(issue|ticket)/[A-Za-z0-9_-]+)?/[a-z0-9-]+$'
-SNYK_REGEX='^snyk-upgrade-[0-9a-f]{32}$'
-BRANCH_TYPES_CSV='feature, bugfix, hotfix, release, docs, build, test, refactor, chore'
 MAX_DIFF_PREVIEW_LINES=1500
 MAX_DIFF_SCAN_LINES=5000
 
 if [[ -n "$issue_id" ]] && ! [[ "$issue_id" =~ ^[A-Za-z0-9_-]+$ ]]; then
-  printf "❌ Invalid issue/ticket id: %s (allowed: [A-Za-z0-9_-])\n" "$issue_id" >&2
+  printf "❌ Invalid issue/ticket id: %s (allowed characters: A-Z a-z 0-9 _ -)\n" "$issue_id" >&2
   exit 1
 fi
 
@@ -127,58 +132,81 @@ if [[ -f "$OPENCOMMIT_IGNORE_FILE" ]]; then
   opencommit_ignore_enabled="true"
 fi
 
-if git rev-parse --verify HEAD >/dev/null 2>&1; then
+repo_root="$(git rev-parse --show-toplevel 2>/dev/null)" || {
+  printf "❌ This script must be run inside a git repository.\n" >&2
+  exit 1
+}
+
+if git -C "$repo_root" rev-parse --verify HEAD >/dev/null 2>&1; then
   base_ref="HEAD"
 else
-  base_ref="$(git hash-object -t tree /dev/null)"
+  base_ref="$(git -C "$repo_root" hash-object -t tree /dev/null)"
 fi
 
 if [[ "$staged_only" == "true" ]]; then
-  raw_changed_files="$(git diff --name-only --cached || true)"
+  raw_changed_files="$(git -C "$repo_root" diff --name-only --cached || true)"
   raw_untracked_files=""
 else
-  raw_changed_files="$(git diff --name-only "$base_ref" || true)"
-  raw_untracked_files="$(git ls-files --others --exclude-standard || true)"
+  # Include staged-only paths explicitly so default mode always analyzes full change context.
+  raw_changed_files="$(
+    {
+      git -C "$repo_root" diff --name-only "$base_ref" || true
+      git -C "$repo_root" diff --name-only --cached || true
+    } | sed '/^$/d' | awk '!seen[$0]++'
+  )"
+  raw_untracked_files="$(git -C "$repo_root" ls-files --others --exclude-standard || true)"
 fi
 
 changed_files=""
 untracked_files=""
 ignored_paths=""
-
 if [[ "$opencommit_ignore_enabled" == "true" ]]; then
-  while IFS= read -r path; do
-    [[ -z "$path" ]] && continue
-    if git -c core.excludesFile="$OPENCOMMIT_IGNORE_FILE" check-ignore --no-index -q -- "$path"; then
-      if [[ -n "$ignored_paths" ]]; then
-        ignored_paths="${ignored_paths}"$'\n'
-      fi
-      ignored_paths="${ignored_paths}${path}"
-    else
-      if [[ -n "$changed_files" ]]; then
-        changed_files="${changed_files}"$'\n'
-      fi
-      changed_files="${changed_files}${path}"
-    fi
-  done <<< "$raw_changed_files"
-
-  while IFS= read -r path; do
-    [[ -z "$path" ]] && continue
-    if git -c core.excludesFile="$OPENCOMMIT_IGNORE_FILE" check-ignore --no-index -q -- "$path"; then
-      if [[ -n "$ignored_paths" ]]; then
-        ignored_paths="${ignored_paths}"$'\n'
-      fi
-      ignored_paths="${ignored_paths}${path}"
-    else
-      if [[ -n "$untracked_files" ]]; then
-        untracked_files="${untracked_files}"$'\n'
-      fi
-      untracked_files="${untracked_files}${path}"
-    fi
-  done <<< "$raw_untracked_files"
+  ignore_filter_description="Git ignore pattern matching, including ${OPENCOMMIT_IGNORE_FILE}"
 else
-  changed_files="$raw_changed_files"
-  untracked_files="$raw_untracked_files"
+  ignore_filter_description="Git ignore pattern matching"
 fi
+
+should_ignore_path() {
+  local path="$1"
+  if [[ "$opencommit_ignore_enabled" == "true" ]]; then
+    if git -C "$repo_root" -c core.excludesFile="$OPENCOMMIT_IGNORE_FILE" check-ignore --no-index -q -- "$path" 2>/dev/null; then
+      return 0
+    fi
+  elif git -C "$repo_root" check-ignore --no-index -q -- "$path" 2>/dev/null; then
+    return 0
+  fi
+  return 1
+}
+
+while IFS= read -r path; do
+  [[ -z "$path" ]] && continue
+  if should_ignore_path "$path"; then
+    if [[ -n "$ignored_paths" ]]; then
+      ignored_paths="${ignored_paths}"$'\n'
+    fi
+    ignored_paths="${ignored_paths}${path}"
+  else
+    if [[ -n "$changed_files" ]]; then
+      changed_files="${changed_files}"$'\n'
+    fi
+    changed_files="${changed_files}${path}"
+  fi
+done <<< "$raw_changed_files"
+
+while IFS= read -r path; do
+  [[ -z "$path" ]] && continue
+  if should_ignore_path "$path"; then
+    if [[ -n "$ignored_paths" ]]; then
+      ignored_paths="${ignored_paths}"$'\n'
+    fi
+    ignored_paths="${ignored_paths}${path}"
+  else
+    if [[ -n "$untracked_files" ]]; then
+      untracked_files="${untracked_files}"$'\n'
+    fi
+    untracked_files="${untracked_files}${path}"
+  fi
+done <<< "$raw_untracked_files"
 
 changed_files="$(printf '%s\n' "$changed_files" | sed '/^$/d')"
 untracked_files="$(printf '%s\n' "$untracked_files" | sed '/^$/d')"
@@ -198,9 +226,15 @@ done <<< "$changed_files"
 full_diff=""
 if (( ${#changed_files_arr[@]} > 0 )); then
   if [[ "$staged_only" == "true" ]]; then
-    full_diff="$(git diff --cached -- "${changed_files_arr[@]}" | sed -n "1,${MAX_DIFF_SCAN_LINES}p" || true)"
+    full_diff="$(git -C "$repo_root" diff --cached -- "${changed_files_arr[@]}" | sed -n "1,${MAX_DIFF_SCAN_LINES}p" || true)"
   else
-    full_diff="$(git diff "$base_ref" -- "${changed_files_arr[@]}" | sed -n "1,${MAX_DIFF_SCAN_LINES}p" || true)"
+    # Build full pending-change context from both index and working tree.
+    full_diff="$(
+      {
+        git -C "$repo_root" diff --cached -- "${changed_files_arr[@]}" || true
+        git -C "$repo_root" diff -- "${changed_files_arr[@]}" || true
+      } | sed -n "1,${MAX_DIFF_SCAN_LINES}p"
+    )"
   fi
 fi
 
@@ -218,23 +252,25 @@ if [[ -z "$full_diff" && -z "$changed_files" && -n "$untracked_files" ]]; then
 fi
 
 if [[ -z "$changed_files" && -z "$untracked_files" ]]; then
-  if [[ "$opencommit_ignore_enabled" == "true" && "$ignored_paths_count" -gt 0 ]]; then
-    printf "❌ No code changes detected after applying %s (%s paths ignored).\n" "$OPENCOMMIT_IGNORE_FILE" "$ignored_paths_count" >&2
+  if [[ "$ignored_paths_count" -gt 0 ]]; then
+    printf "❌ No code changes detected after filtering collected candidate paths with %s (%s path(s) filtered).\n" "$ignore_filter_description" "$ignored_paths_count" >&2
   else
     printf "❌ No code changes detected.\n" >&2
   fi
   exit 1
 fi
-
-if [[ "$opencommit_ignore_enabled" == "true" && "$ignored_paths_count" -gt 0 ]]; then
-  printf "ℹ️ Applied %s: ignored %s path(s).\n" "$OPENCOMMIT_IGNORE_FILE" "$ignored_paths_count"
+if [[ "$ignored_paths_count" -gt 0 ]]; then
+  printf "ℹ️ Filtered %s collected candidate path(s) with %s.\n" "$ignored_paths_count" "$ignore_filter_description"
 fi
 
 SENSITIVE_REGEX='(-----BEGIN (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|xox[baprs]-[0-9A-Za-z-]{10,}|gh[pousr]_[0-9A-Za-z]{20,}|github_pat_[0-9A-Za-z_]{20,}|password[[:space:]]*[:=]|api[_-]?key[[:space:]]*[:=]|secret[[:space:]]*[:=]|token[[:space:]]*[:=]|authorization[[:space:]]*[:=])'
 if [[ "$USE_OPENAI_API" == "true" ]] && printf '%s\n' "$full_diff" | grep -Eqi "$SENSITIVE_REGEX"; then
   printf "⚠️ Potential secrets detected in the diff.\n"
   printf "This script sends a diff preview to the OpenAI API.\n"
-  read -r -p "Proceed anyway? (y/N) " proceed
+  proceed=""
+  if ! read -r -p "Proceed anyway? (y/N) " proceed; then
+    proceed=""
+  fi
   if [[ ! "${proceed:-}" =~ ^[Yy]$ ]]; then
     printf "Aborted.\n"
     exit 1
@@ -369,7 +405,9 @@ map_branch_type() {
     build|ci|deps|dependency|dependencies) printf "build" ;;
     test|tests|testing) printf "test" ;;
     refactor|refactoring|perf|performance|cleanup|clean-up) printf "refactor" ;;
-    chore|style|ops|maintenance|maint|merge|revert) printf "chore" ;;
+    style|format|formatting) printf "style" ;;
+    chore|ops|maintenance|maint|merge) printf "chore" ;;
+    revert) printf "hotfix" ;;
     *) printf "" ;;
   esac
 }
@@ -555,17 +593,34 @@ generate_fallback_branch_name() {
   local files="$1"
   local branch_type slug_parts slug branch
   local total top1 top1_count top2 top2_count top_focus area_token size_token topic_token
+  local top_entry_dir top_entry_count
   local -a slug_tokens=()
 
   branch_type="$(infer_fallback_branch_type "$files")"
   total="$(printf '%s\n' "$files" | sed '/^$/d' | wc -l | tr -d ' ')"
 
+  top1=""
+  top2=""
   top1_count="0"
   top2_count="0"
-  top1="$(printf '%s\n' "$files" | sed '/^$/d' | awk -F/ '{print $1}' | sort | uniq -c | sort -nr | awk 'NR==1 {print $2}')"
-  top1_count="$(printf '%s\n' "$files" | sed '/^$/d' | awk -F/ '{print $1}' | sort | uniq -c | sort -nr | awk 'NR==1 {print $1}')"
-  top2="$(printf '%s\n' "$files" | sed '/^$/d' | awk -F/ '{print $1}' | sort | uniq -c | sort -nr | awk 'NR==2 {print $2}')"
-  top2_count="$(printf '%s\n' "$files" | sed '/^$/d' | awk -F/ '{print $1}' | sort | uniq -c | sort -nr | awk 'NR==2 {print $1}')"
+  while IFS=$'\t' read -r top_entry_dir top_entry_count; do
+    if [[ -z "$top1" ]]; then
+      top1="$top_entry_dir"
+      top1_count="${top_entry_count:-0}"
+    else
+      top2="$top_entry_dir"
+      top2_count="${top_entry_count:-0}"
+      break
+    fi
+  done < <(
+    printf '%s\n' "$files" \
+      | sed '/^$/d' \
+      | awk -F/ '{print $1}' \
+      | sort \
+      | uniq -c \
+      | sort -nr \
+      | awk 'NR<=2 {print $2 "\t" $1}'
+  )
   top1_count="${top1_count:-0}"
   top2_count="${top2_count:-0}"
   if ! [[ "$top1_count" =~ ^[0-9]+$ ]]; then
@@ -654,16 +709,12 @@ change_scope_summary="$(summarize_changed_paths "$files_context")"
 preferred_branch_type="$(infer_fallback_branch_type "$files_context")"
 preferred_fallback_branch="$(generate_fallback_branch_name "$files_context")"
 ignored_paths_sample="$(printf '%s\n' "$ignored_paths" | sed '/^$/d' | sed -n '1,8p')"
-if [[ "$opencommit_ignore_enabled" == "true" ]]; then
-  if [[ "$ignored_paths_count" -gt 0 ]]; then
-    opencommit_ignore_summary="Applied ${OPENCOMMIT_IGNORE_FILE}; ignored ${ignored_paths_count} path(s).
+if [[ "$ignored_paths_count" -gt 0 ]]; then
+  ignore_filter_summary="Filtered ${ignored_paths_count} collected candidate path(s) with ${ignore_filter_description}.
 Ignored sample:
 ${ignored_paths_sample}"
-  else
-    opencommit_ignore_summary="Applied ${OPENCOMMIT_IGNORE_FILE}; no paths ignored."
-  fi
 else
-  opencommit_ignore_summary=".opencommitignore file not found; no extra ignore filtering applied."
+  ignore_filter_summary="No collected candidate paths were filtered with ${ignore_filter_description}."
 fi
 
 changed_files_for_prompt="$(printf '%s\n' "$changed_files" | sed '/^$/d' | sed -n '1,250p')"
@@ -695,7 +746,7 @@ Output requirements:
 - Allowed branch types (prefix): ${BRANCH_TYPES_CSV}
 - Conventional Commit types configured in this repo: ${CONVENTIONAL_COMMIT_TYPES_CSV}
 - Use this mapping to align branch type to commit intent:
-  feat->feature, fix->bugfix, refactor->refactor, perf->refactor, style->chore, test->test, build->build, ops->chore, docs->docs, chore->chore, merge->chore, revert->hotfix
+  feat->feature, fix->bugfix, refactor->refactor, perf->refactor, style->style, test->test, build->build, ops->chore, docs->docs, chore->chore, merge->chore, revert->hotfix
 - CRITICAL: Branch names must be either <type>/<slug> or <type>/(issue|ticket)/<id>/<slug>. Do not include any additional "/" segments.
 - Keep the slug concise, lowercase, and hyphenated ([a-z0-9-] only).
 - If the change set spans many files/directories, use a broader slug (for example large-multi-area-updates) instead of naming one component.
@@ -718,7 +769,7 @@ Change scope summary:
 ${change_scope_summary}
 
 Ignore filtering summary:
-${opencommit_ignore_summary}
+${ignore_filter_summary}
 
 Changed files:
 ${changed_files_for_prompt}
@@ -854,11 +905,17 @@ if [[ "$create_branch" == "true" ]]; then
   fi
 
   while true; do
-    read -r -p "Use this suggestion to create a branch now? (y/n): " create_confirm
+    create_confirm=""
+    if ! read -r -p "Use this suggestion to create a branch now? (y/n): " create_confirm; then
+      create_confirm="n"
+    fi
     case "${create_confirm:-}" in
       [Yy])
         while true; do
-          read -r -p "Push the branch to origin now? (y/n): " push_confirm
+          push_confirm=""
+          if ! read -r -p "Push the branch to origin now? (y/n): " push_confirm; then
+            push_confirm="n"
+          fi
           case "${push_confirm:-}" in
             [Yy])
               bash "$CREATE_BRANCH_SCRIPT" "$suggested_branch"

@@ -66,7 +66,7 @@ There are a few common ways to consume the tokens. Adjust paths to match your `d
 Or via JS/TS (for bundlers that support CSS imports):
 
 ```ts
-import '@nswds/tokens/prism.css';
+import '@nswds/tokens/prism.css'
 ```
 
 The full path is also available:
@@ -138,15 +138,17 @@ Example:
 ```bash
 git clone https://github.com/digitalnsw/nswds-tokens.git
 cd nswds-tokens
+nvm use
 npm install
 ```
+
+Use Node.js `^20.19.0` or `>=22.12.0` for local development. This repo now runs `vitest@4` for `npm run test:tokens`, and that toolchain requires at least Node `20.19.0` on the Node 20 release line.
 
 Build:
 
 ```bash
 npm run build
-npm run dev
-npm test
+npm run test:tokens
 npm run lint
 ```
 

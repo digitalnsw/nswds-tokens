@@ -11,18 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.16.0'
+          node-version: '20'
 
       - name: Set NPM version
         run: npm install -g npm@9.5.1
 
       - name: Clone repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: npm install
+        run: npm clean-install
 
       - name: Sync tokens to Figma file
         run: npm run sync-tokens-to-figma

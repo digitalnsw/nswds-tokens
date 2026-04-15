@@ -2,6 +2,12 @@ import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToHex } from './color.js'
 import { Token, TokensFile } from './token_types.js'
 
+type MutableTokenGroup = Record<string, unknown>
+
+function isTokenLeaf(value: unknown): value is Token {
+  return typeof value === 'object' && value !== null && !Array.isArray(value) && '$value' in value
+}
+
 function tokenTypeFromVariable(variable: LocalVariable) {
   switch (variable.resolvedType) {
     case 'BOOLEAN':
@@ -55,12 +61,33 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
         tokenFiles[fileName] = {}
       }
 
-      let obj: any = tokenFiles[fileName]
+      let obj: MutableTokenGroup = tokenFiles[fileName]
+      const pathSegments = variable.name.split('/')
 
-      variable.name.split('/').forEach((groupName) => {
-        obj[groupName] = obj[groupName] || {}
-        obj = obj[groupName]
+      pathSegments.forEach((groupName, index) => {
+        const segmentPath = pathSegments.slice(0, index + 1).join('/')
+        const next = obj[groupName]
+
+        if (next === undefined) {
+          obj[groupName] = {}
+        } else if (typeof next !== 'object' || next === null || Array.isArray(next)) {
+          throw new Error(
+            `Token name collision in ${fileName}: "${segmentPath}" is already defined as a non-group value`,
+          )
+        } else if (isTokenLeaf(next)) {
+          throw new Error(
+            `Token name collision in ${fileName}: "${segmentPath}" is already defined as a token`,
+          )
+        }
+
+        obj = obj[groupName] as MutableTokenGroup
       })
+
+      if (Object.keys(obj).length > 0) {
+        throw new Error(
+          `Token name collision in ${fileName}: "${variable.name}" conflicts with an existing token group`,
+        )
+      }
 
       const token: Token = {
         $type: tokenTypeFromVariable(variable),
