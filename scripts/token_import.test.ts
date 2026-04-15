@@ -4,6 +4,7 @@ import {
   generatePostVariablesPayload,
   readJsonFiles,
 } from './token_import.js'
+import { vi } from 'vitest'
 
 vi.mock('fs', () => {
   const MOCK_FILE_INFO: { [fileName: string]: string } = {
