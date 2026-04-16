@@ -1,3 +1,10 @@
+# [2.30.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.29.0...v2.30.0) (2026-04-16)
+
+
+### Features
+
+* **build-icons, sync_figma_to_tokens:** Add computed property support for sensitive icons and refactor output directory handling ([#63](https://github.com/digitalnsw/nswds-tokens/issues/63)) ([8afd040](https://github.com/digitalnsw/nswds-tokens/commit/8afd04038caa0b613a97c67085fd80767195691a))
+
 # [2.29.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.28.4...v2.29.0) (2026-04-15)
 
 
