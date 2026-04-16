@@ -4,7 +4,7 @@ import * as path from 'path'
 
 import FigmaApi from './figma_api.js'
 
-import { assertSafePathSegment, green } from './utils.js'
+import { assertSafePathSegment, green, resolvePathInsideDirectory } from './utils.js'
 import { tokenFilesFromLocalVariables } from './token_export.js'
 
 /**
@@ -22,6 +22,7 @@ async function main() {
     throw new Error('PERSONAL_ACCESS_TOKEN and FILE_KEY environment variables are required')
   }
   const fileKey = process.env.FILE_KEY
+  const currentWorkingDirectory = fs.realpathSync.native(process.cwd())
 
   const api = new FigmaApi(process.env.PERSONAL_ACCESS_TOKEN)
   const localVariables = await api.getLocalVariables(fileKey)
@@ -31,16 +32,22 @@ async function main() {
   let outputDirName = 'tokens_new'
   const outputArgIdx = process.argv.indexOf('--output')
   if (outputArgIdx !== -1) {
-    outputDirName = assertSafePathSegment(process.argv[outputArgIdx + 1], 'output directory name')
+    const rawOutputDirName = process.argv[outputArgIdx + 1]
+    if (!rawOutputDirName) {
+      throw new Error('An output directory is required')
+    }
+    outputDirName = assertSafePathSegment(rawOutputDirName, 'output directory name')
   }
-  const outputDirPath = path.join(process.cwd(), outputDirName)
-  const outputDirLabel = path.relative(process.cwd(), outputDirPath) || '.'
+  const outputDirPath = resolvePathInsideDirectory(
+    outputDirName,
+    currentWorkingDirectory,
+    'output directory',
+  )
+  const outputDirLabel = path.relative(currentWorkingDirectory, outputDirPath) || '.'
 
   if (!fs.existsSync(outputDirPath)) {
     fs.mkdirSync(outputDirPath, { recursive: true })
   }
-
-  const currentWorkingDirectory = process.cwd()
 
   process.chdir(outputDirPath)
 
