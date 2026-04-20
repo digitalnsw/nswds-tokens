@@ -7,3 +7,4 @@
 # env files
 .env*
 snyk-code-analysis.json
+snyk-analysis.json
