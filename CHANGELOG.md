@@ -1,3 +1,10 @@
+## [2.30.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.30.0...v2.30.1) (2026-04-28)
+
+
+### Bug Fixes
+
+* package.json & package-lock.json to reduce vulnerabilities ([#65](https://github.com/digitalnsw/nswds-tokens/issues/65)) ([6fd4e61](https://github.com/digitalnsw/nswds-tokens/commit/6fd4e618b66484e0a68032cb18aef39f18148eea))
+
 # [2.30.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.29.0...v2.30.0) (2026-04-16)
 
 
