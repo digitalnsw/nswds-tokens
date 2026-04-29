@@ -1,3 +1,10 @@
+# [2.31.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.30.1...v2.31.0) (2026-04-29)
+
+
+### Features
+
+* **workflows:** add check-dist-artifacts workflow to verify committed dist artifacts on pull requests ([#66](https://github.com/digitalnsw/nswds-tokens/issues/66)) ([eb0bdae](https://github.com/digitalnsw/nswds-tokens/commit/eb0bdae860a4da304c2fff9e8cc4f6d372dc6c9e))
+
 ## [2.30.1](https://github.com/digitalnsw/nswds-tokens/compare/v2.30.0...v2.30.1) (2026-04-28)
 
 
