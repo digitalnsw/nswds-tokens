@@ -1,0 +1,30 @@
+name: Check Dist Artifacts
+
+on:
+  pull_request:
+  merge_group:
+
+permissions:
+  contents: read
+
+jobs:
+  check-dist-artifacts:
+    name: Check dist artifacts
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm clean-install
+
+      - name: Rebuild and verify committed dist artifacts
+        run: npm run check:dist
