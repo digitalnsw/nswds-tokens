@@ -17,6 +17,7 @@
     "format": "npx prettier --write .",
     "copy-styles": "node scripts/copy-styles.mjs",
     "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
+    "check:dist": "node scripts/check-dist.mjs",
     "test:tokens": "vitest run --globals",
     "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",
     "sync-figma-to-tokens": "tsx scripts/sync_figma_to_tokens.ts"
