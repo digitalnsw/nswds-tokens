@@ -89,9 +89,12 @@ Or via the full exported subpath:
 ### 5. Raw JSON and design-token files
 
 ```ts
-import globalHex from '@nswds/tokens/json/colors/global/hex.json' with { type: 'json' }
-import rawHex from '@nswds/tokens/tokens/global/color/hex.json' with { type: 'json' }
-import masterbrandFigma from '@nswds/tokens/figma/color/themes/masterbrand/color/hex.json' with { type: 'json' }
+import { createRequire } from 'node:module'
+
+const require = createRequire(import.meta.url)
+const globalHex = require('@nswds/tokens/json/colors/global/hex.json')
+const rawHex = require('@nswds/tokens/tokens/global/color/hex.json')
+const masterbrandFigma = require('@nswds/tokens/figma/color/themes/masterbrand/color/hex.json')
 
 console.log(globalHex['nsw-blue'][500].$value)
 console.log(rawHex['nsw-blue'][500].$value)

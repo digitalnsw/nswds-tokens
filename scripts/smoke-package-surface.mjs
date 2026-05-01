@@ -28,9 +28,10 @@ const run = (command, args, options = {}) => {
   }
 
   if (result.status !== 0) {
-    if (result.stdout) process.stdout.write(result.stdout)
-    if (result.stderr) process.stderr.write(result.stderr)
-    process.exit(result.status ?? 1)
+    throw Object.assign(new Error(`Command failed with status ${result.status ?? 1}: ${command}`), {
+      stderr: result.stderr ?? '',
+      stdout: result.stdout ?? '',
+    })
   }
 
   return result.stdout?.trimEnd() ?? ''
@@ -51,11 +52,7 @@ try {
   const sourcePaths = publishedPaths.filter((path) => path.startsWith('src/'))
 
   if (sourcePaths.length > 0) {
-    console.error('Source files should not be published:')
-    for (const path of sourcePaths) {
-      console.error(`- ${path}`)
-    }
-    process.exit(1)
+    throw new Error(`Source files should not be published:\n${sourcePaths.map((path) => `- ${path}`).join('\n')}`)
   }
 
   mkdirSync(packageDir, { recursive: true })
@@ -124,6 +121,11 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
   run(process.execPath, [join(consumerDir, 'verify.mjs')], { cwd: consumerDir, stdio: 'inherit' })
 
   console.log('\nPackage surface smoke check passed.')
+} catch (error) {
+  if (error.stdout) process.stdout.write(error.stdout)
+  if (error.stderr) process.stderr.write(error.stderr)
+  console.error(error.message)
+  process.exitCode = 1
 } finally {
   rmSync(tempRoot, { recursive: true, force: true })
 }
