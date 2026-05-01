@@ -1,3 +1,10 @@
+# [2.32.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.31.0...v2.32.0) (2026-05-01)
+
+
+### Features
+
+* **workflows:** Add version synchronization and smoke tests, fix module entry point, chore scripts, and update README documentation ([#67](https://github.com/digitalnsw/nswds-tokens/issues/67)) ([2d14aa7](https://github.com/digitalnsw/nswds-tokens/commit/2d14aa70adaf07fc922e4817034fc495a87f964b))
+
 # [2.31.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.30.1...v2.31.0) (2026-04-29)
 
 
