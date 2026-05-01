@@ -8,16 +8,18 @@
     "url": "git+https://github.com/digitalnsw/nswds-tokens.git"
   },
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "scripts": {
     "semantic-release": "semantic-release",
     "lint": "npx eslint . ",
     "format": "npx prettier --write .",
+    "postversion": "node scripts/sync-package-lock-version.mjs",
     "copy-styles": "node scripts/copy-styles.mjs",
     "build": "tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
     "check:dist": "node scripts/check-dist.mjs",
+    "smoke:package-surface": "node scripts/smoke-package-surface.mjs",
+    "check:version-sync": "node scripts/check-release-metadata.mjs",
     "test:tokens": "vitest run --globals",
     "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",
     "sync-figma-to-tokens": "tsx scripts/sync_figma_to_tokens.ts"
@@ -46,7 +48,7 @@
   "author": "NSW Design System",
   "type": "module",
   "main": "dist/index.cjs",
-  "module": "dist/index.mjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
@@ -54,33 +56,16 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     },
-    "./css/colors/global/*": "./dist/css/colors/global/*",
-    "./css/colors/themes/*": "./dist/css/colors/themes/*",
-    "./css/colors/semantic/*": "./dist/css/colors/semantic/*",
-    "./css/prism/prism.css": "./dist/css/prism/prism.css",
-    "./figma/colors/global/*": "./dist/figma/colors/global/*",
-    "./figma/colors/themes/*": "./dist/figma/colors/themes/*",
-    "./figma/colors/semantic/*": "./dist/figma/colors/semantic/*",
-    "./js/colors/global/*": "./dist/js/colors/global/*",
-    "./js/colors/themes/*": "./dist/js/colors/themes/*",
-    "./js/colors/semantic/*": "./dist/js/colors/semantic/*",
-    "./json/colors/global/*": "./dist/json/colors/global/*",
-    "./json/colors/themes/*": "./dist/json/colors/themes/*",
-    "./json/colors/semantic/*": "./dist/json/colors/semantic/*",
-    "./less/colors/global/*": "./dist/less/colors/global/*",
-    "./less/colors/themes/*": "./dist/less/colors/themes/*",
-    "./less/colors/semantic/*": "./dist/less/colors/semantic/*",
-    "./scss/colors/global/*": "./dist/scss/colors/global/*",
-    "./scss/colors/themes/*": "./dist/scss/colors/themes/*",
-    "./scss/colors/semantic/*": "./dist/scss/colors/semantic/*",
-    "./tailwind/colors/global/*": "./dist/tailwind/colors/global/*",
-    "./tailwind/colors/themes/*": "./dist/tailwind/colors/themes/*",
-    "./tailwind/colors/semantic/*": "./dist/tailwind/colors/semantic/*",
-    "./ts/colors/global/*": "./dist/ts/colors/global/*",
-    "./ts/colors/themes/*": "./dist/ts/colors/themes/*",
-    "./ts/colors/semantic/*": "./dist/ts/colors/semantic/*",
+    "./brand/*": "./dist/brand/*",
+    "./css/*": "./dist/css/*",
+    "./figma/*": "./dist/figma/*",
+    "./js/*": "./dist/js/*",
+    "./json/*": "./dist/json/*",
+    "./less/*": "./dist/less/*",
+    "./scss/*": "./dist/scss/*",
+    "./tailwind/*": "./dist/tailwind/*",
     "./tokens/*": "./dist/tokens/*",
-    "./css/prism/*": "./dist/css/prism/*",
+    "./ts/*": "./dist/ts/*",
     "./prism.css": "./dist/css/prism/prism.css"
   },
   "publishConfig": {

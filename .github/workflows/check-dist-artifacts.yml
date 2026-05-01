@@ -26,5 +26,8 @@ jobs:
       - name: Install dependencies
         run: npm clean-install
 
+      - name: Verify release metadata is aligned
+        run: npm run check:version-sync
+
       - name: Rebuild and verify committed dist artifacts
         run: npm run check:dist

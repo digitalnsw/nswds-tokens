@@ -1,34 +1,35 @@
-# nswds-tokens
+# @nswds/tokens
 
-Design tokens for the NSW Design System – a single source of truth for colour, typography, spacing, radii, breakpoints and more.
+Colour tokens and related assets for the NSW Design System.
 
-These tokens are used to keep NSW digital products visually consistent, accessible and easy to maintain.
+The published package currently ships:
 
-> ℹ️ **Note:** Update package names, file paths and script names below to match this repo’s actual setup.
+- the root JavaScript and CommonJS entrypoints at `@nswds/tokens`
+- raw colour token files under `css/`, `scss/`, `less/`, `js/`, `json/`, `tailwind/`, `tokens/`, `ts/`, and `figma/`
+- Prism styles at `@nswds/tokens/prism.css`
+- brand assets under `@nswds/tokens/brand/*`
 
 ---
 
 ## Features
 
-- 🎨 Centralised colour system (including Aboriginal and NSW palettes)
-- ✏️ Typography scales and font stacks
-- 📏 Spacing, sizing and layout tokens
-- 🧱 Border radius, shadows and other UI primitives
-- 🌗 Theme-aware tokens for different NSW themes
-- 🧩 Ready to consume from CSS, Sass, JavaScript/TypeScript or build tools
+- Global, semantic, and themed NSW colour tokens
+- Published outputs for CSS, Sass/SCSS, Less, JavaScript, JSON, Tailwind, DTCG JSON, and Figma
+- Root JS API for consuming token collections directly
+- Prism stylesheet and brand asset files alongside the token exports
 
 ---
 
 ## Installation
 
-Install via your package manager (replace the package name if different):
+Install via your package manager:
 
 ```bash
-npm install @digitalnsw/nswds-tokens
+npm install @nswds/tokens
 # or
-yarn add @digitalnsw/nswds-tokens
+yarn add @nswds/tokens
 # or
-pnpm add @digitalnsw/nswds-tokens
+pnpm add @nswds/tokens
 ```
 
 If you are using this repo locally (e.g. via workspace):
@@ -42,94 +43,88 @@ npm install
 
 ## Using the tokens
 
-There are a few common ways to consume the tokens. Adjust paths to match your `dist/` structure.
+Use the package export paths directly. Do not import from `dist/`.
 
-### 1. CSS custom properties
+### 1. JavaScript / TypeScript
+
+```ts
+import { tokens } from '@nswds/tokens'
+
+console.log(tokens.colors.global.hex['nsw-blue'][500].$value)
+```
+
+### 2. CSS custom properties
 
 ```css
-@import '@digitalnsw/nswds-tokens/dist/tokens.css';
+@import '@nswds/tokens/css/colors/global/hex.css';
+@import '@nswds/tokens/css/colors/themes/masterbrand/hex.css';
 
 .my-button {
-  background-color: var(--nsw-color-primary);
-  color: var(--nsw-color-text-on-primary);
-  padding: var(--nsw-space-3);
-  border-radius: var(--nsw-radius-md);
+  background-color: var(--nsw-blue-500);
 }
 ```
 
-### 1a. Prism CSS (standalone)
+### 3. Prism CSS
 
 ```css
 @import '@nswds/tokens/prism.css';
 ```
 
-Or via JS/TS (for bundlers that support CSS imports):
-
-```ts
-import '@nswds/tokens/prism.css'
-```
-
-The full path is also available:
+Or via the full exported subpath:
 
 ```css
 @import '@nswds/tokens/css/prism/prism.css';
 ```
 
-### 2. Sass / SCSS variables or maps
+### 4. Sass / SCSS
 
 ```scss
-@use '@digitalnsw/nswds-tokens/dist/tokens' as nsw;
+@use '@nswds/tokens/scss/colors/global/hex.scss' as *;
 
 .page-heading {
-  font-family: nsw.$font-family-sans;
-  font-size: nsw.$font-size-xxl;
-  margin-bottom: nsw.$space-4;
+  color: $nsw-blue-500;
 }
 ```
 
-### 3. JavaScript / TypeScript
+### 5. Raw JSON and design-token files
 
 ```ts
-import tokens from '@digitalnsw/nswds-tokens/dist/tokens.json'
+import { createRequire } from 'node:module'
 
-console.log(tokens.color['nsw-blue-500'])
+const require = createRequire(import.meta.url)
+const globalHex = require('@nswds/tokens/json/colors/global/hex.json')
+const rawHex = require('@nswds/tokens/tokens/global/color/hex.json')
+const masterbrandFigma = require('@nswds/tokens/figma/color/themes/masterbrand/color/hex.json')
+
+console.log(globalHex['nsw-blue'][500].$value)
+console.log(rawHex['nsw-blue'][500].$value)
+console.log(masterbrandFigma.primary[500].$value)
 ```
 
 ---
 
-## Token structure
+## Published Surface
 
-Tokens are organised into logical groups such as:
+The package exports these public subpath families:
 
-- `color`
-- `font`
-- `fontSize`, `fontWeight`, `lineHeight`
-- `space`
-- `radius`
-- `shadow`
-- `border`
-- `breakpoint`
-- `motion`
-- `theme`
+- `@nswds/tokens`
+- `@nswds/tokens/brand/*`
+- `@nswds/tokens/css/*`
+- `@nswds/tokens/figma/*`
+- `@nswds/tokens/js/*`
+- `@nswds/tokens/json/*`
+- `@nswds/tokens/less/*`
+- `@nswds/tokens/scss/*`
+- `@nswds/tokens/tailwind/*`
+- `@nswds/tokens/tokens/*`
+- `@nswds/tokens/ts/*`
+- `@nswds/tokens/prism.css`
 
 ---
 
 ## Theming
 
-Token sets support multiple NSW themes via **alias tokens** mapping to base tokens.
-
-Example:
-
-```json
-{
-  "theme": {
-    "light": {
-      "background": { "value": "{color.nsw-grey-050}" },
-      "text": { "value": "{color.nsw-grey-900}" }
-    }
-  }
-}
-```
+Theme-specific colour files are published under the `.../colors/themes/` paths, including the masterbrand outputs used by the root package exports. Tailwind theme files are also available under `@nswds/tokens/tailwind/colors/themes/*`.
 
 ---
 
@@ -148,6 +143,7 @@ Build:
 
 ```bash
 npm run build
+npm run smoke:package-surface
 npm run test:tokens
 npm run lint
 ```
