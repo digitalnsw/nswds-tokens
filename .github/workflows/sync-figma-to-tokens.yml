@@ -14,16 +14,14 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - name: Install Node.js
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-
-      - name: Set NPM version
-        run: npm install -g npm@9.5.1
-
-      - name: Clone repo
-        uses: actions/checkout@v4
+          node-version: 'lts/*'
+          cache: npm
 
       - name: Install dependencies
         run: npm clean-install
@@ -34,15 +32,27 @@ jobs:
           FILE_KEY: ${{ github.event.inputs.file_key }}
           PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_ACTION_VARIABLES_SYNC_FIGMA_TOKEN }}
 
+      - name: Rebuild committed package outputs
+        run: npm run build
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: |
-            feat(tokens): update design tokens from Figma
+            feat(tokens): sync Figma tokens and rebuild package outputs
             - Sync latest design token values from Figma design system
-            - Update color tokens, spacing, typography, and component tokens
-            - Regenerate CSS and JavaScript output files
-            - Maintain compatibility with existing token structure
-          title: 'feat(tokens): update design tokens from Figma'
-          body: 'Update tokens from Figma from file: https://www.figma.com/file/${{ github.event.inputs.file_key }}'
+            - Rebuild committed package artifacts via npm run build
+            - Regenerate published dist outputs derived from the updated tokens
+          title: 'feat(tokens): sync Figma tokens and rebuild package outputs'
+          body: |
+            Sync generated token source files from Figma and rebuild the committed package outputs that depend on them.
+
+            Source Figma file: https://www.figma.com/file/${{ github.event.inputs.file_key }}
+
+            This PR includes:
+            - updated files under `tokens/`
+            - regenerated derived package outputs under `dist/`
+          add-paths: |
+            tokens
+            dist
           branch: chore/update-tokens

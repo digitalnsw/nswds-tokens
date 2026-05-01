@@ -29,6 +29,7 @@ const capture = (command, args) => {
 }
 
 run(npmCommand, ['run', 'build'])
+run(npmCommand, ['run', 'smoke:package-surface'])
 
 const distStatus = capture('git', ['status', '--porcelain=v1', '--', 'dist'])
 
