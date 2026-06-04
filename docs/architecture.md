@@ -57,7 +57,7 @@ dist/**                        ← published artifacts (committed, CI-verified)
 | `@nswds/tokens/css/*` | CSS custom properties | `--nsw-blue-500: …` |
 | `@nswds/tokens/scss/*` | Sass variables | `$nsw-blue-500` |
 | `@nswds/tokens/less/*` | Less variables | `@nsw-blue-500` |
-| `@nswds/tokens/js/*`, `/ts/*` | JS/TS modules | importable objects |
+| `@nswds/tokens/js/*`, `@nswds/tokens/ts/*` | JS/TS modules | importable objects |
 | `@nswds/tokens/json/*` | flat JSON | resolved values |
 | `@nswds/tokens/tokens/*` | raw DTCG JSON | `$type` / `$value` (Tailwind v4 `@theme`) |
 | `@nswds/tokens/tailwind/*` | Tailwind `@theme` | maps `--color-*` → `var(--nsw-*)` |

@@ -31,14 +31,21 @@ const warnings = []
 
 const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'))
 
-// Flatten a token document to { 'a.b.c': leafNode } for every node that has a $value.
+// Flatten a token document to { 'a.b.c': leafNode } for every token leaf.
+// A node is treated as a leaf when it looks like a token ($value or $type present) and
+// has no non-$ child keys. Collecting token-like leaves that lack $value (e.g. only
+// $type/$description) is deliberate, so the downstream "missing $value" check can fire
+// instead of such malformed leaves being silently recursed into and dropped.
 const flatten = (obj, prefix, out) => {
   for (const [key, value] of Object.entries(obj)) {
     if (key.startsWith('$')) continue
     const path = prefix ? `${prefix}.${key}` : key
-    if (value && typeof value === 'object' && '$value' in value) {
+    if (!value || typeof value !== 'object') continue
+    const hasChildren = Object.keys(value).some((k) => !k.startsWith('$'))
+    const looksLikeToken = '$value' in value || '$type' in value
+    if (looksLikeToken && !hasChildren) {
       out[path] = value
-    } else if (value && typeof value === 'object') {
+    } else {
       flatten(value, path, out)
     }
   }

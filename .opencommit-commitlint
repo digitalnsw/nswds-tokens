@@ -5,7 +5,7 @@
     "There should always be a blank line at the beginning of the footer.",
     "Each line of the footer should always have 100 characters or less.",
     "The header should always have 100 characters or less.",
-    "Please manualy set the prompt for rule \"header-trim\".",
+    "Please manually set the prompt for rule \"header-trim\".",
     "The subject should never be in one of the following case:\n  - sentence-case\n  - start-case\n  - pascal-case\n  - upper-case.",
     "The subject should never be empty.",
     "The subject should never end with '.'.",
