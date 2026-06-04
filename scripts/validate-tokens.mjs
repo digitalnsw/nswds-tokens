@@ -1,0 +1,164 @@
+// Token validation gate.
+//
+// Scans the canonical per-colour-space token tree under tokens/{global,semantic,themes}
+// and checks:
+//   ERRORS (fail CI):
+//     - every leaf has a $value
+//     - every alias {a.b.c} resolves to an existing token (no dangling references)
+//     - no alias reference cycles
+//     - no duplicate flattened token path defined with conflicting values
+//   WARNINGS (informational; do not fail CI yet):
+//     - missing $type on a leaf
+//     - DTCG 2025.10 Color-module deviations (see review item C1): `channels` should be
+//       `components`, `rgb` should be `srgb`, sRGB components should be 0–1, powerless
+//       components should be the string "none" (not null), and a `hex` fallback is
+//       recommended. These are warnings until C1 is addressed, then flip to errors.
+//
+// Note: the top-level Figma-export files ("primitives-*.light.json",
+// "themes-*.light.json") are intentionally out of scope here — they are the Figma sync
+// staging copies (see scripts/figma-collections.ts).
+
+import { readdirSync, readFileSync, existsSync } from 'node:fs'
+import { resolve } from 'node:path'
+
+const root = resolve()
+const tokensDir = resolve(root, 'tokens')
+const SPACES = ['hex', 'hsl', 'rgb', 'oklch']
+const ALIAS_PATTERN = /^\{([\w-]+(?:\.[\w-]+)*)\}$/
+
+const errors = []
+const warnings = []
+
+const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'))
+
+// Flatten a token document to { 'a.b.c': leafNode } for every node that has a $value.
+const flatten = (obj, prefix, out) => {
+  for (const [key, value] of Object.entries(obj)) {
+    if (key.startsWith('$')) continue
+    const path = prefix ? `${prefix}.${key}` : key
+    if (value && typeof value === 'object' && '$value' in value) {
+      out[path] = value
+    } else if (value && typeof value === 'object') {
+      flatten(value, path, out)
+    }
+  }
+  return out
+}
+
+// Collect the source files for one colour space.
+const filesForSpace = (space) => {
+  const files = []
+  for (const layer of ['global', 'semantic']) {
+    const p = resolve(tokensDir, layer, 'color', `${space}.json`)
+    if (existsSync(p)) files.push({ label: `${layer}/${space}`, path: p })
+  }
+  const themesRoot = resolve(tokensDir, 'themes', 'color')
+  if (existsSync(themesRoot)) {
+    for (const theme of readdirSync(themesRoot, { withFileTypes: true })) {
+      if (!theme.isDirectory()) continue
+      const p = resolve(themesRoot, theme.name, `${space}.json`)
+      if (existsSync(p)) files.push({ label: `themes/${theme.name}/${space}`, path: p })
+    }
+  }
+  return files
+}
+
+const aliasTarget = (leaf) =>
+  typeof leaf.$value === 'string' ? (leaf.$value.match(ALIAS_PATTERN)?.[1] ?? null) : null
+
+// DTCG 2025.10 Color-module conformance (warnings).
+const checkColorShape = (label, path, leaf) => {
+  const v = leaf.$value
+  if (!v || typeof v !== 'object') return // string hex / alias — nothing to check here
+  if ('channels' in v && !('components' in v))
+    warnings.push(`${label} ${path}: uses "channels"; DTCG expects "components"`)
+  if (v.colorSpace === 'rgb')
+    warnings.push(`${label} ${path}: colorSpace "rgb"; DTCG expects "srgb"`)
+  const comps = v.components ?? v.channels
+  // Check both the legacy "rgb" and DTCG-preferred "srgb" so the range warning keeps
+  // firing during/after the C1 migration (renaming the space but leaving 0–255 values).
+  if (
+    ['rgb', 'srgb'].includes(v.colorSpace) &&
+    Array.isArray(comps) &&
+    comps.some((c) => typeof c === 'number' && c > 1)
+  )
+    warnings.push(`${label} ${path}: sRGB components appear to be 0–255; DTCG expects 0–1`)
+  if (Array.isArray(comps) && comps.includes(null))
+    warnings.push(`${label} ${path}: null component; DTCG expects the string "none"`)
+  if (!('hex' in v)) warnings.push(`${label} ${path}: no "hex" fallback (recommended by DTCG)`)
+}
+
+for (const space of SPACES) {
+  const files = filesForSpace(space)
+  if (!files.length) continue
+
+  const namespace = {} // path -> { value, label } (for duplicate detection)
+  const leafByPath = {} // path -> leaf (O(1) alias resolution)
+  const allLeaves = [] // { label, path, leaf }
+
+  for (const { label, path } of files) {
+    const flat = flatten(readJson(path), '', {})
+    for (const [tokenPath, leaf] of Object.entries(flat)) {
+      allLeaves.push({ label, path: tokenPath, leaf })
+      leafByPath[tokenPath] = leaf
+
+      // structural
+      if (!('$value' in leaf)) errors.push(`${label} ${tokenPath}: missing $value`)
+      if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
+      checkColorShape(label, tokenPath, leaf)
+
+      // duplicate detection (conflicting value for same path)
+      const serialized = JSON.stringify(leaf.$value)
+      const prior = namespace[tokenPath]
+      if (prior && prior.value !== serialized) {
+        errors.push(
+          `duplicate token "${tokenPath}" with conflicting values (${prior.label} vs ${label})`,
+        )
+      }
+      namespace[tokenPath] = { value: serialized, label }
+    }
+  }
+
+  // reference resolution + cycle detection
+  const resolveAlias = (startPath, startLeaf) => {
+    const seen = new Set()
+    let path = startPath
+    let leaf = startLeaf
+    while (true) {
+      const target = aliasTarget(leaf)
+      if (!target) return // resolved to a concrete value
+      if (seen.has(path)) {
+        errors.push(`alias cycle detected at "${path}"`)
+        return
+      }
+      seen.add(path)
+      const next = leafByPath[target] // O(1) lookup instead of scanning allLeaves
+      if (!next) {
+        errors.push(`unresolved alias "{${target}}" referenced by "${path}"`)
+        return
+      }
+      // follow the chain to the resolved target leaf
+      path = target
+      leaf = next
+    }
+  }
+
+  for (const { path, leaf } of allLeaves) resolveAlias(path, leaf)
+}
+
+const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`
+
+if (warnings.length) {
+  console.warn(`\n⚠️  ${plural(warnings.length, 'warning')}:`)
+  for (const w of warnings.slice(0, 50)) console.warn(`   - ${w}`)
+  if (warnings.length > 50) console.warn(`   …and ${warnings.length - 50} more`)
+}
+
+if (errors.length) {
+  console.error(`\n❌ ${plural(errors.length, 'error')}:`)
+  for (const e of errors) console.error(`   - ${e}`)
+  console.error('\nToken validation failed.')
+  process.exit(1)
+}
+
+console.log(`\n✅ Token validation passed (${plural(warnings.length, 'warning')}).`)

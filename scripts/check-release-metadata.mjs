@@ -5,7 +5,9 @@ const args = new Set(process.argv.slice(2))
 const checkTag = args.has('--check-tag')
 
 const packageJson = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'))
-const packageLock = JSON.parse(readFileSync(new URL('../package-lock.json', import.meta.url), 'utf8'))
+const packageLock = JSON.parse(
+  readFileSync(new URL('../package-lock.json', import.meta.url), 'utf8'),
+)
 const rootPackage = packageLock.packages?.['']
 const issues = []
 
@@ -14,23 +16,25 @@ if (!rootPackage) {
 } else {
   if (packageLock.name !== packageJson.name) {
     issues.push(
-      `package-lock.json name is ${JSON.stringify(packageLock.name)} but package.json name is ${JSON.stringify(packageJson.name)}.`
+      `package-lock.json name is ${JSON.stringify(packageLock.name)} but package.json name is ${JSON.stringify(packageJson.name)}.`,
     )
   }
 
   if (rootPackage.name !== packageJson.name) {
     issues.push(
-      `package-lock.json packages[""].name is ${JSON.stringify(rootPackage.name)} but package.json name is ${JSON.stringify(packageJson.name)}.`
+      `package-lock.json packages[""].name is ${JSON.stringify(rootPackage.name)} but package.json name is ${JSON.stringify(packageJson.name)}.`,
     )
   }
 
   if (packageLock.version !== packageJson.version) {
-    issues.push(`package-lock.json version is ${packageLock.version} but package.json version is ${packageJson.version}.`)
+    issues.push(
+      `package-lock.json version is ${packageLock.version} but package.json version is ${packageJson.version}.`,
+    )
   }
 
   if (rootPackage.version !== packageJson.version) {
     issues.push(
-      `package-lock.json packages[""].version is ${rootPackage.version} but package.json version is ${packageJson.version}.`
+      `package-lock.json packages[""].version is ${rootPackage.version} but package.json version is ${packageJson.version}.`,
     )
   }
 }
@@ -53,7 +57,9 @@ if (checkTag) {
       const tagVersion = latestTag.startsWith('v') ? latestTag.slice(1) : latestTag
 
       if (tagVersion !== packageJson.version) {
-        issues.push(`latest git tag is ${latestTag} but package.json version is ${packageJson.version}.`)
+        issues.push(
+          `latest git tag is ${latestTag} but package.json version is ${packageJson.version}.`,
+        )
       }
     } else {
       issues.push('The latest git tag is empty.')

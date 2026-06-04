@@ -2,6 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 
 import { colorApproximatelyEqual, parseColor } from './color.js'
+import { FIGMA_COLLECTIONS } from './figma-collections.js'
 import { areSetsEqual, assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 import { Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import {
@@ -95,7 +96,15 @@ function traverseCollection({
   }
 }
 
-function collectionAndModeFromFileName(fileName: string) {
+export function collectionAndModeFromFileName(fileName: string) {
+  // Prefer the explicit manifest (decouples kebab-case file names from Figma collection
+  // names that contain spaces / em-dashes). Fall back to the legacy convention of
+  // deriving {collectionName}.{modeName} from the file name itself.
+  const mapped = FIGMA_COLLECTIONS[fileName]
+  if (mapped) {
+    return mapped
+  }
+
   const fileNameParts = fileName.split('.')
   if (fileNameParts.length < 3) {
     throw new Error(

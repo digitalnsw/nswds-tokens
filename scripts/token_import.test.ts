@@ -1,10 +1,11 @@
 import { GetLocalVariablesResponse } from '@figma/rest-api-spec'
 import {
+  collectionAndModeFromFileName,
   FlattenedTokensByFile,
   generatePostVariablesPayload,
   readJsonFiles,
 } from './token_import.js'
-import { vi } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 
 vi.mock('fs', () => {
   const MOCK_FILE_INFO: { [fileName: string]: string } = {
@@ -986,5 +987,31 @@ describe('generatePostVariablesPayload', () => {
     expect(() => {
       generatePostVariablesPayload(tokensByFile, localVariablesResponse)
     }).toThrowError('Duplicate variable collection in file: collection')
+  })
+})
+
+describe('collectionAndModeFromFileName', () => {
+  it('resolves manifest-mapped kebab-case file names to their Figma collection names', () => {
+    expect(collectionAndModeFromFileName('primitives-global.light.json')).toEqual({
+      collectionName: 'Primitives — global',
+      modeName: 'light',
+    })
+    expect(collectionAndModeFromFileName('themes-masterbrand.light.json')).toEqual({
+      collectionName: 'Themes — masterbrand',
+      modeName: 'light',
+    })
+  })
+
+  it('falls back to deriving {collection}.{mode} from unmapped file names', () => {
+    expect(collectionAndModeFromFileName('collection1.mode1.json')).toEqual({
+      collectionName: 'collection1',
+      modeName: 'mode1',
+    })
+  })
+
+  it('throws on a file name without a mode segment', () => {
+    expect(() => collectionAndModeFromFileName('foo.json')).toThrowError(
+      'Invalid tokens file name: foo.json',
+    )
   })
 })

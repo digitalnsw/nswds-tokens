@@ -101,6 +101,29 @@ console.log(rawHex['nsw-blue'][500].$value)
 console.log(masterbrandFigma.primary[500].$value)
 ```
 
+### 6. Tailwind CSS
+
+> **Requires Tailwind CSS v4.0 or later.** The Tailwind outputs use the CSS-first
+> [`@theme`](https://tailwindcss.com/docs/theme) at-rule, which does not exist in v3.
+
+The Tailwind files map Tailwind's `--color-*` theme variables onto the NSW custom
+properties (e.g. `--color-nsw-blue-500: var(--nsw-blue-500)`). Because they reference
+`var(--nsw-*)`, you **must also import the matching CSS variables file** so the values
+resolve:
+
+```css
+@import 'tailwindcss';
+
+/* 1. The token values, as CSS custom properties */
+@import '@nswds/tokens/css/colors/global/hex.css';
+/* 2. The Tailwind @theme mapping that exposes `bg-nsw-*`, `text-nsw-*`, etc. */
+@import '@nswds/tokens/tailwind/colors/global/hex.css';
+```
+
+```html
+<button class="bg-nsw-blue-500 text-nsw-grey-50">Save</button>
+```
+
 ---
 
 ## Published Surface

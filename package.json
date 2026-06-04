@@ -11,6 +11,7 @@
     "dist"
   ],
   "scripts": {
+    "prepare": "husky",
     "semantic-release": "semantic-release",
     "lint": "npx eslint . ",
     "format": "npx prettier --write .",
@@ -20,6 +21,7 @@
     "check:dist": "node scripts/check-dist.mjs",
     "smoke:package-surface": "node scripts/smoke-package-surface.mjs",
     "check:version-sync": "node scripts/check-release-metadata.mjs",
+    "validate:tokens": "node scripts/validate-tokens.mjs",
     "test:tokens": "vitest run --globals",
     "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",
     "sync-figma-to-tokens": "tsx scripts/sync_figma_to_tokens.ts"
@@ -47,6 +49,11 @@
   },
   "author": "NSW Design System",
   "type": "module",
+  "sideEffects": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.less"
+  ],
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -73,6 +80,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
     "@eslint/js": "^9.23.0",
     "@figma/rest-api-spec": "^0.33.0",
     "@semantic-release/changelog": "^6.0.3",
@@ -87,6 +96,7 @@
     "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.4",
     "globals": "^16.0.0",
+    "husky": "^9.1.7",
     "less": "^4.2.2",
     "less-loader": "^12.2.0",
     "prettier": "^3.5.3",
