@@ -66,4 +66,7 @@ async function main() {
   console.log(green(`✅ Tokens files have been written to the ${outputDirLabel} directory`))
 }
 
-main()
+main().catch((err: unknown) => {
+  console.error(`❌ ${err instanceof Error ? err.message : String(err)}`)
+  process.exit(1)
+})
