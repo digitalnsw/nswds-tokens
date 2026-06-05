@@ -52,7 +52,9 @@ try {
   const sourcePaths = publishedPaths.filter((path) => path.startsWith('src/'))
 
   if (sourcePaths.length > 0) {
-    throw new Error(`Source files should not be published:\n${sourcePaths.map((path) => `- ${path}`).join('\n')}`)
+    throw new Error(
+      `Source files should not be published:\n${sourcePaths.map((path) => `- ${path}`).join('\n')}`,
+    )
   }
 
   mkdirSync(packageDir, { recursive: true })

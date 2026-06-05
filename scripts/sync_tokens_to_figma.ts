@@ -58,4 +58,7 @@ async function main() {
   console.log(green('✅ Figma file has been updated with the new tokens'))
 }
 
-main()
+main().catch((err: unknown) => {
+  console.error(`❌ ${err instanceof Error ? err.message : String(err)}`)
+  process.exit(1)
+})
