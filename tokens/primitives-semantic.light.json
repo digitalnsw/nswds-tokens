@@ -3,7 +3,7 @@
     "50": {
       "$type": "color",
       "$value": "#eff9ed",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -17,7 +17,7 @@
     "100": {
       "$type": "color",
       "$value": "#e0f3de",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -31,7 +31,7 @@
     "150": {
       "$type": "color",
       "$value": "#d2eccf",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -45,7 +45,7 @@
     "200": {
       "$type": "color",
       "$value": "#c4e5c0",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -59,7 +59,7 @@
     "250": {
       "$type": "color",
       "$value": "#aad6a5",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -73,7 +73,7 @@
     "300": {
       "$type": "color",
       "$value": "#8fc78a",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 300: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -87,7 +87,7 @@
     "350": {
       "$type": "color",
       "$value": "#74b76f",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 350: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -101,7 +101,7 @@
     "400": {
       "$type": "color",
       "$value": "#58a854",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 400: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -115,7 +115,7 @@
     "450": {
       "$type": "color",
       "$value": "#49a146",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -129,7 +129,7 @@
     "500": {
       "$type": "color",
       "$value": "#399936",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: base colour.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -143,7 +143,7 @@
     "550": {
       "$type": "color",
       "$value": "#259224",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -157,7 +157,7 @@
     "600": {
       "$type": "color",
       "$value": "#008a07",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -171,7 +171,7 @@
     "650": {
       "$type": "color",
       "$value": "#007204",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -185,7 +185,7 @@
     "700": {
       "$type": "color",
       "$value": "#005a02",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -199,7 +199,7 @@
     "750": {
       "$type": "color",
       "$value": "#004401",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -213,7 +213,7 @@
     "800": {
       "$type": "color",
       "$value": "#002f00",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -227,7 +227,7 @@
     "850": {
       "$type": "color",
       "$value": "#002200",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -241,7 +241,7 @@
     "900": {
       "$type": "color",
       "$value": "#001600",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -255,7 +255,7 @@
     "950": {
       "$type": "color",
       "$value": "#000b00",
-      "$description": "",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -271,7 +271,7 @@
     "50": {
       "$type": "color",
       "$value": "#fff3ed",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -285,7 +285,7 @@
     "100": {
       "$type": "color",
       "$value": "#ffe8de",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -299,7 +299,7 @@
     "150": {
       "$type": "color",
       "$value": "#ffddcf",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -313,7 +313,7 @@
     "200": {
       "$type": "color",
       "$value": "#fdd2c0",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -327,7 +327,7 @@
     "250": {
       "$type": "color",
       "$value": "#f6bda5",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -341,7 +341,7 @@
     "300": {
       "$type": "color",
       "$value": "#eea88a",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 300: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -355,7 +355,7 @@
     "350": {
       "$type": "color",
       "$value": "#e6936f",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 350: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -369,7 +369,7 @@
     "400": {
       "$type": "color",
       "$value": "#dd7d53",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 400: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -383,7 +383,7 @@
     "450": {
       "$type": "color",
       "$value": "#d87244",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 450: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -397,7 +397,7 @@
     "500": {
       "$type": "color",
       "$value": "#d36734",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 500: base colour.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -411,7 +411,7 @@
     "550": {
       "$type": "color",
       "$value": "#ce5c21",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 550: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -425,7 +425,7 @@
     "600": {
       "$type": "color",
       "$value": "#c95000",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 600: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -439,7 +439,7 @@
     "650": {
       "$type": "color",
       "$value": "#a83f03",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 650: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -453,7 +453,7 @@
     "700": {
       "$type": "color",
       "$value": "#882f03",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 700: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -467,7 +467,7 @@
     "750": {
       "$type": "color",
       "$value": "#692001",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 750: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -481,7 +481,7 @@
     "800": {
       "$type": "color",
       "$value": "#4b1200",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 800: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -495,7 +495,7 @@
     "850": {
       "$type": "color",
       "$value": "#390a00",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -509,7 +509,7 @@
     "900": {
       "$type": "color",
       "$value": "#270400",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -523,7 +523,7 @@
     "950": {
       "$type": "color",
       "$value": "#170100",
-      "$description": "",
+      "$description": "Warning state — caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -539,7 +539,7 @@
     "50": {
       "$type": "color",
       "$value": "#fff0ef",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -553,7 +553,7 @@
     "100": {
       "$type": "color",
       "$value": "#ffe2e1",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -567,7 +567,7 @@
     "150": {
       "$type": "color",
       "$value": "#ffd4d4",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -581,7 +581,7 @@
     "200": {
       "$type": "color",
       "$value": "#fdc6c6",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -595,7 +595,7 @@
     "250": {
       "$type": "color",
       "$value": "#f4acad",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -609,7 +609,7 @@
     "300": {
       "$type": "color",
       "$value": "#ea9294",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 300: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -623,7 +623,7 @@
     "350": {
       "$type": "color",
       "$value": "#df787c",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 350: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -637,7 +637,7 @@
     "400": {
       "$type": "color",
       "$value": "#d35d65",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 400: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -651,7 +651,7 @@
     "450": {
       "$type": "color",
       "$value": "#cd4e59",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 450: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -665,7 +665,7 @@
     "500": {
       "$type": "color",
       "$value": "#c63f4e",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 500: base colour.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -679,7 +679,7 @@
     "550": {
       "$type": "color",
       "$value": "#bf2c42",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 550: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -693,7 +693,7 @@
     "600": {
       "$type": "color",
       "$value": "#b81237",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 600: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -707,7 +707,7 @@
     "650": {
       "$type": "color",
       "$value": "#990b2a",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 650: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -721,7 +721,7 @@
     "700": {
       "$type": "color",
       "$value": "#7c061f",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 700: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -735,7 +735,7 @@
     "750": {
       "$type": "color",
       "$value": "#5f0214",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -749,7 +749,7 @@
     "800": {
       "$type": "color",
       "$value": "#44000a",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -763,7 +763,7 @@
     "850": {
       "$type": "color",
       "$value": "#330005",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -777,7 +777,7 @@
     "900": {
       "$type": "color",
       "$value": "#230002",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -791,7 +791,7 @@
     "950": {
       "$type": "color",
       "$value": "#140001",
-      "$description": "",
+      "$description": "Danger state — errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -807,7 +807,7 @@
     "50": {
       "$type": "color",
       "$value": "#e9eef7",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -821,7 +821,7 @@
     "100": {
       "$type": "color",
       "$value": "#d4ddeb",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -835,7 +835,7 @@
     "150": {
       "$type": "color",
       "$value": "#c0cce0",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -849,7 +849,7 @@
     "200": {
       "$type": "color",
       "$value": "#acbbd5",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -863,7 +863,7 @@
     "250": {
       "$type": "color",
       "$value": "#96a9cc",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -877,7 +877,7 @@
     "300": {
       "$type": "color",
       "$value": "#8098c2",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 300: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -891,7 +891,7 @@
     "350": {
       "$type": "color",
       "$value": "#6b86b8",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 350: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -905,7 +905,7 @@
     "400": {
       "$type": "color",
       "$value": "#5775ae",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 400: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -919,7 +919,7 @@
     "450": {
       "$type": "color",
       "$value": "#4d6ca9",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -933,7 +933,7 @@
     "500": {
       "$type": "color",
       "$value": "#4264a4",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: base colour.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -947,7 +947,7 @@
     "550": {
       "$type": "color",
       "$value": "#385b9e",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -961,7 +961,7 @@
     "600": {
       "$type": "color",
       "$value": "#2e5299",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -975,7 +975,7 @@
     "650": {
       "$type": "color",
       "$value": "#23427f",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -989,7 +989,7 @@
     "700": {
       "$type": "color",
       "$value": "#193366",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1003,7 +1003,7 @@
     "750": {
       "$type": "color",
       "$value": "#10254f",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1017,7 +1017,7 @@
     "800": {
       "$type": "color",
       "$value": "#071738",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1031,7 +1031,7 @@
     "850": {
       "$type": "color",
       "$value": "#040f2a",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1045,7 +1045,7 @@
     "900": {
       "$type": "color",
       "$value": "#02071c",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1059,7 +1059,7 @@
     "950": {
       "$type": "color",
       "$value": "#00030f",
-      "$description": "",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,

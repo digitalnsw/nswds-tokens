@@ -3,7 +3,7 @@
     "50": {
       "$type": "color",
       "$value": "{nsw-blue.50}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -17,7 +17,7 @@
     "100": {
       "$type": "color",
       "$value": "{nsw-blue.100}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -31,7 +31,7 @@
     "150": {
       "$type": "color",
       "$value": "{nsw-blue.150}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -45,7 +45,7 @@
     "200": {
       "$type": "color",
       "$value": "{nsw-blue.200}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -59,7 +59,7 @@
     "250": {
       "$type": "color",
       "$value": "{nsw-blue.250}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -73,7 +73,7 @@
     "300": {
       "$type": "color",
       "$value": "{nsw-blue.300}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 300: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -87,7 +87,7 @@
     "350": {
       "$type": "color",
       "$value": "{nsw-blue.350}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 350: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -101,7 +101,7 @@
     "400": {
       "$type": "color",
       "$value": "{nsw-blue.400}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 400: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -115,7 +115,7 @@
     "450": {
       "$type": "color",
       "$value": "{nsw-blue.450}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 450: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -129,7 +129,7 @@
     "500": {
       "$type": "color",
       "$value": "{nsw-blue.500}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 500: base colour.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -143,7 +143,7 @@
     "550": {
       "$type": "color",
       "$value": "{nsw-blue.550}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 550: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -157,7 +157,7 @@
     "600": {
       "$type": "color",
       "$value": "{nsw-blue.600}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 600: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -171,7 +171,7 @@
     "650": {
       "$type": "color",
       "$value": "{nsw-blue.650}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 650: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -185,7 +185,7 @@
     "700": {
       "$type": "color",
       "$value": "{nsw-blue.700}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 700: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -199,7 +199,7 @@
     "750": {
       "$type": "color",
       "$value": "{nsw-blue.750}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -213,7 +213,7 @@
     "800": {
       "$type": "color",
       "$value": "{nsw-blue.800}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -227,7 +227,7 @@
     "850": {
       "$type": "color",
       "$value": "{nsw-blue.850}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -241,7 +241,7 @@
     "900": {
       "$type": "color",
       "$value": "{nsw-blue.900}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -255,7 +255,7 @@
     "950": {
       "$type": "color",
       "$value": "{nsw-blue.950}",
-      "$description": "",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -271,7 +271,7 @@
     "50": {
       "$type": "color",
       "$value": "{nsw-red.50}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -285,7 +285,7 @@
     "100": {
       "$type": "color",
       "$value": "{nsw-red.100}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -299,7 +299,7 @@
     "150": {
       "$type": "color",
       "$value": "{nsw-red.150}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -313,7 +313,7 @@
     "200": {
       "$type": "color",
       "$value": "{nsw-red.200}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -327,7 +327,7 @@
     "250": {
       "$type": "color",
       "$value": "{nsw-red.250}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -341,7 +341,7 @@
     "300": {
       "$type": "color",
       "$value": "{nsw-red.300}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 300: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -355,7 +355,7 @@
     "350": {
       "$type": "color",
       "$value": "{nsw-red.350}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 350: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -369,7 +369,7 @@
     "400": {
       "$type": "color",
       "$value": "{nsw-red.400}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 400: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -383,7 +383,7 @@
     "450": {
       "$type": "color",
       "$value": "{nsw-red.450}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 450: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -397,7 +397,7 @@
     "500": {
       "$type": "color",
       "$value": "{nsw-red.500}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 500: base colour.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -411,7 +411,7 @@
     "550": {
       "$type": "color",
       "$value": "{nsw-red.550}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 550: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -425,7 +425,7 @@
     "600": {
       "$type": "color",
       "$value": "{nsw-red.600}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 600: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -439,7 +439,7 @@
     "650": {
       "$type": "color",
       "$value": "{nsw-red.650}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 650: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -453,7 +453,7 @@
     "700": {
       "$type": "color",
       "$value": "{nsw-red.700}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 700: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -467,7 +467,7 @@
     "750": {
       "$type": "color",
       "$value": "{nsw-red.750}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -481,7 +481,7 @@
     "800": {
       "$type": "color",
       "$value": "{nsw-red.800}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -495,7 +495,7 @@
     "850": {
       "$type": "color",
       "$value": "{nsw-red.850}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -509,7 +509,7 @@
     "900": {
       "$type": "color",
       "$value": "{nsw-red.900}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -523,7 +523,7 @@
     "950": {
       "$type": "color",
       "$value": "{nsw-red.950}",
-      "$description": "",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -539,7 +539,7 @@
     "50": {
       "$type": "color",
       "$value": "{nsw-grey.50}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -553,7 +553,7 @@
     "100": {
       "$type": "color",
       "$value": "{nsw-grey.100}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -567,7 +567,7 @@
     "150": {
       "$type": "color",
       "$value": "{nsw-grey.150}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -581,7 +581,7 @@
     "200": {
       "$type": "color",
       "$value": "{nsw-grey.200}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -595,7 +595,7 @@
     "250": {
       "$type": "color",
       "$value": "{nsw-grey.250}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -609,7 +609,7 @@
     "300": {
       "$type": "color",
       "$value": "{nsw-grey.300}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 300: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -623,7 +623,7 @@
     "350": {
       "$type": "color",
       "$value": "{nsw-grey.350}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 350: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -637,7 +637,7 @@
     "400": {
       "$type": "color",
       "$value": "{nsw-grey.400}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 400: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -651,7 +651,7 @@
     "450": {
       "$type": "color",
       "$value": "{nsw-grey.450}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 450: light tints.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -665,7 +665,7 @@
     "500": {
       "$type": "color",
       "$value": "{nsw-grey.500}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 500: base colour.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -679,7 +679,7 @@
     "550": {
       "$type": "color",
       "$value": "{nsw-grey.550}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 550: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -693,7 +693,7 @@
     "600": {
       "$type": "color",
       "$value": "{nsw-grey.600}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 600: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -707,7 +707,7 @@
     "650": {
       "$type": "color",
       "$value": "{nsw-grey.650}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 650: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -721,7 +721,7 @@
     "700": {
       "$type": "color",
       "$value": "{nsw-grey.700}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 700: shades for borders and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -735,7 +735,7 @@
     "750": {
       "$type": "color",
       "$value": "{nsw-grey.750}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -749,7 +749,7 @@
     "800": {
       "$type": "color",
       "$value": "{nsw-grey.800}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -763,7 +763,7 @@
     "850": {
       "$type": "color",
       "$value": "{nsw-grey.850}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -777,7 +777,7 @@
     "900": {
       "$type": "color",
       "$value": "{nsw-grey.900}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -791,7 +791,7 @@
     "950": {
       "$type": "color",
       "$value": "{nsw-grey.950}",
-      "$description": "",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
