@@ -4,6 +4,7 @@
 /** @type {import('@commitlint/types').UserConfig} */
 export default {
   extends: ['@commitlint/config-conventional'],
+  ignores: [(message) => /^Potential fix for code scanning alert no\. \d+: /u.test(message.trim())],
   rules: {
     // Bodies often contain long generated text / URLs; the 100-char default is too strict
     // and is the one rule that conflicts with auto-generated (e.g. opencommit) messages.
