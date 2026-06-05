@@ -57,6 +57,8 @@ Branch names are validated (`validate-branch-name.yml`). Use:
 
 - **type**: one of `feature`, `bugfix`, `hotfix`, `release`, `docs`, `build`, `test`,
   `refactor`, `style`, `chore`
+- Automation branches are also allowed: `copilot/<description>`, `dependabot/<...>`,
+  and `alert-autofix-...` (optionally prefixed with `fix/`).
 - Examples: `feature/add-spacing-tokens`, `docs/issue/42/tailwind-usage`,
   `bugfix/ticket/ABC-1/grey-500-value`
 
