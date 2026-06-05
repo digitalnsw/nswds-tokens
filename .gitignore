@@ -4,6 +4,9 @@
 /test
 .npmrc
 
+# Style Dictionary parity-harness scratch output (Phase 0+)
+/build/.sd-out
+
 # env files
 .env*
 snyk-code-analysis.json
