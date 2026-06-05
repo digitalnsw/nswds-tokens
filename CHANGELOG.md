@@ -1,3 +1,12 @@
+## [2.32.3](https://github.com/digitalnsw/nswds-tokens/compare/v2.32.2...v2.32.3) (2026-06-05)
+
+
+### Bug Fixes
+
+* **release:** disable husky hooks in workflow ([#72](https://github.com/digitalnsw/nswds-tokens/issues/72)) ([8e906ea](https://github.com/digitalnsw/nswds-tokens/commit/8e906eafb3cafc6415f1d2afe24794f3133d0f1d))
+* **scripts:** exit cleanly on sync-figma-to-tokens failure ([#73](https://github.com/digitalnsw/nswds-tokens/issues/73)) ([77b313c](https://github.com/digitalnsw/nswds-tokens/commit/77b313c9731bed4631fbbc3e75c90af0d6ecab1f))
+* **workflow:** address permissions issue in code scanning alert no. 4 ([#71](https://github.com/digitalnsw/nswds-tokens/issues/71)) ([bff17fd](https://github.com/digitalnsw/nswds-tokens/commit/bff17fdd1797f057f360f8d648dbc1f6273f33f8))
+
 ## [2.32.2](https://github.com/digitalnsw/nswds-tokens/compare/v2.32.1...v2.32.2) (2026-06-04)
 
 
