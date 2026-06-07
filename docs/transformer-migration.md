@@ -40,18 +40,32 @@ The 3 built-ins are free; the 4 custom formats + name transform are the bulk of 
 `npm run sd:parity` builds the SD outputs to a scratch dir (`build/.sd-out/`, gitignored)
 and diffs each against the committed `dist/` file, exiting non-zero on any byte mismatch.
 
-**Status:** hex `css`/`scss`/`less` for global, semantic, and masterbrand are
-**9/9 byte-identical** — including masterbrand aliases resolving to concrete hex. The
-transformer reproduces the current published bytes, so the approach is proven before any
-cut-over.
+**Status (Phase 1a):** all output formats — `css`/`scss`/`less` (built-ins) plus
+`js`/`ts`/`json`/`figma` (custom formats in `build/formats.mjs`) — for global, semantic,
+and masterbrand at **hex**: **18/21 byte-identical**, 3 documented normalisations (below).
+Masterbrand aliases resolve to concrete hex. The transformer reproduces the current
+published bytes before any cut-over.
+
+### Normalisations (intentional, allow-listed in the harness)
+
+The hand-authored files have a few cosmetic inconsistencies the transformer standardises;
+these are the only non-byte-identical files, and **no token value or structure differs**:
+
+- `js/colors/semantic/hex.js` — the only JS file authored with stray blank lines between
+  families (global/masterbrand JS and even semantic TS have none) → removed.
+- `json/colors/global/hex.json`, `figma/color/global/hex.json` — the only json/figma files
+  authored without a trailing newline (semantic + masterbrand have one) → standardised to
+  a trailing newline.
 
 ## Phases
 
-- **Phase 0 — scaffold + parity harness (this PR).** Non-breaking. SD added as a devDep;
-  config in `build/style-dictionary.config.mjs`; harness in `scripts/sd-parity.mjs`.
-- **Phase 1 — custom formats** (js/ts/json/tailwind/figma/root) + colour transforms for
-  hsl/rgb/oklch, to value-parity. hex stays byte-identical; hsl/rgb/oklch re-derived from
-  hex via culori (decision #2) — differences are a documented one-time delta.
+- **Phase 0 — scaffold + parity harness.** ✅ Done. SD devDep; `build/style-dictionary.config.mjs`;
+  `scripts/sd-parity.mjs`.
+- **Phase 1a — custom formats at hex parity (this PR).** ✅ js/ts/json/figma custom formats +
+  css/scss/less, all layers, hex. 18/21 byte-identical + 3 normalisations.
+- **Phase 1b — Tailwind + colour transforms.** Tailwind (alias-aware refs + `@theme inline`
+  for semantic) and the hsl/rgb/oklch outputs re-derived from hex via culori (decision #2) —
+  differences are a documented one-time delta.
 - **Phase 2 — cut over.** Replace `copy-styles.mjs`, delete hand-authored `src/*` format
   dirs, regenerate `dist/` from SD. Lock with snapshot tests.
 - **Phase 3 — breaking (major).** C1 (DTCG colour shape: `components`/`srgb`/0–1/`"none"`/
@@ -62,8 +76,11 @@ cut-over.
 
 ## Scope notes / risks
 
-- Phase 0 wires up **only `hex.json`** sources. The hsl/rgb/oklch object-form tokens use
-  the non-standard `channels`/`rgb` shape (C1) and are handled in Phase 1/3.
+- Phases 0–1a wire up **only `hex.json`** sources. The hsl/rgb/oklch object-form tokens use
+  the non-standard `channels`/`rgb` shape (C1) and are handled in Phase 1b/3.
+- Tailwind is deferred to Phase 1b: its output is layer-dependent (semantic uses
+  `@theme inline {`) and alias-aware (masterbrand maps `--color-primary-50` to
+  `var(--nsw-blue-50)`, the alias target), so it needs dedicated handling.
 - hsl/rgb/oklch outputs will change in the last decimals once re-derived from hex — locked
   behind snapshot review.
 - C1 is breaking for raw-DTCG (`tokens/`, `figma/`) consumers; CSS/JS consumers unaffected.
