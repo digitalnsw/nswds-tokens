@@ -1,12 +1,12 @@
-// Style Dictionary 4 config — Phase 1 (custom formats at hex parity).
+// Style Dictionary 4 config — Phase 1a (custom formats at hex parity).
 //
-// Generates the hex variants of every output format (css/scss/less built-ins +
-// js/ts/json/figma/tailwind custom formats) for the global, semantic, and masterbrand
-// layers, and proves them byte-identical to the hand-authored files in dist/.
+// Generates the hex variants of css/scss/less (built-ins) and js/ts/json/figma (custom
+// formats in ./formats.mjs) for the global, semantic, and masterbrand layers. The
+// scripts/sd-parity.mjs harness is what diffs these against dist/ to prove parity.
 //
-// Still hex-only on purpose: the hsl/rgb/oklch object-form tokens use the non-standard
-// `channels`/`rgb` shape (review item C1) and need a colour transform — that is Phase 1b.
-// The orphan Tailwind themes (data-visualisation, fuchsia-orange) have no source yet (M5).
+// Tailwind and the hsl/rgb/oklch variants are Phase 1b. hex-only on purpose: the
+// hsl/rgb/oklch object-form tokens use the non-standard `channels`/`rgb` shape (review
+// item C1) and need a colour transform.
 //
 // Output goes to a scratch dir (build/.sd-out/), NOT dist/, so nothing is overwritten.
 
@@ -28,9 +28,11 @@ const filesFor = (dest, format) =>
 
 const base = (extra) => ({ buildPath: OUT, options: { showFileHeader: false }, ...extra })
 
-// Custom-format platforms still need transforms to run so `token.value` is the resolved
-// hex (the `css` group leaves hex strings untouched — proven in Phase 0).
-const custom = (extra) => base({ transformGroup: 'css', ...extra })
+// The custom formats read token.path and token.$value directly (references are resolved by
+// Style Dictionary regardless of transforms). The name/kebab transform is included only so
+// each token gets a unique `name` — without it SD warns about token-name collisions
+// (e.g. nsw-grey.50 and nsw-green.50 both collapsing to "50"). It does not affect output.
+const custom = (extra) => base({ transforms: ['name/kebab'], ...extra })
 
 // Figma uses a different (and slightly inconsistent) path layout for the masterbrand theme.
 const figmaDest = (layer) =>

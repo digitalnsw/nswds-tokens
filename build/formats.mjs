@@ -59,14 +59,6 @@ export const nswFigma = ({ dictionary }) => {
   return `${JSON.stringify(obj, null, 2)}\n`
 }
 
-// tailwind/colors/.../hex.css  ->  @theme { --color-X: var(--X) } + :root { --X: #hex }
-export const nswTailwind = ({ dictionary }) => {
-  let refs = ''
-  let defs = ''
-  for (const t of dictionary.allTokens) {
-    const name = t.path.join('-')
-    refs += `  --color-${name}: var(--${name});\n`
-    defs += `  --${name}: ${t.$value};\n`
-  }
-  return `@theme {\n${refs}}\n\n:root {\n${defs}}\n`
-}
+// NOTE: the Tailwind format is deferred to Phase 1b — its output is layer-dependent
+// (semantic uses `@theme inline {`) and alias-aware (masterbrand maps `--color-primary-50`
+// to `var(--nsw-blue-50)`, the alias target), so it needs dedicated, verified handling.

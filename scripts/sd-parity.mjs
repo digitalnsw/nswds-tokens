@@ -1,10 +1,15 @@
-// Parity harness — generates the Style Dictionary outputs to a scratch dir and diffs every
-// generated file against its committed dist/ counterpart. Proves the transformer reproduces
-// the current published bytes before any cut-over. Exits non-zero on any byte mismatch.
+// Parity harness — generates the Style Dictionary outputs to a scratch dir and diffs each
+// against its committed dist/ counterpart. Proves the transformer reproduces the current
+// published bytes before any cut-over.
+//
+// The comparison is driven by the config's declared file destinations (the authoritative
+// set of in-scope outputs), so the harness FAILS if the config stops generating an expected
+// file — not just when a generated file differs. Destinations are forward-slash POSIX paths,
+// so the comparison is platform-independent. Exits non-zero on any mismatch or omission.
 
 import StyleDictionary from 'style-dictionary'
-import { existsSync, readdirSync, readFileSync, rmSync } from 'node:fs'
-import { join, relative, resolve } from 'node:path'
+import { existsSync, readFileSync, rmSync } from 'node:fs'
+import { resolve } from 'node:path'
 import config from '../build/style-dictionary.config.mjs'
 
 const OUT = 'build/.sd-out'
@@ -12,14 +17,8 @@ const OUT = 'build/.sd-out'
 rmSync(OUT, { recursive: true, force: true })
 await new StyleDictionary(config).buildAllPlatforms()
 
-const walk = (dir, acc = []) => {
-  for (const entry of readdirSync(dir, { withFileTypes: true })) {
-    const p = join(dir, entry.name)
-    if (entry.isDirectory()) walk(p, acc)
-    else acc.push(p)
-  }
-  return acc
-}
+// Authoritative in-scope outputs: every file destination the config declares.
+const expected = Object.values(config.platforms).flatMap((p) => p.files.map((f) => f.destination))
 
 const firstDiff = (dist, gen) => {
   const a = dist.split('\n')
@@ -32,8 +31,8 @@ const firstDiff = (dist, gen) => {
   return '    (differs only in trailing content)'
 }
 
-// Files where the transformer intentionally normalises a hand-authoring inconsistency,
-// so a non-identical result is expected and does NOT fail parity. Documented in
+// Files where the transformer intentionally normalises a hand-authoring inconsistency, so a
+// non-identical result is expected and does NOT fail parity. Documented in
 // docs/transformer-migration.md.
 //   - js/colors/semantic/hex.js: the only JS file authored with stray blank lines between
 //     families (global/masterbrand JS and semantic TS have none) — normalised away.
@@ -46,15 +45,17 @@ const EXPECTED_NORMALISED = new Set([
   'figma/color/global/hex.json',
 ])
 
-const outRoot = resolve(OUT)
-const generated = walk(outRoot)
 let identical = 0
 const normalised = []
 const failures = []
 
-for (const genPath of generated.sort()) {
-  const rel = relative(outRoot, genPath)
+for (const rel of expected.sort()) {
+  const genPath = resolve(OUT, rel)
   const distPath = resolve('dist', rel)
+  if (!existsSync(genPath)) {
+    failures.push(`✖ ${rel}\n    config declared this output but SD did not generate it`)
+    continue
+  }
   if (!existsSync(distPath)) {
     failures.push(`✖ ${rel}\n    no dist/ counterpart`)
     continue
@@ -73,7 +74,7 @@ for (const genPath of generated.sort()) {
 }
 
 console.log(
-  `\n${identical}/${generated.length} byte-identical to dist/` +
+  `\n${identical}/${expected.length} byte-identical to dist/` +
     (normalised.length ? `, ${normalised.length} expected-normalised` : '') +
     '.',
 )
