@@ -94,9 +94,24 @@ structure differs**. The same patterns recur across colour spaces:
   left untouched (no token source → SD doesn't regenerate them; pending M5). The 4 Tailwind
   corrections and 13 normalisations now ship in `src/`+`dist/`. `sd-parity` retired; `check:dist`
   (extended to verify `src/` + `dist/`) is the reproducibility guard.
-- **Phase 3 — breaking (major).** C1 (DTCG colour shape: `components`/`srgb`/0–1/`"none"`/
-  `hex` fallback), H1 (collapse the 4 colour-space source trees to one), M2
-  (semantic → alias), M5 (real `data-visualisation`/`fuchsia-orange` source).
+- **Phase 3 — breaking (major).** Scope locked to **C1 + H1 + M5**; **M2 dropped** (the semantic
+  palettes are independent of the global ramps — 0/19 steps match — so there is nothing to
+  alias to). Derived hsl/rgb/oklch kept at **full precision** (decision). Staged:
+  - **Phase 3a-1 — derivation foundation (this PR).** ✅ `build/color-derive.mjs` (culori) +
+    `scripts/verify-derivation.mjs` (`npm run verify:derivation`). Proves that deriving every
+    space from the **hex canonical** reproduces **hex + rgb byte-identically (418/418)** and
+    quantifies the **hsl + oklch full-precision drift** (every token; e.g. grey hue 223.81 → 0,
+    oklch 0.9850175 → 0.9851036). Build unchanged — this is the de-risked core + guard.
+  - **Phase 3a-2 — the cut (this PR).** ✅ `tokens/*/color/canonical.json` is the single
+    DTCG-srgb source (`build:canonical`). `scripts/build-token-views.mjs` derives the per-space
+    view files (hex string + C1 `srgb`/`hsl`/`oklch` objects; masterbrand hex stays aliased,
+    hsl/rgb/oklch resolved) — so `src/index.ts` and `dist/tokens` are unchanged in structure.
+    `colorFunction` reads C1 `components`; figma emits C1 objects. Result: **`validate:tokens` 0
+    warnings** (was 3,356 — full DTCG 2025.10 compliance), **hex + rgb byte-identical**, hsl/oklch
+    full-precision drift, bundle smoke passes, build idempotent. (The em-dash Figma-sync files
+    use hex strings, not the `channels` object, so they're already fine — out of scope.)
+  - **Phase 3b — M5.** Reverse-engineer DTCG source for the orphan Tailwind themes
+    (`data-visualisation` (`ember` families), `fuchsia-orange`, `fuchsia-blue`).
 - **Phase 4 — non-colour tokens** (spacing, typography, radius, shadow…) once the pipeline
   is proven.
 
