@@ -39,6 +39,9 @@ const LAYERS = [
   { dir: 'tokens/global/color', keepHexAlias: false },
   { dir: 'tokens/semantic/color', keepHexAlias: false },
   { dir: 'tokens/themes/color/masterbrand', keepHexAlias: true },
+  { dir: 'tokens/themes/color/fuchsia-blue', keepHexAlias: true },
+  { dir: 'tokens/themes/color/fuchsia-orange', keepHexAlias: true },
+  { dir: 'tokens/themes/color/data-visualisation', keepHexAlias: false },
 ]
 
 for (const { dir, keepHexAlias } of LAYERS) {
