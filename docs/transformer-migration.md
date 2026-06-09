@@ -35,12 +35,16 @@ generate every output deterministically.
 
 The 3 built-ins are free; the 4 custom formats + name transform are the bulk of Phase 1.
 
-## Parity harness (Phase 0 — done)
+## Parity harness (Phases 0–1c — retired at cut-over)
 
-`npm run sd:parity` builds the SD outputs to a scratch dir (`build/.sd-out/`, gitignored)
-and diffs each against the committed `dist/` file, exiting non-zero on any byte mismatch.
+The `scripts/sd-parity.mjs` harness built the SD outputs to a scratch dir and diffed each
+against the committed `dist/`, proving the transformer reproduced the published bytes before
+any cut-over. At Phase 2 it was **removed**: once `dist/` is generated from SD, the harness is
+redundant with `check:dist` (which rebuilds and verifies `src/` + `dist/`). The byte-level
+findings it surfaced are recorded below.
 
-**Status (Phase 1c):** **every output format × every colour space** (hex/hsl/rgb/oklch),
+**Pre-cut-over status (Phase 1c):** **every output format × every colour space**
+(hex/hsl/rgb/oklch),
 all three layers — **79/96 byte-identical**, 13 normalisations, 4 corrections (below). Each
 colour space is a separate SD instance (the spaces share token paths and would collide in
 one source). hsl/rgb/oklch read the object-form source and format it via a `nsw/color-string`
@@ -83,9 +87,13 @@ structure differs**. The same patterns recur across colour spaces:
   4 corrections. **All ~96 in-scope outputs are now transformer-generated.** (Re-deriving
   hsl/rgb/oklch from hex via culori per decision #2 is deferred to Phase 3, where H1 collapses
   the source trees — the value drift belongs with that breaking change, not here.)
-- **Phase 2 — cut over.** Replace `copy-styles.mjs`, delete hand-authored `src/*` format
-  dirs, regenerate `dist/` from SD. Lock with snapshot tests. (The 4 corrections mean a few
-  Tailwind values change — intentionally — at cut-over.)
+- **Phase 2 — cut over (this PR).** ✅ `npm run build` now runs `scripts/generate-styles.mjs`
+  (Style Dictionary → `src/`) before `tsup` + `copy-styles`. `src/*` are now **generated** from
+  `tokens/`, not hand-authored — the root bundle (`src/index.ts` imports them) and `dist/` both
+  pick them up. `src/index.ts` and the orphan Tailwind themes / `prism.css` / brand assets are
+  left untouched (no token source → SD doesn't regenerate them; pending M5). The 4 Tailwind
+  corrections and 13 normalisations now ship in `src/`+`dist/`. `sd-parity` retired; `check:dist`
+  (extended to verify `src/` + `dist/`) is the reproducibility guard.
 - **Phase 3 — breaking (major).** C1 (DTCG colour shape: `components`/`srgb`/0–1/`"none"`/
   `hex` fallback), H1 (collapse the 4 colour-space source trees to one), M2
   (semantic → alias), M5 (real `data-visualisation`/`fuchsia-orange` source).

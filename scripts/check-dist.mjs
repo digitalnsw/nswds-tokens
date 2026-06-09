@@ -31,15 +31,16 @@ const capture = (command, args) => {
 run(npmCommand, ['run', 'build'])
 run(npmCommand, ['run', 'smoke:package-surface'])
 
-const distStatus = capture('git', ['status', '--porcelain=v1', '--', 'dist'])
+// src/ is now generated from tokens/ too (Style Dictionary), so verify both trees.
+const distStatus = capture('git', ['status', '--porcelain=v1', '--', 'src', 'dist'])
 
 if (distStatus) {
   console.error(
-    '\nCommitted dist artifacts are out of date. Rebuild and commit the updated dist files.',
+    '\nCommitted src/dist artifacts are out of date. Rebuild and commit the updated files.',
   )
   console.error(distStatus)
 
-  const distDiff = capture('git', ['diff', '--stat', '--', 'dist'])
+  const distDiff = capture('git', ['diff', '--stat', '--', 'src', 'dist'])
 
   if (distDiff) {
     console.error(`\n${distDiff}`)
@@ -48,4 +49,4 @@ if (distStatus) {
   process.exit(1)
 }
 
-console.log('\nCommitted dist artifacts are up to date.')
+console.log('\nCommitted src/dist artifacts are up to date.')
