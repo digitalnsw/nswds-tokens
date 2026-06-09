@@ -94,9 +94,20 @@ structure differs**. The same patterns recur across colour spaces:
   left untouched (no token source → SD doesn't regenerate them; pending M5). The 4 Tailwind
   corrections and 13 normalisations now ship in `src/`+`dist/`. `sd-parity` retired; `check:dist`
   (extended to verify `src/` + `dist/`) is the reproducibility guard.
-- **Phase 3 — breaking (major).** C1 (DTCG colour shape: `components`/`srgb`/0–1/`"none"`/
-  `hex` fallback), H1 (collapse the 4 colour-space source trees to one), M2
-  (semantic → alias), M5 (real `data-visualisation`/`fuchsia-orange` source).
+- **Phase 3 — breaking (major).** Scope locked to **C1 + H1 + M5**; **M2 dropped** (the semantic
+  palettes are independent of the global ramps — 0/19 steps match — so there is nothing to
+  alias to). Derived hsl/rgb/oklch kept at **full precision** (decision). Staged:
+  - **Phase 3a-1 — derivation foundation (this PR).** ✅ `build/color-derive.mjs` (culori) +
+    `scripts/verify-derivation.mjs` (`npm run verify:derivation`). Proves that deriving every
+    space from the **hex canonical** reproduces **hex + rgb byte-identically (418/418)** and
+    quantifies the **hsl + oklch full-precision drift** (every token; e.g. grey hue 223.81 → 0,
+    oklch 0.9850175 → 0.9851036). Build unchanged — this is the de-risked core + guard.
+  - **Phase 3a-2 — the cut.** Build the single DTCG-srgb canonical (C1 shape) per layer; delete
+    the 4 per-space source files (H1); rewrite the SD config/transforms to derive all spaces +
+    DTCG figma from it; regenerate `src/`+`dist/` (hsl/oklch values change, hex/rgb stay); update
+    `src/index.ts`'s per-space token imports to the generated views.
+  - **Phase 3b — M5.** Reverse-engineer DTCG source for the orphan Tailwind themes
+    (`data-visualisation` (`ember` families), `fuchsia-orange`, `fuchsia-blue`).
 - **Phase 4 — non-colour tokens** (spacing, typography, radius, shadow…) once the pipeline
   is proven.
 
