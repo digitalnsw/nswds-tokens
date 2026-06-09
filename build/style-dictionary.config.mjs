@@ -1,81 +1,123 @@
-// Style Dictionary 4 config — Phase 1a (custom formats at hex parity).
+// Style Dictionary 4 config — Phase 1c (all colour spaces at parity).
 //
-// Generates the hex variants of css/scss/less (built-ins) and js/ts/json/figma (custom
+// Exports one config PER colour space (hex/hsl/rgb/oklch). They must be separate Style
+// Dictionary instances because every space defines the same token paths (nsw-grey.50 lives
+// in hex.json AND hsl.json AND …) — globbing them together would collide.
+//
+// Each config generates css/scss/less (built-ins) + js/ts/json/figma/tailwind (custom
 // formats in ./formats.mjs) for the global, semantic, and masterbrand layers. The
-// scripts/sd-parity.mjs harness is what diffs these against dist/ to prove parity.
+// scripts/sd-parity.mjs harness diffs every output against dist/.
 //
-// Tailwind and the hsl/rgb/oklch variants are Phase 1b. hex-only on purpose: the
-// hsl/rgb/oklch object-form tokens use the non-standard `channels`/`rgb` shape (review
-// item C1) and need a colour transform.
+// hsl/rgb/oklch read the object-form source ({colorSpace,channels,alpha}); the string
+// outputs format it via the nsw/color-string transform, Figma keeps the object. (Re-deriving
+// these from hex via culori per decision #2 is deferred to Phase 3, where H1 collapses the
+// source trees and the value drift belongs with the breaking change.)
 //
 // Output goes to a scratch dir (build/.sd-out/), NOT dist/, so nothing is overwritten.
 
-import { nswJs, nswTs, nswJson, nswFigma, nswTailwind } from './formats.mjs'
+import { nswJs, nswTs, nswJson, nswFigma, nswTailwind, colorFunction } from './formats.mjs'
 
 const OUT = 'build/.sd-out/'
+const SPACES = ['hex', 'hsl', 'rgb', 'oklch']
 
-// Restrict a platform file to the tokens that came from one source file (one layer).
 const fromFile = (fragment) => (token) => token.filePath.replaceAll('\\', '/').includes(fragment)
 
 const LAYERS = [
-  { key: 'global', fragment: '/global/color/hex.json', dir: 'global' },
-  { key: 'semantic', fragment: '/semantic/color/hex.json', dir: 'semantic' },
-  { key: 'masterbrand', fragment: '/themes/color/masterbrand/hex.json', dir: 'themes/masterbrand' },
+  { key: 'global', dir: 'global', src: 'global/color' },
+  { key: 'semantic', dir: 'semantic', src: 'semantic/color' },
+  { key: 'masterbrand', dir: 'themes/masterbrand', src: 'themes/color/masterbrand' },
 ]
 
-const filesFor = (dest, format) =>
-  LAYERS.map((layer) => ({ destination: dest(layer), format, filter: fromFile(layer.fragment) }))
-
-const base = (extra) => ({ buildPath: OUT, options: { showFileHeader: false }, ...extra })
-
-// The custom formats read token.path and token.$value directly (references are resolved by
-// Style Dictionary regardless of transforms). The name/kebab transform is included only so
-// each token gets a unique `name` — without it SD warns about token-name collisions
-// (e.g. nsw-grey.50 and nsw-green.50 both collapsing to "50"). It does not affect output.
-const custom = (extra) => base({ transforms: ['name/kebab'], ...extra })
-
 // Figma uses a different (and slightly inconsistent) path layout for the masterbrand theme.
-const figmaDest = (layer) =>
+const figmaDest = (layer, space) =>
   layer.key === 'masterbrand'
-    ? 'figma/color/themes/masterbrand/color/hex.json'
-    : `figma/color/${layer.dir}/hex.json`
+    ? `figma/color/themes/masterbrand/color/${space}.json`
+    : `figma/color/${layer.dir}/${space}.json`
 
-export default {
-  // Include every hex source so theme aliases ({nsw-blue.50}) resolve against globals.
-  source: ['tokens/**/hex.json'],
-  hooks: {
-    formats: {
-      'nsw/js': nswJs,
-      'nsw/ts': nswTs,
-      'nsw/json': nswJson,
-      'nsw/figma': nswFigma,
-      'nsw/tailwind': nswTailwind,
-    },
-  },
-  platforms: {
-    css: base({
-      transformGroup: 'css',
-      files: filesFor((l) => `css/colors/${l.dir}/hex.css`, 'css/variables'),
-    }),
-    scss: base({
-      transformGroup: 'scss',
-      files: filesFor((l) => `scss/colors/${l.dir}/hex.scss`, 'scss/variables'),
-    }),
-    less: base({
-      transformGroup: 'less',
-      files: filesFor((l) => `less/colors/${l.dir}/hex.less`, 'less/variables'),
-    }),
-    js: custom({ files: filesFor((l) => `js/colors/${l.dir}/hex.js`, 'nsw/js') }),
-    ts: custom({ files: filesFor((l) => `ts/colors/${l.dir}/hex.ts`, 'nsw/ts') }),
-    json: custom({ files: filesFor((l) => `json/colors/${l.dir}/hex.json`, 'nsw/json') }),
-    figma: custom({ files: filesFor(figmaDest, 'nsw/figma') }),
-    tailwind: custom({
-      files: LAYERS.map((l) => ({
-        destination: `tailwind/colors/${l.dir}/hex.css`,
-        format: 'nsw/tailwind',
-        filter: fromFile(l.fragment),
-        options: { inline: l.key === 'semantic' },
-      })),
-    }),
-  },
+// Object-form colour value -> CSS function string. No-op for hex (string $value), via filter.
+const colorStringTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) =>
+    token.$value && typeof token.$value === 'object' && 'colorSpace' in token.$value,
+  transform: (token) => colorFunction(token.$value.colorSpace, token.$value),
 }
+
+// name/kebab gives each token a unique `name` (avoids SD collision warnings). The custom
+// formats read token.path/$value directly. nsw/color-string stringifies object colours for
+// the string outputs; Figma omits it to keep the DTCG object form.
+const STRING_XF = ['name/kebab', 'nsw/color-string']
+const OBJECT_XF = ['name/kebab']
+
+const makeConfig = (space) => {
+  const filesFor = (dest, format, opts) =>
+    LAYERS.map((layer) => ({
+      destination: dest(layer),
+      format,
+      filter: fromFile(`/${layer.src}/${space}.json`),
+      ...(opts ? { options: opts(layer) } : {}),
+    }))
+
+  const platform = (transforms, files) => ({
+    buildPath: OUT,
+    options: { showFileHeader: false },
+    transforms,
+    files,
+  })
+
+  return {
+    source: [`tokens/**/${space}.json`],
+    hooks: {
+      formats: {
+        'nsw/js': nswJs,
+        'nsw/ts': nswTs,
+        'nsw/json': nswJson,
+        'nsw/figma': nswFigma,
+        'nsw/tailwind': nswTailwind,
+      },
+      transforms: { 'nsw/color-string': colorStringTransform },
+    },
+    platforms: {
+      css: platform(
+        STRING_XF,
+        filesFor((l) => `css/colors/${l.dir}/${space}.css`, 'css/variables'),
+      ),
+      scss: platform(
+        STRING_XF,
+        filesFor((l) => `scss/colors/${l.dir}/${space}.scss`, 'scss/variables'),
+      ),
+      less: platform(
+        STRING_XF,
+        filesFor((l) => `less/colors/${l.dir}/${space}.less`, 'less/variables'),
+      ),
+      js: platform(
+        STRING_XF,
+        filesFor((l) => `js/colors/${l.dir}/${space}.js`, 'nsw/js'),
+      ),
+      ts: platform(
+        STRING_XF,
+        filesFor((l) => `ts/colors/${l.dir}/${space}.ts`, 'nsw/ts'),
+      ),
+      json: platform(
+        STRING_XF,
+        filesFor((l) => `json/colors/${l.dir}/${space}.json`, 'nsw/json'),
+      ),
+      figma: platform(
+        OBJECT_XF,
+        filesFor((l) => figmaDest(l, space), 'nsw/figma'),
+      ),
+      tailwind: platform(
+        STRING_XF,
+        filesFor(
+          (l) => `tailwind/colors/${l.dir}/${space}.css`,
+          'nsw/tailwind',
+          (l) => ({
+            inline: l.key === 'semantic',
+          }),
+        ),
+      ),
+    },
+  }
+}
+
+export default SPACES.map(makeConfig)
