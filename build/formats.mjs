@@ -59,6 +59,25 @@ export const nswFigma = ({ dictionary }) => {
   return `${JSON.stringify(obj, null, 2)}\n`
 }
 
-// NOTE: the Tailwind format is deferred to Phase 1b — its output is layer-dependent
-// (semantic uses `@theme inline {`) and alias-aware (masterbrand maps `--color-primary-50`
-// to `var(--nsw-blue-50)`, the alias target), so it needs dedicated, verified handling.
+// tailwind/colors/.../hex.css — Tailwind v4 @theme block. Layer-dependent:
+//   - concrete layers (global, semantic): `--color-X: var(--X)` + a :root block defining
+//     `--X: #hex`. The `inline` option adds `@theme inline {` (semantic only).
+//   - alias layers (masterbrand): `--color-<local>: var(--<aliasTarget>)` (e.g.
+//     primary-50 -> var(--nsw-blue-50)) and NO :root block — it relies on the referenced
+//     layer's vars being imported.
+const ALIAS = /^\{([\w-]+(?:\.[\w-]+)*)\}$/
+export const nswTailwind = ({ dictionary, options }) => {
+  const header = options?.inline ? '@theme inline' : '@theme'
+  let refs = ''
+  let defs = ''
+  let isAliasLayer = false
+  for (const t of dictionary.allTokens) {
+    const name = t.path.join('-')
+    const aliasMatch = ALIAS.exec(t.original?.$value ?? '')
+    if (aliasMatch) isAliasLayer = true
+    const refName = aliasMatch ? aliasMatch[1].replaceAll('.', '-') : name
+    refs += `  --color-${name}: var(--${refName});\n`
+    defs += `  --${name}: ${t.$value};\n`
+  }
+  return isAliasLayer ? `${header} {\n${refs}}\n` : `${header} {\n${refs}}\n\n:root {\n${defs}}\n`
+}

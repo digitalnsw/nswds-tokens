@@ -10,7 +10,7 @@
 //
 // Output goes to a scratch dir (build/.sd-out/), NOT dist/, so nothing is overwritten.
 
-import { nswJs, nswTs, nswJson, nswFigma } from './formats.mjs'
+import { nswJs, nswTs, nswJson, nswFigma, nswTailwind } from './formats.mjs'
 
 const OUT = 'build/.sd-out/'
 
@@ -49,6 +49,7 @@ export default {
       'nsw/ts': nswTs,
       'nsw/json': nswJson,
       'nsw/figma': nswFigma,
+      'nsw/tailwind': nswTailwind,
     },
   },
   platforms: {
@@ -68,5 +69,13 @@ export default {
     ts: custom({ files: filesFor((l) => `ts/colors/${l.dir}/hex.ts`, 'nsw/ts') }),
     json: custom({ files: filesFor((l) => `json/colors/${l.dir}/hex.json`, 'nsw/json') }),
     figma: custom({ files: filesFor(figmaDest, 'nsw/figma') }),
+    tailwind: custom({
+      files: LAYERS.map((l) => ({
+        destination: `tailwind/colors/${l.dir}/hex.css`,
+        format: 'nsw/tailwind',
+        filter: fromFile(l.fragment),
+        options: { inline: l.key === 'semantic' },
+      })),
+    }),
   },
 }
