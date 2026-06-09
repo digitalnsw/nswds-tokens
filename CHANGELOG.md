@@ -1,3 +1,12 @@
+## 3.0.0 (2026-06-09)
+
+* fix(release): honour breaking-change commits as major bumps (C1) (#83) ([20ba2ef](https://github.com/digitalnsw/nswds-tokens/commit/20ba2ef)), closes [#83](https://github.com/digitalnsw/nswds-tokens/issues/83) [#79](https://github.com/digitalnsw/nswds-tokens/issues/79)
+* refactor(tokens)!: DTCG sRGB shape for Figma-sync files + migration note (#81) ([47fed3a](https://github.com/digitalnsw/nswds-tokens/commit/47fed3a)), closes [#81](https://github.com/digitalnsw/nswds-tokens/issues/81)
+
+### BREAKING CHANGE
+
+* DTCG sRGB shape for Figma-sync files + migration note (#81)
+
 # [2.33.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.32.3...v2.33.0) (2026-06-09)
 
 
