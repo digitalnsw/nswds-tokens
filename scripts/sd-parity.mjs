@@ -45,8 +45,17 @@ const EXPECTED_NORMALISED = new Set([
   'figma/color/global/hex.json',
 ])
 
+// Files where the transformer CORRECTS a value-affecting bug in the hand-authored dist file.
+// Unlike normalisations, these change a resolved value — intentionally, for the better.
+//   - tailwind/colors/themes/masterbrand/hex.css: dist maps `--color-primary-850` to
+//     `var(--nsw-blue-800)`, but the source aliases `{nsw-blue.850}` and every other format
+//     (css/js/json/figma) resolves primary-850 to nsw-blue.850 (#001a4d). The dist Tailwind
+//     file is wrong (#002664); the transformer emits the correct `var(--nsw-blue-850)`.
+const EXPECTED_CORRECTED = new Set(['tailwind/colors/themes/masterbrand/hex.css'])
+
 let identical = 0
 const normalised = []
+const corrected = []
 const failures = []
 
 for (const rel of expected.sort()) {
@@ -68,6 +77,9 @@ for (const rel of expected.sort()) {
   } else if (EXPECTED_NORMALISED.has(rel)) {
     normalised.push(rel)
     console.log(`≈  normalised (expected)  ${rel}`)
+  } else if (EXPECTED_CORRECTED.has(rel)) {
+    corrected.push(rel)
+    console.log(`✦  corrected dist bug (expected)  ${rel}`)
   } else {
     failures.push(`✖ DIFFERS  ${rel}\n${firstDiff(dist, gen)}`)
   }
@@ -75,11 +87,12 @@ for (const rel of expected.sort()) {
 
 console.log(
   `\n${identical}/${expected.length} byte-identical to dist/` +
-    (normalised.length ? `, ${normalised.length} expected-normalised` : '') +
+    (normalised.length ? `, ${normalised.length} normalised` : '') +
+    (corrected.length ? `, ${corrected.length} corrected` : '') +
     '.',
 )
 if (failures.length) {
   console.error('\n' + failures.join('\n\n'))
   process.exit(1)
 }
-console.log('Parity proven (hex CSS/SCSS/LESS/JS/TS/JSON/Figma). ✅')
+console.log('Parity proven (hex — all formats: CSS/SCSS/LESS/JS/TS/JSON/Figma/Tailwind). ✅')
