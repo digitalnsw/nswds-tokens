@@ -19,7 +19,6 @@ export const success = {
   900: 'rgb(0, 22, 0)',
   950: 'rgb(0, 11, 0)',
 }
-
 export const warning = {
   50: 'rgb(255, 243, 237)',
   100: 'rgb(255, 232, 222)',
@@ -41,7 +40,6 @@ export const warning = {
   900: 'rgb(39, 4, 0)',
   950: 'rgb(23, 1, 0)',
 }
-
 export const danger = {
   50: 'rgb(255, 240, 239)',
   100: 'rgb(255, 226, 225)',
@@ -63,7 +61,6 @@ export const danger = {
   900: 'rgb(35, 0, 2)',
   950: 'rgb(20, 0, 1)',
 }
-
 export const info = {
   50: 'rgb(233, 238, 247)',
   100: 'rgb(212, 221, 235)',
