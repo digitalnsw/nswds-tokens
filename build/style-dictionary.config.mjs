@@ -1,19 +1,19 @@
-// Style Dictionary 4 config — Phase 1c (all colour spaces at parity).
+// Style Dictionary 4 config — the shared token→output generator.
 //
 // Exports one config PER colour space (hex/hsl/rgb/oklch). They must be separate Style
 // Dictionary instances because every space defines the same token paths (nsw-grey.50 lives
 // in hex.json AND hsl.json AND …) — globbing them together would collide.
 //
 // Each config generates css/scss/less (built-ins) + js/ts/json/figma/tailwind (custom
-// formats in ./formats.mjs) for the global, semantic, and masterbrand layers. The
-// scripts/sd-parity.mjs harness diffs every output against dist/.
+// formats in ./formats.mjs) for the global, semantic, and masterbrand layers.
 //
 // hsl/rgb/oklch read the object-form source ({colorSpace,channels,alpha}); the string
 // outputs format it via the nsw/color-string transform, Figma keeps the object. (Re-deriving
 // these from hex via culori per decision #2 is deferred to Phase 3, where H1 collapses the
 // source trees and the value drift belongs with the breaking change.)
 //
-// Output goes to a scratch dir (build/.sd-out/), NOT dist/, so nothing is overwritten.
+// Consumed by scripts/generate-styles.mjs, which overrides each platform's buildPath to
+// write the generated files into src/ (the OUT default below is only a placeholder).
 
 import { nswJs, nswTs, nswJson, nswFigma, nswTailwind, colorFunction } from './formats.mjs'
 
