@@ -7,6 +7,7 @@ export default {
   ignores: [
     (message) =>
       /^Potential fix for code scanning alert no\. \d+: /u.test(message.trim()) ||
+      message.trim().startsWith('Potential fix for pull request finding') ||
       message.trim() === 'Initial plan',
   ],
   rules: {
