@@ -1,3 +1,10 @@
+# [2.33.0](https://github.com/digitalnsw/nswds-tokens/compare/v2.32.3...v2.33.0) (2026-06-09)
+
+
+### Features
+
+* **tokens:** generate orphan themes from reverse-engineered source (Phase 3b/M5) ([#80](https://github.com/digitalnsw/nswds-tokens/issues/80)) ([3a745c4](https://github.com/digitalnsw/nswds-tokens/commit/3a745c4a23a7b64f779518dec2007c1b95b3dc9e))
+
 ## [2.32.3](https://github.com/digitalnsw/nswds-tokens/compare/v2.32.2...v2.32.3) (2026-06-05)
 
 
