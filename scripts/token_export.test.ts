@@ -165,7 +165,12 @@ describe('tokenFilesFromLocalVariables', () => {
         brand: {
           radish: {
             $type: 'color',
-            $value: '#ffbe16',
+            $value: {
+              colorSpace: 'srgb',
+              components: [1, 0.7450980392156863, 0.08627450980392157],
+              alpha: 1,
+              hex: '#ffbe16',
+            },
             $description: 'Radish color',
             $extensions: {
               'com.figma': {
@@ -177,7 +182,12 @@ describe('tokenFilesFromLocalVariables', () => {
           },
           pear: {
             $type: 'color',
-            $value: '#ff0016',
+            $value: {
+              colorSpace: 'srgb',
+              components: [1, 0, 0.08627450980392157],
+              alpha: 1,
+              hex: '#ff0016',
+            },
             $description: 'Pear color',
             $extensions: {
               'com.figma': {
@@ -222,7 +232,12 @@ describe('tokenFilesFromLocalVariables', () => {
         brand: {
           radish: {
             $type: 'color',
-            $value: '#ffcbb7',
+            $value: {
+              colorSpace: 'srgb',
+              components: [1, 0.796078431372549, 0.7176470588235294],
+              alpha: 1,
+              hex: '#ffcbb7',
+            },
             $description: 'Radish color',
             $extensions: {
               'com.figma': {
@@ -234,7 +249,12 @@ describe('tokenFilesFromLocalVariables', () => {
           },
           pear: {
             $type: 'color',
-            $value: '#def358',
+            $value: {
+              colorSpace: 'srgb',
+              components: [0.8705882352941177, 0.9529411764705882, 0.34509803921568627],
+              alpha: 1,
+              hex: '#def358',
+            },
             $description: 'Pear color',
             $extensions: {
               'com.figma': {
