@@ -23,7 +23,6 @@
     "smoke:package-surface": "node scripts/smoke-package-surface.mjs",
     "check:version-sync": "node scripts/check-release-metadata.mjs",
     "validate:tokens": "node scripts/validate-tokens.mjs",
-    "verify:derivation": "node scripts/verify-derivation.mjs",
     "build:canonical": "node scripts/build-canonical.mjs",
     "test:tokens": "vitest run --globals",
     "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",
