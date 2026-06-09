@@ -1,5 +1,5 @@
 import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
-import { rgbToHex } from './color.js'
+import { rgbToDtcg } from './color.js'
 import { Token, TokenGroup, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import { assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 
@@ -41,7 +41,7 @@ function tokenValueFromVariable(
       }
       return `{${aliasedVariable.name.replace(/\//g, '.')}}`
     } else if ('r' in value) {
-      return rgbToHex(value)
+      return rgbToDtcg(value)
     }
 
     throw new Error(`Format of variable value is invalid: ${value}`)

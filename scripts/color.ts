@@ -36,6 +36,27 @@ export function parseColor(color: string): RGB | RGBA {
   }
 }
 
+// DTCG 2025.10 sRGB colour object (the canonical shape used across the repo).
+export type DtcgColor = {
+  colorSpace: 'srgb'
+  components: [number, number, number]
+  alpha: number
+  hex: string
+}
+
+// Figma RGB(A) (components already 0–1) -> DTCG sRGB object, with a hex fallback.
+export function rgbToDtcg(value: RGB | RGBA): DtcgColor {
+  const { r, g, b } = value
+  const alpha = 'a' in value ? value.a : 1
+  return { colorSpace: 'srgb', components: [r, g, b], alpha, hex: rgbToHex(value) }
+}
+
+// DTCG sRGB object -> Figma RGB(A). Alpha is omitted when fully opaque (matches parseColor).
+export function dtcgToRgb({ components, alpha }: DtcgColor): RGB | RGBA {
+  const [r, g, b] = components
+  return alpha !== 1 ? { r, g, b, a: alpha } : { r, g, b }
+}
+
 export function rgbToHex({ r, g, b, ...rest }: RGB | RGBA) {
   const a = 'a' in rest ? rest.a : 1
 
