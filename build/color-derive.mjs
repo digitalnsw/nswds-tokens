@@ -42,3 +42,28 @@ export const cssString = (canonical, space) => {
       throw new Error(`Unsupported colour space: ${space}`)
   }
 }
+
+// DTCG 2025.10 colour object (C1) for a space, derived from the canonical. Ranges per spec:
+//   srgb  -> components [r, g, b]   in 0–1
+//   hsl   -> components [H, S, L]   H 0–360 ("none" if powerless), S/L 0–100
+//   oklch -> components [L, C, H]   L 0–1, C 0+, H 0–360 ("none" if powerless)
+// `hex` is included as the fallback. The canonical's own hex is preserved (exact).
+export const dtcgValue = (canonical, space) => {
+  const srgb = toSrgb(canonical)
+  const hex = typeof canonical === 'string' ? formatHex(srgb) : canonical.hex
+  const alpha = (typeof canonical === 'string' ? srgb.alpha : canonical.alpha) ?? 1
+  switch (space) {
+    case 'srgb':
+      return { colorSpace: 'srgb', components: [srgb.r, srgb.g, srgb.b], alpha, hex }
+    case 'hsl': {
+      const { h, s, l } = toHsl(srgb)
+      return { colorSpace: 'hsl', components: [h ?? 'none', s * 100, l * 100], alpha, hex }
+    }
+    case 'oklch': {
+      const { l, c, h } = toOklch(srgb)
+      return { colorSpace: 'oklch', components: [l, c, h ?? 'none'], alpha, hex }
+    }
+    default:
+      throw new Error(`Unsupported colour space: ${space}`)
+  }
+}

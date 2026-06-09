@@ -102,10 +102,14 @@ structure differs**. The same patterns recur across colour spaces:
     space from the **hex canonical** reproduces **hex + rgb byte-identically (418/418)** and
     quantifies the **hsl + oklch full-precision drift** (every token; e.g. grey hue 223.81 → 0,
     oklch 0.9850175 → 0.9851036). Build unchanged — this is the de-risked core + guard.
-  - **Phase 3a-2 — the cut.** Build the single DTCG-srgb canonical (C1 shape) per layer; delete
-    the 4 per-space source files (H1); rewrite the SD config/transforms to derive all spaces +
-    DTCG figma from it; regenerate `src/`+`dist/` (hsl/oklch values change, hex/rgb stay); update
-    `src/index.ts`'s per-space token imports to the generated views.
+  - **Phase 3a-2 — the cut (this PR).** ✅ `tokens/*/color/canonical.json` is the single
+    DTCG-srgb source (`build:canonical`). `scripts/build-token-views.mjs` derives the per-space
+    view files (hex string + C1 `srgb`/`hsl`/`oklch` objects; masterbrand hex stays aliased,
+    hsl/rgb/oklch resolved) — so `src/index.ts` and `dist/tokens` are unchanged in structure.
+    `colorFunction` reads C1 `components`; figma emits C1 objects. Result: **`validate:tokens` 0
+    warnings** (was 3,356 — full DTCG 2025.10 compliance), **hex + rgb byte-identical**, hsl/oklch
+    full-precision drift, bundle smoke passes, build idempotent. (The em-dash Figma-sync files
+    use hex strings, not the `channels` object, so they're already fine — out of scope.)
   - **Phase 3b — M5.** Reverse-engineer DTCG source for the orphan Tailwind themes
     (`data-visualisation` (`ember` families), `fuchsia-orange`, `fuchsia-blue`).
 - **Phase 4 — non-colour tokens** (spacing, typography, radius, shadow…) once the pipeline

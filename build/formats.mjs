@@ -5,20 +5,21 @@
 
 const toCamel = (s) => s.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase())
 
-// Object-form colour value ({ colorSpace, channels, alpha }) -> the CSS function string used
-// in the string outputs, matching the published syntax exactly. (Figma keeps the object.)
-//   hsl   -> hsl(223.81, 0%, 98.03%)        (comma-separated, % on S and L)
-//   rgb   -> rgb(250, 250, 250)             (comma-separated 0–255)
-//   oklch -> oklch(0.985… 0 0)              (space-separated; null hue -> 0)
+// DTCG 2025.10 colour object (C1) -> the CSS function string used in the string outputs.
+//   srgb  components [r,g,b] 0–1     -> rgb(250, 250, 250)
+//   hsl   components [H,S,L]         -> hsl(H, S%, L%)
+//   oklch components [L,C,H]         -> oklch(L C H)
+// The achromatic-hue keyword "none" (kept in the DTCG object) becomes 0 in the CSS string.
+const noneToZero = (x) => (x === 'none' ? 0 : x)
 export const colorFunction = (colorSpace, value) => {
-  const c = value.channels
+  const c = value.components
   switch (colorSpace) {
+    case 'srgb':
+      return `rgb(${c.map((x) => Math.round(x * 255)).join(', ')})`
     case 'hsl':
-      return `hsl(${c[0]}, ${c[1]}%, ${c[2]}%)`
-    case 'rgb':
-      return `rgb(${c.join(', ')})`
+      return `hsl(${noneToZero(c[0])}, ${c[1]}%, ${c[2]}%)`
     case 'oklch':
-      return `oklch(${c[0]} ${c[1]} ${c[2] ?? 0})`
+      return `oklch(${c[0]} ${c[1]} ${noneToZero(c[2])})`
     default:
       throw new Error(`Unsupported colour space: ${colorSpace}`)
   }
@@ -74,13 +75,12 @@ export const nswFigma = ({ dictionary }) => {
     const family = t.path[0]
     ;(obj[family] ??= {})[t.path[1]] = { $type: 'color', $value: t.$value }
   }
-  // Object-form colours print `channels` inline (e.g. [240, 251, 255]); JSON.stringify would
-  // expand them. Hex (string $value) has no channels so is unaffected. Trailing newline kept
-  // consistent across layers (global dist lacks it — normalised).
+  // DTCG object colours print `components` inline; JSON.stringify would expand them. Hex
+  // (string $value) has no components so is unaffected. Trailing newline kept consistent.
   const json = JSON.stringify(obj, null, 2).replace(
-    /"channels": \[\n\s*([^\]]+?)\n\s*\]/g,
+    /"components": \[\n\s*([^\]]+?)\n\s*\]/g,
     (_, inner) =>
-      `"channels": [${inner
+      `"components": [${inner
         .split(',')
         .map((s) => s.trim())
         .join(', ')}]`,

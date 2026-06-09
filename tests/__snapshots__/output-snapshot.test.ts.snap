@@ -4050,5 +4050,6 @@ exports[`built output snapshots > dist/tokens/global/color/hex.json 1`] = `
       "$value": "#150612"
     }
   }
-}"
+}
+"
 `;

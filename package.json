@@ -18,7 +18,7 @@
     "postversion": "node scripts/sync-package-lock-version.mjs",
     "copy-styles": "node scripts/copy-styles.mjs",
     "generate-styles": "node scripts/generate-styles.mjs",
-    "build": "node scripts/generate-styles.mjs && tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
+    "build": "node scripts/build-token-views.mjs && node scripts/generate-styles.mjs && tsup src/index.ts --format esm,cjs --dts --target esnext --treeshake --clean",
     "check:dist": "node scripts/check-dist.mjs",
     "smoke:package-surface": "node scripts/smoke-package-surface.mjs",
     "check:version-sync": "node scripts/check-release-metadata.mjs",
