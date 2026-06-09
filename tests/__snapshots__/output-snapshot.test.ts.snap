@@ -1255,7 +1255,8 @@ exports[`built output snapshots > dist/json/colors/global/hex.json 1`] = `
     "nsw-aboriginal-purple-900": "#241021",
     "nsw-aboriginal-purple-950": "#150612"
   }
-}"
+}
+"
 `;
 
 exports[`built output snapshots > dist/less/colors/global/hex.less 1`] = `

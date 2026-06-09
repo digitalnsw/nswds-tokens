@@ -19,7 +19,6 @@ export const success = {
   900: '#001600',
   950: '#000b00',
 }
-
 export const warning = {
   50: '#fff3ed',
   100: '#ffe8de',
@@ -41,7 +40,6 @@ export const warning = {
   900: '#270400',
   950: '#170100',
 }
-
 export const danger = {
   50: '#fff0ef',
   100: '#ffe2e1',
@@ -63,7 +61,6 @@ export const danger = {
   900: '#230002',
   950: '#140001',
 }
-
 export const info = {
   50: '#e9eef7',
   100: '#d4ddeb',
