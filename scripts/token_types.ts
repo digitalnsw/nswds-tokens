@@ -7,6 +7,7 @@
  */
 
 import { VariableCodeSyntax, VariableScope } from '@figma/rest-api-spec'
+import { DtcgColor } from './color.js'
 
 export interface Token {
   /**
@@ -16,7 +17,12 @@ export interface Token {
    * to align with the resolved types for Figma variables.
    */
   $type: 'color' | 'number' | 'string' | 'boolean'
-  $value: string | number | boolean
+  /**
+   * For `color` tokens written in the DTCG 2025.10 shape, `$value` is a {@link DtcgColor}
+   * object (`{ colorSpace, components, alpha, hex }`). Colour aliases remain `{group.token}`
+   * strings; `number`/`string`/`boolean` tokens keep their primitive values.
+   */
+  $value: string | number | boolean | DtcgColor
   $description?: string
   $extensions?: {
     /**

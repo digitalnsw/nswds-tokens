@@ -36,6 +36,42 @@ export function parseColor(color: string): RGB | RGBA {
   }
 }
 
+// DTCG 2025.10 sRGB colour object (the canonical shape used across the repo).
+export type DtcgColor = {
+  colorSpace: 'srgb'
+  components: [number, number, number]
+  alpha: number
+  hex: string
+}
+
+// Figma RGB(A) (components already 0–1) -> DTCG sRGB object, with a hex fallback.
+export function rgbToDtcg(value: RGB | RGBA): DtcgColor {
+  const { r, g, b } = value
+  const alpha = 'a' in value ? value.a : 1
+  return { colorSpace: 'srgb', components: [r, g, b], alpha, hex: rgbToHex(value) }
+}
+
+// Narrow an unknown $value to a DTCG sRGB colour object. Guards the import path so
+// only well-formed srgb objects (3 numeric components) reach dtcgToRgb(); anything
+// else (hsl/oklch objects, partial/foreign shapes) falls through to other handling.
+export function isDtcgColor(value: unknown): value is DtcgColor {
+  if (typeof value !== 'object' || value === null) return false
+  const v = value as Record<string, unknown>
+  return (
+    v.colorSpace === 'srgb' &&
+    Array.isArray(v.components) &&
+    v.components.length === 3 &&
+    v.components.every((c) => typeof c === 'number')
+  )
+}
+
+// DTCG sRGB object -> Figma RGB(A). Alpha defaults to 1 when absent, and is omitted
+// from the result when fully opaque (matches parseColor / avoids `a: undefined`).
+export function dtcgToRgb({ components, alpha = 1 }: DtcgColor): RGB | RGBA {
+  const [r, g, b] = components
+  return alpha !== 1 ? { r, g, b, a: alpha } : { r, g, b }
+}
+
 export function rgbToHex({ r, g, b, ...rest }: RGB | RGBA) {
   const a = 'a' in rest ? rest.a : 1
 

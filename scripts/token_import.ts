@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 
-import { colorApproximatelyEqual, parseColor } from './color.js'
+import { colorApproximatelyEqual, dtcgToRgb, isDtcgColor, parseColor } from './color.js'
 import { FIGMA_COLLECTIONS } from './figma-collections.js'
 import { areSetsEqual, assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 import { Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
@@ -162,8 +162,10 @@ function variableValueFromToken(
       type: 'VARIABLE_ALIAS',
       id: value,
     }
+  } else if (token.$type === 'color' && isDtcgColor(token.$value)) {
+    return dtcgToRgb(token.$value)
   } else if (typeof token.$value === 'string' && token.$type === 'color') {
-    return parseColor(token.$value)
+    return parseColor(token.$value) // back-compat: hex string colours
   } else {
     return token.$value
   }
