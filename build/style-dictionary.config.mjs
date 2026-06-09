@@ -26,6 +26,13 @@ const LAYERS = [
   { key: 'global', dir: 'global', src: 'global/color' },
   { key: 'semantic', dir: 'semantic', src: 'semantic/color' },
   { key: 'masterbrand', dir: 'themes/masterbrand', src: 'themes/color/masterbrand' },
+  { key: 'fuchsia-blue', dir: 'themes/fuchsia-blue', src: 'themes/color/fuchsia-blue' },
+  { key: 'fuchsia-orange', dir: 'themes/fuchsia-orange', src: 'themes/color/fuchsia-orange' },
+  {
+    key: 'data-visualisation',
+    dir: 'themes/data-visualisation',
+    src: 'themes/color/data-visualisation',
+  },
 ]
 
 // Figma uses a different (and slightly inconsistent) path layout for the masterbrand theme.
@@ -49,24 +56,25 @@ const colorStringTransform = {
 const STRING_XF = ['name/kebab', 'nsw/color-string']
 const OBJECT_XF = ['name/kebab']
 
-const makeConfig = (space) => {
-  const filesFor = (dest, format, opts) =>
-    LAYERS.map((layer) => ({
-      destination: dest(layer),
-      format,
-      filter: fromFile(`/${layer.src}/${space}.json`),
-      ...(opts ? { options: opts(layer) } : {}),
-    }))
+// One config per (space, layer). Loading a single layer (+ global, for theme alias resolution)
+// keeps themes that share family names (primary/accent/grey across masterbrand/fuchsia-*) from
+// colliding in a shared dictionary.
+const makeConfig = (space, layer) => {
+  const source =
+    layer.key === 'global'
+      ? [`tokens/global/color/${space}.json`]
+      : [`tokens/${layer.src}/${space}.json`, `tokens/global/color/${space}.json`]
+  const filter = fromFile(`/${layer.src}/${space}.json`)
 
-  const platform = (transforms, files) => ({
+  const platform = (transforms, destination, format, options) => ({
     buildPath: OUT,
     options: { showFileHeader: false },
     transforms,
-    files,
+    files: [{ destination, format, filter, ...(options ? { options } : {}) }],
   })
 
   return {
-    source: [`tokens/**/${space}.json`],
+    source,
     hooks: {
       formats: {
         'nsw/js': nswJs,
@@ -78,46 +86,18 @@ const makeConfig = (space) => {
       transforms: { 'nsw/color-string': colorStringTransform },
     },
     platforms: {
-      css: platform(
-        STRING_XF,
-        filesFor((l) => `css/colors/${l.dir}/${space}.css`, 'css/variables'),
-      ),
-      scss: platform(
-        STRING_XF,
-        filesFor((l) => `scss/colors/${l.dir}/${space}.scss`, 'scss/variables'),
-      ),
-      less: platform(
-        STRING_XF,
-        filesFor((l) => `less/colors/${l.dir}/${space}.less`, 'less/variables'),
-      ),
-      js: platform(
-        STRING_XF,
-        filesFor((l) => `js/colors/${l.dir}/${space}.js`, 'nsw/js'),
-      ),
-      ts: platform(
-        STRING_XF,
-        filesFor((l) => `ts/colors/${l.dir}/${space}.ts`, 'nsw/ts'),
-      ),
-      json: platform(
-        STRING_XF,
-        filesFor((l) => `json/colors/${l.dir}/${space}.json`, 'nsw/json'),
-      ),
-      figma: platform(
-        OBJECT_XF,
-        filesFor((l) => figmaDest(l, space), 'nsw/figma'),
-      ),
-      tailwind: platform(
-        STRING_XF,
-        filesFor(
-          (l) => `tailwind/colors/${l.dir}/${space}.css`,
-          'nsw/tailwind',
-          (l) => ({
-            inline: l.key === 'semantic',
-          }),
-        ),
-      ),
+      css: platform(STRING_XF, `css/colors/${layer.dir}/${space}.css`, 'css/variables'),
+      scss: platform(STRING_XF, `scss/colors/${layer.dir}/${space}.scss`, 'scss/variables'),
+      less: platform(STRING_XF, `less/colors/${layer.dir}/${space}.less`, 'less/variables'),
+      js: platform(STRING_XF, `js/colors/${layer.dir}/${space}.js`, 'nsw/js'),
+      ts: platform(STRING_XF, `ts/colors/${layer.dir}/${space}.ts`, 'nsw/ts'),
+      json: platform(STRING_XF, `json/colors/${layer.dir}/${space}.json`, 'nsw/json'),
+      figma: platform(OBJECT_XF, figmaDest(layer, space), 'nsw/figma'),
+      tailwind: platform(STRING_XF, `tailwind/colors/${layer.dir}/${space}.css`, 'nsw/tailwind', {
+        inline: layer.key === 'semantic',
+      }),
     },
   }
 }
 
-export default SPACES.map(makeConfig)
+export default SPACES.flatMap((space) => LAYERS.map((layer) => makeConfig(space, layer)))

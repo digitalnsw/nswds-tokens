@@ -14,6 +14,22 @@ declare namespace globalCssRgb {
   export {  };
 }
 
+declare namespace semanticCssHex {
+  export {  };
+}
+
+declare namespace semanticCssHsl {
+  export {  };
+}
+
+declare namespace semanticCssOklch {
+  export {  };
+}
+
+declare namespace semanticCssRgb {
+  export {  };
+}
+
 declare namespace masterbrandCssHex {
   export {  };
 }
@@ -30,19 +46,51 @@ declare namespace masterbrandCssRgb {
   export {  };
 }
 
-declare namespace semanticCssHex {
+declare namespace fuchsiaBlueCssHex {
   export {  };
 }
 
-declare namespace semanticCssHsl {
+declare namespace fuchsiaBlueCssHsl {
   export {  };
 }
 
-declare namespace semanticCssOklch {
+declare namespace fuchsiaBlueCssOklch {
   export {  };
 }
 
-declare namespace semanticCssRgb {
+declare namespace fuchsiaBlueCssRgb {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeCssHex {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeCssHsl {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeCssOklch {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeCssRgb {
+  export {  };
+}
+
+declare namespace dataVisualisationCssHex {
+  export {  };
+}
+
+declare namespace dataVisualisationCssHsl {
+  export {  };
+}
+
+declare namespace dataVisualisationCssOklch {
+  export {  };
+}
+
+declare namespace dataVisualisationCssRgb {
   export {  };
 }
 
@@ -1578,278 +1626,6 @@ declare namespace globalJsRgb {
   export { nswAboriginalBlue$4 as nswAboriginalBlue, nswAboriginalBrown$4 as nswAboriginalBrown, nswAboriginalGreen$4 as nswAboriginalGreen, nswAboriginalGrey$4 as nswAboriginalGrey, nswAboriginalOrange$4 as nswAboriginalOrange, nswAboriginalPurple$4 as nswAboriginalPurple, nswAboriginalRed$4 as nswAboriginalRed, nswAboriginalYellow$4 as nswAboriginalYellow, nswBlue$4 as nswBlue, nswBrown$4 as nswBrown, nswFuchsia$4 as nswFuchsia, nswGreen$4 as nswGreen, nswGrey$4 as nswGrey, nswOrange$4 as nswOrange, nswPurple$4 as nswPurple, nswRed$4 as nswRed, nswTeal$4 as nswTeal, nswYellow$4 as nswYellow };
 }
 
-declare const primary$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const accent$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const grey$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-
-declare namespace masterbrandJsHex {
-  export { accent$7 as accent, grey$7 as grey, primary$7 as primary };
-}
-
-declare const primary$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const accent$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const grey$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-
-declare namespace masterbrandJsHsl {
-  export { accent$6 as accent, grey$6 as grey, primary$6 as primary };
-}
-
-declare const primary$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const accent$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const grey$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-
-declare namespace masterbrandJsOklch {
-  export { accent$5 as accent, grey$5 as grey, primary$5 as primary };
-}
-
-declare const primary$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const accent$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-declare const grey$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
-
-declare namespace masterbrandJsRgb {
-  export { accent$4 as accent, grey$4 as grey, primary$4 as primary };
-}
-
 declare const success$7: {
     50: string;
     100: string;
@@ -2206,6 +1982,1746 @@ declare namespace semanticJsRgb {
   export { danger$4 as danger, info$4 as info, success$4 as success, warning$4 as warning };
 }
 
+declare const primary$n: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$n: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$n: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace masterbrandJsHex {
+  export { accent$n as accent, grey$n as grey, primary$n as primary };
+}
+
+declare const primary$m: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$m: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$m: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace masterbrandJsHsl {
+  export { accent$m as accent, grey$m as grey, primary$m as primary };
+}
+
+declare const primary$l: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$l: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$l: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace masterbrandJsOklch {
+  export { accent$l as accent, grey$l as grey, primary$l as primary };
+}
+
+declare const primary$k: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$k: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$k: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace masterbrandJsRgb {
+  export { accent$k as accent, grey$k as grey, primary$k as primary };
+}
+
+declare const primary$j: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$j: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$j: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaBlueJsHex {
+  export { accent$j as accent, grey$j as grey, primary$j as primary };
+}
+
+declare const primary$i: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$i: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$i: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaBlueJsHsl {
+  export { accent$i as accent, grey$i as grey, primary$i as primary };
+}
+
+declare const primary$h: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$h: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$h: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaBlueJsOklch {
+  export { accent$h as accent, grey$h as grey, primary$h as primary };
+}
+
+declare const primary$g: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$g: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$g: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaBlueJsRgb {
+  export { accent$g as accent, grey$g as grey, primary$g as primary };
+}
+
+declare const primary$f: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$f: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$f: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaOrangeJsHex {
+  export { accent$f as accent, grey$f as grey, primary$f as primary };
+}
+
+declare const primary$e: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$e: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$e: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaOrangeJsHsl {
+  export { accent$e as accent, grey$e as grey, primary$e as primary };
+}
+
+declare const primary$d: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$d: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$d: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaOrangeJsOklch {
+  export { accent$d as accent, grey$d as grey, primary$d as primary };
+}
+
+declare const primary$c: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const accent$c: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+declare const grey$c: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+};
+
+declare namespace fuchsiaOrangeJsRgb {
+  export { accent$c as accent, grey$c as grey, primary$c as primary };
+}
+
+declare const ember$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const earthfire$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const fuchsiaHeat$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const polarGlow$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const glacierPool$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const deepCurrent$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const blueRed$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const blueOrange$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const purpleYellow$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const fuchsiaTeal$7: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+
+declare namespace dataVisualisationJsHex {
+  export { blueOrange$7 as blueOrange, blueRed$7 as blueRed, deepCurrent$7 as deepCurrent, earthfire$7 as earthfire, ember$7 as ember, fuchsiaHeat$7 as fuchsiaHeat, fuchsiaTeal$7 as fuchsiaTeal, glacierPool$7 as glacierPool, polarGlow$7 as polarGlow, purpleYellow$7 as purpleYellow };
+}
+
+declare const ember$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const earthfire$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const fuchsiaHeat$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const polarGlow$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const glacierPool$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const deepCurrent$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const blueRed$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const blueOrange$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const purpleYellow$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const fuchsiaTeal$6: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+
+declare namespace dataVisualisationJsHsl {
+  export { blueOrange$6 as blueOrange, blueRed$6 as blueRed, deepCurrent$6 as deepCurrent, earthfire$6 as earthfire, ember$6 as ember, fuchsiaHeat$6 as fuchsiaHeat, fuchsiaTeal$6 as fuchsiaTeal, glacierPool$6 as glacierPool, polarGlow$6 as polarGlow, purpleYellow$6 as purpleYellow };
+}
+
+declare const ember$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const earthfire$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const fuchsiaHeat$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const polarGlow$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const glacierPool$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const deepCurrent$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const blueRed$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const blueOrange$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const purpleYellow$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const fuchsiaTeal$5: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+
+declare namespace dataVisualisationJsOklch {
+  export { blueOrange$5 as blueOrange, blueRed$5 as blueRed, deepCurrent$5 as deepCurrent, earthfire$5 as earthfire, ember$5 as ember, fuchsiaHeat$5 as fuchsiaHeat, fuchsiaTeal$5 as fuchsiaTeal, glacierPool$5 as glacierPool, polarGlow$5 as polarGlow, purpleYellow$5 as purpleYellow };
+}
+
+declare const ember$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const earthfire$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const fuchsiaHeat$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const polarGlow$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const glacierPool$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const deepCurrent$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+    1050: string;
+};
+declare const blueRed$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const blueOrange$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const purpleYellow$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+declare const fuchsiaTeal$4: {
+    50: string;
+    100: string;
+    150: string;
+    200: string;
+    250: string;
+    300: string;
+    350: string;
+    400: string;
+    450: string;
+    500: string;
+    550: string;
+    600: string;
+    650: string;
+    700: string;
+    750: string;
+    800: string;
+    850: string;
+    900: string;
+    950: string;
+    1000: string;
+};
+
+declare namespace dataVisualisationJsRgb {
+  export { blueOrange$4 as blueOrange, blueRed$4 as blueRed, deepCurrent$4 as deepCurrent, earthfire$4 as earthfire, ember$4 as ember, fuchsiaHeat$4 as fuchsiaHeat, fuchsiaTeal$4 as fuchsiaTeal, glacierPool$4 as glacierPool, polarGlow$4 as polarGlow, purpleYellow$4 as purpleYellow };
+}
+
 declare namespace globalLessHex {
   export {  };
 }
@@ -2219,22 +3735,6 @@ declare namespace globalLessOklch {
 }
 
 declare namespace globalLessRgb {
-  export {  };
-}
-
-declare namespace masterbrandLessHex {
-  export {  };
-}
-
-declare namespace masterbrandLessHsl {
-  export {  };
-}
-
-declare namespace masterbrandLessOklch {
-  export {  };
-}
-
-declare namespace masterbrandLessRgb {
   export {  };
 }
 
@@ -2254,6 +3754,70 @@ declare namespace semanticLessRgb {
   export {  };
 }
 
+declare namespace masterbrandLessHex {
+  export {  };
+}
+
+declare namespace masterbrandLessHsl {
+  export {  };
+}
+
+declare namespace masterbrandLessOklch {
+  export {  };
+}
+
+declare namespace masterbrandLessRgb {
+  export {  };
+}
+
+declare namespace fuchsiaBlueLessHex {
+  export {  };
+}
+
+declare namespace fuchsiaBlueLessHsl {
+  export {  };
+}
+
+declare namespace fuchsiaBlueLessOklch {
+  export {  };
+}
+
+declare namespace fuchsiaBlueLessRgb {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeLessHex {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeLessHsl {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeLessOklch {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeLessRgb {
+  export {  };
+}
+
+declare namespace dataVisualisationLessHex {
+  export {  };
+}
+
+declare namespace dataVisualisationLessHsl {
+  export {  };
+}
+
+declare namespace dataVisualisationLessOklch {
+  export {  };
+}
+
+declare namespace dataVisualisationLessRgb {
+  export {  };
+}
+
 declare namespace globalScssHex {
   export {  };
 }
@@ -2267,22 +3831,6 @@ declare namespace globalScssOklch {
 }
 
 declare namespace globalScssRgb {
-  export {  };
-}
-
-declare namespace masterbrandScssHex {
-  export {  };
-}
-
-declare namespace masterbrandScssHsl {
-  export {  };
-}
-
-declare namespace masterbrandScssOklch {
-  export {  };
-}
-
-declare namespace masterbrandScssRgb {
   export {  };
 }
 
@@ -2302,6 +3850,70 @@ declare namespace semanticScssRgb {
   export {  };
 }
 
+declare namespace masterbrandScssHex {
+  export {  };
+}
+
+declare namespace masterbrandScssHsl {
+  export {  };
+}
+
+declare namespace masterbrandScssOklch {
+  export {  };
+}
+
+declare namespace masterbrandScssRgb {
+  export {  };
+}
+
+declare namespace fuchsiaBlueScssHex {
+  export {  };
+}
+
+declare namespace fuchsiaBlueScssHsl {
+  export {  };
+}
+
+declare namespace fuchsiaBlueScssOklch {
+  export {  };
+}
+
+declare namespace fuchsiaBlueScssRgb {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeScssHex {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeScssHsl {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeScssOklch {
+  export {  };
+}
+
+declare namespace fuchsiaOrangeScssRgb {
+  export {  };
+}
+
+declare namespace dataVisualisationScssHex {
+  export {  };
+}
+
+declare namespace dataVisualisationScssHsl {
+  export {  };
+}
+
+declare namespace dataVisualisationScssOklch {
+  export {  };
+}
+
+declare namespace dataVisualisationScssRgb {
+  export {  };
+}
+
 declare namespace globalTailwindHex {
   export {  };
 }
@@ -2315,6 +3927,22 @@ declare namespace globalTailwindOklch {
 }
 
 declare namespace globalTailwindRgb {
+  export {  };
+}
+
+declare namespace semanticTailwindHex {
+  export {  };
+}
+
+declare namespace semanticTailwindHsl {
+  export {  };
+}
+
+declare namespace semanticTailwindOklch {
+  export {  };
+}
+
+declare namespace semanticTailwindRgb {
   export {  };
 }
 
@@ -2334,35 +3962,51 @@ declare namespace masterbrandTailwindRgb {
   export {  };
 }
 
-declare namespace datavisTailwindHex {
+declare namespace fuchsiaBlueTailwindHex {
   export {  };
 }
 
-declare namespace datavisTailwindHsl {
+declare namespace fuchsiaBlueTailwindHsl {
   export {  };
 }
 
-declare namespace datavisTailwindOklch {
+declare namespace fuchsiaBlueTailwindOklch {
   export {  };
 }
 
-declare namespace datavisTailwindRgb {
+declare namespace fuchsiaBlueTailwindRgb {
   export {  };
 }
 
-declare namespace semanticTailwindHex {
+declare namespace fuchsiaOrangeTailwindHex {
   export {  };
 }
 
-declare namespace semanticTailwindHsl {
+declare namespace fuchsiaOrangeTailwindHsl {
   export {  };
 }
 
-declare namespace semanticTailwindOklch {
+declare namespace fuchsiaOrangeTailwindOklch {
   export {  };
 }
 
-declare namespace semanticTailwindRgb {
+declare namespace fuchsiaOrangeTailwindRgb {
+  export {  };
+}
+
+declare namespace dataVisualisationTailwindHex {
+  export {  };
+}
+
+declare namespace dataVisualisationTailwindHsl {
+  export {  };
+}
+
+declare namespace dataVisualisationTailwindOklch {
+  export {  };
+}
+
+declare namespace dataVisualisationTailwindRgb {
   export {  };
 }
 
@@ -3916,281 +5560,6 @@ declare namespace globalTsRgb {
   export { globalTsRgb_nswAboriginalBlue as nswAboriginalBlue, globalTsRgb_nswAboriginalBrown as nswAboriginalBrown, globalTsRgb_nswAboriginalGreen as nswAboriginalGreen, globalTsRgb_nswAboriginalGrey as nswAboriginalGrey, globalTsRgb_nswAboriginalOrange as nswAboriginalOrange, globalTsRgb_nswAboriginalPurple as nswAboriginalPurple, globalTsRgb_nswAboriginalRed as nswAboriginalRed, globalTsRgb_nswAboriginalYellow as nswAboriginalYellow, globalTsRgb_nswBlue as nswBlue, globalTsRgb_nswBrown as nswBrown, globalTsRgb_nswFuchsia as nswFuchsia, globalTsRgb_nswGreen as nswGreen, globalTsRgb_nswGrey as nswGrey, globalTsRgb_nswOrange as nswOrange, globalTsRgb_nswPurple as nswPurple, globalTsRgb_nswRed as nswRed, globalTsRgb_nswTeal as nswTeal, globalTsRgb_nswYellow as nswYellow };
 }
 
-declare const primary$3: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const accent$3: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const grey$3: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-
-declare namespace masterbrandTsHex {
-  export { accent$3 as accent, grey$3 as grey, primary$3 as primary };
-}
-
-declare const primary$2: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const accent$2: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const grey$2: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-
-declare namespace masterbrandTsHsl {
-  export { accent$2 as accent, grey$2 as grey, primary$2 as primary };
-}
-
-declare const primary$1: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const accent$1: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const grey$1: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-
-declare namespace masterbrandTsOklch {
-  export { accent$1 as accent, grey$1 as grey, primary$1 as primary };
-}
-
-declare const primary: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const accent: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const grey: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-
-declare const masterbrandTsRgb_accent: typeof accent;
-declare const masterbrandTsRgb_grey: typeof grey;
-declare const masterbrandTsRgb_primary: typeof primary;
-declare namespace masterbrandTsRgb {
-  export { masterbrandTsRgb_accent as accent, masterbrandTsRgb_grey as grey, masterbrandTsRgb_primary as primary };
-}
-
 declare const success$3: {
     '50': string;
     '100': string;
@@ -4551,7 +5920,1758 @@ declare namespace semanticTsRgb {
   export { semanticTsRgb_danger as danger, semanticTsRgb_info as info, semanticTsRgb_success as success, semanticTsRgb_warning as warning };
 }
 
-type AnyObject = Record<string, unknown>;
+declare const primary$b: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$b: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$b: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace masterbrandTsHex {
+  export { accent$b as accent, grey$b as grey, primary$b as primary };
+}
+
+declare const primary$a: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$a: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$a: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace masterbrandTsHsl {
+  export { accent$a as accent, grey$a as grey, primary$a as primary };
+}
+
+declare const primary$9: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$9: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$9: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace masterbrandTsOklch {
+  export { accent$9 as accent, grey$9 as grey, primary$9 as primary };
+}
+
+declare const primary$8: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$8: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$8: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace masterbrandTsRgb {
+  export { accent$8 as accent, grey$8 as grey, primary$8 as primary };
+}
+
+declare const primary$7: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$7: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$7: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace fuchsiaBlueTsHex {
+  export { accent$7 as accent, grey$7 as grey, primary$7 as primary };
+}
+
+declare const primary$6: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$6: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$6: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace fuchsiaBlueTsHsl {
+  export { accent$6 as accent, grey$6 as grey, primary$6 as primary };
+}
+
+declare const primary$5: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$5: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$5: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace fuchsiaBlueTsOklch {
+  export { accent$5 as accent, grey$5 as grey, primary$5 as primary };
+}
+
+declare const primary$4: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$4: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$4: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace fuchsiaBlueTsRgb {
+  export { accent$4 as accent, grey$4 as grey, primary$4 as primary };
+}
+
+declare const primary$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace fuchsiaOrangeTsHex {
+  export { accent$3 as accent, grey$3 as grey, primary$3 as primary };
+}
+
+declare const primary$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace fuchsiaOrangeTsHsl {
+  export { accent$2 as accent, grey$2 as grey, primary$2 as primary };
+}
+
+declare const primary$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare namespace fuchsiaOrangeTsOklch {
+  export { accent$1 as accent, grey$1 as grey, primary$1 as primary };
+}
+
+declare const primary: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const accent: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const grey: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+
+declare const fuchsiaOrangeTsRgb_accent: typeof accent;
+declare const fuchsiaOrangeTsRgb_grey: typeof grey;
+declare const fuchsiaOrangeTsRgb_primary: typeof primary;
+declare namespace fuchsiaOrangeTsRgb {
+  export { fuchsiaOrangeTsRgb_accent as accent, fuchsiaOrangeTsRgb_grey as grey, fuchsiaOrangeTsRgb_primary as primary };
+}
+
+declare const ember$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const earthfire$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const fuchsiaHeat$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const polarGlow$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const glacierPool$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const deepCurrent$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const blueRed$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const blueOrange$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const purpleYellow$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const fuchsiaTeal$3: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+
+declare namespace dataVisualisationTsHex {
+  export { blueOrange$3 as blueOrange, blueRed$3 as blueRed, deepCurrent$3 as deepCurrent, earthfire$3 as earthfire, ember$3 as ember, fuchsiaHeat$3 as fuchsiaHeat, fuchsiaTeal$3 as fuchsiaTeal, glacierPool$3 as glacierPool, polarGlow$3 as polarGlow, purpleYellow$3 as purpleYellow };
+}
+
+declare const ember$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const earthfire$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const fuchsiaHeat$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const polarGlow$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const glacierPool$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const deepCurrent$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const blueRed$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const blueOrange$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const purpleYellow$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const fuchsiaTeal$2: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+
+declare namespace dataVisualisationTsHsl {
+  export { blueOrange$2 as blueOrange, blueRed$2 as blueRed, deepCurrent$2 as deepCurrent, earthfire$2 as earthfire, ember$2 as ember, fuchsiaHeat$2 as fuchsiaHeat, fuchsiaTeal$2 as fuchsiaTeal, glacierPool$2 as glacierPool, polarGlow$2 as polarGlow, purpleYellow$2 as purpleYellow };
+}
+
+declare const ember$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const earthfire$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const fuchsiaHeat$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const polarGlow$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const glacierPool$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const deepCurrent$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const blueRed$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const blueOrange$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const purpleYellow$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const fuchsiaTeal$1: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+
+declare namespace dataVisualisationTsOklch {
+  export { blueOrange$1 as blueOrange, blueRed$1 as blueRed, deepCurrent$1 as deepCurrent, earthfire$1 as earthfire, ember$1 as ember, fuchsiaHeat$1 as fuchsiaHeat, fuchsiaTeal$1 as fuchsiaTeal, glacierPool$1 as glacierPool, polarGlow$1 as polarGlow, purpleYellow$1 as purpleYellow };
+}
+
+declare const ember: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const earthfire: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const fuchsiaHeat: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const polarGlow: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const glacierPool: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const deepCurrent: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+    '1050': string;
+};
+declare const blueRed: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const blueOrange: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const purpleYellow: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+declare const fuchsiaTeal: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+    '1000': string;
+};
+
+declare const dataVisualisationTsRgb_blueOrange: typeof blueOrange;
+declare const dataVisualisationTsRgb_blueRed: typeof blueRed;
+declare const dataVisualisationTsRgb_deepCurrent: typeof deepCurrent;
+declare const dataVisualisationTsRgb_earthfire: typeof earthfire;
+declare const dataVisualisationTsRgb_ember: typeof ember;
+declare const dataVisualisationTsRgb_fuchsiaHeat: typeof fuchsiaHeat;
+declare const dataVisualisationTsRgb_fuchsiaTeal: typeof fuchsiaTeal;
+declare const dataVisualisationTsRgb_glacierPool: typeof glacierPool;
+declare const dataVisualisationTsRgb_polarGlow: typeof polarGlow;
+declare const dataVisualisationTsRgb_purpleYellow: typeof purpleYellow;
+declare namespace dataVisualisationTsRgb {
+  export { dataVisualisationTsRgb_blueOrange as blueOrange, dataVisualisationTsRgb_blueRed as blueRed, dataVisualisationTsRgb_deepCurrent as deepCurrent, dataVisualisationTsRgb_earthfire as earthfire, dataVisualisationTsRgb_ember as ember, dataVisualisationTsRgb_fuchsiaHeat as fuchsiaHeat, dataVisualisationTsRgb_fuchsiaTeal as fuchsiaTeal, dataVisualisationTsRgb_glacierPool as glacierPool, dataVisualisationTsRgb_polarGlow as polarGlow, dataVisualisationTsRgb_purpleYellow as purpleYellow };
+}
 
 declare const tokens: {
     colors: {
@@ -4561,67 +7681,7 @@ declare const tokens: {
             oklch: any;
             rgb: any;
         };
-        themes: {
-            masterbrand: {
-                hex: any;
-                hsl: AnyObject;
-                oklch: AnyObject;
-                rgb: AnyObject;
-            };
-        };
         semantic: {
-            hex: any;
-            hsl: any;
-            oklch: any;
-            rgb: any;
-        };
-    };
-    css: {
-        global: {
-            hex: typeof globalCssHex;
-            hsl: typeof globalCssHsl;
-            oklch: typeof globalCssOklch;
-            rgb: typeof globalCssRgb;
-        };
-        themes: {
-            masterbrand: {
-                hex: typeof masterbrandCssHex;
-                hsl: typeof masterbrandCssHsl;
-                oklch: typeof masterbrandCssOklch;
-                rgb: typeof masterbrandCssRgb;
-            };
-        };
-        semantic: {
-            hex: typeof semanticCssHex;
-            hsl: typeof semanticCssHsl;
-            oklch: typeof semanticCssOklch;
-            rgb: typeof semanticCssRgb;
-        };
-    };
-    js: {
-        global: {
-            hex: typeof globalJsHex;
-            hsl: typeof globalJsHsl;
-            oklch: typeof globalJsOklch;
-            rgb: typeof globalJsRgb;
-        };
-        themes: {
-            masterbrand: {
-                hex: typeof masterbrandJsHex;
-                hsl: typeof masterbrandJsHsl;
-                oklch: typeof masterbrandJsOklch;
-                rgb: typeof masterbrandJsRgb;
-            };
-        };
-        semantic: {
-            hex: typeof semanticJsHex;
-            hsl: typeof semanticJsHsl;
-            oklch: typeof semanticJsOklch;
-            rgb: typeof semanticJsRgb;
-        };
-    };
-    json: {
-        global: {
             hex: any;
             hsl: any;
             oklch: any;
@@ -4634,12 +7694,144 @@ declare const tokens: {
                 oklch: any;
                 rgb: any;
             };
+            "fuchsia-blue": {
+                hex: any;
+                hsl: any;
+                oklch: any;
+                rgb: any;
+            };
+            "fuchsia-orange": {
+                hex: any;
+                hsl: any;
+                oklch: any;
+                rgb: any;
+            };
+            "data-visualisation": {
+                hex: any;
+                hsl: any;
+                oklch: any;
+                rgb: any;
+            };
+        };
+    };
+    css: {
+        global: {
+            hex: typeof globalCssHex;
+            hsl: typeof globalCssHsl;
+            oklch: typeof globalCssOklch;
+            rgb: typeof globalCssRgb;
+        };
+        semantic: {
+            hex: typeof semanticCssHex;
+            hsl: typeof semanticCssHsl;
+            oklch: typeof semanticCssOklch;
+            rgb: typeof semanticCssRgb;
+        };
+        themes: {
+            masterbrand: {
+                hex: typeof masterbrandCssHex;
+                hsl: typeof masterbrandCssHsl;
+                oklch: typeof masterbrandCssOklch;
+                rgb: typeof masterbrandCssRgb;
+            };
+            "fuchsia-blue": {
+                hex: typeof fuchsiaBlueCssHex;
+                hsl: typeof fuchsiaBlueCssHsl;
+                oklch: typeof fuchsiaBlueCssOklch;
+                rgb: typeof fuchsiaBlueCssRgb;
+            };
+            "fuchsia-orange": {
+                hex: typeof fuchsiaOrangeCssHex;
+                hsl: typeof fuchsiaOrangeCssHsl;
+                oklch: typeof fuchsiaOrangeCssOklch;
+                rgb: typeof fuchsiaOrangeCssRgb;
+            };
+            "data-visualisation": {
+                hex: typeof dataVisualisationCssHex;
+                hsl: typeof dataVisualisationCssHsl;
+                oklch: typeof dataVisualisationCssOklch;
+                rgb: typeof dataVisualisationCssRgb;
+            };
+        };
+    };
+    js: {
+        global: {
+            hex: typeof globalJsHex;
+            hsl: typeof globalJsHsl;
+            oklch: typeof globalJsOklch;
+            rgb: typeof globalJsRgb;
+        };
+        semantic: {
+            hex: typeof semanticJsHex;
+            hsl: typeof semanticJsHsl;
+            oklch: typeof semanticJsOklch;
+            rgb: typeof semanticJsRgb;
+        };
+        themes: {
+            masterbrand: {
+                hex: typeof masterbrandJsHex;
+                hsl: typeof masterbrandJsHsl;
+                oklch: typeof masterbrandJsOklch;
+                rgb: typeof masterbrandJsRgb;
+            };
+            "fuchsia-blue": {
+                hex: typeof fuchsiaBlueJsHex;
+                hsl: typeof fuchsiaBlueJsHsl;
+                oklch: typeof fuchsiaBlueJsOklch;
+                rgb: typeof fuchsiaBlueJsRgb;
+            };
+            "fuchsia-orange": {
+                hex: typeof fuchsiaOrangeJsHex;
+                hsl: typeof fuchsiaOrangeJsHsl;
+                oklch: typeof fuchsiaOrangeJsOklch;
+                rgb: typeof fuchsiaOrangeJsRgb;
+            };
+            "data-visualisation": {
+                hex: typeof dataVisualisationJsHex;
+                hsl: typeof dataVisualisationJsHsl;
+                oklch: typeof dataVisualisationJsOklch;
+                rgb: typeof dataVisualisationJsRgb;
+            };
+        };
+    };
+    json: {
+        global: {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
         };
         semantic: {
             hex: any;
             hsl: any;
             oklch: any;
             rgb: any;
+        };
+        themes: {
+            masterbrand: {
+                hex: any;
+                hsl: any;
+                oklch: any;
+                rgb: any;
+            };
+            "fuchsia-blue": {
+                hex: any;
+                hsl: any;
+                oklch: any;
+                rgb: any;
+            };
+            "fuchsia-orange": {
+                hex: any;
+                hsl: any;
+                oklch: any;
+                rgb: any;
+            };
+            "data-visualisation": {
+                hex: any;
+                hsl: any;
+                oklch: any;
+                rgb: any;
+            };
         };
     };
     less: {
@@ -4649,6 +7841,12 @@ declare const tokens: {
             oklch: typeof globalLessOklch;
             rgb: typeof globalLessRgb;
         };
+        semantic: {
+            hex: typeof semanticLessHex;
+            hsl: typeof semanticLessHsl;
+            oklch: typeof semanticLessOklch;
+            rgb: typeof semanticLessRgb;
+        };
         themes: {
             masterbrand: {
                 hex: typeof masterbrandLessHex;
@@ -4656,12 +7854,24 @@ declare const tokens: {
                 oklch: typeof masterbrandLessOklch;
                 rgb: typeof masterbrandLessRgb;
             };
-        };
-        semantic: {
-            hex: typeof semanticLessHex;
-            hsl: typeof semanticLessHsl;
-            oklch: typeof semanticLessOklch;
-            rgb: typeof semanticLessRgb;
+            "fuchsia-blue": {
+                hex: typeof fuchsiaBlueLessHex;
+                hsl: typeof fuchsiaBlueLessHsl;
+                oklch: typeof fuchsiaBlueLessOklch;
+                rgb: typeof fuchsiaBlueLessRgb;
+            };
+            "fuchsia-orange": {
+                hex: typeof fuchsiaOrangeLessHex;
+                hsl: typeof fuchsiaOrangeLessHsl;
+                oklch: typeof fuchsiaOrangeLessOklch;
+                rgb: typeof fuchsiaOrangeLessRgb;
+            };
+            "data-visualisation": {
+                hex: typeof dataVisualisationLessHex;
+                hsl: typeof dataVisualisationLessHsl;
+                oklch: typeof dataVisualisationLessOklch;
+                rgb: typeof dataVisualisationLessRgb;
+            };
         };
     };
     scss: {
@@ -4671,6 +7881,12 @@ declare const tokens: {
             oklch: typeof globalScssOklch;
             rgb: typeof globalScssRgb;
         };
+        semantic: {
+            hex: typeof semanticScssHex;
+            hsl: typeof semanticScssHsl;
+            oklch: typeof semanticScssOklch;
+            rgb: typeof semanticScssRgb;
+        };
         themes: {
             masterbrand: {
                 hex: typeof masterbrandScssHex;
@@ -4678,12 +7894,24 @@ declare const tokens: {
                 oklch: typeof masterbrandScssOklch;
                 rgb: typeof masterbrandScssRgb;
             };
-        };
-        semantic: {
-            hex: typeof semanticScssHex;
-            hsl: typeof semanticScssHsl;
-            oklch: typeof semanticScssOklch;
-            rgb: typeof semanticScssRgb;
+            "fuchsia-blue": {
+                hex: typeof fuchsiaBlueScssHex;
+                hsl: typeof fuchsiaBlueScssHsl;
+                oklch: typeof fuchsiaBlueScssOklch;
+                rgb: typeof fuchsiaBlueScssRgb;
+            };
+            "fuchsia-orange": {
+                hex: typeof fuchsiaOrangeScssHex;
+                hsl: typeof fuchsiaOrangeScssHsl;
+                oklch: typeof fuchsiaOrangeScssOklch;
+                rgb: typeof fuchsiaOrangeScssRgb;
+            };
+            "data-visualisation": {
+                hex: typeof dataVisualisationScssHex;
+                hsl: typeof dataVisualisationScssHsl;
+                oklch: typeof dataVisualisationScssOklch;
+                rgb: typeof dataVisualisationScssRgb;
+            };
         };
     };
     tailwind: {
@@ -4693,6 +7921,12 @@ declare const tokens: {
             oklch: typeof globalTailwindOklch;
             rgb: typeof globalTailwindRgb;
         };
+        semantic: {
+            hex: typeof semanticTailwindHex;
+            hsl: typeof semanticTailwindHsl;
+            oklch: typeof semanticTailwindOklch;
+            rgb: typeof semanticTailwindRgb;
+        };
         themes: {
             masterbrand: {
                 hex: typeof masterbrandTailwindHex;
@@ -4700,18 +7934,24 @@ declare const tokens: {
                 oklch: typeof masterbrandTailwindOklch;
                 rgb: typeof masterbrandTailwindRgb;
             };
-            'data-visualisation': {
-                hex: typeof datavisTailwindHex;
-                hsl: typeof datavisTailwindHsl;
-                oklch: typeof datavisTailwindOklch;
-                rgb: typeof datavisTailwindRgb;
+            "fuchsia-blue": {
+                hex: typeof fuchsiaBlueTailwindHex;
+                hsl: typeof fuchsiaBlueTailwindHsl;
+                oklch: typeof fuchsiaBlueTailwindOklch;
+                rgb: typeof fuchsiaBlueTailwindRgb;
             };
-        };
-        semantic: {
-            hex: typeof semanticTailwindHex;
-            hsl: typeof semanticTailwindHsl;
-            oklch: typeof semanticTailwindOklch;
-            rgb: typeof semanticTailwindRgb;
+            "fuchsia-orange": {
+                hex: typeof fuchsiaOrangeTailwindHex;
+                hsl: typeof fuchsiaOrangeTailwindHsl;
+                oklch: typeof fuchsiaOrangeTailwindOklch;
+                rgb: typeof fuchsiaOrangeTailwindRgb;
+            };
+            "data-visualisation": {
+                hex: typeof dataVisualisationTailwindHex;
+                hsl: typeof dataVisualisationTailwindHsl;
+                oklch: typeof dataVisualisationTailwindOklch;
+                rgb: typeof dataVisualisationTailwindRgb;
+            };
         };
     };
     ts: {
@@ -4721,6 +7961,12 @@ declare const tokens: {
             oklch: typeof globalTsOklch;
             rgb: typeof globalTsRgb;
         };
+        semantic: {
+            hex: typeof semanticTsHex;
+            hsl: typeof semanticTsHsl;
+            oklch: typeof semanticTsOklch;
+            rgb: typeof semanticTsRgb;
+        };
         themes: {
             masterbrand: {
                 hex: typeof masterbrandTsHex;
@@ -4728,12 +7974,24 @@ declare const tokens: {
                 oklch: typeof masterbrandTsOklch;
                 rgb: typeof masterbrandTsRgb;
             };
-        };
-        semantic: {
-            hex: typeof semanticTsHex;
-            hsl: typeof semanticTsHsl;
-            oklch: typeof semanticTsOklch;
-            rgb: typeof semanticTsRgb;
+            "fuchsia-blue": {
+                hex: typeof fuchsiaBlueTsHex;
+                hsl: typeof fuchsiaBlueTsHsl;
+                oklch: typeof fuchsiaBlueTsOklch;
+                rgb: typeof fuchsiaBlueTsRgb;
+            };
+            "fuchsia-orange": {
+                hex: typeof fuchsiaOrangeTsHex;
+                hsl: typeof fuchsiaOrangeTsHsl;
+                oklch: typeof fuchsiaOrangeTsOklch;
+                rgb: typeof fuchsiaOrangeTsRgb;
+            };
+            "data-visualisation": {
+                hex: typeof dataVisualisationTsHex;
+                hsl: typeof dataVisualisationTsHsl;
+                oklch: typeof dataVisualisationTsOklch;
+                rgb: typeof dataVisualisationTsRgb;
+            };
         };
     };
 };
@@ -4744,67 +8002,7 @@ declare const colorTokens: {
         oklch: any;
         rgb: any;
     };
-    themes: {
-        masterbrand: {
-            hex: any;
-            hsl: AnyObject;
-            oklch: AnyObject;
-            rgb: AnyObject;
-        };
-    };
     semantic: {
-        hex: any;
-        hsl: any;
-        oklch: any;
-        rgb: any;
-    };
-};
-declare const cssTokens: {
-    global: {
-        hex: typeof globalCssHex;
-        hsl: typeof globalCssHsl;
-        oklch: typeof globalCssOklch;
-        rgb: typeof globalCssRgb;
-    };
-    themes: {
-        masterbrand: {
-            hex: typeof masterbrandCssHex;
-            hsl: typeof masterbrandCssHsl;
-            oklch: typeof masterbrandCssOklch;
-            rgb: typeof masterbrandCssRgb;
-        };
-    };
-    semantic: {
-        hex: typeof semanticCssHex;
-        hsl: typeof semanticCssHsl;
-        oklch: typeof semanticCssOklch;
-        rgb: typeof semanticCssRgb;
-    };
-};
-declare const jsTokens: {
-    global: {
-        hex: typeof globalJsHex;
-        hsl: typeof globalJsHsl;
-        oklch: typeof globalJsOklch;
-        rgb: typeof globalJsRgb;
-    };
-    themes: {
-        masterbrand: {
-            hex: typeof masterbrandJsHex;
-            hsl: typeof masterbrandJsHsl;
-            oklch: typeof masterbrandJsOklch;
-            rgb: typeof masterbrandJsRgb;
-        };
-    };
-    semantic: {
-        hex: typeof semanticJsHex;
-        hsl: typeof semanticJsHsl;
-        oklch: typeof semanticJsOklch;
-        rgb: typeof semanticJsRgb;
-    };
-};
-declare const jsonTokens: {
-    global: {
         hex: any;
         hsl: any;
         oklch: any;
@@ -4817,12 +8015,144 @@ declare const jsonTokens: {
             oklch: any;
             rgb: any;
         };
+        "fuchsia-blue": {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
+        "fuchsia-orange": {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
+        "data-visualisation": {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
+    };
+};
+declare const cssTokens: {
+    global: {
+        hex: typeof globalCssHex;
+        hsl: typeof globalCssHsl;
+        oklch: typeof globalCssOklch;
+        rgb: typeof globalCssRgb;
+    };
+    semantic: {
+        hex: typeof semanticCssHex;
+        hsl: typeof semanticCssHsl;
+        oklch: typeof semanticCssOklch;
+        rgb: typeof semanticCssRgb;
+    };
+    themes: {
+        masterbrand: {
+            hex: typeof masterbrandCssHex;
+            hsl: typeof masterbrandCssHsl;
+            oklch: typeof masterbrandCssOklch;
+            rgb: typeof masterbrandCssRgb;
+        };
+        "fuchsia-blue": {
+            hex: typeof fuchsiaBlueCssHex;
+            hsl: typeof fuchsiaBlueCssHsl;
+            oklch: typeof fuchsiaBlueCssOklch;
+            rgb: typeof fuchsiaBlueCssRgb;
+        };
+        "fuchsia-orange": {
+            hex: typeof fuchsiaOrangeCssHex;
+            hsl: typeof fuchsiaOrangeCssHsl;
+            oklch: typeof fuchsiaOrangeCssOklch;
+            rgb: typeof fuchsiaOrangeCssRgb;
+        };
+        "data-visualisation": {
+            hex: typeof dataVisualisationCssHex;
+            hsl: typeof dataVisualisationCssHsl;
+            oklch: typeof dataVisualisationCssOklch;
+            rgb: typeof dataVisualisationCssRgb;
+        };
+    };
+};
+declare const jsTokens: {
+    global: {
+        hex: typeof globalJsHex;
+        hsl: typeof globalJsHsl;
+        oklch: typeof globalJsOklch;
+        rgb: typeof globalJsRgb;
+    };
+    semantic: {
+        hex: typeof semanticJsHex;
+        hsl: typeof semanticJsHsl;
+        oklch: typeof semanticJsOklch;
+        rgb: typeof semanticJsRgb;
+    };
+    themes: {
+        masterbrand: {
+            hex: typeof masterbrandJsHex;
+            hsl: typeof masterbrandJsHsl;
+            oklch: typeof masterbrandJsOklch;
+            rgb: typeof masterbrandJsRgb;
+        };
+        "fuchsia-blue": {
+            hex: typeof fuchsiaBlueJsHex;
+            hsl: typeof fuchsiaBlueJsHsl;
+            oklch: typeof fuchsiaBlueJsOklch;
+            rgb: typeof fuchsiaBlueJsRgb;
+        };
+        "fuchsia-orange": {
+            hex: typeof fuchsiaOrangeJsHex;
+            hsl: typeof fuchsiaOrangeJsHsl;
+            oklch: typeof fuchsiaOrangeJsOklch;
+            rgb: typeof fuchsiaOrangeJsRgb;
+        };
+        "data-visualisation": {
+            hex: typeof dataVisualisationJsHex;
+            hsl: typeof dataVisualisationJsHsl;
+            oklch: typeof dataVisualisationJsOklch;
+            rgb: typeof dataVisualisationJsRgb;
+        };
+    };
+};
+declare const jsonTokens: {
+    global: {
+        hex: any;
+        hsl: any;
+        oklch: any;
+        rgb: any;
     };
     semantic: {
         hex: any;
         hsl: any;
         oklch: any;
         rgb: any;
+    };
+    themes: {
+        masterbrand: {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
+        "fuchsia-blue": {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
+        "fuchsia-orange": {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
+        "data-visualisation": {
+            hex: any;
+            hsl: any;
+            oklch: any;
+            rgb: any;
+        };
     };
 };
 declare const lessTokens: {
@@ -4832,6 +8162,12 @@ declare const lessTokens: {
         oklch: typeof globalLessOklch;
         rgb: typeof globalLessRgb;
     };
+    semantic: {
+        hex: typeof semanticLessHex;
+        hsl: typeof semanticLessHsl;
+        oklch: typeof semanticLessOklch;
+        rgb: typeof semanticLessRgb;
+    };
     themes: {
         masterbrand: {
             hex: typeof masterbrandLessHex;
@@ -4839,12 +8175,24 @@ declare const lessTokens: {
             oklch: typeof masterbrandLessOklch;
             rgb: typeof masterbrandLessRgb;
         };
-    };
-    semantic: {
-        hex: typeof semanticLessHex;
-        hsl: typeof semanticLessHsl;
-        oklch: typeof semanticLessOklch;
-        rgb: typeof semanticLessRgb;
+        "fuchsia-blue": {
+            hex: typeof fuchsiaBlueLessHex;
+            hsl: typeof fuchsiaBlueLessHsl;
+            oklch: typeof fuchsiaBlueLessOklch;
+            rgb: typeof fuchsiaBlueLessRgb;
+        };
+        "fuchsia-orange": {
+            hex: typeof fuchsiaOrangeLessHex;
+            hsl: typeof fuchsiaOrangeLessHsl;
+            oklch: typeof fuchsiaOrangeLessOklch;
+            rgb: typeof fuchsiaOrangeLessRgb;
+        };
+        "data-visualisation": {
+            hex: typeof dataVisualisationLessHex;
+            hsl: typeof dataVisualisationLessHsl;
+            oklch: typeof dataVisualisationLessOklch;
+            rgb: typeof dataVisualisationLessRgb;
+        };
     };
 };
 declare const scssTokens: {
@@ -4854,6 +8202,12 @@ declare const scssTokens: {
         oklch: typeof globalScssOklch;
         rgb: typeof globalScssRgb;
     };
+    semantic: {
+        hex: typeof semanticScssHex;
+        hsl: typeof semanticScssHsl;
+        oklch: typeof semanticScssOklch;
+        rgb: typeof semanticScssRgb;
+    };
     themes: {
         masterbrand: {
             hex: typeof masterbrandScssHex;
@@ -4861,12 +8215,24 @@ declare const scssTokens: {
             oklch: typeof masterbrandScssOklch;
             rgb: typeof masterbrandScssRgb;
         };
-    };
-    semantic: {
-        hex: typeof semanticScssHex;
-        hsl: typeof semanticScssHsl;
-        oklch: typeof semanticScssOklch;
-        rgb: typeof semanticScssRgb;
+        "fuchsia-blue": {
+            hex: typeof fuchsiaBlueScssHex;
+            hsl: typeof fuchsiaBlueScssHsl;
+            oklch: typeof fuchsiaBlueScssOklch;
+            rgb: typeof fuchsiaBlueScssRgb;
+        };
+        "fuchsia-orange": {
+            hex: typeof fuchsiaOrangeScssHex;
+            hsl: typeof fuchsiaOrangeScssHsl;
+            oklch: typeof fuchsiaOrangeScssOklch;
+            rgb: typeof fuchsiaOrangeScssRgb;
+        };
+        "data-visualisation": {
+            hex: typeof dataVisualisationScssHex;
+            hsl: typeof dataVisualisationScssHsl;
+            oklch: typeof dataVisualisationScssOklch;
+            rgb: typeof dataVisualisationScssRgb;
+        };
     };
 };
 declare const tailwindTokens: {
@@ -4876,6 +8242,12 @@ declare const tailwindTokens: {
         oklch: typeof globalTailwindOklch;
         rgb: typeof globalTailwindRgb;
     };
+    semantic: {
+        hex: typeof semanticTailwindHex;
+        hsl: typeof semanticTailwindHsl;
+        oklch: typeof semanticTailwindOklch;
+        rgb: typeof semanticTailwindRgb;
+    };
     themes: {
         masterbrand: {
             hex: typeof masterbrandTailwindHex;
@@ -4883,18 +8255,24 @@ declare const tailwindTokens: {
             oklch: typeof masterbrandTailwindOklch;
             rgb: typeof masterbrandTailwindRgb;
         };
-        'data-visualisation': {
-            hex: typeof datavisTailwindHex;
-            hsl: typeof datavisTailwindHsl;
-            oklch: typeof datavisTailwindOklch;
-            rgb: typeof datavisTailwindRgb;
+        "fuchsia-blue": {
+            hex: typeof fuchsiaBlueTailwindHex;
+            hsl: typeof fuchsiaBlueTailwindHsl;
+            oklch: typeof fuchsiaBlueTailwindOklch;
+            rgb: typeof fuchsiaBlueTailwindRgb;
         };
-    };
-    semantic: {
-        hex: typeof semanticTailwindHex;
-        hsl: typeof semanticTailwindHsl;
-        oklch: typeof semanticTailwindOklch;
-        rgb: typeof semanticTailwindRgb;
+        "fuchsia-orange": {
+            hex: typeof fuchsiaOrangeTailwindHex;
+            hsl: typeof fuchsiaOrangeTailwindHsl;
+            oklch: typeof fuchsiaOrangeTailwindOklch;
+            rgb: typeof fuchsiaOrangeTailwindRgb;
+        };
+        "data-visualisation": {
+            hex: typeof dataVisualisationTailwindHex;
+            hsl: typeof dataVisualisationTailwindHsl;
+            oklch: typeof dataVisualisationTailwindOklch;
+            rgb: typeof dataVisualisationTailwindRgb;
+        };
     };
 };
 declare const tsTokens: {
@@ -4904,6 +8282,12 @@ declare const tsTokens: {
         oklch: typeof globalTsOklch;
         rgb: typeof globalTsRgb;
     };
+    semantic: {
+        hex: typeof semanticTsHex;
+        hsl: typeof semanticTsHsl;
+        oklch: typeof semanticTsOklch;
+        rgb: typeof semanticTsRgb;
+    };
     themes: {
         masterbrand: {
             hex: typeof masterbrandTsHex;
@@ -4911,12 +8295,24 @@ declare const tsTokens: {
             oklch: typeof masterbrandTsOklch;
             rgb: typeof masterbrandTsRgb;
         };
-    };
-    semantic: {
-        hex: typeof semanticTsHex;
-        hsl: typeof semanticTsHsl;
-        oklch: typeof semanticTsOklch;
-        rgb: typeof semanticTsRgb;
+        "fuchsia-blue": {
+            hex: typeof fuchsiaBlueTsHex;
+            hsl: typeof fuchsiaBlueTsHsl;
+            oklch: typeof fuchsiaBlueTsOklch;
+            rgb: typeof fuchsiaBlueTsRgb;
+        };
+        "fuchsia-orange": {
+            hex: typeof fuchsiaOrangeTsHex;
+            hsl: typeof fuchsiaOrangeTsHsl;
+            oklch: typeof fuchsiaOrangeTsOklch;
+            rgb: typeof fuchsiaOrangeTsRgb;
+        };
+        "data-visualisation": {
+            hex: typeof dataVisualisationTsHex;
+            hsl: typeof dataVisualisationTsHsl;
+            oklch: typeof dataVisualisationTsOklch;
+            rgb: typeof dataVisualisationTsRgb;
+        };
     };
 };
 declare const brand: {
