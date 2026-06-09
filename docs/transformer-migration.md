@@ -40,31 +40,33 @@ The 3 built-ins are free; the 4 custom formats + name transform are the bulk of 
 `npm run sd:parity` builds the SD outputs to a scratch dir (`build/.sd-out/`, gitignored)
 and diffs each against the committed `dist/` file, exiting non-zero on any byte mismatch.
 
-**Status (Phase 1a):** all output formats — `css`/`scss`/`less` (built-ins) plus
-`js`/`ts`/`json`/`figma` (custom formats in `build/formats.mjs`) — for global, semantic,
-and masterbrand at **hex**: **18/21 byte-identical**, 3 documented normalisations (below).
-Masterbrand aliases resolve to concrete hex. The transformer reproduces the current
-published bytes before any cut-over.
+**Status (Phase 1c):** **every output format × every colour space** (hex/hsl/rgb/oklch),
+all three layers — **79/96 byte-identical**, 13 normalisations, 4 corrections (below). Each
+colour space is a separate SD instance (the spaces share token paths and would collide in
+one source). hsl/rgb/oklch read the object-form source and format it via a `nsw/color-string`
+transform; Figma keeps the object (channels inline).
 
 ### Normalisations (intentional, allow-listed in the harness)
 
-The hand-authored files have a few cosmetic inconsistencies the transformer standardises;
-these are the only non-byte-identical files, and **no token value or structure differs**:
+Cosmetic hand-authoring inconsistencies the transformer standardises — **no token value or
+structure differs**. The same patterns recur across colour spaces:
 
-- `js/colors/semantic/hex.js` — the only JS file authored with stray blank lines between
-  families (global/masterbrand JS and even semantic TS have none) → removed.
-- `json/colors/global/hex.json`, `figma/color/global/hex.json` — the only json/figma files
-  authored without a trailing newline (semantic + masterbrand have one) → standardised to
-  a trailing newline.
+- `js/colors/semantic/*` — the only JS files with stray blank lines between families
+  (global/masterbrand JS and the TS files have none) → removed.
+- `json/colors/global/*`, `figma/color/global/*` — the only json/figma files authored
+  without a trailing newline (semantic + masterbrand have one) → standardised.
+- `json/colors/themes/masterbrand/oklch.json` — JSON is the only format that renders the
+  achromatic oklch hue as `none`; css/js/ts/tailwind all use `0`, emitted consistently.
+- (Figma `channels` arrays: dist is inconsistent — global expanded, semantic/masterbrand
+  inline. The transformer emits inline everywhere, so only the 3 global figma files normalise.)
 
-### Corrections (a real bug the transformer fixes — value-affecting)
+### Corrections (real bugs the transformer fixes — value-affecting)
 
-- `tailwind/colors/themes/masterbrand/hex.css` — the hand-authored file maps
+- `tailwind/colors/themes/masterbrand/*` (all colour spaces) — the hand-authored files map
   `--color-primary-850` to `var(--nsw-blue-800)`, but the source aliases `{nsw-blue.850}`
-  and every other format (css/js/json/figma) resolves `primary-850` to `nsw-blue.850`
-  (`#001a4d`). The published Tailwind file is wrong (`#002664`); the transformer emits the
-  correct `var(--nsw-blue-850)`. Tracked separately from cosmetic normalisations in the
-  harness (`EXPECTED_CORRECTED`).
+  and every other format resolves `primary-850` to `nsw-blue.850` (`#001a4d`). The published
+  Tailwind files are wrong (`#002664`); the transformer emits the correct `var(--nsw-blue-850)`.
+  Tracked separately in the harness (`EXPECTED_CORRECTED`).
 
 ## Phases
 
@@ -76,10 +78,14 @@ these are the only non-byte-identical files, and **no token value or structure d
   semantic; masterbrand maps `--color-primary-50` → `var(--nsw-blue-50)` and omits `:root`).
   All hex formats now generated. 20/24 byte-identical, 3 normalisations, **1 correction**
   (see below).
-- **Phase 1c — colour transforms.** The hsl/rgb/oklch outputs re-derived from hex via culori
-  (decision #2) — differences are a documented one-time delta.
+- **Phase 1c — all colour spaces (this PR).** ✅ hsl/rgb/oklch generated for every format,
+  read from the object-form source (byte-parity). 79/96 byte-identical, 13 normalisations,
+  4 corrections. **All ~96 in-scope outputs are now transformer-generated.** (Re-deriving
+  hsl/rgb/oklch from hex via culori per decision #2 is deferred to Phase 3, where H1 collapses
+  the source trees — the value drift belongs with that breaking change, not here.)
 - **Phase 2 — cut over.** Replace `copy-styles.mjs`, delete hand-authored `src/*` format
-  dirs, regenerate `dist/` from SD. Lock with snapshot tests.
+  dirs, regenerate `dist/` from SD. Lock with snapshot tests. (The 4 corrections mean a few
+  Tailwind values change — intentionally — at cut-over.)
 - **Phase 3 — breaking (major).** C1 (DTCG colour shape: `components`/`srgb`/0–1/`"none"`/
   `hex` fallback), H1 (collapse the 4 colour-space source trees to one), M2
   (semantic → alias), M5 (real `data-visualisation`/`fuchsia-orange` source).

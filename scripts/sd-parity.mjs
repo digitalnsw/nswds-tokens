@@ -2,23 +2,29 @@
 // against its committed dist/ counterpart. Proves the transformer reproduces the current
 // published bytes before any cut-over.
 //
-// The comparison is driven by the config's declared file destinations (the authoritative
-// set of in-scope outputs), so the harness FAILS if the config stops generating an expected
-// file — not just when a generated file differs. Destinations are forward-slash POSIX paths,
-// so the comparison is platform-independent. Exits non-zero on any mismatch or omission.
+// One config per colour space (they share token paths and would collide in one source).
+// The comparison is driven by the configs' declared file destinations (the authoritative set
+// of in-scope outputs), so the harness FAILS if a config stops generating an expected file —
+// not just when a generated file differs. Destinations are forward-slash POSIX paths, so the
+// comparison is platform-independent. Exits non-zero on any mismatch or omission.
 
 import StyleDictionary from 'style-dictionary'
 import { existsSync, readFileSync, rmSync } from 'node:fs'
 import { resolve } from 'node:path'
-import config from '../build/style-dictionary.config.mjs'
+import configs from '../build/style-dictionary.config.mjs'
 
 const OUT = 'build/.sd-out'
+const SPACES = ['hex', 'hsl', 'rgb', 'oklch']
 
 rmSync(OUT, { recursive: true, force: true })
-await new StyleDictionary(config).buildAllPlatforms()
+for (const config of configs) {
+  await new StyleDictionary(config).buildAllPlatforms()
+}
 
-// Authoritative in-scope outputs: every file destination the config declares.
-const expected = Object.values(config.platforms).flatMap((p) => p.files.map((f) => f.destination))
+// Authoritative in-scope outputs: every file destination every config declares.
+const expected = configs.flatMap((config) =>
+  Object.values(config.platforms).flatMap((p) => p.files.map((f) => f.destination)),
+)
 
 const firstDiff = (dist, gen) => {
   const a = dist.split('\n')
@@ -31,33 +37,55 @@ const firstDiff = (dist, gen) => {
   return '    (differs only in trailing content)'
 }
 
-// Files where the transformer intentionally normalises a hand-authoring inconsistency.
-// Each maps the dist content to EXACTLY what the transformer should produce, so only the
-// known difference is tolerated — any OTHER change still fails parity (no masking).
-// Documented in docs/transformer-migration.md.
-//   - js/colors/semantic/hex.js: the only JS file with stray blank lines between families
-//     (global/masterbrand JS and semantic TS have none) — blank lines removed.
-//   - json/colors/global/hex.json, figma/color/global/hex.json: the only json/figma files
-//     authored WITHOUT a trailing newline (semantic + masterbrand have one) — standardised.
+// Exact transforms of the dist content -> what the transformer SHOULD produce. The harness
+// requires gen === transform(dist), so only the known difference is tolerated; any OTHER
+// change in an allow-listed file still fails parity (no masking).
+const addNewline = (d) => `${d}\n`
+const dropFamilyBlankLines = (d) => d.replaceAll('}\n\nexport const', '}\nexport const')
+const inlineChannels = (d) =>
+  d.replace(
+    /"channels": \[\n\s*([^\]]+?)\n\s*\]/g,
+    (_, inner) =>
+      `"channels": [${inner
+        .split(',')
+        .map((s) => s.trim())
+        .join(', ')}]`,
+  )
+const noneToZero = (d) => d.replaceAll(' none)', ' 0)') // achromatic oklch hue: JSON uses `none`
+const fixPrimary850 = (d) =>
+  d.replace(
+    '--color-primary-850: var(--nsw-blue-800);',
+    '--color-primary-850: var(--nsw-blue-850);',
+  )
+
+// Cosmetic hand-authoring inconsistencies the transformer standardises (no value differs).
+// Documented in docs/transformer-migration.md. Patterns recur across colour spaces.
 const EXPECTED_NORMALISED = {
-  'js/colors/semantic/hex.js': (dist) => dist.replaceAll('}\n\nexport const', '}\nexport const'),
-  'json/colors/global/hex.json': (dist) => `${dist}\n`,
-  'figma/color/global/hex.json': (dist) => `${dist}\n`,
+  //   stray blank lines between families (only the semantic JS files have them)
+  ...Object.fromEntries(SPACES.map((s) => [`js/colors/semantic/${s}.js`, dropFamilyBlankLines])),
+  //   missing trailing newline (global json/figma); global oklch JSON also uses `none`
+  ...Object.fromEntries(
+    SPACES.map((s) => [
+      `json/colors/global/${s}.json`,
+      s === 'oklch' ? (d) => addNewline(noneToZero(d)) : addNewline,
+    ]),
+  ),
+  //   figma global: hex has no channels; hsl/rgb/oklch also need arrays inlined
+  ...Object.fromEntries(
+    SPACES.map((s) => [
+      `figma/color/global/${s}.json`,
+      s === 'hex' ? addNewline : (d) => addNewline(inlineChannels(d)),
+    ]),
+  ),
+  //   JSON is the only format that renders the achromatic oklch hue as `none` (others use 0)
+  'json/colors/themes/masterbrand/oklch.json': (d) => d.replaceAll(' none)', ' 0)'),
 }
 
-// Files where the transformer CORRECTS a value-affecting bug. The mapping applies ONLY the
-// intended fix to the dist content, so any unrelated change in the file still fails.
-//   - tailwind/colors/themes/masterbrand/hex.css: dist maps `--color-primary-850` to
-//     `var(--nsw-blue-800)`, but the source aliases `{nsw-blue.850}` and every other format
-//     resolves primary-850 to nsw-blue.850 (#001a4d). dist is wrong (#002664). NB: a full-line
-//     replace (not a bare `nsw-blue-800`) so the legitimate primary-800 token is untouched.
-const EXPECTED_CORRECTED = {
-  'tailwind/colors/themes/masterbrand/hex.css': (dist) =>
-    dist.replace(
-      '--color-primary-850: var(--nsw-blue-800);',
-      '--color-primary-850: var(--nsw-blue-850);',
-    ),
-}
+// Value-affecting corrections — the masterbrand Tailwind `primary-850` alias bug (see the
+// transformer-migration doc). Full-line replace so the legitimate primary-800 token is intact.
+const EXPECTED_CORRECTED = Object.fromEntries(
+  SPACES.map((s) => [`tailwind/colors/themes/masterbrand/${s}.css`, fixPrimary850]),
+)
 
 let identical = 0
 const normalised = []
@@ -115,4 +143,4 @@ if (failures.length) {
   console.error('\n' + failures.join('\n\n'))
   process.exit(1)
 }
-console.log('Parity proven (hex — all formats: CSS/SCSS/LESS/JS/TS/JSON/Figma/Tailwind). ✅')
+console.log('Parity proven — all formats × all colour spaces (hex/hsl/rgb/oklch). ✅')
