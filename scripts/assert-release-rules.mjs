@@ -39,7 +39,7 @@ const cases = [
   ['chore(deps): bump axios', null],
 ]
 
-const logger = { log: () => {}, error: () => {} }
+const logger = { log: () => {}, info: () => {}, warn: () => {}, error: () => {}, debug: () => {} }
 
 let failed = 0
 for (const [message, expected] of cases) {
