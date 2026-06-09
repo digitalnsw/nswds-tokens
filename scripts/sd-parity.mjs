@@ -31,27 +31,33 @@ const firstDiff = (dist, gen) => {
   return '    (differs only in trailing content)'
 }
 
-// Files where the transformer intentionally normalises a hand-authoring inconsistency, so a
-// non-identical result is expected and does NOT fail parity. Documented in
-// docs/transformer-migration.md.
-//   - js/colors/semantic/hex.js: the only JS file authored with stray blank lines between
-//     families (global/masterbrand JS and semantic TS have none) — normalised away.
+// Files where the transformer intentionally normalises a hand-authoring inconsistency.
+// Each maps the dist content to EXACTLY what the transformer should produce, so only the
+// known difference is tolerated — any OTHER change still fails parity (no masking).
+// Documented in docs/transformer-migration.md.
+//   - js/colors/semantic/hex.js: the only JS file with stray blank lines between families
+//     (global/masterbrand JS and semantic TS have none) — blank lines removed.
 //   - json/colors/global/hex.json, figma/color/global/hex.json: the only json/figma files
-//     authored WITHOUT a trailing newline (semantic + masterbrand have one) — standardised
-//     to a trailing newline for consistency.
-const EXPECTED_NORMALISED = new Set([
-  'js/colors/semantic/hex.js',
-  'json/colors/global/hex.json',
-  'figma/color/global/hex.json',
-])
+//     authored WITHOUT a trailing newline (semantic + masterbrand have one) — standardised.
+const EXPECTED_NORMALISED = {
+  'js/colors/semantic/hex.js': (dist) => dist.replaceAll('}\n\nexport const', '}\nexport const'),
+  'json/colors/global/hex.json': (dist) => `${dist}\n`,
+  'figma/color/global/hex.json': (dist) => `${dist}\n`,
+}
 
-// Files where the transformer CORRECTS a value-affecting bug in the hand-authored dist file.
-// Unlike normalisations, these change a resolved value — intentionally, for the better.
+// Files where the transformer CORRECTS a value-affecting bug. The mapping applies ONLY the
+// intended fix to the dist content, so any unrelated change in the file still fails.
 //   - tailwind/colors/themes/masterbrand/hex.css: dist maps `--color-primary-850` to
 //     `var(--nsw-blue-800)`, but the source aliases `{nsw-blue.850}` and every other format
-//     (css/js/json/figma) resolves primary-850 to nsw-blue.850 (#001a4d). The dist Tailwind
-//     file is wrong (#002664); the transformer emits the correct `var(--nsw-blue-850)`.
-const EXPECTED_CORRECTED = new Set(['tailwind/colors/themes/masterbrand/hex.css'])
+//     resolves primary-850 to nsw-blue.850 (#001a4d). dist is wrong (#002664). NB: a full-line
+//     replace (not a bare `nsw-blue-800`) so the legitimate primary-800 token is untouched.
+const EXPECTED_CORRECTED = {
+  'tailwind/colors/themes/masterbrand/hex.css': (dist) =>
+    dist.replace(
+      '--color-primary-850: var(--nsw-blue-800);',
+      '--color-primary-850: var(--nsw-blue-850);',
+    ),
+}
 
 let identical = 0
 const normalised = []
@@ -74,12 +80,26 @@ for (const rel of expected.sort()) {
   if (gen === dist) {
     identical++
     console.log(`✅ ${rel}`)
-  } else if (EXPECTED_NORMALISED.has(rel)) {
-    normalised.push(rel)
-    console.log(`≈  normalised (expected)  ${rel}`)
-  } else if (EXPECTED_CORRECTED.has(rel)) {
-    corrected.push(rel)
-    console.log(`✦  corrected dist bug (expected)  ${rel}`)
+  } else if (rel in EXPECTED_NORMALISED) {
+    const expectedGen = EXPECTED_NORMALISED[rel](dist)
+    if (gen === expectedGen) {
+      normalised.push(rel)
+      console.log(`≈  normalised (expected)  ${rel}`)
+    } else {
+      failures.push(
+        `✖ ${rel}\n    differs BEYOND the known normalisation:\n${firstDiff(expectedGen, gen)}`,
+      )
+    }
+  } else if (rel in EXPECTED_CORRECTED) {
+    const expectedGen = EXPECTED_CORRECTED[rel](dist)
+    if (gen === expectedGen) {
+      corrected.push(rel)
+      console.log(`✦  corrected dist bug (expected)  ${rel}`)
+    } else {
+      failures.push(
+        `✖ ${rel}\n    differs BEYOND the known correction:\n${firstDiff(expectedGen, gen)}`,
+      )
+    }
   } else {
     failures.push(`✖ DIFFERS  ${rel}\n${firstDiff(dist, gen)}`)
   }
