@@ -57,15 +57,27 @@ these are the only non-byte-identical files, and **no token value or structure d
   authored without a trailing newline (semantic + masterbrand have one) → standardised to
   a trailing newline.
 
+### Corrections (a real bug the transformer fixes — value-affecting)
+
+- `tailwind/colors/themes/masterbrand/hex.css` — the hand-authored file maps
+  `--color-primary-850` to `var(--nsw-blue-800)`, but the source aliases `{nsw-blue.850}`
+  and every other format (css/js/json/figma) resolves `primary-850` to `nsw-blue.850`
+  (`#001a4d`). The published Tailwind file is wrong (`#002664`); the transformer emits the
+  correct `var(--nsw-blue-850)`. Tracked separately from cosmetic normalisations in the
+  harness (`EXPECTED_CORRECTED`).
+
 ## Phases
 
 - **Phase 0 — scaffold + parity harness.** ✅ Done. SD devDep; `build/style-dictionary.config.mjs`;
   `scripts/sd-parity.mjs`.
-- **Phase 1a — custom formats at hex parity (this PR).** ✅ js/ts/json/figma custom formats +
+- **Phase 1a — custom formats at hex parity.** ✅ js/ts/json/figma custom formats +
   css/scss/less, all layers, hex. 18/21 byte-identical + 3 normalisations.
-- **Phase 1b — Tailwind + colour transforms.** Tailwind (alias-aware refs + `@theme inline`
-  for semantic) and the hsl/rgb/oklch outputs re-derived from hex via culori (decision #2) —
-  differences are a documented one-time delta.
+- **Phase 1b — Tailwind (this PR).** ✅ Alias-aware Tailwind format (`@theme inline {` for
+  semantic; masterbrand maps `--color-primary-50` → `var(--nsw-blue-50)` and omits `:root`).
+  All hex formats now generated. 20/24 byte-identical, 3 normalisations, **1 correction**
+  (see below).
+- **Phase 1c — colour transforms.** The hsl/rgb/oklch outputs re-derived from hex via culori
+  (decision #2) — differences are a documented one-time delta.
 - **Phase 2 — cut over.** Replace `copy-styles.mjs`, delete hand-authored `src/*` format
   dirs, regenerate `dist/` from SD. Lock with snapshot tests.
 - **Phase 3 — breaking (major).** C1 (DTCG colour shape: `components`/`srgb`/0–1/`"none"`/
