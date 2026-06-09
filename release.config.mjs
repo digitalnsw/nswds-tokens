@@ -9,7 +9,7 @@
 // See scripts/assert-release-rules.mjs for the regression guard.
 const parserOpts = {
   noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
-  breakingHeaderPattern: /^(\w*)(?:\((.*)\))?!: (.*)$/,
+  breakingHeaderPattern: /^(\w+)(?:\(([^)]*)\))?!: (.*)$/,
 }
 
 const releaseConfig = {
