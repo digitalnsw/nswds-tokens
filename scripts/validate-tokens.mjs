@@ -114,15 +114,19 @@ for (const space of SPACES) {
       if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
       checkColorShape(label, tokenPath, leaf)
 
-      // duplicate detection (conflicting value for same path)
-      const serialized = JSON.stringify(leaf.$value)
-      const prior = namespace[tokenPath]
-      if (prior && prior.value !== serialized) {
-        errors.push(
-          `duplicate token "${tokenPath}" with conflicting values (${prior.label} vs ${label})`,
-        )
+      // Duplicate detection across the primitive layers (global/semantic). Themes deliberately
+      // reuse family names (primary/accent/grey in masterbrand/fuchsia-*), so they're excluded —
+      // each theme is its own namespace.
+      if (!label.startsWith('themes/')) {
+        const serialized = JSON.stringify(leaf.$value)
+        const prior = namespace[tokenPath]
+        if (prior && prior.value !== serialized) {
+          errors.push(
+            `duplicate token "${tokenPath}" with conflicting values (${prior.label} vs ${label})`,
+          )
+        }
+        namespace[tokenPath] = { value: serialized, label }
       }
-      namespace[tokenPath] = { value: serialized, label }
     }
   }
 
