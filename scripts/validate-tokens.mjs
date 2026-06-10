@@ -200,9 +200,19 @@ const checkTypographyComposite = (label, path, leaf) => {
       )
       continue
     }
-    pending.push({ label, path: `${path}.${field}`, target })
+    pending.push({ label, path: `${path}.${field}`, field, target })
   }
   return pending
+}
+
+// Each composite sub-field must ultimately land on a primitive of the right $type —
+// existence alone would let fontSize alias a line-height (or another composite).
+const COMPOSITE_FIELD_TYPES = {
+  fontFamily: 'fontFamily',
+  fontSize: 'dimension',
+  fontWeight: 'fontWeight',
+  letterSpacing: 'number',
+  lineHeight: 'number',
 }
 
 {
@@ -239,10 +249,29 @@ const checkTypographyComposite = (label, path, leaf) => {
   // — full chain walk with cycle detection, same guarantees as the colour spaces.
   checkAliasChains(allLeaves, leafByPath)
 
-  // Composite sub-aliases resolve against the same flat namespace (global primitives).
-  for (const { label, path, target } of pendingCompositeAliases) {
-    if (!leafByPath[target])
+  // Composite sub-aliases resolve against the same flat namespace (global primitives),
+  // following alias chains to the terminal leaf, which must match the field's $type.
+  for (const { label, path, field, target } of pendingCompositeAliases) {
+    const seen = new Set()
+    let current = target
+    let leaf = leafByPath[current]
+    while (leaf) {
+      const next = aliasTarget(leaf)
+      if (!next || seen.has(current)) break // concrete leaf, or cycle (reported elsewhere)
+      seen.add(current)
+      current = next
+      leaf = leafByPath[current]
+    }
+    if (!leaf) {
       errors.push(`${label}: unresolved alias "{${target}}" referenced by "${path}"`)
+      continue
+    }
+    const expected = COMPOSITE_FIELD_TYPES[field]
+    if (leaf.$type !== expected) {
+      errors.push(
+        `${label} ${path}: alias "{${target}}" resolves to a "${leaf.$type}" token; ${field} requires "${expected}"`,
+      )
+    }
   }
 }
 

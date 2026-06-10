@@ -90,7 +90,7 @@
     },
     "code": {
       "$type": "typography",
-      "$description": "Inline code and code blocks — prose code size at base (14px), JetBrains Mono.",
+      "$description": "Inline code and code blocks — prose code size at base (14px), JetBrains Mono. Prose pairs pre blocks with 24/14 ≈ 1.714; base (1.5) is the nearest primitive — flag for design.",
       "$value": {
         "fontFamily": "{font-family.mono}",
         "fontSize": "{font-size.14}",
