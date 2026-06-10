@@ -1,3 +1,7 @@
+## <small>3.0.1 (2026-06-10)</small>
+
+* fix(pkg): typecheck gate for scripts, npm metadata, v2.33.0 migration note (#84) ([a29a513](https://github.com/digitalnsw/nswds-tokens/commit/a29a513)), closes [#84](https://github.com/digitalnsw/nswds-tokens/issues/84) [#83](https://github.com/digitalnsw/nswds-tokens/issues/83) [#84](https://github.com/digitalnsw/nswds-tokens/issues/84)
+
 ## 3.0.0 (2026-06-09)
 
 * fix(release): honour breaking-change commits as major bumps (C1) (#83) ([20ba2ef](https://github.com/digitalnsw/nswds-tokens/commit/20ba2ef)), closes [#83](https://github.com/digitalnsw/nswds-tokens/issues/83) [#79](https://github.com/digitalnsw/nswds-tokens/issues/79)
