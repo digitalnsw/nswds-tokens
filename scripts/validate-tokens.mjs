@@ -242,7 +242,9 @@ const checkShadowComposite = (label, path, leaf) => {
       } else if (!sub || typeof sub !== 'object' || typeof sub.value !== 'number') {
         errors.push(`${label} ${at}: shadow "${field}" must be a dimension object or an {alias}`)
       } else if (!['px', 'rem'].includes(sub.unit)) {
-        errors.push(`${label} ${at}: shadow "${field}" unit "${sub.unit}" (px or rem)`)
+        errors.push(
+          `${label} ${at}: shadow "${field}" unit must be "px" or "rem" (got "${sub.unit}")`,
+        )
       }
     }
     if ('inset' in layer && typeof layer.inset !== 'boolean')
