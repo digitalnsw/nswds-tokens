@@ -1,3 +1,7 @@
+## 3.3.0 (2026-06-10)
+
+* feat(tokens): semantic typography composites (Phase 4c) (#92) ([1f95446](https://github.com/digitalnsw/nswds-tokens/commit/1f95446)), closes [#92](https://github.com/digitalnsw/nswds-tokens/issues/92) [#92](https://github.com/digitalnsw/nswds-tokens/issues/92)
+
 ## 3.2.0 (2026-06-10)
 
 * feat(tokens): typography primitives (Phase 4b) (#91) ([9787f7f](https://github.com/digitalnsw/nswds-tokens/commit/9787f7f)), closes [#91](https://github.com/digitalnsw/nswds-tokens/issues/91) [#91](https://github.com/digitalnsw/nswds-tokens/issues/91)
