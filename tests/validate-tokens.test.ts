@@ -16,7 +16,10 @@ const runValidator = (fixture: string) => {
     cwd: resolve(root, 'tests', 'fixtures', 'validate', fixture),
     encoding: 'utf8',
   })
-  return { status: result.status, output: `${result.stdout}\n${result.stderr}` }
+  // Spawn failures (bad path, permissions) set `error` with a null status — surface
+  // them as the real cause instead of a confusing `expected null to be 1` assertion.
+  if (result.error) throw result.error
+  return { status: result.status ?? -1, output: `${result.stdout}\n${result.stderr}` }
 }
 
 describe('validate-tokens', () => {
