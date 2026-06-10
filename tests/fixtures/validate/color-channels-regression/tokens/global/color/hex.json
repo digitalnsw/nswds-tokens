@@ -1,0 +1,16 @@
+{
+  "nsw-blue": {
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "rgb",
+        "channels": [
+          38,
+          174,
+          255
+        ],
+        "alpha": 1
+      }
+    }
+  }
+}

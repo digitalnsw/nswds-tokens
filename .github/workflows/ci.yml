@@ -19,7 +19,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version-file: .nvmrc
 
       - name: Validate token references, duplicates, and shape
         run: npm run validate:tokens
@@ -35,7 +35,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies
@@ -55,7 +55,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies
@@ -75,7 +75,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies
@@ -95,7 +95,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts/*'
+          node-version-file: .nvmrc
           cache: npm
 
       - name: Install dependencies

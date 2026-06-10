@@ -8,12 +8,13 @@
 //     - every alias {a.b.c} resolves to an existing token (no dangling references)
 //     - no alias reference cycles
 //     - no duplicate flattened token path defined with conflicting values
-//   WARNINGS (informational; do not fail CI yet):
+//     - DTCG 2025.10 Color-module conformance: `components` (not `channels`), `srgb`
+//       (not `rgb`), components 0–1, powerless components as the string "none". The
+//       sources have complied since v3.0.0 (review item C1) — these are ERRORS so a
+//       regression cannot land silently.
+//   WARNINGS (informational; do not fail CI):
 //     - missing $type on a leaf
-//     - DTCG 2025.10 Color-module deviations (see review item C1): `channels` should be
-//       `components`, `rgb` should be `srgb`, sRGB components should be 0–1, powerless
-//       components should be the string "none" (not null), and a `hex` fallback is
-//       recommended. These are warnings until C1 is addressed, then flip to errors.
+//     - missing `hex` fallback on a colour (recommended, not required, by DTCG)
 //
 // Note: the top-level Figma-export files ("primitives-*.light.json",
 // "themes-*.light.json") are intentionally out of scope here — they are the Figma sync
@@ -101,25 +102,24 @@ const checkAliasChains = (allLeaves, leafByPath) => {
   for (const { path, leaf } of allLeaves) resolveAlias(path, leaf)
 }
 
-// DTCG 2025.10 Color-module conformance (warnings).
+// DTCG 2025.10 Color-module conformance (errors; hex fallback is a warning).
 const checkColorShape = (label, path, leaf) => {
   const v = leaf.$value
   if (!v || typeof v !== 'object') return // string hex / alias — nothing to check here
   if ('channels' in v && !('components' in v))
-    warnings.push(`${label} ${path}: uses "channels"; DTCG expects "components"`)
-  if (v.colorSpace === 'rgb')
-    warnings.push(`${label} ${path}: colorSpace "rgb"; DTCG expects "srgb"`)
+    errors.push(`${label} ${path}: uses "channels"; DTCG expects "components"`)
+  if (v.colorSpace === 'rgb') errors.push(`${label} ${path}: colorSpace "rgb"; DTCG expects "srgb"`)
   const comps = v.components ?? v.channels
-  // Check both the legacy "rgb" and DTCG-preferred "srgb" so the range warning keeps
-  // firing during/after the C1 migration (renaming the space but leaving 0–255 values).
+  // Check both the legacy "rgb" and DTCG-preferred "srgb" so the range check still
+  // fires on a half-migrated regression (renamed space, 0–255 values left behind).
   if (
     ['rgb', 'srgb'].includes(v.colorSpace) &&
     Array.isArray(comps) &&
     comps.some((c) => typeof c === 'number' && c > 1)
   )
-    warnings.push(`${label} ${path}: sRGB components appear to be 0–255; DTCG expects 0–1`)
+    errors.push(`${label} ${path}: sRGB components appear to be 0–255; DTCG expects 0–1`)
   if (Array.isArray(comps) && comps.includes(null))
-    warnings.push(`${label} ${path}: null component; DTCG expects the string "none"`)
+    errors.push(`${label} ${path}: null component; DTCG expects the string "none"`)
   if (!('hex' in v)) warnings.push(`${label} ${path}: no "hex" fallback (recommended by DTCG)`)
 }
 
