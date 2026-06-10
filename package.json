@@ -112,7 +112,7 @@
     "@semantic-release/github": "^12.0.3",
     "@semantic-release/release-notes-generator": "^14.1.0",
     "@types/culori": "^4.0.1",
-    "@types/node": "^22.13.17",
+    "@types/node": "^22.19.20",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "css-loader": "^7.1.2",
     "eslint": "^9.23.0",
