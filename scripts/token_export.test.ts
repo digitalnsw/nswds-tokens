@@ -551,4 +551,184 @@ describe('tokenFilesFromLocalVariables', () => {
       'Invalid collection name: "../primitives"',
     )
   })
+
+  it('reconstructs manifest-mapped collections into their staging shapes', () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:9:1': {
+            id: 'VariableCollectionId:9:1',
+            name: 'Space',
+            modes: [{ modeId: '9:0', name: 'base' }],
+            defaultModeId: '9:0',
+            remote: false,
+            key: 'spaceKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:9:1'],
+          },
+          'VariableCollectionId:9:2': {
+            id: 'VariableCollectionId:9:2',
+            name: 'Typography',
+            modes: [{ modeId: '9:2', name: 'base' }],
+            defaultModeId: '9:2',
+            remote: false,
+            key: 'typographyKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:9:2', 'VariableID:9:3'],
+          },
+          'VariableCollectionId:9:3': {
+            id: 'VariableCollectionId:9:3',
+            name: 'Radius',
+            modes: [{ modeId: '9:4', name: 'base' }],
+            defaultModeId: '9:4',
+            remote: false,
+            key: 'radiusKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:9:4'],
+          },
+        },
+        variables: {
+          'VariableID:9:1': {
+            id: 'VariableID:9:1',
+            name: 'space/4',
+            key: 'space4',
+            variableCollectionId: 'VariableCollectionId:9:1',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '9:0': 16 },
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+          'VariableID:9:2': {
+            id: 'VariableID:9:2',
+            name: 'font-family/sans',
+            key: 'ffsans',
+            variableCollectionId: 'VariableCollectionId:9:2',
+            resolvedType: 'STRING',
+            valuesByMode: { '9:2': 'Public Sans, system-ui, sans-serif' },
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+          'VariableID:9:3': {
+            id: 'VariableID:9:3',
+            name: 'font-weight/bold',
+            key: 'fwbold',
+            variableCollectionId: 'VariableCollectionId:9:2',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '9:2': 700 },
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+          'VariableID:9:4': {
+            id: 'VariableID:9:4',
+            name: 'radius/md',
+            key: 'radiusmd',
+            variableCollectionId: 'VariableCollectionId:9:3',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '9:4': 8 },
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    const tokenFiles = tokenFilesFromLocalVariables(localVariablesResponse)
+
+    // Kebab-case staging file names via the reverse manifest, not "Space.base.json"
+    expect(Object.keys(tokenFiles).sort()).toEqual([
+      'radius.base.json',
+      'space.base.json',
+      'typography.base.json',
+    ])
+
+    const space = tokenFiles['space.base.json'] as Record<string, Record<string, unknown>>
+    expect(space.space['4']).toMatchObject({
+      $type: 'dimension',
+      $value: { value: 1, unit: 'rem' }, // 16px -> 1rem at the 16px root
+    })
+
+    const radius = tokenFiles['radius.base.json'] as Record<string, Record<string, unknown>>
+    expect(radius.radius.md).toMatchObject({
+      $type: 'dimension',
+      $value: { value: 8, unit: 'px' },
+    })
+
+    const typography = tokenFiles['typography.base.json'] as Record<string, Record<string, unknown>>
+    expect(typography['font-family'].sans).toMatchObject({
+      $type: 'fontFamily',
+      $value: ['Public Sans', 'system-ui', 'sans-serif'],
+    })
+    expect(typography['font-weight'].bold).toMatchObject({
+      $type: 'fontWeight',
+      $value: 700,
+    })
+  })
+
+  it('snaps float32-echoed FLOATs to 7 decimal places', () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:8:1': {
+            id: 'VariableCollectionId:8:1',
+            name: 'Typography',
+            modes: [{ modeId: '8:0', name: 'base' }],
+            defaultModeId: '8:0',
+            remote: false,
+            key: 'typographyKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:8:1', 'VariableID:8:2'],
+          },
+        },
+        variables: {
+          'VariableID:8:1': {
+            id: 'VariableID:8:1',
+            name: 'line-height/snug',
+            key: 'lhsnug',
+            variableCollectionId: 'VariableCollectionId:8:1',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '8:0': 1.3333332538604736 }, // Figma's float32 echo of 1.3333333
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+          'VariableID:8:2': {
+            id: 'VariableID:8:2',
+            name: 'letter-spacing/wide',
+            key: 'lswide',
+            variableCollectionId: 'VariableCollectionId:8:1',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '8:0': 0.02500000037252903 }, // float32 echo of 0.025
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    const tokenFiles = tokenFilesFromLocalVariables(localVariablesResponse)
+    const typography = tokenFiles['typography.base.json'] as Record<string, Record<string, unknown>>
+    expect(typography['line-height'].snug).toMatchObject({ $value: 1.3333333 })
+    expect(typography['letter-spacing'].wide).toMatchObject({ $value: 0.025 })
+  })
 })

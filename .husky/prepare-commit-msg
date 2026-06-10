@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+# Reflow the commit body to <=100 columns BEFORE commit-msg lints it, so
+# AI-generated prose (OpenCommit etc.) passes commitlint's body-max-line-length.
+# No-op if the helper script isn't present in the repo.
+if [ -x ./scripts/wrap-commit-body.sh ]; then
+  ./scripts/wrap-commit-body.sh "$1" 100 || true
+fi

@@ -7917,7 +7917,16 @@
   },
   "white": {
     "$type": "color",
-    "$value": "#ffffff",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#ffffff"
+    },
     "$description": "",
     "$extensions": {
       "com.figma": {
@@ -7931,7 +7940,16 @@
   },
   "black": {
     "$type": "color",
-    "$value": "#000000",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#000000"
+    },
     "$description": "",
     "$extensions": {
       "com.figma": {

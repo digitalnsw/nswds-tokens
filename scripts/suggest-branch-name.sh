@@ -126,16 +126,18 @@ if [[ -n "$issue_id" ]] && ! [[ "$issue_id" =~ ^[A-Za-z0-9_-]+$ ]]; then
   exit 1
 fi
 
-OPENCOMMIT_IGNORE_FILE="${OPENCOMMIT_IGNORE_FILE:-${SCRIPT_DIR}/.opencommitignore}"
-opencommit_ignore_enabled="false"
-if [[ -f "$OPENCOMMIT_IGNORE_FILE" ]]; then
-  opencommit_ignore_enabled="true"
-fi
-
 repo_root="$(git rev-parse --show-toplevel 2>/dev/null)" || {
   printf "❌ This script must be run inside a git repository.\n" >&2
   exit 1
 }
+
+# Default to the repo-root .opencommitignore (where it actually lives), not the
+# script dir. An explicit OPENCOMMIT_IGNORE_FILE still wins.
+OPENCOMMIT_IGNORE_FILE="${OPENCOMMIT_IGNORE_FILE:-${repo_root}/.opencommitignore}"
+opencommit_ignore_enabled="false"
+if [[ -f "$OPENCOMMIT_IGNORE_FILE" ]]; then
+  opencommit_ignore_enabled="true"
+fi
 
 if git -C "$repo_root" rev-parse --verify HEAD >/dev/null 2>&1; then
   base_ref="HEAD"

@@ -1,5 +1,11 @@
 import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToDtcg } from './color.js'
+import {
+  exportRuleFor,
+  fileNameForCollection,
+  FIGMA_REM_PX,
+  FigmaValueRule,
+} from './figma-collections.js'
 import { Token, TokenGroup, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import { assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 
@@ -14,7 +20,14 @@ function createTokenTreeNode(): TokenTreeNode {
   }
 }
 
-function tokenTypeFromVariable(variable: LocalVariable) {
+// Figma echoes FLOATs at float32 precision (1.2 comes back as 1.2000000476837158).
+// Snap exported numerics to 7 decimal places — float32's ~7-significant-digit noise
+// floor at token magnitudes, and the precision the canonical values are authored at —
+// so staging files mirror the clean source values. Integers pass through unchanged.
+const snapFloat = (n: number) => Number(n.toFixed(7))
+
+function tokenTypeFromVariable(variable: LocalVariable, rule: FigmaValueRule | null) {
+  if (rule) return rule.$type
   switch (variable.resolvedType) {
     case 'BOOLEAN':
       return 'boolean'
@@ -31,6 +44,7 @@ function tokenValueFromVariable(
   variable: LocalVariable,
   modeId: string,
   localVariables: Map<string, LocalVariable>,
+  rule: FigmaValueRule | null,
 ) {
   const value = variable.valuesByMode[modeId]
   if (typeof value === 'object') {
@@ -45,9 +59,19 @@ function tokenValueFromVariable(
     }
 
     throw new Error(`Format of variable value is invalid: ${value}`)
-  } else {
-    return value
   }
+  // Manifest-driven reconstruction back to the DTCG shapes the staging files use.
+  if (rule?.$type === 'dimension' && typeof value === 'number') {
+    const px = snapFloat(value)
+    return rule.unit === 'rem'
+      ? { value: snapFloat(px / FIGMA_REM_PX), unit: 'rem' as const }
+      : { value: px, unit: 'px' as const }
+  }
+  if (rule?.$type === 'fontFamily' && typeof value === 'string') {
+    return value.includes(', ') ? value.split(', ') : value
+  }
+  if (typeof value === 'number') return snapFloat(value)
+  return value
 }
 
 export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVariablesResponse) {
@@ -74,7 +98,11 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
     }
 
     collection.modes.forEach((mode) => {
-      const fileName = `${assertSafePathSegment(collection.name, 'collection name')}.${assertSafePathSegment(mode.name, 'mode name')}.json`
+      // Manifest-mapped collections regenerate their kebab-case staging file names;
+      // unmapped collections keep the legacy `${collection}.${mode}.json` convention.
+      const fileName =
+        fileNameForCollection(collection.name, mode.name) ??
+        `${assertSafePathSegment(collection.name, 'collection name')}.${assertSafePathSegment(mode.name, 'mode name')}.json`
 
       if (!tokenFileTrees.has(fileName)) {
         tokenFileTrees.set(fileName, createTokenTreeNode())
@@ -117,9 +145,10 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
         )
       }
 
+      const rule = exportRuleFor(collection.name, pathSegments[0])
       const token: Token = {
-        $type: tokenTypeFromVariable(variable),
-        $value: tokenValueFromVariable(variable, mode.modeId, localVariables),
+        $type: tokenTypeFromVariable(variable, rule),
+        $value: tokenValueFromVariable(variable, mode.modeId, localVariables, rule),
         $description: variable.description,
         $extensions: {
           'com.figma': {

@@ -45,10 +45,21 @@ export type DtcgColor = {
 }
 
 // Figma RGB(A) (components already 0–1) -> DTCG sRGB object, with a hex fallback.
+// All four channels (including alpha) snap to the 8-bit grid (n/255), clamped to [0, 1]:
+// Figma echoes float32-rounded values (fround(250/255) ≠ 250/255 in float64), and the
+// whole pipeline is 8-bit-grained anyway (hex round-trip, colorApproximatelyEqual) —
+// snapping keeps the numeric fields exactly consistent with the hex encoding and makes
+// Figma -> tokens exports byte-stable against the committed staging files.
+const snap8bit = (c: number) => Math.round(Math.min(1, Math.max(0, c)) * 255) / 255
 export function rgbToDtcg(value: RGB | RGBA): DtcgColor {
   const { r, g, b } = value
   const alpha = 'a' in value ? value.a : 1
-  return { colorSpace: 'srgb', components: [r, g, b], alpha, hex: rgbToHex(value) }
+  return {
+    colorSpace: 'srgb',
+    components: [snap8bit(r), snap8bit(g), snap8bit(b)],
+    alpha: snap8bit(alpha),
+    hex: rgbToHex(value),
+  }
 }
 
 // Narrow an unknown $value to a DTCG sRGB colour object. Guards the import path so
