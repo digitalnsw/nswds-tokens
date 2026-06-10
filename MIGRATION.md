@@ -9,6 +9,16 @@ The colour tokens are now generated from a single DTCG-compliant source. **CSS/h
 consumers are unaffected**; the breaking changes are in the raw token JSON and the
 re-derived hsl/oklch values.
 
+> **Note for consumers of v2.33.0:** due to a release-configuration bug
+> ([#83](https://github.com/digitalnsw/nswds-tokens/pull/83)), most of this breaking
+> shape change ([#79](https://github.com/digitalnsw/nswds-tokens/pull/79)) was
+> **already published in `2.33.0`** as a minor release, without appearing in the
+> changelog. If you upgraded from `2.32.x` to `2.33.0` and consume the raw token
+> JSON, the changes described below applied at that point. `3.0.0` formalises the
+> break (and adds the Figma-sync file conversion from
+> [#81](https://github.com/digitalnsw/nswds-tokens/pull/81)); no further shape
+> change occurs between `2.33.0` and `3.0.0` for the `tokens/` views.
+
 ### What changed
 
 - **Raw token object shape (`tokens/`, `dist/tokens/`, `figma/`)** now follows the
