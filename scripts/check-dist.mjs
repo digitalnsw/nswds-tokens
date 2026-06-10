@@ -53,7 +53,9 @@ if (distStatus) {
 // Bundle-size watch (review item M6): the root bundles embed every generated stylesheet
 // as text and grow with each category. Catch a surprise jump in review instead of in a
 // consumer's bundle-analyzer. Raise the budget deliberately when new categories land.
-const BUNDLE_BUDGET_BYTES = 3 * 1024 * 1024 // 3 MiB; ~2.2 MiB as of Phase 4
+// Raised 3 -> 4 MiB for the M1 colour descriptions: 342 intent comments embed into
+// every colour-space CSS file, which embed into the bundle as text (~3.1 MiB after).
+const BUNDLE_BUDGET_BYTES = 4 * 1024 * 1024
 for (const bundle of ['dist/index.js', 'dist/index.cjs']) {
   const bytes = statSync(bundle).size
   console.log(
