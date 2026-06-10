@@ -294,18 +294,34 @@ const checkShadowComposite = (label, path, leaf) => {
   // — full chain walk with cycle detection, same guarantees as the colour spaces.
   checkAliasChains(allLeaves, leafByPath)
 
-  // Composite sub-aliases resolve against the same flat namespace (global primitives),
-  // following alias chains to the terminal leaf, which must match the field's $type.
+  // Composite sub-aliases resolve against the category namespace EXTENDED with the
+  // global/semantic colour canonicals: shadow `color` legitimately aliases palette
+  // colours ({nsw-grey.900}), which live outside categoryFiles(). Themes are excluded —
+  // their family names (primary/accent/grey) repeat across themes, so a theme-relative
+  // alias would be ambiguous here. Category tokens take precedence on path collisions.
+  const colorLeafByPath = {}
+  for (const layer of ['global', 'semantic']) {
+    const p = resolve(tokensDir, layer, 'color', 'canonical.json')
+    if (existsSync(p)) {
+      for (const [tokenPath, leaf] of Object.entries(flatten(readJson(p), '', {}))) {
+        colorLeafByPath[tokenPath] = leaf
+      }
+    }
+  }
+  const subAliasNamespace = { ...colorLeafByPath, ...leafByPath }
+
+  // Each pending sub-alias follows its chain to the terminal leaf, which must match the
+  // field's $type.
   for (const { label, path, field, target } of pendingCompositeAliases) {
     const seen = new Set()
     let current = target
-    let leaf = leafByPath[current]
+    let leaf = subAliasNamespace[current]
     while (leaf) {
       const next = aliasTarget(leaf)
       if (!next || seen.has(current)) break // concrete leaf, or cycle (reported elsewhere)
       seen.add(current)
       current = next
-      leaf = leafByPath[current]
+      leaf = subAliasNamespace[current]
     }
     if (!leaf) {
       errors.push(`${label}: unresolved alias "{${target}}" referenced by "${path}"`)
