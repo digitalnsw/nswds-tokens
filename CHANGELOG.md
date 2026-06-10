@@ -1,3 +1,10 @@
+## 3.1.0 (2026-06-10)
+
+* feat(tokens): space, radius, and breakpoint dimension tokens (Phase 4a) (#90) ([3bcef16](https://github.com/digitalnsw/nswds-tokens/commit/3bcef16)), closes [#90](https://github.com/digitalnsw/nswds-tokens/issues/90) [#90](https://github.com/digitalnsw/nswds-tokens/issues/90)
+* docs(repo): governance docs + tokens source-vs-generated clarity (#85) ([3456745](https://github.com/digitalnsw/nswds-tokens/commit/3456745)), closes [#85](https://github.com/digitalnsw/nswds-tokens/issues/85)
+* docs(tokens): phase 4 non-colour tokens plan (locked decisions) (#89) ([797bc97](https://github.com/digitalnsw/nswds-tokens/commit/797bc97)), closes [#89](https://github.com/digitalnsw/nswds-tokens/issues/89)
+* test(tokens): snapshot all generated outputs across spaces and layers (M6) (#86) ([a37b966](https://github.com/digitalnsw/nswds-tokens/commit/a37b966)), closes [#86](https://github.com/digitalnsw/nswds-tokens/issues/86) [#88](https://github.com/digitalnsw/nswds-tokens/issues/88)
+
 ## <small>3.0.1 (2026-06-10)</small>
 
 * fix(pkg): typecheck gate for scripts, npm metadata, v2.33.0 migration note (#84) ([a29a513](https://github.com/digitalnsw/nswds-tokens/commit/a29a513)), closes [#84](https://github.com/digitalnsw/nswds-tokens/issues/84) [#83](https://github.com/digitalnsw/nswds-tokens/issues/83) [#84](https://github.com/digitalnsw/nswds-tokens/issues/84)
