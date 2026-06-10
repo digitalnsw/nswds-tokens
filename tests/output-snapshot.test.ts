@@ -1,33 +1,52 @@
-import { readFileSync } from 'node:fs'
-import { resolve } from 'node:path'
+import { readdirSync, readFileSync } from 'node:fs'
+import { relative, resolve, sep } from 'node:path'
 import { describe, it, expect } from 'vitest'
 
-// Snapshot a representative slice of the committed build outputs so that any unintended
-// change to generated token values or shape surfaces as a reviewable snapshot diff.
-// Covers one file per output format (CSS, SCSS, LESS, JS, JSON, Tailwind, raw tokens),
-// with all three layers (global, semantic, theme) sampled via the CSS outputs.
+// Snapshot EVERY committed build output so that any unintended change to generated token
+// values or shape surfaces as a reviewable snapshot diff. The file list is enumerated from
+// dist/ at run time, so new layers, themes, or colour spaces are covered automatically the
+// moment they are generated — there is no hand-maintained list to fall out of date.
+//
+// check:dist guarantees dist/ matches a rebuild; these snapshots additionally make the
+// *content* of that rebuild reviewable when code in build/ or scripts/ changes.
 //
 // Update intentionally-changed snapshots with: npm run test:tokens -- -u
 
 const root = process.cwd()
-const read = (relPath: string) => readFileSync(resolve(root, relPath), 'utf8')
 
-const OUTPUTS = [
-  'dist/css/colors/global/hex.css',
-  'dist/css/colors/semantic/hex.css',
-  'dist/css/colors/themes/masterbrand/hex.css',
-  'dist/scss/colors/global/hex.scss',
-  'dist/less/colors/global/hex.less',
-  'dist/js/colors/global/hex.js',
-  'dist/json/colors/global/hex.json',
-  'dist/tailwind/colors/global/hex.css',
-  'dist/tokens/global/color/hex.json',
+// Every published output format directory. dist/brand (binary assets) and the tsup bundle
+// entry points (index.js/cjs/d.ts — megabytes, already covered via the per-format files
+// they embed) are excluded.
+const FORMAT_DIRS = [
+  'dist/css',
+  'dist/scss',
+  'dist/less',
+  'dist/js',
+  'dist/ts',
+  'dist/json',
+  'dist/tailwind',
+  'dist/figma',
+  'dist/tokens',
 ]
 
+const listFiles = (dir: string): string[] =>
+  readdirSync(resolve(root, dir), { recursive: true, withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name !== '.DS_Store')
+    .map((entry) => [relative(root, entry.parentPath), entry.name].join(sep).split(sep).join('/'))
+    .sort()
+
 describe('built output snapshots', () => {
-  for (const file of OUTPUTS) {
-    it(file, () => {
-      expect(read(file)).toMatchSnapshot()
+  for (const dir of FORMAT_DIRS) {
+    const files = listFiles(dir)
+
+    it(`${dir} is not empty`, () => {
+      expect(files.length).toBeGreaterThan(0)
     })
+
+    for (const file of files) {
+      it(file, () => {
+        expect(readFileSync(resolve(root, file), 'utf8')).toMatchSnapshot()
+      })
+    }
   }
 })
