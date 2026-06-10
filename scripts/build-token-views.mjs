@@ -51,8 +51,12 @@ for (const { dir, keepHexAlias } of LAYERS) {
     for (const fam of Object.keys(canonical)) {
       out[fam] = {}
       for (const step of Object.keys(canonical[fam])) {
-        const cv = canonical[fam][step].$value
-        out[fam][step] = { $type: 'color', $value: derive(cv, keepHexAlias) }
+        const { $value: cv, $description } = canonical[fam][step]
+        out[fam][step] = {
+          $type: 'color',
+          ...($description ? { $description } : {}),
+          $value: derive(cv, keepHexAlias),
+        }
       }
     }
     write(`${dir}/${file}.json`, out)
