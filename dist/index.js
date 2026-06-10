@@ -38945,6 +38945,58 @@ var require_rgb12 = __commonJS({
   }
 });
 
+// src/json/space/global.json
+var require_global = __commonJS({
+  "src/json/space/global.json"(exports$1, module) {
+    module.exports = {
+      space: {
+        "space-0": "0rem",
+        "space-1": "0.25rem",
+        "space-2": "0.5rem",
+        "space-3": "0.75rem",
+        "space-4": "1rem",
+        "space-5": "1.25rem",
+        "space-6": "1.5rem",
+        "space-8": "2rem",
+        "space-10": "2.5rem",
+        "space-12": "3rem",
+        "space-14": "3.5rem",
+        "space-16": "4rem"
+      }
+    };
+  }
+});
+
+// src/json/radius/global.json
+var require_global2 = __commonJS({
+  "src/json/radius/global.json"(exports$1, module) {
+    module.exports = {
+      radius: {
+        "radius-none": "0px",
+        "radius-sm": "4px",
+        "radius-md": "8px",
+        "radius-lg": "16px",
+        "radius-pill": "9999px"
+      }
+    };
+  }
+});
+
+// src/json/breakpoints/global.json
+var require_global3 = __commonJS({
+  "src/json/breakpoints/global.json"(exports$1, module) {
+    module.exports = {
+      breakpoint: {
+        "breakpoint-xs": "480px",
+        "breakpoint-sm": "768px",
+        "breakpoint-md": "992px",
+        "breakpoint-lg": "1200px",
+        "breakpoint-xl": "1600px"
+      }
+    };
+  }
+});
+
 // src/css/colors/global/hex.css
 var hex_exports = {};
 __export(hex_exports, {
@@ -39112,6 +39164,27 @@ __export(rgb_exports6, {
   default: () => rgb_default6
 });
 var rgb_default6 = ":root {\n  --ember-50: rgb(34, 39, 43);\n  --ember-100: rgb(28, 42, 59);\n  --ember-150: rgb(28, 42, 76);\n  --ember-200: rgb(37, 38, 92);\n  --ember-250: rgb(51, 31, 104);\n  --ember-300: rgb(68, 17, 112);\n  --ember-350: rgb(97, 17, 117);\n  --ember-400: rgb(128, 15, 115);\n  --ember-450: rgb(159, 9, 106);\n  --ember-500: rgb(188, 7, 88);\n  --ember-550: rgb(215, 21, 58);\n  --ember-600: rgb(222, 43, 52);\n  --ember-650: rgb(228, 59, 46);\n  --ember-700: rgb(233, 73, 39);\n  --ember-750: rgb(238, 86, 33);\n  --ember-800: rgb(243, 99, 27);\n  --ember-850: rgb(247, 115, 0);\n  --ember-900: rgb(249, 130, 0);\n  --ember-950: rgb(251, 145, 0);\n  --ember-1000: rgb(251, 160, 0);\n  --ember-1050: rgb(250, 175, 5);\n  --earthfire-50: rgb(82, 55, 25);\n  --earthfire-100: rgb(95, 54, 13);\n  --earthfire-150: rgb(108, 51, 0);\n  --earthfire-200: rgb(122, 46, 0);\n  --earthfire-250: rgb(135, 38, 0);\n  --earthfire-300: rgb(148, 27, 0);\n  --earthfire-350: rgb(167, 42, 5);\n  --earthfire-400: rgb(185, 56, 11);\n  --earthfire-450: rgb(204, 70, 17);\n  --earthfire-500: rgb(224, 85, 22);\n  --earthfire-550: rgb(243, 99, 27);\n  --earthfire-600: rgb(247, 115, 0);\n  --earthfire-650: rgb(249, 130, 0);\n  --earthfire-700: rgb(251, 145, 0);\n  --earthfire-750: rgb(251, 160, 0);\n  --earthfire-800: rgb(250, 175, 5);\n  --earthfire-850: rgb(250, 187, 59);\n  --earthfire-900: rgb(250, 199, 87);\n  --earthfire-950: rgb(251, 210, 111);\n  --earthfire-1000: rgb(252, 221, 133);\n  --earthfire-1050: rgb(253, 231, 154);\n  --fuchsia-heat-50: rgb(101, 0, 77);\n  --fuchsia-heat-100: rgb(123, 2, 95);\n  --fuchsia-heat-150: rgb(146, 4, 114);\n  --fuchsia-heat-200: rgb(169, 8, 133);\n  --fuchsia-heat-250: rgb(193, 13, 153);\n  --fuchsia-heat-300: rgb(217, 18, 174);\n  --fuchsia-heat-350: rgb(230, 30, 146);\n  --fuchsia-heat-400: rgb(240, 45, 119);\n  --fuchsia-heat-450: rgb(245, 62, 91);\n  --fuchsia-heat-500: rgb(246, 80, 62);\n  --fuchsia-heat-550: rgb(243, 99, 27);\n  --fuchsia-heat-600: rgb(247, 115, 0);\n  --fuchsia-heat-650: rgb(249, 130, 0);\n  --fuchsia-heat-700: rgb(251, 145, 0);\n  --fuchsia-heat-750: rgb(251, 160, 0);\n  --fuchsia-heat-800: rgb(250, 175, 5);\n  --fuchsia-heat-850: rgb(250, 187, 59);\n  --fuchsia-heat-900: rgb(250, 199, 87);\n  --fuchsia-heat-950: rgb(251, 210, 111);\n  --fuchsia-heat-1000: rgb(252, 221, 133);\n  --fuchsia-heat-1050: rgb(253, 231, 154);\n  --polar-glow-50: rgb(0, 38, 100);\n  --polar-glow-100: rgb(1, 51, 128);\n  --polar-glow-150: rgb(3, 65, 158);\n  --polar-glow-200: rgb(7, 79, 189);\n  --polar-glow-250: rgb(13, 93, 220);\n  --polar-glow-300: rgb(20, 108, 253);\n  --polar-glow-350: rgb(0, 119, 231);\n  --polar-glow-400: rgb(0, 126, 208);\n  --polar-glow-450: rgb(0, 130, 184);\n  --polar-glow-500: rgb(0, 130, 162);\n  --polar-glow-550: rgb(46, 128, 142);\n  --polar-glow-600: rgb(66, 146, 159);\n  --polar-glow-650: rgb(84, 163, 176);\n  --polar-glow-700: rgb(103, 182, 193);\n  --polar-glow-750: rgb(121, 200, 211);\n  --polar-glow-800: rgb(140, 219, 229);\n  --polar-glow-850: rgb(154, 223, 229);\n  --polar-glow-900: rgb(169, 227, 229);\n  --polar-glow-950: rgb(182, 231, 230);\n  --polar-glow-1000: rgb(196, 235, 231);\n  --polar-glow-1050: rgb(209, 238, 234);\n  --glacier-pool-50: rgb(68, 17, 112);\n  --glacier-pool-100: rgb(81, 30, 136);\n  --glacier-pool-150: rgb(93, 43, 161);\n  --glacier-pool-200: rgb(106, 57, 187);\n  --glacier-pool-250: rgb(117, 70, 214);\n  --glacier-pool-300: rgb(128, 85, 241);\n  --glacier-pool-350: rgb(115, 89, 246);\n  --glacier-pool-400: rgb(100, 94, 250);\n  --glacier-pool-450: rgb(83, 98, 252);\n  --glacier-pool-500: rgb(60, 103, 253);\n  --glacier-pool-550: rgb(20, 108, 253);\n  --glacier-pool-600: rgb(0, 137, 255);\n  --glacier-pool-650: rgb(12, 162, 255);\n  --glacier-pool-700: rgb(59, 185, 255);\n  --glacier-pool-750: rgb(100, 205, 255);\n  --glacier-pool-800: rgb(140, 224, 255);\n  --glacier-pool-850: rgb(154, 227, 255);\n  --glacier-pool-900: rgb(167, 229, 255);\n  --glacier-pool-950: rgb(179, 232, 254);\n  --glacier-pool-1000: rgb(191, 234, 254);\n  --glacier-pool-1050: rgb(203, 237, 253);\n  --deep-current-50: rgb(11, 63, 71);\n  --deep-current-100: rgb(18, 75, 84);\n  --deep-current-150: rgb(25, 88, 98);\n  --deep-current-200: rgb(32, 101, 113);\n  --deep-current-250: rgb(39, 114, 127);\n  --deep-current-300: rgb(46, 128, 142);\n  --deep-current-350: rgb(0, 130, 162);\n  --deep-current-400: rgb(0, 130, 184);\n  --deep-current-450: rgb(0, 126, 208);\n  --deep-current-500: rgb(0, 119, 231);\n  --deep-current-550: rgb(20, 108, 253);\n  --deep-current-600: rgb(0, 137, 255);\n  --deep-current-650: rgb(12, 162, 255);\n  --deep-current-700: rgb(59, 185, 255);\n  --deep-current-750: rgb(100, 205, 255);\n  --deep-current-800: rgb(140, 224, 255);\n  --deep-current-850: rgb(154, 227, 255);\n  --deep-current-900: rgb(167, 229, 255);\n  --deep-current-950: rgb(179, 232, 254);\n  --deep-current-1000: rgb(191, 234, 254);\n  --deep-current-1050: rgb(203, 237, 253);\n  --blue-red-50: rgb(0, 38, 100);\n  --blue-red-100: rgb(1, 51, 128);\n  --blue-red-150: rgb(3, 65, 158);\n  --blue-red-200: rgb(7, 79, 189);\n  --blue-red-250: rgb(13, 93, 220);\n  --blue-red-300: rgb(20, 108, 253);\n  --blue-red-350: rgb(76, 142, 255);\n  --blue-red-400: rgb(121, 172, 255);\n  --blue-red-450: rgb(165, 200, 255);\n  --blue-red-500: rgb(210, 228, 255);\n  --blue-red-550: rgb(254, 215, 214);\n  --blue-red-600: rgb(249, 175, 174);\n  --blue-red-650: rgb(241, 134, 135);\n  --blue-red-700: rgb(229, 89, 97);\n  --blue-red-750: rgb(215, 21, 58);\n  --blue-red-800: rgb(191, 15, 52);\n  --blue-red-850: rgb(167, 10, 45);\n  --blue-red-900: rgb(143, 5, 39);\n  --blue-red-950: rgb(121, 2, 32);\n  --blue-red-1000: rgb(99, 0, 25);\n  --blue-orange-50: rgb(0, 38, 100);\n  --blue-orange-100: rgb(1, 51, 128);\n  --blue-orange-150: rgb(3, 65, 158);\n  --blue-orange-200: rgb(7, 79, 189);\n  --blue-orange-250: rgb(13, 93, 220);\n  --blue-orange-300: rgb(20, 108, 253);\n  --blue-orange-350: rgb(76, 142, 255);\n  --blue-orange-400: rgb(121, 172, 255);\n  --blue-orange-450: rgb(165, 200, 255);\n  --blue-orange-500: rgb(210, 228, 255);\n  --blue-orange-550: rgb(255, 226, 214);\n  --blue-orange-600: rgb(255, 196, 173);\n  --blue-orange-650: rgb(254, 166, 131);\n  --blue-orange-700: rgb(250, 134, 87);\n  --blue-orange-750: rgb(243, 99, 27);\n  --blue-orange-800: rgb(224, 85, 22);\n  --blue-orange-850: rgb(204, 70, 17);\n  --blue-orange-900: rgb(185, 56, 11);\n  --blue-orange-950: rgb(167, 42, 5);\n  --blue-orange-1000: rgb(148, 27, 0);\n  --purple-yellow-50: rgb(68, 17, 112);\n  --purple-yellow-100: rgb(81, 30, 136);\n  --purple-yellow-150: rgb(93, 43, 161);\n  --purple-yellow-200: rgb(106, 57, 187);\n  --purple-yellow-250: rgb(117, 70, 214);\n  --purple-yellow-300: rgb(128, 85, 241);\n  --purple-yellow-350: rgb(150, 123, 247);\n  --purple-yellow-400: rgb(174, 158, 251);\n  --purple-yellow-450: rgb(199, 191, 254);\n  --purple-yellow-500: rgb(227, 223, 255);\n  --purple-yellow-550: rgb(255, 240, 218);\n  --purple-yellow-600: rgb(255, 224, 180);\n  --purple-yellow-650: rgb(254, 208, 139);\n  --purple-yellow-700: rgb(252, 192, 93);\n  --purple-yellow-750: rgb(250, 175, 5);\n  --purple-yellow-800: rgb(219, 153, 3);\n  --purple-yellow-850: rgb(189, 132, 2);\n  --purple-yellow-900: rgb(160, 111, 1);\n  --purple-yellow-950: rgb(132, 91, 0);\n  --purple-yellow-1000: rgb(105, 72, 0);\n  --fuchsia-teal-50: rgb(101, 0, 77);\n  --fuchsia-teal-100: rgb(123, 2, 95);\n  --fuchsia-teal-150: rgb(146, 4, 114);\n  --fuchsia-teal-200: rgb(169, 8, 133);\n  --fuchsia-teal-250: rgb(193, 13, 153);\n  --fuchsia-teal-300: rgb(217, 18, 174);\n  --fuchsia-teal-350: rgb(230, 91, 191);\n  --fuchsia-teal-400: rgb(240, 136, 207);\n  --fuchsia-teal-450: rgb(248, 177, 223);\n  --fuchsia-teal-500: rgb(253, 216, 239);\n  --fuchsia-teal-550: rgb(214, 229, 232);\n  --fuchsia-teal-600: rgb(174, 203, 209);\n  --fuchsia-teal-650: rgb(134, 178, 186);\n  --fuchsia-teal-700: rgb(93, 153, 164);\n  --fuchsia-teal-750: rgb(46, 128, 142);\n  --fuchsia-teal-800: rgb(39, 114, 127);\n  --fuchsia-teal-850: rgb(32, 101, 113);\n  --fuchsia-teal-900: rgb(25, 88, 98);\n  --fuchsia-teal-950: rgb(18, 75, 84);\n  --fuchsia-teal-1000: rgb(11, 63, 71);\n}\n";
+
+// src/css/space/global.css
+var global_exports = {};
+__export(global_exports, {
+  default: () => global_default
+});
+var global_default = ":root {\n  --space-0: 0rem; /** Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps. */\n  --space-1: 0.25rem; /** Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps. */\n  --space-2: 0.5rem; /** Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps. */\n  --space-3: 0.75rem; /** Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps. */\n  --space-4: 1rem; /** Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps. */\n  --space-5: 1.25rem; /** Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps. */\n  --space-6: 1.5rem; /** Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps. */\n  --space-8: 2rem; /** Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps. */\n  --space-10: 2.5rem; /** Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps. */\n  --space-12: 3rem; /** Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps. */\n  --space-14: 3.5rem; /** Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps. */\n  --space-16: 4rem; /** Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps. */\n}\n";
+
+// src/css/radius/global.css
+var global_exports2 = {};
+__export(global_exports2, {
+  default: () => global_default2
+});
+var global_default2 = ":root {\n  --radius-none: 0px; /** Square corners \u2014 tables, full-bleed surfaces, and elements flush to container edges. */\n  --radius-sm: 4px; /** Small rounding \u2014 inputs, buttons, tags, and compact controls. */\n  --radius-md: 8px; /** Medium rounding \u2014 cards, panels, and modals. */\n  --radius-lg: 16px; /** Large rounding \u2014 hero surfaces and prominent containers. */\n  --radius-pill: 9999px; /** Fully rounded ends \u2014 pills, badges, and circular icon buttons. */\n}\n";
+
+// src/css/breakpoints/global.css
+var global_exports3 = {};
+__export(global_exports3, {
+  default: () => global_default3
+});
+var global_default3 = ":root {\n  --breakpoint-xs: 480px; /** Extra-small breakpoint \u2014 large phones and up. */\n  --breakpoint-sm: 768px; /** Small breakpoint \u2014 tablets portrait and up. */\n  --breakpoint-md: 992px; /** Medium breakpoint \u2014 tablets landscape / small laptops and up. */\n  --breakpoint-lg: 1200px; /** Large breakpoint \u2014 desktops and up. */\n  --breakpoint-xl: 1600px; /** Extra-large breakpoint \u2014 wide desktops and up. */\n}\n";
 
 // src/js/colors/global/hex.js
 var hex_exports7 = {};
@@ -42905,6 +42978,52 @@ var fuchsiaTeal4 = {
   1e3: "rgb(11, 63, 71)"
 };
 
+// src/js/space/global.js
+var global_exports4 = {};
+__export(global_exports4, {
+  space: () => space
+});
+var space = {
+  0: "0rem",
+  1: "0.25rem",
+  2: "0.5rem",
+  3: "0.75rem",
+  4: "1rem",
+  5: "1.25rem",
+  6: "1.5rem",
+  8: "2rem",
+  10: "2.5rem",
+  12: "3rem",
+  14: "3.5rem",
+  16: "4rem"
+};
+
+// src/js/radius/global.js
+var global_exports5 = {};
+__export(global_exports5, {
+  radius: () => radius
+});
+var radius = {
+  none: "0px",
+  sm: "4px",
+  md: "8px",
+  lg: "16px",
+  pill: "9999px"
+};
+
+// src/js/breakpoints/global.js
+var global_exports6 = {};
+__export(global_exports6, {
+  breakpoint: () => breakpoint
+});
+var breakpoint = {
+  xs: "480px",
+  sm: "768px",
+  md: "992px",
+  lg: "1200px",
+  xl: "1600px"
+};
+
 // src/less/colors/global/hex.less
 var hex_exports13 = {};
 __export(hex_exports13, {
@@ -43072,6 +43191,27 @@ __export(rgb_exports18, {
   default: () => rgb_default12
 });
 var rgb_default12 = "@ember-50: rgb(34, 39, 43);\n@ember-100: rgb(28, 42, 59);\n@ember-150: rgb(28, 42, 76);\n@ember-200: rgb(37, 38, 92);\n@ember-250: rgb(51, 31, 104);\n@ember-300: rgb(68, 17, 112);\n@ember-350: rgb(97, 17, 117);\n@ember-400: rgb(128, 15, 115);\n@ember-450: rgb(159, 9, 106);\n@ember-500: rgb(188, 7, 88);\n@ember-550: rgb(215, 21, 58);\n@ember-600: rgb(222, 43, 52);\n@ember-650: rgb(228, 59, 46);\n@ember-700: rgb(233, 73, 39);\n@ember-750: rgb(238, 86, 33);\n@ember-800: rgb(243, 99, 27);\n@ember-850: rgb(247, 115, 0);\n@ember-900: rgb(249, 130, 0);\n@ember-950: rgb(251, 145, 0);\n@ember-1000: rgb(251, 160, 0);\n@ember-1050: rgb(250, 175, 5);\n@earthfire-50: rgb(82, 55, 25);\n@earthfire-100: rgb(95, 54, 13);\n@earthfire-150: rgb(108, 51, 0);\n@earthfire-200: rgb(122, 46, 0);\n@earthfire-250: rgb(135, 38, 0);\n@earthfire-300: rgb(148, 27, 0);\n@earthfire-350: rgb(167, 42, 5);\n@earthfire-400: rgb(185, 56, 11);\n@earthfire-450: rgb(204, 70, 17);\n@earthfire-500: rgb(224, 85, 22);\n@earthfire-550: rgb(243, 99, 27);\n@earthfire-600: rgb(247, 115, 0);\n@earthfire-650: rgb(249, 130, 0);\n@earthfire-700: rgb(251, 145, 0);\n@earthfire-750: rgb(251, 160, 0);\n@earthfire-800: rgb(250, 175, 5);\n@earthfire-850: rgb(250, 187, 59);\n@earthfire-900: rgb(250, 199, 87);\n@earthfire-950: rgb(251, 210, 111);\n@earthfire-1000: rgb(252, 221, 133);\n@earthfire-1050: rgb(253, 231, 154);\n@fuchsia-heat-50: rgb(101, 0, 77);\n@fuchsia-heat-100: rgb(123, 2, 95);\n@fuchsia-heat-150: rgb(146, 4, 114);\n@fuchsia-heat-200: rgb(169, 8, 133);\n@fuchsia-heat-250: rgb(193, 13, 153);\n@fuchsia-heat-300: rgb(217, 18, 174);\n@fuchsia-heat-350: rgb(230, 30, 146);\n@fuchsia-heat-400: rgb(240, 45, 119);\n@fuchsia-heat-450: rgb(245, 62, 91);\n@fuchsia-heat-500: rgb(246, 80, 62);\n@fuchsia-heat-550: rgb(243, 99, 27);\n@fuchsia-heat-600: rgb(247, 115, 0);\n@fuchsia-heat-650: rgb(249, 130, 0);\n@fuchsia-heat-700: rgb(251, 145, 0);\n@fuchsia-heat-750: rgb(251, 160, 0);\n@fuchsia-heat-800: rgb(250, 175, 5);\n@fuchsia-heat-850: rgb(250, 187, 59);\n@fuchsia-heat-900: rgb(250, 199, 87);\n@fuchsia-heat-950: rgb(251, 210, 111);\n@fuchsia-heat-1000: rgb(252, 221, 133);\n@fuchsia-heat-1050: rgb(253, 231, 154);\n@polar-glow-50: rgb(0, 38, 100);\n@polar-glow-100: rgb(1, 51, 128);\n@polar-glow-150: rgb(3, 65, 158);\n@polar-glow-200: rgb(7, 79, 189);\n@polar-glow-250: rgb(13, 93, 220);\n@polar-glow-300: rgb(20, 108, 253);\n@polar-glow-350: rgb(0, 119, 231);\n@polar-glow-400: rgb(0, 126, 208);\n@polar-glow-450: rgb(0, 130, 184);\n@polar-glow-500: rgb(0, 130, 162);\n@polar-glow-550: rgb(46, 128, 142);\n@polar-glow-600: rgb(66, 146, 159);\n@polar-glow-650: rgb(84, 163, 176);\n@polar-glow-700: rgb(103, 182, 193);\n@polar-glow-750: rgb(121, 200, 211);\n@polar-glow-800: rgb(140, 219, 229);\n@polar-glow-850: rgb(154, 223, 229);\n@polar-glow-900: rgb(169, 227, 229);\n@polar-glow-950: rgb(182, 231, 230);\n@polar-glow-1000: rgb(196, 235, 231);\n@polar-glow-1050: rgb(209, 238, 234);\n@glacier-pool-50: rgb(68, 17, 112);\n@glacier-pool-100: rgb(81, 30, 136);\n@glacier-pool-150: rgb(93, 43, 161);\n@glacier-pool-200: rgb(106, 57, 187);\n@glacier-pool-250: rgb(117, 70, 214);\n@glacier-pool-300: rgb(128, 85, 241);\n@glacier-pool-350: rgb(115, 89, 246);\n@glacier-pool-400: rgb(100, 94, 250);\n@glacier-pool-450: rgb(83, 98, 252);\n@glacier-pool-500: rgb(60, 103, 253);\n@glacier-pool-550: rgb(20, 108, 253);\n@glacier-pool-600: rgb(0, 137, 255);\n@glacier-pool-650: rgb(12, 162, 255);\n@glacier-pool-700: rgb(59, 185, 255);\n@glacier-pool-750: rgb(100, 205, 255);\n@glacier-pool-800: rgb(140, 224, 255);\n@glacier-pool-850: rgb(154, 227, 255);\n@glacier-pool-900: rgb(167, 229, 255);\n@glacier-pool-950: rgb(179, 232, 254);\n@glacier-pool-1000: rgb(191, 234, 254);\n@glacier-pool-1050: rgb(203, 237, 253);\n@deep-current-50: rgb(11, 63, 71);\n@deep-current-100: rgb(18, 75, 84);\n@deep-current-150: rgb(25, 88, 98);\n@deep-current-200: rgb(32, 101, 113);\n@deep-current-250: rgb(39, 114, 127);\n@deep-current-300: rgb(46, 128, 142);\n@deep-current-350: rgb(0, 130, 162);\n@deep-current-400: rgb(0, 130, 184);\n@deep-current-450: rgb(0, 126, 208);\n@deep-current-500: rgb(0, 119, 231);\n@deep-current-550: rgb(20, 108, 253);\n@deep-current-600: rgb(0, 137, 255);\n@deep-current-650: rgb(12, 162, 255);\n@deep-current-700: rgb(59, 185, 255);\n@deep-current-750: rgb(100, 205, 255);\n@deep-current-800: rgb(140, 224, 255);\n@deep-current-850: rgb(154, 227, 255);\n@deep-current-900: rgb(167, 229, 255);\n@deep-current-950: rgb(179, 232, 254);\n@deep-current-1000: rgb(191, 234, 254);\n@deep-current-1050: rgb(203, 237, 253);\n@blue-red-50: rgb(0, 38, 100);\n@blue-red-100: rgb(1, 51, 128);\n@blue-red-150: rgb(3, 65, 158);\n@blue-red-200: rgb(7, 79, 189);\n@blue-red-250: rgb(13, 93, 220);\n@blue-red-300: rgb(20, 108, 253);\n@blue-red-350: rgb(76, 142, 255);\n@blue-red-400: rgb(121, 172, 255);\n@blue-red-450: rgb(165, 200, 255);\n@blue-red-500: rgb(210, 228, 255);\n@blue-red-550: rgb(254, 215, 214);\n@blue-red-600: rgb(249, 175, 174);\n@blue-red-650: rgb(241, 134, 135);\n@blue-red-700: rgb(229, 89, 97);\n@blue-red-750: rgb(215, 21, 58);\n@blue-red-800: rgb(191, 15, 52);\n@blue-red-850: rgb(167, 10, 45);\n@blue-red-900: rgb(143, 5, 39);\n@blue-red-950: rgb(121, 2, 32);\n@blue-red-1000: rgb(99, 0, 25);\n@blue-orange-50: rgb(0, 38, 100);\n@blue-orange-100: rgb(1, 51, 128);\n@blue-orange-150: rgb(3, 65, 158);\n@blue-orange-200: rgb(7, 79, 189);\n@blue-orange-250: rgb(13, 93, 220);\n@blue-orange-300: rgb(20, 108, 253);\n@blue-orange-350: rgb(76, 142, 255);\n@blue-orange-400: rgb(121, 172, 255);\n@blue-orange-450: rgb(165, 200, 255);\n@blue-orange-500: rgb(210, 228, 255);\n@blue-orange-550: rgb(255, 226, 214);\n@blue-orange-600: rgb(255, 196, 173);\n@blue-orange-650: rgb(254, 166, 131);\n@blue-orange-700: rgb(250, 134, 87);\n@blue-orange-750: rgb(243, 99, 27);\n@blue-orange-800: rgb(224, 85, 22);\n@blue-orange-850: rgb(204, 70, 17);\n@blue-orange-900: rgb(185, 56, 11);\n@blue-orange-950: rgb(167, 42, 5);\n@blue-orange-1000: rgb(148, 27, 0);\n@purple-yellow-50: rgb(68, 17, 112);\n@purple-yellow-100: rgb(81, 30, 136);\n@purple-yellow-150: rgb(93, 43, 161);\n@purple-yellow-200: rgb(106, 57, 187);\n@purple-yellow-250: rgb(117, 70, 214);\n@purple-yellow-300: rgb(128, 85, 241);\n@purple-yellow-350: rgb(150, 123, 247);\n@purple-yellow-400: rgb(174, 158, 251);\n@purple-yellow-450: rgb(199, 191, 254);\n@purple-yellow-500: rgb(227, 223, 255);\n@purple-yellow-550: rgb(255, 240, 218);\n@purple-yellow-600: rgb(255, 224, 180);\n@purple-yellow-650: rgb(254, 208, 139);\n@purple-yellow-700: rgb(252, 192, 93);\n@purple-yellow-750: rgb(250, 175, 5);\n@purple-yellow-800: rgb(219, 153, 3);\n@purple-yellow-850: rgb(189, 132, 2);\n@purple-yellow-900: rgb(160, 111, 1);\n@purple-yellow-950: rgb(132, 91, 0);\n@purple-yellow-1000: rgb(105, 72, 0);\n@fuchsia-teal-50: rgb(101, 0, 77);\n@fuchsia-teal-100: rgb(123, 2, 95);\n@fuchsia-teal-150: rgb(146, 4, 114);\n@fuchsia-teal-200: rgb(169, 8, 133);\n@fuchsia-teal-250: rgb(193, 13, 153);\n@fuchsia-teal-300: rgb(217, 18, 174);\n@fuchsia-teal-350: rgb(230, 91, 191);\n@fuchsia-teal-400: rgb(240, 136, 207);\n@fuchsia-teal-450: rgb(248, 177, 223);\n@fuchsia-teal-500: rgb(253, 216, 239);\n@fuchsia-teal-550: rgb(214, 229, 232);\n@fuchsia-teal-600: rgb(174, 203, 209);\n@fuchsia-teal-650: rgb(134, 178, 186);\n@fuchsia-teal-700: rgb(93, 153, 164);\n@fuchsia-teal-750: rgb(46, 128, 142);\n@fuchsia-teal-800: rgb(39, 114, 127);\n@fuchsia-teal-850: rgb(32, 101, 113);\n@fuchsia-teal-900: rgb(25, 88, 98);\n@fuchsia-teal-950: rgb(18, 75, 84);\n@fuchsia-teal-1000: rgb(11, 63, 71);\n";
+
+// src/less/space/global.less
+var global_exports7 = {};
+__export(global_exports7, {
+  default: () => global_default4
+});
+var global_default4 = "@space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n@space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n@space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n@space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n@space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n@space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n@space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n@space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n@space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n@space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n@space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n@space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
+
+// src/less/radius/global.less
+var global_exports8 = {};
+__export(global_exports8, {
+  default: () => global_default5
+});
+var global_default5 = "@radius-none: 0px; // Square corners \u2014 tables, full-bleed surfaces, and elements flush to container edges.\n@radius-sm: 4px; // Small rounding \u2014 inputs, buttons, tags, and compact controls.\n@radius-md: 8px; // Medium rounding \u2014 cards, panels, and modals.\n@radius-lg: 16px; // Large rounding \u2014 hero surfaces and prominent containers.\n@radius-pill: 9999px; // Fully rounded ends \u2014 pills, badges, and circular icon buttons.\n";
+
+// src/less/breakpoints/global.less
+var global_exports9 = {};
+__export(global_exports9, {
+  default: () => global_default6
+});
+var global_default6 = "@breakpoint-xs: 480px; // Extra-small breakpoint \u2014 large phones and up.\n@breakpoint-sm: 768px; // Small breakpoint \u2014 tablets portrait and up.\n@breakpoint-md: 992px; // Medium breakpoint \u2014 tablets landscape / small laptops and up.\n@breakpoint-lg: 1200px; // Large breakpoint \u2014 desktops and up.\n@breakpoint-xl: 1600px; // Extra-large breakpoint \u2014 wide desktops and up.\n";
 
 // src/scss/colors/global/hex.scss
 var hex_exports19 = {};
@@ -43241,6 +43381,27 @@ __export(rgb_exports24, {
 });
 var rgb_default18 = "$ember-50: rgb(34, 39, 43);\n$ember-100: rgb(28, 42, 59);\n$ember-150: rgb(28, 42, 76);\n$ember-200: rgb(37, 38, 92);\n$ember-250: rgb(51, 31, 104);\n$ember-300: rgb(68, 17, 112);\n$ember-350: rgb(97, 17, 117);\n$ember-400: rgb(128, 15, 115);\n$ember-450: rgb(159, 9, 106);\n$ember-500: rgb(188, 7, 88);\n$ember-550: rgb(215, 21, 58);\n$ember-600: rgb(222, 43, 52);\n$ember-650: rgb(228, 59, 46);\n$ember-700: rgb(233, 73, 39);\n$ember-750: rgb(238, 86, 33);\n$ember-800: rgb(243, 99, 27);\n$ember-850: rgb(247, 115, 0);\n$ember-900: rgb(249, 130, 0);\n$ember-950: rgb(251, 145, 0);\n$ember-1000: rgb(251, 160, 0);\n$ember-1050: rgb(250, 175, 5);\n$earthfire-50: rgb(82, 55, 25);\n$earthfire-100: rgb(95, 54, 13);\n$earthfire-150: rgb(108, 51, 0);\n$earthfire-200: rgb(122, 46, 0);\n$earthfire-250: rgb(135, 38, 0);\n$earthfire-300: rgb(148, 27, 0);\n$earthfire-350: rgb(167, 42, 5);\n$earthfire-400: rgb(185, 56, 11);\n$earthfire-450: rgb(204, 70, 17);\n$earthfire-500: rgb(224, 85, 22);\n$earthfire-550: rgb(243, 99, 27);\n$earthfire-600: rgb(247, 115, 0);\n$earthfire-650: rgb(249, 130, 0);\n$earthfire-700: rgb(251, 145, 0);\n$earthfire-750: rgb(251, 160, 0);\n$earthfire-800: rgb(250, 175, 5);\n$earthfire-850: rgb(250, 187, 59);\n$earthfire-900: rgb(250, 199, 87);\n$earthfire-950: rgb(251, 210, 111);\n$earthfire-1000: rgb(252, 221, 133);\n$earthfire-1050: rgb(253, 231, 154);\n$fuchsia-heat-50: rgb(101, 0, 77);\n$fuchsia-heat-100: rgb(123, 2, 95);\n$fuchsia-heat-150: rgb(146, 4, 114);\n$fuchsia-heat-200: rgb(169, 8, 133);\n$fuchsia-heat-250: rgb(193, 13, 153);\n$fuchsia-heat-300: rgb(217, 18, 174);\n$fuchsia-heat-350: rgb(230, 30, 146);\n$fuchsia-heat-400: rgb(240, 45, 119);\n$fuchsia-heat-450: rgb(245, 62, 91);\n$fuchsia-heat-500: rgb(246, 80, 62);\n$fuchsia-heat-550: rgb(243, 99, 27);\n$fuchsia-heat-600: rgb(247, 115, 0);\n$fuchsia-heat-650: rgb(249, 130, 0);\n$fuchsia-heat-700: rgb(251, 145, 0);\n$fuchsia-heat-750: rgb(251, 160, 0);\n$fuchsia-heat-800: rgb(250, 175, 5);\n$fuchsia-heat-850: rgb(250, 187, 59);\n$fuchsia-heat-900: rgb(250, 199, 87);\n$fuchsia-heat-950: rgb(251, 210, 111);\n$fuchsia-heat-1000: rgb(252, 221, 133);\n$fuchsia-heat-1050: rgb(253, 231, 154);\n$polar-glow-50: rgb(0, 38, 100);\n$polar-glow-100: rgb(1, 51, 128);\n$polar-glow-150: rgb(3, 65, 158);\n$polar-glow-200: rgb(7, 79, 189);\n$polar-glow-250: rgb(13, 93, 220);\n$polar-glow-300: rgb(20, 108, 253);\n$polar-glow-350: rgb(0, 119, 231);\n$polar-glow-400: rgb(0, 126, 208);\n$polar-glow-450: rgb(0, 130, 184);\n$polar-glow-500: rgb(0, 130, 162);\n$polar-glow-550: rgb(46, 128, 142);\n$polar-glow-600: rgb(66, 146, 159);\n$polar-glow-650: rgb(84, 163, 176);\n$polar-glow-700: rgb(103, 182, 193);\n$polar-glow-750: rgb(121, 200, 211);\n$polar-glow-800: rgb(140, 219, 229);\n$polar-glow-850: rgb(154, 223, 229);\n$polar-glow-900: rgb(169, 227, 229);\n$polar-glow-950: rgb(182, 231, 230);\n$polar-glow-1000: rgb(196, 235, 231);\n$polar-glow-1050: rgb(209, 238, 234);\n$glacier-pool-50: rgb(68, 17, 112);\n$glacier-pool-100: rgb(81, 30, 136);\n$glacier-pool-150: rgb(93, 43, 161);\n$glacier-pool-200: rgb(106, 57, 187);\n$glacier-pool-250: rgb(117, 70, 214);\n$glacier-pool-300: rgb(128, 85, 241);\n$glacier-pool-350: rgb(115, 89, 246);\n$glacier-pool-400: rgb(100, 94, 250);\n$glacier-pool-450: rgb(83, 98, 252);\n$glacier-pool-500: rgb(60, 103, 253);\n$glacier-pool-550: rgb(20, 108, 253);\n$glacier-pool-600: rgb(0, 137, 255);\n$glacier-pool-650: rgb(12, 162, 255);\n$glacier-pool-700: rgb(59, 185, 255);\n$glacier-pool-750: rgb(100, 205, 255);\n$glacier-pool-800: rgb(140, 224, 255);\n$glacier-pool-850: rgb(154, 227, 255);\n$glacier-pool-900: rgb(167, 229, 255);\n$glacier-pool-950: rgb(179, 232, 254);\n$glacier-pool-1000: rgb(191, 234, 254);\n$glacier-pool-1050: rgb(203, 237, 253);\n$deep-current-50: rgb(11, 63, 71);\n$deep-current-100: rgb(18, 75, 84);\n$deep-current-150: rgb(25, 88, 98);\n$deep-current-200: rgb(32, 101, 113);\n$deep-current-250: rgb(39, 114, 127);\n$deep-current-300: rgb(46, 128, 142);\n$deep-current-350: rgb(0, 130, 162);\n$deep-current-400: rgb(0, 130, 184);\n$deep-current-450: rgb(0, 126, 208);\n$deep-current-500: rgb(0, 119, 231);\n$deep-current-550: rgb(20, 108, 253);\n$deep-current-600: rgb(0, 137, 255);\n$deep-current-650: rgb(12, 162, 255);\n$deep-current-700: rgb(59, 185, 255);\n$deep-current-750: rgb(100, 205, 255);\n$deep-current-800: rgb(140, 224, 255);\n$deep-current-850: rgb(154, 227, 255);\n$deep-current-900: rgb(167, 229, 255);\n$deep-current-950: rgb(179, 232, 254);\n$deep-current-1000: rgb(191, 234, 254);\n$deep-current-1050: rgb(203, 237, 253);\n$blue-red-50: rgb(0, 38, 100);\n$blue-red-100: rgb(1, 51, 128);\n$blue-red-150: rgb(3, 65, 158);\n$blue-red-200: rgb(7, 79, 189);\n$blue-red-250: rgb(13, 93, 220);\n$blue-red-300: rgb(20, 108, 253);\n$blue-red-350: rgb(76, 142, 255);\n$blue-red-400: rgb(121, 172, 255);\n$blue-red-450: rgb(165, 200, 255);\n$blue-red-500: rgb(210, 228, 255);\n$blue-red-550: rgb(254, 215, 214);\n$blue-red-600: rgb(249, 175, 174);\n$blue-red-650: rgb(241, 134, 135);\n$blue-red-700: rgb(229, 89, 97);\n$blue-red-750: rgb(215, 21, 58);\n$blue-red-800: rgb(191, 15, 52);\n$blue-red-850: rgb(167, 10, 45);\n$blue-red-900: rgb(143, 5, 39);\n$blue-red-950: rgb(121, 2, 32);\n$blue-red-1000: rgb(99, 0, 25);\n$blue-orange-50: rgb(0, 38, 100);\n$blue-orange-100: rgb(1, 51, 128);\n$blue-orange-150: rgb(3, 65, 158);\n$blue-orange-200: rgb(7, 79, 189);\n$blue-orange-250: rgb(13, 93, 220);\n$blue-orange-300: rgb(20, 108, 253);\n$blue-orange-350: rgb(76, 142, 255);\n$blue-orange-400: rgb(121, 172, 255);\n$blue-orange-450: rgb(165, 200, 255);\n$blue-orange-500: rgb(210, 228, 255);\n$blue-orange-550: rgb(255, 226, 214);\n$blue-orange-600: rgb(255, 196, 173);\n$blue-orange-650: rgb(254, 166, 131);\n$blue-orange-700: rgb(250, 134, 87);\n$blue-orange-750: rgb(243, 99, 27);\n$blue-orange-800: rgb(224, 85, 22);\n$blue-orange-850: rgb(204, 70, 17);\n$blue-orange-900: rgb(185, 56, 11);\n$blue-orange-950: rgb(167, 42, 5);\n$blue-orange-1000: rgb(148, 27, 0);\n$purple-yellow-50: rgb(68, 17, 112);\n$purple-yellow-100: rgb(81, 30, 136);\n$purple-yellow-150: rgb(93, 43, 161);\n$purple-yellow-200: rgb(106, 57, 187);\n$purple-yellow-250: rgb(117, 70, 214);\n$purple-yellow-300: rgb(128, 85, 241);\n$purple-yellow-350: rgb(150, 123, 247);\n$purple-yellow-400: rgb(174, 158, 251);\n$purple-yellow-450: rgb(199, 191, 254);\n$purple-yellow-500: rgb(227, 223, 255);\n$purple-yellow-550: rgb(255, 240, 218);\n$purple-yellow-600: rgb(255, 224, 180);\n$purple-yellow-650: rgb(254, 208, 139);\n$purple-yellow-700: rgb(252, 192, 93);\n$purple-yellow-750: rgb(250, 175, 5);\n$purple-yellow-800: rgb(219, 153, 3);\n$purple-yellow-850: rgb(189, 132, 2);\n$purple-yellow-900: rgb(160, 111, 1);\n$purple-yellow-950: rgb(132, 91, 0);\n$purple-yellow-1000: rgb(105, 72, 0);\n$fuchsia-teal-50: rgb(101, 0, 77);\n$fuchsia-teal-100: rgb(123, 2, 95);\n$fuchsia-teal-150: rgb(146, 4, 114);\n$fuchsia-teal-200: rgb(169, 8, 133);\n$fuchsia-teal-250: rgb(193, 13, 153);\n$fuchsia-teal-300: rgb(217, 18, 174);\n$fuchsia-teal-350: rgb(230, 91, 191);\n$fuchsia-teal-400: rgb(240, 136, 207);\n$fuchsia-teal-450: rgb(248, 177, 223);\n$fuchsia-teal-500: rgb(253, 216, 239);\n$fuchsia-teal-550: rgb(214, 229, 232);\n$fuchsia-teal-600: rgb(174, 203, 209);\n$fuchsia-teal-650: rgb(134, 178, 186);\n$fuchsia-teal-700: rgb(93, 153, 164);\n$fuchsia-teal-750: rgb(46, 128, 142);\n$fuchsia-teal-800: rgb(39, 114, 127);\n$fuchsia-teal-850: rgb(32, 101, 113);\n$fuchsia-teal-900: rgb(25, 88, 98);\n$fuchsia-teal-950: rgb(18, 75, 84);\n$fuchsia-teal-1000: rgb(11, 63, 71);\n";
 
+// src/scss/space/global.scss
+var global_exports10 = {};
+__export(global_exports10, {
+  default: () => global_default7
+});
+var global_default7 = "$space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n$space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n$space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n$space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n$space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n$space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n$space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n$space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n$space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n$space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n$space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n$space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
+
+// src/scss/radius/global.scss
+var global_exports11 = {};
+__export(global_exports11, {
+  default: () => global_default8
+});
+var global_default8 = "$radius-none: 0px; // Square corners \u2014 tables, full-bleed surfaces, and elements flush to container edges.\n$radius-sm: 4px; // Small rounding \u2014 inputs, buttons, tags, and compact controls.\n$radius-md: 8px; // Medium rounding \u2014 cards, panels, and modals.\n$radius-lg: 16px; // Large rounding \u2014 hero surfaces and prominent containers.\n$radius-pill: 9999px; // Fully rounded ends \u2014 pills, badges, and circular icon buttons.\n";
+
+// src/scss/breakpoints/global.scss
+var global_exports12 = {};
+__export(global_exports12, {
+  default: () => global_default9
+});
+var global_default9 = "$breakpoint-xs: 480px; // Extra-small breakpoint \u2014 large phones and up.\n$breakpoint-sm: 768px; // Small breakpoint \u2014 tablets portrait and up.\n$breakpoint-md: 992px; // Medium breakpoint \u2014 tablets landscape / small laptops and up.\n$breakpoint-lg: 1200px; // Large breakpoint \u2014 desktops and up.\n$breakpoint-xl: 1600px; // Extra-large breakpoint \u2014 wide desktops and up.\n";
+
 // src/tailwind/colors/global/hex.css
 var hex_exports25 = {};
 __export(hex_exports25, {
@@ -43408,6 +43569,27 @@ __export(rgb_exports30, {
   default: () => rgb_default24
 });
 var rgb_default24 = "@theme {\n  --color-ember-50: var(--ember-50);\n  --color-ember-100: var(--ember-100);\n  --color-ember-150: var(--ember-150);\n  --color-ember-200: var(--ember-200);\n  --color-ember-250: var(--ember-250);\n  --color-ember-300: var(--ember-300);\n  --color-ember-350: var(--ember-350);\n  --color-ember-400: var(--ember-400);\n  --color-ember-450: var(--ember-450);\n  --color-ember-500: var(--ember-500);\n  --color-ember-550: var(--ember-550);\n  --color-ember-600: var(--ember-600);\n  --color-ember-650: var(--ember-650);\n  --color-ember-700: var(--ember-700);\n  --color-ember-750: var(--ember-750);\n  --color-ember-800: var(--ember-800);\n  --color-ember-850: var(--ember-850);\n  --color-ember-900: var(--ember-900);\n  --color-ember-950: var(--ember-950);\n  --color-ember-1000: var(--ember-1000);\n  --color-ember-1050: var(--ember-1050);\n  --color-earthfire-50: var(--earthfire-50);\n  --color-earthfire-100: var(--earthfire-100);\n  --color-earthfire-150: var(--earthfire-150);\n  --color-earthfire-200: var(--earthfire-200);\n  --color-earthfire-250: var(--earthfire-250);\n  --color-earthfire-300: var(--earthfire-300);\n  --color-earthfire-350: var(--earthfire-350);\n  --color-earthfire-400: var(--earthfire-400);\n  --color-earthfire-450: var(--earthfire-450);\n  --color-earthfire-500: var(--earthfire-500);\n  --color-earthfire-550: var(--earthfire-550);\n  --color-earthfire-600: var(--earthfire-600);\n  --color-earthfire-650: var(--earthfire-650);\n  --color-earthfire-700: var(--earthfire-700);\n  --color-earthfire-750: var(--earthfire-750);\n  --color-earthfire-800: var(--earthfire-800);\n  --color-earthfire-850: var(--earthfire-850);\n  --color-earthfire-900: var(--earthfire-900);\n  --color-earthfire-950: var(--earthfire-950);\n  --color-earthfire-1000: var(--earthfire-1000);\n  --color-earthfire-1050: var(--earthfire-1050);\n  --color-fuchsia-heat-50: var(--fuchsia-heat-50);\n  --color-fuchsia-heat-100: var(--fuchsia-heat-100);\n  --color-fuchsia-heat-150: var(--fuchsia-heat-150);\n  --color-fuchsia-heat-200: var(--fuchsia-heat-200);\n  --color-fuchsia-heat-250: var(--fuchsia-heat-250);\n  --color-fuchsia-heat-300: var(--fuchsia-heat-300);\n  --color-fuchsia-heat-350: var(--fuchsia-heat-350);\n  --color-fuchsia-heat-400: var(--fuchsia-heat-400);\n  --color-fuchsia-heat-450: var(--fuchsia-heat-450);\n  --color-fuchsia-heat-500: var(--fuchsia-heat-500);\n  --color-fuchsia-heat-550: var(--fuchsia-heat-550);\n  --color-fuchsia-heat-600: var(--fuchsia-heat-600);\n  --color-fuchsia-heat-650: var(--fuchsia-heat-650);\n  --color-fuchsia-heat-700: var(--fuchsia-heat-700);\n  --color-fuchsia-heat-750: var(--fuchsia-heat-750);\n  --color-fuchsia-heat-800: var(--fuchsia-heat-800);\n  --color-fuchsia-heat-850: var(--fuchsia-heat-850);\n  --color-fuchsia-heat-900: var(--fuchsia-heat-900);\n  --color-fuchsia-heat-950: var(--fuchsia-heat-950);\n  --color-fuchsia-heat-1000: var(--fuchsia-heat-1000);\n  --color-fuchsia-heat-1050: var(--fuchsia-heat-1050);\n  --color-polar-glow-50: var(--polar-glow-50);\n  --color-polar-glow-100: var(--polar-glow-100);\n  --color-polar-glow-150: var(--polar-glow-150);\n  --color-polar-glow-200: var(--polar-glow-200);\n  --color-polar-glow-250: var(--polar-glow-250);\n  --color-polar-glow-300: var(--polar-glow-300);\n  --color-polar-glow-350: var(--polar-glow-350);\n  --color-polar-glow-400: var(--polar-glow-400);\n  --color-polar-glow-450: var(--polar-glow-450);\n  --color-polar-glow-500: var(--polar-glow-500);\n  --color-polar-glow-550: var(--polar-glow-550);\n  --color-polar-glow-600: var(--polar-glow-600);\n  --color-polar-glow-650: var(--polar-glow-650);\n  --color-polar-glow-700: var(--polar-glow-700);\n  --color-polar-glow-750: var(--polar-glow-750);\n  --color-polar-glow-800: var(--polar-glow-800);\n  --color-polar-glow-850: var(--polar-glow-850);\n  --color-polar-glow-900: var(--polar-glow-900);\n  --color-polar-glow-950: var(--polar-glow-950);\n  --color-polar-glow-1000: var(--polar-glow-1000);\n  --color-polar-glow-1050: var(--polar-glow-1050);\n  --color-glacier-pool-50: var(--glacier-pool-50);\n  --color-glacier-pool-100: var(--glacier-pool-100);\n  --color-glacier-pool-150: var(--glacier-pool-150);\n  --color-glacier-pool-200: var(--glacier-pool-200);\n  --color-glacier-pool-250: var(--glacier-pool-250);\n  --color-glacier-pool-300: var(--glacier-pool-300);\n  --color-glacier-pool-350: var(--glacier-pool-350);\n  --color-glacier-pool-400: var(--glacier-pool-400);\n  --color-glacier-pool-450: var(--glacier-pool-450);\n  --color-glacier-pool-500: var(--glacier-pool-500);\n  --color-glacier-pool-550: var(--glacier-pool-550);\n  --color-glacier-pool-600: var(--glacier-pool-600);\n  --color-glacier-pool-650: var(--glacier-pool-650);\n  --color-glacier-pool-700: var(--glacier-pool-700);\n  --color-glacier-pool-750: var(--glacier-pool-750);\n  --color-glacier-pool-800: var(--glacier-pool-800);\n  --color-glacier-pool-850: var(--glacier-pool-850);\n  --color-glacier-pool-900: var(--glacier-pool-900);\n  --color-glacier-pool-950: var(--glacier-pool-950);\n  --color-glacier-pool-1000: var(--glacier-pool-1000);\n  --color-glacier-pool-1050: var(--glacier-pool-1050);\n  --color-deep-current-50: var(--deep-current-50);\n  --color-deep-current-100: var(--deep-current-100);\n  --color-deep-current-150: var(--deep-current-150);\n  --color-deep-current-200: var(--deep-current-200);\n  --color-deep-current-250: var(--deep-current-250);\n  --color-deep-current-300: var(--deep-current-300);\n  --color-deep-current-350: var(--deep-current-350);\n  --color-deep-current-400: var(--deep-current-400);\n  --color-deep-current-450: var(--deep-current-450);\n  --color-deep-current-500: var(--deep-current-500);\n  --color-deep-current-550: var(--deep-current-550);\n  --color-deep-current-600: var(--deep-current-600);\n  --color-deep-current-650: var(--deep-current-650);\n  --color-deep-current-700: var(--deep-current-700);\n  --color-deep-current-750: var(--deep-current-750);\n  --color-deep-current-800: var(--deep-current-800);\n  --color-deep-current-850: var(--deep-current-850);\n  --color-deep-current-900: var(--deep-current-900);\n  --color-deep-current-950: var(--deep-current-950);\n  --color-deep-current-1000: var(--deep-current-1000);\n  --color-deep-current-1050: var(--deep-current-1050);\n  --color-blue-red-50: var(--blue-red-50);\n  --color-blue-red-100: var(--blue-red-100);\n  --color-blue-red-150: var(--blue-red-150);\n  --color-blue-red-200: var(--blue-red-200);\n  --color-blue-red-250: var(--blue-red-250);\n  --color-blue-red-300: var(--blue-red-300);\n  --color-blue-red-350: var(--blue-red-350);\n  --color-blue-red-400: var(--blue-red-400);\n  --color-blue-red-450: var(--blue-red-450);\n  --color-blue-red-500: var(--blue-red-500);\n  --color-blue-red-550: var(--blue-red-550);\n  --color-blue-red-600: var(--blue-red-600);\n  --color-blue-red-650: var(--blue-red-650);\n  --color-blue-red-700: var(--blue-red-700);\n  --color-blue-red-750: var(--blue-red-750);\n  --color-blue-red-800: var(--blue-red-800);\n  --color-blue-red-850: var(--blue-red-850);\n  --color-blue-red-900: var(--blue-red-900);\n  --color-blue-red-950: var(--blue-red-950);\n  --color-blue-red-1000: var(--blue-red-1000);\n  --color-blue-orange-50: var(--blue-orange-50);\n  --color-blue-orange-100: var(--blue-orange-100);\n  --color-blue-orange-150: var(--blue-orange-150);\n  --color-blue-orange-200: var(--blue-orange-200);\n  --color-blue-orange-250: var(--blue-orange-250);\n  --color-blue-orange-300: var(--blue-orange-300);\n  --color-blue-orange-350: var(--blue-orange-350);\n  --color-blue-orange-400: var(--blue-orange-400);\n  --color-blue-orange-450: var(--blue-orange-450);\n  --color-blue-orange-500: var(--blue-orange-500);\n  --color-blue-orange-550: var(--blue-orange-550);\n  --color-blue-orange-600: var(--blue-orange-600);\n  --color-blue-orange-650: var(--blue-orange-650);\n  --color-blue-orange-700: var(--blue-orange-700);\n  --color-blue-orange-750: var(--blue-orange-750);\n  --color-blue-orange-800: var(--blue-orange-800);\n  --color-blue-orange-850: var(--blue-orange-850);\n  --color-blue-orange-900: var(--blue-orange-900);\n  --color-blue-orange-950: var(--blue-orange-950);\n  --color-blue-orange-1000: var(--blue-orange-1000);\n  --color-purple-yellow-50: var(--purple-yellow-50);\n  --color-purple-yellow-100: var(--purple-yellow-100);\n  --color-purple-yellow-150: var(--purple-yellow-150);\n  --color-purple-yellow-200: var(--purple-yellow-200);\n  --color-purple-yellow-250: var(--purple-yellow-250);\n  --color-purple-yellow-300: var(--purple-yellow-300);\n  --color-purple-yellow-350: var(--purple-yellow-350);\n  --color-purple-yellow-400: var(--purple-yellow-400);\n  --color-purple-yellow-450: var(--purple-yellow-450);\n  --color-purple-yellow-500: var(--purple-yellow-500);\n  --color-purple-yellow-550: var(--purple-yellow-550);\n  --color-purple-yellow-600: var(--purple-yellow-600);\n  --color-purple-yellow-650: var(--purple-yellow-650);\n  --color-purple-yellow-700: var(--purple-yellow-700);\n  --color-purple-yellow-750: var(--purple-yellow-750);\n  --color-purple-yellow-800: var(--purple-yellow-800);\n  --color-purple-yellow-850: var(--purple-yellow-850);\n  --color-purple-yellow-900: var(--purple-yellow-900);\n  --color-purple-yellow-950: var(--purple-yellow-950);\n  --color-purple-yellow-1000: var(--purple-yellow-1000);\n  --color-fuchsia-teal-50: var(--fuchsia-teal-50);\n  --color-fuchsia-teal-100: var(--fuchsia-teal-100);\n  --color-fuchsia-teal-150: var(--fuchsia-teal-150);\n  --color-fuchsia-teal-200: var(--fuchsia-teal-200);\n  --color-fuchsia-teal-250: var(--fuchsia-teal-250);\n  --color-fuchsia-teal-300: var(--fuchsia-teal-300);\n  --color-fuchsia-teal-350: var(--fuchsia-teal-350);\n  --color-fuchsia-teal-400: var(--fuchsia-teal-400);\n  --color-fuchsia-teal-450: var(--fuchsia-teal-450);\n  --color-fuchsia-teal-500: var(--fuchsia-teal-500);\n  --color-fuchsia-teal-550: var(--fuchsia-teal-550);\n  --color-fuchsia-teal-600: var(--fuchsia-teal-600);\n  --color-fuchsia-teal-650: var(--fuchsia-teal-650);\n  --color-fuchsia-teal-700: var(--fuchsia-teal-700);\n  --color-fuchsia-teal-750: var(--fuchsia-teal-750);\n  --color-fuchsia-teal-800: var(--fuchsia-teal-800);\n  --color-fuchsia-teal-850: var(--fuchsia-teal-850);\n  --color-fuchsia-teal-900: var(--fuchsia-teal-900);\n  --color-fuchsia-teal-950: var(--fuchsia-teal-950);\n  --color-fuchsia-teal-1000: var(--fuchsia-teal-1000);\n}\n\n:root {\n  --ember-50: rgb(34, 39, 43);\n  --ember-100: rgb(28, 42, 59);\n  --ember-150: rgb(28, 42, 76);\n  --ember-200: rgb(37, 38, 92);\n  --ember-250: rgb(51, 31, 104);\n  --ember-300: rgb(68, 17, 112);\n  --ember-350: rgb(97, 17, 117);\n  --ember-400: rgb(128, 15, 115);\n  --ember-450: rgb(159, 9, 106);\n  --ember-500: rgb(188, 7, 88);\n  --ember-550: rgb(215, 21, 58);\n  --ember-600: rgb(222, 43, 52);\n  --ember-650: rgb(228, 59, 46);\n  --ember-700: rgb(233, 73, 39);\n  --ember-750: rgb(238, 86, 33);\n  --ember-800: rgb(243, 99, 27);\n  --ember-850: rgb(247, 115, 0);\n  --ember-900: rgb(249, 130, 0);\n  --ember-950: rgb(251, 145, 0);\n  --ember-1000: rgb(251, 160, 0);\n  --ember-1050: rgb(250, 175, 5);\n  --earthfire-50: rgb(82, 55, 25);\n  --earthfire-100: rgb(95, 54, 13);\n  --earthfire-150: rgb(108, 51, 0);\n  --earthfire-200: rgb(122, 46, 0);\n  --earthfire-250: rgb(135, 38, 0);\n  --earthfire-300: rgb(148, 27, 0);\n  --earthfire-350: rgb(167, 42, 5);\n  --earthfire-400: rgb(185, 56, 11);\n  --earthfire-450: rgb(204, 70, 17);\n  --earthfire-500: rgb(224, 85, 22);\n  --earthfire-550: rgb(243, 99, 27);\n  --earthfire-600: rgb(247, 115, 0);\n  --earthfire-650: rgb(249, 130, 0);\n  --earthfire-700: rgb(251, 145, 0);\n  --earthfire-750: rgb(251, 160, 0);\n  --earthfire-800: rgb(250, 175, 5);\n  --earthfire-850: rgb(250, 187, 59);\n  --earthfire-900: rgb(250, 199, 87);\n  --earthfire-950: rgb(251, 210, 111);\n  --earthfire-1000: rgb(252, 221, 133);\n  --earthfire-1050: rgb(253, 231, 154);\n  --fuchsia-heat-50: rgb(101, 0, 77);\n  --fuchsia-heat-100: rgb(123, 2, 95);\n  --fuchsia-heat-150: rgb(146, 4, 114);\n  --fuchsia-heat-200: rgb(169, 8, 133);\n  --fuchsia-heat-250: rgb(193, 13, 153);\n  --fuchsia-heat-300: rgb(217, 18, 174);\n  --fuchsia-heat-350: rgb(230, 30, 146);\n  --fuchsia-heat-400: rgb(240, 45, 119);\n  --fuchsia-heat-450: rgb(245, 62, 91);\n  --fuchsia-heat-500: rgb(246, 80, 62);\n  --fuchsia-heat-550: rgb(243, 99, 27);\n  --fuchsia-heat-600: rgb(247, 115, 0);\n  --fuchsia-heat-650: rgb(249, 130, 0);\n  --fuchsia-heat-700: rgb(251, 145, 0);\n  --fuchsia-heat-750: rgb(251, 160, 0);\n  --fuchsia-heat-800: rgb(250, 175, 5);\n  --fuchsia-heat-850: rgb(250, 187, 59);\n  --fuchsia-heat-900: rgb(250, 199, 87);\n  --fuchsia-heat-950: rgb(251, 210, 111);\n  --fuchsia-heat-1000: rgb(252, 221, 133);\n  --fuchsia-heat-1050: rgb(253, 231, 154);\n  --polar-glow-50: rgb(0, 38, 100);\n  --polar-glow-100: rgb(1, 51, 128);\n  --polar-glow-150: rgb(3, 65, 158);\n  --polar-glow-200: rgb(7, 79, 189);\n  --polar-glow-250: rgb(13, 93, 220);\n  --polar-glow-300: rgb(20, 108, 253);\n  --polar-glow-350: rgb(0, 119, 231);\n  --polar-glow-400: rgb(0, 126, 208);\n  --polar-glow-450: rgb(0, 130, 184);\n  --polar-glow-500: rgb(0, 130, 162);\n  --polar-glow-550: rgb(46, 128, 142);\n  --polar-glow-600: rgb(66, 146, 159);\n  --polar-glow-650: rgb(84, 163, 176);\n  --polar-glow-700: rgb(103, 182, 193);\n  --polar-glow-750: rgb(121, 200, 211);\n  --polar-glow-800: rgb(140, 219, 229);\n  --polar-glow-850: rgb(154, 223, 229);\n  --polar-glow-900: rgb(169, 227, 229);\n  --polar-glow-950: rgb(182, 231, 230);\n  --polar-glow-1000: rgb(196, 235, 231);\n  --polar-glow-1050: rgb(209, 238, 234);\n  --glacier-pool-50: rgb(68, 17, 112);\n  --glacier-pool-100: rgb(81, 30, 136);\n  --glacier-pool-150: rgb(93, 43, 161);\n  --glacier-pool-200: rgb(106, 57, 187);\n  --glacier-pool-250: rgb(117, 70, 214);\n  --glacier-pool-300: rgb(128, 85, 241);\n  --glacier-pool-350: rgb(115, 89, 246);\n  --glacier-pool-400: rgb(100, 94, 250);\n  --glacier-pool-450: rgb(83, 98, 252);\n  --glacier-pool-500: rgb(60, 103, 253);\n  --glacier-pool-550: rgb(20, 108, 253);\n  --glacier-pool-600: rgb(0, 137, 255);\n  --glacier-pool-650: rgb(12, 162, 255);\n  --glacier-pool-700: rgb(59, 185, 255);\n  --glacier-pool-750: rgb(100, 205, 255);\n  --glacier-pool-800: rgb(140, 224, 255);\n  --glacier-pool-850: rgb(154, 227, 255);\n  --glacier-pool-900: rgb(167, 229, 255);\n  --glacier-pool-950: rgb(179, 232, 254);\n  --glacier-pool-1000: rgb(191, 234, 254);\n  --glacier-pool-1050: rgb(203, 237, 253);\n  --deep-current-50: rgb(11, 63, 71);\n  --deep-current-100: rgb(18, 75, 84);\n  --deep-current-150: rgb(25, 88, 98);\n  --deep-current-200: rgb(32, 101, 113);\n  --deep-current-250: rgb(39, 114, 127);\n  --deep-current-300: rgb(46, 128, 142);\n  --deep-current-350: rgb(0, 130, 162);\n  --deep-current-400: rgb(0, 130, 184);\n  --deep-current-450: rgb(0, 126, 208);\n  --deep-current-500: rgb(0, 119, 231);\n  --deep-current-550: rgb(20, 108, 253);\n  --deep-current-600: rgb(0, 137, 255);\n  --deep-current-650: rgb(12, 162, 255);\n  --deep-current-700: rgb(59, 185, 255);\n  --deep-current-750: rgb(100, 205, 255);\n  --deep-current-800: rgb(140, 224, 255);\n  --deep-current-850: rgb(154, 227, 255);\n  --deep-current-900: rgb(167, 229, 255);\n  --deep-current-950: rgb(179, 232, 254);\n  --deep-current-1000: rgb(191, 234, 254);\n  --deep-current-1050: rgb(203, 237, 253);\n  --blue-red-50: rgb(0, 38, 100);\n  --blue-red-100: rgb(1, 51, 128);\n  --blue-red-150: rgb(3, 65, 158);\n  --blue-red-200: rgb(7, 79, 189);\n  --blue-red-250: rgb(13, 93, 220);\n  --blue-red-300: rgb(20, 108, 253);\n  --blue-red-350: rgb(76, 142, 255);\n  --blue-red-400: rgb(121, 172, 255);\n  --blue-red-450: rgb(165, 200, 255);\n  --blue-red-500: rgb(210, 228, 255);\n  --blue-red-550: rgb(254, 215, 214);\n  --blue-red-600: rgb(249, 175, 174);\n  --blue-red-650: rgb(241, 134, 135);\n  --blue-red-700: rgb(229, 89, 97);\n  --blue-red-750: rgb(215, 21, 58);\n  --blue-red-800: rgb(191, 15, 52);\n  --blue-red-850: rgb(167, 10, 45);\n  --blue-red-900: rgb(143, 5, 39);\n  --blue-red-950: rgb(121, 2, 32);\n  --blue-red-1000: rgb(99, 0, 25);\n  --blue-orange-50: rgb(0, 38, 100);\n  --blue-orange-100: rgb(1, 51, 128);\n  --blue-orange-150: rgb(3, 65, 158);\n  --blue-orange-200: rgb(7, 79, 189);\n  --blue-orange-250: rgb(13, 93, 220);\n  --blue-orange-300: rgb(20, 108, 253);\n  --blue-orange-350: rgb(76, 142, 255);\n  --blue-orange-400: rgb(121, 172, 255);\n  --blue-orange-450: rgb(165, 200, 255);\n  --blue-orange-500: rgb(210, 228, 255);\n  --blue-orange-550: rgb(255, 226, 214);\n  --blue-orange-600: rgb(255, 196, 173);\n  --blue-orange-650: rgb(254, 166, 131);\n  --blue-orange-700: rgb(250, 134, 87);\n  --blue-orange-750: rgb(243, 99, 27);\n  --blue-orange-800: rgb(224, 85, 22);\n  --blue-orange-850: rgb(204, 70, 17);\n  --blue-orange-900: rgb(185, 56, 11);\n  --blue-orange-950: rgb(167, 42, 5);\n  --blue-orange-1000: rgb(148, 27, 0);\n  --purple-yellow-50: rgb(68, 17, 112);\n  --purple-yellow-100: rgb(81, 30, 136);\n  --purple-yellow-150: rgb(93, 43, 161);\n  --purple-yellow-200: rgb(106, 57, 187);\n  --purple-yellow-250: rgb(117, 70, 214);\n  --purple-yellow-300: rgb(128, 85, 241);\n  --purple-yellow-350: rgb(150, 123, 247);\n  --purple-yellow-400: rgb(174, 158, 251);\n  --purple-yellow-450: rgb(199, 191, 254);\n  --purple-yellow-500: rgb(227, 223, 255);\n  --purple-yellow-550: rgb(255, 240, 218);\n  --purple-yellow-600: rgb(255, 224, 180);\n  --purple-yellow-650: rgb(254, 208, 139);\n  --purple-yellow-700: rgb(252, 192, 93);\n  --purple-yellow-750: rgb(250, 175, 5);\n  --purple-yellow-800: rgb(219, 153, 3);\n  --purple-yellow-850: rgb(189, 132, 2);\n  --purple-yellow-900: rgb(160, 111, 1);\n  --purple-yellow-950: rgb(132, 91, 0);\n  --purple-yellow-1000: rgb(105, 72, 0);\n  --fuchsia-teal-50: rgb(101, 0, 77);\n  --fuchsia-teal-100: rgb(123, 2, 95);\n  --fuchsia-teal-150: rgb(146, 4, 114);\n  --fuchsia-teal-200: rgb(169, 8, 133);\n  --fuchsia-teal-250: rgb(193, 13, 153);\n  --fuchsia-teal-300: rgb(217, 18, 174);\n  --fuchsia-teal-350: rgb(230, 91, 191);\n  --fuchsia-teal-400: rgb(240, 136, 207);\n  --fuchsia-teal-450: rgb(248, 177, 223);\n  --fuchsia-teal-500: rgb(253, 216, 239);\n  --fuchsia-teal-550: rgb(214, 229, 232);\n  --fuchsia-teal-600: rgb(174, 203, 209);\n  --fuchsia-teal-650: rgb(134, 178, 186);\n  --fuchsia-teal-700: rgb(93, 153, 164);\n  --fuchsia-teal-750: rgb(46, 128, 142);\n  --fuchsia-teal-800: rgb(39, 114, 127);\n  --fuchsia-teal-850: rgb(32, 101, 113);\n  --fuchsia-teal-900: rgb(25, 88, 98);\n  --fuchsia-teal-950: rgb(18, 75, 84);\n  --fuchsia-teal-1000: rgb(11, 63, 71);\n}\n";
+
+// src/tailwind/space/global.css
+var global_exports13 = {};
+__export(global_exports13, {
+  default: () => global_default10
+});
+var global_default10 = "@theme {\n  --spacing-0: 0rem;\n  --spacing-1: 0.25rem;\n  --spacing-2: 0.5rem;\n  --spacing-3: 0.75rem;\n  --spacing-4: 1rem;\n  --spacing-5: 1.25rem;\n  --spacing-6: 1.5rem;\n  --spacing-8: 2rem;\n  --spacing-10: 2.5rem;\n  --spacing-12: 3rem;\n  --spacing-14: 3.5rem;\n  --spacing-16: 4rem;\n}\n";
+
+// src/tailwind/radius/global.css
+var global_exports14 = {};
+__export(global_exports14, {
+  default: () => global_default11
+});
+var global_default11 = "@theme {\n  --radius-none: 0px;\n  --radius-sm: 4px;\n  --radius-md: 8px;\n  --radius-lg: 16px;\n  --radius-pill: 9999px;\n}\n";
+
+// src/tailwind/breakpoints/global.css
+var global_exports15 = {};
+__export(global_exports15, {
+  default: () => global_default12
+});
+var global_default12 = "@theme {\n  --breakpoint-xs: 480px;\n  --breakpoint-sm: 768px;\n  --breakpoint-md: 992px;\n  --breakpoint-lg: 1200px;\n  --breakpoint-xl: 1600px;\n}\n";
 
 // src/ts/colors/global/hex.ts
 var hex_exports31 = {};
@@ -47201,6 +47383,52 @@ var fuchsiaTeal8 = {
   "1000": "rgb(11, 63, 71)"
 };
 
+// src/ts/space/global.ts
+var global_exports16 = {};
+__export(global_exports16, {
+  space: () => space2
+});
+var space2 = {
+  "0": "0rem",
+  "1": "0.25rem",
+  "2": "0.5rem",
+  "3": "0.75rem",
+  "4": "1rem",
+  "5": "1.25rem",
+  "6": "1.5rem",
+  "8": "2rem",
+  "10": "2.5rem",
+  "12": "3rem",
+  "14": "3.5rem",
+  "16": "4rem"
+};
+
+// src/ts/radius/global.ts
+var global_exports17 = {};
+__export(global_exports17, {
+  radius: () => radius2
+});
+var radius2 = {
+  none: "0px",
+  sm: "4px",
+  md: "8px",
+  lg: "16px",
+  pill: "9999px"
+};
+
+// src/ts/breakpoints/global.ts
+var global_exports18 = {};
+__export(global_exports18, {
+  breakpoint: () => breakpoint2
+});
+var breakpoint2 = {
+  xs: "480px",
+  sm: "768px",
+  md: "992px",
+  lg: "1200px",
+  xl: "1600px"
+};
+
 // src/index.ts
 var globalColorHex = require_hex();
 var globalColorHsl = require_hsl();
@@ -47250,6 +47478,9 @@ var dataVisualisationJsonHex = require_hex12();
 var dataVisualisationJsonHsl = require_hsl12();
 var dataVisualisationJsonOklch = require_oklch12();
 var dataVisualisationJsonRgb = require_rgb12();
+var spaceJsonGlobal = require_global();
+var radiusJsonGlobal = require_global2();
+var breakpointsJsonGlobal = require_global3();
 var tokens = {
   colors: {
     global: { hex: globalColorHex, hsl: globalColorHsl, oklch: globalColorOklch, rgb: globalColorRgb },
@@ -47269,7 +47500,10 @@ var tokens = {
       "fuchsia-blue": { hex: hex_exports4, hsl: hsl_exports4, oklch: oklch_exports4, rgb: rgb_exports4 },
       "fuchsia-orange": { hex: hex_exports5, hsl: hsl_exports5, oklch: oklch_exports5, rgb: rgb_exports5 },
       "data-visualisation": { hex: hex_exports6, hsl: hsl_exports6, oklch: oklch_exports6, rgb: rgb_exports6 }
-    }
+    },
+    space: { global: global_exports },
+    radius: { global: global_exports2 },
+    breakpoints: { global: global_exports3 }
   },
   js: {
     global: { hex: hex_exports7, hsl: hsl_exports7, oklch: oklch_exports7, rgb: rgb_exports7 },
@@ -47279,7 +47513,10 @@ var tokens = {
       "fuchsia-blue": { hex: hex_exports10, hsl: hsl_exports10, oklch: oklch_exports10, rgb: rgb_exports10 },
       "fuchsia-orange": { hex: hex_exports11, hsl: hsl_exports11, oklch: oklch_exports11, rgb: rgb_exports11 },
       "data-visualisation": { hex: hex_exports12, hsl: hsl_exports12, oklch: oklch_exports12, rgb: rgb_exports12 }
-    }
+    },
+    space: { global: global_exports4 },
+    radius: { global: global_exports5 },
+    breakpoints: { global: global_exports6 }
   },
   json: {
     global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb },
@@ -47289,7 +47526,10 @@ var tokens = {
       "fuchsia-blue": { hex: fuchsiaBlueJsonHex, hsl: fuchsiaBlueJsonHsl, oklch: fuchsiaBlueJsonOklch, rgb: fuchsiaBlueJsonRgb },
       "fuchsia-orange": { hex: fuchsiaOrangeJsonHex, hsl: fuchsiaOrangeJsonHsl, oklch: fuchsiaOrangeJsonOklch, rgb: fuchsiaOrangeJsonRgb },
       "data-visualisation": { hex: dataVisualisationJsonHex, hsl: dataVisualisationJsonHsl, oklch: dataVisualisationJsonOklch, rgb: dataVisualisationJsonRgb }
-    }
+    },
+    space: { global: spaceJsonGlobal },
+    radius: { global: radiusJsonGlobal },
+    breakpoints: { global: breakpointsJsonGlobal }
   },
   less: {
     global: { hex: hex_exports13, hsl: hsl_exports13, oklch: oklch_exports13, rgb: rgb_exports13 },
@@ -47299,7 +47539,10 @@ var tokens = {
       "fuchsia-blue": { hex: hex_exports16, hsl: hsl_exports16, oklch: oklch_exports16, rgb: rgb_exports16 },
       "fuchsia-orange": { hex: hex_exports17, hsl: hsl_exports17, oklch: oklch_exports17, rgb: rgb_exports17 },
       "data-visualisation": { hex: hex_exports18, hsl: hsl_exports18, oklch: oklch_exports18, rgb: rgb_exports18 }
-    }
+    },
+    space: { global: global_exports7 },
+    radius: { global: global_exports8 },
+    breakpoints: { global: global_exports9 }
   },
   scss: {
     global: { hex: hex_exports19, hsl: hsl_exports19, oklch: oklch_exports19, rgb: rgb_exports19 },
@@ -47309,7 +47552,10 @@ var tokens = {
       "fuchsia-blue": { hex: hex_exports22, hsl: hsl_exports22, oklch: oklch_exports22, rgb: rgb_exports22 },
       "fuchsia-orange": { hex: hex_exports23, hsl: hsl_exports23, oklch: oklch_exports23, rgb: rgb_exports23 },
       "data-visualisation": { hex: hex_exports24, hsl: hsl_exports24, oklch: oklch_exports24, rgb: rgb_exports24 }
-    }
+    },
+    space: { global: global_exports10 },
+    radius: { global: global_exports11 },
+    breakpoints: { global: global_exports12 }
   },
   tailwind: {
     global: { hex: hex_exports25, hsl: hsl_exports25, oklch: oklch_exports25, rgb: rgb_exports25 },
@@ -47319,7 +47565,10 @@ var tokens = {
       "fuchsia-blue": { hex: hex_exports28, hsl: hsl_exports28, oklch: oklch_exports28, rgb: rgb_exports28 },
       "fuchsia-orange": { hex: hex_exports29, hsl: hsl_exports29, oklch: oklch_exports29, rgb: rgb_exports29 },
       "data-visualisation": { hex: hex_exports30, hsl: hsl_exports30, oklch: oklch_exports30, rgb: rgb_exports30 }
-    }
+    },
+    space: { global: global_exports13 },
+    radius: { global: global_exports14 },
+    breakpoints: { global: global_exports15 }
   },
   ts: {
     global: { hex: hex_exports31, hsl: hsl_exports31, oklch: oklch_exports31, rgb: rgb_exports31 },
@@ -47329,7 +47578,10 @@ var tokens = {
       "fuchsia-blue": { hex: hex_exports34, hsl: hsl_exports34, oklch: oklch_exports34, rgb: rgb_exports34 },
       "fuchsia-orange": { hex: hex_exports35, hsl: hsl_exports35, oklch: oklch_exports35, rgb: rgb_exports35 },
       "data-visualisation": { hex: hex_exports36, hsl: hsl_exports36, oklch: oklch_exports36, rgb: rgb_exports36 }
-    }
+    },
+    space: { global: global_exports16 },
+    radius: { global: global_exports17 },
+    breakpoints: { global: global_exports18 }
   }
 };
 var colorTokens = tokens.colors;

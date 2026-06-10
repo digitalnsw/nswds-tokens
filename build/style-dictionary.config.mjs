@@ -15,7 +15,16 @@
 // Consumed by scripts/generate-styles.mjs, which overrides each platform's buildPath to
 // write the generated files into src/ (the OUT default below is only a placeholder).
 
-import { nswJs, nswTs, nswJson, nswFigma, nswTailwind, colorFunction } from './formats.mjs'
+import {
+  nswJs,
+  nswTs,
+  nswJson,
+  nswFigma,
+  nswTailwind,
+  nswTailwindDimension,
+  colorFunction,
+  dimensionString,
+} from './formats.mjs'
 
 const OUT = 'build/.sd-out/'
 const SPACES = ['hex', 'hsl', 'rgb', 'oklch']
@@ -100,4 +109,60 @@ const makeConfig = (space, layer) => {
   }
 }
 
-export default SPACES.flatMap((space) => LAYERS.map((layer) => makeConfig(space, layer)))
+// ── Non-colour categories (Phase 4) ────────────────────────────────────────────────────
+// One config per category — no colour-space dimension (there is exactly one representation
+// of 1rem), so canonical.json is the only source and `global` the only layer for now.
+// Outputs mirror the colour layout with the category as the first path segment:
+// css/space/global.css, js/radius/global.js, tailwind/breakpoints/global.css, …
+
+const CATEGORIES = [
+  { key: 'space', tailwindNamespace: 'spacing' },
+  { key: 'radius', tailwindNamespace: 'radius' },
+  { key: 'breakpoints', tailwindNamespace: 'breakpoint' },
+]
+
+// DTCG dimension object ({value, unit}) -> "0.25rem" string for every string output.
+const dimensionTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) => token.$type === 'dimension',
+  transform: (token) => dimensionString(token.$value),
+}
+
+const makeCategoryConfig = (category) => {
+  const platform = (destination, format, options) => ({
+    buildPath: OUT,
+    options: { showFileHeader: false },
+    transforms: ['name/kebab', 'nsw/dimension'],
+    files: [{ destination, format, ...(options ? { options } : {}) }],
+  })
+
+  return {
+    source: [`tokens/global/${category.key}/canonical.json`],
+    hooks: {
+      formats: {
+        'nsw/js': nswJs,
+        'nsw/ts': nswTs,
+        'nsw/json': nswJson,
+        'nsw/tailwind-dimension': nswTailwindDimension,
+      },
+      transforms: { 'nsw/dimension': dimensionTransform },
+    },
+    platforms: {
+      css: platform(`css/${category.key}/global.css`, 'css/variables'),
+      scss: platform(`scss/${category.key}/global.scss`, 'scss/variables'),
+      less: platform(`less/${category.key}/global.less`, 'less/variables'),
+      js: platform(`js/${category.key}/global.js`, 'nsw/js'),
+      ts: platform(`ts/${category.key}/global.ts`, 'nsw/ts'),
+      json: platform(`json/${category.key}/global.json`, 'nsw/json'),
+      tailwind: platform(`tailwind/${category.key}/global.css`, 'nsw/tailwind-dimension', {
+        namespace: category.tailwindNamespace,
+      }),
+    },
+  }
+}
+
+export default [
+  ...SPACES.flatMap((space) => LAYERS.map((layer) => makeConfig(space, layer))),
+  ...CATEGORIES.map(makeCategoryConfig),
+]

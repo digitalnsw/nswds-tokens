@@ -1,0 +1,100 @@
+{
+  "space": {
+    "0": {
+      "$type": "dimension",
+      "$description": "Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0,
+        "unit": "rem"
+      }
+    },
+    "1": {
+      "$type": "dimension",
+      "$description": "Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.25,
+        "unit": "rem"
+      }
+    },
+    "2": {
+      "$type": "dimension",
+      "$description": "Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.5,
+        "unit": "rem"
+      }
+    },
+    "3": {
+      "$type": "dimension",
+      "$description": "Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      }
+    },
+    "4": {
+      "$type": "dimension",
+      "$description": "Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      }
+    },
+    "5": {
+      "$type": "dimension",
+      "$description": "Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1.25,
+        "unit": "rem"
+      }
+    },
+    "6": {
+      "$type": "dimension",
+      "$description": "Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1.5,
+        "unit": "rem"
+      }
+    },
+    "8": {
+      "$type": "dimension",
+      "$description": "Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 2,
+        "unit": "rem"
+      }
+    },
+    "10": {
+      "$type": "dimension",
+      "$description": "Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 2.5,
+        "unit": "rem"
+      }
+    },
+    "12": {
+      "$type": "dimension",
+      "$description": "Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3,
+        "unit": "rem"
+      }
+    },
+    "14": {
+      "$type": "dimension",
+      "$description": "Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3.5,
+        "unit": "rem"
+      }
+    },
+    "16": {
+      "$type": "dimension",
+      "$description": "Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 4,
+        "unit": "rem"
+      }
+    }
+  }
+}

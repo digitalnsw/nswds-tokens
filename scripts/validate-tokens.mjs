@@ -1,7 +1,8 @@
 // Token validation gate.
 //
 // Scans the canonical per-colour-space token tree under tokens/{global,semantic,themes}
-// and checks:
+// AND the non-colour category sources (tokens/<layer>/<category>/canonical.json — space,
+// radius, breakpoints, …) and checks:
 //   ERRORS (fail CI):
 //     - every leaf has a $value
 //     - every alias {a.b.c} resolves to an existing token (no dangling references)
@@ -73,6 +74,33 @@ const filesForSpace = (space) => {
 const aliasTarget = (leaf) =>
   typeof leaf.$value === 'string' ? (leaf.$value.match(ALIAS_PATTERN)?.[1] ?? null) : null
 
+// Walk every alias chain in a namespace: errors on dangling references and cycles.
+// Shared by the colour-space and category validations so both get identical guarantees.
+const checkAliasChains = (allLeaves, leafByPath) => {
+  const resolveAlias = (startPath, startLeaf) => {
+    const seen = new Set()
+    let path = startPath
+    let leaf = startLeaf
+    while (true) {
+      const target = aliasTarget(leaf)
+      if (!target) return // resolved to a concrete value
+      if (seen.has(path)) {
+        errors.push(`alias cycle detected at "${path}"`)
+        return
+      }
+      seen.add(path)
+      const next = leafByPath[target]
+      if (!next) {
+        errors.push(`unresolved alias "{${target}}" referenced by "${path}"`)
+        return
+      }
+      path = target
+      leaf = next
+    }
+  }
+  for (const { path, leaf } of allLeaves) resolveAlias(path, leaf)
+}
+
 // DTCG 2025.10 Color-module conformance (warnings).
 const checkColorShape = (label, path, leaf) => {
   const v = leaf.$value
@@ -93,6 +121,68 @@ const checkColorShape = (label, path, leaf) => {
   if (Array.isArray(comps) && comps.includes(null))
     warnings.push(`${label} ${path}: null component; DTCG expects the string "none"`)
   if (!('hex' in v)) warnings.push(`${label} ${path}: no "hex" fallback (recommended by DTCG)`)
+}
+
+// ── Non-colour categories (Phase 4) ──────────────────────────────────────────────────
+// One canonical.json per (layer, category); no per-space views. Discover dynamically so
+// new categories (typography, shadow, …) are validated the moment their files exist.
+const categoryFiles = () => {
+  const files = []
+  for (const layer of ['global', 'semantic']) {
+    const layerDir = resolve(tokensDir, layer)
+    if (!existsSync(layerDir)) continue
+    for (const entry of readdirSync(layerDir, { withFileTypes: true })) {
+      if (!entry.isDirectory() || entry.name === 'color') continue
+      const p = resolve(layerDir, entry.name, 'canonical.json')
+      if (existsSync(p)) files.push({ label: `${layer}/${entry.name}`, path: p })
+    }
+  }
+  return files
+}
+
+// DTCG 2025.10 dimension conformance: $value is { value: number, unit: "px" | "rem" }.
+const checkDimensionShape = (label, path, leaf) => {
+  if (leaf.$type !== 'dimension') return
+  const v = leaf.$value
+  if (aliasTarget(leaf)) return // aliases checked by reference resolution
+  if (!v || typeof v !== 'object' || typeof v.value !== 'number') {
+    errors.push(`${label} ${path}: dimension $value must be { value: number, unit }`)
+    return
+  }
+  if (!['px', 'rem'].includes(v.unit))
+    errors.push(`${label} ${path}: dimension unit "${v.unit}" (DTCG allows "px" or "rem")`)
+}
+
+{
+  const files = categoryFiles()
+  const namespace = {}
+  const leafByPath = {}
+  const allLeaves = []
+
+  for (const { label, path } of files) {
+    const flat = flatten(readJson(path), '', {})
+    for (const [tokenPath, leaf] of Object.entries(flat)) {
+      allLeaves.push({ label, path: tokenPath, leaf })
+      leafByPath[tokenPath] = leaf
+
+      if (!('$value' in leaf)) errors.push(`${label} ${tokenPath}: missing $value`)
+      if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
+      checkDimensionShape(label, tokenPath, leaf)
+
+      const serialized = JSON.stringify(leaf.$value)
+      const prior = namespace[tokenPath]
+      if (prior && prior.value !== serialized) {
+        errors.push(
+          `duplicate token "${tokenPath}" with conflicting values (${prior.label} vs ${label})`,
+        )
+      }
+      namespace[tokenPath] = { value: serialized, label }
+    }
+  }
+
+  // Alias resolution within the category namespace (semantic categories will alias global)
+  // — full chain walk with cycle detection, same guarantees as the colour spaces.
+  checkAliasChains(allLeaves, leafByPath)
 }
 
 for (const space of SPACES) {
@@ -130,31 +220,8 @@ for (const space of SPACES) {
     }
   }
 
-  // reference resolution + cycle detection
-  const resolveAlias = (startPath, startLeaf) => {
-    const seen = new Set()
-    let path = startPath
-    let leaf = startLeaf
-    while (true) {
-      const target = aliasTarget(leaf)
-      if (!target) return // resolved to a concrete value
-      if (seen.has(path)) {
-        errors.push(`alias cycle detected at "${path}"`)
-        return
-      }
-      seen.add(path)
-      const next = leafByPath[target] // O(1) lookup instead of scanning allLeaves
-      if (!next) {
-        errors.push(`unresolved alias "{${target}}" referenced by "${path}"`)
-        return
-      }
-      // follow the chain to the resolved target leaf
-      path = target
-      leaf = next
-    }
-  }
-
-  for (const { path, leaf } of allLeaves) resolveAlias(path, leaf)
+  // reference resolution + cycle detection (shared helper)
+  checkAliasChains(allLeaves, leafByPath)
 }
 
 const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`

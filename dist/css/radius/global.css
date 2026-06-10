@@ -1,0 +1,7 @@
+:root {
+  --radius-none: 0px; /** Square corners — tables, full-bleed surfaces, and elements flush to container edges. */
+  --radius-sm: 4px; /** Small rounding — inputs, buttons, tags, and compact controls. */
+  --radius-md: 8px; /** Medium rounding — cards, panels, and modals. */
+  --radius-lg: 16px; /** Large rounding — hero surfaces and prominent containers. */
+  --radius-pill: 9999px; /** Fully rounded ends — pills, badges, and circular icon buttons. */
+}
