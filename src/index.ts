@@ -54,6 +54,7 @@ import * as spaceCssGlobal from './css/space/global.css'
 import * as radiusCssGlobal from './css/radius/global.css'
 import * as breakpointsCssGlobal from './css/breakpoints/global.css'
 import * as typographyCssGlobal from './css/typography/global.css'
+import * as typographyCssSemantic from './css/typography/semantic.css'
 
 import * as globalJsHex from './js/colors/global/hex.js'
 import * as globalJsHsl from './js/colors/global/hsl.js'
@@ -83,6 +84,7 @@ import * as spaceJsGlobal from './js/space/global.js'
 import * as radiusJsGlobal from './js/radius/global.js'
 import * as breakpointsJsGlobal from './js/breakpoints/global.js'
 import * as typographyJsGlobal from './js/typography/global.js'
+import * as typographyJsSemantic from './js/typography/semantic.js'
 
 const globalJsonHex = require('./json/colors/global/hex.json')
 const globalJsonHsl = require('./json/colors/global/hsl.json')
@@ -112,6 +114,7 @@ const spaceJsonGlobal = require('./json/space/global.json')
 const radiusJsonGlobal = require('./json/radius/global.json')
 const breakpointsJsonGlobal = require('./json/breakpoints/global.json')
 const typographyJsonGlobal = require('./json/typography/global.json')
+const typographyJsonSemantic = require('./json/typography/semantic.json')
 
 import * as globalLessHex from './less/colors/global/hex.less'
 import * as globalLessHsl from './less/colors/global/hsl.less'
@@ -141,6 +144,7 @@ import * as spaceLessGlobal from './less/space/global.less'
 import * as radiusLessGlobal from './less/radius/global.less'
 import * as breakpointsLessGlobal from './less/breakpoints/global.less'
 import * as typographyLessGlobal from './less/typography/global.less'
+import * as typographyLessSemantic from './less/typography/semantic.less'
 
 import * as globalScssHex from './scss/colors/global/hex.scss'
 import * as globalScssHsl from './scss/colors/global/hsl.scss'
@@ -170,6 +174,7 @@ import * as spaceScssGlobal from './scss/space/global.scss'
 import * as radiusScssGlobal from './scss/radius/global.scss'
 import * as breakpointsScssGlobal from './scss/breakpoints/global.scss'
 import * as typographyScssGlobal from './scss/typography/global.scss'
+import * as typographyScssSemantic from './scss/typography/semantic.scss'
 
 import * as globalTailwindHex from './tailwind/colors/global/hex.css'
 import * as globalTailwindHsl from './tailwind/colors/global/hsl.css'
@@ -228,6 +233,7 @@ import * as spaceTsGlobal from './ts/space/global.js'
 import * as radiusTsGlobal from './ts/radius/global.js'
 import * as breakpointsTsGlobal from './ts/breakpoints/global.js'
 import * as typographyTsGlobal from './ts/typography/global.js'
+import * as typographyTsSemantic from './ts/typography/semantic.js'
 
 export const tokens = {
   colors: {
@@ -252,7 +258,7 @@ export const tokens = {
     space: { global: spaceCssGlobal },
     radius: { global: radiusCssGlobal },
     breakpoints: { global: breakpointsCssGlobal },
-    typography: { global: typographyCssGlobal },
+    typography: { global: typographyCssGlobal, semantic: typographyCssSemantic },
   },
   js: {
     global: { hex: globalJsHex, hsl: globalJsHsl, oklch: globalJsOklch, rgb: globalJsRgb },
@@ -266,7 +272,7 @@ export const tokens = {
     space: { global: spaceJsGlobal },
     radius: { global: radiusJsGlobal },
     breakpoints: { global: breakpointsJsGlobal },
-    typography: { global: typographyJsGlobal },
+    typography: { global: typographyJsGlobal, semantic: typographyJsSemantic },
   },
   json: {
     global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb },
@@ -280,7 +286,7 @@ export const tokens = {
     space: { global: spaceJsonGlobal },
     radius: { global: radiusJsonGlobal },
     breakpoints: { global: breakpointsJsonGlobal },
-    typography: { global: typographyJsonGlobal },
+    typography: { global: typographyJsonGlobal, semantic: typographyJsonSemantic },
   },
   less: {
     global: { hex: globalLessHex, hsl: globalLessHsl, oklch: globalLessOklch, rgb: globalLessRgb },
@@ -294,7 +300,7 @@ export const tokens = {
     space: { global: spaceLessGlobal },
     radius: { global: radiusLessGlobal },
     breakpoints: { global: breakpointsLessGlobal },
-    typography: { global: typographyLessGlobal },
+    typography: { global: typographyLessGlobal, semantic: typographyLessSemantic },
   },
   scss: {
     global: { hex: globalScssHex, hsl: globalScssHsl, oklch: globalScssOklch, rgb: globalScssRgb },
@@ -308,7 +314,7 @@ export const tokens = {
     space: { global: spaceScssGlobal },
     radius: { global: radiusScssGlobal },
     breakpoints: { global: breakpointsScssGlobal },
-    typography: { global: typographyScssGlobal },
+    typography: { global: typographyScssGlobal, semantic: typographyScssSemantic },
   },
   tailwind: {
     global: { hex: globalTailwindHex, hsl: globalTailwindHsl, oklch: globalTailwindOklch, rgb: globalTailwindRgb },
@@ -336,7 +342,7 @@ export const tokens = {
     space: { global: spaceTsGlobal },
     radius: { global: radiusTsGlobal },
     breakpoints: { global: breakpointsTsGlobal },
-    typography: { global: typographyTsGlobal },
+    typography: { global: typographyTsGlobal, semantic: typographyTsSemantic },
   },
 }
 

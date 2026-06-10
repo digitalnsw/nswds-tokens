@@ -22,6 +22,12 @@ import {
   nswFigma,
   nswTailwind,
   nswTailwindDimension,
+  nswTypographyCss,
+  nswTypographyScss,
+  nswTypographyLess,
+  nswTypographyJs,
+  nswTypographyTs,
+  nswTypographyJson,
   colorFunction,
   dimensionString,
   fontFamilyString,
@@ -197,7 +203,52 @@ const makeCategoryConfig = (category) => {
   }
 }
 
+// ── Semantic typography composites (Phase 4c) ──────────────────────────────────────────
+// Alias-only `typography` composites; the global canonical loads alongside so SD resolves
+// the nested {font-size.16}-style references before the formats run. The filter keeps the
+// global primitives from re-emitting here (they have their own category outputs).
+// No tailwind output (Tailwind v4 has no composite namespace) and no Figma staging
+// (composites are Figma styles, not variables — locked decision D5).
+const typographySemanticConfig = {
+  source: ['tokens/semantic/typography/canonical.json', 'tokens/global/typography/canonical.json'],
+  hooks: {
+    formats: {
+      'nsw/typography-css': nswTypographyCss,
+      'nsw/typography-scss': nswTypographyScss,
+      'nsw/typography-less': nswTypographyLess,
+      'nsw/typography-js': nswTypographyJs,
+      'nsw/typography-ts': nswTypographyTs,
+      'nsw/typography-json': nswTypographyJson,
+    },
+  },
+  platforms: Object.fromEntries(
+    [
+      ['css', 'css'],
+      ['scss', 'scss'],
+      ['less', 'less'],
+      ['js', 'js'],
+      ['ts', 'ts'],
+      ['json', 'json'],
+    ].map(([platform, ext]) => [
+      platform,
+      {
+        buildPath: OUT,
+        options: { showFileHeader: false },
+        transforms: ['name/kebab'],
+        files: [
+          {
+            destination: `${platform}/typography/semantic.${ext}`,
+            format: `nsw/typography-${platform}`,
+            filter: (token) => token.$type === 'typography',
+          },
+        ],
+      },
+    ]),
+  ),
+}
+
 export default [
   ...SPACES.flatMap((space) => LAYERS.map((layer) => makeConfig(space, layer))),
   ...CATEGORIES.map(makeCategoryConfig),
+  typographySemanticConfig,
 ]
