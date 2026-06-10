@@ -22,14 +22,15 @@ export interface Token {
    * We allow `string` and `boolean` types in addition to the draft W3C spec's `color` and `number` types
    * to align with the resolved types for Figma variables.
    */
-  $type: 'color' | 'number' | 'string' | 'boolean' | 'dimension'
+  $type: 'color' | 'number' | 'string' | 'boolean' | 'dimension' | 'fontFamily' | 'fontWeight'
   /**
    * For `color` tokens written in the DTCG 2025.10 shape, `$value` is a {@link DtcgColor}
    * object (`{ colorSpace, components, alpha, hex }`); `dimension` tokens carry a
-   * {@link DtcgDimension} (`{ value, unit }`). Aliases remain `{group.token}` strings;
-   * `number`/`string`/`boolean` tokens keep their primitive values.
+   * {@link DtcgDimension} (`{ value, unit }`); `fontFamily` tokens carry a string or a
+   * fallback-stack array of strings. Aliases remain `{group.token}` strings;
+   * `number`/`fontWeight`/`string`/`boolean` tokens keep their primitive values.
    */
-  $value: string | number | boolean | DtcgColor | DtcgDimension
+  $value: string | number | boolean | string[] | DtcgColor | DtcgDimension
   $description?: string
   $extensions?: {
     /**

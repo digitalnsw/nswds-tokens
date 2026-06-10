@@ -14,6 +14,7 @@
 //   - prism.css, brand assets, src/index.ts
 
 import StyleDictionary from 'style-dictionary'
+import { execFileSync } from 'node:child_process'
 import { rmSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import configs from '../build/style-dictionary.config.mjs'
@@ -37,5 +38,13 @@ for (const dir of ownedDirs) {
 for (const config of configs) {
   await new StyleDictionary(config).buildAllPlatforms()
 }
+
+// The generated js/ts modules are linted by the repo's Prettier config, whose wrapping
+// heuristics (short-key attachment, print-width breaks for long font stacks) aren't worth
+// reimplementing in the formats — run Prettier itself as the final generation step so the
+// outputs are conformant by construction. Deterministic, so check:dist is unaffected.
+execFileSync('npx', ['prettier', '--write', '--log-level', 'warn', `${SRC}/js`, `${SRC}/ts`], {
+  stdio: 'inherit',
+})
 
 console.log('✅ Generated src/* style outputs from tokens/ via Style Dictionary')
