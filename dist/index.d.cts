@@ -123,3858 +123,3816 @@ declare namespace shadowCssGlobal {
 }
 
 declare const nswGrey$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswGreen$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswTeal$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBlue$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswPurple$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswFuchsia$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswRed$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswOrange$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswYellow$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBrown$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGrey$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalRed$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalOrange$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBrown$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalYellow$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGreen$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBlue$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalPurple$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace globalJsHex {
   export { nswAboriginalBlue$7 as nswAboriginalBlue, nswAboriginalBrown$7 as nswAboriginalBrown, nswAboriginalGreen$7 as nswAboriginalGreen, nswAboriginalGrey$7 as nswAboriginalGrey, nswAboriginalOrange$7 as nswAboriginalOrange, nswAboriginalPurple$7 as nswAboriginalPurple, nswAboriginalRed$7 as nswAboriginalRed, nswAboriginalYellow$7 as nswAboriginalYellow, nswBlue$7 as nswBlue, nswBrown$7 as nswBrown, nswFuchsia$7 as nswFuchsia, nswGreen$7 as nswGreen, nswGrey$7 as nswGrey, nswOrange$7 as nswOrange, nswPurple$7 as nswPurple, nswRed$7 as nswRed, nswTeal$7 as nswTeal, nswYellow$7 as nswYellow };
 }
 
 declare const nswGrey$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswGreen$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswTeal$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBlue$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswPurple$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswFuchsia$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswRed$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswOrange$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswYellow$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBrown$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGrey$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalRed$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalOrange$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBrown$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalYellow$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGreen$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBlue$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalPurple$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace globalJsHsl {
   export { nswAboriginalBlue$6 as nswAboriginalBlue, nswAboriginalBrown$6 as nswAboriginalBrown, nswAboriginalGreen$6 as nswAboriginalGreen, nswAboriginalGrey$6 as nswAboriginalGrey, nswAboriginalOrange$6 as nswAboriginalOrange, nswAboriginalPurple$6 as nswAboriginalPurple, nswAboriginalRed$6 as nswAboriginalRed, nswAboriginalYellow$6 as nswAboriginalYellow, nswBlue$6 as nswBlue, nswBrown$6 as nswBrown, nswFuchsia$6 as nswFuchsia, nswGreen$6 as nswGreen, nswGrey$6 as nswGrey, nswOrange$6 as nswOrange, nswPurple$6 as nswPurple, nswRed$6 as nswRed, nswTeal$6 as nswTeal, nswYellow$6 as nswYellow };
 }
 
 declare const nswGrey$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswGreen$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswTeal$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBlue$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswPurple$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswFuchsia$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswRed$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswOrange$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswYellow$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBrown$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGrey$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalRed$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalOrange$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBrown$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalYellow$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGreen$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBlue$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalPurple$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace globalJsOklch {
   export { nswAboriginalBlue$5 as nswAboriginalBlue, nswAboriginalBrown$5 as nswAboriginalBrown, nswAboriginalGreen$5 as nswAboriginalGreen, nswAboriginalGrey$5 as nswAboriginalGrey, nswAboriginalOrange$5 as nswAboriginalOrange, nswAboriginalPurple$5 as nswAboriginalPurple, nswAboriginalRed$5 as nswAboriginalRed, nswAboriginalYellow$5 as nswAboriginalYellow, nswBlue$5 as nswBlue, nswBrown$5 as nswBrown, nswFuchsia$5 as nswFuchsia, nswGreen$5 as nswGreen, nswGrey$5 as nswGrey, nswOrange$5 as nswOrange, nswPurple$5 as nswPurple, nswRed$5 as nswRed, nswTeal$5 as nswTeal, nswYellow$5 as nswYellow };
 }
 
 declare const nswGrey$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswGreen$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswTeal$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBlue$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswPurple$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswFuchsia$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswRed$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswOrange$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswYellow$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswBrown$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGrey$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalRed$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalOrange$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBrown$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalYellow$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalGreen$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalBlue$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const nswAboriginalPurple$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace globalJsRgb {
   export { nswAboriginalBlue$4 as nswAboriginalBlue, nswAboriginalBrown$4 as nswAboriginalBrown, nswAboriginalGreen$4 as nswAboriginalGreen, nswAboriginalGrey$4 as nswAboriginalGrey, nswAboriginalOrange$4 as nswAboriginalOrange, nswAboriginalPurple$4 as nswAboriginalPurple, nswAboriginalRed$4 as nswAboriginalRed, nswAboriginalYellow$4 as nswAboriginalYellow, nswBlue$4 as nswBlue, nswBrown$4 as nswBrown, nswFuchsia$4 as nswFuchsia, nswGreen$4 as nswGreen, nswGrey$4 as nswGrey, nswOrange$4 as nswOrange, nswPurple$4 as nswPurple, nswRed$4 as nswRed, nswTeal$4 as nswTeal, nswYellow$4 as nswYellow };
 }
 
 declare const success$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const warning$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const danger$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const info$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace semanticJsHex {
   export { danger$7 as danger, info$7 as info, success$7 as success, warning$7 as warning };
 }
 
 declare const success$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const warning$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const danger$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const info$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace semanticJsHsl {
   export { danger$6 as danger, info$6 as info, success$6 as success, warning$6 as warning };
 }
 
 declare const success$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const warning$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const danger$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const info$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace semanticJsOklch {
   export { danger$5 as danger, info$5 as info, success$5 as success, warning$5 as warning };
 }
 
 declare const success$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const warning$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const danger$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const info$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace semanticJsRgb {
   export { danger$4 as danger, info$4 as info, success$4 as success, warning$4 as warning };
 }
 
 declare const primary$n: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$n: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$n: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace masterbrandJsHex {
   export { accent$n as accent, grey$n as grey, primary$n as primary };
 }
 
 declare const primary$m: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$m: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$m: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace masterbrandJsHsl {
   export { accent$m as accent, grey$m as grey, primary$m as primary };
 }
 
 declare const primary$l: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$l: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$l: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace masterbrandJsOklch {
   export { accent$l as accent, grey$l as grey, primary$l as primary };
 }
 
 declare const primary$k: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$k: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$k: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace masterbrandJsRgb {
   export { accent$k as accent, grey$k as grey, primary$k as primary };
 }
 
 declare const primary$j: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$j: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$j: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaBlueJsHex {
   export { accent$j as accent, grey$j as grey, primary$j as primary };
 }
 
 declare const primary$i: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$i: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$i: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaBlueJsHsl {
   export { accent$i as accent, grey$i as grey, primary$i as primary };
 }
 
 declare const primary$h: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$h: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$h: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaBlueJsOklch {
   export { accent$h as accent, grey$h as grey, primary$h as primary };
 }
 
 declare const primary$g: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$g: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$g: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaBlueJsRgb {
   export { accent$g as accent, grey$g as grey, primary$g as primary };
 }
 
 declare const primary$f: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$f: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$f: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaOrangeJsHex {
   export { accent$f as accent, grey$f as grey, primary$f as primary };
 }
 
 declare const primary$e: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$e: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$e: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaOrangeJsHsl {
   export { accent$e as accent, grey$e as grey, primary$e as primary };
 }
 
 declare const primary$d: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$d: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$d: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaOrangeJsOklch {
   export { accent$d as accent, grey$d as grey, primary$d as primary };
 }
 
 declare const primary$c: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const accent$c: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 declare const grey$c: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
 
 declare namespace fuchsiaOrangeJsRgb {
   export { accent$c as accent, grey$c as grey, primary$c as primary };
 }
 
 declare const ember$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const earthfire$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const fuchsiaHeat$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const polarGlow$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const glacierPool$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const deepCurrent$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const blueRed$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const blueOrange$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const purpleYellow$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const fuchsiaTeal$7: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 
 declare namespace dataVisualisationJsHex {
   export { blueOrange$7 as blueOrange, blueRed$7 as blueRed, deepCurrent$7 as deepCurrent, earthfire$7 as earthfire, ember$7 as ember, fuchsiaHeat$7 as fuchsiaHeat, fuchsiaTeal$7 as fuchsiaTeal, glacierPool$7 as glacierPool, polarGlow$7 as polarGlow, purpleYellow$7 as purpleYellow };
 }
 
 declare const ember$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const earthfire$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const fuchsiaHeat$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const polarGlow$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const glacierPool$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const deepCurrent$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const blueRed$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const blueOrange$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const purpleYellow$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const fuchsiaTeal$6: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 
 declare namespace dataVisualisationJsHsl {
   export { blueOrange$6 as blueOrange, blueRed$6 as blueRed, deepCurrent$6 as deepCurrent, earthfire$6 as earthfire, ember$6 as ember, fuchsiaHeat$6 as fuchsiaHeat, fuchsiaTeal$6 as fuchsiaTeal, glacierPool$6 as glacierPool, polarGlow$6 as polarGlow, purpleYellow$6 as purpleYellow };
 }
 
 declare const ember$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const earthfire$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const fuchsiaHeat$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const polarGlow$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const glacierPool$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const deepCurrent$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const blueRed$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const blueOrange$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const purpleYellow$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const fuchsiaTeal$5: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 
 declare namespace dataVisualisationJsOklch {
   export { blueOrange$5 as blueOrange, blueRed$5 as blueRed, deepCurrent$5 as deepCurrent, earthfire$5 as earthfire, ember$5 as ember, fuchsiaHeat$5 as fuchsiaHeat, fuchsiaTeal$5 as fuchsiaTeal, glacierPool$5 as glacierPool, polarGlow$5 as polarGlow, purpleYellow$5 as purpleYellow };
 }
 
 declare const ember$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const earthfire$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const fuchsiaHeat$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const polarGlow$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const glacierPool$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const deepCurrent$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-    1050: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
 declare const blueRed$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const blueOrange$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const purpleYellow$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 declare const fuchsiaTeal$4: {
-    50: string;
-    100: string;
-    150: string;
-    200: string;
-    250: string;
-    300: string;
-    350: string;
-    400: string;
-    450: string;
-    500: string;
-    550: string;
-    600: string;
-    650: string;
-    700: string;
-    750: string;
-    800: string;
-    850: string;
-    900: string;
-    950: string;
-    1000: string;
-};
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
 
 declare namespace dataVisualisationJsRgb {
   export { blueOrange$4 as blueOrange, blueRed$4 as blueRed, deepCurrent$4 as deepCurrent, earthfire$4 as earthfire, ember$4 as ember, fuchsiaHeat$4 as fuchsiaHeat, fuchsiaTeal$4 as fuchsiaTeal, glacierPool$4 as glacierPool, polarGlow$4 as polarGlow, purpleYellow$4 as purpleYellow };
 }
 
 declare const space$1: {
-    0: string;
-    1: string;
-    2: string;
-    3: string;
-    4: string;
-    5: string;
-    6: string;
-    8: string;
-    10: string;
-    12: string;
-    14: string;
-    16: string;
-};
+  '0': string
+  '1': string
+  '2': string
+  '3': string
+  '4': string
+  '5': string
+  '6': string
+  '8': string
+  '10': string
+  '12': string
+  '14': string
+  '16': string
+}
 
 declare namespace spaceJsGlobal {
   export { space$1 as space };
 }
 
-declare namespace radius$1 {
-    let none: string;
-    let sm: string;
-    let md: string;
-    let lg: string;
-    let pill: string;
+declare const radius$1: {
+  none: string
+  sm: string
+  md: string
+  lg: string
+  pill: string
 }
 
 declare namespace radiusJsGlobal {
   export { radius$1 as radius };
 }
 
-declare namespace breakpoint$1 {
-    let xs: string;
-    let sm: string;
-    let md: string;
-    let lg: string;
-    let xl: string;
+declare const breakpoint$1: {
+  xs: string
+  sm: string
+  md: string
+  lg: string
+  xl: string
 }
 
 declare namespace breakpointsJsGlobal {
   export { breakpoint$1 as breakpoint };
 }
 
-declare namespace fontFamily$1 {
-    let sans: string;
-    let display: string;
-    let system: string;
-    let mono: string;
+declare const fontFamily$1: {
+  sans: string
+  display: string
+  system: string
+  mono: string
 }
 declare const fontSize$1: {
-    12: string;
-    14: string;
-    16: string;
-    18: string;
-    20: string;
-    22: string;
-    24: string;
-    30: string;
-    36: string;
-    48: string;
-    56: string;
-    64: string;
-};
-declare namespace fontWeight$1 {
-    let light: number;
-    let regular: number;
-    let medium: number;
-    let semibold: number;
-    let bold: number;
-    let extrabold: number;
+  '12': string
+  '14': string
+  '16': string
+  '18': string
+  '20': string
+  '22': string
+  '24': string
+  '30': string
+  '36': string
+  '48': string
+  '56': string
+  '64': string
 }
-declare namespace lineHeight$1 {
-    let none: number;
-    let tight: number;
-    let snug: number;
-    let base: number;
-    let relaxed: number;
-    let loose: number;
+declare const fontWeight$1: {
+  light: number
+  regular: number
+  medium: number
+  semibold: number
+  bold: number
+  extrabold: number
 }
-declare namespace letterSpacing$1 {
-    let tight_1: string;
-    export { tight_1 as tight };
-    export let normal: string;
-    export let wide: string;
+declare const lineHeight$1: {
+  none: number
+  tight: number
+  snug: number
+  base: number
+  relaxed: number
+  loose: number
+}
+declare const letterSpacing$1: {
+  tight: string
+  normal: string
+  wide: string
 }
 
 declare namespace typographyJsGlobal {
   export { fontFamily$1 as fontFamily, fontSize$1 as fontSize, fontWeight$1 as fontWeight, letterSpacing$1 as letterSpacing, lineHeight$1 as lineHeight };
 }
 
-declare namespace heading1$1 {
-    let fontFamily: string;
-    let fontSize: string;
-    let fontWeight: number;
-    let lineHeight: number;
-    let letterSpacing: string;
+declare const heading1$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace heading2$1 {
-    let fontFamily_1: string;
-    export { fontFamily_1 as fontFamily };
-    let fontSize_1: string;
-    export { fontSize_1 as fontSize };
-    let fontWeight_1: number;
-    export { fontWeight_1 as fontWeight };
-    let lineHeight_1: number;
-    export { lineHeight_1 as lineHeight };
-    let letterSpacing_1: string;
-    export { letterSpacing_1 as letterSpacing };
+declare const heading2$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace heading3$1 {
-    let fontFamily_2: string;
-    export { fontFamily_2 as fontFamily };
-    let fontSize_2: string;
-    export { fontSize_2 as fontSize };
-    let fontWeight_2: number;
-    export { fontWeight_2 as fontWeight };
-    let lineHeight_2: number;
-    export { lineHeight_2 as lineHeight };
-    let letterSpacing_2: string;
-    export { letterSpacing_2 as letterSpacing };
+declare const heading3$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace heading4$1 {
-    let fontFamily_3: string;
-    export { fontFamily_3 as fontFamily };
-    let fontSize_3: string;
-    export { fontSize_3 as fontSize };
-    let fontWeight_3: number;
-    export { fontWeight_3 as fontWeight };
-    let lineHeight_3: number;
-    export { lineHeight_3 as lineHeight };
-    let letterSpacing_3: string;
-    export { letterSpacing_3 as letterSpacing };
+declare const heading4$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace body$1 {
-    let fontFamily_4: string;
-    export { fontFamily_4 as fontFamily };
-    let fontSize_4: string;
-    export { fontSize_4 as fontSize };
-    let fontWeight_4: number;
-    export { fontWeight_4 as fontWeight };
-    let lineHeight_4: number;
-    export { lineHeight_4 as lineHeight };
-    let letterSpacing_4: string;
-    export { letterSpacing_4 as letterSpacing };
+declare const body$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace bodySm$1 {
-    let fontFamily_5: string;
-    export { fontFamily_5 as fontFamily };
-    let fontSize_5: string;
-    export { fontSize_5 as fontSize };
-    let fontWeight_5: number;
-    export { fontWeight_5 as fontWeight };
-    let lineHeight_5: number;
-    export { lineHeight_5 as lineHeight };
-    let letterSpacing_5: string;
-    export { letterSpacing_5 as letterSpacing };
+declare const bodySm$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace lead$1 {
-    let fontFamily_6: string;
-    export { fontFamily_6 as fontFamily };
-    let fontSize_6: string;
-    export { fontSize_6 as fontSize };
-    let fontWeight_6: number;
-    export { fontWeight_6 as fontWeight };
-    let lineHeight_6: number;
-    export { lineHeight_6 as lineHeight };
-    let letterSpacing_6: string;
-    export { letterSpacing_6 as letterSpacing };
+declare const lead$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace caption$1 {
-    let fontFamily_7: string;
-    export { fontFamily_7 as fontFamily };
-    let fontSize_7: string;
-    export { fontSize_7 as fontSize };
-    let fontWeight_7: number;
-    export { fontWeight_7 as fontWeight };
-    let lineHeight_7: number;
-    export { lineHeight_7 as lineHeight };
-    let letterSpacing_7: string;
-    export { letterSpacing_7 as letterSpacing };
+declare const caption$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
-declare namespace code$1 {
-    let fontFamily_8: string;
-    export { fontFamily_8 as fontFamily };
-    let fontSize_8: string;
-    export { fontSize_8 as fontSize };
-    let fontWeight_8: number;
-    export { fontWeight_8 as fontWeight };
-    let lineHeight_8: number;
-    export { lineHeight_8 as lineHeight };
-    let letterSpacing_8: string;
-    export { letterSpacing_8 as letterSpacing };
+declare const code$1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
 
 declare namespace typographyJsSemantic {
   export { body$1 as body, bodySm$1 as bodySm, caption$1 as caption, code$1 as code, heading1$1 as heading1, heading2$1 as heading2, heading3$1 as heading3, heading4$1 as heading4, lead$1 as lead };
 }
 
-declare namespace borderWidth$1 {
-    export let thin: string;
-    export let thick: string;
-    export let thicker: string;
-    let _default: string;
-    export { _default as default };
+declare const borderWidth$1: {
+  thin: string
+  thick: string
+  thicker: string
+  default: string
 }
 
 declare namespace borderJsGlobal {
   export { borderWidth$1 as borderWidth };
 }
 
-declare namespace boxShadow$1 {
-    let thin: string;
-    let thick: string;
-    let thicker: string;
+declare const boxShadow$1: {
+  thin: string
+  thick: string
+  thicker: string
 }
 declare const shadowColor$1: {
-    5: string;
-    10: string;
-    25: string;
-};
-declare namespace shadow$1 {
-    let sm: string;
-    let md: string;
-    let lg: string;
-    let xl: string;
+  '5': string
+  '10': string
+  '25': string
+}
+declare const shadow$1: {
+  sm: string
+  md: string
+  lg: string
+  xl: string
 }
 
 declare namespace shadowJsGlobal {

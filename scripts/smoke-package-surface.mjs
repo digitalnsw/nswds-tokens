@@ -135,6 +135,49 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
 
   run(process.execPath, [join(consumerDir, 'verify.mjs')], { cwd: consumerDir, stdio: 'inherit' })
 
+  // TypeScript consumer check: the ./js/* subpaths must carry .d.ts siblings — a strict
+  // consumer importing them previously failed with TS7016 (implicit any). Compiles a real
+  // consumer project against the packed package using the repo's own TypeScript.
+  writeFileSync(
+    join(consumerDir, 'consumer.ts'),
+    [
+      "import { tokens } from '@nswds/tokens'",
+      "import { nswBlue } from '@nswds/tokens/js/colors/global/hex.js'",
+      "import { radius } from '@nswds/tokens/js/radius/global.js'",
+      "import { heading1 } from '@nswds/tokens/js/typography/semantic.js'",
+      '',
+      "const root: string = tokens.colors.global.hex['nsw-blue'][500].$value",
+      'const blue: string = nswBlue[500]',
+      'const md: string = radius.md',
+      'const weight: number = heading1.fontWeight',
+      'export { root, blue, md, weight }',
+      '',
+    ].join('\n'),
+    'utf8',
+  )
+  writeFileSync(
+    join(consumerDir, 'tsconfig.json'),
+    `${JSON.stringify(
+      {
+        compilerOptions: {
+          module: 'NodeNext',
+          moduleResolution: 'NodeNext',
+          strict: true,
+          noEmit: true,
+          skipLibCheck: true,
+        },
+        include: ['consumer.ts'],
+      },
+      null,
+      2,
+    )}\n`,
+    'utf8',
+  )
+  run(process.execPath, [resolve(root, 'node_modules', 'typescript', 'bin', 'tsc'), '-p', '.'], {
+    cwd: consumerDir,
+  })
+  console.log('TypeScript consumer check passed (js subpaths are typed).')
+
   console.log('\nPackage surface smoke check passed.')
 } catch (error) {
   if (error.stdout) process.stdout.write(error.stdout)
