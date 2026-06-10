@@ -23,8 +23,15 @@ jobs:
         shell: bash
         run: |
           # Source policy from the PR base commit so PR changes cannot alter validation.
+          # Transitional fallback: the config moved from the repo root to scripts/ — until
+          # that move is on the base branch, older base commits still have it at the root.
+          # Both paths are inside the BASE checkout, so the security property holds.
+          POLICY="${GITHUB_WORKSPACE}/.base-policy/scripts/branch-name-config.sh"
+          if [[ ! -f "$POLICY" ]]; then
+            POLICY="${GITHUB_WORKSPACE}/.base-policy/branch-name-config.sh"
+          fi
           # shellcheck source=/dev/null
-          source "${GITHUB_WORKSPACE}/.base-policy/scripts/branch-name-config.sh"
+          source "$POLICY"
           BRANCH_NAME="${{ github.head_ref }}"
           echo "Branch name: $BRANCH_NAME"
 
