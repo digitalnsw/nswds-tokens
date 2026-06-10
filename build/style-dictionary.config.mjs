@@ -18,6 +18,7 @@
 import {
   nswJs,
   nswTs,
+  nswDts,
   nswJson,
   nswFigma,
   nswTailwind,
@@ -27,6 +28,7 @@ import {
   nswTypographyLess,
   nswTypographyJs,
   nswTypographyTs,
+  nswTypographyDts,
   nswTypographyJson,
   colorFunction,
   dimensionString,
@@ -96,6 +98,7 @@ const makeConfig = (space, layer) => {
       formats: {
         'nsw/js': nswJs,
         'nsw/ts': nswTs,
+        'nsw/dts': nswDts,
         'nsw/json': nswJson,
         'nsw/figma': nswFigma,
         'nsw/tailwind': nswTailwind,
@@ -107,6 +110,8 @@ const makeConfig = (space, layer) => {
       scss: platform(STRING_XF, `scss/colors/${layer.dir}/${space}.scss`, 'scss/variables'),
       less: platform(STRING_XF, `less/colors/${layer.dir}/${space}.less`, 'less/variables'),
       js: platform(STRING_XF, `js/colors/${layer.dir}/${space}.js`, 'nsw/js'),
+      // Declaration sibling so TypeScript consumers of ./js/* get real types.
+      jsTypes: platform(STRING_XF, `js/colors/${layer.dir}/${space}.d.ts`, 'nsw/dts'),
       ts: platform(STRING_XF, `ts/colors/${layer.dir}/${space}.ts`, 'nsw/ts'),
       json: platform(STRING_XF, `json/colors/${layer.dir}/${space}.json`, 'nsw/json'),
       figma: platform(OBJECT_XF, figmaDest(layer, space), 'nsw/figma'),
@@ -225,6 +230,7 @@ const makeCategoryConfig = (category) => {
       formats: {
         'nsw/js': nswJs,
         'nsw/ts': nswTs,
+        'nsw/dts': nswDts,
         'nsw/json': nswJson,
         'nsw/tailwind-dimension': nswTailwindDimension,
       },
@@ -241,6 +247,7 @@ const makeCategoryConfig = (category) => {
       scss: platform(`scss/${category.key}/global.scss`, 'scss/variables'),
       less: platform(`less/${category.key}/global.less`, 'less/variables'),
       js: platform(`js/${category.key}/global.js`, 'nsw/js'),
+      jsTypes: platform(`js/${category.key}/global.d.ts`, 'nsw/dts'),
       ts: platform(`ts/${category.key}/global.ts`, 'nsw/ts'),
       json: platform(`json/${category.key}/global.json`, 'nsw/json'),
       tailwind: platform(`tailwind/${category.key}/global.css`, 'nsw/tailwind-dimension', {
@@ -266,6 +273,7 @@ const typographySemanticConfig = {
       'nsw/typography-less': nswTypographyLess,
       'nsw/typography-js': nswTypographyJs,
       'nsw/typography-ts': nswTypographyTs,
+      'nsw/typography-dts': nswTypographyDts,
       'nsw/typography-json': nswTypographyJson,
     },
   },
@@ -275,6 +283,7 @@ const typographySemanticConfig = {
       ['scss', 'scss'],
       ['less', 'less'],
       ['js', 'js'],
+      ['jsTypes', 'd.ts'],
       ['ts', 'ts'],
       ['json', 'json'],
     ].map(([platform, ext]) => [
@@ -285,8 +294,8 @@ const typographySemanticConfig = {
         transforms: ['name/kebab'],
         files: [
           {
-            destination: `${platform}/typography/semantic.${ext}`,
-            format: `nsw/typography-${platform}`,
+            destination: `${platform === 'jsTypes' ? 'js' : platform}/typography/semantic.${ext}`,
+            format: `nsw/typography-${platform === 'jsTypes' ? 'dts' : platform}`,
             filter: (token) => token.$type === 'typography',
           },
         ],

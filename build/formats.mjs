@@ -118,6 +118,20 @@ export const nswTs = ({ dictionary }) => {
   return out
 }
 
+// js/.../*.d.ts — declaration sibling for every generated js module, so TypeScript
+// consumers of the ./js/* subpaths get real types instead of TS7016 implicit any.
+// Shapes mirror nswJs exactly: numeric token values type as number, the rest as string.
+const tsType = (v) => (typeof v === 'number' ? 'number' : 'string')
+export const nswDts = ({ dictionary }) => {
+  let out = ''
+  for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
+    out += `export declare const ${toCamel(family)}: {\n`
+    for (const t of toks) out += `  ${tsKey(t.path[1])}: ${tsType(t.$value)}\n`
+    out += `}\n`
+  }
+  return out
+}
+
 // json/colors/.../hex.json  ->  { "nsw-grey": { "nsw-grey-50": "#fafafa", ... } }
 export const nswJson = ({ dictionary }) => {
   const obj = {}
@@ -249,6 +263,17 @@ export const nswTypographyJson = ({ dictionary }) => {
     }
   }
   return `${JSON.stringify(obj, null, 2)}\n`
+}
+
+// js/typography/semantic.d.ts — declaration sibling for the composite module.
+export const nswTypographyDts = ({ dictionary }) => {
+  let out = ''
+  for (const t of dictionary.allTokens) {
+    out += `export declare const ${toCamel(t.path[1])}: {\n`
+    out += `  fontFamily: string\n  fontSize: string\n  fontWeight: number\n`
+    out += `  lineHeight: number\n  letterSpacing: string\n}\n`
+  }
+  return out
 }
 
 const ALIAS = /^\{([\w-]+(?:\.[\w-]+)*)\}$/
