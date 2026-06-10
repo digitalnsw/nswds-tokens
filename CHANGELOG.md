@@ -1,3 +1,7 @@
+## 3.4.0 (2026-06-10)
+
+* feat(tokens): border-width and box-shadow tokens (Phase 4d) (#93) ([e93526f](https://github.com/digitalnsw/nswds-tokens/commit/e93526f)), closes [#93](https://github.com/digitalnsw/nswds-tokens/issues/93) [#93](https://github.com/digitalnsw/nswds-tokens/issues/93)
+
 ## 3.3.0 (2026-06-10)
 
 * feat(tokens): semantic typography composites (Phase 4c) (#92) ([1f95446](https://github.com/digitalnsw/nswds-tokens/commit/1f95446)), closes [#92](https://github.com/digitalnsw/nswds-tokens/issues/92) [#92](https://github.com/digitalnsw/nswds-tokens/issues/92)
