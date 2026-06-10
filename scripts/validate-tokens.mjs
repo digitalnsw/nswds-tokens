@@ -168,6 +168,11 @@ const checkTypographyShapes = (label, path, leaf) => {
     if (typeof v !== 'number' || v < 1 || v > 1000)
       errors.push(`${label} ${path}: fontWeight $value must be a number in 1–1000`)
   }
+  // line-height / letter-spacing primitives — a string or object here would silently
+  // break the generators downstream.
+  if (leaf.$type === 'number' && typeof leaf.$value !== 'number') {
+    errors.push(`${label} ${path}: number $value must be a JSON number`)
+  }
 }
 
 {

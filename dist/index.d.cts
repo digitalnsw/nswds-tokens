@@ -3802,19 +3802,19 @@ declare const fontSize$1: {
     64: string;
 };
 declare namespace fontWeight$1 {
-    let light: string;
-    let regular: string;
-    let medium: string;
-    let semibold: string;
-    let bold: string;
+    let light: number;
+    let regular: number;
+    let medium: number;
+    let semibold: number;
+    let bold: number;
 }
 declare namespace lineHeight$1 {
-    let none: string;
-    let tight: string;
-    let snug: string;
-    let base: string;
-    let relaxed: string;
-    let loose: string;
+    let none: number;
+    let tight: number;
+    let snug: number;
+    let base: number;
+    let relaxed: number;
+    let loose: number;
 }
 declare namespace letterSpacing$1 {
     let tight_1: string;
@@ -7893,19 +7893,19 @@ declare const fontSize: {
     '64': string;
 };
 declare const fontWeight: {
-    light: string;
-    regular: string;
-    medium: string;
-    semibold: string;
-    bold: string;
+    light: number;
+    regular: number;
+    medium: number;
+    semibold: number;
+    bold: number;
 };
 declare const lineHeight: {
-    none: string;
-    tight: string;
-    snug: string;
-    base: string;
-    relaxed: string;
-    loose: string;
+    none: number;
+    tight: number;
+    snug: number;
+    base: number;
+    relaxed: number;
+    loose: number;
 };
 declare const letterSpacing: {
     tight: string;

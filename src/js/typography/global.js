@@ -21,19 +21,19 @@ export const fontSize = {
   64: '4rem',
 }
 export const fontWeight = {
-  light: '300',
-  regular: '400',
-  medium: '500',
-  semibold: '600',
-  bold: '700',
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700,
 }
 export const lineHeight = {
-  none: '1',
-  tight: '1.2',
-  snug: '1.3333333',
-  base: '1.5',
-  relaxed: '1.6',
-  loose: '1.75',
+  none: 1,
+  tight: 1.2,
+  snug: 1.3333333,
+  base: 1.5,
+  relaxed: 1.6,
+  loose: 1.75,
 }
 export const letterSpacing = {
   tight: '-0.0125em',

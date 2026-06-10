@@ -46,10 +46,13 @@ const groupByFamily = (tokens) => {
   return groups
 }
 
-// Token value -> JS string literal, quoted the way Prettier would: single quotes
-// normally, double quotes when the value itself contains single quotes (font stacks
-// like 'Public Sans'). Colour values contain neither, keeping those outputs identical.
-const jsString = (v) => {
+// Token value -> JS literal. Numbers (fontWeight, line-height) stay numeric so JS/TS
+// consumers get a usable type, matching the JSON outputs. Strings are quoted the way
+// Prettier would: single quotes normally, double quotes when the value itself contains
+// single quotes (font stacks like 'Public Sans'). Colour/dimension values are plain
+// strings without quotes inside, keeping those outputs identical.
+const jsLiteral = (v) => {
+  if (typeof v === 'number') return String(v)
   const s = String(v)
   return s.includes("'") ? `"${s.replace(/"/g, '\\"')}"` : `'${s}'`
 }
@@ -59,7 +62,7 @@ export const nswJs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
     out += `export const ${toCamel(family)} = {\n`
-    for (const t of toks) out += `  ${t.path[1]}: ${jsString(t.$value)},\n`
+    for (const t of toks) out += `  ${t.path[1]}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
   }
   return out
@@ -73,7 +76,7 @@ export const nswTs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
     out += `export const ${toCamel(family)} = {\n`
-    for (const t of toks) out += `  ${tsKey(t.path[1])}: ${jsString(t.$value)},\n`
+    for (const t of toks) out += `  ${tsKey(t.path[1])}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
   }
   return out

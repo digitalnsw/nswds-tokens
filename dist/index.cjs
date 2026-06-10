@@ -43111,19 +43111,19 @@ var fontSize = {
   64: "4rem"
 };
 var fontWeight = {
-  light: "300",
-  regular: "400",
-  medium: "500",
-  semibold: "600",
-  bold: "700"
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700
 };
 var lineHeight = {
-  none: "1",
-  tight: "1.2",
-  snug: "1.3333333",
-  base: "1.5",
-  relaxed: "1.6",
-  loose: "1.75"
+  none: 1,
+  tight: 1.2,
+  snug: 1.3333333,
+  base: 1.5,
+  relaxed: 1.6,
+  loose: 1.75
 };
 var letterSpacing = {
   tight: "-0.0125em",
@@ -47587,19 +47587,19 @@ var fontSize2 = {
   "64": "4rem"
 };
 var fontWeight2 = {
-  light: "300",
-  regular: "400",
-  medium: "500",
-  semibold: "600",
-  bold: "700"
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semibold: 600,
+  bold: 700
 };
 var lineHeight2 = {
-  none: "1",
-  tight: "1.2",
-  snug: "1.3333333",
-  base: "1.5",
-  relaxed: "1.6",
-  loose: "1.75"
+  none: 1,
+  tight: 1.2,
+  snug: 1.3333333,
+  base: 1.5,
+  relaxed: 1.6,
+  loose: 1.75
 };
 var letterSpacing2 = {
   tight: "-0.0125em",
