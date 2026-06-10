@@ -110,6 +110,10 @@ declare namespace typographyCssGlobal {
   export {  };
 }
 
+declare namespace typographyCssSemantic {
+  export {  };
+}
+
 declare const nswGrey$7: {
     50: string;
     100: string;
@@ -3807,6 +3811,7 @@ declare namespace fontWeight$1 {
     let medium: number;
     let semibold: number;
     let bold: number;
+    let extrabold: number;
 }
 declare namespace lineHeight$1 {
     let none: number;
@@ -3825,6 +3830,114 @@ declare namespace letterSpacing$1 {
 
 declare namespace typographyJsGlobal {
   export { fontFamily$1 as fontFamily, fontSize$1 as fontSize, fontWeight$1 as fontWeight, letterSpacing$1 as letterSpacing, lineHeight$1 as lineHeight };
+}
+
+declare namespace heading1$1 {
+    let fontFamily: string;
+    let fontSize: string;
+    let fontWeight: number;
+    let lineHeight: number;
+    let letterSpacing: string;
+}
+declare namespace heading2$1 {
+    let fontFamily_1: string;
+    export { fontFamily_1 as fontFamily };
+    let fontSize_1: string;
+    export { fontSize_1 as fontSize };
+    let fontWeight_1: number;
+    export { fontWeight_1 as fontWeight };
+    let lineHeight_1: number;
+    export { lineHeight_1 as lineHeight };
+    let letterSpacing_1: string;
+    export { letterSpacing_1 as letterSpacing };
+}
+declare namespace heading3$1 {
+    let fontFamily_2: string;
+    export { fontFamily_2 as fontFamily };
+    let fontSize_2: string;
+    export { fontSize_2 as fontSize };
+    let fontWeight_2: number;
+    export { fontWeight_2 as fontWeight };
+    let lineHeight_2: number;
+    export { lineHeight_2 as lineHeight };
+    let letterSpacing_2: string;
+    export { letterSpacing_2 as letterSpacing };
+}
+declare namespace heading4$1 {
+    let fontFamily_3: string;
+    export { fontFamily_3 as fontFamily };
+    let fontSize_3: string;
+    export { fontSize_3 as fontSize };
+    let fontWeight_3: number;
+    export { fontWeight_3 as fontWeight };
+    let lineHeight_3: number;
+    export { lineHeight_3 as lineHeight };
+    let letterSpacing_3: string;
+    export { letterSpacing_3 as letterSpacing };
+}
+declare namespace body$1 {
+    let fontFamily_4: string;
+    export { fontFamily_4 as fontFamily };
+    let fontSize_4: string;
+    export { fontSize_4 as fontSize };
+    let fontWeight_4: number;
+    export { fontWeight_4 as fontWeight };
+    let lineHeight_4: number;
+    export { lineHeight_4 as lineHeight };
+    let letterSpacing_4: string;
+    export { letterSpacing_4 as letterSpacing };
+}
+declare namespace bodySm$1 {
+    let fontFamily_5: string;
+    export { fontFamily_5 as fontFamily };
+    let fontSize_5: string;
+    export { fontSize_5 as fontSize };
+    let fontWeight_5: number;
+    export { fontWeight_5 as fontWeight };
+    let lineHeight_5: number;
+    export { lineHeight_5 as lineHeight };
+    let letterSpacing_5: string;
+    export { letterSpacing_5 as letterSpacing };
+}
+declare namespace lead$1 {
+    let fontFamily_6: string;
+    export { fontFamily_6 as fontFamily };
+    let fontSize_6: string;
+    export { fontSize_6 as fontSize };
+    let fontWeight_6: number;
+    export { fontWeight_6 as fontWeight };
+    let lineHeight_6: number;
+    export { lineHeight_6 as lineHeight };
+    let letterSpacing_6: string;
+    export { letterSpacing_6 as letterSpacing };
+}
+declare namespace caption$1 {
+    let fontFamily_7: string;
+    export { fontFamily_7 as fontFamily };
+    let fontSize_7: string;
+    export { fontSize_7 as fontSize };
+    let fontWeight_7: number;
+    export { fontWeight_7 as fontWeight };
+    let lineHeight_7: number;
+    export { lineHeight_7 as lineHeight };
+    let letterSpacing_7: string;
+    export { letterSpacing_7 as letterSpacing };
+}
+declare namespace code$1 {
+    let fontFamily_8: string;
+    export { fontFamily_8 as fontFamily };
+    let fontSize_8: string;
+    export { fontSize_8 as fontSize };
+    let fontWeight_8: number;
+    export { fontWeight_8 as fontWeight };
+    let lineHeight_8: number;
+    export { lineHeight_8 as lineHeight };
+    let letterSpacing_8: string;
+    export { letterSpacing_8 as letterSpacing };
+}
+
+declare namespace typographyJsSemantic {
+  export { body$1 as body, bodySm$1 as bodySm, caption$1 as caption, code$1 as code, heading1$1 as heading1, heading2$1 as heading2, heading3$1 as heading3, heading4$1 as heading4, lead$1 as lead };
 }
 
 declare namespace globalLessHex {
@@ -3939,6 +4052,10 @@ declare namespace typographyLessGlobal {
   export {  };
 }
 
+declare namespace typographyLessSemantic {
+  export {  };
+}
+
 declare namespace globalScssHex {
   export {  };
 }
@@ -4048,6 +4165,10 @@ declare namespace breakpointsScssGlobal {
 }
 
 declare namespace typographyScssGlobal {
+  export {  };
+}
+
+declare namespace typographyScssSemantic {
   export {  };
 }
 
@@ -7898,6 +8019,7 @@ declare const fontWeight: {
     medium: number;
     semibold: number;
     bold: number;
+    extrabold: number;
 };
 declare const lineHeight: {
     none: number;
@@ -7920,6 +8042,83 @@ declare const typographyTsGlobal_letterSpacing: typeof letterSpacing;
 declare const typographyTsGlobal_lineHeight: typeof lineHeight;
 declare namespace typographyTsGlobal {
   export { typographyTsGlobal_fontFamily as fontFamily, typographyTsGlobal_fontSize as fontSize, typographyTsGlobal_fontWeight as fontWeight, typographyTsGlobal_letterSpacing as letterSpacing, typographyTsGlobal_lineHeight as lineHeight };
+}
+
+declare const heading1: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const heading2: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const heading3: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const heading4: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const body: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const bodySm: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const lead: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const caption: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+declare const code: {
+    fontFamily: string;
+    fontSize: string;
+    fontWeight: number;
+    lineHeight: number;
+    letterSpacing: string;
+};
+
+declare const typographyTsSemantic_body: typeof body;
+declare const typographyTsSemantic_bodySm: typeof bodySm;
+declare const typographyTsSemantic_caption: typeof caption;
+declare const typographyTsSemantic_code: typeof code;
+declare const typographyTsSemantic_heading1: typeof heading1;
+declare const typographyTsSemantic_heading2: typeof heading2;
+declare const typographyTsSemantic_heading3: typeof heading3;
+declare const typographyTsSemantic_heading4: typeof heading4;
+declare const typographyTsSemantic_lead: typeof lead;
+declare namespace typographyTsSemantic {
+  export { typographyTsSemantic_body as body, typographyTsSemantic_bodySm as bodySm, typographyTsSemantic_caption as caption, typographyTsSemantic_code as code, typographyTsSemantic_heading1 as heading1, typographyTsSemantic_heading2 as heading2, typographyTsSemantic_heading3 as heading3, typographyTsSemantic_heading4 as heading4, typographyTsSemantic_lead as lead };
 }
 
 declare const tokens: {
@@ -8013,6 +8212,7 @@ declare const tokens: {
         };
         typography: {
             global: typeof typographyCssGlobal;
+            semantic: typeof typographyCssSemantic;
         };
     };
     js: {
@@ -8065,6 +8265,7 @@ declare const tokens: {
         };
         typography: {
             global: typeof typographyJsGlobal;
+            semantic: typeof typographyJsSemantic;
         };
     };
     json: {
@@ -8117,6 +8318,7 @@ declare const tokens: {
         };
         typography: {
             global: any;
+            semantic: any;
         };
     };
     less: {
@@ -8169,6 +8371,7 @@ declare const tokens: {
         };
         typography: {
             global: typeof typographyLessGlobal;
+            semantic: typeof typographyLessSemantic;
         };
     };
     scss: {
@@ -8221,6 +8424,7 @@ declare const tokens: {
         };
         typography: {
             global: typeof typographyScssGlobal;
+            semantic: typeof typographyScssSemantic;
         };
     };
     tailwind: {
@@ -8325,6 +8529,7 @@ declare const tokens: {
         };
         typography: {
             global: typeof typographyTsGlobal;
+            semantic: typeof typographyTsSemantic;
         };
     };
 };
@@ -8418,6 +8623,7 @@ declare const cssTokens: {
     };
     typography: {
         global: typeof typographyCssGlobal;
+        semantic: typeof typographyCssSemantic;
     };
 };
 declare const jsTokens: {
@@ -8470,6 +8676,7 @@ declare const jsTokens: {
     };
     typography: {
         global: typeof typographyJsGlobal;
+        semantic: typeof typographyJsSemantic;
     };
 };
 declare const jsonTokens: {
@@ -8522,6 +8729,7 @@ declare const jsonTokens: {
     };
     typography: {
         global: any;
+        semantic: any;
     };
 };
 declare const lessTokens: {
@@ -8574,6 +8782,7 @@ declare const lessTokens: {
     };
     typography: {
         global: typeof typographyLessGlobal;
+        semantic: typeof typographyLessSemantic;
     };
 };
 declare const scssTokens: {
@@ -8626,6 +8835,7 @@ declare const scssTokens: {
     };
     typography: {
         global: typeof typographyScssGlobal;
+        semantic: typeof typographyScssSemantic;
     };
 };
 declare const tailwindTokens: {
@@ -8730,6 +8940,7 @@ declare const tsTokens: {
     };
     typography: {
         global: typeof typographyTsGlobal;
+        semantic: typeof typographyTsSemantic;
     };
 };
 declare const brand: {

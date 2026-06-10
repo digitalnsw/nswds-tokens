@@ -26,6 +26,8 @@ const documentedSpecifiers = [
   // Phase 4b typography
   '@nswds/tokens/css/typography/global.css',
   '@nswds/tokens/tailwind/typography/global.css',
+  // Phase 4c semantic typography composites
+  '@nswds/tokens/css/typography/semantic.css',
 ]
 
 const run = (command, args, options = {}) => {

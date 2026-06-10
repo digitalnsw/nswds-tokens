@@ -135,6 +135,86 @@ export const nswTailwindDimension = ({ dictionary, options }) => {
   return `${out}}\n`
 }
 
+// ── Typography composites (Phase 4c) ─────────────────────────────────────────────────
+// SD resolves the {alias} references inside the composite $value before formats run, so
+// each part arrives as its primitive raw value and is stringified per its kind here.
+// letterSpacing is the unitless em multiplier convention from the primitives.
+const typographyParts = (value) => ({
+  'font-family': fontFamilyString(value.fontFamily),
+  'font-size': dimensionString(value.fontSize),
+  'font-weight': value.fontWeight,
+  'line-height': value.lineHeight,
+  'letter-spacing': `${value.letterSpacing}em`,
+})
+
+// The CSS `font` shorthand carries weight size/line-height family; letter-spacing is not
+// part of the shorthand and is emitted as its own custom property alongside.
+const fontShorthand = (value) =>
+  `${value.fontWeight} ${dimensionString(value.fontSize)}/${value.lineHeight} ${fontFamilyString(value.fontFamily)}`
+
+// css/typography/semantic.css — per-property custom props + a font-shorthand prop per
+// style (`font: var(--typography-body)`), so nothing about the composite is lossy.
+export const nswTypographyCss = ({ dictionary }) => {
+  let out = ':root {\n'
+  for (const t of dictionary.allTokens) {
+    const name = t.path.join('-')
+    for (const [part, v] of Object.entries(typographyParts(t.$value))) {
+      out += `  --${name}-${part}: ${v};\n`
+    }
+    out += `  --${name}: ${fontShorthand(t.$value)};\n`
+  }
+  return `${out}}\n`
+}
+
+// scss|less/typography/semantic — flattened per-property variables.
+const typographyVars = (dictionary, sigil) => {
+  let out = ''
+  for (const t of dictionary.allTokens) {
+    const name = t.path.join('-')
+    for (const [part, v] of Object.entries(typographyParts(t.$value))) {
+      out += `${sigil}${name}-${part}: ${v};\n`
+    }
+  }
+  return out
+}
+export const nswTypographyScss = ({ dictionary }) => typographyVars(dictionary, '$')
+export const nswTypographyLess = ({ dictionary }) => typographyVars(dictionary, '@')
+
+// js|ts/typography/semantic — one object per style; numbers stay numeric (matching the
+// primitive outputs), strings via the Prettier-aware literal quoting.
+const typographyModule = ({ dictionary }) => {
+  let out = ''
+  for (const t of dictionary.allTokens) {
+    const v = t.$value
+    out += `export const ${toCamel(t.path[1])} = {\n`
+    out += `  fontFamily: ${jsLiteral(fontFamilyString(v.fontFamily))},\n`
+    out += `  fontSize: ${jsLiteral(dimensionString(v.fontSize))},\n`
+    out += `  fontWeight: ${jsLiteral(v.fontWeight)},\n`
+    out += `  lineHeight: ${jsLiteral(v.lineHeight)},\n`
+    out += `  letterSpacing: ${jsLiteral(`${v.letterSpacing}em`)},\n`
+    out += `}\n`
+  }
+  return out
+}
+export const nswTypographyJs = typographyModule
+export const nswTypographyTs = typographyModule
+
+// json/typography/semantic.json — kebab style names, parts as a flat object.
+export const nswTypographyJson = ({ dictionary }) => {
+  const obj = {}
+  for (const t of dictionary.allTokens) {
+    const v = t.$value
+    obj[t.path[1]] = {
+      fontFamily: fontFamilyString(v.fontFamily),
+      fontSize: dimensionString(v.fontSize),
+      fontWeight: v.fontWeight,
+      lineHeight: v.lineHeight,
+      letterSpacing: `${v.letterSpacing}em`,
+    }
+  }
+  return `${JSON.stringify(obj, null, 2)}\n`
+}
+
 const ALIAS = /^\{([\w-]+(?:\.[\w-]+)*)\}$/
 export const nswTailwind = ({ dictionary, options }) => {
   const header = options?.inline ? '@theme inline' : '@theme'

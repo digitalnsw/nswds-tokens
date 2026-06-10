@@ -186,6 +186,11 @@
       "$type": "fontWeight",
       "$description": "Bold (700) — highest emphasis; key figures and primary headings.",
       "$value": 700
+    },
+    "extrabold": {
+      "$type": "fontWeight",
+      "$description": "Extrabold (800) — hero/display headings (the prose scale uses 800 for h1).",
+      "$value": 800
     }
   },
   "line-height": {
