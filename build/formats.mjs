@@ -36,6 +36,31 @@ export const fontFamilyString = (value) => {
   return names.map((n) => (/\s/.test(n) ? `'${n}'` : n)).join(', ')
 }
 
+// DTCG shadow (object or layered array) -> CSS box-shadow string. By the time this runs,
+// SD has resolved sub-aliases, so spread arrives as a dimension object. Zero lengths are
+// emitted bare (`inset 0 0 0 0.0625rem`, matching the design spec) and a missing `color`
+// is deliberate: CSS renders the shadow with currentColor.
+const shadowLength = (d) => {
+  if (typeof d === 'string') return d // already stringified by an earlier transform pass
+  return d.value === 0 ? '0' : dimensionString(d)
+}
+export const shadowString = (value) => {
+  const layers = Array.isArray(value) ? value : [value]
+  return layers
+    .map((layer) => {
+      const parts = [
+        ...(layer.inset ? ['inset'] : []),
+        shadowLength(layer.offsetX),
+        shadowLength(layer.offsetY),
+        shadowLength(layer.blur),
+        shadowLength(layer.spread),
+        ...(layer.color ? [layer.color] : []),
+      ]
+      return parts.join(' ')
+    })
+    .join(', ')
+}
+
 const groupByFamily = (tokens) => {
   const groups = new Map()
   for (const t of tokens) {

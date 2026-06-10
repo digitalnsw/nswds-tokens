@@ -1,0 +1,5 @@
+:root {
+  --box-shadow-thin: inset 0 0 0 0.0625rem; /** Thin inset ring (inset 0 0 0 border-width.thin) — border-via-shadow that does not affect layout; renders with currentColor. */
+  --box-shadow-thick: inset 0 0 0 0.125rem; /** Thick inset ring (inset 0 0 0 border-width.thick) — emphasis/selected outline; renders with currentColor. */
+  --box-shadow-thicker: inset 0 0 0 0.25rem; /** Thicker inset ring (inset 0 0 0 border-width.thicker) — focus indication; renders with currentColor. */
+}

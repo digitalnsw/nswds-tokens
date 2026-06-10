@@ -39117,6 +39117,33 @@ var require_semantic = __commonJS({
   }
 });
 
+// src/json/border/global.json
+var require_global5 = __commonJS({
+  "src/json/border/global.json"(exports$1, module) {
+    module.exports = {
+      "border-width": {
+        "border-width-thin": "0.0625rem",
+        "border-width-thick": "0.125rem",
+        "border-width-thicker": "0.25rem",
+        "border-width-default": "0.0625rem"
+      }
+    };
+  }
+});
+
+// src/json/shadow/global.json
+var require_global6 = __commonJS({
+  "src/json/shadow/global.json"(exports$1, module) {
+    module.exports = {
+      "box-shadow": {
+        "box-shadow-thin": "inset 0 0 0 0.0625rem",
+        "box-shadow-thick": "inset 0 0 0 0.125rem",
+        "box-shadow-thicker": "inset 0 0 0 0.25rem"
+      }
+    };
+  }
+});
+
 // src/css/colors/global/hex.css
 var hex_exports = {};
 __export(hex_exports, {
@@ -39319,6 +39346,20 @@ __export(semantic_exports, {
   default: () => semantic_default
 });
 var semantic_default = ":root {\n  --typography-heading-1-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-1-font-size: 2.25rem;\n  --typography-heading-1-font-weight: 800;\n  --typography-heading-1-line-height: 1.2;\n  --typography-heading-1-letter-spacing: -0.0125em;\n  --typography-heading-1: 800 2.25rem/1.2 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-2-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-2-font-size: 1.5rem;\n  --typography-heading-2-font-weight: 700;\n  --typography-heading-2-line-height: 1.3333333;\n  --typography-heading-2-letter-spacing: 0em;\n  --typography-heading-2: 700 1.5rem/1.3333333 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-3-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-3-font-size: 1.25rem;\n  --typography-heading-3-font-weight: 600;\n  --typography-heading-3-line-height: 1.6;\n  --typography-heading-3-letter-spacing: 0em;\n  --typography-heading-3: 600 1.25rem/1.6 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-4-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-4-font-size: 1rem;\n  --typography-heading-4-font-weight: 600;\n  --typography-heading-4-line-height: 1.5;\n  --typography-heading-4-letter-spacing: 0em;\n  --typography-heading-4: 600 1rem/1.5 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-font-size: 1rem;\n  --typography-body-font-weight: 400;\n  --typography-body-line-height: 1.75;\n  --typography-body-letter-spacing: 0em;\n  --typography-body: 400 1rem/1.75 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-sm-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-sm-font-size: 0.875rem;\n  --typography-body-sm-font-weight: 400;\n  --typography-body-sm-line-height: 1.75;\n  --typography-body-sm-letter-spacing: 0em;\n  --typography-body-sm: 400 0.875rem/1.75 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-lead-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-lead-font-size: 1.25rem;\n  --typography-lead-font-weight: 400;\n  --typography-lead-line-height: 1.6;\n  --typography-lead-letter-spacing: 0em;\n  --typography-lead: 400 1.25rem/1.6 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-caption-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-caption-font-size: 0.75rem;\n  --typography-caption-font-weight: 400;\n  --typography-caption-line-height: 1.5;\n  --typography-caption-letter-spacing: 0.025em;\n  --typography-caption: 400 0.75rem/1.5 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-code-font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n  --typography-code-font-size: 0.875rem;\n  --typography-code-font-weight: 400;\n  --typography-code-line-height: 1.5;\n  --typography-code-letter-spacing: 0em;\n  --typography-code: 400 0.875rem/1.5 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n}\n";
+
+// src/css/border/global.css
+var global_exports5 = {};
+__export(global_exports5, {
+  default: () => global_default5
+});
+var global_default5 = ":root {\n  --border-width-thin: 0.0625rem; /** Thin border (0.0625rem / 1px at the default root) \u2014 hairlines, dividers, and default control borders. */\n  --border-width-thick: 0.125rem; /** Thick border (0.125rem / 2px at the default root) \u2014 emphasis borders and selected states. */\n  --border-width-thicker: 0.25rem; /** Thicker border (0.25rem / 4px at the default root) \u2014 focus rings and high-emphasis outlines. */\n  --border-width-default: 0.0625rem; /** Default border width \u2014 aliases thin so the system-wide default can be retuned in one place. */\n}\n";
+
+// src/css/shadow/global.css
+var global_exports6 = {};
+__export(global_exports6, {
+  default: () => global_default6
+});
+var global_default6 = ":root {\n  --box-shadow-thin: inset 0 0 0 0.0625rem; /** Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor. */\n  --box-shadow-thick: inset 0 0 0 0.125rem; /** Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor. */\n  --box-shadow-thicker: inset 0 0 0 0.25rem; /** Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor. */\n}\n";
 
 // src/js/colors/global/hex.js
 var hex_exports7 = {};
@@ -43113,8 +43154,8 @@ var fuchsiaTeal4 = {
 };
 
 // src/js/space/global.js
-var global_exports5 = {};
-__export(global_exports5, {
+var global_exports7 = {};
+__export(global_exports7, {
   space: () => space
 });
 var space = {
@@ -43133,8 +43174,8 @@ var space = {
 };
 
 // src/js/radius/global.js
-var global_exports6 = {};
-__export(global_exports6, {
+var global_exports8 = {};
+__export(global_exports8, {
   radius: () => radius
 });
 var radius = {
@@ -43146,8 +43187,8 @@ var radius = {
 };
 
 // src/js/breakpoints/global.js
-var global_exports7 = {};
-__export(global_exports7, {
+var global_exports9 = {};
+__export(global_exports9, {
   breakpoint: () => breakpoint
 });
 var breakpoint = {
@@ -43159,8 +43200,8 @@ var breakpoint = {
 };
 
 // src/js/typography/global.js
-var global_exports8 = {};
-__export(global_exports8, {
+var global_exports10 = {};
+__export(global_exports10, {
   fontFamily: () => fontFamily,
   fontSize: () => fontSize,
   fontWeight: () => fontWeight,
@@ -43284,6 +43325,29 @@ var code = {
   fontWeight: 400,
   lineHeight: 1.5,
   letterSpacing: "0em"
+};
+
+// src/js/border/global.js
+var global_exports11 = {};
+__export(global_exports11, {
+  borderWidth: () => borderWidth
+});
+var borderWidth = {
+  thin: "0.0625rem",
+  thick: "0.125rem",
+  thicker: "0.25rem",
+  default: "0.0625rem"
+};
+
+// src/js/shadow/global.js
+var global_exports12 = {};
+__export(global_exports12, {
+  boxShadow: () => boxShadow
+});
+var boxShadow = {
+  thin: "inset 0 0 0 0.0625rem",
+  thick: "inset 0 0 0 0.125rem",
+  thicker: "inset 0 0 0 0.25rem"
 };
 
 // src/less/colors/global/hex.less
@@ -43455,32 +43519,32 @@ __export(rgb_exports18, {
 var rgb_default12 = "@ember-50: rgb(34, 39, 43);\n@ember-100: rgb(28, 42, 59);\n@ember-150: rgb(28, 42, 76);\n@ember-200: rgb(37, 38, 92);\n@ember-250: rgb(51, 31, 104);\n@ember-300: rgb(68, 17, 112);\n@ember-350: rgb(97, 17, 117);\n@ember-400: rgb(128, 15, 115);\n@ember-450: rgb(159, 9, 106);\n@ember-500: rgb(188, 7, 88);\n@ember-550: rgb(215, 21, 58);\n@ember-600: rgb(222, 43, 52);\n@ember-650: rgb(228, 59, 46);\n@ember-700: rgb(233, 73, 39);\n@ember-750: rgb(238, 86, 33);\n@ember-800: rgb(243, 99, 27);\n@ember-850: rgb(247, 115, 0);\n@ember-900: rgb(249, 130, 0);\n@ember-950: rgb(251, 145, 0);\n@ember-1000: rgb(251, 160, 0);\n@ember-1050: rgb(250, 175, 5);\n@earthfire-50: rgb(82, 55, 25);\n@earthfire-100: rgb(95, 54, 13);\n@earthfire-150: rgb(108, 51, 0);\n@earthfire-200: rgb(122, 46, 0);\n@earthfire-250: rgb(135, 38, 0);\n@earthfire-300: rgb(148, 27, 0);\n@earthfire-350: rgb(167, 42, 5);\n@earthfire-400: rgb(185, 56, 11);\n@earthfire-450: rgb(204, 70, 17);\n@earthfire-500: rgb(224, 85, 22);\n@earthfire-550: rgb(243, 99, 27);\n@earthfire-600: rgb(247, 115, 0);\n@earthfire-650: rgb(249, 130, 0);\n@earthfire-700: rgb(251, 145, 0);\n@earthfire-750: rgb(251, 160, 0);\n@earthfire-800: rgb(250, 175, 5);\n@earthfire-850: rgb(250, 187, 59);\n@earthfire-900: rgb(250, 199, 87);\n@earthfire-950: rgb(251, 210, 111);\n@earthfire-1000: rgb(252, 221, 133);\n@earthfire-1050: rgb(253, 231, 154);\n@fuchsia-heat-50: rgb(101, 0, 77);\n@fuchsia-heat-100: rgb(123, 2, 95);\n@fuchsia-heat-150: rgb(146, 4, 114);\n@fuchsia-heat-200: rgb(169, 8, 133);\n@fuchsia-heat-250: rgb(193, 13, 153);\n@fuchsia-heat-300: rgb(217, 18, 174);\n@fuchsia-heat-350: rgb(230, 30, 146);\n@fuchsia-heat-400: rgb(240, 45, 119);\n@fuchsia-heat-450: rgb(245, 62, 91);\n@fuchsia-heat-500: rgb(246, 80, 62);\n@fuchsia-heat-550: rgb(243, 99, 27);\n@fuchsia-heat-600: rgb(247, 115, 0);\n@fuchsia-heat-650: rgb(249, 130, 0);\n@fuchsia-heat-700: rgb(251, 145, 0);\n@fuchsia-heat-750: rgb(251, 160, 0);\n@fuchsia-heat-800: rgb(250, 175, 5);\n@fuchsia-heat-850: rgb(250, 187, 59);\n@fuchsia-heat-900: rgb(250, 199, 87);\n@fuchsia-heat-950: rgb(251, 210, 111);\n@fuchsia-heat-1000: rgb(252, 221, 133);\n@fuchsia-heat-1050: rgb(253, 231, 154);\n@polar-glow-50: rgb(0, 38, 100);\n@polar-glow-100: rgb(1, 51, 128);\n@polar-glow-150: rgb(3, 65, 158);\n@polar-glow-200: rgb(7, 79, 189);\n@polar-glow-250: rgb(13, 93, 220);\n@polar-glow-300: rgb(20, 108, 253);\n@polar-glow-350: rgb(0, 119, 231);\n@polar-glow-400: rgb(0, 126, 208);\n@polar-glow-450: rgb(0, 130, 184);\n@polar-glow-500: rgb(0, 130, 162);\n@polar-glow-550: rgb(46, 128, 142);\n@polar-glow-600: rgb(66, 146, 159);\n@polar-glow-650: rgb(84, 163, 176);\n@polar-glow-700: rgb(103, 182, 193);\n@polar-glow-750: rgb(121, 200, 211);\n@polar-glow-800: rgb(140, 219, 229);\n@polar-glow-850: rgb(154, 223, 229);\n@polar-glow-900: rgb(169, 227, 229);\n@polar-glow-950: rgb(182, 231, 230);\n@polar-glow-1000: rgb(196, 235, 231);\n@polar-glow-1050: rgb(209, 238, 234);\n@glacier-pool-50: rgb(68, 17, 112);\n@glacier-pool-100: rgb(81, 30, 136);\n@glacier-pool-150: rgb(93, 43, 161);\n@glacier-pool-200: rgb(106, 57, 187);\n@glacier-pool-250: rgb(117, 70, 214);\n@glacier-pool-300: rgb(128, 85, 241);\n@glacier-pool-350: rgb(115, 89, 246);\n@glacier-pool-400: rgb(100, 94, 250);\n@glacier-pool-450: rgb(83, 98, 252);\n@glacier-pool-500: rgb(60, 103, 253);\n@glacier-pool-550: rgb(20, 108, 253);\n@glacier-pool-600: rgb(0, 137, 255);\n@glacier-pool-650: rgb(12, 162, 255);\n@glacier-pool-700: rgb(59, 185, 255);\n@glacier-pool-750: rgb(100, 205, 255);\n@glacier-pool-800: rgb(140, 224, 255);\n@glacier-pool-850: rgb(154, 227, 255);\n@glacier-pool-900: rgb(167, 229, 255);\n@glacier-pool-950: rgb(179, 232, 254);\n@glacier-pool-1000: rgb(191, 234, 254);\n@glacier-pool-1050: rgb(203, 237, 253);\n@deep-current-50: rgb(11, 63, 71);\n@deep-current-100: rgb(18, 75, 84);\n@deep-current-150: rgb(25, 88, 98);\n@deep-current-200: rgb(32, 101, 113);\n@deep-current-250: rgb(39, 114, 127);\n@deep-current-300: rgb(46, 128, 142);\n@deep-current-350: rgb(0, 130, 162);\n@deep-current-400: rgb(0, 130, 184);\n@deep-current-450: rgb(0, 126, 208);\n@deep-current-500: rgb(0, 119, 231);\n@deep-current-550: rgb(20, 108, 253);\n@deep-current-600: rgb(0, 137, 255);\n@deep-current-650: rgb(12, 162, 255);\n@deep-current-700: rgb(59, 185, 255);\n@deep-current-750: rgb(100, 205, 255);\n@deep-current-800: rgb(140, 224, 255);\n@deep-current-850: rgb(154, 227, 255);\n@deep-current-900: rgb(167, 229, 255);\n@deep-current-950: rgb(179, 232, 254);\n@deep-current-1000: rgb(191, 234, 254);\n@deep-current-1050: rgb(203, 237, 253);\n@blue-red-50: rgb(0, 38, 100);\n@blue-red-100: rgb(1, 51, 128);\n@blue-red-150: rgb(3, 65, 158);\n@blue-red-200: rgb(7, 79, 189);\n@blue-red-250: rgb(13, 93, 220);\n@blue-red-300: rgb(20, 108, 253);\n@blue-red-350: rgb(76, 142, 255);\n@blue-red-400: rgb(121, 172, 255);\n@blue-red-450: rgb(165, 200, 255);\n@blue-red-500: rgb(210, 228, 255);\n@blue-red-550: rgb(254, 215, 214);\n@blue-red-600: rgb(249, 175, 174);\n@blue-red-650: rgb(241, 134, 135);\n@blue-red-700: rgb(229, 89, 97);\n@blue-red-750: rgb(215, 21, 58);\n@blue-red-800: rgb(191, 15, 52);\n@blue-red-850: rgb(167, 10, 45);\n@blue-red-900: rgb(143, 5, 39);\n@blue-red-950: rgb(121, 2, 32);\n@blue-red-1000: rgb(99, 0, 25);\n@blue-orange-50: rgb(0, 38, 100);\n@blue-orange-100: rgb(1, 51, 128);\n@blue-orange-150: rgb(3, 65, 158);\n@blue-orange-200: rgb(7, 79, 189);\n@blue-orange-250: rgb(13, 93, 220);\n@blue-orange-300: rgb(20, 108, 253);\n@blue-orange-350: rgb(76, 142, 255);\n@blue-orange-400: rgb(121, 172, 255);\n@blue-orange-450: rgb(165, 200, 255);\n@blue-orange-500: rgb(210, 228, 255);\n@blue-orange-550: rgb(255, 226, 214);\n@blue-orange-600: rgb(255, 196, 173);\n@blue-orange-650: rgb(254, 166, 131);\n@blue-orange-700: rgb(250, 134, 87);\n@blue-orange-750: rgb(243, 99, 27);\n@blue-orange-800: rgb(224, 85, 22);\n@blue-orange-850: rgb(204, 70, 17);\n@blue-orange-900: rgb(185, 56, 11);\n@blue-orange-950: rgb(167, 42, 5);\n@blue-orange-1000: rgb(148, 27, 0);\n@purple-yellow-50: rgb(68, 17, 112);\n@purple-yellow-100: rgb(81, 30, 136);\n@purple-yellow-150: rgb(93, 43, 161);\n@purple-yellow-200: rgb(106, 57, 187);\n@purple-yellow-250: rgb(117, 70, 214);\n@purple-yellow-300: rgb(128, 85, 241);\n@purple-yellow-350: rgb(150, 123, 247);\n@purple-yellow-400: rgb(174, 158, 251);\n@purple-yellow-450: rgb(199, 191, 254);\n@purple-yellow-500: rgb(227, 223, 255);\n@purple-yellow-550: rgb(255, 240, 218);\n@purple-yellow-600: rgb(255, 224, 180);\n@purple-yellow-650: rgb(254, 208, 139);\n@purple-yellow-700: rgb(252, 192, 93);\n@purple-yellow-750: rgb(250, 175, 5);\n@purple-yellow-800: rgb(219, 153, 3);\n@purple-yellow-850: rgb(189, 132, 2);\n@purple-yellow-900: rgb(160, 111, 1);\n@purple-yellow-950: rgb(132, 91, 0);\n@purple-yellow-1000: rgb(105, 72, 0);\n@fuchsia-teal-50: rgb(101, 0, 77);\n@fuchsia-teal-100: rgb(123, 2, 95);\n@fuchsia-teal-150: rgb(146, 4, 114);\n@fuchsia-teal-200: rgb(169, 8, 133);\n@fuchsia-teal-250: rgb(193, 13, 153);\n@fuchsia-teal-300: rgb(217, 18, 174);\n@fuchsia-teal-350: rgb(230, 91, 191);\n@fuchsia-teal-400: rgb(240, 136, 207);\n@fuchsia-teal-450: rgb(248, 177, 223);\n@fuchsia-teal-500: rgb(253, 216, 239);\n@fuchsia-teal-550: rgb(214, 229, 232);\n@fuchsia-teal-600: rgb(174, 203, 209);\n@fuchsia-teal-650: rgb(134, 178, 186);\n@fuchsia-teal-700: rgb(93, 153, 164);\n@fuchsia-teal-750: rgb(46, 128, 142);\n@fuchsia-teal-800: rgb(39, 114, 127);\n@fuchsia-teal-850: rgb(32, 101, 113);\n@fuchsia-teal-900: rgb(25, 88, 98);\n@fuchsia-teal-950: rgb(18, 75, 84);\n@fuchsia-teal-1000: rgb(11, 63, 71);\n";
 
 // src/less/space/global.less
-var global_exports9 = {};
-__export(global_exports9, {
-  default: () => global_default5
-});
-var global_default5 = "@space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n@space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n@space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n@space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n@space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n@space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n@space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n@space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n@space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n@space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n@space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n@space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
-
-// src/less/radius/global.less
-var global_exports10 = {};
-__export(global_exports10, {
-  default: () => global_default6
-});
-var global_default6 = "@radius-none: 0px; // Square corners \u2014 tables, full-bleed surfaces, and elements flush to container edges.\n@radius-sm: 4px; // Small rounding \u2014 inputs, buttons, tags, and compact controls.\n@radius-md: 8px; // Medium rounding \u2014 cards, panels, and modals.\n@radius-lg: 16px; // Large rounding \u2014 hero surfaces and prominent containers.\n@radius-pill: 9999px; // Fully rounded ends \u2014 pills, badges, and circular icon buttons.\n";
-
-// src/less/breakpoints/global.less
-var global_exports11 = {};
-__export(global_exports11, {
+var global_exports13 = {};
+__export(global_exports13, {
   default: () => global_default7
 });
-var global_default7 = "@breakpoint-xs: 480px; // Extra-small breakpoint \u2014 large phones and up.\n@breakpoint-sm: 768px; // Small breakpoint \u2014 tablets portrait and up.\n@breakpoint-md: 992px; // Medium breakpoint \u2014 tablets landscape / small laptops and up.\n@breakpoint-lg: 1200px; // Large breakpoint \u2014 desktops and up.\n@breakpoint-xl: 1600px; // Extra-large breakpoint \u2014 wide desktops and up.\n";
+var global_default7 = "@space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n@space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n@space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n@space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n@space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n@space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n@space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n@space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n@space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n@space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n@space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n@space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
 
-// src/less/typography/global.less
-var global_exports12 = {};
-__export(global_exports12, {
+// src/less/radius/global.less
+var global_exports14 = {};
+__export(global_exports14, {
   default: () => global_default8
 });
-var global_default8 = "@font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n@font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n@font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n@font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n@font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n@font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n@font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n@font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n@font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n@font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n@font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n@font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n@font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n@font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n@font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n@font-weight-extrabold: 800; // Extrabold (800) \u2014 hero/display headings (the prose scale uses 800 for h1).\n@line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n@line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n@line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n@line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n@line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n@line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n@letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+var global_default8 = "@radius-none: 0px; // Square corners \u2014 tables, full-bleed surfaces, and elements flush to container edges.\n@radius-sm: 4px; // Small rounding \u2014 inputs, buttons, tags, and compact controls.\n@radius-md: 8px; // Medium rounding \u2014 cards, panels, and modals.\n@radius-lg: 16px; // Large rounding \u2014 hero surfaces and prominent containers.\n@radius-pill: 9999px; // Fully rounded ends \u2014 pills, badges, and circular icon buttons.\n";
+
+// src/less/breakpoints/global.less
+var global_exports15 = {};
+__export(global_exports15, {
+  default: () => global_default9
+});
+var global_default9 = "@breakpoint-xs: 480px; // Extra-small breakpoint \u2014 large phones and up.\n@breakpoint-sm: 768px; // Small breakpoint \u2014 tablets portrait and up.\n@breakpoint-md: 992px; // Medium breakpoint \u2014 tablets landscape / small laptops and up.\n@breakpoint-lg: 1200px; // Large breakpoint \u2014 desktops and up.\n@breakpoint-xl: 1600px; // Extra-large breakpoint \u2014 wide desktops and up.\n";
+
+// src/less/typography/global.less
+var global_exports16 = {};
+__export(global_exports16, {
+  default: () => global_default10
+});
+var global_default10 = "@font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n@font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n@font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n@font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n@font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n@font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n@font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n@font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n@font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n@font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n@font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n@font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n@font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n@font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n@font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n@font-weight-extrabold: 800; // Extrabold (800) \u2014 hero/display headings (the prose scale uses 800 for h1).\n@line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n@line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n@line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n@line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n@line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n@line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n@letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
 
 // src/less/typography/semantic.less
 var semantic_exports3 = {};
@@ -43488,6 +43552,20 @@ __export(semantic_exports3, {
   default: () => semantic_default2
 });
 var semantic_default2 = "@typography-heading-1-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-1-font-size: 2.25rem;\n@typography-heading-1-font-weight: 800;\n@typography-heading-1-line-height: 1.2;\n@typography-heading-1-letter-spacing: -0.0125em;\n@typography-heading-2-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-2-font-size: 1.5rem;\n@typography-heading-2-font-weight: 700;\n@typography-heading-2-line-height: 1.3333333;\n@typography-heading-2-letter-spacing: 0em;\n@typography-heading-3-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-3-font-size: 1.25rem;\n@typography-heading-3-font-weight: 600;\n@typography-heading-3-line-height: 1.6;\n@typography-heading-3-letter-spacing: 0em;\n@typography-heading-4-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-4-font-size: 1rem;\n@typography-heading-4-font-weight: 600;\n@typography-heading-4-line-height: 1.5;\n@typography-heading-4-letter-spacing: 0em;\n@typography-body-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-body-font-size: 1rem;\n@typography-body-font-weight: 400;\n@typography-body-line-height: 1.75;\n@typography-body-letter-spacing: 0em;\n@typography-body-sm-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-body-sm-font-size: 0.875rem;\n@typography-body-sm-font-weight: 400;\n@typography-body-sm-line-height: 1.75;\n@typography-body-sm-letter-spacing: 0em;\n@typography-lead-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-lead-font-size: 1.25rem;\n@typography-lead-font-weight: 400;\n@typography-lead-line-height: 1.6;\n@typography-lead-letter-spacing: 0em;\n@typography-caption-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-caption-font-size: 0.75rem;\n@typography-caption-font-weight: 400;\n@typography-caption-line-height: 1.5;\n@typography-caption-letter-spacing: 0.025em;\n@typography-code-font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n@typography-code-font-size: 0.875rem;\n@typography-code-font-weight: 400;\n@typography-code-line-height: 1.5;\n@typography-code-letter-spacing: 0em;\n";
+
+// src/less/border/global.less
+var global_exports17 = {};
+__export(global_exports17, {
+  default: () => global_default11
+});
+var global_default11 = "@border-width-thin: 0.0625rem; // Thin border (0.0625rem / 1px at the default root) \u2014 hairlines, dividers, and default control borders.\n@border-width-thick: 0.125rem; // Thick border (0.125rem / 2px at the default root) \u2014 emphasis borders and selected states.\n@border-width-thicker: 0.25rem; // Thicker border (0.25rem / 4px at the default root) \u2014 focus rings and high-emphasis outlines.\n@border-width-default: 0.0625rem; // Default border width \u2014 aliases thin so the system-wide default can be retuned in one place.\n";
+
+// src/less/shadow/global.less
+var global_exports18 = {};
+__export(global_exports18, {
+  default: () => global_default12
+});
+var global_default12 = "@box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor.\n@box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor.\n@box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor.\n";
 
 // src/scss/colors/global/hex.scss
 var hex_exports19 = {};
@@ -43658,32 +43736,32 @@ __export(rgb_exports24, {
 var rgb_default18 = "$ember-50: rgb(34, 39, 43);\n$ember-100: rgb(28, 42, 59);\n$ember-150: rgb(28, 42, 76);\n$ember-200: rgb(37, 38, 92);\n$ember-250: rgb(51, 31, 104);\n$ember-300: rgb(68, 17, 112);\n$ember-350: rgb(97, 17, 117);\n$ember-400: rgb(128, 15, 115);\n$ember-450: rgb(159, 9, 106);\n$ember-500: rgb(188, 7, 88);\n$ember-550: rgb(215, 21, 58);\n$ember-600: rgb(222, 43, 52);\n$ember-650: rgb(228, 59, 46);\n$ember-700: rgb(233, 73, 39);\n$ember-750: rgb(238, 86, 33);\n$ember-800: rgb(243, 99, 27);\n$ember-850: rgb(247, 115, 0);\n$ember-900: rgb(249, 130, 0);\n$ember-950: rgb(251, 145, 0);\n$ember-1000: rgb(251, 160, 0);\n$ember-1050: rgb(250, 175, 5);\n$earthfire-50: rgb(82, 55, 25);\n$earthfire-100: rgb(95, 54, 13);\n$earthfire-150: rgb(108, 51, 0);\n$earthfire-200: rgb(122, 46, 0);\n$earthfire-250: rgb(135, 38, 0);\n$earthfire-300: rgb(148, 27, 0);\n$earthfire-350: rgb(167, 42, 5);\n$earthfire-400: rgb(185, 56, 11);\n$earthfire-450: rgb(204, 70, 17);\n$earthfire-500: rgb(224, 85, 22);\n$earthfire-550: rgb(243, 99, 27);\n$earthfire-600: rgb(247, 115, 0);\n$earthfire-650: rgb(249, 130, 0);\n$earthfire-700: rgb(251, 145, 0);\n$earthfire-750: rgb(251, 160, 0);\n$earthfire-800: rgb(250, 175, 5);\n$earthfire-850: rgb(250, 187, 59);\n$earthfire-900: rgb(250, 199, 87);\n$earthfire-950: rgb(251, 210, 111);\n$earthfire-1000: rgb(252, 221, 133);\n$earthfire-1050: rgb(253, 231, 154);\n$fuchsia-heat-50: rgb(101, 0, 77);\n$fuchsia-heat-100: rgb(123, 2, 95);\n$fuchsia-heat-150: rgb(146, 4, 114);\n$fuchsia-heat-200: rgb(169, 8, 133);\n$fuchsia-heat-250: rgb(193, 13, 153);\n$fuchsia-heat-300: rgb(217, 18, 174);\n$fuchsia-heat-350: rgb(230, 30, 146);\n$fuchsia-heat-400: rgb(240, 45, 119);\n$fuchsia-heat-450: rgb(245, 62, 91);\n$fuchsia-heat-500: rgb(246, 80, 62);\n$fuchsia-heat-550: rgb(243, 99, 27);\n$fuchsia-heat-600: rgb(247, 115, 0);\n$fuchsia-heat-650: rgb(249, 130, 0);\n$fuchsia-heat-700: rgb(251, 145, 0);\n$fuchsia-heat-750: rgb(251, 160, 0);\n$fuchsia-heat-800: rgb(250, 175, 5);\n$fuchsia-heat-850: rgb(250, 187, 59);\n$fuchsia-heat-900: rgb(250, 199, 87);\n$fuchsia-heat-950: rgb(251, 210, 111);\n$fuchsia-heat-1000: rgb(252, 221, 133);\n$fuchsia-heat-1050: rgb(253, 231, 154);\n$polar-glow-50: rgb(0, 38, 100);\n$polar-glow-100: rgb(1, 51, 128);\n$polar-glow-150: rgb(3, 65, 158);\n$polar-glow-200: rgb(7, 79, 189);\n$polar-glow-250: rgb(13, 93, 220);\n$polar-glow-300: rgb(20, 108, 253);\n$polar-glow-350: rgb(0, 119, 231);\n$polar-glow-400: rgb(0, 126, 208);\n$polar-glow-450: rgb(0, 130, 184);\n$polar-glow-500: rgb(0, 130, 162);\n$polar-glow-550: rgb(46, 128, 142);\n$polar-glow-600: rgb(66, 146, 159);\n$polar-glow-650: rgb(84, 163, 176);\n$polar-glow-700: rgb(103, 182, 193);\n$polar-glow-750: rgb(121, 200, 211);\n$polar-glow-800: rgb(140, 219, 229);\n$polar-glow-850: rgb(154, 223, 229);\n$polar-glow-900: rgb(169, 227, 229);\n$polar-glow-950: rgb(182, 231, 230);\n$polar-glow-1000: rgb(196, 235, 231);\n$polar-glow-1050: rgb(209, 238, 234);\n$glacier-pool-50: rgb(68, 17, 112);\n$glacier-pool-100: rgb(81, 30, 136);\n$glacier-pool-150: rgb(93, 43, 161);\n$glacier-pool-200: rgb(106, 57, 187);\n$glacier-pool-250: rgb(117, 70, 214);\n$glacier-pool-300: rgb(128, 85, 241);\n$glacier-pool-350: rgb(115, 89, 246);\n$glacier-pool-400: rgb(100, 94, 250);\n$glacier-pool-450: rgb(83, 98, 252);\n$glacier-pool-500: rgb(60, 103, 253);\n$glacier-pool-550: rgb(20, 108, 253);\n$glacier-pool-600: rgb(0, 137, 255);\n$glacier-pool-650: rgb(12, 162, 255);\n$glacier-pool-700: rgb(59, 185, 255);\n$glacier-pool-750: rgb(100, 205, 255);\n$glacier-pool-800: rgb(140, 224, 255);\n$glacier-pool-850: rgb(154, 227, 255);\n$glacier-pool-900: rgb(167, 229, 255);\n$glacier-pool-950: rgb(179, 232, 254);\n$glacier-pool-1000: rgb(191, 234, 254);\n$glacier-pool-1050: rgb(203, 237, 253);\n$deep-current-50: rgb(11, 63, 71);\n$deep-current-100: rgb(18, 75, 84);\n$deep-current-150: rgb(25, 88, 98);\n$deep-current-200: rgb(32, 101, 113);\n$deep-current-250: rgb(39, 114, 127);\n$deep-current-300: rgb(46, 128, 142);\n$deep-current-350: rgb(0, 130, 162);\n$deep-current-400: rgb(0, 130, 184);\n$deep-current-450: rgb(0, 126, 208);\n$deep-current-500: rgb(0, 119, 231);\n$deep-current-550: rgb(20, 108, 253);\n$deep-current-600: rgb(0, 137, 255);\n$deep-current-650: rgb(12, 162, 255);\n$deep-current-700: rgb(59, 185, 255);\n$deep-current-750: rgb(100, 205, 255);\n$deep-current-800: rgb(140, 224, 255);\n$deep-current-850: rgb(154, 227, 255);\n$deep-current-900: rgb(167, 229, 255);\n$deep-current-950: rgb(179, 232, 254);\n$deep-current-1000: rgb(191, 234, 254);\n$deep-current-1050: rgb(203, 237, 253);\n$blue-red-50: rgb(0, 38, 100);\n$blue-red-100: rgb(1, 51, 128);\n$blue-red-150: rgb(3, 65, 158);\n$blue-red-200: rgb(7, 79, 189);\n$blue-red-250: rgb(13, 93, 220);\n$blue-red-300: rgb(20, 108, 253);\n$blue-red-350: rgb(76, 142, 255);\n$blue-red-400: rgb(121, 172, 255);\n$blue-red-450: rgb(165, 200, 255);\n$blue-red-500: rgb(210, 228, 255);\n$blue-red-550: rgb(254, 215, 214);\n$blue-red-600: rgb(249, 175, 174);\n$blue-red-650: rgb(241, 134, 135);\n$blue-red-700: rgb(229, 89, 97);\n$blue-red-750: rgb(215, 21, 58);\n$blue-red-800: rgb(191, 15, 52);\n$blue-red-850: rgb(167, 10, 45);\n$blue-red-900: rgb(143, 5, 39);\n$blue-red-950: rgb(121, 2, 32);\n$blue-red-1000: rgb(99, 0, 25);\n$blue-orange-50: rgb(0, 38, 100);\n$blue-orange-100: rgb(1, 51, 128);\n$blue-orange-150: rgb(3, 65, 158);\n$blue-orange-200: rgb(7, 79, 189);\n$blue-orange-250: rgb(13, 93, 220);\n$blue-orange-300: rgb(20, 108, 253);\n$blue-orange-350: rgb(76, 142, 255);\n$blue-orange-400: rgb(121, 172, 255);\n$blue-orange-450: rgb(165, 200, 255);\n$blue-orange-500: rgb(210, 228, 255);\n$blue-orange-550: rgb(255, 226, 214);\n$blue-orange-600: rgb(255, 196, 173);\n$blue-orange-650: rgb(254, 166, 131);\n$blue-orange-700: rgb(250, 134, 87);\n$blue-orange-750: rgb(243, 99, 27);\n$blue-orange-800: rgb(224, 85, 22);\n$blue-orange-850: rgb(204, 70, 17);\n$blue-orange-900: rgb(185, 56, 11);\n$blue-orange-950: rgb(167, 42, 5);\n$blue-orange-1000: rgb(148, 27, 0);\n$purple-yellow-50: rgb(68, 17, 112);\n$purple-yellow-100: rgb(81, 30, 136);\n$purple-yellow-150: rgb(93, 43, 161);\n$purple-yellow-200: rgb(106, 57, 187);\n$purple-yellow-250: rgb(117, 70, 214);\n$purple-yellow-300: rgb(128, 85, 241);\n$purple-yellow-350: rgb(150, 123, 247);\n$purple-yellow-400: rgb(174, 158, 251);\n$purple-yellow-450: rgb(199, 191, 254);\n$purple-yellow-500: rgb(227, 223, 255);\n$purple-yellow-550: rgb(255, 240, 218);\n$purple-yellow-600: rgb(255, 224, 180);\n$purple-yellow-650: rgb(254, 208, 139);\n$purple-yellow-700: rgb(252, 192, 93);\n$purple-yellow-750: rgb(250, 175, 5);\n$purple-yellow-800: rgb(219, 153, 3);\n$purple-yellow-850: rgb(189, 132, 2);\n$purple-yellow-900: rgb(160, 111, 1);\n$purple-yellow-950: rgb(132, 91, 0);\n$purple-yellow-1000: rgb(105, 72, 0);\n$fuchsia-teal-50: rgb(101, 0, 77);\n$fuchsia-teal-100: rgb(123, 2, 95);\n$fuchsia-teal-150: rgb(146, 4, 114);\n$fuchsia-teal-200: rgb(169, 8, 133);\n$fuchsia-teal-250: rgb(193, 13, 153);\n$fuchsia-teal-300: rgb(217, 18, 174);\n$fuchsia-teal-350: rgb(230, 91, 191);\n$fuchsia-teal-400: rgb(240, 136, 207);\n$fuchsia-teal-450: rgb(248, 177, 223);\n$fuchsia-teal-500: rgb(253, 216, 239);\n$fuchsia-teal-550: rgb(214, 229, 232);\n$fuchsia-teal-600: rgb(174, 203, 209);\n$fuchsia-teal-650: rgb(134, 178, 186);\n$fuchsia-teal-700: rgb(93, 153, 164);\n$fuchsia-teal-750: rgb(46, 128, 142);\n$fuchsia-teal-800: rgb(39, 114, 127);\n$fuchsia-teal-850: rgb(32, 101, 113);\n$fuchsia-teal-900: rgb(25, 88, 98);\n$fuchsia-teal-950: rgb(18, 75, 84);\n$fuchsia-teal-1000: rgb(11, 63, 71);\n";
 
 // src/scss/space/global.scss
-var global_exports13 = {};
-__export(global_exports13, {
-  default: () => global_default9
+var global_exports19 = {};
+__export(global_exports19, {
+  default: () => global_default13
 });
-var global_default9 = "$space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n$space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n$space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n$space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n$space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n$space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n$space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n$space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n$space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n$space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n$space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n$space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
+var global_default13 = "$space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n$space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n$space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n$space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n$space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n$space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n$space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n$space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n$space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n$space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n$space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n$space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
 
 // src/scss/radius/global.scss
-var global_exports14 = {};
-__export(global_exports14, {
-  default: () => global_default10
+var global_exports20 = {};
+__export(global_exports20, {
+  default: () => global_default14
 });
-var global_default10 = "$radius-none: 0px; // Square corners \u2014 tables, full-bleed surfaces, and elements flush to container edges.\n$radius-sm: 4px; // Small rounding \u2014 inputs, buttons, tags, and compact controls.\n$radius-md: 8px; // Medium rounding \u2014 cards, panels, and modals.\n$radius-lg: 16px; // Large rounding \u2014 hero surfaces and prominent containers.\n$radius-pill: 9999px; // Fully rounded ends \u2014 pills, badges, and circular icon buttons.\n";
+var global_default14 = "$radius-none: 0px; // Square corners \u2014 tables, full-bleed surfaces, and elements flush to container edges.\n$radius-sm: 4px; // Small rounding \u2014 inputs, buttons, tags, and compact controls.\n$radius-md: 8px; // Medium rounding \u2014 cards, panels, and modals.\n$radius-lg: 16px; // Large rounding \u2014 hero surfaces and prominent containers.\n$radius-pill: 9999px; // Fully rounded ends \u2014 pills, badges, and circular icon buttons.\n";
 
 // src/scss/breakpoints/global.scss
-var global_exports15 = {};
-__export(global_exports15, {
-  default: () => global_default11
+var global_exports21 = {};
+__export(global_exports21, {
+  default: () => global_default15
 });
-var global_default11 = "$breakpoint-xs: 480px; // Extra-small breakpoint \u2014 large phones and up.\n$breakpoint-sm: 768px; // Small breakpoint \u2014 tablets portrait and up.\n$breakpoint-md: 992px; // Medium breakpoint \u2014 tablets landscape / small laptops and up.\n$breakpoint-lg: 1200px; // Large breakpoint \u2014 desktops and up.\n$breakpoint-xl: 1600px; // Extra-large breakpoint \u2014 wide desktops and up.\n";
+var global_default15 = "$breakpoint-xs: 480px; // Extra-small breakpoint \u2014 large phones and up.\n$breakpoint-sm: 768px; // Small breakpoint \u2014 tablets portrait and up.\n$breakpoint-md: 992px; // Medium breakpoint \u2014 tablets landscape / small laptops and up.\n$breakpoint-lg: 1200px; // Large breakpoint \u2014 desktops and up.\n$breakpoint-xl: 1600px; // Extra-large breakpoint \u2014 wide desktops and up.\n";
 
 // src/scss/typography/global.scss
-var global_exports16 = {};
-__export(global_exports16, {
-  default: () => global_default12
+var global_exports22 = {};
+__export(global_exports22, {
+  default: () => global_default16
 });
-var global_default12 = "$font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n$font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n$font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n$font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n$font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n$font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n$font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n$font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n$font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n$font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n$font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n$font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n$font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n$font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n$font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n$font-weight-extrabold: 800; // Extrabold (800) \u2014 hero/display headings (the prose scale uses 800 for h1).\n$line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n$line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n$line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n$line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n$line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n$line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n$letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+var global_default16 = "$font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n$font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n$font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n$font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n$font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n$font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n$font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n$font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n$font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n$font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n$font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n$font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n$font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n$font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n$font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n$font-weight-extrabold: 800; // Extrabold (800) \u2014 hero/display headings (the prose scale uses 800 for h1).\n$line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n$line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n$line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n$line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n$line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n$line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n$letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
 
 // src/scss/typography/semantic.scss
 var semantic_exports4 = {};
@@ -43691,6 +43769,20 @@ __export(semantic_exports4, {
   default: () => semantic_default3
 });
 var semantic_default3 = "$typography-heading-1-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-1-font-size: 2.25rem;\n$typography-heading-1-font-weight: 800;\n$typography-heading-1-line-height: 1.2;\n$typography-heading-1-letter-spacing: -0.0125em;\n$typography-heading-2-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-2-font-size: 1.5rem;\n$typography-heading-2-font-weight: 700;\n$typography-heading-2-line-height: 1.3333333;\n$typography-heading-2-letter-spacing: 0em;\n$typography-heading-3-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-3-font-size: 1.25rem;\n$typography-heading-3-font-weight: 600;\n$typography-heading-3-line-height: 1.6;\n$typography-heading-3-letter-spacing: 0em;\n$typography-heading-4-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-4-font-size: 1rem;\n$typography-heading-4-font-weight: 600;\n$typography-heading-4-line-height: 1.5;\n$typography-heading-4-letter-spacing: 0em;\n$typography-body-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-body-font-size: 1rem;\n$typography-body-font-weight: 400;\n$typography-body-line-height: 1.75;\n$typography-body-letter-spacing: 0em;\n$typography-body-sm-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-body-sm-font-size: 0.875rem;\n$typography-body-sm-font-weight: 400;\n$typography-body-sm-line-height: 1.75;\n$typography-body-sm-letter-spacing: 0em;\n$typography-lead-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-lead-font-size: 1.25rem;\n$typography-lead-font-weight: 400;\n$typography-lead-line-height: 1.6;\n$typography-lead-letter-spacing: 0em;\n$typography-caption-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-caption-font-size: 0.75rem;\n$typography-caption-font-weight: 400;\n$typography-caption-line-height: 1.5;\n$typography-caption-letter-spacing: 0.025em;\n$typography-code-font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n$typography-code-font-size: 0.875rem;\n$typography-code-font-weight: 400;\n$typography-code-line-height: 1.5;\n$typography-code-letter-spacing: 0em;\n";
+
+// src/scss/border/global.scss
+var global_exports23 = {};
+__export(global_exports23, {
+  default: () => global_default17
+});
+var global_default17 = "$border-width-thin: 0.0625rem; // Thin border (0.0625rem / 1px at the default root) \u2014 hairlines, dividers, and default control borders.\n$border-width-thick: 0.125rem; // Thick border (0.125rem / 2px at the default root) \u2014 emphasis borders and selected states.\n$border-width-thicker: 0.25rem; // Thicker border (0.25rem / 4px at the default root) \u2014 focus rings and high-emphasis outlines.\n$border-width-default: 0.0625rem; // Default border width \u2014 aliases thin so the system-wide default can be retuned in one place.\n";
+
+// src/scss/shadow/global.scss
+var global_exports24 = {};
+__export(global_exports24, {
+  default: () => global_default18
+});
+var global_default18 = "$box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor.\n$box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor.\n$box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor.\n";
 
 // src/tailwind/colors/global/hex.css
 var hex_exports25 = {};
@@ -43861,32 +43953,46 @@ __export(rgb_exports30, {
 var rgb_default24 = "@theme {\n  --color-ember-50: var(--ember-50);\n  --color-ember-100: var(--ember-100);\n  --color-ember-150: var(--ember-150);\n  --color-ember-200: var(--ember-200);\n  --color-ember-250: var(--ember-250);\n  --color-ember-300: var(--ember-300);\n  --color-ember-350: var(--ember-350);\n  --color-ember-400: var(--ember-400);\n  --color-ember-450: var(--ember-450);\n  --color-ember-500: var(--ember-500);\n  --color-ember-550: var(--ember-550);\n  --color-ember-600: var(--ember-600);\n  --color-ember-650: var(--ember-650);\n  --color-ember-700: var(--ember-700);\n  --color-ember-750: var(--ember-750);\n  --color-ember-800: var(--ember-800);\n  --color-ember-850: var(--ember-850);\n  --color-ember-900: var(--ember-900);\n  --color-ember-950: var(--ember-950);\n  --color-ember-1000: var(--ember-1000);\n  --color-ember-1050: var(--ember-1050);\n  --color-earthfire-50: var(--earthfire-50);\n  --color-earthfire-100: var(--earthfire-100);\n  --color-earthfire-150: var(--earthfire-150);\n  --color-earthfire-200: var(--earthfire-200);\n  --color-earthfire-250: var(--earthfire-250);\n  --color-earthfire-300: var(--earthfire-300);\n  --color-earthfire-350: var(--earthfire-350);\n  --color-earthfire-400: var(--earthfire-400);\n  --color-earthfire-450: var(--earthfire-450);\n  --color-earthfire-500: var(--earthfire-500);\n  --color-earthfire-550: var(--earthfire-550);\n  --color-earthfire-600: var(--earthfire-600);\n  --color-earthfire-650: var(--earthfire-650);\n  --color-earthfire-700: var(--earthfire-700);\n  --color-earthfire-750: var(--earthfire-750);\n  --color-earthfire-800: var(--earthfire-800);\n  --color-earthfire-850: var(--earthfire-850);\n  --color-earthfire-900: var(--earthfire-900);\n  --color-earthfire-950: var(--earthfire-950);\n  --color-earthfire-1000: var(--earthfire-1000);\n  --color-earthfire-1050: var(--earthfire-1050);\n  --color-fuchsia-heat-50: var(--fuchsia-heat-50);\n  --color-fuchsia-heat-100: var(--fuchsia-heat-100);\n  --color-fuchsia-heat-150: var(--fuchsia-heat-150);\n  --color-fuchsia-heat-200: var(--fuchsia-heat-200);\n  --color-fuchsia-heat-250: var(--fuchsia-heat-250);\n  --color-fuchsia-heat-300: var(--fuchsia-heat-300);\n  --color-fuchsia-heat-350: var(--fuchsia-heat-350);\n  --color-fuchsia-heat-400: var(--fuchsia-heat-400);\n  --color-fuchsia-heat-450: var(--fuchsia-heat-450);\n  --color-fuchsia-heat-500: var(--fuchsia-heat-500);\n  --color-fuchsia-heat-550: var(--fuchsia-heat-550);\n  --color-fuchsia-heat-600: var(--fuchsia-heat-600);\n  --color-fuchsia-heat-650: var(--fuchsia-heat-650);\n  --color-fuchsia-heat-700: var(--fuchsia-heat-700);\n  --color-fuchsia-heat-750: var(--fuchsia-heat-750);\n  --color-fuchsia-heat-800: var(--fuchsia-heat-800);\n  --color-fuchsia-heat-850: var(--fuchsia-heat-850);\n  --color-fuchsia-heat-900: var(--fuchsia-heat-900);\n  --color-fuchsia-heat-950: var(--fuchsia-heat-950);\n  --color-fuchsia-heat-1000: var(--fuchsia-heat-1000);\n  --color-fuchsia-heat-1050: var(--fuchsia-heat-1050);\n  --color-polar-glow-50: var(--polar-glow-50);\n  --color-polar-glow-100: var(--polar-glow-100);\n  --color-polar-glow-150: var(--polar-glow-150);\n  --color-polar-glow-200: var(--polar-glow-200);\n  --color-polar-glow-250: var(--polar-glow-250);\n  --color-polar-glow-300: var(--polar-glow-300);\n  --color-polar-glow-350: var(--polar-glow-350);\n  --color-polar-glow-400: var(--polar-glow-400);\n  --color-polar-glow-450: var(--polar-glow-450);\n  --color-polar-glow-500: var(--polar-glow-500);\n  --color-polar-glow-550: var(--polar-glow-550);\n  --color-polar-glow-600: var(--polar-glow-600);\n  --color-polar-glow-650: var(--polar-glow-650);\n  --color-polar-glow-700: var(--polar-glow-700);\n  --color-polar-glow-750: var(--polar-glow-750);\n  --color-polar-glow-800: var(--polar-glow-800);\n  --color-polar-glow-850: var(--polar-glow-850);\n  --color-polar-glow-900: var(--polar-glow-900);\n  --color-polar-glow-950: var(--polar-glow-950);\n  --color-polar-glow-1000: var(--polar-glow-1000);\n  --color-polar-glow-1050: var(--polar-glow-1050);\n  --color-glacier-pool-50: var(--glacier-pool-50);\n  --color-glacier-pool-100: var(--glacier-pool-100);\n  --color-glacier-pool-150: var(--glacier-pool-150);\n  --color-glacier-pool-200: var(--glacier-pool-200);\n  --color-glacier-pool-250: var(--glacier-pool-250);\n  --color-glacier-pool-300: var(--glacier-pool-300);\n  --color-glacier-pool-350: var(--glacier-pool-350);\n  --color-glacier-pool-400: var(--glacier-pool-400);\n  --color-glacier-pool-450: var(--glacier-pool-450);\n  --color-glacier-pool-500: var(--glacier-pool-500);\n  --color-glacier-pool-550: var(--glacier-pool-550);\n  --color-glacier-pool-600: var(--glacier-pool-600);\n  --color-glacier-pool-650: var(--glacier-pool-650);\n  --color-glacier-pool-700: var(--glacier-pool-700);\n  --color-glacier-pool-750: var(--glacier-pool-750);\n  --color-glacier-pool-800: var(--glacier-pool-800);\n  --color-glacier-pool-850: var(--glacier-pool-850);\n  --color-glacier-pool-900: var(--glacier-pool-900);\n  --color-glacier-pool-950: var(--glacier-pool-950);\n  --color-glacier-pool-1000: var(--glacier-pool-1000);\n  --color-glacier-pool-1050: var(--glacier-pool-1050);\n  --color-deep-current-50: var(--deep-current-50);\n  --color-deep-current-100: var(--deep-current-100);\n  --color-deep-current-150: var(--deep-current-150);\n  --color-deep-current-200: var(--deep-current-200);\n  --color-deep-current-250: var(--deep-current-250);\n  --color-deep-current-300: var(--deep-current-300);\n  --color-deep-current-350: var(--deep-current-350);\n  --color-deep-current-400: var(--deep-current-400);\n  --color-deep-current-450: var(--deep-current-450);\n  --color-deep-current-500: var(--deep-current-500);\n  --color-deep-current-550: var(--deep-current-550);\n  --color-deep-current-600: var(--deep-current-600);\n  --color-deep-current-650: var(--deep-current-650);\n  --color-deep-current-700: var(--deep-current-700);\n  --color-deep-current-750: var(--deep-current-750);\n  --color-deep-current-800: var(--deep-current-800);\n  --color-deep-current-850: var(--deep-current-850);\n  --color-deep-current-900: var(--deep-current-900);\n  --color-deep-current-950: var(--deep-current-950);\n  --color-deep-current-1000: var(--deep-current-1000);\n  --color-deep-current-1050: var(--deep-current-1050);\n  --color-blue-red-50: var(--blue-red-50);\n  --color-blue-red-100: var(--blue-red-100);\n  --color-blue-red-150: var(--blue-red-150);\n  --color-blue-red-200: var(--blue-red-200);\n  --color-blue-red-250: var(--blue-red-250);\n  --color-blue-red-300: var(--blue-red-300);\n  --color-blue-red-350: var(--blue-red-350);\n  --color-blue-red-400: var(--blue-red-400);\n  --color-blue-red-450: var(--blue-red-450);\n  --color-blue-red-500: var(--blue-red-500);\n  --color-blue-red-550: var(--blue-red-550);\n  --color-blue-red-600: var(--blue-red-600);\n  --color-blue-red-650: var(--blue-red-650);\n  --color-blue-red-700: var(--blue-red-700);\n  --color-blue-red-750: var(--blue-red-750);\n  --color-blue-red-800: var(--blue-red-800);\n  --color-blue-red-850: var(--blue-red-850);\n  --color-blue-red-900: var(--blue-red-900);\n  --color-blue-red-950: var(--blue-red-950);\n  --color-blue-red-1000: var(--blue-red-1000);\n  --color-blue-orange-50: var(--blue-orange-50);\n  --color-blue-orange-100: var(--blue-orange-100);\n  --color-blue-orange-150: var(--blue-orange-150);\n  --color-blue-orange-200: var(--blue-orange-200);\n  --color-blue-orange-250: var(--blue-orange-250);\n  --color-blue-orange-300: var(--blue-orange-300);\n  --color-blue-orange-350: var(--blue-orange-350);\n  --color-blue-orange-400: var(--blue-orange-400);\n  --color-blue-orange-450: var(--blue-orange-450);\n  --color-blue-orange-500: var(--blue-orange-500);\n  --color-blue-orange-550: var(--blue-orange-550);\n  --color-blue-orange-600: var(--blue-orange-600);\n  --color-blue-orange-650: var(--blue-orange-650);\n  --color-blue-orange-700: var(--blue-orange-700);\n  --color-blue-orange-750: var(--blue-orange-750);\n  --color-blue-orange-800: var(--blue-orange-800);\n  --color-blue-orange-850: var(--blue-orange-850);\n  --color-blue-orange-900: var(--blue-orange-900);\n  --color-blue-orange-950: var(--blue-orange-950);\n  --color-blue-orange-1000: var(--blue-orange-1000);\n  --color-purple-yellow-50: var(--purple-yellow-50);\n  --color-purple-yellow-100: var(--purple-yellow-100);\n  --color-purple-yellow-150: var(--purple-yellow-150);\n  --color-purple-yellow-200: var(--purple-yellow-200);\n  --color-purple-yellow-250: var(--purple-yellow-250);\n  --color-purple-yellow-300: var(--purple-yellow-300);\n  --color-purple-yellow-350: var(--purple-yellow-350);\n  --color-purple-yellow-400: var(--purple-yellow-400);\n  --color-purple-yellow-450: var(--purple-yellow-450);\n  --color-purple-yellow-500: var(--purple-yellow-500);\n  --color-purple-yellow-550: var(--purple-yellow-550);\n  --color-purple-yellow-600: var(--purple-yellow-600);\n  --color-purple-yellow-650: var(--purple-yellow-650);\n  --color-purple-yellow-700: var(--purple-yellow-700);\n  --color-purple-yellow-750: var(--purple-yellow-750);\n  --color-purple-yellow-800: var(--purple-yellow-800);\n  --color-purple-yellow-850: var(--purple-yellow-850);\n  --color-purple-yellow-900: var(--purple-yellow-900);\n  --color-purple-yellow-950: var(--purple-yellow-950);\n  --color-purple-yellow-1000: var(--purple-yellow-1000);\n  --color-fuchsia-teal-50: var(--fuchsia-teal-50);\n  --color-fuchsia-teal-100: var(--fuchsia-teal-100);\n  --color-fuchsia-teal-150: var(--fuchsia-teal-150);\n  --color-fuchsia-teal-200: var(--fuchsia-teal-200);\n  --color-fuchsia-teal-250: var(--fuchsia-teal-250);\n  --color-fuchsia-teal-300: var(--fuchsia-teal-300);\n  --color-fuchsia-teal-350: var(--fuchsia-teal-350);\n  --color-fuchsia-teal-400: var(--fuchsia-teal-400);\n  --color-fuchsia-teal-450: var(--fuchsia-teal-450);\n  --color-fuchsia-teal-500: var(--fuchsia-teal-500);\n  --color-fuchsia-teal-550: var(--fuchsia-teal-550);\n  --color-fuchsia-teal-600: var(--fuchsia-teal-600);\n  --color-fuchsia-teal-650: var(--fuchsia-teal-650);\n  --color-fuchsia-teal-700: var(--fuchsia-teal-700);\n  --color-fuchsia-teal-750: var(--fuchsia-teal-750);\n  --color-fuchsia-teal-800: var(--fuchsia-teal-800);\n  --color-fuchsia-teal-850: var(--fuchsia-teal-850);\n  --color-fuchsia-teal-900: var(--fuchsia-teal-900);\n  --color-fuchsia-teal-950: var(--fuchsia-teal-950);\n  --color-fuchsia-teal-1000: var(--fuchsia-teal-1000);\n}\n\n:root {\n  --ember-50: rgb(34, 39, 43);\n  --ember-100: rgb(28, 42, 59);\n  --ember-150: rgb(28, 42, 76);\n  --ember-200: rgb(37, 38, 92);\n  --ember-250: rgb(51, 31, 104);\n  --ember-300: rgb(68, 17, 112);\n  --ember-350: rgb(97, 17, 117);\n  --ember-400: rgb(128, 15, 115);\n  --ember-450: rgb(159, 9, 106);\n  --ember-500: rgb(188, 7, 88);\n  --ember-550: rgb(215, 21, 58);\n  --ember-600: rgb(222, 43, 52);\n  --ember-650: rgb(228, 59, 46);\n  --ember-700: rgb(233, 73, 39);\n  --ember-750: rgb(238, 86, 33);\n  --ember-800: rgb(243, 99, 27);\n  --ember-850: rgb(247, 115, 0);\n  --ember-900: rgb(249, 130, 0);\n  --ember-950: rgb(251, 145, 0);\n  --ember-1000: rgb(251, 160, 0);\n  --ember-1050: rgb(250, 175, 5);\n  --earthfire-50: rgb(82, 55, 25);\n  --earthfire-100: rgb(95, 54, 13);\n  --earthfire-150: rgb(108, 51, 0);\n  --earthfire-200: rgb(122, 46, 0);\n  --earthfire-250: rgb(135, 38, 0);\n  --earthfire-300: rgb(148, 27, 0);\n  --earthfire-350: rgb(167, 42, 5);\n  --earthfire-400: rgb(185, 56, 11);\n  --earthfire-450: rgb(204, 70, 17);\n  --earthfire-500: rgb(224, 85, 22);\n  --earthfire-550: rgb(243, 99, 27);\n  --earthfire-600: rgb(247, 115, 0);\n  --earthfire-650: rgb(249, 130, 0);\n  --earthfire-700: rgb(251, 145, 0);\n  --earthfire-750: rgb(251, 160, 0);\n  --earthfire-800: rgb(250, 175, 5);\n  --earthfire-850: rgb(250, 187, 59);\n  --earthfire-900: rgb(250, 199, 87);\n  --earthfire-950: rgb(251, 210, 111);\n  --earthfire-1000: rgb(252, 221, 133);\n  --earthfire-1050: rgb(253, 231, 154);\n  --fuchsia-heat-50: rgb(101, 0, 77);\n  --fuchsia-heat-100: rgb(123, 2, 95);\n  --fuchsia-heat-150: rgb(146, 4, 114);\n  --fuchsia-heat-200: rgb(169, 8, 133);\n  --fuchsia-heat-250: rgb(193, 13, 153);\n  --fuchsia-heat-300: rgb(217, 18, 174);\n  --fuchsia-heat-350: rgb(230, 30, 146);\n  --fuchsia-heat-400: rgb(240, 45, 119);\n  --fuchsia-heat-450: rgb(245, 62, 91);\n  --fuchsia-heat-500: rgb(246, 80, 62);\n  --fuchsia-heat-550: rgb(243, 99, 27);\n  --fuchsia-heat-600: rgb(247, 115, 0);\n  --fuchsia-heat-650: rgb(249, 130, 0);\n  --fuchsia-heat-700: rgb(251, 145, 0);\n  --fuchsia-heat-750: rgb(251, 160, 0);\n  --fuchsia-heat-800: rgb(250, 175, 5);\n  --fuchsia-heat-850: rgb(250, 187, 59);\n  --fuchsia-heat-900: rgb(250, 199, 87);\n  --fuchsia-heat-950: rgb(251, 210, 111);\n  --fuchsia-heat-1000: rgb(252, 221, 133);\n  --fuchsia-heat-1050: rgb(253, 231, 154);\n  --polar-glow-50: rgb(0, 38, 100);\n  --polar-glow-100: rgb(1, 51, 128);\n  --polar-glow-150: rgb(3, 65, 158);\n  --polar-glow-200: rgb(7, 79, 189);\n  --polar-glow-250: rgb(13, 93, 220);\n  --polar-glow-300: rgb(20, 108, 253);\n  --polar-glow-350: rgb(0, 119, 231);\n  --polar-glow-400: rgb(0, 126, 208);\n  --polar-glow-450: rgb(0, 130, 184);\n  --polar-glow-500: rgb(0, 130, 162);\n  --polar-glow-550: rgb(46, 128, 142);\n  --polar-glow-600: rgb(66, 146, 159);\n  --polar-glow-650: rgb(84, 163, 176);\n  --polar-glow-700: rgb(103, 182, 193);\n  --polar-glow-750: rgb(121, 200, 211);\n  --polar-glow-800: rgb(140, 219, 229);\n  --polar-glow-850: rgb(154, 223, 229);\n  --polar-glow-900: rgb(169, 227, 229);\n  --polar-glow-950: rgb(182, 231, 230);\n  --polar-glow-1000: rgb(196, 235, 231);\n  --polar-glow-1050: rgb(209, 238, 234);\n  --glacier-pool-50: rgb(68, 17, 112);\n  --glacier-pool-100: rgb(81, 30, 136);\n  --glacier-pool-150: rgb(93, 43, 161);\n  --glacier-pool-200: rgb(106, 57, 187);\n  --glacier-pool-250: rgb(117, 70, 214);\n  --glacier-pool-300: rgb(128, 85, 241);\n  --glacier-pool-350: rgb(115, 89, 246);\n  --glacier-pool-400: rgb(100, 94, 250);\n  --glacier-pool-450: rgb(83, 98, 252);\n  --glacier-pool-500: rgb(60, 103, 253);\n  --glacier-pool-550: rgb(20, 108, 253);\n  --glacier-pool-600: rgb(0, 137, 255);\n  --glacier-pool-650: rgb(12, 162, 255);\n  --glacier-pool-700: rgb(59, 185, 255);\n  --glacier-pool-750: rgb(100, 205, 255);\n  --glacier-pool-800: rgb(140, 224, 255);\n  --glacier-pool-850: rgb(154, 227, 255);\n  --glacier-pool-900: rgb(167, 229, 255);\n  --glacier-pool-950: rgb(179, 232, 254);\n  --glacier-pool-1000: rgb(191, 234, 254);\n  --glacier-pool-1050: rgb(203, 237, 253);\n  --deep-current-50: rgb(11, 63, 71);\n  --deep-current-100: rgb(18, 75, 84);\n  --deep-current-150: rgb(25, 88, 98);\n  --deep-current-200: rgb(32, 101, 113);\n  --deep-current-250: rgb(39, 114, 127);\n  --deep-current-300: rgb(46, 128, 142);\n  --deep-current-350: rgb(0, 130, 162);\n  --deep-current-400: rgb(0, 130, 184);\n  --deep-current-450: rgb(0, 126, 208);\n  --deep-current-500: rgb(0, 119, 231);\n  --deep-current-550: rgb(20, 108, 253);\n  --deep-current-600: rgb(0, 137, 255);\n  --deep-current-650: rgb(12, 162, 255);\n  --deep-current-700: rgb(59, 185, 255);\n  --deep-current-750: rgb(100, 205, 255);\n  --deep-current-800: rgb(140, 224, 255);\n  --deep-current-850: rgb(154, 227, 255);\n  --deep-current-900: rgb(167, 229, 255);\n  --deep-current-950: rgb(179, 232, 254);\n  --deep-current-1000: rgb(191, 234, 254);\n  --deep-current-1050: rgb(203, 237, 253);\n  --blue-red-50: rgb(0, 38, 100);\n  --blue-red-100: rgb(1, 51, 128);\n  --blue-red-150: rgb(3, 65, 158);\n  --blue-red-200: rgb(7, 79, 189);\n  --blue-red-250: rgb(13, 93, 220);\n  --blue-red-300: rgb(20, 108, 253);\n  --blue-red-350: rgb(76, 142, 255);\n  --blue-red-400: rgb(121, 172, 255);\n  --blue-red-450: rgb(165, 200, 255);\n  --blue-red-500: rgb(210, 228, 255);\n  --blue-red-550: rgb(254, 215, 214);\n  --blue-red-600: rgb(249, 175, 174);\n  --blue-red-650: rgb(241, 134, 135);\n  --blue-red-700: rgb(229, 89, 97);\n  --blue-red-750: rgb(215, 21, 58);\n  --blue-red-800: rgb(191, 15, 52);\n  --blue-red-850: rgb(167, 10, 45);\n  --blue-red-900: rgb(143, 5, 39);\n  --blue-red-950: rgb(121, 2, 32);\n  --blue-red-1000: rgb(99, 0, 25);\n  --blue-orange-50: rgb(0, 38, 100);\n  --blue-orange-100: rgb(1, 51, 128);\n  --blue-orange-150: rgb(3, 65, 158);\n  --blue-orange-200: rgb(7, 79, 189);\n  --blue-orange-250: rgb(13, 93, 220);\n  --blue-orange-300: rgb(20, 108, 253);\n  --blue-orange-350: rgb(76, 142, 255);\n  --blue-orange-400: rgb(121, 172, 255);\n  --blue-orange-450: rgb(165, 200, 255);\n  --blue-orange-500: rgb(210, 228, 255);\n  --blue-orange-550: rgb(255, 226, 214);\n  --blue-orange-600: rgb(255, 196, 173);\n  --blue-orange-650: rgb(254, 166, 131);\n  --blue-orange-700: rgb(250, 134, 87);\n  --blue-orange-750: rgb(243, 99, 27);\n  --blue-orange-800: rgb(224, 85, 22);\n  --blue-orange-850: rgb(204, 70, 17);\n  --blue-orange-900: rgb(185, 56, 11);\n  --blue-orange-950: rgb(167, 42, 5);\n  --blue-orange-1000: rgb(148, 27, 0);\n  --purple-yellow-50: rgb(68, 17, 112);\n  --purple-yellow-100: rgb(81, 30, 136);\n  --purple-yellow-150: rgb(93, 43, 161);\n  --purple-yellow-200: rgb(106, 57, 187);\n  --purple-yellow-250: rgb(117, 70, 214);\n  --purple-yellow-300: rgb(128, 85, 241);\n  --purple-yellow-350: rgb(150, 123, 247);\n  --purple-yellow-400: rgb(174, 158, 251);\n  --purple-yellow-450: rgb(199, 191, 254);\n  --purple-yellow-500: rgb(227, 223, 255);\n  --purple-yellow-550: rgb(255, 240, 218);\n  --purple-yellow-600: rgb(255, 224, 180);\n  --purple-yellow-650: rgb(254, 208, 139);\n  --purple-yellow-700: rgb(252, 192, 93);\n  --purple-yellow-750: rgb(250, 175, 5);\n  --purple-yellow-800: rgb(219, 153, 3);\n  --purple-yellow-850: rgb(189, 132, 2);\n  --purple-yellow-900: rgb(160, 111, 1);\n  --purple-yellow-950: rgb(132, 91, 0);\n  --purple-yellow-1000: rgb(105, 72, 0);\n  --fuchsia-teal-50: rgb(101, 0, 77);\n  --fuchsia-teal-100: rgb(123, 2, 95);\n  --fuchsia-teal-150: rgb(146, 4, 114);\n  --fuchsia-teal-200: rgb(169, 8, 133);\n  --fuchsia-teal-250: rgb(193, 13, 153);\n  --fuchsia-teal-300: rgb(217, 18, 174);\n  --fuchsia-teal-350: rgb(230, 91, 191);\n  --fuchsia-teal-400: rgb(240, 136, 207);\n  --fuchsia-teal-450: rgb(248, 177, 223);\n  --fuchsia-teal-500: rgb(253, 216, 239);\n  --fuchsia-teal-550: rgb(214, 229, 232);\n  --fuchsia-teal-600: rgb(174, 203, 209);\n  --fuchsia-teal-650: rgb(134, 178, 186);\n  --fuchsia-teal-700: rgb(93, 153, 164);\n  --fuchsia-teal-750: rgb(46, 128, 142);\n  --fuchsia-teal-800: rgb(39, 114, 127);\n  --fuchsia-teal-850: rgb(32, 101, 113);\n  --fuchsia-teal-900: rgb(25, 88, 98);\n  --fuchsia-teal-950: rgb(18, 75, 84);\n  --fuchsia-teal-1000: rgb(11, 63, 71);\n}\n";
 
 // src/tailwind/space/global.css
-var global_exports17 = {};
-__export(global_exports17, {
-  default: () => global_default13
+var global_exports25 = {};
+__export(global_exports25, {
+  default: () => global_default19
 });
-var global_default13 = "@theme {\n  --spacing-0: 0rem;\n  --spacing-1: 0.25rem;\n  --spacing-2: 0.5rem;\n  --spacing-3: 0.75rem;\n  --spacing-4: 1rem;\n  --spacing-5: 1.25rem;\n  --spacing-6: 1.5rem;\n  --spacing-8: 2rem;\n  --spacing-10: 2.5rem;\n  --spacing-12: 3rem;\n  --spacing-14: 3.5rem;\n  --spacing-16: 4rem;\n}\n";
+var global_default19 = "@theme {\n  --spacing-0: 0rem;\n  --spacing-1: 0.25rem;\n  --spacing-2: 0.5rem;\n  --spacing-3: 0.75rem;\n  --spacing-4: 1rem;\n  --spacing-5: 1.25rem;\n  --spacing-6: 1.5rem;\n  --spacing-8: 2rem;\n  --spacing-10: 2.5rem;\n  --spacing-12: 3rem;\n  --spacing-14: 3.5rem;\n  --spacing-16: 4rem;\n}\n";
 
 // src/tailwind/radius/global.css
-var global_exports18 = {};
-__export(global_exports18, {
-  default: () => global_default14
+var global_exports26 = {};
+__export(global_exports26, {
+  default: () => global_default20
 });
-var global_default14 = "@theme {\n  --radius-none: 0px;\n  --radius-sm: 4px;\n  --radius-md: 8px;\n  --radius-lg: 16px;\n  --radius-pill: 9999px;\n}\n";
+var global_default20 = "@theme {\n  --radius-none: 0px;\n  --radius-sm: 4px;\n  --radius-md: 8px;\n  --radius-lg: 16px;\n  --radius-pill: 9999px;\n}\n";
 
 // src/tailwind/breakpoints/global.css
-var global_exports19 = {};
-__export(global_exports19, {
-  default: () => global_default15
+var global_exports27 = {};
+__export(global_exports27, {
+  default: () => global_default21
 });
-var global_default15 = "@theme {\n  --breakpoint-xs: 480px;\n  --breakpoint-sm: 768px;\n  --breakpoint-md: 992px;\n  --breakpoint-lg: 1200px;\n  --breakpoint-xl: 1600px;\n}\n";
+var global_default21 = "@theme {\n  --breakpoint-xs: 480px;\n  --breakpoint-sm: 768px;\n  --breakpoint-md: 992px;\n  --breakpoint-lg: 1200px;\n  --breakpoint-xl: 1600px;\n}\n";
 
 // src/tailwind/typography/global.css
-var global_exports20 = {};
-__export(global_exports20, {
-  default: () => global_default16
+var global_exports28 = {};
+__export(global_exports28, {
+  default: () => global_default22
 });
-var global_default16 = "@theme {\n  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n  --text-12: 0.75rem;\n  --text-14: 0.875rem;\n  --text-16: 1rem;\n  --text-18: 1.125rem;\n  --text-20: 1.25rem;\n  --text-22: 1.375rem;\n  --text-24: 1.5rem;\n  --text-30: 1.875rem;\n  --text-36: 2.25rem;\n  --text-48: 3rem;\n  --text-56: 3.5rem;\n  --text-64: 4rem;\n  --font-weight-light: 300;\n  --font-weight-regular: 400;\n  --font-weight-medium: 500;\n  --font-weight-semibold: 600;\n  --font-weight-bold: 700;\n  --font-weight-extrabold: 800;\n  --leading-none: 1;\n  --leading-tight: 1.2;\n  --leading-snug: 1.3333333;\n  --leading-base: 1.5;\n  --leading-relaxed: 1.6;\n  --leading-loose: 1.75;\n  --tracking-tight: -0.0125em;\n  --tracking-normal: 0em;\n  --tracking-wide: 0.025em;\n}\n";
+var global_default22 = "@theme {\n  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n  --text-12: 0.75rem;\n  --text-14: 0.875rem;\n  --text-16: 1rem;\n  --text-18: 1.125rem;\n  --text-20: 1.25rem;\n  --text-22: 1.375rem;\n  --text-24: 1.5rem;\n  --text-30: 1.875rem;\n  --text-36: 2.25rem;\n  --text-48: 3rem;\n  --text-56: 3.5rem;\n  --text-64: 4rem;\n  --font-weight-light: 300;\n  --font-weight-regular: 400;\n  --font-weight-medium: 500;\n  --font-weight-semibold: 600;\n  --font-weight-bold: 700;\n  --font-weight-extrabold: 800;\n  --leading-none: 1;\n  --leading-tight: 1.2;\n  --leading-snug: 1.3333333;\n  --leading-base: 1.5;\n  --leading-relaxed: 1.6;\n  --leading-loose: 1.75;\n  --tracking-tight: -0.0125em;\n  --tracking-normal: 0em;\n  --tracking-wide: 0.025em;\n}\n";
+
+// src/tailwind/border/global.css
+var global_exports29 = {};
+__export(global_exports29, {
+  default: () => global_default23
+});
+var global_default23 = "@theme {\n  --border-width-thin: 0.0625rem;\n  --border-width-thick: 0.125rem;\n  --border-width-thicker: 0.25rem;\n  --border-width-default: 0.0625rem;\n}\n";
+
+// src/tailwind/shadow/global.css
+var global_exports30 = {};
+__export(global_exports30, {
+  default: () => global_default24
+});
+var global_default24 = "@theme {\n  --inset-shadow-thin: inset 0 0 0 0.0625rem;\n  --inset-shadow-thick: inset 0 0 0 0.125rem;\n  --inset-shadow-thicker: inset 0 0 0 0.25rem;\n}\n";
 
 // src/ts/colors/global/hex.ts
 var hex_exports31 = {};
@@ -47681,8 +47787,8 @@ var fuchsiaTeal8 = {
 };
 
 // src/ts/space/global.ts
-var global_exports21 = {};
-__export(global_exports21, {
+var global_exports31 = {};
+__export(global_exports31, {
   space: () => space2
 });
 var space2 = {
@@ -47701,8 +47807,8 @@ var space2 = {
 };
 
 // src/ts/radius/global.ts
-var global_exports22 = {};
-__export(global_exports22, {
+var global_exports32 = {};
+__export(global_exports32, {
   radius: () => radius2
 });
 var radius2 = {
@@ -47714,8 +47820,8 @@ var radius2 = {
 };
 
 // src/ts/breakpoints/global.ts
-var global_exports23 = {};
-__export(global_exports23, {
+var global_exports33 = {};
+__export(global_exports33, {
   breakpoint: () => breakpoint2
 });
 var breakpoint2 = {
@@ -47727,8 +47833,8 @@ var breakpoint2 = {
 };
 
 // src/ts/typography/global.ts
-var global_exports24 = {};
-__export(global_exports24, {
+var global_exports34 = {};
+__export(global_exports34, {
   fontFamily: () => fontFamily2,
   fontSize: () => fontSize2,
   fontWeight: () => fontWeight2,
@@ -47854,6 +47960,29 @@ var code2 = {
   letterSpacing: "0em"
 };
 
+// src/ts/border/global.ts
+var global_exports35 = {};
+__export(global_exports35, {
+  borderWidth: () => borderWidth2
+});
+var borderWidth2 = {
+  thin: "0.0625rem",
+  thick: "0.125rem",
+  thicker: "0.25rem",
+  default: "0.0625rem"
+};
+
+// src/ts/shadow/global.ts
+var global_exports36 = {};
+__export(global_exports36, {
+  boxShadow: () => boxShadow2
+});
+var boxShadow2 = {
+  thin: "inset 0 0 0 0.0625rem",
+  thick: "inset 0 0 0 0.125rem",
+  thicker: "inset 0 0 0 0.25rem"
+};
+
 // src/index.ts
 var globalColorHex = require_hex();
 var globalColorHsl = require_hsl();
@@ -47908,6 +48037,8 @@ var radiusJsonGlobal = require_global2();
 var breakpointsJsonGlobal = require_global3();
 var typographyJsonGlobal = require_global4();
 var typographyJsonSemantic = require_semantic();
+var borderJsonGlobal = require_global5();
+var shadowJsonGlobal = require_global6();
 var tokens = {
   colors: {
     global: { hex: globalColorHex, hsl: globalColorHsl, oklch: globalColorOklch, rgb: globalColorRgb },
@@ -47931,7 +48062,9 @@ var tokens = {
     space: { global: global_exports },
     radius: { global: global_exports2 },
     breakpoints: { global: global_exports3 },
-    typography: { global: global_exports4, semantic: semantic_exports }
+    typography: { global: global_exports4, semantic: semantic_exports },
+    border: { global: global_exports5 },
+    shadow: { global: global_exports6 }
   },
   js: {
     global: { hex: hex_exports7, hsl: hsl_exports7, oklch: oklch_exports7, rgb: rgb_exports7 },
@@ -47942,10 +48075,12 @@ var tokens = {
       "fuchsia-orange": { hex: hex_exports11, hsl: hsl_exports11, oklch: oklch_exports11, rgb: rgb_exports11 },
       "data-visualisation": { hex: hex_exports12, hsl: hsl_exports12, oklch: oklch_exports12, rgb: rgb_exports12 }
     },
-    space: { global: global_exports5 },
-    radius: { global: global_exports6 },
-    breakpoints: { global: global_exports7 },
-    typography: { global: global_exports8, semantic: semantic_exports2 }
+    space: { global: global_exports7 },
+    radius: { global: global_exports8 },
+    breakpoints: { global: global_exports9 },
+    typography: { global: global_exports10, semantic: semantic_exports2 },
+    border: { global: global_exports11 },
+    shadow: { global: global_exports12 }
   },
   json: {
     global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb },
@@ -47959,7 +48094,9 @@ var tokens = {
     space: { global: spaceJsonGlobal },
     radius: { global: radiusJsonGlobal },
     breakpoints: { global: breakpointsJsonGlobal },
-    typography: { global: typographyJsonGlobal, semantic: typographyJsonSemantic }
+    typography: { global: typographyJsonGlobal, semantic: typographyJsonSemantic },
+    border: { global: borderJsonGlobal },
+    shadow: { global: shadowJsonGlobal }
   },
   less: {
     global: { hex: hex_exports13, hsl: hsl_exports13, oklch: oklch_exports13, rgb: rgb_exports13 },
@@ -47970,10 +48107,12 @@ var tokens = {
       "fuchsia-orange": { hex: hex_exports17, hsl: hsl_exports17, oklch: oklch_exports17, rgb: rgb_exports17 },
       "data-visualisation": { hex: hex_exports18, hsl: hsl_exports18, oklch: oklch_exports18, rgb: rgb_exports18 }
     },
-    space: { global: global_exports9 },
-    radius: { global: global_exports10 },
-    breakpoints: { global: global_exports11 },
-    typography: { global: global_exports12, semantic: semantic_exports3 }
+    space: { global: global_exports13 },
+    radius: { global: global_exports14 },
+    breakpoints: { global: global_exports15 },
+    typography: { global: global_exports16, semantic: semantic_exports3 },
+    border: { global: global_exports17 },
+    shadow: { global: global_exports18 }
   },
   scss: {
     global: { hex: hex_exports19, hsl: hsl_exports19, oklch: oklch_exports19, rgb: rgb_exports19 },
@@ -47984,10 +48123,12 @@ var tokens = {
       "fuchsia-orange": { hex: hex_exports23, hsl: hsl_exports23, oklch: oklch_exports23, rgb: rgb_exports23 },
       "data-visualisation": { hex: hex_exports24, hsl: hsl_exports24, oklch: oklch_exports24, rgb: rgb_exports24 }
     },
-    space: { global: global_exports13 },
-    radius: { global: global_exports14 },
-    breakpoints: { global: global_exports15 },
-    typography: { global: global_exports16, semantic: semantic_exports4 }
+    space: { global: global_exports19 },
+    radius: { global: global_exports20 },
+    breakpoints: { global: global_exports21 },
+    typography: { global: global_exports22, semantic: semantic_exports4 },
+    border: { global: global_exports23 },
+    shadow: { global: global_exports24 }
   },
   tailwind: {
     global: { hex: hex_exports25, hsl: hsl_exports25, oklch: oklch_exports25, rgb: rgb_exports25 },
@@ -47998,10 +48139,12 @@ var tokens = {
       "fuchsia-orange": { hex: hex_exports29, hsl: hsl_exports29, oklch: oklch_exports29, rgb: rgb_exports29 },
       "data-visualisation": { hex: hex_exports30, hsl: hsl_exports30, oklch: oklch_exports30, rgb: rgb_exports30 }
     },
-    space: { global: global_exports17 },
-    radius: { global: global_exports18 },
-    breakpoints: { global: global_exports19 },
-    typography: { global: global_exports20 }
+    space: { global: global_exports25 },
+    radius: { global: global_exports26 },
+    breakpoints: { global: global_exports27 },
+    typography: { global: global_exports28 },
+    border: { global: global_exports29 },
+    shadow: { global: global_exports30 }
   },
   ts: {
     global: { hex: hex_exports31, hsl: hsl_exports31, oklch: oklch_exports31, rgb: rgb_exports31 },
@@ -48012,10 +48155,12 @@ var tokens = {
       "fuchsia-orange": { hex: hex_exports35, hsl: hsl_exports35, oklch: oklch_exports35, rgb: rgb_exports35 },
       "data-visualisation": { hex: hex_exports36, hsl: hsl_exports36, oklch: oklch_exports36, rgb: rgb_exports36 }
     },
-    space: { global: global_exports21 },
-    radius: { global: global_exports22 },
-    breakpoints: { global: global_exports23 },
-    typography: { global: global_exports24, semantic: semantic_exports5 }
+    space: { global: global_exports31 },
+    radius: { global: global_exports32 },
+    breakpoints: { global: global_exports33 },
+    typography: { global: global_exports34, semantic: semantic_exports5 },
+    border: { global: global_exports35 },
+    shadow: { global: global_exports36 }
   }
 };
 var colorTokens = tokens.colors;

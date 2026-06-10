@@ -31,6 +31,7 @@ import {
   colorFunction,
   dimensionString,
   fontFamilyString,
+  shadowString,
 } from './formats.mjs'
 
 const OUT = 'build/.sd-out/'
@@ -137,13 +138,29 @@ const CATEGORIES = [
       'letter-spacing': 'tracking',
     },
   },
+  // No native Tailwind v4 border-width namespace; the vars still emit from @theme as
+  // plain custom properties for arbitrary-value usage.
+  { key: 'border', tailwindNamespace: 'border-width' },
+  {
+    key: 'shadow',
+    // The current box-shadow tokens are inset rings — Tailwind v4's inset-shadow-*
+    // namespace generates the matching utilities.
+    tailwindNamespace: 'inset-shadow',
+    // spread aliases {border-width.*} (first cross-category alias) — load the border
+    // canonical so SD can resolve it; the filter keeps border tokens out of these files.
+    extraSources: ['tokens/global/border/canonical.json'],
+  },
 ]
 
 // DTCG dimension object ({value, unit}) -> "0.25rem" string for every string output.
+// The object-shape guard matters for alias tokens (border-width.default): by the time the
+// transitive transform reaches them, the alias has resolved to the TARGET's already-
+// transformed string — which must pass through untouched, not be re-transformed.
 const dimensionTransform = {
   type: 'value',
   transitive: true,
-  filter: (token) => token.$type === 'dimension',
+  filter: (token) =>
+    token.$type === 'dimension' && typeof token.$value === 'object' && token.$value !== null,
   transform: (token) => dimensionString(token.$value),
 }
 
@@ -165,16 +182,39 @@ const letterSpacingEmTransform = {
   transform: (token) => `${token.$value}em`,
 }
 
+// DTCG shadow composite -> CSS box-shadow string (sub-aliases already resolved by SD;
+// a missing color renders with currentColor by design).
+const shadowTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) => token.$type === 'shadow',
+  transform: (token) => shadowString(token.$value),
+}
+
 const makeCategoryConfig = (category) => {
+  // Categories with extraSources (shadow -> border) need a filter so the alias-resolution
+  // sources don't re-emit into this category's files.
+  const filter = category.extraSources
+    ? fromFile(`/global/${category.key}/canonical.json`)
+    : undefined
+
   const platform = (destination, format, options) => ({
     buildPath: OUT,
     options: { showFileHeader: false },
-    transforms: ['name/kebab', 'nsw/dimension', 'nsw/font-family', 'nsw/letter-spacing-em'],
-    files: [{ destination, format, ...(options ? { options } : {}) }],
+    transforms: [
+      'name/kebab',
+      'nsw/shadow',
+      'nsw/dimension',
+      'nsw/font-family',
+      'nsw/letter-spacing-em',
+    ],
+    files: [
+      { destination, format, ...(filter ? { filter } : {}), ...(options ? { options } : {}) },
+    ],
   })
 
   return {
-    source: [`tokens/global/${category.key}/canonical.json`],
+    source: [`tokens/global/${category.key}/canonical.json`, ...(category.extraSources ?? [])],
     hooks: {
       formats: {
         'nsw/js': nswJs,
@@ -186,6 +226,7 @@ const makeCategoryConfig = (category) => {
         'nsw/dimension': dimensionTransform,
         'nsw/font-family': fontFamilyTransform,
         'nsw/letter-spacing-em': letterSpacingEmTransform,
+        'nsw/shadow': shadowTransform,
       },
     },
     platforms: {

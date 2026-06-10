@@ -28,6 +28,9 @@ const documentedSpecifiers = [
   '@nswds/tokens/tailwind/typography/global.css',
   // Phase 4c semantic typography composites
   '@nswds/tokens/css/typography/semantic.css',
+  // Phase 4d border + shadow
+  '@nswds/tokens/css/border/global.css',
+  '@nswds/tokens/tailwind/shadow/global.css',
 ]
 
 const run = (command, args, options = {}) => {

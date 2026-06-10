@@ -1,0 +1,5 @@
+@theme {
+  --inset-shadow-thin: inset 0 0 0 0.0625rem;
+  --inset-shadow-thick: inset 0 0 0 0.125rem;
+  --inset-shadow-thicker: inset 0 0 0 0.25rem;
+}

@@ -1,0 +1,64 @@
+{
+  "box-shadow": {
+    "thin": {
+      "$type": "shadow",
+      "$description": "Thin inset ring (inset 0 0 0 border-width.thin) — border-via-shadow that does not affect layout; renders with currentColor.",
+      "$value": {
+        "inset": true,
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": "{border-width.thin}"
+      }
+    },
+    "thick": {
+      "$type": "shadow",
+      "$description": "Thick inset ring (inset 0 0 0 border-width.thick) — emphasis/selected outline; renders with currentColor.",
+      "$value": {
+        "inset": true,
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": "{border-width.thick}"
+      }
+    },
+    "thicker": {
+      "$type": "shadow",
+      "$description": "Thicker inset ring (inset 0 0 0 border-width.thicker) — focus indication; renders with currentColor.",
+      "$value": {
+        "inset": true,
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": "{border-width.thicker}"
+      }
+    }
+  }
+}

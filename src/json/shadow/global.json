@@ -1,0 +1,7 @@
+{
+  "box-shadow": {
+    "box-shadow-thin": "inset 0 0 0 0.0625rem",
+    "box-shadow-thick": "inset 0 0 0 0.125rem",
+    "box-shadow-thicker": "inset 0 0 0 0.25rem"
+  }
+}

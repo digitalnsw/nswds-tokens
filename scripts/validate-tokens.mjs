@@ -215,6 +215,49 @@ const COMPOSITE_FIELD_TYPES = {
   lineHeight: 'number',
 }
 
+// DTCG shadow composite (Phase 4d): object or layered array. Lengths are dimension
+// objects or {alias}es to dimension tokens. `color` is OPTIONAL here — a deliberate
+// deviation from strict DTCG: a colourless CSS box-shadow renders with currentColor,
+// which is exactly how the inset ring tokens are designed. `inset` is an optional bool.
+const SHADOW_LENGTH_FIELDS = ['offsetX', 'offsetY', 'blur', 'spread']
+const checkShadowComposite = (label, path, leaf) => {
+  if (leaf.$type !== 'shadow') return []
+  const layers = Array.isArray(leaf.$value) ? leaf.$value : [leaf.$value]
+  const pending = []
+  layers.forEach((layer, i) => {
+    const at = layers.length > 1 ? `${path}[${i}]` : path
+    if (!layer || typeof layer !== 'object') {
+      errors.push(`${label} ${at}: shadow layer must be an object`)
+      return
+    }
+    for (const field of SHADOW_LENGTH_FIELDS) {
+      const sub = layer[field]
+      if (sub === undefined) {
+        errors.push(`${label} ${at}: shadow layer is missing "${field}"`)
+        continue
+      }
+      const target = typeof sub === 'string' ? (sub.match(ALIAS_PATTERN)?.[1] ?? null) : null
+      if (target) {
+        pending.push({ label, path: `${at}.${field}`, field: 'shadowLength', target })
+      } else if (!sub || typeof sub !== 'object' || typeof sub.value !== 'number') {
+        errors.push(`${label} ${at}: shadow "${field}" must be a dimension object or an {alias}`)
+      } else if (!['px', 'rem'].includes(sub.unit)) {
+        errors.push(`${label} ${at}: shadow "${field}" unit "${sub.unit}" (px or rem)`)
+      }
+    }
+    if ('inset' in layer && typeof layer.inset !== 'boolean')
+      errors.push(`${label} ${at}: shadow "inset" must be a boolean`)
+    if ('color' in layer) {
+      const target =
+        typeof layer.color === 'string' ? (layer.color.match(ALIAS_PATTERN)?.[1] ?? null) : null
+      if (target) pending.push({ label, path: `${at}.color`, field: 'shadowColor', target })
+      else if (typeof layer.color !== 'string')
+        errors.push(`${label} ${at}: shadow "color" must be an {alias} or a colour string`)
+    }
+  })
+  return pending
+}
+
 {
   const files = categoryFiles()
   const namespace = {}
@@ -233,6 +276,7 @@ const COMPOSITE_FIELD_TYPES = {
       checkDimensionShape(label, tokenPath, leaf)
       checkTypographyShapes(label, tokenPath, leaf)
       pendingCompositeAliases.push(...checkTypographyComposite(label, tokenPath, leaf))
+      pendingCompositeAliases.push(...checkShadowComposite(label, tokenPath, leaf))
 
       const serialized = JSON.stringify(leaf.$value)
       const prior = namespace[tokenPath]
@@ -266,7 +310,12 @@ const COMPOSITE_FIELD_TYPES = {
       errors.push(`${label}: unresolved alias "{${target}}" referenced by "${path}"`)
       continue
     }
-    const expected = COMPOSITE_FIELD_TYPES[field]
+    const expected =
+      field === 'shadowLength'
+        ? 'dimension'
+        : field === 'shadowColor'
+          ? 'color'
+          : COMPOSITE_FIELD_TYPES[field]
     if (leaf.$type !== expected) {
       errors.push(
         `${label} ${path}: alias "{${target}}" resolves to a "${leaf.$type}" token; ${field} requires "${expected}"`,

@@ -114,6 +114,14 @@ declare namespace typographyCssSemantic {
   export {  };
 }
 
+declare namespace borderCssGlobal {
+  export {  };
+}
+
+declare namespace shadowCssGlobal {
+  export {  };
+}
+
 declare const nswGrey$7: {
     50: string;
     100: string;
@@ -3940,6 +3948,28 @@ declare namespace typographyJsSemantic {
   export { body$1 as body, bodySm$1 as bodySm, caption$1 as caption, code$1 as code, heading1$1 as heading1, heading2$1 as heading2, heading3$1 as heading3, heading4$1 as heading4, lead$1 as lead };
 }
 
+declare namespace borderWidth$1 {
+    export let thin: string;
+    export let thick: string;
+    export let thicker: string;
+    let _default: string;
+    export { _default as default };
+}
+
+declare namespace borderJsGlobal {
+  export { borderWidth$1 as borderWidth };
+}
+
+declare namespace boxShadow$1 {
+    let thin: string;
+    let thick: string;
+    let thicker: string;
+}
+
+declare namespace shadowJsGlobal {
+  export { boxShadow$1 as boxShadow };
+}
+
 declare namespace globalLessHex {
   export {  };
 }
@@ -4053,6 +4083,14 @@ declare namespace typographyLessGlobal {
 }
 
 declare namespace typographyLessSemantic {
+  export {  };
+}
+
+declare namespace borderLessGlobal {
+  export {  };
+}
+
+declare namespace shadowLessGlobal {
   export {  };
 }
 
@@ -4172,6 +4210,14 @@ declare namespace typographyScssSemantic {
   export {  };
 }
 
+declare namespace borderScssGlobal {
+  export {  };
+}
+
+declare namespace shadowScssGlobal {
+  export {  };
+}
+
 declare namespace globalTailwindHex {
   export {  };
 }
@@ -4281,6 +4327,14 @@ declare namespace breakpointsTailwindGlobal {
 }
 
 declare namespace typographyTailwindGlobal {
+  export {  };
+}
+
+declare namespace borderTailwindGlobal {
+  export {  };
+}
+
+declare namespace shadowTailwindGlobal {
   export {  };
 }
 
@@ -8121,6 +8175,29 @@ declare namespace typographyTsSemantic {
   export { typographyTsSemantic_body as body, typographyTsSemantic_bodySm as bodySm, typographyTsSemantic_caption as caption, typographyTsSemantic_code as code, typographyTsSemantic_heading1 as heading1, typographyTsSemantic_heading2 as heading2, typographyTsSemantic_heading3 as heading3, typographyTsSemantic_heading4 as heading4, typographyTsSemantic_lead as lead };
 }
 
+declare const borderWidth: {
+    thin: string;
+    thick: string;
+    thicker: string;
+    default: string;
+};
+
+declare const borderTsGlobal_borderWidth: typeof borderWidth;
+declare namespace borderTsGlobal {
+  export { borderTsGlobal_borderWidth as borderWidth };
+}
+
+declare const boxShadow: {
+    thin: string;
+    thick: string;
+    thicker: string;
+};
+
+declare const shadowTsGlobal_boxShadow: typeof boxShadow;
+declare namespace shadowTsGlobal {
+  export { shadowTsGlobal_boxShadow as boxShadow };
+}
+
 declare const tokens: {
     colors: {
         global: {
@@ -8214,6 +8291,12 @@ declare const tokens: {
             global: typeof typographyCssGlobal;
             semantic: typeof typographyCssSemantic;
         };
+        border: {
+            global: typeof borderCssGlobal;
+        };
+        shadow: {
+            global: typeof shadowCssGlobal;
+        };
     };
     js: {
         global: {
@@ -8266,6 +8349,12 @@ declare const tokens: {
         typography: {
             global: typeof typographyJsGlobal;
             semantic: typeof typographyJsSemantic;
+        };
+        border: {
+            global: typeof borderJsGlobal;
+        };
+        shadow: {
+            global: typeof shadowJsGlobal;
         };
     };
     json: {
@@ -8320,6 +8409,12 @@ declare const tokens: {
             global: any;
             semantic: any;
         };
+        border: {
+            global: any;
+        };
+        shadow: {
+            global: any;
+        };
     };
     less: {
         global: {
@@ -8372,6 +8467,12 @@ declare const tokens: {
         typography: {
             global: typeof typographyLessGlobal;
             semantic: typeof typographyLessSemantic;
+        };
+        border: {
+            global: typeof borderLessGlobal;
+        };
+        shadow: {
+            global: typeof shadowLessGlobal;
         };
     };
     scss: {
@@ -8426,6 +8527,12 @@ declare const tokens: {
             global: typeof typographyScssGlobal;
             semantic: typeof typographyScssSemantic;
         };
+        border: {
+            global: typeof borderScssGlobal;
+        };
+        shadow: {
+            global: typeof shadowScssGlobal;
+        };
     };
     tailwind: {
         global: {
@@ -8477,6 +8584,12 @@ declare const tokens: {
         };
         typography: {
             global: typeof typographyTailwindGlobal;
+        };
+        border: {
+            global: typeof borderTailwindGlobal;
+        };
+        shadow: {
+            global: typeof shadowTailwindGlobal;
         };
     };
     ts: {
@@ -8530,6 +8643,12 @@ declare const tokens: {
         typography: {
             global: typeof typographyTsGlobal;
             semantic: typeof typographyTsSemantic;
+        };
+        border: {
+            global: typeof borderTsGlobal;
+        };
+        shadow: {
+            global: typeof shadowTsGlobal;
         };
     };
 };
@@ -8625,6 +8744,12 @@ declare const cssTokens: {
         global: typeof typographyCssGlobal;
         semantic: typeof typographyCssSemantic;
     };
+    border: {
+        global: typeof borderCssGlobal;
+    };
+    shadow: {
+        global: typeof shadowCssGlobal;
+    };
 };
 declare const jsTokens: {
     global: {
@@ -8677,6 +8802,12 @@ declare const jsTokens: {
     typography: {
         global: typeof typographyJsGlobal;
         semantic: typeof typographyJsSemantic;
+    };
+    border: {
+        global: typeof borderJsGlobal;
+    };
+    shadow: {
+        global: typeof shadowJsGlobal;
     };
 };
 declare const jsonTokens: {
@@ -8731,6 +8862,12 @@ declare const jsonTokens: {
         global: any;
         semantic: any;
     };
+    border: {
+        global: any;
+    };
+    shadow: {
+        global: any;
+    };
 };
 declare const lessTokens: {
     global: {
@@ -8783,6 +8920,12 @@ declare const lessTokens: {
     typography: {
         global: typeof typographyLessGlobal;
         semantic: typeof typographyLessSemantic;
+    };
+    border: {
+        global: typeof borderLessGlobal;
+    };
+    shadow: {
+        global: typeof shadowLessGlobal;
     };
 };
 declare const scssTokens: {
@@ -8837,6 +8980,12 @@ declare const scssTokens: {
         global: typeof typographyScssGlobal;
         semantic: typeof typographyScssSemantic;
     };
+    border: {
+        global: typeof borderScssGlobal;
+    };
+    shadow: {
+        global: typeof shadowScssGlobal;
+    };
 };
 declare const tailwindTokens: {
     global: {
@@ -8888,6 +9037,12 @@ declare const tailwindTokens: {
     };
     typography: {
         global: typeof typographyTailwindGlobal;
+    };
+    border: {
+        global: typeof borderTailwindGlobal;
+    };
+    shadow: {
+        global: typeof shadowTailwindGlobal;
     };
 };
 declare const tsTokens: {
@@ -8941,6 +9096,12 @@ declare const tsTokens: {
     typography: {
         global: typeof typographyTsGlobal;
         semantic: typeof typographyTsSemantic;
+    };
+    border: {
+        global: typeof borderTsGlobal;
+    };
+    shadow: {
+        global: typeof shadowTsGlobal;
     };
 };
 declare const brand: {
