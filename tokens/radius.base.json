@@ -2,42 +2,87 @@
   "radius": {
     "none": {
       "$type": "dimension",
-      "$description": "Square corners — tables, full-bleed surfaces, and elements flush to container edges.",
       "$value": {
         "value": 0,
         "unit": "px"
+      },
+      "$description": "Square corners — tables, full-bleed surfaces, and elements flush to container edges.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "sm": {
       "$type": "dimension",
-      "$description": "Small rounding — inputs, buttons, tags, and compact controls.",
       "$value": {
         "value": 4,
         "unit": "px"
+      },
+      "$description": "Small rounding — inputs, buttons, tags, and compact controls.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "md": {
       "$type": "dimension",
-      "$description": "Medium rounding — cards, panels, and modals.",
       "$value": {
         "value": 8,
         "unit": "px"
+      },
+      "$description": "Medium rounding — cards, panels, and modals.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "lg": {
       "$type": "dimension",
-      "$description": "Large rounding — hero surfaces and prominent containers.",
       "$value": {
         "value": 16,
         "unit": "px"
+      },
+      "$description": "Large rounding — hero surfaces and prominent containers.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "pill": {
       "$type": "dimension",
-      "$description": "Fully rounded ends — pills, badges, and circular icon buttons.",
       "$value": {
         "value": 9999,
         "unit": "px"
+      },
+      "$description": "Fully rounded ends — pills, badges, and circular icon buttons.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     }
   }

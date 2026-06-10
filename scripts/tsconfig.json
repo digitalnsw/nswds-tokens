@@ -1,0 +1,9 @@
+{
+  // Editor project: VS Code's tsserver only auto-discovers files named tsconfig.json,
+  // and the repo root one is scoped to src/** for the tsup bundle — without this,
+  // scripts/*.ts lose the node/vitest type context ("Cannot find name 'process'").
+  // The CI gate (npm run typecheck) uses ../tsconfig.typecheck.json with identical
+  // settings; this just narrows the include for the editor.
+  "extends": "../tsconfig.typecheck.json",
+  "include": ["./**/*.ts"]
+}

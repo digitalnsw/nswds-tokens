@@ -1,0 +1,44 @@
+name: Commit type sync
+
+# Fail the build if the commitlint config and git-conventional-commits.yaml
+# disagree on the allowed commit types. They are read by the same tooling and
+# must stay in lockstep (commitlint is authoritative; the YAML is the fallback).
+
+on:
+  pull_request:
+    paths:
+      - commitlint.config.*
+      - git-conventional-commits.yaml
+      - scripts/conventional-commit-config.sh
+      - scripts/check-commit-types-sync.sh
+  push:
+    branches: [main]
+    paths:
+      - commitlint.config.*
+      - git-conventional-commits.yaml
+      - scripts/conventional-commit-config.sh
+      - scripts/check-commit-types-sync.sh
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node.js
+        # commitlint v21 requires Node >=22.12.0 — pin instead of relying on lts/*.
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      # Install commitlint without touching the repo's manifest so the check
+      # runs the same way in this repo (no package.json) and in consumer repos.
+      - name: Install commitlint
+        run: npm install --no-save @commitlint/cli @commitlint/config-conventional
+
+      - name: Check commit type lists are in sync
+        run: ./scripts/check-commit-types-sync.sh

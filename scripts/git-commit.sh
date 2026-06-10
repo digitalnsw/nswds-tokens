@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Dependencies
-REQUIRED_CMDS=(git jq curl sed grep wc tr head awk cat paste)
+REQUIRED_CMDS=(git jq curl sed grep wc tr head awk cat paste mktemp rm)
 for cmd in "${REQUIRED_CMDS[@]}"; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
     printf "❌ Missing dependency: %s\n" "$cmd"
@@ -30,16 +30,64 @@ fi
 # OpenAI model + output token limit (tunable)
 OPENAI_MODEL="${OPENAI_MODEL:-gpt-4o-mini}"
 OPENAI_MAX_OUTPUT_TOKENS="${OPENAI_MAX_OUTPUT_TOKENS:-250}"
+OPENAI_DIFF_MAX_LINES="${OPENAI_DIFF_MAX_LINES:-1500}"
+OPENAI_DIFF_MAX_BYTES="${OPENAI_DIFF_MAX_BYTES:-120000}"
 
 if ! [[ "$OPENAI_MAX_OUTPUT_TOKENS" =~ ^[1-9][0-9]*$ ]]; then
   printf "❌ OPENAI_MAX_OUTPUT_TOKENS must be a positive integer (>= 1) (got: %s)\n" "$OPENAI_MAX_OUTPUT_TOKENS"
   exit 1
 fi
+
+if ! [[ "$OPENAI_DIFF_MAX_LINES" =~ ^[1-9][0-9]*$ ]]; then
+  printf "❌ OPENAI_DIFF_MAX_LINES must be a positive integer (>= 1) (got: %s)\n" "$OPENAI_DIFF_MAX_LINES"
+  exit 1
+fi
+
+if ! [[ "$OPENAI_DIFF_MAX_BYTES" =~ ^[1-9][0-9]*$ ]]; then
+  printf "❌ OPENAI_DIFF_MAX_BYTES must be a positive integer (>= 1) (got: %s)\n" "$OPENAI_DIFF_MAX_BYTES"
+  exit 1
+fi
+
+TMP_FILES=()
+cleanup_tmp_files() {
+  if [[ ${#TMP_FILES[@]} -gt 0 ]]; then
+    rm -f "${TMP_FILES[@]}"
+  fi
+}
+trap cleanup_tmp_files EXIT
+
+new_tmp_file() {
+  local tmp_file
+  tmp_file="$(mktemp)"
+  TMP_FILES+=("$tmp_file")
+  printf '%s\n' "$tmp_file"
+}
+
 # Use --fail-with-body if available; fall back to --fail for BSD/macOS curl.
 CURL_FAIL_FLAG="--fail-with-body"
 if ! curl --help all 2>/dev/null | grep -q -- '--fail-with-body'; then
   CURL_FAIL_FLAG="--fail"
 fi
+
+# Detect a locally-installed commitlint so we can validate candidate messages
+# against the exact rules the commit-msg hook enforces. When absent (non-Node
+# repo, deps not installed), fall back to the Conventional Commits regex.
+COMMITLINT_AVAILABLE="false"
+if command -v npx >/dev/null 2>&1 && npx --no-install commitlint --version >/dev/null 2>&1; then
+  COMMITLINT_AVAILABLE="true"
+fi
+
+# Returns 0 when the message passes the project's commit rules.
+commit_passes_lint() {
+  local msg="$1"
+  if [[ "$COMMITLINT_AVAILABLE" == "true" ]]; then
+    printf '%s' "$msg" | npx --no-install commitlint >/dev/null 2>&1
+    return
+  fi
+  local subject
+  subject="$(printf '%s\n' "$msg" | sed -n '1p')"
+  [[ "$subject" =~ $CONVENTIONAL_COMMIT_REGEX ]]
+}
 
 # Check current branch
 printf "🔍 Current branch:\n"
@@ -77,11 +125,12 @@ else
 fi
 printf "\n"
 
-# Get staged diff (cap by lines). Avoid materializing the full diff in memory.
+# Get staged diff with line and byte caps. Avoid sending huge prompts to the API.
 TOTAL_LINES="$(git diff --cached | wc -l | tr -d ' ')"
-DIFF="$(git diff --cached | sed -n '1,1500p')"
+DIFF="$(git diff --cached | sed -n "1,${OPENAI_DIFF_MAX_LINES}p" | head -c "$OPENAI_DIFF_MAX_BYTES" || true)"
+DIFF_BYTES="$(printf '%s' "$DIFF" | wc -c | tr -d ' ')"
 TRUNCATED="false"
-if [[ "$TOTAL_LINES" -gt 1500 ]]; then
+if [[ "$TOTAL_LINES" -gt "$OPENAI_DIFF_MAX_LINES" || "$DIFF_BYTES" -ge "$OPENAI_DIFF_MAX_BYTES" ]]; then
   TRUNCATED="true"
 fi
 
@@ -149,7 +198,7 @@ DIFF_REDACTED="$(printf '%s' "$DIFF_REDACTED" | sed -E \
 printf "🧾 Staged diff preview (first 300 lines, redacted):\n"
 head -n 300 <<<"$DIFF_REDACTED"
 if [[ "$TRUNCATED" == "true" ]]; then
-  printf "… (diff truncated to first 1500 lines for the prompt)\n\n"
+  printf "… (diff truncated to first %s lines / %s bytes for the prompt)\n\n" "$OPENAI_DIFF_MAX_LINES" "$OPENAI_DIFF_MAX_BYTES"
 else
   printf "…\n\n"
 fi
@@ -165,9 +214,16 @@ You're an expert developer writing Conventional Commits.
 Task:
 - Suggest ONE git commit message for the staged changes.
 - Format the first line as: type(scope): description  (or type: description)
-- Allowed types: ${CONVENTIONAL_COMMIT_TYPES_CSV}
-- Keep the subject line under ~72 chars if possible.
-- If helpful, include a short body after a blank line (bullets ok).
+- Allowed types (lowercase): ${CONVENTIONAL_COMMIT_TYPES_CSV}
+- Subject rules (enforced by commitlint):
+  - type must be lowercase and from the allowed list
+  - write the description in the imperative mood ("add", not "added"/"adds")
+  - do NOT capitalize the first word of the description
+  - do NOT end the subject with a period
+  - keep the subject <= 100 chars (aim for ~72)
+- If helpful, add a body: leave ONE blank line after the subject, then wrap body
+  lines at <= 100 chars (bullets ok).
+- For a breaking change, use "type!: ..." or a "BREAKING CHANGE: ..." footer.
 - Do NOT use code fences. Do NOT wrap in quotes. Do NOT prefix with "Title:" or similar.
 
 Branch name: ${BRANCH}
@@ -188,9 +244,11 @@ max_attempts=2
 COMMIT_MSG=""
 
 while [[ $attempt -le $max_attempts ]]; do
-  PROMPT_TEXT="$(generate_prompt)"
+  PROMPT_FILE="$(new_tmp_file)"
+  PAYLOAD_FILE="$(new_tmp_file)"
+  generate_prompt >"$PROMPT_FILE"
 
-  JSON_PAYLOAD="$(jq -n --arg prompt "$PROMPT_TEXT" --arg model "$OPENAI_MODEL" --argjson max_output_tokens "${OPENAI_MAX_OUTPUT_TOKENS}" '{
+  jq -n --rawfile prompt "$PROMPT_FILE" --arg model "$OPENAI_MODEL" --argjson max_output_tokens "${OPENAI_MAX_OUTPUT_TOKENS}" '{
     model: $model,
     input: [
       {
@@ -203,13 +261,13 @@ while [[ $attempt -le $max_attempts ]]; do
     ],
     temperature: 0.4,
     max_output_tokens: $max_output_tokens
-  }')"
+  }' >"$PAYLOAD_FILE"
 
   set +e
   RESPONSE="$(curl -sS "$CURL_FAIL_FLAG" https://api.openai.com/v1/responses \
   -H "Authorization: Bearer $OPENAI_API_KEY" \
   -H "Content-Type: application/json" \
-  -d "$JSON_PAYLOAD" 2>&1)"
+  --data-binary @"$PAYLOAD_FILE" 2>&1)"
 curl_status=$?
 set -e
 
@@ -250,20 +308,17 @@ set -e
     exit 1
   fi
 
-  SUBJECT_LINE="$(printf "%s\n" "$COMMIT_MSG" | sed -n '1p')"
-
-  if [[ "$SUBJECT_LINE" =~ $CONVENTIONAL_COMMIT_REGEX ]]; then
+  if commit_passes_lint "$COMMIT_MSG"; then
     break
   fi
 
   attempt=$((attempt + 1))
   if [[ $attempt -le $max_attempts ]]; then
-    printf "⚠️ Model output didn't match Conventional Commits. Retrying (%d/%d)...\n" "$attempt" "$max_attempts"
+    printf "⚠️ Model output failed commit-message validation. Retrying (%d/%d)...\n" "$attempt" "$max_attempts"
   fi
 done
 
-SUBJECT_LINE="$(printf "%s\n" "$COMMIT_MSG" | sed -n '1p')"
-if [[ ! "$SUBJECT_LINE" =~ $CONVENTIONAL_COMMIT_REGEX ]]; then
+if ! commit_passes_lint "$COMMIT_MSG"; then
   printf "⚠️ Still invalid after retries. Using a safe fallback.\n"
   COMMIT_MSG="${DEFAULT_CONVENTIONAL_COMMIT_TYPE}: update"
 fi

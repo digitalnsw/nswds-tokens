@@ -1078,6 +1078,52 @@ describe('generatePostVariablesPayload', () => {
     }).toThrowError('Invalid fontFamily token $value (expected a string, an array of strings')
   })
 
+  it('treats float32-rounded Figma values as equal (sync idempotency)', async () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:7:1': {
+            id: 'VariableCollectionId:7:1',
+            name: 'Typography',
+            modes: [{ modeId: '7:0', name: 'base' }],
+            defaultModeId: '7:0',
+            remote: false,
+            key: 'typographyKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:7:1'],
+          },
+        },
+        variables: {
+          'VariableID:7:1': {
+            id: 'VariableID:7:1',
+            name: 'letter-spacing/wide',
+            key: 'lswide',
+            variableCollectionId: 'VariableCollectionId:7:1',
+            resolvedType: 'FLOAT',
+            // What Figma echoes back for 0.025 (float32 rounding)
+            valuesByMode: { '7:0': 0.02500000037252903 },
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    const tokensByFile = {
+      'typography.base.json': {
+        'letter-spacing/wide': { $type: 'number', $value: 0.025 },
+      },
+    } as unknown as FlattenedTokensByFile
+
+    const result = generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+    expect(result.variableModeValues).toEqual([])
+  })
+
   it('maps dimension tokens to FLOAT variables (rem converted at 16px)', async () => {
     const localVariablesResponse: GetLocalVariablesResponse = {
       status: 200,

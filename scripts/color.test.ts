@@ -98,12 +98,21 @@ describe('rgbToDtcg', () => {
     expect(rgbToDtcg({ r: 0, g: 0, b: 0 }).alpha).toBe(1)
   })
 
-  it('preserves a non-opaque alpha and reflects it in the hex fallback', () => {
+  it('snaps a non-opaque alpha to the 8-bit grid, consistent with the hex fallback', () => {
+    // 0.5 * 255 = 127.5 rounds to the hex byte 0x80 (128) — alpha snaps to the SAME
+    // 128/255 so the numeric field and the hex encoding can never disagree.
     expect(rgbToDtcg({ r: 0, g: 0, b: 0, a: 0.5 })).toEqual({
       colorSpace: 'srgb',
       components: [0, 0, 0],
-      alpha: 0.5,
+      alpha: 128 / 255,
       hex: '#00000080',
+    })
+  })
+
+  it('clamps out-of-range channels before snapping', () => {
+    expect(rgbToDtcg({ r: 1.0000001, g: -0.0000001, b: 0, a: 1.0000001 })).toMatchObject({
+      components: [1, 0, 0],
+      alpha: 1,
     })
   })
 })
@@ -131,11 +140,13 @@ describe('dtcgToRgb', () => {
     })
   })
 
-  it('round-trips with rgbToDtcg', () => {
+  it('round-trips with rgbToDtcg on the 8-bit grid', () => {
     const opaque = { r: 0.3686274509803922, g: 0.8784313725490196, b: 0.8627450980392157 }
     expect(dtcgToRgb(rgbToDtcg(opaque))).toEqual(opaque)
 
-    const translucent = { r: 0.2, g: 0.4, b: 0.6, a: 0.25 }
+    // 0.2 = 51/255 exactly, so the translucent round trip is also exact; alphas off the
+    // 8-bit grid snap to it (see the alpha-snapping case above).
+    const translucent = { r: 0.2, g: 0.4, b: 0.6, a: 0.2 }
     expect(dtcgToRgb(rgbToDtcg(translucent))).toEqual(translucent)
   })
 })

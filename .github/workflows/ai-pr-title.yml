@@ -21,7 +21,7 @@ jobs:
     steps:
       - name: Checkout code
         if: ${{ github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -31,18 +31,44 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          REGEX="$(./conventional-commit-config.sh regex)"
-          TYPES_CSV="$(./conventional-commit-config.sh csv)"
-          DEFAULT_TYPE="$(./conventional-commit-config.sh safe-default)"
+          REGEX="$(./scripts/conventional-commit-config.sh regex)"
+          TYPES_CSV="$(./scripts/conventional-commit-config.sh csv)"
+          DEFAULT_TYPE="$(./scripts/conventional-commit-config.sh safe-default)"
           {
             printf 'regex=%s\n' "$REGEX"
             printf 'types_csv=%s\n' "$TYPES_CSV"
             printf 'default_type=%s\n' "$DEFAULT_TYPE"
           } >> "$GITHUB_OUTPUT"
 
+      - name: Detect commitlint config
+        id: commitlint-config
+        if: ${{ github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          present=false
+          for f in commitlint.config.js commitlint.config.cjs commitlint.config.mjs \
+                   .commitlintrc .commitlintrc.js .commitlintrc.cjs .commitlintrc.json \
+                   .commitlintrc.yml .commitlintrc.yaml; do
+            if [[ -f "$f" ]]; then present=true; echo "Found commitlint config: $f"; break; fi
+          done
+          echo "present=$present" >> "$GITHUB_OUTPUT"
+
+      - name: Setup Node.js
+        # commitlint v21 requires Node >=22.12.0 — pin instead of relying on lts/*.
+        if: ${{ steps.commitlint-config.outputs.present == 'true' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Install commitlint
+        if: ${{ steps.commitlint-config.outputs.present == 'true' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
+        shell: bash
+        run: npm install --no-save --no-fund --no-audit --loglevel=error @commitlint/cli @commitlint/config-conventional
+
       - name: Get Current PR Title
         id: get-pr-title
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const { data: pr } = await github.rest.pulls.get({
@@ -60,6 +86,7 @@ jobs:
           PR_TITLE: ${{ steps.get-pr-title.outputs.pr_title }}
           ORIGINAL_TITLE: ${{ github.event.pull_request.title }}
           CONVENTIONAL_COMMIT_REGEX: ${{ steps.conventional-config.outputs.regex || env.CONVENTIONAL_COMMIT_REGEX_DEFAULT }}
+          USE_COMMITLINT: ${{ steps.commitlint-config.outputs.present }}
         run: |
           set -euo pipefail
 
@@ -68,12 +95,25 @@ jobs:
 
           echo "🔍 Current PR Title: $PR_TITLE"
 
-          if [[ -z "$PR_TITLE" || ! "$PR_TITLE" =~ $REGEX ]]; then
-            echo "❌ PR Title is missing or not in Conventional Commits format."
-            echo "update_needed=true" >> "$GITHUB_OUTPUT"
-          else
+          # Validate with commitlint when it's installed (full ruleset: type-enum,
+          # subject-case, full-stop, header length…), so titles that pass the
+          # regex but violate a commitlint rule are flagged for regeneration —
+          # not just failed at the end. Fall back to the regex otherwise.
+          title_is_valid() {
+            [[ -n "$PR_TITLE" ]] || return 1
+            if [[ "${USE_COMMITLINT:-}" == "true" ]]; then
+              printf '%s' "$PR_TITLE" | npx --no-install commitlint >/dev/null 2>&1
+              return
+            fi
+            [[ "$PR_TITLE" =~ $REGEX ]]
+          }
+
+          if title_is_valid; then
             echo "✅ PR Title is already valid."
             echo "update_needed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "❌ PR Title is missing or not in Conventional Commits format."
+            echo "update_needed=true" >> "$GITHUB_OUTPUT"
           fi
 
           # Preserve the title from the triggering event so we can avoid overwriting a human edit mid-run.
@@ -95,7 +135,7 @@ jobs:
       - name: Get commit messages
         id: commits
         if: ${{ steps.validate-title.outputs.update_needed == 'true' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CONVENTIONAL_COMMIT_REGEX: ${{ steps.conventional-config.outputs.regex || env.CONVENTIONAL_COMMIT_REGEX_DEFAULT }}
         with:
@@ -269,7 +309,7 @@ jobs:
       - name: Update PR Title if Invalid or Empty
         # Gate on having a suggested title; prevents hard-fail when AI didn't run.
         if: ${{ steps.validate-title.outputs.update_needed == 'true' && steps.ai.outputs.title != '' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CONVENTIONAL_COMMIT_REGEX: ${{ steps.conventional-config.outputs.regex || env.CONVENTIONAL_COMMIT_REGEX_DEFAULT }}
         with:
@@ -309,3 +349,30 @@ jobs:
         shell: bash
         run: |
           echo "ℹ️ Update was needed, but no suggested title was available (commit extraction or AI step may have been skipped)."
+
+      # Fetch the title as it stands now (after any update above) so the lint
+      # below reflects what will actually become the squash commit subject.
+      - name: Get final PR title
+        id: final-title
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number
+            });
+            console.log(`Final PR title: "${pr.title}"`);
+            core.setOutput("title", pr.title || "");
+
+      # Reuses Node + commitlint installed earlier; gated on the same detection.
+      # Skips cleanly in repos that haven't adopted commitlint yet.
+      - name: Lint final PR title with commitlint
+        if: ${{ steps.commitlint-config.outputs.present == 'true' && steps.final-title.outputs.title != '' }}
+        shell: bash
+        env:
+          FINAL_TITLE: ${{ steps.final-title.outputs.title }}
+        run: |
+          set -euo pipefail
+          echo "🔍 Linting final PR title against commitlint: $FINAL_TITLE"
+          printf '%s' "$FINAL_TITLE" | npx --no-install commitlint

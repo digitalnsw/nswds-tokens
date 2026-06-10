@@ -20,3 +20,49 @@ export const FIGMA_COLLECTIONS: Record<string, FigmaCollectionRef> = {
   'typography.base.json': { collectionName: 'Typography', modeName: 'base' },
   'border.base.json': { collectionName: 'Border', modeName: 'base' },
 }
+
+// Reverse of FIGMA_COLLECTIONS for the export direction (Figma -> tokens): a manifest-
+// mapped collection regenerates its kebab-case staging file name instead of the raw
+// `${collectionName}.${modeName}.json` (which would produce e.g. "Space.base.json").
+export function fileNameForCollection(collectionName: string, modeName: string): string | null {
+  for (const [fileName, ref] of Object.entries(FIGMA_COLLECTIONS)) {
+    if (ref.collectionName === collectionName && ref.modeName === modeName) return fileName
+  }
+  return null
+}
+
+// Figma variables are unit-less; rem dimensions sync as px at the 16px default root.
+// Single source of truth for BOTH sync directions (token_import multiplies, token_export
+// divides) so the conversion can never drift asymmetric.
+export const FIGMA_REM_PX = 16
+
+// Export-direction value reconstruction. Figma variables are unit-less FLOATs / joined
+// STRINGs; these rules say how each collection's families map back to their DTCG shapes
+// (the same conventions token_import uses on the way in: rem syncs as px at FIGMA_REM_PX,
+// fontFamily stacks join with ", "). Keyed by collection name, then token family (first
+// path segment), with "*" as the family wildcard.
+export type FigmaValueRule =
+  | { $type: 'dimension'; unit: 'px' | 'rem' }
+  | { $type: 'fontFamily' }
+  | { $type: 'fontWeight' }
+  | { $type: 'number' }
+
+export const FIGMA_EXPORT_RULES: Record<string, Record<string, FigmaValueRule>> = {
+  Space: { '*': { $type: 'dimension', unit: 'rem' } },
+  Radius: { '*': { $type: 'dimension', unit: 'px' } },
+  Breakpoints: { '*': { $type: 'dimension', unit: 'px' } },
+  Border: { '*': { $type: 'dimension', unit: 'rem' } },
+  Typography: {
+    'font-size': { $type: 'dimension', unit: 'rem' },
+    'font-family': { $type: 'fontFamily' },
+    'font-weight': { $type: 'fontWeight' },
+    'line-height': { $type: 'number' },
+    'letter-spacing': { $type: 'number' },
+  },
+}
+
+export function exportRuleFor(collectionName: string, family: string): FigmaValueRule | null {
+  const rules = FIGMA_EXPORT_RULES[collectionName]
+  if (!rules) return null
+  return rules[family] ?? rules['*'] ?? null
+}

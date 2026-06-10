@@ -1,0 +1,5 @@
+{
+  // Editor project — see scripts/tsconfig.json for rationale.
+  "extends": "../tsconfig.typecheck.json",
+  "include": ["./**/*.ts"]
+}

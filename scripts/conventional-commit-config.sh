@@ -8,11 +8,8 @@ else
   REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 fi
 CONFIG_FILE="${CONVENTIONAL_CONFIG_FILE:-${REPO_ROOT}/git-conventional-commits.yaml}"
-
-if [[ ! -f "$CONFIG_FILE" ]]; then
-  printf "❌ Conventional commit config not found: %s\n" "$CONFIG_FILE" >&2
-  exit 1
-fi
+# The YAML is only required when we can't read types from commitlint (checked
+# below). A commitlint-only repo with no YAML is valid.
 
 extract_types() {
   awk '
@@ -132,9 +129,59 @@ to_csv() {
   '
 }
 
-types="$(extract_types)"
+# Prefer commitlint's resolved config so the shell tooling enforces exactly the
+# same type list as the commit-msg hook. Requires npx + a locally-installed
+# commitlint + jq. Returns non-zero (and emits nothing) when unavailable, so the
+# caller falls back to the YAML — e.g. in CI before `npm ci`, or non-Node repos.
+extract_types_from_commitlint() {
+  command -v npx >/dev/null 2>&1 || return 1
+  command -v jq >/dev/null 2>&1 || return 1
+  local json
+  json="$(cd "$REPO_ROOT" && npx --no-install commitlint --print-config json 2>/dev/null)" || return 1
+  [[ -n "$json" ]] || return 1
+  printf '%s' "$json" | jq -e -r '
+    .rules["type-enum"] as $r
+    | if ($r and ($r[2] | type) == "array") then $r[2][] else empty end
+  ' 2>/dev/null
+}
+
+# Source selection. Default "auto" prefers commitlint, falls back to YAML.
+# Force a single source with CONVENTIONAL_CONFIG_SOURCE=commitlint|yaml — used by
+# the sync check to read each side independently.
+CONVENTIONAL_CONFIG_SOURCE="${CONVENTIONAL_CONFIG_SOURCE:-auto}"
+types=""
+case "$CONVENTIONAL_CONFIG_SOURCE" in
+  commitlint)
+    types="$(extract_types_from_commitlint || true)"
+    if [[ -z "$types" ]]; then
+      printf "❌ CONVENTIONAL_CONFIG_SOURCE=commitlint but commitlint config is not resolvable.\n" >&2
+      exit 1
+    fi
+    ;;
+  yaml)
+    if [[ ! -f "$CONFIG_FILE" ]]; then
+      printf "❌ CONVENTIONAL_CONFIG_SOURCE=yaml but no YAML at %s\n" "$CONFIG_FILE" >&2
+      exit 1
+    fi
+    types="$(extract_types)"
+    ;;
+  auto)
+    types="$(extract_types_from_commitlint || true)"
+    if [[ -z "$types" ]]; then
+      if [[ ! -f "$CONFIG_FILE" ]]; then
+        printf "❌ No commit types available: commitlint not resolvable and no YAML at %s\n" "$CONFIG_FILE" >&2
+        exit 1
+      fi
+      types="$(extract_types)"
+    fi
+    ;;
+  *)
+    printf "❌ Invalid CONVENTIONAL_CONFIG_SOURCE: %s (expected auto|commitlint|yaml)\n" "$CONVENTIONAL_CONFIG_SOURCE" >&2
+    exit 1
+    ;;
+esac
 if [[ -z "$types" ]]; then
-  printf "❌ No conventional commit types found in %s\n" "$CONFIG_FILE" >&2
+  printf "❌ No conventional commit types found (commitlint config or %s)\n" "$CONFIG_FILE" >&2
   exit 1
 fi
 
@@ -142,7 +189,12 @@ regex_types="$(printf '%s\n' "$types" | escape_regex_types | paste -sd'|' -)"
 regex="^(${regex_types})(\\([^)]*\\))?!?: .+"
 first_type="$(printf '%s\n' "$types" | sed -n '1p')"
 types_csv="$(printf '%s\n' "$types" | to_csv)"
-configured_default_raw="$(extract_config_default || true)"
+# The configured default lives only in the YAML; skip when there's no YAML
+# (commitlint defines no "default type", so we fall through to chore/first below).
+configured_default_raw=""
+if [[ -f "$CONFIG_FILE" ]]; then
+  configured_default_raw="$(extract_config_default || true)"
+fi
 configured_default="$(printf '%s' "$configured_default_raw" | sed -E 's/^["'"'"']+|["'"'"']+$//g')"
 safe_default_type=""
 

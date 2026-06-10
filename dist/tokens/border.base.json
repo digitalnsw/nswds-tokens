@@ -2,32 +2,68 @@
   "border-width": {
     "thin": {
       "$type": "dimension",
-      "$description": "Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.",
       "$value": {
         "value": 0.0625,
         "unit": "rem"
+      },
+      "$description": "Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "thick": {
       "$type": "dimension",
-      "$description": "Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.",
       "$value": {
         "value": 0.125,
         "unit": "rem"
+      },
+      "$description": "Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "thicker": {
       "$type": "dimension",
-      "$description": "Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.",
       "$value": {
         "value": 0.25,
         "unit": "rem"
+      },
+      "$description": "Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "default": {
       "$type": "dimension",
+      "$value": "{border-width.thin}",
       "$description": "Default border width — aliases thin so the system-wide default can be retuned in one place.",
-      "$value": "{border-width.thin}"
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   }
 }

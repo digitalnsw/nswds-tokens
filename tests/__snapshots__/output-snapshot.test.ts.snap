@@ -50308,32 +50308,68 @@ exports[`built output snapshots > dist/tokens/border.base.json 1`] = `
   "border-width": {
     "thin": {
       "$type": "dimension",
-      "$description": "Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.",
       "$value": {
         "value": 0.0625,
         "unit": "rem"
+      },
+      "$description": "Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "thick": {
       "$type": "dimension",
-      "$description": "Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.",
       "$value": {
         "value": 0.125,
         "unit": "rem"
+      },
+      "$description": "Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "thicker": {
       "$type": "dimension",
-      "$description": "Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.",
       "$value": {
         "value": 0.25,
         "unit": "rem"
+      },
+      "$description": "Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "default": {
       "$type": "dimension",
+      "$value": "{border-width.thin}",
       "$description": "Default border width — aliases thin so the system-wide default can be retuned in one place.",
-      "$value": "{border-width.thin}"
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   }
 }
@@ -50345,42 +50381,87 @@ exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
   "breakpoint": {
     "xs": {
       "$type": "dimension",
-      "$description": "Extra-small breakpoint — large phones and up.",
       "$value": {
         "value": 480,
         "unit": "px"
+      },
+      "$description": "Extra-small breakpoint — large phones and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "sm": {
       "$type": "dimension",
-      "$description": "Small breakpoint — tablets portrait and up.",
       "$value": {
         "value": 768,
         "unit": "px"
+      },
+      "$description": "Small breakpoint — tablets portrait and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "md": {
       "$type": "dimension",
-      "$description": "Medium breakpoint — tablets landscape / small laptops and up.",
       "$value": {
         "value": 992,
         "unit": "px"
+      },
+      "$description": "Medium breakpoint — tablets landscape / small laptops and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "lg": {
       "$type": "dimension",
-      "$description": "Large breakpoint — desktops and up.",
       "$value": {
         "value": 1200,
         "unit": "px"
+      },
+      "$description": "Large breakpoint — desktops and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "xl": {
       "$type": "dimension",
-      "$description": "Extra-large breakpoint — wide desktops and up.",
       "$value": {
         "value": 1600,
         "unit": "px"
+      },
+      "$description": "Extra-large breakpoint — wide desktops and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     }
   }
@@ -78446,7 +78527,16 @@ exports[`built output snapshots > dist/tokens/primitives-global.light.json 1`] =
   },
   "white": {
     "$type": "color",
-    "$value": "#ffffff",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#ffffff"
+    },
     "$description": "",
     "$extensions": {
       "com.figma": {
@@ -78460,7 +78550,16 @@ exports[`built output snapshots > dist/tokens/primitives-global.light.json 1`] =
   },
   "black": {
     "$type": "color",
-    "$value": "#000000",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#000000"
+    },
     "$description": "",
     "$extensions": {
       "com.figma": {
@@ -80243,42 +80342,87 @@ exports[`built output snapshots > dist/tokens/radius.base.json 1`] = `
   "radius": {
     "none": {
       "$type": "dimension",
-      "$description": "Square corners — tables, full-bleed surfaces, and elements flush to container edges.",
       "$value": {
         "value": 0,
         "unit": "px"
+      },
+      "$description": "Square corners — tables, full-bleed surfaces, and elements flush to container edges.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "sm": {
       "$type": "dimension",
-      "$description": "Small rounding — inputs, buttons, tags, and compact controls.",
       "$value": {
         "value": 4,
         "unit": "px"
+      },
+      "$description": "Small rounding — inputs, buttons, tags, and compact controls.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "md": {
       "$type": "dimension",
-      "$description": "Medium rounding — cards, panels, and modals.",
       "$value": {
         "value": 8,
         "unit": "px"
+      },
+      "$description": "Medium rounding — cards, panels, and modals.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "lg": {
       "$type": "dimension",
-      "$description": "Large rounding — hero surfaces and prominent containers.",
       "$value": {
         "value": 16,
         "unit": "px"
+      },
+      "$description": "Large rounding — hero surfaces and prominent containers.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "pill": {
       "$type": "dimension",
-      "$description": "Fully rounded ends — pills, badges, and circular icon buttons.",
       "$value": {
         "value": 9999,
         "unit": "px"
+      },
+      "$description": "Fully rounded ends — pills, badges, and circular icon buttons.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     }
   }
@@ -85104,98 +85248,206 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
   "space": {
     "0": {
       "$type": "dimension",
-      "$description": "Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 0,
         "unit": "rem"
+      },
+      "$description": "Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "1": {
       "$type": "dimension",
-      "$description": "Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 0.25,
         "unit": "rem"
+      },
+      "$description": "Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "2": {
       "$type": "dimension",
-      "$description": "Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 0.5,
         "unit": "rem"
+      },
+      "$description": "Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "3": {
       "$type": "dimension",
-      "$description": "Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 0.75,
         "unit": "rem"
+      },
+      "$description": "Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "4": {
       "$type": "dimension",
-      "$description": "Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 1,
         "unit": "rem"
+      },
+      "$description": "Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "5": {
       "$type": "dimension",
-      "$description": "Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 1.25,
         "unit": "rem"
+      },
+      "$description": "Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "6": {
       "$type": "dimension",
-      "$description": "Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 1.5,
         "unit": "rem"
+      },
+      "$description": "Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "8": {
       "$type": "dimension",
-      "$description": "Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 2,
         "unit": "rem"
+      },
+      "$description": "Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "10": {
       "$type": "dimension",
-      "$description": "Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 2.5,
         "unit": "rem"
+      },
+      "$description": "Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "12": {
       "$type": "dimension",
-      "$description": "Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 3,
         "unit": "rem"
+      },
+      "$description": "Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "14": {
       "$type": "dimension",
-      "$description": "Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 3.5,
         "unit": "rem"
+      },
+      "$description": "Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "16": {
       "$type": "dimension",
-      "$description": "Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 4,
         "unit": "rem"
+      },
+      "$description": "Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     }
   }
@@ -106186,7 +106438,6 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
   "font-family": {
     "sans": {
       "$type": "fontFamily",
-      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.",
       "$value": [
         "Public Sans",
         "-apple-system",
@@ -106198,11 +106449,20 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "sans-serif",
         "Apple Color Emoji",
         "Segoe UI Emoji"
-      ]
+      ],
+      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "display": {
       "$type": "fontFamily",
-      "$description": "Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.",
       "$value": [
         "Public Sans",
         "-apple-system",
@@ -106214,11 +106474,20 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "sans-serif",
         "Apple Color Emoji",
         "Segoe UI Emoji"
-      ]
+      ],
+      "$description": "Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "system": {
       "$type": "fontFamily",
-      "$description": "System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.",
       "$value": [
         "Public Sans",
         "-apple-system",
@@ -106230,11 +106499,20 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "sans-serif",
         "Apple Color Emoji",
         "Segoe UI Emoji"
-      ]
+      ],
+      "$description": "System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "mono": {
       "$type": "fontFamily",
-      "$description": "Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.",
       "$value": [
         "JetBrains Mono",
         "ui-monospace",
@@ -106244,186 +106522,439 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "Consolas",
         "Liberation Mono",
         "monospace"
-      ]
+      ],
+      "$description": "Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   },
   "font-size": {
     "12": {
       "$type": "dimension",
-      "$description": "Font size 12px (0.75rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 0.75,
         "unit": "rem"
+      },
+      "$description": "Font size 12px (0.75rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "14": {
       "$type": "dimension",
-      "$description": "Font size 14px (0.875rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 0.875,
         "unit": "rem"
+      },
+      "$description": "Font size 14px (0.875rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "16": {
       "$type": "dimension",
-      "$description": "Font size 16px (1rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 1,
         "unit": "rem"
+      },
+      "$description": "Font size 16px (1rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "18": {
       "$type": "dimension",
-      "$description": "Font size 18px (1.125rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 1.125,
         "unit": "rem"
+      },
+      "$description": "Font size 18px (1.125rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "20": {
       "$type": "dimension",
-      "$description": "Font size 20px (1.25rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 1.25,
         "unit": "rem"
+      },
+      "$description": "Font size 20px (1.25rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "22": {
       "$type": "dimension",
-      "$description": "Font size 22px (1.375rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 1.375,
         "unit": "rem"
+      },
+      "$description": "Font size 22px (1.375rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "24": {
       "$type": "dimension",
-      "$description": "Font size 24px (1.5rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 1.5,
         "unit": "rem"
+      },
+      "$description": "Font size 24px (1.5rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "30": {
       "$type": "dimension",
-      "$description": "Font size 30px (1.875rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 1.875,
         "unit": "rem"
+      },
+      "$description": "Font size 30px (1.875rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "36": {
       "$type": "dimension",
-      "$description": "Font size 36px (2.25rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 2.25,
         "unit": "rem"
+      },
+      "$description": "Font size 36px (2.25rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "48": {
       "$type": "dimension",
-      "$description": "Font size 48px (3rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 3,
         "unit": "rem"
+      },
+      "$description": "Font size 48px (3rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "56": {
       "$type": "dimension",
-      "$description": "Font size 56px (3.5rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 3.5,
         "unit": "rem"
+      },
+      "$description": "Font size 56px (3.5rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "64": {
       "$type": "dimension",
-      "$description": "Font size 64px (4rem) — the step name is the px value at the default root font size.",
       "$value": {
         "value": 4,
         "unit": "rem"
+      },
+      "$description": "Font size 64px (4rem) — the step name is the px value at the default root font size.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     }
   },
   "font-weight": {
     "light": {
       "$type": "fontWeight",
+      "$value": 300,
       "$description": "Light (300) — large display text only; avoid at body sizes for legibility.",
-      "$value": 300
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "regular": {
       "$type": "fontWeight",
+      "$value": 400,
       "$description": "Regular (400) — default body text weight.",
-      "$value": 400
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "medium": {
       "$type": "fontWeight",
+      "$value": 500,
       "$description": "Medium (500) — subtle emphasis, labels, and navigation.",
-      "$value": 500
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "semibold": {
       "$type": "fontWeight",
+      "$value": 600,
       "$description": "Semibold (600) — headings and strong emphasis.",
-      "$value": 600
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "bold": {
       "$type": "fontWeight",
+      "$value": 700,
       "$description": "Bold (700) — highest emphasis; key figures and primary headings.",
-      "$value": 700
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "extrabold": {
       "$type": "fontWeight",
+      "$value": 800,
       "$description": "Extrabold (800) — hero/display headings (the prose scale uses 800 for h1).",
-      "$value": 800
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   },
   "line-height": {
     "none": {
       "$type": "number",
+      "$value": 1,
       "$description": "Solid (1) — display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).",
-      "$value": 1
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "tight": {
       "$type": "number",
+      "$value": 1.2,
       "$description": "Tight (1.2) — large headings (36/30 in the prose scale).",
-      "$value": 1.2
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "snug": {
       "$type": "number",
+      "$value": 1.3333333,
       "$description": "Snug (1.3333333) — mid-size headings (32/24, 40/30 in the prose scale).",
-      "$value": 1.3333333
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "base": {
       "$type": "number",
+      "$value": 1.5,
       "$description": "Base (1.5) — default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.",
-      "$value": 1.5
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "relaxed": {
       "$type": "number",
+      "$value": 1.6,
       "$description": "Relaxed (1.6) — subheadings and lead text (32/20 in the prose scale).",
-      "$value": 1.6
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "loose": {
       "$type": "number",
+      "$value": 1.75,
       "$description": "Loose (1.75) — long-form body text (28/16 in the prose scale).",
-      "$value": 1.75
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   },
   "letter-spacing": {
     "tight": {
       "$type": "number",
+      "$value": -0.0125,
       "$description": "Tight tracking (-0.0125em) — large display headings. Value is an em multiplier; string outputs render it with the em unit.",
-      "$value": -0.0125
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "normal": {
       "$type": "number",
+      "$value": 0,
       "$description": "Normal tracking (0em) — default for body text. Value is an em multiplier; string outputs render it with the em unit.",
-      "$value": 0
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     },
     "wide": {
       "$type": "number",
+      "$value": 0.025,
       "$description": "Wide tracking (0.025em) — small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.",
-      "$value": 0.025
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
     }
   }
 }

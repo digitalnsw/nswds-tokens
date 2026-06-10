@@ -9,6 +9,8 @@ permissions:
 jobs:
   openai-pr-description:
     runs-on: ubuntu-22.04
+    # Skip for fork PRs — secrets are not available there
+    if: github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name
 
     steps:
       - uses: platisd/openai-pr-description@master

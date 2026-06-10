@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import * as path from 'path'
 
 import { colorApproximatelyEqual, dtcgToRgb, isDtcgColor, parseColor } from './color.js'
-import { FIGMA_COLLECTIONS } from './figma-collections.js'
+import { FIGMA_COLLECTIONS, FIGMA_REM_PX } from './figma-collections.js'
 import { areSetsEqual, assertSafeObjectKey, assertSafePathSegment } from './utils.js'
 import { DtcgDimension, Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import {
@@ -141,11 +141,10 @@ function isDtcgDimension(value: unknown): value is DtcgDimension {
 }
 
 // Figma variables are unitless floats; the px convention is what Figma's own UI uses for
-// spacing/radius. rem values convert at the 16px default root font size. The reverse
-// (FLOAT -> dimension on export) is collection-aware and lands with milestone 4e.
-const REM_PX = 16
+// spacing/radius. rem values convert at the shared FIGMA_REM_PX root; token_export's
+// collection-aware reconstruction divides by the same constant.
 function figmaFloatFromDimension(d: DtcgDimension): number {
-  return d.unit === 'rem' ? d.value * REM_PX : d.value
+  return d.unit === 'rem' ? d.value * FIGMA_REM_PX : d.value
 }
 
 function isAlias(value: string) {
@@ -229,6 +228,11 @@ function compareVariableValues(a: VariableValue, b: VariableValue) {
     } else if ('r' in a && 'r' in b) {
       return colorApproximatelyEqual(a, b)
     }
+  } else if (typeof a === 'number' && typeof b === 'number') {
+    // Figma stores FLOATs at float32 precision; we post float64. Without this, values
+    // like 0.025 or 1.3333333 re-post on every sync (the float32 echo never strictly
+    // equals the source) — the numeric analogue of colorApproximatelyEqual.
+    return Math.fround(a) === Math.fround(b)
   } else {
     return a === b
   }

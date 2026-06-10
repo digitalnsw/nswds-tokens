@@ -1,6 +1,6 @@
 # Phase 4 — Non-colour tokens (plan)
 
-Status: **planned** · Decisions locked 2026-06-10 · Predecessors: Phases 0–3 (colour pipeline,
+Status: **complete** (4a–4e shipped) · Decisions locked 2026-06-10 · Predecessors: Phases 0–3 (colour pipeline,
 see [transformer-migration.md](transformer-migration.md))
 
 Adds spacing, typography, radius, shadow (and breakpoints) as first-class DTCG 2025.10 tokens
@@ -99,7 +99,21 @@ Carried in each milestone PR for amendment; shown here so design can preview dir
 | **4b** | typography primitives | Families (Public Sans/mono), sizes, weights, line-heights, letter-spacing; Tailwind font mapping. |
 | **4c** | semantic typography composites | Composite→CSS format (shorthand + per-property). |
 | **4d** | shadow | Composite + cross-category alias validation + `shadow-color` primitives. |
-| **4e** | Figma push | `sync-tokens-to-figma` once the token is rotated; verifies round-trip. |
+| **4e** | Figma push | **Done 2026-06-10.** Pushed 5 collections / 57 variables; round-trip verified in both directions (see runbook below). |
+
+## 4e runbook (executed; repeatable)
+
+1. Rotate the Figma token; update local `.env` **and the GitHub Actions secret** used by
+   the sync workflows.
+2. `npm run sync-tokens-to-figma -- --dry-run` — inspect the payload summary (collections/
+   variables/modeValues by action) before anything is written.
+3. `npm run sync-tokens-to-figma` — the push. CREATEs any missing collections.
+4. Re-run with `--dry-run`: must report "already up to date" (numeric comparison is
+   float32-tolerant — Figma echoes FLOATs at float32 precision).
+5. `npm run sync-figma-to-tokens -- --output tokens_check` and diff against `tokens/` —
+   must be byte-identical (manifest-driven kebab file names + DTCG shape reconstruction:
+   FLOAT→dimension rem/px per collection family, STRING→fontFamily stack, 8-bit-snapped
+   sRGB components).
 
 ## Risks
 
