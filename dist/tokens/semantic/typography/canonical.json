@@ -1,0 +1,103 @@
+{
+  "typography": {
+    "heading-1": {
+      "$type": "typography",
+      "$description": "Page title — prose h1 at the base size (36px/800). Prose pairs 36px with 40/36 ≈ 1.11; tight (1.2) is the nearest primitive — flag for design.",
+      "$value": {
+        "fontFamily": "{font-family.display}",
+        "fontSize": "{font-size.36}",
+        "fontWeight": "{font-weight.extrabold}",
+        "letterSpacing": "{letter-spacing.tight}",
+        "lineHeight": "{line-height.tight}"
+      }
+    },
+    "heading-2": {
+      "$type": "typography",
+      "$description": "Section heading — prose h2 pairing (24px/700, 32/24 = snug exactly).",
+      "$value": {
+        "fontFamily": "{font-family.display}",
+        "fontSize": "{font-size.24}",
+        "fontWeight": "{font-weight.bold}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.snug}"
+      }
+    },
+    "heading-3": {
+      "$type": "typography",
+      "$description": "Sub-section heading — prose h3 pairing (20px/600, 32/20 = relaxed exactly).",
+      "$value": {
+        "fontFamily": "{font-family.display}",
+        "fontSize": "{font-size.20}",
+        "fontWeight": "{font-weight.semibold}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.relaxed}"
+      }
+    },
+    "heading-4": {
+      "$type": "typography",
+      "$description": "Minor heading — prose h4 pairing (16px/600, 24/16 = base exactly).",
+      "$value": {
+        "fontFamily": "{font-family.display}",
+        "fontSize": "{font-size.16}",
+        "fontWeight": "{font-weight.semibold}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.base}"
+      }
+    },
+    "body": {
+      "$type": "typography",
+      "$description": "Default body text — prose base pairing (16px/400, 28/16 = loose exactly).",
+      "$value": {
+        "fontFamily": "{font-family.sans}",
+        "fontSize": "{font-size.16}",
+        "fontWeight": "{font-weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.loose}"
+      }
+    },
+    "body-sm": {
+      "$type": "typography",
+      "$description": "Small body text — prose sm body (14px/400). Prose pairs 14px with 24/14 ≈ 1.714; loose (1.75) is the nearest primitive — flag for design.",
+      "$value": {
+        "fontFamily": "{font-family.sans}",
+        "fontSize": "{font-size.14}",
+        "fontWeight": "{font-weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.loose}"
+      }
+    },
+    "lead": {
+      "$type": "typography",
+      "$description": "Lead/intro paragraph — prose lead pairing at base (20px/400, 32/20 = relaxed exactly).",
+      "$value": {
+        "fontFamily": "{font-family.sans}",
+        "fontSize": "{font-size.20}",
+        "fontWeight": "{font-weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.relaxed}"
+      }
+    },
+    "caption": {
+      "$type": "typography",
+      "$description": "Captions, footnotes, and small labels (12px/400, wide tracking for legibility at small sizes).",
+      "$value": {
+        "fontFamily": "{font-family.sans}",
+        "fontSize": "{font-size.12}",
+        "fontWeight": "{font-weight.regular}",
+        "letterSpacing": "{letter-spacing.wide}",
+        "lineHeight": "{line-height.base}"
+      }
+    },
+    "code": {
+      "$type": "typography",
+      "$description": "Inline code and code blocks — prose code size at base (14px), JetBrains Mono.",
+      "$value": {
+        "fontFamily": "{font-family.mono}",
+        "fontSize": "{font-size.14}",
+        "fontWeight": "{font-weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.base}"
+      }
+    }
+  }
+}

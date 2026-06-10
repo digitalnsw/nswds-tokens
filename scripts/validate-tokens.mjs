@@ -175,11 +175,42 @@ const checkTypographyShapes = (label, path, leaf) => {
   }
 }
 
+// DTCG typography composite (Phase 4c): all five sub-values present and — per the locked
+// plan — alias references into the global primitives, never literals. Returns the
+// sub-alias targets for resolution once the full namespace is collected.
+const COMPOSITE_FIELDS = ['fontFamily', 'fontSize', 'fontWeight', 'letterSpacing', 'lineHeight']
+const checkTypographyComposite = (label, path, leaf) => {
+  if (leaf.$type !== 'typography') return []
+  const v = leaf.$value
+  if (!v || typeof v !== 'object') {
+    errors.push(`${label} ${path}: typography $value must be an object of sub-values`)
+    return []
+  }
+  const pending = []
+  for (const field of COMPOSITE_FIELDS) {
+    const sub = v[field]
+    if (sub === undefined) {
+      errors.push(`${label} ${path}: typography composite is missing "${field}"`)
+      continue
+    }
+    const target = typeof sub === 'string' ? (sub.match(ALIAS_PATTERN)?.[1] ?? null) : null
+    if (!target) {
+      errors.push(
+        `${label} ${path}: typography "${field}" must be an {alias} to a primitive (got ${JSON.stringify(sub)})`,
+      )
+      continue
+    }
+    pending.push({ label, path: `${path}.${field}`, target })
+  }
+  return pending
+}
+
 {
   const files = categoryFiles()
   const namespace = {}
   const leafByPath = {}
   const allLeaves = []
+  const pendingCompositeAliases = []
 
   for (const { label, path } of files) {
     const flat = flatten(readJson(path), '', {})
@@ -191,6 +222,7 @@ const checkTypographyShapes = (label, path, leaf) => {
       if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
       checkDimensionShape(label, tokenPath, leaf)
       checkTypographyShapes(label, tokenPath, leaf)
+      pendingCompositeAliases.push(...checkTypographyComposite(label, tokenPath, leaf))
 
       const serialized = JSON.stringify(leaf.$value)
       const prior = namespace[tokenPath]
@@ -206,6 +238,12 @@ const checkTypographyShapes = (label, path, leaf) => {
   // Alias resolution within the category namespace (semantic categories will alias global)
   // — full chain walk with cycle detection, same guarantees as the colour spaces.
   checkAliasChains(allLeaves, leafByPath)
+
+  // Composite sub-aliases resolve against the same flat namespace (global primitives).
+  for (const { label, path, target } of pendingCompositeAliases) {
+    if (!leafByPath[target])
+      errors.push(`${label}: unresolved alias "{${target}}" referenced by "${path}"`)
+  }
 }
 
 for (const space of SPACES) {

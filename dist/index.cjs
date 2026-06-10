@@ -39028,7 +39028,8 @@ var require_global4 = __commonJS({
         "font-weight-regular": 400,
         "font-weight-medium": 500,
         "font-weight-semibold": 600,
-        "font-weight-bold": 700
+        "font-weight-bold": 700,
+        "font-weight-extrabold": 800
       },
       "line-height": {
         "line-height-none": 1,
@@ -39042,6 +39043,77 @@ var require_global4 = __commonJS({
         "letter-spacing-tight": "-0.0125em",
         "letter-spacing-normal": "0em",
         "letter-spacing-wide": "0.025em"
+      }
+    };
+  }
+});
+
+// src/json/typography/semantic.json
+var require_semantic = __commonJS({
+  "src/json/typography/semantic.json"(exports$1, module) {
+    module.exports = {
+      "heading-1": {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "2.25rem",
+        fontWeight: 800,
+        lineHeight: 1.2,
+        letterSpacing: "-0.0125em"
+      },
+      "heading-2": {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "1.5rem",
+        fontWeight: 700,
+        lineHeight: 1.3333333,
+        letterSpacing: "0em"
+      },
+      "heading-3": {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "1.25rem",
+        fontWeight: 600,
+        lineHeight: 1.6,
+        letterSpacing: "0em"
+      },
+      "heading-4": {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "1rem",
+        fontWeight: 600,
+        lineHeight: 1.5,
+        letterSpacing: "0em"
+      },
+      body: {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "1rem",
+        fontWeight: 400,
+        lineHeight: 1.75,
+        letterSpacing: "0em"
+      },
+      "body-sm": {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "0.875rem",
+        fontWeight: 400,
+        lineHeight: 1.75,
+        letterSpacing: "0em"
+      },
+      lead: {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "1.25rem",
+        fontWeight: 400,
+        lineHeight: 1.6,
+        letterSpacing: "0em"
+      },
+      caption: {
+        fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+        fontSize: "0.75rem",
+        fontWeight: 400,
+        lineHeight: 1.5,
+        letterSpacing: "0.025em"
+      },
+      code: {
+        fontFamily: "'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
+        fontSize: "0.875rem",
+        fontWeight: 400,
+        lineHeight: 1.5,
+        letterSpacing: "0em"
       }
     };
   }
@@ -39241,7 +39313,14 @@ var global_exports4 = {};
 __export(global_exports4, {
   default: () => global_default4
 });
-var global_default4 = ":root {\n  --font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text. */\n  --font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change. */\n  --font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later. */\n  --font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; /** Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content. */\n  --font-size-12: 0.75rem; /** Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-14: 0.875rem; /** Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-16: 1rem; /** Font size 16px (1rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-18: 1.125rem; /** Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-20: 1.25rem; /** Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-22: 1.375rem; /** Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-24: 1.5rem; /** Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-30: 1.875rem; /** Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-36: 2.25rem; /** Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-48: 3rem; /** Font size 48px (3rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-56: 3.5rem; /** Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-64: 4rem; /** Font size 64px (4rem) \u2014 the step name is the px value at the default root font size. */\n  --font-weight-light: 300; /** Light (300) \u2014 large display text only; avoid at body sizes for legibility. */\n  --font-weight-regular: 400; /** Regular (400) \u2014 default body text weight. */\n  --font-weight-medium: 500; /** Medium (500) \u2014 subtle emphasis, labels, and navigation. */\n  --font-weight-semibold: 600; /** Semibold (600) \u2014 headings and strong emphasis. */\n  --font-weight-bold: 700; /** Bold (700) \u2014 highest emphasis; key figures and primary headings. */\n  --line-height-none: 1; /** Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale). */\n  --line-height-tight: 1.2; /** Tight (1.2) \u2014 large headings (36/30 in the prose scale). */\n  --line-height-snug: 1.3333333; /** Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale). */\n  --line-height-base: 1.5; /** Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing. */\n  --line-height-relaxed: 1.6; /** Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale). */\n  --line-height-loose: 1.75; /** Loose (1.75) \u2014 long-form body text (28/16 in the prose scale). */\n  --letter-spacing-tight: -0.0125em; /** Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-normal: 0em; /** Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-wide: 0.025em; /** Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit. */\n}\n";
+var global_default4 = ":root {\n  --font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text. */\n  --font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change. */\n  --font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later. */\n  --font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; /** Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content. */\n  --font-size-12: 0.75rem; /** Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-14: 0.875rem; /** Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-16: 1rem; /** Font size 16px (1rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-18: 1.125rem; /** Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-20: 1.25rem; /** Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-22: 1.375rem; /** Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-24: 1.5rem; /** Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-30: 1.875rem; /** Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-36: 2.25rem; /** Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-48: 3rem; /** Font size 48px (3rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-56: 3.5rem; /** Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-64: 4rem; /** Font size 64px (4rem) \u2014 the step name is the px value at the default root font size. */\n  --font-weight-light: 300; /** Light (300) \u2014 large display text only; avoid at body sizes for legibility. */\n  --font-weight-regular: 400; /** Regular (400) \u2014 default body text weight. */\n  --font-weight-medium: 500; /** Medium (500) \u2014 subtle emphasis, labels, and navigation. */\n  --font-weight-semibold: 600; /** Semibold (600) \u2014 headings and strong emphasis. */\n  --font-weight-bold: 700; /** Bold (700) \u2014 highest emphasis; key figures and primary headings. */\n  --font-weight-extrabold: 800; /** Extrabold (800) \u2014 hero/display headings (the prose scale uses 800 for h1). */\n  --line-height-none: 1; /** Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale). */\n  --line-height-tight: 1.2; /** Tight (1.2) \u2014 large headings (36/30 in the prose scale). */\n  --line-height-snug: 1.3333333; /** Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale). */\n  --line-height-base: 1.5; /** Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing. */\n  --line-height-relaxed: 1.6; /** Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale). */\n  --line-height-loose: 1.75; /** Loose (1.75) \u2014 long-form body text (28/16 in the prose scale). */\n  --letter-spacing-tight: -0.0125em; /** Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-normal: 0em; /** Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-wide: 0.025em; /** Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit. */\n}\n";
+
+// src/css/typography/semantic.css
+var semantic_exports = {};
+__export(semantic_exports, {
+  default: () => semantic_default
+});
+var semantic_default = ":root {\n  --typography-heading-1-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-1-font-size: 2.25rem;\n  --typography-heading-1-font-weight: 800;\n  --typography-heading-1-line-height: 1.2;\n  --typography-heading-1-letter-spacing: -0.0125em;\n  --typography-heading-1: 800 2.25rem/1.2 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-2-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-2-font-size: 1.5rem;\n  --typography-heading-2-font-weight: 700;\n  --typography-heading-2-line-height: 1.3333333;\n  --typography-heading-2-letter-spacing: 0em;\n  --typography-heading-2: 700 1.5rem/1.3333333 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-3-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-3-font-size: 1.25rem;\n  --typography-heading-3-font-weight: 600;\n  --typography-heading-3-line-height: 1.6;\n  --typography-heading-3-letter-spacing: 0em;\n  --typography-heading-3: 600 1.25rem/1.6 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-4-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-heading-4-font-size: 1rem;\n  --typography-heading-4-font-weight: 600;\n  --typography-heading-4-line-height: 1.5;\n  --typography-heading-4-letter-spacing: 0em;\n  --typography-heading-4: 600 1rem/1.5 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-font-size: 1rem;\n  --typography-body-font-weight: 400;\n  --typography-body-line-height: 1.75;\n  --typography-body-letter-spacing: 0em;\n  --typography-body: 400 1rem/1.75 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-sm-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-body-sm-font-size: 0.875rem;\n  --typography-body-sm-font-weight: 400;\n  --typography-body-sm-line-height: 1.75;\n  --typography-body-sm-letter-spacing: 0em;\n  --typography-body-sm: 400 0.875rem/1.75 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-lead-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-lead-font-size: 1.25rem;\n  --typography-lead-font-weight: 400;\n  --typography-lead-line-height: 1.6;\n  --typography-lead-letter-spacing: 0em;\n  --typography-lead: 400 1.25rem/1.6 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-caption-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-caption-font-size: 0.75rem;\n  --typography-caption-font-weight: 400;\n  --typography-caption-line-height: 1.5;\n  --typography-caption-letter-spacing: 0.025em;\n  --typography-caption: 400 0.75rem/1.5 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --typography-code-font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n  --typography-code-font-size: 0.875rem;\n  --typography-code-font-weight: 400;\n  --typography-code-line-height: 1.5;\n  --typography-code-letter-spacing: 0em;\n  --typography-code: 400 0.875rem/1.5 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n}\n";
 
 // src/js/colors/global/hex.js
 var hex_exports7 = {};
@@ -43115,7 +43194,8 @@ var fontWeight = {
   regular: 400,
   medium: 500,
   semibold: 600,
-  bold: 700
+  bold: 700,
+  extrabold: 800
 };
 var lineHeight = {
   none: 1,
@@ -43129,6 +43209,83 @@ var letterSpacing = {
   tight: "-0.0125em",
   normal: "0em",
   wide: "0.025em"
+};
+
+// src/js/typography/semantic.js
+var semantic_exports2 = {};
+__export(semantic_exports2, {
+  body: () => body,
+  bodySm: () => bodySm,
+  caption: () => caption,
+  code: () => code,
+  heading1: () => heading1,
+  heading2: () => heading2,
+  heading3: () => heading3,
+  heading4: () => heading4,
+  lead: () => lead
+});
+var heading1 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "2.25rem",
+  fontWeight: 800,
+  lineHeight: 1.2,
+  letterSpacing: "-0.0125em"
+};
+var heading2 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1.5rem",
+  fontWeight: 700,
+  lineHeight: 1.3333333,
+  letterSpacing: "0em"
+};
+var heading3 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1.25rem",
+  fontWeight: 600,
+  lineHeight: 1.6,
+  letterSpacing: "0em"
+};
+var heading4 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1rem",
+  fontWeight: 600,
+  lineHeight: 1.5,
+  letterSpacing: "0em"
+};
+var body = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1rem",
+  fontWeight: 400,
+  lineHeight: 1.75,
+  letterSpacing: "0em"
+};
+var bodySm = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "0.875rem",
+  fontWeight: 400,
+  lineHeight: 1.75,
+  letterSpacing: "0em"
+};
+var lead = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1.25rem",
+  fontWeight: 400,
+  lineHeight: 1.6,
+  letterSpacing: "0em"
+};
+var caption = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "0.75rem",
+  fontWeight: 400,
+  lineHeight: 1.5,
+  letterSpacing: "0.025em"
+};
+var code = {
+  fontFamily: "'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
+  fontSize: "0.875rem",
+  fontWeight: 400,
+  lineHeight: 1.5,
+  letterSpacing: "0em"
 };
 
 // src/less/colors/global/hex.less
@@ -43325,7 +43482,14 @@ var global_exports12 = {};
 __export(global_exports12, {
   default: () => global_default8
 });
-var global_default8 = "@font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n@font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n@font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n@font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n@font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n@font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n@font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n@font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n@font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n@font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n@font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n@font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n@font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n@font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n@font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n@line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n@line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n@line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n@line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n@line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n@line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n@letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+var global_default8 = "@font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n@font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n@font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n@font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n@font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n@font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n@font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n@font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n@font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n@font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n@font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n@font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n@font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n@font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n@font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n@font-weight-extrabold: 800; // Extrabold (800) \u2014 hero/display headings (the prose scale uses 800 for h1).\n@line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n@line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n@line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n@line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n@line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n@line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n@letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+
+// src/less/typography/semantic.less
+var semantic_exports3 = {};
+__export(semantic_exports3, {
+  default: () => semantic_default2
+});
+var semantic_default2 = "@typography-heading-1-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-1-font-size: 2.25rem;\n@typography-heading-1-font-weight: 800;\n@typography-heading-1-line-height: 1.2;\n@typography-heading-1-letter-spacing: -0.0125em;\n@typography-heading-2-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-2-font-size: 1.5rem;\n@typography-heading-2-font-weight: 700;\n@typography-heading-2-line-height: 1.3333333;\n@typography-heading-2-letter-spacing: 0em;\n@typography-heading-3-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-3-font-size: 1.25rem;\n@typography-heading-3-font-weight: 600;\n@typography-heading-3-line-height: 1.6;\n@typography-heading-3-letter-spacing: 0em;\n@typography-heading-4-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-heading-4-font-size: 1rem;\n@typography-heading-4-font-weight: 600;\n@typography-heading-4-line-height: 1.5;\n@typography-heading-4-letter-spacing: 0em;\n@typography-body-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-body-font-size: 1rem;\n@typography-body-font-weight: 400;\n@typography-body-line-height: 1.75;\n@typography-body-letter-spacing: 0em;\n@typography-body-sm-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-body-sm-font-size: 0.875rem;\n@typography-body-sm-font-weight: 400;\n@typography-body-sm-line-height: 1.75;\n@typography-body-sm-letter-spacing: 0em;\n@typography-lead-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-lead-font-size: 1.25rem;\n@typography-lead-font-weight: 400;\n@typography-lead-line-height: 1.6;\n@typography-lead-letter-spacing: 0em;\n@typography-caption-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n@typography-caption-font-size: 0.75rem;\n@typography-caption-font-weight: 400;\n@typography-caption-line-height: 1.5;\n@typography-caption-letter-spacing: 0.025em;\n@typography-code-font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n@typography-code-font-size: 0.875rem;\n@typography-code-font-weight: 400;\n@typography-code-line-height: 1.5;\n@typography-code-letter-spacing: 0em;\n";
 
 // src/scss/colors/global/hex.scss
 var hex_exports19 = {};
@@ -43521,7 +43685,14 @@ var global_exports16 = {};
 __export(global_exports16, {
   default: () => global_default12
 });
-var global_default12 = "$font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n$font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n$font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n$font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n$font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n$font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n$font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n$font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n$font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n$font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n$font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n$font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n$font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n$font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n$font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n$line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n$line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n$line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n$line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n$line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n$line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n$letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+var global_default12 = "$font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.\n$font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface \u2014 currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.\n$font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface \u2014 currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.\n$font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.\n$font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n$font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n$font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n$font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n$font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n$font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n$font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n$font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n$font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n$font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n$font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n$font-weight-extrabold: 800; // Extrabold (800) \u2014 hero/display headings (the prose scale uses 800 for h1).\n$line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n$line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n$line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n$line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n$line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n$line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n$letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+
+// src/scss/typography/semantic.scss
+var semantic_exports4 = {};
+__export(semantic_exports4, {
+  default: () => semantic_default3
+});
+var semantic_default3 = "$typography-heading-1-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-1-font-size: 2.25rem;\n$typography-heading-1-font-weight: 800;\n$typography-heading-1-line-height: 1.2;\n$typography-heading-1-letter-spacing: -0.0125em;\n$typography-heading-2-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-2-font-size: 1.5rem;\n$typography-heading-2-font-weight: 700;\n$typography-heading-2-line-height: 1.3333333;\n$typography-heading-2-letter-spacing: 0em;\n$typography-heading-3-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-3-font-size: 1.25rem;\n$typography-heading-3-font-weight: 600;\n$typography-heading-3-line-height: 1.6;\n$typography-heading-3-letter-spacing: 0em;\n$typography-heading-4-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-heading-4-font-size: 1rem;\n$typography-heading-4-font-weight: 600;\n$typography-heading-4-line-height: 1.5;\n$typography-heading-4-letter-spacing: 0em;\n$typography-body-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-body-font-size: 1rem;\n$typography-body-font-weight: 400;\n$typography-body-line-height: 1.75;\n$typography-body-letter-spacing: 0em;\n$typography-body-sm-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-body-sm-font-size: 0.875rem;\n$typography-body-sm-font-weight: 400;\n$typography-body-sm-line-height: 1.75;\n$typography-body-sm-letter-spacing: 0em;\n$typography-lead-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-lead-font-size: 1.25rem;\n$typography-lead-font-weight: 400;\n$typography-lead-line-height: 1.6;\n$typography-lead-letter-spacing: 0em;\n$typography-caption-font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n$typography-caption-font-size: 0.75rem;\n$typography-caption-font-weight: 400;\n$typography-caption-line-height: 1.5;\n$typography-caption-letter-spacing: 0.025em;\n$typography-code-font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n$typography-code-font-size: 0.875rem;\n$typography-code-font-weight: 400;\n$typography-code-line-height: 1.5;\n$typography-code-letter-spacing: 0em;\n";
 
 // src/tailwind/colors/global/hex.css
 var hex_exports25 = {};
@@ -43717,7 +43888,7 @@ var global_exports20 = {};
 __export(global_exports20, {
   default: () => global_default16
 });
-var global_default16 = "@theme {\n  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n  --text-12: 0.75rem;\n  --text-14: 0.875rem;\n  --text-16: 1rem;\n  --text-18: 1.125rem;\n  --text-20: 1.25rem;\n  --text-22: 1.375rem;\n  --text-24: 1.5rem;\n  --text-30: 1.875rem;\n  --text-36: 2.25rem;\n  --text-48: 3rem;\n  --text-56: 3.5rem;\n  --text-64: 4rem;\n  --font-weight-light: 300;\n  --font-weight-regular: 400;\n  --font-weight-medium: 500;\n  --font-weight-semibold: 600;\n  --font-weight-bold: 700;\n  --leading-none: 1;\n  --leading-tight: 1.2;\n  --leading-snug: 1.3333333;\n  --leading-base: 1.5;\n  --leading-relaxed: 1.6;\n  --leading-loose: 1.75;\n  --tracking-tight: -0.0125em;\n  --tracking-normal: 0em;\n  --tracking-wide: 0.025em;\n}\n";
+var global_default16 = "@theme {\n  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';\n  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;\n  --text-12: 0.75rem;\n  --text-14: 0.875rem;\n  --text-16: 1rem;\n  --text-18: 1.125rem;\n  --text-20: 1.25rem;\n  --text-22: 1.375rem;\n  --text-24: 1.5rem;\n  --text-30: 1.875rem;\n  --text-36: 2.25rem;\n  --text-48: 3rem;\n  --text-56: 3.5rem;\n  --text-64: 4rem;\n  --font-weight-light: 300;\n  --font-weight-regular: 400;\n  --font-weight-medium: 500;\n  --font-weight-semibold: 600;\n  --font-weight-bold: 700;\n  --font-weight-extrabold: 800;\n  --leading-none: 1;\n  --leading-tight: 1.2;\n  --leading-snug: 1.3333333;\n  --leading-base: 1.5;\n  --leading-relaxed: 1.6;\n  --leading-loose: 1.75;\n  --tracking-tight: -0.0125em;\n  --tracking-normal: 0em;\n  --tracking-wide: 0.025em;\n}\n";
 
 // src/ts/colors/global/hex.ts
 var hex_exports31 = {};
@@ -47591,7 +47762,8 @@ var fontWeight2 = {
   regular: 400,
   medium: 500,
   semibold: 600,
-  bold: 700
+  bold: 700,
+  extrabold: 800
 };
 var lineHeight2 = {
   none: 1,
@@ -47605,6 +47777,83 @@ var letterSpacing2 = {
   tight: "-0.0125em",
   normal: "0em",
   wide: "0.025em"
+};
+
+// src/ts/typography/semantic.ts
+var semantic_exports5 = {};
+__export(semantic_exports5, {
+  body: () => body2,
+  bodySm: () => bodySm2,
+  caption: () => caption2,
+  code: () => code2,
+  heading1: () => heading12,
+  heading2: () => heading22,
+  heading3: () => heading32,
+  heading4: () => heading42,
+  lead: () => lead2
+});
+var heading12 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "2.25rem",
+  fontWeight: 800,
+  lineHeight: 1.2,
+  letterSpacing: "-0.0125em"
+};
+var heading22 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1.5rem",
+  fontWeight: 700,
+  lineHeight: 1.3333333,
+  letterSpacing: "0em"
+};
+var heading32 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1.25rem",
+  fontWeight: 600,
+  lineHeight: 1.6,
+  letterSpacing: "0em"
+};
+var heading42 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1rem",
+  fontWeight: 600,
+  lineHeight: 1.5,
+  letterSpacing: "0em"
+};
+var body2 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1rem",
+  fontWeight: 400,
+  lineHeight: 1.75,
+  letterSpacing: "0em"
+};
+var bodySm2 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "0.875rem",
+  fontWeight: 400,
+  lineHeight: 1.75,
+  letterSpacing: "0em"
+};
+var lead2 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "1.25rem",
+  fontWeight: 400,
+  lineHeight: 1.6,
+  letterSpacing: "0em"
+};
+var caption2 = {
+  fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  fontSize: "0.75rem",
+  fontWeight: 400,
+  lineHeight: 1.5,
+  letterSpacing: "0.025em"
+};
+var code2 = {
+  fontFamily: "'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
+  fontSize: "0.875rem",
+  fontWeight: 400,
+  lineHeight: 1.5,
+  letterSpacing: "0em"
 };
 
 // src/index.ts
@@ -47660,6 +47909,7 @@ var spaceJsonGlobal = require_global();
 var radiusJsonGlobal = require_global2();
 var breakpointsJsonGlobal = require_global3();
 var typographyJsonGlobal = require_global4();
+var typographyJsonSemantic = require_semantic();
 var tokens = {
   colors: {
     global: { hex: globalColorHex, hsl: globalColorHsl, oklch: globalColorOklch, rgb: globalColorRgb },
@@ -47683,7 +47933,7 @@ var tokens = {
     space: { global: global_exports },
     radius: { global: global_exports2 },
     breakpoints: { global: global_exports3 },
-    typography: { global: global_exports4 }
+    typography: { global: global_exports4, semantic: semantic_exports }
   },
   js: {
     global: { hex: hex_exports7, hsl: hsl_exports7, oklch: oklch_exports7, rgb: rgb_exports7 },
@@ -47697,7 +47947,7 @@ var tokens = {
     space: { global: global_exports5 },
     radius: { global: global_exports6 },
     breakpoints: { global: global_exports7 },
-    typography: { global: global_exports8 }
+    typography: { global: global_exports8, semantic: semantic_exports2 }
   },
   json: {
     global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb },
@@ -47711,7 +47961,7 @@ var tokens = {
     space: { global: spaceJsonGlobal },
     radius: { global: radiusJsonGlobal },
     breakpoints: { global: breakpointsJsonGlobal },
-    typography: { global: typographyJsonGlobal }
+    typography: { global: typographyJsonGlobal, semantic: typographyJsonSemantic }
   },
   less: {
     global: { hex: hex_exports13, hsl: hsl_exports13, oklch: oklch_exports13, rgb: rgb_exports13 },
@@ -47725,7 +47975,7 @@ var tokens = {
     space: { global: global_exports9 },
     radius: { global: global_exports10 },
     breakpoints: { global: global_exports11 },
-    typography: { global: global_exports12 }
+    typography: { global: global_exports12, semantic: semantic_exports3 }
   },
   scss: {
     global: { hex: hex_exports19, hsl: hsl_exports19, oklch: oklch_exports19, rgb: rgb_exports19 },
@@ -47739,7 +47989,7 @@ var tokens = {
     space: { global: global_exports13 },
     radius: { global: global_exports14 },
     breakpoints: { global: global_exports15 },
-    typography: { global: global_exports16 }
+    typography: { global: global_exports16, semantic: semantic_exports4 }
   },
   tailwind: {
     global: { hex: hex_exports25, hsl: hsl_exports25, oklch: oklch_exports25, rgb: rgb_exports25 },
@@ -47767,7 +48017,7 @@ var tokens = {
     space: { global: global_exports21 },
     radius: { global: global_exports22 },
     breakpoints: { global: global_exports23 },
-    typography: { global: global_exports24 }
+    typography: { global: global_exports24, semantic: semantic_exports5 }
   }
 };
 var colorTokens = tokens.colors;
