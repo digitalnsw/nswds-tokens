@@ -1,12 +1,13 @@
 import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToDtcg } from './color.js'
-import { exportRuleFor, fileNameForCollection, FigmaValueRule } from './figma-collections.js'
+import {
+  exportRuleFor,
+  fileNameForCollection,
+  FIGMA_REM_PX,
+  FigmaValueRule,
+} from './figma-collections.js'
 import { Token, TokenGroup, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import { assertSafeObjectKey, assertSafePathSegment } from './utils.js'
-
-// Figma variables are unit-less; rem dimensions sync as px at the 16px default root
-// (the inverse of token_import's figmaFloatFromDimension).
-const REM_PX = 16
 
 type TokenTreeNode = {
   children: Map<string, TokenTreeNode>
@@ -56,7 +57,7 @@ function tokenValueFromVariable(
   // Manifest-driven reconstruction back to the DTCG shapes the staging files use.
   if (rule?.$type === 'dimension' && typeof value === 'number') {
     return rule.unit === 'rem'
-      ? { value: value / REM_PX, unit: 'rem' as const }
+      ? { value: value / FIGMA_REM_PX, unit: 'rem' as const }
       : { value, unit: 'px' as const }
   }
   if (rule?.$type === 'fontFamily' && typeof value === 'string') {

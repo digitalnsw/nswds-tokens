@@ -31,11 +31,16 @@ export function fileNameForCollection(collectionName: string, modeName: string):
   return null
 }
 
+// Figma variables are unit-less; rem dimensions sync as px at the 16px default root.
+// Single source of truth for BOTH sync directions (token_import multiplies, token_export
+// divides) so the conversion can never drift asymmetric.
+export const FIGMA_REM_PX = 16
+
 // Export-direction value reconstruction. Figma variables are unit-less FLOATs / joined
 // STRINGs; these rules say how each collection's families map back to their DTCG shapes
-// (the same conventions token_import uses on the way in: rem syncs as px at the 16px
-// default root, fontFamily stacks join with ", "). Keyed by collection name, then token
-// family (first path segment), with "*" as the family wildcard.
+// (the same conventions token_import uses on the way in: rem syncs as px at FIGMA_REM_PX,
+// fontFamily stacks join with ", "). Keyed by collection name, then token family (first
+// path segment), with "*" as the family wildcard.
 export type FigmaValueRule =
   | { $type: 'dimension'; unit: 'px' | 'rem' }
   | { $type: 'fontFamily' }
