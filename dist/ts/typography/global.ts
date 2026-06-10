@@ -1,6 +1,6 @@
 export const fontFamily = {
-  sans: '\'Public Sans\', system-ui, -apple-system, sans-serif',
-  mono: 'SFMono-Regular, Menlo, Consolas, \'Liberation Mono\', monospace',
+  sans: "'Public Sans', system-ui, -apple-system, sans-serif",
+  mono: "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
 }
 export const fontSize = {
   '12': '0.75rem',

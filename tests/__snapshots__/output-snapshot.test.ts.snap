@@ -32880,8 +32880,8 @@ exports[`built output snapshots > dist/js/space/global.js 1`] = `
 
 exports[`built output snapshots > dist/js/typography/global.js 1`] = `
 "export const fontFamily = {
-  sans: '\\'Public Sans\\', system-ui, -apple-system, sans-serif',
-  mono: 'SFMono-Regular, Menlo, Consolas, \\'Liberation Mono\\', monospace',
+  sans: "'Public Sans', system-ui, -apple-system, sans-serif",
+  mono: "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
 }
 export const fontSize = {
   12: '0.75rem',
@@ -108948,8 +108948,8 @@ exports[`built output snapshots > dist/ts/space/global.ts 1`] = `
 
 exports[`built output snapshots > dist/ts/typography/global.ts 1`] = `
 "export const fontFamily = {
-  sans: '\\'Public Sans\\', system-ui, -apple-system, sans-serif',
-  mono: 'SFMono-Regular, Menlo, Consolas, \\'Liberation Mono\\', monospace',
+  sans: "'Public Sans', system-ui, -apple-system, sans-serif",
+  mono: "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
 }
 export const fontSize = {
   '12': '0.75rem',

@@ -161,8 +161,7 @@ const checkTypographyShapes = (label, path, leaf) => {
     const ok =
       typeof v === 'string' ||
       (Array.isArray(v) && v.length > 0 && v.every((n) => typeof n === 'string'))
-    if (!ok)
-      errors.push(`${label} ${path}: fontFamily $value must be a string or array of strings`)
+    if (!ok) errors.push(`${label} ${path}: fontFamily $value must be a string or array of strings`)
   }
   if (leaf.$type === 'fontWeight') {
     const v = leaf.$value

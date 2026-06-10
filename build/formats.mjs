@@ -46,10 +46,13 @@ const groupByFamily = (tokens) => {
   return groups
 }
 
-// Token value -> single-quoted JS string literal. Values can themselves contain single
-// quotes (font stacks like 'Public Sans'), so escape them; colour values never do, which
-// keeps the colour outputs byte-identical.
-const jsString = (v) => `'${String(v).replace(/'/g, "\\'")}'`
+// Token value -> JS string literal, quoted the way Prettier would: single quotes
+// normally, double quotes when the value itself contains single quotes (font stacks
+// like 'Public Sans'). Colour values contain neither, keeping those outputs identical.
+const jsString = (v) => {
+  const s = String(v)
+  return s.includes("'") ? `"${s.replace(/"/g, '\\"')}"` : `'${s}'`
+}
 
 // js/colors/.../hex.js  ->  export const nswGrey = { 50: '#fafafa', ... }  (unquoted keys)
 export const nswJs = ({ dictionary }) => {
