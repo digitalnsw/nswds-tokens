@@ -167,6 +167,17 @@ function variableValueFromToken(
   } else if (typeof token.$value === 'string' && token.$type === 'color') {
     return parseColor(token.$value) // back-compat: hex string colours
   } else {
+    if (typeof token.$value === 'object') {
+      // An object $value that reaches this branch must not be forwarded to Figma as-is —
+      // fail loudly, with a message matching the token's $type: a colour object that
+      // failed isDtcgColor (wrong colorSpace, malformed components) vs a non-colour
+      // token that should only ever hold a primitive.
+      throw new Error(
+        token.$type === 'color'
+          ? `Invalid color token $value (expected an srgb DTCG object, a hex string, or an alias): ${JSON.stringify(token.$value)}`
+          : `Invalid ${token.$type} token $value (expected a primitive value, got an object): ${JSON.stringify(token.$value)}`,
+      )
+    }
     return token.$value
   }
 }
@@ -341,7 +352,7 @@ export function generatePostVariablesPayload(
           'variableCollectionId' in v &&
           v.variableCollectionId === variableCollectionId,
       )
-      const differences = tokenAndVariableDifferences(token, variable)
+      const differences = tokenAndVariableDifferences(token, variable ?? null)
 
       // Add a new variable if it doesn't exist in the Figma file,
       // and we haven't added it already in another mode

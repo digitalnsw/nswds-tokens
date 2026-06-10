@@ -2,10 +2,28 @@
   "name": "@nswds/tokens",
   "version": "3.0.0",
   "description": "NSW Application Design System Design Tokens",
+  "license": "MPL-2.0",
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "dtcg",
+    "w3c-design-tokens",
+    "css-variables",
+    "tailwind",
+    "figma",
+    "nsw-government",
+    "nswds"
+  ],
   "homepage": "https://github.com/digitalnsw/nswds-tokens#readme",
+  "bugs": {
+    "url": "https://github.com/digitalnsw/nswds-tokens/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digitalnsw/nswds-tokens.git"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
   },
   "files": [
     "dist"
@@ -14,6 +32,7 @@
     "prepare": "husky",
     "semantic-release": "semantic-release",
     "lint": "npx eslint . ",
+    "typecheck": "tsc --noEmit -p tsconfig.typecheck.json",
     "format": "npx prettier --write .",
     "postversion": "node scripts/sync-package-lock-version.mjs",
     "copy-styles": "node scripts/copy-styles.mjs",
