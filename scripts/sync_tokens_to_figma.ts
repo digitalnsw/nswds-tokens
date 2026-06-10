@@ -37,6 +37,33 @@ async function main() {
     return
   }
 
+  // --dry-run: report what WOULD be posted, grouped by action, then exit without writing.
+  if (process.argv.includes('--dry-run')) {
+    const summarise = (items: { action: string }[] | undefined, label: string) => {
+      if (!items || items.length === 0) return
+      const byAction = new Map<string, number>()
+      for (const item of items) byAction.set(item.action, (byAction.get(item.action) ?? 0) + 1)
+      const parts = [...byAction.entries()].map(([action, n]) => `${n} ${action}`)
+      console.log(`  ${label}: ${parts.join(', ')}`)
+    }
+    console.log('Dry run — the POST payload would contain:')
+    summarise(postVariablesPayload.variableCollections, 'variableCollections')
+    summarise(postVariablesPayload.variableModes, 'variableModes')
+    summarise(postVariablesPayload.variables, 'variables')
+    if (postVariablesPayload.variableModeValues?.length) {
+      console.log(`  variableModeValues: ${postVariablesPayload.variableModeValues.length} values`)
+    }
+    if (postVariablesPayload.variableCollections?.length) {
+      console.log(
+        `  collections touched: ${postVariablesPayload.variableCollections
+          .map((c) => ('name' in c && c.name) || c.id)
+          .join(', ')}`,
+      )
+    }
+    console.log(green('✅ Dry run complete — nothing was posted to Figma'))
+    return
+  }
+
   const apiResp = await api.postVariables(fileKey, postVariablesPayload)
 
   console.log('POST variables API response:', apiResp)

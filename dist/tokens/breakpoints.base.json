@@ -2,42 +2,87 @@
   "breakpoint": {
     "xs": {
       "$type": "dimension",
-      "$description": "Extra-small breakpoint — large phones and up.",
       "$value": {
         "value": 480,
         "unit": "px"
+      },
+      "$description": "Extra-small breakpoint — large phones and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "sm": {
       "$type": "dimension",
-      "$description": "Small breakpoint — tablets portrait and up.",
       "$value": {
         "value": 768,
         "unit": "px"
+      },
+      "$description": "Small breakpoint — tablets portrait and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "md": {
       "$type": "dimension",
-      "$description": "Medium breakpoint — tablets landscape / small laptops and up.",
       "$value": {
         "value": 992,
         "unit": "px"
+      },
+      "$description": "Medium breakpoint — tablets landscape / small laptops and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "lg": {
       "$type": "dimension",
-      "$description": "Large breakpoint — desktops and up.",
       "$value": {
         "value": 1200,
         "unit": "px"
+      },
+      "$description": "Large breakpoint — desktops and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     },
     "xl": {
       "$type": "dimension",
-      "$description": "Extra-large breakpoint — wide desktops and up.",
       "$value": {
         "value": 1600,
         "unit": "px"
+      },
+      "$description": "Extra-large breakpoint — wide desktops and up.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
       }
     }
   }

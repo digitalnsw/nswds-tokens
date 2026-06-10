@@ -54,7 +54,7 @@ async function main() {
   try {
     Object.entries(tokensFiles).forEach(([fileName, fileContent]) => {
       const safeFileName = assertSafePathSegment(fileName, 'token file name')
-      fs.writeFileSync(safeFileName, JSON.stringify(fileContent, null, 2))
+      fs.writeFileSync(safeFileName, `${JSON.stringify(fileContent, null, 2)}\n`)
       console.log(
         `Wrote ${path.relative(currentWorkingDirectory, path.join(outputDirPath, safeFileName))}`,
       )

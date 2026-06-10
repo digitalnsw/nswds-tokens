@@ -229,6 +229,11 @@ function compareVariableValues(a: VariableValue, b: VariableValue) {
     } else if ('r' in a && 'r' in b) {
       return colorApproximatelyEqual(a, b)
     }
+  } else if (typeof a === 'number' && typeof b === 'number') {
+    // Figma stores FLOATs at float32 precision; we post float64. Without this, values
+    // like 0.025 or 1.3333333 re-post on every sync (the float32 echo never strictly
+    // equals the source) — the numeric analogue of colorApproximatelyEqual.
+    return Math.fround(a) === Math.fround(b)
   } else {
     return a === b
   }

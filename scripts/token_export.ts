@@ -1,7 +1,12 @@
 import { GetLocalVariablesResponse, LocalVariable } from '@figma/rest-api-spec'
 import { rgbToDtcg } from './color.js'
+import { exportRuleFor, fileNameForCollection, FigmaValueRule } from './figma-collections.js'
 import { Token, TokenGroup, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import { assertSafeObjectKey, assertSafePathSegment } from './utils.js'
+
+// Figma variables are unit-less; rem dimensions sync as px at the 16px default root
+// (the inverse of token_import's figmaFloatFromDimension).
+const REM_PX = 16
 
 type TokenTreeNode = {
   children: Map<string, TokenTreeNode>
@@ -14,7 +19,8 @@ function createTokenTreeNode(): TokenTreeNode {
   }
 }
 
-function tokenTypeFromVariable(variable: LocalVariable) {
+function tokenTypeFromVariable(variable: LocalVariable, rule: FigmaValueRule | null) {
+  if (rule) return rule.$type
   switch (variable.resolvedType) {
     case 'BOOLEAN':
       return 'boolean'
@@ -31,6 +37,7 @@ function tokenValueFromVariable(
   variable: LocalVariable,
   modeId: string,
   localVariables: Map<string, LocalVariable>,
+  rule: FigmaValueRule | null,
 ) {
   const value = variable.valuesByMode[modeId]
   if (typeof value === 'object') {
@@ -45,9 +52,17 @@ function tokenValueFromVariable(
     }
 
     throw new Error(`Format of variable value is invalid: ${value}`)
-  } else {
-    return value
   }
+  // Manifest-driven reconstruction back to the DTCG shapes the staging files use.
+  if (rule?.$type === 'dimension' && typeof value === 'number') {
+    return rule.unit === 'rem'
+      ? { value: value / REM_PX, unit: 'rem' as const }
+      : { value, unit: 'px' as const }
+  }
+  if (rule?.$type === 'fontFamily' && typeof value === 'string') {
+    return value.includes(', ') ? value.split(', ') : value
+  }
+  return value
 }
 
 export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVariablesResponse) {
@@ -74,7 +89,11 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
     }
 
     collection.modes.forEach((mode) => {
-      const fileName = `${assertSafePathSegment(collection.name, 'collection name')}.${assertSafePathSegment(mode.name, 'mode name')}.json`
+      // Manifest-mapped collections regenerate their kebab-case staging file names;
+      // unmapped collections keep the legacy `${collection}.${mode}.json` convention.
+      const fileName =
+        fileNameForCollection(collection.name, mode.name) ??
+        `${assertSafePathSegment(collection.name, 'collection name')}.${assertSafePathSegment(mode.name, 'mode name')}.json`
 
       if (!tokenFileTrees.has(fileName)) {
         tokenFileTrees.set(fileName, createTokenTreeNode())
@@ -117,9 +136,10 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
         )
       }
 
+      const rule = exportRuleFor(collection.name, pathSegments[0])
       const token: Token = {
-        $type: tokenTypeFromVariable(variable),
-        $value: tokenValueFromVariable(variable, mode.modeId, localVariables),
+        $type: tokenTypeFromVariable(variable, rule),
+        $value: tokenValueFromVariable(variable, mode.modeId, localVariables, rule),
         $description: variable.description,
         $extensions: {
           'com.figma': {
