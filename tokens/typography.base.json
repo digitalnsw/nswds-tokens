@@ -2,20 +2,60 @@
   "font-family": {
     "sans": {
       "$type": "fontFamily",
-      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.",
+      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.",
       "$value": [
         "Public Sans",
-        "system-ui",
         "-apple-system",
-        "sans-serif"
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ]
+    },
+    "display": {
+      "$type": "fontFamily",
+      "$description": "Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.",
+      "$value": [
+        "Public Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ]
+    },
+    "system": {
+      "$type": "fontFamily",
+      "$description": "System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.",
+      "$value": [
+        "Public Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
       ]
     },
     "mono": {
       "$type": "fontFamily",
-      "$description": "Monospace stack — JetBrains Mono with system fallbacks for code, tabular data, and technical content.",
+      "$description": "Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.",
       "$value": [
         "JetBrains Mono",
+        "ui-monospace",
         "SFMono-Regular",
+        "SF Mono",
         "Menlo",
         "Consolas",
         "Liberation Mono",

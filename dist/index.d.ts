@@ -3783,6 +3783,8 @@ declare namespace breakpointsJsGlobal {
 
 declare namespace fontFamily$1 {
     let sans: string;
+    let display: string;
+    let system: string;
     let mono: string;
 }
 declare const fontSize$1: {
@@ -7872,6 +7874,8 @@ declare namespace breakpointsTsGlobal {
 
 declare const fontFamily: {
     sans: string;
+    display: string;
+    system: string;
     mono: string;
 };
 declare const fontSize: {

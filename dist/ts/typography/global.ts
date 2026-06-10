@@ -1,6 +1,10 @@
 export const fontFamily = {
-  sans: "'Public Sans', system-ui, -apple-system, sans-serif",
-  mono: "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
+  sans: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  display:
+    "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  system:
+    "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  mono: "'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
 }
 export const fontSize = {
   '12': '0.75rem',

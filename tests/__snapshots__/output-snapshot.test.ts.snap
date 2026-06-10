@@ -4089,8 +4089,10 @@ exports[`built output snapshots > dist/css/space/global.css 1`] = `
 
 exports[`built output snapshots > dist/css/typography/global.css 1`] = `
 ":root {
-  --font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; /** Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text. */
-  --font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; /** Monospace stack — JetBrains Mono with system fallbacks for code, tabular data, and technical content. */
+  --font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text. */
+  --font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change. */
+  --font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; /** System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later. */
+  --font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; /** Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content. */
   --font-size-12: 0.75rem; /** Font size 12px (0.75rem) — the step name is the px value at the default root font size. */
   --font-size-14: 0.875rem; /** Font size 14px (0.875rem) — the step name is the px value at the default root font size. */
   --font-size-16: 1rem; /** Font size 16px (1rem) — the step name is the px value at the default root font size. */
@@ -32884,8 +32886,12 @@ exports[`built output snapshots > dist/js/space/global.js 1`] = `
 
 exports[`built output snapshots > dist/js/typography/global.js 1`] = `
 "export const fontFamily = {
-  sans: "'Public Sans', system-ui, -apple-system, sans-serif",
-  mono: "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
+  sans: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  display:
+    "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  system:
+    "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  mono: "'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
 }
 export const fontSize = {
   12: '0.75rem',
@@ -36625,8 +36631,10 @@ exports[`built output snapshots > dist/json/space/global.json 1`] = `
 exports[`built output snapshots > dist/json/typography/global.json 1`] = `
 "{
   "font-family": {
-    "font-family-sans": "'Public Sans', system-ui, -apple-system, sans-serif",
-    "font-family-mono": "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
+    "font-family-sans": "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+    "font-family-display": "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+    "font-family-system": "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+    "font-family-mono": "'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace"
   },
   "font-size": {
     "font-size-12": "0.75rem",
@@ -39977,8 +39985,10 @@ exports[`built output snapshots > dist/less/space/global.less 1`] = `
 `;
 
 exports[`built output snapshots > dist/less/typography/global.less 1`] = `
-"@font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; // Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.
-@font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack — JetBrains Mono with system fallbacks for code, tabular data, and technical content.
+"@font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.
+@font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.
+@font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.
+@font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.
 @font-size-12: 0.75rem; // Font size 12px (0.75rem) — the step name is the px value at the default root font size.
 @font-size-14: 0.875rem; // Font size 14px (0.875rem) — the step name is the px value at the default root font size.
 @font-size-16: 1rem; // Font size 16px (1rem) — the step name is the px value at the default root font size.
@@ -43319,8 +43329,10 @@ $space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root fo
 `;
 
 exports[`built output snapshots > dist/scss/typography/global.scss 1`] = `
-"$font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; // Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.
-$font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack — JetBrains Mono with system fallbacks for code, tabular data, and technical content.
+"$font-family-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.
+$font-family-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.
+$font-family-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'; // System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.
+$font-family-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.
 $font-size-12: 0.75rem; // Font size 12px (0.75rem) — the step name is the px value at the default root font size.
 $font-size-14: 0.875rem; // Font size 14px (0.875rem) — the step name is the px value at the default root font size.
 $font-size-16: 1rem; // Font size 16px (1rem) — the step name is the px value at the default root font size.
@@ -49788,8 +49800,10 @@ exports[`built output snapshots > dist/tailwind/space/global.css 1`] = `
 
 exports[`built output snapshots > dist/tailwind/typography/global.css 1`] = `
 "@theme {
-  --font-sans: 'Public Sans', system-ui, -apple-system, sans-serif;
-  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  --font-sans: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-display: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-system: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
   --text-12: 0.75rem;
   --text-14: 0.875rem;
   --text-16: 1rem;
@@ -69435,20 +69449,60 @@ exports[`built output snapshots > dist/tokens/global/typography/canonical.json 1
   "font-family": {
     "sans": {
       "$type": "fontFamily",
-      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.",
+      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.",
       "$value": [
         "Public Sans",
-        "system-ui",
         "-apple-system",
-        "sans-serif"
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ]
+    },
+    "display": {
+      "$type": "fontFamily",
+      "$description": "Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.",
+      "$value": [
+        "Public Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ]
+    },
+    "system": {
+      "$type": "fontFamily",
+      "$description": "System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.",
+      "$value": [
+        "Public Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
       ]
     },
     "mono": {
       "$type": "fontFamily",
-      "$description": "Monospace stack — JetBrains Mono with system fallbacks for code, tabular data, and technical content.",
+      "$description": "Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.",
       "$value": [
         "JetBrains Mono",
+        "ui-monospace",
         "SFMono-Regular",
+        "SF Mono",
         "Menlo",
         "Consolas",
         "Liberation Mono",
@@ -105187,20 +105241,60 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
   "font-family": {
     "sans": {
       "$type": "fontFamily",
-      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.",
+      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system, Helvetica/Arial, and emoji fallbacks. Use for all UI and body text.",
       "$value": [
         "Public Sans",
-        "system-ui",
         "-apple-system",
-        "sans-serif"
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ]
+    },
+    "display": {
+      "$type": "fontFamily",
+      "$description": "Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.",
+      "$value": [
+        "Public Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
+      ]
+    },
+    "system": {
+      "$type": "fontFamily",
+      "$description": "System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.",
+      "$value": [
+        "Public Sans",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Noto Sans",
+        "Helvetica",
+        "Arial",
+        "sans-serif",
+        "Apple Color Emoji",
+        "Segoe UI Emoji"
       ]
     },
     "mono": {
       "$type": "fontFamily",
-      "$description": "Monospace stack — JetBrains Mono with system fallbacks for code, tabular data, and technical content.",
+      "$description": "Monospace stack — JetBrains Mono with ui-monospace and system fallbacks for code, tabular data, and technical content.",
       "$value": [
         "JetBrains Mono",
+        "ui-monospace",
         "SFMono-Regular",
+        "SF Mono",
         "Menlo",
         "Consolas",
         "Liberation Mono",
@@ -109032,8 +109126,12 @@ exports[`built output snapshots > dist/ts/space/global.ts 1`] = `
 
 exports[`built output snapshots > dist/ts/typography/global.ts 1`] = `
 "export const fontFamily = {
-  sans: "'Public Sans', system-ui, -apple-system, sans-serif",
-  mono: "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
+  sans: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  display:
+    "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  system:
+    "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
+  mono: "'JetBrains Mono', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace",
 }
 export const fontSize = {
   '12': '0.75rem',
