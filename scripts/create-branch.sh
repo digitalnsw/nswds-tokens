@@ -47,7 +47,7 @@ if [[ $# -gt 0 ]]; then
 fi
 
 # Check against pattern
-if [[ $branch_name =~ $BRANCH_REGEX ]]; then
+if [[ $branch_name =~ $BRANCH_REGEX || $branch_name =~ $SNYK_REGEX ]]; then
   git checkout -b "$branch_name"
   echo "✅ Branch '$branch_name' created."
   if [[ "$push_to_remote" == "true" ]]; then

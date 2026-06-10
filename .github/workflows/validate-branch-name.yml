@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout base branch policy
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.base.sha }}
           fetch-depth: 1
@@ -24,7 +24,7 @@ jobs:
         run: |
           # Source policy from the PR base commit so PR changes cannot alter validation.
           # shellcheck source=/dev/null
-          source "${GITHUB_WORKSPACE}/.base-policy/branch-name-config.sh"
+          source "${GITHUB_WORKSPACE}/.base-policy/scripts/branch-name-config.sh"
           BRANCH_NAME="${{ github.head_ref }}"
           echo "Branch name: $BRANCH_NAME"
 
