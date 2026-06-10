@@ -20,6 +20,12 @@ function createTokenTreeNode(): TokenTreeNode {
   }
 }
 
+// Figma echoes FLOATs at float32 precision (1.2 comes back as 1.2000000476837158).
+// Snap exported numerics to 7 decimal places — float32's ~7-significant-digit noise
+// floor at token magnitudes, and the precision the canonical values are authored at —
+// so staging files mirror the clean source values. Integers pass through unchanged.
+const snapFloat = (n: number) => Number(n.toFixed(7))
+
 function tokenTypeFromVariable(variable: LocalVariable, rule: FigmaValueRule | null) {
   if (rule) return rule.$type
   switch (variable.resolvedType) {
@@ -56,13 +62,15 @@ function tokenValueFromVariable(
   }
   // Manifest-driven reconstruction back to the DTCG shapes the staging files use.
   if (rule?.$type === 'dimension' && typeof value === 'number') {
+    const px = snapFloat(value)
     return rule.unit === 'rem'
-      ? { value: value / FIGMA_REM_PX, unit: 'rem' as const }
-      : { value, unit: 'px' as const }
+      ? { value: snapFloat(px / FIGMA_REM_PX), unit: 'rem' as const }
+      : { value: px, unit: 'px' as const }
   }
   if (rule?.$type === 'fontFamily' && typeof value === 'string') {
     return value.includes(', ') ? value.split(', ') : value
   }
+  if (typeof value === 'number') return snapFloat(value)
   return value
 }
 

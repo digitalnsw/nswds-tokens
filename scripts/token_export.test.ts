@@ -677,4 +677,58 @@ describe('tokenFilesFromLocalVariables', () => {
       $value: 700,
     })
   })
+
+  it('snaps float32-echoed FLOATs to 7 decimal places', () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:8:1': {
+            id: 'VariableCollectionId:8:1',
+            name: 'Typography',
+            modes: [{ modeId: '8:0', name: 'base' }],
+            defaultModeId: '8:0',
+            remote: false,
+            key: 'typographyKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:8:1', 'VariableID:8:2'],
+          },
+        },
+        variables: {
+          'VariableID:8:1': {
+            id: 'VariableID:8:1',
+            name: 'line-height/snug',
+            key: 'lhsnug',
+            variableCollectionId: 'VariableCollectionId:8:1',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '8:0': 1.3333332538604736 }, // Figma's float32 echo of 1.3333333
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+          'VariableID:8:2': {
+            id: 'VariableID:8:2',
+            name: 'letter-spacing/wide',
+            key: 'lswide',
+            variableCollectionId: 'VariableCollectionId:8:1',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '8:0': 0.02500000037252903 }, // float32 echo of 0.025
+            remote: false,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    const tokenFiles = tokenFilesFromLocalVariables(localVariablesResponse)
+    const typography = tokenFiles['typography.base.json'] as Record<string, Record<string, unknown>>
+    expect(typography['line-height'].snug).toMatchObject({ $value: 1.3333333 })
+    expect(typography['letter-spacing'].wide).toMatchObject({ $value: 0.025 })
+  })
 })

@@ -106844,7 +106844,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
     },
     "tight": {
       "$type": "number",
-      "$value": 1.2000000476837158,
+      "$value": 1.2,
       "$description": "Tight (1.2) — large headings (36/30 in the prose scale).",
       "$extensions": {
         "com.figma": {
@@ -106858,7 +106858,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
     },
     "snug": {
       "$type": "number",
-      "$value": 1.3333332538604736,
+      "$value": 1.3333333,
       "$description": "Snug (1.3333333) — mid-size headings (32/24, 40/30 in the prose scale).",
       "$extensions": {
         "com.figma": {
@@ -106886,7 +106886,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
     },
     "relaxed": {
       "$type": "number",
-      "$value": 1.600000023841858,
+      "$value": 1.6,
       "$description": "Relaxed (1.6) — subheadings and lead text (32/20 in the prose scale).",
       "$extensions": {
         "com.figma": {
@@ -106916,7 +106916,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
   "letter-spacing": {
     "tight": {
       "$type": "number",
-      "$value": -0.012500000186264515,
+      "$value": -0.0125,
       "$description": "Tight tracking (-0.0125em) — large display headings. Value is an em multiplier; string outputs render it with the em unit.",
       "$extensions": {
         "com.figma": {
@@ -106944,7 +106944,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
     },
     "wide": {
       "$type": "number",
-      "$value": 0.02500000037252903,
+      "$value": 0.025,
       "$description": "Wide tracking (0.025em) — small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.",
       "$extensions": {
         "com.figma": {
