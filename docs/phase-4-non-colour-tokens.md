@@ -12,7 +12,7 @@ validation, snapshots, typecheck.
 | # | Decision | Choice |
 | --- | --- | --- |
 | D1 | Value provenance | **Maintainer drafts, designers review in the PR.** Each milestone PR carries a proposed scale; design amends values before merge. Post-merge value edits are one-line canonical changes. |
-| D2 | Scale naming | **Numeric primitives** (`space.1…12` on a 4px grid; matches the colour ramps' numeric-step convention). T-shirt names arrive later as semantic aliases if wanted. |
+| D2 | Scale naming | **Numeric primitives** (`space.0…12` on a 4px grid; matches the colour ramps' numeric-step convention). T-shirt names arrive later as semantic aliases if wanted. |
 | D3 | Units | **`rem` for space and font-size** (respects user zoom), **`px` for radius and breakpoints** (visual constants). |
 | D4 | Line-height | **Unitless `number`** (e.g. `1.5`) — inherits proportionally; accepted by DTCG typography composites. |
 | D5 | Figma sync | **Plan 4e now, sync soon:** staging files + `figma-collections.ts` entries are wired during 4a/4b; the actual `sync-tokens-to-figma` push (which creates the Figma collections) is gated only on the rotated Figma token. Composites (typography/shadow) never sync — they are Figma styles, not variables. |
@@ -48,7 +48,7 @@ Theme layer: out of scope (nothing varies by theme today); the structure permits
 
 | Category | `$type` | Notes |
 | --- | --- | --- |
-| space / radius / breakpoints / font-size | `dimension` | `{value, unit}`, unit ∈ `px`\|`rem` per D3 |
+| space / radius / breakpoints / font-size (lives in `typography/canonical.json`) | `dimension` | `{value, unit}`, unit ∈ `px` or `rem` per D3 |
 | font family | `fontFamily` | array form for fallback stacks |
 | font weight | `fontWeight` | number 1–1000 |
 | line height / letter-spacing multiplier | `number` | unitless per D4 |
@@ -60,6 +60,8 @@ Theme layer: out of scope (nothing varies by theme today); the structure permits
 Carried in each milestone PR for amendment; shown here so design can preview direction.
 
 - **space** (4px grid, rem): `0:0 · 1:0.25 · 2:0.5 · 3:0.75 · 4:1 · 5:1.25 · 6:1.5 · 8:2 · 10:2.5 · 12:3`
+  — steps 7/9/11 are deliberately omitted (sparse scale, Tailwind-style); design can add
+  intermediates in the 4a review if needed.
 - **radius** (px): `none:0 · sm:4 · md:8 · lg:16 · pill:9999`
 - **breakpoints** (px): `xs:480 · sm:768 · md:992 · lg:1200 · xl:1600`
 - **font-size** (rem) and **weights/line-heights**: proposed in the 4b PR.
@@ -85,8 +87,8 @@ Carried in each milestone PR for amendment; shown here so design can preview dir
    snapshot suite need no changes (the suite enumerates dist/ at run time).
 7. **Figma (4e)** — dimensions sync as `FLOAT` + scopes (`GAP`, `CORNER_RADIUS`,
    `FONT_SIZE`, `WIDTH_HEIGHT`) via the existing `$extensions['com.figma']` round-trip;
-   fontFamily as `STRING`, fontWeight as `FLOAT`. The sync push CREATEs the collections in
-   Figma; staging files + manifest entries land with 4a/4b, push gated on the rotated token.
+   fontFamily as `STRING`, fontWeight as `FLOAT`. The sync push creates the collections in
+   Figma (a `CREATE` action in the variables payload); staging files + manifest entries land with 4a/4b, push gated on the rotated token.
 
 ## Milestones / PR slicing
 
