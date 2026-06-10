@@ -1,3 +1,7 @@
+## 3.2.0 (2026-06-10)
+
+* feat(tokens): typography primitives (Phase 4b) (#91) ([9787f7f](https://github.com/digitalnsw/nswds-tokens/commit/9787f7f)), closes [#91](https://github.com/digitalnsw/nswds-tokens/issues/91) [#91](https://github.com/digitalnsw/nswds-tokens/issues/91)
+
 ## 3.1.0 (2026-06-10)
 
 * feat(tokens): space, radius, and breakpoint dimension tokens (Phase 4a) (#90) ([3bcef16](https://github.com/digitalnsw/nswds-tokens/commit/3bcef16)), closes [#90](https://github.com/digitalnsw/nswds-tokens/issues/90) [#90](https://github.com/digitalnsw/nswds-tokens/issues/90)
