@@ -50,6 +50,9 @@ import * as dataVisualisationCssHex from './css/colors/themes/data-visualisation
 import * as dataVisualisationCssHsl from './css/colors/themes/data-visualisation/hsl.css'
 import * as dataVisualisationCssOklch from './css/colors/themes/data-visualisation/oklch.css'
 import * as dataVisualisationCssRgb from './css/colors/themes/data-visualisation/rgb.css'
+import * as spaceCssGlobal from './css/space/global.css'
+import * as radiusCssGlobal from './css/radius/global.css'
+import * as breakpointsCssGlobal from './css/breakpoints/global.css'
 
 import * as globalJsHex from './js/colors/global/hex.js'
 import * as globalJsHsl from './js/colors/global/hsl.js'
@@ -75,6 +78,9 @@ import * as dataVisualisationJsHex from './js/colors/themes/data-visualisation/h
 import * as dataVisualisationJsHsl from './js/colors/themes/data-visualisation/hsl.js'
 import * as dataVisualisationJsOklch from './js/colors/themes/data-visualisation/oklch.js'
 import * as dataVisualisationJsRgb from './js/colors/themes/data-visualisation/rgb.js'
+import * as spaceJsGlobal from './js/space/global.js'
+import * as radiusJsGlobal from './js/radius/global.js'
+import * as breakpointsJsGlobal from './js/breakpoints/global.js'
 
 const globalJsonHex = require('./json/colors/global/hex.json')
 const globalJsonHsl = require('./json/colors/global/hsl.json')
@@ -100,6 +106,9 @@ const dataVisualisationJsonHex = require('./json/colors/themes/data-visualisatio
 const dataVisualisationJsonHsl = require('./json/colors/themes/data-visualisation/hsl.json')
 const dataVisualisationJsonOklch = require('./json/colors/themes/data-visualisation/oklch.json')
 const dataVisualisationJsonRgb = require('./json/colors/themes/data-visualisation/rgb.json')
+const spaceJsonGlobal = require('./json/space/global.json')
+const radiusJsonGlobal = require('./json/radius/global.json')
+const breakpointsJsonGlobal = require('./json/breakpoints/global.json')
 
 import * as globalLessHex from './less/colors/global/hex.less'
 import * as globalLessHsl from './less/colors/global/hsl.less'
@@ -125,6 +134,9 @@ import * as dataVisualisationLessHex from './less/colors/themes/data-visualisati
 import * as dataVisualisationLessHsl from './less/colors/themes/data-visualisation/hsl.less'
 import * as dataVisualisationLessOklch from './less/colors/themes/data-visualisation/oklch.less'
 import * as dataVisualisationLessRgb from './less/colors/themes/data-visualisation/rgb.less'
+import * as spaceLessGlobal from './less/space/global.less'
+import * as radiusLessGlobal from './less/radius/global.less'
+import * as breakpointsLessGlobal from './less/breakpoints/global.less'
 
 import * as globalScssHex from './scss/colors/global/hex.scss'
 import * as globalScssHsl from './scss/colors/global/hsl.scss'
@@ -150,6 +162,9 @@ import * as dataVisualisationScssHex from './scss/colors/themes/data-visualisati
 import * as dataVisualisationScssHsl from './scss/colors/themes/data-visualisation/hsl.scss'
 import * as dataVisualisationScssOklch from './scss/colors/themes/data-visualisation/oklch.scss'
 import * as dataVisualisationScssRgb from './scss/colors/themes/data-visualisation/rgb.scss'
+import * as spaceScssGlobal from './scss/space/global.scss'
+import * as radiusScssGlobal from './scss/radius/global.scss'
+import * as breakpointsScssGlobal from './scss/breakpoints/global.scss'
 
 import * as globalTailwindHex from './tailwind/colors/global/hex.css'
 import * as globalTailwindHsl from './tailwind/colors/global/hsl.css'
@@ -175,6 +190,9 @@ import * as dataVisualisationTailwindHex from './tailwind/colors/themes/data-vis
 import * as dataVisualisationTailwindHsl from './tailwind/colors/themes/data-visualisation/hsl.css'
 import * as dataVisualisationTailwindOklch from './tailwind/colors/themes/data-visualisation/oklch.css'
 import * as dataVisualisationTailwindRgb from './tailwind/colors/themes/data-visualisation/rgb.css'
+import * as spaceTailwindGlobal from './tailwind/space/global.css'
+import * as radiusTailwindGlobal from './tailwind/radius/global.css'
+import * as breakpointsTailwindGlobal from './tailwind/breakpoints/global.css'
 
 import * as globalTsHex from './ts/colors/global/hex.js'
 import * as globalTsHsl from './ts/colors/global/hsl.js'
@@ -200,6 +218,9 @@ import * as dataVisualisationTsHex from './ts/colors/themes/data-visualisation/h
 import * as dataVisualisationTsHsl from './ts/colors/themes/data-visualisation/hsl.js'
 import * as dataVisualisationTsOklch from './ts/colors/themes/data-visualisation/oklch.js'
 import * as dataVisualisationTsRgb from './ts/colors/themes/data-visualisation/rgb.js'
+import * as spaceTsGlobal from './ts/space/global.js'
+import * as radiusTsGlobal from './ts/radius/global.js'
+import * as breakpointsTsGlobal from './ts/breakpoints/global.js'
 
 export const tokens = {
   colors: {
@@ -221,6 +242,9 @@ export const tokens = {
       "fuchsia-orange": { hex: fuchsiaOrangeCssHex, hsl: fuchsiaOrangeCssHsl, oklch: fuchsiaOrangeCssOklch, rgb: fuchsiaOrangeCssRgb },
       "data-visualisation": { hex: dataVisualisationCssHex, hsl: dataVisualisationCssHsl, oklch: dataVisualisationCssOklch, rgb: dataVisualisationCssRgb },
     },
+    space: { global: spaceCssGlobal },
+    radius: { global: radiusCssGlobal },
+    breakpoints: { global: breakpointsCssGlobal },
   },
   js: {
     global: { hex: globalJsHex, hsl: globalJsHsl, oklch: globalJsOklch, rgb: globalJsRgb },
@@ -231,6 +255,9 @@ export const tokens = {
       "fuchsia-orange": { hex: fuchsiaOrangeJsHex, hsl: fuchsiaOrangeJsHsl, oklch: fuchsiaOrangeJsOklch, rgb: fuchsiaOrangeJsRgb },
       "data-visualisation": { hex: dataVisualisationJsHex, hsl: dataVisualisationJsHsl, oklch: dataVisualisationJsOklch, rgb: dataVisualisationJsRgb },
     },
+    space: { global: spaceJsGlobal },
+    radius: { global: radiusJsGlobal },
+    breakpoints: { global: breakpointsJsGlobal },
   },
   json: {
     global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb },
@@ -241,6 +268,9 @@ export const tokens = {
       "fuchsia-orange": { hex: fuchsiaOrangeJsonHex, hsl: fuchsiaOrangeJsonHsl, oklch: fuchsiaOrangeJsonOklch, rgb: fuchsiaOrangeJsonRgb },
       "data-visualisation": { hex: dataVisualisationJsonHex, hsl: dataVisualisationJsonHsl, oklch: dataVisualisationJsonOklch, rgb: dataVisualisationJsonRgb },
     },
+    space: { global: spaceJsonGlobal },
+    radius: { global: radiusJsonGlobal },
+    breakpoints: { global: breakpointsJsonGlobal },
   },
   less: {
     global: { hex: globalLessHex, hsl: globalLessHsl, oklch: globalLessOklch, rgb: globalLessRgb },
@@ -251,6 +281,9 @@ export const tokens = {
       "fuchsia-orange": { hex: fuchsiaOrangeLessHex, hsl: fuchsiaOrangeLessHsl, oklch: fuchsiaOrangeLessOklch, rgb: fuchsiaOrangeLessRgb },
       "data-visualisation": { hex: dataVisualisationLessHex, hsl: dataVisualisationLessHsl, oklch: dataVisualisationLessOklch, rgb: dataVisualisationLessRgb },
     },
+    space: { global: spaceLessGlobal },
+    radius: { global: radiusLessGlobal },
+    breakpoints: { global: breakpointsLessGlobal },
   },
   scss: {
     global: { hex: globalScssHex, hsl: globalScssHsl, oklch: globalScssOklch, rgb: globalScssRgb },
@@ -261,6 +294,9 @@ export const tokens = {
       "fuchsia-orange": { hex: fuchsiaOrangeScssHex, hsl: fuchsiaOrangeScssHsl, oklch: fuchsiaOrangeScssOklch, rgb: fuchsiaOrangeScssRgb },
       "data-visualisation": { hex: dataVisualisationScssHex, hsl: dataVisualisationScssHsl, oklch: dataVisualisationScssOklch, rgb: dataVisualisationScssRgb },
     },
+    space: { global: spaceScssGlobal },
+    radius: { global: radiusScssGlobal },
+    breakpoints: { global: breakpointsScssGlobal },
   },
   tailwind: {
     global: { hex: globalTailwindHex, hsl: globalTailwindHsl, oklch: globalTailwindOklch, rgb: globalTailwindRgb },
@@ -271,6 +307,9 @@ export const tokens = {
       "fuchsia-orange": { hex: fuchsiaOrangeTailwindHex, hsl: fuchsiaOrangeTailwindHsl, oklch: fuchsiaOrangeTailwindOklch, rgb: fuchsiaOrangeTailwindRgb },
       "data-visualisation": { hex: dataVisualisationTailwindHex, hsl: dataVisualisationTailwindHsl, oklch: dataVisualisationTailwindOklch, rgb: dataVisualisationTailwindRgb },
     },
+    space: { global: spaceTailwindGlobal },
+    radius: { global: radiusTailwindGlobal },
+    breakpoints: { global: breakpointsTailwindGlobal },
   },
   ts: {
     global: { hex: globalTsHex, hsl: globalTsHsl, oklch: globalTsOklch, rgb: globalTsRgb },
@@ -281,6 +320,9 @@ export const tokens = {
       "fuchsia-orange": { hex: fuchsiaOrangeTsHex, hsl: fuchsiaOrangeTsHsl, oklch: fuchsiaOrangeTsOklch, rgb: fuchsiaOrangeTsRgb },
       "data-visualisation": { hex: dataVisualisationTsHex, hsl: dataVisualisationTsHsl, oklch: dataVisualisationTsOklch, rgb: dataVisualisationTsRgb },
     },
+    space: { global: spaceTsGlobal },
+    radius: { global: radiusTsGlobal },
+    breakpoints: { global: breakpointsTsGlobal },
   },
 }
 

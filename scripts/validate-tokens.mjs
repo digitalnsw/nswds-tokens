@@ -1,7 +1,8 @@
 // Token validation gate.
 //
 // Scans the canonical per-colour-space token tree under tokens/{global,semantic,themes}
-// and checks:
+// AND the non-colour category sources (tokens/<layer>/<category>/canonical.json — space,
+// radius, breakpoints, …) and checks:
 //   ERRORS (fail CI):
 //     - every leaf has a $value
 //     - every alias {a.b.c} resolves to an existing token (no dangling references)
@@ -93,6 +94,71 @@ const checkColorShape = (label, path, leaf) => {
   if (Array.isArray(comps) && comps.includes(null))
     warnings.push(`${label} ${path}: null component; DTCG expects the string "none"`)
   if (!('hex' in v)) warnings.push(`${label} ${path}: no "hex" fallback (recommended by DTCG)`)
+}
+
+// ── Non-colour categories (Phase 4) ──────────────────────────────────────────────────
+// One canonical.json per (layer, category); no per-space views. Discover dynamically so
+// new categories (typography, shadow, …) are validated the moment their files exist.
+const categoryFiles = () => {
+  const files = []
+  for (const layer of ['global', 'semantic']) {
+    const layerDir = resolve(tokensDir, layer)
+    if (!existsSync(layerDir)) continue
+    for (const entry of readdirSync(layerDir, { withFileTypes: true })) {
+      if (!entry.isDirectory() || entry.name === 'color') continue
+      const p = resolve(layerDir, entry.name, 'canonical.json')
+      if (existsSync(p)) files.push({ label: `${layer}/${entry.name}`, path: p })
+    }
+  }
+  return files
+}
+
+// DTCG 2025.10 dimension conformance: $value is { value: number, unit: "px" | "rem" }.
+const checkDimensionShape = (label, path, leaf) => {
+  if (leaf.$type !== 'dimension') return
+  const v = leaf.$value
+  if (aliasTarget(leaf)) return // aliases checked by reference resolution
+  if (!v || typeof v !== 'object' || typeof v.value !== 'number') {
+    errors.push(`${label} ${path}: dimension $value must be { value: number, unit }`)
+    return
+  }
+  if (!['px', 'rem'].includes(v.unit))
+    errors.push(`${label} ${path}: dimension unit "${v.unit}" (DTCG allows "px" or "rem")`)
+}
+
+{
+  const files = categoryFiles()
+  const namespace = {}
+  const leafByPath = {}
+  const allLeaves = []
+
+  for (const { label, path } of files) {
+    const flat = flatten(readJson(path), '', {})
+    for (const [tokenPath, leaf] of Object.entries(flat)) {
+      allLeaves.push({ label, path: tokenPath, leaf })
+      leafByPath[tokenPath] = leaf
+
+      if (!('$value' in leaf)) errors.push(`${label} ${tokenPath}: missing $value`)
+      if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
+      checkDimensionShape(label, tokenPath, leaf)
+
+      const serialized = JSON.stringify(leaf.$value)
+      const prior = namespace[tokenPath]
+      if (prior && prior.value !== serialized) {
+        errors.push(
+          `duplicate token "${tokenPath}" with conflicting values (${prior.label} vs ${label})`,
+        )
+      }
+      namespace[tokenPath] = { value: serialized, label }
+    }
+  }
+
+  // Alias resolution within the category namespace (semantic categories will alias global).
+  for (const { path, leaf } of allLeaves) {
+    const target = aliasTarget(leaf)
+    if (target && !leafByPath[target])
+      errors.push(`unresolved alias "{${target}}" referenced by "${path}"`)
+  }
 }
 
 for (const space of SPACES) {

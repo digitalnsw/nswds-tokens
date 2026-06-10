@@ -25,6 +25,10 @@ export const colorFunction = (colorSpace, value) => {
   }
 }
 
+// DTCG dimension object ({value, unit}) -> CSS dimension string. Zero stays unitless-free
+// as "0<unit>" is valid CSS but "0" would lose the unit round-trip, so keep the unit.
+export const dimensionString = ({ value, unit }) => `${value}${unit}`
+
 const groupByFamily = (tokens) => {
   const groups = new Map()
   for (const t of tokens) {
@@ -46,12 +50,15 @@ export const nswJs = ({ dictionary }) => {
   return out
 }
 
-// ts/colors/.../hex.ts  ->  export const nswGrey = { '50': '#fafafa', ... }  (quoted keys)
+// ts/colors/.../hex.ts  ->  export const nswGrey = { '50': '#fafafa', ... }
+// Keys are quoted only when they are not valid identifiers (numeric colour steps stay
+// quoted; alpha dimension steps like `none`/`xs` are unquoted) — matching Prettier.
+const tsKey = (k) => (/^[A-Za-z_$][\w$]*$/.test(k) ? k : `'${k}'`)
 export const nswTs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
     out += `export const ${toCamel(family)} = {\n`
-    for (const t of toks) out += `  '${t.path[1]}': '${t.$value}',\n`
+    for (const t of toks) out += `  ${tsKey(t.path[1])}: '${t.$value}',\n`
     out += `}\n`
   }
   return out
@@ -94,6 +101,19 @@ export const nswFigma = ({ dictionary }) => {
 //   - alias layers (masterbrand): `--color-<local>: var(--<aliasTarget>)` (e.g.
 //     primary-50 -> var(--nsw-blue-50)) and NO :root block — it relies on the referenced
 //     layer's vars being imported.
+// tailwind/<category>/global.css — Tailwind v4 @theme block for dimension categories.
+// Unlike colours there is no :root indirection: dimension namespaces (--spacing-*,
+// --radius-*, --breakpoint-*) get direct values. options.namespace maps the token family
+// to the Tailwind namespace (space -> spacing); the family segment is dropped from the
+// variable name (--spacing-4, not --spacing-space-4).
+export const nswTailwindDimension = ({ dictionary, options }) => {
+  let out = '@theme {\n'
+  for (const t of dictionary.allTokens) {
+    out += `  --${options.namespace}-${t.path.slice(1).join('-')}: ${t.$value};\n`
+  }
+  return `${out}}\n`
+}
+
 const ALIAS = /^\{([\w-]+(?:\.[\w-]+)*)\}$/
 export const nswTailwind = ({ dictionary, options }) => {
   const header = options?.inline ? '@theme inline' : '@theme'

@@ -4,7 +4,7 @@ import * as path from 'path'
 import { colorApproximatelyEqual, dtcgToRgb, isDtcgColor, parseColor } from './color.js'
 import { FIGMA_COLLECTIONS } from './figma-collections.js'
 import { areSetsEqual, assertSafeObjectKey, assertSafePathSegment } from './utils.js'
-import { Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
+import { DtcgDimension, Token, TokenOrTokenGroup, TokensFile } from './token_types.js'
 import {
   GetLocalVariablesResponse,
   LocalVariable,
@@ -120,6 +120,7 @@ function variableResolvedTypeFromToken(token: Token) {
     case 'color':
       return 'COLOR'
     case 'number':
+    case 'dimension': // Figma variables have no unit concept — dimensions sync as FLOAT px
       return 'FLOAT'
     case 'string':
       return 'STRING'
@@ -128,6 +129,21 @@ function variableResolvedTypeFromToken(token: Token) {
     default:
       throw new Error(`Invalid token $type: ${token.$type}`)
   }
+}
+
+// Narrow an unknown $value to a DTCG dimension object ({ value, unit }).
+function isDtcgDimension(value: unknown): value is DtcgDimension {
+  if (typeof value !== 'object' || value === null) return false
+  const v = value as Record<string, unknown>
+  return typeof v.value === 'number' && (v.unit === 'px' || v.unit === 'rem')
+}
+
+// Figma variables are unitless floats; the px convention is what Figma's own UI uses for
+// spacing/radius. rem values convert at the 16px default root font size. The reverse
+// (FLOAT -> dimension on export) is collection-aware and lands with milestone 4e.
+const REM_PX = 16
+function figmaFloatFromDimension(d: DtcgDimension): number {
+  return d.unit === 'rem' ? d.value * REM_PX : d.value
 }
 
 function isAlias(value: string) {
@@ -166,6 +182,8 @@ function variableValueFromToken(
     return dtcgToRgb(token.$value)
   } else if (typeof token.$value === 'string' && token.$type === 'color') {
     return parseColor(token.$value) // back-compat: hex string colours
+  } else if (token.$type === 'dimension' && isDtcgDimension(token.$value)) {
+    return figmaFloatFromDimension(token.$value)
   } else {
     if (typeof token.$value === 'object') {
       // An object $value that reaches this branch must not be forwarded to Figma as-is —

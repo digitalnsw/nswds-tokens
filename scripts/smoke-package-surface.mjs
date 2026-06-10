@@ -18,6 +18,11 @@ const documentedSpecifiers = [
   '@nswds/tokens/tokens/global/color/hex.json',
   '@nswds/tokens/ts/colors/global/hex.ts',
   '@nswds/tokens/figma/color/themes/masterbrand/color/hex.json',
+  // Phase 4 dimension categories
+  '@nswds/tokens/css/space/global.css',
+  '@nswds/tokens/js/radius/global.js',
+  '@nswds/tokens/tailwind/breakpoints/global.css',
+  '@nswds/tokens/tokens/global/space/canonical.json',
 ]
 
 const run = (command, args, options = {}) => {
