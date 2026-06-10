@@ -1,5 +1,15 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`built output snapshots > dist/css/border/global.css 1`] = `
+":root {
+  --border-width-thin: 0.0625rem; /** Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders. */
+  --border-width-thick: 0.125rem; /** Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states. */
+  --border-width-thicker: 0.25rem; /** Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines. */
+  --border-width-default: 0.0625rem; /** Default border width — aliases thin so the system-wide default can be retuned in one place. */
+}
+"
+`;
+
 exports[`built output snapshots > dist/css/breakpoints/global.css 1`] = `
 ":root {
   --breakpoint-xs: 480px; /** Extra-small breakpoint — large phones and up. */
@@ -4065,6 +4075,22 @@ exports[`built output snapshots > dist/css/radius/global.css 1`] = `
   --radius-md: 8px; /** Medium rounding — cards, panels, and modals. */
   --radius-lg: 16px; /** Large rounding — hero surfaces and prominent containers. */
   --radius-pill: 9999px; /** Fully rounded ends — pills, badges, and circular icon buttons. */
+}
+"
+`;
+
+exports[`built output snapshots > dist/css/shadow/global.css 1`] = `
+":root {
+  --box-shadow-thin: inset 0 0 0 0.0625rem; /** Thin inset ring (inset 0 0 0 border-width.thin) — border-via-shadow that does not affect layout; renders with currentColor. */
+  --box-shadow-thick: inset 0 0 0 0.125rem; /** Thick inset ring (inset 0 0 0 border-width.thick) — emphasis/selected outline; renders with currentColor. */
+  --box-shadow-thicker: inset 0 0 0 0.25rem; /** Thicker inset ring (inset 0 0 0 border-width.thicker) — focus indication; renders with currentColor. */
+  --shadow-color-5: rgb(0 0 0 / 0.05); /** Shadow black at 5% alpha — the faintest elevation tint. Step name is the alpha percentage. */
+  --shadow-color-10: rgb(0 0 0 / 0.1); /** Shadow black at 10% alpha — the standard elevation tint. Step name is the alpha percentage. */
+  --shadow-color-25: rgb(0 0 0 / 0.25); /** Shadow black at 25% alpha — strong elevation for overlays/modals. Step name is the alpha percentage. */
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); /** Small elevation — cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review. */
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); /** Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review. */
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); /** Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review. */
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); /** Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review. */
 }
 "
 `;
@@ -29301,6 +29327,16 @@ exports[`built output snapshots > dist/figma/color/themes/masterbrand/color/rgb.
 "
 `;
 
+exports[`built output snapshots > dist/js/border/global.js 1`] = `
+"export const borderWidth = {
+  thin: '0.0625rem',
+  thick: '0.125rem',
+  thicker: '0.25rem',
+  default: '0.0625rem',
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/breakpoints/global.js 1`] = `
 "export const breakpoint = {
   xs: '480px',
@@ -32927,6 +32963,26 @@ exports[`built output snapshots > dist/js/radius/global.js 1`] = `
 "
 `;
 
+exports[`built output snapshots > dist/js/shadow/global.js 1`] = `
+"export const boxShadow = {
+  thin: 'inset 0 0 0 0.0625rem',
+  thick: 'inset 0 0 0 0.125rem',
+  thicker: 'inset 0 0 0 0.25rem',
+}
+export const shadowColor = {
+  5: 'rgb(0 0 0 / 0.05)',
+  10: 'rgb(0 0 0 / 0.1)',
+  25: 'rgb(0 0 0 / 0.25)',
+}
+export const shadow = {
+  sm: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
+  md: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
+  lg: '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+  xl: '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/space/global.js 1`] = `
 "export const space = {
   0: '0rem',
@@ -33064,6 +33120,18 @@ export const code = {
   fontWeight: 400,
   lineHeight: 1.5,
   letterSpacing: '0em',
+}
+"
+`;
+
+exports[`built output snapshots > dist/json/border/global.json 1`] = `
+"{
+  "border-width": {
+    "border-width-thin": "0.0625rem",
+    "border-width-thick": "0.125rem",
+    "border-width-thicker": "0.25rem",
+    "border-width-default": "0.0625rem"
+  }
 }
 "
 `;
@@ -36746,6 +36814,28 @@ exports[`built output snapshots > dist/json/radius/global.json 1`] = `
 "
 `;
 
+exports[`built output snapshots > dist/json/shadow/global.json 1`] = `
+"{
+  "box-shadow": {
+    "box-shadow-thin": "inset 0 0 0 0.0625rem",
+    "box-shadow-thick": "inset 0 0 0 0.125rem",
+    "box-shadow-thicker": "inset 0 0 0 0.25rem"
+  },
+  "shadow-color": {
+    "shadow-color-5": "rgb(0 0 0 / 0.05)",
+    "shadow-color-10": "rgb(0 0 0 / 0.1)",
+    "shadow-color-25": "rgb(0 0 0 / 0.25)"
+  },
+  "shadow": {
+    "shadow-sm": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+    "shadow-md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+    "shadow-lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+    "shadow-xl": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
+  }
+}
+"
+`;
+
 exports[`built output snapshots > dist/json/space/global.json 1`] = `
 "{
   "space": {
@@ -36879,6 +36969,14 @@ exports[`built output snapshots > dist/json/typography/semantic.json 1`] = `
     "letterSpacing": "0em"
   }
 }
+"
+`;
+
+exports[`built output snapshots > dist/less/border/global.less 1`] = `
+"@border-width-thin: 0.0625rem; // Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.
+@border-width-thick: 0.125rem; // Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.
+@border-width-thicker: 0.25rem; // Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.
+@border-width-default: 0.0625rem; // Default border width — aliases thin so the system-wide default can be retuned in one place.
 "
 `;
 
@@ -40176,6 +40274,20 @@ exports[`built output snapshots > dist/less/radius/global.less 1`] = `
 "
 `;
 
+exports[`built output snapshots > dist/less/shadow/global.less 1`] = `
+"@box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) — border-via-shadow that does not affect layout; renders with currentColor.
+@box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) — emphasis/selected outline; renders with currentColor.
+@box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) — focus indication; renders with currentColor.
+@shadow-color-5: rgb(0 0 0 / 0.05); // Shadow black at 5% alpha — the faintest elevation tint. Step name is the alpha percentage.
+@shadow-color-10: rgb(0 0 0 / 0.1); // Shadow black at 10% alpha — the standard elevation tint. Step name is the alpha percentage.
+@shadow-color-25: rgb(0 0 0 / 0.25); // Shadow black at 25% alpha — strong elevation for overlays/modals. Step name is the alpha percentage.
+@shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); // Small elevation — cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review.
+@shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); // Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review.
+@shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); // Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review.
+@shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); // Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review.
+"
+`;
+
 exports[`built output snapshots > dist/less/space/global.less 1`] = `
 "@space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.
 @space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.
@@ -40273,6 +40385,14 @@ exports[`built output snapshots > dist/less/typography/semantic.less 1`] = `
 @typography-code-font-weight: 400;
 @typography-code-line-height: 1.5;
 @typography-code-letter-spacing: 0em;
+"
+`;
+
+exports[`built output snapshots > dist/scss/border/global.scss 1`] = `
+"$border-width-thin: 0.0625rem; // Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.
+$border-width-thick: 0.125rem; // Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.
+$border-width-thicker: 0.25rem; // Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.
+$border-width-default: 0.0625rem; // Default border width — aliases thin so the system-wide default can be retuned in one place.
 "
 `;
 
@@ -43570,6 +43690,20 @@ $radius-pill: 9999px; // Fully rounded ends — pills, badges, and circular icon
 "
 `;
 
+exports[`built output snapshots > dist/scss/shadow/global.scss 1`] = `
+"$box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) — border-via-shadow that does not affect layout; renders with currentColor.
+$box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) — emphasis/selected outline; renders with currentColor.
+$box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) — focus indication; renders with currentColor.
+$shadow-color-5: rgb(0 0 0 / 0.05); // Shadow black at 5% alpha — the faintest elevation tint. Step name is the alpha percentage.
+$shadow-color-10: rgb(0 0 0 / 0.1); // Shadow black at 10% alpha — the standard elevation tint. Step name is the alpha percentage.
+$shadow-color-25: rgb(0 0 0 / 0.25); // Shadow black at 25% alpha — strong elevation for overlays/modals. Step name is the alpha percentage.
+$shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); // Small elevation — cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review.
+$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); // Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review.
+$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); // Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review.
+$shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); // Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review.
+"
+`;
+
 exports[`built output snapshots > dist/scss/space/global.scss 1`] = `
 "$space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.
 $space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.
@@ -43667,6 +43801,16 @@ $typography-code-font-size: 0.875rem;
 $typography-code-font-weight: 400;
 $typography-code-line-height: 1.5;
 $typography-code-letter-spacing: 0em;
+"
+`;
+
+exports[`built output snapshots > dist/tailwind/border/global.css 1`] = `
+"@theme {
+  --border-width-thin: 0.0625rem;
+  --border-width-thick: 0.125rem;
+  --border-width-thicker: 0.25rem;
+  --border-width-default: 0.0625rem;
+}
 "
 `;
 
@@ -50088,6 +50232,22 @@ exports[`built output snapshots > dist/tailwind/radius/global.css 1`] = `
 "
 `;
 
+exports[`built output snapshots > dist/tailwind/shadow/global.css 1`] = `
+"@theme {
+  --inset-shadow-thin: inset 0 0 0 0.0625rem;
+  --inset-shadow-thick: inset 0 0 0 0.125rem;
+  --inset-shadow-thicker: inset 0 0 0 0.25rem;
+  --shadow-color-5: rgb(0 0 0 / 0.05);
+  --shadow-color-10: rgb(0 0 0 / 0.1);
+  --shadow-color-25: rgb(0 0 0 / 0.25);
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+"
+`;
+
 exports[`built output snapshots > dist/tailwind/space/global.css 1`] = `
 "@theme {
   --spacing-0: 0rem;
@@ -50143,6 +50303,43 @@ exports[`built output snapshots > dist/tailwind/typography/global.css 1`] = `
 "
 `;
 
+exports[`built output snapshots > dist/tokens/border.base.json 1`] = `
+"{
+  "border-width": {
+    "thin": {
+      "$type": "dimension",
+      "$description": "Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.",
+      "$value": {
+        "value": 0.0625,
+        "unit": "rem"
+      }
+    },
+    "thick": {
+      "$type": "dimension",
+      "$description": "Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.",
+      "$value": {
+        "value": 0.125,
+        "unit": "rem"
+      }
+    },
+    "thicker": {
+      "$type": "dimension",
+      "$description": "Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.",
+      "$value": {
+        "value": 0.25,
+        "unit": "rem"
+      }
+    },
+    "default": {
+      "$type": "dimension",
+      "$description": "Default border width — aliases thin so the system-wide default can be retuned in one place.",
+      "$value": "{border-width.thin}"
+    }
+  }
+}
+"
+`;
+
 exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
 "{
   "breakpoint": {
@@ -50185,6 +50382,43 @@ exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
         "value": 1600,
         "unit": "px"
       }
+    }
+  }
+}
+"
+`;
+
+exports[`built output snapshots > dist/tokens/global/border/canonical.json 1`] = `
+"{
+  "border-width": {
+    "thin": {
+      "$type": "dimension",
+      "$description": "Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders.",
+      "$value": {
+        "value": 0.0625,
+        "unit": "rem"
+      }
+    },
+    "thick": {
+      "$type": "dimension",
+      "$description": "Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states.",
+      "$value": {
+        "value": 0.125,
+        "unit": "rem"
+      }
+    },
+    "thicker": {
+      "$type": "dimension",
+      "$description": "Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines.",
+      "$value": {
+        "value": 0.25,
+        "unit": "rem"
+      }
+    },
+    "default": {
+      "$type": "dimension",
+      "$description": "Default border width — aliases thin so the system-wide default can be retuned in one place.",
+      "$value": "{border-width.thin}"
     }
   }
 }
@@ -69643,6 +69877,296 @@ exports[`built output snapshots > dist/tokens/global/radius/canonical.json 1`] =
         "value": 9999,
         "unit": "px"
       }
+    }
+  }
+}
+"
+`;
+
+exports[`built output snapshots > dist/tokens/global/shadow/canonical.json 1`] = `
+"{
+  "box-shadow": {
+    "thin": {
+      "$type": "shadow",
+      "$description": "Thin inset ring (inset 0 0 0 border-width.thin) — border-via-shadow that does not affect layout; renders with currentColor.",
+      "$value": {
+        "inset": true,
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": "{border-width.thin}"
+      }
+    },
+    "thick": {
+      "$type": "shadow",
+      "$description": "Thick inset ring (inset 0 0 0 border-width.thick) — emphasis/selected outline; renders with currentColor.",
+      "$value": {
+        "inset": true,
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": "{border-width.thick}"
+      }
+    },
+    "thicker": {
+      "$type": "shadow",
+      "$description": "Thicker inset ring (inset 0 0 0 border-width.thicker) — focus indication; renders with currentColor.",
+      "$value": {
+        "inset": true,
+        "offsetX": {
+          "value": 0,
+          "unit": "px"
+        },
+        "offsetY": {
+          "value": 0,
+          "unit": "px"
+        },
+        "blur": {
+          "value": 0,
+          "unit": "px"
+        },
+        "spread": "{border-width.thicker}"
+      }
+    }
+  },
+  "shadow-color": {
+    "5": {
+      "$type": "color",
+      "$description": "Shadow black at 5% alpha — the faintest elevation tint. Step name is the alpha percentage.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.05,
+        "hex": "#000000"
+      }
+    },
+    "10": {
+      "$type": "color",
+      "$description": "Shadow black at 10% alpha — the standard elevation tint. Step name is the alpha percentage.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.1,
+        "hex": "#000000"
+      }
+    },
+    "25": {
+      "$type": "color",
+      "$description": "Shadow black at 25% alpha — strong elevation for overlays/modals. Step name is the alpha percentage.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.25,
+        "hex": "#000000"
+      }
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$type": "shadow",
+      "$description": "Small elevation — cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -1,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
+    },
+    "md": {
+      "$type": "shadow",
+      "$description": "Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 6,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -1,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
+    },
+    "lg": {
+      "$type": "shadow",
+      "$description": "Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 10,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 15,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -3,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 6,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
+    },
+    "xl": {
+      "$type": "shadow",
+      "$description": "Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 20,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 25,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -5,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 8,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 10,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -6,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
     }
   }
 }
@@ -105906,6 +106430,16 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
 "
 `;
 
+exports[`built output snapshots > dist/ts/border/global.ts 1`] = `
+"export const borderWidth = {
+  thin: '0.0625rem',
+  thick: '0.125rem',
+  thicker: '0.25rem',
+  default: '0.0625rem',
+}
+"
+`;
+
 exports[`built output snapshots > dist/ts/breakpoints/global.ts 1`] = `
 "export const breakpoint = {
   xs: '480px',
@@ -109528,6 +110062,26 @@ exports[`built output snapshots > dist/ts/radius/global.ts 1`] = `
   md: '8px',
   lg: '16px',
   pill: '9999px',
+}
+"
+`;
+
+exports[`built output snapshots > dist/ts/shadow/global.ts 1`] = `
+"export const boxShadow = {
+  thin: 'inset 0 0 0 0.0625rem',
+  thick: 'inset 0 0 0 0.125rem',
+  thicker: 'inset 0 0 0 0.25rem',
+}
+export const shadowColor = {
+  '5': 'rgb(0 0 0 / 0.05)',
+  '10': 'rgb(0 0 0 / 0.1)',
+  '25': 'rgb(0 0 0 / 0.25)',
+}
+export const shadow = {
+  sm: '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
+  md: '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
+  lg: '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+  xl: '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
 }
 "
 `;

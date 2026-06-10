@@ -1,0 +1,6 @@
+:root {
+  --border-width-thin: 0.0625rem; /** Thin border (0.0625rem / 1px at the default root) — hairlines, dividers, and default control borders. */
+  --border-width-thick: 0.125rem; /** Thick border (0.125rem / 2px at the default root) — emphasis borders and selected states. */
+  --border-width-thicker: 0.25rem; /** Thicker border (0.25rem / 4px at the default root) — focus rings and high-emphasis outlines. */
+  --border-width-default: 0.0625rem; /** Default border width — aliases thin so the system-wide default can be retuned in one place. */
+}

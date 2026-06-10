@@ -17,6 +17,8 @@ const CATEGORIES = [
   { key: 'radius', layers: ['global'] },
   { key: 'breakpoints', layers: ['global'] },
   { key: 'typography', layers: ['global', 'semantic'] },
+  { key: 'border', layers: ['global'] },
+  { key: 'shadow', layers: ['global'] },
 ]
 
 const cap = (s) => s[0].toUpperCase() + s.slice(1)

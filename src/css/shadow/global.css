@@ -1,0 +1,12 @@
+:root {
+  --box-shadow-thin: inset 0 0 0 0.0625rem; /** Thin inset ring (inset 0 0 0 border-width.thin) — border-via-shadow that does not affect layout; renders with currentColor. */
+  --box-shadow-thick: inset 0 0 0 0.125rem; /** Thick inset ring (inset 0 0 0 border-width.thick) — emphasis/selected outline; renders with currentColor. */
+  --box-shadow-thicker: inset 0 0 0 0.25rem; /** Thicker inset ring (inset 0 0 0 border-width.thicker) — focus indication; renders with currentColor. */
+  --shadow-color-5: rgb(0 0 0 / 0.05); /** Shadow black at 5% alpha — the faintest elevation tint. Step name is the alpha percentage. */
+  --shadow-color-10: rgb(0 0 0 / 0.1); /** Shadow black at 10% alpha — the standard elevation tint. Step name is the alpha percentage. */
+  --shadow-color-25: rgb(0 0 0 / 0.25); /** Shadow black at 25% alpha — strong elevation for overlays/modals. Step name is the alpha percentage. */
+  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); /** Small elevation — cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review. */
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); /** Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review. */
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); /** Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review. */
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); /** Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review. */
+}

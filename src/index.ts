@@ -55,6 +55,8 @@ import * as radiusCssGlobal from './css/radius/global.css'
 import * as breakpointsCssGlobal from './css/breakpoints/global.css'
 import * as typographyCssGlobal from './css/typography/global.css'
 import * as typographyCssSemantic from './css/typography/semantic.css'
+import * as borderCssGlobal from './css/border/global.css'
+import * as shadowCssGlobal from './css/shadow/global.css'
 
 import * as globalJsHex from './js/colors/global/hex.js'
 import * as globalJsHsl from './js/colors/global/hsl.js'
@@ -85,6 +87,8 @@ import * as radiusJsGlobal from './js/radius/global.js'
 import * as breakpointsJsGlobal from './js/breakpoints/global.js'
 import * as typographyJsGlobal from './js/typography/global.js'
 import * as typographyJsSemantic from './js/typography/semantic.js'
+import * as borderJsGlobal from './js/border/global.js'
+import * as shadowJsGlobal from './js/shadow/global.js'
 
 const globalJsonHex = require('./json/colors/global/hex.json')
 const globalJsonHsl = require('./json/colors/global/hsl.json')
@@ -115,6 +119,8 @@ const radiusJsonGlobal = require('./json/radius/global.json')
 const breakpointsJsonGlobal = require('./json/breakpoints/global.json')
 const typographyJsonGlobal = require('./json/typography/global.json')
 const typographyJsonSemantic = require('./json/typography/semantic.json')
+const borderJsonGlobal = require('./json/border/global.json')
+const shadowJsonGlobal = require('./json/shadow/global.json')
 
 import * as globalLessHex from './less/colors/global/hex.less'
 import * as globalLessHsl from './less/colors/global/hsl.less'
@@ -145,6 +151,8 @@ import * as radiusLessGlobal from './less/radius/global.less'
 import * as breakpointsLessGlobal from './less/breakpoints/global.less'
 import * as typographyLessGlobal from './less/typography/global.less'
 import * as typographyLessSemantic from './less/typography/semantic.less'
+import * as borderLessGlobal from './less/border/global.less'
+import * as shadowLessGlobal from './less/shadow/global.less'
 
 import * as globalScssHex from './scss/colors/global/hex.scss'
 import * as globalScssHsl from './scss/colors/global/hsl.scss'
@@ -175,6 +183,8 @@ import * as radiusScssGlobal from './scss/radius/global.scss'
 import * as breakpointsScssGlobal from './scss/breakpoints/global.scss'
 import * as typographyScssGlobal from './scss/typography/global.scss'
 import * as typographyScssSemantic from './scss/typography/semantic.scss'
+import * as borderScssGlobal from './scss/border/global.scss'
+import * as shadowScssGlobal from './scss/shadow/global.scss'
 
 import * as globalTailwindHex from './tailwind/colors/global/hex.css'
 import * as globalTailwindHsl from './tailwind/colors/global/hsl.css'
@@ -204,6 +214,8 @@ import * as spaceTailwindGlobal from './tailwind/space/global.css'
 import * as radiusTailwindGlobal from './tailwind/radius/global.css'
 import * as breakpointsTailwindGlobal from './tailwind/breakpoints/global.css'
 import * as typographyTailwindGlobal from './tailwind/typography/global.css'
+import * as borderTailwindGlobal from './tailwind/border/global.css'
+import * as shadowTailwindGlobal from './tailwind/shadow/global.css'
 
 import * as globalTsHex from './ts/colors/global/hex.js'
 import * as globalTsHsl from './ts/colors/global/hsl.js'
@@ -234,6 +246,8 @@ import * as radiusTsGlobal from './ts/radius/global.js'
 import * as breakpointsTsGlobal from './ts/breakpoints/global.js'
 import * as typographyTsGlobal from './ts/typography/global.js'
 import * as typographyTsSemantic from './ts/typography/semantic.js'
+import * as borderTsGlobal from './ts/border/global.js'
+import * as shadowTsGlobal from './ts/shadow/global.js'
 
 export const tokens = {
   colors: {
@@ -259,6 +273,8 @@ export const tokens = {
     radius: { global: radiusCssGlobal },
     breakpoints: { global: breakpointsCssGlobal },
     typography: { global: typographyCssGlobal, semantic: typographyCssSemantic },
+    border: { global: borderCssGlobal },
+    shadow: { global: shadowCssGlobal },
   },
   js: {
     global: { hex: globalJsHex, hsl: globalJsHsl, oklch: globalJsOklch, rgb: globalJsRgb },
@@ -273,6 +289,8 @@ export const tokens = {
     radius: { global: radiusJsGlobal },
     breakpoints: { global: breakpointsJsGlobal },
     typography: { global: typographyJsGlobal, semantic: typographyJsSemantic },
+    border: { global: borderJsGlobal },
+    shadow: { global: shadowJsGlobal },
   },
   json: {
     global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb },
@@ -287,6 +305,8 @@ export const tokens = {
     radius: { global: radiusJsonGlobal },
     breakpoints: { global: breakpointsJsonGlobal },
     typography: { global: typographyJsonGlobal, semantic: typographyJsonSemantic },
+    border: { global: borderJsonGlobal },
+    shadow: { global: shadowJsonGlobal },
   },
   less: {
     global: { hex: globalLessHex, hsl: globalLessHsl, oklch: globalLessOklch, rgb: globalLessRgb },
@@ -301,6 +321,8 @@ export const tokens = {
     radius: { global: radiusLessGlobal },
     breakpoints: { global: breakpointsLessGlobal },
     typography: { global: typographyLessGlobal, semantic: typographyLessSemantic },
+    border: { global: borderLessGlobal },
+    shadow: { global: shadowLessGlobal },
   },
   scss: {
     global: { hex: globalScssHex, hsl: globalScssHsl, oklch: globalScssOklch, rgb: globalScssRgb },
@@ -315,6 +337,8 @@ export const tokens = {
     radius: { global: radiusScssGlobal },
     breakpoints: { global: breakpointsScssGlobal },
     typography: { global: typographyScssGlobal, semantic: typographyScssSemantic },
+    border: { global: borderScssGlobal },
+    shadow: { global: shadowScssGlobal },
   },
   tailwind: {
     global: { hex: globalTailwindHex, hsl: globalTailwindHsl, oklch: globalTailwindOklch, rgb: globalTailwindRgb },
@@ -329,6 +353,8 @@ export const tokens = {
     radius: { global: radiusTailwindGlobal },
     breakpoints: { global: breakpointsTailwindGlobal },
     typography: { global: typographyTailwindGlobal },
+    border: { global: borderTailwindGlobal },
+    shadow: { global: shadowTailwindGlobal },
   },
   ts: {
     global: { hex: globalTsHex, hsl: globalTsHsl, oklch: globalTsOklch, rgb: globalTsRgb },
@@ -343,6 +369,8 @@ export const tokens = {
     radius: { global: radiusTsGlobal },
     breakpoints: { global: breakpointsTsGlobal },
     typography: { global: typographyTsGlobal, semantic: typographyTsSemantic },
+    border: { global: borderTsGlobal },
+    shadow: { global: shadowTsGlobal },
   },
 }
 

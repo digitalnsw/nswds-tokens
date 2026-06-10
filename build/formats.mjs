@@ -13,9 +13,14 @@ const toCamel = (s) => s.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase())
 const noneToZero = (x) => (x === 'none' ? 0 : x)
 export const colorFunction = (colorSpace, value) => {
   const c = value.components
+  // Translucent colours (shadow-color primitives) use the modern slash syntax; fully
+  // opaque colours keep the legacy comma syntax so existing outputs stay byte-identical.
+  const alpha = value.alpha ?? 1
   switch (colorSpace) {
     case 'srgb':
-      return `rgb(${c.map((x) => Math.round(x * 255)).join(', ')})`
+      return alpha !== 1
+        ? `rgb(${c.map((x) => Math.round(x * 255)).join(' ')} / ${alpha})`
+        : `rgb(${c.map((x) => Math.round(x * 255)).join(', ')})`
     case 'hsl':
       return `hsl(${noneToZero(c[0])}, ${c[1]}%, ${c[2]}%)`
     case 'oklch':
@@ -34,6 +39,37 @@ export const dimensionString = ({ value, unit }) => `${value}${unit}`
 export const fontFamilyString = (value) => {
   const names = Array.isArray(value) ? value : [value]
   return names.map((n) => (/\s/.test(n) ? `'${n}'` : n)).join(', ')
+}
+
+// DTCG shadow (object or layered array) -> CSS box-shadow string. By the time this runs,
+// SD has resolved sub-aliases, so spread arrives as a dimension object. Zero lengths are
+// emitted bare (`inset 0 0 0 0.0625rem`, matching the design spec) and a missing `color`
+// is deliberate: CSS renders the shadow with currentColor.
+const shadowLength = (d) => {
+  if (typeof d === 'string') return d // already stringified by an earlier transform pass
+  return d.value === 0 ? '0' : dimensionString(d)
+}
+export const shadowString = (value) => {
+  const layers = Array.isArray(value) ? value : [value]
+  return layers
+    .map((layer) => {
+      // colour may arrive as an already-transformed CSS string or (depending on
+      // transform ordering) as the resolved DTCG colour object — handle both.
+      const colorString =
+        layer.color && typeof layer.color === 'object'
+          ? colorFunction(layer.color.colorSpace, layer.color)
+          : layer.color
+      const parts = [
+        ...(layer.inset ? ['inset'] : []),
+        shadowLength(layer.offsetX),
+        shadowLength(layer.offsetY),
+        shadowLength(layer.blur),
+        shadowLength(layer.spread),
+        ...(colorString ? [colorString] : []),
+      ]
+      return parts.join(' ')
+    })
+    .join(', ')
 }
 
 const groupByFamily = (tokens) => {
