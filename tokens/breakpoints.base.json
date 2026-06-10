@@ -1,0 +1,44 @@
+{
+  "breakpoint": {
+    "xs": {
+      "$type": "dimension",
+      "$description": "Extra-small breakpoint — large phones and up.",
+      "$value": {
+        "value": 480,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$description": "Small breakpoint — tablets portrait and up.",
+      "$value": {
+        "value": 768,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$description": "Medium breakpoint — tablets landscape / small laptops and up.",
+      "$value": {
+        "value": 992,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$description": "Large breakpoint — desktops and up.",
+      "$value": {
+        "value": 1200,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$description": "Extra-large breakpoint — wide desktops and up.",
+      "$value": {
+        "value": 1600,
+        "unit": "px"
+      }
+    }
+  }
+}

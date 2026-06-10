@@ -94,6 +94,18 @@ declare namespace dataVisualisationCssRgb {
   export {  };
 }
 
+declare namespace spaceCssGlobal {
+  export {  };
+}
+
+declare namespace radiusCssGlobal {
+  export {  };
+}
+
+declare namespace breakpointsCssGlobal {
+  export {  };
+}
+
 declare const nswGrey$7: {
     50: string;
     100: string;
@@ -3722,6 +3734,49 @@ declare namespace dataVisualisationJsRgb {
   export { blueOrange$4 as blueOrange, blueRed$4 as blueRed, deepCurrent$4 as deepCurrent, earthfire$4 as earthfire, ember$4 as ember, fuchsiaHeat$4 as fuchsiaHeat, fuchsiaTeal$4 as fuchsiaTeal, glacierPool$4 as glacierPool, polarGlow$4 as polarGlow, purpleYellow$4 as purpleYellow };
 }
 
+declare const space$1: {
+    0: string;
+    1: string;
+    2: string;
+    3: string;
+    4: string;
+    5: string;
+    6: string;
+    8: string;
+    10: string;
+    12: string;
+    14: string;
+    16: string;
+};
+
+declare namespace spaceJsGlobal {
+  export { space$1 as space };
+}
+
+declare namespace radius$1 {
+    let none: string;
+    let sm: string;
+    let md: string;
+    let lg: string;
+    let pill: string;
+}
+
+declare namespace radiusJsGlobal {
+  export { radius$1 as radius };
+}
+
+declare namespace breakpoint$1 {
+    let xs: string;
+    let sm: string;
+    let md: string;
+    let lg: string;
+    let xl: string;
+}
+
+declare namespace breakpointsJsGlobal {
+  export { breakpoint$1 as breakpoint };
+}
+
 declare namespace globalLessHex {
   export {  };
 }
@@ -3815,6 +3870,18 @@ declare namespace dataVisualisationLessOklch {
 }
 
 declare namespace dataVisualisationLessRgb {
+  export {  };
+}
+
+declare namespace spaceLessGlobal {
+  export {  };
+}
+
+declare namespace radiusLessGlobal {
+  export {  };
+}
+
+declare namespace breakpointsLessGlobal {
   export {  };
 }
 
@@ -3914,6 +3981,18 @@ declare namespace dataVisualisationScssRgb {
   export {  };
 }
 
+declare namespace spaceScssGlobal {
+  export {  };
+}
+
+declare namespace radiusScssGlobal {
+  export {  };
+}
+
+declare namespace breakpointsScssGlobal {
+  export {  };
+}
+
 declare namespace globalTailwindHex {
   export {  };
 }
@@ -4007,6 +4086,18 @@ declare namespace dataVisualisationTailwindOklch {
 }
 
 declare namespace dataVisualisationTailwindRgb {
+  export {  };
+}
+
+declare namespace spaceTailwindGlobal {
+  export {  };
+}
+
+declare namespace radiusTailwindGlobal {
+  export {  };
+}
+
+declare namespace breakpointsTailwindGlobal {
   export {  };
 }
 
@@ -7673,6 +7764,52 @@ declare namespace dataVisualisationTsRgb {
   export { dataVisualisationTsRgb_blueOrange as blueOrange, dataVisualisationTsRgb_blueRed as blueRed, dataVisualisationTsRgb_deepCurrent as deepCurrent, dataVisualisationTsRgb_earthfire as earthfire, dataVisualisationTsRgb_ember as ember, dataVisualisationTsRgb_fuchsiaHeat as fuchsiaHeat, dataVisualisationTsRgb_fuchsiaTeal as fuchsiaTeal, dataVisualisationTsRgb_glacierPool as glacierPool, dataVisualisationTsRgb_polarGlow as polarGlow, dataVisualisationTsRgb_purpleYellow as purpleYellow };
 }
 
+declare const space: {
+    '0': string;
+    '1': string;
+    '2': string;
+    '3': string;
+    '4': string;
+    '5': string;
+    '6': string;
+    '8': string;
+    '10': string;
+    '12': string;
+    '14': string;
+    '16': string;
+};
+
+declare const spaceTsGlobal_space: typeof space;
+declare namespace spaceTsGlobal {
+  export { spaceTsGlobal_space as space };
+}
+
+declare const radius: {
+    none: string;
+    sm: string;
+    md: string;
+    lg: string;
+    pill: string;
+};
+
+declare const radiusTsGlobal_radius: typeof radius;
+declare namespace radiusTsGlobal {
+  export { radiusTsGlobal_radius as radius };
+}
+
+declare const breakpoint: {
+    xs: string;
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+};
+
+declare const breakpointsTsGlobal_breakpoint: typeof breakpoint;
+declare namespace breakpointsTsGlobal {
+  export { breakpointsTsGlobal_breakpoint as breakpoint };
+}
+
 declare const tokens: {
     colors: {
         global: {
@@ -7753,6 +7890,15 @@ declare const tokens: {
                 rgb: typeof dataVisualisationCssRgb;
             };
         };
+        space: {
+            global: typeof spaceCssGlobal;
+        };
+        radius: {
+            global: typeof radiusCssGlobal;
+        };
+        breakpoints: {
+            global: typeof breakpointsCssGlobal;
+        };
     };
     js: {
         global: {
@@ -7792,6 +7938,15 @@ declare const tokens: {
                 oklch: typeof dataVisualisationJsOklch;
                 rgb: typeof dataVisualisationJsRgb;
             };
+        };
+        space: {
+            global: typeof spaceJsGlobal;
+        };
+        radius: {
+            global: typeof radiusJsGlobal;
+        };
+        breakpoints: {
+            global: typeof breakpointsJsGlobal;
         };
     };
     json: {
@@ -7833,6 +7988,15 @@ declare const tokens: {
                 rgb: any;
             };
         };
+        space: {
+            global: any;
+        };
+        radius: {
+            global: any;
+        };
+        breakpoints: {
+            global: any;
+        };
     };
     less: {
         global: {
@@ -7872,6 +8036,15 @@ declare const tokens: {
                 oklch: typeof dataVisualisationLessOklch;
                 rgb: typeof dataVisualisationLessRgb;
             };
+        };
+        space: {
+            global: typeof spaceLessGlobal;
+        };
+        radius: {
+            global: typeof radiusLessGlobal;
+        };
+        breakpoints: {
+            global: typeof breakpointsLessGlobal;
         };
     };
     scss: {
@@ -7913,6 +8086,15 @@ declare const tokens: {
                 rgb: typeof dataVisualisationScssRgb;
             };
         };
+        space: {
+            global: typeof spaceScssGlobal;
+        };
+        radius: {
+            global: typeof radiusScssGlobal;
+        };
+        breakpoints: {
+            global: typeof breakpointsScssGlobal;
+        };
     };
     tailwind: {
         global: {
@@ -7953,6 +8135,15 @@ declare const tokens: {
                 rgb: typeof dataVisualisationTailwindRgb;
             };
         };
+        space: {
+            global: typeof spaceTailwindGlobal;
+        };
+        radius: {
+            global: typeof radiusTailwindGlobal;
+        };
+        breakpoints: {
+            global: typeof breakpointsTailwindGlobal;
+        };
     };
     ts: {
         global: {
@@ -7992,6 +8183,15 @@ declare const tokens: {
                 oklch: typeof dataVisualisationTsOklch;
                 rgb: typeof dataVisualisationTsRgb;
             };
+        };
+        space: {
+            global: typeof spaceTsGlobal;
+        };
+        radius: {
+            global: typeof radiusTsGlobal;
+        };
+        breakpoints: {
+            global: typeof breakpointsTsGlobal;
         };
     };
 };
@@ -8074,6 +8274,15 @@ declare const cssTokens: {
             rgb: typeof dataVisualisationCssRgb;
         };
     };
+    space: {
+        global: typeof spaceCssGlobal;
+    };
+    radius: {
+        global: typeof radiusCssGlobal;
+    };
+    breakpoints: {
+        global: typeof breakpointsCssGlobal;
+    };
 };
 declare const jsTokens: {
     global: {
@@ -8113,6 +8322,15 @@ declare const jsTokens: {
             oklch: typeof dataVisualisationJsOklch;
             rgb: typeof dataVisualisationJsRgb;
         };
+    };
+    space: {
+        global: typeof spaceJsGlobal;
+    };
+    radius: {
+        global: typeof radiusJsGlobal;
+    };
+    breakpoints: {
+        global: typeof breakpointsJsGlobal;
     };
 };
 declare const jsonTokens: {
@@ -8154,6 +8372,15 @@ declare const jsonTokens: {
             rgb: any;
         };
     };
+    space: {
+        global: any;
+    };
+    radius: {
+        global: any;
+    };
+    breakpoints: {
+        global: any;
+    };
 };
 declare const lessTokens: {
     global: {
@@ -8193,6 +8420,15 @@ declare const lessTokens: {
             oklch: typeof dataVisualisationLessOklch;
             rgb: typeof dataVisualisationLessRgb;
         };
+    };
+    space: {
+        global: typeof spaceLessGlobal;
+    };
+    radius: {
+        global: typeof radiusLessGlobal;
+    };
+    breakpoints: {
+        global: typeof breakpointsLessGlobal;
     };
 };
 declare const scssTokens: {
@@ -8234,6 +8470,15 @@ declare const scssTokens: {
             rgb: typeof dataVisualisationScssRgb;
         };
     };
+    space: {
+        global: typeof spaceScssGlobal;
+    };
+    radius: {
+        global: typeof radiusScssGlobal;
+    };
+    breakpoints: {
+        global: typeof breakpointsScssGlobal;
+    };
 };
 declare const tailwindTokens: {
     global: {
@@ -8274,6 +8519,15 @@ declare const tailwindTokens: {
             rgb: typeof dataVisualisationTailwindRgb;
         };
     };
+    space: {
+        global: typeof spaceTailwindGlobal;
+    };
+    radius: {
+        global: typeof radiusTailwindGlobal;
+    };
+    breakpoints: {
+        global: typeof breakpointsTailwindGlobal;
+    };
 };
 declare const tsTokens: {
     global: {
@@ -8313,6 +8567,15 @@ declare const tsTokens: {
             oklch: typeof dataVisualisationTsOklch;
             rgb: typeof dataVisualisationTsRgb;
         };
+    };
+    space: {
+        global: typeof spaceTsGlobal;
+    };
+    radius: {
+        global: typeof radiusTsGlobal;
+    };
+    breakpoints: {
+        global: typeof breakpointsTsGlobal;
     };
 };
 declare const brand: {

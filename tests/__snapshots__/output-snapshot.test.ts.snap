@@ -1,5 +1,16 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`built output snapshots > dist/css/breakpoints/global.css 1`] = `
+":root {
+  --breakpoint-xs: 480px; /** Extra-small breakpoint — large phones and up. */
+  --breakpoint-sm: 768px; /** Small breakpoint — tablets portrait and up. */
+  --breakpoint-md: 992px; /** Medium breakpoint — tablets landscape / small laptops and up. */
+  --breakpoint-lg: 1200px; /** Large breakpoint — desktops and up. */
+  --breakpoint-xl: 1600px; /** Extra-large breakpoint — wide desktops and up. */
+}
+"
+`;
+
 exports[`built output snapshots > dist/css/colors/global/hex.css 1`] = `
 ":root {
   --nsw-grey-50: #fafafa;
@@ -4043,6 +4054,35 @@ pre[data-theme='dark'][class*='language-'] {
 .dark #carbonads .carbon-poweredby,
 [data-theme='dark'] #carbonads .carbon-poweredby {
   --tw-bg-opacity: 1;
+}
+"
+`;
+
+exports[`built output snapshots > dist/css/radius/global.css 1`] = `
+":root {
+  --radius-none: 0px; /** Square corners — tables, full-bleed surfaces, and elements flush to container edges. */
+  --radius-sm: 4px; /** Small rounding — inputs, buttons, tags, and compact controls. */
+  --radius-md: 8px; /** Medium rounding — cards, panels, and modals. */
+  --radius-lg: 16px; /** Large rounding — hero surfaces and prominent containers. */
+  --radius-pill: 9999px; /** Fully rounded ends — pills, badges, and circular icon buttons. */
+}
+"
+`;
+
+exports[`built output snapshots > dist/css/space/global.css 1`] = `
+":root {
+  --space-0: 0rem; /** Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps. */
+  --space-1: 0.25rem; /** Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps. */
+  --space-2: 0.5rem; /** Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps. */
+  --space-3: 0.75rem; /** Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps. */
+  --space-4: 1rem; /** Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps. */
+  --space-5: 1.25rem; /** Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps. */
+  --space-6: 1.5rem; /** Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps. */
+  --space-8: 2rem; /** Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps. */
+  --space-10: 2.5rem; /** Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps. */
+  --space-12: 3rem; /** Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps. */
+  --space-14: 3.5rem; /** Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps. */
+  --space-16: 4rem; /** Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps. */
 }
 "
 `;
@@ -29164,6 +29204,17 @@ exports[`built output snapshots > dist/figma/color/themes/masterbrand/color/rgb.
 "
 `;
 
+exports[`built output snapshots > dist/js/breakpoints/global.js 1`] = `
+"export const breakpoint = {
+  xs: '480px',
+  sm: '768px',
+  md: '992px',
+  lg: '1200px',
+  xl: '1600px',
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/global/hex.js 1`] = `
 "export const nswGrey = {
   50: '#fafafa',
@@ -32764,6 +32815,48 @@ export const grey = {
   850: 'rgb(24, 28, 31)',
   900: 'rgb(14, 17, 19)',
   950: 'rgb(5, 7, 9)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/radius/global.js 1`] = `
+"export const radius = {
+  none: '0px',
+  sm: '4px',
+  md: '8px',
+  lg: '16px',
+  pill: '9999px',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/space/global.js 1`] = `
+"export const space = {
+  0: '0rem',
+  1: '0.25rem',
+  2: '0.5rem',
+  3: '0.75rem',
+  4: '1rem',
+  5: '1.25rem',
+  6: '1.5rem',
+  8: '2rem',
+  10: '2.5rem',
+  12: '3rem',
+  14: '3.5rem',
+  16: '4rem',
+}
+"
+`;
+
+exports[`built output snapshots > dist/json/breakpoints/global.json 1`] = `
+"{
+  "breakpoint": {
+    "breakpoint-xs": "480px",
+    "breakpoint-sm": "768px",
+    "breakpoint-md": "992px",
+    "breakpoint-lg": "1200px",
+    "breakpoint-xl": "1600px"
+  }
 }
 "
 `;
@@ -36420,6 +36513,48 @@ exports[`built output snapshots > dist/json/colors/themes/masterbrand/rgb.json 1
 "
 `;
 
+exports[`built output snapshots > dist/json/radius/global.json 1`] = `
+"{
+  "radius": {
+    "radius-none": "0px",
+    "radius-sm": "4px",
+    "radius-md": "8px",
+    "radius-lg": "16px",
+    "radius-pill": "9999px"
+  }
+}
+"
+`;
+
+exports[`built output snapshots > dist/json/space/global.json 1`] = `
+"{
+  "space": {
+    "space-0": "0rem",
+    "space-1": "0.25rem",
+    "space-2": "0.5rem",
+    "space-3": "0.75rem",
+    "space-4": "1rem",
+    "space-5": "1.25rem",
+    "space-6": "1.5rem",
+    "space-8": "2rem",
+    "space-10": "2.5rem",
+    "space-12": "3rem",
+    "space-14": "3.5rem",
+    "space-16": "4rem"
+  }
+}
+"
+`;
+
+exports[`built output snapshots > dist/less/breakpoints/global.less 1`] = `
+"@breakpoint-xs: 480px; // Extra-small breakpoint — large phones and up.
+@breakpoint-sm: 768px; // Small breakpoint — tablets portrait and up.
+@breakpoint-md: 992px; // Medium breakpoint — tablets landscape / small laptops and up.
+@breakpoint-lg: 1200px; // Large breakpoint — desktops and up.
+@breakpoint-xl: 1600px; // Extra-large breakpoint — wide desktops and up.
+"
+`;
+
 exports[`built output snapshots > dist/less/colors/global/hex.less 1`] = `
 "@nsw-grey-50: #fafafa;
 @nsw-grey-100: #f5f5f5;
@@ -39696,6 +39831,40 @@ exports[`built output snapshots > dist/less/colors/themes/masterbrand/rgb.less 1
 "
 `;
 
+exports[`built output snapshots > dist/less/radius/global.less 1`] = `
+"@radius-none: 0px; // Square corners — tables, full-bleed surfaces, and elements flush to container edges.
+@radius-sm: 4px; // Small rounding — inputs, buttons, tags, and compact controls.
+@radius-md: 8px; // Medium rounding — cards, panels, and modals.
+@radius-lg: 16px; // Large rounding — hero surfaces and prominent containers.
+@radius-pill: 9999px; // Fully rounded ends — pills, badges, and circular icon buttons.
+"
+`;
+
+exports[`built output snapshots > dist/less/space/global.less 1`] = `
+"@space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.
+@space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.
+@space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.
+@space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.
+@space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.
+@space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.
+@space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.
+@space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.
+@space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.
+@space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.
+@space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.
+@space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.
+"
+`;
+
+exports[`built output snapshots > dist/scss/breakpoints/global.scss 1`] = `
+"$breakpoint-xs: 480px; // Extra-small breakpoint — large phones and up.
+$breakpoint-sm: 768px; // Small breakpoint — tablets portrait and up.
+$breakpoint-md: 992px; // Medium breakpoint — tablets landscape / small laptops and up.
+$breakpoint-lg: 1200px; // Large breakpoint — desktops and up.
+$breakpoint-xl: 1600px; // Extra-large breakpoint — wide desktops and up.
+"
+`;
+
 exports[`built output snapshots > dist/scss/colors/global/hex.scss 1`] = `
 "$nsw-grey-50: #fafafa;
 $nsw-grey-100: #f5f5f5;
@@ -42969,6 +43138,42 @@ $grey-800: rgb(34, 39, 43); // Neutral grey — text, borders, surfaces, and div
 $grey-850: rgb(24, 28, 31); // Neutral grey — text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.
 $grey-900: rgb(14, 17, 19); // Neutral grey — text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.
 $grey-950: rgb(5, 7, 9); // Neutral grey — text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.
+"
+`;
+
+exports[`built output snapshots > dist/scss/radius/global.scss 1`] = `
+"$radius-none: 0px; // Square corners — tables, full-bleed surfaces, and elements flush to container edges.
+$radius-sm: 4px; // Small rounding — inputs, buttons, tags, and compact controls.
+$radius-md: 8px; // Medium rounding — cards, panels, and modals.
+$radius-lg: 16px; // Large rounding — hero surfaces and prominent containers.
+$radius-pill: 9999px; // Fully rounded ends — pills, badges, and circular icon buttons.
+"
+`;
+
+exports[`built output snapshots > dist/scss/space/global.scss 1`] = `
+"$space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.
+$space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.
+$space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.
+$space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.
+$space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.
+$space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.
+$space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.
+$space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.
+$space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.
+$space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.
+$space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.
+$space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.
+"
+`;
+
+exports[`built output snapshots > dist/tailwind/breakpoints/global.css 1`] = `
+"@theme {
+  --breakpoint-xs: 480px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 992px;
+  --breakpoint-lg: 1200px;
+  --breakpoint-xl: 1600px;
+}
 "
 `;
 
@@ -49364,6 +49569,131 @@ exports[`built output snapshots > dist/tailwind/colors/themes/masterbrand/rgb.cs
   --grey-850: rgb(24, 28, 31);
   --grey-900: rgb(14, 17, 19);
   --grey-950: rgb(5, 7, 9);
+}
+"
+`;
+
+exports[`built output snapshots > dist/tailwind/radius/global.css 1`] = `
+"@theme {
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+}
+"
+`;
+
+exports[`built output snapshots > dist/tailwind/space/global.css 1`] = `
+"@theme {
+  --spacing-0: 0rem;
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-14: 3.5rem;
+  --spacing-16: 4rem;
+}
+"
+`;
+
+exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
+"{
+  "breakpoint": {
+    "xs": {
+      "$type": "dimension",
+      "$description": "Extra-small breakpoint — large phones and up.",
+      "$value": {
+        "value": 480,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$description": "Small breakpoint — tablets portrait and up.",
+      "$value": {
+        "value": 768,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$description": "Medium breakpoint — tablets landscape / small laptops and up.",
+      "$value": {
+        "value": 992,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$description": "Large breakpoint — desktops and up.",
+      "$value": {
+        "value": 1200,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$description": "Extra-large breakpoint — wide desktops and up.",
+      "$value": {
+        "value": 1600,
+        "unit": "px"
+      }
+    }
+  }
+}
+"
+`;
+
+exports[`built output snapshots > dist/tokens/global/breakpoints/canonical.json 1`] = `
+"{
+  "breakpoint": {
+    "xs": {
+      "$type": "dimension",
+      "$description": "Extra-small breakpoint — large phones and up.",
+      "$value": {
+        "value": 480,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$description": "Small breakpoint — tablets portrait and up.",
+      "$value": {
+        "value": 768,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$description": "Medium breakpoint — tablets landscape / small laptops and up.",
+      "$value": {
+        "value": 992,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$description": "Large breakpoint — desktops and up.",
+      "$value": {
+        "value": 1200,
+        "unit": "px"
+      }
+    },
+    "xl": {
+      "$type": "dimension",
+      "$description": "Extra-large breakpoint — wide desktops and up.",
+      "$value": {
+        "value": 1600,
+        "unit": "px"
+      }
+    }
+  }
 }
 "
 `;
@@ -68730,6 +69060,158 @@ exports[`built output snapshots > dist/tokens/global/color/rgb.json 1`] = `
 "
 `;
 
+exports[`built output snapshots > dist/tokens/global/radius/canonical.json 1`] = `
+"{
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$description": "Square corners — tables, full-bleed surfaces, and elements flush to container edges.",
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$description": "Small rounding — inputs, buttons, tags, and compact controls.",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$description": "Medium rounding — cards, panels, and modals.",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$description": "Large rounding — hero surfaces and prominent containers.",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "pill": {
+      "$type": "dimension",
+      "$description": "Fully rounded ends — pills, badges, and circular icon buttons.",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      }
+    }
+  }
+}
+"
+`;
+
+exports[`built output snapshots > dist/tokens/global/space/canonical.json 1`] = `
+"{
+  "space": {
+    "0": {
+      "$type": "dimension",
+      "$description": "Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0,
+        "unit": "rem"
+      }
+    },
+    "1": {
+      "$type": "dimension",
+      "$description": "Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.25,
+        "unit": "rem"
+      }
+    },
+    "2": {
+      "$type": "dimension",
+      "$description": "Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.5,
+        "unit": "rem"
+      }
+    },
+    "3": {
+      "$type": "dimension",
+      "$description": "Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      }
+    },
+    "4": {
+      "$type": "dimension",
+      "$description": "Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      }
+    },
+    "5": {
+      "$type": "dimension",
+      "$description": "Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1.25,
+        "unit": "rem"
+      }
+    },
+    "6": {
+      "$type": "dimension",
+      "$description": "Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1.5,
+        "unit": "rem"
+      }
+    },
+    "8": {
+      "$type": "dimension",
+      "$description": "Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 2,
+        "unit": "rem"
+      }
+    },
+    "10": {
+      "$type": "dimension",
+      "$description": "Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 2.5,
+        "unit": "rem"
+      }
+    },
+    "12": {
+      "$type": "dimension",
+      "$description": "Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3,
+        "unit": "rem"
+      }
+    },
+    "14": {
+      "$type": "dimension",
+      "$description": "Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3.5,
+        "unit": "rem"
+      }
+    },
+    "16": {
+      "$type": "dimension",
+      "$description": "Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 4,
+        "unit": "rem"
+      }
+    }
+  }
+}
+"
+`;
+
 exports[`built output snapshots > dist/tokens/primitives-global.light.json 1`] = `
 "{
   "nsw-grey": {
@@ -78442,6 +78924,54 @@ exports[`built output snapshots > dist/tokens/primitives-semantic.light.json 1`]
 "
 `;
 
+exports[`built output snapshots > dist/tokens/radius.base.json 1`] = `
+"{
+  "radius": {
+    "none": {
+      "$type": "dimension",
+      "$description": "Square corners — tables, full-bleed surfaces, and elements flush to container edges.",
+      "$value": {
+        "value": 0,
+        "unit": "px"
+      }
+    },
+    "sm": {
+      "$type": "dimension",
+      "$description": "Small rounding — inputs, buttons, tags, and compact controls.",
+      "$value": {
+        "value": 4,
+        "unit": "px"
+      }
+    },
+    "md": {
+      "$type": "dimension",
+      "$description": "Medium rounding — cards, panels, and modals.",
+      "$value": {
+        "value": 8,
+        "unit": "px"
+      }
+    },
+    "lg": {
+      "$type": "dimension",
+      "$description": "Large rounding — hero surfaces and prominent containers.",
+      "$value": {
+        "value": 16,
+        "unit": "px"
+      }
+    },
+    "pill": {
+      "$type": "dimension",
+      "$description": "Fully rounded ends — pills, badges, and circular icon buttons.",
+      "$value": {
+        "value": 9999,
+        "unit": "px"
+      }
+    }
+  }
+}
+"
+`;
+
 exports[`built output snapshots > dist/tokens/semantic/color/canonical.json 1`] = `
 "{
   "success": {
@@ -83141,6 +83671,110 @@ exports[`built output snapshots > dist/tokens/semantic/color/rgb.json 1`] = `
         ],
         "alpha": 1,
         "hex": "#00030f"
+      }
+    }
+  }
+}
+"
+`;
+
+exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
+"{
+  "space": {
+    "0": {
+      "$type": "dimension",
+      "$description": "Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0,
+        "unit": "rem"
+      }
+    },
+    "1": {
+      "$type": "dimension",
+      "$description": "Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.25,
+        "unit": "rem"
+      }
+    },
+    "2": {
+      "$type": "dimension",
+      "$description": "Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.5,
+        "unit": "rem"
+      }
+    },
+    "3": {
+      "$type": "dimension",
+      "$description": "Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      }
+    },
+    "4": {
+      "$type": "dimension",
+      "$description": "Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      }
+    },
+    "5": {
+      "$type": "dimension",
+      "$description": "Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1.25,
+        "unit": "rem"
+      }
+    },
+    "6": {
+      "$type": "dimension",
+      "$description": "Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 1.5,
+        "unit": "rem"
+      }
+    },
+    "8": {
+      "$type": "dimension",
+      "$description": "Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 2,
+        "unit": "rem"
+      }
+    },
+    "10": {
+      "$type": "dimension",
+      "$description": "Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 2.5,
+        "unit": "rem"
+      }
+    },
+    "12": {
+      "$type": "dimension",
+      "$description": "Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3,
+        "unit": "rem"
+      }
+    },
+    "14": {
+      "$type": "dimension",
+      "$description": "Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3.5,
+        "unit": "rem"
+      }
+    },
+    "16": {
+      "$type": "dimension",
+      "$description": "Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 4,
+        "unit": "rem"
       }
     }
   }
@@ -104126,6 +104760,17 @@ exports[`built output snapshots > dist/tokens/themes-masterbrand.light.json 1`] 
 "
 `;
 
+exports[`built output snapshots > dist/ts/breakpoints/global.ts 1`] = `
+"export const breakpoint = {
+  xs: '480px',
+  sm: '768px',
+  md: '992px',
+  lg: '1200px',
+  xl: '1600px',
+}
+"
+`;
+
 exports[`built output snapshots > dist/ts/colors/global/hex.ts 1`] = `
 "export const nswGrey = {
   '50': '#fafafa',
@@ -107726,6 +108371,35 @@ export const grey = {
   '850': 'rgb(24, 28, 31)',
   '900': 'rgb(14, 17, 19)',
   '950': 'rgb(5, 7, 9)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/ts/radius/global.ts 1`] = `
+"export const radius = {
+  none: '0px',
+  sm: '4px',
+  md: '8px',
+  lg: '16px',
+  pill: '9999px',
+}
+"
+`;
+
+exports[`built output snapshots > dist/ts/space/global.ts 1`] = `
+"export const space = {
+  '0': '0rem',
+  '1': '0.25rem',
+  '2': '0.5rem',
+  '3': '0.75rem',
+  '4': '1rem',
+  '5': '1.25rem',
+  '6': '1.5rem',
+  '8': '2rem',
+  '10': '2.5rem',
+  '12': '3rem',
+  '14': '3.5rem',
+  '16': '4rem',
 }
 "
 `;

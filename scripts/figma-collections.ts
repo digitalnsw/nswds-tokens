@@ -12,4 +12,9 @@ export const FIGMA_COLLECTIONS: Record<string, FigmaCollectionRef> = {
   'primitives-global.light.json': { collectionName: 'Primitives — global', modeName: 'light' },
   'primitives-semantic.light.json': { collectionName: 'Primitives — semantic', modeName: 'light' },
   'themes-masterbrand.light.json': { collectionName: 'Themes — masterbrand', modeName: 'light' },
+  // Phase 4 dimension collections (single "base" mode — values don't vary by theme/mode).
+  // The first sync-tokens-to-figma push CREATEs these collections in the Figma file.
+  'space.base.json': { collectionName: 'Space', modeName: 'base' },
+  'radius.base.json': { collectionName: 'Radius', modeName: 'base' },
+  'breakpoints.base.json': { collectionName: 'Breakpoints', modeName: 'base' },
 }

@@ -17,7 +17,9 @@ async function main() {
     .readdirSync(TOKENS_DIR)
     .filter((file: string) => {
       const fullPath = `${TOKENS_DIR}/${file}`
-      return fs.statSync(fullPath).isFile()
+      // Only sync staging .json files — tokens/ also holds README.md and the
+      // category/layer source directories, which are not Figma collections.
+      return file.endsWith('.json') && fs.statSync(fullPath).isFile()
     })
     .map((file: string) => `${TOKENS_DIR}/${file}`)
 

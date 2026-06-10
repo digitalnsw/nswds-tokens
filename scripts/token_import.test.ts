@@ -985,6 +985,76 @@ describe('generatePostVariablesPayload', () => {
     }).toThrowError('Invalid number token $value (expected a primitive value, got an object)')
   })
 
+  it('throws a shape-specific error for malformed dimension $values', async () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {},
+        variables: {},
+      },
+    }
+
+    const tokensByFile = {
+      'space.base.json': {
+        'space/oops': {
+          $type: 'dimension',
+          $value: { value: 8, unit: 'em' }, // em is not a DTCG dimension unit
+        },
+      },
+    } as unknown as FlattenedTokensByFile
+
+    expect(() => {
+      generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+    }).toThrowError(
+      'Invalid dimension token $value (expected { value: number, unit: "px" | "rem" }',
+    )
+  })
+
+  it('maps dimension tokens to FLOAT variables (rem converted at 16px)', async () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {},
+        variables: {},
+      },
+    }
+
+    const tokensByFile = {
+      'space.base.json': {
+        'space/4': {
+          $type: 'dimension',
+          $value: { value: 1, unit: 'rem' },
+        },
+        'space/0': {
+          $type: 'dimension',
+          $value: { value: 0, unit: 'rem' },
+        },
+      },
+      'radius.base.json': {
+        'radius/md': {
+          $type: 'dimension',
+          $value: { value: 8, unit: 'px' },
+        },
+      },
+    } as unknown as FlattenedTokensByFile
+
+    const result = generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+
+    expect(result.variables).toEqual(
+      expect.arrayContaining([
+        expect.objectContaining({ id: 'space/4', resolvedType: 'FLOAT' }),
+        expect.objectContaining({ id: 'radius/md', resolvedType: 'FLOAT' }),
+      ]),
+    )
+    const valueFor = (id: string) =>
+      result.variableModeValues!.find((v) => v.variableId === id)?.value
+    expect(valueFor('space/4')).toBe(16) // 1rem -> 16px
+    expect(valueFor('space/0')).toBe(0)
+    expect(valueFor('radius/md')).toBe(8) // px passes through
+  })
+
   it('throws on duplicate variable collections in the Figma file', () => {
     const localVariablesResponse: GetLocalVariablesResponse = {
       status: 200,
