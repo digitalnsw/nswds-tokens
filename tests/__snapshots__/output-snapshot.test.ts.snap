@@ -29327,12 +29327,33 @@ exports[`built output snapshots > dist/figma/color/themes/masterbrand/color/rgb.
 "
 `;
 
+exports[`built output snapshots > dist/js/border/global.d.ts 1`] = `
+"export declare const borderWidth: {
+  thin: string
+  thick: string
+  thicker: string
+  default: string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/border/global.js 1`] = `
 "export const borderWidth = {
   thin: '0.0625rem',
   thick: '0.125rem',
   thicker: '0.25rem',
   default: '0.0625rem',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/breakpoints/global.d.ts 1`] = `
+"export declare const breakpoint: {
+  xs: string
+  sm: string
+  md: string
+  lg: string
+  xl: string
 }
 "
 `;
@@ -29344,6 +29365,388 @@ exports[`built output snapshots > dist/js/breakpoints/global.js 1`] = `
   md: '992px',
   lg: '1200px',
   xl: '1600px',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/global/hex.d.ts 1`] = `
+"export declare const nswGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswFuchsia: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -29730,6 +30133,388 @@ export const nswAboriginalPurple = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/global/hsl.d.ts 1`] = `
+"export declare const nswGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswFuchsia: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/global/hsl.js 1`] = `
 "export const nswGrey = {
   50: 'hsl(0, 0%, 98.039216%)',
@@ -30108,6 +30893,388 @@ export const nswAboriginalPurple = {
   850: 'hsl(308.888889, 34.177215%, 15.490196%)',
   900: 'hsl(309, 38.461538%, 10.196078%)',
   950: 'hsl(312, 55.555556%, 5.294118%)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/global/oklch.d.ts 1`] = `
+"export declare const nswGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswFuchsia: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -30494,6 +31661,388 @@ export const nswAboriginalPurple = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/global/rgb.d.ts 1`] = `
+"export declare const nswGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswFuchsia: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGrey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBrown: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalGreen: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalBlue: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const nswAboriginalPurple: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/global/rgb.js 1`] = `
 "export const nswGrey = {
   50: 'rgb(250, 250, 250)',
@@ -30876,6 +32425,94 @@ export const nswAboriginalPurple = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/semantic/hex.d.ts 1`] = `
+"export declare const success: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const warning: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const danger: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const info: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/semantic/hex.js 1`] = `
 "export const success = {
   50: '#eff9ed',
@@ -30960,6 +32597,94 @@ export const info = {
   850: '#040f2a',
   900: '#02071c',
   950: '#00030f',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/semantic/hsl.d.ts 1`] = `
+"export declare const success: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const warning: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const danger: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const info: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -31052,6 +32777,94 @@ export const info = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/semantic/oklch.d.ts 1`] = `
+"export declare const success: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const warning: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const danger: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const info: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/semantic/oklch.js 1`] = `
 "export const success = {
   50: 'oklch(0.97135 0.019006 140.501237)',
@@ -31140,6 +32953,94 @@ export const info = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/semantic/rgb.d.ts 1`] = `
+"export declare const success: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const warning: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const danger: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const info: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/semantic/rgb.js 1`] = `
 "export const success = {
   50: 'rgb(239, 249, 237)',
@@ -31224,6 +33125,236 @@ export const info = {
   850: 'rgb(4, 15, 42)',
   900: 'rgb(2, 7, 28)',
   950: 'rgb(0, 3, 15)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/data-visualisation/hex.d.ts 1`] = `
+"export declare const ember: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const earthfire: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const fuchsiaHeat: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const polarGlow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const glacierPool: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const deepCurrent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const blueRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const blueOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const purpleYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const fuchsiaTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
 }
 "
 `;
@@ -31458,6 +33589,236 @@ export const fuchsiaTeal = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/data-visualisation/hsl.d.ts 1`] = `
+"export declare const ember: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const earthfire: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const fuchsiaHeat: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const polarGlow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const glacierPool: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const deepCurrent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const blueRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const blueOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const purpleYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const fuchsiaTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/data-visualisation/hsl.js 1`] = `
 "export const ember = {
   50: 'hsl(206.666667, 11.688312%, 15.098039%)',
@@ -31684,6 +34045,236 @@ export const fuchsiaTeal = {
   900: 'hsl(188.219178, 59.349593%, 24.117647%)',
   950: 'hsl(188.181818, 64.705882%, 20%)',
   1000: 'hsl(188, 73.170732%, 16.078431%)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/data-visualisation/oklch.d.ts 1`] = `
+"export declare const ember: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const earthfire: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const fuchsiaHeat: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const polarGlow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const glacierPool: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const deepCurrent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const blueRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const blueOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const purpleYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const fuchsiaTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
 }
 "
 `;
@@ -31918,6 +34509,236 @@ export const fuchsiaTeal = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/data-visualisation/rgb.d.ts 1`] = `
+"export declare const ember: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const earthfire: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const fuchsiaHeat: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const polarGlow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const glacierPool: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const deepCurrent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+  '1050': string
+}
+export declare const blueRed: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const blueOrange: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const purpleYellow: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+export declare const fuchsiaTeal: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+  '1000': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/data-visualisation/rgb.js 1`] = `
 "export const ember = {
   50: 'rgb(34, 39, 43)',
@@ -32148,6 +34969,73 @@ export const fuchsiaTeal = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-blue/hex.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/fuchsia-blue/hex.js 1`] = `
 "export const primary = {
   50: '#fff6fd',
@@ -32211,6 +35099,73 @@ export const grey = {
   850: '#181c1f',
   900: '#0e1113',
   950: '#050709',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-blue/hsl.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -32282,6 +35237,73 @@ export const grey = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-blue/oklch.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/fuchsia-blue/oklch.js 1`] = `
 "export const primary = {
   50: 'oklch(0.982084 0.013244 333.034319)',
@@ -32345,6 +35367,73 @@ export const grey = {
   850: 'oklch(0.223572 0.008405 240.274391)',
   900: 'oklch(0.175228 0.006346 236.981786)',
   950: 'oklch(0.126543 0.006953 243.792325)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-blue/rgb.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -32416,6 +35505,73 @@ export const grey = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-orange/hex.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/fuchsia-orange/hex.js 1`] = `
 "export const primary = {
   50: '#fff6fd',
@@ -32479,6 +35635,73 @@ export const grey = {
   850: '#181c1f',
   900: '#0e1113',
   950: '#050709',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-orange/hsl.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -32550,6 +35773,73 @@ export const grey = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-orange/oklch.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/fuchsia-orange/oklch.js 1`] = `
 "export const primary = {
   50: 'oklch(0.982084 0.013244 333.034319)',
@@ -32613,6 +35903,73 @@ export const grey = {
   850: 'oklch(0.223572 0.008405 240.274391)',
   900: 'oklch(0.175228 0.006346 236.981786)',
   950: 'oklch(0.126543 0.006953 243.792325)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/fuchsia-orange/rgb.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -32684,6 +36041,73 @@ export const grey = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/masterbrand/hex.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/masterbrand/hex.js 1`] = `
 "export const primary = {
   50: '#f0fbff',
@@ -32747,6 +36171,73 @@ export const grey = {
   850: '#181c1f',
   900: '#0e1113',
   950: '#050709',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/masterbrand/hsl.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -32818,6 +36309,73 @@ export const grey = {
 "
 `;
 
+exports[`built output snapshots > dist/js/colors/themes/masterbrand/oklch.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/colors/themes/masterbrand/oklch.js 1`] = `
 "export const primary = {
   50: 'oklch(0.981046 0.012805 221.42319)',
@@ -32881,6 +36439,73 @@ export const grey = {
   850: 'oklch(0.223572 0.008405 240.274391)',
   900: 'oklch(0.175228 0.006346 236.981786)',
   950: 'oklch(0.126543 0.006953 243.792325)',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/colors/themes/masterbrand/rgb.d.ts 1`] = `
+"export declare const primary: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const accent: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+export declare const grey: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
 }
 "
 `;
@@ -32952,6 +36577,17 @@ export const grey = {
 "
 `;
 
+exports[`built output snapshots > dist/js/radius/global.d.ts 1`] = `
+"export declare const radius: {
+  none: string
+  sm: string
+  md: string
+  lg: string
+  pill: string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/radius/global.js 1`] = `
 "export const radius = {
   none: '0px',
@@ -32959,6 +36595,26 @@ exports[`built output snapshots > dist/js/radius/global.js 1`] = `
   md: '8px',
   lg: '16px',
   pill: '9999px',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/shadow/global.d.ts 1`] = `
+"export declare const boxShadow: {
+  thin: string
+  thick: string
+  thicker: string
+}
+export declare const shadowColor: {
+  '5': string
+  '10': string
+  '25': string
+}
+export declare const shadow: {
+  sm: string
+  md: string
+  lg: string
+  xl: string
 }
 "
 `;
@@ -32983,6 +36639,24 @@ export const shadow = {
 "
 `;
 
+exports[`built output snapshots > dist/js/space/global.d.ts 1`] = `
+"export declare const space: {
+  '0': string
+  '1': string
+  '2': string
+  '3': string
+  '4': string
+  '5': string
+  '6': string
+  '8': string
+  '10': string
+  '12': string
+  '14': string
+  '16': string
+}
+"
+`;
+
 exports[`built output snapshots > dist/js/space/global.js 1`] = `
 "export const space = {
   0: '0rem',
@@ -32997,6 +36671,51 @@ exports[`built output snapshots > dist/js/space/global.js 1`] = `
   12: '3rem',
   14: '3.5rem',
   16: '4rem',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/typography/global.d.ts 1`] = `
+"export declare const fontFamily: {
+  sans: string
+  display: string
+  system: string
+  mono: string
+}
+export declare const fontSize: {
+  '12': string
+  '14': string
+  '16': string
+  '18': string
+  '20': string
+  '22': string
+  '24': string
+  '30': string
+  '36': string
+  '48': string
+  '56': string
+  '64': string
+}
+export declare const fontWeight: {
+  light: number
+  regular: number
+  medium: number
+  semibold: number
+  bold: number
+  extrabold: number
+}
+export declare const lineHeight: {
+  none: number
+  tight: number
+  snug: number
+  base: number
+  relaxed: number
+  loose: number
+}
+export declare const letterSpacing: {
+  tight: string
+  normal: string
+  wide: string
 }
 "
 `;
@@ -33044,6 +36763,73 @@ export const letterSpacing = {
   tight: '-0.0125em',
   normal: '0em',
   wide: '0.025em',
+}
+"
+`;
+
+exports[`built output snapshots > dist/js/typography/semantic.d.ts 1`] = `
+"export declare const heading1: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const heading2: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const heading3: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const heading4: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const body: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const bodySm: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const lead: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const caption: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
+}
+export declare const code: {
+  fontFamily: string
+  fontSize: string
+  fontWeight: number
+  lineHeight: number
+  letterSpacing: string
 }
 "
 `;
