@@ -20,15 +20,17 @@ npm install
 
 Common scripts:
 
-| Script | Purpose |
-| --- | --- |
-| `npm run build` | Bundle `src/index.ts` (tsup) and copy/rehydrate outputs into `dist/`. |
-| `npm run test:tokens` | Run the Vitest suite (`vitest run --globals`). |
-| `npm run lint` | ESLint + Prettier check. |
-| `npm run format` | Apply Prettier formatting. |
-| `npm run check:dist` | Verify `dist/` matches a fresh build (fails if stale). |
-| `npm run smoke:package-surface` | Pack the tarball, install it, and verify every public export resolves. |
-| `npm run check:version-sync` | Verify `package.json` / `package-lock.json` / git tag agree. |
+| Script                          | Purpose                                                                                                                                     |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| `npm run build`                 | Full pipeline: derive colour views → Style Dictionary generates `src/` → generate `src/index.ts` → tsup bundle → copy outputs into `dist/`. |
+| `npm run validate:tokens`       | Validate token sources: DTCG shapes per `$type`, alias resolution + cycles, duplicates.                                                     |
+| `npm run typecheck`             | `tsc --noEmit` over `scripts/` and `tests/`.                                                                                                |
+| `npm run test:tokens`           | Run the Vitest suite (`vitest run --globals`).                                                                                              |
+| `npm run lint`                  | ESLint + Prettier check.                                                                                                                    |
+| `npm run format`                | Apply Prettier formatting.                                                                                                                  |
+| `npm run check:dist`            | Verify `dist/` matches a fresh build (fails if stale).                                                                                      |
+| `npm run smoke:package-surface` | Pack the tarball, install it, and verify every public export resolves.                                                                      |
+| `npm run check:version-sync`    | Verify `package.json` / `package-lock.json` / git tag agree.                                                                                |
 
 ---
 
@@ -44,6 +46,26 @@ git add dist
 ```
 
 A PR whose `dist/` does not match a fresh build will fail CI.
+
+---
+
+## Adding a new token category
+
+The pipeline is category-generic; a new category (e.g. `duration`) needs:
+
+1. **Source:** `tokens/global/<category>/canonical.json` — DTCG tokens with `$type` and
+   `$description` on every token (see [tokens/README.md](tokens/README.md) for which
+   `$type`s the validator enforces).
+2. **Config:** add the category to `CATEGORIES` in `build/style-dictionary.config.mjs`
+   (Tailwind namespace; a value transform in `build/formats.mjs` if the `$type` is new)
+   and to `CATEGORIES` in `scripts/build-index.mjs`.
+3. **Figma (optional):** a `tokens/<category>.base.json` staging file plus entries in
+   `scripts/figma-collections.ts` (file-name mapping and export value rules) if the
+   category should sync as Figma variables. Composites don't sync.
+4. **Verify:** `npm run build && npm run validate:tokens && npm run test:tokens -- -u`
+   (the snapshot suite auto-discovers the new outputs) — then commit sources and the
+   regenerated `src/` + `dist/` together. Add one smoke-test specifier in
+   `scripts/smoke-package-surface.mjs` and document the category in the README.
 
 ---
 
@@ -75,11 +97,11 @@ messages drive automated releases (`semantic-release`). Allowed types
 
 Release impact:
 
-| Commit | Version bump |
-| --- | --- |
-| `fix:`, `style:`, `perf:` | patch |
-| `feat:` | minor |
-| `feat!:` / `BREAKING CHANGE:` footer | major |
+| Commit                               | Version bump |
+| ------------------------------------ | ------------ |
+| `fix:`, `style:`, `perf:`            | patch        |
+| `feat:`                              | minor        |
+| `feat!:` / `BREAKING CHANGE:` footer | major        |
 
 > **Token shape changes** to the raw `tokens/**` or `figma/**` JSON are a breaking change
 > for DTCG-JSON consumers — use a `!` / `BREAKING CHANGE:` footer and note the migration

@@ -1,5 +1,10 @@
 # Phase 4 — Non-colour tokens (plan)
 
+> **[HISTORICAL]** Design record + runbook for the non-colour token milestones
+> (Phases 4a–4e, shipped). The 4e runbook below remains the repeatable Figma sync
+> procedure. Current architecture: [architecture.md](architecture.md).
+
+
 Status: **complete** (4a–4e shipped) · Decisions locked 2026-06-10 · Predecessors: Phases 0–3 (colour pipeline,
 see [transformer-migration.md](transformer-migration.md))
 
