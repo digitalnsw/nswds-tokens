@@ -1,59 +1,59 @@
 :root {
-  --primary-50: #f0fbff;
-  --primary-100: #e4f6ff;
-  --primary-150: #d7f2fe;
-  --primary-200: #cbedfd;
-  --primary-250: #bceafe;
-  --primary-300: #ade7ff;
-  --primary-350: #9de3ff;
-  --primary-400: #8ce0ff;
-  --primary-450: #5ac9ff;
-  --primary-500: #26aeff;
-  --primary-550: #008fff;
-  --primary-600: #146cfd;
-  --primary-650: #0c5ad4;
-  --primary-700: #0548ad;
-  --primary-750: #023688;
-  --primary-800: #002664;
-  --primary-850: #001a4d;
-  --primary-900: #001037;
-  --primary-950: #000622;
-  --accent-50: #fff8f9;
-  --accent-100: #fff2f4;
-  --accent-150: #ffecef;
-  --accent-200: #ffe6ea;
-  --accent-250: #ffdbe0;
-  --accent-300: #ffcfd6;
-  --accent-350: #ffc4cc;
-  --accent-400: #ffb8c1;
-  --accent-450: #f897a2;
-  --accent-500: #ef7581;
-  --accent-550: #e44f5f;
-  --accent-600: #d7153a;
-  --accent-650: #b90e32;
-  --accent-700: #9b072a;
-  --accent-750: #7e0322;
-  --accent-800: #630019;
-  --accent-850: #4c0010;
-  --accent-900: #360008;
-  --accent-950: #210003;
-  --grey-50: #fafafa;
-  --grey-100: #f5f5f5;
-  --grey-150: #f0f0f0;
-  --grey-200: #ebebeb;
-  --grey-250: #e3e5e6;
-  --grey-300: #dcdfe0;
-  --grey-350: #d4d9db;
-  --grey-400: #cdd3d6;
-  --grey-450: #aab0b4;
-  --grey-500: #888f92;
-  --grey-550: #686f72;
-  --grey-600: #495054;
-  --grey-650: #3f4549;
-  --grey-700: #353b3f;
-  --grey-750: #2b3135;
-  --grey-800: #22272b;
-  --grey-850: #181c1f;
-  --grey-900: #0e1113;
-  --grey-950: #050709;
+  --primary-50: #f0fbff; /** Primary brand colour — primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --primary-100: #e4f6ff; /** Primary brand colour — primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --primary-150: #d7f2fe; /** Primary brand colour — primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --primary-200: #cbedfd; /** Primary brand colour — primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --primary-250: #bceafe; /** Primary brand colour — primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --primary-300: #ade7ff; /** Primary brand colour — primary actions, links, and key accents. Step 300: light tints. */
+  --primary-350: #9de3ff; /** Primary brand colour — primary actions, links, and key accents. Step 350: light tints. */
+  --primary-400: #8ce0ff; /** Primary brand colour — primary actions, links, and key accents. Step 400: light tints. */
+  --primary-450: #5ac9ff; /** Primary brand colour — primary actions, links, and key accents. Step 450: light tints. */
+  --primary-500: #26aeff; /** Primary brand colour — primary actions, links, and key accents. Step 500: base colour. */
+  --primary-550: #008fff; /** Primary brand colour — primary actions, links, and key accents. Step 550: shades for borders and icons. */
+  --primary-600: #146cfd; /** Primary brand colour — primary actions, links, and key accents. Step 600: shades for borders and icons. */
+  --primary-650: #0c5ad4; /** Primary brand colour — primary actions, links, and key accents. Step 650: shades for borders and icons. */
+  --primary-700: #0548ad; /** Primary brand colour — primary actions, links, and key accents. Step 700: shades for borders and icons. */
+  --primary-750: #023688; /** Primary brand colour — primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis. */
+  --primary-800: #002664; /** Primary brand colour — primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis. */
+  --primary-850: #001a4d; /** Primary brand colour — primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis. */
+  --primary-900: #001037; /** Primary brand colour — primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis. */
+  --primary-950: #000622; /** Primary brand colour — primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis. */
+  --accent-50: #fff8f9; /** Accent colour — secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --accent-100: #fff2f4; /** Accent colour — secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --accent-150: #ffecef; /** Accent colour — secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --accent-200: #ffe6ea; /** Accent colour — secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --accent-250: #ffdbe0; /** Accent colour — secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --accent-300: #ffcfd6; /** Accent colour — secondary emphasis and supporting highlights. Step 300: light tints. */
+  --accent-350: #ffc4cc; /** Accent colour — secondary emphasis and supporting highlights. Step 350: light tints. */
+  --accent-400: #ffb8c1; /** Accent colour — secondary emphasis and supporting highlights. Step 400: light tints. */
+  --accent-450: #f897a2; /** Accent colour — secondary emphasis and supporting highlights. Step 450: light tints. */
+  --accent-500: #ef7581; /** Accent colour — secondary emphasis and supporting highlights. Step 500: base colour. */
+  --accent-550: #e44f5f; /** Accent colour — secondary emphasis and supporting highlights. Step 550: shades for borders and icons. */
+  --accent-600: #d7153a; /** Accent colour — secondary emphasis and supporting highlights. Step 600: shades for borders and icons. */
+  --accent-650: #b90e32; /** Accent colour — secondary emphasis and supporting highlights. Step 650: shades for borders and icons. */
+  --accent-700: #9b072a; /** Accent colour — secondary emphasis and supporting highlights. Step 700: shades for borders and icons. */
+  --accent-750: #7e0322; /** Accent colour — secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis. */
+  --accent-800: #630019; /** Accent colour — secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis. */
+  --accent-850: #4c0010; /** Accent colour — secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis. */
+  --accent-900: #360008; /** Accent colour — secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis. */
+  --accent-950: #210003; /** Accent colour — secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis. */
+  --grey-50: #fafafa; /** Neutral grey — text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --grey-100: #f5f5f5; /** Neutral grey — text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --grey-150: #f0f0f0; /** Neutral grey — text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --grey-200: #ebebeb; /** Neutral grey — text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --grey-250: #e3e5e6; /** Neutral grey — text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --grey-300: #dcdfe0; /** Neutral grey — text, borders, surfaces, and dividers. Step 300: light tints. */
+  --grey-350: #d4d9db; /** Neutral grey — text, borders, surfaces, and dividers. Step 350: light tints. */
+  --grey-400: #cdd3d6; /** Neutral grey — text, borders, surfaces, and dividers. Step 400: light tints. */
+  --grey-450: #aab0b4; /** Neutral grey — text, borders, surfaces, and dividers. Step 450: light tints. */
+  --grey-500: #888f92; /** Neutral grey — text, borders, surfaces, and dividers. Step 500: base colour. */
+  --grey-550: #686f72; /** Neutral grey — text, borders, surfaces, and dividers. Step 550: shades for borders and icons. */
+  --grey-600: #495054; /** Neutral grey — text, borders, surfaces, and dividers. Step 600: shades for borders and icons. */
+  --grey-650: #3f4549; /** Neutral grey — text, borders, surfaces, and dividers. Step 650: shades for borders and icons. */
+  --grey-700: #353b3f; /** Neutral grey — text, borders, surfaces, and dividers. Step 700: shades for borders and icons. */
+  --grey-750: #2b3135; /** Neutral grey — text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis. */
+  --grey-800: #22272b; /** Neutral grey — text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis. */
+  --grey-850: #181c1f; /** Neutral grey — text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis. */
+  --grey-900: #0e1113; /** Neutral grey — text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis. */
+  --grey-950: #050709; /** Neutral grey — text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis. */
 }
