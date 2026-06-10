@@ -1,0 +1,26 @@
+@theme {
+  --font-sans: 'Public Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;
+  --text-12: 0.75rem;
+  --text-14: 0.875rem;
+  --text-16: 1rem;
+  --text-18: 1.125rem;
+  --text-20: 1.25rem;
+  --text-24: 1.5rem;
+  --text-30: 1.875rem;
+  --text-36: 2.25rem;
+  --text-48: 3rem;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-base: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+  --tracking-tight: -0.0125em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.025em;
+}

@@ -106,6 +106,10 @@ declare namespace breakpointsCssGlobal {
   export {  };
 }
 
+declare namespace typographyCssGlobal {
+  export {  };
+}
+
 declare const nswGrey$7: {
     50: string;
     100: string;
@@ -3777,6 +3781,46 @@ declare namespace breakpointsJsGlobal {
   export { breakpoint$1 as breakpoint };
 }
 
+declare namespace fontFamily$1 {
+    let sans: string;
+    let mono: string;
+}
+declare const fontSize$1: {
+    12: string;
+    14: string;
+    16: string;
+    18: string;
+    20: string;
+    24: string;
+    30: string;
+    36: string;
+    48: string;
+};
+declare namespace fontWeight$1 {
+    let light: string;
+    let regular: string;
+    let medium: string;
+    let semibold: string;
+    let bold: string;
+}
+declare namespace lineHeight$1 {
+    let tight: string;
+    let snug: string;
+    let base: string;
+    let relaxed: string;
+    let loose: string;
+}
+declare namespace letterSpacing$1 {
+    let tight_1: string;
+    export { tight_1 as tight };
+    export let normal: string;
+    export let wide: string;
+}
+
+declare namespace typographyJsGlobal {
+  export { fontFamily$1 as fontFamily, fontSize$1 as fontSize, fontWeight$1 as fontWeight, letterSpacing$1 as letterSpacing, lineHeight$1 as lineHeight };
+}
+
 declare namespace globalLessHex {
   export {  };
 }
@@ -3882,6 +3926,10 @@ declare namespace radiusLessGlobal {
 }
 
 declare namespace breakpointsLessGlobal {
+  export {  };
+}
+
+declare namespace typographyLessGlobal {
   export {  };
 }
 
@@ -3993,6 +4041,10 @@ declare namespace breakpointsScssGlobal {
   export {  };
 }
 
+declare namespace typographyScssGlobal {
+  export {  };
+}
+
 declare namespace globalTailwindHex {
   export {  };
 }
@@ -4098,6 +4150,10 @@ declare namespace radiusTailwindGlobal {
 }
 
 declare namespace breakpointsTailwindGlobal {
+  export {  };
+}
+
+declare namespace typographyTailwindGlobal {
   export {  };
 }
 
@@ -7810,6 +7866,50 @@ declare namespace breakpointsTsGlobal {
   export { breakpointsTsGlobal_breakpoint as breakpoint };
 }
 
+declare const fontFamily: {
+    sans: string;
+    mono: string;
+};
+declare const fontSize: {
+    '12': string;
+    '14': string;
+    '16': string;
+    '18': string;
+    '20': string;
+    '24': string;
+    '30': string;
+    '36': string;
+    '48': string;
+};
+declare const fontWeight: {
+    light: string;
+    regular: string;
+    medium: string;
+    semibold: string;
+    bold: string;
+};
+declare const lineHeight: {
+    tight: string;
+    snug: string;
+    base: string;
+    relaxed: string;
+    loose: string;
+};
+declare const letterSpacing: {
+    tight: string;
+    normal: string;
+    wide: string;
+};
+
+declare const typographyTsGlobal_fontFamily: typeof fontFamily;
+declare const typographyTsGlobal_fontSize: typeof fontSize;
+declare const typographyTsGlobal_fontWeight: typeof fontWeight;
+declare const typographyTsGlobal_letterSpacing: typeof letterSpacing;
+declare const typographyTsGlobal_lineHeight: typeof lineHeight;
+declare namespace typographyTsGlobal {
+  export { typographyTsGlobal_fontFamily as fontFamily, typographyTsGlobal_fontSize as fontSize, typographyTsGlobal_fontWeight as fontWeight, typographyTsGlobal_letterSpacing as letterSpacing, typographyTsGlobal_lineHeight as lineHeight };
+}
+
 declare const tokens: {
     colors: {
         global: {
@@ -7899,6 +7999,9 @@ declare const tokens: {
         breakpoints: {
             global: typeof breakpointsCssGlobal;
         };
+        typography: {
+            global: typeof typographyCssGlobal;
+        };
     };
     js: {
         global: {
@@ -7948,6 +8051,9 @@ declare const tokens: {
         breakpoints: {
             global: typeof breakpointsJsGlobal;
         };
+        typography: {
+            global: typeof typographyJsGlobal;
+        };
     };
     json: {
         global: {
@@ -7995,6 +8101,9 @@ declare const tokens: {
             global: any;
         };
         breakpoints: {
+            global: any;
+        };
+        typography: {
             global: any;
         };
     };
@@ -8046,6 +8155,9 @@ declare const tokens: {
         breakpoints: {
             global: typeof breakpointsLessGlobal;
         };
+        typography: {
+            global: typeof typographyLessGlobal;
+        };
     };
     scss: {
         global: {
@@ -8094,6 +8206,9 @@ declare const tokens: {
         };
         breakpoints: {
             global: typeof breakpointsScssGlobal;
+        };
+        typography: {
+            global: typeof typographyScssGlobal;
         };
     };
     tailwind: {
@@ -8144,6 +8259,9 @@ declare const tokens: {
         breakpoints: {
             global: typeof breakpointsTailwindGlobal;
         };
+        typography: {
+            global: typeof typographyTailwindGlobal;
+        };
     };
     ts: {
         global: {
@@ -8192,6 +8310,9 @@ declare const tokens: {
         };
         breakpoints: {
             global: typeof breakpointsTsGlobal;
+        };
+        typography: {
+            global: typeof typographyTsGlobal;
         };
     };
 };
@@ -8283,6 +8404,9 @@ declare const cssTokens: {
     breakpoints: {
         global: typeof breakpointsCssGlobal;
     };
+    typography: {
+        global: typeof typographyCssGlobal;
+    };
 };
 declare const jsTokens: {
     global: {
@@ -8332,6 +8456,9 @@ declare const jsTokens: {
     breakpoints: {
         global: typeof breakpointsJsGlobal;
     };
+    typography: {
+        global: typeof typographyJsGlobal;
+    };
 };
 declare const jsonTokens: {
     global: {
@@ -8379,6 +8506,9 @@ declare const jsonTokens: {
         global: any;
     };
     breakpoints: {
+        global: any;
+    };
+    typography: {
         global: any;
     };
 };
@@ -8430,6 +8560,9 @@ declare const lessTokens: {
     breakpoints: {
         global: typeof breakpointsLessGlobal;
     };
+    typography: {
+        global: typeof typographyLessGlobal;
+    };
 };
 declare const scssTokens: {
     global: {
@@ -8478,6 +8611,9 @@ declare const scssTokens: {
     };
     breakpoints: {
         global: typeof breakpointsScssGlobal;
+    };
+    typography: {
+        global: typeof typographyScssGlobal;
     };
 };
 declare const tailwindTokens: {
@@ -8528,6 +8664,9 @@ declare const tailwindTokens: {
     breakpoints: {
         global: typeof breakpointsTailwindGlobal;
     };
+    typography: {
+        global: typeof typographyTailwindGlobal;
+    };
 };
 declare const tsTokens: {
     global: {
@@ -8576,6 +8715,9 @@ declare const tsTokens: {
     };
     breakpoints: {
         global: typeof breakpointsTsGlobal;
+    };
+    typography: {
+        global: typeof typographyTsGlobal;
     };
 };
 declare const brand: {

@@ -121,8 +121,10 @@ function variableResolvedTypeFromToken(token: Token) {
       return 'COLOR'
     case 'number':
     case 'dimension': // Figma variables have no unit concept — dimensions sync as FLOAT px
+    case 'fontWeight': // numeric weight (400/700) syncs as FLOAT
       return 'FLOAT'
     case 'string':
+    case 'fontFamily': // fallback stacks join to a single STRING variable
       return 'STRING'
     case 'boolean':
       return 'BOOLEAN'
@@ -184,6 +186,13 @@ function variableValueFromToken(
     return parseColor(token.$value) // back-compat: hex string colours
   } else if (token.$type === 'dimension' && isDtcgDimension(token.$value)) {
     return figmaFloatFromDimension(token.$value)
+  } else if (
+    token.$type === 'fontFamily' &&
+    Array.isArray(token.$value) &&
+    token.$value.every((n) => typeof n === 'string')
+  ) {
+    // Figma STRING variables hold one value — join the fallback stack (no CSS quoting).
+    return token.$value.join(', ')
   } else {
     if (typeof token.$value === 'object') {
       // An object $value that reaches this branch must not be forwarded to Figma as-is —
@@ -198,6 +207,11 @@ function variableValueFromToken(
       if (token.$type === 'dimension') {
         throw new Error(
           `Invalid dimension token $value (expected { value: number, unit: "px" | "rem" } or an alias): ${JSON.stringify(token.$value)}`,
+        )
+      }
+      if (token.$type === 'fontFamily') {
+        throw new Error(
+          `Invalid fontFamily token $value (expected a string, an array of strings, or an alias): ${JSON.stringify(token.$value)}`,
         )
       }
       throw new Error(

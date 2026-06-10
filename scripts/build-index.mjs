@@ -11,7 +11,7 @@ import { writeFileSync } from 'node:fs'
 const SPACES = ['hex', 'hsl', 'oklch', 'rgb']
 const THEMES = ['masterbrand', 'fuchsia-blue', 'fuchsia-orange', 'data-visualisation']
 // Non-colour categories: single canonical source, `global` is the only layer for now.
-const CATEGORIES = ['space', 'radius', 'breakpoints']
+const CATEGORIES = ['space', 'radius', 'breakpoints', 'typography']
 
 const cap = (s) => s[0].toUpperCase() + s.slice(1)
 const camel = (s) => s.replace(/-([a-z])/g, (_, c) => c.toUpperCase())

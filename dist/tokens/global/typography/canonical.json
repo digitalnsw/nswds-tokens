@@ -1,0 +1,170 @@
+{
+  "font-family": {
+    "sans": {
+      "$type": "fontFamily",
+      "$description": "Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.",
+      "$value": [
+        "Public Sans",
+        "system-ui",
+        "-apple-system",
+        "sans-serif"
+      ]
+    },
+    "mono": {
+      "$type": "fontFamily",
+      "$description": "Monospace stack — system monospace fallbacks for code, tabular data, and technical content.",
+      "$value": [
+        "SFMono-Regular",
+        "Menlo",
+        "Consolas",
+        "Liberation Mono",
+        "monospace"
+      ]
+    }
+  },
+  "font-size": {
+    "12": {
+      "$type": "dimension",
+      "$description": "Font size 12px (0.75rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 0.75,
+        "unit": "rem"
+      }
+    },
+    "14": {
+      "$type": "dimension",
+      "$description": "Font size 14px (0.875rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 0.875,
+        "unit": "rem"
+      }
+    },
+    "16": {
+      "$type": "dimension",
+      "$description": "Font size 16px (1rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      }
+    },
+    "18": {
+      "$type": "dimension",
+      "$description": "Font size 18px (1.125rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 1.125,
+        "unit": "rem"
+      }
+    },
+    "20": {
+      "$type": "dimension",
+      "$description": "Font size 20px (1.25rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 1.25,
+        "unit": "rem"
+      }
+    },
+    "24": {
+      "$type": "dimension",
+      "$description": "Font size 24px (1.5rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 1.5,
+        "unit": "rem"
+      }
+    },
+    "30": {
+      "$type": "dimension",
+      "$description": "Font size 30px (1.875rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 1.875,
+        "unit": "rem"
+      }
+    },
+    "36": {
+      "$type": "dimension",
+      "$description": "Font size 36px (2.25rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 2.25,
+        "unit": "rem"
+      }
+    },
+    "48": {
+      "$type": "dimension",
+      "$description": "Font size 48px (3rem) — the step name is the px value at the default root font size.",
+      "$value": {
+        "value": 3,
+        "unit": "rem"
+      }
+    }
+  },
+  "font-weight": {
+    "light": {
+      "$type": "fontWeight",
+      "$description": "Light (300) — large display text only; avoid at body sizes for legibility.",
+      "$value": 300
+    },
+    "regular": {
+      "$type": "fontWeight",
+      "$description": "Regular (400) — default body text weight.",
+      "$value": 400
+    },
+    "medium": {
+      "$type": "fontWeight",
+      "$description": "Medium (500) — subtle emphasis, labels, and navigation.",
+      "$value": 500
+    },
+    "semibold": {
+      "$type": "fontWeight",
+      "$description": "Semibold (600) — headings and strong emphasis.",
+      "$value": 600
+    },
+    "bold": {
+      "$type": "fontWeight",
+      "$description": "Bold (700) — highest emphasis; key figures and primary headings.",
+      "$value": 700
+    }
+  },
+  "line-height": {
+    "tight": {
+      "$type": "number",
+      "$description": "Tight (1.25) — large headings and display text.",
+      "$value": 1.25
+    },
+    "snug": {
+      "$type": "number",
+      "$description": "Snug (1.375) — subheadings and dense UI text.",
+      "$value": 1.375
+    },
+    "base": {
+      "$type": "number",
+      "$description": "Base (1.5) — default for body text; meets WCAG 1.4.12 text-spacing.",
+      "$value": 1.5
+    },
+    "relaxed": {
+      "$type": "number",
+      "$description": "Relaxed (1.625) — long-form reading content.",
+      "$value": 1.625
+    },
+    "loose": {
+      "$type": "number",
+      "$description": "Loose (2) — spacious text such as quotes or airy lists.",
+      "$value": 2
+    }
+  },
+  "letter-spacing": {
+    "tight": {
+      "$type": "number",
+      "$description": "Tight tracking (-0.0125em) — large display headings. Value is an em multiplier; string outputs render it with the em unit.",
+      "$value": -0.0125
+    },
+    "normal": {
+      "$type": "number",
+      "$description": "Normal tracking (0em) — default for body text. Value is an em multiplier; string outputs render it with the em unit.",
+      "$value": 0
+    },
+    "wide": {
+      "$type": "number",
+      "$description": "Wide tracking (0.025em) — small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.",
+      "$value": 0.025
+    }
+  }
+}

@@ -24,6 +24,7 @@ import {
   nswTailwindDimension,
   colorFunction,
   dimensionString,
+  fontFamilyString,
 } from './formats.mjs'
 
 const OUT = 'build/.sd-out/'
@@ -119,6 +120,17 @@ const CATEGORIES = [
   { key: 'space', tailwindNamespace: 'spacing' },
   { key: 'radius', tailwindNamespace: 'radius' },
   { key: 'breakpoints', tailwindNamespace: 'breakpoint' },
+  {
+    key: 'typography',
+    // Multi-family category: each token family maps to its own Tailwind v4 namespace.
+    tailwindNamespaces: {
+      'font-family': 'font',
+      'font-size': 'text',
+      'font-weight': 'font-weight',
+      'line-height': 'leading',
+      'letter-spacing': 'tracking',
+    },
+  },
 ]
 
 // DTCG dimension object ({value, unit}) -> "0.25rem" string for every string output.
@@ -129,11 +141,29 @@ const dimensionTransform = {
   transform: (token) => dimensionString(token.$value),
 }
 
+// DTCG fontFamily (array stack) -> CSS font-family string for every string output.
+const fontFamilyTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) => token.$type === 'fontFamily',
+  transform: (token) => fontFamilyString(token.$value),
+}
+
+// letter-spacing tokens are unitless em multipliers (plan D4 note); string outputs render
+// them with the em unit so CSS consumers get a usable length (0.025em). line-height stays
+// a bare number — that's already valid CSS.
+const letterSpacingEmTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) => token.path[0] === 'letter-spacing' && typeof token.$value === 'number',
+  transform: (token) => `${token.$value}em`,
+}
+
 const makeCategoryConfig = (category) => {
   const platform = (destination, format, options) => ({
     buildPath: OUT,
     options: { showFileHeader: false },
-    transforms: ['name/kebab', 'nsw/dimension'],
+    transforms: ['name/kebab', 'nsw/dimension', 'nsw/font-family', 'nsw/letter-spacing-em'],
     files: [{ destination, format, ...(options ? { options } : {}) }],
   })
 
@@ -146,7 +176,11 @@ const makeCategoryConfig = (category) => {
         'nsw/json': nswJson,
         'nsw/tailwind-dimension': nswTailwindDimension,
       },
-      transforms: { 'nsw/dimension': dimensionTransform },
+      transforms: {
+        'nsw/dimension': dimensionTransform,
+        'nsw/font-family': fontFamilyTransform,
+        'nsw/letter-spacing-em': letterSpacingEmTransform,
+      },
     },
     platforms: {
       css: platform(`css/${category.key}/global.css`, 'css/variables'),
@@ -156,7 +190,8 @@ const makeCategoryConfig = (category) => {
       ts: platform(`ts/${category.key}/global.ts`, 'nsw/ts'),
       json: platform(`json/${category.key}/global.json`, 'nsw/json'),
       tailwind: platform(`tailwind/${category.key}/global.css`, 'nsw/tailwind-dimension', {
-        namespace: category.tailwindNamespace,
+        ...(category.tailwindNamespace ? { namespace: category.tailwindNamespace } : {}),
+        ...(category.tailwindNamespaces ? { namespaces: category.tailwindNamespaces } : {}),
       }),
     },
   }

@@ -23,6 +23,9 @@ const documentedSpecifiers = [
   '@nswds/tokens/js/radius/global.js',
   '@nswds/tokens/tailwind/breakpoints/global.css',
   '@nswds/tokens/tokens/global/space/canonical.json',
+  // Phase 4b typography
+  '@nswds/tokens/css/typography/global.css',
+  '@nswds/tokens/tailwind/typography/global.css',
 ]
 
 const run = (command, args, options = {}) => {

@@ -927,13 +927,15 @@ describe('generatePostVariablesPayload', () => {
 
     const tokensByFile = {
       'primitives.mode1.json': {
-        'font-weight-default': { $type: 'fontWeight', $value: 400 },
+        // cubicBezier is a real DTCG type the sync deliberately doesn't support
+        // (fontWeight/dimension/fontFamily became supported in Phase 4).
+        'easing-default': { $type: 'cubicBezier', $value: [0.4, 0, 0.2, 1] },
       },
     } as unknown as FlattenedTokensByFile
 
     expect(() => {
       generatePostVariablesPayload(tokensByFile, localVariablesResponse)
-    }).toThrowError('Invalid token $type: fontWeight')
+    }).toThrowError('Invalid token $type: cubicBezier')
   })
 
   it('throws on colour object $values that are not srgb DTCG colours', async () => {
@@ -1009,6 +1011,71 @@ describe('generatePostVariablesPayload', () => {
     }).toThrowError(
       'Invalid dimension token $value (expected { value: number, unit: "px" | "rem" }',
     )
+  })
+
+  it('maps typography primitives to Figma variable types', async () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {},
+        variables: {},
+      },
+    }
+
+    const tokensByFile = {
+      'typography.base.json': {
+        'font-family/sans': {
+          $type: 'fontFamily',
+          $value: ['Public Sans', 'system-ui', 'sans-serif'],
+        },
+        'font-weight/bold': { $type: 'fontWeight', $value: 700 },
+        'line-height/base': { $type: 'number', $value: 1.5 },
+        'font-size/16': { $type: 'dimension', $value: { value: 1, unit: 'rem' } },
+      },
+    } as unknown as FlattenedTokensByFile
+
+    const result = generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+
+    const typeFor = (id: string) => {
+      const variable = result.variables!.find((v) => v.id === id)
+      return variable && 'resolvedType' in variable ? variable.resolvedType : undefined
+    }
+    expect(typeFor('font-family/sans')).toBe('STRING')
+    expect(typeFor('font-weight/bold')).toBe('FLOAT')
+    expect(typeFor('line-height/base')).toBe('FLOAT')
+    expect(typeFor('font-size/16')).toBe('FLOAT')
+
+    const valueFor = (id: string) =>
+      result.variableModeValues!.find((v) => v.variableId === id)?.value
+    expect(valueFor('font-family/sans')).toBe('Public Sans, system-ui, sans-serif')
+    expect(valueFor('font-weight/bold')).toBe(700)
+    expect(valueFor('line-height/base')).toBe(1.5)
+    expect(valueFor('font-size/16')).toBe(16)
+  })
+
+  it('throws a shape-specific error for malformed fontFamily $values', async () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {},
+        variables: {},
+      },
+    }
+
+    const tokensByFile = {
+      'typography.base.json': {
+        'font-family/oops': {
+          $type: 'fontFamily',
+          $value: ['Public Sans', 42], // non-string entry
+        },
+      },
+    } as unknown as FlattenedTokensByFile
+
+    expect(() => {
+      generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+    }).toThrowError('Invalid fontFamily token $value (expected a string, an array of strings')
   })
 
   it('maps dimension tokens to FLOAT variables (rem converted at 16px)', async () => {

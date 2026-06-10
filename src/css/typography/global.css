@@ -1,0 +1,26 @@
+:root {
+  --font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; /** Primary typeface — Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text. */
+  --font-family-mono: SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; /** Monospace stack — system monospace fallbacks for code, tabular data, and technical content. */
+  --font-size-12: 0.75rem; /** Font size 12px (0.75rem) — the step name is the px value at the default root font size. */
+  --font-size-14: 0.875rem; /** Font size 14px (0.875rem) — the step name is the px value at the default root font size. */
+  --font-size-16: 1rem; /** Font size 16px (1rem) — the step name is the px value at the default root font size. */
+  --font-size-18: 1.125rem; /** Font size 18px (1.125rem) — the step name is the px value at the default root font size. */
+  --font-size-20: 1.25rem; /** Font size 20px (1.25rem) — the step name is the px value at the default root font size. */
+  --font-size-24: 1.5rem; /** Font size 24px (1.5rem) — the step name is the px value at the default root font size. */
+  --font-size-30: 1.875rem; /** Font size 30px (1.875rem) — the step name is the px value at the default root font size. */
+  --font-size-36: 2.25rem; /** Font size 36px (2.25rem) — the step name is the px value at the default root font size. */
+  --font-size-48: 3rem; /** Font size 48px (3rem) — the step name is the px value at the default root font size. */
+  --font-weight-light: 300; /** Light (300) — large display text only; avoid at body sizes for legibility. */
+  --font-weight-regular: 400; /** Regular (400) — default body text weight. */
+  --font-weight-medium: 500; /** Medium (500) — subtle emphasis, labels, and navigation. */
+  --font-weight-semibold: 600; /** Semibold (600) — headings and strong emphasis. */
+  --font-weight-bold: 700; /** Bold (700) — highest emphasis; key figures and primary headings. */
+  --line-height-tight: 1.25; /** Tight (1.25) — large headings and display text. */
+  --line-height-snug: 1.375; /** Snug (1.375) — subheadings and dense UI text. */
+  --line-height-base: 1.5; /** Base (1.5) — default for body text; meets WCAG 1.4.12 text-spacing. */
+  --line-height-relaxed: 1.625; /** Relaxed (1.625) — long-form reading content. */
+  --line-height-loose: 2; /** Loose (2) — spacious text such as quotes or airy lists. */
+  --letter-spacing-tight: -0.0125em; /** Tight tracking (-0.0125em) — large display headings. Value is an em multiplier; string outputs render it with the em unit. */
+  --letter-spacing-normal: 0em; /** Normal tracking (0em) — default for body text. Value is an em multiplier; string outputs render it with the em unit. */
+  --letter-spacing-wide: 0.025em; /** Wide tracking (0.025em) — small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit. */
+}
