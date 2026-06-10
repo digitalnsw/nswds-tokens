@@ -1,0 +1,8 @@
+{
+  "border-width": {
+    "border-width-thin": "0.0625rem",
+    "border-width-thick": "0.125rem",
+    "border-width-thicker": "0.25rem",
+    "border-width-default": "0.0625rem"
+  }
+}

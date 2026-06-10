@@ -215,6 +215,51 @@ const COMPOSITE_FIELD_TYPES = {
   lineHeight: 'number',
 }
 
+// DTCG shadow composite (Phase 4d): object or layered array. Lengths are dimension
+// objects or {alias}es to dimension tokens. `color` is OPTIONAL here — a deliberate
+// deviation from strict DTCG: a colourless CSS box-shadow renders with currentColor,
+// which is exactly how the inset ring tokens are designed. `inset` is an optional bool.
+const SHADOW_LENGTH_FIELDS = ['offsetX', 'offsetY', 'blur', 'spread']
+const checkShadowComposite = (label, path, leaf) => {
+  if (leaf.$type !== 'shadow') return []
+  const layers = Array.isArray(leaf.$value) ? leaf.$value : [leaf.$value]
+  const pending = []
+  layers.forEach((layer, i) => {
+    const at = layers.length > 1 ? `${path}[${i}]` : path
+    if (!layer || typeof layer !== 'object') {
+      errors.push(`${label} ${at}: shadow layer must be an object`)
+      return
+    }
+    for (const field of SHADOW_LENGTH_FIELDS) {
+      const sub = layer[field]
+      if (sub === undefined) {
+        errors.push(`${label} ${at}: shadow layer is missing "${field}"`)
+        continue
+      }
+      const target = typeof sub === 'string' ? (sub.match(ALIAS_PATTERN)?.[1] ?? null) : null
+      if (target) {
+        pending.push({ label, path: `${at}.${field}`, field: 'shadowLength', target })
+      } else if (!sub || typeof sub !== 'object' || typeof sub.value !== 'number') {
+        errors.push(`${label} ${at}: shadow "${field}" must be a dimension object or an {alias}`)
+      } else if (!['px', 'rem'].includes(sub.unit)) {
+        errors.push(
+          `${label} ${at}: shadow "${field}" unit must be "px" or "rem" (got "${sub.unit}")`,
+        )
+      }
+    }
+    if ('inset' in layer && typeof layer.inset !== 'boolean')
+      errors.push(`${label} ${at}: shadow "inset" must be a boolean`)
+    if ('color' in layer) {
+      const target =
+        typeof layer.color === 'string' ? (layer.color.match(ALIAS_PATTERN)?.[1] ?? null) : null
+      if (target) pending.push({ label, path: `${at}.color`, field: 'shadowColor', target })
+      else if (typeof layer.color !== 'string')
+        errors.push(`${label} ${at}: shadow "color" must be an {alias} or a colour string`)
+    }
+  })
+  return pending
+}
+
 {
   const files = categoryFiles()
   const namespace = {}
@@ -232,7 +277,9 @@ const COMPOSITE_FIELD_TYPES = {
       if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
       checkDimensionShape(label, tokenPath, leaf)
       checkTypographyShapes(label, tokenPath, leaf)
+      if (leaf.$type === 'color') checkColorShape(label, tokenPath, leaf)
       pendingCompositeAliases.push(...checkTypographyComposite(label, tokenPath, leaf))
+      pendingCompositeAliases.push(...checkShadowComposite(label, tokenPath, leaf))
 
       const serialized = JSON.stringify(leaf.$value)
       const prior = namespace[tokenPath]
@@ -249,24 +296,45 @@ const COMPOSITE_FIELD_TYPES = {
   // — full chain walk with cycle detection, same guarantees as the colour spaces.
   checkAliasChains(allLeaves, leafByPath)
 
-  // Composite sub-aliases resolve against the same flat namespace (global primitives),
-  // following alias chains to the terminal leaf, which must match the field's $type.
+  // Composite sub-aliases resolve against the category namespace EXTENDED with the
+  // global/semantic colour canonicals: shadow `color` legitimately aliases palette
+  // colours ({nsw-grey.900}), which live outside categoryFiles(). Themes are excluded —
+  // their family names (primary/accent/grey) repeat across themes, so a theme-relative
+  // alias would be ambiguous here. Category tokens take precedence on path collisions.
+  const colorLeafByPath = {}
+  for (const layer of ['global', 'semantic']) {
+    const p = resolve(tokensDir, layer, 'color', 'canonical.json')
+    if (existsSync(p)) {
+      for (const [tokenPath, leaf] of Object.entries(flatten(readJson(p), '', {}))) {
+        colorLeafByPath[tokenPath] = leaf
+      }
+    }
+  }
+  const subAliasNamespace = { ...colorLeafByPath, ...leafByPath }
+
+  // Each pending sub-alias follows its chain to the terminal leaf, which must match the
+  // field's $type.
   for (const { label, path, field, target } of pendingCompositeAliases) {
     const seen = new Set()
     let current = target
-    let leaf = leafByPath[current]
+    let leaf = subAliasNamespace[current]
     while (leaf) {
       const next = aliasTarget(leaf)
       if (!next || seen.has(current)) break // concrete leaf, or cycle (reported elsewhere)
       seen.add(current)
       current = next
-      leaf = leafByPath[current]
+      leaf = subAliasNamespace[current]
     }
     if (!leaf) {
       errors.push(`${label}: unresolved alias "{${target}}" referenced by "${path}"`)
       continue
     }
-    const expected = COMPOSITE_FIELD_TYPES[field]
+    const expected =
+      field === 'shadowLength'
+        ? 'dimension'
+        : field === 'shadowColor'
+          ? 'color'
+          : COMPOSITE_FIELD_TYPES[field]
     if (leaf.$type !== expected) {
       errors.push(
         `${label} ${path}: alias "{${target}}" resolves to a "${leaf.$type}" token; ${field} requires "${expected}"`,
