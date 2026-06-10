@@ -29,6 +29,13 @@ export const colorFunction = (colorSpace, value) => {
 // as "0<unit>" is valid CSS but "0" would lose the unit round-trip, so keep the unit.
 export const dimensionString = ({ value, unit }) => `${value}${unit}`
 
+// DTCG fontFamily (string or array stack) -> CSS font-family string. Names containing
+// whitespace are quoted ('Public Sans'); keywords/idents are left bare.
+export const fontFamilyString = (value) => {
+  const names = Array.isArray(value) ? value : [value]
+  return names.map((n) => (/\s/.test(n) ? `'${n}'` : n)).join(', ')
+}
+
 const groupByFamily = (tokens) => {
   const groups = new Map()
   for (const t of tokens) {
@@ -39,12 +46,23 @@ const groupByFamily = (tokens) => {
   return groups
 }
 
+// Token value -> JS literal. Numbers (fontWeight, line-height) stay numeric so JS/TS
+// consumers get a usable type, matching the JSON outputs. Strings are quoted the way
+// Prettier would: single quotes normally, double quotes when the value itself contains
+// single quotes (font stacks like 'Public Sans'). Colour/dimension values are plain
+// strings without quotes inside, keeping those outputs identical.
+const jsLiteral = (v) => {
+  if (typeof v === 'number') return String(v)
+  const s = String(v)
+  return s.includes("'") ? `"${s.replace(/"/g, '\\"')}"` : `'${s}'`
+}
+
 // js/colors/.../hex.js  ->  export const nswGrey = { 50: '#fafafa', ... }  (unquoted keys)
 export const nswJs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
     out += `export const ${toCamel(family)} = {\n`
-    for (const t of toks) out += `  ${t.path[1]}: '${t.$value}',\n`
+    for (const t of toks) out += `  ${t.path[1]}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
   }
   return out
@@ -58,7 +76,7 @@ export const nswTs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
     out += `export const ${toCamel(family)} = {\n`
-    for (const t of toks) out += `  ${tsKey(t.path[1])}: '${t.$value}',\n`
+    for (const t of toks) out += `  ${tsKey(t.path[1])}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
   }
   return out
@@ -101,15 +119,18 @@ export const nswFigma = ({ dictionary }) => {
 //   - alias layers (masterbrand): `--color-<local>: var(--<aliasTarget>)` (e.g.
 //     primary-50 -> var(--nsw-blue-50)) and NO :root block — it relies on the referenced
 //     layer's vars being imported.
-// tailwind/<category>/global.css — Tailwind v4 @theme block for dimension categories.
-// Unlike colours there is no :root indirection: dimension namespaces (--spacing-*,
-// --radius-*, --breakpoint-*) get direct values. options.namespace maps the token family
-// to the Tailwind namespace (space -> spacing); the family segment is dropped from the
-// variable name (--spacing-4, not --spacing-space-4).
+// tailwind/<category>/global.css — Tailwind v4 @theme block for non-colour categories.
+// Unlike colours there is no :root indirection: dimension/typography namespaces
+// (--spacing-*, --radius-*, --text-*, …) get direct values. The token family maps to the
+// Tailwind namespace via options.namespace (single-family categories, space -> spacing)
+// or options.namespaces (multi-family categories like typography: font-size -> text,
+// line-height -> leading, …); the family segment is dropped from the variable name
+// (--spacing-4, not --spacing-space-4).
 export const nswTailwindDimension = ({ dictionary, options }) => {
   let out = '@theme {\n'
   for (const t of dictionary.allTokens) {
-    out += `  --${options.namespace}-${t.path.slice(1).join('-')}: ${t.$value};\n`
+    const namespace = options.namespaces?.[t.path[0]] ?? options.namespace
+    out += `  --${namespace}-${t.path.slice(1).join('-')}: ${t.$value};\n`
   }
   return `${out}}\n`
 }

@@ -153,6 +153,28 @@ const checkDimensionShape = (label, path, leaf) => {
     errors.push(`${label} ${path}: dimension unit "${v.unit}" (DTCG allows "px" or "rem")`)
 }
 
+// DTCG typography primitive conformance (Phase 4b).
+const checkTypographyShapes = (label, path, leaf) => {
+  if (aliasTarget(leaf)) return
+  if (leaf.$type === 'fontFamily') {
+    const v = leaf.$value
+    const ok =
+      typeof v === 'string' ||
+      (Array.isArray(v) && v.length > 0 && v.every((n) => typeof n === 'string'))
+    if (!ok) errors.push(`${label} ${path}: fontFamily $value must be a string or array of strings`)
+  }
+  if (leaf.$type === 'fontWeight') {
+    const v = leaf.$value
+    if (typeof v !== 'number' || v < 1 || v > 1000)
+      errors.push(`${label} ${path}: fontWeight $value must be a number in 1–1000`)
+  }
+  // line-height / letter-spacing primitives — a string or object here would silently
+  // break the generators downstream.
+  if (leaf.$type === 'number' && typeof leaf.$value !== 'number') {
+    errors.push(`${label} ${path}: number $value must be a JSON number`)
+  }
+}
+
 {
   const files = categoryFiles()
   const namespace = {}
@@ -168,6 +190,7 @@ const checkDimensionShape = (label, path, leaf) => {
       if (!('$value' in leaf)) errors.push(`${label} ${tokenPath}: missing $value`)
       if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
       checkDimensionShape(label, tokenPath, leaf)
+      checkTypographyShapes(label, tokenPath, leaf)
 
       const serialized = JSON.stringify(leaf.$value)
       const prior = namespace[tokenPath]

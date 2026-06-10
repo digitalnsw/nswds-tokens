@@ -17,4 +17,5 @@ export const FIGMA_COLLECTIONS: Record<string, FigmaCollectionRef> = {
   'space.base.json': { collectionName: 'Space', modeName: 'base' },
   'radius.base.json': { collectionName: 'Radius', modeName: 'base' },
   'breakpoints.base.json': { collectionName: 'Breakpoints', modeName: 'base' },
+  'typography.base.json': { collectionName: 'Typography', modeName: 'base' },
 }
