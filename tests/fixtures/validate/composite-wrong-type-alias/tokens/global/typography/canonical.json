@@ -1,0 +1,37 @@
+{
+  "font-family": {
+    "sans": {
+      "$type": "fontFamily",
+      "$value": [
+        "A"
+      ]
+    }
+  },
+  "font-size": {
+    "16": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      }
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "$type": "fontWeight",
+      "$value": 400
+    }
+  },
+  "letter-spacing": {
+    "normal": {
+      "$type": "number",
+      "$value": 0
+    }
+  },
+  "line-height": {
+    "base": {
+      "$type": "number",
+      "$value": 1.5
+    }
+  }
+}

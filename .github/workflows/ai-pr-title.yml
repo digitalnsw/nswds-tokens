@@ -55,16 +55,18 @@ jobs:
           echo "present=$present" >> "$GITHUB_OUTPUT"
 
       - name: Setup Node.js
-        # commitlint v21 requires Node >=22.12.0 — pin instead of relying on lts/*.
+        # Node from .nvmrc (single source). The standalone commitlint install below is
+        # pinned to the repo's major: latest commitlint (v21) requires Node >=22.12.0,
+        # above the .nvmrc floor — bump .nvmrc and the pin together.
         if: ${{ steps.commitlint-config.outputs.present == 'true' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
         uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version-file: .nvmrc
 
       - name: Install commitlint
         if: ${{ steps.commitlint-config.outputs.present == 'true' && github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name }}
         shell: bash
-        run: npm install --no-save --no-fund --no-audit --loglevel=error @commitlint/cli @commitlint/config-conventional
+        run: npm install --no-save --no-fund --no-audit --loglevel=error @commitlint/cli@^19 @commitlint/config-conventional@^19
 
       - name: Get Current PR Title
         id: get-pr-title

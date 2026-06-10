@@ -1,0 +1,17 @@
+{
+  "typography": {
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{font-family.sans}",
+        "fontSize": {
+          "value": 1,
+          "unit": "rem"
+        },
+        "fontWeight": "{font-weight.regular}",
+        "letterSpacing": "{letter-spacing.normal}",
+        "lineHeight": "{line-height.base}"
+      }
+    }
+  }
+}

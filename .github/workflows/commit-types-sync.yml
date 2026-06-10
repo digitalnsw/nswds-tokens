@@ -30,15 +30,17 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Setup Node.js
-        # commitlint v21 requires Node >=22.12.0 — pin instead of relying on lts/*.
+        # Node from .nvmrc (single source). The standalone commitlint install below is
+        # pinned to the repo's major: latest commitlint (v21) requires Node >=22.12.0,
+        # above the .nvmrc floor — bump .nvmrc and the pin together.
         uses: actions/setup-node@v6
         with:
-          node-version: '22'
+          node-version-file: .nvmrc
 
       # Install commitlint without touching the repo's manifest so the check
       # runs the same way in this repo (no package.json) and in consumer repos.
       - name: Install commitlint
-        run: npm install --no-save @commitlint/cli @commitlint/config-conventional
+        run: npm install --no-save @commitlint/cli@^19 @commitlint/config-conventional@^19
 
       - name: Check commit type lists are in sync
         run: ./scripts/check-commit-types-sync.sh

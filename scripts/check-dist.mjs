@@ -1,4 +1,5 @@
 import { spawnSync } from 'node:child_process'
+import { statSync } from 'node:fs'
 
 const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm'
 
@@ -47,6 +48,23 @@ if (distStatus) {
   }
 
   process.exit(1)
+}
+
+// Bundle-size watch (review item M6): the root bundles embed every generated stylesheet
+// as text and grow with each category. Catch a surprise jump in review instead of in a
+// consumer's bundle-analyzer. Raise the budget deliberately when new categories land.
+const BUNDLE_BUDGET_BYTES = 3 * 1024 * 1024 // 3 MiB; ~2.2 MiB as of Phase 4
+for (const bundle of ['dist/index.js', 'dist/index.cjs']) {
+  const bytes = statSync(bundle).size
+  console.log(
+    `${bundle}: ${(bytes / 1024 / 1024).toFixed(2)} MiB (budget ${(BUNDLE_BUDGET_BYTES / 1024 / 1024).toFixed(0)} MiB)`,
+  )
+  if (bytes > BUNDLE_BUDGET_BYTES) {
+    console.error(
+      `❌ ${bundle} exceeds the bundle budget — raise BUNDLE_BUDGET_BYTES deliberately if this growth is intended.`,
+    )
+    process.exit(1)
+  }
 }
 
 console.log('\nCommitted src/dist artifacts are up to date.')

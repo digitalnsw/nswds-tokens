@@ -1,0 +1,12 @@
+{
+  "space": {
+    "a": {
+      "$type": "dimension",
+      "$value": "{space.b}"
+    },
+    "b": {
+      "$type": "dimension",
+      "$value": "{space.a}"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "space": {
+    "a": {
+      "$type": "dimension",
+      "$value": "{space.nope}"
+    }
+  }
+}

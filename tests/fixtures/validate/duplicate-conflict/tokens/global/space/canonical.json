@@ -1,0 +1,11 @@
+{
+  "space": {
+    "4": {
+      "$type": "dimension",
+      "$value": {
+        "value": 1,
+        "unit": "rem"
+      }
+    }
+  }
+}
