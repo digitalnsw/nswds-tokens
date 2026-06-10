@@ -39005,7 +39005,7 @@ var require_global4 = __commonJS({
     module.exports = {
       "font-family": {
         "font-family-sans": "'Public Sans', system-ui, -apple-system, sans-serif",
-        "font-family-mono": "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
+        "font-family-mono": "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
       },
       "font-size": {
         "font-size-12": "0.75rem",
@@ -39013,10 +39013,13 @@ var require_global4 = __commonJS({
         "font-size-16": "1rem",
         "font-size-18": "1.125rem",
         "font-size-20": "1.25rem",
+        "font-size-22": "1.375rem",
         "font-size-24": "1.5rem",
         "font-size-30": "1.875rem",
         "font-size-36": "2.25rem",
-        "font-size-48": "3rem"
+        "font-size-48": "3rem",
+        "font-size-56": "3.5rem",
+        "font-size-64": "4rem"
       },
       "font-weight": {
         "font-weight-light": 300,
@@ -39026,11 +39029,12 @@ var require_global4 = __commonJS({
         "font-weight-bold": 700
       },
       "line-height": {
-        "line-height-tight": 1.25,
-        "line-height-snug": 1.375,
+        "line-height-none": 1,
+        "line-height-tight": 1.2,
+        "line-height-snug": 1.3333333,
         "line-height-base": 1.5,
-        "line-height-relaxed": 1.625,
-        "line-height-loose": 2
+        "line-height-relaxed": 1.6,
+        "line-height-loose": 1.75
       },
       "letter-spacing": {
         "letter-spacing-tight": "-0.0125em",
@@ -39235,7 +39239,7 @@ var global_exports4 = {};
 __export(global_exports4, {
   default: () => global_default4
 });
-var global_default4 = ":root {\n  --font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; /** Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text. */\n  --font-family-mono: SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; /** Monospace stack \u2014 system monospace fallbacks for code, tabular data, and technical content. */\n  --font-size-12: 0.75rem; /** Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-14: 0.875rem; /** Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-16: 1rem; /** Font size 16px (1rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-18: 1.125rem; /** Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-20: 1.25rem; /** Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-24: 1.5rem; /** Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-30: 1.875rem; /** Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-36: 2.25rem; /** Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-48: 3rem; /** Font size 48px (3rem) \u2014 the step name is the px value at the default root font size. */\n  --font-weight-light: 300; /** Light (300) \u2014 large display text only; avoid at body sizes for legibility. */\n  --font-weight-regular: 400; /** Regular (400) \u2014 default body text weight. */\n  --font-weight-medium: 500; /** Medium (500) \u2014 subtle emphasis, labels, and navigation. */\n  --font-weight-semibold: 600; /** Semibold (600) \u2014 headings and strong emphasis. */\n  --font-weight-bold: 700; /** Bold (700) \u2014 highest emphasis; key figures and primary headings. */\n  --line-height-tight: 1.25; /** Tight (1.25) \u2014 large headings and display text. */\n  --line-height-snug: 1.375; /** Snug (1.375) \u2014 subheadings and dense UI text. */\n  --line-height-base: 1.5; /** Base (1.5) \u2014 default for body text; meets WCAG 1.4.12 text-spacing. */\n  --line-height-relaxed: 1.625; /** Relaxed (1.625) \u2014 long-form reading content. */\n  --line-height-loose: 2; /** Loose (2) \u2014 spacious text such as quotes or airy lists. */\n  --letter-spacing-tight: -0.0125em; /** Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-normal: 0em; /** Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-wide: 0.025em; /** Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit. */\n}\n";
+var global_default4 = ":root {\n  --font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; /** Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text. */\n  --font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; /** Monospace stack \u2014 JetBrains Mono with system fallbacks for code, tabular data, and technical content. */\n  --font-size-12: 0.75rem; /** Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-14: 0.875rem; /** Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-16: 1rem; /** Font size 16px (1rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-18: 1.125rem; /** Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-20: 1.25rem; /** Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-22: 1.375rem; /** Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-24: 1.5rem; /** Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-30: 1.875rem; /** Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-36: 2.25rem; /** Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-48: 3rem; /** Font size 48px (3rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-56: 3.5rem; /** Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size. */\n  --font-size-64: 4rem; /** Font size 64px (4rem) \u2014 the step name is the px value at the default root font size. */\n  --font-weight-light: 300; /** Light (300) \u2014 large display text only; avoid at body sizes for legibility. */\n  --font-weight-regular: 400; /** Regular (400) \u2014 default body text weight. */\n  --font-weight-medium: 500; /** Medium (500) \u2014 subtle emphasis, labels, and navigation. */\n  --font-weight-semibold: 600; /** Semibold (600) \u2014 headings and strong emphasis. */\n  --font-weight-bold: 700; /** Bold (700) \u2014 highest emphasis; key figures and primary headings. */\n  --line-height-none: 1; /** Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale). */\n  --line-height-tight: 1.2; /** Tight (1.2) \u2014 large headings (36/30 in the prose scale). */\n  --line-height-snug: 1.3333333; /** Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale). */\n  --line-height-base: 1.5; /** Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing. */\n  --line-height-relaxed: 1.6; /** Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale). */\n  --line-height-loose: 1.75; /** Loose (1.75) \u2014 long-form body text (28/16 in the prose scale). */\n  --letter-spacing-tight: -0.0125em; /** Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-normal: 0em; /** Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit. */\n  --letter-spacing-wide: 0.025em; /** Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit. */\n}\n";
 
 // src/js/colors/global/hex.js
 var hex_exports7 = {};
@@ -43086,7 +43090,7 @@ __export(global_exports8, {
 });
 var fontFamily = {
   sans: "'Public Sans', system-ui, -apple-system, sans-serif",
-  mono: "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
+  mono: "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
 };
 var fontSize = {
   12: "0.75rem",
@@ -43094,10 +43098,13 @@ var fontSize = {
   16: "1rem",
   18: "1.125rem",
   20: "1.25rem",
+  22: "1.375rem",
   24: "1.5rem",
   30: "1.875rem",
   36: "2.25rem",
-  48: "3rem"
+  48: "3rem",
+  56: "3.5rem",
+  64: "4rem"
 };
 var fontWeight = {
   light: "300",
@@ -43107,11 +43114,12 @@ var fontWeight = {
   bold: "700"
 };
 var lineHeight = {
-  tight: "1.25",
-  snug: "1.375",
+  none: "1",
+  tight: "1.2",
+  snug: "1.3333333",
   base: "1.5",
-  relaxed: "1.625",
-  loose: "2"
+  relaxed: "1.6",
+  loose: "1.75"
 };
 var letterSpacing = {
   tight: "-0.0125em",
@@ -43313,7 +43321,7 @@ var global_exports12 = {};
 __export(global_exports12, {
   default: () => global_default8
 });
-var global_default8 = "@font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.\n@font-family-mono: SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 system monospace fallbacks for code, tabular data, and technical content.\n@font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n@font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n@font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n@font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n@font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n@font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n@font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n@font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n@font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n@line-height-tight: 1.25; // Tight (1.25) \u2014 large headings and display text.\n@line-height-snug: 1.375; // Snug (1.375) \u2014 subheadings and dense UI text.\n@line-height-base: 1.5; // Base (1.5) \u2014 default for body text; meets WCAG 1.4.12 text-spacing.\n@line-height-relaxed: 1.625; // Relaxed (1.625) \u2014 long-form reading content.\n@line-height-loose: 2; // Loose (2) \u2014 spacious text such as quotes or airy lists.\n@letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+var global_default8 = "@font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.\n@font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with system fallbacks for code, tabular data, and technical content.\n@font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n@font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n@font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n@font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n@font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n@font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n@font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n@font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n@font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n@font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n@font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n@font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n@font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n@font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n@line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n@line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n@line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n@line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n@line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n@line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n@letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n@letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
 
 // src/scss/colors/global/hex.scss
 var hex_exports19 = {};
@@ -43509,7 +43517,7 @@ var global_exports16 = {};
 __export(global_exports16, {
   default: () => global_default12
 });
-var global_default12 = "$font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.\n$font-family-mono: SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 system monospace fallbacks for code, tabular data, and technical content.\n$font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n$font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n$font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n$font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n$font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n$font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n$font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n$font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n$font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n$line-height-tight: 1.25; // Tight (1.25) \u2014 large headings and display text.\n$line-height-snug: 1.375; // Snug (1.375) \u2014 subheadings and dense UI text.\n$line-height-base: 1.5; // Base (1.5) \u2014 default for body text; meets WCAG 1.4.12 text-spacing.\n$line-height-relaxed: 1.625; // Relaxed (1.625) \u2014 long-form reading content.\n$line-height-loose: 2; // Loose (2) \u2014 spacious text such as quotes or airy lists.\n$letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
+var global_default12 = "$font-family-sans: 'Public Sans', system-ui, -apple-system, sans-serif; // Primary typeface \u2014 Public Sans (the NSW Government brand typeface) with system fallbacks. Use for all UI and body text.\n$font-family-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; // Monospace stack \u2014 JetBrains Mono with system fallbacks for code, tabular data, and technical content.\n$font-size-12: 0.75rem; // Font size 12px (0.75rem) \u2014 the step name is the px value at the default root font size.\n$font-size-14: 0.875rem; // Font size 14px (0.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-16: 1rem; // Font size 16px (1rem) \u2014 the step name is the px value at the default root font size.\n$font-size-18: 1.125rem; // Font size 18px (1.125rem) \u2014 the step name is the px value at the default root font size.\n$font-size-20: 1.25rem; // Font size 20px (1.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-22: 1.375rem; // Font size 22px (1.375rem) \u2014 the step name is the px value at the default root font size.\n$font-size-24: 1.5rem; // Font size 24px (1.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-30: 1.875rem; // Font size 30px (1.875rem) \u2014 the step name is the px value at the default root font size.\n$font-size-36: 2.25rem; // Font size 36px (2.25rem) \u2014 the step name is the px value at the default root font size.\n$font-size-48: 3rem; // Font size 48px (3rem) \u2014 the step name is the px value at the default root font size.\n$font-size-56: 3.5rem; // Font size 56px (3.5rem) \u2014 the step name is the px value at the default root font size.\n$font-size-64: 4rem; // Font size 64px (4rem) \u2014 the step name is the px value at the default root font size.\n$font-weight-light: 300; // Light (300) \u2014 large display text only; avoid at body sizes for legibility.\n$font-weight-regular: 400; // Regular (400) \u2014 default body text weight.\n$font-weight-medium: 500; // Medium (500) \u2014 subtle emphasis, labels, and navigation.\n$font-weight-semibold: 600; // Semibold (600) \u2014 headings and strong emphasis.\n$font-weight-bold: 700; // Bold (700) \u2014 highest emphasis; key figures and primary headings.\n$line-height-none: 1; // Solid (1) \u2014 display headings set at their own size (48/48, 56/56, 64/64 in the prose scale).\n$line-height-tight: 1.2; // Tight (1.2) \u2014 large headings (36/30 in the prose scale).\n$line-height-snug: 1.3333333; // Snug (1.3333333) \u2014 mid-size headings (32/24, 40/30 in the prose scale).\n$line-height-base: 1.5; // Base (1.5) \u2014 default for UI text and dense content (24/16, 36/24 in the prose scale); meets WCAG 1.4.12 text-spacing.\n$line-height-relaxed: 1.6; // Relaxed (1.6) \u2014 subheadings and lead text (32/20 in the prose scale).\n$line-height-loose: 1.75; // Loose (1.75) \u2014 long-form body text (28/16 in the prose scale).\n$letter-spacing-tight: -0.0125em; // Tight tracking (-0.0125em) \u2014 large display headings. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-normal: 0em; // Normal tracking (0em) \u2014 default for body text. Value is an em multiplier; string outputs render it with the em unit.\n$letter-spacing-wide: 0.025em; // Wide tracking (0.025em) \u2014 small caps, overlines, and small labels. Value is an em multiplier; string outputs render it with the em unit.\n";
 
 // src/tailwind/colors/global/hex.css
 var hex_exports25 = {};
@@ -43705,7 +43713,7 @@ var global_exports20 = {};
 __export(global_exports20, {
   default: () => global_default16
 });
-var global_default16 = "@theme {\n  --font-sans: 'Public Sans', system-ui, -apple-system, sans-serif;\n  --font-mono: SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;\n  --text-12: 0.75rem;\n  --text-14: 0.875rem;\n  --text-16: 1rem;\n  --text-18: 1.125rem;\n  --text-20: 1.25rem;\n  --text-24: 1.5rem;\n  --text-30: 1.875rem;\n  --text-36: 2.25rem;\n  --text-48: 3rem;\n  --font-weight-light: 300;\n  --font-weight-regular: 400;\n  --font-weight-medium: 500;\n  --font-weight-semibold: 600;\n  --font-weight-bold: 700;\n  --leading-tight: 1.25;\n  --leading-snug: 1.375;\n  --leading-base: 1.5;\n  --leading-relaxed: 1.625;\n  --leading-loose: 2;\n  --tracking-tight: -0.0125em;\n  --tracking-normal: 0em;\n  --tracking-wide: 0.025em;\n}\n";
+var global_default16 = "@theme {\n  --font-sans: 'Public Sans', system-ui, -apple-system, sans-serif;\n  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;\n  --text-12: 0.75rem;\n  --text-14: 0.875rem;\n  --text-16: 1rem;\n  --text-18: 1.125rem;\n  --text-20: 1.25rem;\n  --text-22: 1.375rem;\n  --text-24: 1.5rem;\n  --text-30: 1.875rem;\n  --text-36: 2.25rem;\n  --text-48: 3rem;\n  --text-56: 3.5rem;\n  --text-64: 4rem;\n  --font-weight-light: 300;\n  --font-weight-regular: 400;\n  --font-weight-medium: 500;\n  --font-weight-semibold: 600;\n  --font-weight-bold: 700;\n  --leading-none: 1;\n  --leading-tight: 1.2;\n  --leading-snug: 1.3333333;\n  --leading-base: 1.5;\n  --leading-relaxed: 1.6;\n  --leading-loose: 1.75;\n  --tracking-tight: -0.0125em;\n  --tracking-normal: 0em;\n  --tracking-wide: 0.025em;\n}\n";
 
 // src/ts/colors/global/hex.ts
 var hex_exports31 = {};
@@ -47556,7 +47564,7 @@ __export(global_exports24, {
 });
 var fontFamily2 = {
   sans: "'Public Sans', system-ui, -apple-system, sans-serif",
-  mono: "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
+  mono: "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
 };
 var fontSize2 = {
   "12": "0.75rem",
@@ -47564,10 +47572,13 @@ var fontSize2 = {
   "16": "1rem",
   "18": "1.125rem",
   "20": "1.25rem",
+  "22": "1.375rem",
   "24": "1.5rem",
   "30": "1.875rem",
   "36": "2.25rem",
-  "48": "3rem"
+  "48": "3rem",
+  "56": "3.5rem",
+  "64": "4rem"
 };
 var fontWeight2 = {
   light: "300",
@@ -47577,11 +47588,12 @@ var fontWeight2 = {
   bold: "700"
 };
 var lineHeight2 = {
-  tight: "1.25",
-  snug: "1.375",
+  none: "1",
+  tight: "1.2",
+  snug: "1.3333333",
   base: "1.5",
-  relaxed: "1.625",
-  loose: "2"
+  relaxed: "1.6",
+  loose: "1.75"
 };
 var letterSpacing2 = {
   tight: "-0.0125em",

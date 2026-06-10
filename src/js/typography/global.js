@@ -1,6 +1,6 @@
 export const fontFamily = {
   sans: "'Public Sans', system-ui, -apple-system, sans-serif",
-  mono: "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
+  mono: "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace",
 }
 export const fontSize = {
   12: '0.75rem',
@@ -8,10 +8,13 @@ export const fontSize = {
   16: '1rem',
   18: '1.125rem',
   20: '1.25rem',
+  22: '1.375rem',
   24: '1.5rem',
   30: '1.875rem',
   36: '2.25rem',
   48: '3rem',
+  56: '3.5rem',
+  64: '4rem',
 }
 export const fontWeight = {
   light: '300',
@@ -21,11 +24,12 @@ export const fontWeight = {
   bold: '700',
 }
 export const lineHeight = {
-  tight: '1.25',
-  snug: '1.375',
+  none: '1',
+  tight: '1.2',
+  snug: '1.3333333',
   base: '1.5',
-  relaxed: '1.625',
-  loose: '2',
+  relaxed: '1.6',
+  loose: '1.75',
 }
 export const letterSpacing = {
   tight: '-0.0125em',

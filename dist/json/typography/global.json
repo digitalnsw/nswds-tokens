@@ -1,7 +1,7 @@
 {
   "font-family": {
     "font-family-sans": "'Public Sans', system-ui, -apple-system, sans-serif",
-    "font-family-mono": "SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
+    "font-family-mono": "'JetBrains Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace"
   },
   "font-size": {
     "font-size-12": "0.75rem",
@@ -9,10 +9,13 @@
     "font-size-16": "1rem",
     "font-size-18": "1.125rem",
     "font-size-20": "1.25rem",
+    "font-size-22": "1.375rem",
     "font-size-24": "1.5rem",
     "font-size-30": "1.875rem",
     "font-size-36": "2.25rem",
-    "font-size-48": "3rem"
+    "font-size-48": "3rem",
+    "font-size-56": "3.5rem",
+    "font-size-64": "4rem"
   },
   "font-weight": {
     "font-weight-light": 300,
@@ -22,11 +25,12 @@
     "font-weight-bold": 700
   },
   "line-height": {
-    "line-height-tight": 1.25,
-    "line-height-snug": 1.375,
+    "line-height-none": 1,
+    "line-height-tight": 1.2,
+    "line-height-snug": 1.3333333,
     "line-height-base": 1.5,
-    "line-height-relaxed": 1.625,
-    "line-height-loose": 2
+    "line-height-relaxed": 1.6,
+    "line-height-loose": 1.75
   },
   "letter-spacing": {
     "letter-spacing-tight": "-0.0125em",

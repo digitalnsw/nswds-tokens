@@ -3791,10 +3791,13 @@ declare const fontSize$1: {
     16: string;
     18: string;
     20: string;
+    22: string;
     24: string;
     30: string;
     36: string;
     48: string;
+    56: string;
+    64: string;
 };
 declare namespace fontWeight$1 {
     let light: string;
@@ -3804,6 +3807,7 @@ declare namespace fontWeight$1 {
     let bold: string;
 }
 declare namespace lineHeight$1 {
+    let none: string;
     let tight: string;
     let snug: string;
     let base: string;
@@ -7876,10 +7880,13 @@ declare const fontSize: {
     '16': string;
     '18': string;
     '20': string;
+    '22': string;
     '24': string;
     '30': string;
     '36': string;
     '48': string;
+    '56': string;
+    '64': string;
 };
 declare const fontWeight: {
     light: string;
@@ -7889,6 +7896,7 @@ declare const fontWeight: {
     bold: string;
 };
 declare const lineHeight: {
+    none: string;
     tight: string;
     snug: string;
     base: string;
