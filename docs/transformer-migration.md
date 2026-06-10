@@ -1,5 +1,10 @@
 # Transformer migration (Style Dictionary) — design & plan
 
+> **[HISTORICAL]** Design record for the Style Dictionary migration (Phases 0–3,
+> shipped). Kept for decision context — not a roadmap. Current architecture:
+> [architecture.md](architecture.md).
+
+
 ## Why
 
 Today the multi-format outputs (`css/`, `scss/`, `less/`, `js/`, `ts/`, `json/`,

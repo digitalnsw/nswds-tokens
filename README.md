@@ -1,11 +1,13 @@
 # @nswds/tokens
 
-Colour tokens and related assets for the NSW Design System.
+Design tokens for the NSW Design System — colour, spacing, typography, radius,
+breakpoints, borders, and shadows — plus related brand assets.
 
-The published package currently ships:
+The published package ships:
 
 - the root JavaScript and CommonJS entrypoints at `@nswds/tokens`
-- raw colour token files under `css/`, `scss/`, `less/`, `js/`, `json/`, `tailwind/`, `tokens/`, `ts/`, and `figma/`
+- token files for every category under `css/`, `scss/`, `less/`, `js/`, `json/`,
+  `tailwind/`, `tokens/`, `ts/`, and `figma/`
 - Prism styles at `@nswds/tokens/prism.css`
 - brand assets under `@nswds/tokens/brand/*`
 
@@ -13,8 +15,12 @@ The published package currently ships:
 
 ## Features
 
-- Global, semantic, and themed NSW colour tokens
-- Published outputs for CSS, Sass/SCSS, Less, JavaScript, JSON, Tailwind, DTCG JSON, and Figma
+- Global, semantic, and themed NSW **colour** tokens (hex, rgb, hsl, and oklch outputs)
+- **Spacing** (4px-grid rem scale), **radius**, **breakpoints**, **border widths**,
+  **shadows** (elevation ramp + inset rings), and **typography** (font stacks, sizes,
+  weights, line-heights, tracking) — with semantic typography styles (`heading-1`…`code`)
+- DTCG 2025.10-compliant raw token JSON under `@nswds/tokens/tokens/*`
+- Tailwind CSS v4 `@theme` files for every category
 - Root JS API for consuming token collections directly
 - Prism stylesheet and brand asset files alongside the token exports
 
@@ -32,12 +38,9 @@ yarn add @nswds/tokens
 pnpm add @nswds/tokens
 ```
 
-If you are using this repo locally (e.g. via workspace):
-
-```bash
-npm install
-# or yarn / pnpm install
-```
+> **Tip:** prefer the subpath imports shown below over the root `@nswds/tokens` import in
+> browser apps. The root bundle embeds every generated stylesheet as text (~2 MB) — great
+> for tooling, wasteful in an app bundle. Subpath imports load only what you use.
 
 ---
 
@@ -51,6 +54,7 @@ Use the package export paths directly. Do not import from `dist/`.
 import { tokens } from '@nswds/tokens'
 
 console.log(tokens.colors.global.hex['nsw-blue'][500].$value)
+console.log(tokens.js.space.global) // { space: { 4: '1rem', ... } }
 ```
 
 ### 2. CSS custom properties
@@ -64,7 +68,50 @@ console.log(tokens.colors.global.hex['nsw-blue'][500].$value)
 }
 ```
 
-### 3. Prism CSS
+### 3. Spacing, radius, breakpoints, borders, and shadows
+
+Each category publishes per-format files named by layer:
+
+```css
+@import '@nswds/tokens/css/space/global.css'; /* --space-0 … --space-16        */
+@import '@nswds/tokens/css/radius/global.css'; /* --radius-none … --radius-pill */
+@import '@nswds/tokens/css/breakpoints/global.css'; /* --breakpoint-xs … -xl          */
+@import '@nswds/tokens/css/border/global.css'; /* --border-width-thin … -default */
+@import '@nswds/tokens/css/shadow/global.css'; /* --shadow-sm … --box-shadow-*   */
+
+.card {
+  padding: var(--space-6);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+}
+```
+
+The same values are available as SCSS/LESS variables and JS/JSON modules, e.g.
+`@nswds/tokens/js/radius/global.js` exports `radius = { none: '0px', sm: '4px', … }`.
+
+### 4. Typography
+
+```css
+@import '@nswds/tokens/css/typography/global.css'; /* primitives                     */
+@import '@nswds/tokens/css/typography/semantic.css'; /* heading-1…4, body, lead, code… */
+
+h1 {
+  font: var(--typography-heading-1);
+  letter-spacing: var(--typography-heading-1-letter-spacing);
+}
+```
+
+> **Letter-spacing is not part of the CSS `font` shorthand** — that's a CSS limitation,
+> not a token gap. Each semantic style also publishes per-property custom properties
+> (`--typography-body-font-size`, `--typography-body-line-height`, …) so nothing about
+> the composite is lost.
+
+> ⚠️ **Fonts are not bundled.** The typography tokens reference **Public Sans** and
+> **JetBrains Mono**, but this package does not ship the font files. Load them yourself
+> (webfont service or `@font-face`) or text falls back to the system stacks built into
+> the tokens.
+
+### 5. Prism CSS
 
 ```css
 @import '@nswds/tokens/prism.css';
@@ -76,7 +123,7 @@ Or via the full exported subpath:
 @import '@nswds/tokens/css/prism/prism.css';
 ```
 
-### 4. Sass / SCSS
+### 6. Sass / SCSS
 
 ```scss
 @use '@nswds/tokens/scss/colors/global/hex.scss' as *;
@@ -86,42 +133,57 @@ Or via the full exported subpath:
 }
 ```
 
-### 5. Raw JSON and design-token files
+### 7. Raw JSON and design-token (DTCG) files
 
 ```ts
 import { createRequire } from 'node:module'
 
 const require = createRequire(import.meta.url)
 const globalHex = require('@nswds/tokens/json/colors/global/hex.json')
-const rawHex = require('@nswds/tokens/tokens/global/color/hex.json')
-const masterbrandFigma = require('@nswds/tokens/figma/color/themes/masterbrand/color/hex.json')
+const rawCanonical = require('@nswds/tokens/tokens/global/color/canonical.json')
+const spaceTokens = require('@nswds/tokens/tokens/global/space/canonical.json')
 
 console.log(globalHex['nsw-blue'][500].$value)
-console.log(rawHex['nsw-blue'][500].$value)
-console.log(masterbrandFigma.primary[500].$value)
+console.log(spaceTokens.space['4'].$value) // { value: 1, unit: 'rem' }
 ```
 
-### 6. Tailwind CSS
+The files under `@nswds/tokens/tokens/*` follow the
+[DTCG 2025.10](https://www.designtokens.org/tr/2025.10/) format — `canonical.json` files
+are the source of truth; `hex/rgb/hsl/oklch.json` are derived colour views.
+
+### 8. Tailwind CSS
 
 > **Requires Tailwind CSS v4.0 or later.** The Tailwind outputs use the CSS-first
 > [`@theme`](https://tailwindcss.com/docs/theme) at-rule, which does not exist in v3.
 
-The Tailwind files map Tailwind's `--color-*` theme variables onto the NSW custom
-properties (e.g. `--color-nsw-blue-500: var(--nsw-blue-500)`). Because they reference
-`var(--nsw-*)`, you **must also import the matching CSS variables file** so the values
-resolve:
+Every category publishes a Tailwind `@theme` file. Colour files map onto `--color-*` and
+reference the CSS variables file (import both); non-colour categories carry direct values
+(one import each):
+
+| Import                                       | Namespace                                                                | Utilities unlocked                                            |
+| -------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| `tailwind/colors/global/hex.css` (+ css/...) | `--color-nsw-*`                                                          | `bg-nsw-blue-500`, `text-nsw-grey-50`, …                      |
+| `tailwind/space/global.css`                  | `--spacing-*`                                                            | `p-4`, `gap-6`, `m-12`, …                                     |
+| `tailwind/radius/global.css`                 | `--radius-*`                                                             | `rounded-md`, `rounded-pill`, …                               |
+| `tailwind/breakpoints/global.css`            | `--breakpoint-*`                                                         | `md:flex`, `xl:grid`, …                                       |
+| `tailwind/typography/global.css`             | `--font-*`, `--text-*`, `--font-weight-*`, `--leading-*`, `--tracking-*` | `font-sans`, `text-16`, `leading-base`, …                     |
+| `tailwind/shadow/global.css`                 | `--shadow-*`, `--inset-shadow-*`                                         | `shadow-md`, `inset-shadow-thin`, …                           |
+| `tailwind/border/global.css`                 | `--border-width-*` (plain vars; no native namespace)                     | arbitrary values: `border-[length:var(--border-width-thick)]` |
 
 ```css
 @import 'tailwindcss';
 
-/* 1. The token values, as CSS custom properties */
+/* Colours need both files (the @theme mapping references the CSS variables) */
 @import '@nswds/tokens/css/colors/global/hex.css';
-/* 2. The Tailwind @theme mapping that exposes `bg-nsw-*`, `text-nsw-*`, etc. */
 @import '@nswds/tokens/tailwind/colors/global/hex.css';
+
+/* Non-colour categories are single imports */
+@import '@nswds/tokens/tailwind/space/global.css';
+@import '@nswds/tokens/tailwind/typography/global.css';
 ```
 
 ```html
-<button class="bg-nsw-blue-500 text-nsw-grey-50">Save</button>
+<button class="bg-nsw-blue-500 text-nsw-grey-50 rounded-md p-4 font-sans">Save</button>
 ```
 
 ---
@@ -143,6 +205,10 @@ The package exports these public subpath families:
 - `@nswds/tokens/ts/*`
 - `@nswds/tokens/prism.css`
 
+> `@nswds/tokens/ts/*` ships raw TypeScript source. It type-checks in TypeScript projects
+> but only runs through a bundler that transpiles `node_modules` — for plain Node or
+> typical apps, prefer `js/*` or the root import.
+
 ---
 
 ## Theming
@@ -162,14 +228,19 @@ npm install
 
 Use Node.js `^20.19.0` or `>=22.12.0` for local development. This repo now runs `vitest@4` for `npm run test:tokens`, and that toolchain requires at least Node `20.19.0` on the Node 20 release line.
 
-Build:
+Build and verify:
 
 ```bash
 npm run build
-npm run smoke:package-surface
+npm run validate:tokens
+npm run typecheck
 npm run test:tokens
 npm run lint
+npm run smoke:package-surface
 ```
+
+See [`docs/architecture.md`](./docs/architecture.md) for how tokens flow from source to
+published outputs, and [`CONTRIBUTING.md`](./CONTRIBUTING.md) for conventions.
 
 ---
 
@@ -177,8 +248,9 @@ npm run lint
 
 Semantic versioning:
 
-- **Major** for breaking changes.
-- **Minor** for additive changes.
+- **Major** for breaking changes (including raw token JSON shape changes — see
+  [`MIGRATION.md`](./MIGRATION.md)).
+- **Minor** for additive changes (new tokens, categories, or outputs).
 - **Patch** for fixes.
 
 ---
@@ -195,4 +267,4 @@ Semantic versioning:
 
 ## License
 
-MIT License. See [`LICENSE`](./LICENSE).
+Mozilla Public License 2.0. See [`LICENSE`](./LICENSE).
