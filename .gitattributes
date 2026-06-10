@@ -1,2 +1,19 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Generated artifacts — collapsed in PR diffs and excluded from language stats.
+# Sources of truth are tokens/**/canonical.json, scripts/, build/, and src/brand/.
+dist/** linguist-generated=true
+src/index.ts linguist-generated=true
+src/css/** linguist-generated=true
+src/scss/** linguist-generated=true
+src/less/** linguist-generated=true
+src/js/** linguist-generated=true
+src/ts/** linguist-generated=true
+src/json/** linguist-generated=true
+src/figma/** linguist-generated=true
+src/tailwind/** linguist-generated=true
+tokens/**/hex.json linguist-generated=true
+tokens/**/rgb.json linguist-generated=true
+tokens/**/hsl.json linguist-generated=true
+tokens/**/oklch.json linguist-generated=true
