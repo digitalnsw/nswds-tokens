@@ -59,9 +59,10 @@ Theme layer: out of scope (nothing varies by theme today); the structure permits
 
 Carried in each milestone PR for amendment; shown here so design can preview direction.
 
-- **space** (4px grid, rem): `0:0 · 1:0.25 · 2:0.5 · 3:0.75 · 4:1 · 5:1.25 · 6:1.5 · 8:2 · 10:2.5 · 12:3`
-  — steps 7/9/11 are deliberately omitted (sparse scale, Tailwind-style); design can add
-  intermediates in the 4a review if needed.
+- **space** (4px grid, rem): `0:0 · 1:0.25 · 2:0.5 · 3:0.75 · 4:1 · 5:1.25 · 6:1.5 · 8:2 · 10:2.5 · 12:3 · 14:3.5 · 16:4`
+  — odd steps above 6 are deliberately omitted (sparse scale, Tailwind-style; 8px
+  increments past 3rem/48px per design review on the 4a PR); design can add
+  intermediates in review if needed.
 - **radius** (px): `none:0 · sm:4 · md:8 · lg:16 · pill:9999`
 - **breakpoints** (px): `xs:480 · sm:768 · md:992 · lg:1200 · xl:1600`
 - **font-size** (rem) and **weights/line-heights**: proposed in the 4b PR.

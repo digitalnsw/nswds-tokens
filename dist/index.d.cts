@@ -3745,6 +3745,8 @@ declare const space$1: {
     8: string;
     10: string;
     12: string;
+    14: string;
+    16: string;
 };
 
 declare namespace spaceJsGlobal {
@@ -7773,6 +7775,8 @@ declare const space: {
     '8': string;
     '10': string;
     '12': string;
+    '14': string;
+    '16': string;
 };
 
 declare const spaceTsGlobal_space: typeof space;

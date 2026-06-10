@@ -38961,7 +38961,9 @@ var require_global = __commonJS({
         "space-6": "1.5rem",
         "space-8": "2rem",
         "space-10": "2.5rem",
-        "space-12": "3rem"
+        "space-12": "3rem",
+        "space-14": "3.5rem",
+        "space-16": "4rem"
       }
     };
   }
@@ -39170,7 +39172,7 @@ var global_exports = {};
 __export(global_exports, {
   default: () => global_default
 });
-var global_default = ":root {\n  --space-0: 0rem; /** Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps. */\n  --space-1: 0.25rem; /** Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps. */\n  --space-2: 0.5rem; /** Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps. */\n  --space-3: 0.75rem; /** Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps. */\n  --space-4: 1rem; /** Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps. */\n  --space-5: 1.25rem; /** Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps. */\n  --space-6: 1.5rem; /** Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps. */\n  --space-8: 2rem; /** Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps. */\n  --space-10: 2.5rem; /** Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps. */\n  --space-12: 3rem; /** Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps. */\n}\n";
+var global_default = ":root {\n  --space-0: 0rem; /** Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps. */\n  --space-1: 0.25rem; /** Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps. */\n  --space-2: 0.5rem; /** Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps. */\n  --space-3: 0.75rem; /** Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps. */\n  --space-4: 1rem; /** Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps. */\n  --space-5: 1.25rem; /** Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps. */\n  --space-6: 1.5rem; /** Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps. */\n  --space-8: 2rem; /** Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps. */\n  --space-10: 2.5rem; /** Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps. */\n  --space-12: 3rem; /** Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps. */\n  --space-14: 3.5rem; /** Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps. */\n  --space-16: 4rem; /** Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps. */\n}\n";
 
 // src/css/radius/global.css
 var global_exports2 = {};
@@ -42993,7 +42995,9 @@ var space = {
   6: "1.5rem",
   8: "2rem",
   10: "2.5rem",
-  12: "3rem"
+  12: "3rem",
+  14: "3.5rem",
+  16: "4rem"
 };
 
 // src/js/radius/global.js
@@ -43195,7 +43199,7 @@ var global_exports7 = {};
 __export(global_exports7, {
   default: () => global_default4
 });
-var global_default4 = "@space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n@space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n@space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n@space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n@space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n@space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n@space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n@space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n@space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n@space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n";
+var global_default4 = "@space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n@space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n@space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n@space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n@space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n@space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n@space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n@space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n@space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n@space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n@space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n@space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
 
 // src/less/radius/global.less
 var global_exports8 = {};
@@ -43384,7 +43388,7 @@ var global_exports10 = {};
 __export(global_exports10, {
   default: () => global_default7
 });
-var global_default7 = "$space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n$space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n$space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n$space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n$space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n$space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n$space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n$space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n$space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n$space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n";
+var global_default7 = "$space-0: 0rem; // Spacing step 0 on the 4px grid (0px at the default root font size). Use for padding, margins, and gaps.\n$space-1: 0.25rem; // Spacing step 1 on the 4px grid (4px at the default root font size). Use for padding, margins, and gaps.\n$space-2: 0.5rem; // Spacing step 2 on the 4px grid (8px at the default root font size). Use for padding, margins, and gaps.\n$space-3: 0.75rem; // Spacing step 3 on the 4px grid (12px at the default root font size). Use for padding, margins, and gaps.\n$space-4: 1rem; // Spacing step 4 on the 4px grid (16px at the default root font size). Use for padding, margins, and gaps.\n$space-5: 1.25rem; // Spacing step 5 on the 4px grid (20px at the default root font size). Use for padding, margins, and gaps.\n$space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root font size). Use for padding, margins, and gaps.\n$space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.\n$space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.\n$space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.\n$space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.\n$space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.\n";
 
 // src/scss/radius/global.scss
 var global_exports11 = {};
@@ -43573,7 +43577,7 @@ var global_exports13 = {};
 __export(global_exports13, {
   default: () => global_default10
 });
-var global_default10 = "@theme {\n  --spacing-0: 0rem;\n  --spacing-1: 0.25rem;\n  --spacing-2: 0.5rem;\n  --spacing-3: 0.75rem;\n  --spacing-4: 1rem;\n  --spacing-5: 1.25rem;\n  --spacing-6: 1.5rem;\n  --spacing-8: 2rem;\n  --spacing-10: 2.5rem;\n  --spacing-12: 3rem;\n}\n";
+var global_default10 = "@theme {\n  --spacing-0: 0rem;\n  --spacing-1: 0.25rem;\n  --spacing-2: 0.5rem;\n  --spacing-3: 0.75rem;\n  --spacing-4: 1rem;\n  --spacing-5: 1.25rem;\n  --spacing-6: 1.5rem;\n  --spacing-8: 2rem;\n  --spacing-10: 2.5rem;\n  --spacing-12: 3rem;\n  --spacing-14: 3.5rem;\n  --spacing-16: 4rem;\n}\n";
 
 // src/tailwind/radius/global.css
 var global_exports14 = {};
@@ -47396,7 +47400,9 @@ var space2 = {
   "6": "1.5rem",
   "8": "2rem",
   "10": "2.5rem",
-  "12": "3rem"
+  "12": "3rem",
+  "14": "3.5rem",
+  "16": "4rem"
 };
 
 // src/ts/radius/global.ts

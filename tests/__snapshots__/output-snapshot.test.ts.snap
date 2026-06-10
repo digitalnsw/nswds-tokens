@@ -4081,6 +4081,8 @@ exports[`built output snapshots > dist/css/space/global.css 1`] = `
   --space-8: 2rem; /** Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps. */
   --space-10: 2.5rem; /** Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps. */
   --space-12: 3rem; /** Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps. */
+  --space-14: 3.5rem; /** Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps. */
+  --space-16: 4rem; /** Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps. */
 }
 "
 `;
@@ -32840,6 +32842,8 @@ exports[`built output snapshots > dist/js/space/global.js 1`] = `
   8: '2rem',
   10: '2.5rem',
   12: '3rem',
+  14: '3.5rem',
+  16: '4rem',
 }
 "
 `;
@@ -36534,7 +36538,9 @@ exports[`built output snapshots > dist/json/space/global.json 1`] = `
     "space-6": "1.5rem",
     "space-8": "2rem",
     "space-10": "2.5rem",
-    "space-12": "3rem"
+    "space-12": "3rem",
+    "space-14": "3.5rem",
+    "space-16": "4rem"
   }
 }
 "
@@ -39845,6 +39851,8 @@ exports[`built output snapshots > dist/less/space/global.less 1`] = `
 @space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.
 @space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.
 @space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.
+@space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.
+@space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.
 "
 `;
 
@@ -43153,6 +43161,8 @@ $space-6: 1.5rem; // Spacing step 6 on the 4px grid (24px at the default root fo
 $space-8: 2rem; // Spacing step 8 on the 4px grid (32px at the default root font size). Use for padding, margins, and gaps.
 $space-10: 2.5rem; // Spacing step 10 on the 4px grid (40px at the default root font size). Use for padding, margins, and gaps.
 $space-12: 3rem; // Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.
+$space-14: 3.5rem; // Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.
+$space-16: 4rem; // Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.
 "
 `;
 
@@ -49586,6 +49596,8 @@ exports[`built output snapshots > dist/tailwind/space/global.css 1`] = `
   --spacing-8: 2rem;
   --spacing-10: 2.5rem;
   --spacing-12: 3rem;
+  --spacing-14: 3.5rem;
+  --spacing-16: 4rem;
 }
 "
 `;
@@ -69178,6 +69190,22 @@ exports[`built output snapshots > dist/tokens/global/space/canonical.json 1`] = 
         "value": 3,
         "unit": "rem"
       }
+    },
+    "14": {
+      "$type": "dimension",
+      "$description": "Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3.5,
+        "unit": "rem"
+      }
+    },
+    "16": {
+      "$type": "dimension",
+      "$description": "Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 4,
+        "unit": "rem"
+      }
     }
   }
 }
@@ -83730,6 +83758,22 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
       "$description": "Spacing step 12 on the 4px grid (48px at the default root font size). Use for padding, margins, and gaps.",
       "$value": {
         "value": 3,
+        "unit": "rem"
+      }
+    },
+    "14": {
+      "$type": "dimension",
+      "$description": "Spacing step 14 on the 4px grid (56px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 3.5,
+        "unit": "rem"
+      }
+    },
+    "16": {
+      "$type": "dimension",
+      "$description": "Spacing step 16 on the 4px grid (64px at the default root font size). Use for padding, margins, and gaps.",
+      "$value": {
+        "value": 4,
         "unit": "rem"
       }
     }
@@ -108354,6 +108398,8 @@ exports[`built output snapshots > dist/ts/space/global.ts 1`] = `
   '8': '2rem',
   '10': '2.5rem',
   '12': '3rem',
+  '14': '3.5rem',
+  '16': '4rem',
 }
 "
 `;
