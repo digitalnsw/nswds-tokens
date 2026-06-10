@@ -20,7 +20,12 @@ for (const directory of SOURCE_DIRS) {
 }
 
 rmSync(distTokensDir, { recursive: true, force: true })
-cpSync(tokensDir, distTokensDir, { recursive: true, force: true })
+cpSync(tokensDir, distTokensDir, {
+  recursive: true,
+  force: true,
+  // Ship token data only — not contributor docs or macOS noise.
+  filter: (source) => !source.endsWith('README.md') && !source.endsWith('.DS_Store'),
+})
 
 const readJson = (path) => JSON.parse(readFileSync(path, 'utf8'))
 

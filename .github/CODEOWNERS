@@ -1,0 +1,11 @@
+# Default owners for everything in the repo. Adjust to a GitHub team
+# (e.g. @digitalnsw/design-system) once one exists for this package.
+* @laurenhitchon
+
+# Token source and the build pipeline are the riskiest surfaces — keep
+# explicit ownership even if the default above changes.
+/tokens/ @laurenhitchon
+/build/ @laurenhitchon
+/scripts/ @laurenhitchon
+/release.config.mjs @laurenhitchon
+/.github/workflows/ @laurenhitchon
