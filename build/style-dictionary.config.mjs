@@ -143,9 +143,14 @@ const CATEGORIES = [
   { key: 'border', tailwindNamespace: 'border-width' },
   {
     key: 'shadow',
-    // The current box-shadow tokens are inset rings — Tailwind v4's inset-shadow-*
-    // namespace generates the matching utilities.
-    tailwindNamespace: 'inset-shadow',
+    // Per-family namespaces: the box-shadow rings map to Tailwind v4's native
+    // inset-shadow-* utilities, the drop-shadow ramp to shadow-*, and the translucent
+    // shadow-colour primitives emit as plain @theme vars.
+    tailwindNamespaces: {
+      'box-shadow': 'inset-shadow',
+      shadow: 'shadow',
+      'shadow-color': 'shadow-color',
+    },
     // spread aliases {border-width.*} (first cross-category alias) — load the border
     // canonical so SD can resolve it; the filter keeps border tokens out of these files.
     extraSources: ['tokens/global/border/canonical.json'],
@@ -204,6 +209,7 @@ const makeCategoryConfig = (category) => {
     transforms: [
       'name/kebab',
       'nsw/shadow',
+      'nsw/color-string',
       'nsw/dimension',
       'nsw/font-family',
       'nsw/letter-spacing-em',
@@ -227,6 +233,7 @@ const makeCategoryConfig = (category) => {
         'nsw/font-family': fontFamilyTransform,
         'nsw/letter-spacing-em': letterSpacingEmTransform,
         'nsw/shadow': shadowTransform,
+        'nsw/color-string': colorStringTransform,
       },
     },
     platforms: {

@@ -60,5 +60,227 @@
         "spread": "{border-width.thicker}"
       }
     }
+  },
+  "shadow-color": {
+    "5": {
+      "$type": "color",
+      "$description": "Shadow black at 5% alpha — the faintest elevation tint. Step name is the alpha percentage.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.05,
+        "hex": "#000000"
+      }
+    },
+    "10": {
+      "$type": "color",
+      "$description": "Shadow black at 10% alpha — the standard elevation tint. Step name is the alpha percentage.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.1,
+        "hex": "#000000"
+      }
+    },
+    "25": {
+      "$type": "color",
+      "$description": "Shadow black at 25% alpha — strong elevation for overlays/modals. Step name is the alpha percentage.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0,
+          0
+        ],
+        "alpha": 0.25,
+        "hex": "#000000"
+      }
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$type": "shadow",
+      "$description": "Small elevation — cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 3,
+            "unit": "px"
+          },
+          "spread": {
+            "value": 0,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 1,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 2,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -1,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
+    },
+    "md": {
+      "$type": "shadow",
+      "$description": "Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 6,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -1,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -2,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
+    },
+    "lg": {
+      "$type": "shadow",
+      "$description": "Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 10,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 15,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -3,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 4,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 6,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -4,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
+    },
+    "xl": {
+      "$type": "shadow",
+      "$description": "Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review.",
+      "$value": [
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 20,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 25,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -5,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        },
+        {
+          "offsetX": {
+            "value": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "value": 8,
+            "unit": "px"
+          },
+          "blur": {
+            "value": 10,
+            "unit": "px"
+          },
+          "spread": {
+            "value": -6,
+            "unit": "px"
+          },
+          "color": "{shadow-color.10}"
+        }
+      ]
+    }
   }
 }

@@ -275,6 +275,7 @@ const checkShadowComposite = (label, path, leaf) => {
       if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
       checkDimensionShape(label, tokenPath, leaf)
       checkTypographyShapes(label, tokenPath, leaf)
+      if (leaf.$type === 'color') checkColorShape(label, tokenPath, leaf)
       pendingCompositeAliases.push(...checkTypographyComposite(label, tokenPath, leaf))
       pendingCompositeAliases.push(...checkShadowComposite(label, tokenPath, leaf))
 

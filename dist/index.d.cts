@@ -3965,9 +3965,20 @@ declare namespace boxShadow$1 {
     let thick: string;
     let thicker: string;
 }
+declare const shadowColor$1: {
+    5: string;
+    10: string;
+    25: string;
+};
+declare namespace shadow$1 {
+    let sm: string;
+    let md: string;
+    let lg: string;
+    let xl: string;
+}
 
 declare namespace shadowJsGlobal {
-  export { boxShadow$1 as boxShadow };
+  export { boxShadow$1 as boxShadow, shadow$1 as shadow, shadowColor$1 as shadowColor };
 }
 
 declare namespace globalLessHex {
@@ -8192,10 +8203,23 @@ declare const boxShadow: {
     thick: string;
     thicker: string;
 };
+declare const shadowColor: {
+    '5': string;
+    '10': string;
+    '25': string;
+};
+declare const shadow: {
+    sm: string;
+    md: string;
+    lg: string;
+    xl: string;
+};
 
 declare const shadowTsGlobal_boxShadow: typeof boxShadow;
+declare const shadowTsGlobal_shadow: typeof shadow;
+declare const shadowTsGlobal_shadowColor: typeof shadowColor;
 declare namespace shadowTsGlobal {
-  export { shadowTsGlobal_boxShadow as boxShadow };
+  export { shadowTsGlobal_boxShadow as boxShadow, shadowTsGlobal_shadow as shadow, shadowTsGlobal_shadowColor as shadowColor };
 }
 
 declare const tokens: {

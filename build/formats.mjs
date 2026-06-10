@@ -13,9 +13,14 @@ const toCamel = (s) => s.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase())
 const noneToZero = (x) => (x === 'none' ? 0 : x)
 export const colorFunction = (colorSpace, value) => {
   const c = value.components
+  // Translucent colours (shadow-color primitives) use the modern slash syntax; fully
+  // opaque colours keep the legacy comma syntax so existing outputs stay byte-identical.
+  const alpha = value.alpha ?? 1
   switch (colorSpace) {
     case 'srgb':
-      return `rgb(${c.map((x) => Math.round(x * 255)).join(', ')})`
+      return alpha !== 1
+        ? `rgb(${c.map((x) => Math.round(x * 255)).join(' ')} / ${alpha})`
+        : `rgb(${c.map((x) => Math.round(x * 255)).join(', ')})`
     case 'hsl':
       return `hsl(${noneToZero(c[0])}, ${c[1]}%, ${c[2]}%)`
     case 'oklch':
@@ -48,13 +53,19 @@ export const shadowString = (value) => {
   const layers = Array.isArray(value) ? value : [value]
   return layers
     .map((layer) => {
+      // colour may arrive as an already-transformed CSS string or (depending on
+      // transform ordering) as the resolved DTCG colour object — handle both.
+      const colorString =
+        layer.color && typeof layer.color === 'object'
+          ? colorFunction(layer.color.colorSpace, layer.color)
+          : layer.color
       const parts = [
         ...(layer.inset ? ['inset'] : []),
         shadowLength(layer.offsetX),
         shadowLength(layer.offsetY),
         shadowLength(layer.blur),
         shadowLength(layer.spread),
-        ...(layer.color ? [layer.color] : []),
+        ...(colorString ? [colorString] : []),
       ]
       return parts.join(' ')
     })

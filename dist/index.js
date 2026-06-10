@@ -39139,6 +39139,17 @@ var require_global6 = __commonJS({
         "box-shadow-thin": "inset 0 0 0 0.0625rem",
         "box-shadow-thick": "inset 0 0 0 0.125rem",
         "box-shadow-thicker": "inset 0 0 0 0.25rem"
+      },
+      "shadow-color": {
+        "shadow-color-5": "rgb(0 0 0 / 0.05)",
+        "shadow-color-10": "rgb(0 0 0 / 0.1)",
+        "shadow-color-25": "rgb(0 0 0 / 0.25)"
+      },
+      shadow: {
+        "shadow-sm": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+        "shadow-md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "shadow-lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "shadow-xl": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
       }
     };
   }
@@ -39359,7 +39370,7 @@ var global_exports6 = {};
 __export(global_exports6, {
   default: () => global_default6
 });
-var global_default6 = ":root {\n  --box-shadow-thin: inset 0 0 0 0.0625rem; /** Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor. */\n  --box-shadow-thick: inset 0 0 0 0.125rem; /** Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor. */\n  --box-shadow-thicker: inset 0 0 0 0.25rem; /** Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor. */\n}\n";
+var global_default6 = ":root {\n  --box-shadow-thin: inset 0 0 0 0.0625rem; /** Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor. */\n  --box-shadow-thick: inset 0 0 0 0.125rem; /** Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor. */\n  --box-shadow-thicker: inset 0 0 0 0.25rem; /** Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor. */\n  --shadow-color-5: rgb(0 0 0 / 0.05); /** Shadow black at 5% alpha \u2014 the faintest elevation tint. Step name is the alpha percentage. */\n  --shadow-color-10: rgb(0 0 0 / 0.1); /** Shadow black at 10% alpha \u2014 the standard elevation tint. Step name is the alpha percentage. */\n  --shadow-color-25: rgb(0 0 0 / 0.25); /** Shadow black at 25% alpha \u2014 strong elevation for overlays/modals. Step name is the alpha percentage. */\n  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); /** Small elevation \u2014 cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review. */\n  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); /** Medium elevation \u2014 dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review. */\n  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); /** Large elevation \u2014 dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review. */\n  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); /** Extra-large elevation \u2014 modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review. */\n}\n";
 
 // src/js/colors/global/hex.js
 var hex_exports7 = {};
@@ -43342,12 +43353,25 @@ var borderWidth = {
 // src/js/shadow/global.js
 var global_exports12 = {};
 __export(global_exports12, {
-  boxShadow: () => boxShadow
+  boxShadow: () => boxShadow,
+  shadow: () => shadow,
+  shadowColor: () => shadowColor
 });
 var boxShadow = {
   thin: "inset 0 0 0 0.0625rem",
   thick: "inset 0 0 0 0.125rem",
   thicker: "inset 0 0 0 0.25rem"
+};
+var shadowColor = {
+  5: "rgb(0 0 0 / 0.05)",
+  10: "rgb(0 0 0 / 0.1)",
+  25: "rgb(0 0 0 / 0.25)"
+};
+var shadow = {
+  sm: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+  md: "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+  lg: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+  xl: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
 };
 
 // src/less/colors/global/hex.less
@@ -43565,7 +43589,7 @@ var global_exports18 = {};
 __export(global_exports18, {
   default: () => global_default12
 });
-var global_default12 = "@box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor.\n@box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor.\n@box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor.\n";
+var global_default12 = "@box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor.\n@box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor.\n@box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor.\n@shadow-color-5: rgb(0 0 0 / 0.05); // Shadow black at 5% alpha \u2014 the faintest elevation tint. Step name is the alpha percentage.\n@shadow-color-10: rgb(0 0 0 / 0.1); // Shadow black at 10% alpha \u2014 the standard elevation tint. Step name is the alpha percentage.\n@shadow-color-25: rgb(0 0 0 / 0.25); // Shadow black at 25% alpha \u2014 strong elevation for overlays/modals. Step name is the alpha percentage.\n@shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); // Small elevation \u2014 cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review.\n@shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); // Medium elevation \u2014 dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review.\n@shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); // Large elevation \u2014 dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review.\n@shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); // Extra-large elevation \u2014 modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review.\n";
 
 // src/scss/colors/global/hex.scss
 var hex_exports19 = {};
@@ -43782,7 +43806,7 @@ var global_exports24 = {};
 __export(global_exports24, {
   default: () => global_default18
 });
-var global_default18 = "$box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor.\n$box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor.\n$box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor.\n";
+var global_default18 = "$box-shadow-thin: inset 0 0 0 0.0625rem; // Thin inset ring (inset 0 0 0 border-width.thin) \u2014 border-via-shadow that does not affect layout; renders with currentColor.\n$box-shadow-thick: inset 0 0 0 0.125rem; // Thick inset ring (inset 0 0 0 border-width.thick) \u2014 emphasis/selected outline; renders with currentColor.\n$box-shadow-thicker: inset 0 0 0 0.25rem; // Thicker inset ring (inset 0 0 0 border-width.thicker) \u2014 focus indication; renders with currentColor.\n$shadow-color-5: rgb(0 0 0 / 0.05); // Shadow black at 5% alpha \u2014 the faintest elevation tint. Step name is the alpha percentage.\n$shadow-color-10: rgb(0 0 0 / 0.1); // Shadow black at 10% alpha \u2014 the standard elevation tint. Step name is the alpha percentage.\n$shadow-color-25: rgb(0 0 0 / 0.25); // Shadow black at 25% alpha \u2014 strong elevation for overlays/modals. Step name is the alpha percentage.\n$shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1); // Small elevation \u2014 cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review.\n$shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); // Medium elevation \u2014 dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review.\n$shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); // Large elevation \u2014 dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review.\n$shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); // Extra-large elevation \u2014 modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review.\n";
 
 // src/tailwind/colors/global/hex.css
 var hex_exports25 = {};
@@ -43992,7 +44016,7 @@ var global_exports30 = {};
 __export(global_exports30, {
   default: () => global_default24
 });
-var global_default24 = "@theme {\n  --inset-shadow-thin: inset 0 0 0 0.0625rem;\n  --inset-shadow-thick: inset 0 0 0 0.125rem;\n  --inset-shadow-thicker: inset 0 0 0 0.25rem;\n}\n";
+var global_default24 = "@theme {\n  --inset-shadow-thin: inset 0 0 0 0.0625rem;\n  --inset-shadow-thick: inset 0 0 0 0.125rem;\n  --inset-shadow-thicker: inset 0 0 0 0.25rem;\n  --shadow-color-5: rgb(0 0 0 / 0.05);\n  --shadow-color-10: rgb(0 0 0 / 0.1);\n  --shadow-color-25: rgb(0 0 0 / 0.25);\n  --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);\n  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);\n  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);\n  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);\n}\n";
 
 // src/ts/colors/global/hex.ts
 var hex_exports31 = {};
@@ -47975,12 +47999,25 @@ var borderWidth2 = {
 // src/ts/shadow/global.ts
 var global_exports36 = {};
 __export(global_exports36, {
-  boxShadow: () => boxShadow2
+  boxShadow: () => boxShadow2,
+  shadow: () => shadow2,
+  shadowColor: () => shadowColor2
 });
 var boxShadow2 = {
   thin: "inset 0 0 0 0.0625rem",
   thick: "inset 0 0 0 0.125rem",
   thicker: "inset 0 0 0 0.25rem"
+};
+var shadowColor2 = {
+  "5": "rgb(0 0 0 / 0.05)",
+  "10": "rgb(0 0 0 / 0.1)",
+  "25": "rgb(0 0 0 / 0.25)"
+};
+var shadow2 = {
+  sm: "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+  md: "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+  lg: "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+  xl: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
 };
 
 // src/index.ts
