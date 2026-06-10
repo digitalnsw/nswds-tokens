@@ -187,13 +187,21 @@ function variableValueFromToken(
   } else {
     if (typeof token.$value === 'object') {
       // An object $value that reaches this branch must not be forwarded to Figma as-is —
-      // fail loudly, with a message matching the token's $type: a colour object that
-      // failed isDtcgColor (wrong colorSpace, malformed components) vs a non-colour
-      // token that should only ever hold a primitive.
+      // fail loudly, with a message matching the token's $type: colour/dimension objects
+      // that failed their shape guards (wrong colorSpace, invalid unit) get shape-specific
+      // messages; other token types should only ever hold a primitive.
+      if (token.$type === 'color') {
+        throw new Error(
+          `Invalid color token $value (expected an srgb DTCG object, a hex string, or an alias): ${JSON.stringify(token.$value)}`,
+        )
+      }
+      if (token.$type === 'dimension') {
+        throw new Error(
+          `Invalid dimension token $value (expected { value: number, unit: "px" | "rem" } or an alias): ${JSON.stringify(token.$value)}`,
+        )
+      }
       throw new Error(
-        token.$type === 'color'
-          ? `Invalid color token $value (expected an srgb DTCG object, a hex string, or an alias): ${JSON.stringify(token.$value)}`
-          : `Invalid ${token.$type} token $value (expected a primitive value, got an object): ${JSON.stringify(token.$value)}`,
+        `Invalid ${token.$type} token $value (expected a primitive value, got an object): ${JSON.stringify(token.$value)}`,
       )
     }
     return token.$value

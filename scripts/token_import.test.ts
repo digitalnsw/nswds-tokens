@@ -985,6 +985,32 @@ describe('generatePostVariablesPayload', () => {
     }).toThrowError('Invalid number token $value (expected a primitive value, got an object)')
   })
 
+  it('throws a shape-specific error for malformed dimension $values', async () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {},
+        variables: {},
+      },
+    }
+
+    const tokensByFile = {
+      'space.base.json': {
+        'space/oops': {
+          $type: 'dimension',
+          $value: { value: 8, unit: 'em' }, // em is not a DTCG dimension unit
+        },
+      },
+    } as unknown as FlattenedTokensByFile
+
+    expect(() => {
+      generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+    }).toThrowError(
+      'Invalid dimension token $value (expected { value: number, unit: "px" | "rem" }',
+    )
+  })
+
   it('maps dimension tokens to FLOAT variables (rem converted at 16px)', async () => {
     const localVariablesResponse: GetLocalVariablesResponse = {
       status: 200,

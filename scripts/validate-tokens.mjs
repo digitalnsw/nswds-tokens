@@ -74,6 +74,33 @@ const filesForSpace = (space) => {
 const aliasTarget = (leaf) =>
   typeof leaf.$value === 'string' ? (leaf.$value.match(ALIAS_PATTERN)?.[1] ?? null) : null
 
+// Walk every alias chain in a namespace: errors on dangling references and cycles.
+// Shared by the colour-space and category validations so both get identical guarantees.
+const checkAliasChains = (allLeaves, leafByPath) => {
+  const resolveAlias = (startPath, startLeaf) => {
+    const seen = new Set()
+    let path = startPath
+    let leaf = startLeaf
+    while (true) {
+      const target = aliasTarget(leaf)
+      if (!target) return // resolved to a concrete value
+      if (seen.has(path)) {
+        errors.push(`alias cycle detected at "${path}"`)
+        return
+      }
+      seen.add(path)
+      const next = leafByPath[target]
+      if (!next) {
+        errors.push(`unresolved alias "{${target}}" referenced by "${path}"`)
+        return
+      }
+      path = target
+      leaf = next
+    }
+  }
+  for (const { path, leaf } of allLeaves) resolveAlias(path, leaf)
+}
+
 // DTCG 2025.10 Color-module conformance (warnings).
 const checkColorShape = (label, path, leaf) => {
   const v = leaf.$value
@@ -153,12 +180,9 @@ const checkDimensionShape = (label, path, leaf) => {
     }
   }
 
-  // Alias resolution within the category namespace (semantic categories will alias global).
-  for (const { path, leaf } of allLeaves) {
-    const target = aliasTarget(leaf)
-    if (target && !leafByPath[target])
-      errors.push(`unresolved alias "{${target}}" referenced by "${path}"`)
-  }
+  // Alias resolution within the category namespace (semantic categories will alias global)
+  // — full chain walk with cycle detection, same guarantees as the colour spaces.
+  checkAliasChains(allLeaves, leafByPath)
 }
 
 for (const space of SPACES) {
@@ -196,31 +220,8 @@ for (const space of SPACES) {
     }
   }
 
-  // reference resolution + cycle detection
-  const resolveAlias = (startPath, startLeaf) => {
-    const seen = new Set()
-    let path = startPath
-    let leaf = startLeaf
-    while (true) {
-      const target = aliasTarget(leaf)
-      if (!target) return // resolved to a concrete value
-      if (seen.has(path)) {
-        errors.push(`alias cycle detected at "${path}"`)
-        return
-      }
-      seen.add(path)
-      const next = leafByPath[target] // O(1) lookup instead of scanning allLeaves
-      if (!next) {
-        errors.push(`unresolved alias "{${target}}" referenced by "${path}"`)
-        return
-      }
-      // follow the chain to the resolved target leaf
-      path = target
-      leaf = next
-    }
-  }
-
-  for (const { path, leaf } of allLeaves) resolveAlias(path, leaf)
+  // reference resolution + cycle detection (shared helper)
+  checkAliasChains(allLeaves, leafByPath)
 }
 
 const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`
