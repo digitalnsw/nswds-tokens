@@ -1,6 +1,7 @@
 {
-  // Typecheck-only project (npm run typecheck / CI). The base tsconfig.json only
-  // includes src/** for the tsup bundle, so the TypeScript that actually carries
+  // Typecheck-only project (npm run typecheck / CI). The base tsconfig.json is
+  // scoped to src/**/* for the tsup bundle (its legacy test/**/* glob matches
+  // nothing — the directory is tests/), so the TypeScript that actually carries
   // logic — the Figma sync + colour utilities under scripts/ — was never checked;
   // a Token.$value type hole previously reached main unnoticed because of that.
   // src/index.ts is generated and bundled by tsup (whose loaders resolve the .css

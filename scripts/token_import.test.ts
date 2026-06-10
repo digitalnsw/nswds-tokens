@@ -961,6 +961,30 @@ describe('generatePostVariablesPayload', () => {
     }).toThrowError('Invalid color token $value')
   })
 
+  it('throws a type-appropriate error for non-colour tokens with object $values', async () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {},
+        variables: {},
+      },
+    }
+
+    const tokensByFile = {
+      'primitives.mode1.json': {
+        'spacing/oops': {
+          $type: 'number',
+          $value: { value: 8, unit: 'px' },
+        },
+      },
+    } as unknown as FlattenedTokensByFile
+
+    expect(() => {
+      generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+    }).toThrowError('Invalid number token $value (expected a primitive value, got an object)')
+  })
+
   it('throws on duplicate variable collections in the Figma file', () => {
     const localVariablesResponse: GetLocalVariablesResponse = {
       status: 200,

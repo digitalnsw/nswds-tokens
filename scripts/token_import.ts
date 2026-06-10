@@ -168,10 +168,14 @@ function variableValueFromToken(
     return parseColor(token.$value) // back-compat: hex string colours
   } else {
     if (typeof token.$value === 'object') {
-      // A colour object that failed isDtcgColor (wrong colorSpace, malformed components)
-      // must not be forwarded to Figma as-is — fail loudly instead.
+      // An object $value that reaches this branch must not be forwarded to Figma as-is —
+      // fail loudly, with a message matching the token's $type: a colour object that
+      // failed isDtcgColor (wrong colorSpace, malformed components) vs a non-colour
+      // token that should only ever hold a primitive.
       throw new Error(
-        `Invalid color token $value (expected an srgb DTCG object, a hex string, or an alias): ${JSON.stringify(token.$value)}`,
+        token.$type === 'color'
+          ? `Invalid color token $value (expected an srgb DTCG object, a hex string, or an alias): ${JSON.stringify(token.$value)}`
+          : `Invalid ${token.$type} token $value (expected a primitive value, got an object): ${JSON.stringify(token.$value)}`,
       )
     }
     return token.$value
