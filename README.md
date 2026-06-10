@@ -7,7 +7,8 @@ The published package ships:
 
 - the root JavaScript and CommonJS entrypoints at `@nswds/tokens`
 - token files for every category under `css/`, `scss/`, `less/`, `js/`, `json/`,
-  `tailwind/`, `tokens/`, `ts/`, and `figma/`
+  `tailwind/`, `tokens/`, and `ts/` — plus colour round-trip files under `figma/`
+  (colour-only; the other categories reach Figma via the variable sync, not files)
 - Prism styles at `@nswds/tokens/prism.css`
 - brand assets under `@nswds/tokens/brand/*`
 
