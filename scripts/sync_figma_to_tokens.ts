@@ -18,13 +18,13 @@ import { tokenFilesFromLocalVariables } from './token_export.js'
  */
 
 async function main() {
-  if (!process.env.PERSONAL_ACCESS_TOKEN || !process.env.FILE_KEY) {
-    throw new Error('PERSONAL_ACCESS_TOKEN and FILE_KEY environment variables are required')
+  if (!process.env.FIGMA_TOKEN || !process.env.FILE_KEY) {
+    throw new Error('FIGMA_TOKEN and FILE_KEY environment variables are required')
   }
   const fileKey = process.env.FILE_KEY
   const currentWorkingDirectory = fs.realpathSync.native(process.cwd())
 
-  const api = new FigmaApi(process.env.PERSONAL_ACCESS_TOKEN)
+  const api = new FigmaApi(process.env.FIGMA_TOKEN)
   const localVariables = await api.getLocalVariables(fileKey)
 
   const tokensFiles = tokenFilesFromLocalVariables(localVariables)
