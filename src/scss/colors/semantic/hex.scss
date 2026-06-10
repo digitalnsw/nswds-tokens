@@ -1,76 +1,76 @@
-$success-50: #eff9ed;
-$success-100: #e0f3de;
-$success-150: #d2eccf;
-$success-200: #c4e5c0;
-$success-250: #aad6a5;
-$success-300: #8fc78a;
-$success-350: #74b76f;
-$success-400: #58a854;
-$success-450: #49a146;
-$success-500: #399936;
-$success-550: #259224;
-$success-600: #008a07;
-$success-650: #007204;
-$success-700: #005a02;
-$success-750: #004401;
-$success-800: #002f00;
-$success-850: #002200;
-$success-900: #001600;
-$success-950: #000b00;
-$warning-50: #fff3ed;
-$warning-100: #ffe8de;
-$warning-150: #ffddcf;
-$warning-200: #fdd2c0;
-$warning-250: #f6bda5;
-$warning-300: #eea88a;
-$warning-350: #e6936f;
-$warning-400: #dd7d53;
-$warning-450: #d87244;
-$warning-500: #d36734;
-$warning-550: #ce5c21;
-$warning-600: #c95000;
-$warning-650: #a83f03;
-$warning-700: #882f03;
-$warning-750: #692001;
-$warning-800: #4b1200;
-$warning-850: #390a00;
-$warning-900: #270400;
-$warning-950: #170100;
-$danger-50: #fff0ef;
-$danger-100: #ffe2e1;
-$danger-150: #ffd4d4;
-$danger-200: #fdc6c6;
-$danger-250: #f4acad;
-$danger-300: #ea9294;
-$danger-350: #df787c;
-$danger-400: #d35d65;
-$danger-450: #cd4e59;
-$danger-500: #c63f4e;
-$danger-550: #bf2c42;
-$danger-600: #b81237;
-$danger-650: #990b2a;
-$danger-700: #7c061f;
-$danger-750: #5f0214;
-$danger-800: #44000a;
-$danger-850: #330005;
-$danger-900: #230002;
-$danger-950: #140001;
-$info-50: #e9eef7;
-$info-100: #d4ddeb;
-$info-150: #c0cce0;
-$info-200: #acbbd5;
-$info-250: #96a9cc;
-$info-300: #8098c2;
-$info-350: #6b86b8;
-$info-400: #5775ae;
-$info-450: #4d6ca9;
-$info-500: #4264a4;
-$info-550: #385b9e;
-$info-600: #2e5299;
-$info-650: #23427f;
-$info-700: #193366;
-$info-750: #10254f;
-$info-800: #071738;
-$info-850: #040f2a;
-$info-900: #02071c;
-$info-950: #00030f;
+$success-50: #eff9ed; // Success state — positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.
+$success-100: #e0f3de; // Success state — positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.
+$success-150: #d2eccf; // Success state — positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.
+$success-200: #c4e5c0; // Success state — positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.
+$success-250: #aad6a5; // Success state — positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.
+$success-300: #8fc78a; // Success state — positive outcomes, confirmations, and completed actions. Step 300: light tints.
+$success-350: #74b76f; // Success state — positive outcomes, confirmations, and completed actions. Step 350: light tints.
+$success-400: #58a854; // Success state — positive outcomes, confirmations, and completed actions. Step 400: light tints.
+$success-450: #49a146; // Success state — positive outcomes, confirmations, and completed actions. Step 450: light tints.
+$success-500: #399936; // Success state — positive outcomes, confirmations, and completed actions. Step 500: base colour.
+$success-550: #259224; // Success state — positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.
+$success-600: #008a07; // Success state — positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.
+$success-650: #007204; // Success state — positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.
+$success-700: #005a02; // Success state — positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.
+$success-750: #004401; // Success state — positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.
+$success-800: #002f00; // Success state — positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.
+$success-850: #002200; // Success state — positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.
+$success-900: #001600; // Success state — positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.
+$success-950: #000b00; // Success state — positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.
+$warning-50: #fff3ed; // Warning state — caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.
+$warning-100: #ffe8de; // Warning state — caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.
+$warning-150: #ffddcf; // Warning state — caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.
+$warning-200: #fdd2c0; // Warning state — caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.
+$warning-250: #f6bda5; // Warning state — caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.
+$warning-300: #eea88a; // Warning state — caution and actions that need attention. Step 300: light tints.
+$warning-350: #e6936f; // Warning state — caution and actions that need attention. Step 350: light tints.
+$warning-400: #dd7d53; // Warning state — caution and actions that need attention. Step 400: light tints.
+$warning-450: #d87244; // Warning state — caution and actions that need attention. Step 450: light tints.
+$warning-500: #d36734; // Warning state — caution and actions that need attention. Step 500: base colour.
+$warning-550: #ce5c21; // Warning state — caution and actions that need attention. Step 550: shades for borders and icons.
+$warning-600: #c95000; // Warning state — caution and actions that need attention. Step 600: shades for borders and icons.
+$warning-650: #a83f03; // Warning state — caution and actions that need attention. Step 650: shades for borders and icons.
+$warning-700: #882f03; // Warning state — caution and actions that need attention. Step 700: shades for borders and icons.
+$warning-750: #692001; // Warning state — caution and actions that need attention. Step 750: darkest shades for text and high emphasis.
+$warning-800: #4b1200; // Warning state — caution and actions that need attention. Step 800: darkest shades for text and high emphasis.
+$warning-850: #390a00; // Warning state — caution and actions that need attention. Step 850: darkest shades for text and high emphasis.
+$warning-900: #270400; // Warning state — caution and actions that need attention. Step 900: darkest shades for text and high emphasis.
+$warning-950: #170100; // Warning state — caution and actions that need attention. Step 950: darkest shades for text and high emphasis.
+$danger-50: #fff0ef; // Danger state — errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.
+$danger-100: #ffe2e1; // Danger state — errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.
+$danger-150: #ffd4d4; // Danger state — errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.
+$danger-200: #fdc6c6; // Danger state — errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.
+$danger-250: #f4acad; // Danger state — errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.
+$danger-300: #ea9294; // Danger state — errors and destructive or critical actions. Step 300: light tints.
+$danger-350: #df787c; // Danger state — errors and destructive or critical actions. Step 350: light tints.
+$danger-400: #d35d65; // Danger state — errors and destructive or critical actions. Step 400: light tints.
+$danger-450: #cd4e59; // Danger state — errors and destructive or critical actions. Step 450: light tints.
+$danger-500: #c63f4e; // Danger state — errors and destructive or critical actions. Step 500: base colour.
+$danger-550: #bf2c42; // Danger state — errors and destructive or critical actions. Step 550: shades for borders and icons.
+$danger-600: #b81237; // Danger state — errors and destructive or critical actions. Step 600: shades for borders and icons.
+$danger-650: #990b2a; // Danger state — errors and destructive or critical actions. Step 650: shades for borders and icons.
+$danger-700: #7c061f; // Danger state — errors and destructive or critical actions. Step 700: shades for borders and icons.
+$danger-750: #5f0214; // Danger state — errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.
+$danger-800: #44000a; // Danger state — errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.
+$danger-850: #330005; // Danger state — errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.
+$danger-900: #230002; // Danger state — errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.
+$danger-950: #140001; // Danger state — errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.
+$info-50: #e9eef7; // Informational state — neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.
+$info-100: #d4ddeb; // Informational state — neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.
+$info-150: #c0cce0; // Informational state — neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.
+$info-200: #acbbd5; // Informational state — neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.
+$info-250: #96a9cc; // Informational state — neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.
+$info-300: #8098c2; // Informational state — neutral highlights, tips, and in-progress notices. Step 300: light tints.
+$info-350: #6b86b8; // Informational state — neutral highlights, tips, and in-progress notices. Step 350: light tints.
+$info-400: #5775ae; // Informational state — neutral highlights, tips, and in-progress notices. Step 400: light tints.
+$info-450: #4d6ca9; // Informational state — neutral highlights, tips, and in-progress notices. Step 450: light tints.
+$info-500: #4264a4; // Informational state — neutral highlights, tips, and in-progress notices. Step 500: base colour.
+$info-550: #385b9e; // Informational state — neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.
+$info-600: #2e5299; // Informational state — neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.
+$info-650: #23427f; // Informational state — neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.
+$info-700: #193366; // Informational state — neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.
+$info-750: #10254f; // Informational state — neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.
+$info-800: #071738; // Informational state — neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.
+$info-850: #040f2a; // Informational state — neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.
+$info-900: #02071c; // Informational state — neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.
+$info-950: #00030f; // Informational state — neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.

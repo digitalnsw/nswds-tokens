@@ -14899,312 +14899,388 @@ var require_hex2 = __commonJS({
       success: {
         "50": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: "#eff9ed"
         },
         "100": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: "#e0f3de"
         },
         "150": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: "#d2eccf"
         },
         "200": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: "#c4e5c0"
         },
         "250": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: "#aad6a5"
         },
         "300": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.",
           $value: "#8fc78a"
         },
         "350": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.",
           $value: "#74b76f"
         },
         "400": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.",
           $value: "#58a854"
         },
         "450": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.",
           $value: "#49a146"
         },
         "500": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.",
           $value: "#399936"
         },
         "550": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.",
           $value: "#259224"
         },
         "600": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.",
           $value: "#008a07"
         },
         "650": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.",
           $value: "#007204"
         },
         "700": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.",
           $value: "#005a02"
         },
         "750": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.",
           $value: "#004401"
         },
         "800": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.",
           $value: "#002f00"
         },
         "850": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
           $value: "#002200"
         },
         "900": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
           $value: "#001600"
         },
         "950": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
           $value: "#000b00"
         }
       },
       warning: {
         "50": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: "#fff3ed"
         },
         "100": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: "#ffe8de"
         },
         "150": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: "#ffddcf"
         },
         "200": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: "#fdd2c0"
         },
         "250": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: "#f6bda5"
         },
         "300": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 300: light tints.",
           $value: "#eea88a"
         },
         "350": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 350: light tints.",
           $value: "#e6936f"
         },
         "400": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 400: light tints.",
           $value: "#dd7d53"
         },
         "450": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 450: light tints.",
           $value: "#d87244"
         },
         "500": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 500: base colour.",
           $value: "#d36734"
         },
         "550": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.",
           $value: "#ce5c21"
         },
         "600": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.",
           $value: "#c95000"
         },
         "650": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.",
           $value: "#a83f03"
         },
         "700": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.",
           $value: "#882f03"
         },
         "750": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.",
           $value: "#692001"
         },
         "800": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.",
           $value: "#4b1200"
         },
         "850": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
           $value: "#390a00"
         },
         "900": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
           $value: "#270400"
         },
         "950": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
           $value: "#170100"
         }
       },
       danger: {
         "50": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: "#fff0ef"
         },
         "100": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: "#ffe2e1"
         },
         "150": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: "#ffd4d4"
         },
         "200": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: "#fdc6c6"
         },
         "250": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: "#f4acad"
         },
         "300": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.",
           $value: "#ea9294"
         },
         "350": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.",
           $value: "#df787c"
         },
         "400": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.",
           $value: "#d35d65"
         },
         "450": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.",
           $value: "#cd4e59"
         },
         "500": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.",
           $value: "#c63f4e"
         },
         "550": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.",
           $value: "#bf2c42"
         },
         "600": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.",
           $value: "#b81237"
         },
         "650": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.",
           $value: "#990b2a"
         },
         "700": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.",
           $value: "#7c061f"
         },
         "750": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.",
           $value: "#5f0214"
         },
         "800": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.",
           $value: "#44000a"
         },
         "850": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
           $value: "#330005"
         },
         "900": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
           $value: "#230002"
         },
         "950": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
           $value: "#140001"
         }
       },
       info: {
         "50": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: "#e9eef7"
         },
         "100": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: "#d4ddeb"
         },
         "150": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: "#c0cce0"
         },
         "200": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: "#acbbd5"
         },
         "250": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: "#96a9cc"
         },
         "300": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.",
           $value: "#8098c2"
         },
         "350": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.",
           $value: "#6b86b8"
         },
         "400": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.",
           $value: "#5775ae"
         },
         "450": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.",
           $value: "#4d6ca9"
         },
         "500": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.",
           $value: "#4264a4"
         },
         "550": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.",
           $value: "#385b9e"
         },
         "600": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.",
           $value: "#2e5299"
         },
         "650": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.",
           $value: "#23427f"
         },
         "700": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.",
           $value: "#193366"
         },
         "750": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.",
           $value: "#10254f"
         },
         "800": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.",
           $value: "#071738"
         },
         "850": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
           $value: "#040f2a"
         },
         "900": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
           $value: "#02071c"
         },
         "950": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
           $value: "#00030f"
         }
       }
@@ -15219,6 +15295,7 @@ var require_hsl2 = __commonJS({
       success: {
         "50": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15232,6 +15309,7 @@ var require_hsl2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15245,6 +15323,7 @@ var require_hsl2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15258,6 +15337,7 @@ var require_hsl2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15271,6 +15351,7 @@ var require_hsl2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15284,6 +15365,7 @@ var require_hsl2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15297,6 +15379,7 @@ var require_hsl2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15310,6 +15393,7 @@ var require_hsl2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15323,6 +15407,7 @@ var require_hsl2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15336,6 +15421,7 @@ var require_hsl2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15349,6 +15435,7 @@ var require_hsl2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15362,6 +15449,7 @@ var require_hsl2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15375,6 +15463,7 @@ var require_hsl2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15388,6 +15477,7 @@ var require_hsl2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15401,6 +15491,7 @@ var require_hsl2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15414,6 +15505,7 @@ var require_hsl2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15427,6 +15519,7 @@ var require_hsl2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15440,6 +15533,7 @@ var require_hsl2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15453,6 +15547,7 @@ var require_hsl2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15468,6 +15563,7 @@ var require_hsl2 = __commonJS({
       warning: {
         "50": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15481,6 +15577,7 @@ var require_hsl2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15494,6 +15591,7 @@ var require_hsl2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15507,6 +15605,7 @@ var require_hsl2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15520,6 +15619,7 @@ var require_hsl2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15533,6 +15633,7 @@ var require_hsl2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 300: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15546,6 +15647,7 @@ var require_hsl2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 350: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15559,6 +15661,7 @@ var require_hsl2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 400: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15572,6 +15675,7 @@ var require_hsl2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 450: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15585,6 +15689,7 @@ var require_hsl2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 500: base colour.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15598,6 +15703,7 @@ var require_hsl2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15611,6 +15717,7 @@ var require_hsl2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15624,6 +15731,7 @@ var require_hsl2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15637,6 +15745,7 @@ var require_hsl2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15650,6 +15759,7 @@ var require_hsl2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15663,6 +15773,7 @@ var require_hsl2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15676,6 +15787,7 @@ var require_hsl2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15689,6 +15801,7 @@ var require_hsl2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15702,6 +15815,7 @@ var require_hsl2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15717,6 +15831,7 @@ var require_hsl2 = __commonJS({
       danger: {
         "50": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15730,6 +15845,7 @@ var require_hsl2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15743,6 +15859,7 @@ var require_hsl2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15756,6 +15873,7 @@ var require_hsl2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15769,6 +15887,7 @@ var require_hsl2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15782,6 +15901,7 @@ var require_hsl2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15795,6 +15915,7 @@ var require_hsl2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15808,6 +15929,7 @@ var require_hsl2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15821,6 +15943,7 @@ var require_hsl2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15834,6 +15957,7 @@ var require_hsl2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15847,6 +15971,7 @@ var require_hsl2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15860,6 +15985,7 @@ var require_hsl2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15873,6 +15999,7 @@ var require_hsl2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15886,6 +16013,7 @@ var require_hsl2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15899,6 +16027,7 @@ var require_hsl2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15912,6 +16041,7 @@ var require_hsl2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15925,6 +16055,7 @@ var require_hsl2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15938,6 +16069,7 @@ var require_hsl2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15951,6 +16083,7 @@ var require_hsl2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15966,6 +16099,7 @@ var require_hsl2 = __commonJS({
       info: {
         "50": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15979,6 +16113,7 @@ var require_hsl2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -15992,6 +16127,7 @@ var require_hsl2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16005,6 +16141,7 @@ var require_hsl2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16018,6 +16155,7 @@ var require_hsl2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16031,6 +16169,7 @@ var require_hsl2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16044,6 +16183,7 @@ var require_hsl2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16057,6 +16197,7 @@ var require_hsl2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16070,6 +16211,7 @@ var require_hsl2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16083,6 +16225,7 @@ var require_hsl2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16096,6 +16239,7 @@ var require_hsl2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16109,6 +16253,7 @@ var require_hsl2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16122,6 +16267,7 @@ var require_hsl2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16135,6 +16281,7 @@ var require_hsl2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16148,6 +16295,7 @@ var require_hsl2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16161,6 +16309,7 @@ var require_hsl2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16174,6 +16323,7 @@ var require_hsl2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16187,6 +16337,7 @@ var require_hsl2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16200,6 +16351,7 @@ var require_hsl2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -16223,6 +16375,7 @@ var require_oklch2 = __commonJS({
       success: {
         "50": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16236,6 +16389,7 @@ var require_oklch2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16249,6 +16403,7 @@ var require_oklch2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16262,6 +16417,7 @@ var require_oklch2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16275,6 +16431,7 @@ var require_oklch2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16288,6 +16445,7 @@ var require_oklch2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16301,6 +16459,7 @@ var require_oklch2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16314,6 +16473,7 @@ var require_oklch2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16327,6 +16487,7 @@ var require_oklch2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16340,6 +16501,7 @@ var require_oklch2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16353,6 +16515,7 @@ var require_oklch2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16366,6 +16529,7 @@ var require_oklch2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16379,6 +16543,7 @@ var require_oklch2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16392,6 +16557,7 @@ var require_oklch2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16405,6 +16571,7 @@ var require_oklch2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16418,6 +16585,7 @@ var require_oklch2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16431,6 +16599,7 @@ var require_oklch2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16444,6 +16613,7 @@ var require_oklch2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16457,6 +16627,7 @@ var require_oklch2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16472,6 +16643,7 @@ var require_oklch2 = __commonJS({
       warning: {
         "50": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16485,6 +16657,7 @@ var require_oklch2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16498,6 +16671,7 @@ var require_oklch2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16511,6 +16685,7 @@ var require_oklch2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16524,6 +16699,7 @@ var require_oklch2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16537,6 +16713,7 @@ var require_oklch2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 300: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16550,6 +16727,7 @@ var require_oklch2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 350: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16563,6 +16741,7 @@ var require_oklch2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 400: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16576,6 +16755,7 @@ var require_oklch2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 450: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16589,6 +16769,7 @@ var require_oklch2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 500: base colour.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16602,6 +16783,7 @@ var require_oklch2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16615,6 +16797,7 @@ var require_oklch2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16628,6 +16811,7 @@ var require_oklch2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16641,6 +16825,7 @@ var require_oklch2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16654,6 +16839,7 @@ var require_oklch2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16667,6 +16853,7 @@ var require_oklch2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16680,6 +16867,7 @@ var require_oklch2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16693,6 +16881,7 @@ var require_oklch2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16706,6 +16895,7 @@ var require_oklch2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16721,6 +16911,7 @@ var require_oklch2 = __commonJS({
       danger: {
         "50": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16734,6 +16925,7 @@ var require_oklch2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16747,6 +16939,7 @@ var require_oklch2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16760,6 +16953,7 @@ var require_oklch2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16773,6 +16967,7 @@ var require_oklch2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16786,6 +16981,7 @@ var require_oklch2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16799,6 +16995,7 @@ var require_oklch2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16812,6 +17009,7 @@ var require_oklch2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16825,6 +17023,7 @@ var require_oklch2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16838,6 +17037,7 @@ var require_oklch2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16851,6 +17051,7 @@ var require_oklch2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16864,6 +17065,7 @@ var require_oklch2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16877,6 +17079,7 @@ var require_oklch2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16890,6 +17093,7 @@ var require_oklch2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16903,6 +17107,7 @@ var require_oklch2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16916,6 +17121,7 @@ var require_oklch2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16929,6 +17135,7 @@ var require_oklch2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16942,6 +17149,7 @@ var require_oklch2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16955,6 +17163,7 @@ var require_oklch2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16970,6 +17179,7 @@ var require_oklch2 = __commonJS({
       info: {
         "50": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16983,6 +17193,7 @@ var require_oklch2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -16996,6 +17207,7 @@ var require_oklch2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17009,6 +17221,7 @@ var require_oklch2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17022,6 +17235,7 @@ var require_oklch2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17035,6 +17249,7 @@ var require_oklch2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17048,6 +17263,7 @@ var require_oklch2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17061,6 +17277,7 @@ var require_oklch2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17074,6 +17291,7 @@ var require_oklch2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17087,6 +17305,7 @@ var require_oklch2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17100,6 +17319,7 @@ var require_oklch2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17113,6 +17333,7 @@ var require_oklch2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17126,6 +17347,7 @@ var require_oklch2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17139,6 +17361,7 @@ var require_oklch2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17152,6 +17375,7 @@ var require_oklch2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17165,6 +17389,7 @@ var require_oklch2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17178,6 +17403,7 @@ var require_oklch2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17191,6 +17417,7 @@ var require_oklch2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17204,6 +17431,7 @@ var require_oklch2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -17227,6 +17455,7 @@ var require_rgb2 = __commonJS({
       success: {
         "50": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17240,6 +17469,7 @@ var require_rgb2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17253,6 +17483,7 @@ var require_rgb2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17266,6 +17497,7 @@ var require_rgb2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17279,6 +17511,7 @@ var require_rgb2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17292,6 +17525,7 @@ var require_rgb2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17305,6 +17539,7 @@ var require_rgb2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17318,6 +17553,7 @@ var require_rgb2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17331,6 +17567,7 @@ var require_rgb2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17344,6 +17581,7 @@ var require_rgb2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17357,6 +17595,7 @@ var require_rgb2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17370,6 +17609,7 @@ var require_rgb2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17383,6 +17623,7 @@ var require_rgb2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17396,6 +17637,7 @@ var require_rgb2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17409,6 +17651,7 @@ var require_rgb2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17422,6 +17665,7 @@ var require_rgb2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17435,6 +17679,7 @@ var require_rgb2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17448,6 +17693,7 @@ var require_rgb2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17461,6 +17707,7 @@ var require_rgb2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17476,6 +17723,7 @@ var require_rgb2 = __commonJS({
       warning: {
         "50": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17489,6 +17737,7 @@ var require_rgb2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17502,6 +17751,7 @@ var require_rgb2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17515,6 +17765,7 @@ var require_rgb2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17528,6 +17779,7 @@ var require_rgb2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17541,6 +17793,7 @@ var require_rgb2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 300: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17554,6 +17807,7 @@ var require_rgb2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 350: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17567,6 +17821,7 @@ var require_rgb2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 400: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17580,6 +17835,7 @@ var require_rgb2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 450: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17593,6 +17849,7 @@ var require_rgb2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 500: base colour.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17606,6 +17863,7 @@ var require_rgb2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17619,6 +17877,7 @@ var require_rgb2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17632,6 +17891,7 @@ var require_rgb2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17645,6 +17905,7 @@ var require_rgb2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17658,6 +17919,7 @@ var require_rgb2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17671,6 +17933,7 @@ var require_rgb2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17684,6 +17947,7 @@ var require_rgb2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17697,6 +17961,7 @@ var require_rgb2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17710,6 +17975,7 @@ var require_rgb2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17725,6 +17991,7 @@ var require_rgb2 = __commonJS({
       danger: {
         "50": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17738,6 +18005,7 @@ var require_rgb2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17751,6 +18019,7 @@ var require_rgb2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17764,6 +18033,7 @@ var require_rgb2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17777,6 +18047,7 @@ var require_rgb2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17790,6 +18061,7 @@ var require_rgb2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17803,6 +18075,7 @@ var require_rgb2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17816,6 +18089,7 @@ var require_rgb2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17829,6 +18103,7 @@ var require_rgb2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17842,6 +18117,7 @@ var require_rgb2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17855,6 +18131,7 @@ var require_rgb2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17868,6 +18145,7 @@ var require_rgb2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17881,6 +18159,7 @@ var require_rgb2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17894,6 +18173,7 @@ var require_rgb2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17907,6 +18187,7 @@ var require_rgb2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17920,6 +18201,7 @@ var require_rgb2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17933,6 +18215,7 @@ var require_rgb2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17946,6 +18229,7 @@ var require_rgb2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17959,6 +18243,7 @@ var require_rgb2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17974,6 +18259,7 @@ var require_rgb2 = __commonJS({
       info: {
         "50": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -17987,6 +18273,7 @@ var require_rgb2 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18000,6 +18287,7 @@ var require_rgb2 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18013,6 +18301,7 @@ var require_rgb2 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18026,6 +18315,7 @@ var require_rgb2 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18039,6 +18329,7 @@ var require_rgb2 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18052,6 +18343,7 @@ var require_rgb2 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18065,6 +18357,7 @@ var require_rgb2 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18078,6 +18371,7 @@ var require_rgb2 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18091,6 +18385,7 @@ var require_rgb2 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18104,6 +18399,7 @@ var require_rgb2 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18117,6 +18413,7 @@ var require_rgb2 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18130,6 +18427,7 @@ var require_rgb2 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18143,6 +18441,7 @@ var require_rgb2 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18156,6 +18455,7 @@ var require_rgb2 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18169,6 +18469,7 @@ var require_rgb2 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18182,6 +18483,7 @@ var require_rgb2 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18195,6 +18497,7 @@ var require_rgb2 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18208,6 +18511,7 @@ var require_rgb2 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -18231,234 +18535,291 @@ var require_hex3 = __commonJS({
       primary: {
         "50": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-blue.50}"
         },
         "100": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-blue.100}"
         },
         "150": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-blue.150}"
         },
         "200": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-blue.200}"
         },
         "250": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-blue.250}"
         },
         "300": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.",
           $value: "{nsw-blue.300}"
         },
         "350": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.",
           $value: "{nsw-blue.350}"
         },
         "400": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.",
           $value: "{nsw-blue.400}"
         },
         "450": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.",
           $value: "{nsw-blue.450}"
         },
         "500": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.",
           $value: "{nsw-blue.500}"
         },
         "550": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.",
           $value: "{nsw-blue.550}"
         },
         "600": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.",
           $value: "{nsw-blue.600}"
         },
         "650": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.",
           $value: "{nsw-blue.650}"
         },
         "700": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.",
           $value: "{nsw-blue.700}"
         },
         "750": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.",
           $value: "{nsw-blue.750}"
         },
         "800": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.",
           $value: "{nsw-blue.800}"
         },
         "850": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.",
           $value: "{nsw-blue.850}"
         },
         "900": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.",
           $value: "{nsw-blue.900}"
         },
         "950": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.",
           $value: "{nsw-blue.950}"
         }
       },
       accent: {
         "50": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-red.50}"
         },
         "100": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-red.100}"
         },
         "150": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-red.150}"
         },
         "200": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-red.200}"
         },
         "250": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-red.250}"
         },
         "300": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.",
           $value: "{nsw-red.300}"
         },
         "350": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.",
           $value: "{nsw-red.350}"
         },
         "400": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.",
           $value: "{nsw-red.400}"
         },
         "450": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.",
           $value: "{nsw-red.450}"
         },
         "500": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.",
           $value: "{nsw-red.500}"
         },
         "550": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.",
           $value: "{nsw-red.550}"
         },
         "600": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.",
           $value: "{nsw-red.600}"
         },
         "650": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.",
           $value: "{nsw-red.650}"
         },
         "700": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.",
           $value: "{nsw-red.700}"
         },
         "750": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.",
           $value: "{nsw-red.750}"
         },
         "800": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.",
           $value: "{nsw-red.800}"
         },
         "850": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.",
           $value: "{nsw-red.850}"
         },
         "900": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.",
           $value: "{nsw-red.900}"
         },
         "950": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.",
           $value: "{nsw-red.950}"
         }
       },
       grey: {
         "50": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-grey.50}"
         },
         "100": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-grey.100}"
         },
         "150": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-grey.150}"
         },
         "200": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-grey.200}"
         },
         "250": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: "{nsw-grey.250}"
         },
         "300": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.",
           $value: "{nsw-grey.300}"
         },
         "350": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.",
           $value: "{nsw-grey.350}"
         },
         "400": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.",
           $value: "{nsw-grey.400}"
         },
         "450": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.",
           $value: "{nsw-grey.450}"
         },
         "500": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.",
           $value: "{nsw-grey.500}"
         },
         "550": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.",
           $value: "{nsw-grey.550}"
         },
         "600": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.",
           $value: "{nsw-grey.600}"
         },
         "650": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.",
           $value: "{nsw-grey.650}"
         },
         "700": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.",
           $value: "{nsw-grey.700}"
         },
         "750": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.",
           $value: "{nsw-grey.750}"
         },
         "800": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.",
           $value: "{nsw-grey.800}"
         },
         "850": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.",
           $value: "{nsw-grey.850}"
         },
         "900": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.",
           $value: "{nsw-grey.900}"
         },
         "950": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.",
           $value: "{nsw-grey.950}"
         }
       }
@@ -18473,6 +18834,7 @@ var require_hsl3 = __commonJS({
       primary: {
         "50": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18486,6 +18848,7 @@ var require_hsl3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18499,6 +18862,7 @@ var require_hsl3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18512,6 +18876,7 @@ var require_hsl3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18525,6 +18890,7 @@ var require_hsl3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18538,6 +18904,7 @@ var require_hsl3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18551,6 +18918,7 @@ var require_hsl3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18564,6 +18932,7 @@ var require_hsl3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18577,6 +18946,7 @@ var require_hsl3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18590,6 +18960,7 @@ var require_hsl3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18603,6 +18974,7 @@ var require_hsl3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18616,6 +18988,7 @@ var require_hsl3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18629,6 +19002,7 @@ var require_hsl3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18642,6 +19016,7 @@ var require_hsl3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18655,6 +19030,7 @@ var require_hsl3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18668,6 +19044,7 @@ var require_hsl3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18681,6 +19058,7 @@ var require_hsl3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18694,6 +19072,7 @@ var require_hsl3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18707,6 +19086,7 @@ var require_hsl3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18722,6 +19102,7 @@ var require_hsl3 = __commonJS({
       accent: {
         "50": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18735,6 +19116,7 @@ var require_hsl3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18748,6 +19130,7 @@ var require_hsl3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18761,6 +19144,7 @@ var require_hsl3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18774,6 +19158,7 @@ var require_hsl3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18787,6 +19172,7 @@ var require_hsl3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18800,6 +19186,7 @@ var require_hsl3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18813,6 +19200,7 @@ var require_hsl3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18826,6 +19214,7 @@ var require_hsl3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18839,6 +19228,7 @@ var require_hsl3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18852,6 +19242,7 @@ var require_hsl3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18865,6 +19256,7 @@ var require_hsl3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18878,6 +19270,7 @@ var require_hsl3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18891,6 +19284,7 @@ var require_hsl3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18904,6 +19298,7 @@ var require_hsl3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18917,6 +19312,7 @@ var require_hsl3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18930,6 +19326,7 @@ var require_hsl3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18943,6 +19340,7 @@ var require_hsl3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18956,6 +19354,7 @@ var require_hsl3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18971,6 +19370,7 @@ var require_hsl3 = __commonJS({
       grey: {
         "50": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18984,6 +19384,7 @@ var require_hsl3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -18997,6 +19398,7 @@ var require_hsl3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19010,6 +19412,7 @@ var require_hsl3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19023,6 +19426,7 @@ var require_hsl3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19036,6 +19440,7 @@ var require_hsl3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19049,6 +19454,7 @@ var require_hsl3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19062,6 +19468,7 @@ var require_hsl3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19075,6 +19482,7 @@ var require_hsl3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19088,6 +19496,7 @@ var require_hsl3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19101,6 +19510,7 @@ var require_hsl3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19114,6 +19524,7 @@ var require_hsl3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19127,6 +19538,7 @@ var require_hsl3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19140,6 +19552,7 @@ var require_hsl3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19153,6 +19566,7 @@ var require_hsl3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19166,6 +19580,7 @@ var require_hsl3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19179,6 +19594,7 @@ var require_hsl3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19192,6 +19608,7 @@ var require_hsl3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19205,6 +19622,7 @@ var require_hsl3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "hsl",
             components: [
@@ -19228,6 +19646,7 @@ var require_oklch3 = __commonJS({
       primary: {
         "50": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19241,6 +19660,7 @@ var require_oklch3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19254,6 +19674,7 @@ var require_oklch3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19267,6 +19688,7 @@ var require_oklch3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19280,6 +19702,7 @@ var require_oklch3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19293,6 +19716,7 @@ var require_oklch3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19306,6 +19730,7 @@ var require_oklch3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19319,6 +19744,7 @@ var require_oklch3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19332,6 +19758,7 @@ var require_oklch3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19345,6 +19772,7 @@ var require_oklch3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19358,6 +19786,7 @@ var require_oklch3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19371,6 +19800,7 @@ var require_oklch3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19384,6 +19814,7 @@ var require_oklch3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19397,6 +19828,7 @@ var require_oklch3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19410,6 +19842,7 @@ var require_oklch3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19423,6 +19856,7 @@ var require_oklch3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19436,6 +19870,7 @@ var require_oklch3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19449,6 +19884,7 @@ var require_oklch3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19462,6 +19898,7 @@ var require_oklch3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19477,6 +19914,7 @@ var require_oklch3 = __commonJS({
       accent: {
         "50": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19490,6 +19928,7 @@ var require_oklch3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19503,6 +19942,7 @@ var require_oklch3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19516,6 +19956,7 @@ var require_oklch3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19529,6 +19970,7 @@ var require_oklch3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19542,6 +19984,7 @@ var require_oklch3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19555,6 +19998,7 @@ var require_oklch3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19568,6 +20012,7 @@ var require_oklch3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19581,6 +20026,7 @@ var require_oklch3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19594,6 +20040,7 @@ var require_oklch3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19607,6 +20054,7 @@ var require_oklch3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19620,6 +20068,7 @@ var require_oklch3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19633,6 +20082,7 @@ var require_oklch3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19646,6 +20096,7 @@ var require_oklch3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19659,6 +20110,7 @@ var require_oklch3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19672,6 +20124,7 @@ var require_oklch3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19685,6 +20138,7 @@ var require_oklch3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19698,6 +20152,7 @@ var require_oklch3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19711,6 +20166,7 @@ var require_oklch3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19726,6 +20182,7 @@ var require_oklch3 = __commonJS({
       grey: {
         "50": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19739,6 +20196,7 @@ var require_oklch3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19752,6 +20210,7 @@ var require_oklch3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19765,6 +20224,7 @@ var require_oklch3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19778,6 +20238,7 @@ var require_oklch3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19791,6 +20252,7 @@ var require_oklch3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19804,6 +20266,7 @@ var require_oklch3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19817,6 +20280,7 @@ var require_oklch3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19830,6 +20294,7 @@ var require_oklch3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19843,6 +20308,7 @@ var require_oklch3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19856,6 +20322,7 @@ var require_oklch3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19869,6 +20336,7 @@ var require_oklch3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19882,6 +20350,7 @@ var require_oklch3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19895,6 +20364,7 @@ var require_oklch3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19908,6 +20378,7 @@ var require_oklch3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19921,6 +20392,7 @@ var require_oklch3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19934,6 +20406,7 @@ var require_oklch3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19947,6 +20420,7 @@ var require_oklch3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19960,6 +20434,7 @@ var require_oklch3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "oklch",
             components: [
@@ -19983,6 +20458,7 @@ var require_rgb3 = __commonJS({
       primary: {
         "50": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -19996,6 +20472,7 @@ var require_rgb3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20009,6 +20486,7 @@ var require_rgb3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20022,6 +20500,7 @@ var require_rgb3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20035,6 +20514,7 @@ var require_rgb3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20048,6 +20528,7 @@ var require_rgb3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20061,6 +20542,7 @@ var require_rgb3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20074,6 +20556,7 @@ var require_rgb3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20087,6 +20570,7 @@ var require_rgb3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20100,6 +20584,7 @@ var require_rgb3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20113,6 +20598,7 @@ var require_rgb3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20126,6 +20612,7 @@ var require_rgb3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20139,6 +20626,7 @@ var require_rgb3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20152,6 +20640,7 @@ var require_rgb3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20165,6 +20654,7 @@ var require_rgb3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20178,6 +20668,7 @@ var require_rgb3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20191,6 +20682,7 @@ var require_rgb3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20204,6 +20696,7 @@ var require_rgb3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20217,6 +20710,7 @@ var require_rgb3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20232,6 +20726,7 @@ var require_rgb3 = __commonJS({
       accent: {
         "50": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20245,6 +20740,7 @@ var require_rgb3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20258,6 +20754,7 @@ var require_rgb3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20271,6 +20768,7 @@ var require_rgb3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20284,6 +20782,7 @@ var require_rgb3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20297,6 +20796,7 @@ var require_rgb3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20310,6 +20810,7 @@ var require_rgb3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20323,6 +20824,7 @@ var require_rgb3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20336,6 +20838,7 @@ var require_rgb3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20349,6 +20852,7 @@ var require_rgb3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20362,6 +20866,7 @@ var require_rgb3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20375,6 +20880,7 @@ var require_rgb3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20388,6 +20894,7 @@ var require_rgb3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20401,6 +20908,7 @@ var require_rgb3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20414,6 +20922,7 @@ var require_rgb3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20427,6 +20936,7 @@ var require_rgb3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20440,6 +20950,7 @@ var require_rgb3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20453,6 +20964,7 @@ var require_rgb3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20466,6 +20978,7 @@ var require_rgb3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20481,6 +20994,7 @@ var require_rgb3 = __commonJS({
       grey: {
         "50": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20494,6 +21008,7 @@ var require_rgb3 = __commonJS({
         },
         "100": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20507,6 +21022,7 @@ var require_rgb3 = __commonJS({
         },
         "150": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20520,6 +21036,7 @@ var require_rgb3 = __commonJS({
         },
         "200": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20533,6 +21050,7 @@ var require_rgb3 = __commonJS({
         },
         "250": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20546,6 +21064,7 @@ var require_rgb3 = __commonJS({
         },
         "300": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20559,6 +21078,7 @@ var require_rgb3 = __commonJS({
         },
         "350": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20572,6 +21092,7 @@ var require_rgb3 = __commonJS({
         },
         "400": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20585,6 +21106,7 @@ var require_rgb3 = __commonJS({
         },
         "450": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20598,6 +21120,7 @@ var require_rgb3 = __commonJS({
         },
         "500": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20611,6 +21134,7 @@ var require_rgb3 = __commonJS({
         },
         "550": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20624,6 +21148,7 @@ var require_rgb3 = __commonJS({
         },
         "600": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20637,6 +21162,7 @@ var require_rgb3 = __commonJS({
         },
         "650": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20650,6 +21176,7 @@ var require_rgb3 = __commonJS({
         },
         "700": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20663,6 +21190,7 @@ var require_rgb3 = __commonJS({
         },
         "750": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20676,6 +21204,7 @@ var require_rgb3 = __commonJS({
         },
         "800": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20689,6 +21218,7 @@ var require_rgb3 = __commonJS({
         },
         "850": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20702,6 +21232,7 @@ var require_rgb3 = __commonJS({
         },
         "900": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -20715,6 +21246,7 @@ var require_rgb3 = __commonJS({
         },
         "950": {
           $type: "color",
+          $description: "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.",
           $value: {
             colorSpace: "srgb",
             components: [
@@ -38448,56 +38980,56 @@ var hex_exports2 = {};
 __export(hex_exports2, {
   default: () => hex_default2
 });
-var hex_default2 = ":root {\n  --success-50: #eff9ed;\n  --success-100: #e0f3de;\n  --success-150: #d2eccf;\n  --success-200: #c4e5c0;\n  --success-250: #aad6a5;\n  --success-300: #8fc78a;\n  --success-350: #74b76f;\n  --success-400: #58a854;\n  --success-450: #49a146;\n  --success-500: #399936;\n  --success-550: #259224;\n  --success-600: #008a07;\n  --success-650: #007204;\n  --success-700: #005a02;\n  --success-750: #004401;\n  --success-800: #002f00;\n  --success-850: #002200;\n  --success-900: #001600;\n  --success-950: #000b00;\n  --warning-50: #fff3ed;\n  --warning-100: #ffe8de;\n  --warning-150: #ffddcf;\n  --warning-200: #fdd2c0;\n  --warning-250: #f6bda5;\n  --warning-300: #eea88a;\n  --warning-350: #e6936f;\n  --warning-400: #dd7d53;\n  --warning-450: #d87244;\n  --warning-500: #d36734;\n  --warning-550: #ce5c21;\n  --warning-600: #c95000;\n  --warning-650: #a83f03;\n  --warning-700: #882f03;\n  --warning-750: #692001;\n  --warning-800: #4b1200;\n  --warning-850: #390a00;\n  --warning-900: #270400;\n  --warning-950: #170100;\n  --danger-50: #fff0ef;\n  --danger-100: #ffe2e1;\n  --danger-150: #ffd4d4;\n  --danger-200: #fdc6c6;\n  --danger-250: #f4acad;\n  --danger-300: #ea9294;\n  --danger-350: #df787c;\n  --danger-400: #d35d65;\n  --danger-450: #cd4e59;\n  --danger-500: #c63f4e;\n  --danger-550: #bf2c42;\n  --danger-600: #b81237;\n  --danger-650: #990b2a;\n  --danger-700: #7c061f;\n  --danger-750: #5f0214;\n  --danger-800: #44000a;\n  --danger-850: #330005;\n  --danger-900: #230002;\n  --danger-950: #140001;\n  --info-50: #e9eef7;\n  --info-100: #d4ddeb;\n  --info-150: #c0cce0;\n  --info-200: #acbbd5;\n  --info-250: #96a9cc;\n  --info-300: #8098c2;\n  --info-350: #6b86b8;\n  --info-400: #5775ae;\n  --info-450: #4d6ca9;\n  --info-500: #4264a4;\n  --info-550: #385b9e;\n  --info-600: #2e5299;\n  --info-650: #23427f;\n  --info-700: #193366;\n  --info-750: #10254f;\n  --info-800: #071738;\n  --info-850: #040f2a;\n  --info-900: #02071c;\n  --info-950: #00030f;\n}\n";
+var hex_default2 = ":root {\n  --success-50: #eff9ed; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --success-100: #e0f3de; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --success-150: #d2eccf; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --success-200: #c4e5c0; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --success-250: #aad6a5; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --success-300: #8fc78a; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints. */\n  --success-350: #74b76f; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints. */\n  --success-400: #58a854; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints. */\n  --success-450: #49a146; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints. */\n  --success-500: #399936; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour. */\n  --success-550: #259224; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons. */\n  --success-600: #008a07; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons. */\n  --success-650: #007204; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons. */\n  --success-700: #005a02; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons. */\n  --success-750: #004401; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis. */\n  --success-800: #002f00; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis. */\n  --success-850: #002200; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis. */\n  --success-900: #001600; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis. */\n  --success-950: #000b00; /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis. */\n  --warning-50: #fff3ed; /** Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --warning-100: #ffe8de; /** Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --warning-150: #ffddcf; /** Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --warning-200: #fdd2c0; /** Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --warning-250: #f6bda5; /** Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --warning-300: #eea88a; /** Warning state \u2014 caution and actions that need attention. Step 300: light tints. */\n  --warning-350: #e6936f; /** Warning state \u2014 caution and actions that need attention. Step 350: light tints. */\n  --warning-400: #dd7d53; /** Warning state \u2014 caution and actions that need attention. Step 400: light tints. */\n  --warning-450: #d87244; /** Warning state \u2014 caution and actions that need attention. Step 450: light tints. */\n  --warning-500: #d36734; /** Warning state \u2014 caution and actions that need attention. Step 500: base colour. */\n  --warning-550: #ce5c21; /** Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons. */\n  --warning-600: #c95000; /** Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons. */\n  --warning-650: #a83f03; /** Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons. */\n  --warning-700: #882f03; /** Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons. */\n  --warning-750: #692001; /** Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis. */\n  --warning-800: #4b1200; /** Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis. */\n  --warning-850: #390a00; /** Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis. */\n  --warning-900: #270400; /** Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis. */\n  --warning-950: #170100; /** Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis. */\n  --danger-50: #fff0ef; /** Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --danger-100: #ffe2e1; /** Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --danger-150: #ffd4d4; /** Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --danger-200: #fdc6c6; /** Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --danger-250: #f4acad; /** Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --danger-300: #ea9294; /** Danger state \u2014 errors and destructive or critical actions. Step 300: light tints. */\n  --danger-350: #df787c; /** Danger state \u2014 errors and destructive or critical actions. Step 350: light tints. */\n  --danger-400: #d35d65; /** Danger state \u2014 errors and destructive or critical actions. Step 400: light tints. */\n  --danger-450: #cd4e59; /** Danger state \u2014 errors and destructive or critical actions. Step 450: light tints. */\n  --danger-500: #c63f4e; /** Danger state \u2014 errors and destructive or critical actions. Step 500: base colour. */\n  --danger-550: #bf2c42; /** Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons. */\n  --danger-600: #b81237; /** Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons. */\n  --danger-650: #990b2a; /** Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons. */\n  --danger-700: #7c061f; /** Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons. */\n  --danger-750: #5f0214; /** Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis. */\n  --danger-800: #44000a; /** Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis. */\n  --danger-850: #330005; /** Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis. */\n  --danger-900: #230002; /** Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis. */\n  --danger-950: #140001; /** Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis. */\n  --info-50: #e9eef7; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --info-100: #d4ddeb; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --info-150: #c0cce0; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --info-200: #acbbd5; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --info-250: #96a9cc; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --info-300: #8098c2; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints. */\n  --info-350: #6b86b8; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints. */\n  --info-400: #5775ae; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints. */\n  --info-450: #4d6ca9; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints. */\n  --info-500: #4264a4; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour. */\n  --info-550: #385b9e; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons. */\n  --info-600: #2e5299; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons. */\n  --info-650: #23427f; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons. */\n  --info-700: #193366; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons. */\n  --info-750: #10254f; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis. */\n  --info-800: #071738; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis. */\n  --info-850: #040f2a; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis. */\n  --info-900: #02071c; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis. */\n  --info-950: #00030f; /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/semantic/hsl.css
 var hsl_exports2 = {};
 __export(hsl_exports2, {
   default: () => hsl_default2
 });
-var hsl_default2 = ":root {\n  --success-50: hsl(110, 50%, 95.294118%);\n  --success-100: hsl(114.285714, 46.666667%, 91.176471%);\n  --success-150: hsl(113.793103, 43.283582%, 86.862745%);\n  --success-200: hsl(113.513514, 41.573034%, 82.54902%);\n  --success-250: hsl(113.877551, 37.40458%, 74.313725%);\n  --success-300: hsl(115.081967, 35.260116%, 66.078431%);\n  --success-350: hsl(115.833333, 33.333333%, 57.647059%);\n  --success-400: hsl(117.142857, 33.333333%, 49.411765%);\n  --success-450: hsl(118.021978, 39.393939%, 45.294118%);\n  --success-500: hsl(118.181818, 47.826087%, 40.588235%);\n  --success-550: hsl(119.454545, 60.43956%, 35.686275%);\n  --success-600: hsl(123.043478, 100%, 27.058824%);\n  --success-650: hsl(122.105263, 100%, 22.352941%);\n  --success-700: hsl(121.333333, 100%, 17.647059%);\n  --success-750: hsl(120.882353, 100%, 13.333333%);\n  --success-800: hsl(120, 100%, 9.215686%);\n  --success-850: hsl(120, 100%, 6.666667%);\n  --success-900: hsl(120, 100%, 4.313725%);\n  --success-950: hsl(120, 100%, 2.156863%);\n  --warning-50: hsl(20, 100%, 96.470588%);\n  --warning-100: hsl(18.181818, 100%, 93.529412%);\n  --warning-150: hsl(17.5, 100%, 90.588235%);\n  --warning-200: hsl(17.704918, 93.846154%, 87.254902%);\n  --warning-250: hsl(17.777778, 81.818182%, 80.588235%);\n  --warning-300: hsl(18, 74.626866%, 73.72549%);\n  --warning-350: hsl(18.151261, 70.414201%, 66.862745%);\n  --warning-400: hsl(18.26087, 66.990291%, 59.607843%);\n  --warning-450: hsl(18.648649, 65.486726%, 55.686275%);\n  --warning-500: hsl(19.245283, 64.37247%, 51.568627%);\n  --warning-550: hsl(20.462428, 72.384937%, 46.862745%);\n  --warning-600: hsl(23.880597, 100%, 39.411765%);\n  --warning-650: hsl(21.818182, 96.491228%, 33.529412%);\n  --warning-700: hsl(19.849624, 95.683453%, 27.254902%);\n  --warning-750: hsl(17.884615, 98.113208%, 20.784314%);\n  --warning-800: hsl(14.4, 100%, 14.705882%);\n  --warning-850: hsl(10.526316, 100%, 11.176471%);\n  --warning-900: hsl(6.153846, 100%, 7.647059%);\n  --warning-950: hsl(2.608696, 100%, 4.509804%);\n  --danger-50: hsl(3.75, 100%, 96.862745%);\n  --danger-100: hsl(2, 100%, 94.117647%);\n  --danger-150: hsl(0, 100%, 91.568627%);\n  --danger-200: hsl(0, 93.220339%, 88.431373%);\n  --danger-250: hsl(359.166667, 76.595745%, 81.568627%);\n  --danger-300: hsl(358.636364, 67.692308%, 74.509804%);\n  --danger-350: hsl(357.669903, 61.676647%, 67.254902%);\n  --danger-400: hsl(355.932203, 57.281553%, 59.607843%);\n  --danger-450: hsl(354.80315, 55.947137%, 55.490196%);\n  --danger-500: hsl(353.333333, 54.216867%, 51.176471%);\n  --danger-550: hsl(351.020408, 62.553191%, 46.078431%);\n  --danger-600: hsl(346.626506, 82.178218%, 39.607843%);\n  --danger-650: hsl(346.901408, 86.585366%, 32.156863%);\n  --danger-700: hsl(347.288136, 90.769231%, 25.490196%);\n  --danger-750: hsl(348.387097, 95.876289%, 19.019608%);\n  --danger-800: hsl(351.176471, 100%, 13.333333%);\n  --danger-850: hsl(354.117647, 100%, 10%);\n  --danger-900: hsl(356.571429, 100%, 6.862745%);\n  --danger-950: hsl(357, 100%, 3.921569%);\n  --info-50: hsl(218.571429, 46.666667%, 94.117647%);\n  --info-100: hsl(216.521739, 36.507937%, 87.647059%);\n  --info-150: hsl(217.5, 34.042553%, 81.568627%);\n  --info-200: hsl(218.04878, 32.8%, 75.490196%);\n  --info-250: hsl(218.888889, 34.615385%, 69.411765%);\n  --info-300: hsl(218.181818, 35.106383%, 63.137255%);\n  --info-350: hsl(218.961039, 35.159817%, 57.058824%);\n  --info-400: hsl(219.310345, 34.939759%, 51.176471%);\n  --info-450: hsl(219.782609, 37.398374%, 48.235294%);\n  --info-500: hsl(219.183673, 42.608696%, 45.098039%);\n  --info-550: hsl(219.411765, 47.663551%, 41.960784%);\n  --info-600: hsl(219.813084, 53.768844%, 39.019608%);\n  --info-650: hsl(219.782609, 56.790123%, 31.764706%);\n  --info-700: hsl(219.74026, 60.629921%, 24.901961%);\n  --info-750: hsl(220, 66.315789%, 18.627451%);\n  --info-800: hsl(220.408163, 77.777778%, 12.352941%);\n  --info-850: hsl(222.631579, 82.608696%, 9.019608%);\n  --info-900: hsl(228.461538, 86.666667%, 5.882353%);\n  --info-950: hsl(228, 100%, 2.941176%);\n}\n";
+var hsl_default2 = ":root {\n  --success-50: hsl(110, 50%, 95.294118%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --success-100: hsl(114.285714, 46.666667%, 91.176471%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --success-150: hsl(113.793103, 43.283582%, 86.862745%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --success-200: hsl(113.513514, 41.573034%, 82.54902%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --success-250: hsl(113.877551, 37.40458%, 74.313725%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --success-300: hsl(115.081967, 35.260116%, 66.078431%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints. */\n  --success-350: hsl(115.833333, 33.333333%, 57.647059%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints. */\n  --success-400: hsl(117.142857, 33.333333%, 49.411765%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints. */\n  --success-450: hsl(118.021978, 39.393939%, 45.294118%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints. */\n  --success-500: hsl(118.181818, 47.826087%, 40.588235%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour. */\n  --success-550: hsl(119.454545, 60.43956%, 35.686275%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons. */\n  --success-600: hsl(123.043478, 100%, 27.058824%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons. */\n  --success-650: hsl(122.105263, 100%, 22.352941%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons. */\n  --success-700: hsl(121.333333, 100%, 17.647059%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons. */\n  --success-750: hsl(120.882353, 100%, 13.333333%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis. */\n  --success-800: hsl(120, 100%, 9.215686%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis. */\n  --success-850: hsl(120, 100%, 6.666667%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis. */\n  --success-900: hsl(120, 100%, 4.313725%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis. */\n  --success-950: hsl(120, 100%, 2.156863%); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis. */\n  --warning-50: hsl(20, 100%, 96.470588%); /** Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --warning-100: hsl(18.181818, 100%, 93.529412%); /** Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --warning-150: hsl(17.5, 100%, 90.588235%); /** Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --warning-200: hsl(17.704918, 93.846154%, 87.254902%); /** Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --warning-250: hsl(17.777778, 81.818182%, 80.588235%); /** Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --warning-300: hsl(18, 74.626866%, 73.72549%); /** Warning state \u2014 caution and actions that need attention. Step 300: light tints. */\n  --warning-350: hsl(18.151261, 70.414201%, 66.862745%); /** Warning state \u2014 caution and actions that need attention. Step 350: light tints. */\n  --warning-400: hsl(18.26087, 66.990291%, 59.607843%); /** Warning state \u2014 caution and actions that need attention. Step 400: light tints. */\n  --warning-450: hsl(18.648649, 65.486726%, 55.686275%); /** Warning state \u2014 caution and actions that need attention. Step 450: light tints. */\n  --warning-500: hsl(19.245283, 64.37247%, 51.568627%); /** Warning state \u2014 caution and actions that need attention. Step 500: base colour. */\n  --warning-550: hsl(20.462428, 72.384937%, 46.862745%); /** Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons. */\n  --warning-600: hsl(23.880597, 100%, 39.411765%); /** Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons. */\n  --warning-650: hsl(21.818182, 96.491228%, 33.529412%); /** Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons. */\n  --warning-700: hsl(19.849624, 95.683453%, 27.254902%); /** Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons. */\n  --warning-750: hsl(17.884615, 98.113208%, 20.784314%); /** Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis. */\n  --warning-800: hsl(14.4, 100%, 14.705882%); /** Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis. */\n  --warning-850: hsl(10.526316, 100%, 11.176471%); /** Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis. */\n  --warning-900: hsl(6.153846, 100%, 7.647059%); /** Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis. */\n  --warning-950: hsl(2.608696, 100%, 4.509804%); /** Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis. */\n  --danger-50: hsl(3.75, 100%, 96.862745%); /** Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --danger-100: hsl(2, 100%, 94.117647%); /** Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --danger-150: hsl(0, 100%, 91.568627%); /** Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --danger-200: hsl(0, 93.220339%, 88.431373%); /** Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --danger-250: hsl(359.166667, 76.595745%, 81.568627%); /** Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --danger-300: hsl(358.636364, 67.692308%, 74.509804%); /** Danger state \u2014 errors and destructive or critical actions. Step 300: light tints. */\n  --danger-350: hsl(357.669903, 61.676647%, 67.254902%); /** Danger state \u2014 errors and destructive or critical actions. Step 350: light tints. */\n  --danger-400: hsl(355.932203, 57.281553%, 59.607843%); /** Danger state \u2014 errors and destructive or critical actions. Step 400: light tints. */\n  --danger-450: hsl(354.80315, 55.947137%, 55.490196%); /** Danger state \u2014 errors and destructive or critical actions. Step 450: light tints. */\n  --danger-500: hsl(353.333333, 54.216867%, 51.176471%); /** Danger state \u2014 errors and destructive or critical actions. Step 500: base colour. */\n  --danger-550: hsl(351.020408, 62.553191%, 46.078431%); /** Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons. */\n  --danger-600: hsl(346.626506, 82.178218%, 39.607843%); /** Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons. */\n  --danger-650: hsl(346.901408, 86.585366%, 32.156863%); /** Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons. */\n  --danger-700: hsl(347.288136, 90.769231%, 25.490196%); /** Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons. */\n  --danger-750: hsl(348.387097, 95.876289%, 19.019608%); /** Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis. */\n  --danger-800: hsl(351.176471, 100%, 13.333333%); /** Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis. */\n  --danger-850: hsl(354.117647, 100%, 10%); /** Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis. */\n  --danger-900: hsl(356.571429, 100%, 6.862745%); /** Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis. */\n  --danger-950: hsl(357, 100%, 3.921569%); /** Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis. */\n  --info-50: hsl(218.571429, 46.666667%, 94.117647%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --info-100: hsl(216.521739, 36.507937%, 87.647059%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --info-150: hsl(217.5, 34.042553%, 81.568627%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --info-200: hsl(218.04878, 32.8%, 75.490196%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --info-250: hsl(218.888889, 34.615385%, 69.411765%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --info-300: hsl(218.181818, 35.106383%, 63.137255%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints. */\n  --info-350: hsl(218.961039, 35.159817%, 57.058824%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints. */\n  --info-400: hsl(219.310345, 34.939759%, 51.176471%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints. */\n  --info-450: hsl(219.782609, 37.398374%, 48.235294%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints. */\n  --info-500: hsl(219.183673, 42.608696%, 45.098039%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour. */\n  --info-550: hsl(219.411765, 47.663551%, 41.960784%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons. */\n  --info-600: hsl(219.813084, 53.768844%, 39.019608%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons. */\n  --info-650: hsl(219.782609, 56.790123%, 31.764706%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons. */\n  --info-700: hsl(219.74026, 60.629921%, 24.901961%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons. */\n  --info-750: hsl(220, 66.315789%, 18.627451%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis. */\n  --info-800: hsl(220.408163, 77.777778%, 12.352941%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis. */\n  --info-850: hsl(222.631579, 82.608696%, 9.019608%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis. */\n  --info-900: hsl(228.461538, 86.666667%, 5.882353%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis. */\n  --info-950: hsl(228, 100%, 2.941176%); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/semantic/oklch.css
 var oklch_exports2 = {};
 __export(oklch_exports2, {
   default: () => oklch_default2
 });
-var oklch_default2 = ":root {\n  --success-50: oklch(0.97135 0.019006 140.501237);\n  --success-100: oklch(0.944414 0.03435 142.617675);\n  --success-150: oklch(0.916251 0.047557 142.315326);\n  --success-200: oklch(0.888142 0.060884 142.11755);\n  --success-250: oklch(0.831935 0.081627 142.168533);\n  --success-300: oklch(0.775209 0.103098 142.532525);\n  --success-350: oklch(0.716492 0.122642 142.635863);\n  --success-400: oklch(0.660489 0.143002 142.833374);\n  --success-450: oklch(0.633907 0.153727 142.929021);\n  --success-500: oklch(0.604784 0.163709 142.769697);\n  --success-550: oklch(0.57829 0.174808 142.795704);\n  --success-600: oklch(0.549041 0.184944 142.800761);\n  --success-650: oklch(0.478504 0.161407 142.758807);\n  --success-700: oklch(0.40526 0.136911 142.712023);\n  --success-750: oklch(0.335094 0.113301 142.686907);\n  --success-800: oklch(0.26443 0.089979 142.495345);\n  --success-850: oklch(0.218312 0.074286 142.495345);\n  --success-900: oklch(0.173455 0.059022 142.495345);\n  --success-950: oklch(0.1296 0.044099 142.495345);\n  --warning-50: oklch(0.971893 0.01526 48.562489);\n  --warning-100: oklch(0.946835 0.028629 45.030952);\n  --warning-150: oklch(0.922108 0.042396 43.676216);\n  --warning-200: oklch(0.895911 0.054446 43.945452);\n  --warning-250: oklch(0.843843 0.073851 43.908489);\n  --warning-300: oklch(0.791422 0.092884 44.093664);\n  --warning-350: oklch(0.739959 0.112378 44.054533);\n  --warning-400: oklch(0.686894 0.13202 43.712861);\n  --warning-450: oklch(0.660361 0.141466 43.83103);\n  --warning-500: oklch(0.634409 0.150779 43.925238);\n  --warning-550: oklch(0.609132 0.159967 44.109192);\n  --warning-600: oklch(0.58333 0.169705 43.997259);\n  --warning-650: oklch(0.507151 0.15026 42.423427);\n  --warning-700: oklch(0.431173 0.130695 40.89405);\n  --warning-750: oklch(0.354963 0.110993 39.686374);\n  --warning-800: oklch(0.278045 0.090492 38.267541);\n  --warning-850: oklch(0.230061 0.077034 36.983064);\n  --warning-900: oklch(0.18011 0.062518 35.437897);\n  --warning-950: oklch(0.132509 0.049077 32.856899);\n  --danger-50: oklch(0.966669 0.016317 22.079707);\n  --danger-100: oklch(0.936228 0.032074 20.106519);\n  --danger-150: oklch(0.90654 0.04838 18.081137);\n  --danger-200: oklch(0.875232 0.062981 18.428147);\n  --danger-250: oklch(0.813013 0.084945 18.165704);\n  --danger-300: oklch(0.75077 0.106785 18.43901);\n  --danger-350: oklch(0.689178 0.12804 18.526045);\n  --danger-400: oklch(0.62753 0.149171 18.309398);\n  --danger-450: oklch(0.596213 0.160938 18.339163);\n  --danger-500: oklch(0.565284 0.170522 18.2478);\n  --danger-550: oklch(0.532839 0.182017 18.232802);\n  --danger-600: oklch(0.501996 0.192725 18.079135);\n  --danger-650: oklch(0.436904 0.169068 18.82836);\n  --danger-700: oklch(0.374388 0.145685 19.336218);\n  --danger-750: oklch(0.30874 0.121759 19.939515);\n  --danger-800: oklch(0.244464 0.098267 20.667881);\n  --danger-850: oklch(0.202838 0.081665 21.65418);\n  --danger-900: oklch(0.161611 0.065248 23.141473);\n  --danger-950: oklch(0.120777 0.048658 22.023968);\n  --info-50: oklch(0.947933 0.013249 262.378766);\n  --info-100: oklch(0.894885 0.02153 259.191552);\n  --info-150: oklch(0.84226 0.030869 260.704222);\n  --info-200: oklch(0.788988 0.040588 261.491472);\n  --info-250: oklch(0.732279 0.055255 262.600626);\n  --info-300: oklch(0.676764 0.068234 261.470834);\n  --info-350: oklch(0.619287 0.082332 262.339289);\n  --info-400: oklch(0.564226 0.095527 262.52779);\n  --info-450: oklch(0.535493 0.102893 262.922919);\n  --info-500: oklch(0.508435 0.109592 262.050185);\n  --info-550: oklch(0.479149 0.115698 262.137071);\n  --info-600: oklch(0.450622 0.123283 262.351496);\n  --info-650: oklch(0.390336 0.109632 262.276763);\n  --info-700: oklch(0.331327 0.095363 262.195822);\n  --info-750: oklch(0.274244 0.081954 262.38017);\n  --info-800: oklch(0.213923 0.06809 262.409405);\n  --info-850: oklch(0.177247 0.057971 262.994032);\n  --info-900: oklch(0.137795 0.047857 264.580497);\n  --info-950: oklch(0.101112 0.036894 257.665016);\n}\n";
+var oklch_default2 = ":root {\n  --success-50: oklch(0.97135 0.019006 140.501237); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --success-100: oklch(0.944414 0.03435 142.617675); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --success-150: oklch(0.916251 0.047557 142.315326); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --success-200: oklch(0.888142 0.060884 142.11755); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --success-250: oklch(0.831935 0.081627 142.168533); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --success-300: oklch(0.775209 0.103098 142.532525); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints. */\n  --success-350: oklch(0.716492 0.122642 142.635863); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints. */\n  --success-400: oklch(0.660489 0.143002 142.833374); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints. */\n  --success-450: oklch(0.633907 0.153727 142.929021); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints. */\n  --success-500: oklch(0.604784 0.163709 142.769697); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour. */\n  --success-550: oklch(0.57829 0.174808 142.795704); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons. */\n  --success-600: oklch(0.549041 0.184944 142.800761); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons. */\n  --success-650: oklch(0.478504 0.161407 142.758807); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons. */\n  --success-700: oklch(0.40526 0.136911 142.712023); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons. */\n  --success-750: oklch(0.335094 0.113301 142.686907); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis. */\n  --success-800: oklch(0.26443 0.089979 142.495345); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis. */\n  --success-850: oklch(0.218312 0.074286 142.495345); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis. */\n  --success-900: oklch(0.173455 0.059022 142.495345); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis. */\n  --success-950: oklch(0.1296 0.044099 142.495345); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis. */\n  --warning-50: oklch(0.971893 0.01526 48.562489); /** Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --warning-100: oklch(0.946835 0.028629 45.030952); /** Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --warning-150: oklch(0.922108 0.042396 43.676216); /** Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --warning-200: oklch(0.895911 0.054446 43.945452); /** Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --warning-250: oklch(0.843843 0.073851 43.908489); /** Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --warning-300: oklch(0.791422 0.092884 44.093664); /** Warning state \u2014 caution and actions that need attention. Step 300: light tints. */\n  --warning-350: oklch(0.739959 0.112378 44.054533); /** Warning state \u2014 caution and actions that need attention. Step 350: light tints. */\n  --warning-400: oklch(0.686894 0.13202 43.712861); /** Warning state \u2014 caution and actions that need attention. Step 400: light tints. */\n  --warning-450: oklch(0.660361 0.141466 43.83103); /** Warning state \u2014 caution and actions that need attention. Step 450: light tints. */\n  --warning-500: oklch(0.634409 0.150779 43.925238); /** Warning state \u2014 caution and actions that need attention. Step 500: base colour. */\n  --warning-550: oklch(0.609132 0.159967 44.109192); /** Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons. */\n  --warning-600: oklch(0.58333 0.169705 43.997259); /** Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons. */\n  --warning-650: oklch(0.507151 0.15026 42.423427); /** Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons. */\n  --warning-700: oklch(0.431173 0.130695 40.89405); /** Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons. */\n  --warning-750: oklch(0.354963 0.110993 39.686374); /** Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis. */\n  --warning-800: oklch(0.278045 0.090492 38.267541); /** Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis. */\n  --warning-850: oklch(0.230061 0.077034 36.983064); /** Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis. */\n  --warning-900: oklch(0.18011 0.062518 35.437897); /** Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis. */\n  --warning-950: oklch(0.132509 0.049077 32.856899); /** Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis. */\n  --danger-50: oklch(0.966669 0.016317 22.079707); /** Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --danger-100: oklch(0.936228 0.032074 20.106519); /** Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --danger-150: oklch(0.90654 0.04838 18.081137); /** Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --danger-200: oklch(0.875232 0.062981 18.428147); /** Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --danger-250: oklch(0.813013 0.084945 18.165704); /** Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --danger-300: oklch(0.75077 0.106785 18.43901); /** Danger state \u2014 errors and destructive or critical actions. Step 300: light tints. */\n  --danger-350: oklch(0.689178 0.12804 18.526045); /** Danger state \u2014 errors and destructive or critical actions. Step 350: light tints. */\n  --danger-400: oklch(0.62753 0.149171 18.309398); /** Danger state \u2014 errors and destructive or critical actions. Step 400: light tints. */\n  --danger-450: oklch(0.596213 0.160938 18.339163); /** Danger state \u2014 errors and destructive or critical actions. Step 450: light tints. */\n  --danger-500: oklch(0.565284 0.170522 18.2478); /** Danger state \u2014 errors and destructive or critical actions. Step 500: base colour. */\n  --danger-550: oklch(0.532839 0.182017 18.232802); /** Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons. */\n  --danger-600: oklch(0.501996 0.192725 18.079135); /** Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons. */\n  --danger-650: oklch(0.436904 0.169068 18.82836); /** Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons. */\n  --danger-700: oklch(0.374388 0.145685 19.336218); /** Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons. */\n  --danger-750: oklch(0.30874 0.121759 19.939515); /** Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis. */\n  --danger-800: oklch(0.244464 0.098267 20.667881); /** Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis. */\n  --danger-850: oklch(0.202838 0.081665 21.65418); /** Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis. */\n  --danger-900: oklch(0.161611 0.065248 23.141473); /** Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis. */\n  --danger-950: oklch(0.120777 0.048658 22.023968); /** Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis. */\n  --info-50: oklch(0.947933 0.013249 262.378766); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --info-100: oklch(0.894885 0.02153 259.191552); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --info-150: oklch(0.84226 0.030869 260.704222); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --info-200: oklch(0.788988 0.040588 261.491472); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --info-250: oklch(0.732279 0.055255 262.600626); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --info-300: oklch(0.676764 0.068234 261.470834); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints. */\n  --info-350: oklch(0.619287 0.082332 262.339289); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints. */\n  --info-400: oklch(0.564226 0.095527 262.52779); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints. */\n  --info-450: oklch(0.535493 0.102893 262.922919); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints. */\n  --info-500: oklch(0.508435 0.109592 262.050185); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour. */\n  --info-550: oklch(0.479149 0.115698 262.137071); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons. */\n  --info-600: oklch(0.450622 0.123283 262.351496); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons. */\n  --info-650: oklch(0.390336 0.109632 262.276763); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons. */\n  --info-700: oklch(0.331327 0.095363 262.195822); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons. */\n  --info-750: oklch(0.274244 0.081954 262.38017); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis. */\n  --info-800: oklch(0.213923 0.06809 262.409405); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis. */\n  --info-850: oklch(0.177247 0.057971 262.994032); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis. */\n  --info-900: oklch(0.137795 0.047857 264.580497); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis. */\n  --info-950: oklch(0.101112 0.036894 257.665016); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/semantic/rgb.css
 var rgb_exports2 = {};
 __export(rgb_exports2, {
   default: () => rgb_default2
 });
-var rgb_default2 = ":root {\n  --success-50: rgb(239, 249, 237);\n  --success-100: rgb(224, 243, 222);\n  --success-150: rgb(210, 236, 207);\n  --success-200: rgb(196, 229, 192);\n  --success-250: rgb(170, 214, 165);\n  --success-300: rgb(143, 199, 138);\n  --success-350: rgb(116, 183, 111);\n  --success-400: rgb(88, 168, 84);\n  --success-450: rgb(73, 161, 70);\n  --success-500: rgb(57, 153, 54);\n  --success-550: rgb(37, 146, 36);\n  --success-600: rgb(0, 138, 7);\n  --success-650: rgb(0, 114, 4);\n  --success-700: rgb(0, 90, 2);\n  --success-750: rgb(0, 68, 1);\n  --success-800: rgb(0, 47, 0);\n  --success-850: rgb(0, 34, 0);\n  --success-900: rgb(0, 22, 0);\n  --success-950: rgb(0, 11, 0);\n  --warning-50: rgb(255, 243, 237);\n  --warning-100: rgb(255, 232, 222);\n  --warning-150: rgb(255, 221, 207);\n  --warning-200: rgb(253, 210, 192);\n  --warning-250: rgb(246, 189, 165);\n  --warning-300: rgb(238, 168, 138);\n  --warning-350: rgb(230, 147, 111);\n  --warning-400: rgb(221, 125, 83);\n  --warning-450: rgb(216, 114, 68);\n  --warning-500: rgb(211, 103, 52);\n  --warning-550: rgb(206, 92, 33);\n  --warning-600: rgb(201, 80, 0);\n  --warning-650: rgb(168, 63, 3);\n  --warning-700: rgb(136, 47, 3);\n  --warning-750: rgb(105, 32, 1);\n  --warning-800: rgb(75, 18, 0);\n  --warning-850: rgb(57, 10, 0);\n  --warning-900: rgb(39, 4, 0);\n  --warning-950: rgb(23, 1, 0);\n  --danger-50: rgb(255, 240, 239);\n  --danger-100: rgb(255, 226, 225);\n  --danger-150: rgb(255, 212, 212);\n  --danger-200: rgb(253, 198, 198);\n  --danger-250: rgb(244, 172, 173);\n  --danger-300: rgb(234, 146, 148);\n  --danger-350: rgb(223, 120, 124);\n  --danger-400: rgb(211, 93, 101);\n  --danger-450: rgb(205, 78, 89);\n  --danger-500: rgb(198, 63, 78);\n  --danger-550: rgb(191, 44, 66);\n  --danger-600: rgb(184, 18, 55);\n  --danger-650: rgb(153, 11, 42);\n  --danger-700: rgb(124, 6, 31);\n  --danger-750: rgb(95, 2, 20);\n  --danger-800: rgb(68, 0, 10);\n  --danger-850: rgb(51, 0, 5);\n  --danger-900: rgb(35, 0, 2);\n  --danger-950: rgb(20, 0, 1);\n  --info-50: rgb(233, 238, 247);\n  --info-100: rgb(212, 221, 235);\n  --info-150: rgb(192, 204, 224);\n  --info-200: rgb(172, 187, 213);\n  --info-250: rgb(150, 169, 204);\n  --info-300: rgb(128, 152, 194);\n  --info-350: rgb(107, 134, 184);\n  --info-400: rgb(87, 117, 174);\n  --info-450: rgb(77, 108, 169);\n  --info-500: rgb(66, 100, 164);\n  --info-550: rgb(56, 91, 158);\n  --info-600: rgb(46, 82, 153);\n  --info-650: rgb(35, 66, 127);\n  --info-700: rgb(25, 51, 102);\n  --info-750: rgb(16, 37, 79);\n  --info-800: rgb(7, 23, 56);\n  --info-850: rgb(4, 15, 42);\n  --info-900: rgb(2, 7, 28);\n  --info-950: rgb(0, 3, 15);\n}\n";
+var rgb_default2 = ":root {\n  --success-50: rgb(239, 249, 237); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --success-100: rgb(224, 243, 222); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --success-150: rgb(210, 236, 207); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --success-200: rgb(196, 229, 192); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --success-250: rgb(170, 214, 165); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --success-300: rgb(143, 199, 138); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints. */\n  --success-350: rgb(116, 183, 111); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints. */\n  --success-400: rgb(88, 168, 84); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints. */\n  --success-450: rgb(73, 161, 70); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints. */\n  --success-500: rgb(57, 153, 54); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour. */\n  --success-550: rgb(37, 146, 36); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons. */\n  --success-600: rgb(0, 138, 7); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons. */\n  --success-650: rgb(0, 114, 4); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons. */\n  --success-700: rgb(0, 90, 2); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons. */\n  --success-750: rgb(0, 68, 1); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis. */\n  --success-800: rgb(0, 47, 0); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis. */\n  --success-850: rgb(0, 34, 0); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis. */\n  --success-900: rgb(0, 22, 0); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis. */\n  --success-950: rgb(0, 11, 0); /** Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis. */\n  --warning-50: rgb(255, 243, 237); /** Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --warning-100: rgb(255, 232, 222); /** Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --warning-150: rgb(255, 221, 207); /** Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --warning-200: rgb(253, 210, 192); /** Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --warning-250: rgb(246, 189, 165); /** Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --warning-300: rgb(238, 168, 138); /** Warning state \u2014 caution and actions that need attention. Step 300: light tints. */\n  --warning-350: rgb(230, 147, 111); /** Warning state \u2014 caution and actions that need attention. Step 350: light tints. */\n  --warning-400: rgb(221, 125, 83); /** Warning state \u2014 caution and actions that need attention. Step 400: light tints. */\n  --warning-450: rgb(216, 114, 68); /** Warning state \u2014 caution and actions that need attention. Step 450: light tints. */\n  --warning-500: rgb(211, 103, 52); /** Warning state \u2014 caution and actions that need attention. Step 500: base colour. */\n  --warning-550: rgb(206, 92, 33); /** Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons. */\n  --warning-600: rgb(201, 80, 0); /** Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons. */\n  --warning-650: rgb(168, 63, 3); /** Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons. */\n  --warning-700: rgb(136, 47, 3); /** Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons. */\n  --warning-750: rgb(105, 32, 1); /** Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis. */\n  --warning-800: rgb(75, 18, 0); /** Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis. */\n  --warning-850: rgb(57, 10, 0); /** Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis. */\n  --warning-900: rgb(39, 4, 0); /** Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis. */\n  --warning-950: rgb(23, 1, 0); /** Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis. */\n  --danger-50: rgb(255, 240, 239); /** Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --danger-100: rgb(255, 226, 225); /** Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --danger-150: rgb(255, 212, 212); /** Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --danger-200: rgb(253, 198, 198); /** Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --danger-250: rgb(244, 172, 173); /** Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --danger-300: rgb(234, 146, 148); /** Danger state \u2014 errors and destructive or critical actions. Step 300: light tints. */\n  --danger-350: rgb(223, 120, 124); /** Danger state \u2014 errors and destructive or critical actions. Step 350: light tints. */\n  --danger-400: rgb(211, 93, 101); /** Danger state \u2014 errors and destructive or critical actions. Step 400: light tints. */\n  --danger-450: rgb(205, 78, 89); /** Danger state \u2014 errors and destructive or critical actions. Step 450: light tints. */\n  --danger-500: rgb(198, 63, 78); /** Danger state \u2014 errors and destructive or critical actions. Step 500: base colour. */\n  --danger-550: rgb(191, 44, 66); /** Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons. */\n  --danger-600: rgb(184, 18, 55); /** Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons. */\n  --danger-650: rgb(153, 11, 42); /** Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons. */\n  --danger-700: rgb(124, 6, 31); /** Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons. */\n  --danger-750: rgb(95, 2, 20); /** Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis. */\n  --danger-800: rgb(68, 0, 10); /** Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis. */\n  --danger-850: rgb(51, 0, 5); /** Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis. */\n  --danger-900: rgb(35, 0, 2); /** Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis. */\n  --danger-950: rgb(20, 0, 1); /** Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis. */\n  --info-50: rgb(233, 238, 247); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --info-100: rgb(212, 221, 235); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --info-150: rgb(192, 204, 224); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --info-200: rgb(172, 187, 213); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --info-250: rgb(150, 169, 204); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --info-300: rgb(128, 152, 194); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints. */\n  --info-350: rgb(107, 134, 184); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints. */\n  --info-400: rgb(87, 117, 174); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints. */\n  --info-450: rgb(77, 108, 169); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints. */\n  --info-500: rgb(66, 100, 164); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour. */\n  --info-550: rgb(56, 91, 158); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons. */\n  --info-600: rgb(46, 82, 153); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons. */\n  --info-650: rgb(35, 66, 127); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons. */\n  --info-700: rgb(25, 51, 102); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons. */\n  --info-750: rgb(16, 37, 79); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis. */\n  --info-800: rgb(7, 23, 56); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis. */\n  --info-850: rgb(4, 15, 42); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis. */\n  --info-900: rgb(2, 7, 28); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis. */\n  --info-950: rgb(0, 3, 15); /** Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/themes/masterbrand/hex.css
 var hex_exports3 = {};
 __export(hex_exports3, {
   default: () => hex_default3
 });
-var hex_default3 = ":root {\n  --primary-50: #f0fbff;\n  --primary-100: #e4f6ff;\n  --primary-150: #d7f2fe;\n  --primary-200: #cbedfd;\n  --primary-250: #bceafe;\n  --primary-300: #ade7ff;\n  --primary-350: #9de3ff;\n  --primary-400: #8ce0ff;\n  --primary-450: #5ac9ff;\n  --primary-500: #26aeff;\n  --primary-550: #008fff;\n  --primary-600: #146cfd;\n  --primary-650: #0c5ad4;\n  --primary-700: #0548ad;\n  --primary-750: #023688;\n  --primary-800: #002664;\n  --primary-850: #001a4d;\n  --primary-900: #001037;\n  --primary-950: #000622;\n  --accent-50: #fff8f9;\n  --accent-100: #fff2f4;\n  --accent-150: #ffecef;\n  --accent-200: #ffe6ea;\n  --accent-250: #ffdbe0;\n  --accent-300: #ffcfd6;\n  --accent-350: #ffc4cc;\n  --accent-400: #ffb8c1;\n  --accent-450: #f897a2;\n  --accent-500: #ef7581;\n  --accent-550: #e44f5f;\n  --accent-600: #d7153a;\n  --accent-650: #b90e32;\n  --accent-700: #9b072a;\n  --accent-750: #7e0322;\n  --accent-800: #630019;\n  --accent-850: #4c0010;\n  --accent-900: #360008;\n  --accent-950: #210003;\n  --grey-50: #fafafa;\n  --grey-100: #f5f5f5;\n  --grey-150: #f0f0f0;\n  --grey-200: #ebebeb;\n  --grey-250: #e3e5e6;\n  --grey-300: #dcdfe0;\n  --grey-350: #d4d9db;\n  --grey-400: #cdd3d6;\n  --grey-450: #aab0b4;\n  --grey-500: #888f92;\n  --grey-550: #686f72;\n  --grey-600: #495054;\n  --grey-650: #3f4549;\n  --grey-700: #353b3f;\n  --grey-750: #2b3135;\n  --grey-800: #22272b;\n  --grey-850: #181c1f;\n  --grey-900: #0e1113;\n  --grey-950: #050709;\n}\n";
+var hex_default3 = ":root {\n  --primary-50: #f0fbff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --primary-100: #e4f6ff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --primary-150: #d7f2fe; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --primary-200: #cbedfd; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --primary-250: #bceafe; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --primary-300: #ade7ff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints. */\n  --primary-350: #9de3ff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints. */\n  --primary-400: #8ce0ff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints. */\n  --primary-450: #5ac9ff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints. */\n  --primary-500: #26aeff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour. */\n  --primary-550: #008fff; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons. */\n  --primary-600: #146cfd; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons. */\n  --primary-650: #0c5ad4; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons. */\n  --primary-700: #0548ad; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons. */\n  --primary-750: #023688; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis. */\n  --primary-800: #002664; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis. */\n  --primary-850: #001a4d; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis. */\n  --primary-900: #001037; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis. */\n  --primary-950: #000622; /** Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis. */\n  --accent-50: #fff8f9; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --accent-100: #fff2f4; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --accent-150: #ffecef; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --accent-200: #ffe6ea; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --accent-250: #ffdbe0; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --accent-300: #ffcfd6; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints. */\n  --accent-350: #ffc4cc; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints. */\n  --accent-400: #ffb8c1; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints. */\n  --accent-450: #f897a2; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints. */\n  --accent-500: #ef7581; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour. */\n  --accent-550: #e44f5f; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons. */\n  --accent-600: #d7153a; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons. */\n  --accent-650: #b90e32; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons. */\n  --accent-700: #9b072a; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons. */\n  --accent-750: #7e0322; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis. */\n  --accent-800: #630019; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis. */\n  --accent-850: #4c0010; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis. */\n  --accent-900: #360008; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis. */\n  --accent-950: #210003; /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis. */\n  --grey-50: #fafafa; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --grey-100: #f5f5f5; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --grey-150: #f0f0f0; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --grey-200: #ebebeb; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --grey-250: #e3e5e6; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --grey-300: #dcdfe0; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints. */\n  --grey-350: #d4d9db; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints. */\n  --grey-400: #cdd3d6; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints. */\n  --grey-450: #aab0b4; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints. */\n  --grey-500: #888f92; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour. */\n  --grey-550: #686f72; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons. */\n  --grey-600: #495054; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons. */\n  --grey-650: #3f4549; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons. */\n  --grey-700: #353b3f; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons. */\n  --grey-750: #2b3135; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis. */\n  --grey-800: #22272b; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis. */\n  --grey-850: #181c1f; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis. */\n  --grey-900: #0e1113; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis. */\n  --grey-950: #050709; /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/themes/masterbrand/hsl.css
 var hsl_exports3 = {};
 __export(hsl_exports3, {
   default: () => hsl_default3
 });
-var hsl_default3 = ":root {\n  --primary-50: hsl(196, 100%, 97.058824%);\n  --primary-100: hsl(200, 100%, 94.705882%);\n  --primary-150: hsl(198.461538, 95.121951%, 91.960784%);\n  --primary-200: hsl(199.2, 92.592593%, 89.411765%);\n  --primary-250: hsl(198.181818, 97.058824%, 86.666667%);\n  --primary-300: hsl(197.560976, 100%, 83.921569%);\n  --primary-350: hsl(197.142857, 100%, 80.784314%);\n  --primary-400: hsl(196.173913, 100%, 77.45098%);\n  --primary-450: hsl(199.636364, 100%, 67.647059%);\n  --primary-500: hsl(202.396313, 100%, 57.45098%);\n  --primary-550: hsl(206.352941, 100%, 50%);\n  --primary-600: hsl(217.339056, 98.312236%, 53.529412%);\n  --primary-650: hsl(216.6, 89.285714%, 43.921569%);\n  --primary-700: hsl(216.071429, 94.382022%, 34.901961%);\n  --primary-750: hsl(216.716418, 97.101449%, 27.058824%);\n  --primary-800: hsl(217.2, 100%, 19.607843%);\n  --primary-850: hsl(219.74026, 100%, 15.098039%);\n  --primary-900: hsl(222.545455, 100%, 10.784314%);\n  --primary-950: hsl(229.411765, 100%, 6.666667%);\n  --accent-50: hsl(351.428571, 100%, 98.627451%);\n  --accent-100: hsl(350.769231, 100%, 97.45098%);\n  --accent-150: hsl(350.526316, 100%, 96.27451%);\n  --accent-200: hsl(350.4, 100%, 95.098039%);\n  --accent-250: hsl(351.666667, 100%, 92.941176%);\n  --accent-300: hsl(351.25, 100%, 90.588235%);\n  --accent-350: hsl(351.864407, 100%, 88.431373%);\n  --accent-400: hsl(352.394366, 100%, 86.078431%);\n  --accent-450: hsl(353.195876, 87.387387%, 78.235294%);\n  --accent-500: hsl(354.098361, 79.220779%, 69.803922%);\n  --accent-550: hsl(353.557047, 73.399015%, 60.196078%);\n  --accent-600: hsl(348.556701, 82.20339%, 46.27451%);\n  --accent-650: hsl(347.368421, 85.929648%, 39.019608%);\n  --accent-700: hsl(345.810811, 91.358025%, 31.764706%);\n  --accent-750: hsl(344.878049, 95.348837%, 25.294118%);\n  --accent-800: hsl(344.848485, 100%, 19.411765%);\n  --accent-850: hsl(347.368421, 100%, 14.901961%);\n  --accent-900: hsl(351.111111, 100%, 10.588235%);\n  --accent-950: hsl(354.545455, 100%, 6.470588%);\n  --grey-50: hsl(0, 0%, 98.039216%);\n  --grey-100: hsl(0, 0%, 96.078431%);\n  --grey-150: hsl(0, 0%, 94.117647%);\n  --grey-200: hsl(0, 0%, 92.156863%);\n  --grey-250: hsl(200, 5.660377%, 89.607843%);\n  --grey-300: hsl(195, 6.060606%, 87.058824%);\n  --grey-350: hsl(197.142857, 8.860759%, 84.509804%);\n  --grey-400: hsl(200, 9.89011%, 82.156863%);\n  --grey-450: hsl(204, 6.25%, 68.627451%);\n  --grey-500: hsl(198, 4.385965%, 55.294118%);\n  --grey-550: hsl(198, 4.587156%, 42.745098%);\n  --grey-600: hsl(201.818182, 7.006369%, 30.784314%);\n  --grey-650: hsl(204, 7.352941%, 26.666667%);\n  --grey-700: hsl(204, 8.62069%, 22.745098%);\n  --grey-750: hsl(204, 10.416667%, 18.823529%);\n  --grey-800: hsl(206.666667, 11.688312%, 15.098039%);\n  --grey-850: hsl(205.714286, 12.727273%, 10.784314%);\n  --grey-900: hsl(204, 15.151515%, 6.470588%);\n  --grey-950: hsl(210, 28.571429%, 2.745098%);\n}\n";
+var hsl_default3 = ":root {\n  --primary-50: hsl(196, 100%, 97.058824%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --primary-100: hsl(200, 100%, 94.705882%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --primary-150: hsl(198.461538, 95.121951%, 91.960784%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --primary-200: hsl(199.2, 92.592593%, 89.411765%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --primary-250: hsl(198.181818, 97.058824%, 86.666667%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --primary-300: hsl(197.560976, 100%, 83.921569%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints. */\n  --primary-350: hsl(197.142857, 100%, 80.784314%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints. */\n  --primary-400: hsl(196.173913, 100%, 77.45098%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints. */\n  --primary-450: hsl(199.636364, 100%, 67.647059%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints. */\n  --primary-500: hsl(202.396313, 100%, 57.45098%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour. */\n  --primary-550: hsl(206.352941, 100%, 50%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons. */\n  --primary-600: hsl(217.339056, 98.312236%, 53.529412%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons. */\n  --primary-650: hsl(216.6, 89.285714%, 43.921569%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons. */\n  --primary-700: hsl(216.071429, 94.382022%, 34.901961%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons. */\n  --primary-750: hsl(216.716418, 97.101449%, 27.058824%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis. */\n  --primary-800: hsl(217.2, 100%, 19.607843%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis. */\n  --primary-850: hsl(219.74026, 100%, 15.098039%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis. */\n  --primary-900: hsl(222.545455, 100%, 10.784314%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis. */\n  --primary-950: hsl(229.411765, 100%, 6.666667%); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis. */\n  --accent-50: hsl(351.428571, 100%, 98.627451%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --accent-100: hsl(350.769231, 100%, 97.45098%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --accent-150: hsl(350.526316, 100%, 96.27451%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --accent-200: hsl(350.4, 100%, 95.098039%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --accent-250: hsl(351.666667, 100%, 92.941176%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --accent-300: hsl(351.25, 100%, 90.588235%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints. */\n  --accent-350: hsl(351.864407, 100%, 88.431373%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints. */\n  --accent-400: hsl(352.394366, 100%, 86.078431%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints. */\n  --accent-450: hsl(353.195876, 87.387387%, 78.235294%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints. */\n  --accent-500: hsl(354.098361, 79.220779%, 69.803922%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour. */\n  --accent-550: hsl(353.557047, 73.399015%, 60.196078%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons. */\n  --accent-600: hsl(348.556701, 82.20339%, 46.27451%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons. */\n  --accent-650: hsl(347.368421, 85.929648%, 39.019608%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons. */\n  --accent-700: hsl(345.810811, 91.358025%, 31.764706%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons. */\n  --accent-750: hsl(344.878049, 95.348837%, 25.294118%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis. */\n  --accent-800: hsl(344.848485, 100%, 19.411765%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis. */\n  --accent-850: hsl(347.368421, 100%, 14.901961%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis. */\n  --accent-900: hsl(351.111111, 100%, 10.588235%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis. */\n  --accent-950: hsl(354.545455, 100%, 6.470588%); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis. */\n  --grey-50: hsl(0, 0%, 98.039216%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --grey-100: hsl(0, 0%, 96.078431%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --grey-150: hsl(0, 0%, 94.117647%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --grey-200: hsl(0, 0%, 92.156863%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --grey-250: hsl(200, 5.660377%, 89.607843%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --grey-300: hsl(195, 6.060606%, 87.058824%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints. */\n  --grey-350: hsl(197.142857, 8.860759%, 84.509804%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints. */\n  --grey-400: hsl(200, 9.89011%, 82.156863%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints. */\n  --grey-450: hsl(204, 6.25%, 68.627451%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints. */\n  --grey-500: hsl(198, 4.385965%, 55.294118%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour. */\n  --grey-550: hsl(198, 4.587156%, 42.745098%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons. */\n  --grey-600: hsl(201.818182, 7.006369%, 30.784314%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons. */\n  --grey-650: hsl(204, 7.352941%, 26.666667%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons. */\n  --grey-700: hsl(204, 8.62069%, 22.745098%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons. */\n  --grey-750: hsl(204, 10.416667%, 18.823529%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis. */\n  --grey-800: hsl(206.666667, 11.688312%, 15.098039%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis. */\n  --grey-850: hsl(205.714286, 12.727273%, 10.784314%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis. */\n  --grey-900: hsl(204, 15.151515%, 6.470588%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis. */\n  --grey-950: hsl(210, 28.571429%, 2.745098%); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/themes/masterbrand/oklch.css
 var oklch_exports3 = {};
 __export(oklch_exports3, {
   default: () => oklch_default3
 });
-var oklch_default3 = ":root {\n  --primary-50: oklch(0.981046 0.012805 221.42319);\n  --primary-100: oklch(0.962528 0.022535 229.073806);\n  --primary-150: oklch(0.945178 0.032646 226.304274);\n  --primary-200: oklch(0.926674 0.041663 227.890787);\n  --primary-250: oklch(0.911263 0.054737 226.223779);\n  --primary-300: oklch(0.896395 0.067447 225.364647);\n  --primary-350: oklch(0.87908 0.079726 224.961348);\n  --primary-400: oklch(0.864091 0.092143 223.595164);\n  --primary-450: oklch(0.793049 0.126377 232.671182);\n  --primary-500: oklch(0.719588 0.160232 241.934243);\n  --primary-550: oklch(0.647121 0.194114 252.085254);\n  --primary-600: oklch(0.575113 0.229834 260.756335);\n  --primary-650: oklch(0.504429 0.200565 260.409998);\n  --primary-700: oklch(0.433012 0.172764 260.164397);\n  --primary-750: oklch(0.360675 0.146274 260.290439);\n  --primary-800: oklch(0.289999 0.117296 259.841938);\n  --primary-850: oklch(0.238584 0.100105 260.505764);\n  --primary-900: oklch(0.190403 0.080719 260.682766);\n  --primary-950: oklch(0.138623 0.062732 261.699127);\n  --accent-50: oklch(0.984801 0.007587 7.280361);\n  --accent-100: oklch(0.97188 0.014232 6.700043);\n  --accent-150: oklch(0.959029 0.020979 6.606185);\n  --accent-200: oklch(0.946252 0.027827 6.653086);\n  --accent-250: oklch(0.922815 0.040479 8.438397);\n  --accent-300: oklch(0.897868 0.054828 8.39461);\n  --accent-350: oklch(0.875166 0.068164 9.494436);\n  --accent-400: oklch(0.850883 0.08303 10.570683);\n  --accent-450: oklch(0.779076 0.116944 12.810782);\n  --accent-500: oklch(0.707215 0.150378 15.602977);\n  --accent-550: oklch(0.634722 0.184087 17.935378);\n  --accent-600: oklch(0.561955 0.217505 20.33356);\n  --accent-650: oklch(0.501611 0.19526 19.649998);\n  --accent-700: oklch(0.439441 0.172351 18.724983);\n  --accent-750: oklch(0.377602 0.149006 17.706488);\n  --accent-800: oklch(0.316967 0.126887 17.133117);\n  --accent-850: oklch(0.26401 0.105766 17.967115);\n  --accent-900: oklch(0.210832 0.084535 18.772606);\n  --accent-950: oklch(0.156795 0.062933 19.607624);\n  --grey-50: oklch(0.985104 0 0);\n  --grey-100: oklch(0.970151 0 0);\n  --grey-150: oklch(0.95514 0 0);\n  --grey-200: oklch(0.94007 0 0);\n  --grey-250: oklch(0.920652 0.002558 228.786818);\n  --grey-300: oklch(0.901624 0.003538 219.535738);\n  --grey-350: oklch(0.882025 0.006111 223.464254);\n  --grey-400: oklch(0.863097 0.007776 228.868893);\n  --grey-450: oklch(0.753634 0.008885 236.605307);\n  --grey-500: oklch(0.645222 0.009348 225.150438);\n  --grey-550: oklch(0.536704 0.009767 225.197358);\n  --grey-600: oklch(0.426427 0.011202 232.617199);\n  --grey-650: oklch(0.386365 0.01045 236.835687);\n  --grey-700: oklch(0.348204 0.010712 236.894097);\n  --grey-750: oklch(0.308978 0.011017 236.97265);\n  --grey-800: oklch(0.269413 0.01036 242.083865);\n  --grey-850: oklch(0.223572 0.008405 240.274391);\n  --grey-900: oklch(0.175228 0.006346 236.981786);\n  --grey-950: oklch(0.126543 0.006953 243.792325);\n}\n";
+var oklch_default3 = ":root {\n  --primary-50: oklch(0.981046 0.012805 221.42319); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --primary-100: oklch(0.962528 0.022535 229.073806); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --primary-150: oklch(0.945178 0.032646 226.304274); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --primary-200: oklch(0.926674 0.041663 227.890787); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --primary-250: oklch(0.911263 0.054737 226.223779); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --primary-300: oklch(0.896395 0.067447 225.364647); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints. */\n  --primary-350: oklch(0.87908 0.079726 224.961348); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints. */\n  --primary-400: oklch(0.864091 0.092143 223.595164); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints. */\n  --primary-450: oklch(0.793049 0.126377 232.671182); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints. */\n  --primary-500: oklch(0.719588 0.160232 241.934243); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour. */\n  --primary-550: oklch(0.647121 0.194114 252.085254); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons. */\n  --primary-600: oklch(0.575113 0.229834 260.756335); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons. */\n  --primary-650: oklch(0.504429 0.200565 260.409998); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons. */\n  --primary-700: oklch(0.433012 0.172764 260.164397); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons. */\n  --primary-750: oklch(0.360675 0.146274 260.290439); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis. */\n  --primary-800: oklch(0.289999 0.117296 259.841938); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis. */\n  --primary-850: oklch(0.238584 0.100105 260.505764); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis. */\n  --primary-900: oklch(0.190403 0.080719 260.682766); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis. */\n  --primary-950: oklch(0.138623 0.062732 261.699127); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis. */\n  --accent-50: oklch(0.984801 0.007587 7.280361); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --accent-100: oklch(0.97188 0.014232 6.700043); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --accent-150: oklch(0.959029 0.020979 6.606185); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --accent-200: oklch(0.946252 0.027827 6.653086); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --accent-250: oklch(0.922815 0.040479 8.438397); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --accent-300: oklch(0.897868 0.054828 8.39461); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints. */\n  --accent-350: oklch(0.875166 0.068164 9.494436); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints. */\n  --accent-400: oklch(0.850883 0.08303 10.570683); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints. */\n  --accent-450: oklch(0.779076 0.116944 12.810782); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints. */\n  --accent-500: oklch(0.707215 0.150378 15.602977); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour. */\n  --accent-550: oklch(0.634722 0.184087 17.935378); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons. */\n  --accent-600: oklch(0.561955 0.217505 20.33356); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons. */\n  --accent-650: oklch(0.501611 0.19526 19.649998); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons. */\n  --accent-700: oklch(0.439441 0.172351 18.724983); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons. */\n  --accent-750: oklch(0.377602 0.149006 17.706488); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis. */\n  --accent-800: oklch(0.316967 0.126887 17.133117); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis. */\n  --accent-850: oklch(0.26401 0.105766 17.967115); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis. */\n  --accent-900: oklch(0.210832 0.084535 18.772606); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis. */\n  --accent-950: oklch(0.156795 0.062933 19.607624); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis. */\n  --grey-50: oklch(0.985104 0 0); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --grey-100: oklch(0.970151 0 0); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --grey-150: oklch(0.95514 0 0); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --grey-200: oklch(0.94007 0 0); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --grey-250: oklch(0.920652 0.002558 228.786818); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --grey-300: oklch(0.901624 0.003538 219.535738); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints. */\n  --grey-350: oklch(0.882025 0.006111 223.464254); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints. */\n  --grey-400: oklch(0.863097 0.007776 228.868893); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints. */\n  --grey-450: oklch(0.753634 0.008885 236.605307); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints. */\n  --grey-500: oklch(0.645222 0.009348 225.150438); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour. */\n  --grey-550: oklch(0.536704 0.009767 225.197358); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons. */\n  --grey-600: oklch(0.426427 0.011202 232.617199); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons. */\n  --grey-650: oklch(0.386365 0.01045 236.835687); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons. */\n  --grey-700: oklch(0.348204 0.010712 236.894097); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons. */\n  --grey-750: oklch(0.308978 0.011017 236.97265); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis. */\n  --grey-800: oklch(0.269413 0.01036 242.083865); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis. */\n  --grey-850: oklch(0.223572 0.008405 240.274391); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis. */\n  --grey-900: oklch(0.175228 0.006346 236.981786); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis. */\n  --grey-950: oklch(0.126543 0.006953 243.792325); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/themes/masterbrand/rgb.css
 var rgb_exports3 = {};
 __export(rgb_exports3, {
   default: () => rgb_default3
 });
-var rgb_default3 = ":root {\n  --primary-50: rgb(240, 251, 255);\n  --primary-100: rgb(228, 246, 255);\n  --primary-150: rgb(215, 242, 254);\n  --primary-200: rgb(203, 237, 253);\n  --primary-250: rgb(188, 234, 254);\n  --primary-300: rgb(173, 231, 255);\n  --primary-350: rgb(157, 227, 255);\n  --primary-400: rgb(140, 224, 255);\n  --primary-450: rgb(90, 201, 255);\n  --primary-500: rgb(38, 174, 255);\n  --primary-550: rgb(0, 143, 255);\n  --primary-600: rgb(20, 108, 253);\n  --primary-650: rgb(12, 90, 212);\n  --primary-700: rgb(5, 72, 173);\n  --primary-750: rgb(2, 54, 136);\n  --primary-800: rgb(0, 38, 100);\n  --primary-850: rgb(0, 26, 77);\n  --primary-900: rgb(0, 16, 55);\n  --primary-950: rgb(0, 6, 34);\n  --accent-50: rgb(255, 248, 249);\n  --accent-100: rgb(255, 242, 244);\n  --accent-150: rgb(255, 236, 239);\n  --accent-200: rgb(255, 230, 234);\n  --accent-250: rgb(255, 219, 224);\n  --accent-300: rgb(255, 207, 214);\n  --accent-350: rgb(255, 196, 204);\n  --accent-400: rgb(255, 184, 193);\n  --accent-450: rgb(248, 151, 162);\n  --accent-500: rgb(239, 117, 129);\n  --accent-550: rgb(228, 79, 95);\n  --accent-600: rgb(215, 21, 58);\n  --accent-650: rgb(185, 14, 50);\n  --accent-700: rgb(155, 7, 42);\n  --accent-750: rgb(126, 3, 34);\n  --accent-800: rgb(99, 0, 25);\n  --accent-850: rgb(76, 0, 16);\n  --accent-900: rgb(54, 0, 8);\n  --accent-950: rgb(33, 0, 3);\n  --grey-50: rgb(250, 250, 250);\n  --grey-100: rgb(245, 245, 245);\n  --grey-150: rgb(240, 240, 240);\n  --grey-200: rgb(235, 235, 235);\n  --grey-250: rgb(227, 229, 230);\n  --grey-300: rgb(220, 223, 224);\n  --grey-350: rgb(212, 217, 219);\n  --grey-400: rgb(205, 211, 214);\n  --grey-450: rgb(170, 176, 180);\n  --grey-500: rgb(136, 143, 146);\n  --grey-550: rgb(104, 111, 114);\n  --grey-600: rgb(73, 80, 84);\n  --grey-650: rgb(63, 69, 73);\n  --grey-700: rgb(53, 59, 63);\n  --grey-750: rgb(43, 49, 53);\n  --grey-800: rgb(34, 39, 43);\n  --grey-850: rgb(24, 28, 31);\n  --grey-900: rgb(14, 17, 19);\n  --grey-950: rgb(5, 7, 9);\n}\n";
+var rgb_default3 = ":root {\n  --primary-50: rgb(240, 251, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --primary-100: rgb(228, 246, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --primary-150: rgb(215, 242, 254); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --primary-200: rgb(203, 237, 253); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --primary-250: rgb(188, 234, 254); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --primary-300: rgb(173, 231, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints. */\n  --primary-350: rgb(157, 227, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints. */\n  --primary-400: rgb(140, 224, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints. */\n  --primary-450: rgb(90, 201, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints. */\n  --primary-500: rgb(38, 174, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour. */\n  --primary-550: rgb(0, 143, 255); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons. */\n  --primary-600: rgb(20, 108, 253); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons. */\n  --primary-650: rgb(12, 90, 212); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons. */\n  --primary-700: rgb(5, 72, 173); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons. */\n  --primary-750: rgb(2, 54, 136); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis. */\n  --primary-800: rgb(0, 38, 100); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis. */\n  --primary-850: rgb(0, 26, 77); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis. */\n  --primary-900: rgb(0, 16, 55); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis. */\n  --primary-950: rgb(0, 6, 34); /** Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis. */\n  --accent-50: rgb(255, 248, 249); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --accent-100: rgb(255, 242, 244); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --accent-150: rgb(255, 236, 239); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --accent-200: rgb(255, 230, 234); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --accent-250: rgb(255, 219, 224); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --accent-300: rgb(255, 207, 214); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints. */\n  --accent-350: rgb(255, 196, 204); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints. */\n  --accent-400: rgb(255, 184, 193); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints. */\n  --accent-450: rgb(248, 151, 162); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints. */\n  --accent-500: rgb(239, 117, 129); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour. */\n  --accent-550: rgb(228, 79, 95); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons. */\n  --accent-600: rgb(215, 21, 58); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons. */\n  --accent-650: rgb(185, 14, 50); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons. */\n  --accent-700: rgb(155, 7, 42); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons. */\n  --accent-750: rgb(126, 3, 34); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis. */\n  --accent-800: rgb(99, 0, 25); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis. */\n  --accent-850: rgb(76, 0, 16); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis. */\n  --accent-900: rgb(54, 0, 8); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis. */\n  --accent-950: rgb(33, 0, 3); /** Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis. */\n  --grey-50: rgb(250, 250, 250); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces. */\n  --grey-100: rgb(245, 245, 245); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces. */\n  --grey-150: rgb(240, 240, 240); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces. */\n  --grey-200: rgb(235, 235, 235); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces. */\n  --grey-250: rgb(227, 229, 230); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces. */\n  --grey-300: rgb(220, 223, 224); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints. */\n  --grey-350: rgb(212, 217, 219); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints. */\n  --grey-400: rgb(205, 211, 214); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints. */\n  --grey-450: rgb(170, 176, 180); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints. */\n  --grey-500: rgb(136, 143, 146); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour. */\n  --grey-550: rgb(104, 111, 114); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons. */\n  --grey-600: rgb(73, 80, 84); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons. */\n  --grey-650: rgb(63, 69, 73); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons. */\n  --grey-700: rgb(53, 59, 63); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons. */\n  --grey-750: rgb(43, 49, 53); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis. */\n  --grey-800: rgb(34, 39, 43); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis. */\n  --grey-850: rgb(24, 28, 31); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis. */\n  --grey-900: rgb(14, 17, 19); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis. */\n  --grey-950: rgb(5, 7, 9); /** Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis. */\n}\n";
 
 // src/css/colors/themes/fuchsia-blue/hex.css
 var hex_exports4 = {};
@@ -42408,56 +42940,56 @@ var hex_exports14 = {};
 __export(hex_exports14, {
   default: () => hex_default8
 });
-var hex_default8 = "@success-50: #eff9ed;\n@success-100: #e0f3de;\n@success-150: #d2eccf;\n@success-200: #c4e5c0;\n@success-250: #aad6a5;\n@success-300: #8fc78a;\n@success-350: #74b76f;\n@success-400: #58a854;\n@success-450: #49a146;\n@success-500: #399936;\n@success-550: #259224;\n@success-600: #008a07;\n@success-650: #007204;\n@success-700: #005a02;\n@success-750: #004401;\n@success-800: #002f00;\n@success-850: #002200;\n@success-900: #001600;\n@success-950: #000b00;\n@warning-50: #fff3ed;\n@warning-100: #ffe8de;\n@warning-150: #ffddcf;\n@warning-200: #fdd2c0;\n@warning-250: #f6bda5;\n@warning-300: #eea88a;\n@warning-350: #e6936f;\n@warning-400: #dd7d53;\n@warning-450: #d87244;\n@warning-500: #d36734;\n@warning-550: #ce5c21;\n@warning-600: #c95000;\n@warning-650: #a83f03;\n@warning-700: #882f03;\n@warning-750: #692001;\n@warning-800: #4b1200;\n@warning-850: #390a00;\n@warning-900: #270400;\n@warning-950: #170100;\n@danger-50: #fff0ef;\n@danger-100: #ffe2e1;\n@danger-150: #ffd4d4;\n@danger-200: #fdc6c6;\n@danger-250: #f4acad;\n@danger-300: #ea9294;\n@danger-350: #df787c;\n@danger-400: #d35d65;\n@danger-450: #cd4e59;\n@danger-500: #c63f4e;\n@danger-550: #bf2c42;\n@danger-600: #b81237;\n@danger-650: #990b2a;\n@danger-700: #7c061f;\n@danger-750: #5f0214;\n@danger-800: #44000a;\n@danger-850: #330005;\n@danger-900: #230002;\n@danger-950: #140001;\n@info-50: #e9eef7;\n@info-100: #d4ddeb;\n@info-150: #c0cce0;\n@info-200: #acbbd5;\n@info-250: #96a9cc;\n@info-300: #8098c2;\n@info-350: #6b86b8;\n@info-400: #5775ae;\n@info-450: #4d6ca9;\n@info-500: #4264a4;\n@info-550: #385b9e;\n@info-600: #2e5299;\n@info-650: #23427f;\n@info-700: #193366;\n@info-750: #10254f;\n@info-800: #071738;\n@info-850: #040f2a;\n@info-900: #02071c;\n@info-950: #00030f;\n";
+var hex_default8 = "@success-50: #eff9ed; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@success-100: #e0f3de; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@success-150: #d2eccf; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@success-200: #c4e5c0; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@success-250: #aad6a5; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@success-300: #8fc78a; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n@success-350: #74b76f; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n@success-400: #58a854; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n@success-450: #49a146; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n@success-500: #399936; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n@success-550: #259224; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n@success-600: #008a07; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n@success-650: #007204; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n@success-700: #005a02; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n@success-750: #004401; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n@success-800: #002f00; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n@success-850: #002200; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n@success-900: #001600; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n@success-950: #000b00; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n@warning-50: #fff3ed; // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n@warning-100: #ffe8de; // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n@warning-150: #ffddcf; // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n@warning-200: #fdd2c0; // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n@warning-250: #f6bda5; // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n@warning-300: #eea88a; // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n@warning-350: #e6936f; // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n@warning-400: #dd7d53; // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n@warning-450: #d87244; // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n@warning-500: #d36734; // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n@warning-550: #ce5c21; // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n@warning-600: #c95000; // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n@warning-650: #a83f03; // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n@warning-700: #882f03; // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n@warning-750: #692001; // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n@warning-800: #4b1200; // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n@warning-850: #390a00; // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n@warning-900: #270400; // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n@warning-950: #170100; // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n@danger-50: #fff0ef; // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@danger-100: #ffe2e1; // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@danger-150: #ffd4d4; // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@danger-200: #fdc6c6; // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@danger-250: #f4acad; // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@danger-300: #ea9294; // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n@danger-350: #df787c; // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n@danger-400: #d35d65; // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n@danger-450: #cd4e59; // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n@danger-500: #c63f4e; // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n@danger-550: #bf2c42; // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n@danger-600: #b81237; // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n@danger-650: #990b2a; // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n@danger-700: #7c061f; // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n@danger-750: #5f0214; // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n@danger-800: #44000a; // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n@danger-850: #330005; // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n@danger-900: #230002; // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n@danger-950: #140001; // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n@info-50: #e9eef7; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n@info-100: #d4ddeb; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n@info-150: #c0cce0; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n@info-200: #acbbd5; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n@info-250: #96a9cc; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n@info-300: #8098c2; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n@info-350: #6b86b8; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n@info-400: #5775ae; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n@info-450: #4d6ca9; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n@info-500: #4264a4; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n@info-550: #385b9e; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n@info-600: #2e5299; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n@info-650: #23427f; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n@info-700: #193366; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n@info-750: #10254f; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n@info-800: #071738; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n@info-850: #040f2a; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n@info-900: #02071c; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n@info-950: #00030f; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/semantic/hsl.less
 var hsl_exports14 = {};
 __export(hsl_exports14, {
   default: () => hsl_default8
 });
-var hsl_default8 = "@success-50: hsl(110, 50%, 95.294118%);\n@success-100: hsl(114.285714, 46.666667%, 91.176471%);\n@success-150: hsl(113.793103, 43.283582%, 86.862745%);\n@success-200: hsl(113.513514, 41.573034%, 82.54902%);\n@success-250: hsl(113.877551, 37.40458%, 74.313725%);\n@success-300: hsl(115.081967, 35.260116%, 66.078431%);\n@success-350: hsl(115.833333, 33.333333%, 57.647059%);\n@success-400: hsl(117.142857, 33.333333%, 49.411765%);\n@success-450: hsl(118.021978, 39.393939%, 45.294118%);\n@success-500: hsl(118.181818, 47.826087%, 40.588235%);\n@success-550: hsl(119.454545, 60.43956%, 35.686275%);\n@success-600: hsl(123.043478, 100%, 27.058824%);\n@success-650: hsl(122.105263, 100%, 22.352941%);\n@success-700: hsl(121.333333, 100%, 17.647059%);\n@success-750: hsl(120.882353, 100%, 13.333333%);\n@success-800: hsl(120, 100%, 9.215686%);\n@success-850: hsl(120, 100%, 6.666667%);\n@success-900: hsl(120, 100%, 4.313725%);\n@success-950: hsl(120, 100%, 2.156863%);\n@warning-50: hsl(20, 100%, 96.470588%);\n@warning-100: hsl(18.181818, 100%, 93.529412%);\n@warning-150: hsl(17.5, 100%, 90.588235%);\n@warning-200: hsl(17.704918, 93.846154%, 87.254902%);\n@warning-250: hsl(17.777778, 81.818182%, 80.588235%);\n@warning-300: hsl(18, 74.626866%, 73.72549%);\n@warning-350: hsl(18.151261, 70.414201%, 66.862745%);\n@warning-400: hsl(18.26087, 66.990291%, 59.607843%);\n@warning-450: hsl(18.648649, 65.486726%, 55.686275%);\n@warning-500: hsl(19.245283, 64.37247%, 51.568627%);\n@warning-550: hsl(20.462428, 72.384937%, 46.862745%);\n@warning-600: hsl(23.880597, 100%, 39.411765%);\n@warning-650: hsl(21.818182, 96.491228%, 33.529412%);\n@warning-700: hsl(19.849624, 95.683453%, 27.254902%);\n@warning-750: hsl(17.884615, 98.113208%, 20.784314%);\n@warning-800: hsl(14.4, 100%, 14.705882%);\n@warning-850: hsl(10.526316, 100%, 11.176471%);\n@warning-900: hsl(6.153846, 100%, 7.647059%);\n@warning-950: hsl(2.608696, 100%, 4.509804%);\n@danger-50: hsl(3.75, 100%, 96.862745%);\n@danger-100: hsl(2, 100%, 94.117647%);\n@danger-150: hsl(0, 100%, 91.568627%);\n@danger-200: hsl(0, 93.220339%, 88.431373%);\n@danger-250: hsl(359.166667, 76.595745%, 81.568627%);\n@danger-300: hsl(358.636364, 67.692308%, 74.509804%);\n@danger-350: hsl(357.669903, 61.676647%, 67.254902%);\n@danger-400: hsl(355.932203, 57.281553%, 59.607843%);\n@danger-450: hsl(354.80315, 55.947137%, 55.490196%);\n@danger-500: hsl(353.333333, 54.216867%, 51.176471%);\n@danger-550: hsl(351.020408, 62.553191%, 46.078431%);\n@danger-600: hsl(346.626506, 82.178218%, 39.607843%);\n@danger-650: hsl(346.901408, 86.585366%, 32.156863%);\n@danger-700: hsl(347.288136, 90.769231%, 25.490196%);\n@danger-750: hsl(348.387097, 95.876289%, 19.019608%);\n@danger-800: hsl(351.176471, 100%, 13.333333%);\n@danger-850: hsl(354.117647, 100%, 10%);\n@danger-900: hsl(356.571429, 100%, 6.862745%);\n@danger-950: hsl(357, 100%, 3.921569%);\n@info-50: hsl(218.571429, 46.666667%, 94.117647%);\n@info-100: hsl(216.521739, 36.507937%, 87.647059%);\n@info-150: hsl(217.5, 34.042553%, 81.568627%);\n@info-200: hsl(218.04878, 32.8%, 75.490196%);\n@info-250: hsl(218.888889, 34.615385%, 69.411765%);\n@info-300: hsl(218.181818, 35.106383%, 63.137255%);\n@info-350: hsl(218.961039, 35.159817%, 57.058824%);\n@info-400: hsl(219.310345, 34.939759%, 51.176471%);\n@info-450: hsl(219.782609, 37.398374%, 48.235294%);\n@info-500: hsl(219.183673, 42.608696%, 45.098039%);\n@info-550: hsl(219.411765, 47.663551%, 41.960784%);\n@info-600: hsl(219.813084, 53.768844%, 39.019608%);\n@info-650: hsl(219.782609, 56.790123%, 31.764706%);\n@info-700: hsl(219.74026, 60.629921%, 24.901961%);\n@info-750: hsl(220, 66.315789%, 18.627451%);\n@info-800: hsl(220.408163, 77.777778%, 12.352941%);\n@info-850: hsl(222.631579, 82.608696%, 9.019608%);\n@info-900: hsl(228.461538, 86.666667%, 5.882353%);\n@info-950: hsl(228, 100%, 2.941176%);\n";
+var hsl_default8 = "@success-50: hsl(110, 50%, 95.294118%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@success-100: hsl(114.285714, 46.666667%, 91.176471%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@success-150: hsl(113.793103, 43.283582%, 86.862745%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@success-200: hsl(113.513514, 41.573034%, 82.54902%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@success-250: hsl(113.877551, 37.40458%, 74.313725%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@success-300: hsl(115.081967, 35.260116%, 66.078431%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n@success-350: hsl(115.833333, 33.333333%, 57.647059%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n@success-400: hsl(117.142857, 33.333333%, 49.411765%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n@success-450: hsl(118.021978, 39.393939%, 45.294118%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n@success-500: hsl(118.181818, 47.826087%, 40.588235%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n@success-550: hsl(119.454545, 60.43956%, 35.686275%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n@success-600: hsl(123.043478, 100%, 27.058824%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n@success-650: hsl(122.105263, 100%, 22.352941%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n@success-700: hsl(121.333333, 100%, 17.647059%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n@success-750: hsl(120.882353, 100%, 13.333333%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n@success-800: hsl(120, 100%, 9.215686%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n@success-850: hsl(120, 100%, 6.666667%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n@success-900: hsl(120, 100%, 4.313725%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n@success-950: hsl(120, 100%, 2.156863%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n@warning-50: hsl(20, 100%, 96.470588%); // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n@warning-100: hsl(18.181818, 100%, 93.529412%); // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n@warning-150: hsl(17.5, 100%, 90.588235%); // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n@warning-200: hsl(17.704918, 93.846154%, 87.254902%); // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n@warning-250: hsl(17.777778, 81.818182%, 80.588235%); // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n@warning-300: hsl(18, 74.626866%, 73.72549%); // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n@warning-350: hsl(18.151261, 70.414201%, 66.862745%); // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n@warning-400: hsl(18.26087, 66.990291%, 59.607843%); // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n@warning-450: hsl(18.648649, 65.486726%, 55.686275%); // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n@warning-500: hsl(19.245283, 64.37247%, 51.568627%); // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n@warning-550: hsl(20.462428, 72.384937%, 46.862745%); // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n@warning-600: hsl(23.880597, 100%, 39.411765%); // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n@warning-650: hsl(21.818182, 96.491228%, 33.529412%); // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n@warning-700: hsl(19.849624, 95.683453%, 27.254902%); // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n@warning-750: hsl(17.884615, 98.113208%, 20.784314%); // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n@warning-800: hsl(14.4, 100%, 14.705882%); // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n@warning-850: hsl(10.526316, 100%, 11.176471%); // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n@warning-900: hsl(6.153846, 100%, 7.647059%); // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n@warning-950: hsl(2.608696, 100%, 4.509804%); // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n@danger-50: hsl(3.75, 100%, 96.862745%); // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@danger-100: hsl(2, 100%, 94.117647%); // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@danger-150: hsl(0, 100%, 91.568627%); // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@danger-200: hsl(0, 93.220339%, 88.431373%); // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@danger-250: hsl(359.166667, 76.595745%, 81.568627%); // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@danger-300: hsl(358.636364, 67.692308%, 74.509804%); // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n@danger-350: hsl(357.669903, 61.676647%, 67.254902%); // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n@danger-400: hsl(355.932203, 57.281553%, 59.607843%); // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n@danger-450: hsl(354.80315, 55.947137%, 55.490196%); // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n@danger-500: hsl(353.333333, 54.216867%, 51.176471%); // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n@danger-550: hsl(351.020408, 62.553191%, 46.078431%); // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n@danger-600: hsl(346.626506, 82.178218%, 39.607843%); // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n@danger-650: hsl(346.901408, 86.585366%, 32.156863%); // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n@danger-700: hsl(347.288136, 90.769231%, 25.490196%); // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n@danger-750: hsl(348.387097, 95.876289%, 19.019608%); // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n@danger-800: hsl(351.176471, 100%, 13.333333%); // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n@danger-850: hsl(354.117647, 100%, 10%); // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n@danger-900: hsl(356.571429, 100%, 6.862745%); // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n@danger-950: hsl(357, 100%, 3.921569%); // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n@info-50: hsl(218.571429, 46.666667%, 94.117647%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n@info-100: hsl(216.521739, 36.507937%, 87.647059%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n@info-150: hsl(217.5, 34.042553%, 81.568627%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n@info-200: hsl(218.04878, 32.8%, 75.490196%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n@info-250: hsl(218.888889, 34.615385%, 69.411765%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n@info-300: hsl(218.181818, 35.106383%, 63.137255%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n@info-350: hsl(218.961039, 35.159817%, 57.058824%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n@info-400: hsl(219.310345, 34.939759%, 51.176471%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n@info-450: hsl(219.782609, 37.398374%, 48.235294%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n@info-500: hsl(219.183673, 42.608696%, 45.098039%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n@info-550: hsl(219.411765, 47.663551%, 41.960784%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n@info-600: hsl(219.813084, 53.768844%, 39.019608%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n@info-650: hsl(219.782609, 56.790123%, 31.764706%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n@info-700: hsl(219.74026, 60.629921%, 24.901961%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n@info-750: hsl(220, 66.315789%, 18.627451%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n@info-800: hsl(220.408163, 77.777778%, 12.352941%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n@info-850: hsl(222.631579, 82.608696%, 9.019608%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n@info-900: hsl(228.461538, 86.666667%, 5.882353%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n@info-950: hsl(228, 100%, 2.941176%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/semantic/oklch.less
 var oklch_exports14 = {};
 __export(oklch_exports14, {
   default: () => oklch_default8
 });
-var oklch_default8 = "@success-50: oklch(0.97135 0.019006 140.501237);\n@success-100: oklch(0.944414 0.03435 142.617675);\n@success-150: oklch(0.916251 0.047557 142.315326);\n@success-200: oklch(0.888142 0.060884 142.11755);\n@success-250: oklch(0.831935 0.081627 142.168533);\n@success-300: oklch(0.775209 0.103098 142.532525);\n@success-350: oklch(0.716492 0.122642 142.635863);\n@success-400: oklch(0.660489 0.143002 142.833374);\n@success-450: oklch(0.633907 0.153727 142.929021);\n@success-500: oklch(0.604784 0.163709 142.769697);\n@success-550: oklch(0.57829 0.174808 142.795704);\n@success-600: oklch(0.549041 0.184944 142.800761);\n@success-650: oklch(0.478504 0.161407 142.758807);\n@success-700: oklch(0.40526 0.136911 142.712023);\n@success-750: oklch(0.335094 0.113301 142.686907);\n@success-800: oklch(0.26443 0.089979 142.495345);\n@success-850: oklch(0.218312 0.074286 142.495345);\n@success-900: oklch(0.173455 0.059022 142.495345);\n@success-950: oklch(0.1296 0.044099 142.495345);\n@warning-50: oklch(0.971893 0.01526 48.562489);\n@warning-100: oklch(0.946835 0.028629 45.030952);\n@warning-150: oklch(0.922108 0.042396 43.676216);\n@warning-200: oklch(0.895911 0.054446 43.945452);\n@warning-250: oklch(0.843843 0.073851 43.908489);\n@warning-300: oklch(0.791422 0.092884 44.093664);\n@warning-350: oklch(0.739959 0.112378 44.054533);\n@warning-400: oklch(0.686894 0.13202 43.712861);\n@warning-450: oklch(0.660361 0.141466 43.83103);\n@warning-500: oklch(0.634409 0.150779 43.925238);\n@warning-550: oklch(0.609132 0.159967 44.109192);\n@warning-600: oklch(0.58333 0.169705 43.997259);\n@warning-650: oklch(0.507151 0.15026 42.423427);\n@warning-700: oklch(0.431173 0.130695 40.89405);\n@warning-750: oklch(0.354963 0.110993 39.686374);\n@warning-800: oklch(0.278045 0.090492 38.267541);\n@warning-850: oklch(0.230061 0.077034 36.983064);\n@warning-900: oklch(0.18011 0.062518 35.437897);\n@warning-950: oklch(0.132509 0.049077 32.856899);\n@danger-50: oklch(0.966669 0.016317 22.079707);\n@danger-100: oklch(0.936228 0.032074 20.106519);\n@danger-150: oklch(0.90654 0.04838 18.081137);\n@danger-200: oklch(0.875232 0.062981 18.428147);\n@danger-250: oklch(0.813013 0.084945 18.165704);\n@danger-300: oklch(0.75077 0.106785 18.43901);\n@danger-350: oklch(0.689178 0.12804 18.526045);\n@danger-400: oklch(0.62753 0.149171 18.309398);\n@danger-450: oklch(0.596213 0.160938 18.339163);\n@danger-500: oklch(0.565284 0.170522 18.2478);\n@danger-550: oklch(0.532839 0.182017 18.232802);\n@danger-600: oklch(0.501996 0.192725 18.079135);\n@danger-650: oklch(0.436904 0.169068 18.82836);\n@danger-700: oklch(0.374388 0.145685 19.336218);\n@danger-750: oklch(0.30874 0.121759 19.939515);\n@danger-800: oklch(0.244464 0.098267 20.667881);\n@danger-850: oklch(0.202838 0.081665 21.65418);\n@danger-900: oklch(0.161611 0.065248 23.141473);\n@danger-950: oklch(0.120777 0.048658 22.023968);\n@info-50: oklch(0.947933 0.013249 262.378766);\n@info-100: oklch(0.894885 0.02153 259.191552);\n@info-150: oklch(0.84226 0.030869 260.704222);\n@info-200: oklch(0.788988 0.040588 261.491472);\n@info-250: oklch(0.732279 0.055255 262.600626);\n@info-300: oklch(0.676764 0.068234 261.470834);\n@info-350: oklch(0.619287 0.082332 262.339289);\n@info-400: oklch(0.564226 0.095527 262.52779);\n@info-450: oklch(0.535493 0.102893 262.922919);\n@info-500: oklch(0.508435 0.109592 262.050185);\n@info-550: oklch(0.479149 0.115698 262.137071);\n@info-600: oklch(0.450622 0.123283 262.351496);\n@info-650: oklch(0.390336 0.109632 262.276763);\n@info-700: oklch(0.331327 0.095363 262.195822);\n@info-750: oklch(0.274244 0.081954 262.38017);\n@info-800: oklch(0.213923 0.06809 262.409405);\n@info-850: oklch(0.177247 0.057971 262.994032);\n@info-900: oklch(0.137795 0.047857 264.580497);\n@info-950: oklch(0.101112 0.036894 257.665016);\n";
+var oklch_default8 = "@success-50: oklch(0.97135 0.019006 140.501237); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@success-100: oklch(0.944414 0.03435 142.617675); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@success-150: oklch(0.916251 0.047557 142.315326); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@success-200: oklch(0.888142 0.060884 142.11755); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@success-250: oklch(0.831935 0.081627 142.168533); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@success-300: oklch(0.775209 0.103098 142.532525); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n@success-350: oklch(0.716492 0.122642 142.635863); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n@success-400: oklch(0.660489 0.143002 142.833374); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n@success-450: oklch(0.633907 0.153727 142.929021); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n@success-500: oklch(0.604784 0.163709 142.769697); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n@success-550: oklch(0.57829 0.174808 142.795704); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n@success-600: oklch(0.549041 0.184944 142.800761); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n@success-650: oklch(0.478504 0.161407 142.758807); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n@success-700: oklch(0.40526 0.136911 142.712023); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n@success-750: oklch(0.335094 0.113301 142.686907); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n@success-800: oklch(0.26443 0.089979 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n@success-850: oklch(0.218312 0.074286 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n@success-900: oklch(0.173455 0.059022 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n@success-950: oklch(0.1296 0.044099 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n@warning-50: oklch(0.971893 0.01526 48.562489); // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n@warning-100: oklch(0.946835 0.028629 45.030952); // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n@warning-150: oklch(0.922108 0.042396 43.676216); // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n@warning-200: oklch(0.895911 0.054446 43.945452); // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n@warning-250: oklch(0.843843 0.073851 43.908489); // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n@warning-300: oklch(0.791422 0.092884 44.093664); // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n@warning-350: oklch(0.739959 0.112378 44.054533); // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n@warning-400: oklch(0.686894 0.13202 43.712861); // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n@warning-450: oklch(0.660361 0.141466 43.83103); // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n@warning-500: oklch(0.634409 0.150779 43.925238); // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n@warning-550: oklch(0.609132 0.159967 44.109192); // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n@warning-600: oklch(0.58333 0.169705 43.997259); // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n@warning-650: oklch(0.507151 0.15026 42.423427); // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n@warning-700: oklch(0.431173 0.130695 40.89405); // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n@warning-750: oklch(0.354963 0.110993 39.686374); // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n@warning-800: oklch(0.278045 0.090492 38.267541); // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n@warning-850: oklch(0.230061 0.077034 36.983064); // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n@warning-900: oklch(0.18011 0.062518 35.437897); // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n@warning-950: oklch(0.132509 0.049077 32.856899); // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n@danger-50: oklch(0.966669 0.016317 22.079707); // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@danger-100: oklch(0.936228 0.032074 20.106519); // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@danger-150: oklch(0.90654 0.04838 18.081137); // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@danger-200: oklch(0.875232 0.062981 18.428147); // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@danger-250: oklch(0.813013 0.084945 18.165704); // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@danger-300: oklch(0.75077 0.106785 18.43901); // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n@danger-350: oklch(0.689178 0.12804 18.526045); // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n@danger-400: oklch(0.62753 0.149171 18.309398); // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n@danger-450: oklch(0.596213 0.160938 18.339163); // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n@danger-500: oklch(0.565284 0.170522 18.2478); // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n@danger-550: oklch(0.532839 0.182017 18.232802); // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n@danger-600: oklch(0.501996 0.192725 18.079135); // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n@danger-650: oklch(0.436904 0.169068 18.82836); // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n@danger-700: oklch(0.374388 0.145685 19.336218); // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n@danger-750: oklch(0.30874 0.121759 19.939515); // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n@danger-800: oklch(0.244464 0.098267 20.667881); // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n@danger-850: oklch(0.202838 0.081665 21.65418); // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n@danger-900: oklch(0.161611 0.065248 23.141473); // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n@danger-950: oklch(0.120777 0.048658 22.023968); // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n@info-50: oklch(0.947933 0.013249 262.378766); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n@info-100: oklch(0.894885 0.02153 259.191552); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n@info-150: oklch(0.84226 0.030869 260.704222); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n@info-200: oklch(0.788988 0.040588 261.491472); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n@info-250: oklch(0.732279 0.055255 262.600626); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n@info-300: oklch(0.676764 0.068234 261.470834); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n@info-350: oklch(0.619287 0.082332 262.339289); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n@info-400: oklch(0.564226 0.095527 262.52779); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n@info-450: oklch(0.535493 0.102893 262.922919); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n@info-500: oklch(0.508435 0.109592 262.050185); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n@info-550: oklch(0.479149 0.115698 262.137071); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n@info-600: oklch(0.450622 0.123283 262.351496); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n@info-650: oklch(0.390336 0.109632 262.276763); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n@info-700: oklch(0.331327 0.095363 262.195822); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n@info-750: oklch(0.274244 0.081954 262.38017); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n@info-800: oklch(0.213923 0.06809 262.409405); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n@info-850: oklch(0.177247 0.057971 262.994032); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n@info-900: oklch(0.137795 0.047857 264.580497); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n@info-950: oklch(0.101112 0.036894 257.665016); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/semantic/rgb.less
 var rgb_exports14 = {};
 __export(rgb_exports14, {
   default: () => rgb_default8
 });
-var rgb_default8 = "@success-50: rgb(239, 249, 237);\n@success-100: rgb(224, 243, 222);\n@success-150: rgb(210, 236, 207);\n@success-200: rgb(196, 229, 192);\n@success-250: rgb(170, 214, 165);\n@success-300: rgb(143, 199, 138);\n@success-350: rgb(116, 183, 111);\n@success-400: rgb(88, 168, 84);\n@success-450: rgb(73, 161, 70);\n@success-500: rgb(57, 153, 54);\n@success-550: rgb(37, 146, 36);\n@success-600: rgb(0, 138, 7);\n@success-650: rgb(0, 114, 4);\n@success-700: rgb(0, 90, 2);\n@success-750: rgb(0, 68, 1);\n@success-800: rgb(0, 47, 0);\n@success-850: rgb(0, 34, 0);\n@success-900: rgb(0, 22, 0);\n@success-950: rgb(0, 11, 0);\n@warning-50: rgb(255, 243, 237);\n@warning-100: rgb(255, 232, 222);\n@warning-150: rgb(255, 221, 207);\n@warning-200: rgb(253, 210, 192);\n@warning-250: rgb(246, 189, 165);\n@warning-300: rgb(238, 168, 138);\n@warning-350: rgb(230, 147, 111);\n@warning-400: rgb(221, 125, 83);\n@warning-450: rgb(216, 114, 68);\n@warning-500: rgb(211, 103, 52);\n@warning-550: rgb(206, 92, 33);\n@warning-600: rgb(201, 80, 0);\n@warning-650: rgb(168, 63, 3);\n@warning-700: rgb(136, 47, 3);\n@warning-750: rgb(105, 32, 1);\n@warning-800: rgb(75, 18, 0);\n@warning-850: rgb(57, 10, 0);\n@warning-900: rgb(39, 4, 0);\n@warning-950: rgb(23, 1, 0);\n@danger-50: rgb(255, 240, 239);\n@danger-100: rgb(255, 226, 225);\n@danger-150: rgb(255, 212, 212);\n@danger-200: rgb(253, 198, 198);\n@danger-250: rgb(244, 172, 173);\n@danger-300: rgb(234, 146, 148);\n@danger-350: rgb(223, 120, 124);\n@danger-400: rgb(211, 93, 101);\n@danger-450: rgb(205, 78, 89);\n@danger-500: rgb(198, 63, 78);\n@danger-550: rgb(191, 44, 66);\n@danger-600: rgb(184, 18, 55);\n@danger-650: rgb(153, 11, 42);\n@danger-700: rgb(124, 6, 31);\n@danger-750: rgb(95, 2, 20);\n@danger-800: rgb(68, 0, 10);\n@danger-850: rgb(51, 0, 5);\n@danger-900: rgb(35, 0, 2);\n@danger-950: rgb(20, 0, 1);\n@info-50: rgb(233, 238, 247);\n@info-100: rgb(212, 221, 235);\n@info-150: rgb(192, 204, 224);\n@info-200: rgb(172, 187, 213);\n@info-250: rgb(150, 169, 204);\n@info-300: rgb(128, 152, 194);\n@info-350: rgb(107, 134, 184);\n@info-400: rgb(87, 117, 174);\n@info-450: rgb(77, 108, 169);\n@info-500: rgb(66, 100, 164);\n@info-550: rgb(56, 91, 158);\n@info-600: rgb(46, 82, 153);\n@info-650: rgb(35, 66, 127);\n@info-700: rgb(25, 51, 102);\n@info-750: rgb(16, 37, 79);\n@info-800: rgb(7, 23, 56);\n@info-850: rgb(4, 15, 42);\n@info-900: rgb(2, 7, 28);\n@info-950: rgb(0, 3, 15);\n";
+var rgb_default8 = "@success-50: rgb(239, 249, 237); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@success-100: rgb(224, 243, 222); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@success-150: rgb(210, 236, 207); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@success-200: rgb(196, 229, 192); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@success-250: rgb(170, 214, 165); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@success-300: rgb(143, 199, 138); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n@success-350: rgb(116, 183, 111); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n@success-400: rgb(88, 168, 84); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n@success-450: rgb(73, 161, 70); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n@success-500: rgb(57, 153, 54); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n@success-550: rgb(37, 146, 36); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n@success-600: rgb(0, 138, 7); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n@success-650: rgb(0, 114, 4); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n@success-700: rgb(0, 90, 2); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n@success-750: rgb(0, 68, 1); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n@success-800: rgb(0, 47, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n@success-850: rgb(0, 34, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n@success-900: rgb(0, 22, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n@success-950: rgb(0, 11, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n@warning-50: rgb(255, 243, 237); // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n@warning-100: rgb(255, 232, 222); // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n@warning-150: rgb(255, 221, 207); // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n@warning-200: rgb(253, 210, 192); // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n@warning-250: rgb(246, 189, 165); // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n@warning-300: rgb(238, 168, 138); // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n@warning-350: rgb(230, 147, 111); // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n@warning-400: rgb(221, 125, 83); // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n@warning-450: rgb(216, 114, 68); // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n@warning-500: rgb(211, 103, 52); // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n@warning-550: rgb(206, 92, 33); // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n@warning-600: rgb(201, 80, 0); // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n@warning-650: rgb(168, 63, 3); // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n@warning-700: rgb(136, 47, 3); // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n@warning-750: rgb(105, 32, 1); // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n@warning-800: rgb(75, 18, 0); // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n@warning-850: rgb(57, 10, 0); // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n@warning-900: rgb(39, 4, 0); // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n@warning-950: rgb(23, 1, 0); // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n@danger-50: rgb(255, 240, 239); // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n@danger-100: rgb(255, 226, 225); // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n@danger-150: rgb(255, 212, 212); // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n@danger-200: rgb(253, 198, 198); // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n@danger-250: rgb(244, 172, 173); // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n@danger-300: rgb(234, 146, 148); // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n@danger-350: rgb(223, 120, 124); // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n@danger-400: rgb(211, 93, 101); // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n@danger-450: rgb(205, 78, 89); // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n@danger-500: rgb(198, 63, 78); // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n@danger-550: rgb(191, 44, 66); // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n@danger-600: rgb(184, 18, 55); // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n@danger-650: rgb(153, 11, 42); // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n@danger-700: rgb(124, 6, 31); // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n@danger-750: rgb(95, 2, 20); // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n@danger-800: rgb(68, 0, 10); // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n@danger-850: rgb(51, 0, 5); // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n@danger-900: rgb(35, 0, 2); // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n@danger-950: rgb(20, 0, 1); // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n@info-50: rgb(233, 238, 247); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n@info-100: rgb(212, 221, 235); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n@info-150: rgb(192, 204, 224); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n@info-200: rgb(172, 187, 213); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n@info-250: rgb(150, 169, 204); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n@info-300: rgb(128, 152, 194); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n@info-350: rgb(107, 134, 184); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n@info-400: rgb(87, 117, 174); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n@info-450: rgb(77, 108, 169); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n@info-500: rgb(66, 100, 164); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n@info-550: rgb(56, 91, 158); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n@info-600: rgb(46, 82, 153); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n@info-650: rgb(35, 66, 127); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n@info-700: rgb(25, 51, 102); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n@info-750: rgb(16, 37, 79); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n@info-800: rgb(7, 23, 56); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n@info-850: rgb(4, 15, 42); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n@info-900: rgb(2, 7, 28); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n@info-950: rgb(0, 3, 15); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/themes/masterbrand/hex.less
 var hex_exports15 = {};
 __export(hex_exports15, {
   default: () => hex_default9
 });
-var hex_default9 = "@primary-50: #f0fbff;\n@primary-100: #e4f6ff;\n@primary-150: #d7f2fe;\n@primary-200: #cbedfd;\n@primary-250: #bceafe;\n@primary-300: #ade7ff;\n@primary-350: #9de3ff;\n@primary-400: #8ce0ff;\n@primary-450: #5ac9ff;\n@primary-500: #26aeff;\n@primary-550: #008fff;\n@primary-600: #146cfd;\n@primary-650: #0c5ad4;\n@primary-700: #0548ad;\n@primary-750: #023688;\n@primary-800: #002664;\n@primary-850: #001a4d;\n@primary-900: #001037;\n@primary-950: #000622;\n@accent-50: #fff8f9;\n@accent-100: #fff2f4;\n@accent-150: #ffecef;\n@accent-200: #ffe6ea;\n@accent-250: #ffdbe0;\n@accent-300: #ffcfd6;\n@accent-350: #ffc4cc;\n@accent-400: #ffb8c1;\n@accent-450: #f897a2;\n@accent-500: #ef7581;\n@accent-550: #e44f5f;\n@accent-600: #d7153a;\n@accent-650: #b90e32;\n@accent-700: #9b072a;\n@accent-750: #7e0322;\n@accent-800: #630019;\n@accent-850: #4c0010;\n@accent-900: #360008;\n@accent-950: #210003;\n@grey-50: #fafafa;\n@grey-100: #f5f5f5;\n@grey-150: #f0f0f0;\n@grey-200: #ebebeb;\n@grey-250: #e3e5e6;\n@grey-300: #dcdfe0;\n@grey-350: #d4d9db;\n@grey-400: #cdd3d6;\n@grey-450: #aab0b4;\n@grey-500: #888f92;\n@grey-550: #686f72;\n@grey-600: #495054;\n@grey-650: #3f4549;\n@grey-700: #353b3f;\n@grey-750: #2b3135;\n@grey-800: #22272b;\n@grey-850: #181c1f;\n@grey-900: #0e1113;\n@grey-950: #050709;\n";
+var hex_default9 = "@primary-50: #f0fbff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n@primary-100: #e4f6ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n@primary-150: #d7f2fe; // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n@primary-200: #cbedfd; // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n@primary-250: #bceafe; // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n@primary-300: #ade7ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n@primary-350: #9de3ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n@primary-400: #8ce0ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n@primary-450: #5ac9ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n@primary-500: #26aeff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n@primary-550: #008fff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n@primary-600: #146cfd; // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n@primary-650: #0c5ad4; // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n@primary-700: #0548ad; // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n@primary-750: #023688; // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n@primary-800: #002664; // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n@primary-850: #001a4d; // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n@primary-900: #001037; // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n@primary-950: #000622; // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n@accent-50: #fff8f9; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n@accent-100: #fff2f4; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n@accent-150: #ffecef; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n@accent-200: #ffe6ea; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n@accent-250: #ffdbe0; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n@accent-300: #ffcfd6; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n@accent-350: #ffc4cc; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n@accent-400: #ffb8c1; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n@accent-450: #f897a2; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n@accent-500: #ef7581; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n@accent-550: #e44f5f; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n@accent-600: #d7153a; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n@accent-650: #b90e32; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n@accent-700: #9b072a; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n@accent-750: #7e0322; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n@accent-800: #630019; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n@accent-850: #4c0010; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n@accent-900: #360008; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n@accent-950: #210003; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n@grey-50: #fafafa; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n@grey-100: #f5f5f5; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n@grey-150: #f0f0f0; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n@grey-200: #ebebeb; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n@grey-250: #e3e5e6; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n@grey-300: #dcdfe0; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n@grey-350: #d4d9db; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n@grey-400: #cdd3d6; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n@grey-450: #aab0b4; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n@grey-500: #888f92; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n@grey-550: #686f72; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n@grey-600: #495054; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n@grey-650: #3f4549; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n@grey-700: #353b3f; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n@grey-750: #2b3135; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n@grey-800: #22272b; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n@grey-850: #181c1f; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n@grey-900: #0e1113; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n@grey-950: #050709; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/themes/masterbrand/hsl.less
 var hsl_exports15 = {};
 __export(hsl_exports15, {
   default: () => hsl_default9
 });
-var hsl_default9 = "@primary-50: hsl(196, 100%, 97.058824%);\n@primary-100: hsl(200, 100%, 94.705882%);\n@primary-150: hsl(198.461538, 95.121951%, 91.960784%);\n@primary-200: hsl(199.2, 92.592593%, 89.411765%);\n@primary-250: hsl(198.181818, 97.058824%, 86.666667%);\n@primary-300: hsl(197.560976, 100%, 83.921569%);\n@primary-350: hsl(197.142857, 100%, 80.784314%);\n@primary-400: hsl(196.173913, 100%, 77.45098%);\n@primary-450: hsl(199.636364, 100%, 67.647059%);\n@primary-500: hsl(202.396313, 100%, 57.45098%);\n@primary-550: hsl(206.352941, 100%, 50%);\n@primary-600: hsl(217.339056, 98.312236%, 53.529412%);\n@primary-650: hsl(216.6, 89.285714%, 43.921569%);\n@primary-700: hsl(216.071429, 94.382022%, 34.901961%);\n@primary-750: hsl(216.716418, 97.101449%, 27.058824%);\n@primary-800: hsl(217.2, 100%, 19.607843%);\n@primary-850: hsl(219.74026, 100%, 15.098039%);\n@primary-900: hsl(222.545455, 100%, 10.784314%);\n@primary-950: hsl(229.411765, 100%, 6.666667%);\n@accent-50: hsl(351.428571, 100%, 98.627451%);\n@accent-100: hsl(350.769231, 100%, 97.45098%);\n@accent-150: hsl(350.526316, 100%, 96.27451%);\n@accent-200: hsl(350.4, 100%, 95.098039%);\n@accent-250: hsl(351.666667, 100%, 92.941176%);\n@accent-300: hsl(351.25, 100%, 90.588235%);\n@accent-350: hsl(351.864407, 100%, 88.431373%);\n@accent-400: hsl(352.394366, 100%, 86.078431%);\n@accent-450: hsl(353.195876, 87.387387%, 78.235294%);\n@accent-500: hsl(354.098361, 79.220779%, 69.803922%);\n@accent-550: hsl(353.557047, 73.399015%, 60.196078%);\n@accent-600: hsl(348.556701, 82.20339%, 46.27451%);\n@accent-650: hsl(347.368421, 85.929648%, 39.019608%);\n@accent-700: hsl(345.810811, 91.358025%, 31.764706%);\n@accent-750: hsl(344.878049, 95.348837%, 25.294118%);\n@accent-800: hsl(344.848485, 100%, 19.411765%);\n@accent-850: hsl(347.368421, 100%, 14.901961%);\n@accent-900: hsl(351.111111, 100%, 10.588235%);\n@accent-950: hsl(354.545455, 100%, 6.470588%);\n@grey-50: hsl(0, 0%, 98.039216%);\n@grey-100: hsl(0, 0%, 96.078431%);\n@grey-150: hsl(0, 0%, 94.117647%);\n@grey-200: hsl(0, 0%, 92.156863%);\n@grey-250: hsl(200, 5.660377%, 89.607843%);\n@grey-300: hsl(195, 6.060606%, 87.058824%);\n@grey-350: hsl(197.142857, 8.860759%, 84.509804%);\n@grey-400: hsl(200, 9.89011%, 82.156863%);\n@grey-450: hsl(204, 6.25%, 68.627451%);\n@grey-500: hsl(198, 4.385965%, 55.294118%);\n@grey-550: hsl(198, 4.587156%, 42.745098%);\n@grey-600: hsl(201.818182, 7.006369%, 30.784314%);\n@grey-650: hsl(204, 7.352941%, 26.666667%);\n@grey-700: hsl(204, 8.62069%, 22.745098%);\n@grey-750: hsl(204, 10.416667%, 18.823529%);\n@grey-800: hsl(206.666667, 11.688312%, 15.098039%);\n@grey-850: hsl(205.714286, 12.727273%, 10.784314%);\n@grey-900: hsl(204, 15.151515%, 6.470588%);\n@grey-950: hsl(210, 28.571429%, 2.745098%);\n";
+var hsl_default9 = "@primary-50: hsl(196, 100%, 97.058824%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n@primary-100: hsl(200, 100%, 94.705882%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n@primary-150: hsl(198.461538, 95.121951%, 91.960784%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n@primary-200: hsl(199.2, 92.592593%, 89.411765%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n@primary-250: hsl(198.181818, 97.058824%, 86.666667%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n@primary-300: hsl(197.560976, 100%, 83.921569%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n@primary-350: hsl(197.142857, 100%, 80.784314%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n@primary-400: hsl(196.173913, 100%, 77.45098%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n@primary-450: hsl(199.636364, 100%, 67.647059%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n@primary-500: hsl(202.396313, 100%, 57.45098%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n@primary-550: hsl(206.352941, 100%, 50%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n@primary-600: hsl(217.339056, 98.312236%, 53.529412%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n@primary-650: hsl(216.6, 89.285714%, 43.921569%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n@primary-700: hsl(216.071429, 94.382022%, 34.901961%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n@primary-750: hsl(216.716418, 97.101449%, 27.058824%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n@primary-800: hsl(217.2, 100%, 19.607843%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n@primary-850: hsl(219.74026, 100%, 15.098039%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n@primary-900: hsl(222.545455, 100%, 10.784314%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n@primary-950: hsl(229.411765, 100%, 6.666667%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n@accent-50: hsl(351.428571, 100%, 98.627451%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n@accent-100: hsl(350.769231, 100%, 97.45098%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n@accent-150: hsl(350.526316, 100%, 96.27451%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n@accent-200: hsl(350.4, 100%, 95.098039%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n@accent-250: hsl(351.666667, 100%, 92.941176%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n@accent-300: hsl(351.25, 100%, 90.588235%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n@accent-350: hsl(351.864407, 100%, 88.431373%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n@accent-400: hsl(352.394366, 100%, 86.078431%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n@accent-450: hsl(353.195876, 87.387387%, 78.235294%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n@accent-500: hsl(354.098361, 79.220779%, 69.803922%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n@accent-550: hsl(353.557047, 73.399015%, 60.196078%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n@accent-600: hsl(348.556701, 82.20339%, 46.27451%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n@accent-650: hsl(347.368421, 85.929648%, 39.019608%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n@accent-700: hsl(345.810811, 91.358025%, 31.764706%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n@accent-750: hsl(344.878049, 95.348837%, 25.294118%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n@accent-800: hsl(344.848485, 100%, 19.411765%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n@accent-850: hsl(347.368421, 100%, 14.901961%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n@accent-900: hsl(351.111111, 100%, 10.588235%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n@accent-950: hsl(354.545455, 100%, 6.470588%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n@grey-50: hsl(0, 0%, 98.039216%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n@grey-100: hsl(0, 0%, 96.078431%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n@grey-150: hsl(0, 0%, 94.117647%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n@grey-200: hsl(0, 0%, 92.156863%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n@grey-250: hsl(200, 5.660377%, 89.607843%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n@grey-300: hsl(195, 6.060606%, 87.058824%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n@grey-350: hsl(197.142857, 8.860759%, 84.509804%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n@grey-400: hsl(200, 9.89011%, 82.156863%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n@grey-450: hsl(204, 6.25%, 68.627451%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n@grey-500: hsl(198, 4.385965%, 55.294118%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n@grey-550: hsl(198, 4.587156%, 42.745098%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n@grey-600: hsl(201.818182, 7.006369%, 30.784314%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n@grey-650: hsl(204, 7.352941%, 26.666667%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n@grey-700: hsl(204, 8.62069%, 22.745098%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n@grey-750: hsl(204, 10.416667%, 18.823529%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n@grey-800: hsl(206.666667, 11.688312%, 15.098039%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n@grey-850: hsl(205.714286, 12.727273%, 10.784314%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n@grey-900: hsl(204, 15.151515%, 6.470588%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n@grey-950: hsl(210, 28.571429%, 2.745098%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/themes/masterbrand/oklch.less
 var oklch_exports15 = {};
 __export(oklch_exports15, {
   default: () => oklch_default9
 });
-var oklch_default9 = "@primary-50: oklch(0.981046 0.012805 221.42319);\n@primary-100: oklch(0.962528 0.022535 229.073806);\n@primary-150: oklch(0.945178 0.032646 226.304274);\n@primary-200: oklch(0.926674 0.041663 227.890787);\n@primary-250: oklch(0.911263 0.054737 226.223779);\n@primary-300: oklch(0.896395 0.067447 225.364647);\n@primary-350: oklch(0.87908 0.079726 224.961348);\n@primary-400: oklch(0.864091 0.092143 223.595164);\n@primary-450: oklch(0.793049 0.126377 232.671182);\n@primary-500: oklch(0.719588 0.160232 241.934243);\n@primary-550: oklch(0.647121 0.194114 252.085254);\n@primary-600: oklch(0.575113 0.229834 260.756335);\n@primary-650: oklch(0.504429 0.200565 260.409998);\n@primary-700: oklch(0.433012 0.172764 260.164397);\n@primary-750: oklch(0.360675 0.146274 260.290439);\n@primary-800: oklch(0.289999 0.117296 259.841938);\n@primary-850: oklch(0.238584 0.100105 260.505764);\n@primary-900: oklch(0.190403 0.080719 260.682766);\n@primary-950: oklch(0.138623 0.062732 261.699127);\n@accent-50: oklch(0.984801 0.007587 7.280361);\n@accent-100: oklch(0.97188 0.014232 6.700043);\n@accent-150: oklch(0.959029 0.020979 6.606185);\n@accent-200: oklch(0.946252 0.027827 6.653086);\n@accent-250: oklch(0.922815 0.040479 8.438397);\n@accent-300: oklch(0.897868 0.054828 8.39461);\n@accent-350: oklch(0.875166 0.068164 9.494436);\n@accent-400: oklch(0.850883 0.08303 10.570683);\n@accent-450: oklch(0.779076 0.116944 12.810782);\n@accent-500: oklch(0.707215 0.150378 15.602977);\n@accent-550: oklch(0.634722 0.184087 17.935378);\n@accent-600: oklch(0.561955 0.217505 20.33356);\n@accent-650: oklch(0.501611 0.19526 19.649998);\n@accent-700: oklch(0.439441 0.172351 18.724983);\n@accent-750: oklch(0.377602 0.149006 17.706488);\n@accent-800: oklch(0.316967 0.126887 17.133117);\n@accent-850: oklch(0.26401 0.105766 17.967115);\n@accent-900: oklch(0.210832 0.084535 18.772606);\n@accent-950: oklch(0.156795 0.062933 19.607624);\n@grey-50: oklch(0.985104 0 0);\n@grey-100: oklch(0.970151 0 0);\n@grey-150: oklch(0.95514 0 0);\n@grey-200: oklch(0.94007 0 0);\n@grey-250: oklch(0.920652 0.002558 228.786818);\n@grey-300: oklch(0.901624 0.003538 219.535738);\n@grey-350: oklch(0.882025 0.006111 223.464254);\n@grey-400: oklch(0.863097 0.007776 228.868893);\n@grey-450: oklch(0.753634 0.008885 236.605307);\n@grey-500: oklch(0.645222 0.009348 225.150438);\n@grey-550: oklch(0.536704 0.009767 225.197358);\n@grey-600: oklch(0.426427 0.011202 232.617199);\n@grey-650: oklch(0.386365 0.01045 236.835687);\n@grey-700: oklch(0.348204 0.010712 236.894097);\n@grey-750: oklch(0.308978 0.011017 236.97265);\n@grey-800: oklch(0.269413 0.01036 242.083865);\n@grey-850: oklch(0.223572 0.008405 240.274391);\n@grey-900: oklch(0.175228 0.006346 236.981786);\n@grey-950: oklch(0.126543 0.006953 243.792325);\n";
+var oklch_default9 = "@primary-50: oklch(0.981046 0.012805 221.42319); // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n@primary-100: oklch(0.962528 0.022535 229.073806); // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n@primary-150: oklch(0.945178 0.032646 226.304274); // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n@primary-200: oklch(0.926674 0.041663 227.890787); // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n@primary-250: oklch(0.911263 0.054737 226.223779); // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n@primary-300: oklch(0.896395 0.067447 225.364647); // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n@primary-350: oklch(0.87908 0.079726 224.961348); // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n@primary-400: oklch(0.864091 0.092143 223.595164); // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n@primary-450: oklch(0.793049 0.126377 232.671182); // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n@primary-500: oklch(0.719588 0.160232 241.934243); // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n@primary-550: oklch(0.647121 0.194114 252.085254); // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n@primary-600: oklch(0.575113 0.229834 260.756335); // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n@primary-650: oklch(0.504429 0.200565 260.409998); // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n@primary-700: oklch(0.433012 0.172764 260.164397); // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n@primary-750: oklch(0.360675 0.146274 260.290439); // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n@primary-800: oklch(0.289999 0.117296 259.841938); // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n@primary-850: oklch(0.238584 0.100105 260.505764); // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n@primary-900: oklch(0.190403 0.080719 260.682766); // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n@primary-950: oklch(0.138623 0.062732 261.699127); // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n@accent-50: oklch(0.984801 0.007587 7.280361); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n@accent-100: oklch(0.97188 0.014232 6.700043); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n@accent-150: oklch(0.959029 0.020979 6.606185); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n@accent-200: oklch(0.946252 0.027827 6.653086); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n@accent-250: oklch(0.922815 0.040479 8.438397); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n@accent-300: oklch(0.897868 0.054828 8.39461); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n@accent-350: oklch(0.875166 0.068164 9.494436); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n@accent-400: oklch(0.850883 0.08303 10.570683); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n@accent-450: oklch(0.779076 0.116944 12.810782); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n@accent-500: oklch(0.707215 0.150378 15.602977); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n@accent-550: oklch(0.634722 0.184087 17.935378); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n@accent-600: oklch(0.561955 0.217505 20.33356); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n@accent-650: oklch(0.501611 0.19526 19.649998); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n@accent-700: oklch(0.439441 0.172351 18.724983); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n@accent-750: oklch(0.377602 0.149006 17.706488); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n@accent-800: oklch(0.316967 0.126887 17.133117); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n@accent-850: oklch(0.26401 0.105766 17.967115); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n@accent-900: oklch(0.210832 0.084535 18.772606); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n@accent-950: oklch(0.156795 0.062933 19.607624); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n@grey-50: oklch(0.985104 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n@grey-100: oklch(0.970151 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n@grey-150: oklch(0.95514 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n@grey-200: oklch(0.94007 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n@grey-250: oklch(0.920652 0.002558 228.786818); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n@grey-300: oklch(0.901624 0.003538 219.535738); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n@grey-350: oklch(0.882025 0.006111 223.464254); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n@grey-400: oklch(0.863097 0.007776 228.868893); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n@grey-450: oklch(0.753634 0.008885 236.605307); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n@grey-500: oklch(0.645222 0.009348 225.150438); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n@grey-550: oklch(0.536704 0.009767 225.197358); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n@grey-600: oklch(0.426427 0.011202 232.617199); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n@grey-650: oklch(0.386365 0.01045 236.835687); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n@grey-700: oklch(0.348204 0.010712 236.894097); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n@grey-750: oklch(0.308978 0.011017 236.97265); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n@grey-800: oklch(0.269413 0.01036 242.083865); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n@grey-850: oklch(0.223572 0.008405 240.274391); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n@grey-900: oklch(0.175228 0.006346 236.981786); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n@grey-950: oklch(0.126543 0.006953 243.792325); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/themes/masterbrand/rgb.less
 var rgb_exports15 = {};
 __export(rgb_exports15, {
   default: () => rgb_default9
 });
-var rgb_default9 = "@primary-50: rgb(240, 251, 255);\n@primary-100: rgb(228, 246, 255);\n@primary-150: rgb(215, 242, 254);\n@primary-200: rgb(203, 237, 253);\n@primary-250: rgb(188, 234, 254);\n@primary-300: rgb(173, 231, 255);\n@primary-350: rgb(157, 227, 255);\n@primary-400: rgb(140, 224, 255);\n@primary-450: rgb(90, 201, 255);\n@primary-500: rgb(38, 174, 255);\n@primary-550: rgb(0, 143, 255);\n@primary-600: rgb(20, 108, 253);\n@primary-650: rgb(12, 90, 212);\n@primary-700: rgb(5, 72, 173);\n@primary-750: rgb(2, 54, 136);\n@primary-800: rgb(0, 38, 100);\n@primary-850: rgb(0, 26, 77);\n@primary-900: rgb(0, 16, 55);\n@primary-950: rgb(0, 6, 34);\n@accent-50: rgb(255, 248, 249);\n@accent-100: rgb(255, 242, 244);\n@accent-150: rgb(255, 236, 239);\n@accent-200: rgb(255, 230, 234);\n@accent-250: rgb(255, 219, 224);\n@accent-300: rgb(255, 207, 214);\n@accent-350: rgb(255, 196, 204);\n@accent-400: rgb(255, 184, 193);\n@accent-450: rgb(248, 151, 162);\n@accent-500: rgb(239, 117, 129);\n@accent-550: rgb(228, 79, 95);\n@accent-600: rgb(215, 21, 58);\n@accent-650: rgb(185, 14, 50);\n@accent-700: rgb(155, 7, 42);\n@accent-750: rgb(126, 3, 34);\n@accent-800: rgb(99, 0, 25);\n@accent-850: rgb(76, 0, 16);\n@accent-900: rgb(54, 0, 8);\n@accent-950: rgb(33, 0, 3);\n@grey-50: rgb(250, 250, 250);\n@grey-100: rgb(245, 245, 245);\n@grey-150: rgb(240, 240, 240);\n@grey-200: rgb(235, 235, 235);\n@grey-250: rgb(227, 229, 230);\n@grey-300: rgb(220, 223, 224);\n@grey-350: rgb(212, 217, 219);\n@grey-400: rgb(205, 211, 214);\n@grey-450: rgb(170, 176, 180);\n@grey-500: rgb(136, 143, 146);\n@grey-550: rgb(104, 111, 114);\n@grey-600: rgb(73, 80, 84);\n@grey-650: rgb(63, 69, 73);\n@grey-700: rgb(53, 59, 63);\n@grey-750: rgb(43, 49, 53);\n@grey-800: rgb(34, 39, 43);\n@grey-850: rgb(24, 28, 31);\n@grey-900: rgb(14, 17, 19);\n@grey-950: rgb(5, 7, 9);\n";
+var rgb_default9 = "@primary-50: rgb(240, 251, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n@primary-100: rgb(228, 246, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n@primary-150: rgb(215, 242, 254); // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n@primary-200: rgb(203, 237, 253); // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n@primary-250: rgb(188, 234, 254); // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n@primary-300: rgb(173, 231, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n@primary-350: rgb(157, 227, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n@primary-400: rgb(140, 224, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n@primary-450: rgb(90, 201, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n@primary-500: rgb(38, 174, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n@primary-550: rgb(0, 143, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n@primary-600: rgb(20, 108, 253); // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n@primary-650: rgb(12, 90, 212); // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n@primary-700: rgb(5, 72, 173); // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n@primary-750: rgb(2, 54, 136); // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n@primary-800: rgb(0, 38, 100); // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n@primary-850: rgb(0, 26, 77); // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n@primary-900: rgb(0, 16, 55); // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n@primary-950: rgb(0, 6, 34); // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n@accent-50: rgb(255, 248, 249); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n@accent-100: rgb(255, 242, 244); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n@accent-150: rgb(255, 236, 239); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n@accent-200: rgb(255, 230, 234); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n@accent-250: rgb(255, 219, 224); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n@accent-300: rgb(255, 207, 214); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n@accent-350: rgb(255, 196, 204); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n@accent-400: rgb(255, 184, 193); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n@accent-450: rgb(248, 151, 162); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n@accent-500: rgb(239, 117, 129); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n@accent-550: rgb(228, 79, 95); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n@accent-600: rgb(215, 21, 58); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n@accent-650: rgb(185, 14, 50); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n@accent-700: rgb(155, 7, 42); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n@accent-750: rgb(126, 3, 34); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n@accent-800: rgb(99, 0, 25); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n@accent-850: rgb(76, 0, 16); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n@accent-900: rgb(54, 0, 8); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n@accent-950: rgb(33, 0, 3); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n@grey-50: rgb(250, 250, 250); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n@grey-100: rgb(245, 245, 245); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n@grey-150: rgb(240, 240, 240); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n@grey-200: rgb(235, 235, 235); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n@grey-250: rgb(227, 229, 230); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n@grey-300: rgb(220, 223, 224); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n@grey-350: rgb(212, 217, 219); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n@grey-400: rgb(205, 211, 214); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n@grey-450: rgb(170, 176, 180); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n@grey-500: rgb(136, 143, 146); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n@grey-550: rgb(104, 111, 114); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n@grey-600: rgb(73, 80, 84); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n@grey-650: rgb(63, 69, 73); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n@grey-700: rgb(53, 59, 63); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n@grey-750: rgb(43, 49, 53); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n@grey-800: rgb(34, 39, 43); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n@grey-850: rgb(24, 28, 31); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n@grey-900: rgb(14, 17, 19); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n@grey-950: rgb(5, 7, 9); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/less/colors/themes/fuchsia-blue/hex.less
 var hex_exports16 = {};
@@ -42576,56 +43108,56 @@ var hex_exports20 = {};
 __export(hex_exports20, {
   default: () => hex_default14
 });
-var hex_default14 = "$success-50: #eff9ed;\n$success-100: #e0f3de;\n$success-150: #d2eccf;\n$success-200: #c4e5c0;\n$success-250: #aad6a5;\n$success-300: #8fc78a;\n$success-350: #74b76f;\n$success-400: #58a854;\n$success-450: #49a146;\n$success-500: #399936;\n$success-550: #259224;\n$success-600: #008a07;\n$success-650: #007204;\n$success-700: #005a02;\n$success-750: #004401;\n$success-800: #002f00;\n$success-850: #002200;\n$success-900: #001600;\n$success-950: #000b00;\n$warning-50: #fff3ed;\n$warning-100: #ffe8de;\n$warning-150: #ffddcf;\n$warning-200: #fdd2c0;\n$warning-250: #f6bda5;\n$warning-300: #eea88a;\n$warning-350: #e6936f;\n$warning-400: #dd7d53;\n$warning-450: #d87244;\n$warning-500: #d36734;\n$warning-550: #ce5c21;\n$warning-600: #c95000;\n$warning-650: #a83f03;\n$warning-700: #882f03;\n$warning-750: #692001;\n$warning-800: #4b1200;\n$warning-850: #390a00;\n$warning-900: #270400;\n$warning-950: #170100;\n$danger-50: #fff0ef;\n$danger-100: #ffe2e1;\n$danger-150: #ffd4d4;\n$danger-200: #fdc6c6;\n$danger-250: #f4acad;\n$danger-300: #ea9294;\n$danger-350: #df787c;\n$danger-400: #d35d65;\n$danger-450: #cd4e59;\n$danger-500: #c63f4e;\n$danger-550: #bf2c42;\n$danger-600: #b81237;\n$danger-650: #990b2a;\n$danger-700: #7c061f;\n$danger-750: #5f0214;\n$danger-800: #44000a;\n$danger-850: #330005;\n$danger-900: #230002;\n$danger-950: #140001;\n$info-50: #e9eef7;\n$info-100: #d4ddeb;\n$info-150: #c0cce0;\n$info-200: #acbbd5;\n$info-250: #96a9cc;\n$info-300: #8098c2;\n$info-350: #6b86b8;\n$info-400: #5775ae;\n$info-450: #4d6ca9;\n$info-500: #4264a4;\n$info-550: #385b9e;\n$info-600: #2e5299;\n$info-650: #23427f;\n$info-700: #193366;\n$info-750: #10254f;\n$info-800: #071738;\n$info-850: #040f2a;\n$info-900: #02071c;\n$info-950: #00030f;\n";
+var hex_default14 = "$success-50: #eff9ed; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$success-100: #e0f3de; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$success-150: #d2eccf; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$success-200: #c4e5c0; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$success-250: #aad6a5; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$success-300: #8fc78a; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n$success-350: #74b76f; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n$success-400: #58a854; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n$success-450: #49a146; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n$success-500: #399936; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n$success-550: #259224; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n$success-600: #008a07; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n$success-650: #007204; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n$success-700: #005a02; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n$success-750: #004401; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n$success-800: #002f00; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n$success-850: #002200; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n$success-900: #001600; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n$success-950: #000b00; // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n$warning-50: #fff3ed; // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n$warning-100: #ffe8de; // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n$warning-150: #ffddcf; // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n$warning-200: #fdd2c0; // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n$warning-250: #f6bda5; // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n$warning-300: #eea88a; // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n$warning-350: #e6936f; // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n$warning-400: #dd7d53; // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n$warning-450: #d87244; // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n$warning-500: #d36734; // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n$warning-550: #ce5c21; // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n$warning-600: #c95000; // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n$warning-650: #a83f03; // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n$warning-700: #882f03; // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n$warning-750: #692001; // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n$warning-800: #4b1200; // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n$warning-850: #390a00; // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n$warning-900: #270400; // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n$warning-950: #170100; // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n$danger-50: #fff0ef; // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$danger-100: #ffe2e1; // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$danger-150: #ffd4d4; // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$danger-200: #fdc6c6; // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$danger-250: #f4acad; // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$danger-300: #ea9294; // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n$danger-350: #df787c; // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n$danger-400: #d35d65; // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n$danger-450: #cd4e59; // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n$danger-500: #c63f4e; // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n$danger-550: #bf2c42; // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n$danger-600: #b81237; // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n$danger-650: #990b2a; // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n$danger-700: #7c061f; // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n$danger-750: #5f0214; // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n$danger-800: #44000a; // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n$danger-850: #330005; // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n$danger-900: #230002; // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n$danger-950: #140001; // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n$info-50: #e9eef7; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n$info-100: #d4ddeb; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n$info-150: #c0cce0; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n$info-200: #acbbd5; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n$info-250: #96a9cc; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n$info-300: #8098c2; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n$info-350: #6b86b8; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n$info-400: #5775ae; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n$info-450: #4d6ca9; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n$info-500: #4264a4; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n$info-550: #385b9e; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n$info-600: #2e5299; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n$info-650: #23427f; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n$info-700: #193366; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n$info-750: #10254f; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n$info-800: #071738; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n$info-850: #040f2a; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n$info-900: #02071c; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n$info-950: #00030f; // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/semantic/hsl.scss
 var hsl_exports20 = {};
 __export(hsl_exports20, {
   default: () => hsl_default14
 });
-var hsl_default14 = "$success-50: hsl(110, 50%, 95.294118%);\n$success-100: hsl(114.285714, 46.666667%, 91.176471%);\n$success-150: hsl(113.793103, 43.283582%, 86.862745%);\n$success-200: hsl(113.513514, 41.573034%, 82.54902%);\n$success-250: hsl(113.877551, 37.40458%, 74.313725%);\n$success-300: hsl(115.081967, 35.260116%, 66.078431%);\n$success-350: hsl(115.833333, 33.333333%, 57.647059%);\n$success-400: hsl(117.142857, 33.333333%, 49.411765%);\n$success-450: hsl(118.021978, 39.393939%, 45.294118%);\n$success-500: hsl(118.181818, 47.826087%, 40.588235%);\n$success-550: hsl(119.454545, 60.43956%, 35.686275%);\n$success-600: hsl(123.043478, 100%, 27.058824%);\n$success-650: hsl(122.105263, 100%, 22.352941%);\n$success-700: hsl(121.333333, 100%, 17.647059%);\n$success-750: hsl(120.882353, 100%, 13.333333%);\n$success-800: hsl(120, 100%, 9.215686%);\n$success-850: hsl(120, 100%, 6.666667%);\n$success-900: hsl(120, 100%, 4.313725%);\n$success-950: hsl(120, 100%, 2.156863%);\n$warning-50: hsl(20, 100%, 96.470588%);\n$warning-100: hsl(18.181818, 100%, 93.529412%);\n$warning-150: hsl(17.5, 100%, 90.588235%);\n$warning-200: hsl(17.704918, 93.846154%, 87.254902%);\n$warning-250: hsl(17.777778, 81.818182%, 80.588235%);\n$warning-300: hsl(18, 74.626866%, 73.72549%);\n$warning-350: hsl(18.151261, 70.414201%, 66.862745%);\n$warning-400: hsl(18.26087, 66.990291%, 59.607843%);\n$warning-450: hsl(18.648649, 65.486726%, 55.686275%);\n$warning-500: hsl(19.245283, 64.37247%, 51.568627%);\n$warning-550: hsl(20.462428, 72.384937%, 46.862745%);\n$warning-600: hsl(23.880597, 100%, 39.411765%);\n$warning-650: hsl(21.818182, 96.491228%, 33.529412%);\n$warning-700: hsl(19.849624, 95.683453%, 27.254902%);\n$warning-750: hsl(17.884615, 98.113208%, 20.784314%);\n$warning-800: hsl(14.4, 100%, 14.705882%);\n$warning-850: hsl(10.526316, 100%, 11.176471%);\n$warning-900: hsl(6.153846, 100%, 7.647059%);\n$warning-950: hsl(2.608696, 100%, 4.509804%);\n$danger-50: hsl(3.75, 100%, 96.862745%);\n$danger-100: hsl(2, 100%, 94.117647%);\n$danger-150: hsl(0, 100%, 91.568627%);\n$danger-200: hsl(0, 93.220339%, 88.431373%);\n$danger-250: hsl(359.166667, 76.595745%, 81.568627%);\n$danger-300: hsl(358.636364, 67.692308%, 74.509804%);\n$danger-350: hsl(357.669903, 61.676647%, 67.254902%);\n$danger-400: hsl(355.932203, 57.281553%, 59.607843%);\n$danger-450: hsl(354.80315, 55.947137%, 55.490196%);\n$danger-500: hsl(353.333333, 54.216867%, 51.176471%);\n$danger-550: hsl(351.020408, 62.553191%, 46.078431%);\n$danger-600: hsl(346.626506, 82.178218%, 39.607843%);\n$danger-650: hsl(346.901408, 86.585366%, 32.156863%);\n$danger-700: hsl(347.288136, 90.769231%, 25.490196%);\n$danger-750: hsl(348.387097, 95.876289%, 19.019608%);\n$danger-800: hsl(351.176471, 100%, 13.333333%);\n$danger-850: hsl(354.117647, 100%, 10%);\n$danger-900: hsl(356.571429, 100%, 6.862745%);\n$danger-950: hsl(357, 100%, 3.921569%);\n$info-50: hsl(218.571429, 46.666667%, 94.117647%);\n$info-100: hsl(216.521739, 36.507937%, 87.647059%);\n$info-150: hsl(217.5, 34.042553%, 81.568627%);\n$info-200: hsl(218.04878, 32.8%, 75.490196%);\n$info-250: hsl(218.888889, 34.615385%, 69.411765%);\n$info-300: hsl(218.181818, 35.106383%, 63.137255%);\n$info-350: hsl(218.961039, 35.159817%, 57.058824%);\n$info-400: hsl(219.310345, 34.939759%, 51.176471%);\n$info-450: hsl(219.782609, 37.398374%, 48.235294%);\n$info-500: hsl(219.183673, 42.608696%, 45.098039%);\n$info-550: hsl(219.411765, 47.663551%, 41.960784%);\n$info-600: hsl(219.813084, 53.768844%, 39.019608%);\n$info-650: hsl(219.782609, 56.790123%, 31.764706%);\n$info-700: hsl(219.74026, 60.629921%, 24.901961%);\n$info-750: hsl(220, 66.315789%, 18.627451%);\n$info-800: hsl(220.408163, 77.777778%, 12.352941%);\n$info-850: hsl(222.631579, 82.608696%, 9.019608%);\n$info-900: hsl(228.461538, 86.666667%, 5.882353%);\n$info-950: hsl(228, 100%, 2.941176%);\n";
+var hsl_default14 = "$success-50: hsl(110, 50%, 95.294118%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$success-100: hsl(114.285714, 46.666667%, 91.176471%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$success-150: hsl(113.793103, 43.283582%, 86.862745%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$success-200: hsl(113.513514, 41.573034%, 82.54902%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$success-250: hsl(113.877551, 37.40458%, 74.313725%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$success-300: hsl(115.081967, 35.260116%, 66.078431%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n$success-350: hsl(115.833333, 33.333333%, 57.647059%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n$success-400: hsl(117.142857, 33.333333%, 49.411765%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n$success-450: hsl(118.021978, 39.393939%, 45.294118%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n$success-500: hsl(118.181818, 47.826087%, 40.588235%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n$success-550: hsl(119.454545, 60.43956%, 35.686275%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n$success-600: hsl(123.043478, 100%, 27.058824%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n$success-650: hsl(122.105263, 100%, 22.352941%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n$success-700: hsl(121.333333, 100%, 17.647059%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n$success-750: hsl(120.882353, 100%, 13.333333%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n$success-800: hsl(120, 100%, 9.215686%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n$success-850: hsl(120, 100%, 6.666667%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n$success-900: hsl(120, 100%, 4.313725%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n$success-950: hsl(120, 100%, 2.156863%); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n$warning-50: hsl(20, 100%, 96.470588%); // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n$warning-100: hsl(18.181818, 100%, 93.529412%); // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n$warning-150: hsl(17.5, 100%, 90.588235%); // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n$warning-200: hsl(17.704918, 93.846154%, 87.254902%); // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n$warning-250: hsl(17.777778, 81.818182%, 80.588235%); // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n$warning-300: hsl(18, 74.626866%, 73.72549%); // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n$warning-350: hsl(18.151261, 70.414201%, 66.862745%); // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n$warning-400: hsl(18.26087, 66.990291%, 59.607843%); // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n$warning-450: hsl(18.648649, 65.486726%, 55.686275%); // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n$warning-500: hsl(19.245283, 64.37247%, 51.568627%); // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n$warning-550: hsl(20.462428, 72.384937%, 46.862745%); // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n$warning-600: hsl(23.880597, 100%, 39.411765%); // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n$warning-650: hsl(21.818182, 96.491228%, 33.529412%); // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n$warning-700: hsl(19.849624, 95.683453%, 27.254902%); // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n$warning-750: hsl(17.884615, 98.113208%, 20.784314%); // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n$warning-800: hsl(14.4, 100%, 14.705882%); // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n$warning-850: hsl(10.526316, 100%, 11.176471%); // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n$warning-900: hsl(6.153846, 100%, 7.647059%); // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n$warning-950: hsl(2.608696, 100%, 4.509804%); // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n$danger-50: hsl(3.75, 100%, 96.862745%); // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$danger-100: hsl(2, 100%, 94.117647%); // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$danger-150: hsl(0, 100%, 91.568627%); // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$danger-200: hsl(0, 93.220339%, 88.431373%); // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$danger-250: hsl(359.166667, 76.595745%, 81.568627%); // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$danger-300: hsl(358.636364, 67.692308%, 74.509804%); // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n$danger-350: hsl(357.669903, 61.676647%, 67.254902%); // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n$danger-400: hsl(355.932203, 57.281553%, 59.607843%); // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n$danger-450: hsl(354.80315, 55.947137%, 55.490196%); // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n$danger-500: hsl(353.333333, 54.216867%, 51.176471%); // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n$danger-550: hsl(351.020408, 62.553191%, 46.078431%); // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n$danger-600: hsl(346.626506, 82.178218%, 39.607843%); // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n$danger-650: hsl(346.901408, 86.585366%, 32.156863%); // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n$danger-700: hsl(347.288136, 90.769231%, 25.490196%); // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n$danger-750: hsl(348.387097, 95.876289%, 19.019608%); // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n$danger-800: hsl(351.176471, 100%, 13.333333%); // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n$danger-850: hsl(354.117647, 100%, 10%); // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n$danger-900: hsl(356.571429, 100%, 6.862745%); // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n$danger-950: hsl(357, 100%, 3.921569%); // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n$info-50: hsl(218.571429, 46.666667%, 94.117647%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n$info-100: hsl(216.521739, 36.507937%, 87.647059%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n$info-150: hsl(217.5, 34.042553%, 81.568627%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n$info-200: hsl(218.04878, 32.8%, 75.490196%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n$info-250: hsl(218.888889, 34.615385%, 69.411765%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n$info-300: hsl(218.181818, 35.106383%, 63.137255%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n$info-350: hsl(218.961039, 35.159817%, 57.058824%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n$info-400: hsl(219.310345, 34.939759%, 51.176471%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n$info-450: hsl(219.782609, 37.398374%, 48.235294%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n$info-500: hsl(219.183673, 42.608696%, 45.098039%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n$info-550: hsl(219.411765, 47.663551%, 41.960784%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n$info-600: hsl(219.813084, 53.768844%, 39.019608%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n$info-650: hsl(219.782609, 56.790123%, 31.764706%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n$info-700: hsl(219.74026, 60.629921%, 24.901961%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n$info-750: hsl(220, 66.315789%, 18.627451%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n$info-800: hsl(220.408163, 77.777778%, 12.352941%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n$info-850: hsl(222.631579, 82.608696%, 9.019608%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n$info-900: hsl(228.461538, 86.666667%, 5.882353%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n$info-950: hsl(228, 100%, 2.941176%); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/semantic/oklch.scss
 var oklch_exports20 = {};
 __export(oklch_exports20, {
   default: () => oklch_default14
 });
-var oklch_default14 = "$success-50: oklch(0.97135 0.019006 140.501237);\n$success-100: oklch(0.944414 0.03435 142.617675);\n$success-150: oklch(0.916251 0.047557 142.315326);\n$success-200: oklch(0.888142 0.060884 142.11755);\n$success-250: oklch(0.831935 0.081627 142.168533);\n$success-300: oklch(0.775209 0.103098 142.532525);\n$success-350: oklch(0.716492 0.122642 142.635863);\n$success-400: oklch(0.660489 0.143002 142.833374);\n$success-450: oklch(0.633907 0.153727 142.929021);\n$success-500: oklch(0.604784 0.163709 142.769697);\n$success-550: oklch(0.57829 0.174808 142.795704);\n$success-600: oklch(0.549041 0.184944 142.800761);\n$success-650: oklch(0.478504 0.161407 142.758807);\n$success-700: oklch(0.40526 0.136911 142.712023);\n$success-750: oklch(0.335094 0.113301 142.686907);\n$success-800: oklch(0.26443 0.089979 142.495345);\n$success-850: oklch(0.218312 0.074286 142.495345);\n$success-900: oklch(0.173455 0.059022 142.495345);\n$success-950: oklch(0.1296 0.044099 142.495345);\n$warning-50: oklch(0.971893 0.01526 48.562489);\n$warning-100: oklch(0.946835 0.028629 45.030952);\n$warning-150: oklch(0.922108 0.042396 43.676216);\n$warning-200: oklch(0.895911 0.054446 43.945452);\n$warning-250: oklch(0.843843 0.073851 43.908489);\n$warning-300: oklch(0.791422 0.092884 44.093664);\n$warning-350: oklch(0.739959 0.112378 44.054533);\n$warning-400: oklch(0.686894 0.13202 43.712861);\n$warning-450: oklch(0.660361 0.141466 43.83103);\n$warning-500: oklch(0.634409 0.150779 43.925238);\n$warning-550: oklch(0.609132 0.159967 44.109192);\n$warning-600: oklch(0.58333 0.169705 43.997259);\n$warning-650: oklch(0.507151 0.15026 42.423427);\n$warning-700: oklch(0.431173 0.130695 40.89405);\n$warning-750: oklch(0.354963 0.110993 39.686374);\n$warning-800: oklch(0.278045 0.090492 38.267541);\n$warning-850: oklch(0.230061 0.077034 36.983064);\n$warning-900: oklch(0.18011 0.062518 35.437897);\n$warning-950: oklch(0.132509 0.049077 32.856899);\n$danger-50: oklch(0.966669 0.016317 22.079707);\n$danger-100: oklch(0.936228 0.032074 20.106519);\n$danger-150: oklch(0.90654 0.04838 18.081137);\n$danger-200: oklch(0.875232 0.062981 18.428147);\n$danger-250: oklch(0.813013 0.084945 18.165704);\n$danger-300: oklch(0.75077 0.106785 18.43901);\n$danger-350: oklch(0.689178 0.12804 18.526045);\n$danger-400: oklch(0.62753 0.149171 18.309398);\n$danger-450: oklch(0.596213 0.160938 18.339163);\n$danger-500: oklch(0.565284 0.170522 18.2478);\n$danger-550: oklch(0.532839 0.182017 18.232802);\n$danger-600: oklch(0.501996 0.192725 18.079135);\n$danger-650: oklch(0.436904 0.169068 18.82836);\n$danger-700: oklch(0.374388 0.145685 19.336218);\n$danger-750: oklch(0.30874 0.121759 19.939515);\n$danger-800: oklch(0.244464 0.098267 20.667881);\n$danger-850: oklch(0.202838 0.081665 21.65418);\n$danger-900: oklch(0.161611 0.065248 23.141473);\n$danger-950: oklch(0.120777 0.048658 22.023968);\n$info-50: oklch(0.947933 0.013249 262.378766);\n$info-100: oklch(0.894885 0.02153 259.191552);\n$info-150: oklch(0.84226 0.030869 260.704222);\n$info-200: oklch(0.788988 0.040588 261.491472);\n$info-250: oklch(0.732279 0.055255 262.600626);\n$info-300: oklch(0.676764 0.068234 261.470834);\n$info-350: oklch(0.619287 0.082332 262.339289);\n$info-400: oklch(0.564226 0.095527 262.52779);\n$info-450: oklch(0.535493 0.102893 262.922919);\n$info-500: oklch(0.508435 0.109592 262.050185);\n$info-550: oklch(0.479149 0.115698 262.137071);\n$info-600: oklch(0.450622 0.123283 262.351496);\n$info-650: oklch(0.390336 0.109632 262.276763);\n$info-700: oklch(0.331327 0.095363 262.195822);\n$info-750: oklch(0.274244 0.081954 262.38017);\n$info-800: oklch(0.213923 0.06809 262.409405);\n$info-850: oklch(0.177247 0.057971 262.994032);\n$info-900: oklch(0.137795 0.047857 264.580497);\n$info-950: oklch(0.101112 0.036894 257.665016);\n";
+var oklch_default14 = "$success-50: oklch(0.97135 0.019006 140.501237); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$success-100: oklch(0.944414 0.03435 142.617675); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$success-150: oklch(0.916251 0.047557 142.315326); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$success-200: oklch(0.888142 0.060884 142.11755); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$success-250: oklch(0.831935 0.081627 142.168533); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$success-300: oklch(0.775209 0.103098 142.532525); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n$success-350: oklch(0.716492 0.122642 142.635863); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n$success-400: oklch(0.660489 0.143002 142.833374); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n$success-450: oklch(0.633907 0.153727 142.929021); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n$success-500: oklch(0.604784 0.163709 142.769697); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n$success-550: oklch(0.57829 0.174808 142.795704); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n$success-600: oklch(0.549041 0.184944 142.800761); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n$success-650: oklch(0.478504 0.161407 142.758807); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n$success-700: oklch(0.40526 0.136911 142.712023); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n$success-750: oklch(0.335094 0.113301 142.686907); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n$success-800: oklch(0.26443 0.089979 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n$success-850: oklch(0.218312 0.074286 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n$success-900: oklch(0.173455 0.059022 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n$success-950: oklch(0.1296 0.044099 142.495345); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n$warning-50: oklch(0.971893 0.01526 48.562489); // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n$warning-100: oklch(0.946835 0.028629 45.030952); // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n$warning-150: oklch(0.922108 0.042396 43.676216); // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n$warning-200: oklch(0.895911 0.054446 43.945452); // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n$warning-250: oklch(0.843843 0.073851 43.908489); // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n$warning-300: oklch(0.791422 0.092884 44.093664); // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n$warning-350: oklch(0.739959 0.112378 44.054533); // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n$warning-400: oklch(0.686894 0.13202 43.712861); // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n$warning-450: oklch(0.660361 0.141466 43.83103); // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n$warning-500: oklch(0.634409 0.150779 43.925238); // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n$warning-550: oklch(0.609132 0.159967 44.109192); // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n$warning-600: oklch(0.58333 0.169705 43.997259); // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n$warning-650: oklch(0.507151 0.15026 42.423427); // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n$warning-700: oklch(0.431173 0.130695 40.89405); // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n$warning-750: oklch(0.354963 0.110993 39.686374); // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n$warning-800: oklch(0.278045 0.090492 38.267541); // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n$warning-850: oklch(0.230061 0.077034 36.983064); // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n$warning-900: oklch(0.18011 0.062518 35.437897); // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n$warning-950: oklch(0.132509 0.049077 32.856899); // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n$danger-50: oklch(0.966669 0.016317 22.079707); // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$danger-100: oklch(0.936228 0.032074 20.106519); // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$danger-150: oklch(0.90654 0.04838 18.081137); // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$danger-200: oklch(0.875232 0.062981 18.428147); // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$danger-250: oklch(0.813013 0.084945 18.165704); // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$danger-300: oklch(0.75077 0.106785 18.43901); // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n$danger-350: oklch(0.689178 0.12804 18.526045); // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n$danger-400: oklch(0.62753 0.149171 18.309398); // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n$danger-450: oklch(0.596213 0.160938 18.339163); // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n$danger-500: oklch(0.565284 0.170522 18.2478); // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n$danger-550: oklch(0.532839 0.182017 18.232802); // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n$danger-600: oklch(0.501996 0.192725 18.079135); // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n$danger-650: oklch(0.436904 0.169068 18.82836); // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n$danger-700: oklch(0.374388 0.145685 19.336218); // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n$danger-750: oklch(0.30874 0.121759 19.939515); // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n$danger-800: oklch(0.244464 0.098267 20.667881); // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n$danger-850: oklch(0.202838 0.081665 21.65418); // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n$danger-900: oklch(0.161611 0.065248 23.141473); // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n$danger-950: oklch(0.120777 0.048658 22.023968); // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n$info-50: oklch(0.947933 0.013249 262.378766); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n$info-100: oklch(0.894885 0.02153 259.191552); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n$info-150: oklch(0.84226 0.030869 260.704222); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n$info-200: oklch(0.788988 0.040588 261.491472); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n$info-250: oklch(0.732279 0.055255 262.600626); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n$info-300: oklch(0.676764 0.068234 261.470834); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n$info-350: oklch(0.619287 0.082332 262.339289); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n$info-400: oklch(0.564226 0.095527 262.52779); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n$info-450: oklch(0.535493 0.102893 262.922919); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n$info-500: oklch(0.508435 0.109592 262.050185); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n$info-550: oklch(0.479149 0.115698 262.137071); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n$info-600: oklch(0.450622 0.123283 262.351496); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n$info-650: oklch(0.390336 0.109632 262.276763); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n$info-700: oklch(0.331327 0.095363 262.195822); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n$info-750: oklch(0.274244 0.081954 262.38017); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n$info-800: oklch(0.213923 0.06809 262.409405); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n$info-850: oklch(0.177247 0.057971 262.994032); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n$info-900: oklch(0.137795 0.047857 264.580497); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n$info-950: oklch(0.101112 0.036894 257.665016); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/semantic/rgb.scss
 var rgb_exports20 = {};
 __export(rgb_exports20, {
   default: () => rgb_default14
 });
-var rgb_default14 = "$success-50: rgb(239, 249, 237);\n$success-100: rgb(224, 243, 222);\n$success-150: rgb(210, 236, 207);\n$success-200: rgb(196, 229, 192);\n$success-250: rgb(170, 214, 165);\n$success-300: rgb(143, 199, 138);\n$success-350: rgb(116, 183, 111);\n$success-400: rgb(88, 168, 84);\n$success-450: rgb(73, 161, 70);\n$success-500: rgb(57, 153, 54);\n$success-550: rgb(37, 146, 36);\n$success-600: rgb(0, 138, 7);\n$success-650: rgb(0, 114, 4);\n$success-700: rgb(0, 90, 2);\n$success-750: rgb(0, 68, 1);\n$success-800: rgb(0, 47, 0);\n$success-850: rgb(0, 34, 0);\n$success-900: rgb(0, 22, 0);\n$success-950: rgb(0, 11, 0);\n$warning-50: rgb(255, 243, 237);\n$warning-100: rgb(255, 232, 222);\n$warning-150: rgb(255, 221, 207);\n$warning-200: rgb(253, 210, 192);\n$warning-250: rgb(246, 189, 165);\n$warning-300: rgb(238, 168, 138);\n$warning-350: rgb(230, 147, 111);\n$warning-400: rgb(221, 125, 83);\n$warning-450: rgb(216, 114, 68);\n$warning-500: rgb(211, 103, 52);\n$warning-550: rgb(206, 92, 33);\n$warning-600: rgb(201, 80, 0);\n$warning-650: rgb(168, 63, 3);\n$warning-700: rgb(136, 47, 3);\n$warning-750: rgb(105, 32, 1);\n$warning-800: rgb(75, 18, 0);\n$warning-850: rgb(57, 10, 0);\n$warning-900: rgb(39, 4, 0);\n$warning-950: rgb(23, 1, 0);\n$danger-50: rgb(255, 240, 239);\n$danger-100: rgb(255, 226, 225);\n$danger-150: rgb(255, 212, 212);\n$danger-200: rgb(253, 198, 198);\n$danger-250: rgb(244, 172, 173);\n$danger-300: rgb(234, 146, 148);\n$danger-350: rgb(223, 120, 124);\n$danger-400: rgb(211, 93, 101);\n$danger-450: rgb(205, 78, 89);\n$danger-500: rgb(198, 63, 78);\n$danger-550: rgb(191, 44, 66);\n$danger-600: rgb(184, 18, 55);\n$danger-650: rgb(153, 11, 42);\n$danger-700: rgb(124, 6, 31);\n$danger-750: rgb(95, 2, 20);\n$danger-800: rgb(68, 0, 10);\n$danger-850: rgb(51, 0, 5);\n$danger-900: rgb(35, 0, 2);\n$danger-950: rgb(20, 0, 1);\n$info-50: rgb(233, 238, 247);\n$info-100: rgb(212, 221, 235);\n$info-150: rgb(192, 204, 224);\n$info-200: rgb(172, 187, 213);\n$info-250: rgb(150, 169, 204);\n$info-300: rgb(128, 152, 194);\n$info-350: rgb(107, 134, 184);\n$info-400: rgb(87, 117, 174);\n$info-450: rgb(77, 108, 169);\n$info-500: rgb(66, 100, 164);\n$info-550: rgb(56, 91, 158);\n$info-600: rgb(46, 82, 153);\n$info-650: rgb(35, 66, 127);\n$info-700: rgb(25, 51, 102);\n$info-750: rgb(16, 37, 79);\n$info-800: rgb(7, 23, 56);\n$info-850: rgb(4, 15, 42);\n$info-900: rgb(2, 7, 28);\n$info-950: rgb(0, 3, 15);\n";
+var rgb_default14 = "$success-50: rgb(239, 249, 237); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$success-100: rgb(224, 243, 222); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$success-150: rgb(210, 236, 207); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$success-200: rgb(196, 229, 192); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$success-250: rgb(170, 214, 165); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$success-300: rgb(143, 199, 138); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 300: light tints.\n$success-350: rgb(116, 183, 111); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 350: light tints.\n$success-400: rgb(88, 168, 84); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 400: light tints.\n$success-450: rgb(73, 161, 70); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 450: light tints.\n$success-500: rgb(57, 153, 54); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 500: base colour.\n$success-550: rgb(37, 146, 36); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 550: shades for borders and icons.\n$success-600: rgb(0, 138, 7); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 600: shades for borders and icons.\n$success-650: rgb(0, 114, 4); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 650: shades for borders and icons.\n$success-700: rgb(0, 90, 2); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 700: shades for borders and icons.\n$success-750: rgb(0, 68, 1); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 750: darkest shades for text and high emphasis.\n$success-800: rgb(0, 47, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 800: darkest shades for text and high emphasis.\n$success-850: rgb(0, 34, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.\n$success-900: rgb(0, 22, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.\n$success-950: rgb(0, 11, 0); // Success state \u2014 positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.\n$warning-50: rgb(255, 243, 237); // Warning state \u2014 caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.\n$warning-100: rgb(255, 232, 222); // Warning state \u2014 caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.\n$warning-150: rgb(255, 221, 207); // Warning state \u2014 caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.\n$warning-200: rgb(253, 210, 192); // Warning state \u2014 caution and actions that need attention. Step 200: lightest tints for subtle backgrounds and surfaces.\n$warning-250: rgb(246, 189, 165); // Warning state \u2014 caution and actions that need attention. Step 250: lightest tints for subtle backgrounds and surfaces.\n$warning-300: rgb(238, 168, 138); // Warning state \u2014 caution and actions that need attention. Step 300: light tints.\n$warning-350: rgb(230, 147, 111); // Warning state \u2014 caution and actions that need attention. Step 350: light tints.\n$warning-400: rgb(221, 125, 83); // Warning state \u2014 caution and actions that need attention. Step 400: light tints.\n$warning-450: rgb(216, 114, 68); // Warning state \u2014 caution and actions that need attention. Step 450: light tints.\n$warning-500: rgb(211, 103, 52); // Warning state \u2014 caution and actions that need attention. Step 500: base colour.\n$warning-550: rgb(206, 92, 33); // Warning state \u2014 caution and actions that need attention. Step 550: shades for borders and icons.\n$warning-600: rgb(201, 80, 0); // Warning state \u2014 caution and actions that need attention. Step 600: shades for borders and icons.\n$warning-650: rgb(168, 63, 3); // Warning state \u2014 caution and actions that need attention. Step 650: shades for borders and icons.\n$warning-700: rgb(136, 47, 3); // Warning state \u2014 caution and actions that need attention. Step 700: shades for borders and icons.\n$warning-750: rgb(105, 32, 1); // Warning state \u2014 caution and actions that need attention. Step 750: darkest shades for text and high emphasis.\n$warning-800: rgb(75, 18, 0); // Warning state \u2014 caution and actions that need attention. Step 800: darkest shades for text and high emphasis.\n$warning-850: rgb(57, 10, 0); // Warning state \u2014 caution and actions that need attention. Step 850: darkest shades for text and high emphasis.\n$warning-900: rgb(39, 4, 0); // Warning state \u2014 caution and actions that need attention. Step 900: darkest shades for text and high emphasis.\n$warning-950: rgb(23, 1, 0); // Warning state \u2014 caution and actions that need attention. Step 950: darkest shades for text and high emphasis.\n$danger-50: rgb(255, 240, 239); // Danger state \u2014 errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.\n$danger-100: rgb(255, 226, 225); // Danger state \u2014 errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.\n$danger-150: rgb(255, 212, 212); // Danger state \u2014 errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.\n$danger-200: rgb(253, 198, 198); // Danger state \u2014 errors and destructive or critical actions. Step 200: lightest tints for subtle backgrounds and surfaces.\n$danger-250: rgb(244, 172, 173); // Danger state \u2014 errors and destructive or critical actions. Step 250: lightest tints for subtle backgrounds and surfaces.\n$danger-300: rgb(234, 146, 148); // Danger state \u2014 errors and destructive or critical actions. Step 300: light tints.\n$danger-350: rgb(223, 120, 124); // Danger state \u2014 errors and destructive or critical actions. Step 350: light tints.\n$danger-400: rgb(211, 93, 101); // Danger state \u2014 errors and destructive or critical actions. Step 400: light tints.\n$danger-450: rgb(205, 78, 89); // Danger state \u2014 errors and destructive or critical actions. Step 450: light tints.\n$danger-500: rgb(198, 63, 78); // Danger state \u2014 errors and destructive or critical actions. Step 500: base colour.\n$danger-550: rgb(191, 44, 66); // Danger state \u2014 errors and destructive or critical actions. Step 550: shades for borders and icons.\n$danger-600: rgb(184, 18, 55); // Danger state \u2014 errors and destructive or critical actions. Step 600: shades for borders and icons.\n$danger-650: rgb(153, 11, 42); // Danger state \u2014 errors and destructive or critical actions. Step 650: shades for borders and icons.\n$danger-700: rgb(124, 6, 31); // Danger state \u2014 errors and destructive or critical actions. Step 700: shades for borders and icons.\n$danger-750: rgb(95, 2, 20); // Danger state \u2014 errors and destructive or critical actions. Step 750: darkest shades for text and high emphasis.\n$danger-800: rgb(68, 0, 10); // Danger state \u2014 errors and destructive or critical actions. Step 800: darkest shades for text and high emphasis.\n$danger-850: rgb(51, 0, 5); // Danger state \u2014 errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.\n$danger-900: rgb(35, 0, 2); // Danger state \u2014 errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.\n$danger-950: rgb(20, 0, 1); // Danger state \u2014 errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.\n$info-50: rgb(233, 238, 247); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.\n$info-100: rgb(212, 221, 235); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.\n$info-150: rgb(192, 204, 224); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.\n$info-200: rgb(172, 187, 213); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 200: lightest tints for subtle backgrounds and surfaces.\n$info-250: rgb(150, 169, 204); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 250: lightest tints for subtle backgrounds and surfaces.\n$info-300: rgb(128, 152, 194); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 300: light tints.\n$info-350: rgb(107, 134, 184); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 350: light tints.\n$info-400: rgb(87, 117, 174); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 400: light tints.\n$info-450: rgb(77, 108, 169); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 450: light tints.\n$info-500: rgb(66, 100, 164); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 500: base colour.\n$info-550: rgb(56, 91, 158); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 550: shades for borders and icons.\n$info-600: rgb(46, 82, 153); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 600: shades for borders and icons.\n$info-650: rgb(35, 66, 127); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 650: shades for borders and icons.\n$info-700: rgb(25, 51, 102); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 700: shades for borders and icons.\n$info-750: rgb(16, 37, 79); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 750: darkest shades for text and high emphasis.\n$info-800: rgb(7, 23, 56); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 800: darkest shades for text and high emphasis.\n$info-850: rgb(4, 15, 42); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.\n$info-900: rgb(2, 7, 28); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.\n$info-950: rgb(0, 3, 15); // Informational state \u2014 neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/themes/masterbrand/hex.scss
 var hex_exports21 = {};
 __export(hex_exports21, {
   default: () => hex_default15
 });
-var hex_default15 = "$primary-50: #f0fbff;\n$primary-100: #e4f6ff;\n$primary-150: #d7f2fe;\n$primary-200: #cbedfd;\n$primary-250: #bceafe;\n$primary-300: #ade7ff;\n$primary-350: #9de3ff;\n$primary-400: #8ce0ff;\n$primary-450: #5ac9ff;\n$primary-500: #26aeff;\n$primary-550: #008fff;\n$primary-600: #146cfd;\n$primary-650: #0c5ad4;\n$primary-700: #0548ad;\n$primary-750: #023688;\n$primary-800: #002664;\n$primary-850: #001a4d;\n$primary-900: #001037;\n$primary-950: #000622;\n$accent-50: #fff8f9;\n$accent-100: #fff2f4;\n$accent-150: #ffecef;\n$accent-200: #ffe6ea;\n$accent-250: #ffdbe0;\n$accent-300: #ffcfd6;\n$accent-350: #ffc4cc;\n$accent-400: #ffb8c1;\n$accent-450: #f897a2;\n$accent-500: #ef7581;\n$accent-550: #e44f5f;\n$accent-600: #d7153a;\n$accent-650: #b90e32;\n$accent-700: #9b072a;\n$accent-750: #7e0322;\n$accent-800: #630019;\n$accent-850: #4c0010;\n$accent-900: #360008;\n$accent-950: #210003;\n$grey-50: #fafafa;\n$grey-100: #f5f5f5;\n$grey-150: #f0f0f0;\n$grey-200: #ebebeb;\n$grey-250: #e3e5e6;\n$grey-300: #dcdfe0;\n$grey-350: #d4d9db;\n$grey-400: #cdd3d6;\n$grey-450: #aab0b4;\n$grey-500: #888f92;\n$grey-550: #686f72;\n$grey-600: #495054;\n$grey-650: #3f4549;\n$grey-700: #353b3f;\n$grey-750: #2b3135;\n$grey-800: #22272b;\n$grey-850: #181c1f;\n$grey-900: #0e1113;\n$grey-950: #050709;\n";
+var hex_default15 = "$primary-50: #f0fbff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n$primary-100: #e4f6ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n$primary-150: #d7f2fe; // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n$primary-200: #cbedfd; // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n$primary-250: #bceafe; // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n$primary-300: #ade7ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n$primary-350: #9de3ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n$primary-400: #8ce0ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n$primary-450: #5ac9ff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n$primary-500: #26aeff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n$primary-550: #008fff; // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n$primary-600: #146cfd; // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n$primary-650: #0c5ad4; // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n$primary-700: #0548ad; // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n$primary-750: #023688; // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n$primary-800: #002664; // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n$primary-850: #001a4d; // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n$primary-900: #001037; // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n$primary-950: #000622; // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n$accent-50: #fff8f9; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n$accent-100: #fff2f4; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n$accent-150: #ffecef; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n$accent-200: #ffe6ea; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n$accent-250: #ffdbe0; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n$accent-300: #ffcfd6; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n$accent-350: #ffc4cc; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n$accent-400: #ffb8c1; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n$accent-450: #f897a2; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n$accent-500: #ef7581; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n$accent-550: #e44f5f; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n$accent-600: #d7153a; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n$accent-650: #b90e32; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n$accent-700: #9b072a; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n$accent-750: #7e0322; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n$accent-800: #630019; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n$accent-850: #4c0010; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n$accent-900: #360008; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n$accent-950: #210003; // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n$grey-50: #fafafa; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n$grey-100: #f5f5f5; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n$grey-150: #f0f0f0; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n$grey-200: #ebebeb; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n$grey-250: #e3e5e6; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n$grey-300: #dcdfe0; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n$grey-350: #d4d9db; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n$grey-400: #cdd3d6; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n$grey-450: #aab0b4; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n$grey-500: #888f92; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n$grey-550: #686f72; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n$grey-600: #495054; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n$grey-650: #3f4549; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n$grey-700: #353b3f; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n$grey-750: #2b3135; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n$grey-800: #22272b; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n$grey-850: #181c1f; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n$grey-900: #0e1113; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n$grey-950: #050709; // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/themes/masterbrand/hsl.scss
 var hsl_exports21 = {};
 __export(hsl_exports21, {
   default: () => hsl_default15
 });
-var hsl_default15 = "$primary-50: hsl(196, 100%, 97.058824%);\n$primary-100: hsl(200, 100%, 94.705882%);\n$primary-150: hsl(198.461538, 95.121951%, 91.960784%);\n$primary-200: hsl(199.2, 92.592593%, 89.411765%);\n$primary-250: hsl(198.181818, 97.058824%, 86.666667%);\n$primary-300: hsl(197.560976, 100%, 83.921569%);\n$primary-350: hsl(197.142857, 100%, 80.784314%);\n$primary-400: hsl(196.173913, 100%, 77.45098%);\n$primary-450: hsl(199.636364, 100%, 67.647059%);\n$primary-500: hsl(202.396313, 100%, 57.45098%);\n$primary-550: hsl(206.352941, 100%, 50%);\n$primary-600: hsl(217.339056, 98.312236%, 53.529412%);\n$primary-650: hsl(216.6, 89.285714%, 43.921569%);\n$primary-700: hsl(216.071429, 94.382022%, 34.901961%);\n$primary-750: hsl(216.716418, 97.101449%, 27.058824%);\n$primary-800: hsl(217.2, 100%, 19.607843%);\n$primary-850: hsl(219.74026, 100%, 15.098039%);\n$primary-900: hsl(222.545455, 100%, 10.784314%);\n$primary-950: hsl(229.411765, 100%, 6.666667%);\n$accent-50: hsl(351.428571, 100%, 98.627451%);\n$accent-100: hsl(350.769231, 100%, 97.45098%);\n$accent-150: hsl(350.526316, 100%, 96.27451%);\n$accent-200: hsl(350.4, 100%, 95.098039%);\n$accent-250: hsl(351.666667, 100%, 92.941176%);\n$accent-300: hsl(351.25, 100%, 90.588235%);\n$accent-350: hsl(351.864407, 100%, 88.431373%);\n$accent-400: hsl(352.394366, 100%, 86.078431%);\n$accent-450: hsl(353.195876, 87.387387%, 78.235294%);\n$accent-500: hsl(354.098361, 79.220779%, 69.803922%);\n$accent-550: hsl(353.557047, 73.399015%, 60.196078%);\n$accent-600: hsl(348.556701, 82.20339%, 46.27451%);\n$accent-650: hsl(347.368421, 85.929648%, 39.019608%);\n$accent-700: hsl(345.810811, 91.358025%, 31.764706%);\n$accent-750: hsl(344.878049, 95.348837%, 25.294118%);\n$accent-800: hsl(344.848485, 100%, 19.411765%);\n$accent-850: hsl(347.368421, 100%, 14.901961%);\n$accent-900: hsl(351.111111, 100%, 10.588235%);\n$accent-950: hsl(354.545455, 100%, 6.470588%);\n$grey-50: hsl(0, 0%, 98.039216%);\n$grey-100: hsl(0, 0%, 96.078431%);\n$grey-150: hsl(0, 0%, 94.117647%);\n$grey-200: hsl(0, 0%, 92.156863%);\n$grey-250: hsl(200, 5.660377%, 89.607843%);\n$grey-300: hsl(195, 6.060606%, 87.058824%);\n$grey-350: hsl(197.142857, 8.860759%, 84.509804%);\n$grey-400: hsl(200, 9.89011%, 82.156863%);\n$grey-450: hsl(204, 6.25%, 68.627451%);\n$grey-500: hsl(198, 4.385965%, 55.294118%);\n$grey-550: hsl(198, 4.587156%, 42.745098%);\n$grey-600: hsl(201.818182, 7.006369%, 30.784314%);\n$grey-650: hsl(204, 7.352941%, 26.666667%);\n$grey-700: hsl(204, 8.62069%, 22.745098%);\n$grey-750: hsl(204, 10.416667%, 18.823529%);\n$grey-800: hsl(206.666667, 11.688312%, 15.098039%);\n$grey-850: hsl(205.714286, 12.727273%, 10.784314%);\n$grey-900: hsl(204, 15.151515%, 6.470588%);\n$grey-950: hsl(210, 28.571429%, 2.745098%);\n";
+var hsl_default15 = "$primary-50: hsl(196, 100%, 97.058824%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n$primary-100: hsl(200, 100%, 94.705882%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n$primary-150: hsl(198.461538, 95.121951%, 91.960784%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n$primary-200: hsl(199.2, 92.592593%, 89.411765%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n$primary-250: hsl(198.181818, 97.058824%, 86.666667%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n$primary-300: hsl(197.560976, 100%, 83.921569%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n$primary-350: hsl(197.142857, 100%, 80.784314%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n$primary-400: hsl(196.173913, 100%, 77.45098%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n$primary-450: hsl(199.636364, 100%, 67.647059%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n$primary-500: hsl(202.396313, 100%, 57.45098%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n$primary-550: hsl(206.352941, 100%, 50%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n$primary-600: hsl(217.339056, 98.312236%, 53.529412%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n$primary-650: hsl(216.6, 89.285714%, 43.921569%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n$primary-700: hsl(216.071429, 94.382022%, 34.901961%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n$primary-750: hsl(216.716418, 97.101449%, 27.058824%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n$primary-800: hsl(217.2, 100%, 19.607843%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n$primary-850: hsl(219.74026, 100%, 15.098039%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n$primary-900: hsl(222.545455, 100%, 10.784314%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n$primary-950: hsl(229.411765, 100%, 6.666667%); // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n$accent-50: hsl(351.428571, 100%, 98.627451%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n$accent-100: hsl(350.769231, 100%, 97.45098%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n$accent-150: hsl(350.526316, 100%, 96.27451%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n$accent-200: hsl(350.4, 100%, 95.098039%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n$accent-250: hsl(351.666667, 100%, 92.941176%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n$accent-300: hsl(351.25, 100%, 90.588235%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n$accent-350: hsl(351.864407, 100%, 88.431373%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n$accent-400: hsl(352.394366, 100%, 86.078431%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n$accent-450: hsl(353.195876, 87.387387%, 78.235294%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n$accent-500: hsl(354.098361, 79.220779%, 69.803922%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n$accent-550: hsl(353.557047, 73.399015%, 60.196078%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n$accent-600: hsl(348.556701, 82.20339%, 46.27451%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n$accent-650: hsl(347.368421, 85.929648%, 39.019608%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n$accent-700: hsl(345.810811, 91.358025%, 31.764706%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n$accent-750: hsl(344.878049, 95.348837%, 25.294118%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n$accent-800: hsl(344.848485, 100%, 19.411765%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n$accent-850: hsl(347.368421, 100%, 14.901961%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n$accent-900: hsl(351.111111, 100%, 10.588235%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n$accent-950: hsl(354.545455, 100%, 6.470588%); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n$grey-50: hsl(0, 0%, 98.039216%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n$grey-100: hsl(0, 0%, 96.078431%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n$grey-150: hsl(0, 0%, 94.117647%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n$grey-200: hsl(0, 0%, 92.156863%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n$grey-250: hsl(200, 5.660377%, 89.607843%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n$grey-300: hsl(195, 6.060606%, 87.058824%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n$grey-350: hsl(197.142857, 8.860759%, 84.509804%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n$grey-400: hsl(200, 9.89011%, 82.156863%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n$grey-450: hsl(204, 6.25%, 68.627451%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n$grey-500: hsl(198, 4.385965%, 55.294118%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n$grey-550: hsl(198, 4.587156%, 42.745098%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n$grey-600: hsl(201.818182, 7.006369%, 30.784314%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n$grey-650: hsl(204, 7.352941%, 26.666667%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n$grey-700: hsl(204, 8.62069%, 22.745098%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n$grey-750: hsl(204, 10.416667%, 18.823529%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n$grey-800: hsl(206.666667, 11.688312%, 15.098039%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n$grey-850: hsl(205.714286, 12.727273%, 10.784314%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n$grey-900: hsl(204, 15.151515%, 6.470588%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n$grey-950: hsl(210, 28.571429%, 2.745098%); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/themes/masterbrand/oklch.scss
 var oklch_exports21 = {};
 __export(oklch_exports21, {
   default: () => oklch_default15
 });
-var oklch_default15 = "$primary-50: oklch(0.981046 0.012805 221.42319);\n$primary-100: oklch(0.962528 0.022535 229.073806);\n$primary-150: oklch(0.945178 0.032646 226.304274);\n$primary-200: oklch(0.926674 0.041663 227.890787);\n$primary-250: oklch(0.911263 0.054737 226.223779);\n$primary-300: oklch(0.896395 0.067447 225.364647);\n$primary-350: oklch(0.87908 0.079726 224.961348);\n$primary-400: oklch(0.864091 0.092143 223.595164);\n$primary-450: oklch(0.793049 0.126377 232.671182);\n$primary-500: oklch(0.719588 0.160232 241.934243);\n$primary-550: oklch(0.647121 0.194114 252.085254);\n$primary-600: oklch(0.575113 0.229834 260.756335);\n$primary-650: oklch(0.504429 0.200565 260.409998);\n$primary-700: oklch(0.433012 0.172764 260.164397);\n$primary-750: oklch(0.360675 0.146274 260.290439);\n$primary-800: oklch(0.289999 0.117296 259.841938);\n$primary-850: oklch(0.238584 0.100105 260.505764);\n$primary-900: oklch(0.190403 0.080719 260.682766);\n$primary-950: oklch(0.138623 0.062732 261.699127);\n$accent-50: oklch(0.984801 0.007587 7.280361);\n$accent-100: oklch(0.97188 0.014232 6.700043);\n$accent-150: oklch(0.959029 0.020979 6.606185);\n$accent-200: oklch(0.946252 0.027827 6.653086);\n$accent-250: oklch(0.922815 0.040479 8.438397);\n$accent-300: oklch(0.897868 0.054828 8.39461);\n$accent-350: oklch(0.875166 0.068164 9.494436);\n$accent-400: oklch(0.850883 0.08303 10.570683);\n$accent-450: oklch(0.779076 0.116944 12.810782);\n$accent-500: oklch(0.707215 0.150378 15.602977);\n$accent-550: oklch(0.634722 0.184087 17.935378);\n$accent-600: oklch(0.561955 0.217505 20.33356);\n$accent-650: oklch(0.501611 0.19526 19.649998);\n$accent-700: oklch(0.439441 0.172351 18.724983);\n$accent-750: oklch(0.377602 0.149006 17.706488);\n$accent-800: oklch(0.316967 0.126887 17.133117);\n$accent-850: oklch(0.26401 0.105766 17.967115);\n$accent-900: oklch(0.210832 0.084535 18.772606);\n$accent-950: oklch(0.156795 0.062933 19.607624);\n$grey-50: oklch(0.985104 0 0);\n$grey-100: oklch(0.970151 0 0);\n$grey-150: oklch(0.95514 0 0);\n$grey-200: oklch(0.94007 0 0);\n$grey-250: oklch(0.920652 0.002558 228.786818);\n$grey-300: oklch(0.901624 0.003538 219.535738);\n$grey-350: oklch(0.882025 0.006111 223.464254);\n$grey-400: oklch(0.863097 0.007776 228.868893);\n$grey-450: oklch(0.753634 0.008885 236.605307);\n$grey-500: oklch(0.645222 0.009348 225.150438);\n$grey-550: oklch(0.536704 0.009767 225.197358);\n$grey-600: oklch(0.426427 0.011202 232.617199);\n$grey-650: oklch(0.386365 0.01045 236.835687);\n$grey-700: oklch(0.348204 0.010712 236.894097);\n$grey-750: oklch(0.308978 0.011017 236.97265);\n$grey-800: oklch(0.269413 0.01036 242.083865);\n$grey-850: oklch(0.223572 0.008405 240.274391);\n$grey-900: oklch(0.175228 0.006346 236.981786);\n$grey-950: oklch(0.126543 0.006953 243.792325);\n";
+var oklch_default15 = "$primary-50: oklch(0.981046 0.012805 221.42319); // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n$primary-100: oklch(0.962528 0.022535 229.073806); // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n$primary-150: oklch(0.945178 0.032646 226.304274); // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n$primary-200: oklch(0.926674 0.041663 227.890787); // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n$primary-250: oklch(0.911263 0.054737 226.223779); // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n$primary-300: oklch(0.896395 0.067447 225.364647); // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n$primary-350: oklch(0.87908 0.079726 224.961348); // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n$primary-400: oklch(0.864091 0.092143 223.595164); // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n$primary-450: oklch(0.793049 0.126377 232.671182); // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n$primary-500: oklch(0.719588 0.160232 241.934243); // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n$primary-550: oklch(0.647121 0.194114 252.085254); // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n$primary-600: oklch(0.575113 0.229834 260.756335); // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n$primary-650: oklch(0.504429 0.200565 260.409998); // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n$primary-700: oklch(0.433012 0.172764 260.164397); // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n$primary-750: oklch(0.360675 0.146274 260.290439); // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n$primary-800: oklch(0.289999 0.117296 259.841938); // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n$primary-850: oklch(0.238584 0.100105 260.505764); // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n$primary-900: oklch(0.190403 0.080719 260.682766); // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n$primary-950: oklch(0.138623 0.062732 261.699127); // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n$accent-50: oklch(0.984801 0.007587 7.280361); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n$accent-100: oklch(0.97188 0.014232 6.700043); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n$accent-150: oklch(0.959029 0.020979 6.606185); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n$accent-200: oklch(0.946252 0.027827 6.653086); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n$accent-250: oklch(0.922815 0.040479 8.438397); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n$accent-300: oklch(0.897868 0.054828 8.39461); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n$accent-350: oklch(0.875166 0.068164 9.494436); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n$accent-400: oklch(0.850883 0.08303 10.570683); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n$accent-450: oklch(0.779076 0.116944 12.810782); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n$accent-500: oklch(0.707215 0.150378 15.602977); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n$accent-550: oklch(0.634722 0.184087 17.935378); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n$accent-600: oklch(0.561955 0.217505 20.33356); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n$accent-650: oklch(0.501611 0.19526 19.649998); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n$accent-700: oklch(0.439441 0.172351 18.724983); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n$accent-750: oklch(0.377602 0.149006 17.706488); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n$accent-800: oklch(0.316967 0.126887 17.133117); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n$accent-850: oklch(0.26401 0.105766 17.967115); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n$accent-900: oklch(0.210832 0.084535 18.772606); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n$accent-950: oklch(0.156795 0.062933 19.607624); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n$grey-50: oklch(0.985104 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n$grey-100: oklch(0.970151 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n$grey-150: oklch(0.95514 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n$grey-200: oklch(0.94007 0 0); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n$grey-250: oklch(0.920652 0.002558 228.786818); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n$grey-300: oklch(0.901624 0.003538 219.535738); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n$grey-350: oklch(0.882025 0.006111 223.464254); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n$grey-400: oklch(0.863097 0.007776 228.868893); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n$grey-450: oklch(0.753634 0.008885 236.605307); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n$grey-500: oklch(0.645222 0.009348 225.150438); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n$grey-550: oklch(0.536704 0.009767 225.197358); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n$grey-600: oklch(0.426427 0.011202 232.617199); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n$grey-650: oklch(0.386365 0.01045 236.835687); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n$grey-700: oklch(0.348204 0.010712 236.894097); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n$grey-750: oklch(0.308978 0.011017 236.97265); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n$grey-800: oklch(0.269413 0.01036 242.083865); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n$grey-850: oklch(0.223572 0.008405 240.274391); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n$grey-900: oklch(0.175228 0.006346 236.981786); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n$grey-950: oklch(0.126543 0.006953 243.792325); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/themes/masterbrand/rgb.scss
 var rgb_exports21 = {};
 __export(rgb_exports21, {
   default: () => rgb_default15
 });
-var rgb_default15 = "$primary-50: rgb(240, 251, 255);\n$primary-100: rgb(228, 246, 255);\n$primary-150: rgb(215, 242, 254);\n$primary-200: rgb(203, 237, 253);\n$primary-250: rgb(188, 234, 254);\n$primary-300: rgb(173, 231, 255);\n$primary-350: rgb(157, 227, 255);\n$primary-400: rgb(140, 224, 255);\n$primary-450: rgb(90, 201, 255);\n$primary-500: rgb(38, 174, 255);\n$primary-550: rgb(0, 143, 255);\n$primary-600: rgb(20, 108, 253);\n$primary-650: rgb(12, 90, 212);\n$primary-700: rgb(5, 72, 173);\n$primary-750: rgb(2, 54, 136);\n$primary-800: rgb(0, 38, 100);\n$primary-850: rgb(0, 26, 77);\n$primary-900: rgb(0, 16, 55);\n$primary-950: rgb(0, 6, 34);\n$accent-50: rgb(255, 248, 249);\n$accent-100: rgb(255, 242, 244);\n$accent-150: rgb(255, 236, 239);\n$accent-200: rgb(255, 230, 234);\n$accent-250: rgb(255, 219, 224);\n$accent-300: rgb(255, 207, 214);\n$accent-350: rgb(255, 196, 204);\n$accent-400: rgb(255, 184, 193);\n$accent-450: rgb(248, 151, 162);\n$accent-500: rgb(239, 117, 129);\n$accent-550: rgb(228, 79, 95);\n$accent-600: rgb(215, 21, 58);\n$accent-650: rgb(185, 14, 50);\n$accent-700: rgb(155, 7, 42);\n$accent-750: rgb(126, 3, 34);\n$accent-800: rgb(99, 0, 25);\n$accent-850: rgb(76, 0, 16);\n$accent-900: rgb(54, 0, 8);\n$accent-950: rgb(33, 0, 3);\n$grey-50: rgb(250, 250, 250);\n$grey-100: rgb(245, 245, 245);\n$grey-150: rgb(240, 240, 240);\n$grey-200: rgb(235, 235, 235);\n$grey-250: rgb(227, 229, 230);\n$grey-300: rgb(220, 223, 224);\n$grey-350: rgb(212, 217, 219);\n$grey-400: rgb(205, 211, 214);\n$grey-450: rgb(170, 176, 180);\n$grey-500: rgb(136, 143, 146);\n$grey-550: rgb(104, 111, 114);\n$grey-600: rgb(73, 80, 84);\n$grey-650: rgb(63, 69, 73);\n$grey-700: rgb(53, 59, 63);\n$grey-750: rgb(43, 49, 53);\n$grey-800: rgb(34, 39, 43);\n$grey-850: rgb(24, 28, 31);\n$grey-900: rgb(14, 17, 19);\n$grey-950: rgb(5, 7, 9);\n";
+var rgb_default15 = "$primary-50: rgb(240, 251, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.\n$primary-100: rgb(228, 246, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.\n$primary-150: rgb(215, 242, 254); // Primary brand colour \u2014 primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.\n$primary-200: rgb(203, 237, 253); // Primary brand colour \u2014 primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.\n$primary-250: rgb(188, 234, 254); // Primary brand colour \u2014 primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.\n$primary-300: rgb(173, 231, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 300: light tints.\n$primary-350: rgb(157, 227, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 350: light tints.\n$primary-400: rgb(140, 224, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 400: light tints.\n$primary-450: rgb(90, 201, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 450: light tints.\n$primary-500: rgb(38, 174, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.\n$primary-550: rgb(0, 143, 255); // Primary brand colour \u2014 primary actions, links, and key accents. Step 550: shades for borders and icons.\n$primary-600: rgb(20, 108, 253); // Primary brand colour \u2014 primary actions, links, and key accents. Step 600: shades for borders and icons.\n$primary-650: rgb(12, 90, 212); // Primary brand colour \u2014 primary actions, links, and key accents. Step 650: shades for borders and icons.\n$primary-700: rgb(5, 72, 173); // Primary brand colour \u2014 primary actions, links, and key accents. Step 700: shades for borders and icons.\n$primary-750: rgb(2, 54, 136); // Primary brand colour \u2014 primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.\n$primary-800: rgb(0, 38, 100); // Primary brand colour \u2014 primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.\n$primary-850: rgb(0, 26, 77); // Primary brand colour \u2014 primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.\n$primary-900: rgb(0, 16, 55); // Primary brand colour \u2014 primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.\n$primary-950: rgb(0, 6, 34); // Primary brand colour \u2014 primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.\n$accent-50: rgb(255, 248, 249); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.\n$accent-100: rgb(255, 242, 244); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.\n$accent-150: rgb(255, 236, 239); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.\n$accent-200: rgb(255, 230, 234); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.\n$accent-250: rgb(255, 219, 224); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.\n$accent-300: rgb(255, 207, 214); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: light tints.\n$accent-350: rgb(255, 196, 204); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: light tints.\n$accent-400: rgb(255, 184, 193); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: light tints.\n$accent-450: rgb(248, 151, 162); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: light tints.\n$accent-500: rgb(239, 117, 129); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.\n$accent-550: rgb(228, 79, 95); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: shades for borders and icons.\n$accent-600: rgb(215, 21, 58); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: shades for borders and icons.\n$accent-650: rgb(185, 14, 50); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: shades for borders and icons.\n$accent-700: rgb(155, 7, 42); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: shades for borders and icons.\n$accent-750: rgb(126, 3, 34); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.\n$accent-800: rgb(99, 0, 25); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.\n$accent-850: rgb(76, 0, 16); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.\n$accent-900: rgb(54, 0, 8); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.\n$accent-950: rgb(33, 0, 3); // Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.\n$grey-50: rgb(250, 250, 250); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.\n$grey-100: rgb(245, 245, 245); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.\n$grey-150: rgb(240, 240, 240); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.\n$grey-200: rgb(235, 235, 235); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.\n$grey-250: rgb(227, 229, 230); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.\n$grey-300: rgb(220, 223, 224); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: light tints.\n$grey-350: rgb(212, 217, 219); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: light tints.\n$grey-400: rgb(205, 211, 214); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: light tints.\n$grey-450: rgb(170, 176, 180); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: light tints.\n$grey-500: rgb(136, 143, 146); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.\n$grey-550: rgb(104, 111, 114); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: shades for borders and icons.\n$grey-600: rgb(73, 80, 84); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: shades for borders and icons.\n$grey-650: rgb(63, 69, 73); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: shades for borders and icons.\n$grey-700: rgb(53, 59, 63); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: shades for borders and icons.\n$grey-750: rgb(43, 49, 53); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.\n$grey-800: rgb(34, 39, 43); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.\n$grey-850: rgb(24, 28, 31); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.\n$grey-900: rgb(14, 17, 19); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.\n$grey-950: rgb(5, 7, 9); // Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.\n";
 
 // src/scss/colors/themes/fuchsia-blue/hex.scss
 var hex_exports22 = {};
