@@ -43,7 +43,21 @@ for (const mode of MODES) {
   }
   lookups[mode] = lookup
 }
-const resolveAlias = (v, mode) => (isAlias(v) ? lookups[mode][v.slice(1, -1)] : v)
+// Fail fast with the alias and mode in the message: a missing per-mode global canonical
+// or a misspelled alias would otherwise surface as an undefined-property TypeError far
+// from the cause (latent until D3, when theme layers — which alias — gain dark canonicals).
+const resolveAlias = (v, mode) => {
+  if (!isAlias(v)) return v
+  const lookup = lookups[mode]
+  if (!lookup)
+    throw new Error(
+      `cannot resolve alias ${v}: no global colour canonical exists for mode "${mode}"`,
+    )
+  const resolved = lookup[v.slice(1, -1)]
+  if (!resolved)
+    throw new Error(`cannot resolve alias ${v} against the ${mode} global colour canonical`)
+  return resolved
+}
 
 // file name -> how to derive its $value from a canonical value
 const VIEWS = {
