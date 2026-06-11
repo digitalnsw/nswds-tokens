@@ -1,127 +1,3 @@
-declare namespace globalCssHex {
-  export {  };
-}
-
-declare namespace globalCssHsl {
-  export {  };
-}
-
-declare namespace globalCssOklch {
-  export {  };
-}
-
-declare namespace globalCssRgb {
-  export {  };
-}
-
-declare namespace semanticCssHex {
-  export {  };
-}
-
-declare namespace semanticCssHsl {
-  export {  };
-}
-
-declare namespace semanticCssOklch {
-  export {  };
-}
-
-declare namespace semanticCssRgb {
-  export {  };
-}
-
-declare namespace masterbrandCssHex {
-  export {  };
-}
-
-declare namespace masterbrandCssHsl {
-  export {  };
-}
-
-declare namespace masterbrandCssOklch {
-  export {  };
-}
-
-declare namespace masterbrandCssRgb {
-  export {  };
-}
-
-declare namespace fuchsiaBlueCssHex {
-  export {  };
-}
-
-declare namespace fuchsiaBlueCssHsl {
-  export {  };
-}
-
-declare namespace fuchsiaBlueCssOklch {
-  export {  };
-}
-
-declare namespace fuchsiaBlueCssRgb {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeCssHex {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeCssHsl {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeCssOklch {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeCssRgb {
-  export {  };
-}
-
-declare namespace dataVisualisationCssHex {
-  export {  };
-}
-
-declare namespace dataVisualisationCssHsl {
-  export {  };
-}
-
-declare namespace dataVisualisationCssOklch {
-  export {  };
-}
-
-declare namespace dataVisualisationCssRgb {
-  export {  };
-}
-
-declare namespace spaceCssGlobal {
-  export {  };
-}
-
-declare namespace radiusCssGlobal {
-  export {  };
-}
-
-declare namespace breakpointsCssGlobal {
-  export {  };
-}
-
-declare namespace typographyCssGlobal {
-  export {  };
-}
-
-declare namespace typographyCssSemantic {
-  export {  };
-}
-
-declare namespace borderCssGlobal {
-  export {  };
-}
-
-declare namespace shadowCssGlobal {
-  export {  };
-}
-
 declare const nswGrey$7: {
   '50': string
   '100': string
@@ -3937,374 +3813,6 @@ declare const shadow$1: {
 
 declare namespace shadowJsGlobal {
   export { boxShadow$1 as boxShadow, shadow$1 as shadow, shadowColor$1 as shadowColor };
-}
-
-declare namespace globalLessHex {
-  export {  };
-}
-
-declare namespace globalLessHsl {
-  export {  };
-}
-
-declare namespace globalLessOklch {
-  export {  };
-}
-
-declare namespace globalLessRgb {
-  export {  };
-}
-
-declare namespace semanticLessHex {
-  export {  };
-}
-
-declare namespace semanticLessHsl {
-  export {  };
-}
-
-declare namespace semanticLessOklch {
-  export {  };
-}
-
-declare namespace semanticLessRgb {
-  export {  };
-}
-
-declare namespace masterbrandLessHex {
-  export {  };
-}
-
-declare namespace masterbrandLessHsl {
-  export {  };
-}
-
-declare namespace masterbrandLessOklch {
-  export {  };
-}
-
-declare namespace masterbrandLessRgb {
-  export {  };
-}
-
-declare namespace fuchsiaBlueLessHex {
-  export {  };
-}
-
-declare namespace fuchsiaBlueLessHsl {
-  export {  };
-}
-
-declare namespace fuchsiaBlueLessOklch {
-  export {  };
-}
-
-declare namespace fuchsiaBlueLessRgb {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeLessHex {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeLessHsl {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeLessOklch {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeLessRgb {
-  export {  };
-}
-
-declare namespace dataVisualisationLessHex {
-  export {  };
-}
-
-declare namespace dataVisualisationLessHsl {
-  export {  };
-}
-
-declare namespace dataVisualisationLessOklch {
-  export {  };
-}
-
-declare namespace dataVisualisationLessRgb {
-  export {  };
-}
-
-declare namespace spaceLessGlobal {
-  export {  };
-}
-
-declare namespace radiusLessGlobal {
-  export {  };
-}
-
-declare namespace breakpointsLessGlobal {
-  export {  };
-}
-
-declare namespace typographyLessGlobal {
-  export {  };
-}
-
-declare namespace typographyLessSemantic {
-  export {  };
-}
-
-declare namespace borderLessGlobal {
-  export {  };
-}
-
-declare namespace shadowLessGlobal {
-  export {  };
-}
-
-declare namespace globalScssHex {
-  export {  };
-}
-
-declare namespace globalScssHsl {
-  export {  };
-}
-
-declare namespace globalScssOklch {
-  export {  };
-}
-
-declare namespace globalScssRgb {
-  export {  };
-}
-
-declare namespace semanticScssHex {
-  export {  };
-}
-
-declare namespace semanticScssHsl {
-  export {  };
-}
-
-declare namespace semanticScssOklch {
-  export {  };
-}
-
-declare namespace semanticScssRgb {
-  export {  };
-}
-
-declare namespace masterbrandScssHex {
-  export {  };
-}
-
-declare namespace masterbrandScssHsl {
-  export {  };
-}
-
-declare namespace masterbrandScssOklch {
-  export {  };
-}
-
-declare namespace masterbrandScssRgb {
-  export {  };
-}
-
-declare namespace fuchsiaBlueScssHex {
-  export {  };
-}
-
-declare namespace fuchsiaBlueScssHsl {
-  export {  };
-}
-
-declare namespace fuchsiaBlueScssOklch {
-  export {  };
-}
-
-declare namespace fuchsiaBlueScssRgb {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeScssHex {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeScssHsl {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeScssOklch {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeScssRgb {
-  export {  };
-}
-
-declare namespace dataVisualisationScssHex {
-  export {  };
-}
-
-declare namespace dataVisualisationScssHsl {
-  export {  };
-}
-
-declare namespace dataVisualisationScssOklch {
-  export {  };
-}
-
-declare namespace dataVisualisationScssRgb {
-  export {  };
-}
-
-declare namespace spaceScssGlobal {
-  export {  };
-}
-
-declare namespace radiusScssGlobal {
-  export {  };
-}
-
-declare namespace breakpointsScssGlobal {
-  export {  };
-}
-
-declare namespace typographyScssGlobal {
-  export {  };
-}
-
-declare namespace typographyScssSemantic {
-  export {  };
-}
-
-declare namespace borderScssGlobal {
-  export {  };
-}
-
-declare namespace shadowScssGlobal {
-  export {  };
-}
-
-declare namespace globalTailwindHex {
-  export {  };
-}
-
-declare namespace globalTailwindHsl {
-  export {  };
-}
-
-declare namespace globalTailwindOklch {
-  export {  };
-}
-
-declare namespace globalTailwindRgb {
-  export {  };
-}
-
-declare namespace semanticTailwindHex {
-  export {  };
-}
-
-declare namespace semanticTailwindHsl {
-  export {  };
-}
-
-declare namespace semanticTailwindOklch {
-  export {  };
-}
-
-declare namespace semanticTailwindRgb {
-  export {  };
-}
-
-declare namespace masterbrandTailwindHex {
-  export {  };
-}
-
-declare namespace masterbrandTailwindHsl {
-  export {  };
-}
-
-declare namespace masterbrandTailwindOklch {
-  export {  };
-}
-
-declare namespace masterbrandTailwindRgb {
-  export {  };
-}
-
-declare namespace fuchsiaBlueTailwindHex {
-  export {  };
-}
-
-declare namespace fuchsiaBlueTailwindHsl {
-  export {  };
-}
-
-declare namespace fuchsiaBlueTailwindOklch {
-  export {  };
-}
-
-declare namespace fuchsiaBlueTailwindRgb {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeTailwindHex {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeTailwindHsl {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeTailwindOklch {
-  export {  };
-}
-
-declare namespace fuchsiaOrangeTailwindRgb {
-  export {  };
-}
-
-declare namespace dataVisualisationTailwindHex {
-  export {  };
-}
-
-declare namespace dataVisualisationTailwindHsl {
-  export {  };
-}
-
-declare namespace dataVisualisationTailwindOklch {
-  export {  };
-}
-
-declare namespace dataVisualisationTailwindRgb {
-  export {  };
-}
-
-declare namespace spaceTailwindGlobal {
-  export {  };
-}
-
-declare namespace radiusTailwindGlobal {
-  export {  };
-}
-
-declare namespace breakpointsTailwindGlobal {
-  export {  };
-}
-
-declare namespace typographyTailwindGlobal {
-  export {  };
-}
-
-declare namespace borderTailwindGlobal {
-  export {  };
-}
-
-declare namespace shadowTailwindGlobal {
-  export {  };
 }
 
 declare const nswGrey$3: {
@@ -8195,7 +7703,7 @@ declare const tokens: {
             rgb: any;
         };
         themes: {
-            masterbrand: {
+            "masterbrand": {
                 hex: any;
                 hsl: any;
                 oklch: any;
@@ -8223,61 +7731,61 @@ declare const tokens: {
     };
     css: {
         global: {
-            hex: typeof globalCssHex;
-            hsl: typeof globalCssHsl;
-            oklch: typeof globalCssOklch;
-            rgb: typeof globalCssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         semantic: {
-            hex: typeof semanticCssHex;
-            hsl: typeof semanticCssHsl;
-            oklch: typeof semanticCssOklch;
-            rgb: typeof semanticCssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         themes: {
-            masterbrand: {
-                hex: typeof masterbrandCssHex;
-                hsl: typeof masterbrandCssHsl;
-                oklch: typeof masterbrandCssOklch;
-                rgb: typeof masterbrandCssRgb;
+            "masterbrand": {
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-blue": {
-                hex: typeof fuchsiaBlueCssHex;
-                hsl: typeof fuchsiaBlueCssHsl;
-                oklch: typeof fuchsiaBlueCssOklch;
-                rgb: typeof fuchsiaBlueCssRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-orange": {
-                hex: typeof fuchsiaOrangeCssHex;
-                hsl: typeof fuchsiaOrangeCssHsl;
-                oklch: typeof fuchsiaOrangeCssOklch;
-                rgb: typeof fuchsiaOrangeCssRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "data-visualisation": {
-                hex: typeof dataVisualisationCssHex;
-                hsl: typeof dataVisualisationCssHsl;
-                oklch: typeof dataVisualisationCssOklch;
-                rgb: typeof dataVisualisationCssRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
         };
         space: {
-            global: typeof spaceCssGlobal;
+            global: string;
         };
         radius: {
-            global: typeof radiusCssGlobal;
+            global: string;
         };
         breakpoints: {
-            global: typeof breakpointsCssGlobal;
+            global: string;
         };
         typography: {
-            global: typeof typographyCssGlobal;
-            semantic: typeof typographyCssSemantic;
+            global: string;
+            semantic: string;
         };
         border: {
-            global: typeof borderCssGlobal;
+            global: string;
         };
         shadow: {
-            global: typeof shadowCssGlobal;
+            global: string;
         };
     };
     js: {
@@ -8294,7 +7802,7 @@ declare const tokens: {
             rgb: typeof semanticJsRgb;
         };
         themes: {
-            masterbrand: {
+            "masterbrand": {
                 hex: typeof masterbrandJsHex;
                 hsl: typeof masterbrandJsHsl;
                 oklch: typeof masterbrandJsOklch;
@@ -8353,7 +7861,7 @@ declare const tokens: {
             rgb: any;
         };
         themes: {
-            masterbrand: {
+            "masterbrand": {
                 hex: any;
                 hsl: any;
                 oklch: any;
@@ -8400,178 +7908,178 @@ declare const tokens: {
     };
     less: {
         global: {
-            hex: typeof globalLessHex;
-            hsl: typeof globalLessHsl;
-            oklch: typeof globalLessOklch;
-            rgb: typeof globalLessRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         semantic: {
-            hex: typeof semanticLessHex;
-            hsl: typeof semanticLessHsl;
-            oklch: typeof semanticLessOklch;
-            rgb: typeof semanticLessRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         themes: {
-            masterbrand: {
-                hex: typeof masterbrandLessHex;
-                hsl: typeof masterbrandLessHsl;
-                oklch: typeof masterbrandLessOklch;
-                rgb: typeof masterbrandLessRgb;
+            "masterbrand": {
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-blue": {
-                hex: typeof fuchsiaBlueLessHex;
-                hsl: typeof fuchsiaBlueLessHsl;
-                oklch: typeof fuchsiaBlueLessOklch;
-                rgb: typeof fuchsiaBlueLessRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-orange": {
-                hex: typeof fuchsiaOrangeLessHex;
-                hsl: typeof fuchsiaOrangeLessHsl;
-                oklch: typeof fuchsiaOrangeLessOklch;
-                rgb: typeof fuchsiaOrangeLessRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "data-visualisation": {
-                hex: typeof dataVisualisationLessHex;
-                hsl: typeof dataVisualisationLessHsl;
-                oklch: typeof dataVisualisationLessOklch;
-                rgb: typeof dataVisualisationLessRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
         };
         space: {
-            global: typeof spaceLessGlobal;
+            global: string;
         };
         radius: {
-            global: typeof radiusLessGlobal;
+            global: string;
         };
         breakpoints: {
-            global: typeof breakpointsLessGlobal;
+            global: string;
         };
         typography: {
-            global: typeof typographyLessGlobal;
-            semantic: typeof typographyLessSemantic;
+            global: string;
+            semantic: string;
         };
         border: {
-            global: typeof borderLessGlobal;
+            global: string;
         };
         shadow: {
-            global: typeof shadowLessGlobal;
+            global: string;
         };
     };
     scss: {
         global: {
-            hex: typeof globalScssHex;
-            hsl: typeof globalScssHsl;
-            oklch: typeof globalScssOklch;
-            rgb: typeof globalScssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         semantic: {
-            hex: typeof semanticScssHex;
-            hsl: typeof semanticScssHsl;
-            oklch: typeof semanticScssOklch;
-            rgb: typeof semanticScssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         themes: {
-            masterbrand: {
-                hex: typeof masterbrandScssHex;
-                hsl: typeof masterbrandScssHsl;
-                oklch: typeof masterbrandScssOklch;
-                rgb: typeof masterbrandScssRgb;
+            "masterbrand": {
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-blue": {
-                hex: typeof fuchsiaBlueScssHex;
-                hsl: typeof fuchsiaBlueScssHsl;
-                oklch: typeof fuchsiaBlueScssOklch;
-                rgb: typeof fuchsiaBlueScssRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-orange": {
-                hex: typeof fuchsiaOrangeScssHex;
-                hsl: typeof fuchsiaOrangeScssHsl;
-                oklch: typeof fuchsiaOrangeScssOklch;
-                rgb: typeof fuchsiaOrangeScssRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "data-visualisation": {
-                hex: typeof dataVisualisationScssHex;
-                hsl: typeof dataVisualisationScssHsl;
-                oklch: typeof dataVisualisationScssOklch;
-                rgb: typeof dataVisualisationScssRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
         };
         space: {
-            global: typeof spaceScssGlobal;
+            global: string;
         };
         radius: {
-            global: typeof radiusScssGlobal;
+            global: string;
         };
         breakpoints: {
-            global: typeof breakpointsScssGlobal;
+            global: string;
         };
         typography: {
-            global: typeof typographyScssGlobal;
-            semantic: typeof typographyScssSemantic;
+            global: string;
+            semantic: string;
         };
         border: {
-            global: typeof borderScssGlobal;
+            global: string;
         };
         shadow: {
-            global: typeof shadowScssGlobal;
+            global: string;
         };
     };
     tailwind: {
         global: {
-            hex: typeof globalTailwindHex;
-            hsl: typeof globalTailwindHsl;
-            oklch: typeof globalTailwindOklch;
-            rgb: typeof globalTailwindRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         semantic: {
-            hex: typeof semanticTailwindHex;
-            hsl: typeof semanticTailwindHsl;
-            oklch: typeof semanticTailwindOklch;
-            rgb: typeof semanticTailwindRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         themes: {
-            masterbrand: {
-                hex: typeof masterbrandTailwindHex;
-                hsl: typeof masterbrandTailwindHsl;
-                oklch: typeof masterbrandTailwindOklch;
-                rgb: typeof masterbrandTailwindRgb;
+            "masterbrand": {
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-blue": {
-                hex: typeof fuchsiaBlueTailwindHex;
-                hsl: typeof fuchsiaBlueTailwindHsl;
-                oklch: typeof fuchsiaBlueTailwindOklch;
-                rgb: typeof fuchsiaBlueTailwindRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "fuchsia-orange": {
-                hex: typeof fuchsiaOrangeTailwindHex;
-                hsl: typeof fuchsiaOrangeTailwindHsl;
-                oklch: typeof fuchsiaOrangeTailwindOklch;
-                rgb: typeof fuchsiaOrangeTailwindRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
             "data-visualisation": {
-                hex: typeof dataVisualisationTailwindHex;
-                hsl: typeof dataVisualisationTailwindHsl;
-                oklch: typeof dataVisualisationTailwindOklch;
-                rgb: typeof dataVisualisationTailwindRgb;
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
             };
         };
         space: {
-            global: typeof spaceTailwindGlobal;
+            global: string;
         };
         radius: {
-            global: typeof radiusTailwindGlobal;
+            global: string;
         };
         breakpoints: {
-            global: typeof breakpointsTailwindGlobal;
+            global: string;
         };
         typography: {
-            global: typeof typographyTailwindGlobal;
+            global: string;
         };
         border: {
-            global: typeof borderTailwindGlobal;
+            global: string;
         };
         shadow: {
-            global: typeof shadowTailwindGlobal;
+            global: string;
         };
     };
     ts: {
@@ -8588,7 +8096,7 @@ declare const tokens: {
             rgb: typeof semanticTsRgb;
         };
         themes: {
-            masterbrand: {
+            "masterbrand": {
                 hex: typeof masterbrandTsHex;
                 hsl: typeof masterbrandTsHsl;
                 oklch: typeof masterbrandTsOklch;
@@ -8648,7 +8156,7 @@ declare const colorTokens: {
         rgb: any;
     };
     themes: {
-        masterbrand: {
+        "masterbrand": {
             hex: any;
             hsl: any;
             oklch: any;
@@ -8676,61 +8184,61 @@ declare const colorTokens: {
 };
 declare const cssTokens: {
     global: {
-        hex: typeof globalCssHex;
-        hsl: typeof globalCssHsl;
-        oklch: typeof globalCssOklch;
-        rgb: typeof globalCssRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     semantic: {
-        hex: typeof semanticCssHex;
-        hsl: typeof semanticCssHsl;
-        oklch: typeof semanticCssOklch;
-        rgb: typeof semanticCssRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     themes: {
-        masterbrand: {
-            hex: typeof masterbrandCssHex;
-            hsl: typeof masterbrandCssHsl;
-            oklch: typeof masterbrandCssOklch;
-            rgb: typeof masterbrandCssRgb;
+        "masterbrand": {
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-blue": {
-            hex: typeof fuchsiaBlueCssHex;
-            hsl: typeof fuchsiaBlueCssHsl;
-            oklch: typeof fuchsiaBlueCssOklch;
-            rgb: typeof fuchsiaBlueCssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-orange": {
-            hex: typeof fuchsiaOrangeCssHex;
-            hsl: typeof fuchsiaOrangeCssHsl;
-            oklch: typeof fuchsiaOrangeCssOklch;
-            rgb: typeof fuchsiaOrangeCssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "data-visualisation": {
-            hex: typeof dataVisualisationCssHex;
-            hsl: typeof dataVisualisationCssHsl;
-            oklch: typeof dataVisualisationCssOklch;
-            rgb: typeof dataVisualisationCssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
     };
     space: {
-        global: typeof spaceCssGlobal;
+        global: string;
     };
     radius: {
-        global: typeof radiusCssGlobal;
+        global: string;
     };
     breakpoints: {
-        global: typeof breakpointsCssGlobal;
+        global: string;
     };
     typography: {
-        global: typeof typographyCssGlobal;
-        semantic: typeof typographyCssSemantic;
+        global: string;
+        semantic: string;
     };
     border: {
-        global: typeof borderCssGlobal;
+        global: string;
     };
     shadow: {
-        global: typeof shadowCssGlobal;
+        global: string;
     };
 };
 declare const jsTokens: {
@@ -8747,7 +8255,7 @@ declare const jsTokens: {
         rgb: typeof semanticJsRgb;
     };
     themes: {
-        masterbrand: {
+        "masterbrand": {
             hex: typeof masterbrandJsHex;
             hsl: typeof masterbrandJsHsl;
             oklch: typeof masterbrandJsOklch;
@@ -8806,7 +8314,7 @@ declare const jsonTokens: {
         rgb: any;
     };
     themes: {
-        masterbrand: {
+        "masterbrand": {
             hex: any;
             hsl: any;
             oklch: any;
@@ -8853,178 +8361,178 @@ declare const jsonTokens: {
 };
 declare const lessTokens: {
     global: {
-        hex: typeof globalLessHex;
-        hsl: typeof globalLessHsl;
-        oklch: typeof globalLessOklch;
-        rgb: typeof globalLessRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     semantic: {
-        hex: typeof semanticLessHex;
-        hsl: typeof semanticLessHsl;
-        oklch: typeof semanticLessOklch;
-        rgb: typeof semanticLessRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     themes: {
-        masterbrand: {
-            hex: typeof masterbrandLessHex;
-            hsl: typeof masterbrandLessHsl;
-            oklch: typeof masterbrandLessOklch;
-            rgb: typeof masterbrandLessRgb;
+        "masterbrand": {
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-blue": {
-            hex: typeof fuchsiaBlueLessHex;
-            hsl: typeof fuchsiaBlueLessHsl;
-            oklch: typeof fuchsiaBlueLessOklch;
-            rgb: typeof fuchsiaBlueLessRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-orange": {
-            hex: typeof fuchsiaOrangeLessHex;
-            hsl: typeof fuchsiaOrangeLessHsl;
-            oklch: typeof fuchsiaOrangeLessOklch;
-            rgb: typeof fuchsiaOrangeLessRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "data-visualisation": {
-            hex: typeof dataVisualisationLessHex;
-            hsl: typeof dataVisualisationLessHsl;
-            oklch: typeof dataVisualisationLessOklch;
-            rgb: typeof dataVisualisationLessRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
     };
     space: {
-        global: typeof spaceLessGlobal;
+        global: string;
     };
     radius: {
-        global: typeof radiusLessGlobal;
+        global: string;
     };
     breakpoints: {
-        global: typeof breakpointsLessGlobal;
+        global: string;
     };
     typography: {
-        global: typeof typographyLessGlobal;
-        semantic: typeof typographyLessSemantic;
+        global: string;
+        semantic: string;
     };
     border: {
-        global: typeof borderLessGlobal;
+        global: string;
     };
     shadow: {
-        global: typeof shadowLessGlobal;
+        global: string;
     };
 };
 declare const scssTokens: {
     global: {
-        hex: typeof globalScssHex;
-        hsl: typeof globalScssHsl;
-        oklch: typeof globalScssOklch;
-        rgb: typeof globalScssRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     semantic: {
-        hex: typeof semanticScssHex;
-        hsl: typeof semanticScssHsl;
-        oklch: typeof semanticScssOklch;
-        rgb: typeof semanticScssRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     themes: {
-        masterbrand: {
-            hex: typeof masterbrandScssHex;
-            hsl: typeof masterbrandScssHsl;
-            oklch: typeof masterbrandScssOklch;
-            rgb: typeof masterbrandScssRgb;
+        "masterbrand": {
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-blue": {
-            hex: typeof fuchsiaBlueScssHex;
-            hsl: typeof fuchsiaBlueScssHsl;
-            oklch: typeof fuchsiaBlueScssOklch;
-            rgb: typeof fuchsiaBlueScssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-orange": {
-            hex: typeof fuchsiaOrangeScssHex;
-            hsl: typeof fuchsiaOrangeScssHsl;
-            oklch: typeof fuchsiaOrangeScssOklch;
-            rgb: typeof fuchsiaOrangeScssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "data-visualisation": {
-            hex: typeof dataVisualisationScssHex;
-            hsl: typeof dataVisualisationScssHsl;
-            oklch: typeof dataVisualisationScssOklch;
-            rgb: typeof dataVisualisationScssRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
     };
     space: {
-        global: typeof spaceScssGlobal;
+        global: string;
     };
     radius: {
-        global: typeof radiusScssGlobal;
+        global: string;
     };
     breakpoints: {
-        global: typeof breakpointsScssGlobal;
+        global: string;
     };
     typography: {
-        global: typeof typographyScssGlobal;
-        semantic: typeof typographyScssSemantic;
+        global: string;
+        semantic: string;
     };
     border: {
-        global: typeof borderScssGlobal;
+        global: string;
     };
     shadow: {
-        global: typeof shadowScssGlobal;
+        global: string;
     };
 };
 declare const tailwindTokens: {
     global: {
-        hex: typeof globalTailwindHex;
-        hsl: typeof globalTailwindHsl;
-        oklch: typeof globalTailwindOklch;
-        rgb: typeof globalTailwindRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     semantic: {
-        hex: typeof semanticTailwindHex;
-        hsl: typeof semanticTailwindHsl;
-        oklch: typeof semanticTailwindOklch;
-        rgb: typeof semanticTailwindRgb;
+        hex: string;
+        hsl: string;
+        oklch: string;
+        rgb: string;
     };
     themes: {
-        masterbrand: {
-            hex: typeof masterbrandTailwindHex;
-            hsl: typeof masterbrandTailwindHsl;
-            oklch: typeof masterbrandTailwindOklch;
-            rgb: typeof masterbrandTailwindRgb;
+        "masterbrand": {
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-blue": {
-            hex: typeof fuchsiaBlueTailwindHex;
-            hsl: typeof fuchsiaBlueTailwindHsl;
-            oklch: typeof fuchsiaBlueTailwindOklch;
-            rgb: typeof fuchsiaBlueTailwindRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "fuchsia-orange": {
-            hex: typeof fuchsiaOrangeTailwindHex;
-            hsl: typeof fuchsiaOrangeTailwindHsl;
-            oklch: typeof fuchsiaOrangeTailwindOklch;
-            rgb: typeof fuchsiaOrangeTailwindRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
         "data-visualisation": {
-            hex: typeof dataVisualisationTailwindHex;
-            hsl: typeof dataVisualisationTailwindHsl;
-            oklch: typeof dataVisualisationTailwindOklch;
-            rgb: typeof dataVisualisationTailwindRgb;
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
         };
     };
     space: {
-        global: typeof spaceTailwindGlobal;
+        global: string;
     };
     radius: {
-        global: typeof radiusTailwindGlobal;
+        global: string;
     };
     breakpoints: {
-        global: typeof breakpointsTailwindGlobal;
+        global: string;
     };
     typography: {
-        global: typeof typographyTailwindGlobal;
+        global: string;
     };
     border: {
-        global: typeof borderTailwindGlobal;
+        global: string;
     };
     shadow: {
-        global: typeof shadowTailwindGlobal;
+        global: string;
     };
 };
 declare const tsTokens: {
@@ -9041,7 +8549,7 @@ declare const tsTokens: {
         rgb: typeof semanticTsRgb;
     };
     themes: {
-        masterbrand: {
+        "masterbrand": {
             hex: typeof masterbrandTsHex;
             hsl: typeof masterbrandTsHsl;
             oklch: typeof masterbrandTsOklch;

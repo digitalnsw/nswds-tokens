@@ -115,6 +115,16 @@ assert.equal(esmModule.tokens.colors.global.hex['nsw-blue'][500].$value, '#26aef
 const cjsModule = require('@nswds/tokens')
 assert.equal(cjsModule.tokens.colors.global.hex['nsw-blue'][500].$value, '#26aeff')
 
+// Runtime shape guard for the style leaves: the d.ts ANNOTATES these as string, so a
+// regression back to namespace imports ({ default: '...' }) would not be caught at the
+// type level — tsup does not typecheck the initialiser against the annotation.
+for (const [label, mod] of [['ESM', esmModule], ['CJS', cjsModule]]) {
+  const leaf = mod.tokens.css.global.hex
+  assert.equal(typeof leaf, 'string', label + ': tokens.css.global.hex must be a plain string, got ' + typeof leaf)
+  assert.ok(leaf.startsWith(':root'), label + ': tokens.css.global.hex must contain the stylesheet text')
+  assert.equal(typeof mod.tokens.tailwind.space.global, 'string', label + ': tailwind leaves must be plain strings')
+}
+
 const resolvedPaths = documentedSpecifiers.map((specifier) => {
   const resolvedPath = toPath(import.meta.resolve(specifier))
   assert.ok(
@@ -150,7 +160,8 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
       'const blue: string = nswBlue[500]',
       'const md: string = radius.md',
       'const weight: number = heading1.fontWeight',
-      'export { root, blue, md, weight }',
+      'const css: string = tokens.css.global.hex // style leaves are plain typed strings',
+      'export { root, blue, md, weight, css }',
       '',
     ].join('\n'),
     'utf8',
@@ -164,7 +175,11 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
           moduleResolution: 'NodeNext',
           strict: true,
           noEmit: true,
-          skipLibCheck: true,
+          // Deliberately STRICTER than the ecosystem default (skipLibCheck: true): the
+          // published d.ts files themselves must compile. The root index.d.ts once
+          // failed this with TS2708 (style text imports synthesised as namespaces) —
+          // fixed by build-index's explicit type annotation; this setting guards it.
+          skipLibCheck: false,
         },
         include: ['consumer.ts'],
       },
