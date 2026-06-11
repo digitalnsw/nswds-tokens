@@ -2682,7 +2682,7 @@
   "nsw-aboriginal-grey": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2696,7 +2696,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2710,7 +2710,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2724,7 +2724,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2738,7 +2738,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2752,7 +2752,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette grey. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2766,7 +2766,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette grey. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2780,7 +2780,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2794,7 +2794,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette grey. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2808,7 +2808,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette grey — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2822,7 +2822,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette grey. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2836,7 +2836,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2850,7 +2850,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette grey. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2864,7 +2864,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette grey. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2878,7 +2878,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2892,7 +2892,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2906,7 +2906,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2920,7 +2920,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2934,7 +2934,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette grey — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2950,7 +2950,7 @@
   "nsw-aboriginal-red": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2964,7 +2964,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2978,7 +2978,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2992,7 +2992,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3006,7 +3006,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3020,7 +3020,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette red. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3034,7 +3034,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette red. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3048,7 +3048,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3062,7 +3062,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette red. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3076,7 +3076,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette red — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3090,7 +3090,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette red. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3104,7 +3104,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3118,7 +3118,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette red. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3132,7 +3132,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette red. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3146,7 +3146,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3160,7 +3160,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3174,7 +3174,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3188,7 +3188,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3202,7 +3202,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette red — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3218,7 +3218,7 @@
   "nsw-aboriginal-orange": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3232,7 +3232,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3246,7 +3246,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3260,7 +3260,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3274,7 +3274,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3288,7 +3288,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette orange. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3302,7 +3302,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette orange. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3316,7 +3316,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3330,7 +3330,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette orange. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3344,7 +3344,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette orange — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3358,7 +3358,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette orange. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3372,7 +3372,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3386,7 +3386,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette orange. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3400,7 +3400,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette orange. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3414,7 +3414,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3428,7 +3428,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3442,7 +3442,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3456,7 +3456,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3470,7 +3470,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette orange — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3486,7 +3486,7 @@
   "nsw-aboriginal-brown": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3500,7 +3500,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3514,7 +3514,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3528,7 +3528,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3542,7 +3542,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3556,7 +3556,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette brown. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3570,7 +3570,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette brown. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3584,7 +3584,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3598,7 +3598,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette brown. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3612,7 +3612,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette brown — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3626,7 +3626,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette brown. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3640,7 +3640,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3654,7 +3654,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette brown. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3668,7 +3668,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette brown. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3682,7 +3682,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3696,7 +3696,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3710,7 +3710,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3724,7 +3724,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3738,7 +3738,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette brown — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3754,7 +3754,7 @@
   "nsw-aboriginal-yellow": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3768,7 +3768,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3782,7 +3782,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3796,7 +3796,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3810,7 +3810,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3824,7 +3824,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette yellow. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3838,7 +3838,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette yellow. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3852,7 +3852,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3866,7 +3866,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette yellow. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3880,7 +3880,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette yellow — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3894,7 +3894,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette yellow. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3908,7 +3908,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3922,7 +3922,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette yellow. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3936,7 +3936,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette yellow. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3950,7 +3950,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3964,7 +3964,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3978,7 +3978,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3992,7 +3992,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4006,7 +4006,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette yellow — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4022,7 +4022,7 @@
   "nsw-aboriginal-green": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4036,7 +4036,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4050,7 +4050,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4064,7 +4064,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4078,7 +4078,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4092,7 +4092,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette green. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4106,7 +4106,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette green. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4120,7 +4120,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4134,7 +4134,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette green. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4148,7 +4148,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette green — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4162,7 +4162,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette green. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4176,7 +4176,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4190,7 +4190,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette green. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4204,7 +4204,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette green. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4218,7 +4218,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4232,7 +4232,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4246,7 +4246,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4260,7 +4260,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4274,7 +4274,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette green — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4290,7 +4290,7 @@
   "nsw-aboriginal-blue": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4304,7 +4304,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4318,7 +4318,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4332,7 +4332,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4346,7 +4346,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4360,7 +4360,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette blue. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4374,7 +4374,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette blue. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4388,7 +4388,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4402,7 +4402,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette blue. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4416,7 +4416,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette blue — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4430,7 +4430,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette blue. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4444,7 +4444,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4458,7 +4458,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette blue. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4472,7 +4472,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette blue. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4486,7 +4486,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4500,7 +4500,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4514,7 +4514,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4528,7 +4528,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4542,7 +4542,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette blue — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4558,7 +4558,7 @@
   "nsw-aboriginal-purple": {
     "50": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4572,7 +4572,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4586,7 +4586,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4600,7 +4600,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4614,7 +4614,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4628,7 +4628,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette purple. Step 300: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4642,7 +4642,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette purple. Step 350: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4656,7 +4656,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4670,7 +4670,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette purple. Step 450: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4684,7 +4684,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 500: base colour.",
+      "$description": "NSW Aboriginal palette purple — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4698,7 +4698,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette purple. Step 550: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4712,7 +4712,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4726,7 +4726,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette purple. Step 650: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4740,7 +4740,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette purple. Step 700: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4754,7 +4754,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 750: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4768,7 +4768,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4782,7 +4782,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 850: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4796,7 +4796,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 900: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4810,7 +4810,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "[DESIGN TO CONFIRM] Aboriginal palette purple — placeholder copy; usage context and description to be confirmed with the owners of the NSW Aboriginal design guidance before this text is treated as final. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 950: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
