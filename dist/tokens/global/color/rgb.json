@@ -2724,7 +2724,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Smoke Grey. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2780,7 +2780,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Ash Grey. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2836,7 +2836,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Emu Grey. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2892,7 +2892,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Charcoal Grey. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2992,7 +2992,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Galah Pink. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3048,7 +3048,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Coral Pink. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3104,7 +3104,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Ember Red. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3160,7 +3160,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Earth Red. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3260,7 +3260,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Sunset Orange. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3316,7 +3316,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Clay Orange. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3372,7 +3372,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Orange Ochre. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3428,7 +3428,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Deep Orange. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3528,7 +3528,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Macadamia Brown. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3584,7 +3584,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Claystone Brown. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3640,7 +3640,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Firewood Brown. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3696,7 +3696,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Riverbed Brown. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3796,7 +3796,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Sunbeam Yellow. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3852,7 +3852,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Golden Wattle Yellow. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3908,7 +3908,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Sandstone Yellow. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3964,7 +3964,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Bush Honey Yellow. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4064,7 +4064,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Saltbush Green. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4120,7 +4120,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Gumleaf Green. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4176,7 +4176,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Marshland Lime. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4232,7 +4232,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Bushland Green. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4332,7 +4332,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Coastal Blue. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4388,7 +4388,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Light Water Blue. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4444,7 +4444,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Saltwater Blue. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4500,7 +4500,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Billabong Blue. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4600,7 +4600,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Dusk Purple. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4656,7 +4656,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Lilli Pilli Purple. Step 400: light tints.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4712,7 +4712,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Spirit Lilac. Step 600: shades for borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4768,7 +4768,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Bush Plum. Step 800: darkest shades for text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [

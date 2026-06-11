@@ -192,152 +192,152 @@
   --nsw-aboriginal-grey-50: #f9f8f7; /** NSW Aboriginal palette grey. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-grey-100: #f2f1ef; /** NSW Aboriginal palette grey. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-grey-150: #ebeae8; /** NSW Aboriginal palette grey. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-grey-200: #e5e3e0; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-200: #e5e3e0; /** NSW Aboriginal palette Smoke Grey. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-grey-250: #dfdcd8; /** NSW Aboriginal palette grey. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-grey-300: #d8d4d1; /** NSW Aboriginal palette grey. Step 300: light tints. */
   --nsw-aboriginal-grey-350: #d2cdc9; /** NSW Aboriginal palette grey. Step 350: light tints. */
-  --nsw-aboriginal-grey-400: #ccc6c2; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-grey-400: #ccc6c2; /** NSW Aboriginal palette Ash Grey. Step 400: light tints. */
   --nsw-aboriginal-grey-450: #ada8a5; /** NSW Aboriginal palette grey. Step 450: light tints. */
   --nsw-aboriginal-grey-500: #8e8b8a; /** NSW Aboriginal palette grey — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-grey-550: #71706f; /** NSW Aboriginal palette grey. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-grey-600: #555555; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-grey-600: #555555; /** NSW Aboriginal palette Emu Grey. Step 600: shades for borders and icons. */
   --nsw-aboriginal-grey-650: #494949; /** NSW Aboriginal palette grey. Step 650: shades for borders and icons. */
   --nsw-aboriginal-grey-700: #3d3d3d; /** NSW Aboriginal palette grey. Step 700: shades for borders and icons. */
   --nsw-aboriginal-grey-750: #323232; /** NSW Aboriginal palette grey. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-grey-800: #272727; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-grey-800: #272727; /** NSW Aboriginal palette Charcoal Grey. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-grey-850: #1c1c1c; /** NSW Aboriginal palette grey. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-grey-900: #111111; /** NSW Aboriginal palette grey. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-grey-950: #070707; /** NSW Aboriginal palette grey. Step 950: darkest shades for text and high emphasis. */
   --nsw-aboriginal-red-50: #fff5f5; /** NSW Aboriginal palette red. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-red-100: #ffebeb; /** NSW Aboriginal palette red. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-red-150: #fee2e2; /** NSW Aboriginal palette red. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-red-200: #fdd9d9; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-200: #fdd9d9; /** NSW Aboriginal palette Galah Pink. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-red-250: #fdd0d0; /** NSW Aboriginal palette red. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-red-300: #fcc7c6; /** NSW Aboriginal palette red. Step 300: light tints. */
   --nsw-aboriginal-red-350: #fcbdbd; /** NSW Aboriginal palette red. Step 350: light tints. */
-  --nsw-aboriginal-red-400: #fbb4b3; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-red-400: #fbb4b3; /** NSW Aboriginal palette Coral Pink. Step 400: light tints. */
   --nsw-aboriginal-red-450: #f79693; /** NSW Aboriginal palette red. Step 450: light tints. */
   --nsw-aboriginal-red-500: #f27771; /** NSW Aboriginal palette red — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-red-550: #ea554c; /** NSW Aboriginal palette red. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-red-600: #e1261c; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-red-600: #e1261c; /** NSW Aboriginal palette Ember Red. Step 600: shades for borders and icons. */
   --nsw-aboriginal-red-650: #cd1f17; /** NSW Aboriginal palette red. Step 650: shades for borders and icons. */
   --nsw-aboriginal-red-700: #ba1811; /** NSW Aboriginal palette red. Step 700: shades for borders and icons. */
   --nsw-aboriginal-red-750: #a7110b; /** NSW Aboriginal palette red. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-red-800: #950906; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-red-800: #950906; /** NSW Aboriginal palette Earth Red. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-red-850: #740001; /** NSW Aboriginal palette red. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-red-900: #540000; /** NSW Aboriginal palette red. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-red-950: #360000; /** NSW Aboriginal palette red. Step 950: darkest shades for text and high emphasis. */
   --nsw-aboriginal-orange-50: #fff4ec; /** NSW Aboriginal palette orange. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-orange-100: #fee9dd; /** NSW Aboriginal palette orange. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-orange-150: #fcdfcd; /** NSW Aboriginal palette orange. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-orange-200: #f9d4be; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-200: #f9d4be; /** NSW Aboriginal palette Sunset Orange. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-orange-250: #f8caae; /** NSW Aboriginal palette orange. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-orange-300: #f7bf9e; /** NSW Aboriginal palette orange. Step 300: light tints. */
   --nsw-aboriginal-orange-350: #f6b58e; /** NSW Aboriginal palette orange. Step 350: light tints. */
-  --nsw-aboriginal-orange-400: #f4aa7d; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-orange-400: #f4aa7d; /** NSW Aboriginal palette Clay Orange. Step 400: light tints. */
   --nsw-aboriginal-orange-450: #f39a66; /** NSW Aboriginal palette orange. Step 450: light tints. */
   --nsw-aboriginal-orange-500: #f2894f; /** NSW Aboriginal palette orange — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-orange-550: #f07736; /** NSW Aboriginal palette orange. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-orange-600: #ee6314; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-orange-600: #ee6314; /** NSW Aboriginal palette Orange Ochre. Step 600: shades for borders and icons. */
   --nsw-aboriginal-orange-650: #d45310; /** NSW Aboriginal palette orange. Step 650: shades for borders and icons. */
   --nsw-aboriginal-orange-700: #ba440a; /** NSW Aboriginal palette orange. Step 700: shades for borders and icons. */
   --nsw-aboriginal-orange-750: #a13505; /** NSW Aboriginal palette orange. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-orange-800: #882600; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-orange-800: #882600; /** NSW Aboriginal palette Deep Orange. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-orange-850: #691900; /** NSW Aboriginal palette orange. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-orange-900: #4c0d00; /** NSW Aboriginal palette orange. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-orange-950: #300300; /** NSW Aboriginal palette orange. Step 950: darkest shades for text and high emphasis. */
   --nsw-aboriginal-brown-50: #fcf1e9; /** NSW Aboriginal palette brown. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-brown-100: #f6e3d7; /** NSW Aboriginal palette brown. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-brown-150: #efd5c4; /** NSW Aboriginal palette brown. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-brown-200: #e9c8b2; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-200: #e9c8b2; /** NSW Aboriginal palette Macadamia Brown. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-brown-250: #e4ba9f; /** NSW Aboriginal palette brown. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-brown-300: #dead8c; /** NSW Aboriginal palette brown. Step 300: light tints. */
   --nsw-aboriginal-brown-350: #d99f78; /** NSW Aboriginal palette brown. Step 350: light tints. */
-  --nsw-aboriginal-brown-400: #d39165; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-brown-400: #d39165; /** NSW Aboriginal palette Claystone Brown. Step 400: light tints. */
   --nsw-aboriginal-brown-450: #c68158; /** NSW Aboriginal palette brown. Step 450: light tints. */
   --nsw-aboriginal-brown-500: #b9724b; /** NSW Aboriginal palette brown — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-brown-550: #ab623e; /** NSW Aboriginal palette brown. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-brown-600: #9e5332; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-brown-600: #9e5332; /** NSW Aboriginal palette Firewood Brown. Step 600: shades for borders and icons. */
   --nsw-aboriginal-brown-650: #8b4627; /** NSW Aboriginal palette brown. Step 650: shades for borders and icons. */
   --nsw-aboriginal-brown-700: #79391c; /** NSW Aboriginal palette brown. Step 700: shades for borders and icons. */
   --nsw-aboriginal-brown-750: #672d10; /** NSW Aboriginal palette brown. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-brown-800: #552105; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-brown-800: #552105; /** NSW Aboriginal palette Riverbed Brown. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-brown-850: #411602; /** NSW Aboriginal palette brown. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-brown-900: #2d0c00; /** NSW Aboriginal palette brown. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-brown-950: #1b0400; /** NSW Aboriginal palette brown. Step 950: darkest shades for text and high emphasis. */
   --nsw-aboriginal-yellow-50: #fffcee; /** NSW Aboriginal palette yellow. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-yellow-100: #fff8e0; /** NSW Aboriginal palette yellow. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-yellow-150: #fff5d3; /** NSW Aboriginal palette yellow. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-yellow-200: #fff1c5; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-200: #fff1c5; /** NSW Aboriginal palette Sunbeam Yellow. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-yellow-250: #ffeeb7; /** NSW Aboriginal palette yellow. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-yellow-300: #ffeba9; /** NSW Aboriginal palette yellow. Step 300: light tints. */
   --nsw-aboriginal-yellow-350: #fee79b; /** NSW Aboriginal palette yellow. Step 350: light tints. */
-  --nsw-aboriginal-yellow-400: #fee48c; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-yellow-400: #fee48c; /** NSW Aboriginal palette Golden Wattle Yellow. Step 400: light tints. */
   --nsw-aboriginal-yellow-450: #fed675; /** NSW Aboriginal palette yellow. Step 450: light tints. */
   --nsw-aboriginal-yellow-500: #fec85d; /** NSW Aboriginal palette yellow — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-yellow-550: #feb944; /** NSW Aboriginal palette yellow. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-yellow-600: #fea927; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-yellow-600: #fea927; /** NSW Aboriginal palette Sandstone Yellow. Step 600: shades for borders and icons. */
   --nsw-aboriginal-yellow-650: #df961c; /** NSW Aboriginal palette yellow. Step 650: shades for borders and icons. */
   --nsw-aboriginal-yellow-700: #c18312; /** NSW Aboriginal palette yellow. Step 700: shades for borders and icons. */
   --nsw-aboriginal-yellow-750: #a57007; /** NSW Aboriginal palette yellow. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-yellow-800: #895e00; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-yellow-800: #895e00; /** NSW Aboriginal palette Bush Honey Yellow. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-yellow-850: #694700; /** NSW Aboriginal palette yellow. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-yellow-900: #4c3000; /** NSW Aboriginal palette yellow. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-yellow-950: #2f1c00; /** NSW Aboriginal palette yellow. Step 950: darkest shades for text and high emphasis. */
   --nsw-aboriginal-green-50: #f5f9f2; /** NSW Aboriginal palette green. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-green-100: #ecf3e7; /** NSW Aboriginal palette green. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-green-150: #e3ecdc; /** NSW Aboriginal palette green. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-green-200: #dae6d1; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-200: #dae6d1; /** NSW Aboriginal palette Saltbush Green. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-green-250: #d1e0c6; /** NSW Aboriginal palette green. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-green-300: #c7d9ba; /** NSW Aboriginal palette green. Step 300: light tints. */
   --nsw-aboriginal-green-350: #bed3af; /** NSW Aboriginal palette green. Step 350: light tints. */
-  --nsw-aboriginal-green-400: #b5cda4; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-green-400: #b5cda4; /** NSW Aboriginal palette Gumleaf Green. Step 400: light tints. */
   --nsw-aboriginal-green-450: #a5c28e; /** NSW Aboriginal palette green. Step 450: light tints. */
   --nsw-aboriginal-green-500: #95b777; /** NSW Aboriginal palette green — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-green-550: #86ac60; /** NSW Aboriginal palette green. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-green-600: #78a146; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-green-600: #78a146; /** NSW Aboriginal palette Marshland Lime. Step 600: shades for borders and icons. */
   --nsw-aboriginal-green-650: #5f8f44; /** NSW Aboriginal palette green. Step 650: shades for borders and icons. */
   --nsw-aboriginal-green-700: #497d40; /** NSW Aboriginal palette green. Step 700: shades for borders and icons. */
   --nsw-aboriginal-green-750: #346a3b; /** NSW Aboriginal palette green. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-green-800: #215834; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-green-800: #215834; /** NSW Aboriginal palette Bushland Green. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-green-850: #154225; /** NSW Aboriginal palette green. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-green-900: #0a2e17; /** NSW Aboriginal palette green. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-green-950: #021b0a; /** NSW Aboriginal palette green. Step 950: darkest shades for text and high emphasis. */
   --nsw-aboriginal-blue-50: #eef8fa; /** NSW Aboriginal palette blue. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-blue-100: #dff1f4; /** NSW Aboriginal palette blue. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-blue-150: #d0e9ee; /** NSW Aboriginal palette blue. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-blue-200: #c1e2e8; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-200: #c1e2e8; /** NSW Aboriginal palette Coastal Blue. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-blue-250: #b2dbe2; /** NSW Aboriginal palette blue. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-blue-300: #a3d4dc; /** NSW Aboriginal palette blue. Step 300: light tints. */
   --nsw-aboriginal-blue-350: #94ccd7; /** NSW Aboriginal palette blue. Step 350: light tints. */
-  --nsw-aboriginal-blue-400: #84c5d1; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-blue-400: #84c5d1; /** NSW Aboriginal palette Light Water Blue. Step 400: light tints. */
   --nsw-aboriginal-blue-450: #67aec0; /** NSW Aboriginal palette blue. Step 450: light tints. */
   --nsw-aboriginal-blue-500: #4a96b0; /** NSW Aboriginal palette blue — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-blue-550: #2e7fa1; /** NSW Aboriginal palette blue. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-blue-600: #0d6791; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-blue-600: #0d6791; /** NSW Aboriginal palette Saltwater Blue. Step 600: shades for borders and icons. */
   --nsw-aboriginal-blue-650: #095d84; /** NSW Aboriginal palette blue. Step 650: shades for borders and icons. */
   --nsw-aboriginal-blue-700: #055377; /** NSW Aboriginal palette blue. Step 700: shades for borders and icons. */
   --nsw-aboriginal-blue-750: #02496a; /** NSW Aboriginal palette blue. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-blue-800: #00405e; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-blue-800: #00405e; /** NSW Aboriginal palette Billabong Blue. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-blue-850: #002f48; /** NSW Aboriginal palette blue. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-blue-900: #002033; /** NSW Aboriginal palette blue. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-blue-950: #00111f; /** NSW Aboriginal palette blue. Step 950: darkest shades for text and high emphasis. */
   --nsw-aboriginal-purple-50: #faf1f8; /** NSW Aboriginal palette purple. Step 50: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-purple-100: #f2e5f0; /** NSW Aboriginal palette purple. Step 100: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-purple-150: #ebd8e8; /** NSW Aboriginal palette purple. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-purple-200: #e4cce0; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-200: #e4cce0; /** NSW Aboriginal palette Dusk Purple. Step 200: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-purple-250: #ddbfd8; /** NSW Aboriginal palette purple. Step 250: lightest tints for subtle backgrounds and surfaces. */
   --nsw-aboriginal-purple-300: #d7b3d1; /** NSW Aboriginal palette purple. Step 300: light tints. */
   --nsw-aboriginal-purple-350: #d0a6c9; /** NSW Aboriginal palette purple. Step 350: light tints. */
-  --nsw-aboriginal-purple-400: #c99ac2; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 400: light tints. */
+  --nsw-aboriginal-purple-400: #c99ac2; /** NSW Aboriginal palette Lilli Pilli Purple. Step 400: light tints. */
   --nsw-aboriginal-purple-450: #bd8bb6; /** NSW Aboriginal palette purple. Step 450: light tints. */
   --nsw-aboriginal-purple-500: #b17caa; /** NSW Aboriginal palette purple — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
   --nsw-aboriginal-purple-550: #a66d9f; /** NSW Aboriginal palette purple. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-purple-600: #9a5e93; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-purple-600: #9a5e93; /** NSW Aboriginal palette Spirit Lilac. Step 600: shades for borders and icons. */
   --nsw-aboriginal-purple-650: #844f7e; /** NSW Aboriginal palette purple. Step 650: shades for borders and icons. */
   --nsw-aboriginal-purple-700: #6f4169; /** NSW Aboriginal palette purple. Step 700: shades for borders and icons. */
   --nsw-aboriginal-purple-750: #5b3355; /** NSW Aboriginal palette purple. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-purple-800: #472642; /** NSW Aboriginal palette [SWATCH NAME TO CONFIRM]. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-purple-800: #472642; /** NSW Aboriginal palette Bush Plum. Step 800: darkest shades for text and high emphasis. */
   --nsw-aboriginal-purple-850: #351a31; /** NSW Aboriginal palette purple. Step 850: darkest shades for text and high emphasis. */
   --nsw-aboriginal-purple-900: #241021; /** NSW Aboriginal palette purple. Step 900: darkest shades for text and high emphasis. */
   --nsw-aboriginal-purple-950: #150612; /** NSW Aboriginal palette purple. Step 950: darkest shades for text and high emphasis. */
