@@ -2,1404 +2,1746 @@
   "nsw-grey": {
     "50": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fafafa"
     },
     "100": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f5f5f5"
     },
     "150": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f0f0f0"
     },
     "200": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 200: Interactive components.",
       "$value": "#ebebeb"
     },
     "250": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 250: Interactive components.",
       "$value": "#e3e5e6"
     },
     "300": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 300: Interactive components.",
       "$value": "#dcdfe0"
     },
     "350": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 350: Interactive components.",
       "$value": "#d4d9db"
     },
     "400": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 400: Interactive components.",
       "$value": "#cdd3d6"
     },
     "450": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 450: shades for borders, separators and icons.",
       "$value": "#aab0b4"
     },
     "500": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 500: shades for borders, separators and icons.",
       "$value": "#888f92"
     },
     "550": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 550: shades for borders, separators and icons.",
       "$value": "#686f72"
     },
     "600": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 600: shades for borders, separators and icons.",
       "$value": "#495054"
     },
     "650": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 650: shades for borders, separators and icons.",
       "$value": "#3f4549"
     },
     "700": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 700: Solid colors.",
       "$value": "#353b3f"
     },
     "750": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 750: Solid colors.",
       "$value": "#2b3135"
     },
     "800": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 800: Solid colors.",
       "$value": "#22272b"
     },
     "850": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 850: darkest shades for text and high emphasis.",
       "$value": "#181c1f"
     },
     "900": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 900: darkest shades for text and high emphasis.",
       "$value": "#0e1113"
     },
     "950": {
       "$type": "color",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 950: darkest shades for text and high emphasis.",
       "$value": "#050709"
     }
   },
   "nsw-green": {
     "50": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f5fff6"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ecfdee"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e4fce7"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: Interactive components.",
       "$value": "#dbfadf"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: Interactive components.",
       "$value": "#cff7d4"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: Interactive components.",
       "$value": "#c2f4c9"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: Interactive components.",
       "$value": "#b5f0be"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: Interactive components.",
       "$value": "#a8edb3"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: shades for borders, separators and icons.",
       "$value": "#8adc98"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: shades for borders, separators and icons.",
       "$value": "#6acc7d"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: shades for borders, separators and icons.",
       "$value": "#45bb62"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: shades for borders, separators and icons.",
       "$value": "#00aa45"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: shades for borders, separators and icons.",
       "$value": "#078e32"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: Solid colors.",
       "$value": "#077320"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: Solid colors.",
       "$value": "#03590f"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: Solid colors.",
       "$value": "#004000"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 850: darkest shades for text and high emphasis.",
       "$value": "#003000"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 900: darkest shades for text and high emphasis.",
       "$value": "#002000"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 950: darkest shades for text and high emphasis.",
       "$value": "#001100"
     }
   },
   "nsw-teal": {
     "50": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f2fbfa"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e7f7f5"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#dcf2ef"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$value": "#d1eeea"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$value": "#c1eae7"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$value": "#afe5e5"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$value": "#9ee0e5"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$value": "#8cdbe5"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
       "$value": "#75c4cf"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
       "$value": "#5eacb9"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
       "$value": "#4696a3"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
       "$value": "#2e808e"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
       "$value": "#256f7b"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$value": "#1c5f69"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$value": "#144e58"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$value": "#0b3f47"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis.",
       "$value": "#042f35"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis.",
       "$value": "#011f24"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis.",
       "$value": "#001114"
     }
   },
   "nsw-blue": {
     "50": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f0fbff"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e4f6ff"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#d7f2fe"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: Interactive components.",
       "$value": "#cbedfd"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: Interactive components.",
       "$value": "#bceafe"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: Interactive components.",
       "$value": "#ade7ff"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: Interactive components.",
       "$value": "#9de3ff"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: Interactive components.",
       "$value": "#8ce0ff"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: shades for borders, separators and icons.",
       "$value": "#5ac9ff"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: shades for borders, separators and icons.",
       "$value": "#26aeff"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: shades for borders, separators and icons.",
       "$value": "#008fff"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: shades for borders, separators and icons.",
       "$value": "#146cfd"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: shades for borders, separators and icons.",
       "$value": "#0c5ad4"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: Solid colors.",
       "$value": "#0548ad"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: Solid colors.",
       "$value": "#023688"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: Solid colors.",
       "$value": "#002664"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 850: darkest shades for text and high emphasis.",
       "$value": "#001a4d"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 900: darkest shades for text and high emphasis.",
       "$value": "#001037"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 950: darkest shades for text and high emphasis.",
       "$value": "#000622"
     }
   },
   "nsw-purple": {
     "50": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f9f7ff"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f2f0ff"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ece8fe"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$value": "#e6e1fd"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$value": "#e0d9fe"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$value": "#dad0fe"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$value": "#d4c8ff"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$value": "#cebfff"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
       "$value": "#baa6fc"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
       "$value": "#a68df9"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
       "$value": "#9372f5"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
       "$value": "#8055f1"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
       "$value": "#7243cf"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$value": "#6432ae"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$value": "#54218e"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$value": "#441170"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis.",
       "$value": "#330856"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis.",
       "$value": "#23023e"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis.",
       "$value": "#130027"
     }
   },
   "nsw-fuchsia": {
     "50": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff6fd"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ffeef9"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fee6f6"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: Interactive components.",
       "$value": "#fddef2"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: Interactive components.",
       "$value": "#fbd4ef"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: Interactive components.",
       "$value": "#f9c9eb"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: Interactive components.",
       "$value": "#f7bfe9"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: Interactive components.",
       "$value": "#f4b5e6"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: shades for borders, separators and icons.",
       "$value": "#ef96da"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: shades for borders, separators and icons.",
       "$value": "#e975cc"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: shades for borders, separators and icons.",
       "$value": "#e150be"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: shades for borders, separators and icons.",
       "$value": "#d912ae"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: shades for borders, separators and icons.",
       "$value": "#bb0c94"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: Solid colors.",
       "$value": "#9d067b"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: Solid colors.",
       "$value": "#810264"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: Solid colors.",
       "$value": "#65004d"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 850: darkest shades for text and high emphasis.",
       "$value": "#4d003a"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 900: darkest shades for text and high emphasis.",
       "$value": "#370028"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 950: darkest shades for text and high emphasis.",
       "$value": "#220017"
     }
   },
   "nsw-red": {
     "50": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff8f9"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff2f4"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ffecef"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: Interactive components.",
       "$value": "#ffe6ea"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: Interactive components.",
       "$value": "#ffdbe0"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: Interactive components.",
       "$value": "#ffcfd6"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: Interactive components.",
       "$value": "#ffc4cc"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: Interactive components.",
       "$value": "#ffb8c1"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: shades for borders, separators and icons.",
       "$value": "#f897a2"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: shades for borders, separators and icons.",
       "$value": "#ef7581"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: shades for borders, separators and icons.",
       "$value": "#e44f5f"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: shades for borders, separators and icons.",
       "$value": "#d7153a"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: shades for borders, separators and icons.",
       "$value": "#b90e32"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: Solid colors.",
       "$value": "#9b072a"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: Solid colors.",
       "$value": "#7e0322"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: Solid colors.",
       "$value": "#630019"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 850: darkest shades for text and high emphasis.",
       "$value": "#4c0010"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 900: darkest shades for text and high emphasis.",
       "$value": "#360008"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 950: darkest shades for text and high emphasis.",
       "$value": "#210003"
     }
   },
   "nsw-orange": {
     "50": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fffaf6"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff6ee"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fef1e7"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: Interactive components.",
       "$value": "#fdeddf"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: Interactive components.",
       "$value": "#fee5ce"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: Interactive components.",
       "$value": "#ffddbd"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: Interactive components.",
       "$value": "#ffd6ab"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: Interactive components.",
       "$value": "#ffce99"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: shades for borders, separators and icons.",
       "$value": "#fdb678"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: shades for borders, separators and icons.",
       "$value": "#fb9d58"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: shades for borders, separators and icons.",
       "$value": "#f78139"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: shades for borders, separators and icons.",
       "$value": "#f3631b"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: shades for borders, separators and icons.",
       "$value": "#db5115"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: Solid colors.",
       "$value": "#c33f0e"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: Solid colors.",
       "$value": "#ab2e06"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: Solid colors.",
       "$value": "#941b00"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 850: darkest shades for text and high emphasis.",
       "$value": "#730f00"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 900: darkest shades for text and high emphasis.",
       "$value": "#530400"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 950: darkest shades for text and high emphasis.",
       "$value": "#350000"
     }
   },
   "nsw-yellow": {
     "50": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fffcf0"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fffae5"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff7da"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: Interactive components.",
       "$value": "#fff4cf"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: Interactive components.",
       "$value": "#fff1c2"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: Interactive components.",
       "$value": "#feeeb5"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: Interactive components.",
       "$value": "#feeaa8"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: Interactive components.",
       "$value": "#fde79a"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: shades for borders, separators and icons.",
       "$value": "#fbda80"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: shades for borders, separators and icons.",
       "$value": "#facd63"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: shades for borders, separators and icons.",
       "$value": "#fabe42"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: shades for borders, separators and icons.",
       "$value": "#faaf05"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: shades for borders, separators and icons.",
       "$value": "#d49403"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: Solid colors.",
       "$value": "#af7a01"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: Solid colors.",
       "$value": "#8b6000"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: Solid colors.",
       "$value": "#694800"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 850: darkest shades for text and high emphasis.",
       "$value": "#503500"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 900: darkest shades for text and high emphasis.",
       "$value": "#392400"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 950: darkest shades for text and high emphasis.",
       "$value": "#221300"
     }
   },
   "nsw-brown": {
     "50": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fbf8f4"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f6f1ea"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f2eae1"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$value": "#ede3d7"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$value": "#ecdece"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$value": "#eadac6"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$value": "#e9d5bd"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$value": "#e8d0b5"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
       "$value": "#dbbf9f"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
       "$value": "#cfae89"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
       "$value": "#c29d73"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
       "$value": "#b68d5d"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
       "$value": "#9c764b"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$value": "#82603a"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$value": "#6a4b29"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$value": "#523719"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis.",
       "$value": "#3e280f"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis.",
       "$value": "#2b1a07"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis.",
       "$value": "#190d02"
     }
   },
   "nsw-aboriginal-grey": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f9f8f7"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f2f1ef"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ebeae8"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Smoke Grey. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e5e3e0"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#dfdcd8"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 300: light tints.",
       "$value": "#d8d4d1"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 350: light tints.",
       "$value": "#d2cdc9"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Ash Grey. Step 400: light tints.",
       "$value": "#ccc6c2"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 450: light tints.",
       "$value": "#ada8a5"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#8e8b8a"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 550: shades for borders and icons.",
       "$value": "#71706f"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Emu Grey. Step 600: shades for borders and icons.",
       "$value": "#555555"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 650: shades for borders and icons.",
       "$value": "#494949"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 700: shades for borders and icons.",
       "$value": "#3d3d3d"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 750: darkest shades for text and high emphasis.",
       "$value": "#323232"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Charcoal Grey. Step 800: darkest shades for text and high emphasis.",
       "$value": "#272727"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 850: darkest shades for text and high emphasis.",
       "$value": "#1c1c1c"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 900: darkest shades for text and high emphasis.",
       "$value": "#111111"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 950: darkest shades for text and high emphasis.",
       "$value": "#070707"
     }
   },
   "nsw-aboriginal-red": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff5f5"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ffebeb"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fee2e2"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Galah Pink. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fdd9d9"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fdd0d0"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 300: light tints.",
       "$value": "#fcc7c6"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 350: light tints.",
       "$value": "#fcbdbd"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Coral Pink. Step 400: light tints.",
       "$value": "#fbb4b3"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 450: light tints.",
       "$value": "#f79693"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#f27771"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 550: shades for borders and icons.",
       "$value": "#ea554c"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Ember Red. Step 600: shades for borders and icons.",
       "$value": "#e1261c"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 650: shades for borders and icons.",
       "$value": "#cd1f17"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 700: shades for borders and icons.",
       "$value": "#ba1811"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 750: darkest shades for text and high emphasis.",
       "$value": "#a7110b"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Earth Red. Step 800: darkest shades for text and high emphasis.",
       "$value": "#950906"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 850: darkest shades for text and high emphasis.",
       "$value": "#740001"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 900: darkest shades for text and high emphasis.",
       "$value": "#540000"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 950: darkest shades for text and high emphasis.",
       "$value": "#360000"
     }
   },
   "nsw-aboriginal-orange": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff4ec"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fee9dd"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fcdfcd"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Sunset Orange. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f9d4be"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f8caae"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 300: light tints.",
       "$value": "#f7bf9e"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 350: light tints.",
       "$value": "#f6b58e"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Clay Orange. Step 400: light tints.",
       "$value": "#f4aa7d"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 450: light tints.",
       "$value": "#f39a66"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#f2894f"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 550: shades for borders and icons.",
       "$value": "#f07736"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Orange Ochre. Step 600: shades for borders and icons.",
       "$value": "#ee6314"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 650: shades for borders and icons.",
       "$value": "#d45310"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 700: shades for borders and icons.",
       "$value": "#ba440a"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 750: darkest shades for text and high emphasis.",
       "$value": "#a13505"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Deep Orange. Step 800: darkest shades for text and high emphasis.",
       "$value": "#882600"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 850: darkest shades for text and high emphasis.",
       "$value": "#691900"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 900: darkest shades for text and high emphasis.",
       "$value": "#4c0d00"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 950: darkest shades for text and high emphasis.",
       "$value": "#300300"
     }
   },
   "nsw-aboriginal-brown": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fcf1e9"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f6e3d7"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#efd5c4"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Macadamia Brown. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e9c8b2"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e4ba9f"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 300: light tints.",
       "$value": "#dead8c"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 350: light tints.",
       "$value": "#d99f78"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Claystone Brown. Step 400: light tints.",
       "$value": "#d39165"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 450: light tints.",
       "$value": "#c68158"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#b9724b"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 550: shades for borders and icons.",
       "$value": "#ab623e"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Firewood Brown. Step 600: shades for borders and icons.",
       "$value": "#9e5332"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 650: shades for borders and icons.",
       "$value": "#8b4627"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 700: shades for borders and icons.",
       "$value": "#79391c"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 750: darkest shades for text and high emphasis.",
       "$value": "#672d10"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Riverbed Brown. Step 800: darkest shades for text and high emphasis.",
       "$value": "#552105"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 850: darkest shades for text and high emphasis.",
       "$value": "#411602"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 900: darkest shades for text and high emphasis.",
       "$value": "#2d0c00"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 950: darkest shades for text and high emphasis.",
       "$value": "#1b0400"
     }
   },
   "nsw-aboriginal-yellow": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fffcee"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff8e0"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff5d3"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Sunbeam Yellow. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#fff1c5"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ffeeb7"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 300: light tints.",
       "$value": "#ffeba9"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 350: light tints.",
       "$value": "#fee79b"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Golden Wattle Yellow. Step 400: light tints.",
       "$value": "#fee48c"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 450: light tints.",
       "$value": "#fed675"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#fec85d"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 550: shades for borders and icons.",
       "$value": "#feb944"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Sandstone Yellow. Step 600: shades for borders and icons.",
       "$value": "#fea927"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 650: shades for borders and icons.",
       "$value": "#df961c"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 700: shades for borders and icons.",
       "$value": "#c18312"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 750: darkest shades for text and high emphasis.",
       "$value": "#a57007"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Bush Honey Yellow. Step 800: darkest shades for text and high emphasis.",
       "$value": "#895e00"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 850: darkest shades for text and high emphasis.",
       "$value": "#694700"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 900: darkest shades for text and high emphasis.",
       "$value": "#4c3000"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 950: darkest shades for text and high emphasis.",
       "$value": "#2f1c00"
     }
   },
   "nsw-aboriginal-green": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f5f9f2"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ecf3e7"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e3ecdc"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Saltbush Green. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#dae6d1"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#d1e0c6"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 300: light tints.",
       "$value": "#c7d9ba"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 350: light tints.",
       "$value": "#bed3af"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Gumleaf Green. Step 400: light tints.",
       "$value": "#b5cda4"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 450: light tints.",
       "$value": "#a5c28e"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#95b777"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 550: shades for borders and icons.",
       "$value": "#86ac60"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Marshland Lime. Step 600: shades for borders and icons.",
       "$value": "#78a146"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 650: shades for borders and icons.",
       "$value": "#5f8f44"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 700: shades for borders and icons.",
       "$value": "#497d40"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 750: darkest shades for text and high emphasis.",
       "$value": "#346a3b"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Bushland Green. Step 800: darkest shades for text and high emphasis.",
       "$value": "#215834"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 850: darkest shades for text and high emphasis.",
       "$value": "#154225"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 900: darkest shades for text and high emphasis.",
       "$value": "#0a2e17"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 950: darkest shades for text and high emphasis.",
       "$value": "#021b0a"
     }
   },
   "nsw-aboriginal-blue": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#eef8fa"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#dff1f4"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#d0e9ee"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Coastal Blue. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#c1e2e8"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#b2dbe2"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 300: light tints.",
       "$value": "#a3d4dc"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 350: light tints.",
       "$value": "#94ccd7"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Light Water Blue. Step 400: light tints.",
       "$value": "#84c5d1"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 450: light tints.",
       "$value": "#67aec0"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#4a96b0"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 550: shades for borders and icons.",
       "$value": "#2e7fa1"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Saltwater Blue. Step 600: shades for borders and icons.",
       "$value": "#0d6791"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 650: shades for borders and icons.",
       "$value": "#095d84"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 700: shades for borders and icons.",
       "$value": "#055377"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 750: darkest shades for text and high emphasis.",
       "$value": "#02496a"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Billabong Blue. Step 800: darkest shades for text and high emphasis.",
       "$value": "#00405e"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 850: darkest shades for text and high emphasis.",
       "$value": "#002f48"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 900: darkest shades for text and high emphasis.",
       "$value": "#002033"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 950: darkest shades for text and high emphasis.",
       "$value": "#00111f"
     }
   },
   "nsw-aboriginal-purple": {
     "50": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 50: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#faf1f8"
     },
     "100": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 100: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#f2e5f0"
     },
     "150": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 150: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ebd8e8"
     },
     "200": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Dusk Purple. Step 200: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#e4cce0"
     },
     "250": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 250: lightest tints for subtle backgrounds and surfaces.",
       "$value": "#ddbfd8"
     },
     "300": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 300: light tints.",
       "$value": "#d7b3d1"
     },
     "350": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 350: light tints.",
       "$value": "#d0a6c9"
     },
     "400": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Lilli Pilli Purple. Step 400: light tints.",
       "$value": "#c99ac2"
     },
     "450": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 450: light tints.",
       "$value": "#bd8bb6"
     },
     "500": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": "#b17caa"
     },
     "550": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 550: shades for borders and icons.",
       "$value": "#a66d9f"
     },
     "600": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Spirit Lilac. Step 600: shades for borders and icons.",
       "$value": "#9a5e93"
     },
     "650": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 650: shades for borders and icons.",
       "$value": "#844f7e"
     },
     "700": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 700: shades for borders and icons.",
       "$value": "#6f4169"
     },
     "750": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 750: darkest shades for text and high emphasis.",
       "$value": "#5b3355"
     },
     "800": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette Bush Plum. Step 800: darkest shades for text and high emphasis.",
       "$value": "#472642"
     },
     "850": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 850: darkest shades for text and high emphasis.",
       "$value": "#351a31"
     },
     "900": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 900: darkest shades for text and high emphasis.",
       "$value": "#241021"
     },
     "950": {
       "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 950: darkest shades for text and high emphasis.",
       "$value": "#150612"
     }
   }

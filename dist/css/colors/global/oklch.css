@@ -1,344 +1,344 @@
 :root {
-  --nsw-grey-50: oklch(0.985104 0 0);
-  --nsw-grey-100: oklch(0.970151 0 0);
-  --nsw-grey-150: oklch(0.95514 0 0);
-  --nsw-grey-200: oklch(0.94007 0 0);
-  --nsw-grey-250: oklch(0.920652 0.002558 228.786818);
-  --nsw-grey-300: oklch(0.901624 0.003538 219.535738);
-  --nsw-grey-350: oklch(0.882025 0.006111 223.464254);
-  --nsw-grey-400: oklch(0.863097 0.007776 228.868893);
-  --nsw-grey-450: oklch(0.753634 0.008885 236.605307);
-  --nsw-grey-500: oklch(0.645222 0.009348 225.150438);
-  --nsw-grey-550: oklch(0.536704 0.009767 225.197358);
-  --nsw-grey-600: oklch(0.426427 0.011202 232.617199);
-  --nsw-grey-650: oklch(0.386365 0.01045 236.835687);
-  --nsw-grey-700: oklch(0.348204 0.010712 236.894097);
-  --nsw-grey-750: oklch(0.308978 0.011017 236.97265);
-  --nsw-grey-800: oklch(0.269413 0.01036 242.083865);
-  --nsw-grey-850: oklch(0.223572 0.008405 240.274391);
-  --nsw-grey-900: oklch(0.175228 0.006346 236.981786);
-  --nsw-grey-950: oklch(0.126543 0.006953 243.792325);
-  --nsw-green-50: oklch(0.990081 0.015795 148.41438);
-  --nsw-green-100: oklch(0.977431 0.026606 148.839664);
-  --nsw-green-150: oklch(0.967911 0.037416 148.930338);
-  --nsw-green-200: oklch(0.955545 0.04826 148.904545);
-  --nsw-green-250: oklch(0.93851 0.062505 148.569017);
-  --nsw-green-300: oklch(0.921117 0.077402 148.783229);
-  --nsw-green-350: oklch(0.901882 0.090617 148.915542);
-  --nsw-green-400: oklch(0.885183 0.105294 148.825537);
-  --nsw-green-450: oklch(0.824352 0.124607 148.589905);
-  --nsw-green-500: oklch(0.765718 0.145713 148.416765);
-  --nsw-green-550: oklch(0.704641 0.16526 148.484663);
-  --nsw-green-600: oklch(0.643827 0.185071 148.266392);
-  --nsw-green-650: oklch(0.563991 0.166488 146.780194);
-  --nsw-green-700: oklch(0.484 0.147861 145.298202);
-  --nsw-green-750: oklch(0.403409 0.12884 143.996921);
-  --nsw-green-800: oklch(0.321878 0.109527 142.495345);
-  --nsw-green-850: oklch(0.267891 0.091156 142.495345);
-  --nsw-green-900: oklch(0.211008 0.071801 142.495345);
-  --nsw-green-950: oklch(0.153912 0.052372 142.495345);
-  --nsw-teal-50: oklch(0.981084 0.009583 189.068864);
-  --nsw-teal-100: oklch(0.963745 0.017041 187.89812);
-  --nsw-teal-150: oklch(0.944172 0.023457 186.915975);
-  --nsw-teal-200: oklch(0.926969 0.030829 186.587966);
-  --nsw-teal-250: oklch(0.907198 0.04267 190.957151);
-  --nsw-teal-300: oklch(0.884847 0.055135 196.19898);
-  --nsw-teal-350: oklch(0.864304 0.066593 201.943435);
-  --nsw-teal-400: oklch(0.843907 0.078713 205.971232);
-  --nsw-teal-450: oklch(0.773472 0.079248 207.069585);
-  --nsw-teal-500: oklch(0.699402 0.079119 209.446408);
-  --nsw-teal-550: oklch(0.628309 0.080069 209.493158);
-  --nsw-teal-600: oklch(0.55658 0.080187 210.887635);
-  --nsw-teal-650: oklch(0.501916 0.073272 210.257312);
-  --nsw-teal-700: oklch(0.448897 0.066803 209.287131);
-  --nsw-teal-750: oklch(0.392261 0.059727 211.556304);
-  --nsw-teal-800: oklch(0.339119 0.053288 210.303482);
-  --nsw-teal-850: oklch(0.28054 0.045497 209.000284);
-  --nsw-teal-900: oklch(0.219761 0.036868 210.291523);
-  --nsw-teal-950: oklch(0.162471 0.027924 207.933306);
-  --nsw-blue-50: oklch(0.981046 0.012805 221.42319);
-  --nsw-blue-100: oklch(0.962528 0.022535 229.073806);
-  --nsw-blue-150: oklch(0.945178 0.032646 226.304274);
-  --nsw-blue-200: oklch(0.926674 0.041663 227.890787);
-  --nsw-blue-250: oklch(0.911263 0.054737 226.223779);
-  --nsw-blue-300: oklch(0.896395 0.067447 225.364647);
-  --nsw-blue-350: oklch(0.87908 0.079726 224.961348);
-  --nsw-blue-400: oklch(0.864091 0.092143 223.595164);
-  --nsw-blue-450: oklch(0.793049 0.126377 232.671182);
-  --nsw-blue-500: oklch(0.719588 0.160232 241.934243);
-  --nsw-blue-550: oklch(0.647121 0.194114 252.085254);
-  --nsw-blue-600: oklch(0.575113 0.229834 260.756335);
-  --nsw-blue-650: oklch(0.504429 0.200565 260.409998);
-  --nsw-blue-700: oklch(0.433012 0.172764 260.164397);
-  --nsw-blue-750: oklch(0.360675 0.146274 260.290439);
-  --nsw-blue-800: oklch(0.289999 0.117296 259.841938);
-  --nsw-blue-850: oklch(0.238584 0.100105 260.505764);
-  --nsw-blue-900: oklch(0.190403 0.080719 260.682766);
-  --nsw-blue-950: oklch(0.138623 0.062732 261.699127);
-  --nsw-purple-50: oklch(0.979942 0.010771 297.629538);
-  --nsw-purple-100: oklch(0.96104 0.020078 292.148399);
-  --nsw-purple-150: oklch(0.940643 0.02976 294.163862);
-  --nsw-purple-200: oklch(0.922152 0.038089 293.832311);
-  --nsw-purple-250: oklch(0.902386 0.050699 294.035459);
-  --nsw-purple-300: oklch(0.880403 0.063609 295.026076);
-  --nsw-purple-350: oklch(0.860749 0.07647 294.744797);
-  --nsw-purple-400: oklch(0.838898 0.089613 295.149512);
-  --nsw-purple-450: oklch(0.774614 0.122118 294.042831);
-  --nsw-purple-500: oklch(0.711084 0.154805 292.674319);
-  --nsw-purple-550: oklch(0.646097 0.188334 291.878793);
-  --nsw-purple-600: oklch(0.58173 0.221615 290.501683);
-  --nsw-purple-650: oklch(0.516922 0.203649 293.377615);
-  --nsw-purple-700: oklch(0.453186 0.185326 296.711408);
-  --nsw-purple-750: oklch(0.386977 0.16729 299.692934);
-  --nsw-purple-800: oklch(0.322758 0.148913 302.732273);
-  --nsw-purple-850: oklch(0.265767 0.126298 303.073254);
-  --nsw-purple-900: oklch(0.20962 0.104671 303.28248);
-  --nsw-purple-950: oklch(0.152833 0.080653 302.075394);
-  --nsw-fuchsia-50: oklch(0.982084 0.013244 333.034319);
-  --nsw-fuchsia-100: oklch(0.965669 0.023247 338.610142);
-  --nsw-fuchsia-150: oklch(0.948854 0.03339 337.959274);
-  --nsw-fuchsia-200: oklch(0.93185 0.042831 339.134147);
-  --nsw-fuchsia-250: oklch(0.910705 0.055741 337.314857);
-  --nsw-fuchsia-300: oklch(0.887629 0.069703 336.916306);
-  --nsw-fuchsia-350: oklch(0.86725 0.08373 335.420133);
-  --nsw-fuchsia-400: oklch(0.84582 0.096185 334.510766);
-  --nsw-fuchsia-450: oklch(0.784752 0.136018 335.952916);
-  --nsw-fuchsia-500: oklch(0.723334 0.175513 337.649945);
-  --nsw-fuchsia-550: oklch(0.661983 0.214363 338.632544);
-  --nsw-fuchsia-600: oklch(0.601253 0.254233 340.252307);
-  --nsw-fuchsia-650: oklch(0.536642 0.227232 340.78992);
-  --nsw-fuchsia-700: oklch(0.470462 0.200119 341.098388);
-  --nsw-fuchsia-750: oklch(0.406687 0.174181 341.335872);
-  --nsw-fuchsia-800: oklch(0.340576 0.146851 341.706145);
-  --nsw-fuchsia-850: oklch(0.282424 0.121774 341.71207);
-  --nsw-fuchsia-900: oklch(0.22599 0.097183 342.322886);
-  --nsw-fuchsia-950: oklch(0.168705 0.072287 343.166627);
-  --nsw-red-50: oklch(0.984801 0.007587 7.280361);
-  --nsw-red-100: oklch(0.97188 0.014232 6.700043);
-  --nsw-red-150: oklch(0.959029 0.020979 6.606185);
-  --nsw-red-200: oklch(0.946252 0.027827 6.653086);
-  --nsw-red-250: oklch(0.922815 0.040479 8.438397);
-  --nsw-red-300: oklch(0.897868 0.054828 8.39461);
-  --nsw-red-350: oklch(0.875166 0.068164 9.494436);
-  --nsw-red-400: oklch(0.850883 0.08303 10.570683);
-  --nsw-red-450: oklch(0.779076 0.116944 12.810782);
-  --nsw-red-500: oklch(0.707215 0.150378 15.602977);
-  --nsw-red-550: oklch(0.634722 0.184087 17.935378);
-  --nsw-red-600: oklch(0.561955 0.217505 20.33356);
-  --nsw-red-650: oklch(0.501611 0.19526 19.649998);
-  --nsw-red-700: oklch(0.439441 0.172351 18.724983);
-  --nsw-red-750: oklch(0.377602 0.149006 17.706488);
-  --nsw-red-800: oklch(0.316967 0.126887 17.133117);
-  --nsw-red-850: oklch(0.26401 0.105766 17.967115);
-  --nsw-red-900: oklch(0.210832 0.084535 18.772606);
-  --nsw-red-950: oklch(0.156795 0.062933 19.607624);
-  --nsw-orange-50: oklch(0.987839 0.007543 61.45578);
-  --nsw-orange-100: oklch(0.977951 0.014375 64.347922);
-  --nsw-orange-150: oklch(0.965645 0.019381 60.174704);
-  --nsw-orange-200: oklch(0.955039 0.025491 63.743337);
-  --nsw-orange-250: oklch(0.936249 0.041053 64.929124);
-  --nsw-orange-300: oklch(0.917859 0.056636 65.300646);
-  --nsw-orange-350: oklch(0.900675 0.072472 68.034989);
-  --nsw-orange-400: oklch(0.882019 0.087884 68.490482);
-  --nsw-orange-450: oklch(0.829842 0.113933 61.388359);
-  --nsw-orange-500: oklch(0.778954 0.140471 55.166517);
-  --nsw-orange-550: oklch(0.72492 0.166374 48.688783);
-  --nsw-orange-600: oklch(0.674414 0.192429 42.148083);
-  --nsw-orange-650: oklch(0.613962 0.184358 39.794614);
-  --nsw-orange-700: oklch(0.55289 0.176309 37.423321);
-  --nsw-orange-750: oklch(0.492464 0.16713 35.422254);
-  --nsw-orange-800: oklch(0.432199 0.159379 33.02244);
-  --nsw-orange-850: oklch(0.357475 0.135212 32.07107);
-  --nsw-orange-900: oklch(0.281222 0.110671 30.651366);
-  --nsw-orange-950: oklch(0.206578 0.08477 29.23388);
-  --nsw-yellow-50: oklch(0.990123 0.016076 95.219322);
-  --nsw-yellow-100: oklch(0.983411 0.027978 95.885149);
-  --nsw-yellow-150: oklch(0.974866 0.038751 94.277708);
-  --nsw-yellow-200: oklch(0.96644 0.049432 93.383449);
-  --nsw-yellow-250: oklch(0.957711 0.06238 93.425567);
-  --nsw-yellow-300: oklch(0.948327 0.074821 94.273041);
-  --nsw-yellow-350: oklch(0.937977 0.086258 93.231211);
-  --nsw-yellow-400: oklch(0.928754 0.099044 94.038586);
-  --nsw-yellow-450: oklch(0.897354 0.115545 89.863426);
-  --nsw-yellow-500: oklch(0.867379 0.133527 86.293084);
-  --nsw-yellow-550: oklch(0.835549 0.15046 81.626951);
-  --nsw-yellow-600: oklch(0.805038 0.167358 77.590601);
-  --nsw-yellow-650: oklch(0.71131 0.147875 77.735972);
-  --nsw-yellow-700: oklch(0.617531 0.128406 78.181686);
-  --nsw-yellow-750: oklch(0.521285 0.108602 78.157346);
-  --nsw-yellow-800: oklch(0.427326 0.08887 78.678822);
-  --nsw-yellow-850: oklch(0.351758 0.07351 77.298566);
-  --nsw-yellow-900: oklch(0.279606 0.058706 76.10848);
-  --nsw-yellow-950: oklch(0.202409 0.042946 73.773854);
-  --nsw-brown-50: oklch(0.980322 0.006204 75.407199);
-  --nsw-brown-100: oklch(0.96009 0.010761 76.598329);
-  --nsw-brown-150: oklch(0.940844 0.014842 70.884167);
-  --nsw-brown-200: oklch(0.92047 0.019451 72.565423);
-  --nsw-brown-250: oklch(0.907511 0.026415 71.174552);
-  --nsw-brown-300: oklch(0.895976 0.032101 73.507317);
-  --nsw-brown-350: oklch(0.883104 0.039083 72.324463);
-  --nsw-brown-400: oklch(0.87053 0.045049 70.467357);
-  --nsw-brown-450: oklch(0.820425 0.053636 70.701121);
-  --nsw-brown-500: oklch(0.770788 0.063048 69.882833);
-  --nsw-brown-550: oklch(0.719766 0.071814 69.840337);
-  --nsw-brown-600: oklch(0.671378 0.081345 70.110363);
-  --nsw-brown-650: oklch(0.593487 0.075855 68.942252);
-  --nsw-brown-700: oklch(0.515306 0.06944 68.344793);
-  --nsw-brown-750: oklch(0.438779 0.064545 67.310247);
-  --nsw-brown-800: oklch(0.361361 0.058506 66.920145);
-  --nsw-brown-850: oklch(0.298054 0.050193 67.139028);
-  --nsw-brown-900: oklch(0.235424 0.040856 66.793394);
-  --nsw-brown-950: oklch(0.172585 0.031824 67.984068);
-  --nsw-aboriginal-grey-50: oklch(0.979613 0.001708 67.802154);
-  --nsw-aboriginal-grey-100: oklch(0.958355 0.002875 84.559036);
-  --nsw-aboriginal-grey-150: oklch(0.937258 0.002891 84.559255);
-  --nsw-aboriginal-grey-200: oklch(0.916542 0.004595 78.296868);
-  --nsw-aboriginal-grey-250: oklch(0.895714 0.006344 75.402785);
-  --nsw-aboriginal-grey-300: oklch(0.872255 0.006037 59.639958);
-  --nsw-aboriginal-grey-350: oklch(0.851173 0.007831 61.434716);
-  --nsw-aboriginal-grey-400: oklch(0.830249 0.008721 56.288523);
-  --nsw-aboriginal-grey-450: oklch(0.734858 0.007201 53.408349);
-  --nsw-aboriginal-grey-500: oklch(0.639018 0.003881 39.468326);
-  --nsw-aboriginal-grey-550: oklch(0.545732 0.001977 67.781807);
-  --nsw-aboriginal-grey-600: oklch(0.449533 0 0);
-  --nsw-aboriginal-grey-650: oklch(0.405398 0 0);
-  --nsw-aboriginal-grey-700: oklch(0.360023 0 0);
-  --nsw-aboriginal-grey-750: oklch(0.317136 0 0);
-  --nsw-aboriginal-grey-800: oklch(0.272741 0 0);
-  --nsw-aboriginal-grey-850: oklch(0.22645 0 0);
-  --nsw-aboriginal-grey-900: oklch(0.177638 0 0);
-  --nsw-aboriginal-grey-950: oklch(0.128558 0 0);
-  --nsw-aboriginal-red-50: oklch(0.977917 0.01075 17.340194);
-  --nsw-aboriginal-red-100: oklch(0.956021 0.021805 17.540209);
-  --nsw-aboriginal-red-150: oklch(0.935641 0.030896 17.717103);
-  --nsw-aboriginal-red-200: oklch(0.915394 0.0402 17.910042);
-  --nsw-aboriginal-red-250: oklch(0.896228 0.050863 18.143256);
-  --nsw-aboriginal-red-300: oklch(0.876091 0.060658 19.635877);
-  --nsw-aboriginal-red-350: oklch(0.855637 0.072943 18.685192);
-  --nsw-aboriginal-red-400: oklch(0.836037 0.083154 19.887576);
-  --nsw-aboriginal-red-450: oklch(0.772599 0.117401 22.034576);
-  --nsw-aboriginal-red-500: oklch(0.710749 0.152503 24.524635);
-  --nsw-aboriginal-red-550: oklch(0.64772 0.185981 26.992016);
-  --nsw-aboriginal-red-600: oklch(0.585456 0.220516 29.136139);
-  --nsw-aboriginal-red-650: oklch(0.544312 0.207167 29.033171);
-  --nsw-aboriginal-red-700: oklch(0.504372 0.19444 29.090046);
-  --nsw-aboriginal-red-750: oklch(0.463857 0.181292 29.151502);
-  --nsw-aboriginal-red-800: oklch(0.42441 0.168832 29.059253);
-  --nsw-aboriginal-red-850: oklch(0.351087 0.14392 28.917784);
-  --nsw-aboriginal-red-900: oklch(0.280004 0.1149 29.23388);
-  --nsw-aboriginal-red-950: oklch(0.20904 0.08578 29.23388);
-  --nsw-aboriginal-orange-50: oklch(0.973556 0.015952 58.641276);
-  --nsw-aboriginal-orange-100: oklch(0.947654 0.028075 51.846173);
-  --nsw-aboriginal-orange-150: oklch(0.922782 0.040228 53.880344);
-  --nsw-aboriginal-orange-200: oklch(0.895542 0.051085 52.555439);
-  --nsw-aboriginal-orange-250: oklch(0.872031 0.064527 52.950639);
-  --nsw-aboriginal-orange-300: oklch(0.84704 0.078423 51.844811);
-  --nsw-aboriginal-orange-350: oklch(0.824377 0.092099 52.01177);
-  --nsw-aboriginal-orange-400: oklch(0.799158 0.105847 51.972937);
-  --nsw-aboriginal-orange-450: oklch(0.766094 0.126491 50.281467);
-  --nsw-aboriginal-orange-500: oklch(0.733244 0.147307 48.030411);
-  --nsw-aboriginal-orange-550: oklch(0.699805 0.167547 45.94896);
-  --nsw-aboriginal-orange-600: oklch(0.666534 0.188575 43.59666);
-  --nsw-aboriginal-orange-650: oklch(0.605157 0.176427 41.984292);
-  --nsw-aboriginal-orange-700: oklch(0.543706 0.163519 40.722838);
-  --nsw-aboriginal-orange-750: oklch(0.482528 0.151339 39.057361);
-  --nsw-aboriginal-orange-800: oklch(0.419873 0.139043 37.476491);
-  --nsw-aboriginal-orange-850: oklch(0.346307 0.117509 36.402344);
-  --nsw-aboriginal-orange-900: oklch(0.274179 0.096195 34.994332);
-  --nsw-aboriginal-orange-950: oklch(0.19945 0.074821 32.376266);
-  --nsw-aboriginal-brown-50: oklch(0.964567 0.015989 58.638621);
-  --nsw-aboriginal-brown-100: oklch(0.927872 0.026411 54.553798);
-  --nsw-aboriginal-brown-150: oklch(0.890008 0.037066 55.325516);
-  --nsw-aboriginal-brown-200: oklch(0.855158 0.047928 55.657964);
-  --nsw-aboriginal-brown-250: oklch(0.819152 0.060928 54.401987);
-  --nsw-aboriginal-brown-300: oklch(0.78428 0.072995 55.357845);
-  --nsw-aboriginal-brown-350: oklch(0.748613 0.08714 54.877732);
-  --nsw-aboriginal-brown-400: oklch(0.712508 0.099636 54.125312);
-  --nsw-aboriginal-brown-450: oklch(0.665756 0.102275 50.954073);
-  --nsw-aboriginal-brown-500: oklch(0.620455 0.1048 48.79466);
-  --nsw-aboriginal-brown-550: oklch(0.57171 0.107229 46.104324);
-  --nsw-aboriginal-brown-600: oklch(0.525934 0.109911 43.512384);
-  --nsw-aboriginal-brown-650: oklch(0.474445 0.103738 43.660091);
-  --nsw-aboriginal-brown-700: oklch(0.423254 0.098571 43.417081);
-  --nsw-aboriginal-brown-750: oklch(0.372414 0.092596 44.367772);
-  --nsw-aboriginal-brown-800: oklch(0.320219 0.085938 44.68528);
-  --nsw-aboriginal-brown-850: oklch(0.264623 0.073691 43.721344);
-  --nsw-aboriginal-brown-900: oklch(0.207747 0.060107 44.309952);
-  --nsw-aboriginal-brown-950: oklch(0.152266 0.046833 41.010251);
-  --nsw-aboriginal-yellow-50: oklch(0.989602 0.018635 96.856306);
-  --nsw-aboriginal-yellow-100: oklch(0.978269 0.032246 93.512682);
-  --nsw-aboriginal-yellow-150: oklch(0.969312 0.045474 93.502046);
-  --nsw-aboriginal-yellow-200: oklch(0.95835 0.058779 92.480032);
-  --nsw-aboriginal-yellow-250: oklch(0.949558 0.072703 92.938598);
-  --nsw-aboriginal-yellow-300: oklch(0.940981 0.086217 93.231463);
-  --nsw-aboriginal-yellow-350: oklch(0.929786 0.098167 93.219492);
-  --nsw-aboriginal-yellow-400: oklch(0.921488 0.111616 93.481979);
-  --nsw-aboriginal-yellow-450: oklch(0.890835 0.124269 87.387746);
-  --nsw-aboriginal-yellow-500: oklch(0.861059 0.137541 82.135219);
-  --nsw-aboriginal-yellow-550: oklch(0.830545 0.150151 76.680641);
-  --nsw-aboriginal-yellow-600: oklch(0.799616 0.162605 70.976799);
-  --nsw-aboriginal-yellow-650: oklch(0.728511 0.148735 72.818047);
-  --nsw-aboriginal-yellow-700: oklch(0.656941 0.134714 74.492339);
-  --nsw-aboriginal-yellow-750: oklch(0.585858 0.121453 75.52775);
-  --nsw-aboriginal-yellow-800: oklch(0.514668 0.107421 77.638623);
-  --nsw-aboriginal-yellow-850: oklch(0.425162 0.088781 77.508419);
-  --nsw-aboriginal-yellow-900: oklch(0.33488 0.07099 73.957757);
-  --nsw-aboriginal-yellow-950: oklch(0.245313 0.052014 73.912488);
-  --nsw-aboriginal-green-50: oklch(0.977165 0.010132 131.357222);
-  --nsw-aboriginal-green-100: oklch(0.955574 0.01752 131.874777);
-  --nsw-aboriginal-green-150: oklch(0.931904 0.023343 131.148975);
-  --nsw-aboriginal-green-200: oklch(0.91016 0.030872 131.563693);
-  --nsw-aboriginal-green-250: oklch(0.888356 0.038472 131.850046);
-  --nsw-aboriginal-green-300: oklch(0.863414 0.046179 132.075776);
-  --nsw-aboriginal-green-350: oklch(0.841479 0.053915 132.266749);
-  --nsw-aboriginal-green-400: oklch(0.819493 0.061704 132.440252);
-  --nsw-aboriginal-green-450: oklch(0.779034 0.078008 131.716965);
-  --nsw-aboriginal-green-500: oklch(0.738331 0.095363 131.14891);
-  --nsw-aboriginal-green-550: oklch(0.698368 0.111626 130.536363);
-  --nsw-aboriginal-green-600: oklch(0.658809 0.128909 129.573593);
-  --nsw-aboriginal-green-650: oklch(0.597741 0.117755 135.435441);
-  --nsw-aboriginal-green-700: oklch(0.53758 0.106753 140.785426);
-  --nsw-aboriginal-green-750: oklch(0.474253 0.094245 146.68405);
-  --nsw-aboriginal-green-800: oklch(0.413248 0.083694 152.251293);
-  --nsw-aboriginal-green-850: oklch(0.33935 0.070824 152.299914);
-  --nsw-aboriginal-green-900: oklch(0.26844 0.058993 151.972747);
-  --nsw-aboriginal-green-950: oklch(0.196299 0.047105 152.148349);
-  --nsw-aboriginal-blue-50: oklch(0.972229 0.01093 211.037673);
-  --nsw-aboriginal-blue-100: oklch(0.945717 0.019454 208.752559);
-  --nsw-aboriginal-blue-150: oklch(0.917212 0.027259 211.060105);
-  --nsw-aboriginal-blue-200: oklch(0.890786 0.035649 209.821304);
-  --nsw-aboriginal-blue-250: oklch(0.864456 0.04392 209.064626);
-  --nsw-aboriginal-blue-300: oklch(0.838252 0.052013 208.568033);
-  --nsw-aboriginal-blue-350: oklch(0.810349 0.059652 211.082852);
-  --nsw-aboriginal-blue-400: oklch(0.783944 0.068061 210.370892);
-  --nsw-aboriginal-blue-450: oklch(0.710807 0.075929 215.877035);
-  --nsw-aboriginal-blue-500: oklch(0.635139 0.084359 223.003411);
-  --nsw-aboriginal-blue-550: oklch(0.562541 0.092877 229.710383);
-  --nsw-aboriginal-blue-600: oklch(0.486814 0.101282 236.48206);
-  --nsw-aboriginal-blue-650: oklch(0.453354 0.095261 236.711605);
-  --nsw-aboriginal-blue-700: oklch(0.419192 0.089257 236.915828);
-  --nsw-aboriginal-blue-750: oklch(0.384348 0.083118 237.181984);
-  --nsw-aboriginal-blue-800: oklch(0.352129 0.077132 237.212654);
-  --nsw-aboriginal-blue-850: oklch(0.29029 0.065293 238.901936);
-  --nsw-aboriginal-blue-900: oklch(0.231745 0.052298 239.104965);
-  --nsw-aboriginal-blue-950: oklch(0.169957 0.039922 241.439476);
-  --nsw-aboriginal-purple-50: oklch(0.967122 0.013295 333.038378);
-  --nsw-aboriginal-purple-100: oklch(0.935345 0.020206 330.657457);
-  --nsw-aboriginal-purple-150: oklch(0.902288 0.029739 330.945661);
-  --nsw-aboriginal-purple-200: oklch(0.871008 0.037705 331.394651);
-  --nsw-aboriginal-purple-250: oklch(0.837696 0.047595 331.568409);
-  --nsw-aboriginal-purple-300: oklch(0.807413 0.057622 331.752813);
-  --nsw-aboriginal-purple-350: oklch(0.773962 0.067882 331.957196);
-  --nsw-aboriginal-purple-400: oklch(0.742653 0.07745 331.484775);
-  --nsw-aboriginal-purple-450: oklch(0.698899 0.083937 331.327494);
-  --nsw-aboriginal-purple-500: oklch(0.654738 0.090602 331.227929);
-  --nsw-aboriginal-purple-550: oklch(0.611738 0.09918 331.125122);
-  --nsw-aboriginal-purple-600: oklch(0.566952 0.106118 331.144643);
-  --nsw-aboriginal-purple-650: oklch(0.505299 0.096561 331.048693);
-  --nsw-aboriginal-purple-700: oklch(0.444777 0.085629 331.74633);
-  --nsw-aboriginal-purple-750: oklch(0.383951 0.076245 332.607859);
-  --nsw-aboriginal-purple-800: oklch(0.323017 0.065535 332.719669);
-  --nsw-aboriginal-purple-850: oklch(0.265091 0.056272 332.687214);
-  --nsw-aboriginal-purple-900: oklch(0.210078 0.044162 332.740798);
-  --nsw-aboriginal-purple-950: oklch(0.153982 0.036034 334.855453);
+  --nsw-grey-50: oklch(0.985104 0 0); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-grey-100: oklch(0.970151 0 0); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-grey-150: oklch(0.95514 0 0); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-grey-200: oklch(0.94007 0 0); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 200: Interactive components. */
+  --nsw-grey-250: oklch(0.920652 0.002558 228.786818); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 250: Interactive components. */
+  --nsw-grey-300: oklch(0.901624 0.003538 219.535738); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 300: Interactive components. */
+  --nsw-grey-350: oklch(0.882025 0.006111 223.464254); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 350: Interactive components. */
+  --nsw-grey-400: oklch(0.863097 0.007776 228.868893); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 400: Interactive components. */
+  --nsw-grey-450: oklch(0.753634 0.008885 236.605307); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 450: shades for borders, separators and icons. */
+  --nsw-grey-500: oklch(0.645222 0.009348 225.150438); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 500: shades for borders, separators and icons. */
+  --nsw-grey-550: oklch(0.536704 0.009767 225.197358); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 550: shades for borders, separators and icons. */
+  --nsw-grey-600: oklch(0.426427 0.011202 232.617199); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 600: shades for borders, separators and icons. */
+  --nsw-grey-650: oklch(0.386365 0.01045 236.835687); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 650: shades for borders, separators and icons. */
+  --nsw-grey-700: oklch(0.348204 0.010712 236.894097); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 700: Solid colors. */
+  --nsw-grey-750: oklch(0.308978 0.011017 236.97265); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 750: Solid colors. */
+  --nsw-grey-800: oklch(0.269413 0.01036 242.083865); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 800: Solid colors. */
+  --nsw-grey-850: oklch(0.223572 0.008405 240.274391); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 850: darkest shades for text and high emphasis. */
+  --nsw-grey-900: oklch(0.175228 0.006346 236.981786); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 900: darkest shades for text and high emphasis. */
+  --nsw-grey-950: oklch(0.126543 0.006953 243.792325); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 950: darkest shades for text and high emphasis. */
+  --nsw-green-50: oklch(0.990081 0.015795 148.41438); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-green-100: oklch(0.977431 0.026606 148.839664); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-green-150: oklch(0.967911 0.037416 148.930338); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-green-200: oklch(0.955545 0.04826 148.904545); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: Interactive components. */
+  --nsw-green-250: oklch(0.93851 0.062505 148.569017); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: Interactive components. */
+  --nsw-green-300: oklch(0.921117 0.077402 148.783229); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: Interactive components. */
+  --nsw-green-350: oklch(0.901882 0.090617 148.915542); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: Interactive components. */
+  --nsw-green-400: oklch(0.885183 0.105294 148.825537); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: Interactive components. */
+  --nsw-green-450: oklch(0.824352 0.124607 148.589905); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: shades for borders, separators and icons. */
+  --nsw-green-500: oklch(0.765718 0.145713 148.416765); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: shades for borders, separators and icons. */
+  --nsw-green-550: oklch(0.704641 0.16526 148.484663); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: shades for borders, separators and icons. */
+  --nsw-green-600: oklch(0.643827 0.185071 148.266392); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: shades for borders, separators and icons. */
+  --nsw-green-650: oklch(0.563991 0.166488 146.780194); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: shades for borders, separators and icons. */
+  --nsw-green-700: oklch(0.484 0.147861 145.298202); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: Solid colors. */
+  --nsw-green-750: oklch(0.403409 0.12884 143.996921); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: Solid colors. */
+  --nsw-green-800: oklch(0.321878 0.109527 142.495345); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: Solid colors. */
+  --nsw-green-850: oklch(0.267891 0.091156 142.495345); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 850: darkest shades for text and high emphasis. */
+  --nsw-green-900: oklch(0.211008 0.071801 142.495345); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 900: darkest shades for text and high emphasis. */
+  --nsw-green-950: oklch(0.153912 0.052372 142.495345); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 950: darkest shades for text and high emphasis. */
+  --nsw-teal-50: oklch(0.981084 0.009583 189.068864); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-teal-100: oklch(0.963745 0.017041 187.89812); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-teal-150: oklch(0.944172 0.023457 186.915975); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-teal-200: oklch(0.926969 0.030829 186.587966); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 200: Interactive components. */
+  --nsw-teal-250: oklch(0.907198 0.04267 190.957151); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 250: Interactive components. */
+  --nsw-teal-300: oklch(0.884847 0.055135 196.19898); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 300: Interactive components. */
+  --nsw-teal-350: oklch(0.864304 0.066593 201.943435); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 350: Interactive components. */
+  --nsw-teal-400: oklch(0.843907 0.078713 205.971232); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 400: Interactive components. */
+  --nsw-teal-450: oklch(0.773472 0.079248 207.069585); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons. */
+  --nsw-teal-500: oklch(0.699402 0.079119 209.446408); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons. */
+  --nsw-teal-550: oklch(0.628309 0.080069 209.493158); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons. */
+  --nsw-teal-600: oklch(0.55658 0.080187 210.887635); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons. */
+  --nsw-teal-650: oklch(0.501916 0.073272 210.257312); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons. */
+  --nsw-teal-700: oklch(0.448897 0.066803 209.287131); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 700: Solid colors. */
+  --nsw-teal-750: oklch(0.392261 0.059727 211.556304); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 750: Solid colors. */
+  --nsw-teal-800: oklch(0.339119 0.053288 210.303482); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 800: Solid colors. */
+  --nsw-teal-850: oklch(0.28054 0.045497 209.000284); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis. */
+  --nsw-teal-900: oklch(0.219761 0.036868 210.291523); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis. */
+  --nsw-teal-950: oklch(0.162471 0.027924 207.933306); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis. */
+  --nsw-blue-50: oklch(0.981046 0.012805 221.42319); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-blue-100: oklch(0.962528 0.022535 229.073806); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-blue-150: oklch(0.945178 0.032646 226.304274); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-blue-200: oklch(0.926674 0.041663 227.890787); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: Interactive components. */
+  --nsw-blue-250: oklch(0.911263 0.054737 226.223779); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: Interactive components. */
+  --nsw-blue-300: oklch(0.896395 0.067447 225.364647); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: Interactive components. */
+  --nsw-blue-350: oklch(0.87908 0.079726 224.961348); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: Interactive components. */
+  --nsw-blue-400: oklch(0.864091 0.092143 223.595164); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: Interactive components. */
+  --nsw-blue-450: oklch(0.793049 0.126377 232.671182); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: shades for borders, separators and icons. */
+  --nsw-blue-500: oklch(0.719588 0.160232 241.934243); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: shades for borders, separators and icons. */
+  --nsw-blue-550: oklch(0.647121 0.194114 252.085254); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: shades for borders, separators and icons. */
+  --nsw-blue-600: oklch(0.575113 0.229834 260.756335); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: shades for borders, separators and icons. */
+  --nsw-blue-650: oklch(0.504429 0.200565 260.409998); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: shades for borders, separators and icons. */
+  --nsw-blue-700: oklch(0.433012 0.172764 260.164397); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: Solid colors. */
+  --nsw-blue-750: oklch(0.360675 0.146274 260.290439); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: Solid colors. */
+  --nsw-blue-800: oklch(0.289999 0.117296 259.841938); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: Solid colors. */
+  --nsw-blue-850: oklch(0.238584 0.100105 260.505764); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 850: darkest shades for text and high emphasis. */
+  --nsw-blue-900: oklch(0.190403 0.080719 260.682766); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 900: darkest shades for text and high emphasis. */
+  --nsw-blue-950: oklch(0.138623 0.062732 261.699127); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 950: darkest shades for text and high emphasis. */
+  --nsw-purple-50: oklch(0.979942 0.010771 297.629538); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-purple-100: oklch(0.96104 0.020078 292.148399); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-purple-150: oklch(0.940643 0.02976 294.163862); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-purple-200: oklch(0.922152 0.038089 293.832311); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 200: Interactive components. */
+  --nsw-purple-250: oklch(0.902386 0.050699 294.035459); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 250: Interactive components. */
+  --nsw-purple-300: oklch(0.880403 0.063609 295.026076); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 300: Interactive components. */
+  --nsw-purple-350: oklch(0.860749 0.07647 294.744797); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 350: Interactive components. */
+  --nsw-purple-400: oklch(0.838898 0.089613 295.149512); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 400: Interactive components. */
+  --nsw-purple-450: oklch(0.774614 0.122118 294.042831); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons. */
+  --nsw-purple-500: oklch(0.711084 0.154805 292.674319); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons. */
+  --nsw-purple-550: oklch(0.646097 0.188334 291.878793); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons. */
+  --nsw-purple-600: oklch(0.58173 0.221615 290.501683); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons. */
+  --nsw-purple-650: oklch(0.516922 0.203649 293.377615); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons. */
+  --nsw-purple-700: oklch(0.453186 0.185326 296.711408); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 700: Solid colors. */
+  --nsw-purple-750: oklch(0.386977 0.16729 299.692934); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 750: Solid colors. */
+  --nsw-purple-800: oklch(0.322758 0.148913 302.732273); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 800: Solid colors. */
+  --nsw-purple-850: oklch(0.265767 0.126298 303.073254); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis. */
+  --nsw-purple-900: oklch(0.20962 0.104671 303.28248); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis. */
+  --nsw-purple-950: oklch(0.152833 0.080653 302.075394); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis. */
+  --nsw-fuchsia-50: oklch(0.982084 0.013244 333.034319); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-fuchsia-100: oklch(0.965669 0.023247 338.610142); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-fuchsia-150: oklch(0.948854 0.03339 337.959274); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-fuchsia-200: oklch(0.93185 0.042831 339.134147); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: Interactive components. */
+  --nsw-fuchsia-250: oklch(0.910705 0.055741 337.314857); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: Interactive components. */
+  --nsw-fuchsia-300: oklch(0.887629 0.069703 336.916306); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: Interactive components. */
+  --nsw-fuchsia-350: oklch(0.86725 0.08373 335.420133); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: Interactive components. */
+  --nsw-fuchsia-400: oklch(0.84582 0.096185 334.510766); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: Interactive components. */
+  --nsw-fuchsia-450: oklch(0.784752 0.136018 335.952916); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: shades for borders, separators and icons. */
+  --nsw-fuchsia-500: oklch(0.723334 0.175513 337.649945); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: shades for borders, separators and icons. */
+  --nsw-fuchsia-550: oklch(0.661983 0.214363 338.632544); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: shades for borders, separators and icons. */
+  --nsw-fuchsia-600: oklch(0.601253 0.254233 340.252307); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: shades for borders, separators and icons. */
+  --nsw-fuchsia-650: oklch(0.536642 0.227232 340.78992); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: shades for borders, separators and icons. */
+  --nsw-fuchsia-700: oklch(0.470462 0.200119 341.098388); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: Solid colors. */
+  --nsw-fuchsia-750: oklch(0.406687 0.174181 341.335872); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: Solid colors. */
+  --nsw-fuchsia-800: oklch(0.340576 0.146851 341.706145); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: Solid colors. */
+  --nsw-fuchsia-850: oklch(0.282424 0.121774 341.71207); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 850: darkest shades for text and high emphasis. */
+  --nsw-fuchsia-900: oklch(0.22599 0.097183 342.322886); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 900: darkest shades for text and high emphasis. */
+  --nsw-fuchsia-950: oklch(0.168705 0.072287 343.166627); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 950: darkest shades for text and high emphasis. */
+  --nsw-red-50: oklch(0.984801 0.007587 7.280361); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-red-100: oklch(0.97188 0.014232 6.700043); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-red-150: oklch(0.959029 0.020979 6.606185); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-red-200: oklch(0.946252 0.027827 6.653086); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: Interactive components. */
+  --nsw-red-250: oklch(0.922815 0.040479 8.438397); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: Interactive components. */
+  --nsw-red-300: oklch(0.897868 0.054828 8.39461); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: Interactive components. */
+  --nsw-red-350: oklch(0.875166 0.068164 9.494436); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: Interactive components. */
+  --nsw-red-400: oklch(0.850883 0.08303 10.570683); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: Interactive components. */
+  --nsw-red-450: oklch(0.779076 0.116944 12.810782); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: shades for borders, separators and icons. */
+  --nsw-red-500: oklch(0.707215 0.150378 15.602977); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: shades for borders, separators and icons. */
+  --nsw-red-550: oklch(0.634722 0.184087 17.935378); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: shades for borders, separators and icons. */
+  --nsw-red-600: oklch(0.561955 0.217505 20.33356); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: shades for borders, separators and icons. */
+  --nsw-red-650: oklch(0.501611 0.19526 19.649998); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: shades for borders, separators and icons. */
+  --nsw-red-700: oklch(0.439441 0.172351 18.724983); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: Solid colors. */
+  --nsw-red-750: oklch(0.377602 0.149006 17.706488); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: Solid colors. */
+  --nsw-red-800: oklch(0.316967 0.126887 17.133117); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: Solid colors. */
+  --nsw-red-850: oklch(0.26401 0.105766 17.967115); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 850: darkest shades for text and high emphasis. */
+  --nsw-red-900: oklch(0.210832 0.084535 18.772606); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 900: darkest shades for text and high emphasis. */
+  --nsw-red-950: oklch(0.156795 0.062933 19.607624); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 950: darkest shades for text and high emphasis. */
+  --nsw-orange-50: oklch(0.987839 0.007543 61.45578); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-orange-100: oklch(0.977951 0.014375 64.347922); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-orange-150: oklch(0.965645 0.019381 60.174704); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-orange-200: oklch(0.955039 0.025491 63.743337); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: Interactive components. */
+  --nsw-orange-250: oklch(0.936249 0.041053 64.929124); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: Interactive components. */
+  --nsw-orange-300: oklch(0.917859 0.056636 65.300646); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: Interactive components. */
+  --nsw-orange-350: oklch(0.900675 0.072472 68.034989); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: Interactive components. */
+  --nsw-orange-400: oklch(0.882019 0.087884 68.490482); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: Interactive components. */
+  --nsw-orange-450: oklch(0.829842 0.113933 61.388359); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: shades for borders, separators and icons. */
+  --nsw-orange-500: oklch(0.778954 0.140471 55.166517); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: shades for borders, separators and icons. */
+  --nsw-orange-550: oklch(0.72492 0.166374 48.688783); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: shades for borders, separators and icons. */
+  --nsw-orange-600: oklch(0.674414 0.192429 42.148083); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: shades for borders, separators and icons. */
+  --nsw-orange-650: oklch(0.613962 0.184358 39.794614); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: shades for borders, separators and icons. */
+  --nsw-orange-700: oklch(0.55289 0.176309 37.423321); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: Solid colors. */
+  --nsw-orange-750: oklch(0.492464 0.16713 35.422254); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: Solid colors. */
+  --nsw-orange-800: oklch(0.432199 0.159379 33.02244); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: Solid colors. */
+  --nsw-orange-850: oklch(0.357475 0.135212 32.07107); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 850: darkest shades for text and high emphasis. */
+  --nsw-orange-900: oklch(0.281222 0.110671 30.651366); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 900: darkest shades for text and high emphasis. */
+  --nsw-orange-950: oklch(0.206578 0.08477 29.23388); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 950: darkest shades for text and high emphasis. */
+  --nsw-yellow-50: oklch(0.990123 0.016076 95.219322); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-yellow-100: oklch(0.983411 0.027978 95.885149); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-yellow-150: oklch(0.974866 0.038751 94.277708); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-yellow-200: oklch(0.96644 0.049432 93.383449); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: Interactive components. */
+  --nsw-yellow-250: oklch(0.957711 0.06238 93.425567); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: Interactive components. */
+  --nsw-yellow-300: oklch(0.948327 0.074821 94.273041); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: Interactive components. */
+  --nsw-yellow-350: oklch(0.937977 0.086258 93.231211); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: Interactive components. */
+  --nsw-yellow-400: oklch(0.928754 0.099044 94.038586); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: Interactive components. */
+  --nsw-yellow-450: oklch(0.897354 0.115545 89.863426); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: shades for borders, separators and icons. */
+  --nsw-yellow-500: oklch(0.867379 0.133527 86.293084); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: shades for borders, separators and icons. */
+  --nsw-yellow-550: oklch(0.835549 0.15046 81.626951); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: shades for borders, separators and icons. */
+  --nsw-yellow-600: oklch(0.805038 0.167358 77.590601); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: shades for borders, separators and icons. */
+  --nsw-yellow-650: oklch(0.71131 0.147875 77.735972); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: shades for borders, separators and icons. */
+  --nsw-yellow-700: oklch(0.617531 0.128406 78.181686); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: Solid colors. */
+  --nsw-yellow-750: oklch(0.521285 0.108602 78.157346); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: Solid colors. */
+  --nsw-yellow-800: oklch(0.427326 0.08887 78.678822); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: Solid colors. */
+  --nsw-yellow-850: oklch(0.351758 0.07351 77.298566); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 850: darkest shades for text and high emphasis. */
+  --nsw-yellow-900: oklch(0.279606 0.058706 76.10848); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 900: darkest shades for text and high emphasis. */
+  --nsw-yellow-950: oklch(0.202409 0.042946 73.773854); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 950: darkest shades for text and high emphasis. */
+  --nsw-brown-50: oklch(0.980322 0.006204 75.407199); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-brown-100: oklch(0.96009 0.010761 76.598329); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-brown-150: oklch(0.940844 0.014842 70.884167); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-brown-200: oklch(0.92047 0.019451 72.565423); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 200: Interactive components. */
+  --nsw-brown-250: oklch(0.907511 0.026415 71.174552); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 250: Interactive components. */
+  --nsw-brown-300: oklch(0.895976 0.032101 73.507317); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 300: Interactive components. */
+  --nsw-brown-350: oklch(0.883104 0.039083 72.324463); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 350: Interactive components. */
+  --nsw-brown-400: oklch(0.87053 0.045049 70.467357); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 400: Interactive components. */
+  --nsw-brown-450: oklch(0.820425 0.053636 70.701121); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons. */
+  --nsw-brown-500: oklch(0.770788 0.063048 69.882833); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons. */
+  --nsw-brown-550: oklch(0.719766 0.071814 69.840337); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons. */
+  --nsw-brown-600: oklch(0.671378 0.081345 70.110363); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons. */
+  --nsw-brown-650: oklch(0.593487 0.075855 68.942252); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons. */
+  --nsw-brown-700: oklch(0.515306 0.06944 68.344793); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 700: Solid colors. */
+  --nsw-brown-750: oklch(0.438779 0.064545 67.310247); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 750: Solid colors. */
+  --nsw-brown-800: oklch(0.361361 0.058506 66.920145); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 800: Solid colors. */
+  --nsw-brown-850: oklch(0.298054 0.050193 67.139028); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis. */
+  --nsw-brown-900: oklch(0.235424 0.040856 66.793394); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis. */
+  --nsw-brown-950: oklch(0.172585 0.031824 67.984068); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-grey-50: oklch(0.979613 0.001708 67.802154); /** NSW Aboriginal palette grey. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-100: oklch(0.958355 0.002875 84.559036); /** NSW Aboriginal palette grey. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-150: oklch(0.937258 0.002891 84.559255); /** NSW Aboriginal palette grey. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-200: oklch(0.916542 0.004595 78.296868); /** NSW Aboriginal palette Smoke Grey. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-250: oklch(0.895714 0.006344 75.402785); /** NSW Aboriginal palette grey. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-300: oklch(0.872255 0.006037 59.639958); /** NSW Aboriginal palette grey. Step 300: light tints. */
+  --nsw-aboriginal-grey-350: oklch(0.851173 0.007831 61.434716); /** NSW Aboriginal palette grey. Step 350: light tints. */
+  --nsw-aboriginal-grey-400: oklch(0.830249 0.008721 56.288523); /** NSW Aboriginal palette Ash Grey. Step 400: light tints. */
+  --nsw-aboriginal-grey-450: oklch(0.734858 0.007201 53.408349); /** NSW Aboriginal palette grey. Step 450: light tints. */
+  --nsw-aboriginal-grey-500: oklch(0.639018 0.003881 39.468326); /** NSW Aboriginal palette grey — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-grey-550: oklch(0.545732 0.001977 67.781807); /** NSW Aboriginal palette grey. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-grey-600: oklch(0.449533 0 0); /** NSW Aboriginal palette Emu Grey. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-grey-650: oklch(0.405398 0 0); /** NSW Aboriginal palette grey. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-grey-700: oklch(0.360023 0 0); /** NSW Aboriginal palette grey. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-grey-750: oklch(0.317136 0 0); /** NSW Aboriginal palette grey. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-grey-800: oklch(0.272741 0 0); /** NSW Aboriginal palette Charcoal Grey. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-grey-850: oklch(0.22645 0 0); /** NSW Aboriginal palette grey. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-grey-900: oklch(0.177638 0 0); /** NSW Aboriginal palette grey. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-grey-950: oklch(0.128558 0 0); /** NSW Aboriginal palette grey. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-red-50: oklch(0.977917 0.01075 17.340194); /** NSW Aboriginal palette red. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-100: oklch(0.956021 0.021805 17.540209); /** NSW Aboriginal palette red. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-150: oklch(0.935641 0.030896 17.717103); /** NSW Aboriginal palette red. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-200: oklch(0.915394 0.0402 17.910042); /** NSW Aboriginal palette Galah Pink. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-250: oklch(0.896228 0.050863 18.143256); /** NSW Aboriginal palette red. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-300: oklch(0.876091 0.060658 19.635877); /** NSW Aboriginal palette red. Step 300: light tints. */
+  --nsw-aboriginal-red-350: oklch(0.855637 0.072943 18.685192); /** NSW Aboriginal palette red. Step 350: light tints. */
+  --nsw-aboriginal-red-400: oklch(0.836037 0.083154 19.887576); /** NSW Aboriginal palette Coral Pink. Step 400: light tints. */
+  --nsw-aboriginal-red-450: oklch(0.772599 0.117401 22.034576); /** NSW Aboriginal palette red. Step 450: light tints. */
+  --nsw-aboriginal-red-500: oklch(0.710749 0.152503 24.524635); /** NSW Aboriginal palette red — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-red-550: oklch(0.64772 0.185981 26.992016); /** NSW Aboriginal palette red. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-red-600: oklch(0.585456 0.220516 29.136139); /** NSW Aboriginal palette Ember Red. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-red-650: oklch(0.544312 0.207167 29.033171); /** NSW Aboriginal palette red. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-red-700: oklch(0.504372 0.19444 29.090046); /** NSW Aboriginal palette red. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-red-750: oklch(0.463857 0.181292 29.151502); /** NSW Aboriginal palette red. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-red-800: oklch(0.42441 0.168832 29.059253); /** NSW Aboriginal palette Earth Red. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-red-850: oklch(0.351087 0.14392 28.917784); /** NSW Aboriginal palette red. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-red-900: oklch(0.280004 0.1149 29.23388); /** NSW Aboriginal palette red. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-red-950: oklch(0.20904 0.08578 29.23388); /** NSW Aboriginal palette red. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-orange-50: oklch(0.973556 0.015952 58.641276); /** NSW Aboriginal palette orange. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-100: oklch(0.947654 0.028075 51.846173); /** NSW Aboriginal palette orange. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-150: oklch(0.922782 0.040228 53.880344); /** NSW Aboriginal palette orange. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-200: oklch(0.895542 0.051085 52.555439); /** NSW Aboriginal palette Sunset Orange. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-250: oklch(0.872031 0.064527 52.950639); /** NSW Aboriginal palette orange. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-300: oklch(0.84704 0.078423 51.844811); /** NSW Aboriginal palette orange. Step 300: light tints. */
+  --nsw-aboriginal-orange-350: oklch(0.824377 0.092099 52.01177); /** NSW Aboriginal palette orange. Step 350: light tints. */
+  --nsw-aboriginal-orange-400: oklch(0.799158 0.105847 51.972937); /** NSW Aboriginal palette Clay Orange. Step 400: light tints. */
+  --nsw-aboriginal-orange-450: oklch(0.766094 0.126491 50.281467); /** NSW Aboriginal palette orange. Step 450: light tints. */
+  --nsw-aboriginal-orange-500: oklch(0.733244 0.147307 48.030411); /** NSW Aboriginal palette orange — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-orange-550: oklch(0.699805 0.167547 45.94896); /** NSW Aboriginal palette orange. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-orange-600: oklch(0.666534 0.188575 43.59666); /** NSW Aboriginal palette Orange Ochre. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-orange-650: oklch(0.605157 0.176427 41.984292); /** NSW Aboriginal palette orange. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-orange-700: oklch(0.543706 0.163519 40.722838); /** NSW Aboriginal palette orange. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-orange-750: oklch(0.482528 0.151339 39.057361); /** NSW Aboriginal palette orange. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-orange-800: oklch(0.419873 0.139043 37.476491); /** NSW Aboriginal palette Deep Orange. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-orange-850: oklch(0.346307 0.117509 36.402344); /** NSW Aboriginal palette orange. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-orange-900: oklch(0.274179 0.096195 34.994332); /** NSW Aboriginal palette orange. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-orange-950: oklch(0.19945 0.074821 32.376266); /** NSW Aboriginal palette orange. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-brown-50: oklch(0.964567 0.015989 58.638621); /** NSW Aboriginal palette brown. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-100: oklch(0.927872 0.026411 54.553798); /** NSW Aboriginal palette brown. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-150: oklch(0.890008 0.037066 55.325516); /** NSW Aboriginal palette brown. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-200: oklch(0.855158 0.047928 55.657964); /** NSW Aboriginal palette Macadamia Brown. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-250: oklch(0.819152 0.060928 54.401987); /** NSW Aboriginal palette brown. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-300: oklch(0.78428 0.072995 55.357845); /** NSW Aboriginal palette brown. Step 300: light tints. */
+  --nsw-aboriginal-brown-350: oklch(0.748613 0.08714 54.877732); /** NSW Aboriginal palette brown. Step 350: light tints. */
+  --nsw-aboriginal-brown-400: oklch(0.712508 0.099636 54.125312); /** NSW Aboriginal palette Claystone Brown. Step 400: light tints. */
+  --nsw-aboriginal-brown-450: oklch(0.665756 0.102275 50.954073); /** NSW Aboriginal palette brown. Step 450: light tints. */
+  --nsw-aboriginal-brown-500: oklch(0.620455 0.1048 48.79466); /** NSW Aboriginal palette brown — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-brown-550: oklch(0.57171 0.107229 46.104324); /** NSW Aboriginal palette brown. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-brown-600: oklch(0.525934 0.109911 43.512384); /** NSW Aboriginal palette Firewood Brown. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-brown-650: oklch(0.474445 0.103738 43.660091); /** NSW Aboriginal palette brown. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-brown-700: oklch(0.423254 0.098571 43.417081); /** NSW Aboriginal palette brown. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-brown-750: oklch(0.372414 0.092596 44.367772); /** NSW Aboriginal palette brown. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-brown-800: oklch(0.320219 0.085938 44.68528); /** NSW Aboriginal palette Riverbed Brown. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-brown-850: oklch(0.264623 0.073691 43.721344); /** NSW Aboriginal palette brown. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-brown-900: oklch(0.207747 0.060107 44.309952); /** NSW Aboriginal palette brown. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-brown-950: oklch(0.152266 0.046833 41.010251); /** NSW Aboriginal palette brown. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-yellow-50: oklch(0.989602 0.018635 96.856306); /** NSW Aboriginal palette yellow. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-100: oklch(0.978269 0.032246 93.512682); /** NSW Aboriginal palette yellow. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-150: oklch(0.969312 0.045474 93.502046); /** NSW Aboriginal palette yellow. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-200: oklch(0.95835 0.058779 92.480032); /** NSW Aboriginal palette Sunbeam Yellow. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-250: oklch(0.949558 0.072703 92.938598); /** NSW Aboriginal palette yellow. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-300: oklch(0.940981 0.086217 93.231463); /** NSW Aboriginal palette yellow. Step 300: light tints. */
+  --nsw-aboriginal-yellow-350: oklch(0.929786 0.098167 93.219492); /** NSW Aboriginal palette yellow. Step 350: light tints. */
+  --nsw-aboriginal-yellow-400: oklch(0.921488 0.111616 93.481979); /** NSW Aboriginal palette Golden Wattle Yellow. Step 400: light tints. */
+  --nsw-aboriginal-yellow-450: oklch(0.890835 0.124269 87.387746); /** NSW Aboriginal palette yellow. Step 450: light tints. */
+  --nsw-aboriginal-yellow-500: oklch(0.861059 0.137541 82.135219); /** NSW Aboriginal palette yellow — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-yellow-550: oklch(0.830545 0.150151 76.680641); /** NSW Aboriginal palette yellow. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-yellow-600: oklch(0.799616 0.162605 70.976799); /** NSW Aboriginal palette Sandstone Yellow. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-yellow-650: oklch(0.728511 0.148735 72.818047); /** NSW Aboriginal palette yellow. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-yellow-700: oklch(0.656941 0.134714 74.492339); /** NSW Aboriginal palette yellow. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-yellow-750: oklch(0.585858 0.121453 75.52775); /** NSW Aboriginal palette yellow. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-yellow-800: oklch(0.514668 0.107421 77.638623); /** NSW Aboriginal palette Bush Honey Yellow. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-yellow-850: oklch(0.425162 0.088781 77.508419); /** NSW Aboriginal palette yellow. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-yellow-900: oklch(0.33488 0.07099 73.957757); /** NSW Aboriginal palette yellow. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-yellow-950: oklch(0.245313 0.052014 73.912488); /** NSW Aboriginal palette yellow. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-green-50: oklch(0.977165 0.010132 131.357222); /** NSW Aboriginal palette green. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-100: oklch(0.955574 0.01752 131.874777); /** NSW Aboriginal palette green. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-150: oklch(0.931904 0.023343 131.148975); /** NSW Aboriginal palette green. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-200: oklch(0.91016 0.030872 131.563693); /** NSW Aboriginal palette Saltbush Green. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-250: oklch(0.888356 0.038472 131.850046); /** NSW Aboriginal palette green. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-300: oklch(0.863414 0.046179 132.075776); /** NSW Aboriginal palette green. Step 300: light tints. */
+  --nsw-aboriginal-green-350: oklch(0.841479 0.053915 132.266749); /** NSW Aboriginal palette green. Step 350: light tints. */
+  --nsw-aboriginal-green-400: oklch(0.819493 0.061704 132.440252); /** NSW Aboriginal palette Gumleaf Green. Step 400: light tints. */
+  --nsw-aboriginal-green-450: oklch(0.779034 0.078008 131.716965); /** NSW Aboriginal palette green. Step 450: light tints. */
+  --nsw-aboriginal-green-500: oklch(0.738331 0.095363 131.14891); /** NSW Aboriginal palette green — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-green-550: oklch(0.698368 0.111626 130.536363); /** NSW Aboriginal palette green. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-green-600: oklch(0.658809 0.128909 129.573593); /** NSW Aboriginal palette Marshland Lime. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-green-650: oklch(0.597741 0.117755 135.435441); /** NSW Aboriginal palette green. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-green-700: oklch(0.53758 0.106753 140.785426); /** NSW Aboriginal palette green. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-green-750: oklch(0.474253 0.094245 146.68405); /** NSW Aboriginal palette green. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-green-800: oklch(0.413248 0.083694 152.251293); /** NSW Aboriginal palette Bushland Green. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-green-850: oklch(0.33935 0.070824 152.299914); /** NSW Aboriginal palette green. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-green-900: oklch(0.26844 0.058993 151.972747); /** NSW Aboriginal palette green. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-green-950: oklch(0.196299 0.047105 152.148349); /** NSW Aboriginal palette green. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-blue-50: oklch(0.972229 0.01093 211.037673); /** NSW Aboriginal palette blue. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-100: oklch(0.945717 0.019454 208.752559); /** NSW Aboriginal palette blue. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-150: oklch(0.917212 0.027259 211.060105); /** NSW Aboriginal palette blue. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-200: oklch(0.890786 0.035649 209.821304); /** NSW Aboriginal palette Coastal Blue. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-250: oklch(0.864456 0.04392 209.064626); /** NSW Aboriginal palette blue. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-300: oklch(0.838252 0.052013 208.568033); /** NSW Aboriginal palette blue. Step 300: light tints. */
+  --nsw-aboriginal-blue-350: oklch(0.810349 0.059652 211.082852); /** NSW Aboriginal palette blue. Step 350: light tints. */
+  --nsw-aboriginal-blue-400: oklch(0.783944 0.068061 210.370892); /** NSW Aboriginal palette Light Water Blue. Step 400: light tints. */
+  --nsw-aboriginal-blue-450: oklch(0.710807 0.075929 215.877035); /** NSW Aboriginal palette blue. Step 450: light tints. */
+  --nsw-aboriginal-blue-500: oklch(0.635139 0.084359 223.003411); /** NSW Aboriginal palette blue — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-blue-550: oklch(0.562541 0.092877 229.710383); /** NSW Aboriginal palette blue. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-blue-600: oklch(0.486814 0.101282 236.48206); /** NSW Aboriginal palette Saltwater Blue. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-blue-650: oklch(0.453354 0.095261 236.711605); /** NSW Aboriginal palette blue. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-blue-700: oklch(0.419192 0.089257 236.915828); /** NSW Aboriginal palette blue. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-blue-750: oklch(0.384348 0.083118 237.181984); /** NSW Aboriginal palette blue. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-blue-800: oklch(0.352129 0.077132 237.212654); /** NSW Aboriginal palette Billabong Blue. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-blue-850: oklch(0.29029 0.065293 238.901936); /** NSW Aboriginal palette blue. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-blue-900: oklch(0.231745 0.052298 239.104965); /** NSW Aboriginal palette blue. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-blue-950: oklch(0.169957 0.039922 241.439476); /** NSW Aboriginal palette blue. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-purple-50: oklch(0.967122 0.013295 333.038378); /** NSW Aboriginal palette purple. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-100: oklch(0.935345 0.020206 330.657457); /** NSW Aboriginal palette purple. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-150: oklch(0.902288 0.029739 330.945661); /** NSW Aboriginal palette purple. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-200: oklch(0.871008 0.037705 331.394651); /** NSW Aboriginal palette Dusk Purple. Step 200: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-250: oklch(0.837696 0.047595 331.568409); /** NSW Aboriginal palette purple. Step 250: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-300: oklch(0.807413 0.057622 331.752813); /** NSW Aboriginal palette purple. Step 300: light tints. */
+  --nsw-aboriginal-purple-350: oklch(0.773962 0.067882 331.957196); /** NSW Aboriginal palette purple. Step 350: light tints. */
+  --nsw-aboriginal-purple-400: oklch(0.742653 0.07745 331.484775); /** NSW Aboriginal palette Lilli Pilli Purple. Step 400: light tints. */
+  --nsw-aboriginal-purple-450: oklch(0.698899 0.083937 331.327494); /** NSW Aboriginal palette purple. Step 450: light tints. */
+  --nsw-aboriginal-purple-500: oklch(0.654738 0.090602 331.227929); /** NSW Aboriginal palette purple — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
+  --nsw-aboriginal-purple-550: oklch(0.611738 0.09918 331.125122); /** NSW Aboriginal palette purple. Step 550: shades for borders and icons. */
+  --nsw-aboriginal-purple-600: oklch(0.566952 0.106118 331.144643); /** NSW Aboriginal palette Spirit Lilac. Step 600: shades for borders and icons. */
+  --nsw-aboriginal-purple-650: oklch(0.505299 0.096561 331.048693); /** NSW Aboriginal palette purple. Step 650: shades for borders and icons. */
+  --nsw-aboriginal-purple-700: oklch(0.444777 0.085629 331.74633); /** NSW Aboriginal palette purple. Step 700: shades for borders and icons. */
+  --nsw-aboriginal-purple-750: oklch(0.383951 0.076245 332.607859); /** NSW Aboriginal palette purple. Step 750: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-purple-800: oklch(0.323017 0.065535 332.719669); /** NSW Aboriginal palette Bush Plum. Step 800: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-purple-850: oklch(0.265091 0.056272 332.687214); /** NSW Aboriginal palette purple. Step 850: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-purple-900: oklch(0.210078 0.044162 332.740798); /** NSW Aboriginal palette purple. Step 900: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-purple-950: oklch(0.153982 0.036034 334.855453); /** NSW Aboriginal palette purple. Step 950: darkest shades for text and high emphasis. */
 }
