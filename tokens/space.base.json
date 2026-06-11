@@ -11,7 +11,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -28,7 +29,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -45,7 +47,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -62,7 +65,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -79,7 +83,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -96,7 +101,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -113,7 +119,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -130,7 +137,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -147,7 +155,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -164,7 +173,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -181,7 +191,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -198,7 +209,8 @@
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }

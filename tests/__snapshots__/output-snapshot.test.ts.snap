@@ -54103,7 +54103,7 @@ exports[`built output snapshots > dist/tokens/border.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "STROKE_FLOAT"
           ],
           "codeSyntax": {}
         }
@@ -54120,7 +54120,7 @@ exports[`built output snapshots > dist/tokens/border.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "STROKE_FLOAT"
           ],
           "codeSyntax": {}
         }
@@ -54137,7 +54137,7 @@ exports[`built output snapshots > dist/tokens/border.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "STROKE_FLOAT"
           ],
           "codeSyntax": {}
         }
@@ -54151,7 +54151,7 @@ exports[`built output snapshots > dist/tokens/border.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "STROKE_FLOAT"
           ],
           "codeSyntax": {}
         }
@@ -54176,7 +54176,7 @@ exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -54193,7 +54193,7 @@ exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -54210,7 +54210,7 @@ exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -54227,7 +54227,7 @@ exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -54244,7 +54244,7 @@ exports[`built output snapshots > dist/tokens/breakpoints.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -85847,7 +85847,7 @@ exports[`built output snapshots > dist/tokens/radius.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "CORNER_RADIUS"
           ],
           "codeSyntax": {}
         }
@@ -85864,7 +85864,7 @@ exports[`built output snapshots > dist/tokens/radius.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "CORNER_RADIUS"
           ],
           "codeSyntax": {}
         }
@@ -85881,7 +85881,7 @@ exports[`built output snapshots > dist/tokens/radius.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "CORNER_RADIUS"
           ],
           "codeSyntax": {}
         }
@@ -85898,7 +85898,7 @@ exports[`built output snapshots > dist/tokens/radius.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "CORNER_RADIUS"
           ],
           "codeSyntax": {}
         }
@@ -85915,7 +85915,7 @@ exports[`built output snapshots > dist/tokens/radius.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "CORNER_RADIUS"
           ],
           "codeSyntax": {}
         }
@@ -90753,7 +90753,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90770,7 +90771,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90787,7 +90789,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90804,7 +90807,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90821,7 +90825,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90838,7 +90843,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90855,7 +90861,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90872,7 +90879,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90889,7 +90897,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90906,7 +90915,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90923,7 +90933,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -90940,7 +90951,8 @@ exports[`built output snapshots > dist/tokens/space.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "WIDTH_HEIGHT",
+            "GAP"
           ],
           "codeSyntax": {}
         }
@@ -111951,7 +111963,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_FAMILY"
           ],
           "codeSyntax": {}
         }
@@ -111976,7 +111988,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_FAMILY"
           ],
           "codeSyntax": {}
         }
@@ -112001,7 +112013,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_FAMILY"
           ],
           "codeSyntax": {}
         }
@@ -112024,7 +112036,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_FAMILY"
           ],
           "codeSyntax": {}
         }
@@ -112043,7 +112055,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112060,7 +112072,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112077,7 +112089,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112094,7 +112106,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112111,7 +112123,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112128,7 +112140,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112145,7 +112157,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112162,7 +112174,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112179,7 +112191,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112196,7 +112208,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112213,7 +112225,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112230,7 +112242,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_SIZE"
           ],
           "codeSyntax": {}
         }
@@ -112246,7 +112258,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_STYLE"
           ],
           "codeSyntax": {}
         }
@@ -112260,7 +112272,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_STYLE"
           ],
           "codeSyntax": {}
         }
@@ -112274,7 +112286,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_STYLE"
           ],
           "codeSyntax": {}
         }
@@ -112288,7 +112300,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_STYLE"
           ],
           "codeSyntax": {}
         }
@@ -112302,7 +112314,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_STYLE"
           ],
           "codeSyntax": {}
         }
@@ -112316,7 +112328,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "FONT_STYLE"
           ],
           "codeSyntax": {}
         }
@@ -112332,7 +112344,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LINE_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -112346,7 +112358,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LINE_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -112360,7 +112372,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LINE_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -112374,7 +112386,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LINE_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -112388,7 +112400,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LINE_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -112402,7 +112414,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LINE_HEIGHT"
           ],
           "codeSyntax": {}
         }
@@ -112418,7 +112430,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LETTER_SPACING"
           ],
           "codeSyntax": {}
         }
@@ -112432,7 +112444,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LETTER_SPACING"
           ],
           "codeSyntax": {}
         }
@@ -112446,7 +112458,7 @@ exports[`built output snapshots > dist/tokens/typography.base.json 1`] = `
         "com.figma": {
           "hiddenFromPublishing": false,
           "scopes": [
-            "ALL_SCOPES"
+            "LETTER_SPACING"
           ],
           "codeSyntax": {}
         }
