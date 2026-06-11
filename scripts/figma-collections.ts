@@ -1,3 +1,5 @@
+import type { VariableScope } from '@figma/rest-api-spec'
+
 // Manifest mapping on-disk token file names to the Figma variable collection + mode they
 // represent. This decouples file names from Figma collection names, so files can use
 // tooling-safe kebab-case while the Figma collections keep their human-readable names
@@ -59,6 +61,37 @@ export const FIGMA_EXPORT_RULES: Record<string, Record<string, FigmaValueRule>> 
     'line-height': { $type: 'number' },
     'letter-spacing': { $type: 'number' },
   },
+}
+// Figma variable scopes per collection family (review item M4): scopes filter which
+// Figma pickers offer a variable (a radius token shouldn't appear in the letter-spacing
+// picker). Keyed by collection name, then token family, "*" wildcard. Colour collections
+// stay ALL_SCOPES deliberately — restricting colours to fill/stroke/text roles is a
+// separate design decision. Scopes only filter pickers: existing applications of a
+// variable keep working, and this is fully reversible by pushing ALL_SCOPES back.
+// Figma is the carrier after the first push (export round-trips scopes); this map is the
+// authoring source for NEW tokens' staging entries.
+
+export const FIGMA_SCOPES: Record<string, Record<string, VariableScope[]>> = {
+  // Order and names match what Figma persists (it canonicalises both): WIDTH_HEIGHT
+  // before GAP, and the weight/style dropdown is governed by FONT_STYLE — pushing
+  // FONT_WEIGHT gets normalised to FONT_STYLE and would re-diff forever.
+  Space: { '*': ['WIDTH_HEIGHT', 'GAP'] },
+  Radius: { '*': ['CORNER_RADIUS'] },
+  Breakpoints: { '*': ['WIDTH_HEIGHT'] },
+  Border: { '*': ['STROKE_FLOAT'] },
+  Typography: {
+    'font-family': ['FONT_FAMILY'],
+    'font-size': ['FONT_SIZE'],
+    'font-weight': ['FONT_STYLE'],
+    'line-height': ['LINE_HEIGHT'],
+    'letter-spacing': ['LETTER_SPACING'],
+  },
+}
+
+export function scopesFor(collectionName: string, family: string): VariableScope[] | null {
+  const rules = FIGMA_SCOPES[collectionName]
+  if (!rules) return null
+  return rules[family] ?? rules['*'] ?? null
 }
 
 export function exportRuleFor(collectionName: string, family: string): FigmaValueRule | null {
