@@ -81,7 +81,7 @@
         "alpha": 1,
         "hex": "#ebebeb"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -104,7 +104,7 @@
         "alpha": 1,
         "hex": "#e3e5e6"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -127,7 +127,7 @@
         "alpha": 1,
         "hex": "#dcdfe0"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 300: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -150,7 +150,7 @@
         "alpha": 1,
         "hex": "#d4d9db"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 350: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -173,7 +173,7 @@
         "alpha": 1,
         "hex": "#cdd3d6"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 400: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -196,7 +196,7 @@
         "alpha": 1,
         "hex": "#aab0b4"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 450: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -219,7 +219,7 @@
         "alpha": 1,
         "hex": "#888f92"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 500: base colour.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -242,7 +242,7 @@
         "alpha": 1,
         "hex": "#686f72"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 550: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -265,7 +265,7 @@
         "alpha": 1,
         "hex": "#495054"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 600: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -288,7 +288,7 @@
         "alpha": 1,
         "hex": "#3f4549"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 650: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -311,7 +311,7 @@
         "alpha": 1,
         "hex": "#353b3f"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 700: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -334,7 +334,7 @@
         "alpha": 1,
         "hex": "#2b3135"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 750: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -357,7 +357,7 @@
         "alpha": 1,
         "hex": "#22272b"
       },
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 800: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -520,7 +520,7 @@
         "alpha": 1,
         "hex": "#dbfadf"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -543,7 +543,7 @@
         "alpha": 1,
         "hex": "#cff7d4"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -566,7 +566,7 @@
         "alpha": 1,
         "hex": "#c2f4c9"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: light tints.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -589,7 +589,7 @@
         "alpha": 1,
         "hex": "#b5f0be"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: light tints.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -612,7 +612,7 @@
         "alpha": 1,
         "hex": "#a8edb3"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: light tints.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -635,7 +635,7 @@
         "alpha": 1,
         "hex": "#8adc98"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: light tints.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -658,7 +658,7 @@
         "alpha": 1,
         "hex": "#6acc7d"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: base colour.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -681,7 +681,7 @@
         "alpha": 1,
         "hex": "#45bb62"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: shades for borders and icons.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -704,7 +704,7 @@
         "alpha": 1,
         "hex": "#00aa45"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: shades for borders and icons.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -727,7 +727,7 @@
         "alpha": 1,
         "hex": "#078e32"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: shades for borders and icons.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -750,7 +750,7 @@
         "alpha": 1,
         "hex": "#077320"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: shades for borders and icons.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -773,7 +773,7 @@
         "alpha": 1,
         "hex": "#03590f"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -796,7 +796,7 @@
         "alpha": 1,
         "hex": "#004000"
       },
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -959,7 +959,7 @@
         "alpha": 1,
         "hex": "#d1eeea"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -982,7 +982,7 @@
         "alpha": 1,
         "hex": "#c1eae7"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1005,7 +1005,7 @@
         "alpha": 1,
         "hex": "#afe5e5"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 300: light tints.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1028,7 +1028,7 @@
         "alpha": 1,
         "hex": "#9ee0e5"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 350: light tints.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1051,7 +1051,7 @@
         "alpha": 1,
         "hex": "#8cdbe5"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 400: light tints.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1074,7 +1074,7 @@
         "alpha": 1,
         "hex": "#75c4cf"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 450: light tints.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1097,7 +1097,7 @@
         "alpha": 1,
         "hex": "#5eacb9"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 500: base colour.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1120,7 +1120,7 @@
         "alpha": 1,
         "hex": "#4696a3"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 550: shades for borders and icons.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1143,7 +1143,7 @@
         "alpha": 1,
         "hex": "#2e808e"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 600: shades for borders and icons.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1166,7 +1166,7 @@
         "alpha": 1,
         "hex": "#256f7b"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 650: shades for borders and icons.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1189,7 +1189,7 @@
         "alpha": 1,
         "hex": "#1c5f69"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 700: shades for borders and icons.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1212,7 +1212,7 @@
         "alpha": 1,
         "hex": "#144e58"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1235,7 +1235,7 @@
         "alpha": 1,
         "hex": "#0b3f47"
       },
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1398,7 +1398,7 @@
         "alpha": 1,
         "hex": "#cbedfd"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1421,7 +1421,7 @@
         "alpha": 1,
         "hex": "#bceafe"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1444,7 +1444,7 @@
         "alpha": 1,
         "hex": "#ade7ff"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: light tints.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1467,7 +1467,7 @@
         "alpha": 1,
         "hex": "#9de3ff"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: light tints.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1490,7 +1490,7 @@
         "alpha": 1,
         "hex": "#8ce0ff"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: light tints.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1513,7 +1513,7 @@
         "alpha": 1,
         "hex": "#5ac9ff"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: light tints.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1536,7 +1536,7 @@
         "alpha": 1,
         "hex": "#26aeff"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: base colour.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1559,7 +1559,7 @@
         "alpha": 1,
         "hex": "#008fff"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: shades for borders and icons.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1582,7 +1582,7 @@
         "alpha": 1,
         "hex": "#146cfd"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: shades for borders and icons.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1605,7 +1605,7 @@
         "alpha": 1,
         "hex": "#0c5ad4"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: shades for borders and icons.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1628,7 +1628,7 @@
         "alpha": 1,
         "hex": "#0548ad"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: shades for borders and icons.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1651,7 +1651,7 @@
         "alpha": 1,
         "hex": "#023688"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1674,7 +1674,7 @@
         "alpha": 1,
         "hex": "#002664"
       },
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1837,7 +1837,7 @@
         "alpha": 1,
         "hex": "#e6e1fd"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1860,7 +1860,7 @@
         "alpha": 1,
         "hex": "#e0d9fe"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1883,7 +1883,7 @@
         "alpha": 1,
         "hex": "#dad0fe"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 300: light tints.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1906,7 +1906,7 @@
         "alpha": 1,
         "hex": "#d4c8ff"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 350: light tints.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1929,7 +1929,7 @@
         "alpha": 1,
         "hex": "#cebfff"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 400: light tints.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1952,7 +1952,7 @@
         "alpha": 1,
         "hex": "#baa6fc"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 450: light tints.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1975,7 +1975,7 @@
         "alpha": 1,
         "hex": "#a68df9"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 500: base colour.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1998,7 +1998,7 @@
         "alpha": 1,
         "hex": "#9372f5"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 550: shades for borders and icons.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2021,7 +2021,7 @@
         "alpha": 1,
         "hex": "#8055f1"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 600: shades for borders and icons.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2044,7 +2044,7 @@
         "alpha": 1,
         "hex": "#7243cf"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 650: shades for borders and icons.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2067,7 +2067,7 @@
         "alpha": 1,
         "hex": "#6432ae"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 700: shades for borders and icons.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2090,7 +2090,7 @@
         "alpha": 1,
         "hex": "#54218e"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2113,7 +2113,7 @@
         "alpha": 1,
         "hex": "#441170"
       },
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2276,7 +2276,7 @@
         "alpha": 1,
         "hex": "#fddef2"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2299,7 +2299,7 @@
         "alpha": 1,
         "hex": "#fbd4ef"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2322,7 +2322,7 @@
         "alpha": 1,
         "hex": "#f9c9eb"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: light tints.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2345,7 +2345,7 @@
         "alpha": 1,
         "hex": "#f7bfe9"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: light tints.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2368,7 +2368,7 @@
         "alpha": 1,
         "hex": "#f4b5e6"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: light tints.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2391,7 +2391,7 @@
         "alpha": 1,
         "hex": "#ef96da"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: light tints.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2414,7 +2414,7 @@
         "alpha": 1,
         "hex": "#e975cc"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: base colour.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2437,7 +2437,7 @@
         "alpha": 1,
         "hex": "#e150be"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: shades for borders and icons.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2460,7 +2460,7 @@
         "alpha": 1,
         "hex": "#d912ae"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: shades for borders and icons.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2483,7 +2483,7 @@
         "alpha": 1,
         "hex": "#bb0c94"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: shades for borders and icons.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2506,7 +2506,7 @@
         "alpha": 1,
         "hex": "#9d067b"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: shades for borders and icons.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2529,7 +2529,7 @@
         "alpha": 1,
         "hex": "#810264"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2552,7 +2552,7 @@
         "alpha": 1,
         "hex": "#65004d"
       },
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2715,7 +2715,7 @@
         "alpha": 1,
         "hex": "#ffe6ea"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2738,7 +2738,7 @@
         "alpha": 1,
         "hex": "#ffdbe0"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2761,7 +2761,7 @@
         "alpha": 1,
         "hex": "#ffcfd6"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: light tints.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2784,7 +2784,7 @@
         "alpha": 1,
         "hex": "#ffc4cc"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: light tints.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2807,7 +2807,7 @@
         "alpha": 1,
         "hex": "#ffb8c1"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: light tints.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2830,7 +2830,7 @@
         "alpha": 1,
         "hex": "#f897a2"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: light tints.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2853,7 +2853,7 @@
         "alpha": 1,
         "hex": "#ef7581"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: base colour.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2876,7 +2876,7 @@
         "alpha": 1,
         "hex": "#e44f5f"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: shades for borders and icons.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2899,7 +2899,7 @@
         "alpha": 1,
         "hex": "#d7153a"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: shades for borders and icons.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2922,7 +2922,7 @@
         "alpha": 1,
         "hex": "#b90e32"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: shades for borders and icons.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2945,7 +2945,7 @@
         "alpha": 1,
         "hex": "#9b072a"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: shades for borders and icons.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2968,7 +2968,7 @@
         "alpha": 1,
         "hex": "#7e0322"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -2991,7 +2991,7 @@
         "alpha": 1,
         "hex": "#630019"
       },
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3154,7 +3154,7 @@
         "alpha": 1,
         "hex": "#fdeddf"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3177,7 +3177,7 @@
         "alpha": 1,
         "hex": "#fee5ce"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3200,7 +3200,7 @@
         "alpha": 1,
         "hex": "#ffddbd"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: light tints.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3223,7 +3223,7 @@
         "alpha": 1,
         "hex": "#ffd6ab"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: light tints.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3246,7 +3246,7 @@
         "alpha": 1,
         "hex": "#ffce99"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: light tints.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3269,7 +3269,7 @@
         "alpha": 1,
         "hex": "#fdb678"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: light tints.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3292,7 +3292,7 @@
         "alpha": 1,
         "hex": "#fb9d58"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: base colour.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3315,7 +3315,7 @@
         "alpha": 1,
         "hex": "#f78139"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: shades for borders and icons.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3338,7 +3338,7 @@
         "alpha": 1,
         "hex": "#f3631b"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: shades for borders and icons.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3361,7 +3361,7 @@
         "alpha": 1,
         "hex": "#db5115"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: shades for borders and icons.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3384,7 +3384,7 @@
         "alpha": 1,
         "hex": "#c33f0e"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: shades for borders and icons.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3407,7 +3407,7 @@
         "alpha": 1,
         "hex": "#ab2e06"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3430,7 +3430,7 @@
         "alpha": 1,
         "hex": "#941b00"
       },
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3593,7 +3593,7 @@
         "alpha": 1,
         "hex": "#fff4cf"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3616,7 +3616,7 @@
         "alpha": 1,
         "hex": "#fff1c2"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3639,7 +3639,7 @@
         "alpha": 1,
         "hex": "#feeeb5"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: light tints.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3662,7 +3662,7 @@
         "alpha": 1,
         "hex": "#feeaa8"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: light tints.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3685,7 +3685,7 @@
         "alpha": 1,
         "hex": "#fde79a"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: light tints.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3708,7 +3708,7 @@
         "alpha": 1,
         "hex": "#fbda80"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: light tints.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3731,7 +3731,7 @@
         "alpha": 1,
         "hex": "#facd63"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: base colour.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3754,7 +3754,7 @@
         "alpha": 1,
         "hex": "#fabe42"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: shades for borders and icons.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3777,7 +3777,7 @@
         "alpha": 1,
         "hex": "#faaf05"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: shades for borders and icons.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3800,7 +3800,7 @@
         "alpha": 1,
         "hex": "#d49403"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: shades for borders and icons.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3823,7 +3823,7 @@
         "alpha": 1,
         "hex": "#af7a01"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: shades for borders and icons.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3846,7 +3846,7 @@
         "alpha": 1,
         "hex": "#8b6000"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -3869,7 +3869,7 @@
         "alpha": 1,
         "hex": "#694800"
       },
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4032,7 +4032,7 @@
         "alpha": 1,
         "hex": "#ede3d7"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4055,7 +4055,7 @@
         "alpha": 1,
         "hex": "#ecdece"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4078,7 +4078,7 @@
         "alpha": 1,
         "hex": "#eadac6"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 300: light tints.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4101,7 +4101,7 @@
         "alpha": 1,
         "hex": "#e9d5bd"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 350: light tints.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4124,7 +4124,7 @@
         "alpha": 1,
         "hex": "#e8d0b5"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 400: light tints.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4147,7 +4147,7 @@
         "alpha": 1,
         "hex": "#dbbf9f"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 450: light tints.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4170,7 +4170,7 @@
         "alpha": 1,
         "hex": "#cfae89"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 500: base colour.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4193,7 +4193,7 @@
         "alpha": 1,
         "hex": "#c29d73"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 550: shades for borders and icons.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4216,7 +4216,7 @@
         "alpha": 1,
         "hex": "#b68d5d"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 600: shades for borders and icons.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4239,7 +4239,7 @@
         "alpha": 1,
         "hex": "#9c764b"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 650: shades for borders and icons.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4262,7 +4262,7 @@
         "alpha": 1,
         "hex": "#82603a"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 700: shades for borders and icons.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4285,7 +4285,7 @@
         "alpha": 1,
         "hex": "#6a4b29"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -4308,7 +4308,7 @@
         "alpha": 1,
         "hex": "#523719"
       },
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
