@@ -1,0 +1,1074 @@
+{
+  "success": {
+    "50": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.043137254901960784,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#000b00"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.08627450980392157,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#001600"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.13333333333333333,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#002200"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.1843137254901961,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#002f00"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.26666666666666666,
+          0.00392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#004401"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.35294117647058826,
+          0.00784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#005a02"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.4470588235294118,
+          0.01568627450980392
+        ],
+        "alpha": 1,
+        "hex": "#007204"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.5411764705882353,
+          0.027450980392156862
+        ],
+        "alpha": 1,
+        "hex": "#008a07"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1450980392156863,
+          0.5725490196078431,
+          0.1411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#259224"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2235294117647059,
+          0.6,
+          0.21176470588235294
+        ],
+        "alpha": 1,
+        "hex": "#399936"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.28627450980392155,
+          0.6313725490196078,
+          0.27450980392156865
+        ],
+        "alpha": 1,
+        "hex": "#49a146"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.34509803921568627,
+          0.6588235294117647,
+          0.32941176470588235
+        ],
+        "alpha": 1,
+        "hex": "#58a854"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549019607843137,
+          0.7176470588235294,
+          0.43529411764705883
+        ],
+        "alpha": 1,
+        "hex": "#74b76f"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5607843137254902,
+          0.7803921568627451,
+          0.5411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#8fc78a"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6666666666666666,
+          0.8392156862745098,
+          0.6470588235294118
+        ],
+        "alpha": 1,
+        "hex": "#aad6a5"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7686274509803922,
+          0.8980392156862745,
+          0.7529411764705882
+        ],
+        "alpha": 1,
+        "hex": "#c4e5c0"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8235294117647058,
+          0.9254901960784314,
+          0.8117647058823529
+        ],
+        "alpha": 1,
+        "hex": "#d2eccf"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8784313725490196,
+          0.9529411764705882,
+          0.8705882352941177
+        ],
+        "alpha": 1,
+        "hex": "#e0f3de"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9372549019607843,
+          0.9764705882352941,
+          0.9294117647058824
+        ],
+        "alpha": 1,
+        "hex": "#eff9ed"
+      }
+    }
+  },
+  "warning": {
+    "50": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.09019607843137255,
+          0.00392156862745098,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#170100"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.15294117647058825,
+          0.01568627450980392,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#270400"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2235294117647059,
+          0.0392156862745098,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#390a00"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.29411764705882354,
+          0.07058823529411765,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#4b1200"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4117647058823529,
+          0.12549019607843137,
+          0.00392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#692001"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5333333333333333,
+          0.1843137254901961,
+          0.011764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#882f03"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6588235294117647,
+          0.24705882352941178,
+          0.011764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#a83f03"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.788235294117647,
+          0.3137254901960784,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#c95000"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 450: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.807843137254902,
+          0.3607843137254902,
+          0.12941176470588237
+        ],
+        "alpha": 1,
+        "hex": "#ce5c21"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 500: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8274509803921568,
+          0.403921568627451,
+          0.20392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#d36734"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 550: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8470588235294118,
+          0.4470588235294118,
+          0.26666666666666666
+        ],
+        "alpha": 1,
+        "hex": "#d87244"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 600: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8666666666666667,
+          0.49019607843137253,
+          0.3254901960784314
+        ],
+        "alpha": 1,
+        "hex": "#dd7d53"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 650: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9019607843137255,
+          0.5764705882352941,
+          0.43529411764705883
+        ],
+        "alpha": 1,
+        "hex": "#e6936f"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9333333333333333,
+          0.6588235294117647,
+          0.5411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#eea88a"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9647058823529412,
+          0.7411764705882353,
+          0.6470588235294118
+        ],
+        "alpha": 1,
+        "hex": "#f6bda5"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.8235294117647058,
+          0.7529411764705882
+        ],
+        "alpha": 1,
+        "hex": "#fdd2c0"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.8666666666666667,
+          0.8117647058823529
+        ],
+        "alpha": 1,
+        "hex": "#ffddcf"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9098039215686274,
+          0.8705882352941177
+        ],
+        "alpha": 1,
+        "hex": "#ffe8de"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9529411764705882,
+          0.9294117647058824
+        ],
+        "alpha": 1,
+        "hex": "#fff3ed"
+      }
+    }
+  },
+  "danger": {
+    "50": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0784313725490196,
+          0,
+          0.00392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#140001"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13725490196078433,
+          0,
+          0.00784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#230002"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2,
+          0,
+          0.0196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#330005"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.26666666666666666,
+          0,
+          0.0392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#44000a"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.37254901960784315,
+          0.00784313725490196,
+          0.0784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#5f0214"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.48627450980392156,
+          0.023529411764705882,
+          0.12156862745098039
+        ],
+        "alpha": 1,
+        "hex": "#7c061f"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6,
+          0.043137254901960784,
+          0.16470588235294117
+        ],
+        "alpha": 1,
+        "hex": "#990b2a"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7215686274509804,
+          0.07058823529411765,
+          0.21568627450980393
+        ],
+        "alpha": 1,
+        "hex": "#b81237"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 450: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7490196078431373,
+          0.17254901960784313,
+          0.25882352941176473
+        ],
+        "alpha": 1,
+        "hex": "#bf2c42"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 500: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7764705882352941,
+          0.24705882352941178,
+          0.3058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#c63f4e"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 550: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.803921568627451,
+          0.3058823529411765,
+          0.34901960784313724
+        ],
+        "alpha": 1,
+        "hex": "#cd4e59"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 600: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8274509803921568,
+          0.36470588235294116,
+          0.396078431372549
+        ],
+        "alpha": 1,
+        "hex": "#d35d65"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 650: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8745098039215686,
+          0.47058823529411764,
+          0.48627450980392156
+        ],
+        "alpha": 1,
+        "hex": "#df787c"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9176470588235294,
+          0.5725490196078431,
+          0.5803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#ea9294"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9568627450980393,
+          0.6745098039215687,
+          0.6784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#f4acad"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.7764705882352941,
+          0.7764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#fdc6c6"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.8313725490196079,
+          0.8313725490196079
+        ],
+        "alpha": 1,
+        "hex": "#ffd4d4"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.8862745098039215,
+          0.8823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#ffe2e1"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9411764705882353,
+          0.9372549019607843
+        ],
+        "alpha": 1,
+        "hex": "#fff0ef"
+      }
+    }
+  },
+  "info": {
+    "50": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.011764705882352941,
+          0.058823529411764705
+        ],
+        "alpha": 1,
+        "hex": "#00030f"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00784313725490196,
+          0.027450980392156862,
+          0.10980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#02071c"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.01568627450980392,
+          0.058823529411764705,
+          0.16470588235294117
+        ],
+        "alpha": 1,
+        "hex": "#040f2a"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.027450980392156862,
+          0.09019607843137255,
+          0.2196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#071738"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.06274509803921569,
+          0.1450980392156863,
+          0.30980392156862746
+        ],
+        "alpha": 1,
+        "hex": "#10254f"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.09803921568627451,
+          0.2,
+          0.4
+        ],
+        "alpha": 1,
+        "hex": "#193366"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13725490196078433,
+          0.25882352941176473,
+          0.4980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#23427f"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1803921568627451,
+          0.3215686274509804,
+          0.6
+        ],
+        "alpha": 1,
+        "hex": "#2e5299"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2196078431372549,
+          0.3568627450980392,
+          0.6196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#385b9e"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.25882352941176473,
+          0.39215686274509803,
+          0.6431372549019608
+        ],
+        "alpha": 1,
+        "hex": "#4264a4"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.30196078431372547,
+          0.4235294117647059,
+          0.6627450980392157
+        ],
+        "alpha": 1,
+        "hex": "#4d6ca9"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3411764705882353,
+          0.4588235294117647,
+          0.6823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#5775ae"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: shades for borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4196078431372549,
+          0.5254901960784314,
+          0.7215686274509804
+        ],
+        "alpha": 1,
+        "hex": "#6b86b8"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5019607843137255,
+          0.596078431372549,
+          0.7607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#8098c2"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5882352941176471,
+          0.6627450980392157,
+          0.8
+        ],
+        "alpha": 1,
+        "hex": "#96a9cc"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6745098039215687,
+          0.7333333333333333,
+          0.8352941176470589
+        ],
+        "alpha": 1,
+        "hex": "#acbbd5"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7529411764705882,
+          0.8,
+          0.8784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#c0cce0"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8313725490196079,
+          0.8666666666666667,
+          0.9215686274509803
+        ],
+        "alpha": 1,
+        "hex": "#d4ddeb"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137254901960784,
+          0.9333333333333333,
+          0.9686274509803922
+        ],
+        "alpha": 1,
+        "hex": "#e9eef7"
+      }
+    }
+  }
+}

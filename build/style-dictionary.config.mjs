@@ -75,15 +75,28 @@ const colorStringTransform = {
 const STRING_XF = ['name/kebab', 'nsw/color-string']
 const OBJECT_XF = ['name/kebab']
 
-// One config per (space, layer). Loading a single layer (+ global, for theme alias resolution)
-// keeps themes that share family names (primary/accent/grey across masterbrand/fuchsia-*) from
-// colliding in a shared dictionary.
-const makeConfig = (space, layer) => {
+// One config per (space, layer, mode). Loading a single layer (+ global, for theme alias
+// resolution) keeps themes that share family names (primary/accent/grey across
+// masterbrand/fuchsia-*) from colliding in a shared dictionary.
+//
+// Modes (dark-mode milestone D1): mode 'light' is the implicit default (unsuffixed files,
+// byte-identical to the pre-mode outputs). Dark configs read the *.dark.json views and
+// write .dark-suffixed siblings for css/scss/less/js/ts/json. The dark CSS uses the
+// css/variables built-in `selector` option with [data-theme='dark']. figma and tailwind
+// platforms are deliberately light-only for now: Figma carries dark as a MODE on the same
+// variables (staging files, milestone D2), and the colour Tailwind files reference
+// var(--nsw-*) so they re-resolve when the dark CSS is loaded.
+const viewFile = (space, mode) => (mode === 'light' ? `${space}.json` : `${space}.${mode}.json`)
+const outName = (space, mode, ext) =>
+  mode === 'light' ? `${space}.${ext}` : `${space}.${mode}.${ext}`
+
+const makeConfig = (space, layer, mode = 'light') => {
+  const view = viewFile(space, mode)
   const source =
     layer.key === 'global'
-      ? [`tokens/global/color/${space}.json`]
-      : [`tokens/${layer.src}/${space}.json`, `tokens/global/color/${space}.json`]
-  const filter = fromFile(`/${layer.src}/${space}.json`)
+      ? [`tokens/global/color/${view}`]
+      : [`tokens/${layer.src}/${view}`, `tokens/global/color/${view}`]
+  const filter = fromFile(`/${layer.src}/${view}`)
 
   const platform = (transforms, destination, format, options) => ({
     buildPath: OUT,
@@ -91,6 +104,13 @@ const makeConfig = (space, layer) => {
     transforms,
     files: [{ destination, format, filter, ...(options ? { options } : {}) }],
   })
+
+  const lightOnly = {
+    figma: platform(OBJECT_XF, figmaDest(layer, space), 'nsw/figma'),
+    tailwind: platform(STRING_XF, `tailwind/colors/${layer.dir}/${space}.css`, 'nsw/tailwind', {
+      inline: layer.key === 'semantic',
+    }),
+  }
 
   return {
     source,
@@ -106,21 +126,44 @@ const makeConfig = (space, layer) => {
       transforms: { 'nsw/color-string': colorStringTransform },
     },
     platforms: {
-      css: platform(STRING_XF, `css/colors/${layer.dir}/${space}.css`, 'css/variables'),
-      scss: platform(STRING_XF, `scss/colors/${layer.dir}/${space}.scss`, 'scss/variables'),
-      less: platform(STRING_XF, `less/colors/${layer.dir}/${space}.less`, 'less/variables'),
-      js: platform(STRING_XF, `js/colors/${layer.dir}/${space}.js`, 'nsw/js'),
+      css: platform(
+        STRING_XF,
+        `css/colors/${layer.dir}/${outName(space, mode, 'css')}`,
+        'css/variables',
+        {
+          ...(mode !== 'light' ? { selector: "[data-theme='dark']" } : {}),
+        },
+      ),
+      scss: platform(
+        STRING_XF,
+        `scss/colors/${layer.dir}/${outName(space, mode, 'scss')}`,
+        'scss/variables',
+      ),
+      less: platform(
+        STRING_XF,
+        `less/colors/${layer.dir}/${outName(space, mode, 'less')}`,
+        'less/variables',
+      ),
+      js: platform(STRING_XF, `js/colors/${layer.dir}/${outName(space, mode, 'js')}`, 'nsw/js'),
       // Declaration sibling so TypeScript consumers of ./js/* get real types.
-      jsTypes: platform(STRING_XF, `js/colors/${layer.dir}/${space}.d.ts`, 'nsw/dts'),
-      ts: platform(STRING_XF, `ts/colors/${layer.dir}/${space}.ts`, 'nsw/ts'),
-      json: platform(STRING_XF, `json/colors/${layer.dir}/${space}.json`, 'nsw/json'),
-      figma: platform(OBJECT_XF, figmaDest(layer, space), 'nsw/figma'),
-      tailwind: platform(STRING_XF, `tailwind/colors/${layer.dir}/${space}.css`, 'nsw/tailwind', {
-        inline: layer.key === 'semantic',
-      }),
+      jsTypes: platform(
+        STRING_XF,
+        `js/colors/${layer.dir}/${outName(space, mode, 'd.ts')}`,
+        'nsw/dts',
+      ),
+      ts: platform(STRING_XF, `ts/colors/${layer.dir}/${outName(space, mode, 'ts')}`, 'nsw/ts'),
+      json: platform(
+        STRING_XF,
+        `json/colors/${layer.dir}/${outName(space, mode, 'json')}`,
+        'nsw/json',
+      ),
+      ...(mode === 'light' ? lightOnly : {}),
     },
   }
 }
+
+// Layers that have a dark canonical today (global + semantic; themes follow in D3).
+const DARK_LAYER_KEYS = new Set(['global', 'semantic'])
 
 // ── Non-colour categories (Phase 4) ────────────────────────────────────────────────────
 // One config per category — no colour-space dimension (there is exactly one representation
@@ -306,6 +349,11 @@ const typographySemanticConfig = {
 
 export default [
   ...SPACES.flatMap((space) => LAYERS.map((layer) => makeConfig(space, layer))),
+  ...SPACES.flatMap((space) =>
+    LAYERS.filter((l) => DARK_LAYER_KEYS.has(l.key)).map((layer) =>
+      makeConfig(space, layer, 'dark'),
+    ),
+  ),
   ...CATEGORIES.map(makeCategoryConfig),
   typographySemanticConfig,
 ]

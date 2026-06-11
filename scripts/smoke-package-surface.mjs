@@ -31,6 +31,11 @@ const documentedSpecifiers = [
   // Phase 4d border + shadow
   '@nswds/tokens/css/border/global.css',
   '@nswds/tokens/tailwind/shadow/global.css',
+  // Dark mode (D1)
+  '@nswds/tokens/css/colors/global/hex.dark.css',
+  '@nswds/tokens/css/colors/semantic/hex.dark.css',
+  '@nswds/tokens/js/colors/global/hex.dark.js',
+  '@nswds/tokens/tokens/global/color/hex.dark.json',
 ]
 
 const run = (command, args, options = {}) => {
@@ -123,6 +128,9 @@ for (const [label, mod] of [['ESM', esmModule], ['CJS', cjsModule]]) {
   assert.equal(typeof leaf, 'string', label + ': tokens.css.global.hex must be a plain string, got ' + typeof leaf)
   assert.ok(leaf.startsWith(':root'), label + ': tokens.css.global.hex must contain the stylesheet text')
   assert.equal(typeof mod.tokens.tailwind.space.global, 'string', label + ': tailwind leaves must be plain strings')
+  const dark = mod.tokens.css.global.dark.hex
+  assert.equal(typeof dark, 'string', label + ': tokens.css.global.dark.hex must be a plain string')
+  assert.ok(dark.startsWith("[data-theme='dark']"), label + ': dark CSS must scope under the dark selector')
 }
 
 const resolvedPaths = documentedSpecifiers.map((specifier) => {
@@ -161,7 +169,8 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
       'const md: string = radius.md',
       'const weight: number = heading1.fontWeight',
       'const css: string = tokens.css.global.hex // style leaves are plain typed strings',
-      'export { root, blue, md, weight, css }',
+      'const darkCss: string = tokens.css.global.dark.hex // dark mode (D1) nested sub-object',
+      'export { root, blue, md, weight, css, darkCss }',
       '',
     ].join('\n'),
     'utf8',

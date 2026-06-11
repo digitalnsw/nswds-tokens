@@ -1,0 +1,78 @@
+[data-theme='dark'] {
+  --success-50: rgb(0, 11, 0); /** Success state — positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --success-100: rgb(0, 22, 0); /** Success state — positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --success-150: rgb(0, 34, 0); /** Success state — positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --success-200: rgb(0, 47, 0); /** Success state — positive outcomes, confirmations, and completed actions. Step 200: Interactive components. */
+  --success-250: rgb(0, 68, 1); /** Success state — positive outcomes, confirmations, and completed actions. Step 250: Interactive components. */
+  --success-300: rgb(0, 90, 2); /** Success state — positive outcomes, confirmations, and completed actions. Step 300: Interactive components. */
+  --success-350: rgb(0, 114, 4); /** Success state — positive outcomes, confirmations, and completed actions. Step 350: Interactive components. */
+  --success-400: rgb(0, 138, 7); /** Success state — positive outcomes, confirmations, and completed actions. Step 400: Interactive components. */
+  --success-450: rgb(37, 146, 36); /** Success state — positive outcomes, confirmations, and completed actions. Step 450: shades for borders, separators and icons. */
+  --success-500: rgb(57, 153, 54); /** Success state — positive outcomes, confirmations, and completed actions. Step 500: shades for borders, separators and icons. */
+  --success-550: rgb(73, 161, 70); /** Success state — positive outcomes, confirmations, and completed actions. Step 550: shades for borders, separators and icons. */
+  --success-600: rgb(88, 168, 84); /** Success state — positive outcomes, confirmations, and completed actions. Step 600: shades for borders, separators and icons. */
+  --success-650: rgb(116, 183, 111); /** Success state — positive outcomes, confirmations, and completed actions. Step 650: shades for borders, separators and icons. */
+  --success-700: rgb(143, 199, 138); /** Success state — positive outcomes, confirmations, and completed actions. Step 700: Solid colors. */
+  --success-750: rgb(170, 214, 165); /** Success state — positive outcomes, confirmations, and completed actions. Step 750: Solid colors. */
+  --success-800: rgb(196, 229, 192); /** Success state — positive outcomes, confirmations, and completed actions. Step 800: Solid colors. */
+  --success-850: rgb(210, 236, 207); /** Success state — positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis. */
+  --success-900: rgb(224, 243, 222); /** Success state — positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis. */
+  --success-950: rgb(239, 249, 237); /** Success state — positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis. */
+  --warning-50: rgb(23, 1, 0); /** Warning state — caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --warning-100: rgb(39, 4, 0); /** Warning state — caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --warning-150: rgb(57, 10, 0); /** Warning state — caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --warning-200: rgb(75, 18, 0); /** Warning state — caution and actions that need attention. Step 200: Interactive components. */
+  --warning-250: rgb(105, 32, 1); /** Warning state — caution and actions that need attention. Step 250: Interactive components. */
+  --warning-300: rgb(136, 47, 3); /** Warning state — caution and actions that need attention. Step 300: Interactive components. */
+  --warning-350: rgb(168, 63, 3); /** Warning state — caution and actions that need attention. Step 350: Interactive components. */
+  --warning-400: rgb(201, 80, 0); /** Warning state — caution and actions that need attention. Step 400: Interactive components. */
+  --warning-450: rgb(206, 92, 33); /** Warning state — caution and actions that need attention. Step 450: shades for borders, separators and icons. */
+  --warning-500: rgb(211, 103, 52); /** Warning state — caution and actions that need attention. Step 500: shades for borders, separators and icons. */
+  --warning-550: rgb(216, 114, 68); /** Warning state — caution and actions that need attention. Step 550: shades for borders, separators and icons. */
+  --warning-600: rgb(221, 125, 83); /** Warning state — caution and actions that need attention. Step 600: shades for borders, separators and icons. */
+  --warning-650: rgb(230, 147, 111); /** Warning state — caution and actions that need attention. Step 650: shades for borders, separators and icons. */
+  --warning-700: rgb(238, 168, 138); /** Warning state — caution and actions that need attention. Step 700: Solid colors. */
+  --warning-750: rgb(246, 189, 165); /** Warning state — caution and actions that need attention. Step 750: Solid colors. */
+  --warning-800: rgb(253, 210, 192); /** Warning state — caution and actions that need attention. Step 800: Solid colors. */
+  --warning-850: rgb(255, 221, 207); /** Warning state — caution and actions that need attention. Step 850: darkest shades for text and high emphasis. */
+  --warning-900: rgb(255, 232, 222); /** Warning state — caution and actions that need attention. Step 900: darkest shades for text and high emphasis. */
+  --warning-950: rgb(255, 243, 237); /** Warning state — caution and actions that need attention. Step 950: darkest shades for text and high emphasis. */
+  --danger-50: rgb(20, 0, 1); /** Danger state — errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --danger-100: rgb(35, 0, 2); /** Danger state — errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --danger-150: rgb(51, 0, 5); /** Danger state — errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --danger-200: rgb(68, 0, 10); /** Danger state — errors and destructive or critical actions. Step 200: Interactive components. */
+  --danger-250: rgb(95, 2, 20); /** Danger state — errors and destructive or critical actions. Step 250: Interactive components. */
+  --danger-300: rgb(124, 6, 31); /** Danger state — errors and destructive or critical actions. Step 300: Interactive components. */
+  --danger-350: rgb(153, 11, 42); /** Danger state — errors and destructive or critical actions. Step 350: Interactive components. */
+  --danger-400: rgb(184, 18, 55); /** Danger state — errors and destructive or critical actions. Step 400: Interactive components. */
+  --danger-450: rgb(191, 44, 66); /** Danger state — errors and destructive or critical actions. Step 450: shades for borders, separators and icons. */
+  --danger-500: rgb(198, 63, 78); /** Danger state — errors and destructive or critical actions. Step 500: shades for borders, separators and icons. */
+  --danger-550: rgb(205, 78, 89); /** Danger state — errors and destructive or critical actions. Step 550: shades for borders, separators and icons. */
+  --danger-600: rgb(211, 93, 101); /** Danger state — errors and destructive or critical actions. Step 600: shades for borders, separators and icons. */
+  --danger-650: rgb(223, 120, 124); /** Danger state — errors and destructive or critical actions. Step 650: shades for borders, separators and icons. */
+  --danger-700: rgb(234, 146, 148); /** Danger state — errors and destructive or critical actions. Step 700: Solid colors. */
+  --danger-750: rgb(244, 172, 173); /** Danger state — errors and destructive or critical actions. Step 750: Solid colors. */
+  --danger-800: rgb(253, 198, 198); /** Danger state — errors and destructive or critical actions. Step 800: Solid colors. */
+  --danger-850: rgb(255, 212, 212); /** Danger state — errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis. */
+  --danger-900: rgb(255, 226, 225); /** Danger state — errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis. */
+  --danger-950: rgb(255, 240, 239); /** Danger state — errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis. */
+  --info-50: rgb(0, 3, 15); /** Informational state — neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces. */
+  --info-100: rgb(2, 7, 28); /** Informational state — neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces. */
+  --info-150: rgb(4, 15, 42); /** Informational state — neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --info-200: rgb(7, 23, 56); /** Informational state — neutral highlights, tips, and in-progress notices. Step 200: Interactive components. */
+  --info-250: rgb(16, 37, 79); /** Informational state — neutral highlights, tips, and in-progress notices. Step 250: Interactive components. */
+  --info-300: rgb(25, 51, 102); /** Informational state — neutral highlights, tips, and in-progress notices. Step 300: Interactive components. */
+  --info-350: rgb(35, 66, 127); /** Informational state — neutral highlights, tips, and in-progress notices. Step 350: Interactive components. */
+  --info-400: rgb(46, 82, 153); /** Informational state — neutral highlights, tips, and in-progress notices. Step 400: Interactive components. */
+  --info-450: rgb(56, 91, 158); /** Informational state — neutral highlights, tips, and in-progress notices. Step 450: shades for borders, separators and icons. */
+  --info-500: rgb(66, 100, 164); /** Informational state — neutral highlights, tips, and in-progress notices. Step 500: shades for borders, separators and icons. */
+  --info-550: rgb(77, 108, 169); /** Informational state — neutral highlights, tips, and in-progress notices. Step 550: shades for borders, separators and icons. */
+  --info-600: rgb(87, 117, 174); /** Informational state — neutral highlights, tips, and in-progress notices. Step 600: shades for borders, separators and icons. */
+  --info-650: rgb(107, 134, 184); /** Informational state — neutral highlights, tips, and in-progress notices. Step 650: shades for borders, separators and icons. */
+  --info-700: rgb(128, 152, 194); /** Informational state — neutral highlights, tips, and in-progress notices. Step 700: Solid colors. */
+  --info-750: rgb(150, 169, 204); /** Informational state — neutral highlights, tips, and in-progress notices. Step 750: Solid colors. */
+  --info-800: rgb(172, 187, 213); /** Informational state — neutral highlights, tips, and in-progress notices. Step 800: Solid colors. */
+  --info-850: rgb(192, 204, 224); /** Informational state — neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis. */
+  --info-900: rgb(212, 221, 235); /** Informational state — neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis. */
+  --info-950: rgb(233, 238, 247); /** Informational state — neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis. */
+}
