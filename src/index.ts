@@ -26,37 +26,37 @@ const dataVisualisationColorHsl = require('../tokens/themes/color/data-visualisa
 const dataVisualisationColorOklch = require('../tokens/themes/color/data-visualisation/oklch.json')
 const dataVisualisationColorRgb = require('../tokens/themes/color/data-visualisation/rgb.json')
 
-import * as globalCssHex from './css/colors/global/hex.css'
-import * as globalCssHsl from './css/colors/global/hsl.css'
-import * as globalCssOklch from './css/colors/global/oklch.css'
-import * as globalCssRgb from './css/colors/global/rgb.css'
-import * as semanticCssHex from './css/colors/semantic/hex.css'
-import * as semanticCssHsl from './css/colors/semantic/hsl.css'
-import * as semanticCssOklch from './css/colors/semantic/oklch.css'
-import * as semanticCssRgb from './css/colors/semantic/rgb.css'
-import * as masterbrandCssHex from './css/colors/themes/masterbrand/hex.css'
-import * as masterbrandCssHsl from './css/colors/themes/masterbrand/hsl.css'
-import * as masterbrandCssOklch from './css/colors/themes/masterbrand/oklch.css'
-import * as masterbrandCssRgb from './css/colors/themes/masterbrand/rgb.css'
-import * as fuchsiaBlueCssHex from './css/colors/themes/fuchsia-blue/hex.css'
-import * as fuchsiaBlueCssHsl from './css/colors/themes/fuchsia-blue/hsl.css'
-import * as fuchsiaBlueCssOklch from './css/colors/themes/fuchsia-blue/oklch.css'
-import * as fuchsiaBlueCssRgb from './css/colors/themes/fuchsia-blue/rgb.css'
-import * as fuchsiaOrangeCssHex from './css/colors/themes/fuchsia-orange/hex.css'
-import * as fuchsiaOrangeCssHsl from './css/colors/themes/fuchsia-orange/hsl.css'
-import * as fuchsiaOrangeCssOklch from './css/colors/themes/fuchsia-orange/oklch.css'
-import * as fuchsiaOrangeCssRgb from './css/colors/themes/fuchsia-orange/rgb.css'
-import * as dataVisualisationCssHex from './css/colors/themes/data-visualisation/hex.css'
-import * as dataVisualisationCssHsl from './css/colors/themes/data-visualisation/hsl.css'
-import * as dataVisualisationCssOklch from './css/colors/themes/data-visualisation/oklch.css'
-import * as dataVisualisationCssRgb from './css/colors/themes/data-visualisation/rgb.css'
-import * as spaceCssGlobal from './css/space/global.css'
-import * as radiusCssGlobal from './css/radius/global.css'
-import * as breakpointsCssGlobal from './css/breakpoints/global.css'
-import * as typographyCssGlobal from './css/typography/global.css'
-import * as typographyCssSemantic from './css/typography/semantic.css'
-import * as borderCssGlobal from './css/border/global.css'
-import * as shadowCssGlobal from './css/shadow/global.css'
+import globalCssHex from './css/colors/global/hex.css'
+import globalCssHsl from './css/colors/global/hsl.css'
+import globalCssOklch from './css/colors/global/oklch.css'
+import globalCssRgb from './css/colors/global/rgb.css'
+import semanticCssHex from './css/colors/semantic/hex.css'
+import semanticCssHsl from './css/colors/semantic/hsl.css'
+import semanticCssOklch from './css/colors/semantic/oklch.css'
+import semanticCssRgb from './css/colors/semantic/rgb.css'
+import masterbrandCssHex from './css/colors/themes/masterbrand/hex.css'
+import masterbrandCssHsl from './css/colors/themes/masterbrand/hsl.css'
+import masterbrandCssOklch from './css/colors/themes/masterbrand/oklch.css'
+import masterbrandCssRgb from './css/colors/themes/masterbrand/rgb.css'
+import fuchsiaBlueCssHex from './css/colors/themes/fuchsia-blue/hex.css'
+import fuchsiaBlueCssHsl from './css/colors/themes/fuchsia-blue/hsl.css'
+import fuchsiaBlueCssOklch from './css/colors/themes/fuchsia-blue/oklch.css'
+import fuchsiaBlueCssRgb from './css/colors/themes/fuchsia-blue/rgb.css'
+import fuchsiaOrangeCssHex from './css/colors/themes/fuchsia-orange/hex.css'
+import fuchsiaOrangeCssHsl from './css/colors/themes/fuchsia-orange/hsl.css'
+import fuchsiaOrangeCssOklch from './css/colors/themes/fuchsia-orange/oklch.css'
+import fuchsiaOrangeCssRgb from './css/colors/themes/fuchsia-orange/rgb.css'
+import dataVisualisationCssHex from './css/colors/themes/data-visualisation/hex.css'
+import dataVisualisationCssHsl from './css/colors/themes/data-visualisation/hsl.css'
+import dataVisualisationCssOklch from './css/colors/themes/data-visualisation/oklch.css'
+import dataVisualisationCssRgb from './css/colors/themes/data-visualisation/rgb.css'
+import spaceCssGlobal from './css/space/global.css'
+import radiusCssGlobal from './css/radius/global.css'
+import breakpointsCssGlobal from './css/breakpoints/global.css'
+import typographyCssGlobal from './css/typography/global.css'
+import typographyCssSemantic from './css/typography/semantic.css'
+import borderCssGlobal from './css/border/global.css'
+import shadowCssGlobal from './css/shadow/global.css'
 
 import * as globalJsHex from './js/colors/global/hex.js'
 import * as globalJsHsl from './js/colors/global/hsl.js'
@@ -122,100 +122,100 @@ const typographyJsonSemantic = require('./json/typography/semantic.json')
 const borderJsonGlobal = require('./json/border/global.json')
 const shadowJsonGlobal = require('./json/shadow/global.json')
 
-import * as globalLessHex from './less/colors/global/hex.less'
-import * as globalLessHsl from './less/colors/global/hsl.less'
-import * as globalLessOklch from './less/colors/global/oklch.less'
-import * as globalLessRgb from './less/colors/global/rgb.less'
-import * as semanticLessHex from './less/colors/semantic/hex.less'
-import * as semanticLessHsl from './less/colors/semantic/hsl.less'
-import * as semanticLessOklch from './less/colors/semantic/oklch.less'
-import * as semanticLessRgb from './less/colors/semantic/rgb.less'
-import * as masterbrandLessHex from './less/colors/themes/masterbrand/hex.less'
-import * as masterbrandLessHsl from './less/colors/themes/masterbrand/hsl.less'
-import * as masterbrandLessOklch from './less/colors/themes/masterbrand/oklch.less'
-import * as masterbrandLessRgb from './less/colors/themes/masterbrand/rgb.less'
-import * as fuchsiaBlueLessHex from './less/colors/themes/fuchsia-blue/hex.less'
-import * as fuchsiaBlueLessHsl from './less/colors/themes/fuchsia-blue/hsl.less'
-import * as fuchsiaBlueLessOklch from './less/colors/themes/fuchsia-blue/oklch.less'
-import * as fuchsiaBlueLessRgb from './less/colors/themes/fuchsia-blue/rgb.less'
-import * as fuchsiaOrangeLessHex from './less/colors/themes/fuchsia-orange/hex.less'
-import * as fuchsiaOrangeLessHsl from './less/colors/themes/fuchsia-orange/hsl.less'
-import * as fuchsiaOrangeLessOklch from './less/colors/themes/fuchsia-orange/oklch.less'
-import * as fuchsiaOrangeLessRgb from './less/colors/themes/fuchsia-orange/rgb.less'
-import * as dataVisualisationLessHex from './less/colors/themes/data-visualisation/hex.less'
-import * as dataVisualisationLessHsl from './less/colors/themes/data-visualisation/hsl.less'
-import * as dataVisualisationLessOklch from './less/colors/themes/data-visualisation/oklch.less'
-import * as dataVisualisationLessRgb from './less/colors/themes/data-visualisation/rgb.less'
-import * as spaceLessGlobal from './less/space/global.less'
-import * as radiusLessGlobal from './less/radius/global.less'
-import * as breakpointsLessGlobal from './less/breakpoints/global.less'
-import * as typographyLessGlobal from './less/typography/global.less'
-import * as typographyLessSemantic from './less/typography/semantic.less'
-import * as borderLessGlobal from './less/border/global.less'
-import * as shadowLessGlobal from './less/shadow/global.less'
+import globalLessHex from './less/colors/global/hex.less'
+import globalLessHsl from './less/colors/global/hsl.less'
+import globalLessOklch from './less/colors/global/oklch.less'
+import globalLessRgb from './less/colors/global/rgb.less'
+import semanticLessHex from './less/colors/semantic/hex.less'
+import semanticLessHsl from './less/colors/semantic/hsl.less'
+import semanticLessOklch from './less/colors/semantic/oklch.less'
+import semanticLessRgb from './less/colors/semantic/rgb.less'
+import masterbrandLessHex from './less/colors/themes/masterbrand/hex.less'
+import masterbrandLessHsl from './less/colors/themes/masterbrand/hsl.less'
+import masterbrandLessOklch from './less/colors/themes/masterbrand/oklch.less'
+import masterbrandLessRgb from './less/colors/themes/masterbrand/rgb.less'
+import fuchsiaBlueLessHex from './less/colors/themes/fuchsia-blue/hex.less'
+import fuchsiaBlueLessHsl from './less/colors/themes/fuchsia-blue/hsl.less'
+import fuchsiaBlueLessOklch from './less/colors/themes/fuchsia-blue/oklch.less'
+import fuchsiaBlueLessRgb from './less/colors/themes/fuchsia-blue/rgb.less'
+import fuchsiaOrangeLessHex from './less/colors/themes/fuchsia-orange/hex.less'
+import fuchsiaOrangeLessHsl from './less/colors/themes/fuchsia-orange/hsl.less'
+import fuchsiaOrangeLessOklch from './less/colors/themes/fuchsia-orange/oklch.less'
+import fuchsiaOrangeLessRgb from './less/colors/themes/fuchsia-orange/rgb.less'
+import dataVisualisationLessHex from './less/colors/themes/data-visualisation/hex.less'
+import dataVisualisationLessHsl from './less/colors/themes/data-visualisation/hsl.less'
+import dataVisualisationLessOklch from './less/colors/themes/data-visualisation/oklch.less'
+import dataVisualisationLessRgb from './less/colors/themes/data-visualisation/rgb.less'
+import spaceLessGlobal from './less/space/global.less'
+import radiusLessGlobal from './less/radius/global.less'
+import breakpointsLessGlobal from './less/breakpoints/global.less'
+import typographyLessGlobal from './less/typography/global.less'
+import typographyLessSemantic from './less/typography/semantic.less'
+import borderLessGlobal from './less/border/global.less'
+import shadowLessGlobal from './less/shadow/global.less'
 
-import * as globalScssHex from './scss/colors/global/hex.scss'
-import * as globalScssHsl from './scss/colors/global/hsl.scss'
-import * as globalScssOklch from './scss/colors/global/oklch.scss'
-import * as globalScssRgb from './scss/colors/global/rgb.scss'
-import * as semanticScssHex from './scss/colors/semantic/hex.scss'
-import * as semanticScssHsl from './scss/colors/semantic/hsl.scss'
-import * as semanticScssOklch from './scss/colors/semantic/oklch.scss'
-import * as semanticScssRgb from './scss/colors/semantic/rgb.scss'
-import * as masterbrandScssHex from './scss/colors/themes/masterbrand/hex.scss'
-import * as masterbrandScssHsl from './scss/colors/themes/masterbrand/hsl.scss'
-import * as masterbrandScssOklch from './scss/colors/themes/masterbrand/oklch.scss'
-import * as masterbrandScssRgb from './scss/colors/themes/masterbrand/rgb.scss'
-import * as fuchsiaBlueScssHex from './scss/colors/themes/fuchsia-blue/hex.scss'
-import * as fuchsiaBlueScssHsl from './scss/colors/themes/fuchsia-blue/hsl.scss'
-import * as fuchsiaBlueScssOklch from './scss/colors/themes/fuchsia-blue/oklch.scss'
-import * as fuchsiaBlueScssRgb from './scss/colors/themes/fuchsia-blue/rgb.scss'
-import * as fuchsiaOrangeScssHex from './scss/colors/themes/fuchsia-orange/hex.scss'
-import * as fuchsiaOrangeScssHsl from './scss/colors/themes/fuchsia-orange/hsl.scss'
-import * as fuchsiaOrangeScssOklch from './scss/colors/themes/fuchsia-orange/oklch.scss'
-import * as fuchsiaOrangeScssRgb from './scss/colors/themes/fuchsia-orange/rgb.scss'
-import * as dataVisualisationScssHex from './scss/colors/themes/data-visualisation/hex.scss'
-import * as dataVisualisationScssHsl from './scss/colors/themes/data-visualisation/hsl.scss'
-import * as dataVisualisationScssOklch from './scss/colors/themes/data-visualisation/oklch.scss'
-import * as dataVisualisationScssRgb from './scss/colors/themes/data-visualisation/rgb.scss'
-import * as spaceScssGlobal from './scss/space/global.scss'
-import * as radiusScssGlobal from './scss/radius/global.scss'
-import * as breakpointsScssGlobal from './scss/breakpoints/global.scss'
-import * as typographyScssGlobal from './scss/typography/global.scss'
-import * as typographyScssSemantic from './scss/typography/semantic.scss'
-import * as borderScssGlobal from './scss/border/global.scss'
-import * as shadowScssGlobal from './scss/shadow/global.scss'
+import globalScssHex from './scss/colors/global/hex.scss'
+import globalScssHsl from './scss/colors/global/hsl.scss'
+import globalScssOklch from './scss/colors/global/oklch.scss'
+import globalScssRgb from './scss/colors/global/rgb.scss'
+import semanticScssHex from './scss/colors/semantic/hex.scss'
+import semanticScssHsl from './scss/colors/semantic/hsl.scss'
+import semanticScssOklch from './scss/colors/semantic/oklch.scss'
+import semanticScssRgb from './scss/colors/semantic/rgb.scss'
+import masterbrandScssHex from './scss/colors/themes/masterbrand/hex.scss'
+import masterbrandScssHsl from './scss/colors/themes/masterbrand/hsl.scss'
+import masterbrandScssOklch from './scss/colors/themes/masterbrand/oklch.scss'
+import masterbrandScssRgb from './scss/colors/themes/masterbrand/rgb.scss'
+import fuchsiaBlueScssHex from './scss/colors/themes/fuchsia-blue/hex.scss'
+import fuchsiaBlueScssHsl from './scss/colors/themes/fuchsia-blue/hsl.scss'
+import fuchsiaBlueScssOklch from './scss/colors/themes/fuchsia-blue/oklch.scss'
+import fuchsiaBlueScssRgb from './scss/colors/themes/fuchsia-blue/rgb.scss'
+import fuchsiaOrangeScssHex from './scss/colors/themes/fuchsia-orange/hex.scss'
+import fuchsiaOrangeScssHsl from './scss/colors/themes/fuchsia-orange/hsl.scss'
+import fuchsiaOrangeScssOklch from './scss/colors/themes/fuchsia-orange/oklch.scss'
+import fuchsiaOrangeScssRgb from './scss/colors/themes/fuchsia-orange/rgb.scss'
+import dataVisualisationScssHex from './scss/colors/themes/data-visualisation/hex.scss'
+import dataVisualisationScssHsl from './scss/colors/themes/data-visualisation/hsl.scss'
+import dataVisualisationScssOklch from './scss/colors/themes/data-visualisation/oklch.scss'
+import dataVisualisationScssRgb from './scss/colors/themes/data-visualisation/rgb.scss'
+import spaceScssGlobal from './scss/space/global.scss'
+import radiusScssGlobal from './scss/radius/global.scss'
+import breakpointsScssGlobal from './scss/breakpoints/global.scss'
+import typographyScssGlobal from './scss/typography/global.scss'
+import typographyScssSemantic from './scss/typography/semantic.scss'
+import borderScssGlobal from './scss/border/global.scss'
+import shadowScssGlobal from './scss/shadow/global.scss'
 
-import * as globalTailwindHex from './tailwind/colors/global/hex.css'
-import * as globalTailwindHsl from './tailwind/colors/global/hsl.css'
-import * as globalTailwindOklch from './tailwind/colors/global/oklch.css'
-import * as globalTailwindRgb from './tailwind/colors/global/rgb.css'
-import * as semanticTailwindHex from './tailwind/colors/semantic/hex.css'
-import * as semanticTailwindHsl from './tailwind/colors/semantic/hsl.css'
-import * as semanticTailwindOklch from './tailwind/colors/semantic/oklch.css'
-import * as semanticTailwindRgb from './tailwind/colors/semantic/rgb.css'
-import * as masterbrandTailwindHex from './tailwind/colors/themes/masterbrand/hex.css'
-import * as masterbrandTailwindHsl from './tailwind/colors/themes/masterbrand/hsl.css'
-import * as masterbrandTailwindOklch from './tailwind/colors/themes/masterbrand/oklch.css'
-import * as masterbrandTailwindRgb from './tailwind/colors/themes/masterbrand/rgb.css'
-import * as fuchsiaBlueTailwindHex from './tailwind/colors/themes/fuchsia-blue/hex.css'
-import * as fuchsiaBlueTailwindHsl from './tailwind/colors/themes/fuchsia-blue/hsl.css'
-import * as fuchsiaBlueTailwindOklch from './tailwind/colors/themes/fuchsia-blue/oklch.css'
-import * as fuchsiaBlueTailwindRgb from './tailwind/colors/themes/fuchsia-blue/rgb.css'
-import * as fuchsiaOrangeTailwindHex from './tailwind/colors/themes/fuchsia-orange/hex.css'
-import * as fuchsiaOrangeTailwindHsl from './tailwind/colors/themes/fuchsia-orange/hsl.css'
-import * as fuchsiaOrangeTailwindOklch from './tailwind/colors/themes/fuchsia-orange/oklch.css'
-import * as fuchsiaOrangeTailwindRgb from './tailwind/colors/themes/fuchsia-orange/rgb.css'
-import * as dataVisualisationTailwindHex from './tailwind/colors/themes/data-visualisation/hex.css'
-import * as dataVisualisationTailwindHsl from './tailwind/colors/themes/data-visualisation/hsl.css'
-import * as dataVisualisationTailwindOklch from './tailwind/colors/themes/data-visualisation/oklch.css'
-import * as dataVisualisationTailwindRgb from './tailwind/colors/themes/data-visualisation/rgb.css'
-import * as spaceTailwindGlobal from './tailwind/space/global.css'
-import * as radiusTailwindGlobal from './tailwind/radius/global.css'
-import * as breakpointsTailwindGlobal from './tailwind/breakpoints/global.css'
-import * as typographyTailwindGlobal from './tailwind/typography/global.css'
-import * as borderTailwindGlobal from './tailwind/border/global.css'
-import * as shadowTailwindGlobal from './tailwind/shadow/global.css'
+import globalTailwindHex from './tailwind/colors/global/hex.css'
+import globalTailwindHsl from './tailwind/colors/global/hsl.css'
+import globalTailwindOklch from './tailwind/colors/global/oklch.css'
+import globalTailwindRgb from './tailwind/colors/global/rgb.css'
+import semanticTailwindHex from './tailwind/colors/semantic/hex.css'
+import semanticTailwindHsl from './tailwind/colors/semantic/hsl.css'
+import semanticTailwindOklch from './tailwind/colors/semantic/oklch.css'
+import semanticTailwindRgb from './tailwind/colors/semantic/rgb.css'
+import masterbrandTailwindHex from './tailwind/colors/themes/masterbrand/hex.css'
+import masterbrandTailwindHsl from './tailwind/colors/themes/masterbrand/hsl.css'
+import masterbrandTailwindOklch from './tailwind/colors/themes/masterbrand/oklch.css'
+import masterbrandTailwindRgb from './tailwind/colors/themes/masterbrand/rgb.css'
+import fuchsiaBlueTailwindHex from './tailwind/colors/themes/fuchsia-blue/hex.css'
+import fuchsiaBlueTailwindHsl from './tailwind/colors/themes/fuchsia-blue/hsl.css'
+import fuchsiaBlueTailwindOklch from './tailwind/colors/themes/fuchsia-blue/oklch.css'
+import fuchsiaBlueTailwindRgb from './tailwind/colors/themes/fuchsia-blue/rgb.css'
+import fuchsiaOrangeTailwindHex from './tailwind/colors/themes/fuchsia-orange/hex.css'
+import fuchsiaOrangeTailwindHsl from './tailwind/colors/themes/fuchsia-orange/hsl.css'
+import fuchsiaOrangeTailwindOklch from './tailwind/colors/themes/fuchsia-orange/oklch.css'
+import fuchsiaOrangeTailwindRgb from './tailwind/colors/themes/fuchsia-orange/rgb.css'
+import dataVisualisationTailwindHex from './tailwind/colors/themes/data-visualisation/hex.css'
+import dataVisualisationTailwindHsl from './tailwind/colors/themes/data-visualisation/hsl.css'
+import dataVisualisationTailwindOklch from './tailwind/colors/themes/data-visualisation/oklch.css'
+import dataVisualisationTailwindRgb from './tailwind/colors/themes/data-visualisation/rgb.css'
+import spaceTailwindGlobal from './tailwind/space/global.css'
+import radiusTailwindGlobal from './tailwind/radius/global.css'
+import breakpointsTailwindGlobal from './tailwind/breakpoints/global.css'
+import typographyTailwindGlobal from './tailwind/typography/global.css'
+import borderTailwindGlobal from './tailwind/border/global.css'
+import shadowTailwindGlobal from './tailwind/shadow/global.css'
 
 import * as globalTsHex from './ts/colors/global/hex.js'
 import * as globalTsHsl from './ts/colors/global/hsl.js'
@@ -249,7 +249,130 @@ import * as typographyTsSemantic from './ts/typography/semantic.js'
 import * as borderTsGlobal from './ts/border/global.js'
 import * as shadowTsGlobal from './ts/shadow/global.js'
 
-export const tokens = {
+export const tokens: {
+  colors: {
+    global: { hex: any, hsl: any, oklch: any, rgb: any };
+    semantic: { hex: any, hsl: any, oklch: any, rgb: any };
+    themes: {
+      "masterbrand": { hex: any, hsl: any, oklch: any, rgb: any };
+      "fuchsia-blue": { hex: any, hsl: any, oklch: any, rgb: any };
+      "fuchsia-orange": { hex: any, hsl: any, oklch: any, rgb: any };
+      "data-visualisation": { hex: any, hsl: any, oklch: any, rgb: any };
+    };
+  };
+  css: {
+    global: { hex: string, hsl: string, oklch: string, rgb: string };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string };
+    themes: {
+      "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-orange": { hex: string, hsl: string, oklch: string, rgb: string };
+      "data-visualisation": { hex: string, hsl: string, oklch: string, rgb: string };
+    };
+    space: { global: string };
+    radius: { global: string };
+    breakpoints: { global: string };
+    typography: { global: string; semantic: string };
+    border: { global: string };
+    shadow: { global: string };
+  };
+  js: {
+    global: { hex: typeof globalJsHex, hsl: typeof globalJsHsl, oklch: typeof globalJsOklch, rgb: typeof globalJsRgb };
+    semantic: { hex: typeof semanticJsHex, hsl: typeof semanticJsHsl, oklch: typeof semanticJsOklch, rgb: typeof semanticJsRgb };
+    themes: {
+      "masterbrand": { hex: typeof masterbrandJsHex, hsl: typeof masterbrandJsHsl, oklch: typeof masterbrandJsOklch, rgb: typeof masterbrandJsRgb };
+      "fuchsia-blue": { hex: typeof fuchsiaBlueJsHex, hsl: typeof fuchsiaBlueJsHsl, oklch: typeof fuchsiaBlueJsOklch, rgb: typeof fuchsiaBlueJsRgb };
+      "fuchsia-orange": { hex: typeof fuchsiaOrangeJsHex, hsl: typeof fuchsiaOrangeJsHsl, oklch: typeof fuchsiaOrangeJsOklch, rgb: typeof fuchsiaOrangeJsRgb };
+      "data-visualisation": { hex: typeof dataVisualisationJsHex, hsl: typeof dataVisualisationJsHsl, oklch: typeof dataVisualisationJsOklch, rgb: typeof dataVisualisationJsRgb };
+    };
+    space: { global: typeof spaceJsGlobal };
+    radius: { global: typeof radiusJsGlobal };
+    breakpoints: { global: typeof breakpointsJsGlobal };
+    typography: { global: typeof typographyJsGlobal; semantic: typeof typographyJsSemantic };
+    border: { global: typeof borderJsGlobal };
+    shadow: { global: typeof shadowJsGlobal };
+  };
+  json: {
+    global: { hex: any, hsl: any, oklch: any, rgb: any };
+    semantic: { hex: any, hsl: any, oklch: any, rgb: any };
+    themes: {
+      "masterbrand": { hex: any, hsl: any, oklch: any, rgb: any };
+      "fuchsia-blue": { hex: any, hsl: any, oklch: any, rgb: any };
+      "fuchsia-orange": { hex: any, hsl: any, oklch: any, rgb: any };
+      "data-visualisation": { hex: any, hsl: any, oklch: any, rgb: any };
+    };
+    space: { global: any };
+    radius: { global: any };
+    breakpoints: { global: any };
+    typography: { global: any; semantic: any };
+    border: { global: any };
+    shadow: { global: any };
+  };
+  less: {
+    global: { hex: string, hsl: string, oklch: string, rgb: string };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string };
+    themes: {
+      "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-orange": { hex: string, hsl: string, oklch: string, rgb: string };
+      "data-visualisation": { hex: string, hsl: string, oklch: string, rgb: string };
+    };
+    space: { global: string };
+    radius: { global: string };
+    breakpoints: { global: string };
+    typography: { global: string; semantic: string };
+    border: { global: string };
+    shadow: { global: string };
+  };
+  scss: {
+    global: { hex: string, hsl: string, oklch: string, rgb: string };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string };
+    themes: {
+      "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-orange": { hex: string, hsl: string, oklch: string, rgb: string };
+      "data-visualisation": { hex: string, hsl: string, oklch: string, rgb: string };
+    };
+    space: { global: string };
+    radius: { global: string };
+    breakpoints: { global: string };
+    typography: { global: string; semantic: string };
+    border: { global: string };
+    shadow: { global: string };
+  };
+  tailwind: {
+    global: { hex: string, hsl: string, oklch: string, rgb: string };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string };
+    themes: {
+      "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
+      "fuchsia-orange": { hex: string, hsl: string, oklch: string, rgb: string };
+      "data-visualisation": { hex: string, hsl: string, oklch: string, rgb: string };
+    };
+    space: { global: string };
+    radius: { global: string };
+    breakpoints: { global: string };
+    typography: { global: string };
+    border: { global: string };
+    shadow: { global: string };
+  };
+  ts: {
+    global: { hex: typeof globalTsHex, hsl: typeof globalTsHsl, oklch: typeof globalTsOklch, rgb: typeof globalTsRgb };
+    semantic: { hex: typeof semanticTsHex, hsl: typeof semanticTsHsl, oklch: typeof semanticTsOklch, rgb: typeof semanticTsRgb };
+    themes: {
+      "masterbrand": { hex: typeof masterbrandTsHex, hsl: typeof masterbrandTsHsl, oklch: typeof masterbrandTsOklch, rgb: typeof masterbrandTsRgb };
+      "fuchsia-blue": { hex: typeof fuchsiaBlueTsHex, hsl: typeof fuchsiaBlueTsHsl, oklch: typeof fuchsiaBlueTsOklch, rgb: typeof fuchsiaBlueTsRgb };
+      "fuchsia-orange": { hex: typeof fuchsiaOrangeTsHex, hsl: typeof fuchsiaOrangeTsHsl, oklch: typeof fuchsiaOrangeTsOklch, rgb: typeof fuchsiaOrangeTsRgb };
+      "data-visualisation": { hex: typeof dataVisualisationTsHex, hsl: typeof dataVisualisationTsHsl, oklch: typeof dataVisualisationTsOklch, rgb: typeof dataVisualisationTsRgb };
+    };
+    space: { global: typeof spaceTsGlobal };
+    radius: { global: typeof radiusTsGlobal };
+    breakpoints: { global: typeof breakpointsTsGlobal };
+    typography: { global: typeof typographyTsGlobal; semantic: typeof typographyTsSemantic };
+    border: { global: typeof borderTsGlobal };
+    shadow: { global: typeof shadowTsGlobal };
+  };
+} = {
   colors: {
     global: { hex: globalColorHex, hsl: globalColorHsl, oklch: globalColorOklch, rgb: globalColorRgb },
     semantic: { hex: semanticColorHex, hsl: semanticColorHsl, oklch: semanticColorOklch, rgb: semanticColorRgb },

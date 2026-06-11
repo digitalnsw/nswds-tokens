@@ -53,13 +53,28 @@ const FORMATS = [
 
 const varName = (fmt, ent, space) => `${ent.v}${fmt.infix}${cap(space)}`
 
+// Text-loaded style formats import as DEFAULT (tsup's text loader exports the file
+// contents as the default export) so each leaf is a plain string at runtime; js/ts are
+// real modules and keep namespace imports.
+const TEXT_FORMATS = new Set(['css', 'less', 'scss', 'tailwind'])
+
 const importLine = (fmt, ent, space) => {
   const v = varName(fmt, ent, space)
   if (fmt.key === 'colors')
     return `const ${v} = require('../tokens/${ent.tokensDir}/${space}.json')`
   if (fmt.key === 'json')
     return `const ${v} = require('./json/colors/${ent.formatDir}/${space}.json')`
+  if (TEXT_FORMATS.has(fmt.key))
+    return `import ${v} from './${fmt.key}/colors/${ent.formatDir}/${space}.${fmt.ext}'`
   return `import * as ${v} from './${fmt.key}/colors/${ent.formatDir}/${space}.${fmt.ext}'`
+}
+
+// Type of a leaf in the explicit annotation below: style text -> string, JSON -> the
+// loosely-typed require result, js/ts modules -> their real (d.ts-backed) module types.
+const leafType = (fmt, v) => {
+  if (TEXT_FORMATS.has(fmt.key)) return 'string'
+  if (fmt.key === 'colors' || fmt.key === 'json') return 'any'
+  return `typeof ${v}`
 }
 
 // Category outputs exist for every style format; `colors` is colour-specific (raw category
@@ -71,6 +86,8 @@ const categoryVarName = (fmt, category, layer) => `${camel(category.key)}${fmt.i
 const categoryImportLine = (fmt, category, layer) => {
   const v = categoryVarName(fmt, category, layer)
   if (fmt.key === 'json') return `const ${v} = require('./json/${category.key}/${layer}.json')`
+  if (TEXT_FORMATS.has(fmt.key))
+    return `import ${v} from './${fmt.key}/${category.key}/${layer}.${fmt.ext}'`
   return `import * as ${v} from './${fmt.key}/${category.key}/${layer}.${fmt.ext}'`
 }
 
@@ -84,35 +101,44 @@ for (const fmt of FORMATS) {
   out += '\n'
 }
 
-const spaceObj = (fmt, ent) =>
-  `{ ${SPACES.map((s) => `${s}: ${varName(fmt, ent, s)}`).join(', ')} }`
-const formatTree = (fmt) => {
+// asType=false emits the value tree (identifiers); asType=true emits the matching type
+// (string/any/typeof) with identical structure, used to annotate the export explicitly.
+const spaceObj = (fmt, ent, asType) =>
+  `{ ${SPACES.map((s) => {
+    const v = varName(fmt, ent, s)
+    return `${s}: ${asType ? leafType(fmt, v) : v}`
+  }).join(', ')} }`
+const formatTree = (fmt, asType) => {
   const get = (group) => ENTITIES.find((e) => e.group === group)
+  const sep = asType ? ';' : ','
   const themes = ENTITIES.filter((e) => e.group === 'themes')
-    .map((t) => `      ${JSON.stringify(t.themeKey)}: ${spaceObj(fmt, t)},`)
+    .map((t) => `      ${JSON.stringify(t.themeKey)}: ${spaceObj(fmt, t, asType)}${sep}`)
     .join('\n')
   const categories =
     fmt.key === 'colors'
       ? []
       : CATEGORIES.map((c) => {
           const layers = categoryLayers(fmt, c)
-            .map((layer) => `${layer}: ${categoryVarName(fmt, c, layer)}`)
-            .join(', ')
-          return `    ${camel(c.key)}: { ${layers} },`
+            .map((layer) => {
+              const v = categoryVarName(fmt, c, layer)
+              return `${layer}: ${asType ? leafType(fmt, v) : v}`
+            })
+            .join(asType ? '; ' : ', ')
+          return `    ${camel(c.key)}: { ${layers} }${sep}`
         })
   return [
     `  ${fmt.key}: {`,
-    `    global: ${spaceObj(fmt, get('global'))},`,
-    `    semantic: ${spaceObj(fmt, get('semantic'))},`,
+    `    global: ${spaceObj(fmt, get('global'), asType)}${sep}`,
+    `    semantic: ${spaceObj(fmt, get('semantic'), asType)}${sep}`,
     `    themes: {`,
     themes,
-    `    },`,
+    `    }${sep}`,
     ...categories,
-    `  },`,
+    `  }${sep}`,
   ].join('\n')
 }
 
-out += `export const tokens = {\n${FORMATS.map(formatTree).join('\n')}\n}\n\n`
+out += `export const tokens: {\n${FORMATS.map((f) => formatTree(f, true)).join('\n')}\n} = {\n${FORMATS.map((f) => formatTree(f, false)).join('\n')}\n}\n\n`
 
 out += `export const colorTokens = tokens.colors
 export const cssTokens = tokens.css

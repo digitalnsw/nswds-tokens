@@ -150,7 +150,8 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
       'const blue: string = nswBlue[500]',
       'const md: string = radius.md',
       'const weight: number = heading1.fontWeight',
-      'export { root, blue, md, weight }',
+      'const css: string = tokens.css.global.hex // style leaves are plain typed strings',
+      'export { root, blue, md, weight, css }',
       '',
     ].join('\n'),
     'utf8',
@@ -164,7 +165,11 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
           moduleResolution: 'NodeNext',
           strict: true,
           noEmit: true,
-          skipLibCheck: true,
+          // Deliberately STRICTER than the ecosystem default (skipLibCheck: true): the
+          // published d.ts files themselves must compile. The root index.d.ts once
+          // failed this with TS2708 (style text imports synthesised as namespaces) —
+          // fixed by build-index's explicit type annotation; this setting guards it.
+          skipLibCheck: false,
         },
         include: ['consumer.ts'],
       },
