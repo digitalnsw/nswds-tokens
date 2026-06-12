@@ -1,5 +1,8 @@
 # @nswds/tokens
 
+[![Release](https://github.com/digitalnsw/nswds-tokens/actions/workflows/release.yml/badge.svg)](https://github.com/digitalnsw/nswds-tokens/actions/workflows/release.yml)
+[![npm version](https://img.shields.io/npm/v/%40nswds%2Ftokens)](https://www.npmjs.com/package/@nswds/tokens)
+
 Design tokens for the NSW Design System — colour, spacing, typography, radius,
 breakpoints, borders, and shadows — plus related brand assets.
 
@@ -227,7 +230,7 @@ nvm use
 npm install
 ```
 
-Use Node.js `^20.19.0` or `>=22.12.0` for local development. This repo now runs `vitest@4` for `npm run test:tokens`, and that toolchain requires at least Node `20.19.0` on the Node 20 release line.
+Use Node.js `^22.14.0 || >=24.10.0` for local development — Node 22 LTS recommended; `.nvmrc` pins it. The range mirrors `semantic-release@25` (which publishes this package): Node 23.x and 24.0–24.9 are not supported by its tooling, and Node 20 reached end-of-life in April 2026.
 
 Build and verify:
 
