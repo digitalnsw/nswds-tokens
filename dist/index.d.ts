@@ -11529,6 +11529,12 @@ declare const tokens: {
                 oklch: string;
                 rgb: string;
             };
+            darkMedia: {
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
+            };
         };
         semantic: {
             hex: string;
@@ -11536,6 +11542,12 @@ declare const tokens: {
             oklch: string;
             rgb: string;
             dark: {
+                hex: string;
+                hsl: string;
+                oklch: string;
+                rgb: string;
+            };
+            darkMedia: {
                 hex: string;
                 hsl: string;
                 oklch: string;
@@ -12066,6 +12078,12 @@ declare const cssTokens: {
             oklch: string;
             rgb: string;
         };
+        darkMedia: {
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
+        };
     };
     semantic: {
         hex: string;
@@ -12073,6 +12091,12 @@ declare const cssTokens: {
         oklch: string;
         rgb: string;
         dark: {
+            hex: string;
+            hsl: string;
+            oklch: string;
+            rgb: string;
+        };
+        darkMedia: {
             hex: string;
             hsl: string;
             oklch: string;

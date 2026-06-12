@@ -2,7 +2,7 @@
   "success": {
     "50": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -16,7 +16,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -30,7 +30,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -114,7 +114,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -128,7 +128,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -142,7 +142,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -156,7 +156,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -170,7 +170,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -226,7 +226,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -240,7 +240,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -254,7 +254,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -270,7 +270,7 @@
   "warning": {
     "50": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -284,7 +284,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -298,7 +298,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -382,7 +382,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 450: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -396,7 +396,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 500: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -410,7 +410,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 550: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -424,7 +424,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 600: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -438,7 +438,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 650: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -494,7 +494,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -508,7 +508,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -522,7 +522,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -538,7 +538,7 @@
   "danger": {
     "50": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -552,7 +552,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -566,7 +566,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -650,7 +650,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 450: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -664,7 +664,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 500: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -678,7 +678,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 550: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -692,7 +692,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 600: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -706,7 +706,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 650: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -762,7 +762,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -776,7 +776,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -790,7 +790,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -806,7 +806,7 @@
   "info": {
     "50": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -820,7 +820,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -834,7 +834,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -918,7 +918,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -932,7 +932,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -946,7 +946,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -960,7 +960,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -974,7 +974,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -1030,7 +1030,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -1044,7 +1044,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [
@@ -1058,7 +1058,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "oklch",
         "components": [

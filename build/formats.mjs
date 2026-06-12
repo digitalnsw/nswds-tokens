@@ -3,6 +3,8 @@
 //
 // Token paths come from the source tree, e.g. ['nsw-grey','50'] or ['primary','50'].
 
+import { formattedVariables } from 'style-dictionary/utils'
+
 const toCamel = (s) => s.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase())
 
 // DTCG 2025.10 colour object (C1) -> the CSS function string used in the string outputs.
@@ -291,4 +293,20 @@ export const nswTailwind = ({ dictionary, options }) => {
     defs += `  --${name}: ${t.$value};\n`
   }
   return isAliasLayer ? `${header} {\n${refs}}\n` : `${header} {\n${refs}}\n\n:root {\n${defs}}\n`
+}
+
+// Dark CSS, media-query flavour: the same variables the [data-theme='dark'] file carries,
+// scoped to the user's system preference instead of an attribute toggle. Reuses
+// formattedVariables (the engine inside the built-in css/variables format) so the
+// variable lines — including the /** description */ comments — stay consistent with the
+// attribute-scoped sibling; only the wrapper differs.
+export const nswCssMedia = ({ dictionary, options }) => {
+  const vars = formattedVariables({
+    format: 'css',
+    dictionary,
+    outputReferences: options?.outputReferences,
+    usesDtcg: options?.usesDtcg ?? true,
+    formatting: { indentation: '    ' },
+  })
+  return `@media (prefers-color-scheme: dark) {\n  :root {\n${vars}\n  }\n}\n`
 }

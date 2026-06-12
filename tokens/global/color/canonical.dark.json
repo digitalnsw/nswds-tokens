@@ -2,7 +2,7 @@
   "nsw-grey": {
     "50": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -16,7 +16,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -30,7 +30,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -44,7 +44,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 200: Interactive components.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -58,7 +58,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 250: Interactive components.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -72,7 +72,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 300: Interactive components.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -86,7 +86,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 350: Interactive components.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -100,7 +100,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 400: Interactive components.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -114,7 +114,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 450: shades for borders, separators and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -128,7 +128,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 500: shades for borders, separators and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -142,7 +142,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 550: shades for borders, separators and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -156,7 +156,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 600: shades for borders, separators and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -170,7 +170,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 650: shades for borders, separators and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -184,7 +184,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 700: Solid colors.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -198,7 +198,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 750: Solid colors.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -212,7 +212,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 800: Solid colors.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -226,7 +226,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -240,7 +240,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -254,7 +254,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -270,7 +270,7 @@
   "nsw-green": {
     "50": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -284,7 +284,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -298,7 +298,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -312,7 +312,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: Interactive components.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -326,7 +326,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: Interactive components.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -340,7 +340,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: Interactive components.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -354,7 +354,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: Interactive components.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -368,7 +368,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: Interactive components.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -382,7 +382,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: shades for borders, separators and icons.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -396,7 +396,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: shades for borders, separators and icons.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -410,7 +410,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: shades for borders, separators and icons.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -424,7 +424,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: shades for borders, separators and icons.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -438,7 +438,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: shades for borders, separators and icons.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -452,7 +452,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: Solid colors.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -466,7 +466,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: Solid colors.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -480,7 +480,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: Solid colors.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -494,7 +494,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -508,7 +508,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -522,7 +522,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -538,7 +538,7 @@
   "nsw-teal": {
     "50": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -552,7 +552,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -566,7 +566,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -580,7 +580,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -594,7 +594,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -608,7 +608,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -622,7 +622,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -636,7 +636,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -650,7 +650,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -664,7 +664,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -678,7 +678,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -692,7 +692,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -706,7 +706,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -720,7 +720,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -734,7 +734,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -748,7 +748,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -762,7 +762,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -776,7 +776,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -790,7 +790,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW palette teal — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -806,7 +806,7 @@
   "nsw-blue": {
     "50": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -820,7 +820,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -834,7 +834,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -848,7 +848,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: Interactive components.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -862,7 +862,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: Interactive components.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -876,7 +876,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: Interactive components.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -890,7 +890,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: Interactive components.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -904,7 +904,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: Interactive components.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -918,7 +918,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: shades for borders, separators and icons.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -932,7 +932,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: shades for borders, separators and icons.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -946,7 +946,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: shades for borders, separators and icons.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -960,7 +960,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: shades for borders, separators and icons.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -974,7 +974,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: shades for borders, separators and icons.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -988,7 +988,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: Solid colors.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1002,7 +1002,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: Solid colors.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1016,7 +1016,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: Solid colors.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1030,7 +1030,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1044,7 +1044,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1058,7 +1058,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1074,7 +1074,7 @@
   "nsw-purple": {
     "50": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1088,7 +1088,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1102,7 +1102,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1116,7 +1116,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1130,7 +1130,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1144,7 +1144,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1158,7 +1158,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1172,7 +1172,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1186,7 +1186,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1200,7 +1200,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1214,7 +1214,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1228,7 +1228,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1242,7 +1242,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1256,7 +1256,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1270,7 +1270,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1284,7 +1284,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1298,7 +1298,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1312,7 +1312,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1326,7 +1326,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW palette purple — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1342,7 +1342,7 @@
   "nsw-fuchsia": {
     "50": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1356,7 +1356,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1370,7 +1370,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1384,7 +1384,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: Interactive components.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1398,7 +1398,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: Interactive components.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1412,7 +1412,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: Interactive components.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1426,7 +1426,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: Interactive components.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1440,7 +1440,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: Interactive components.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1454,7 +1454,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: shades for borders, separators and icons.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1468,7 +1468,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: shades for borders, separators and icons.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1482,7 +1482,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: shades for borders, separators and icons.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1496,7 +1496,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: shades for borders, separators and icons.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1510,7 +1510,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: shades for borders, separators and icons.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1524,7 +1524,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: Solid colors.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1538,7 +1538,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: Solid colors.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1552,7 +1552,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: Solid colors.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1566,7 +1566,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1580,7 +1580,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1594,7 +1594,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1610,7 +1610,7 @@
   "nsw-red": {
     "50": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1624,7 +1624,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1638,7 +1638,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1652,7 +1652,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: Interactive components.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1666,7 +1666,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: Interactive components.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1680,7 +1680,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: Interactive components.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1694,7 +1694,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: Interactive components.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1708,7 +1708,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: Interactive components.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1722,7 +1722,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: shades for borders, separators and icons.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1736,7 +1736,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: shades for borders, separators and icons.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1750,7 +1750,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: shades for borders, separators and icons.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1764,7 +1764,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: shades for borders, separators and icons.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1778,7 +1778,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: shades for borders, separators and icons.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1792,7 +1792,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: Solid colors.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1806,7 +1806,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: Solid colors.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1820,7 +1820,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: Solid colors.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1834,7 +1834,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1848,7 +1848,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1862,7 +1862,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1878,7 +1878,7 @@
   "nsw-orange": {
     "50": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1892,7 +1892,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1906,7 +1906,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1920,7 +1920,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: Interactive components.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1934,7 +1934,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: Interactive components.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1948,7 +1948,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: Interactive components.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1962,7 +1962,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: Interactive components.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1976,7 +1976,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: Interactive components.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -1990,7 +1990,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: shades for borders, separators and icons.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2004,7 +2004,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: shades for borders, separators and icons.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2018,7 +2018,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: shades for borders, separators and icons.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2032,7 +2032,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: shades for borders, separators and icons.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2046,7 +2046,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: shades for borders, separators and icons.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2060,7 +2060,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: Solid colors.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2074,7 +2074,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: Solid colors.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2088,7 +2088,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: Solid colors.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2102,7 +2102,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2116,7 +2116,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2130,7 +2130,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2146,7 +2146,7 @@
   "nsw-yellow": {
     "50": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2160,7 +2160,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2174,7 +2174,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2188,7 +2188,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: Interactive components.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2202,7 +2202,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: Interactive components.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2216,7 +2216,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: Interactive components.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2230,7 +2230,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: Interactive components.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2244,7 +2244,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: Interactive components.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2258,7 +2258,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: shades for borders, separators and icons.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2272,7 +2272,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: shades for borders, separators and icons.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2286,7 +2286,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: shades for borders, separators and icons.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2300,7 +2300,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: shades for borders, separators and icons.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2314,7 +2314,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: shades for borders, separators and icons.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2328,7 +2328,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: Solid colors.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2342,7 +2342,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: Solid colors.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2356,7 +2356,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: Solid colors.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2370,7 +2370,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2384,7 +2384,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2398,7 +2398,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2414,7 +2414,7 @@
   "nsw-brown": {
     "50": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2428,7 +2428,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2442,7 +2442,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2456,7 +2456,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 200: Interactive components.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 200: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2470,7 +2470,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 250: Interactive components.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 250: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2484,7 +2484,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 300: Interactive components.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2498,7 +2498,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 350: Interactive components.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2512,7 +2512,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 400: Interactive components.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2526,7 +2526,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 450: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2540,7 +2540,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 500: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2554,7 +2554,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 550: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2568,7 +2568,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 600: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2582,7 +2582,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 650: borders, separators and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2596,7 +2596,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 700: Solid colors.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 700: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2610,7 +2610,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 750: Solid colors.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 750: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2624,7 +2624,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 800: Solid colors.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 800: Solid colors.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2638,7 +2638,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2652,7 +2652,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2666,7 +2666,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW palette brown — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2682,7 +2682,7 @@
   "nsw-aboriginal-grey": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2696,7 +2696,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2710,7 +2710,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2724,7 +2724,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Smoke Grey. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Smoke Grey. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2738,7 +2738,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette grey. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2752,7 +2752,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette grey. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2766,7 +2766,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette grey. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2780,7 +2780,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Ash Grey. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Ash Grey. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2794,7 +2794,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette grey. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2808,7 +2808,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette grey \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2822,7 +2822,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette grey. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2836,7 +2836,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Emu Grey. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Emu Grey. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2850,7 +2850,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette grey. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2864,7 +2864,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette grey. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2878,7 +2878,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2892,7 +2892,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Charcoal Grey. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Charcoal Grey. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2906,7 +2906,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2920,7 +2920,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2934,7 +2934,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette grey. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette grey. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2950,7 +2950,7 @@
   "nsw-aboriginal-red": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2964,7 +2964,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2978,7 +2978,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -2992,7 +2992,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Galah Pink. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Galah Pink. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3006,7 +3006,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette red. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3020,7 +3020,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette red. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3034,7 +3034,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette red. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3048,7 +3048,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Coral Pink. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Coral Pink. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3062,7 +3062,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette red. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3076,7 +3076,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette red \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3090,7 +3090,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette red. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3104,7 +3104,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Ember Red. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Ember Red. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3118,7 +3118,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette red. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3132,7 +3132,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette red. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3146,7 +3146,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3160,7 +3160,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Earth Red. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Earth Red. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3174,7 +3174,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3188,7 +3188,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3202,7 +3202,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette red. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette red. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3218,7 +3218,7 @@
   "nsw-aboriginal-orange": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3232,7 +3232,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3246,7 +3246,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3260,7 +3260,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Sunset Orange. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Sunset Orange. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3274,7 +3274,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette orange. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3288,7 +3288,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette orange. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3302,7 +3302,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette orange. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3316,7 +3316,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Clay Orange. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Clay Orange. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3330,7 +3330,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette orange. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3344,7 +3344,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette orange \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3358,7 +3358,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette orange. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3372,7 +3372,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Orange Ochre. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Orange Ochre. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3386,7 +3386,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette orange. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3400,7 +3400,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette orange. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3414,7 +3414,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3428,7 +3428,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Deep Orange. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Deep Orange. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3442,7 +3442,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3456,7 +3456,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3470,7 +3470,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette orange. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette orange. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3486,7 +3486,7 @@
   "nsw-aboriginal-brown": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3500,7 +3500,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3514,7 +3514,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3528,7 +3528,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Macadamia Brown. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Macadamia Brown. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3542,7 +3542,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette brown. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3556,7 +3556,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette brown. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3570,7 +3570,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette brown. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3584,7 +3584,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Claystone Brown. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Claystone Brown. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3598,7 +3598,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette brown. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3612,7 +3612,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette brown \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3626,7 +3626,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette brown. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3640,7 +3640,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Firewood Brown. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Firewood Brown. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3654,7 +3654,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette brown. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3668,7 +3668,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette brown. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3682,7 +3682,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3696,7 +3696,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Riverbed Brown. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Riverbed Brown. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3710,7 +3710,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3724,7 +3724,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3738,7 +3738,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette brown. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette brown. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3754,7 +3754,7 @@
   "nsw-aboriginal-yellow": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3768,7 +3768,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3782,7 +3782,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3796,7 +3796,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Sunbeam Yellow. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Sunbeam Yellow. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3810,7 +3810,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette yellow. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3824,7 +3824,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette yellow. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3838,7 +3838,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette yellow. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3852,7 +3852,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Golden Wattle Yellow. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Golden Wattle Yellow. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3866,7 +3866,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette yellow. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3880,7 +3880,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette yellow \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3894,7 +3894,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette yellow. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3908,7 +3908,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Sandstone Yellow. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Sandstone Yellow. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3922,7 +3922,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette yellow. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3936,7 +3936,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette yellow. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3950,7 +3950,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3964,7 +3964,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Bush Honey Yellow. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Bush Honey Yellow. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3978,7 +3978,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -3992,7 +3992,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4006,7 +4006,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette yellow. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette yellow. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4022,7 +4022,7 @@
   "nsw-aboriginal-green": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4036,7 +4036,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4050,7 +4050,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4064,7 +4064,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Saltbush Green. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Saltbush Green. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4078,7 +4078,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette green. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4092,7 +4092,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette green. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4106,7 +4106,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette green. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4120,7 +4120,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Gumleaf Green. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Gumleaf Green. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4134,7 +4134,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette green. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4148,7 +4148,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette green \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4162,7 +4162,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette green. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4176,7 +4176,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Marshland Lime. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Marshland Lime. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4190,7 +4190,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette green. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4204,7 +4204,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette green. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4218,7 +4218,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4232,7 +4232,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Bushland Green. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Bushland Green. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4246,7 +4246,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4260,7 +4260,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4274,7 +4274,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette green. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette green. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4290,7 +4290,7 @@
   "nsw-aboriginal-blue": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4304,7 +4304,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4318,7 +4318,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4332,7 +4332,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Coastal Blue. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Coastal Blue. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4346,7 +4346,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette blue. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4360,7 +4360,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette blue. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4374,7 +4374,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette blue. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4388,7 +4388,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Light Water Blue. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Light Water Blue. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4402,7 +4402,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette blue. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4416,7 +4416,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette blue \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4430,7 +4430,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette blue. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4444,7 +4444,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Saltwater Blue. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Saltwater Blue. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4458,7 +4458,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette blue. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4472,7 +4472,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette blue. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4486,7 +4486,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4500,7 +4500,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Billabong Blue. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Billabong Blue. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4514,7 +4514,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4528,7 +4528,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4542,7 +4542,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette blue. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette blue. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4558,7 +4558,7 @@
   "nsw-aboriginal-purple": {
     "50": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4572,7 +4572,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4586,7 +4586,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4600,7 +4600,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Dusk Purple. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette Dusk Purple. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4614,7 +4614,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "NSW Aboriginal palette purple. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4628,7 +4628,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 300: light tints.",
+      "$description": "NSW Aboriginal palette purple. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4642,7 +4642,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 350: light tints.",
+      "$description": "NSW Aboriginal palette purple. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4656,7 +4656,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Lilli Pilli Purple. Step 400: light tints.",
+      "$description": "NSW Aboriginal palette Lilli Pilli Purple. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4670,7 +4670,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 450: light tints.",
+      "$description": "NSW Aboriginal palette purple. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4684,7 +4684,7 @@
     },
     "500": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$description": "NSW Aboriginal palette purple \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4698,7 +4698,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 550: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette purple. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4712,7 +4712,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Spirit Lilac. Step 600: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette Spirit Lilac. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4726,7 +4726,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 650: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette purple. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4740,7 +4740,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 700: shades for borders and icons.",
+      "$description": "NSW Aboriginal palette purple. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4754,7 +4754,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 750: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4768,7 +4768,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette Bush Plum. Step 800: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette Bush Plum. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4782,7 +4782,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 850: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4796,7 +4796,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 900: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [
@@ -4810,7 +4810,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "NSW Aboriginal palette purple. Step 950: darkest shades for text and high emphasis.",
+      "$description": "NSW Aboriginal palette purple. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "srgb",
         "components": [

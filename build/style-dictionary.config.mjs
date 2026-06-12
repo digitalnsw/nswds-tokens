@@ -21,6 +21,7 @@ import {
   nswDts,
   nswJson,
   nswFigma,
+  nswCssMedia,
   nswTailwind,
   nswTailwindDimension,
   nswTypographyCss,
@@ -112,6 +113,16 @@ const makeConfig = (space, layer, mode = 'light') => {
     }),
   }
 
+  // Dark also ships a media-query flavour (same variables, scoped to the system
+  // preference) for consumers without an attribute toggle.
+  const darkOnly = {
+    cssMedia: platform(
+      STRING_XF,
+      `css/colors/${layer.dir}/${space}.${mode}-media.css`,
+      'nsw/css-media',
+    ),
+  }
+
   return {
     source,
     hooks: {
@@ -122,6 +133,7 @@ const makeConfig = (space, layer, mode = 'light') => {
         'nsw/json': nswJson,
         'nsw/figma': nswFigma,
         'nsw/tailwind': nswTailwind,
+        'nsw/css-media': nswCssMedia,
       },
       transforms: { 'nsw/color-string': colorStringTransform },
     },
@@ -157,7 +169,7 @@ const makeConfig = (space, layer, mode = 'light') => {
         `json/colors/${layer.dir}/${outName(space, mode, 'json')}`,
         'nsw/json',
       ),
-      ...(mode === 'light' ? lightOnly : {}),
+      ...(mode === 'light' ? lightOnly : darkOnly),
     },
   }
 }

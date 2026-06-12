@@ -56,10 +56,15 @@ const FORMATS = [
 // (light-only platform in the SD config).
 const DARK_GROUPS = new Set(['global', 'semantic'])
 const hasDark = (fmt, ent) => fmt.key !== 'tailwind' && DARK_GROUPS.has(ent.group)
-const modeSuffix = (mode) => (mode === 'dark' ? '.dark' : '')
+// The media-query flavour of the dark stylesheets is CSS-only (scss/less/js consumers
+// compose their own scoping; tailwind re-resolves via var() chains).
+const hasDarkMedia = (fmt, ent) => fmt.key === 'css' && DARK_GROUPS.has(ent.group)
+const MODE_SUFFIX = { light: '', dark: '.dark', 'dark-media': '.dark-media' }
+const MODE_VAR = { light: '', dark: 'Dark', 'dark-media': 'DarkMedia' }
+const modeSuffix = (mode) => MODE_SUFFIX[mode]
 
 const varName = (fmt, ent, space, mode = 'light') =>
-  `${ent.v}${fmt.infix}${cap(space)}${mode === 'dark' ? 'Dark' : ''}`
+  `${ent.v}${fmt.infix}${cap(space)}${MODE_VAR[mode]}`
 
 // Text-loaded style formats import as DEFAULT (tsup's text loader exports the file
 // contents as the default export) so each leaf is a plain string at runtime; js/ts are
@@ -106,6 +111,8 @@ for (const fmt of FORMATS) {
     for (const space of SPACES) out += `${importLine(fmt, ent, space)}\n`
     if (hasDark(fmt, ent))
       for (const space of SPACES) out += `${importLine(fmt, ent, space, 'dark')}\n`
+    if (hasDarkMedia(fmt, ent))
+      for (const space of SPACES) out += `${importLine(fmt, ent, space, 'dark-media')}\n`
   }
   if (fmt.key !== 'colors')
     for (const category of CATEGORIES)
@@ -127,6 +134,13 @@ const spaceObj = (fmt, ent, asType) => {
       return `${s}: ${asType ? leafType(fmt, v) : v}`
     })
     entries.push(`dark: { ${dark.join(', ')} }`)
+  }
+  if (hasDarkMedia(fmt, ent)) {
+    const media = SPACES.map((s) => {
+      const v = varName(fmt, ent, s, 'dark-media')
+      return `${s}: ${asType ? leafType(fmt, v) : v}`
+    })
+    entries.push(`darkMedia: { ${media.join(', ')} }`)
   }
   return `{ ${entries.join(', ')} }`
 }

@@ -42,6 +42,10 @@ import globalCssHexDark from './css/colors/global/hex.dark.css'
 import globalCssHslDark from './css/colors/global/hsl.dark.css'
 import globalCssOklchDark from './css/colors/global/oklch.dark.css'
 import globalCssRgbDark from './css/colors/global/rgb.dark.css'
+import globalCssHexDarkMedia from './css/colors/global/hex.dark-media.css'
+import globalCssHslDarkMedia from './css/colors/global/hsl.dark-media.css'
+import globalCssOklchDarkMedia from './css/colors/global/oklch.dark-media.css'
+import globalCssRgbDarkMedia from './css/colors/global/rgb.dark-media.css'
 import semanticCssHex from './css/colors/semantic/hex.css'
 import semanticCssHsl from './css/colors/semantic/hsl.css'
 import semanticCssOklch from './css/colors/semantic/oklch.css'
@@ -50,6 +54,10 @@ import semanticCssHexDark from './css/colors/semantic/hex.dark.css'
 import semanticCssHslDark from './css/colors/semantic/hsl.dark.css'
 import semanticCssOklchDark from './css/colors/semantic/oklch.dark.css'
 import semanticCssRgbDark from './css/colors/semantic/rgb.dark.css'
+import semanticCssHexDarkMedia from './css/colors/semantic/hex.dark-media.css'
+import semanticCssHslDarkMedia from './css/colors/semantic/hsl.dark-media.css'
+import semanticCssOklchDarkMedia from './css/colors/semantic/oklch.dark-media.css'
+import semanticCssRgbDarkMedia from './css/colors/semantic/rgb.dark-media.css'
 import masterbrandCssHex from './css/colors/themes/masterbrand/hex.css'
 import masterbrandCssHsl from './css/colors/themes/masterbrand/hsl.css'
 import masterbrandCssOklch from './css/colors/themes/masterbrand/oklch.css'
@@ -317,8 +325,8 @@ export const tokens: {
     };
   };
   css: {
-    global: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
-    semantic: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
+    global: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string }, darkMedia: { hex: string, hsl: string, oklch: string, rgb: string } };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string }, darkMedia: { hex: string, hsl: string, oklch: string, rgb: string } };
     themes: {
       "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
       "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
@@ -440,8 +448,8 @@ export const tokens: {
     },
   },
   css: {
-    global: { hex: globalCssHex, hsl: globalCssHsl, oklch: globalCssOklch, rgb: globalCssRgb, dark: { hex: globalCssHexDark, hsl: globalCssHslDark, oklch: globalCssOklchDark, rgb: globalCssRgbDark } },
-    semantic: { hex: semanticCssHex, hsl: semanticCssHsl, oklch: semanticCssOklch, rgb: semanticCssRgb, dark: { hex: semanticCssHexDark, hsl: semanticCssHslDark, oklch: semanticCssOklchDark, rgb: semanticCssRgbDark } },
+    global: { hex: globalCssHex, hsl: globalCssHsl, oklch: globalCssOklch, rgb: globalCssRgb, dark: { hex: globalCssHexDark, hsl: globalCssHslDark, oklch: globalCssOklchDark, rgb: globalCssRgbDark }, darkMedia: { hex: globalCssHexDarkMedia, hsl: globalCssHslDarkMedia, oklch: globalCssOklchDarkMedia, rgb: globalCssRgbDarkMedia } },
+    semantic: { hex: semanticCssHex, hsl: semanticCssHsl, oklch: semanticCssOklch, rgb: semanticCssRgb, dark: { hex: semanticCssHexDark, hsl: semanticCssHslDark, oklch: semanticCssOklchDark, rgb: semanticCssRgbDark }, darkMedia: { hex: semanticCssHexDarkMedia, hsl: semanticCssHslDarkMedia, oklch: semanticCssOklchDarkMedia, rgb: semanticCssRgbDarkMedia } },
     themes: {
       "masterbrand": { hex: masterbrandCssHex, hsl: masterbrandCssHsl, oklch: masterbrandCssOklch, rgb: masterbrandCssRgb },
       "fuchsia-blue": { hex: fuchsiaBlueCssHex, hsl: fuchsiaBlueCssHsl, oklch: fuchsiaBlueCssOklch, rgb: fuchsiaBlueCssRgb },

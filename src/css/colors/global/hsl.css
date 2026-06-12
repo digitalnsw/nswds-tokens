@@ -1,344 +1,344 @@
 :root {
-  --nsw-grey-50: hsl(0, 0%, 98.039216%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-grey-100: hsl(0, 0%, 96.078431%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-grey-150: hsl(0, 0%, 94.117647%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-grey-50: hsl(0, 0%, 98.039216%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 50: subtle backgrounds and surfaces. */
+  --nsw-grey-100: hsl(0, 0%, 96.078431%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 100: subtle backgrounds and surfaces. */
+  --nsw-grey-150: hsl(0, 0%, 94.117647%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 150: subtle backgrounds and surfaces. */
   --nsw-grey-200: hsl(0, 0%, 92.156863%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 200: Interactive components. */
   --nsw-grey-250: hsl(200, 5.660377%, 89.607843%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 250: Interactive components. */
   --nsw-grey-300: hsl(195, 6.060606%, 87.058824%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 300: Interactive components. */
   --nsw-grey-350: hsl(197.142857, 8.860759%, 84.509804%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 350: Interactive components. */
   --nsw-grey-400: hsl(200, 9.89011%, 82.156863%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 400: Interactive components. */
-  --nsw-grey-450: hsl(204, 6.25%, 68.627451%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 450: shades for borders, separators and icons. */
-  --nsw-grey-500: hsl(198, 4.385965%, 55.294118%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 500: shades for borders, separators and icons. */
-  --nsw-grey-550: hsl(198, 4.587156%, 42.745098%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 550: shades for borders, separators and icons. */
-  --nsw-grey-600: hsl(201.818182, 7.006369%, 30.784314%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 600: shades for borders, separators and icons. */
-  --nsw-grey-650: hsl(204, 7.352941%, 26.666667%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 650: shades for borders, separators and icons. */
+  --nsw-grey-450: hsl(204, 6.25%, 68.627451%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 450: borders, separators and icons. */
+  --nsw-grey-500: hsl(198, 4.385965%, 55.294118%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 500: borders, separators and icons. */
+  --nsw-grey-550: hsl(198, 4.587156%, 42.745098%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 550: borders, separators and icons. */
+  --nsw-grey-600: hsl(201.818182, 7.006369%, 30.784314%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 600: borders, separators and icons. */
+  --nsw-grey-650: hsl(204, 7.352941%, 26.666667%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 650: borders, separators and icons. */
   --nsw-grey-700: hsl(204, 8.62069%, 22.745098%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 700: Solid colors. */
   --nsw-grey-750: hsl(204, 10.416667%, 18.823529%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 750: Solid colors. */
   --nsw-grey-800: hsl(206.666667, 11.688312%, 15.098039%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 800: Solid colors. */
-  --nsw-grey-850: hsl(205.714286, 12.727273%, 10.784314%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 850: darkest shades for text and high emphasis. */
-  --nsw-grey-900: hsl(204, 15.151515%, 6.470588%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 900: darkest shades for text and high emphasis. */
-  --nsw-grey-950: hsl(210, 28.571429%, 2.745098%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 950: darkest shades for text and high emphasis. */
-  --nsw-green-50: hsl(126, 100%, 98.039216%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-green-100: hsl(127.058824, 80.952381%, 95.882353%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-green-150: hsl(127.5, 80%, 94.117647%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-grey-850: hsl(205.714286, 12.727273%, 10.784314%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 850: text and high emphasis. */
+  --nsw-grey-900: hsl(204, 15.151515%, 6.470588%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 900: text and high emphasis. */
+  --nsw-grey-950: hsl(210, 28.571429%, 2.745098%); /** Neutral grey — text, borders, surfaces, and dividers; every theme’s grey ramp aliases this family. Step 950: text and high emphasis. */
+  --nsw-green-50: hsl(126, 100%, 98.039216%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 50: subtle backgrounds and surfaces. */
+  --nsw-green-100: hsl(127.058824, 80.952381%, 95.882353%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 100: subtle backgrounds and surfaces. */
+  --nsw-green-150: hsl(127.5, 80%, 94.117647%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 150: subtle backgrounds and surfaces. */
   --nsw-green-200: hsl(127.741935, 75.609756%, 91.960784%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: Interactive components. */
   --nsw-green-250: hsl(127.5, 71.428571%, 89.019608%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: Interactive components. */
   --nsw-green-300: hsl(128.4, 69.444444%, 85.882353%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: Interactive components. */
   --nsw-green-350: hsl(129.152542, 66.292135%, 82.54902%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: Interactive components. */
   --nsw-green-400: hsl(129.565217, 65.714286%, 79.411765%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: Interactive components. */
-  --nsw-green-450: hsl(130.243902, 53.947368%, 70.196078%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: shades for borders, separators and icons. */
-  --nsw-green-500: hsl(131.632653, 49%, 60.784314%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: shades for borders, separators and icons. */
-  --nsw-green-550: hsl(134.745763, 46.456693%, 50.196078%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: shades for borders, separators and icons. */
-  --nsw-green-600: hsl(144.352941, 100%, 33.333333%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: shades for borders, separators and icons. */
-  --nsw-green-650: hsl(139.111111, 90.604027%, 29.215686%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: shades for borders, separators and icons. */
+  --nsw-green-450: hsl(130.243902, 53.947368%, 70.196078%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: borders, separators and icons. */
+  --nsw-green-500: hsl(131.632653, 49%, 60.784314%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: borders, separators and icons. */
+  --nsw-green-550: hsl(134.745763, 46.456693%, 50.196078%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: borders, separators and icons. */
+  --nsw-green-600: hsl(144.352941, 100%, 33.333333%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: borders, separators and icons. */
+  --nsw-green-650: hsl(139.111111, 90.604027%, 29.215686%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: borders, separators and icons. */
   --nsw-green-700: hsl(133.888889, 88.52459%, 23.921569%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: Solid colors. */
   --nsw-green-750: hsl(128.372093, 93.478261%, 18.039216%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: Solid colors. */
   --nsw-green-800: hsl(120, 100%, 12.54902%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: Solid colors. */
-  --nsw-green-850: hsl(120, 100%, 9.411765%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 850: darkest shades for text and high emphasis. */
-  --nsw-green-900: hsl(120, 100%, 6.27451%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 900: darkest shades for text and high emphasis. */
-  --nsw-green-950: hsl(120, 100%, 3.333333%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 950: darkest shades for text and high emphasis. */
-  --nsw-teal-50: hsl(173.333333, 52.941176%, 96.666667%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-teal-100: hsl(172.5, 50%, 93.72549%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-teal-150: hsl(171.818182, 45.833333%, 90.588235%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-green-850: hsl(120, 100%, 9.411765%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 850: text and high emphasis. */
+  --nsw-green-900: hsl(120, 100%, 6.27451%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 900: text and high emphasis. */
+  --nsw-green-950: hsl(120, 100%, 3.333333%); /** NSW palette green — accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 950: text and high emphasis. */
+  --nsw-teal-50: hsl(173.333333, 52.941176%, 96.666667%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces. */
+  --nsw-teal-100: hsl(172.5, 50%, 93.72549%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces. */
+  --nsw-teal-150: hsl(171.818182, 45.833333%, 90.588235%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces. */
   --nsw-teal-200: hsl(171.724138, 46.031746%, 87.647059%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 200: Interactive components. */
   --nsw-teal-250: hsl(175.609756, 49.39759%, 83.72549%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 250: Interactive components. */
   --nsw-teal-300: hsl(180, 50.943396%, 79.215686%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 300: Interactive components. */
   --nsw-teal-350: hsl(184.225352, 57.723577%, 75.882353%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 350: Interactive components. */
   --nsw-teal-400: hsl(186.741573, 63.120567%, 72.352941%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 400: Interactive components. */
-  --nsw-teal-450: hsl(187.333333, 48.387097%, 63.529412%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons. */
-  --nsw-teal-500: hsl(188.571429, 39.393939%, 54.705882%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons. */
-  --nsw-teal-550: hsl(188.387097, 39.914163%, 45.686275%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons. */
-  --nsw-teal-600: hsl(188.75, 51.06383%, 36.862745%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons. */
-  --nsw-teal-650: hsl(188.372093, 53.75%, 31.372549%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons. */
+  --nsw-teal-450: hsl(187.333333, 48.387097%, 63.529412%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 450: borders, separators and icons. */
+  --nsw-teal-500: hsl(188.571429, 39.393939%, 54.705882%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 500: borders, separators and icons. */
+  --nsw-teal-550: hsl(188.387097, 39.914163%, 45.686275%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 550: borders, separators and icons. */
+  --nsw-teal-600: hsl(188.75, 51.06383%, 36.862745%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 600: borders, separators and icons. */
+  --nsw-teal-650: hsl(188.372093, 53.75%, 31.372549%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 650: borders, separators and icons. */
   --nsw-teal-700: hsl(187.792208, 57.894737%, 26.078431%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 700: Solid colors. */
   --nsw-teal-750: hsl(188.823529, 62.962963%, 21.176471%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 750: Solid colors. */
   --nsw-teal-800: hsl(188, 73.170732%, 16.078431%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 800: Solid colors. */
-  --nsw-teal-850: hsl(187.346939, 85.964912%, 11.176471%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis. */
-  --nsw-teal-900: hsl(188.571429, 94.594595%, 7.254902%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis. */
-  --nsw-teal-950: hsl(189, 100%, 3.921569%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis. */
-  --nsw-blue-50: hsl(196, 100%, 97.058824%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-blue-100: hsl(200, 100%, 94.705882%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-blue-150: hsl(198.461538, 95.121951%, 91.960784%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-teal-850: hsl(187.346939, 85.964912%, 11.176471%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 850: text and high emphasis. */
+  --nsw-teal-900: hsl(188.571429, 94.594595%, 7.254902%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 900: text and high emphasis. */
+  --nsw-teal-950: hsl(189, 100%, 3.921569%); /** NSW palette teal — accents, illustration, and data-visualisation support. Step 950: text and high emphasis. */
+  --nsw-blue-50: hsl(196, 100%, 97.058824%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 50: subtle backgrounds and surfaces. */
+  --nsw-blue-100: hsl(200, 100%, 94.705882%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 100: subtle backgrounds and surfaces. */
+  --nsw-blue-150: hsl(198.461538, 95.121951%, 91.960784%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 150: subtle backgrounds and surfaces. */
   --nsw-blue-200: hsl(199.2, 92.592593%, 89.411765%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: Interactive components. */
   --nsw-blue-250: hsl(198.181818, 97.058824%, 86.666667%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: Interactive components. */
   --nsw-blue-300: hsl(197.560976, 100%, 83.921569%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: Interactive components. */
   --nsw-blue-350: hsl(197.142857, 100%, 80.784314%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: Interactive components. */
   --nsw-blue-400: hsl(196.173913, 100%, 77.45098%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: Interactive components. */
-  --nsw-blue-450: hsl(199.636364, 100%, 67.647059%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: shades for borders, separators and icons. */
-  --nsw-blue-500: hsl(202.396313, 100%, 57.45098%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: shades for borders, separators and icons. */
-  --nsw-blue-550: hsl(206.352941, 100%, 50%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: shades for borders, separators and icons. */
-  --nsw-blue-600: hsl(217.339056, 98.312236%, 53.529412%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: shades for borders, separators and icons. */
-  --nsw-blue-650: hsl(216.6, 89.285714%, 43.921569%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: shades for borders, separators and icons. */
+  --nsw-blue-450: hsl(199.636364, 100%, 67.647059%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: borders, separators and icons. */
+  --nsw-blue-500: hsl(202.396313, 100%, 57.45098%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: borders, separators and icons. */
+  --nsw-blue-550: hsl(206.352941, 100%, 50%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: borders, separators and icons. */
+  --nsw-blue-600: hsl(217.339056, 98.312236%, 53.529412%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: borders, separators and icons. */
+  --nsw-blue-650: hsl(216.6, 89.285714%, 43.921569%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: borders, separators and icons. */
   --nsw-blue-700: hsl(216.071429, 94.382022%, 34.901961%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: Solid colors. */
   --nsw-blue-750: hsl(216.716418, 97.101449%, 27.058824%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: Solid colors. */
   --nsw-blue-800: hsl(217.2, 100%, 19.607843%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: Solid colors. */
-  --nsw-blue-850: hsl(219.74026, 100%, 15.098039%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 850: darkest shades for text and high emphasis. */
-  --nsw-blue-900: hsl(222.545455, 100%, 10.784314%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 900: darkest shades for text and high emphasis. */
-  --nsw-blue-950: hsl(229.411765, 100%, 6.666667%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 950: darkest shades for text and high emphasis. */
-  --nsw-purple-50: hsl(255, 100%, 98.431373%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-purple-100: hsl(248, 100%, 97.058824%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-purple-150: hsl(250.909091, 91.666667%, 95.294118%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-blue-850: hsl(219.74026, 100%, 15.098039%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 850: text and high emphasis. */
+  --nsw-blue-900: hsl(222.545455, 100%, 10.784314%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 900: text and high emphasis. */
+  --nsw-blue-950: hsl(229.411765, 100%, 6.666667%); /** NSW brand blue — masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 950: text and high emphasis. */
+  --nsw-purple-50: hsl(255, 100%, 98.431373%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces. */
+  --nsw-purple-100: hsl(248, 100%, 97.058824%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces. */
+  --nsw-purple-150: hsl(250.909091, 91.666667%, 95.294118%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces. */
   --nsw-purple-200: hsl(250.714286, 87.5%, 93.72549%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 200: Interactive components. */
   --nsw-purple-250: hsl(251.351351, 94.871795%, 92.352941%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 250: Interactive components. */
   --nsw-purple-300: hsl(253.043478, 95.833333%, 90.588235%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 300: Interactive components. */
   --nsw-purple-350: hsl(253.090909, 100%, 89.215686%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 350: Interactive components. */
   --nsw-purple-400: hsl(254.0625, 100%, 87.45098%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 400: Interactive components. */
-  --nsw-purple-450: hsl(253.953488, 93.478261%, 81.960784%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons. */
-  --nsw-purple-500: hsl(253.888889, 90%, 76.470588%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons. */
-  --nsw-purple-550: hsl(255.114504, 86.754967%, 70.392157%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons. */
-  --nsw-purple-600: hsl(256.538462, 84.782609%, 63.921569%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons. */
-  --nsw-purple-650: hsl(260.142857, 59.322034%, 53.72549%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons. */
+  --nsw-purple-450: hsl(253.953488, 93.478261%, 81.960784%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 450: borders, separators and icons. */
+  --nsw-purple-500: hsl(253.888889, 90%, 76.470588%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 500: borders, separators and icons. */
+  --nsw-purple-550: hsl(255.114504, 86.754967%, 70.392157%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 550: borders, separators and icons. */
+  --nsw-purple-600: hsl(256.538462, 84.782609%, 63.921569%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 600: borders, separators and icons. */
+  --nsw-purple-650: hsl(260.142857, 59.322034%, 53.72549%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 650: borders, separators and icons. */
   --nsw-purple-700: hsl(264.193548, 55.357143%, 43.921569%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 700: Solid colors. */
   --nsw-purple-750: hsl(268.073394, 62.285714%, 34.313725%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 750: Solid colors. */
   --nsw-purple-800: hsl(272.210526, 73.643411%, 25.294118%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 800: Solid colors. */
-  --nsw-purple-850: hsl(273.076923, 82.978723%, 18.431373%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis. */
-  --nsw-purple-900: hsl(273, 93.75%, 12.54902%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis. */
-  --nsw-purple-950: hsl(269.230769, 100%, 7.647059%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis. */
-  --nsw-fuchsia-50: hsl(313.333333, 100%, 98.235294%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-fuchsia-100: hsl(321.176471, 100%, 96.666667%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-fuchsia-150: hsl(320, 92.307692%, 94.901961%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-purple-850: hsl(273.076923, 82.978723%, 18.431373%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 850: text and high emphasis. */
+  --nsw-purple-900: hsl(273, 93.75%, 12.54902%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 900: text and high emphasis. */
+  --nsw-purple-950: hsl(269.230769, 100%, 7.647059%); /** NSW palette purple — accents, illustration, and data-visualisation support. Step 950: text and high emphasis. */
+  --nsw-fuchsia-50: hsl(313.333333, 100%, 98.235294%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 50: subtle backgrounds and surfaces. */
+  --nsw-fuchsia-100: hsl(321.176471, 100%, 96.666667%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 100: subtle backgrounds and surfaces. */
+  --nsw-fuchsia-150: hsl(320, 92.307692%, 94.901961%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 150: subtle backgrounds and surfaces. */
   --nsw-fuchsia-200: hsl(321.290323, 88.571429%, 93.137255%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: Interactive components. */
   --nsw-fuchsia-250: hsl(318.461538, 82.978723%, 90.784314%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: Interactive components. */
   --nsw-fuchsia-300: hsl(317.5, 80%, 88.235294%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: Interactive components. */
   --nsw-fuchsia-350: hsl(315, 77.777778%, 85.882353%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: Interactive components. */
   --nsw-fuchsia-400: hsl(313.333333, 74.117647%, 83.333333%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: Interactive components. */
-  --nsw-fuchsia-450: hsl(314.157303, 73.553719%, 76.27451%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: shades for borders, separators and icons. */
-  --nsw-fuchsia-500: hsl(315, 72.5%, 68.627451%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: shades for borders, separators and icons. */
-  --nsw-fuchsia-550: hsl(314.482759, 70.731707%, 59.803922%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: shades for borders, separators and icons. */
-  --nsw-fuchsia-600: hsl(312.964824, 84.680851%, 46.078431%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: shades for borders, separators and icons. */
-  --nsw-fuchsia-650: hsl(313.371429, 87.939698%, 39.019608%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: shades for borders, separators and icons. */
+  --nsw-fuchsia-450: hsl(314.157303, 73.553719%, 76.27451%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: borders, separators and icons. */
+  --nsw-fuchsia-500: hsl(315, 72.5%, 68.627451%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: borders, separators and icons. */
+  --nsw-fuchsia-550: hsl(314.482759, 70.731707%, 59.803922%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: borders, separators and icons. */
+  --nsw-fuchsia-600: hsl(312.964824, 84.680851%, 46.078431%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: borders, separators and icons. */
+  --nsw-fuchsia-650: hsl(313.371429, 87.939698%, 39.019608%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: borders, separators and icons. */
   --nsw-fuchsia-700: hsl(313.509934, 92.638037%, 31.960784%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: Solid colors. */
   --nsw-fuchsia-750: hsl(313.700787, 96.946565%, 25.686275%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: Solid colors. */
   --nsw-fuchsia-800: hsl(314.257426, 100%, 19.803922%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: Solid colors. */
-  --nsw-fuchsia-850: hsl(314.805195, 100%, 15.098039%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 850: darkest shades for text and high emphasis. */
-  --nsw-fuchsia-900: hsl(316.363636, 100%, 10.784314%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 900: darkest shades for text and high emphasis. */
-  --nsw-fuchsia-950: hsl(319.411765, 100%, 6.666667%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 950: darkest shades for text and high emphasis. */
-  --nsw-red-50: hsl(351.428571, 100%, 98.627451%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-red-100: hsl(350.769231, 100%, 97.45098%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-red-150: hsl(350.526316, 100%, 96.27451%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-fuchsia-850: hsl(314.805195, 100%, 15.098039%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 850: text and high emphasis. */
+  --nsw-fuchsia-900: hsl(316.363636, 100%, 10.784314%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 900: text and high emphasis. */
+  --nsw-fuchsia-950: hsl(319.411765, 100%, 6.666667%); /** NSW brand fuchsia — the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 950: text and high emphasis. */
+  --nsw-red-50: hsl(351.428571, 100%, 98.627451%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 50: subtle backgrounds and surfaces. */
+  --nsw-red-100: hsl(350.769231, 100%, 97.45098%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 100: subtle backgrounds and surfaces. */
+  --nsw-red-150: hsl(350.526316, 100%, 96.27451%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 150: subtle backgrounds and surfaces. */
   --nsw-red-200: hsl(350.4, 100%, 95.098039%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: Interactive components. */
   --nsw-red-250: hsl(351.666667, 100%, 92.941176%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: Interactive components. */
   --nsw-red-300: hsl(351.25, 100%, 90.588235%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: Interactive components. */
   --nsw-red-350: hsl(351.864407, 100%, 88.431373%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: Interactive components. */
   --nsw-red-400: hsl(352.394366, 100%, 86.078431%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: Interactive components. */
-  --nsw-red-450: hsl(353.195876, 87.387387%, 78.235294%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: shades for borders, separators and icons. */
-  --nsw-red-500: hsl(354.098361, 79.220779%, 69.803922%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: shades for borders, separators and icons. */
-  --nsw-red-550: hsl(353.557047, 73.399015%, 60.196078%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: shades for borders, separators and icons. */
-  --nsw-red-600: hsl(348.556701, 82.20339%, 46.27451%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: shades for borders, separators and icons. */
-  --nsw-red-650: hsl(347.368421, 85.929648%, 39.019608%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: shades for borders, separators and icons. */
+  --nsw-red-450: hsl(353.195876, 87.387387%, 78.235294%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: borders, separators and icons. */
+  --nsw-red-500: hsl(354.098361, 79.220779%, 69.803922%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: borders, separators and icons. */
+  --nsw-red-550: hsl(353.557047, 73.399015%, 60.196078%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: borders, separators and icons. */
+  --nsw-red-600: hsl(348.556701, 82.20339%, 46.27451%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: borders, separators and icons. */
+  --nsw-red-650: hsl(347.368421, 85.929648%, 39.019608%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: borders, separators and icons. */
   --nsw-red-700: hsl(345.810811, 91.358025%, 31.764706%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: Solid colors. */
   --nsw-red-750: hsl(344.878049, 95.348837%, 25.294118%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: Solid colors. */
   --nsw-red-800: hsl(344.848485, 100%, 19.411765%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: Solid colors. */
-  --nsw-red-850: hsl(347.368421, 100%, 14.901961%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 850: darkest shades for text and high emphasis. */
-  --nsw-red-900: hsl(351.111111, 100%, 10.588235%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 900: darkest shades for text and high emphasis. */
-  --nsw-red-950: hsl(354.545455, 100%, 6.470588%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 950: darkest shades for text and high emphasis. */
-  --nsw-orange-50: hsl(26.666667, 100%, 98.235294%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-orange-100: hsl(28.235294, 100%, 96.666667%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-orange-150: hsl(26.086957, 92%, 95.098039%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-red-850: hsl(347.368421, 100%, 14.901961%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 850: text and high emphasis. */
+  --nsw-red-900: hsl(351.111111, 100%, 10.588235%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 900: text and high emphasis. */
+  --nsw-red-950: hsl(354.545455, 100%, 6.470588%); /** NSW brand red — masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 950: text and high emphasis. */
+  --nsw-orange-50: hsl(26.666667, 100%, 98.235294%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 50: subtle backgrounds and surfaces. */
+  --nsw-orange-100: hsl(28.235294, 100%, 96.666667%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 100: subtle backgrounds and surfaces. */
+  --nsw-orange-150: hsl(26.086957, 92%, 95.098039%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 150: subtle backgrounds and surfaces. */
   --nsw-orange-200: hsl(28, 88.235294%, 93.333333%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: Interactive components. */
   --nsw-orange-250: hsl(28.75, 96%, 90.196078%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: Interactive components. */
   --nsw-orange-300: hsl(29.090909, 100%, 87.058824%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: Interactive components. */
   --nsw-orange-350: hsl(30.714286, 100%, 83.529412%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: Interactive components. */
   --nsw-orange-400: hsl(31.176471, 100%, 80%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: Interactive components. */
-  --nsw-orange-450: hsl(27.969925, 97.080292%, 73.137255%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: shades for borders, separators and icons. */
-  --nsw-orange-500: hsl(25.398773, 95.321637%, 66.470588%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: shades for borders, separators and icons. */
-  --nsw-orange-550: hsl(22.736842, 92.23301%, 59.607843%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: shades for borders, separators and icons. */
-  --nsw-orange-600: hsl(20, 90%, 52.941176%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: shades for borders, separators and icons. */
-  --nsw-orange-650: hsl(18.181818, 82.5%, 47.058824%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: shades for borders, separators and icons. */
+  --nsw-orange-450: hsl(27.969925, 97.080292%, 73.137255%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: borders, separators and icons. */
+  --nsw-orange-500: hsl(25.398773, 95.321637%, 66.470588%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: borders, separators and icons. */
+  --nsw-orange-550: hsl(22.736842, 92.23301%, 59.607843%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: borders, separators and icons. */
+  --nsw-orange-600: hsl(20, 90%, 52.941176%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: borders, separators and icons. */
+  --nsw-orange-650: hsl(18.181818, 82.5%, 47.058824%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: borders, separators and icons. */
   --nsw-orange-700: hsl(16.243094, 86.602871%, 40.980392%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: Solid colors. */
   --nsw-orange-750: hsl(14.545455, 93.220339%, 34.705882%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: Solid colors. */
   --nsw-orange-800: hsl(10.945946, 100%, 29.019608%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: Solid colors. */
-  --nsw-orange-850: hsl(7.826087, 100%, 22.54902%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 850: darkest shades for text and high emphasis. */
-  --nsw-orange-900: hsl(2.891566, 100%, 16.27451%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 900: darkest shades for text and high emphasis. */
-  --nsw-orange-950: hsl(0, 100%, 10.392157%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 950: darkest shades for text and high emphasis. */
-  --nsw-yellow-50: hsl(48, 100%, 97.058824%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-yellow-100: hsl(48.461538, 100%, 94.901961%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-yellow-150: hsl(47.027027, 100%, 92.745098%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-orange-850: hsl(7.826087, 100%, 22.54902%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 850: text and high emphasis. */
+  --nsw-orange-900: hsl(2.891566, 100%, 16.27451%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 900: text and high emphasis. */
+  --nsw-orange-950: hsl(0, 100%, 10.392157%); /** NSW palette orange — fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 950: text and high emphasis. */
+  --nsw-yellow-50: hsl(48, 100%, 97.058824%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 50: subtle backgrounds and surfaces. */
+  --nsw-yellow-100: hsl(48.461538, 100%, 94.901961%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 100: subtle backgrounds and surfaces. */
+  --nsw-yellow-150: hsl(47.027027, 100%, 92.745098%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 150: subtle backgrounds and surfaces. */
   --nsw-yellow-200: hsl(46.25, 100%, 90.588235%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: Interactive components. */
   --nsw-yellow-250: hsl(46.229508, 100%, 88.039216%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: Interactive components. */
   --nsw-yellow-300: hsl(46.849315, 97.333333%, 85.294118%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: Interactive components. */
   --nsw-yellow-350: hsl(46.046512, 97.727273%, 82.745098%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: Interactive components. */
   --nsw-yellow-400: hsl(46.666667, 96.116505%, 79.803922%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: Interactive components. */
-  --nsw-yellow-450: hsl(43.902439, 93.89313%, 74.313725%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: shades for borders, separators and icons. */
-  --nsw-yellow-500: hsl(42.119205, 93.78882%, 68.431373%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: shades for borders, separators and icons. */
-  --nsw-yellow-550: hsl(40.434783, 94.845361%, 61.960784%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: shades for borders, separators and icons. */
-  --nsw-yellow-600: hsl(41.632653, 96.078431%, 50%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: shades for borders, separators and icons. */
-  --nsw-yellow-650: hsl(41.626794, 97.209302%, 42.156863%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: shades for borders, separators and icons. */
+  --nsw-yellow-450: hsl(43.902439, 93.89313%, 74.313725%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: borders, separators and icons. */
+  --nsw-yellow-500: hsl(42.119205, 93.78882%, 68.431373%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: borders, separators and icons. */
+  --nsw-yellow-550: hsl(40.434783, 94.845361%, 61.960784%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: borders, separators and icons. */
+  --nsw-yellow-600: hsl(41.632653, 96.078431%, 50%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: borders, separators and icons. */
+  --nsw-yellow-650: hsl(41.626794, 97.209302%, 42.156863%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: borders, separators and icons. */
   --nsw-yellow-700: hsl(41.724138, 98.863636%, 34.509804%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: Solid colors. */
   --nsw-yellow-750: hsl(41.438849, 100%, 27.254902%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: Solid colors. */
   --nsw-yellow-800: hsl(41.142857, 100%, 20.588235%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: Solid colors. */
-  --nsw-yellow-850: hsl(39.75, 100%, 15.686275%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 850: darkest shades for text and high emphasis. */
-  --nsw-yellow-900: hsl(37.894737, 100%, 11.176471%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 900: darkest shades for text and high emphasis. */
-  --nsw-yellow-950: hsl(33.529412, 100%, 6.666667%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 950: darkest shades for text and high emphasis. */
-  --nsw-brown-50: hsl(34.285714, 46.666667%, 97.058824%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-brown-100: hsl(35, 40%, 94.117647%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-brown-150: hsl(31.764706, 39.534884%, 91.568627%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 150: lightest tints for subtle backgrounds and surfaces. */
+  --nsw-yellow-850: hsl(39.75, 100%, 15.686275%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 850: text and high emphasis. */
+  --nsw-yellow-900: hsl(37.894737, 100%, 11.176471%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 900: text and high emphasis. */
+  --nsw-yellow-950: hsl(33.529412, 100%, 6.666667%); /** NSW palette yellow — accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 950: text and high emphasis. */
+  --nsw-brown-50: hsl(34.285714, 46.666667%, 97.058824%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces. */
+  --nsw-brown-100: hsl(35, 40%, 94.117647%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces. */
+  --nsw-brown-150: hsl(31.764706, 39.534884%, 91.568627%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces. */
   --nsw-brown-200: hsl(32.727273, 37.931034%, 88.627451%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 200: Interactive components. */
   --nsw-brown-250: hsl(32, 44.117647%, 86.666667%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 250: Interactive components. */
   --nsw-brown-300: hsl(33.333333, 46.153846%, 84.705882%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 300: Interactive components. */
   --nsw-brown-350: hsl(32.727273, 50%, 82.745098%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 350: Interactive components. */
   --nsw-brown-400: hsl(31.764706, 52.57732%, 80.980392%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 400: Interactive components. */
-  --nsw-brown-450: hsl(32, 45.454545%, 74.117647%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 450: shades for borders, separators and icons. */
-  --nsw-brown-500: hsl(31.714286, 42.168675%, 67.45098%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 500: shades for borders, separators and icons. */
-  --nsw-brown-550: hsl(31.898734, 39.303483%, 60.588235%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 550: shades for borders, separators and icons. */
-  --nsw-brown-600: hsl(32.359551, 37.87234%, 53.921569%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 600: shades for borders, separators and icons. */
-  --nsw-brown-650: hsl(31.851852, 35.064935%, 45.294118%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 650: shades for borders, separators and icons. */
+  --nsw-brown-450: hsl(32, 45.454545%, 74.117647%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 450: borders, separators and icons. */
+  --nsw-brown-500: hsl(31.714286, 42.168675%, 67.45098%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 500: borders, separators and icons. */
+  --nsw-brown-550: hsl(31.898734, 39.303483%, 60.588235%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 550: borders, separators and icons. */
+  --nsw-brown-600: hsl(32.359551, 37.87234%, 53.921569%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 600: borders, separators and icons. */
+  --nsw-brown-650: hsl(31.851852, 35.064935%, 45.294118%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 650: borders, separators and icons. */
   --nsw-brown-700: hsl(31.666667, 38.297872%, 36.862745%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 700: Solid colors. */
   --nsw-brown-750: hsl(31.384615, 44.217687%, 28.823529%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 750: Solid colors. */
   --nsw-brown-800: hsl(31.578947, 53.271028%, 20.980392%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 800: Solid colors. */
-  --nsw-brown-850: hsl(31.914894, 61.038961%, 15.098039%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 850: darkest shades for text and high emphasis. */
-  --nsw-brown-900: hsl(31.666667, 72%, 9.803922%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 900: darkest shades for text and high emphasis. */
-  --nsw-brown-950: hsl(28.695652, 85.185185%, 5.294118%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-grey-50: hsl(30, 14.285714%, 97.254902%); /** NSW Aboriginal palette grey. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-grey-100: hsl(40, 10.344828%, 94.313725%); /** NSW Aboriginal palette grey. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-grey-150: hsl(40, 6.976744%, 91.568627%); /** NSW Aboriginal palette grey. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-grey-200: hsl(36, 8.77193%, 88.823529%); /** NSW Aboriginal palette Smoke Grey. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-grey-250: hsl(34.285714, 9.859155%, 86.078431%); /** NSW Aboriginal palette grey. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-grey-300: hsl(25.714286, 8.235294%, 83.333333%); /** NSW Aboriginal palette grey. Step 300: light tints. */
-  --nsw-aboriginal-grey-350: hsl(26.666667, 9.090909%, 80.588235%); /** NSW Aboriginal palette grey. Step 350: light tints. */
-  --nsw-aboriginal-grey-400: hsl(24, 8.928571%, 78.039216%); /** NSW Aboriginal palette Ash Grey. Step 400: light tints. */
-  --nsw-aboriginal-grey-450: hsl(22.5, 4.651163%, 66.27451%); /** NSW Aboriginal palette grey. Step 450: light tints. */
+  --nsw-brown-850: hsl(31.914894, 61.038961%, 15.098039%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 850: text and high emphasis. */
+  --nsw-brown-900: hsl(31.666667, 72%, 9.803922%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 900: text and high emphasis. */
+  --nsw-brown-950: hsl(28.695652, 85.185185%, 5.294118%); /** NSW palette brown — accents, illustration, and data-visualisation support. Step 950: text and high emphasis. */
+  --nsw-aboriginal-grey-50: hsl(30, 14.285714%, 97.254902%); /** NSW Aboriginal palette grey. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-100: hsl(40, 10.344828%, 94.313725%); /** NSW Aboriginal palette grey. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-150: hsl(40, 6.976744%, 91.568627%); /** NSW Aboriginal palette grey. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-200: hsl(36, 8.77193%, 88.823529%); /** NSW Aboriginal palette Smoke Grey. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-250: hsl(34.285714, 9.859155%, 86.078431%); /** NSW Aboriginal palette grey. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-grey-300: hsl(25.714286, 8.235294%, 83.333333%); /** NSW Aboriginal palette grey. Step 300: Interactive components. */
+  --nsw-aboriginal-grey-350: hsl(26.666667, 9.090909%, 80.588235%); /** NSW Aboriginal palette grey. Step 350: Interactive components. */
+  --nsw-aboriginal-grey-400: hsl(24, 8.928571%, 78.039216%); /** NSW Aboriginal palette Ash Grey. Step 400: Interactive components. */
+  --nsw-aboriginal-grey-450: hsl(22.5, 4.651163%, 66.27451%); /** NSW Aboriginal palette grey. Step 450: Interactive components. */
   --nsw-aboriginal-grey-500: hsl(15, 1.73913%, 54.901961%); /** NSW Aboriginal palette grey — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-grey-550: hsl(30, 0.892857%, 43.921569%); /** NSW Aboriginal palette grey. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-grey-600: hsl(0, 0%, 33.333333%); /** NSW Aboriginal palette Emu Grey. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-grey-650: hsl(0, 0%, 28.627451%); /** NSW Aboriginal palette grey. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-grey-700: hsl(0, 0%, 23.921569%); /** NSW Aboriginal palette grey. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-grey-750: hsl(0, 0%, 19.607843%); /** NSW Aboriginal palette grey. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-grey-800: hsl(0, 0%, 15.294118%); /** NSW Aboriginal palette Charcoal Grey. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-grey-850: hsl(0, 0%, 10.980392%); /** NSW Aboriginal palette grey. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-grey-900: hsl(0, 0%, 6.666667%); /** NSW Aboriginal palette grey. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-grey-950: hsl(0, 0%, 2.745098%); /** NSW Aboriginal palette grey. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-red-50: hsl(0, 100%, 98.039216%); /** NSW Aboriginal palette red. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-red-100: hsl(0, 100%, 96.078431%); /** NSW Aboriginal palette red. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-red-150: hsl(0, 93.333333%, 94.117647%); /** NSW Aboriginal palette red. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-red-200: hsl(0, 90%, 92.156863%); /** NSW Aboriginal palette Galah Pink. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-red-250: hsl(0, 91.836735%, 90.392157%); /** NSW Aboriginal palette red. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-red-300: hsl(1.111111, 90%, 88.235294%); /** NSW Aboriginal palette red. Step 300: light tints. */
-  --nsw-aboriginal-red-350: hsl(0, 91.304348%, 86.470588%); /** NSW Aboriginal palette red. Step 350: light tints. */
-  --nsw-aboriginal-red-400: hsl(0.833333, 90%, 84.313725%); /** NSW Aboriginal palette Coral Pink. Step 400: light tints. */
-  --nsw-aboriginal-red-450: hsl(1.8, 86.206897%, 77.254902%); /** NSW Aboriginal palette red. Step 450: light tints. */
+  --nsw-aboriginal-grey-550: hsl(30, 0.892857%, 43.921569%); /** NSW Aboriginal palette grey. Step 550: borders and icons. */
+  --nsw-aboriginal-grey-600: hsl(0, 0%, 33.333333%); /** NSW Aboriginal palette Emu Grey. Step 600: borders and icons. */
+  --nsw-aboriginal-grey-650: hsl(0, 0%, 28.627451%); /** NSW Aboriginal palette grey. Step 650: borders and icons. */
+  --nsw-aboriginal-grey-700: hsl(0, 0%, 23.921569%); /** NSW Aboriginal palette grey. Step 700: borders and icons. */
+  --nsw-aboriginal-grey-750: hsl(0, 0%, 19.607843%); /** NSW Aboriginal palette grey. Step 750: text and high emphasis. */
+  --nsw-aboriginal-grey-800: hsl(0, 0%, 15.294118%); /** NSW Aboriginal palette Charcoal Grey. Step 800: text and high emphasis. */
+  --nsw-aboriginal-grey-850: hsl(0, 0%, 10.980392%); /** NSW Aboriginal palette grey. Step 850: text and high emphasis. */
+  --nsw-aboriginal-grey-900: hsl(0, 0%, 6.666667%); /** NSW Aboriginal palette grey. Step 900: text and high emphasis. */
+  --nsw-aboriginal-grey-950: hsl(0, 0%, 2.745098%); /** NSW Aboriginal palette grey. Step 950: text and high emphasis. */
+  --nsw-aboriginal-red-50: hsl(0, 100%, 98.039216%); /** NSW Aboriginal palette red. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-100: hsl(0, 100%, 96.078431%); /** NSW Aboriginal palette red. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-150: hsl(0, 93.333333%, 94.117647%); /** NSW Aboriginal palette red. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-200: hsl(0, 90%, 92.156863%); /** NSW Aboriginal palette Galah Pink. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-250: hsl(0, 91.836735%, 90.392157%); /** NSW Aboriginal palette red. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-red-300: hsl(1.111111, 90%, 88.235294%); /** NSW Aboriginal palette red. Step 300: Interactive components. */
+  --nsw-aboriginal-red-350: hsl(0, 91.304348%, 86.470588%); /** NSW Aboriginal palette red. Step 350: Interactive components. */
+  --nsw-aboriginal-red-400: hsl(0.833333, 90%, 84.313725%); /** NSW Aboriginal palette Coral Pink. Step 400: Interactive components. */
+  --nsw-aboriginal-red-450: hsl(1.8, 86.206897%, 77.254902%); /** NSW Aboriginal palette red. Step 450: Interactive components. */
   --nsw-aboriginal-red-500: hsl(2.790698, 83.225806%, 69.607843%); /** NSW Aboriginal palette red — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-red-550: hsl(3.417722, 79%, 60.784314%); /** NSW Aboriginal palette red. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-red-600: hsl(3.045685, 77.865613%, 49.607843%); /** NSW Aboriginal palette Ember Red. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-red-650: hsl(2.637363, 79.824561%, 44.705882%); /** NSW Aboriginal palette red. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-red-700: hsl(2.485207, 83.251232%, 39.803922%); /** NSW Aboriginal palette red. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-red-750: hsl(2.307692, 87.640449%, 34.901961%); /** NSW Aboriginal palette red. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-red-800: hsl(1.258741, 92.258065%, 30.392157%); /** NSW Aboriginal palette Earth Red. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-red-850: hsl(359.482759, 100%, 22.745098%); /** NSW Aboriginal palette red. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-red-900: hsl(0, 100%, 16.470588%); /** NSW Aboriginal palette red. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-red-950: hsl(0, 100%, 10.588235%); /** NSW Aboriginal palette red. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-orange-50: hsl(25.263158, 100%, 96.27451%); /** NSW Aboriginal palette orange. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-orange-100: hsl(21.818182, 94.285714%, 93.137255%); /** NSW Aboriginal palette orange. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-orange-150: hsl(22.978723, 88.679245%, 89.607843%); /** NSW Aboriginal palette orange. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-orange-200: hsl(22.372881, 83.098592%, 86.078431%); /** NSW Aboriginal palette Sunset Orange. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-orange-250: hsl(22.702703, 84.090909%, 82.745098%); /** NSW Aboriginal palette orange. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-orange-300: hsl(22.247191, 84.761905%, 79.411765%); /** NSW Aboriginal palette orange. Step 300: light tints. */
-  --nsw-aboriginal-orange-350: hsl(22.5, 85.245902%, 76.078431%); /** NSW Aboriginal palette orange. Step 350: light tints. */
-  --nsw-aboriginal-orange-400: hsl(22.689076, 84.397163%, 72.352941%); /** NSW Aboriginal palette Clay Orange. Step 400: light tints. */
-  --nsw-aboriginal-orange-450: hsl(22.12766, 85.454545%, 67.647059%); /** NSW Aboriginal palette orange. Step 450: light tints. */
+  --nsw-aboriginal-red-550: hsl(3.417722, 79%, 60.784314%); /** NSW Aboriginal palette red. Step 550: borders and icons. */
+  --nsw-aboriginal-red-600: hsl(3.045685, 77.865613%, 49.607843%); /** NSW Aboriginal palette Ember Red. Step 600: borders and icons. */
+  --nsw-aboriginal-red-650: hsl(2.637363, 79.824561%, 44.705882%); /** NSW Aboriginal palette red. Step 650: borders and icons. */
+  --nsw-aboriginal-red-700: hsl(2.485207, 83.251232%, 39.803922%); /** NSW Aboriginal palette red. Step 700: borders and icons. */
+  --nsw-aboriginal-red-750: hsl(2.307692, 87.640449%, 34.901961%); /** NSW Aboriginal palette red. Step 750: text and high emphasis. */
+  --nsw-aboriginal-red-800: hsl(1.258741, 92.258065%, 30.392157%); /** NSW Aboriginal palette Earth Red. Step 800: text and high emphasis. */
+  --nsw-aboriginal-red-850: hsl(359.482759, 100%, 22.745098%); /** NSW Aboriginal palette red. Step 850: text and high emphasis. */
+  --nsw-aboriginal-red-900: hsl(0, 100%, 16.470588%); /** NSW Aboriginal palette red. Step 900: text and high emphasis. */
+  --nsw-aboriginal-red-950: hsl(0, 100%, 10.588235%); /** NSW Aboriginal palette red. Step 950: text and high emphasis. */
+  --nsw-aboriginal-orange-50: hsl(25.263158, 100%, 96.27451%); /** NSW Aboriginal palette orange. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-100: hsl(21.818182, 94.285714%, 93.137255%); /** NSW Aboriginal palette orange. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-150: hsl(22.978723, 88.679245%, 89.607843%); /** NSW Aboriginal palette orange. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-200: hsl(22.372881, 83.098592%, 86.078431%); /** NSW Aboriginal palette Sunset Orange. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-250: hsl(22.702703, 84.090909%, 82.745098%); /** NSW Aboriginal palette orange. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-orange-300: hsl(22.247191, 84.761905%, 79.411765%); /** NSW Aboriginal palette orange. Step 300: Interactive components. */
+  --nsw-aboriginal-orange-350: hsl(22.5, 85.245902%, 76.078431%); /** NSW Aboriginal palette orange. Step 350: Interactive components. */
+  --nsw-aboriginal-orange-400: hsl(22.689076, 84.397163%, 72.352941%); /** NSW Aboriginal palette Clay Orange. Step 400: Interactive components. */
+  --nsw-aboriginal-orange-450: hsl(22.12766, 85.454545%, 67.647059%); /** NSW Aboriginal palette orange. Step 450: Interactive components. */
   --nsw-aboriginal-orange-500: hsl(21.349693, 86.243386%, 62.941176%); /** NSW Aboriginal palette orange — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-orange-550: hsl(20.967742, 86.111111%, 57.647059%); /** NSW Aboriginal palette orange. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-orange-600: hsl(21.743119, 86.507937%, 50.588235%); /** NSW Aboriginal palette Orange Ochre. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-orange-650: hsl(20.510204, 85.964912%, 44.705882%); /** NSW Aboriginal palette orange. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-orange-700: hsl(19.772727, 89.795918%, 38.431373%); /** NSW Aboriginal palette orange. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-orange-750: hsl(18.461538, 93.975904%, 32.54902%); /** NSW Aboriginal palette orange. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-orange-800: hsl(16.764706, 100%, 26.666667%); /** NSW Aboriginal palette Deep Orange. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-orange-850: hsl(14.285714, 100%, 20.588235%); /** NSW Aboriginal palette orange. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-orange-900: hsl(10.263158, 100%, 14.901961%); /** NSW Aboriginal palette orange. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-orange-950: hsl(3.75, 100%, 9.411765%); /** NSW Aboriginal palette orange. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-brown-50: hsl(25.263158, 76%, 95.098039%); /** NSW Aboriginal palette brown. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-brown-100: hsl(23.225806, 63.265306%, 90.392157%); /** NSW Aboriginal palette brown. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-brown-150: hsl(23.72093, 57.333333%, 85.294118%); /** NSW Aboriginal palette brown. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-brown-200: hsl(24, 55.555556%, 80.588235%); /** NSW Aboriginal palette Macadamia Brown. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-brown-250: hsl(23.478261, 56.097561%, 75.882353%); /** NSW Aboriginal palette brown. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-brown-300: hsl(24.146341, 55.405405%, 70.980392%); /** NSW Aboriginal palette brown. Step 300: light tints. */
-  --nsw-aboriginal-brown-350: hsl(24.123711, 56.069364%, 66.078431%); /** NSW Aboriginal palette brown. Step 350: light tints. */
-  --nsw-aboriginal-brown-400: hsl(24, 55.555556%, 61.176471%); /** NSW Aboriginal palette Claystone Brown. Step 400: light tints. */
-  --nsw-aboriginal-brown-450: hsl(22.363636, 49.107143%, 56.078431%); /** NSW Aboriginal palette brown. Step 450: light tints. */
+  --nsw-aboriginal-orange-550: hsl(20.967742, 86.111111%, 57.647059%); /** NSW Aboriginal palette orange. Step 550: borders and icons. */
+  --nsw-aboriginal-orange-600: hsl(21.743119, 86.507937%, 50.588235%); /** NSW Aboriginal palette Orange Ochre. Step 600: borders and icons. */
+  --nsw-aboriginal-orange-650: hsl(20.510204, 85.964912%, 44.705882%); /** NSW Aboriginal palette orange. Step 650: borders and icons. */
+  --nsw-aboriginal-orange-700: hsl(19.772727, 89.795918%, 38.431373%); /** NSW Aboriginal palette orange. Step 700: borders and icons. */
+  --nsw-aboriginal-orange-750: hsl(18.461538, 93.975904%, 32.54902%); /** NSW Aboriginal palette orange. Step 750: text and high emphasis. */
+  --nsw-aboriginal-orange-800: hsl(16.764706, 100%, 26.666667%); /** NSW Aboriginal palette Deep Orange. Step 800: text and high emphasis. */
+  --nsw-aboriginal-orange-850: hsl(14.285714, 100%, 20.588235%); /** NSW Aboriginal palette orange. Step 850: text and high emphasis. */
+  --nsw-aboriginal-orange-900: hsl(10.263158, 100%, 14.901961%); /** NSW Aboriginal palette orange. Step 900: text and high emphasis. */
+  --nsw-aboriginal-orange-950: hsl(3.75, 100%, 9.411765%); /** NSW Aboriginal palette orange. Step 950: text and high emphasis. */
+  --nsw-aboriginal-brown-50: hsl(25.263158, 76%, 95.098039%); /** NSW Aboriginal palette brown. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-100: hsl(23.225806, 63.265306%, 90.392157%); /** NSW Aboriginal palette brown. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-150: hsl(23.72093, 57.333333%, 85.294118%); /** NSW Aboriginal palette brown. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-200: hsl(24, 55.555556%, 80.588235%); /** NSW Aboriginal palette Macadamia Brown. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-250: hsl(23.478261, 56.097561%, 75.882353%); /** NSW Aboriginal palette brown. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-brown-300: hsl(24.146341, 55.405405%, 70.980392%); /** NSW Aboriginal palette brown. Step 300: Interactive components. */
+  --nsw-aboriginal-brown-350: hsl(24.123711, 56.069364%, 66.078431%); /** NSW Aboriginal palette brown. Step 350: Interactive components. */
+  --nsw-aboriginal-brown-400: hsl(24, 55.555556%, 61.176471%); /** NSW Aboriginal palette Claystone Brown. Step 400: Interactive components. */
+  --nsw-aboriginal-brown-450: hsl(22.363636, 49.107143%, 56.078431%); /** NSW Aboriginal palette brown. Step 450: Interactive components. */
   --nsw-aboriginal-brown-500: hsl(21.272727, 44%, 50.980392%); /** NSW Aboriginal palette brown — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-brown-550: hsl(19.816514, 46.781116%, 45.686275%); /** NSW Aboriginal palette brown. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-brown-600: hsl(18.333333, 51.923077%, 40.784314%); /** NSW Aboriginal palette Firewood Brown. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-brown-650: hsl(18.6, 56.179775%, 34.901961%); /** NSW Aboriginal palette brown. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-brown-700: hsl(18.709677, 62.416107%, 29.215686%); /** NSW Aboriginal palette brown. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-brown-750: hsl(20, 73.109244%, 23.333333%); /** NSW Aboriginal palette brown. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-brown-800: hsl(21, 88.888889%, 17.647059%); /** NSW Aboriginal palette Riverbed Brown. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-brown-850: hsl(19.047619, 94.029851%, 13.137255%); /** NSW Aboriginal palette brown. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-brown-900: hsl(16, 100%, 8.823529%); /** NSW Aboriginal palette brown. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-brown-950: hsl(8.888889, 100%, 5.294118%); /** NSW Aboriginal palette brown. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-yellow-50: hsl(49.411765, 100%, 96.666667%); /** NSW Aboriginal palette yellow. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-yellow-100: hsl(46.451613, 100%, 93.921569%); /** NSW Aboriginal palette yellow. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-yellow-150: hsl(46.363636, 100%, 91.372549%); /** NSW Aboriginal palette yellow. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-yellow-200: hsl(45.517241, 100%, 88.627451%); /** NSW Aboriginal palette Sunbeam Yellow. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-yellow-250: hsl(45.833333, 100%, 85.882353%); /** NSW Aboriginal palette yellow. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-yellow-300: hsl(46.046512, 100%, 83.137255%); /** NSW Aboriginal palette yellow. Step 300: light tints. */
-  --nsw-aboriginal-yellow-350: hsl(46.060606, 98.019802%, 80.196078%); /** NSW Aboriginal palette yellow. Step 350: light tints. */
-  --nsw-aboriginal-yellow-400: hsl(46.315789, 98.275862%, 77.254902%); /** NSW Aboriginal palette Golden Wattle Yellow. Step 400: light tints. */
-  --nsw-aboriginal-yellow-450: hsl(42.481752, 98.561151%, 72.745098%); /** NSW Aboriginal palette yellow. Step 450: light tints. */
+  --nsw-aboriginal-brown-550: hsl(19.816514, 46.781116%, 45.686275%); /** NSW Aboriginal palette brown. Step 550: borders and icons. */
+  --nsw-aboriginal-brown-600: hsl(18.333333, 51.923077%, 40.784314%); /** NSW Aboriginal palette Firewood Brown. Step 600: borders and icons. */
+  --nsw-aboriginal-brown-650: hsl(18.6, 56.179775%, 34.901961%); /** NSW Aboriginal palette brown. Step 650: borders and icons. */
+  --nsw-aboriginal-brown-700: hsl(18.709677, 62.416107%, 29.215686%); /** NSW Aboriginal palette brown. Step 700: borders and icons. */
+  --nsw-aboriginal-brown-750: hsl(20, 73.109244%, 23.333333%); /** NSW Aboriginal palette brown. Step 750: text and high emphasis. */
+  --nsw-aboriginal-brown-800: hsl(21, 88.888889%, 17.647059%); /** NSW Aboriginal palette Riverbed Brown. Step 800: text and high emphasis. */
+  --nsw-aboriginal-brown-850: hsl(19.047619, 94.029851%, 13.137255%); /** NSW Aboriginal palette brown. Step 850: text and high emphasis. */
+  --nsw-aboriginal-brown-900: hsl(16, 100%, 8.823529%); /** NSW Aboriginal palette brown. Step 900: text and high emphasis. */
+  --nsw-aboriginal-brown-950: hsl(8.888889, 100%, 5.294118%); /** NSW Aboriginal palette brown. Step 950: text and high emphasis. */
+  --nsw-aboriginal-yellow-50: hsl(49.411765, 100%, 96.666667%); /** NSW Aboriginal palette yellow. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-100: hsl(46.451613, 100%, 93.921569%); /** NSW Aboriginal palette yellow. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-150: hsl(46.363636, 100%, 91.372549%); /** NSW Aboriginal palette yellow. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-200: hsl(45.517241, 100%, 88.627451%); /** NSW Aboriginal palette Sunbeam Yellow. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-250: hsl(45.833333, 100%, 85.882353%); /** NSW Aboriginal palette yellow. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-yellow-300: hsl(46.046512, 100%, 83.137255%); /** NSW Aboriginal palette yellow. Step 300: Interactive components. */
+  --nsw-aboriginal-yellow-350: hsl(46.060606, 98.019802%, 80.196078%); /** NSW Aboriginal palette yellow. Step 350: Interactive components. */
+  --nsw-aboriginal-yellow-400: hsl(46.315789, 98.275862%, 77.254902%); /** NSW Aboriginal palette Golden Wattle Yellow. Step 400: Interactive components. */
+  --nsw-aboriginal-yellow-450: hsl(42.481752, 98.561151%, 72.745098%); /** NSW Aboriginal palette yellow. Step 450: Interactive components. */
   --nsw-aboriginal-yellow-500: hsl(39.875776, 98.773006%, 68.039216%); /** NSW Aboriginal palette yellow — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-yellow-550: hsl(37.741935, 98.93617%, 63.137255%); /** NSW Aboriginal palette yellow. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-yellow-600: hsl(36.27907, 99.078341%, 57.45098%); /** NSW Aboriginal palette Sandstone Yellow. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-yellow-650: hsl(37.538462, 77.689243%, 49.215686%); /** NSW Aboriginal palette yellow. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-yellow-700: hsl(38.742857, 82.938389%, 41.372549%); /** NSW Aboriginal palette yellow. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-yellow-750: hsl(39.873418, 91.860465%, 33.72549%); /** NSW Aboriginal palette yellow. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-yellow-800: hsl(41.167883, 100%, 26.862745%); /** NSW Aboriginal palette Bush Honey Yellow. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-yellow-850: hsl(40.571429, 100%, 20.588235%); /** NSW Aboriginal palette yellow. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-yellow-900: hsl(37.894737, 100%, 14.901961%); /** NSW Aboriginal palette yellow. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-yellow-950: hsl(35.744681, 100%, 9.215686%); /** NSW Aboriginal palette yellow. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-green-50: hsl(94.285714, 36.842105%, 96.27451%); /** NSW Aboriginal palette green. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-green-100: hsl(95, 33.333333%, 92.941176%); /** NSW Aboriginal palette green. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-green-150: hsl(93.75, 29.62963%, 89.411765%); /** NSW Aboriginal palette green. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-green-200: hsl(94.285714, 29.577465%, 86.078431%); /** NSW Aboriginal palette Saltbush Green. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-green-250: hsl(94.615385, 29.545455%, 82.745098%); /** NSW Aboriginal palette green. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-green-300: hsl(94.83871, 28.971963%, 79.019608%); /** NSW Aboriginal palette green. Step 300: light tints. */
-  --nsw-aboriginal-green-350: hsl(95, 29.032258%, 75.686275%); /** NSW Aboriginal palette green. Step 350: light tints. */
-  --nsw-aboriginal-green-400: hsl(95.121951, 29.078014%, 72.352941%); /** NSW Aboriginal palette Gumleaf Green. Step 400: light tints. */
-  --nsw-aboriginal-green-450: hsl(93.461538, 29.885057%, 65.882353%); /** NSW Aboriginal palette green. Step 450: light tints. */
+  --nsw-aboriginal-yellow-550: hsl(37.741935, 98.93617%, 63.137255%); /** NSW Aboriginal palette yellow. Step 550: borders and icons. */
+  --nsw-aboriginal-yellow-600: hsl(36.27907, 99.078341%, 57.45098%); /** NSW Aboriginal palette Sandstone Yellow. Step 600: borders and icons. */
+  --nsw-aboriginal-yellow-650: hsl(37.538462, 77.689243%, 49.215686%); /** NSW Aboriginal palette yellow. Step 650: borders and icons. */
+  --nsw-aboriginal-yellow-700: hsl(38.742857, 82.938389%, 41.372549%); /** NSW Aboriginal palette yellow. Step 700: borders and icons. */
+  --nsw-aboriginal-yellow-750: hsl(39.873418, 91.860465%, 33.72549%); /** NSW Aboriginal palette yellow. Step 750: text and high emphasis. */
+  --nsw-aboriginal-yellow-800: hsl(41.167883, 100%, 26.862745%); /** NSW Aboriginal palette Bush Honey Yellow. Step 800: text and high emphasis. */
+  --nsw-aboriginal-yellow-850: hsl(40.571429, 100%, 20.588235%); /** NSW Aboriginal palette yellow. Step 850: text and high emphasis. */
+  --nsw-aboriginal-yellow-900: hsl(37.894737, 100%, 14.901961%); /** NSW Aboriginal palette yellow. Step 900: text and high emphasis. */
+  --nsw-aboriginal-yellow-950: hsl(35.744681, 100%, 9.215686%); /** NSW Aboriginal palette yellow. Step 950: text and high emphasis. */
+  --nsw-aboriginal-green-50: hsl(94.285714, 36.842105%, 96.27451%); /** NSW Aboriginal palette green. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-100: hsl(95, 33.333333%, 92.941176%); /** NSW Aboriginal palette green. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-150: hsl(93.75, 29.62963%, 89.411765%); /** NSW Aboriginal palette green. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-200: hsl(94.285714, 29.577465%, 86.078431%); /** NSW Aboriginal palette Saltbush Green. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-250: hsl(94.615385, 29.545455%, 82.745098%); /** NSW Aboriginal palette green. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-green-300: hsl(94.83871, 28.971963%, 79.019608%); /** NSW Aboriginal palette green. Step 300: Interactive components. */
+  --nsw-aboriginal-green-350: hsl(95, 29.032258%, 75.686275%); /** NSW Aboriginal palette green. Step 350: Interactive components. */
+  --nsw-aboriginal-green-400: hsl(95.121951, 29.078014%, 72.352941%); /** NSW Aboriginal palette Gumleaf Green. Step 400: Interactive components. */
+  --nsw-aboriginal-green-450: hsl(93.461538, 29.885057%, 65.882353%); /** NSW Aboriginal palette green. Step 450: Interactive components. */
   --nsw-aboriginal-green-500: hsl(91.875, 30.769231%, 59.215686%); /** NSW Aboriginal palette green — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-green-550: hsl(90, 31.404959%, 52.54902%); /** NSW Aboriginal palette green. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-green-600: hsl(87.032967, 39.393939%, 45.294118%); /** NSW Aboriginal palette Marshland Lime. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-green-650: hsl(98.4, 35.545024%, 41.372549%); /** NSW Aboriginal palette green. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-green-700: hsl(111.147541, 32.275132%, 37.058824%); /** NSW Aboriginal palette green. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-green-750: hsl(127.777778, 34.177215%, 30.980392%); /** NSW Aboriginal palette green. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-green-800: hsl(140.727273, 45.454545%, 23.72549%); /** NSW Aboriginal palette Bushland Green. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-green-850: hsl(141.333333, 51.724138%, 17.058824%); /** NSW Aboriginal palette green. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-green-900: hsl(141.666667, 64.285714%, 10.980392%); /** NSW Aboriginal palette green. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-green-950: hsl(139.2, 86.206897%, 5.686275%); /** NSW Aboriginal palette green. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-blue-50: hsl(190, 54.545455%, 95.686275%); /** NSW Aboriginal palette blue. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-blue-100: hsl(188.571429, 48.837209%, 91.568627%); /** NSW Aboriginal palette blue. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-blue-150: hsl(190, 46.875%, 87.45098%); /** NSW Aboriginal palette blue. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-blue-200: hsl(189.230769, 45.882353%, 83.333333%); /** NSW Aboriginal palette Coastal Blue. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-blue-250: hsl(188.75, 45.283019%, 79.215686%); /** NSW Aboriginal palette blue. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-blue-300: hsl(188.421053, 44.88189%, 75.098039%); /** NSW Aboriginal palette blue. Step 300: light tints. */
-  --nsw-aboriginal-blue-350: hsl(189.850746, 45.578231%, 71.176471%); /** NSW Aboriginal palette blue. Step 350: light tints. */
-  --nsw-aboriginal-blue-400: hsl(189.350649, 45.56213%, 66.862745%); /** NSW Aboriginal palette Light Water Blue. Step 400: light tints. */
-  --nsw-aboriginal-blue-450: hsl(192.134831, 41.395349%, 57.843137%); /** NSW Aboriginal palette blue. Step 450: light tints. */
+  --nsw-aboriginal-green-550: hsl(90, 31.404959%, 52.54902%); /** NSW Aboriginal palette green. Step 550: borders and icons. */
+  --nsw-aboriginal-green-600: hsl(87.032967, 39.393939%, 45.294118%); /** NSW Aboriginal palette Marshland Lime. Step 600: borders and icons. */
+  --nsw-aboriginal-green-650: hsl(98.4, 35.545024%, 41.372549%); /** NSW Aboriginal palette green. Step 650: borders and icons. */
+  --nsw-aboriginal-green-700: hsl(111.147541, 32.275132%, 37.058824%); /** NSW Aboriginal palette green. Step 700: borders and icons. */
+  --nsw-aboriginal-green-750: hsl(127.777778, 34.177215%, 30.980392%); /** NSW Aboriginal palette green. Step 750: text and high emphasis. */
+  --nsw-aboriginal-green-800: hsl(140.727273, 45.454545%, 23.72549%); /** NSW Aboriginal palette Bushland Green. Step 800: text and high emphasis. */
+  --nsw-aboriginal-green-850: hsl(141.333333, 51.724138%, 17.058824%); /** NSW Aboriginal palette green. Step 850: text and high emphasis. */
+  --nsw-aboriginal-green-900: hsl(141.666667, 64.285714%, 10.980392%); /** NSW Aboriginal palette green. Step 900: text and high emphasis. */
+  --nsw-aboriginal-green-950: hsl(139.2, 86.206897%, 5.686275%); /** NSW Aboriginal palette green. Step 950: text and high emphasis. */
+  --nsw-aboriginal-blue-50: hsl(190, 54.545455%, 95.686275%); /** NSW Aboriginal palette blue. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-100: hsl(188.571429, 48.837209%, 91.568627%); /** NSW Aboriginal palette blue. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-150: hsl(190, 46.875%, 87.45098%); /** NSW Aboriginal palette blue. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-200: hsl(189.230769, 45.882353%, 83.333333%); /** NSW Aboriginal palette Coastal Blue. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-250: hsl(188.75, 45.283019%, 79.215686%); /** NSW Aboriginal palette blue. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-blue-300: hsl(188.421053, 44.88189%, 75.098039%); /** NSW Aboriginal palette blue. Step 300: Interactive components. */
+  --nsw-aboriginal-blue-350: hsl(189.850746, 45.578231%, 71.176471%); /** NSW Aboriginal palette blue. Step 350: Interactive components. */
+  --nsw-aboriginal-blue-400: hsl(189.350649, 45.56213%, 66.862745%); /** NSW Aboriginal palette Light Water Blue. Step 400: Interactive components. */
+  --nsw-aboriginal-blue-450: hsl(192.134831, 41.395349%, 57.843137%); /** NSW Aboriginal palette blue. Step 450: Interactive components. */
   --nsw-aboriginal-blue-500: hsl(195.294118, 40.8%, 49.019608%); /** NSW Aboriginal palette blue — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-blue-550: hsl(197.73913, 55.555556%, 40.588235%); /** NSW Aboriginal palette blue. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-blue-600: hsl(199.090909, 83.544304%, 30.980392%); /** NSW Aboriginal palette Saltwater Blue. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-blue-650: hsl(199.02439, 87.234043%, 27.647059%); /** NSW Aboriginal palette blue. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-blue-700: hsl(198.947368, 91.935484%, 24.313725%); /** NSW Aboriginal palette blue. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-blue-750: hsl(199.038462, 96.296296%, 21.176471%); /** NSW Aboriginal palette blue. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-blue-800: hsl(199.148936, 100%, 18.431373%); /** NSW Aboriginal palette Billabong Blue. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-blue-850: hsl(200.833333, 100%, 14.117647%); /** NSW Aboriginal palette blue. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-blue-900: hsl(202.352941, 100%, 10%); /** NSW Aboriginal palette blue. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-blue-950: hsl(207.096774, 100%, 6.078431%); /** NSW Aboriginal palette blue. Step 950: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-purple-50: hsl(313.333333, 47.368421%, 96.27451%); /** NSW Aboriginal palette purple. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-purple-100: hsl(309.230769, 33.333333%, 92.352941%); /** NSW Aboriginal palette purple. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-purple-150: hsl(309.473684, 32.20339%, 88.431373%); /** NSW Aboriginal palette purple. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-purple-200: hsl(310, 30.769231%, 84.705882%); /** NSW Aboriginal palette Dusk Purple. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-purple-250: hsl(310, 30.612245%, 80.784314%); /** NSW Aboriginal palette purple. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --nsw-aboriginal-purple-300: hsl(310, 31.034483%, 77.254902%); /** NSW Aboriginal palette purple. Step 300: light tints. */
-  --nsw-aboriginal-purple-350: hsl(310, 30.882353%, 73.333333%); /** NSW Aboriginal palette purple. Step 350: light tints. */
-  --nsw-aboriginal-purple-400: hsl(308.93617, 30.322581%, 69.607843%); /** NSW Aboriginal palette Lilli Pilli Purple. Step 400: light tints. */
-  --nsw-aboriginal-purple-450: hsl(308.4, 27.472527%, 64.313725%); /** NSW Aboriginal palette purple. Step 450: light tints. */
+  --nsw-aboriginal-blue-550: hsl(197.73913, 55.555556%, 40.588235%); /** NSW Aboriginal palette blue. Step 550: borders and icons. */
+  --nsw-aboriginal-blue-600: hsl(199.090909, 83.544304%, 30.980392%); /** NSW Aboriginal palette Saltwater Blue. Step 600: borders and icons. */
+  --nsw-aboriginal-blue-650: hsl(199.02439, 87.234043%, 27.647059%); /** NSW Aboriginal palette blue. Step 650: borders and icons. */
+  --nsw-aboriginal-blue-700: hsl(198.947368, 91.935484%, 24.313725%); /** NSW Aboriginal palette blue. Step 700: borders and icons. */
+  --nsw-aboriginal-blue-750: hsl(199.038462, 96.296296%, 21.176471%); /** NSW Aboriginal palette blue. Step 750: text and high emphasis. */
+  --nsw-aboriginal-blue-800: hsl(199.148936, 100%, 18.431373%); /** NSW Aboriginal palette Billabong Blue. Step 800: text and high emphasis. */
+  --nsw-aboriginal-blue-850: hsl(200.833333, 100%, 14.117647%); /** NSW Aboriginal palette blue. Step 850: text and high emphasis. */
+  --nsw-aboriginal-blue-900: hsl(202.352941, 100%, 10%); /** NSW Aboriginal palette blue. Step 900: text and high emphasis. */
+  --nsw-aboriginal-blue-950: hsl(207.096774, 100%, 6.078431%); /** NSW Aboriginal palette blue. Step 950: text and high emphasis. */
+  --nsw-aboriginal-purple-50: hsl(313.333333, 47.368421%, 96.27451%); /** NSW Aboriginal palette purple. Step 50: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-100: hsl(309.230769, 33.333333%, 92.352941%); /** NSW Aboriginal palette purple. Step 100: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-150: hsl(309.473684, 32.20339%, 88.431373%); /** NSW Aboriginal palette purple. Step 150: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-200: hsl(310, 30.769231%, 84.705882%); /** NSW Aboriginal palette Dusk Purple. Step 200: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-250: hsl(310, 30.612245%, 80.784314%); /** NSW Aboriginal palette purple. Step 250: subtle backgrounds and surfaces. */
+  --nsw-aboriginal-purple-300: hsl(310, 31.034483%, 77.254902%); /** NSW Aboriginal palette purple. Step 300: Interactive components. */
+  --nsw-aboriginal-purple-350: hsl(310, 30.882353%, 73.333333%); /** NSW Aboriginal palette purple. Step 350: Interactive components. */
+  --nsw-aboriginal-purple-400: hsl(308.93617, 30.322581%, 69.607843%); /** NSW Aboriginal palette Lilli Pilli Purple. Step 400: Interactive components. */
+  --nsw-aboriginal-purple-450: hsl(308.4, 27.472527%, 64.313725%); /** NSW Aboriginal palette purple. Step 450: Interactive components. */
   --nsw-aboriginal-purple-500: hsl(307.924528, 25.358852%, 59.019608%); /** NSW Aboriginal palette purple — part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone. */
-  --nsw-aboriginal-purple-550: hsl(307.368421, 24.255319%, 53.921569%); /** NSW Aboriginal palette purple. Step 550: shades for borders and icons. */
-  --nsw-aboriginal-purple-600: hsl(307, 24.193548%, 48.627451%); /** NSW Aboriginal palette Spirit Lilac. Step 600: shades for borders and icons. */
-  --nsw-aboriginal-purple-650: hsl(306.792453, 25.118483%, 41.372549%); /** NSW Aboriginal palette purple. Step 650: shades for borders and icons. */
-  --nsw-aboriginal-purple-700: hsl(307.826087, 26.136364%, 34.509804%); /** NSW Aboriginal palette purple. Step 700: shades for borders and icons. */
-  --nsw-aboriginal-purple-750: hsl(309, 28.169014%, 27.843137%); /** NSW Aboriginal palette purple. Step 750: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-purple-800: hsl(309.090909, 30.275229%, 21.372549%); /** NSW Aboriginal palette Bush Plum. Step 800: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-purple-850: hsl(308.888889, 34.177215%, 15.490196%); /** NSW Aboriginal palette purple. Step 850: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-purple-900: hsl(309, 38.461538%, 10.196078%); /** NSW Aboriginal palette purple. Step 900: darkest shades for text and high emphasis. */
-  --nsw-aboriginal-purple-950: hsl(312, 55.555556%, 5.294118%); /** NSW Aboriginal palette purple. Step 950: darkest shades for text and high emphasis. */
+  --nsw-aboriginal-purple-550: hsl(307.368421, 24.255319%, 53.921569%); /** NSW Aboriginal palette purple. Step 550: borders and icons. */
+  --nsw-aboriginal-purple-600: hsl(307, 24.193548%, 48.627451%); /** NSW Aboriginal palette Spirit Lilac. Step 600: borders and icons. */
+  --nsw-aboriginal-purple-650: hsl(306.792453, 25.118483%, 41.372549%); /** NSW Aboriginal palette purple. Step 650: borders and icons. */
+  --nsw-aboriginal-purple-700: hsl(307.826087, 26.136364%, 34.509804%); /** NSW Aboriginal palette purple. Step 700: borders and icons. */
+  --nsw-aboriginal-purple-750: hsl(309, 28.169014%, 27.843137%); /** NSW Aboriginal palette purple. Step 750: text and high emphasis. */
+  --nsw-aboriginal-purple-800: hsl(309.090909, 30.275229%, 21.372549%); /** NSW Aboriginal palette Bush Plum. Step 800: text and high emphasis. */
+  --nsw-aboriginal-purple-850: hsl(308.888889, 34.177215%, 15.490196%); /** NSW Aboriginal palette purple. Step 850: text and high emphasis. */
+  --nsw-aboriginal-purple-900: hsl(309, 38.461538%, 10.196078%); /** NSW Aboriginal palette purple. Step 900: text and high emphasis. */
+  --nsw-aboriginal-purple-950: hsl(312, 55.555556%, 5.294118%); /** NSW Aboriginal palette purple. Step 950: text and high emphasis. */
 }

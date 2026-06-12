@@ -12,7 +12,7 @@
         "alpha": 1,
         "hex": "#eff9ed"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -35,7 +35,7 @@
         "alpha": 1,
         "hex": "#e0f3de"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -58,7 +58,7 @@
         "alpha": 1,
         "hex": "#d2eccf"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -196,7 +196,7 @@
         "alpha": 1,
         "hex": "#49a146"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -219,7 +219,7 @@
         "alpha": 1,
         "hex": "#399936"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -242,7 +242,7 @@
         "alpha": 1,
         "hex": "#259224"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -265,7 +265,7 @@
         "alpha": 1,
         "hex": "#008a07"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -288,7 +288,7 @@
         "alpha": 1,
         "hex": "#007204"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -380,7 +380,7 @@
         "alpha": 1,
         "hex": "#002200"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -403,7 +403,7 @@
         "alpha": 1,
         "hex": "#001600"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -426,7 +426,7 @@
         "alpha": 1,
         "hex": "#000b00"
       },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -451,7 +451,7 @@
         "alpha": 1,
         "hex": "#fff3ed"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 50: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -474,7 +474,7 @@
         "alpha": 1,
         "hex": "#ffe8de"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 100: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -497,7 +497,7 @@
         "alpha": 1,
         "hex": "#ffddcf"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 150: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -635,7 +635,7 @@
         "alpha": 1,
         "hex": "#d87244"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 450: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 450: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -658,7 +658,7 @@
         "alpha": 1,
         "hex": "#d36734"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 500: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 500: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -681,7 +681,7 @@
         "alpha": 1,
         "hex": "#ce5c21"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 550: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 550: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -704,7 +704,7 @@
         "alpha": 1,
         "hex": "#c95000"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 600: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 600: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -727,7 +727,7 @@
         "alpha": 1,
         "hex": "#a83f03"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 650: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 650: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -819,7 +819,7 @@
         "alpha": 1,
         "hex": "#390a00"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 850: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -842,7 +842,7 @@
         "alpha": 1,
         "hex": "#270400"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 900: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -865,7 +865,7 @@
         "alpha": 1,
         "hex": "#170100"
       },
-      "$description": "Warning state — caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 950: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -890,7 +890,7 @@
         "alpha": 1,
         "hex": "#fff0ef"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 50: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -913,7 +913,7 @@
         "alpha": 1,
         "hex": "#ffe2e1"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 100: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -936,7 +936,7 @@
         "alpha": 1,
         "hex": "#ffd4d4"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 150: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1074,7 +1074,7 @@
         "alpha": 1,
         "hex": "#cd4e59"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 450: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 450: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1097,7 +1097,7 @@
         "alpha": 1,
         "hex": "#c63f4e"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 500: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 500: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1120,7 +1120,7 @@
         "alpha": 1,
         "hex": "#bf2c42"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 550: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 550: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1143,7 +1143,7 @@
         "alpha": 1,
         "hex": "#b81237"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 600: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 600: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1166,7 +1166,7 @@
         "alpha": 1,
         "hex": "#990b2a"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 650: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 650: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1258,7 +1258,7 @@
         "alpha": 1,
         "hex": "#330005"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 850: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1281,7 +1281,7 @@
         "alpha": 1,
         "hex": "#230002"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 900: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1304,7 +1304,7 @@
         "alpha": 1,
         "hex": "#140001"
       },
-      "$description": "Danger state — errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 950: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1329,7 +1329,7 @@
         "alpha": 1,
         "hex": "#e9eef7"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1352,7 +1352,7 @@
         "alpha": 1,
         "hex": "#d4ddeb"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1375,7 +1375,7 @@
         "alpha": 1,
         "hex": "#c0cce0"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: subtle backgrounds and surfaces.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1513,7 +1513,7 @@
         "alpha": 1,
         "hex": "#4d6ca9"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1536,7 +1536,7 @@
         "alpha": 1,
         "hex": "#4264a4"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1559,7 +1559,7 @@
         "alpha": 1,
         "hex": "#385b9e"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1582,7 +1582,7 @@
         "alpha": 1,
         "hex": "#2e5299"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1605,7 +1605,7 @@
         "alpha": 1,
         "hex": "#23427f"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: borders, separators and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1697,7 +1697,7 @@
         "alpha": 1,
         "hex": "#040f2a"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1720,7 +1720,7 @@
         "alpha": 1,
         "hex": "#02071c"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1743,7 +1743,7 @@
         "alpha": 1,
         "hex": "#00030f"
       },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: text and high emphasis.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
