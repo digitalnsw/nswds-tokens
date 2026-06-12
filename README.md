@@ -230,7 +230,7 @@ nvm use
 npm install
 ```
 
-Use Node.js `>=22.14.0` for local development (`.nvmrc` pins the current Node 22 LTS). Node 20 reached end-of-life in April 2026, and `semantic-release@25` — which publishes this package — requires `^22.14.0 || >=24.10.0`.
+Use Node.js `^22.14.0 || >=24.10.0` for local development — Node 22 LTS recommended; `.nvmrc` pins it. The range mirrors `semantic-release@25` (which publishes this package): Node 23.x and 24.0–24.9 are not supported by its tooling, and Node 20 reached end-of-life in April 2026.
 
 Build and verify:
 
