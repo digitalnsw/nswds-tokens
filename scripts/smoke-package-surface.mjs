@@ -35,6 +35,7 @@ const documentedSpecifiers = [
   '@nswds/tokens/css/colors/global/hex.dark.css',
   '@nswds/tokens/css/colors/global/hex.dark-media.css',
   '@nswds/tokens/css/colors/semantic/hex.dark.css',
+  '@nswds/tokens/css/colors/semantic/hex.dark-media.css',
   '@nswds/tokens/js/colors/global/hex.dark.js',
   '@nswds/tokens/tokens/global/color/hex.dark.json',
 ]
@@ -136,6 +137,11 @@ for (const [label, mod] of [['ESM', esmModule], ['CJS', cjsModule]]) {
   assert.ok(dark.startsWith("[data-theme='dark']"), label + ': dark CSS must scope under the dark selector')
   const media = mod.tokens.css.global.darkMedia.hex
   assert.ok(media.startsWith('@media (prefers-color-scheme: dark)'), label + ': darkMedia CSS must scope under the media query')
+  // Semantic dark outputs come from a separate SD config + file — guard them too.
+  const semanticDark = mod.tokens.css.semantic.dark.hex
+  assert.ok(semanticDark.startsWith("[data-theme='dark']"), label + ': semantic dark CSS must scope under the dark selector')
+  const semanticMedia = mod.tokens.css.semantic.darkMedia.hex
+  assert.ok(semanticMedia.startsWith('@media (prefers-color-scheme: dark)'), label + ': semantic darkMedia CSS must scope under the media query')
 }
 
 const resolvedPaths = documentedSpecifiers.map((specifier) => {
