@@ -1,3 +1,7 @@
+## <small>3.5.1 (2026-06-12)</small>
+
+* fix(tokens): skip deleted-but-referenced variables in Figma export (#103) ([aae763b](https://github.com/digitalnsw/nswds-tokens/commit/aae763b)), closes [#103](https://github.com/digitalnsw/nswds-tokens/issues/103)
+
 ## 3.5.0 (2026-06-12)
 
 * fix(release): bump Node to 22 LTS — semantic-release@25 refused 20.19 (#102) ([95e4456](https://github.com/digitalnsw/nswds-tokens/commit/95e4456)), closes [#102](https://github.com/digitalnsw/nswds-tokens/issues/102) [#97](https://github.com/digitalnsw/nswds-tokens/issues/97) [#97](https://github.com/digitalnsw/nswds-tokens/issues/97) [97-#101](https://github.com/97-/issues/101)
