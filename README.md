@@ -1,5 +1,8 @@
 # @nswds/tokens
 
+[![Release](https://github.com/digitalnsw/nswds-tokens/actions/workflows/release.yml/badge.svg)](https://github.com/digitalnsw/nswds-tokens/actions/workflows/release.yml)
+[![npm version](https://img.shields.io/npm/v/%40nswds%2Ftokens)](https://www.npmjs.com/package/@nswds/tokens)
+
 Design tokens for the NSW Design System — colour, spacing, typography, radius,
 breakpoints, borders, and shadows — plus related brand assets.
 
