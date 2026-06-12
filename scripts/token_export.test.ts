@@ -43,6 +43,85 @@ describe('tokenFilesFromLocalVariables', () => {
     expect(tokenFiles).toEqual({})
   })
 
+  it('ignores deleted-but-referenced variables', () => {
+    // Variables deleted in Figma linger in the API while a layer/style still references
+    // them (deletedButReferenced: true). Exporting them would resurrect deleted variables
+    // in staging — and the next import push would re-create them in Figma. Modelled on
+    // the real case: a stray 'Font family' string variable deleted from the colour
+    // collection but still bound somewhere in the file.
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:1:1': {
+            id: 'VariableCollectionId:1:1',
+            name: 'primitives',
+            modes: [{ modeId: '1:0', name: 'mode1' }],
+            defaultModeId: '1:0',
+            remote: false,
+            key: 'variableKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:2:1', 'VariableID:2:2'],
+          },
+        },
+        variables: {
+          'VariableID:2:1': {
+            id: 'VariableID:2:1',
+            name: 'spacing/1',
+            key: 'variable_key',
+            variableCollectionId: 'VariableCollectionId:1:1',
+            resolvedType: 'FLOAT',
+            valuesByMode: {
+              '1:0': 8,
+            },
+            remote: false,
+            description: '8px spacing',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+          'VariableID:2:2': {
+            id: 'VariableID:2:2',
+            name: 'Font family',
+            key: 'variable_key2',
+            variableCollectionId: 'VariableCollectionId:1:1',
+            resolvedType: 'STRING',
+            valuesByMode: {
+              '1:0': 'Public Sans',
+            },
+            remote: false,
+            deletedButReferenced: true,
+            description: '',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    const tokenFiles = tokenFilesFromLocalVariables(localVariablesResponse)
+    expect(tokenFiles).toEqual({
+      'primitives.mode1.json': {
+        spacing: {
+          '1': {
+            $type: 'number',
+            $value: 8,
+            $description: '8px spacing',
+            $extensions: {
+              'com.figma': {
+                hiddenFromPublishing: false,
+                scopes: ['ALL_SCOPES'],
+                codeSyntax: {},
+              },
+            },
+          },
+        },
+      },
+    })
+  })
+
   it('returns token files', () => {
     const localVariablesResponse: GetLocalVariablesResponse = {
       status: 200,

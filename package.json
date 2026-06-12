@@ -1,7 +1,7 @@
 {
   "name": "@nswds/tokens",
   "version": "3.5.0",
-  "description": "NSW Application Design System Design Tokens",
+  "description": "Design tokens for NSW Government digital products, providing colour tokens, theme outputs, and brand assets for use across CSS, SCSS, Less, JavaScript, TypeScript, JSON, Tailwind, Figma, and DTCG-compatible workflows.",
   "license": "MPL-2.0",
   "keywords": [
     "design-tokens",
