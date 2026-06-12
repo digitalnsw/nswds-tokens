@@ -70,7 +70,11 @@ try {
   const packStdout = run(npmCommand, ['--cache', npmCache, 'pack', '--dry-run', '--json'], {
     cwd: root,
   })
-  const [packResult] = JSON.parse(packStdout.slice(packStdout.indexOf('[')))
+  const jsonStart = packStdout.indexOf('[')
+  if (jsonStart === -1) {
+    throw new Error(`npm pack --json produced no JSON array; stdout was:\n${packStdout}`)
+  }
+  const [packResult] = JSON.parse(packStdout.slice(jsonStart))
 
   const publishedPaths = packResult.files.map(({ path }) => path)
   const sourcePaths = publishedPaths.filter((path) => path.startsWith('src/'))
