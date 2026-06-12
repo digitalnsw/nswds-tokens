@@ -92,6 +92,13 @@ export function tokenFilesFromLocalVariables(localVariablesResponse: GetLocalVar
       return
     }
 
+    // Skip variables deleted in Figma that linger in the API because a layer/style still
+    // references them (deletedButReferenced). Exporting them would resurrect deleted
+    // variables in staging — and the next import push would re-create them in Figma.
+    if (variable.deletedButReferenced) {
+      return
+    }
+
     const collection = localVariableCollections.get(variable.variableCollectionId)
     if (!collection) {
       throw new Error(`Variable collection not found for variable "${variable.name}"`)
