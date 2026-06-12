@@ -64,9 +64,13 @@ const consumerDir = join(tempRoot, 'consumer')
 const packageDir = join(consumerDir, 'node_modules', '@nswds', 'tokens')
 
 try {
-  const [packResult] = JSON.parse(
-    run(npmCommand, ['--cache', npmCache, 'pack', '--dry-run', '--json'], { cwd: root }),
-  )
+  // `npm pack` runs the prepare lifecycle script, whose stdout can precede npm's JSON
+  // (e.g. husky prints "HUSKY=0 skip install" when hooks are disabled — this broke the
+  // release run's check:dist). Parse from the start of the JSON array, not byte zero.
+  const packStdout = run(npmCommand, ['--cache', npmCache, 'pack', '--dry-run', '--json'], {
+    cwd: root,
+  })
+  const [packResult] = JSON.parse(packStdout.slice(packStdout.indexOf('[')))
 
   const publishedPaths = packResult.files.map(({ path }) => path)
   const sourcePaths = publishedPaths.filter((path) => path.startsWith('src/'))
