@@ -2,17 +2,17 @@
   "success": {
     "50": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: subtle backgrounds and surfaces.",
       "$value": "#eff9ed"
     },
     "100": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: subtle backgrounds and surfaces.",
       "$value": "#e0f3de"
     },
     "150": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: subtle backgrounds and surfaces.",
       "$value": "#d2eccf"
     },
     "200": {
@@ -42,27 +42,27 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: borders, separators and icons.",
       "$value": "#49a146"
     },
     "500": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: borders, separators and icons.",
       "$value": "#399936"
     },
     "550": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: borders, separators and icons.",
       "$value": "#259224"
     },
     "600": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: borders, separators and icons.",
       "$value": "#008a07"
     },
     "650": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: shades for borders, separators and icons.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: borders, separators and icons.",
       "$value": "#007204"
     },
     "700": {
@@ -82,34 +82,34 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: text and high emphasis.",
       "$value": "#002200"
     },
     "900": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: text and high emphasis.",
       "$value": "#001600"
     },
     "950": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: text and high emphasis.",
       "$value": "#000b00"
     }
   },
   "warning": {
     "50": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 50: subtle backgrounds and surfaces.",
       "$value": "#fff3ed"
     },
     "100": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 100: subtle backgrounds and surfaces.",
       "$value": "#ffe8de"
     },
     "150": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Warning state — caution and actions that need attention. Step 150: subtle backgrounds and surfaces.",
       "$value": "#ffddcf"
     },
     "200": {
@@ -139,27 +139,27 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 450: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 450: borders, separators and icons.",
       "$value": "#d87244"
     },
     "500": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 500: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 500: borders, separators and icons.",
       "$value": "#d36734"
     },
     "550": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 550: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 550: borders, separators and icons.",
       "$value": "#ce5c21"
     },
     "600": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 600: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 600: borders, separators and icons.",
       "$value": "#c95000"
     },
     "650": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 650: shades for borders, separators and icons.",
+      "$description": "Warning state — caution and actions that need attention. Step 650: borders, separators and icons.",
       "$value": "#a83f03"
     },
     "700": {
@@ -179,34 +179,34 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 850: text and high emphasis.",
       "$value": "#390a00"
     },
     "900": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 900: text and high emphasis.",
       "$value": "#270400"
     },
     "950": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Warning state — caution and actions that need attention. Step 950: text and high emphasis.",
       "$value": "#170100"
     }
   },
   "danger": {
     "50": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 50: subtle backgrounds and surfaces.",
       "$value": "#fff0ef"
     },
     "100": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 100: subtle backgrounds and surfaces.",
       "$value": "#ffe2e1"
     },
     "150": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 150: subtle backgrounds and surfaces.",
       "$value": "#ffd4d4"
     },
     "200": {
@@ -236,27 +236,27 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 450: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 450: borders, separators and icons.",
       "$value": "#cd4e59"
     },
     "500": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 500: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 500: borders, separators and icons.",
       "$value": "#c63f4e"
     },
     "550": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 550: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 550: borders, separators and icons.",
       "$value": "#bf2c42"
     },
     "600": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 600: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 600: borders, separators and icons.",
       "$value": "#b81237"
     },
     "650": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 650: shades for borders, separators and icons.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 650: borders, separators and icons.",
       "$value": "#990b2a"
     },
     "700": {
@@ -276,34 +276,34 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 850: text and high emphasis.",
       "$value": "#330005"
     },
     "900": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 900: text and high emphasis.",
       "$value": "#230002"
     },
     "950": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Danger state — errors and destructive or critical actions. Step 950: text and high emphasis.",
       "$value": "#140001"
     }
   },
   "info": {
     "50": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: subtle backgrounds and surfaces.",
       "$value": "#e9eef7"
     },
     "100": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: subtle backgrounds and surfaces.",
       "$value": "#d4ddeb"
     },
     "150": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: subtle backgrounds and surfaces.",
       "$value": "#c0cce0"
     },
     "200": {
@@ -333,27 +333,27 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: borders, separators and icons.",
       "$value": "#4d6ca9"
     },
     "500": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: borders, separators and icons.",
       "$value": "#4264a4"
     },
     "550": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: borders, separators and icons.",
       "$value": "#385b9e"
     },
     "600": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: borders, separators and icons.",
       "$value": "#2e5299"
     },
     "650": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: shades for borders, separators and icons.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: borders, separators and icons.",
       "$value": "#23427f"
     },
     "700": {
@@ -373,17 +373,17 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: text and high emphasis.",
       "$value": "#040f2a"
     },
     "900": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: text and high emphasis.",
       "$value": "#02071c"
     },
     "950": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: text and high emphasis.",
       "$value": "#00030f"
     }
   }

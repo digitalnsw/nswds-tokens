@@ -2,291 +2,291 @@
   "primary": {
     "50": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 50: subtle backgrounds and surfaces.",
       "$value": "{nsw-blue.50}"
     },
     "100": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 100: subtle backgrounds and surfaces.",
       "$value": "{nsw-blue.100}"
     },
     "150": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 150: subtle backgrounds and surfaces.",
       "$value": "{nsw-blue.150}"
     },
     "200": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 200: subtle backgrounds and surfaces.",
       "$value": "{nsw-blue.200}"
     },
     "250": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 250: subtle backgrounds and surfaces.",
       "$value": "{nsw-blue.250}"
     },
     "300": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 300: light tints.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 300: Interactive components.",
       "$value": "{nsw-blue.300}"
     },
     "350": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 350: light tints.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 350: Interactive components.",
       "$value": "{nsw-blue.350}"
     },
     "400": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 400: light tints.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 400: Interactive components.",
       "$value": "{nsw-blue.400}"
     },
     "450": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 450: light tints.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 450: Interactive components.",
       "$value": "{nsw-blue.450}"
     },
     "500": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 500: base colour.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 500: base colour.",
       "$value": "{nsw-blue.500}"
     },
     "550": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 550: shades for borders and icons.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 550: borders and icons.",
       "$value": "{nsw-blue.550}"
     },
     "600": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 600: shades for borders and icons.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 600: borders and icons.",
       "$value": "{nsw-blue.600}"
     },
     "650": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 650: shades for borders and icons.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 650: borders and icons.",
       "$value": "{nsw-blue.650}"
     },
     "700": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 700: shades for borders and icons.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 700: borders and icons.",
       "$value": "{nsw-blue.700}"
     },
     "750": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 750: text and high emphasis.",
       "$value": "{nsw-blue.750}"
     },
     "800": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 800: text and high emphasis.",
       "$value": "{nsw-blue.800}"
     },
     "850": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 850: text and high emphasis.",
       "$value": "{nsw-blue.850}"
     },
     "900": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 900: text and high emphasis.",
       "$value": "{nsw-blue.900}"
     },
     "950": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour \u2014 primary actions, links, and key accents. Step 950: text and high emphasis.",
       "$value": "{nsw-blue.950}"
     }
   },
   "accent": {
     "50": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 50: subtle backgrounds and surfaces.",
       "$value": "{nsw-red.50}"
     },
     "100": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 100: subtle backgrounds and surfaces.",
       "$value": "{nsw-red.100}"
     },
     "150": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 150: subtle backgrounds and surfaces.",
       "$value": "{nsw-red.150}"
     },
     "200": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 200: subtle backgrounds and surfaces.",
       "$value": "{nsw-red.200}"
     },
     "250": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 250: subtle backgrounds and surfaces.",
       "$value": "{nsw-red.250}"
     },
     "300": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 300: light tints.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 300: Interactive components.",
       "$value": "{nsw-red.300}"
     },
     "350": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 350: light tints.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 350: Interactive components.",
       "$value": "{nsw-red.350}"
     },
     "400": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 400: light tints.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 400: Interactive components.",
       "$value": "{nsw-red.400}"
     },
     "450": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 450: light tints.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 450: Interactive components.",
       "$value": "{nsw-red.450}"
     },
     "500": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 500: base colour.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 500: base colour.",
       "$value": "{nsw-red.500}"
     },
     "550": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 550: shades for borders and icons.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 550: borders and icons.",
       "$value": "{nsw-red.550}"
     },
     "600": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 600: shades for borders and icons.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 600: borders and icons.",
       "$value": "{nsw-red.600}"
     },
     "650": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 650: shades for borders and icons.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 650: borders and icons.",
       "$value": "{nsw-red.650}"
     },
     "700": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 700: shades for borders and icons.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 700: borders and icons.",
       "$value": "{nsw-red.700}"
     },
     "750": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 750: text and high emphasis.",
       "$value": "{nsw-red.750}"
     },
     "800": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 800: text and high emphasis.",
       "$value": "{nsw-red.800}"
     },
     "850": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 850: text and high emphasis.",
       "$value": "{nsw-red.850}"
     },
     "900": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 900: text and high emphasis.",
       "$value": "{nsw-red.900}"
     },
     "950": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Accent colour \u2014 secondary emphasis and supporting highlights. Step 950: text and high emphasis.",
       "$value": "{nsw-red.950}"
     }
   },
   "grey": {
     "50": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 50: subtle backgrounds and surfaces.",
       "$value": "{nsw-grey.50}"
     },
     "100": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 100: subtle backgrounds and surfaces.",
       "$value": "{nsw-grey.100}"
     },
     "150": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 150: subtle backgrounds and surfaces.",
       "$value": "{nsw-grey.150}"
     },
     "200": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 200: subtle backgrounds and surfaces.",
       "$value": "{nsw-grey.200}"
     },
     "250": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 250: subtle backgrounds and surfaces.",
       "$value": "{nsw-grey.250}"
     },
     "300": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 300: light tints.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 300: Interactive components.",
       "$value": "{nsw-grey.300}"
     },
     "350": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 350: light tints.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 350: Interactive components.",
       "$value": "{nsw-grey.350}"
     },
     "400": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 400: light tints.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 400: Interactive components.",
       "$value": "{nsw-grey.400}"
     },
     "450": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 450: light tints.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 450: Interactive components.",
       "$value": "{nsw-grey.450}"
     },
     "500": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 500: base colour.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 500: base colour.",
       "$value": "{nsw-grey.500}"
     },
     "550": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 550: shades for borders and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 550: borders and icons.",
       "$value": "{nsw-grey.550}"
     },
     "600": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 600: shades for borders and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 600: borders and icons.",
       "$value": "{nsw-grey.600}"
     },
     "650": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 650: shades for borders and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 650: borders and icons.",
       "$value": "{nsw-grey.650}"
     },
     "700": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 700: shades for borders and icons.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 700: borders and icons.",
       "$value": "{nsw-grey.700}"
     },
     "750": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 750: text and high emphasis.",
       "$value": "{nsw-grey.750}"
     },
     "800": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 800: text and high emphasis.",
       "$value": "{nsw-grey.800}"
     },
     "850": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 850: text and high emphasis.",
       "$value": "{nsw-grey.850}"
     },
     "900": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 900: text and high emphasis.",
       "$value": "{nsw-grey.900}"
     },
     "950": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers. Step 950: text and high emphasis.",
       "$value": "{nsw-grey.950}"
     }
   }

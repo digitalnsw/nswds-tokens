@@ -1,0 +1,76 @@
+$success-50: hsl(120, 100%, 2.156863%); // Success state — positive outcomes, confirmations, and completed actions. Step 50: subtle backgrounds and surfaces.
+$success-100: hsl(120, 100%, 4.313725%); // Success state — positive outcomes, confirmations, and completed actions. Step 100: subtle backgrounds and surfaces.
+$success-150: hsl(120, 100%, 6.666667%); // Success state — positive outcomes, confirmations, and completed actions. Step 150: subtle backgrounds and surfaces.
+$success-200: hsl(120, 100%, 9.215686%); // Success state — positive outcomes, confirmations, and completed actions. Step 200: Interactive components.
+$success-250: hsl(120.882353, 100%, 13.333333%); // Success state — positive outcomes, confirmations, and completed actions. Step 250: Interactive components.
+$success-300: hsl(121.333333, 100%, 17.647059%); // Success state — positive outcomes, confirmations, and completed actions. Step 300: Interactive components.
+$success-350: hsl(122.105263, 100%, 22.352941%); // Success state — positive outcomes, confirmations, and completed actions. Step 350: Interactive components.
+$success-400: hsl(123.043478, 100%, 27.058824%); // Success state — positive outcomes, confirmations, and completed actions. Step 400: Interactive components.
+$success-450: hsl(119.454545, 60.43956%, 35.686275%); // Success state — positive outcomes, confirmations, and completed actions. Step 450: borders, separators and icons.
+$success-500: hsl(118.181818, 47.826087%, 40.588235%); // Success state — positive outcomes, confirmations, and completed actions. Step 500: borders, separators and icons.
+$success-550: hsl(118.021978, 39.393939%, 45.294118%); // Success state — positive outcomes, confirmations, and completed actions. Step 550: borders, separators and icons.
+$success-600: hsl(117.142857, 33.333333%, 49.411765%); // Success state — positive outcomes, confirmations, and completed actions. Step 600: borders, separators and icons.
+$success-650: hsl(115.833333, 33.333333%, 57.647059%); // Success state — positive outcomes, confirmations, and completed actions. Step 650: borders, separators and icons.
+$success-700: hsl(115.081967, 35.260116%, 66.078431%); // Success state — positive outcomes, confirmations, and completed actions. Step 700: Solid colors.
+$success-750: hsl(113.877551, 37.40458%, 74.313725%); // Success state — positive outcomes, confirmations, and completed actions. Step 750: Solid colors.
+$success-800: hsl(113.513514, 41.573034%, 82.54902%); // Success state — positive outcomes, confirmations, and completed actions. Step 800: Solid colors.
+$success-850: hsl(113.793103, 43.283582%, 86.862745%); // Success state — positive outcomes, confirmations, and completed actions. Step 850: text and high emphasis.
+$success-900: hsl(114.285714, 46.666667%, 91.176471%); // Success state — positive outcomes, confirmations, and completed actions. Step 900: text and high emphasis.
+$success-950: hsl(110, 50%, 95.294118%); // Success state — positive outcomes, confirmations, and completed actions. Step 950: text and high emphasis.
+$warning-50: hsl(2.608696, 100%, 4.509804%); // Warning state — caution and actions that need attention. Step 50: subtle backgrounds and surfaces.
+$warning-100: hsl(6.153846, 100%, 7.647059%); // Warning state — caution and actions that need attention. Step 100: subtle backgrounds and surfaces.
+$warning-150: hsl(10.526316, 100%, 11.176471%); // Warning state — caution and actions that need attention. Step 150: subtle backgrounds and surfaces.
+$warning-200: hsl(14.4, 100%, 14.705882%); // Warning state — caution and actions that need attention. Step 200: Interactive components.
+$warning-250: hsl(17.884615, 98.113208%, 20.784314%); // Warning state — caution and actions that need attention. Step 250: Interactive components.
+$warning-300: hsl(19.849624, 95.683453%, 27.254902%); // Warning state — caution and actions that need attention. Step 300: Interactive components.
+$warning-350: hsl(21.818182, 96.491228%, 33.529412%); // Warning state — caution and actions that need attention. Step 350: Interactive components.
+$warning-400: hsl(23.880597, 100%, 39.411765%); // Warning state — caution and actions that need attention. Step 400: Interactive components.
+$warning-450: hsl(20.462428, 72.384937%, 46.862745%); // Warning state — caution and actions that need attention. Step 450: borders, separators and icons.
+$warning-500: hsl(19.245283, 64.37247%, 51.568627%); // Warning state — caution and actions that need attention. Step 500: borders, separators and icons.
+$warning-550: hsl(18.648649, 65.486726%, 55.686275%); // Warning state — caution and actions that need attention. Step 550: borders, separators and icons.
+$warning-600: hsl(18.26087, 66.990291%, 59.607843%); // Warning state — caution and actions that need attention. Step 600: borders, separators and icons.
+$warning-650: hsl(18.151261, 70.414201%, 66.862745%); // Warning state — caution and actions that need attention. Step 650: borders, separators and icons.
+$warning-700: hsl(18, 74.626866%, 73.72549%); // Warning state — caution and actions that need attention. Step 700: Solid colors.
+$warning-750: hsl(17.777778, 81.818182%, 80.588235%); // Warning state — caution and actions that need attention. Step 750: Solid colors.
+$warning-800: hsl(17.704918, 93.846154%, 87.254902%); // Warning state — caution and actions that need attention. Step 800: Solid colors.
+$warning-850: hsl(17.5, 100%, 90.588235%); // Warning state — caution and actions that need attention. Step 850: text and high emphasis.
+$warning-900: hsl(18.181818, 100%, 93.529412%); // Warning state — caution and actions that need attention. Step 900: text and high emphasis.
+$warning-950: hsl(20, 100%, 96.470588%); // Warning state — caution and actions that need attention. Step 950: text and high emphasis.
+$danger-50: hsl(357, 100%, 3.921569%); // Danger state — errors and destructive or critical actions. Step 50: subtle backgrounds and surfaces.
+$danger-100: hsl(356.571429, 100%, 6.862745%); // Danger state — errors and destructive or critical actions. Step 100: subtle backgrounds and surfaces.
+$danger-150: hsl(354.117647, 100%, 10%); // Danger state — errors and destructive or critical actions. Step 150: subtle backgrounds and surfaces.
+$danger-200: hsl(351.176471, 100%, 13.333333%); // Danger state — errors and destructive or critical actions. Step 200: Interactive components.
+$danger-250: hsl(348.387097, 95.876289%, 19.019608%); // Danger state — errors and destructive or critical actions. Step 250: Interactive components.
+$danger-300: hsl(347.288136, 90.769231%, 25.490196%); // Danger state — errors and destructive or critical actions. Step 300: Interactive components.
+$danger-350: hsl(346.901408, 86.585366%, 32.156863%); // Danger state — errors and destructive or critical actions. Step 350: Interactive components.
+$danger-400: hsl(346.626506, 82.178218%, 39.607843%); // Danger state — errors and destructive or critical actions. Step 400: Interactive components.
+$danger-450: hsl(351.020408, 62.553191%, 46.078431%); // Danger state — errors and destructive or critical actions. Step 450: borders, separators and icons.
+$danger-500: hsl(353.333333, 54.216867%, 51.176471%); // Danger state — errors and destructive or critical actions. Step 500: borders, separators and icons.
+$danger-550: hsl(354.80315, 55.947137%, 55.490196%); // Danger state — errors and destructive or critical actions. Step 550: borders, separators and icons.
+$danger-600: hsl(355.932203, 57.281553%, 59.607843%); // Danger state — errors and destructive or critical actions. Step 600: borders, separators and icons.
+$danger-650: hsl(357.669903, 61.676647%, 67.254902%); // Danger state — errors and destructive or critical actions. Step 650: borders, separators and icons.
+$danger-700: hsl(358.636364, 67.692308%, 74.509804%); // Danger state — errors and destructive or critical actions. Step 700: Solid colors.
+$danger-750: hsl(359.166667, 76.595745%, 81.568627%); // Danger state — errors and destructive or critical actions. Step 750: Solid colors.
+$danger-800: hsl(0, 93.220339%, 88.431373%); // Danger state — errors and destructive or critical actions. Step 800: Solid colors.
+$danger-850: hsl(0, 100%, 91.568627%); // Danger state — errors and destructive or critical actions. Step 850: text and high emphasis.
+$danger-900: hsl(2, 100%, 94.117647%); // Danger state — errors and destructive or critical actions. Step 900: text and high emphasis.
+$danger-950: hsl(3.75, 100%, 96.862745%); // Danger state — errors and destructive or critical actions. Step 950: text and high emphasis.
+$info-50: hsl(228, 100%, 2.941176%); // Informational state — neutral highlights, tips, and in-progress notices. Step 50: subtle backgrounds and surfaces.
+$info-100: hsl(228.461538, 86.666667%, 5.882353%); // Informational state — neutral highlights, tips, and in-progress notices. Step 100: subtle backgrounds and surfaces.
+$info-150: hsl(222.631579, 82.608696%, 9.019608%); // Informational state — neutral highlights, tips, and in-progress notices. Step 150: subtle backgrounds and surfaces.
+$info-200: hsl(220.408163, 77.777778%, 12.352941%); // Informational state — neutral highlights, tips, and in-progress notices. Step 200: Interactive components.
+$info-250: hsl(220, 66.315789%, 18.627451%); // Informational state — neutral highlights, tips, and in-progress notices. Step 250: Interactive components.
+$info-300: hsl(219.74026, 60.629921%, 24.901961%); // Informational state — neutral highlights, tips, and in-progress notices. Step 300: Interactive components.
+$info-350: hsl(219.782609, 56.790123%, 31.764706%); // Informational state — neutral highlights, tips, and in-progress notices. Step 350: Interactive components.
+$info-400: hsl(219.813084, 53.768844%, 39.019608%); // Informational state — neutral highlights, tips, and in-progress notices. Step 400: Interactive components.
+$info-450: hsl(219.411765, 47.663551%, 41.960784%); // Informational state — neutral highlights, tips, and in-progress notices. Step 450: borders, separators and icons.
+$info-500: hsl(219.183673, 42.608696%, 45.098039%); // Informational state — neutral highlights, tips, and in-progress notices. Step 500: borders, separators and icons.
+$info-550: hsl(219.782609, 37.398374%, 48.235294%); // Informational state — neutral highlights, tips, and in-progress notices. Step 550: borders, separators and icons.
+$info-600: hsl(219.310345, 34.939759%, 51.176471%); // Informational state — neutral highlights, tips, and in-progress notices. Step 600: borders, separators and icons.
+$info-650: hsl(218.961039, 35.159817%, 57.058824%); // Informational state — neutral highlights, tips, and in-progress notices. Step 650: borders, separators and icons.
+$info-700: hsl(218.181818, 35.106383%, 63.137255%); // Informational state — neutral highlights, tips, and in-progress notices. Step 700: Solid colors.
+$info-750: hsl(218.888889, 34.615385%, 69.411765%); // Informational state — neutral highlights, tips, and in-progress notices. Step 750: Solid colors.
+$info-800: hsl(218.04878, 32.8%, 75.490196%); // Informational state — neutral highlights, tips, and in-progress notices. Step 800: Solid colors.
+$info-850: hsl(217.5, 34.042553%, 81.568627%); // Informational state — neutral highlights, tips, and in-progress notices. Step 850: text and high emphasis.
+$info-900: hsl(216.521739, 36.507937%, 87.647059%); // Informational state — neutral highlights, tips, and in-progress notices. Step 900: text and high emphasis.
+$info-950: hsl(218.571429, 46.666667%, 94.117647%); // Informational state — neutral highlights, tips, and in-progress notices. Step 950: text and high emphasis.

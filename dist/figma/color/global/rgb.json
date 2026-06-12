@@ -3112,5 +3112,23 @@
         "hex": "#150612"
       }
     }
+  },
+  "white": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [1, 1, 1],
+      "alpha": 1,
+      "hex": "#ffffff"
+    }
+  },
+  "black": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [0, 0, 0],
+      "alpha": 1,
+      "hex": "#000000"
+    }
   }
 }
