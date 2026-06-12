@@ -44,4 +44,41 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # LOAD-BEARING (regressed once already): #72 added this so husky's commit-msg
+          # hook does not lint semantic-release's changelog commit; #94 silently dropped
+          # it and every feat-carrying release after that failed on footer-max-line-length.
+          # Scoped to THIS STEP only — job-wide, husky's "HUSKY=0 skip install" line
+          # polluted the smoke test's `npm pack --json` stdout and broke check:dist.
+          # The commitlint config ALSO ignores `chore(release):` — two layers, so
+          # losing either one alone cannot break the release again.
+          HUSKY: 0
         run: npx semantic-release
+      # Fails the run if npm's latest version does not match the newest v* tag — catches
+      # partial releases (tag pushed, npm publish failed) and lingering drift from earlier
+      # failed runs, both of which previously went unnoticed.
+      - name: Verify npm matches the latest release tag
+        run: node scripts/verify-release-published.mjs
+      # Loud-failure loop: any failed step files (or bumps) a labelled issue; the next
+      # fully green run closes it. Five releases failed silently before this existed.
+      - name: Close release-failure issue
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for n in $(gh issue list --label release-failure --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Resolved: release run ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }} succeeded and npm matches the latest tag."
+          done
+      - name: File release-failure issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh label create release-failure --description "The release workflow failed - npm may be behind main" --color D93F0B --force
+          body=$(printf 'Release run failed for commit %s:\n%s/%s/actions/runs/%s\n\nUntil this is resolved, merged work is NOT reaching npm.' \
+            "${{ github.sha }}" "${{ github.server_url }}" "${{ github.repository }}" "${{ github.run_id }}")
+          existing=$(gh issue list --label release-failure --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "🚨 Release failed — npm may be behind main" --body "$body" --label release-failure --assignee laurenhitchon
+          fi
