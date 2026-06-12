@@ -11,6 +11,10 @@ const config = {
   // merge/revert/etc. remain ignored too.)
   ignores: [
     (message) =>
+      // The release-commit predicate the comment above promises. It was missing in
+      // practice: the v3.5.0 release died in CI when the husky commit-msg hook ran
+      // commitlint against semantic-release's changelog commit (footer-max-line-length).
+      message.trim().startsWith('chore(release):') ||
       /^Potential fix for code scanning alert no\. \d+: /u.test(message.trim()) ||
       message.trim().startsWith('Potential fix for pull request finding') ||
       message.trim() === 'Initial plan',
