@@ -14,13 +14,15 @@
 // nothing (docs/chore) — so a tagged-but-unpublished gap left by an earlier run also
 // turns the next run red instead of hiding behind "this push had nothing to release".
 
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 import { readFileSync } from 'node:fs'
 
-const sh = (cmd) => execSync(cmd, { encoding: 'utf8' }).trim()
+// Argument arrays, no shell — matches the spawnSync convention in the other scripts.
+const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm'
+const run = (command, args) => execFileSync(command, args, { encoding: 'utf8' }).trim()
 
 const { name } = JSON.parse(readFileSync('package.json', 'utf8'))
-const latestTag = sh("git tag -l 'v*' --sort=-v:refname").split('\n')[0]
+const latestTag = run('git', ['tag', '-l', 'v*', '--sort=-v:refname']).split('\n')[0]
 
 if (!latestTag) {
   console.log('No release tags exist yet — nothing to verify.')
@@ -36,7 +38,7 @@ const DELAY_SECONDS = 15
 for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
   let published = ''
   try {
-    published = sh(`npm view ${name} version`)
+    published = run(npmCommand, ['view', name, 'version'])
   } catch {
     // Transient registry error — treat like a propagation delay and retry.
   }
