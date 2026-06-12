@@ -14,7 +14,7 @@ package consistent.
 ```bash
 git clone https://github.com/digitalnsw/nswds-tokens.git
 cd nswds-tokens
-nvm use            # Node ^20.19.0 or >=22.12.0
+nvm use            # Node >=22.14.0 (see .nvmrc)
 npm install
 ```
 

@@ -227,7 +227,7 @@ nvm use
 npm install
 ```
 
-Use Node.js `^20.19.0` or `>=22.12.0` for local development. This repo now runs `vitest@4` for `npm run test:tokens`, and that toolchain requires at least Node `20.19.0` on the Node 20 release line.
+Use Node.js `>=22.14.0` for local development (`.nvmrc` pins the current Node 22 LTS). Node 20 reached end-of-life in April 2026, and `semantic-release@25` — which publishes this package — requires `^22.14.0 || >=24.10.0`.
 
 Build and verify:
 
