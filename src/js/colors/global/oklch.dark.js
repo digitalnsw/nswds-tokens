@@ -376,3 +376,5 @@ export const nswAboriginalPurple = {
   900: 'oklch(0.935345 0.020206 330.657457)',
   950: 'oklch(0.967122 0.013295 333.038378)',
 }
+export const white = 'oklch(1 0 0)'
+export const black = 'oklch(0 0 0)'

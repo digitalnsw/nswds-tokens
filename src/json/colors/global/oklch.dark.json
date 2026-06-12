@@ -376,5 +376,7 @@
     "nsw-aboriginal-purple-850": "oklch(0.902288 0.029739 330.945661)",
     "nsw-aboriginal-purple-900": "oklch(0.935345 0.020206 330.657457)",
     "nsw-aboriginal-purple-950": "oklch(0.967122 0.013295 333.038378)"
-  }
+  },
+  "white": "oklch(1 0 0)",
+  "black": "oklch(0 0 0)"
 }

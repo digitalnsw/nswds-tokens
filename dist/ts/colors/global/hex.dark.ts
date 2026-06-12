@@ -376,3 +376,5 @@ export const nswAboriginalPurple = {
   '900': '#f2e5f0',
   '950': '#faf1f8',
 }
+export const white = '#ffffff'
+export const black = '#000000'

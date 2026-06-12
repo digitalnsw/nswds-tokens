@@ -376,3 +376,5 @@ export const nswAboriginalPurple = {
   900: 'hsl(309.230769, 33.333333%, 92.352941%)',
   950: 'hsl(313.333333, 47.368421%, 96.27451%)',
 }
+export const white = 'hsl(0, 0%, 100%)'
+export const black = 'hsl(0, 0%, 0%)'

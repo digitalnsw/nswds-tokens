@@ -340,3 +340,5 @@ $nsw-aboriginal-purple-800: oklch(0.871008 0.037705 331.394651); // NSW Aborigin
 $nsw-aboriginal-purple-850: oklch(0.902288 0.029739 330.945661); // NSW Aboriginal palette purple. Step 850: text and high emphasis.
 $nsw-aboriginal-purple-900: oklch(0.935345 0.020206 330.657457); // NSW Aboriginal palette purple. Step 900: text and high emphasis.
 $nsw-aboriginal-purple-950: oklch(0.967122 0.013295 333.038378); // NSW Aboriginal palette purple. Step 950: text and high emphasis.
+$white: oklch(1 0 0); // Pure white — page backgrounds, content surfaces, and text on dark or solid fills.
+$black: oklch(0 0 0); // Pure black — maximum-contrast text, overlays, and scrims.

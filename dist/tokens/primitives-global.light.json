@@ -7927,7 +7927,7 @@
       "alpha": 1,
       "hex": "#ffffff"
     },
-    "$description": "",
+    "$description": "Pure white — page backgrounds, content surfaces, and text on dark or solid fills.",
     "$extensions": {
       "com.figma": {
         "hiddenFromPublishing": false,
@@ -7950,7 +7950,7 @@
       "alpha": 1,
       "hex": "#000000"
     },
-    "$description": "",
+    "$description": "Pure black — maximum-contrast text, overlays, and scrims.",
     "$extensions": {
       "com.figma": {
         "hiddenFromPublishing": false,

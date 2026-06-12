@@ -376,9 +376,11 @@ declare const nswAboriginalPurple$f: {
   '900': string
   '950': string
 }
+declare const white$f: string
+declare const black$f: string
 
 declare namespace globalJsHex {
-  export { nswAboriginalBlue$f as nswAboriginalBlue, nswAboriginalBrown$f as nswAboriginalBrown, nswAboriginalGreen$f as nswAboriginalGreen, nswAboriginalGrey$f as nswAboriginalGrey, nswAboriginalOrange$f as nswAboriginalOrange, nswAboriginalPurple$f as nswAboriginalPurple, nswAboriginalRed$f as nswAboriginalRed, nswAboriginalYellow$f as nswAboriginalYellow, nswBlue$f as nswBlue, nswBrown$f as nswBrown, nswFuchsia$f as nswFuchsia, nswGreen$f as nswGreen, nswGrey$f as nswGrey, nswOrange$f as nswOrange, nswPurple$f as nswPurple, nswRed$f as nswRed, nswTeal$f as nswTeal, nswYellow$f as nswYellow };
+  export { black$f as black, nswAboriginalBlue$f as nswAboriginalBlue, nswAboriginalBrown$f as nswAboriginalBrown, nswAboriginalGreen$f as nswAboriginalGreen, nswAboriginalGrey$f as nswAboriginalGrey, nswAboriginalOrange$f as nswAboriginalOrange, nswAboriginalPurple$f as nswAboriginalPurple, nswAboriginalRed$f as nswAboriginalRed, nswAboriginalYellow$f as nswAboriginalYellow, nswBlue$f as nswBlue, nswBrown$f as nswBrown, nswFuchsia$f as nswFuchsia, nswGreen$f as nswGreen, nswGrey$f as nswGrey, nswOrange$f as nswOrange, nswPurple$f as nswPurple, nswRed$f as nswRed, nswTeal$f as nswTeal, nswYellow$f as nswYellow, white$f as white };
 }
 
 declare const nswGrey$e: {
@@ -759,9 +761,11 @@ declare const nswAboriginalPurple$e: {
   '900': string
   '950': string
 }
+declare const white$e: string
+declare const black$e: string
 
 declare namespace globalJsHsl {
-  export { nswAboriginalBlue$e as nswAboriginalBlue, nswAboriginalBrown$e as nswAboriginalBrown, nswAboriginalGreen$e as nswAboriginalGreen, nswAboriginalGrey$e as nswAboriginalGrey, nswAboriginalOrange$e as nswAboriginalOrange, nswAboriginalPurple$e as nswAboriginalPurple, nswAboriginalRed$e as nswAboriginalRed, nswAboriginalYellow$e as nswAboriginalYellow, nswBlue$e as nswBlue, nswBrown$e as nswBrown, nswFuchsia$e as nswFuchsia, nswGreen$e as nswGreen, nswGrey$e as nswGrey, nswOrange$e as nswOrange, nswPurple$e as nswPurple, nswRed$e as nswRed, nswTeal$e as nswTeal, nswYellow$e as nswYellow };
+  export { black$e as black, nswAboriginalBlue$e as nswAboriginalBlue, nswAboriginalBrown$e as nswAboriginalBrown, nswAboriginalGreen$e as nswAboriginalGreen, nswAboriginalGrey$e as nswAboriginalGrey, nswAboriginalOrange$e as nswAboriginalOrange, nswAboriginalPurple$e as nswAboriginalPurple, nswAboriginalRed$e as nswAboriginalRed, nswAboriginalYellow$e as nswAboriginalYellow, nswBlue$e as nswBlue, nswBrown$e as nswBrown, nswFuchsia$e as nswFuchsia, nswGreen$e as nswGreen, nswGrey$e as nswGrey, nswOrange$e as nswOrange, nswPurple$e as nswPurple, nswRed$e as nswRed, nswTeal$e as nswTeal, nswYellow$e as nswYellow, white$e as white };
 }
 
 declare const nswGrey$d: {
@@ -1142,9 +1146,11 @@ declare const nswAboriginalPurple$d: {
   '900': string
   '950': string
 }
+declare const white$d: string
+declare const black$d: string
 
 declare namespace globalJsOklch {
-  export { nswAboriginalBlue$d as nswAboriginalBlue, nswAboriginalBrown$d as nswAboriginalBrown, nswAboriginalGreen$d as nswAboriginalGreen, nswAboriginalGrey$d as nswAboriginalGrey, nswAboriginalOrange$d as nswAboriginalOrange, nswAboriginalPurple$d as nswAboriginalPurple, nswAboriginalRed$d as nswAboriginalRed, nswAboriginalYellow$d as nswAboriginalYellow, nswBlue$d as nswBlue, nswBrown$d as nswBrown, nswFuchsia$d as nswFuchsia, nswGreen$d as nswGreen, nswGrey$d as nswGrey, nswOrange$d as nswOrange, nswPurple$d as nswPurple, nswRed$d as nswRed, nswTeal$d as nswTeal, nswYellow$d as nswYellow };
+  export { black$d as black, nswAboriginalBlue$d as nswAboriginalBlue, nswAboriginalBrown$d as nswAboriginalBrown, nswAboriginalGreen$d as nswAboriginalGreen, nswAboriginalGrey$d as nswAboriginalGrey, nswAboriginalOrange$d as nswAboriginalOrange, nswAboriginalPurple$d as nswAboriginalPurple, nswAboriginalRed$d as nswAboriginalRed, nswAboriginalYellow$d as nswAboriginalYellow, nswBlue$d as nswBlue, nswBrown$d as nswBrown, nswFuchsia$d as nswFuchsia, nswGreen$d as nswGreen, nswGrey$d as nswGrey, nswOrange$d as nswOrange, nswPurple$d as nswPurple, nswRed$d as nswRed, nswTeal$d as nswTeal, nswYellow$d as nswYellow, white$d as white };
 }
 
 declare const nswGrey$c: {
@@ -1525,9 +1531,11 @@ declare const nswAboriginalPurple$c: {
   '900': string
   '950': string
 }
+declare const white$c: string
+declare const black$c: string
 
 declare namespace globalJsRgb {
-  export { nswAboriginalBlue$c as nswAboriginalBlue, nswAboriginalBrown$c as nswAboriginalBrown, nswAboriginalGreen$c as nswAboriginalGreen, nswAboriginalGrey$c as nswAboriginalGrey, nswAboriginalOrange$c as nswAboriginalOrange, nswAboriginalPurple$c as nswAboriginalPurple, nswAboriginalRed$c as nswAboriginalRed, nswAboriginalYellow$c as nswAboriginalYellow, nswBlue$c as nswBlue, nswBrown$c as nswBrown, nswFuchsia$c as nswFuchsia, nswGreen$c as nswGreen, nswGrey$c as nswGrey, nswOrange$c as nswOrange, nswPurple$c as nswPurple, nswRed$c as nswRed, nswTeal$c as nswTeal, nswYellow$c as nswYellow };
+  export { black$c as black, nswAboriginalBlue$c as nswAboriginalBlue, nswAboriginalBrown$c as nswAboriginalBrown, nswAboriginalGreen$c as nswAboriginalGreen, nswAboriginalGrey$c as nswAboriginalGrey, nswAboriginalOrange$c as nswAboriginalOrange, nswAboriginalPurple$c as nswAboriginalPurple, nswAboriginalRed$c as nswAboriginalRed, nswAboriginalYellow$c as nswAboriginalYellow, nswBlue$c as nswBlue, nswBrown$c as nswBrown, nswFuchsia$c as nswFuchsia, nswGreen$c as nswGreen, nswGrey$c as nswGrey, nswOrange$c as nswOrange, nswPurple$c as nswPurple, nswRed$c as nswRed, nswTeal$c as nswTeal, nswYellow$c as nswYellow, white$c as white };
 }
 
 declare const nswGrey$b: {
@@ -1908,9 +1916,11 @@ declare const nswAboriginalPurple$b: {
   '900': string
   '950': string
 }
+declare const white$b: string
+declare const black$b: string
 
 declare namespace globalJsHexDark {
-  export { nswAboriginalBlue$b as nswAboriginalBlue, nswAboriginalBrown$b as nswAboriginalBrown, nswAboriginalGreen$b as nswAboriginalGreen, nswAboriginalGrey$b as nswAboriginalGrey, nswAboriginalOrange$b as nswAboriginalOrange, nswAboriginalPurple$b as nswAboriginalPurple, nswAboriginalRed$b as nswAboriginalRed, nswAboriginalYellow$b as nswAboriginalYellow, nswBlue$b as nswBlue, nswBrown$b as nswBrown, nswFuchsia$b as nswFuchsia, nswGreen$b as nswGreen, nswGrey$b as nswGrey, nswOrange$b as nswOrange, nswPurple$b as nswPurple, nswRed$b as nswRed, nswTeal$b as nswTeal, nswYellow$b as nswYellow };
+  export { black$b as black, nswAboriginalBlue$b as nswAboriginalBlue, nswAboriginalBrown$b as nswAboriginalBrown, nswAboriginalGreen$b as nswAboriginalGreen, nswAboriginalGrey$b as nswAboriginalGrey, nswAboriginalOrange$b as nswAboriginalOrange, nswAboriginalPurple$b as nswAboriginalPurple, nswAboriginalRed$b as nswAboriginalRed, nswAboriginalYellow$b as nswAboriginalYellow, nswBlue$b as nswBlue, nswBrown$b as nswBrown, nswFuchsia$b as nswFuchsia, nswGreen$b as nswGreen, nswGrey$b as nswGrey, nswOrange$b as nswOrange, nswPurple$b as nswPurple, nswRed$b as nswRed, nswTeal$b as nswTeal, nswYellow$b as nswYellow, white$b as white };
 }
 
 declare const nswGrey$a: {
@@ -2291,9 +2301,11 @@ declare const nswAboriginalPurple$a: {
   '900': string
   '950': string
 }
+declare const white$a: string
+declare const black$a: string
 
 declare namespace globalJsHslDark {
-  export { nswAboriginalBlue$a as nswAboriginalBlue, nswAboriginalBrown$a as nswAboriginalBrown, nswAboriginalGreen$a as nswAboriginalGreen, nswAboriginalGrey$a as nswAboriginalGrey, nswAboriginalOrange$a as nswAboriginalOrange, nswAboriginalPurple$a as nswAboriginalPurple, nswAboriginalRed$a as nswAboriginalRed, nswAboriginalYellow$a as nswAboriginalYellow, nswBlue$a as nswBlue, nswBrown$a as nswBrown, nswFuchsia$a as nswFuchsia, nswGreen$a as nswGreen, nswGrey$a as nswGrey, nswOrange$a as nswOrange, nswPurple$a as nswPurple, nswRed$a as nswRed, nswTeal$a as nswTeal, nswYellow$a as nswYellow };
+  export { black$a as black, nswAboriginalBlue$a as nswAboriginalBlue, nswAboriginalBrown$a as nswAboriginalBrown, nswAboriginalGreen$a as nswAboriginalGreen, nswAboriginalGrey$a as nswAboriginalGrey, nswAboriginalOrange$a as nswAboriginalOrange, nswAboriginalPurple$a as nswAboriginalPurple, nswAboriginalRed$a as nswAboriginalRed, nswAboriginalYellow$a as nswAboriginalYellow, nswBlue$a as nswBlue, nswBrown$a as nswBrown, nswFuchsia$a as nswFuchsia, nswGreen$a as nswGreen, nswGrey$a as nswGrey, nswOrange$a as nswOrange, nswPurple$a as nswPurple, nswRed$a as nswRed, nswTeal$a as nswTeal, nswYellow$a as nswYellow, white$a as white };
 }
 
 declare const nswGrey$9: {
@@ -2674,9 +2686,11 @@ declare const nswAboriginalPurple$9: {
   '900': string
   '950': string
 }
+declare const white$9: string
+declare const black$9: string
 
 declare namespace globalJsOklchDark {
-  export { nswAboriginalBlue$9 as nswAboriginalBlue, nswAboriginalBrown$9 as nswAboriginalBrown, nswAboriginalGreen$9 as nswAboriginalGreen, nswAboriginalGrey$9 as nswAboriginalGrey, nswAboriginalOrange$9 as nswAboriginalOrange, nswAboriginalPurple$9 as nswAboriginalPurple, nswAboriginalRed$9 as nswAboriginalRed, nswAboriginalYellow$9 as nswAboriginalYellow, nswBlue$9 as nswBlue, nswBrown$9 as nswBrown, nswFuchsia$9 as nswFuchsia, nswGreen$9 as nswGreen, nswGrey$9 as nswGrey, nswOrange$9 as nswOrange, nswPurple$9 as nswPurple, nswRed$9 as nswRed, nswTeal$9 as nswTeal, nswYellow$9 as nswYellow };
+  export { black$9 as black, nswAboriginalBlue$9 as nswAboriginalBlue, nswAboriginalBrown$9 as nswAboriginalBrown, nswAboriginalGreen$9 as nswAboriginalGreen, nswAboriginalGrey$9 as nswAboriginalGrey, nswAboriginalOrange$9 as nswAboriginalOrange, nswAboriginalPurple$9 as nswAboriginalPurple, nswAboriginalRed$9 as nswAboriginalRed, nswAboriginalYellow$9 as nswAboriginalYellow, nswBlue$9 as nswBlue, nswBrown$9 as nswBrown, nswFuchsia$9 as nswFuchsia, nswGreen$9 as nswGreen, nswGrey$9 as nswGrey, nswOrange$9 as nswOrange, nswPurple$9 as nswPurple, nswRed$9 as nswRed, nswTeal$9 as nswTeal, nswYellow$9 as nswYellow, white$9 as white };
 }
 
 declare const nswGrey$8: {
@@ -3057,9 +3071,11 @@ declare const nswAboriginalPurple$8: {
   '900': string
   '950': string
 }
+declare const white$8: string
+declare const black$8: string
 
 declare namespace globalJsRgbDark {
-  export { nswAboriginalBlue$8 as nswAboriginalBlue, nswAboriginalBrown$8 as nswAboriginalBrown, nswAboriginalGreen$8 as nswAboriginalGreen, nswAboriginalGrey$8 as nswAboriginalGrey, nswAboriginalOrange$8 as nswAboriginalOrange, nswAboriginalPurple$8 as nswAboriginalPurple, nswAboriginalRed$8 as nswAboriginalRed, nswAboriginalYellow$8 as nswAboriginalYellow, nswBlue$8 as nswBlue, nswBrown$8 as nswBrown, nswFuchsia$8 as nswFuchsia, nswGreen$8 as nswGreen, nswGrey$8 as nswGrey, nswOrange$8 as nswOrange, nswPurple$8 as nswPurple, nswRed$8 as nswRed, nswTeal$8 as nswTeal, nswYellow$8 as nswYellow };
+  export { black$8 as black, nswAboriginalBlue$8 as nswAboriginalBlue, nswAboriginalBrown$8 as nswAboriginalBrown, nswAboriginalGreen$8 as nswAboriginalGreen, nswAboriginalGrey$8 as nswAboriginalGrey, nswAboriginalOrange$8 as nswAboriginalOrange, nswAboriginalPurple$8 as nswAboriginalPurple, nswAboriginalRed$8 as nswAboriginalRed, nswAboriginalYellow$8 as nswAboriginalYellow, nswBlue$8 as nswBlue, nswBrown$8 as nswBrown, nswFuchsia$8 as nswFuchsia, nswGreen$8 as nswGreen, nswGrey$8 as nswGrey, nswOrange$8 as nswOrange, nswPurple$8 as nswPurple, nswRed$8 as nswRed, nswTeal$8 as nswTeal, nswYellow$8 as nswYellow, white$8 as white };
 }
 
 declare const success$f: {
@@ -6081,9 +6097,11 @@ declare const nswAboriginalPurple$7: {
     '900': string;
     '950': string;
 };
+declare const white$7 = "#ffffff";
+declare const black$7 = "#000000";
 
 declare namespace globalTsHex {
-  export { nswAboriginalBlue$7 as nswAboriginalBlue, nswAboriginalBrown$7 as nswAboriginalBrown, nswAboriginalGreen$7 as nswAboriginalGreen, nswAboriginalGrey$7 as nswAboriginalGrey, nswAboriginalOrange$7 as nswAboriginalOrange, nswAboriginalPurple$7 as nswAboriginalPurple, nswAboriginalRed$7 as nswAboriginalRed, nswAboriginalYellow$7 as nswAboriginalYellow, nswBlue$7 as nswBlue, nswBrown$7 as nswBrown, nswFuchsia$7 as nswFuchsia, nswGreen$7 as nswGreen, nswGrey$7 as nswGrey, nswOrange$7 as nswOrange, nswPurple$7 as nswPurple, nswRed$7 as nswRed, nswTeal$7 as nswTeal, nswYellow$7 as nswYellow };
+  export { black$7 as black, nswAboriginalBlue$7 as nswAboriginalBlue, nswAboriginalBrown$7 as nswAboriginalBrown, nswAboriginalGreen$7 as nswAboriginalGreen, nswAboriginalGrey$7 as nswAboriginalGrey, nswAboriginalOrange$7 as nswAboriginalOrange, nswAboriginalPurple$7 as nswAboriginalPurple, nswAboriginalRed$7 as nswAboriginalRed, nswAboriginalYellow$7 as nswAboriginalYellow, nswBlue$7 as nswBlue, nswBrown$7 as nswBrown, nswFuchsia$7 as nswFuchsia, nswGreen$7 as nswGreen, nswGrey$7 as nswGrey, nswOrange$7 as nswOrange, nswPurple$7 as nswPurple, nswRed$7 as nswRed, nswTeal$7 as nswTeal, nswYellow$7 as nswYellow, white$7 as white };
 }
 
 declare const nswGrey$6: {
@@ -6464,9 +6482,11 @@ declare const nswAboriginalPurple$6: {
     '900': string;
     '950': string;
 };
+declare const white$6 = "hsl(0, 0%, 100%)";
+declare const black$6 = "hsl(0, 0%, 0%)";
 
 declare namespace globalTsHsl {
-  export { nswAboriginalBlue$6 as nswAboriginalBlue, nswAboriginalBrown$6 as nswAboriginalBrown, nswAboriginalGreen$6 as nswAboriginalGreen, nswAboriginalGrey$6 as nswAboriginalGrey, nswAboriginalOrange$6 as nswAboriginalOrange, nswAboriginalPurple$6 as nswAboriginalPurple, nswAboriginalRed$6 as nswAboriginalRed, nswAboriginalYellow$6 as nswAboriginalYellow, nswBlue$6 as nswBlue, nswBrown$6 as nswBrown, nswFuchsia$6 as nswFuchsia, nswGreen$6 as nswGreen, nswGrey$6 as nswGrey, nswOrange$6 as nswOrange, nswPurple$6 as nswPurple, nswRed$6 as nswRed, nswTeal$6 as nswTeal, nswYellow$6 as nswYellow };
+  export { black$6 as black, nswAboriginalBlue$6 as nswAboriginalBlue, nswAboriginalBrown$6 as nswAboriginalBrown, nswAboriginalGreen$6 as nswAboriginalGreen, nswAboriginalGrey$6 as nswAboriginalGrey, nswAboriginalOrange$6 as nswAboriginalOrange, nswAboriginalPurple$6 as nswAboriginalPurple, nswAboriginalRed$6 as nswAboriginalRed, nswAboriginalYellow$6 as nswAboriginalYellow, nswBlue$6 as nswBlue, nswBrown$6 as nswBrown, nswFuchsia$6 as nswFuchsia, nswGreen$6 as nswGreen, nswGrey$6 as nswGrey, nswOrange$6 as nswOrange, nswPurple$6 as nswPurple, nswRed$6 as nswRed, nswTeal$6 as nswTeal, nswYellow$6 as nswYellow, white$6 as white };
 }
 
 declare const nswGrey$5: {
@@ -6847,9 +6867,11 @@ declare const nswAboriginalPurple$5: {
     '900': string;
     '950': string;
 };
+declare const white$5 = "oklch(1 0 0)";
+declare const black$5 = "oklch(0 0 0)";
 
 declare namespace globalTsOklch {
-  export { nswAboriginalBlue$5 as nswAboriginalBlue, nswAboriginalBrown$5 as nswAboriginalBrown, nswAboriginalGreen$5 as nswAboriginalGreen, nswAboriginalGrey$5 as nswAboriginalGrey, nswAboriginalOrange$5 as nswAboriginalOrange, nswAboriginalPurple$5 as nswAboriginalPurple, nswAboriginalRed$5 as nswAboriginalRed, nswAboriginalYellow$5 as nswAboriginalYellow, nswBlue$5 as nswBlue, nswBrown$5 as nswBrown, nswFuchsia$5 as nswFuchsia, nswGreen$5 as nswGreen, nswGrey$5 as nswGrey, nswOrange$5 as nswOrange, nswPurple$5 as nswPurple, nswRed$5 as nswRed, nswTeal$5 as nswTeal, nswYellow$5 as nswYellow };
+  export { black$5 as black, nswAboriginalBlue$5 as nswAboriginalBlue, nswAboriginalBrown$5 as nswAboriginalBrown, nswAboriginalGreen$5 as nswAboriginalGreen, nswAboriginalGrey$5 as nswAboriginalGrey, nswAboriginalOrange$5 as nswAboriginalOrange, nswAboriginalPurple$5 as nswAboriginalPurple, nswAboriginalRed$5 as nswAboriginalRed, nswAboriginalYellow$5 as nswAboriginalYellow, nswBlue$5 as nswBlue, nswBrown$5 as nswBrown, nswFuchsia$5 as nswFuchsia, nswGreen$5 as nswGreen, nswGrey$5 as nswGrey, nswOrange$5 as nswOrange, nswPurple$5 as nswPurple, nswRed$5 as nswRed, nswTeal$5 as nswTeal, nswYellow$5 as nswYellow, white$5 as white };
 }
 
 declare const nswGrey$4: {
@@ -7230,9 +7252,11 @@ declare const nswAboriginalPurple$4: {
     '900': string;
     '950': string;
 };
+declare const white$4 = "rgb(255, 255, 255)";
+declare const black$4 = "rgb(0, 0, 0)";
 
 declare namespace globalTsRgb {
-  export { nswAboriginalBlue$4 as nswAboriginalBlue, nswAboriginalBrown$4 as nswAboriginalBrown, nswAboriginalGreen$4 as nswAboriginalGreen, nswAboriginalGrey$4 as nswAboriginalGrey, nswAboriginalOrange$4 as nswAboriginalOrange, nswAboriginalPurple$4 as nswAboriginalPurple, nswAboriginalRed$4 as nswAboriginalRed, nswAboriginalYellow$4 as nswAboriginalYellow, nswBlue$4 as nswBlue, nswBrown$4 as nswBrown, nswFuchsia$4 as nswFuchsia, nswGreen$4 as nswGreen, nswGrey$4 as nswGrey, nswOrange$4 as nswOrange, nswPurple$4 as nswPurple, nswRed$4 as nswRed, nswTeal$4 as nswTeal, nswYellow$4 as nswYellow };
+  export { black$4 as black, nswAboriginalBlue$4 as nswAboriginalBlue, nswAboriginalBrown$4 as nswAboriginalBrown, nswAboriginalGreen$4 as nswAboriginalGreen, nswAboriginalGrey$4 as nswAboriginalGrey, nswAboriginalOrange$4 as nswAboriginalOrange, nswAboriginalPurple$4 as nswAboriginalPurple, nswAboriginalRed$4 as nswAboriginalRed, nswAboriginalYellow$4 as nswAboriginalYellow, nswBlue$4 as nswBlue, nswBrown$4 as nswBrown, nswFuchsia$4 as nswFuchsia, nswGreen$4 as nswGreen, nswGrey$4 as nswGrey, nswOrange$4 as nswOrange, nswPurple$4 as nswPurple, nswRed$4 as nswRed, nswTeal$4 as nswTeal, nswYellow$4 as nswYellow, white$4 as white };
 }
 
 declare const nswGrey$3: {
@@ -7613,9 +7637,11 @@ declare const nswAboriginalPurple$3: {
     '900': string;
     '950': string;
 };
+declare const white$3 = "#ffffff";
+declare const black$3 = "#000000";
 
 declare namespace globalTsHexDark {
-  export { nswAboriginalBlue$3 as nswAboriginalBlue, nswAboriginalBrown$3 as nswAboriginalBrown, nswAboriginalGreen$3 as nswAboriginalGreen, nswAboriginalGrey$3 as nswAboriginalGrey, nswAboriginalOrange$3 as nswAboriginalOrange, nswAboriginalPurple$3 as nswAboriginalPurple, nswAboriginalRed$3 as nswAboriginalRed, nswAboriginalYellow$3 as nswAboriginalYellow, nswBlue$3 as nswBlue, nswBrown$3 as nswBrown, nswFuchsia$3 as nswFuchsia, nswGreen$3 as nswGreen, nswGrey$3 as nswGrey, nswOrange$3 as nswOrange, nswPurple$3 as nswPurple, nswRed$3 as nswRed, nswTeal$3 as nswTeal, nswYellow$3 as nswYellow };
+  export { black$3 as black, nswAboriginalBlue$3 as nswAboriginalBlue, nswAboriginalBrown$3 as nswAboriginalBrown, nswAboriginalGreen$3 as nswAboriginalGreen, nswAboriginalGrey$3 as nswAboriginalGrey, nswAboriginalOrange$3 as nswAboriginalOrange, nswAboriginalPurple$3 as nswAboriginalPurple, nswAboriginalRed$3 as nswAboriginalRed, nswAboriginalYellow$3 as nswAboriginalYellow, nswBlue$3 as nswBlue, nswBrown$3 as nswBrown, nswFuchsia$3 as nswFuchsia, nswGreen$3 as nswGreen, nswGrey$3 as nswGrey, nswOrange$3 as nswOrange, nswPurple$3 as nswPurple, nswRed$3 as nswRed, nswTeal$3 as nswTeal, nswYellow$3 as nswYellow, white$3 as white };
 }
 
 declare const nswGrey$2: {
@@ -7996,9 +8022,11 @@ declare const nswAboriginalPurple$2: {
     '900': string;
     '950': string;
 };
+declare const white$2 = "hsl(0, 0%, 100%)";
+declare const black$2 = "hsl(0, 0%, 0%)";
 
 declare namespace globalTsHslDark {
-  export { nswAboriginalBlue$2 as nswAboriginalBlue, nswAboriginalBrown$2 as nswAboriginalBrown, nswAboriginalGreen$2 as nswAboriginalGreen, nswAboriginalGrey$2 as nswAboriginalGrey, nswAboriginalOrange$2 as nswAboriginalOrange, nswAboriginalPurple$2 as nswAboriginalPurple, nswAboriginalRed$2 as nswAboriginalRed, nswAboriginalYellow$2 as nswAboriginalYellow, nswBlue$2 as nswBlue, nswBrown$2 as nswBrown, nswFuchsia$2 as nswFuchsia, nswGreen$2 as nswGreen, nswGrey$2 as nswGrey, nswOrange$2 as nswOrange, nswPurple$2 as nswPurple, nswRed$2 as nswRed, nswTeal$2 as nswTeal, nswYellow$2 as nswYellow };
+  export { black$2 as black, nswAboriginalBlue$2 as nswAboriginalBlue, nswAboriginalBrown$2 as nswAboriginalBrown, nswAboriginalGreen$2 as nswAboriginalGreen, nswAboriginalGrey$2 as nswAboriginalGrey, nswAboriginalOrange$2 as nswAboriginalOrange, nswAboriginalPurple$2 as nswAboriginalPurple, nswAboriginalRed$2 as nswAboriginalRed, nswAboriginalYellow$2 as nswAboriginalYellow, nswBlue$2 as nswBlue, nswBrown$2 as nswBrown, nswFuchsia$2 as nswFuchsia, nswGreen$2 as nswGreen, nswGrey$2 as nswGrey, nswOrange$2 as nswOrange, nswPurple$2 as nswPurple, nswRed$2 as nswRed, nswTeal$2 as nswTeal, nswYellow$2 as nswYellow, white$2 as white };
 }
 
 declare const nswGrey$1: {
@@ -8379,9 +8407,11 @@ declare const nswAboriginalPurple$1: {
     '900': string;
     '950': string;
 };
+declare const white$1 = "oklch(1 0 0)";
+declare const black$1 = "oklch(0 0 0)";
 
 declare namespace globalTsOklchDark {
-  export { nswAboriginalBlue$1 as nswAboriginalBlue, nswAboriginalBrown$1 as nswAboriginalBrown, nswAboriginalGreen$1 as nswAboriginalGreen, nswAboriginalGrey$1 as nswAboriginalGrey, nswAboriginalOrange$1 as nswAboriginalOrange, nswAboriginalPurple$1 as nswAboriginalPurple, nswAboriginalRed$1 as nswAboriginalRed, nswAboriginalYellow$1 as nswAboriginalYellow, nswBlue$1 as nswBlue, nswBrown$1 as nswBrown, nswFuchsia$1 as nswFuchsia, nswGreen$1 as nswGreen, nswGrey$1 as nswGrey, nswOrange$1 as nswOrange, nswPurple$1 as nswPurple, nswRed$1 as nswRed, nswTeal$1 as nswTeal, nswYellow$1 as nswYellow };
+  export { black$1 as black, nswAboriginalBlue$1 as nswAboriginalBlue, nswAboriginalBrown$1 as nswAboriginalBrown, nswAboriginalGreen$1 as nswAboriginalGreen, nswAboriginalGrey$1 as nswAboriginalGrey, nswAboriginalOrange$1 as nswAboriginalOrange, nswAboriginalPurple$1 as nswAboriginalPurple, nswAboriginalRed$1 as nswAboriginalRed, nswAboriginalYellow$1 as nswAboriginalYellow, nswBlue$1 as nswBlue, nswBrown$1 as nswBrown, nswFuchsia$1 as nswFuchsia, nswGreen$1 as nswGreen, nswGrey$1 as nswGrey, nswOrange$1 as nswOrange, nswPurple$1 as nswPurple, nswRed$1 as nswRed, nswTeal$1 as nswTeal, nswYellow$1 as nswYellow, white$1 as white };
 }
 
 declare const nswGrey: {
@@ -8762,7 +8792,10 @@ declare const nswAboriginalPurple: {
     '900': string;
     '950': string;
 };
+declare const white = "rgb(255, 255, 255)";
+declare const black = "rgb(0, 0, 0)";
 
+declare const globalTsRgbDark_black: typeof black;
 declare const globalTsRgbDark_nswAboriginalBlue: typeof nswAboriginalBlue;
 declare const globalTsRgbDark_nswAboriginalBrown: typeof nswAboriginalBrown;
 declare const globalTsRgbDark_nswAboriginalGreen: typeof nswAboriginalGreen;
@@ -8781,8 +8814,9 @@ declare const globalTsRgbDark_nswPurple: typeof nswPurple;
 declare const globalTsRgbDark_nswRed: typeof nswRed;
 declare const globalTsRgbDark_nswTeal: typeof nswTeal;
 declare const globalTsRgbDark_nswYellow: typeof nswYellow;
+declare const globalTsRgbDark_white: typeof white;
 declare namespace globalTsRgbDark {
-  export { globalTsRgbDark_nswAboriginalBlue as nswAboriginalBlue, globalTsRgbDark_nswAboriginalBrown as nswAboriginalBrown, globalTsRgbDark_nswAboriginalGreen as nswAboriginalGreen, globalTsRgbDark_nswAboriginalGrey as nswAboriginalGrey, globalTsRgbDark_nswAboriginalOrange as nswAboriginalOrange, globalTsRgbDark_nswAboriginalPurple as nswAboriginalPurple, globalTsRgbDark_nswAboriginalRed as nswAboriginalRed, globalTsRgbDark_nswAboriginalYellow as nswAboriginalYellow, globalTsRgbDark_nswBlue as nswBlue, globalTsRgbDark_nswBrown as nswBrown, globalTsRgbDark_nswFuchsia as nswFuchsia, globalTsRgbDark_nswGreen as nswGreen, globalTsRgbDark_nswGrey as nswGrey, globalTsRgbDark_nswOrange as nswOrange, globalTsRgbDark_nswPurple as nswPurple, globalTsRgbDark_nswRed as nswRed, globalTsRgbDark_nswTeal as nswTeal, globalTsRgbDark_nswYellow as nswYellow };
+  export { globalTsRgbDark_black as black, globalTsRgbDark_nswAboriginalBlue as nswAboriginalBlue, globalTsRgbDark_nswAboriginalBrown as nswAboriginalBrown, globalTsRgbDark_nswAboriginalGreen as nswAboriginalGreen, globalTsRgbDark_nswAboriginalGrey as nswAboriginalGrey, globalTsRgbDark_nswAboriginalOrange as nswAboriginalOrange, globalTsRgbDark_nswAboriginalPurple as nswAboriginalPurple, globalTsRgbDark_nswAboriginalRed as nswAboriginalRed, globalTsRgbDark_nswAboriginalYellow as nswAboriginalYellow, globalTsRgbDark_nswBlue as nswBlue, globalTsRgbDark_nswBrown as nswBrown, globalTsRgbDark_nswFuchsia as nswFuchsia, globalTsRgbDark_nswGreen as nswGreen, globalTsRgbDark_nswGrey as nswGrey, globalTsRgbDark_nswOrange as nswOrange, globalTsRgbDark_nswPurple as nswPurple, globalTsRgbDark_nswRed as nswRed, globalTsRgbDark_nswTeal as nswTeal, globalTsRgbDark_nswYellow as nswYellow, globalTsRgbDark_white as white };
 }
 
 declare const success$7: {

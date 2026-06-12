@@ -4822,5 +4822,33 @@
         "hex": "#150612"
       }
     }
+  },
+  "white": {
+    "$type": "color",
+    "$description": "Pure white — page backgrounds, content surfaces, and text on dark or solid fills.",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#ffffff"
+    }
+  },
+  "black": {
+    "$type": "color",
+    "$description": "Pure black — maximum-contrast text, overlays, and scrims.",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#000000"
+    }
   }
 }

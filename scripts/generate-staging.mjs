@@ -72,21 +72,26 @@ const generate = ({ staging, canonical, extensionsFrom }) => {
     ...Object.keys(extensionsSource).filter((f) => f in source || extras.includes(f)),
     ...Object.keys(source).filter((f) => !(f in extensionsSource)),
   ]
+  const stagingToken = (tok, prior) => ({
+    $type: tok.$type,
+    $value: tok.$value,
+    $description: tok.$description ?? '',
+    ...(prior?.$extensions ? { $extensions: prior.$extensions } : {}),
+  })
+  // Flat token (no step ramp): `white`/`black` are single variables, not families.
+  const isToken = (node) => node && typeof node === 'object' && '$value' in node
   for (const family of families) {
     if (extras.includes(family)) {
       out[family] = extensionsSource[family]
       continue
     }
+    if (isToken(source[family])) {
+      out[family] = stagingToken(source[family], extensionsSource[family])
+      continue
+    }
     out[family] = {}
     for (const step of Object.keys(source[family])) {
-      const tok = source[family][step]
-      const prior = extensionsSource[family]?.[step]
-      out[family][step] = {
-        $type: tok.$type,
-        $value: tok.$value,
-        $description: tok.$description ?? '',
-        ...(prior?.$extensions ? { $extensions: prior.$extensions } : {}),
-      }
+      out[family][step] = stagingToken(source[family][step], extensionsSource[family]?.[step])
     }
   }
   return `${JSON.stringify(out, null, 2)}\n`

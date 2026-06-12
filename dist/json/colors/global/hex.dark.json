@@ -376,5 +376,7 @@
     "nsw-aboriginal-purple-850": "#ebd8e8",
     "nsw-aboriginal-purple-900": "#f2e5f0",
     "nsw-aboriginal-purple-950": "#faf1f8"
-  }
+  },
+  "white": "#ffffff",
+  "black": "#000000"
 }

@@ -1744,5 +1744,15 @@
       "$description": "NSW Aboriginal palette purple. Step 950: text and high emphasis.",
       "$value": "#faf1f8"
     }
+  },
+  "white": {
+    "$type": "color",
+    "$description": "Pure white — page backgrounds, content surfaces, and text on dark or solid fills.",
+    "$value": "#ffffff"
+  },
+  "black": {
+    "$type": "color",
+    "$description": "Pure black — maximum-contrast text, overlays, and scrims.",
+    "$value": "#000000"
   }
 }

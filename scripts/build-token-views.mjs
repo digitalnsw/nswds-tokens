@@ -21,6 +21,8 @@ import { dtcgValue } from '../build/color-derive.mjs'
 const read = (p) => JSON.parse(readFileSync(p, 'utf8'))
 const write = (p, o) => writeFileSync(p, `${JSON.stringify(o, null, 2)}\n`)
 const isAlias = (v) => typeof v === 'string' && v.startsWith('{')
+// Flat token (no step ramp): `white`/`black` are single variables, not 19-step families.
+const isToken = (node) => node && typeof node === 'object' && '$value' in node
 
 const MODES = ['light', 'dark'] // light = implicit default file names
 const canonicalPath = (dir, mode) =>
@@ -37,6 +39,10 @@ for (const mode of MODES) {
   const globalCanonical = read(p)
   const lookup = {}
   for (const fam of Object.keys(globalCanonical)) {
+    if (isToken(globalCanonical[fam])) {
+      lookup[fam] = globalCanonical[fam].$value // flat token (white/black)
+      continue
+    }
     for (const step of Object.keys(globalCanonical[fam])) {
       lookup[`${fam}.${step}`] = globalCanonical[fam][step].$value
     }
@@ -84,15 +90,19 @@ for (const { dir, keepHexAlias } of LAYERS) {
     const canonical = read(src)
     for (const [file, derive] of Object.entries(VIEWS)) {
       const out = {}
+      const viewToken = ({ $value: cv, $description }) => ({
+        $type: 'color',
+        ...($description ? { $description } : {}),
+        $value: derive(cv, keepHexAlias, mode),
+      })
       for (const fam of Object.keys(canonical)) {
+        if (isToken(canonical[fam])) {
+          out[fam] = viewToken(canonical[fam])
+          continue
+        }
         out[fam] = {}
         for (const step of Object.keys(canonical[fam])) {
-          const { $value: cv, $description } = canonical[fam][step]
-          out[fam][step] = {
-            $type: 'color',
-            ...($description ? { $description } : {}),
-            $value: derive(cv, keepHexAlias, mode),
-          }
+          out[fam][step] = viewToken(canonical[fam][step])
         }
       }
       write(viewPath(dir, file, mode), out)

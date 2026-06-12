@@ -341,4 +341,6 @@
   --nsw-aboriginal-purple-850: hsl(308.888889, 34.177215%, 15.490196%); /** NSW Aboriginal palette purple. Step 850: text and high emphasis. */
   --nsw-aboriginal-purple-900: hsl(309, 38.461538%, 10.196078%); /** NSW Aboriginal palette purple. Step 900: text and high emphasis. */
   --nsw-aboriginal-purple-950: hsl(312, 55.555556%, 5.294118%); /** NSW Aboriginal palette purple. Step 950: text and high emphasis. */
+  --white: hsl(0, 0%, 100%); /** Pure white — page backgrounds, content surfaces, and text on dark or solid fills. */
+  --black: hsl(0, 0%, 0%); /** Pure black — maximum-contrast text, overlays, and scrims. */
 }

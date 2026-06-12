@@ -341,4 +341,6 @@
   --nsw-aboriginal-purple-850: rgb(53, 26, 49); /** NSW Aboriginal palette purple. Step 850: text and high emphasis. */
   --nsw-aboriginal-purple-900: rgb(36, 16, 33); /** NSW Aboriginal palette purple. Step 900: text and high emphasis. */
   --nsw-aboriginal-purple-950: rgb(21, 6, 18); /** NSW Aboriginal palette purple. Step 950: text and high emphasis. */
+  --white: rgb(255, 255, 255); /** Pure white — page backgrounds, content surfaces, and text on dark or solid fills. */
+  --black: rgb(0, 0, 0); /** Pure black — maximum-contrast text, overlays, and scrims. */
 }

@@ -117,6 +117,8 @@ assert.ok(
 
 const esmModule = await import('@nswds/tokens')
 assert.equal(esmModule.tokens.colors.global.hex['nsw-blue'][500].$value, '#26aeff')
+// Flat tokens (no step ramp) must flow through the whole pipeline.
+assert.equal(esmModule.tokens.colors.global.hex.white.$value, '#ffffff')
 
 const cjsModule = require('@nswds/tokens')
 assert.equal(cjsModule.tokens.colors.global.hex['nsw-blue'][500].$value, '#26aeff')
@@ -163,12 +165,13 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
     join(consumerDir, 'consumer.ts'),
     [
       "import { tokens } from '@nswds/tokens'",
-      "import { nswBlue } from '@nswds/tokens/js/colors/global/hex.js'",
+      "import { nswBlue, white } from '@nswds/tokens/js/colors/global/hex.js'",
       "import { radius } from '@nswds/tokens/js/radius/global.js'",
       "import { heading1 } from '@nswds/tokens/js/typography/semantic.js'",
       '',
       "const root: string = tokens.colors.global.hex['nsw-blue'][500].$value",
       'const blue: string = nswBlue[500]',
+      'const flat: string = white // flat tokens export as scalars',
       'const md: string = radius.md',
       'const weight: number = heading1.fontWeight',
       'const css: string = tokens.css.global.hex // style leaves are plain typed strings',

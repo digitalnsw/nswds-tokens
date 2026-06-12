@@ -99,6 +99,11 @@ const jsLiteral = (v) => {
 export const nswJs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
+    if (toks[0].path.length === 1) {
+      // Flat token (white/black): a scalar export, not a step object.
+      out += `export const ${toCamel(family)} = ${jsLiteral(toks[0].$value)}\n`
+      continue
+    }
     out += `export const ${toCamel(family)} = {\n`
     for (const t of toks) out += `  ${t.path[1]}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
@@ -113,6 +118,10 @@ const tsKey = (k) => (/^[A-Za-z_$][\w$]*$/.test(k) ? k : `'${k}'`)
 export const nswTs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
+    if (toks[0].path.length === 1) {
+      out += `export const ${toCamel(family)} = ${jsLiteral(toks[0].$value)}\n`
+      continue
+    }
     out += `export const ${toCamel(family)} = {\n`
     for (const t of toks) out += `  ${tsKey(t.path[1])}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
@@ -127,6 +136,10 @@ const tsType = (v) => (typeof v === 'number' ? 'number' : 'string')
 export const nswDts = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
+    if (toks[0].path.length === 1) {
+      out += `export declare const ${toCamel(family)}: ${tsType(toks[0].$value)}\n`
+      continue
+    }
     out += `export declare const ${toCamel(family)}: {\n`
     for (const t of toks) out += `  ${tsKey(t.path[1])}: ${tsType(t.$value)}\n`
     out += `}\n`
@@ -139,6 +152,10 @@ export const nswJson = ({ dictionary }) => {
   const obj = {}
   for (const t of dictionary.allTokens) {
     const family = t.path[0]
+    if (t.path.length === 1) {
+      obj[family] = t.$value
+      continue
+    }
     ;(obj[family] ??= {})[t.path.join('-')] = t.$value
   }
   // Consistent trailing newline across layers (global dist lacks it — normalised).
@@ -150,6 +167,10 @@ export const nswFigma = ({ dictionary }) => {
   const obj = {}
   for (const t of dictionary.allTokens) {
     const family = t.path[0]
+    if (t.path.length === 1) {
+      obj[family] = { $type: 'color', $value: t.$value }
+      continue
+    }
     ;(obj[family] ??= {})[t.path[1]] = { $type: 'color', $value: t.$value }
   }
   // DTCG object colours print `components` inline; JSON.stringify would expand them. Hex
