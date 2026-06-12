@@ -5,10 +5,18 @@ const globalColorHex = require('../tokens/global/color/hex.json')
 const globalColorHsl = require('../tokens/global/color/hsl.json')
 const globalColorOklch = require('../tokens/global/color/oklch.json')
 const globalColorRgb = require('../tokens/global/color/rgb.json')
+const globalColorHexDark = require('../tokens/global/color/hex.dark.json')
+const globalColorHslDark = require('../tokens/global/color/hsl.dark.json')
+const globalColorOklchDark = require('../tokens/global/color/oklch.dark.json')
+const globalColorRgbDark = require('../tokens/global/color/rgb.dark.json')
 const semanticColorHex = require('../tokens/semantic/color/hex.json')
 const semanticColorHsl = require('../tokens/semantic/color/hsl.json')
 const semanticColorOklch = require('../tokens/semantic/color/oklch.json')
 const semanticColorRgb = require('../tokens/semantic/color/rgb.json')
+const semanticColorHexDark = require('../tokens/semantic/color/hex.dark.json')
+const semanticColorHslDark = require('../tokens/semantic/color/hsl.dark.json')
+const semanticColorOklchDark = require('../tokens/semantic/color/oklch.dark.json')
+const semanticColorRgbDark = require('../tokens/semantic/color/rgb.dark.json')
 const masterbrandColorHex = require('../tokens/themes/color/masterbrand/hex.json')
 const masterbrandColorHsl = require('../tokens/themes/color/masterbrand/hsl.json')
 const masterbrandColorOklch = require('../tokens/themes/color/masterbrand/oklch.json')
@@ -30,10 +38,26 @@ import globalCssHex from './css/colors/global/hex.css'
 import globalCssHsl from './css/colors/global/hsl.css'
 import globalCssOklch from './css/colors/global/oklch.css'
 import globalCssRgb from './css/colors/global/rgb.css'
+import globalCssHexDark from './css/colors/global/hex.dark.css'
+import globalCssHslDark from './css/colors/global/hsl.dark.css'
+import globalCssOklchDark from './css/colors/global/oklch.dark.css'
+import globalCssRgbDark from './css/colors/global/rgb.dark.css'
+import globalCssHexDarkMedia from './css/colors/global/hex.dark-media.css'
+import globalCssHslDarkMedia from './css/colors/global/hsl.dark-media.css'
+import globalCssOklchDarkMedia from './css/colors/global/oklch.dark-media.css'
+import globalCssRgbDarkMedia from './css/colors/global/rgb.dark-media.css'
 import semanticCssHex from './css/colors/semantic/hex.css'
 import semanticCssHsl from './css/colors/semantic/hsl.css'
 import semanticCssOklch from './css/colors/semantic/oklch.css'
 import semanticCssRgb from './css/colors/semantic/rgb.css'
+import semanticCssHexDark from './css/colors/semantic/hex.dark.css'
+import semanticCssHslDark from './css/colors/semantic/hsl.dark.css'
+import semanticCssOklchDark from './css/colors/semantic/oklch.dark.css'
+import semanticCssRgbDark from './css/colors/semantic/rgb.dark.css'
+import semanticCssHexDarkMedia from './css/colors/semantic/hex.dark-media.css'
+import semanticCssHslDarkMedia from './css/colors/semantic/hsl.dark-media.css'
+import semanticCssOklchDarkMedia from './css/colors/semantic/oklch.dark-media.css'
+import semanticCssRgbDarkMedia from './css/colors/semantic/rgb.dark-media.css'
 import masterbrandCssHex from './css/colors/themes/masterbrand/hex.css'
 import masterbrandCssHsl from './css/colors/themes/masterbrand/hsl.css'
 import masterbrandCssOklch from './css/colors/themes/masterbrand/oklch.css'
@@ -62,10 +86,18 @@ import * as globalJsHex from './js/colors/global/hex.js'
 import * as globalJsHsl from './js/colors/global/hsl.js'
 import * as globalJsOklch from './js/colors/global/oklch.js'
 import * as globalJsRgb from './js/colors/global/rgb.js'
+import * as globalJsHexDark from './js/colors/global/hex.dark.js'
+import * as globalJsHslDark from './js/colors/global/hsl.dark.js'
+import * as globalJsOklchDark from './js/colors/global/oklch.dark.js'
+import * as globalJsRgbDark from './js/colors/global/rgb.dark.js'
 import * as semanticJsHex from './js/colors/semantic/hex.js'
 import * as semanticJsHsl from './js/colors/semantic/hsl.js'
 import * as semanticJsOklch from './js/colors/semantic/oklch.js'
 import * as semanticJsRgb from './js/colors/semantic/rgb.js'
+import * as semanticJsHexDark from './js/colors/semantic/hex.dark.js'
+import * as semanticJsHslDark from './js/colors/semantic/hsl.dark.js'
+import * as semanticJsOklchDark from './js/colors/semantic/oklch.dark.js'
+import * as semanticJsRgbDark from './js/colors/semantic/rgb.dark.js'
 import * as masterbrandJsHex from './js/colors/themes/masterbrand/hex.js'
 import * as masterbrandJsHsl from './js/colors/themes/masterbrand/hsl.js'
 import * as masterbrandJsOklch from './js/colors/themes/masterbrand/oklch.js'
@@ -94,10 +126,18 @@ const globalJsonHex = require('./json/colors/global/hex.json')
 const globalJsonHsl = require('./json/colors/global/hsl.json')
 const globalJsonOklch = require('./json/colors/global/oklch.json')
 const globalJsonRgb = require('./json/colors/global/rgb.json')
+const globalJsonHexDark = require('./json/colors/global/hex.dark.json')
+const globalJsonHslDark = require('./json/colors/global/hsl.dark.json')
+const globalJsonOklchDark = require('./json/colors/global/oklch.dark.json')
+const globalJsonRgbDark = require('./json/colors/global/rgb.dark.json')
 const semanticJsonHex = require('./json/colors/semantic/hex.json')
 const semanticJsonHsl = require('./json/colors/semantic/hsl.json')
 const semanticJsonOklch = require('./json/colors/semantic/oklch.json')
 const semanticJsonRgb = require('./json/colors/semantic/rgb.json')
+const semanticJsonHexDark = require('./json/colors/semantic/hex.dark.json')
+const semanticJsonHslDark = require('./json/colors/semantic/hsl.dark.json')
+const semanticJsonOklchDark = require('./json/colors/semantic/oklch.dark.json')
+const semanticJsonRgbDark = require('./json/colors/semantic/rgb.dark.json')
 const masterbrandJsonHex = require('./json/colors/themes/masterbrand/hex.json')
 const masterbrandJsonHsl = require('./json/colors/themes/masterbrand/hsl.json')
 const masterbrandJsonOklch = require('./json/colors/themes/masterbrand/oklch.json')
@@ -126,10 +166,18 @@ import globalLessHex from './less/colors/global/hex.less'
 import globalLessHsl from './less/colors/global/hsl.less'
 import globalLessOklch from './less/colors/global/oklch.less'
 import globalLessRgb from './less/colors/global/rgb.less'
+import globalLessHexDark from './less/colors/global/hex.dark.less'
+import globalLessHslDark from './less/colors/global/hsl.dark.less'
+import globalLessOklchDark from './less/colors/global/oklch.dark.less'
+import globalLessRgbDark from './less/colors/global/rgb.dark.less'
 import semanticLessHex from './less/colors/semantic/hex.less'
 import semanticLessHsl from './less/colors/semantic/hsl.less'
 import semanticLessOklch from './less/colors/semantic/oklch.less'
 import semanticLessRgb from './less/colors/semantic/rgb.less'
+import semanticLessHexDark from './less/colors/semantic/hex.dark.less'
+import semanticLessHslDark from './less/colors/semantic/hsl.dark.less'
+import semanticLessOklchDark from './less/colors/semantic/oklch.dark.less'
+import semanticLessRgbDark from './less/colors/semantic/rgb.dark.less'
 import masterbrandLessHex from './less/colors/themes/masterbrand/hex.less'
 import masterbrandLessHsl from './less/colors/themes/masterbrand/hsl.less'
 import masterbrandLessOklch from './less/colors/themes/masterbrand/oklch.less'
@@ -158,10 +206,18 @@ import globalScssHex from './scss/colors/global/hex.scss'
 import globalScssHsl from './scss/colors/global/hsl.scss'
 import globalScssOklch from './scss/colors/global/oklch.scss'
 import globalScssRgb from './scss/colors/global/rgb.scss'
+import globalScssHexDark from './scss/colors/global/hex.dark.scss'
+import globalScssHslDark from './scss/colors/global/hsl.dark.scss'
+import globalScssOklchDark from './scss/colors/global/oklch.dark.scss'
+import globalScssRgbDark from './scss/colors/global/rgb.dark.scss'
 import semanticScssHex from './scss/colors/semantic/hex.scss'
 import semanticScssHsl from './scss/colors/semantic/hsl.scss'
 import semanticScssOklch from './scss/colors/semantic/oklch.scss'
 import semanticScssRgb from './scss/colors/semantic/rgb.scss'
+import semanticScssHexDark from './scss/colors/semantic/hex.dark.scss'
+import semanticScssHslDark from './scss/colors/semantic/hsl.dark.scss'
+import semanticScssOklchDark from './scss/colors/semantic/oklch.dark.scss'
+import semanticScssRgbDark from './scss/colors/semantic/rgb.dark.scss'
 import masterbrandScssHex from './scss/colors/themes/masterbrand/hex.scss'
 import masterbrandScssHsl from './scss/colors/themes/masterbrand/hsl.scss'
 import masterbrandScssOklch from './scss/colors/themes/masterbrand/oklch.scss'
@@ -221,10 +277,18 @@ import * as globalTsHex from './ts/colors/global/hex.js'
 import * as globalTsHsl from './ts/colors/global/hsl.js'
 import * as globalTsOklch from './ts/colors/global/oklch.js'
 import * as globalTsRgb from './ts/colors/global/rgb.js'
+import * as globalTsHexDark from './ts/colors/global/hex.dark.js'
+import * as globalTsHslDark from './ts/colors/global/hsl.dark.js'
+import * as globalTsOklchDark from './ts/colors/global/oklch.dark.js'
+import * as globalTsRgbDark from './ts/colors/global/rgb.dark.js'
 import * as semanticTsHex from './ts/colors/semantic/hex.js'
 import * as semanticTsHsl from './ts/colors/semantic/hsl.js'
 import * as semanticTsOklch from './ts/colors/semantic/oklch.js'
 import * as semanticTsRgb from './ts/colors/semantic/rgb.js'
+import * as semanticTsHexDark from './ts/colors/semantic/hex.dark.js'
+import * as semanticTsHslDark from './ts/colors/semantic/hsl.dark.js'
+import * as semanticTsOklchDark from './ts/colors/semantic/oklch.dark.js'
+import * as semanticTsRgbDark from './ts/colors/semantic/rgb.dark.js'
 import * as masterbrandTsHex from './ts/colors/themes/masterbrand/hex.js'
 import * as masterbrandTsHsl from './ts/colors/themes/masterbrand/hsl.js'
 import * as masterbrandTsOklch from './ts/colors/themes/masterbrand/oklch.js'
@@ -251,8 +315,8 @@ import * as shadowTsGlobal from './ts/shadow/global.js'
 
 export const tokens: {
   colors: {
-    global: { hex: any, hsl: any, oklch: any, rgb: any };
-    semantic: { hex: any, hsl: any, oklch: any, rgb: any };
+    global: { hex: any, hsl: any, oklch: any, rgb: any, dark: { hex: any, hsl: any, oklch: any, rgb: any } };
+    semantic: { hex: any, hsl: any, oklch: any, rgb: any, dark: { hex: any, hsl: any, oklch: any, rgb: any } };
     themes: {
       "masterbrand": { hex: any, hsl: any, oklch: any, rgb: any };
       "fuchsia-blue": { hex: any, hsl: any, oklch: any, rgb: any };
@@ -261,8 +325,8 @@ export const tokens: {
     };
   };
   css: {
-    global: { hex: string, hsl: string, oklch: string, rgb: string };
-    semantic: { hex: string, hsl: string, oklch: string, rgb: string };
+    global: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string }, darkMedia: { hex: string, hsl: string, oklch: string, rgb: string } };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string }, darkMedia: { hex: string, hsl: string, oklch: string, rgb: string } };
     themes: {
       "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
       "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
@@ -277,8 +341,8 @@ export const tokens: {
     shadow: { global: string };
   };
   js: {
-    global: { hex: typeof globalJsHex, hsl: typeof globalJsHsl, oklch: typeof globalJsOklch, rgb: typeof globalJsRgb };
-    semantic: { hex: typeof semanticJsHex, hsl: typeof semanticJsHsl, oklch: typeof semanticJsOklch, rgb: typeof semanticJsRgb };
+    global: { hex: typeof globalJsHex, hsl: typeof globalJsHsl, oklch: typeof globalJsOklch, rgb: typeof globalJsRgb, dark: { hex: typeof globalJsHexDark, hsl: typeof globalJsHslDark, oklch: typeof globalJsOklchDark, rgb: typeof globalJsRgbDark } };
+    semantic: { hex: typeof semanticJsHex, hsl: typeof semanticJsHsl, oklch: typeof semanticJsOklch, rgb: typeof semanticJsRgb, dark: { hex: typeof semanticJsHexDark, hsl: typeof semanticJsHslDark, oklch: typeof semanticJsOklchDark, rgb: typeof semanticJsRgbDark } };
     themes: {
       "masterbrand": { hex: typeof masterbrandJsHex, hsl: typeof masterbrandJsHsl, oklch: typeof masterbrandJsOklch, rgb: typeof masterbrandJsRgb };
       "fuchsia-blue": { hex: typeof fuchsiaBlueJsHex, hsl: typeof fuchsiaBlueJsHsl, oklch: typeof fuchsiaBlueJsOklch, rgb: typeof fuchsiaBlueJsRgb };
@@ -293,8 +357,8 @@ export const tokens: {
     shadow: { global: typeof shadowJsGlobal };
   };
   json: {
-    global: { hex: any, hsl: any, oklch: any, rgb: any };
-    semantic: { hex: any, hsl: any, oklch: any, rgb: any };
+    global: { hex: any, hsl: any, oklch: any, rgb: any, dark: { hex: any, hsl: any, oklch: any, rgb: any } };
+    semantic: { hex: any, hsl: any, oklch: any, rgb: any, dark: { hex: any, hsl: any, oklch: any, rgb: any } };
     themes: {
       "masterbrand": { hex: any, hsl: any, oklch: any, rgb: any };
       "fuchsia-blue": { hex: any, hsl: any, oklch: any, rgb: any };
@@ -309,8 +373,8 @@ export const tokens: {
     shadow: { global: any };
   };
   less: {
-    global: { hex: string, hsl: string, oklch: string, rgb: string };
-    semantic: { hex: string, hsl: string, oklch: string, rgb: string };
+    global: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
     themes: {
       "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
       "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
@@ -325,8 +389,8 @@ export const tokens: {
     shadow: { global: string };
   };
   scss: {
-    global: { hex: string, hsl: string, oklch: string, rgb: string };
-    semantic: { hex: string, hsl: string, oklch: string, rgb: string };
+    global: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
+    semantic: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
     themes: {
       "masterbrand": { hex: string, hsl: string, oklch: string, rgb: string };
       "fuchsia-blue": { hex: string, hsl: string, oklch: string, rgb: string };
@@ -357,8 +421,8 @@ export const tokens: {
     shadow: { global: string };
   };
   ts: {
-    global: { hex: typeof globalTsHex, hsl: typeof globalTsHsl, oklch: typeof globalTsOklch, rgb: typeof globalTsRgb };
-    semantic: { hex: typeof semanticTsHex, hsl: typeof semanticTsHsl, oklch: typeof semanticTsOklch, rgb: typeof semanticTsRgb };
+    global: { hex: typeof globalTsHex, hsl: typeof globalTsHsl, oklch: typeof globalTsOklch, rgb: typeof globalTsRgb, dark: { hex: typeof globalTsHexDark, hsl: typeof globalTsHslDark, oklch: typeof globalTsOklchDark, rgb: typeof globalTsRgbDark } };
+    semantic: { hex: typeof semanticTsHex, hsl: typeof semanticTsHsl, oklch: typeof semanticTsOklch, rgb: typeof semanticTsRgb, dark: { hex: typeof semanticTsHexDark, hsl: typeof semanticTsHslDark, oklch: typeof semanticTsOklchDark, rgb: typeof semanticTsRgbDark } };
     themes: {
       "masterbrand": { hex: typeof masterbrandTsHex, hsl: typeof masterbrandTsHsl, oklch: typeof masterbrandTsOklch, rgb: typeof masterbrandTsRgb };
       "fuchsia-blue": { hex: typeof fuchsiaBlueTsHex, hsl: typeof fuchsiaBlueTsHsl, oklch: typeof fuchsiaBlueTsOklch, rgb: typeof fuchsiaBlueTsRgb };
@@ -374,8 +438,8 @@ export const tokens: {
   };
 } = {
   colors: {
-    global: { hex: globalColorHex, hsl: globalColorHsl, oklch: globalColorOklch, rgb: globalColorRgb },
-    semantic: { hex: semanticColorHex, hsl: semanticColorHsl, oklch: semanticColorOklch, rgb: semanticColorRgb },
+    global: { hex: globalColorHex, hsl: globalColorHsl, oklch: globalColorOklch, rgb: globalColorRgb, dark: { hex: globalColorHexDark, hsl: globalColorHslDark, oklch: globalColorOklchDark, rgb: globalColorRgbDark } },
+    semantic: { hex: semanticColorHex, hsl: semanticColorHsl, oklch: semanticColorOklch, rgb: semanticColorRgb, dark: { hex: semanticColorHexDark, hsl: semanticColorHslDark, oklch: semanticColorOklchDark, rgb: semanticColorRgbDark } },
     themes: {
       "masterbrand": { hex: masterbrandColorHex, hsl: masterbrandColorHsl, oklch: masterbrandColorOklch, rgb: masterbrandColorRgb },
       "fuchsia-blue": { hex: fuchsiaBlueColorHex, hsl: fuchsiaBlueColorHsl, oklch: fuchsiaBlueColorOklch, rgb: fuchsiaBlueColorRgb },
@@ -384,8 +448,8 @@ export const tokens: {
     },
   },
   css: {
-    global: { hex: globalCssHex, hsl: globalCssHsl, oklch: globalCssOklch, rgb: globalCssRgb },
-    semantic: { hex: semanticCssHex, hsl: semanticCssHsl, oklch: semanticCssOklch, rgb: semanticCssRgb },
+    global: { hex: globalCssHex, hsl: globalCssHsl, oklch: globalCssOklch, rgb: globalCssRgb, dark: { hex: globalCssHexDark, hsl: globalCssHslDark, oklch: globalCssOklchDark, rgb: globalCssRgbDark }, darkMedia: { hex: globalCssHexDarkMedia, hsl: globalCssHslDarkMedia, oklch: globalCssOklchDarkMedia, rgb: globalCssRgbDarkMedia } },
+    semantic: { hex: semanticCssHex, hsl: semanticCssHsl, oklch: semanticCssOklch, rgb: semanticCssRgb, dark: { hex: semanticCssHexDark, hsl: semanticCssHslDark, oklch: semanticCssOklchDark, rgb: semanticCssRgbDark }, darkMedia: { hex: semanticCssHexDarkMedia, hsl: semanticCssHslDarkMedia, oklch: semanticCssOklchDarkMedia, rgb: semanticCssRgbDarkMedia } },
     themes: {
       "masterbrand": { hex: masterbrandCssHex, hsl: masterbrandCssHsl, oklch: masterbrandCssOklch, rgb: masterbrandCssRgb },
       "fuchsia-blue": { hex: fuchsiaBlueCssHex, hsl: fuchsiaBlueCssHsl, oklch: fuchsiaBlueCssOklch, rgb: fuchsiaBlueCssRgb },
@@ -400,8 +464,8 @@ export const tokens: {
     shadow: { global: shadowCssGlobal },
   },
   js: {
-    global: { hex: globalJsHex, hsl: globalJsHsl, oklch: globalJsOklch, rgb: globalJsRgb },
-    semantic: { hex: semanticJsHex, hsl: semanticJsHsl, oklch: semanticJsOklch, rgb: semanticJsRgb },
+    global: { hex: globalJsHex, hsl: globalJsHsl, oklch: globalJsOklch, rgb: globalJsRgb, dark: { hex: globalJsHexDark, hsl: globalJsHslDark, oklch: globalJsOklchDark, rgb: globalJsRgbDark } },
+    semantic: { hex: semanticJsHex, hsl: semanticJsHsl, oklch: semanticJsOklch, rgb: semanticJsRgb, dark: { hex: semanticJsHexDark, hsl: semanticJsHslDark, oklch: semanticJsOklchDark, rgb: semanticJsRgbDark } },
     themes: {
       "masterbrand": { hex: masterbrandJsHex, hsl: masterbrandJsHsl, oklch: masterbrandJsOklch, rgb: masterbrandJsRgb },
       "fuchsia-blue": { hex: fuchsiaBlueJsHex, hsl: fuchsiaBlueJsHsl, oklch: fuchsiaBlueJsOklch, rgb: fuchsiaBlueJsRgb },
@@ -416,8 +480,8 @@ export const tokens: {
     shadow: { global: shadowJsGlobal },
   },
   json: {
-    global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb },
-    semantic: { hex: semanticJsonHex, hsl: semanticJsonHsl, oklch: semanticJsonOklch, rgb: semanticJsonRgb },
+    global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb, dark: { hex: globalJsonHexDark, hsl: globalJsonHslDark, oklch: globalJsonOklchDark, rgb: globalJsonRgbDark } },
+    semantic: { hex: semanticJsonHex, hsl: semanticJsonHsl, oklch: semanticJsonOklch, rgb: semanticJsonRgb, dark: { hex: semanticJsonHexDark, hsl: semanticJsonHslDark, oklch: semanticJsonOklchDark, rgb: semanticJsonRgbDark } },
     themes: {
       "masterbrand": { hex: masterbrandJsonHex, hsl: masterbrandJsonHsl, oklch: masterbrandJsonOklch, rgb: masterbrandJsonRgb },
       "fuchsia-blue": { hex: fuchsiaBlueJsonHex, hsl: fuchsiaBlueJsonHsl, oklch: fuchsiaBlueJsonOklch, rgb: fuchsiaBlueJsonRgb },
@@ -432,8 +496,8 @@ export const tokens: {
     shadow: { global: shadowJsonGlobal },
   },
   less: {
-    global: { hex: globalLessHex, hsl: globalLessHsl, oklch: globalLessOklch, rgb: globalLessRgb },
-    semantic: { hex: semanticLessHex, hsl: semanticLessHsl, oklch: semanticLessOklch, rgb: semanticLessRgb },
+    global: { hex: globalLessHex, hsl: globalLessHsl, oklch: globalLessOklch, rgb: globalLessRgb, dark: { hex: globalLessHexDark, hsl: globalLessHslDark, oklch: globalLessOklchDark, rgb: globalLessRgbDark } },
+    semantic: { hex: semanticLessHex, hsl: semanticLessHsl, oklch: semanticLessOklch, rgb: semanticLessRgb, dark: { hex: semanticLessHexDark, hsl: semanticLessHslDark, oklch: semanticLessOklchDark, rgb: semanticLessRgbDark } },
     themes: {
       "masterbrand": { hex: masterbrandLessHex, hsl: masterbrandLessHsl, oklch: masterbrandLessOklch, rgb: masterbrandLessRgb },
       "fuchsia-blue": { hex: fuchsiaBlueLessHex, hsl: fuchsiaBlueLessHsl, oklch: fuchsiaBlueLessOklch, rgb: fuchsiaBlueLessRgb },
@@ -448,8 +512,8 @@ export const tokens: {
     shadow: { global: shadowLessGlobal },
   },
   scss: {
-    global: { hex: globalScssHex, hsl: globalScssHsl, oklch: globalScssOklch, rgb: globalScssRgb },
-    semantic: { hex: semanticScssHex, hsl: semanticScssHsl, oklch: semanticScssOklch, rgb: semanticScssRgb },
+    global: { hex: globalScssHex, hsl: globalScssHsl, oklch: globalScssOklch, rgb: globalScssRgb, dark: { hex: globalScssHexDark, hsl: globalScssHslDark, oklch: globalScssOklchDark, rgb: globalScssRgbDark } },
+    semantic: { hex: semanticScssHex, hsl: semanticScssHsl, oklch: semanticScssOklch, rgb: semanticScssRgb, dark: { hex: semanticScssHexDark, hsl: semanticScssHslDark, oklch: semanticScssOklchDark, rgb: semanticScssRgbDark } },
     themes: {
       "masterbrand": { hex: masterbrandScssHex, hsl: masterbrandScssHsl, oklch: masterbrandScssOklch, rgb: masterbrandScssRgb },
       "fuchsia-blue": { hex: fuchsiaBlueScssHex, hsl: fuchsiaBlueScssHsl, oklch: fuchsiaBlueScssOklch, rgb: fuchsiaBlueScssRgb },
@@ -480,8 +544,8 @@ export const tokens: {
     shadow: { global: shadowTailwindGlobal },
   },
   ts: {
-    global: { hex: globalTsHex, hsl: globalTsHsl, oklch: globalTsOklch, rgb: globalTsRgb },
-    semantic: { hex: semanticTsHex, hsl: semanticTsHsl, oklch: semanticTsOklch, rgb: semanticTsRgb },
+    global: { hex: globalTsHex, hsl: globalTsHsl, oklch: globalTsOklch, rgb: globalTsRgb, dark: { hex: globalTsHexDark, hsl: globalTsHslDark, oklch: globalTsOklchDark, rgb: globalTsRgbDark } },
+    semantic: { hex: semanticTsHex, hsl: semanticTsHsl, oklch: semanticTsOklch, rgb: semanticTsRgb, dark: { hex: semanticTsHexDark, hsl: semanticTsHslDark, oklch: semanticTsOklchDark, rgb: semanticTsRgbDark } },
     themes: {
       "masterbrand": { hex: masterbrandTsHex, hsl: masterbrandTsHsl, oklch: masterbrandTsOklch, rgb: masterbrandTsRgb },
       "fuchsia-blue": { hex: fuchsiaBlueTsHex, hsl: fuchsiaBlueTsHsl, oklch: fuchsiaBlueTsOklch, rgb: fuchsiaBlueTsRgb },

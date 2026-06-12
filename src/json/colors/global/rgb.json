@@ -376,5 +376,7 @@
     "nsw-aboriginal-purple-850": "rgb(53, 26, 49)",
     "nsw-aboriginal-purple-900": "rgb(36, 16, 33)",
     "nsw-aboriginal-purple-950": "rgb(21, 6, 18)"
-  }
+  },
+  "white": "rgb(255, 255, 255)",
+  "black": "rgb(0, 0, 0)"
 }

@@ -1,59 +1,59 @@
 :root {
-  --primary-50: rgb(240, 251, 255); /** Primary brand colour — primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --primary-100: rgb(228, 246, 255); /** Primary brand colour — primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --primary-150: rgb(215, 242, 254); /** Primary brand colour — primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --primary-200: rgb(203, 237, 253); /** Primary brand colour — primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --primary-250: rgb(188, 234, 254); /** Primary brand colour — primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --primary-300: rgb(173, 231, 255); /** Primary brand colour — primary actions, links, and key accents. Step 300: light tints. */
-  --primary-350: rgb(157, 227, 255); /** Primary brand colour — primary actions, links, and key accents. Step 350: light tints. */
-  --primary-400: rgb(140, 224, 255); /** Primary brand colour — primary actions, links, and key accents. Step 400: light tints. */
-  --primary-450: rgb(90, 201, 255); /** Primary brand colour — primary actions, links, and key accents. Step 450: light tints. */
+  --primary-50: rgb(240, 251, 255); /** Primary brand colour — primary actions, links, and key accents. Step 50: subtle backgrounds and surfaces. */
+  --primary-100: rgb(228, 246, 255); /** Primary brand colour — primary actions, links, and key accents. Step 100: subtle backgrounds and surfaces. */
+  --primary-150: rgb(215, 242, 254); /** Primary brand colour — primary actions, links, and key accents. Step 150: subtle backgrounds and surfaces. */
+  --primary-200: rgb(203, 237, 253); /** Primary brand colour — primary actions, links, and key accents. Step 200: subtle backgrounds and surfaces. */
+  --primary-250: rgb(188, 234, 254); /** Primary brand colour — primary actions, links, and key accents. Step 250: subtle backgrounds and surfaces. */
+  --primary-300: rgb(173, 231, 255); /** Primary brand colour — primary actions, links, and key accents. Step 300: Interactive components. */
+  --primary-350: rgb(157, 227, 255); /** Primary brand colour — primary actions, links, and key accents. Step 350: Interactive components. */
+  --primary-400: rgb(140, 224, 255); /** Primary brand colour — primary actions, links, and key accents. Step 400: Interactive components. */
+  --primary-450: rgb(90, 201, 255); /** Primary brand colour — primary actions, links, and key accents. Step 450: Interactive components. */
   --primary-500: rgb(38, 174, 255); /** Primary brand colour — primary actions, links, and key accents. Step 500: base colour. */
-  --primary-550: rgb(0, 143, 255); /** Primary brand colour — primary actions, links, and key accents. Step 550: shades for borders and icons. */
-  --primary-600: rgb(20, 108, 253); /** Primary brand colour — primary actions, links, and key accents. Step 600: shades for borders and icons. */
-  --primary-650: rgb(12, 90, 212); /** Primary brand colour — primary actions, links, and key accents. Step 650: shades for borders and icons. */
-  --primary-700: rgb(5, 72, 173); /** Primary brand colour — primary actions, links, and key accents. Step 700: shades for borders and icons. */
-  --primary-750: rgb(2, 54, 136); /** Primary brand colour — primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis. */
-  --primary-800: rgb(0, 38, 100); /** Primary brand colour — primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis. */
-  --primary-850: rgb(0, 26, 77); /** Primary brand colour — primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis. */
-  --primary-900: rgb(0, 16, 55); /** Primary brand colour — primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis. */
-  --primary-950: rgb(0, 6, 34); /** Primary brand colour — primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis. */
-  --accent-50: rgb(255, 248, 249); /** Accent colour — secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --accent-100: rgb(255, 242, 244); /** Accent colour — secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --accent-150: rgb(255, 236, 239); /** Accent colour — secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --accent-200: rgb(255, 230, 234); /** Accent colour — secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --accent-250: rgb(255, 219, 224); /** Accent colour — secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --accent-300: rgb(255, 207, 214); /** Accent colour — secondary emphasis and supporting highlights. Step 300: light tints. */
-  --accent-350: rgb(255, 196, 204); /** Accent colour — secondary emphasis and supporting highlights. Step 350: light tints. */
-  --accent-400: rgb(255, 184, 193); /** Accent colour — secondary emphasis and supporting highlights. Step 400: light tints. */
-  --accent-450: rgb(248, 151, 162); /** Accent colour — secondary emphasis and supporting highlights. Step 450: light tints. */
+  --primary-550: rgb(0, 143, 255); /** Primary brand colour — primary actions, links, and key accents. Step 550: borders and icons. */
+  --primary-600: rgb(20, 108, 253); /** Primary brand colour — primary actions, links, and key accents. Step 600: borders and icons. */
+  --primary-650: rgb(12, 90, 212); /** Primary brand colour — primary actions, links, and key accents. Step 650: borders and icons. */
+  --primary-700: rgb(5, 72, 173); /** Primary brand colour — primary actions, links, and key accents. Step 700: borders and icons. */
+  --primary-750: rgb(2, 54, 136); /** Primary brand colour — primary actions, links, and key accents. Step 750: text and high emphasis. */
+  --primary-800: rgb(0, 38, 100); /** Primary brand colour — primary actions, links, and key accents. Step 800: text and high emphasis. */
+  --primary-850: rgb(0, 26, 77); /** Primary brand colour — primary actions, links, and key accents. Step 850: text and high emphasis. */
+  --primary-900: rgb(0, 16, 55); /** Primary brand colour — primary actions, links, and key accents. Step 900: text and high emphasis. */
+  --primary-950: rgb(0, 6, 34); /** Primary brand colour — primary actions, links, and key accents. Step 950: text and high emphasis. */
+  --accent-50: rgb(255, 248, 249); /** Accent colour — secondary emphasis and supporting highlights. Step 50: subtle backgrounds and surfaces. */
+  --accent-100: rgb(255, 242, 244); /** Accent colour — secondary emphasis and supporting highlights. Step 100: subtle backgrounds and surfaces. */
+  --accent-150: rgb(255, 236, 239); /** Accent colour — secondary emphasis and supporting highlights. Step 150: subtle backgrounds and surfaces. */
+  --accent-200: rgb(255, 230, 234); /** Accent colour — secondary emphasis and supporting highlights. Step 200: subtle backgrounds and surfaces. */
+  --accent-250: rgb(255, 219, 224); /** Accent colour — secondary emphasis and supporting highlights. Step 250: subtle backgrounds and surfaces. */
+  --accent-300: rgb(255, 207, 214); /** Accent colour — secondary emphasis and supporting highlights. Step 300: Interactive components. */
+  --accent-350: rgb(255, 196, 204); /** Accent colour — secondary emphasis and supporting highlights. Step 350: Interactive components. */
+  --accent-400: rgb(255, 184, 193); /** Accent colour — secondary emphasis and supporting highlights. Step 400: Interactive components. */
+  --accent-450: rgb(248, 151, 162); /** Accent colour — secondary emphasis and supporting highlights. Step 450: Interactive components. */
   --accent-500: rgb(239, 117, 129); /** Accent colour — secondary emphasis and supporting highlights. Step 500: base colour. */
-  --accent-550: rgb(228, 79, 95); /** Accent colour — secondary emphasis and supporting highlights. Step 550: shades for borders and icons. */
-  --accent-600: rgb(215, 21, 58); /** Accent colour — secondary emphasis and supporting highlights. Step 600: shades for borders and icons. */
-  --accent-650: rgb(185, 14, 50); /** Accent colour — secondary emphasis and supporting highlights. Step 650: shades for borders and icons. */
-  --accent-700: rgb(155, 7, 42); /** Accent colour — secondary emphasis and supporting highlights. Step 700: shades for borders and icons. */
-  --accent-750: rgb(126, 3, 34); /** Accent colour — secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis. */
-  --accent-800: rgb(99, 0, 25); /** Accent colour — secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis. */
-  --accent-850: rgb(76, 0, 16); /** Accent colour — secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis. */
-  --accent-900: rgb(54, 0, 8); /** Accent colour — secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis. */
-  --accent-950: rgb(33, 0, 3); /** Accent colour — secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis. */
-  --grey-50: rgb(250, 250, 250); /** Neutral grey — text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces. */
-  --grey-100: rgb(245, 245, 245); /** Neutral grey — text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces. */
-  --grey-150: rgb(240, 240, 240); /** Neutral grey — text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces. */
-  --grey-200: rgb(235, 235, 235); /** Neutral grey — text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces. */
-  --grey-250: rgb(227, 229, 230); /** Neutral grey — text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces. */
-  --grey-300: rgb(220, 223, 224); /** Neutral grey — text, borders, surfaces, and dividers. Step 300: light tints. */
-  --grey-350: rgb(212, 217, 219); /** Neutral grey — text, borders, surfaces, and dividers. Step 350: light tints. */
-  --grey-400: rgb(205, 211, 214); /** Neutral grey — text, borders, surfaces, and dividers. Step 400: light tints. */
-  --grey-450: rgb(170, 176, 180); /** Neutral grey — text, borders, surfaces, and dividers. Step 450: light tints. */
+  --accent-550: rgb(228, 79, 95); /** Accent colour — secondary emphasis and supporting highlights. Step 550: borders and icons. */
+  --accent-600: rgb(215, 21, 58); /** Accent colour — secondary emphasis and supporting highlights. Step 600: borders and icons. */
+  --accent-650: rgb(185, 14, 50); /** Accent colour — secondary emphasis and supporting highlights. Step 650: borders and icons. */
+  --accent-700: rgb(155, 7, 42); /** Accent colour — secondary emphasis and supporting highlights. Step 700: borders and icons. */
+  --accent-750: rgb(126, 3, 34); /** Accent colour — secondary emphasis and supporting highlights. Step 750: text and high emphasis. */
+  --accent-800: rgb(99, 0, 25); /** Accent colour — secondary emphasis and supporting highlights. Step 800: text and high emphasis. */
+  --accent-850: rgb(76, 0, 16); /** Accent colour — secondary emphasis and supporting highlights. Step 850: text and high emphasis. */
+  --accent-900: rgb(54, 0, 8); /** Accent colour — secondary emphasis and supporting highlights. Step 900: text and high emphasis. */
+  --accent-950: rgb(33, 0, 3); /** Accent colour — secondary emphasis and supporting highlights. Step 950: text and high emphasis. */
+  --grey-50: rgb(250, 250, 250); /** Neutral grey — text, borders, surfaces, and dividers. Step 50: subtle backgrounds and surfaces. */
+  --grey-100: rgb(245, 245, 245); /** Neutral grey — text, borders, surfaces, and dividers. Step 100: subtle backgrounds and surfaces. */
+  --grey-150: rgb(240, 240, 240); /** Neutral grey — text, borders, surfaces, and dividers. Step 150: subtle backgrounds and surfaces. */
+  --grey-200: rgb(235, 235, 235); /** Neutral grey — text, borders, surfaces, and dividers. Step 200: subtle backgrounds and surfaces. */
+  --grey-250: rgb(227, 229, 230); /** Neutral grey — text, borders, surfaces, and dividers. Step 250: subtle backgrounds and surfaces. */
+  --grey-300: rgb(220, 223, 224); /** Neutral grey — text, borders, surfaces, and dividers. Step 300: Interactive components. */
+  --grey-350: rgb(212, 217, 219); /** Neutral grey — text, borders, surfaces, and dividers. Step 350: Interactive components. */
+  --grey-400: rgb(205, 211, 214); /** Neutral grey — text, borders, surfaces, and dividers. Step 400: Interactive components. */
+  --grey-450: rgb(170, 176, 180); /** Neutral grey — text, borders, surfaces, and dividers. Step 450: Interactive components. */
   --grey-500: rgb(136, 143, 146); /** Neutral grey — text, borders, surfaces, and dividers. Step 500: base colour. */
-  --grey-550: rgb(104, 111, 114); /** Neutral grey — text, borders, surfaces, and dividers. Step 550: shades for borders and icons. */
-  --grey-600: rgb(73, 80, 84); /** Neutral grey — text, borders, surfaces, and dividers. Step 600: shades for borders and icons. */
-  --grey-650: rgb(63, 69, 73); /** Neutral grey — text, borders, surfaces, and dividers. Step 650: shades for borders and icons. */
-  --grey-700: rgb(53, 59, 63); /** Neutral grey — text, borders, surfaces, and dividers. Step 700: shades for borders and icons. */
-  --grey-750: rgb(43, 49, 53); /** Neutral grey — text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis. */
-  --grey-800: rgb(34, 39, 43); /** Neutral grey — text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis. */
-  --grey-850: rgb(24, 28, 31); /** Neutral grey — text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis. */
-  --grey-900: rgb(14, 17, 19); /** Neutral grey — text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis. */
-  --grey-950: rgb(5, 7, 9); /** Neutral grey — text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis. */
+  --grey-550: rgb(104, 111, 114); /** Neutral grey — text, borders, surfaces, and dividers. Step 550: borders and icons. */
+  --grey-600: rgb(73, 80, 84); /** Neutral grey — text, borders, surfaces, and dividers. Step 600: borders and icons. */
+  --grey-650: rgb(63, 69, 73); /** Neutral grey — text, borders, surfaces, and dividers. Step 650: borders and icons. */
+  --grey-700: rgb(53, 59, 63); /** Neutral grey — text, borders, surfaces, and dividers. Step 700: borders and icons. */
+  --grey-750: rgb(43, 49, 53); /** Neutral grey — text, borders, surfaces, and dividers. Step 750: text and high emphasis. */
+  --grey-800: rgb(34, 39, 43); /** Neutral grey — text, borders, surfaces, and dividers. Step 800: text and high emphasis. */
+  --grey-850: rgb(24, 28, 31); /** Neutral grey — text, borders, surfaces, and dividers. Step 850: text and high emphasis. */
+  --grey-900: rgb(14, 17, 19); /** Neutral grey — text, borders, surfaces, and dividers. Step 900: text and high emphasis. */
+  --grey-950: rgb(5, 7, 9); /** Neutral grey — text, borders, surfaces, and dividers. Step 950: text and high emphasis. */
 }

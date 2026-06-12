@@ -376,3 +376,5 @@ export declare const nswAboriginalPurple: {
   '900': string
   '950': string
 }
+export declare const white: string
+export declare const black: string

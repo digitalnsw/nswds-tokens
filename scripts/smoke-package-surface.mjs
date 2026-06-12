@@ -31,6 +31,13 @@ const documentedSpecifiers = [
   // Phase 4d border + shadow
   '@nswds/tokens/css/border/global.css',
   '@nswds/tokens/tailwind/shadow/global.css',
+  // Dark mode (D1)
+  '@nswds/tokens/css/colors/global/hex.dark.css',
+  '@nswds/tokens/css/colors/global/hex.dark-media.css',
+  '@nswds/tokens/css/colors/semantic/hex.dark.css',
+  '@nswds/tokens/css/colors/semantic/hex.dark-media.css',
+  '@nswds/tokens/js/colors/global/hex.dark.js',
+  '@nswds/tokens/tokens/global/color/hex.dark.json',
 ]
 
 const run = (command, args, options = {}) => {
@@ -111,6 +118,8 @@ assert.ok(
 
 const esmModule = await import('@nswds/tokens')
 assert.equal(esmModule.tokens.colors.global.hex['nsw-blue'][500].$value, '#26aeff')
+// Flat tokens (no step ramp) must flow through the whole pipeline.
+assert.equal(esmModule.tokens.colors.global.hex.white.$value, '#ffffff')
 
 const cjsModule = require('@nswds/tokens')
 assert.equal(cjsModule.tokens.colors.global.hex['nsw-blue'][500].$value, '#26aeff')
@@ -123,6 +132,16 @@ for (const [label, mod] of [['ESM', esmModule], ['CJS', cjsModule]]) {
   assert.equal(typeof leaf, 'string', label + ': tokens.css.global.hex must be a plain string, got ' + typeof leaf)
   assert.ok(leaf.startsWith(':root'), label + ': tokens.css.global.hex must contain the stylesheet text')
   assert.equal(typeof mod.tokens.tailwind.space.global, 'string', label + ': tailwind leaves must be plain strings')
+  const dark = mod.tokens.css.global.dark.hex
+  assert.equal(typeof dark, 'string', label + ': tokens.css.global.dark.hex must be a plain string')
+  assert.ok(dark.startsWith("[data-theme='dark']"), label + ': dark CSS must scope under the dark selector')
+  const media = mod.tokens.css.global.darkMedia.hex
+  assert.ok(media.startsWith('@media (prefers-color-scheme: dark)'), label + ': darkMedia CSS must scope under the media query')
+  // Semantic dark outputs come from a separate SD config + file — guard them too.
+  const semanticDark = mod.tokens.css.semantic.dark.hex
+  assert.ok(semanticDark.startsWith("[data-theme='dark']"), label + ': semantic dark CSS must scope under the dark selector')
+  const semanticMedia = mod.tokens.css.semantic.darkMedia.hex
+  assert.ok(semanticMedia.startsWith('@media (prefers-color-scheme: dark)'), label + ': semantic darkMedia CSS must scope under the media query')
 }
 
 const resolvedPaths = documentedSpecifiers.map((specifier) => {
@@ -152,16 +171,19 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
     join(consumerDir, 'consumer.ts'),
     [
       "import { tokens } from '@nswds/tokens'",
-      "import { nswBlue } from '@nswds/tokens/js/colors/global/hex.js'",
+      "import { nswBlue, white } from '@nswds/tokens/js/colors/global/hex.js'",
       "import { radius } from '@nswds/tokens/js/radius/global.js'",
       "import { heading1 } from '@nswds/tokens/js/typography/semantic.js'",
       '',
       "const root: string = tokens.colors.global.hex['nsw-blue'][500].$value",
       'const blue: string = nswBlue[500]',
+      'const flat: string = white // flat tokens export as scalars',
       'const md: string = radius.md',
       'const weight: number = heading1.fontWeight',
       'const css: string = tokens.css.global.hex // style leaves are plain typed strings',
-      'export { root, blue, md, weight, css }',
+      'const darkCss: string = tokens.css.global.dark.hex // dark mode (D1) nested sub-object',
+      'const darkMediaCss: string = tokens.css.global.darkMedia.hex // prefers-color-scheme flavour',
+      'export { root, blue, md, weight, css, darkCss, darkMediaCss }',
       '',
     ].join('\n'),
     'utf8',

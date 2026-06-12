@@ -54,23 +54,61 @@ const flatten = (obj, prefix, out) => {
   return out
 }
 
-// Collect the source files for one colour space.
-const filesForSpace = (space) => {
+// Collect the source files for one (colour space, mode). Mode 'light' is the implicit
+// default (unsuffixed file names); other modes use `<space>.<mode>.json`. Modes validate
+// in SEPARATE namespaces — light and dark legitimately assign different values to the
+// same token path, which must not trip the duplicate check.
+const MODES = ['light', 'dark']
+const modeFile = (base, mode) => (mode === 'light' ? `${base}.json` : `${base}.${mode}.json`)
+const filesForSpace = (space, mode) => {
   const files = []
+  const suffix = mode === 'light' ? '' : `.${mode}`
   for (const layer of ['global', 'semantic']) {
-    const p = resolve(tokensDir, layer, 'color', `${space}.json`)
-    if (existsSync(p)) files.push({ label: `${layer}/${space}`, path: p })
+    const p = resolve(tokensDir, layer, 'color', modeFile(space, mode))
+    if (existsSync(p)) files.push({ label: `${layer}/${space}${suffix}`, path: p })
   }
   const themesRoot = resolve(tokensDir, 'themes', 'color')
   if (existsSync(themesRoot)) {
     for (const theme of readdirSync(themesRoot, { withFileTypes: true })) {
       if (!theme.isDirectory()) continue
-      const p = resolve(themesRoot, theme.name, `${space}.json`)
-      if (existsSync(p)) files.push({ label: `themes/${theme.name}/${space}`, path: p })
+      const p = resolve(themesRoot, theme.name, modeFile(space, mode))
+      if (existsSync(p)) files.push({ label: `themes/${theme.name}/${space}${suffix}`, path: p })
     }
   }
   return files
 }
+
+// Mode parity: a dark canonical must be a COMPLETE mirror of its light sibling (same
+// token path set). Sparse overrides have no cascade in scss/js/json outputs, and Figma
+// requires a value per variable per mode.
+const checkModeParity = () => {
+  for (const layer of ['global', 'semantic']) {
+    for (const mode of MODES) {
+      if (mode === 'light') continue
+      const darkPath = resolve(tokensDir, layer, 'color', `canonical.${mode}.json`)
+      if (!existsSync(darkPath)) continue
+      const lightPaths = new Set(
+        Object.keys(
+          flatten(readJson(resolve(tokensDir, layer, 'color', 'canonical.json')), '', {}),
+        ),
+      )
+      const darkPaths = new Set(Object.keys(flatten(readJson(darkPath), '', {})))
+      for (const p of lightPaths) {
+        if (!darkPaths.has(p))
+          errors.push(
+            `${layer}/canonical.${mode}: missing token "${p}" (mode parity: dark must mirror light)`,
+          )
+      }
+      for (const p of darkPaths) {
+        if (!lightPaths.has(p))
+          errors.push(
+            `${layer}/canonical.${mode}: extra token "${p}" not present in light (mode parity)`,
+          )
+      }
+    }
+  }
+}
+checkModeParity()
 
 const aliasTarget = (leaf) =>
   typeof leaf.$value === 'string' ? (leaf.$value.match(ALIAS_PATTERN)?.[1] ?? null) : null
@@ -344,42 +382,44 @@ const checkShadowComposite = (label, path, leaf) => {
 }
 
 for (const space of SPACES) {
-  const files = filesForSpace(space)
-  if (!files.length) continue
+  for (const mode of MODES) {
+    const files = filesForSpace(space, mode)
+    if (!files.length) continue
 
-  const namespace = {} // path -> { value, label } (for duplicate detection)
-  const leafByPath = {} // path -> leaf (O(1) alias resolution)
-  const allLeaves = [] // { label, path, leaf }
+    const namespace = {} // path -> { value, label } (for duplicate detection)
+    const leafByPath = {} // path -> leaf (O(1) alias resolution)
+    const allLeaves = [] // { label, path, leaf }
 
-  for (const { label, path } of files) {
-    const flat = flatten(readJson(path), '', {})
-    for (const [tokenPath, leaf] of Object.entries(flat)) {
-      allLeaves.push({ label, path: tokenPath, leaf })
-      leafByPath[tokenPath] = leaf
+    for (const { label, path } of files) {
+      const flat = flatten(readJson(path), '', {})
+      for (const [tokenPath, leaf] of Object.entries(flat)) {
+        allLeaves.push({ label, path: tokenPath, leaf })
+        leafByPath[tokenPath] = leaf
 
-      // structural
-      if (!('$value' in leaf)) errors.push(`${label} ${tokenPath}: missing $value`)
-      if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
-      checkColorShape(label, tokenPath, leaf)
+        // structural
+        if (!('$value' in leaf)) errors.push(`${label} ${tokenPath}: missing $value`)
+        if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
+        checkColorShape(label, tokenPath, leaf)
 
-      // Duplicate detection across the primitive layers (global/semantic). Themes deliberately
-      // reuse family names (primary/accent/grey in masterbrand/fuchsia-*), so they're excluded —
-      // each theme is its own namespace.
-      if (!label.startsWith('themes/')) {
-        const serialized = JSON.stringify(leaf.$value)
-        const prior = namespace[tokenPath]
-        if (prior && prior.value !== serialized) {
-          errors.push(
-            `duplicate token "${tokenPath}" with conflicting values (${prior.label} vs ${label})`,
-          )
+        // Duplicate detection across the primitive layers (global/semantic). Themes deliberately
+        // reuse family names (primary/accent/grey in masterbrand/fuchsia-*), so they're excluded —
+        // each theme is its own namespace.
+        if (!label.startsWith('themes/')) {
+          const serialized = JSON.stringify(leaf.$value)
+          const prior = namespace[tokenPath]
+          if (prior && prior.value !== serialized) {
+            errors.push(
+              `duplicate token "${tokenPath}" with conflicting values (${prior.label} vs ${label})`,
+            )
+          }
+          namespace[tokenPath] = { value: serialized, label }
         }
-        namespace[tokenPath] = { value: serialized, label }
       }
     }
-  }
 
-  // reference resolution + cycle detection (shared helper)
-  checkAliasChains(allLeaves, leafByPath)
+    // reference resolution + cycle detection (shared helper)
+    checkAliasChains(allLeaves, leafByPath)
+  }
 }
 
 const plural = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`

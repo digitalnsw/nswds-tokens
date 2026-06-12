@@ -3,6 +3,8 @@
 //
 // Token paths come from the source tree, e.g. ['nsw-grey','50'] or ['primary','50'].
 
+import { formattedVariables } from 'style-dictionary/utils'
+
 const toCamel = (s) => s.replace(/-([a-z0-9])/g, (_, c) => c.toUpperCase())
 
 // DTCG 2025.10 colour object (C1) -> the CSS function string used in the string outputs.
@@ -97,6 +99,11 @@ const jsLiteral = (v) => {
 export const nswJs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
+    if (toks[0].path.length === 1) {
+      // Flat token (white/black): a scalar export, not a step object.
+      out += `export const ${toCamel(family)} = ${jsLiteral(toks[0].$value)}\n`
+      continue
+    }
     out += `export const ${toCamel(family)} = {\n`
     for (const t of toks) out += `  ${t.path[1]}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
@@ -111,6 +118,10 @@ const tsKey = (k) => (/^[A-Za-z_$][\w$]*$/.test(k) ? k : `'${k}'`)
 export const nswTs = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
+    if (toks[0].path.length === 1) {
+      out += `export const ${toCamel(family)} = ${jsLiteral(toks[0].$value)}\n`
+      continue
+    }
     out += `export const ${toCamel(family)} = {\n`
     for (const t of toks) out += `  ${tsKey(t.path[1])}: ${jsLiteral(t.$value)},\n`
     out += `}\n`
@@ -125,6 +136,10 @@ const tsType = (v) => (typeof v === 'number' ? 'number' : 'string')
 export const nswDts = ({ dictionary }) => {
   let out = ''
   for (const [family, toks] of groupByFamily(dictionary.allTokens)) {
+    if (toks[0].path.length === 1) {
+      out += `export declare const ${toCamel(family)}: ${tsType(toks[0].$value)}\n`
+      continue
+    }
     out += `export declare const ${toCamel(family)}: {\n`
     for (const t of toks) out += `  ${tsKey(t.path[1])}: ${tsType(t.$value)}\n`
     out += `}\n`
@@ -137,6 +152,10 @@ export const nswJson = ({ dictionary }) => {
   const obj = {}
   for (const t of dictionary.allTokens) {
     const family = t.path[0]
+    if (t.path.length === 1) {
+      obj[family] = t.$value
+      continue
+    }
     ;(obj[family] ??= {})[t.path.join('-')] = t.$value
   }
   // Consistent trailing newline across layers (global dist lacks it — normalised).
@@ -148,6 +167,10 @@ export const nswFigma = ({ dictionary }) => {
   const obj = {}
   for (const t of dictionary.allTokens) {
     const family = t.path[0]
+    if (t.path.length === 1) {
+      obj[family] = { $type: 'color', $value: t.$value }
+      continue
+    }
     ;(obj[family] ??= {})[t.path[1]] = { $type: 'color', $value: t.$value }
   }
   // DTCG object colours print `components` inline; JSON.stringify would expand them. Hex
@@ -291,4 +314,20 @@ export const nswTailwind = ({ dictionary, options }) => {
     defs += `  --${name}: ${t.$value};\n`
   }
   return isAliasLayer ? `${header} {\n${refs}}\n` : `${header} {\n${refs}}\n\n:root {\n${defs}}\n`
+}
+
+// Dark CSS, media-query flavour: the same variables the [data-theme='dark'] file carries,
+// scoped to the user's system preference instead of an attribute toggle. Reuses
+// formattedVariables (the engine inside the built-in css/variables format) so the
+// variable lines — including the /** description */ comments — stay consistent with the
+// attribute-scoped sibling; only the wrapper differs.
+export const nswCssMedia = ({ dictionary, options }) => {
+  const vars = formattedVariables({
+    format: 'css',
+    dictionary,
+    outputReferences: options?.outputReferences,
+    usesDtcg: options?.usesDtcg ?? true,
+    formatting: { indentation: '    ' },
+  })
+  return `@media (prefers-color-scheme: dark) {\n  :root {\n${vars}\n  }\n}\n`
 }

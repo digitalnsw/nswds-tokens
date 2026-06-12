@@ -2,7 +2,7 @@
   "primary": {
     "50": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -16,7 +16,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -30,7 +30,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -44,7 +44,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -58,7 +58,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -72,7 +72,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 300: light tints.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -86,7 +86,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 350: light tints.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -100,7 +100,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 400: light tints.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -114,7 +114,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 450: light tints.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -142,7 +142,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 550: shades for borders and icons.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -156,7 +156,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 600: shades for borders and icons.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -170,7 +170,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 650: shades for borders and icons.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -184,7 +184,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 700: shades for borders and icons.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -198,7 +198,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 750: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -212,7 +212,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 800: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -226,7 +226,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -240,7 +240,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -254,7 +254,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Primary brand colour — primary actions, links, and key accents. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Primary brand colour — primary actions, links, and key accents. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -270,7 +270,7 @@
   "accent": {
     "50": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -284,7 +284,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -298,7 +298,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -312,7 +312,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -326,7 +326,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -340,7 +340,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 300: light tints.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -354,7 +354,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 350: light tints.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -368,7 +368,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 400: light tints.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -382,7 +382,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 450: light tints.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -410,7 +410,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 550: shades for borders and icons.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -424,7 +424,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 600: shades for borders and icons.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -438,7 +438,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 650: shades for borders and icons.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -452,7 +452,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 700: shades for borders and icons.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -466,7 +466,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 750: darkest shades for text and high emphasis.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -480,7 +480,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 800: darkest shades for text and high emphasis.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -494,7 +494,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -508,7 +508,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -522,7 +522,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Accent colour — secondary emphasis and supporting highlights. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -538,7 +538,7 @@
   "grey": {
     "50": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 50: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 50: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -552,7 +552,7 @@
     },
     "100": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 100: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 100: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -566,7 +566,7 @@
     },
     "150": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 150: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 150: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -580,7 +580,7 @@
     },
     "200": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 200: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 200: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -594,7 +594,7 @@
     },
     "250": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 250: lightest tints for subtle backgrounds and surfaces.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 250: subtle backgrounds and surfaces.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -608,7 +608,7 @@
     },
     "300": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 300: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 300: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -622,7 +622,7 @@
     },
     "350": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 350: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 350: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -636,7 +636,7 @@
     },
     "400": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 400: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 400: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -650,7 +650,7 @@
     },
     "450": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 450: light tints.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 450: Interactive components.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -678,7 +678,7 @@
     },
     "550": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 550: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 550: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -692,7 +692,7 @@
     },
     "600": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 600: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 600: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -706,7 +706,7 @@
     },
     "650": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 650: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 650: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -720,7 +720,7 @@
     },
     "700": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 700: shades for borders and icons.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 700: borders and icons.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -734,7 +734,7 @@
     },
     "750": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 750: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 750: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -748,7 +748,7 @@
     },
     "800": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 800: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 800: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -762,7 +762,7 @@
     },
     "850": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 850: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 850: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -776,7 +776,7 @@
     },
     "900": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 900: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 900: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [
@@ -790,7 +790,7 @@
     },
     "950": {
       "$type": "color",
-      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 950: darkest shades for text and high emphasis.",
+      "$description": "Neutral grey — text, borders, surfaces, and dividers. Step 950: text and high emphasis.",
       "$value": {
         "colorSpace": "hsl",
         "components": [

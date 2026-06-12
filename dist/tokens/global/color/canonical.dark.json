@@ -1,0 +1,4854 @@
+{
+  "nsw-grey": {
+    "50": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0196078431372549,
+          0.027450980392156862,
+          0.03529411764705882
+        ],
+        "alpha": 1,
+        "hex": "#050709"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.054901960784313725,
+          0.06666666666666667,
+          0.07450980392156863
+        ],
+        "alpha": 1,
+        "hex": "#0e1113"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.09411764705882353,
+          0.10980392156862745,
+          0.12156862745098039
+        ],
+        "alpha": 1,
+        "hex": "#181c1f"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13333333333333333,
+          0.15294117647058825,
+          0.16862745098039217
+        ],
+        "alpha": 1,
+        "hex": "#22272b"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.16862745098039217,
+          0.19215686274509805,
+          0.20784313725490197
+        ],
+        "alpha": 1,
+        "hex": "#2b3135"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.20784313725490197,
+          0.23137254901960785,
+          0.24705882352941178
+        ],
+        "alpha": 1,
+        "hex": "#353b3f"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.24705882352941178,
+          0.27058823529411763,
+          0.28627450980392155
+        ],
+        "alpha": 1,
+        "hex": "#3f4549"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.28627450980392155,
+          0.3137254901960784,
+          0.32941176470588235
+        ],
+        "alpha": 1,
+        "hex": "#495054"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.40784313725490196,
+          0.43529411764705883,
+          0.4470588235294118
+        ],
+        "alpha": 1,
+        "hex": "#686f72"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5333333333333333,
+          0.5607843137254902,
+          0.5725490196078431
+        ],
+        "alpha": 1,
+        "hex": "#888f92"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6666666666666666,
+          0.6901960784313725,
+          0.7058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#aab0b4"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.803921568627451,
+          0.8274509803921568,
+          0.8392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#cdd3d6"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8313725490196079,
+          0.8509803921568627,
+          0.8588235294117647
+        ],
+        "alpha": 1,
+        "hex": "#d4d9db"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8627450980392157,
+          0.8745098039215686,
+          0.8784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#dcdfe0"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8901960784313725,
+          0.8980392156862745,
+          0.9019607843137255
+        ],
+        "alpha": 1,
+        "hex": "#e3e5e6"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9215686274509803,
+          0.9215686274509803,
+          0.9215686274509803
+        ],
+        "alpha": 1,
+        "hex": "#ebebeb"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9411764705882353,
+          0.9411764705882353,
+          0.9411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#f0f0f0"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9607843137254902,
+          0.9607843137254902,
+          0.9607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#f5f5f5"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Neutral grey \u2014 text, borders, surfaces, and dividers; every theme\u2019s grey ramp aliases this family. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921568627451,
+          0.9803921568627451,
+          0.9803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#fafafa"
+      }
+    }
+  },
+  "nsw-green": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.06666666666666667,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#001100"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.12549019607843137,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#002000"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.18823529411764706,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#003000"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.25098039215686274,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#004000"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.011764705882352941,
+          0.34901960784313724,
+          0.058823529411764705
+        ],
+        "alpha": 1,
+        "hex": "#03590f"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.027450980392156862,
+          0.45098039215686275,
+          0.12549019607843137
+        ],
+        "alpha": 1,
+        "hex": "#077320"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.027450980392156862,
+          0.5568627450980392,
+          0.19607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#078e32"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.6666666666666666,
+          0.27058823529411763
+        ],
+        "alpha": 1,
+        "hex": "#00aa45"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.27058823529411763,
+          0.7333333333333333,
+          0.3843137254901961
+        ],
+        "alpha": 1,
+        "hex": "#45bb62"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.41568627450980394,
+          0.8,
+          0.49019607843137253
+        ],
+        "alpha": 1,
+        "hex": "#6acc7d"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5411764705882353,
+          0.8627450980392157,
+          0.596078431372549
+        ],
+        "alpha": 1,
+        "hex": "#8adc98"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6588235294117647,
+          0.9294117647058824,
+          0.7019607843137254
+        ],
+        "alpha": 1,
+        "hex": "#a8edb3"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7098039215686275,
+          0.9411764705882353,
+          0.7450980392156863
+        ],
+        "alpha": 1,
+        "hex": "#b5f0be"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7607843137254902,
+          0.9568627450980393,
+          0.788235294117647
+        ],
+        "alpha": 1,
+        "hex": "#c2f4c9"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8117647058823529,
+          0.9686274509803922,
+          0.8313725490196079
+        ],
+        "alpha": 1,
+        "hex": "#cff7d4"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8588235294117647,
+          0.9803921568627451,
+          0.8745098039215686
+        ],
+        "alpha": 1,
+        "hex": "#dbfadf"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8941176470588236,
+          0.9882352941176471,
+          0.9058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#e4fce7"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9254901960784314,
+          0.9921568627450981,
+          0.9333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#ecfdee"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW palette green \u2014 accents, illustration, and data-visualisation support (semantic success states use the dedicated success ramp). Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9607843137254902,
+          1,
+          0.9647058823529412
+        ],
+        "alpha": 1,
+        "hex": "#f5fff6"
+      }
+    }
+  },
+  "nsw-teal": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.06666666666666667,
+          0.0784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#001114"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00392156862745098,
+          0.12156862745098039,
+          0.1411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#011f24"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.01568627450980392,
+          0.1843137254901961,
+          0.20784313725490197
+        ],
+        "alpha": 1,
+        "hex": "#042f35"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.043137254901960784,
+          0.24705882352941178,
+          0.2784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#0b3f47"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0784313725490196,
+          0.3058823529411765,
+          0.34509803921568627
+        ],
+        "alpha": 1,
+        "hex": "#144e58"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.10980392156862745,
+          0.37254901960784315,
+          0.4117647058823529
+        ],
+        "alpha": 1,
+        "hex": "#1c5f69"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1450980392156863,
+          0.43529411764705883,
+          0.4823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#256f7b"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1803921568627451,
+          0.5019607843137255,
+          0.5568627450980392
+        ],
+        "alpha": 1,
+        "hex": "#2e808e"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.27450980392156865,
+          0.5882352941176471,
+          0.6392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#4696a3"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3686274509803922,
+          0.6745098039215687,
+          0.7254901960784313
+        ],
+        "alpha": 1,
+        "hex": "#5eacb9"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4588235294117647,
+          0.7686274509803922,
+          0.8117647058823529
+        ],
+        "alpha": 1,
+        "hex": "#75c4cf"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5490196078431373,
+          0.8588235294117647,
+          0.8980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#8cdbe5"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6196078431372549,
+          0.8784313725490196,
+          0.8980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#9ee0e5"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6862745098039216,
+          0.8980392156862745,
+          0.8980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#afe5e5"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7568627450980392,
+          0.9176470588235294,
+          0.9058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#c1eae7"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8196078431372549,
+          0.9333333333333333,
+          0.9176470588235294
+        ],
+        "alpha": 1,
+        "hex": "#d1eeea"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8627450980392157,
+          0.9490196078431372,
+          0.9372549019607843
+        ],
+        "alpha": 1,
+        "hex": "#dcf2ef"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9058823529411765,
+          0.9686274509803922,
+          0.9607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#e7f7f5"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW palette teal \u2014 accents, illustration, and data-visualisation support. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196078431372,
+          0.984313725490196,
+          0.9803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#f2fbfa"
+      }
+    }
+  },
+  "nsw-blue": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.023529411764705882,
+          0.13333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#000622"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.06274509803921569,
+          0.21568627450980393
+        ],
+        "alpha": 1,
+        "hex": "#001037"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.10196078431372549,
+          0.30196078431372547
+        ],
+        "alpha": 1,
+        "hex": "#001a4d"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.14901960784313725,
+          0.39215686274509803
+        ],
+        "alpha": 1,
+        "hex": "#002664"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00784313725490196,
+          0.21176470588235294,
+          0.5333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#023688"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0196078431372549,
+          0.2823529411764706,
+          0.6784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#0548ad"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.047058823529411764,
+          0.35294117647058826,
+          0.8313725490196079
+        ],
+        "alpha": 1,
+        "hex": "#0c5ad4"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0784313725490196,
+          0.4235294117647059,
+          0.9921568627450981
+        ],
+        "alpha": 1,
+        "hex": "#146cfd"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.5607843137254902,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#008fff"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.14901960784313725,
+          0.6823529411764706,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#26aeff"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.35294117647058826,
+          0.788235294117647,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#5ac9ff"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5490196078431373,
+          0.8784313725490196,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#8ce0ff"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.615686274509804,
+          0.8901960784313725,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#9de3ff"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6784313725490196,
+          0.9058823529411765,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#ade7ff"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7372549019607844,
+          0.9176470588235294,
+          0.996078431372549
+        ],
+        "alpha": 1,
+        "hex": "#bceafe"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.796078431372549,
+          0.9294117647058824,
+          0.9921568627450981
+        ],
+        "alpha": 1,
+        "hex": "#cbedfd"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8431372549019608,
+          0.9490196078431372,
+          0.996078431372549
+        ],
+        "alpha": 1,
+        "hex": "#d7f2fe"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8941176470588236,
+          0.9647058823529412,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#e4f6ff"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW brand blue \u2014 masterbrand primary aliases this ramp (primary actions, links, key accents); fuchsia-blue accent also draws from it. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9411764705882353,
+          0.984313725490196,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#f0fbff"
+      }
+    }
+  },
+  "nsw-purple": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.07450980392156863,
+          0,
+          0.15294117647058825
+        ],
+        "alpha": 1,
+        "hex": "#130027"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13725490196078433,
+          0.00784313725490196,
+          0.24313725490196078
+        ],
+        "alpha": 1,
+        "hex": "#23023e"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2,
+          0.03137254901960784,
+          0.33725490196078434
+        ],
+        "alpha": 1,
+        "hex": "#330856"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.26666666666666666,
+          0.06666666666666667,
+          0.4392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#441170"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.32941176470588235,
+          0.12941176470588237,
+          0.5568627450980392
+        ],
+        "alpha": 1,
+        "hex": "#54218e"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.39215686274509803,
+          0.19607843137254902,
+          0.6823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#6432ae"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4470588235294118,
+          0.2627450980392157,
+          0.8117647058823529
+        ],
+        "alpha": 1,
+        "hex": "#7243cf"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5019607843137255,
+          0.3333333333333333,
+          0.9450980392156862
+        ],
+        "alpha": 1,
+        "hex": "#8055f1"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5764705882352941,
+          0.4470588235294118,
+          0.9607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#9372f5"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6509803921568628,
+          0.5529411764705883,
+          0.9764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#a68df9"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7294117647058823,
+          0.6509803921568628,
+          0.9882352941176471
+        ],
+        "alpha": 1,
+        "hex": "#baa6fc"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.807843137254902,
+          0.7490196078431373,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#cebfff"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8313725490196079,
+          0.7843137254901961,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#d4c8ff"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8549019607843137,
+          0.8156862745098039,
+          0.996078431372549
+        ],
+        "alpha": 1,
+        "hex": "#dad0fe"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8784313725490196,
+          0.8509803921568627,
+          0.996078431372549
+        ],
+        "alpha": 1,
+        "hex": "#e0d9fe"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9019607843137255,
+          0.8823529411764706,
+          0.9921568627450981
+        ],
+        "alpha": 1,
+        "hex": "#e6e1fd"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9254901960784314,
+          0.9098039215686274,
+          0.996078431372549
+        ],
+        "alpha": 1,
+        "hex": "#ece8fe"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196078431372,
+          0.9411764705882353,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#f2f0ff"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW palette purple \u2014 accents, illustration, and data-visualisation support. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9764705882352941,
+          0.9686274509803922,
+          1
+        ],
+        "alpha": 1,
+        "hex": "#f9f7ff"
+      }
+    }
+  },
+  "nsw-fuchsia": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13333333333333333,
+          0,
+          0.09019607843137255
+        ],
+        "alpha": 1,
+        "hex": "#220017"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.21568627450980393,
+          0,
+          0.1568627450980392
+        ],
+        "alpha": 1,
+        "hex": "#370028"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.30196078431372547,
+          0,
+          0.22745098039215686
+        ],
+        "alpha": 1,
+        "hex": "#4d003a"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.396078431372549,
+          0,
+          0.30196078431372547
+        ],
+        "alpha": 1,
+        "hex": "#65004d"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5058823529411764,
+          0.00784313725490196,
+          0.39215686274509803
+        ],
+        "alpha": 1,
+        "hex": "#810264"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.615686274509804,
+          0.023529411764705882,
+          0.4823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#9d067b"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7333333333333333,
+          0.047058823529411764,
+          0.5803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#bb0c94"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8509803921568627,
+          0.07058823529411765,
+          0.6823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#d912ae"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8823529411764706,
+          0.3137254901960784,
+          0.7450980392156863
+        ],
+        "alpha": 1,
+        "hex": "#e150be"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137254901960784,
+          0.4588235294117647,
+          0.8
+        ],
+        "alpha": 1,
+        "hex": "#e975cc"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9372549019607843,
+          0.5882352941176471,
+          0.8549019607843137
+        ],
+        "alpha": 1,
+        "hex": "#ef96da"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9568627450980393,
+          0.7098039215686275,
+          0.9019607843137255
+        ],
+        "alpha": 1,
+        "hex": "#f4b5e6"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9686274509803922,
+          0.7490196078431373,
+          0.9137254901960784
+        ],
+        "alpha": 1,
+        "hex": "#f7bfe9"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9764705882352941,
+          0.788235294117647,
+          0.9215686274509803
+        ],
+        "alpha": 1,
+        "hex": "#f9c9eb"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.984313725490196,
+          0.8313725490196079,
+          0.9372549019607843
+        ],
+        "alpha": 1,
+        "hex": "#fbd4ef"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.8705882352941177,
+          0.9490196078431372
+        ],
+        "alpha": 1,
+        "hex": "#fddef2"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.9019607843137255,
+          0.9647058823529412
+        ],
+        "alpha": 1,
+        "hex": "#fee6f6"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9333333333333333,
+          0.9764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#ffeef9"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW brand fuchsia \u2014 the primary ramp for the fuchsia-blue and fuchsia-orange themes. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9647058823529412,
+          0.9921568627450981
+        ],
+        "alpha": 1,
+        "hex": "#fff6fd"
+      }
+    }
+  },
+  "nsw-red": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.12941176470588237,
+          0,
+          0.011764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#210003"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.21176470588235294,
+          0,
+          0.03137254901960784
+        ],
+        "alpha": 1,
+        "hex": "#360008"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2980392156862745,
+          0,
+          0.06274509803921569
+        ],
+        "alpha": 1,
+        "hex": "#4c0010"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.38823529411764707,
+          0,
+          0.09803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#630019"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.49411764705882355,
+          0.011764705882352941,
+          0.13333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#7e0322"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6078431372549019,
+          0.027450980392156862,
+          0.16470588235294117
+        ],
+        "alpha": 1,
+        "hex": "#9b072a"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7254901960784313,
+          0.054901960784313725,
+          0.19607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#b90e32"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8431372549019608,
+          0.08235294117647059,
+          0.22745098039215686
+        ],
+        "alpha": 1,
+        "hex": "#d7153a"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8941176470588236,
+          0.30980392156862746,
+          0.37254901960784315
+        ],
+        "alpha": 1,
+        "hex": "#e44f5f"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9372549019607843,
+          0.4588235294117647,
+          0.5058823529411764
+        ],
+        "alpha": 1,
+        "hex": "#ef7581"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9725490196078431,
+          0.592156862745098,
+          0.6352941176470588
+        ],
+        "alpha": 1,
+        "hex": "#f897a2"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.7215686274509804,
+          0.7568627450980392
+        ],
+        "alpha": 1,
+        "hex": "#ffb8c1"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.7686274509803922,
+          0.8
+        ],
+        "alpha": 1,
+        "hex": "#ffc4cc"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.8117647058823529,
+          0.8392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#ffcfd6"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.8588235294117647,
+          0.8784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#ffdbe0"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9019607843137255,
+          0.9176470588235294
+        ],
+        "alpha": 1,
+        "hex": "#ffe6ea"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9254901960784314,
+          0.9372549019607843
+        ],
+        "alpha": 1,
+        "hex": "#ffecef"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9490196078431372,
+          0.9568627450980393
+        ],
+        "alpha": 1,
+        "hex": "#fff2f4"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW brand red \u2014 masterbrand accent aliases this ramp (secondary emphasis and highlights; distinct from the semantic danger ramp). Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9725490196078431,
+          0.9764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#fff8f9"
+      }
+    }
+  },
+  "nsw-orange": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.20784313725490197,
+          0,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#350000"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3254901960784314,
+          0.01568627450980392,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#530400"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.45098039215686275,
+          0.058823529411764705,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#730f00"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5803921568627451,
+          0.10588235294117647,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#941b00"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6705882352941176,
+          0.1803921568627451,
+          0.023529411764705882
+        ],
+        "alpha": 1,
+        "hex": "#ab2e06"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7647058823529411,
+          0.24705882352941178,
+          0.054901960784313725
+        ],
+        "alpha": 1,
+        "hex": "#c33f0e"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8588235294117647,
+          0.3176470588235294,
+          0.08235294117647059
+        ],
+        "alpha": 1,
+        "hex": "#db5115"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9529411764705882,
+          0.38823529411764707,
+          0.10588235294117647
+        ],
+        "alpha": 1,
+        "hex": "#f3631b"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9686274509803922,
+          0.5058823529411764,
+          0.2235294117647059
+        ],
+        "alpha": 1,
+        "hex": "#f78139"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.984313725490196,
+          0.615686274509804,
+          0.34509803921568627
+        ],
+        "alpha": 1,
+        "hex": "#fb9d58"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.7137254901960784,
+          0.47058823529411764
+        ],
+        "alpha": 1,
+        "hex": "#fdb678"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.807843137254902,
+          0.6
+        ],
+        "alpha": 1,
+        "hex": "#ffce99"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.8392156862745098,
+          0.6705882352941176
+        ],
+        "alpha": 1,
+        "hex": "#ffd6ab"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.8666666666666667,
+          0.7411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#ffddbd"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.8980392156862745,
+          0.807843137254902
+        ],
+        "alpha": 1,
+        "hex": "#fee5ce"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.9294117647058824,
+          0.8745098039215686
+        ],
+        "alpha": 1,
+        "hex": "#fdeddf"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.9450980392156862,
+          0.9058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#fef1e7"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9647058823529412,
+          0.9333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#fff6ee"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW palette orange \u2014 fuchsia-orange accent aliases this ramp; warm accents and illustration. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9803921568627451,
+          0.9647058823529412
+        ],
+        "alpha": 1,
+        "hex": "#fffaf6"
+      }
+    }
+  },
+  "nsw-yellow": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.13333333333333333,
+          0.07450980392156863,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#221300"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2235294117647059,
+          0.1411764705882353,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#392400"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3137254901960784,
+          0.20784313725490197,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#503500"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4117647058823529,
+          0.2823529411764706,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#694800"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5450980392156862,
+          0.3764705882352941,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#8b6000"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6862745098039216,
+          0.47843137254901963,
+          0.00392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#af7a01"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8313725490196079,
+          0.5803921568627451,
+          0.011764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#d49403"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921568627451,
+          0.6862745098039216,
+          0.0196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#faaf05"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921568627451,
+          0.7450980392156863,
+          0.25882352941176473
+        ],
+        "alpha": 1,
+        "hex": "#fabe42"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921568627451,
+          0.803921568627451,
+          0.38823529411764707
+        ],
+        "alpha": 1,
+        "hex": "#facd63"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.984313725490196,
+          0.8549019607843137,
+          0.5019607843137255
+        ],
+        "alpha": 1,
+        "hex": "#fbda80"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.9058823529411765,
+          0.6039215686274509
+        ],
+        "alpha": 1,
+        "hex": "#fde79a"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.9176470588235294,
+          0.6588235294117647
+        ],
+        "alpha": 1,
+        "hex": "#feeaa8"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.9333333333333333,
+          0.7098039215686275
+        ],
+        "alpha": 1,
+        "hex": "#feeeb5"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9450980392156862,
+          0.7607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#fff1c2"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9568627450980393,
+          0.8117647058823529
+        ],
+        "alpha": 1,
+        "hex": "#fff4cf"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9686274509803922,
+          0.8549019607843137
+        ],
+        "alpha": 1,
+        "hex": "#fff7da"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9803921568627451,
+          0.8980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#fffae5"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW palette yellow \u2014 accents, illustration, and data-visualisation support (semantic warning states use the dedicated warning ramp). Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9882352941176471,
+          0.9411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#fffcf0"
+      }
+    }
+  },
+  "nsw-brown": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.09803921568627451,
+          0.050980392156862744,
+          0.00784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#190d02"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.16862745098039217,
+          0.10196078431372549,
+          0.027450980392156862
+        ],
+        "alpha": 1,
+        "hex": "#2b1a07"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.24313725490196078,
+          0.1568627450980392,
+          0.058823529411764705
+        ],
+        "alpha": 1,
+        "hex": "#3e280f"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3215686274509804,
+          0.21568627450980393,
+          0.09803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#523719"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.41568627450980394,
+          0.29411764705882354,
+          0.1607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#6a4b29"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5098039215686274,
+          0.3764705882352941,
+          0.22745098039215686
+        ],
+        "alpha": 1,
+        "hex": "#82603a"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.611764705882353,
+          0.4627450980392157,
+          0.29411764705882354
+        ],
+        "alpha": 1,
+        "hex": "#9c764b"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7137254901960784,
+          0.5529411764705883,
+          0.36470588235294116
+        ],
+        "alpha": 1,
+        "hex": "#b68d5d"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7607843137254902,
+          0.615686274509804,
+          0.45098039215686275
+        ],
+        "alpha": 1,
+        "hex": "#c29d73"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8117647058823529,
+          0.6823529411764706,
+          0.5372549019607843
+        ],
+        "alpha": 1,
+        "hex": "#cfae89"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8588235294117647,
+          0.7490196078431373,
+          0.6235294117647059
+        ],
+        "alpha": 1,
+        "hex": "#dbbf9f"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9098039215686274,
+          0.8156862745098039,
+          0.7098039215686275
+        ],
+        "alpha": 1,
+        "hex": "#e8d0b5"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137254901960784,
+          0.8352941176470589,
+          0.7411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#e9d5bd"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9176470588235294,
+          0.8549019607843137,
+          0.7764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#eadac6"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9254901960784314,
+          0.8705882352941177,
+          0.807843137254902
+        ],
+        "alpha": 1,
+        "hex": "#ecdece"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9294117647058824,
+          0.8901960784313725,
+          0.8431372549019608
+        ],
+        "alpha": 1,
+        "hex": "#ede3d7"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196078431372,
+          0.9176470588235294,
+          0.8823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#f2eae1"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9647058823529412,
+          0.9450980392156862,
+          0.9176470588235294
+        ],
+        "alpha": 1,
+        "hex": "#f6f1ea"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW palette brown \u2014 accents, illustration, and data-visualisation support. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.984313725490196,
+          0.9725490196078431,
+          0.9568627450980393
+        ],
+        "alpha": 1,
+        "hex": "#fbf8f4"
+      }
+    }
+  },
+  "nsw-aboriginal-grey": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.027450980392156862,
+          0.027450980392156862,
+          0.027450980392156862
+        ],
+        "alpha": 1,
+        "hex": "#070707"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.06666666666666667,
+          0.06666666666666667,
+          0.06666666666666667
+        ],
+        "alpha": 1,
+        "hex": "#111111"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.10980392156862745,
+          0.10980392156862745,
+          0.10980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#1c1c1c"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Smoke Grey. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.15294117647058825,
+          0.15294117647058825,
+          0.15294117647058825
+        ],
+        "alpha": 1,
+        "hex": "#272727"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.19607843137254902,
+          0.19607843137254902,
+          0.19607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#323232"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.23921568627450981,
+          0.23921568627450981,
+          0.23921568627450981
+        ],
+        "alpha": 1,
+        "hex": "#3d3d3d"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.28627450980392155,
+          0.28627450980392155,
+          0.28627450980392155
+        ],
+        "alpha": 1,
+        "hex": "#494949"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Ash Grey. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#555555"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.44313725490196076,
+          0.4392156862745098,
+          0.43529411764705883
+        ],
+        "alpha": 1,
+        "hex": "#71706f"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5568627450980392,
+          0.5450980392156862,
+          0.5411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#8e8b8a"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6784313725490196,
+          0.6588235294117647,
+          0.6470588235294118
+        ],
+        "alpha": 1,
+        "hex": "#ada8a5"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Emu Grey. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8,
+          0.7764705882352941,
+          0.7607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#ccc6c2"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8235294117647058,
+          0.803921568627451,
+          0.788235294117647
+        ],
+        "alpha": 1,
+        "hex": "#d2cdc9"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8470588235294118,
+          0.8313725490196079,
+          0.8196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#d8d4d1"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8745098039215686,
+          0.8627450980392157,
+          0.8470588235294118
+        ],
+        "alpha": 1,
+        "hex": "#dfdcd8"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Charcoal Grey. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8980392156862745,
+          0.8901960784313725,
+          0.8784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#e5e3e0"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9215686274509803,
+          0.9176470588235294,
+          0.9098039215686274
+        ],
+        "alpha": 1,
+        "hex": "#ebeae8"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196078431372,
+          0.9450980392156862,
+          0.9372549019607843
+        ],
+        "alpha": 1,
+        "hex": "#f2f1ef"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette grey. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9764705882352941,
+          0.9725490196078431,
+          0.9686274509803922
+        ],
+        "alpha": 1,
+        "hex": "#f9f8f7"
+      }
+    }
+  },
+  "nsw-aboriginal-red": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.21176470588235294,
+          0,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#360000"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.32941176470588235,
+          0,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#540000"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4549019607843137,
+          0,
+          0.00392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#740001"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Galah Pink. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5843137254901961,
+          0.03529411764705882,
+          0.023529411764705882
+        ],
+        "alpha": 1,
+        "hex": "#950906"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6549019607843137,
+          0.06666666666666667,
+          0.043137254901960784
+        ],
+        "alpha": 1,
+        "hex": "#a7110b"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7294117647058823,
+          0.09411764705882353,
+          0.06666666666666667
+        ],
+        "alpha": 1,
+        "hex": "#ba1811"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.803921568627451,
+          0.12156862745098039,
+          0.09019607843137255
+        ],
+        "alpha": 1,
+        "hex": "#cd1f17"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Coral Pink. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8823529411764706,
+          0.14901960784313725,
+          0.10980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#e1261c"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9176470588235294,
+          0.3333333333333333,
+          0.2980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#ea554c"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196078431372,
+          0.4666666666666667,
+          0.44313725490196076
+        ],
+        "alpha": 1,
+        "hex": "#f27771"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9686274509803922,
+          0.5882352941176471,
+          0.5764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#f79693"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Ember Red. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.984313725490196,
+          0.7058823529411765,
+          0.7019607843137254
+        ],
+        "alpha": 1,
+        "hex": "#fbb4b3"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9882352941176471,
+          0.7411764705882353,
+          0.7411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#fcbdbd"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9882352941176471,
+          0.7803921568627451,
+          0.7764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#fcc7c6"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.8156862745098039,
+          0.8156862745098039
+        ],
+        "alpha": 1,
+        "hex": "#fdd0d0"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Earth Red. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9921568627450981,
+          0.8509803921568627,
+          0.8509803921568627
+        ],
+        "alpha": 1,
+        "hex": "#fdd9d9"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.8862745098039215,
+          0.8862745098039215
+        ],
+        "alpha": 1,
+        "hex": "#fee2e2"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9215686274509803,
+          0.9215686274509803
+        ],
+        "alpha": 1,
+        "hex": "#ffebeb"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette red. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9607843137254902,
+          0.9607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#fff5f5"
+      }
+    }
+  },
+  "nsw-aboriginal-orange": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.18823529411764706,
+          0.011764705882352941,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#300300"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2980392156862745,
+          0.050980392156862744,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#4c0d00"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4117647058823529,
+          0.09803921568627451,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#691900"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Sunset Orange. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5333333333333333,
+          0.14901960784313725,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#882600"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6313725490196078,
+          0.20784313725490197,
+          0.0196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#a13505"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7294117647058823,
+          0.26666666666666666,
+          0.0392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#ba440a"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8313725490196079,
+          0.3254901960784314,
+          0.06274509803921569
+        ],
+        "alpha": 1,
+        "hex": "#d45310"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Clay Orange. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9333333333333333,
+          0.38823529411764707,
+          0.0784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#ee6314"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9411764705882353,
+          0.4666666666666667,
+          0.21176470588235294
+        ],
+        "alpha": 1,
+        "hex": "#f07736"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196078431372,
+          0.5372549019607843,
+          0.30980392156862746
+        ],
+        "alpha": 1,
+        "hex": "#f2894f"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9529411764705882,
+          0.6039215686274509,
+          0.4
+        ],
+        "alpha": 1,
+        "hex": "#f39a66"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Orange Ochre. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9568627450980393,
+          0.6666666666666666,
+          0.49019607843137253
+        ],
+        "alpha": 1,
+        "hex": "#f4aa7d"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9647058823529412,
+          0.7098039215686275,
+          0.5568627450980392
+        ],
+        "alpha": 1,
+        "hex": "#f6b58e"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9686274509803922,
+          0.7490196078431373,
+          0.6196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#f7bf9e"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9725490196078431,
+          0.792156862745098,
+          0.6823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#f8caae"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Deep Orange. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9764705882352941,
+          0.8313725490196079,
+          0.7450980392156863
+        ],
+        "alpha": 1,
+        "hex": "#f9d4be"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9882352941176471,
+          0.8745098039215686,
+          0.803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#fcdfcd"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.9137254901960784,
+          0.8666666666666667
+        ],
+        "alpha": 1,
+        "hex": "#fee9dd"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette orange. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9568627450980393,
+          0.9254901960784314
+        ],
+        "alpha": 1,
+        "hex": "#fff4ec"
+      }
+    }
+  },
+  "nsw-aboriginal-brown": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.10588235294117647,
+          0.01568627450980392,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#1b0400"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.17647058823529413,
+          0.047058823529411764,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#2d0c00"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2549019607843137,
+          0.08627450980392157,
+          0.00784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#411602"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Macadamia Brown. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3333333333333333,
+          0.12941176470588237,
+          0.0196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#552105"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.403921568627451,
+          0.17647058823529413,
+          0.06274509803921569
+        ],
+        "alpha": 1,
+        "hex": "#672d10"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4745098039215686,
+          0.2235294117647059,
+          0.10980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#79391c"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5450980392156862,
+          0.27450980392156865,
+          0.15294117647058825
+        ],
+        "alpha": 1,
+        "hex": "#8b4627"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Claystone Brown. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6196078431372549,
+          0.3254901960784314,
+          0.19607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#9e5332"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6705882352941176,
+          0.3843137254901961,
+          0.24313725490196078
+        ],
+        "alpha": 1,
+        "hex": "#ab623e"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7254901960784313,
+          0.4470588235294118,
+          0.29411764705882354
+        ],
+        "alpha": 1,
+        "hex": "#b9724b"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7764705882352941,
+          0.5058823529411764,
+          0.34509803921568627
+        ],
+        "alpha": 1,
+        "hex": "#c68158"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Firewood Brown. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8274509803921568,
+          0.5686274509803921,
+          0.396078431372549
+        ],
+        "alpha": 1,
+        "hex": "#d39165"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8509803921568627,
+          0.6235294117647059,
+          0.47058823529411764
+        ],
+        "alpha": 1,
+        "hex": "#d99f78"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8705882352941177,
+          0.6784313725490196,
+          0.5490196078431373
+        ],
+        "alpha": 1,
+        "hex": "#dead8c"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8941176470588236,
+          0.7294117647058823,
+          0.6235294117647059
+        ],
+        "alpha": 1,
+        "hex": "#e4ba9f"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Riverbed Brown. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9137254901960784,
+          0.7843137254901961,
+          0.6980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#e9c8b2"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9372549019607843,
+          0.8352941176470589,
+          0.7686274509803922
+        ],
+        "alpha": 1,
+        "hex": "#efd5c4"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9647058823529412,
+          0.8901960784313725,
+          0.8431372549019608
+        ],
+        "alpha": 1,
+        "hex": "#f6e3d7"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette brown. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9882352941176471,
+          0.9450980392156862,
+          0.9137254901960784
+        ],
+        "alpha": 1,
+        "hex": "#fcf1e9"
+      }
+    }
+  },
+  "nsw-aboriginal-yellow": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1843137254901961,
+          0.10980392156862745,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#2f1c00"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2980392156862745,
+          0.18823529411764706,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#4c3000"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.4117647058823529,
+          0.2784313725490196,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#694700"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Sunbeam Yellow. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5372549019607843,
+          0.3686274509803922,
+          0
+        ],
+        "alpha": 1,
+        "hex": "#895e00"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6470588235294118,
+          0.4392156862745098,
+          0.027450980392156862
+        ],
+        "alpha": 1,
+        "hex": "#a57007"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7568627450980392,
+          0.5137254901960784,
+          0.07058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#c18312"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8745098039215686,
+          0.5882352941176471,
+          0.10980392156862745
+        ],
+        "alpha": 1,
+        "hex": "#df961c"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Golden Wattle Yellow. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.6627450980392157,
+          0.15294117647058825
+        ],
+        "alpha": 1,
+        "hex": "#fea927"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.7254901960784313,
+          0.26666666666666666
+        ],
+        "alpha": 1,
+        "hex": "#feb944"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.7843137254901961,
+          0.36470588235294116
+        ],
+        "alpha": 1,
+        "hex": "#fec85d"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.8392156862745098,
+          0.4588235294117647
+        ],
+        "alpha": 1,
+        "hex": "#fed675"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Sandstone Yellow. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.8941176470588236,
+          0.5490196078431373
+        ],
+        "alpha": 1,
+        "hex": "#fee48c"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.996078431372549,
+          0.9058823529411765,
+          0.6078431372549019
+        ],
+        "alpha": 1,
+        "hex": "#fee79b"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9215686274509803,
+          0.6627450980392157
+        ],
+        "alpha": 1,
+        "hex": "#ffeba9"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9333333333333333,
+          0.7176470588235294
+        ],
+        "alpha": 1,
+        "hex": "#ffeeb7"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Bush Honey Yellow. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9450980392156862,
+          0.7725490196078432
+        ],
+        "alpha": 1,
+        "hex": "#fff1c5"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9607843137254902,
+          0.8274509803921568
+        ],
+        "alpha": 1,
+        "hex": "#fff5d3"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9725490196078431,
+          0.8784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#fff8e0"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette yellow. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          1,
+          0.9882352941176471,
+          0.9333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#fffcee"
+      }
+    }
+  },
+  "nsw-aboriginal-green": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00784313725490196,
+          0.10588235294117647,
+          0.0392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#021b0a"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0392156862745098,
+          0.1803921568627451,
+          0.09019607843137255
+        ],
+        "alpha": 1,
+        "hex": "#0a2e17"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.08235294117647059,
+          0.25882352941176473,
+          0.1450980392156863
+        ],
+        "alpha": 1,
+        "hex": "#154225"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Saltbush Green. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.12941176470588237,
+          0.34509803921568627,
+          0.20392156862745098
+        ],
+        "alpha": 1,
+        "hex": "#215834"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.20392156862745098,
+          0.41568627450980394,
+          0.23137254901960785
+        ],
+        "alpha": 1,
+        "hex": "#346a3b"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.28627450980392155,
+          0.49019607843137253,
+          0.25098039215686274
+        ],
+        "alpha": 1,
+        "hex": "#497d40"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.37254901960784315,
+          0.5607843137254902,
+          0.26666666666666666
+        ],
+        "alpha": 1,
+        "hex": "#5f8f44"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Gumleaf Green. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.47058823529411764,
+          0.6313725490196078,
+          0.27450980392156865
+        ],
+        "alpha": 1,
+        "hex": "#78a146"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5254901960784314,
+          0.6745098039215687,
+          0.3764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#86ac60"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5843137254901961,
+          0.7176470588235294,
+          0.4666666666666667
+        ],
+        "alpha": 1,
+        "hex": "#95b777"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6470588235294118,
+          0.7607843137254902,
+          0.5568627450980392
+        ],
+        "alpha": 1,
+        "hex": "#a5c28e"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Marshland Lime. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7098039215686275,
+          0.803921568627451,
+          0.6431372549019608
+        ],
+        "alpha": 1,
+        "hex": "#b5cda4"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7450980392156863,
+          0.8274509803921568,
+          0.6862745098039216
+        ],
+        "alpha": 1,
+        "hex": "#bed3af"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7803921568627451,
+          0.8509803921568627,
+          0.7294117647058823
+        ],
+        "alpha": 1,
+        "hex": "#c7d9ba"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8196078431372549,
+          0.8784313725490196,
+          0.7764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#d1e0c6"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Bushland Green. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8549019607843137,
+          0.9019607843137255,
+          0.8196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#dae6d1"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8901960784313725,
+          0.9254901960784314,
+          0.8627450980392157
+        ],
+        "alpha": 1,
+        "hex": "#e3ecdc"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9254901960784314,
+          0.9529411764705882,
+          0.9058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#ecf3e7"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette green. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9607843137254902,
+          0.9764705882352941,
+          0.9490196078431372
+        ],
+        "alpha": 1,
+        "hex": "#f5f9f2"
+      }
+    }
+  },
+  "nsw-aboriginal-blue": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.06666666666666667,
+          0.12156862745098039
+        ],
+        "alpha": 1,
+        "hex": "#00111f"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.12549019607843137,
+          0.2
+        ],
+        "alpha": 1,
+        "hex": "#002033"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.1843137254901961,
+          0.2823529411764706
+        ],
+        "alpha": 1,
+        "hex": "#002f48"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Coastal Blue. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0,
+          0.25098039215686274,
+          0.3686274509803922
+        ],
+        "alpha": 1,
+        "hex": "#00405e"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.00784313725490196,
+          0.28627450980392155,
+          0.41568627450980394
+        ],
+        "alpha": 1,
+        "hex": "#02496a"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.0196078431372549,
+          0.3254901960784314,
+          0.4666666666666667
+        ],
+        "alpha": 1,
+        "hex": "#055377"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.03529411764705882,
+          0.36470588235294116,
+          0.5176470588235295
+        ],
+        "alpha": 1,
+        "hex": "#095d84"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Light Water Blue. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.050980392156862744,
+          0.403921568627451,
+          0.5686274509803921
+        ],
+        "alpha": 1,
+        "hex": "#0d6791"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1803921568627451,
+          0.4980392156862745,
+          0.6313725490196078
+        ],
+        "alpha": 1,
+        "hex": "#2e7fa1"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2901960784313726,
+          0.5882352941176471,
+          0.6901960784313725
+        ],
+        "alpha": 1,
+        "hex": "#4a96b0"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.403921568627451,
+          0.6823529411764706,
+          0.7529411764705882
+        ],
+        "alpha": 1,
+        "hex": "#67aec0"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Saltwater Blue. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5176470588235295,
+          0.7725490196078432,
+          0.8196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#84c5d1"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5803921568627451,
+          0.8,
+          0.8431372549019608
+        ],
+        "alpha": 1,
+        "hex": "#94ccd7"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6392156862745098,
+          0.8313725490196079,
+          0.8627450980392157
+        ],
+        "alpha": 1,
+        "hex": "#a3d4dc"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6980392156862745,
+          0.8588235294117647,
+          0.8862745098039215
+        ],
+        "alpha": 1,
+        "hex": "#b2dbe2"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Billabong Blue. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7568627450980392,
+          0.8862745098039215,
+          0.9098039215686274
+        ],
+        "alpha": 1,
+        "hex": "#c1e2e8"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8156862745098039,
+          0.9137254901960784,
+          0.9333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#d0e9ee"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8745098039215686,
+          0.9450980392156862,
+          0.9568627450980393
+        ],
+        "alpha": 1,
+        "hex": "#dff1f4"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette blue. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9333333333333333,
+          0.9725490196078431,
+          0.9803921568627451
+        ],
+        "alpha": 1,
+        "hex": "#eef8fa"
+      }
+    }
+  },
+  "nsw-aboriginal-purple": {
+    "50": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.08235294117647059,
+          0.023529411764705882,
+          0.07058823529411765
+        ],
+        "alpha": 1,
+        "hex": "#150612"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.1411764705882353,
+          0.06274509803921569,
+          0.12941176470588237
+        ],
+        "alpha": 1,
+        "hex": "#241021"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.20784313725490197,
+          0.10196078431372549,
+          0.19215686274509805
+        ],
+        "alpha": 1,
+        "hex": "#351a31"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Dusk Purple. Step 200: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.2784313725490196,
+          0.14901960784313725,
+          0.25882352941176473
+        ],
+        "alpha": 1,
+        "hex": "#472642"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 250: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.3568627450980392,
+          0.2,
+          0.3333333333333333
+        ],
+        "alpha": 1,
+        "hex": "#5b3355"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.43529411764705883,
+          0.2549019607843137,
+          0.4117647058823529
+        ],
+        "alpha": 1,
+        "hex": "#6f4169"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.5176470588235295,
+          0.30980392156862746,
+          0.49411764705882355
+        ],
+        "alpha": 1,
+        "hex": "#844f7e"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Lilli Pilli Purple. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6039215686274509,
+          0.3686274509803922,
+          0.5764705882352941
+        ],
+        "alpha": 1,
+        "hex": "#9a5e93"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 450: Interactive components.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6509803921568628,
+          0.42745098039215684,
+          0.6235294117647059
+        ],
+        "alpha": 1,
+        "hex": "#a66d9f"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple \u2014 part of the NSW Government Aboriginal colour palette, which reflects the history of Aboriginal people within NSW, rich in diversity of culture, tribes, landscapes and history. Step 500: mid-tone.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.6941176470588235,
+          0.48627450980392156,
+          0.6666666666666666
+        ],
+        "alpha": 1,
+        "hex": "#b17caa"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 550: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.7411764705882353,
+          0.5450980392156862,
+          0.7137254901960784
+        ],
+        "alpha": 1,
+        "hex": "#bd8bb6"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Spirit Lilac. Step 600: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.788235294117647,
+          0.6039215686274509,
+          0.7607843137254902
+        ],
+        "alpha": 1,
+        "hex": "#c99ac2"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 650: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8156862745098039,
+          0.6509803921568628,
+          0.788235294117647
+        ],
+        "alpha": 1,
+        "hex": "#d0a6c9"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 700: borders and icons.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8431372549019608,
+          0.7019607843137254,
+          0.8196078431372549
+        ],
+        "alpha": 1,
+        "hex": "#d7b3d1"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 750: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8666666666666667,
+          0.7490196078431373,
+          0.8470588235294118
+        ],
+        "alpha": 1,
+        "hex": "#ddbfd8"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette Bush Plum. Step 800: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.8941176470588236,
+          0.8,
+          0.8784313725490196
+        ],
+        "alpha": 1,
+        "hex": "#e4cce0"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9215686274509803,
+          0.8470588235294118,
+          0.9098039215686274
+        ],
+        "alpha": 1,
+        "hex": "#ebd8e8"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9490196078431372,
+          0.8980392156862745,
+          0.9411764705882353
+        ],
+        "alpha": 1,
+        "hex": "#f2e5f0"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "NSW Aboriginal palette purple. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "srgb",
+        "components": [
+          0.9803921568627451,
+          0.9450980392156862,
+          0.9725490196078431
+        ],
+        "alpha": 1,
+        "hex": "#faf1f8"
+      }
+    }
+  },
+  "white": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        1,
+        1,
+        1
+      ],
+      "alpha": 1,
+      "hex": "#ffffff"
+    },
+    "$description": "Pure white \u2014 page backgrounds, content surfaces, and text on dark or solid fills."
+  },
+  "black": {
+    "$type": "color",
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [
+        0,
+        0,
+        0
+      ],
+      "alpha": 1,
+      "hex": "#000000"
+    },
+    "$description": "Pure black \u2014 maximum-contrast text, overlays, and scrims."
+  }
+}
