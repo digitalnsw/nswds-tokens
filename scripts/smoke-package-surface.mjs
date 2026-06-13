@@ -38,6 +38,8 @@ const documentedSpecifiers = [
   '@nswds/tokens/css/colors/semantic/hex.dark-media.css',
   '@nswds/tokens/js/colors/global/hex.dark.js',
   '@nswds/tokens/tokens/global/color/hex.dark.json',
+  // 2a Tailwind preset
+  '@nswds/tokens/tailwind/preset.css',
 ]
 
 const run = (command, args, options = {}) => {

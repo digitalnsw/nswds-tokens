@@ -160,9 +160,18 @@ are the source of truth; `hex/rgb/hsl/oklch.json` are derived colour views.
 > **Requires Tailwind CSS v4.0 or later.** The Tailwind outputs use the CSS-first
 > [`@theme`](https://tailwindcss.com/docs/theme) at-rule, which does not exist in v3.
 
-Every category publishes a Tailwind `@theme` file. Colour files map onto `--color-*` and
-reference the CSS variables file (import both); non-colour categories carry direct values
-(one import each):
+**One-import preset** — covers global + semantic colours (hex) and every non-colour
+category in a single file:
+
+```css
+@import '@nswds/tokens/tailwind/preset.css';
+/* themes are opt-in (they define the same family names as one another): */
+@import '@nswds/tokens/tailwind/colors/themes/masterbrand/hex.css';
+```
+
+Or import per category. Every category publishes a Tailwind `@theme` file. Colour files
+map onto `--color-*` and reference the CSS variables file (import both); non-colour
+categories carry direct values (one import each):
 
 | Import                                       | Namespace                                                                | Utilities unlocked                                            |
 | -------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------- |
