@@ -1,3 +1,7 @@
+## 3.6.0 (2026-06-13)
+
+* feat(tokens): one-import Tailwind v4 preset (#108) ([81925f6](https://github.com/digitalnsw/nswds-tokens/commit/81925f6)), closes [#108](https://github.com/digitalnsw/nswds-tokens/issues/108)
+
 ## <small>3.5.1 (2026-06-12)</small>
 
 * fix(tokens): skip deleted-but-referenced variables in Figma export (#103) ([aae763b](https://github.com/digitalnsw/nswds-tokens/commit/aae763b)), closes [#103](https://github.com/digitalnsw/nswds-tokens/issues/103)
