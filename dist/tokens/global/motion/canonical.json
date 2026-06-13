@@ -1,0 +1,45 @@
+{
+  "duration": {
+    "fast": {
+      "$type": "duration",
+      "$description": "Fast — quick feedback on small elements (hovers, toggles, focus rings). DRAFT pending design review.",
+      "$value": {
+        "value": 150,
+        "unit": "ms"
+      }
+    },
+    "base": {
+      "$type": "duration",
+      "$description": "Base — the default duration for most UI transitions. DRAFT pending design review.",
+      "$value": {
+        "value": 250,
+        "unit": "ms"
+      }
+    },
+    "slow": {
+      "$type": "duration",
+      "$description": "Slow — larger surfaces entering or leaving (modals, drawers, sheets). DRAFT pending design review.",
+      "$value": {
+        "value": 400,
+        "unit": "ms"
+      }
+    }
+  },
+  "easing": {
+    "standard": {
+      "$type": "cubicBezier",
+      "$description": "Standard ease-in-out — the default curve for elements moving within the viewport. DRAFT pending design review.",
+      "$value": [0.4, 0, 0.2, 1]
+    },
+    "decelerate": {
+      "$type": "cubicBezier",
+      "$description": "Decelerate (ease-out) — elements entering the screen, fast then settling. DRAFT pending design review.",
+      "$value": [0, 0, 0.2, 1]
+    },
+    "accelerate": {
+      "$type": "cubicBezier",
+      "$description": "Accelerate (ease-in) — elements leaving the screen, building speed as they exit. DRAFT pending design review.",
+      "$value": [0.4, 0, 1, 1]
+    }
+  }
+}

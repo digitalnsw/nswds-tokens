@@ -81,6 +81,8 @@ import typographyCssGlobal from './css/typography/global.css'
 import typographyCssSemantic from './css/typography/semantic.css'
 import borderCssGlobal from './css/border/global.css'
 import shadowCssGlobal from './css/shadow/global.css'
+import motionCssGlobal from './css/motion/global.css'
+import zIndexCssGlobal from './css/z-index/global.css'
 
 import * as globalJsHex from './js/colors/global/hex.js'
 import * as globalJsHsl from './js/colors/global/hsl.js'
@@ -121,6 +123,8 @@ import * as typographyJsGlobal from './js/typography/global.js'
 import * as typographyJsSemantic from './js/typography/semantic.js'
 import * as borderJsGlobal from './js/border/global.js'
 import * as shadowJsGlobal from './js/shadow/global.js'
+import * as motionJsGlobal from './js/motion/global.js'
+import * as zIndexJsGlobal from './js/z-index/global.js'
 
 const globalJsonHex = require('./json/colors/global/hex.json')
 const globalJsonHsl = require('./json/colors/global/hsl.json')
@@ -161,6 +165,8 @@ const typographyJsonGlobal = require('./json/typography/global.json')
 const typographyJsonSemantic = require('./json/typography/semantic.json')
 const borderJsonGlobal = require('./json/border/global.json')
 const shadowJsonGlobal = require('./json/shadow/global.json')
+const motionJsonGlobal = require('./json/motion/global.json')
+const zIndexJsonGlobal = require('./json/z-index/global.json')
 
 import globalLessHex from './less/colors/global/hex.less'
 import globalLessHsl from './less/colors/global/hsl.less'
@@ -201,6 +207,8 @@ import typographyLessGlobal from './less/typography/global.less'
 import typographyLessSemantic from './less/typography/semantic.less'
 import borderLessGlobal from './less/border/global.less'
 import shadowLessGlobal from './less/shadow/global.less'
+import motionLessGlobal from './less/motion/global.less'
+import zIndexLessGlobal from './less/z-index/global.less'
 
 import globalScssHex from './scss/colors/global/hex.scss'
 import globalScssHsl from './scss/colors/global/hsl.scss'
@@ -241,6 +249,8 @@ import typographyScssGlobal from './scss/typography/global.scss'
 import typographyScssSemantic from './scss/typography/semantic.scss'
 import borderScssGlobal from './scss/border/global.scss'
 import shadowScssGlobal from './scss/shadow/global.scss'
+import motionScssGlobal from './scss/motion/global.scss'
+import zIndexScssGlobal from './scss/z-index/global.scss'
 
 import globalTailwindHex from './tailwind/colors/global/hex.css'
 import globalTailwindHsl from './tailwind/colors/global/hsl.css'
@@ -272,6 +282,8 @@ import breakpointsTailwindGlobal from './tailwind/breakpoints/global.css'
 import typographyTailwindGlobal from './tailwind/typography/global.css'
 import borderTailwindGlobal from './tailwind/border/global.css'
 import shadowTailwindGlobal from './tailwind/shadow/global.css'
+import motionTailwindGlobal from './tailwind/motion/global.css'
+import zIndexTailwindGlobal from './tailwind/z-index/global.css'
 
 import * as globalTsHex from './ts/colors/global/hex.js'
 import * as globalTsHsl from './ts/colors/global/hsl.js'
@@ -312,6 +324,8 @@ import * as typographyTsGlobal from './ts/typography/global.js'
 import * as typographyTsSemantic from './ts/typography/semantic.js'
 import * as borderTsGlobal from './ts/border/global.js'
 import * as shadowTsGlobal from './ts/shadow/global.js'
+import * as motionTsGlobal from './ts/motion/global.js'
+import * as zIndexTsGlobal from './ts/z-index/global.js'
 
 export const tokens: {
   colors: {
@@ -339,6 +353,8 @@ export const tokens: {
     typography: { global: string; semantic: string };
     border: { global: string };
     shadow: { global: string };
+    motion: { global: string };
+    zIndex: { global: string };
   };
   js: {
     global: { hex: typeof globalJsHex, hsl: typeof globalJsHsl, oklch: typeof globalJsOklch, rgb: typeof globalJsRgb, dark: { hex: typeof globalJsHexDark, hsl: typeof globalJsHslDark, oklch: typeof globalJsOklchDark, rgb: typeof globalJsRgbDark } };
@@ -355,6 +371,8 @@ export const tokens: {
     typography: { global: typeof typographyJsGlobal; semantic: typeof typographyJsSemantic };
     border: { global: typeof borderJsGlobal };
     shadow: { global: typeof shadowJsGlobal };
+    motion: { global: typeof motionJsGlobal };
+    zIndex: { global: typeof zIndexJsGlobal };
   };
   json: {
     global: { hex: any, hsl: any, oklch: any, rgb: any, dark: { hex: any, hsl: any, oklch: any, rgb: any } };
@@ -371,6 +389,8 @@ export const tokens: {
     typography: { global: any; semantic: any };
     border: { global: any };
     shadow: { global: any };
+    motion: { global: any };
+    zIndex: { global: any };
   };
   less: {
     global: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
@@ -387,6 +407,8 @@ export const tokens: {
     typography: { global: string; semantic: string };
     border: { global: string };
     shadow: { global: string };
+    motion: { global: string };
+    zIndex: { global: string };
   };
   scss: {
     global: { hex: string, hsl: string, oklch: string, rgb: string, dark: { hex: string, hsl: string, oklch: string, rgb: string } };
@@ -403,6 +425,8 @@ export const tokens: {
     typography: { global: string; semantic: string };
     border: { global: string };
     shadow: { global: string };
+    motion: { global: string };
+    zIndex: { global: string };
   };
   tailwind: {
     global: { hex: string, hsl: string, oklch: string, rgb: string };
@@ -419,6 +443,8 @@ export const tokens: {
     typography: { global: string };
     border: { global: string };
     shadow: { global: string };
+    motion: { global: string };
+    zIndex: { global: string };
   };
   ts: {
     global: { hex: typeof globalTsHex, hsl: typeof globalTsHsl, oklch: typeof globalTsOklch, rgb: typeof globalTsRgb, dark: { hex: typeof globalTsHexDark, hsl: typeof globalTsHslDark, oklch: typeof globalTsOklchDark, rgb: typeof globalTsRgbDark } };
@@ -435,6 +461,8 @@ export const tokens: {
     typography: { global: typeof typographyTsGlobal; semantic: typeof typographyTsSemantic };
     border: { global: typeof borderTsGlobal };
     shadow: { global: typeof shadowTsGlobal };
+    motion: { global: typeof motionTsGlobal };
+    zIndex: { global: typeof zIndexTsGlobal };
   };
 } = {
   colors: {
@@ -462,6 +490,8 @@ export const tokens: {
     typography: { global: typographyCssGlobal, semantic: typographyCssSemantic },
     border: { global: borderCssGlobal },
     shadow: { global: shadowCssGlobal },
+    motion: { global: motionCssGlobal },
+    zIndex: { global: zIndexCssGlobal },
   },
   js: {
     global: { hex: globalJsHex, hsl: globalJsHsl, oklch: globalJsOklch, rgb: globalJsRgb, dark: { hex: globalJsHexDark, hsl: globalJsHslDark, oklch: globalJsOklchDark, rgb: globalJsRgbDark } },
@@ -478,6 +508,8 @@ export const tokens: {
     typography: { global: typographyJsGlobal, semantic: typographyJsSemantic },
     border: { global: borderJsGlobal },
     shadow: { global: shadowJsGlobal },
+    motion: { global: motionJsGlobal },
+    zIndex: { global: zIndexJsGlobal },
   },
   json: {
     global: { hex: globalJsonHex, hsl: globalJsonHsl, oklch: globalJsonOklch, rgb: globalJsonRgb, dark: { hex: globalJsonHexDark, hsl: globalJsonHslDark, oklch: globalJsonOklchDark, rgb: globalJsonRgbDark } },
@@ -494,6 +526,8 @@ export const tokens: {
     typography: { global: typographyJsonGlobal, semantic: typographyJsonSemantic },
     border: { global: borderJsonGlobal },
     shadow: { global: shadowJsonGlobal },
+    motion: { global: motionJsonGlobal },
+    zIndex: { global: zIndexJsonGlobal },
   },
   less: {
     global: { hex: globalLessHex, hsl: globalLessHsl, oklch: globalLessOklch, rgb: globalLessRgb, dark: { hex: globalLessHexDark, hsl: globalLessHslDark, oklch: globalLessOklchDark, rgb: globalLessRgbDark } },
@@ -510,6 +544,8 @@ export const tokens: {
     typography: { global: typographyLessGlobal, semantic: typographyLessSemantic },
     border: { global: borderLessGlobal },
     shadow: { global: shadowLessGlobal },
+    motion: { global: motionLessGlobal },
+    zIndex: { global: zIndexLessGlobal },
   },
   scss: {
     global: { hex: globalScssHex, hsl: globalScssHsl, oklch: globalScssOklch, rgb: globalScssRgb, dark: { hex: globalScssHexDark, hsl: globalScssHslDark, oklch: globalScssOklchDark, rgb: globalScssRgbDark } },
@@ -526,6 +562,8 @@ export const tokens: {
     typography: { global: typographyScssGlobal, semantic: typographyScssSemantic },
     border: { global: borderScssGlobal },
     shadow: { global: shadowScssGlobal },
+    motion: { global: motionScssGlobal },
+    zIndex: { global: zIndexScssGlobal },
   },
   tailwind: {
     global: { hex: globalTailwindHex, hsl: globalTailwindHsl, oklch: globalTailwindOklch, rgb: globalTailwindRgb },
@@ -542,6 +580,8 @@ export const tokens: {
     typography: { global: typographyTailwindGlobal },
     border: { global: borderTailwindGlobal },
     shadow: { global: shadowTailwindGlobal },
+    motion: { global: motionTailwindGlobal },
+    zIndex: { global: zIndexTailwindGlobal },
   },
   ts: {
     global: { hex: globalTsHex, hsl: globalTsHsl, oklch: globalTsOklch, rgb: globalTsRgb, dark: { hex: globalTsHexDark, hsl: globalTsHslDark, oklch: globalTsOklchDark, rgb: globalTsRgbDark } },
@@ -558,6 +598,8 @@ export const tokens: {
     typography: { global: typographyTsGlobal, semantic: typographyTsSemantic },
     border: { global: borderTsGlobal },
     shadow: { global: shadowTsGlobal },
+    motion: { global: motionTsGlobal },
+    zIndex: { global: zIndexTsGlobal },
   },
 }
 

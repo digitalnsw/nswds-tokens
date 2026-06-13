@@ -191,6 +191,24 @@ const checkDimensionShape = (label, path, leaf) => {
     errors.push(`${label} ${path}: dimension unit "${v.unit}" (DTCG allows "px" or "rem")`)
 }
 
+// DTCG motion conformance (roadmap 2c): duration is { value: number, unit: "ms"|"s" };
+// cubicBezier is an array of four numbers [x1, y1, x2, y2].
+const checkMotionShapes = (label, path, leaf) => {
+  if (aliasTarget(leaf)) return
+  if (leaf.$type === 'duration') {
+    const v = leaf.$value
+    if (!v || typeof v !== 'object' || typeof v.value !== 'number')
+      errors.push(`${label} ${path}: duration $value must be { value: number, unit }`)
+    else if (!['ms', 's'].includes(v.unit))
+      errors.push(`${label} ${path}: duration unit "${v.unit}" (DTCG allows "ms" or "s")`)
+  }
+  if (leaf.$type === 'cubicBezier') {
+    const v = leaf.$value
+    if (!Array.isArray(v) || v.length !== 4 || !v.every((n) => typeof n === 'number'))
+      errors.push(`${label} ${path}: cubicBezier $value must be an array of four numbers`)
+  }
+}
+
 // DTCG typography primitive conformance (Phase 4b).
 const checkTypographyShapes = (label, path, leaf) => {
   if (aliasTarget(leaf)) return
@@ -314,6 +332,7 @@ const checkShadowComposite = (label, path, leaf) => {
       if (!('$value' in leaf)) errors.push(`${label} ${tokenPath}: missing $value`)
       if (!('$type' in leaf)) warnings.push(`${label} ${tokenPath}: missing $type`)
       checkDimensionShape(label, tokenPath, leaf)
+      checkMotionShapes(label, tokenPath, leaf)
       checkTypographyShapes(label, tokenPath, leaf)
       if (leaf.$type === 'color') checkColorShape(label, tokenPath, leaf)
       pendingCompositeAliases.push(...checkTypographyComposite(label, tokenPath, leaf))
