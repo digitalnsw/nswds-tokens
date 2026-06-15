@@ -1,3 +1,7 @@
+## 3.9.0 (2026-06-15)
+
+* feat(tokens): motion brief — expanded scale, transition composites, reduced motion (approved) (#111) ([92e0e87](https://github.com/digitalnsw/nswds-tokens/commit/92e0e87)), closes [#111](https://github.com/digitalnsw/nswds-tokens/issues/111)
+
 ## <small>3.8.1 (2026-06-15)</small>
 
 * chore(deps): npm audit fix — upgrade tsx 4.21→4.22.4, dedupe dev deps ([47b6302](https://github.com/digitalnsw/nswds-tokens/commit/47b6302))
