@@ -1,3 +1,7 @@
+## 3.8.0 (2026-06-15)
+
+* feat(tokens): motion and z-index token categories (DRAFT values) (#109) ([fd1c8ff](https://github.com/digitalnsw/nswds-tokens/commit/fd1c8ff)), closes [#109](https://github.com/digitalnsw/nswds-tokens/issues/109)
+
 ## 3.7.0 (2026-06-15)
 
 * feat(tokens): populate Figma Dev-Mode codeSyntax with the CSS variable (#110) ([8fec83b](https://github.com/digitalnsw/nswds-tokens/commit/8fec83b)), closes [#110](https://github.com/digitalnsw/nswds-tokens/issues/110)
