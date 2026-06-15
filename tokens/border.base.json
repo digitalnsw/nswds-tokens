@@ -13,7 +13,9 @@
           "scopes": [
             "STROKE_FLOAT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--border-width-thin)"
+          }
         }
       }
     },
@@ -30,7 +32,9 @@
           "scopes": [
             "STROKE_FLOAT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--border-width-thick)"
+          }
         }
       }
     },
@@ -47,7 +51,9 @@
           "scopes": [
             "STROKE_FLOAT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--border-width-thicker)"
+          }
         }
       }
     },
@@ -61,7 +67,9 @@
           "scopes": [
             "STROKE_FLOAT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--border-width-default)"
+          }
         }
       }
     }

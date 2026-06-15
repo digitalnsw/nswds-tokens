@@ -13,7 +13,9 @@
           "scopes": [
             "WIDTH_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--breakpoint-xs)"
+          }
         }
       }
     },
@@ -30,7 +32,9 @@
           "scopes": [
             "WIDTH_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--breakpoint-sm)"
+          }
         }
       }
     },
@@ -47,7 +51,9 @@
           "scopes": [
             "WIDTH_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--breakpoint-md)"
+          }
         }
       }
     },
@@ -64,7 +70,9 @@
           "scopes": [
             "WIDTH_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--breakpoint-lg)"
+          }
         }
       }
     },
@@ -81,7 +89,9 @@
           "scopes": [
             "WIDTH_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--breakpoint-xl)"
+          }
         }
       }
     }

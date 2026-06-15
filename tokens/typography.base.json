@@ -21,7 +21,9 @@
           "scopes": [
             "FONT_FAMILY"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-family-sans)"
+          }
         }
       }
     },
@@ -46,7 +48,9 @@
           "scopes": [
             "FONT_FAMILY"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-family-display)"
+          }
         }
       }
     },
@@ -71,7 +75,9 @@
           "scopes": [
             "FONT_FAMILY"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-family-system)"
+          }
         }
       }
     },
@@ -94,7 +100,9 @@
           "scopes": [
             "FONT_FAMILY"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-family-mono)"
+          }
         }
       }
     }
@@ -113,7 +121,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-12)"
+          }
         }
       }
     },
@@ -130,7 +140,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-14)"
+          }
         }
       }
     },
@@ -147,7 +159,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-16)"
+          }
         }
       }
     },
@@ -164,7 +178,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-18)"
+          }
         }
       }
     },
@@ -181,7 +197,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-20)"
+          }
         }
       }
     },
@@ -198,7 +216,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-22)"
+          }
         }
       }
     },
@@ -215,7 +235,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-24)"
+          }
         }
       }
     },
@@ -232,7 +254,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-30)"
+          }
         }
       }
     },
@@ -249,7 +273,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-36)"
+          }
         }
       }
     },
@@ -266,7 +292,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-48)"
+          }
         }
       }
     },
@@ -283,7 +311,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-56)"
+          }
         }
       }
     },
@@ -300,7 +330,9 @@
           "scopes": [
             "FONT_SIZE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-size-64)"
+          }
         }
       }
     }
@@ -316,7 +348,9 @@
           "scopes": [
             "FONT_STYLE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-weight-light)"
+          }
         }
       }
     },
@@ -330,7 +364,9 @@
           "scopes": [
             "FONT_STYLE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-weight-regular)"
+          }
         }
       }
     },
@@ -344,7 +380,9 @@
           "scopes": [
             "FONT_STYLE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-weight-medium)"
+          }
         }
       }
     },
@@ -358,7 +396,9 @@
           "scopes": [
             "FONT_STYLE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-weight-semibold)"
+          }
         }
       }
     },
@@ -372,7 +412,9 @@
           "scopes": [
             "FONT_STYLE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-weight-bold)"
+          }
         }
       }
     },
@@ -386,7 +428,9 @@
           "scopes": [
             "FONT_STYLE"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--font-weight-extrabold)"
+          }
         }
       }
     }
@@ -402,7 +446,9 @@
           "scopes": [
             "LINE_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--line-height-none)"
+          }
         }
       }
     },
@@ -416,7 +462,9 @@
           "scopes": [
             "LINE_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--line-height-tight)"
+          }
         }
       }
     },
@@ -430,7 +478,9 @@
           "scopes": [
             "LINE_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--line-height-snug)"
+          }
         }
       }
     },
@@ -444,7 +494,9 @@
           "scopes": [
             "LINE_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--line-height-base)"
+          }
         }
       }
     },
@@ -458,7 +510,9 @@
           "scopes": [
             "LINE_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--line-height-relaxed)"
+          }
         }
       }
     },
@@ -472,7 +526,9 @@
           "scopes": [
             "LINE_HEIGHT"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--line-height-loose)"
+          }
         }
       }
     }
@@ -488,7 +544,9 @@
           "scopes": [
             "LETTER_SPACING"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--letter-spacing-tight)"
+          }
         }
       }
     },
@@ -502,7 +560,9 @@
           "scopes": [
             "LETTER_SPACING"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--letter-spacing-normal)"
+          }
         }
       }
     },
@@ -516,7 +576,9 @@
           "scopes": [
             "LETTER_SPACING"
           ],
-          "codeSyntax": {}
+          "codeSyntax": {
+            "WEB": "var(--letter-spacing-wide)"
+          }
         }
       }
     }

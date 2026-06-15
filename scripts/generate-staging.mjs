@@ -72,12 +72,30 @@ const generate = ({ staging, canonical, extensionsFrom }) => {
     ...Object.keys(extensionsSource).filter((f) => f in source || extras.includes(f)),
     ...Object.keys(source).filter((f) => !(f in extensionsSource)),
   ]
-  const stagingToken = (tok, prior) => ({
-    $type: tok.$type,
-    $value: tok.$value,
-    $description: tok.$description ?? '',
-    ...(prior?.$extensions ? { $extensions: prior.$extensions } : {}),
-  })
+  // Figma Dev-Mode codeSyntax (roadmap 2b): the WEB platform shows the published CSS
+  // custom property for each variable, so a designer copies `var(--nsw-blue-500)` straight
+  // from Dev Mode. Every collection's CSS var is `--<family>-<step>` (the token path
+  // kebab-joined) — the same name the css/* outputs emit — so the rule is collection-
+  // agnostic. codeSyntax is Figma-owned per-variable metadata (shared across modes), set
+  // here next to the preserved scopes/hiddenFromPublishing extensions.
+  const webCodeSyntax = (pathSegments) => `var(--${pathSegments.join('-')})`
+  const stagingToken = (tok, prior, pathSegments) => {
+    const figma = prior?.$extensions?.['com.figma']
+    const extensions = figma
+      ? {
+          'com.figma': {
+            ...figma,
+            codeSyntax: { ...figma.codeSyntax, WEB: webCodeSyntax(pathSegments) },
+          },
+        }
+      : undefined
+    return {
+      $type: tok.$type,
+      $value: tok.$value,
+      $description: tok.$description ?? '',
+      ...(extensions ? { $extensions: extensions } : {}),
+    }
+  }
   // Flat token (no step ramp): `white`/`black` are single variables, not families.
   const isToken = (node) => node && typeof node === 'object' && '$value' in node
   for (const family of families) {
@@ -86,12 +104,15 @@ const generate = ({ staging, canonical, extensionsFrom }) => {
       continue
     }
     if (isToken(source[family])) {
-      out[family] = stagingToken(source[family], extensionsSource[family])
+      out[family] = stagingToken(source[family], extensionsSource[family], [family])
       continue
     }
     out[family] = {}
     for (const step of Object.keys(source[family])) {
-      out[family][step] = stagingToken(source[family][step], extensionsSource[family]?.[step])
+      out[family][step] = stagingToken(source[family][step], extensionsSource[family]?.[step], [
+        family,
+        step,
+      ])
     }
   }
   return `${JSON.stringify(out, null, 2)}\n`
