@@ -1,3 +1,8 @@
+## <small>3.8.1 (2026-06-15)</small>
+
+* chore(deps): npm audit fix — upgrade tsx 4.21→4.22.4, dedupe dev deps ([47b6302](https://github.com/digitalnsw/nswds-tokens/commit/47b6302))
+* fix(deps): bump form-data 4.0.5 → 4.0.6 to patch CRLF injection (CVE-2026-12143) ([466aab5](https://github.com/digitalnsw/nswds-tokens/commit/466aab5))
+
 ## 3.8.0 (2026-06-15)
 
 * feat(tokens): motion and z-index token categories (DRAFT values) (#109) ([fd1c8ff](https://github.com/digitalnsw/nswds-tokens/commit/fd1c8ff)), closes [#109](https://github.com/digitalnsw/nswds-tokens/issues/109)
