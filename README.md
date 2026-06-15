@@ -24,7 +24,7 @@ The published package ships:
   **shadows** (elevation ramp + inset rings), and **typography** (font stacks, sizes,
   weights, line-heights, tracking) — with semantic typography styles (`heading-1`…`code`)
 - **Motion** (durations, cubic-bezier easings, and intent-paired transition composites)
-  and a **z-index** scale, with a built-in reduced-motion override
+  with a built-in reduced-motion override, and a **z-index** scale
 - DTCG 2025.10-compliant raw token JSON under `@nswds/tokens/tokens/*`
 - Tailwind CSS v4 `@theme` files for every category
 - Root JS API for consuming token collections directly

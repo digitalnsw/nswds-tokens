@@ -47,9 +47,12 @@ for (const config of configs) {
 // names can never drift from what Style Dictionary emits. Opacity is untouched: content
 // still appears/disappears, just without travel.
 const motionCanonical = JSON.parse(readFileSync('tokens/global/motion/canonical.json', 'utf8'))
-const reducedDurationVars = Object.entries(motionCanonical.duration)
-  .filter(([, token]) => token.$value.value !== 0)
-  .map(([step]) => `    --duration-${step}: 0.01ms;`)
+const reducedDurationVars = Object.keys(motionCanonical.duration)
+  // `none` is the only 0ms token (the zero baseline); every other duration is overridden.
+  // Filtering by key avoids assuming a `{value}` $value shape — durations may legitimately
+  // become aliases (string $value), which the token validator allows.
+  .filter((step) => step !== 'none')
+  .map((step) => `    --duration-${step}: 0.01ms;`)
   .join('\n')
 const reducedMotionBlock = `\n@media (prefers-reduced-motion: reduce) {\n  :root {\n${reducedDurationVars}\n  }\n}\n`
 const motionCssPath = `${SRC}/css/motion/global.css`
