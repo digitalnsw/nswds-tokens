@@ -43,8 +43,11 @@ const documentedSpecifiers = [
   // 2c motion + z-index
   '@nswds/tokens/css/motion/global.css',
   '@nswds/tokens/tailwind/motion/global.css',
-  '@nswds/tokens/js/z-index/global.js',
   '@nswds/tokens/tokens/global/motion/canonical.json',
+  '@nswds/tokens/css/z-index/global.css',
+  '@nswds/tokens/tailwind/z-index/global.css',
+  '@nswds/tokens/js/z-index/global.js',
+  '@nswds/tokens/tokens/global/z-index/canonical.json',
 ]
 
 const run = (command, args, options = {}) => {
