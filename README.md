@@ -95,10 +95,7 @@ Each category publishes per-format files named by layer:
 The same values are available as SCSS/LESS variables and JS/JSON modules, e.g.
 `@nswds/tokens/js/radius/global.js` exports `radius = { none: '0px', sm: '4px', … }`.
 
-> ⚠️ **Motion values carry a machine-readable `status: draft`** under
-> `$extensions['au.gov.nsw']` (in the raw `tokens/*` DTCG) pending final sign-off — filter
-> or strip on that, not on description text. The scale and curves follow the NSW motion
-> brief; the z-index scale is confirmed.
+Motion follows the NSW motion brief; the z-index scale is confirmed.
 
 ```css
 @import '@nswds/tokens/css/motion/global.css'; /* --duration-*, --easing-*, --transition-* */

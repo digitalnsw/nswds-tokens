@@ -3,64 +3,54 @@
     "none": {
       "$type": "duration",
       "$description": "No motion. Used as the reduced-motion target and the default transition delay.",
-      "$value": { "value": 0, "unit": "ms" },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": { "value": 0, "unit": "ms" }
     },
     "instant": {
       "$type": "duration",
       "$description": "Micro-feedback on small elements — hover, focus rings, toggles, small fades.",
-      "$value": { "value": 100, "unit": "ms" },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": { "value": 100, "unit": "ms" }
     },
     "fast": {
       "$type": "duration",
       "$description": "Quick transitions over short distances — dropdowns, popovers, exits.",
-      "$value": { "value": 150, "unit": "ms" },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": { "value": 150, "unit": "ms" }
     },
     "base": {
       "$type": "duration",
       "$description": "Default duration for most UI transitions.",
-      "$value": { "value": 250, "unit": "ms" },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": { "value": 250, "unit": "ms" }
     },
     "slow": {
       "$type": "duration",
       "$description": "Larger surfaces entering or leaving — modals, drawers, sheets.",
-      "$value": { "value": 400, "unit": "ms" },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": { "value": 400, "unit": "ms" }
     },
     "slower": {
       "$type": "duration",
       "$description": "Full-screen transitions and background dimming behind overlays.",
-      "$value": { "value": 600, "unit": "ms" },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": { "value": 600, "unit": "ms" }
     }
   },
   "easing": {
     "standard": {
       "$type": "cubicBezier",
       "$description": "Standard ease-in-out for elements moving within the viewport, visible from start to end.",
-      "$value": [0.4, 0, 0.2, 1],
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": [0.4, 0, 0.2, 1]
     },
     "decelerate": {
       "$type": "cubicBezier",
       "$description": "Entrance (ease-out) for elements appearing in view, fast then settling. Also used for surfaces that leave but stay nearby, ready to return (e.g. a side panel).",
-      "$value": [0, 0, 0.2, 1],
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": [0, 0, 0.2, 1]
     },
     "accelerate": {
       "$type": "cubicBezier",
       "$description": "Exit (ease-in) for elements leaving view permanently, building speed as they go.",
-      "$value": [0.4, 0, 1, 1],
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": [0.4, 0, 1, 1]
     },
     "linear": {
       "$type": "cubicBezier",
       "$description": "No easing. For continuous or progress-driven motion — spinners, progress bars, rotation.",
-      "$value": [0, 0, 1, 1],
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      "$value": [0, 0, 1, 1]
     }
   },
   "transition": {
@@ -71,8 +61,7 @@
         "duration": "{duration.instant}",
         "delay": "{duration.none}",
         "timingFunction": "{easing.standard}"
-      },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      }
     },
     "enter": {
       "$type": "transition",
@@ -81,8 +70,7 @@
         "duration": "{duration.base}",
         "delay": "{duration.none}",
         "timingFunction": "{easing.decelerate}"
-      },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      }
     },
     "exit": {
       "$type": "transition",
@@ -91,8 +79,7 @@
         "duration": "{duration.fast}",
         "delay": "{duration.none}",
         "timingFunction": "{easing.accelerate}"
-      },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      }
     },
     "overlay": {
       "$type": "transition",
@@ -101,8 +88,7 @@
         "duration": "{duration.slow}",
         "delay": "{duration.none}",
         "timingFunction": "{easing.decelerate}"
-      },
-      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+      }
     }
   }
 }
