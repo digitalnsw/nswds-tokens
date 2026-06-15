@@ -1,12 +1,22 @@
 {
   "duration": {
+    "duration-none": "0ms",
+    "duration-instant": "100ms",
     "duration-fast": "150ms",
     "duration-base": "250ms",
-    "duration-slow": "400ms"
+    "duration-slow": "400ms",
+    "duration-slower": "600ms"
   },
   "easing": {
     "easing-standard": "cubic-bezier(0.4, 0, 0.2, 1)",
     "easing-decelerate": "cubic-bezier(0, 0, 0.2, 1)",
-    "easing-accelerate": "cubic-bezier(0.4, 0, 1, 1)"
+    "easing-accelerate": "cubic-bezier(0.4, 0, 1, 1)",
+    "easing-linear": "cubic-bezier(0, 0, 1, 1)"
+  },
+  "transition": {
+    "transition-hover": "100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms",
+    "transition-enter": "250ms cubic-bezier(0, 0, 0.2, 1) 0ms",
+    "transition-exit": "150ms cubic-bezier(0.4, 0, 1, 1) 0ms",
+    "transition-overlay": "400ms cubic-bezier(0, 0, 0.2, 1) 0ms"
   }
 }

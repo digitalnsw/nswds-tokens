@@ -2,42 +2,42 @@
   "z-index": {
     "base": {
       "$type": "number",
-      "$description": "Base stacking level (0) — default in-flow content. DRAFT pending design review.",
+      "$description": "Base stacking level (0) — default in-flow content.",
       "$value": 0
     },
     "dropdown": {
       "$type": "number",
-      "$description": "Dropdown menus and select popups. DRAFT pending design review.",
+      "$description": "Dropdown menus and select popups.",
       "$value": 1000
     },
     "sticky": {
       "$type": "number",
-      "$description": "Sticky elements that pin on scroll (headers, toolbars). DRAFT pending design review.",
+      "$description": "Sticky elements that pin on scroll (headers, toolbars).",
       "$value": 1100
     },
     "overlay": {
       "$type": "number",
-      "$description": "Full-screen overlay scrims sitting behind modal content. DRAFT pending design review.",
+      "$description": "Full-screen overlay scrims sitting behind modal content.",
       "$value": 1200
     },
     "modal": {
       "$type": "number",
-      "$description": "Modal dialogs and side sheets. DRAFT pending design review.",
+      "$description": "Modal dialogs and side sheets.",
       "$value": 1300
     },
     "popover": {
       "$type": "number",
-      "$description": "Popovers anchored to a trigger, above modals. DRAFT pending design review.",
+      "$description": "Popovers anchored to a trigger, above modals.",
       "$value": 1400
     },
     "toast": {
       "$type": "number",
-      "$description": "Toast and snackbar notifications. DRAFT pending design review.",
+      "$description": "Toast and snackbar notifications.",
       "$value": 1500
     },
     "tooltip": {
       "$type": "number",
-      "$description": "Tooltips — the top-most interactive layer. DRAFT pending design review.",
+      "$description": "Tooltips — the top-most interactive layer.",
       "$value": 1600
     }
   }
