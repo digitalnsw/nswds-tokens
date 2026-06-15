@@ -1,3 +1,7 @@
+## 3.7.0 (2026-06-15)
+
+* feat(tokens): populate Figma Dev-Mode codeSyntax with the CSS variable (#110) ([8fec83b](https://github.com/digitalnsw/nswds-tokens/commit/8fec83b)), closes [#110](https://github.com/digitalnsw/nswds-tokens/issues/110)
+
 ## 3.6.0 (2026-06-13)
 
 * feat(tokens): one-import Tailwind v4 preset (#108) ([81925f6](https://github.com/digitalnsw/nswds-tokens/commit/81925f6)), closes [#108](https://github.com/digitalnsw/nswds-tokens/issues/108)
