@@ -5720,18 +5720,28 @@ declare namespace shadowJsGlobal {
 }
 
 declare const duration$1: {
+  none: string
+  instant: string
   fast: string
   base: string
   slow: string
+  slower: string
 }
 declare const easing$1: {
   standard: string
   decelerate: string
   accelerate: string
+  linear: string
+}
+declare const transition$1: {
+  hover: string
+  enter: string
+  exit: string
+  overlay: string
 }
 
 declare namespace motionJsGlobal {
-  export { duration$1 as duration, easing$1 as easing };
+  export { duration$1 as duration, easing$1 as easing, transition$1 as transition };
 }
 
 declare const zIndex$1: {
@@ -11529,20 +11539,31 @@ declare namespace shadowTsGlobal {
 }
 
 declare const duration: {
+    none: string;
+    instant: string;
     fast: string;
     base: string;
     slow: string;
+    slower: string;
 };
 declare const easing: {
     standard: string;
     decelerate: string;
     accelerate: string;
+    linear: string;
+};
+declare const transition: {
+    hover: string;
+    enter: string;
+    exit: string;
+    overlay: string;
 };
 
 declare const motionTsGlobal_duration: typeof duration;
 declare const motionTsGlobal_easing: typeof easing;
+declare const motionTsGlobal_transition: typeof transition;
 declare namespace motionTsGlobal {
-  export { motionTsGlobal_duration as duration, motionTsGlobal_easing as easing };
+  export { motionTsGlobal_duration as duration, motionTsGlobal_easing as easing, motionTsGlobal_transition as transition };
 }
 
 declare const zIndex: {

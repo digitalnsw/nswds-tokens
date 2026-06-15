@@ -1,45 +1,108 @@
 {
   "duration": {
+    "none": {
+      "$type": "duration",
+      "$description": "No motion. Used as the reduced-motion target and the default transition delay.",
+      "$value": { "value": 0, "unit": "ms" },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    },
+    "instant": {
+      "$type": "duration",
+      "$description": "Micro-feedback on small elements — hover, focus rings, toggles, small fades.",
+      "$value": { "value": 100, "unit": "ms" },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    },
     "fast": {
       "$type": "duration",
-      "$description": "Fast — quick feedback on small elements (hovers, toggles, focus rings). DRAFT pending design review.",
-      "$value": {
-        "value": 150,
-        "unit": "ms"
-      }
+      "$description": "Quick transitions over short distances — dropdowns, popovers, exits.",
+      "$value": { "value": 150, "unit": "ms" },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
     },
     "base": {
       "$type": "duration",
-      "$description": "Base — the default duration for most UI transitions. DRAFT pending design review.",
-      "$value": {
-        "value": 250,
-        "unit": "ms"
-      }
+      "$description": "Default duration for most UI transitions.",
+      "$value": { "value": 250, "unit": "ms" },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
     },
     "slow": {
       "$type": "duration",
-      "$description": "Slow — larger surfaces entering or leaving (modals, drawers, sheets). DRAFT pending design review.",
-      "$value": {
-        "value": 400,
-        "unit": "ms"
-      }
+      "$description": "Larger surfaces entering or leaving — modals, drawers, sheets.",
+      "$value": { "value": 400, "unit": "ms" },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    },
+    "slower": {
+      "$type": "duration",
+      "$description": "Full-screen transitions and background dimming behind overlays.",
+      "$value": { "value": 600, "unit": "ms" },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
     }
   },
   "easing": {
     "standard": {
       "$type": "cubicBezier",
-      "$description": "Standard ease-in-out — the default curve for elements moving within the viewport. DRAFT pending design review.",
-      "$value": [0.4, 0, 0.2, 1]
+      "$description": "Standard ease-in-out for elements moving within the viewport, visible from start to end.",
+      "$value": [0.4, 0, 0.2, 1],
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
     },
     "decelerate": {
       "$type": "cubicBezier",
-      "$description": "Decelerate (ease-out) — elements entering the screen, fast then settling. DRAFT pending design review.",
-      "$value": [0, 0, 0.2, 1]
+      "$description": "Entrance (ease-out) for elements appearing in view, fast then settling. Also used for surfaces that leave but stay nearby, ready to return (e.g. a side panel).",
+      "$value": [0, 0, 0.2, 1],
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
     },
     "accelerate": {
       "$type": "cubicBezier",
-      "$description": "Accelerate (ease-in) — elements leaving the screen, building speed as they exit. DRAFT pending design review.",
-      "$value": [0.4, 0, 1, 1]
+      "$description": "Exit (ease-in) for elements leaving view permanently, building speed as they go.",
+      "$value": [0.4, 0, 1, 1],
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    },
+    "linear": {
+      "$type": "cubicBezier",
+      "$description": "No easing. For continuous or progress-driven motion — spinners, progress bars, rotation.",
+      "$value": [0, 0, 1, 1],
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    }
+  },
+  "transition": {
+    "hover": {
+      "$type": "transition",
+      "$description": "Hover, focus and toggle feedback on interactive elements.",
+      "$value": {
+        "duration": "{duration.instant}",
+        "delay": "{duration.none}",
+        "timingFunction": "{easing.standard}"
+      },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    },
+    "enter": {
+      "$type": "transition",
+      "$description": "Elements entering the view — menus, popovers, tooltips.",
+      "$value": {
+        "duration": "{duration.base}",
+        "delay": "{duration.none}",
+        "timingFunction": "{easing.decelerate}"
+      },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    },
+    "exit": {
+      "$type": "transition",
+      "$description": "Elements leaving the view permanently.",
+      "$value": {
+        "duration": "{duration.fast}",
+        "delay": "{duration.none}",
+        "timingFunction": "{easing.accelerate}"
+      },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
+    },
+    "overlay": {
+      "$type": "transition",
+      "$description": "Modals, drawers and sheets entering over a dimmed background.",
+      "$value": {
+        "duration": "{duration.slow}",
+        "delay": "{duration.none}",
+        "timingFunction": "{easing.decelerate}"
+      },
+      "$extensions": { "au.gov.nsw": { "status": "draft" } }
     }
   }
 }

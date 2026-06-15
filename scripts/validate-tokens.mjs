@@ -269,6 +269,40 @@ const COMPOSITE_FIELD_TYPES = {
   fontWeight: 'fontWeight',
   letterSpacing: 'number',
   lineHeight: 'number',
+  // transition composite (motion brief): duration/delay -> duration, timingFunction ->
+  // cubicBezier.
+  duration: 'duration',
+  delay: 'duration',
+  timingFunction: 'cubicBezier',
+}
+
+// DTCG transition composite (motion brief): all three sub-values present and aliasing the
+// motion primitives (never literals), mirroring the typography-composite contract.
+const TRANSITION_FIELDS = ['duration', 'delay', 'timingFunction']
+const checkTransitionComposite = (label, path, leaf) => {
+  if (leaf.$type !== 'transition') return []
+  const v = leaf.$value
+  if (!v || typeof v !== 'object') {
+    errors.push(`${label} ${path}: transition $value must be an object of sub-values`)
+    return []
+  }
+  const pending = []
+  for (const field of TRANSITION_FIELDS) {
+    const sub = v[field]
+    if (sub === undefined) {
+      errors.push(`${label} ${path}: transition composite is missing "${field}"`)
+      continue
+    }
+    const target = typeof sub === 'string' ? (sub.match(ALIAS_PATTERN)?.[1] ?? null) : null
+    if (!target) {
+      errors.push(
+        `${label} ${path}: transition "${field}" must be an {alias} to a primitive (got ${JSON.stringify(sub)})`,
+      )
+      continue
+    }
+    pending.push({ label, path: `${path}.${field}`, field, target })
+  }
+  return pending
 }
 
 // DTCG shadow composite (Phase 4d): object or layered array. Lengths are dimension
@@ -337,6 +371,7 @@ const checkShadowComposite = (label, path, leaf) => {
       if (leaf.$type === 'color') checkColorShape(label, tokenPath, leaf)
       pendingCompositeAliases.push(...checkTypographyComposite(label, tokenPath, leaf))
       pendingCompositeAliases.push(...checkShadowComposite(label, tokenPath, leaf))
+      pendingCompositeAliases.push(...checkTransitionComposite(label, tokenPath, leaf))
 
       const serialized = JSON.stringify(leaf.$value)
       const prior = namespace[tokenPath]

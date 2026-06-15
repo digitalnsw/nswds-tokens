@@ -23,8 +23,8 @@ The published package ships:
 - **Spacing** (4px-grid rem scale), **radius**, **breakpoints**, **border widths**,
   **shadows** (elevation ramp + inset rings), and **typography** (font stacks, sizes,
   weights, line-heights, tracking) — with semantic typography styles (`heading-1`…`code`)
-- **Motion** (durations + cubic-bezier easings) and **z-index** scale — DRAFT, pending
-  design review
+- **Motion** (durations, cubic-bezier easings, and intent-paired transition composites)
+  and a **z-index** scale, with a built-in reduced-motion override
 - DTCG 2025.10-compliant raw token JSON under `@nswds/tokens/tokens/*`
 - Tailwind CSS v4 `@theme` files for every category
 - Root JS API for consuming token collections directly
@@ -95,22 +95,41 @@ Each category publishes per-format files named by layer:
 The same values are available as SCSS/LESS variables and JS/JSON modules, e.g.
 `@nswds/tokens/js/radius/global.js` exports `radius = { none: '0px', sm: '4px', … }`.
 
-> ⚠️ **Motion and z-index values are DRAFT** pending design review — the scales (and the
-> mapping of names to numbers) may change before they are confirmed. They are published so
-> the wiring is in place; treat the specific values as provisional.
+> ⚠️ **Motion values carry a machine-readable `status: draft`** under
+> `$extensions['au.gov.nsw']` (in the raw `tokens/*` DTCG) pending final sign-off — filter
+> or strip on that, not on description text. The scale and curves follow the NSW motion
+> brief; the z-index scale is confirmed.
 
 ```css
-@import '@nswds/tokens/css/motion/global.css'; /* --duration-* + --easing-*      */
-@import '@nswds/tokens/css/z-index/global.css'; /* --z-index-base … --z-index-tooltip */
+@import '@nswds/tokens/css/motion/global.css'; /* --duration-*, --easing-*, --transition-* */
+@import '@nswds/tokens/css/z-index/global.css'; /* --z-index-base … --z-index-tooltip      */
 
 .drawer {
-  transition: transform var(--duration-base) var(--easing-decelerate);
+  /* transition composites pair a duration, curve, and delay by intent */
+  transition: transform var(--transition-overlay);
   z-index: var(--z-index-modal);
 }
 ```
 
 `duration.*` are CSS times (`150ms`), `easing.*` are `cubic-bezier(…)` timing functions,
-and `z-index.*` are plain integers.
+`transition.*` are ready-to-use `transition`-shorthand values
+(`<duration> <timing-function> <delay>`), and `z-index.*` are plain integers.
+
+**Reduced motion** is built into `css/motion/global.css`: a
+`@media (prefers-reduced-motion: reduce)` block collapses every duration to `0.01ms`
+(kept non-zero so `transitionend`/`animationend` still fire), leaving the curves and
+opacity changes intact. Tailwind/raw consumers who don't load that file should add the
+same override.
+
+Motion usage principles:
+
+- Duration scales with size and distance — a small chip and a full-screen sheet should not
+  share a duration. Bigger, or further to travel, means longer.
+- Move on one axis at a time — separate horizontal and vertical movement rather than
+  animating diagonally.
+- Keep crossfades short (~100ms, the `instant` step) to avoid muddy overlapping frames.
+- Never rely on motion alone to communicate a state change; reduced motion is always
+  honoured.
 
 ### 4. Typography
 
@@ -201,7 +220,7 @@ categories carry direct values (one import each):
 | `tailwind/typography/global.css`             | `--font-*`, `--text-*`, `--font-weight-*`, `--leading-*`, `--tracking-*` | `font-sans`, `text-16`, `leading-base`, …                     |
 | `tailwind/shadow/global.css`                 | `--shadow-*`, `--inset-shadow-*`                                         | `shadow-md`, `inset-shadow-thin`, …                           |
 | `tailwind/border/global.css`                 | `--border-width-*` (plain vars; no native namespace)                     | arbitrary values: `border-[length:var(--border-width-thick)]` |
-| `tailwind/motion/global.css`                 | `--ease-*` (native); `--duration-*` (plain vars)                         | `ease-standard`; `duration-[var(--duration-fast)]`            |
+| `tailwind/motion/global.css`                 | `--ease-*` (native); `--duration-*`, `--transition-*` (plain vars)       | `ease-standard`; `duration-[var(--duration-fast)]`            |
 | `tailwind/z-index/global.css`                | `--z-index-*` (plain vars; no native namespace)                          | arbitrary values: `z-[var(--z-index-modal)]`                  |
 
 ```css

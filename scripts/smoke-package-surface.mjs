@@ -160,6 +160,11 @@ for (const [label, mod] of [['ESM', esmModule], ['CJS', cjsModule]]) {
   assert.ok(semanticDark.startsWith("[data-theme='dark']"), label + ': semantic dark CSS must scope under the dark selector')
   const semanticMedia = mod.tokens.css.semantic.darkMedia.hex
   assert.ok(semanticMedia.startsWith('@media (prefers-color-scheme: dark)'), label + ': semantic darkMedia CSS must scope under the media query')
+  // Motion: the transition composites and the appended reduced-motion override are added
+  // outside the plain css/variables path, so guard both at runtime.
+  const motion = mod.tokens.css.motion.global
+  assert.ok(motion.includes('--transition-'), label + ': motion CSS must include transition composites')
+  assert.ok(motion.includes('@media (prefers-reduced-motion: reduce)'), label + ': motion CSS must carry the reduced-motion override')
 }
 
 const resolvedPaths = documentedSpecifiers.map((specifier) => {
