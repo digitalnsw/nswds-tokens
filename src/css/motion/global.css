@@ -1,8 +1,26 @@
 :root {
-  --duration-fast: 150ms; /** Fast — quick feedback on small elements (hovers, toggles, focus rings). DRAFT pending design review. */
-  --duration-base: 250ms; /** Base — the default duration for most UI transitions. DRAFT pending design review. */
-  --duration-slow: 400ms; /** Slow — larger surfaces entering or leaving (modals, drawers, sheets). DRAFT pending design review. */
-  --easing-standard: cubic-bezier(0.4, 0, 0.2, 1); /** Standard ease-in-out — the default curve for elements moving within the viewport. DRAFT pending design review. */
-  --easing-decelerate: cubic-bezier(0, 0, 0.2, 1); /** Decelerate (ease-out) — elements entering the screen, fast then settling. DRAFT pending design review. */
-  --easing-accelerate: cubic-bezier(0.4, 0, 1, 1); /** Accelerate (ease-in) — elements leaving the screen, building speed as they exit. DRAFT pending design review. */
+  --duration-none: 0ms; /** No motion. Used as the reduced-motion target and the default transition delay. */
+  --duration-instant: 100ms; /** Micro-feedback on small elements — hover, focus rings, toggles, small fades. */
+  --duration-fast: 150ms; /** Quick transitions over short distances — dropdowns, popovers, exits. */
+  --duration-base: 250ms; /** Default duration for most UI transitions. */
+  --duration-slow: 400ms; /** Larger surfaces entering or leaving — modals, drawers, sheets. */
+  --duration-slower: 600ms; /** Full-screen transitions and background dimming behind overlays. */
+  --easing-standard: cubic-bezier(0.4, 0, 0.2, 1); /** Standard ease-in-out for elements moving within the viewport, visible from start to end. */
+  --easing-decelerate: cubic-bezier(0, 0, 0.2, 1); /** Entrance (ease-out) for elements appearing in view, fast then settling. Also used for surfaces that leave but stay nearby, ready to return (e.g. a side panel). */
+  --easing-accelerate: cubic-bezier(0.4, 0, 1, 1); /** Exit (ease-in) for elements leaving view permanently, building speed as they go. */
+  --easing-linear: cubic-bezier(0, 0, 1, 1); /** No easing. For continuous or progress-driven motion — spinners, progress bars, rotation. */
+  --transition-hover: 100ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; /** Hover, focus and toggle feedback on interactive elements. */
+  --transition-enter: 250ms cubic-bezier(0, 0, 0.2, 1) 0ms; /** Elements entering the view — menus, popovers, tooltips. */
+  --transition-exit: 150ms cubic-bezier(0.4, 0, 1, 1) 0ms; /** Elements leaving the view permanently. */
+  --transition-overlay: 400ms cubic-bezier(0, 0, 0.2, 1) 0ms; /** Modals, drawers and sheets entering over a dimmed background. */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-instant: 0.01ms;
+    --duration-fast: 0.01ms;
+    --duration-base: 0.01ms;
+    --duration-slow: 0.01ms;
+    --duration-slower: 0.01ms;
+  }
 }

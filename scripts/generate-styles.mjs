@@ -39,6 +39,25 @@ for (const config of configs) {
   await new StyleDictionary(config).buildAllPlatforms()
 }
 
+// Reduced-motion override (motion brief, accessibility — WCAG 2.1 AA). A token can't carry
+// a media query, so it's appended here to the emitted motion CSS custom properties. Every
+// non-zero duration collapses to 0.01ms — not 0ms, so transitionend/animationend still
+// fire — while the easing curves and the transition shorthands (which reference the
+// duration vars) follow automatically. Generated from the duration tokens so the variable
+// names can never drift from what Style Dictionary emits. Opacity is untouched: content
+// still appears/disappears, just without travel.
+const motionCanonical = JSON.parse(readFileSync('tokens/global/motion/canonical.json', 'utf8'))
+const reducedDurationVars = Object.keys(motionCanonical.duration)
+  // `none` is the only 0ms token (the zero baseline); every other duration is overridden.
+  // Filtering by key avoids assuming a `{value}` $value shape — durations may legitimately
+  // become aliases (string $value), which the token validator allows.
+  .filter((step) => step !== 'none')
+  .map((step) => `    --duration-${step}: 0.01ms;`)
+  .join('\n')
+const reducedMotionBlock = `\n@media (prefers-reduced-motion: reduce) {\n  :root {\n${reducedDurationVars}\n  }\n}\n`
+const motionCssPath = `${SRC}/css/motion/global.css`
+writeFileSync(motionCssPath, readFileSync(motionCssPath, 'utf8') + reducedMotionBlock)
+
 // One-import Tailwind v4 preset (roadmap 2a): concatenates the generated per-category
 // Tailwind outputs so consumers write a single
 //   @import '@nswds/tokens/tailwind/preset.css';

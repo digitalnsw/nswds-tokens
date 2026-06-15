@@ -37,6 +37,7 @@ import {
   shadowString,
   durationString,
   cubicBezierString,
+  transitionString,
 } from './formats.mjs'
 
 const OUT = 'build/.sd-out/'
@@ -219,9 +220,10 @@ const CATEGORIES = [
   },
   {
     // Multi-family: durations emit as plain --duration-* custom properties (Tailwind v4
-    // has no duration namespace), easings map onto the native --ease-* namespace.
+    // has no duration namespace), easings map onto the native --ease-* namespace, and the
+    // transition composites emit as plain --transition-* shorthands.
     key: 'motion',
-    tailwindNamespaces: { duration: 'duration', easing: 'ease' },
+    tailwindNamespaces: { duration: 'duration', easing: 'ease', transition: 'transition' },
   },
   // No native Tailwind v4 z-index namespace; --z-index-* emit as plain @theme custom
   // properties for arbitrary-value usage (z-[var(--z-index-modal)]).
@@ -285,6 +287,19 @@ const cubicBezierTransform = {
   transform: (token) => cubicBezierString(token.$value),
 }
 
+// DTCG transition composite -> CSS transition shorthand. Sub-aliases ({duration.*}/
+// {easing.*}) are resolved by SD; the object-shape guard lets the already-stringified
+// result pass through on the transitive re-run (same pattern as the shadow transform).
+const transitionTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) =>
+    token.$type === 'transition' &&
+    typeof token.$value === 'object' &&
+    !Array.isArray(token.$value),
+  transform: (token) => transitionString(token.$value),
+}
+
 const makeCategoryConfig = (category) => {
   // Categories with extraSources (shadow -> border) need a filter so the alias-resolution
   // sources don't re-emit into this category's files.
@@ -302,6 +317,7 @@ const makeCategoryConfig = (category) => {
       'nsw/dimension',
       'nsw/duration',
       'nsw/cubic-bezier',
+      'nsw/transition',
       'nsw/font-family',
       'nsw/letter-spacing-em',
     ],
@@ -324,6 +340,7 @@ const makeCategoryConfig = (category) => {
         'nsw/dimension': dimensionTransform,
         'nsw/duration': durationTransform,
         'nsw/cubic-bezier': cubicBezierTransform,
+        'nsw/transition': transitionTransform,
         'nsw/font-family': fontFamilyTransform,
         'nsw/letter-spacing-em': letterSpacingEmTransform,
         'nsw/shadow': shadowTransform,

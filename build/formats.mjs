@@ -44,6 +44,17 @@ export const durationString = dimensionString
 // DTCG cubicBezier ([x1, y1, x2, y2]) -> CSS timing-function string.
 export const cubicBezierString = (value) => `cubic-bezier(${value.join(', ')})`
 
+// DTCG transition composite ({duration, delay, timingFunction}) -> CSS transition-value
+// shorthand "<duration> <timing-function> <delay>" (the order the `transition` property
+// expects after the property name, so `transition: opacity var(--transition-enter)` works).
+// By the time this runs SD has resolved the {duration.*}/{easing.*} sub-aliases; depending
+// on transform ordering each arrives as the already-stringified value or the raw DTCG
+// object/array, so handle both (mirrors shadowString's tolerance).
+const transitionTime = (d) => (typeof d === 'string' ? d : dimensionString(d))
+const transitionEase = (e) => (typeof e === 'string' ? e : cubicBezierString(e))
+export const transitionString = ({ duration, delay, timingFunction }) =>
+  `${transitionTime(duration)} ${transitionEase(timingFunction)} ${transitionTime(delay)}`
+
 // DTCG fontFamily (string or array stack) -> CSS font-family string. Names containing
 // whitespace are quoted ('Public Sans'); keywords/idents are left bare.
 export const fontFamilyString = (value) => {
