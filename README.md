@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/%40nswds%2Ftokens)](https://www.npmjs.com/package/@nswds/tokens)
 
 Design tokens for the NSW Design System — colour, spacing, typography, radius,
-breakpoints, borders, and shadows — plus related brand assets.
+breakpoints, borders, shadows, motion, and z-index — plus related brand assets.
 
 The published package ships:
 
@@ -23,6 +23,8 @@ The published package ships:
 - **Spacing** (4px-grid rem scale), **radius**, **breakpoints**, **border widths**,
   **shadows** (elevation ramp + inset rings), and **typography** (font stacks, sizes,
   weights, line-heights, tracking) — with semantic typography styles (`heading-1`…`code`)
+- **Motion** (durations + cubic-bezier easings) and **z-index** scale — DRAFT, pending
+  design review
 - DTCG 2025.10-compliant raw token JSON under `@nswds/tokens/tokens/*`
 - Tailwind CSS v4 `@theme` files for every category
 - Root JS API for consuming token collections directly
@@ -92,6 +94,23 @@ Each category publishes per-format files named by layer:
 
 The same values are available as SCSS/LESS variables and JS/JSON modules, e.g.
 `@nswds/tokens/js/radius/global.js` exports `radius = { none: '0px', sm: '4px', … }`.
+
+> ⚠️ **Motion and z-index values are DRAFT** pending design review — the scales (and the
+> mapping of names to numbers) may change before they are confirmed. They are published so
+> the wiring is in place; treat the specific values as provisional.
+
+```css
+@import '@nswds/tokens/css/motion/global.css'; /* --duration-* + --easing-*      */
+@import '@nswds/tokens/css/z-index/global.css'; /* --z-index-base … --z-index-tooltip */
+
+.drawer {
+  transition: transform var(--duration-base) var(--easing-decelerate);
+  z-index: var(--z-index-modal);
+}
+```
+
+`duration.*` are CSS times (`150ms`), `easing.*` are `cubic-bezier(…)` timing functions,
+and `z-index.*` are plain integers.
 
 ### 4. Typography
 
@@ -182,6 +201,8 @@ categories carry direct values (one import each):
 | `tailwind/typography/global.css`             | `--font-*`, `--text-*`, `--font-weight-*`, `--leading-*`, `--tracking-*` | `font-sans`, `text-16`, `leading-base`, …                     |
 | `tailwind/shadow/global.css`                 | `--shadow-*`, `--inset-shadow-*`                                         | `shadow-md`, `inset-shadow-thin`, …                           |
 | `tailwind/border/global.css`                 | `--border-width-*` (plain vars; no native namespace)                     | arbitrary values: `border-[length:var(--border-width-thick)]` |
+| `tailwind/motion/global.css`                 | `--ease-*` (native); `--duration-*` (plain vars)                         | `ease-standard`; `duration-[var(--duration-fast)]`            |
+| `tailwind/z-index/global.css`                | `--z-index-*` (plain vars; no native namespace)                          | arbitrary values: `z-[var(--z-index-modal)]`                  |
 
 ```css
 @import 'tailwindcss';

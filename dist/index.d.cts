@@ -5719,6 +5719,36 @@ declare namespace shadowJsGlobal {
   export { boxShadow$1 as boxShadow, shadow$1 as shadow, shadowColor$1 as shadowColor };
 }
 
+declare const duration$1: {
+  fast: string
+  base: string
+  slow: string
+}
+declare const easing$1: {
+  standard: string
+  decelerate: string
+  accelerate: string
+}
+
+declare namespace motionJsGlobal {
+  export { duration$1 as duration, easing$1 as easing };
+}
+
+declare const zIndex$1: {
+  base: number
+  dropdown: number
+  sticky: number
+  overlay: number
+  modal: number
+  popover: number
+  toast: number
+  tooltip: number
+}
+
+declare namespace zIndexJsGlobal {
+  export { zIndex$1 as zIndex };
+}
+
 declare const nswGrey$7: {
     '50': string;
     '100': string;
@@ -11498,6 +11528,39 @@ declare namespace shadowTsGlobal {
   export { shadowTsGlobal_boxShadow as boxShadow, shadowTsGlobal_shadow as shadow, shadowTsGlobal_shadowColor as shadowColor };
 }
 
+declare const duration: {
+    fast: string;
+    base: string;
+    slow: string;
+};
+declare const easing: {
+    standard: string;
+    decelerate: string;
+    accelerate: string;
+};
+
+declare const motionTsGlobal_duration: typeof duration;
+declare const motionTsGlobal_easing: typeof easing;
+declare namespace motionTsGlobal {
+  export { motionTsGlobal_duration as duration, motionTsGlobal_easing as easing };
+}
+
+declare const zIndex: {
+    base: number;
+    dropdown: number;
+    sticky: number;
+    overlay: number;
+    modal: number;
+    popover: number;
+    toast: number;
+    tooltip: number;
+};
+
+declare const zIndexTsGlobal_zIndex: typeof zIndex;
+declare namespace zIndexTsGlobal {
+  export { zIndexTsGlobal_zIndex as zIndex };
+}
+
 declare const tokens: {
     colors: {
         global: {
@@ -11633,6 +11696,12 @@ declare const tokens: {
         shadow: {
             global: string;
         };
+        motion: {
+            global: string;
+        };
+        zIndex: {
+            global: string;
+        };
     };
     js: {
         global: {
@@ -11704,6 +11773,12 @@ declare const tokens: {
         shadow: {
             global: typeof shadowJsGlobal;
         };
+        motion: {
+            global: typeof motionJsGlobal;
+        };
+        zIndex: {
+            global: typeof zIndexJsGlobal;
+        };
     };
     json: {
         global: {
@@ -11773,6 +11848,12 @@ declare const tokens: {
             global: any;
         };
         shadow: {
+            global: any;
+        };
+        motion: {
+            global: any;
+        };
+        zIndex: {
             global: any;
         };
     };
@@ -11846,6 +11927,12 @@ declare const tokens: {
         shadow: {
             global: string;
         };
+        motion: {
+            global: string;
+        };
+        zIndex: {
+            global: string;
+        };
     };
     scss: {
         global: {
@@ -11917,6 +12004,12 @@ declare const tokens: {
         shadow: {
             global: string;
         };
+        motion: {
+            global: string;
+        };
+        zIndex: {
+            global: string;
+        };
     };
     tailwind: {
         global: {
@@ -11973,6 +12066,12 @@ declare const tokens: {
             global: string;
         };
         shadow: {
+            global: string;
+        };
+        motion: {
+            global: string;
+        };
+        zIndex: {
             global: string;
         };
     };
@@ -12045,6 +12144,12 @@ declare const tokens: {
         };
         shadow: {
             global: typeof shadowTsGlobal;
+        };
+        motion: {
+            global: typeof motionTsGlobal;
+        };
+        zIndex: {
+            global: typeof zIndexTsGlobal;
         };
     };
 };
@@ -12182,6 +12287,12 @@ declare const cssTokens: {
     shadow: {
         global: string;
     };
+    motion: {
+        global: string;
+    };
+    zIndex: {
+        global: string;
+    };
 };
 declare const jsTokens: {
     global: {
@@ -12253,6 +12364,12 @@ declare const jsTokens: {
     shadow: {
         global: typeof shadowJsGlobal;
     };
+    motion: {
+        global: typeof motionJsGlobal;
+    };
+    zIndex: {
+        global: typeof zIndexJsGlobal;
+    };
 };
 declare const jsonTokens: {
     global: {
@@ -12322,6 +12439,12 @@ declare const jsonTokens: {
         global: any;
     };
     shadow: {
+        global: any;
+    };
+    motion: {
+        global: any;
+    };
+    zIndex: {
         global: any;
     };
 };
@@ -12395,6 +12518,12 @@ declare const lessTokens: {
     shadow: {
         global: string;
     };
+    motion: {
+        global: string;
+    };
+    zIndex: {
+        global: string;
+    };
 };
 declare const scssTokens: {
     global: {
@@ -12466,6 +12595,12 @@ declare const scssTokens: {
     shadow: {
         global: string;
     };
+    motion: {
+        global: string;
+    };
+    zIndex: {
+        global: string;
+    };
 };
 declare const tailwindTokens: {
     global: {
@@ -12522,6 +12657,12 @@ declare const tailwindTokens: {
         global: string;
     };
     shadow: {
+        global: string;
+    };
+    motion: {
+        global: string;
+    };
+    zIndex: {
         global: string;
     };
 };
@@ -12594,6 +12735,12 @@ declare const tsTokens: {
     };
     shadow: {
         global: typeof shadowTsGlobal;
+    };
+    motion: {
+        global: typeof motionTsGlobal;
+    };
+    zIndex: {
+        global: typeof zIndexTsGlobal;
     };
 };
 declare const brand: {

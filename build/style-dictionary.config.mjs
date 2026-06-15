@@ -35,6 +35,8 @@ import {
   dimensionString,
   fontFamilyString,
   shadowString,
+  durationString,
+  cubicBezierString,
 } from './formats.mjs'
 
 const OUT = 'build/.sd-out/'
@@ -215,6 +217,15 @@ const CATEGORIES = [
     // canonical so SD can resolve it; the filter keeps border tokens out of these files.
     extraSources: ['tokens/global/border/canonical.json'],
   },
+  {
+    // Multi-family: durations emit as plain --duration-* custom properties (Tailwind v4
+    // has no duration namespace), easings map onto the native --ease-* namespace.
+    key: 'motion',
+    tailwindNamespaces: { duration: 'duration', easing: 'ease' },
+  },
+  // No native Tailwind v4 z-index namespace; --z-index-* emit as plain @theme custom
+  // properties for arbitrary-value usage (z-[var(--z-index-modal)]).
+  { key: 'z-index', tailwindNamespace: 'z-index' },
 ]
 
 // DTCG dimension object ({value, unit}) -> "0.25rem" string for every string output.
@@ -256,6 +267,24 @@ const shadowTransform = {
   transform: (token) => shadowString(token.$value),
 }
 
+// DTCG duration object ({value, unit}) -> "150ms" string for every string output. Object-
+// shape guard mirrors the dimension transform (alias-resolved strings pass through).
+const durationTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) =>
+    token.$type === 'duration' && typeof token.$value === 'object' && token.$value !== null,
+  transform: (token) => durationString(token.$value),
+}
+
+// DTCG cubicBezier ([x1,y1,x2,y2]) -> "cubic-bezier(…)" string for every string output.
+const cubicBezierTransform = {
+  type: 'value',
+  transitive: true,
+  filter: (token) => token.$type === 'cubicBezier' && Array.isArray(token.$value),
+  transform: (token) => cubicBezierString(token.$value),
+}
+
 const makeCategoryConfig = (category) => {
   // Categories with extraSources (shadow -> border) need a filter so the alias-resolution
   // sources don't re-emit into this category's files.
@@ -271,6 +300,8 @@ const makeCategoryConfig = (category) => {
       'nsw/shadow',
       'nsw/color-string',
       'nsw/dimension',
+      'nsw/duration',
+      'nsw/cubic-bezier',
       'nsw/font-family',
       'nsw/letter-spacing-em',
     ],
@@ -291,6 +322,8 @@ const makeCategoryConfig = (category) => {
       },
       transforms: {
         'nsw/dimension': dimensionTransform,
+        'nsw/duration': durationTransform,
+        'nsw/cubic-bezier': cubicBezierTransform,
         'nsw/font-family': fontFamilyTransform,
         'nsw/letter-spacing-em': letterSpacingEmTransform,
         'nsw/shadow': shadowTransform,
