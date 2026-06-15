@@ -1,0 +1,8 @@
+$z-index-base: 0; // Base stacking level (0) — default in-flow content. DRAFT pending design review.
+$z-index-dropdown: 1000; // Dropdown menus and select popups. DRAFT pending design review.
+$z-index-sticky: 1100; // Sticky elements that pin on scroll (headers, toolbars). DRAFT pending design review.
+$z-index-overlay: 1200; // Full-screen overlay scrims sitting behind modal content. DRAFT pending design review.
+$z-index-modal: 1300; // Modal dialogs and side sheets. DRAFT pending design review.
+$z-index-popover: 1400; // Popovers anchored to a trigger, above modals. DRAFT pending design review.
+$z-index-toast: 1500; // Toast and snackbar notifications. DRAFT pending design review.
+$z-index-tooltip: 1600; // Tooltips — the top-most interactive layer. DRAFT pending design review.

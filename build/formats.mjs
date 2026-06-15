@@ -36,6 +36,14 @@ export const colorFunction = (colorSpace, value) => {
 // as "0<unit>" is valid CSS but "0" would lose the unit round-trip, so keep the unit.
 export const dimensionString = ({ value, unit }) => `${value}${unit}`
 
+// DTCG duration object ({value, unit: "ms" | "s"}) -> CSS time string ("150ms"). Same
+// shape as a dimension, so it reuses dimensionString — kept as a named export so the
+// transform reads by intent.
+export const durationString = dimensionString
+
+// DTCG cubicBezier ([x1, y1, x2, y2]) -> CSS timing-function string.
+export const cubicBezierString = (value) => `cubic-bezier(${value.join(', ')})`
+
 // DTCG fontFamily (string or array stack) -> CSS font-family string. Names containing
 // whitespace are quoted ('Public Sans'); keywords/idents are left bare.
 export const fontFamilyString = (value) => {

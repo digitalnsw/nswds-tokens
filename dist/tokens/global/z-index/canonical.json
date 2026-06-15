@@ -1,0 +1,44 @@
+{
+  "z-index": {
+    "base": {
+      "$type": "number",
+      "$description": "Base stacking level (0) — default in-flow content. DRAFT pending design review.",
+      "$value": 0
+    },
+    "dropdown": {
+      "$type": "number",
+      "$description": "Dropdown menus and select popups. DRAFT pending design review.",
+      "$value": 1000
+    },
+    "sticky": {
+      "$type": "number",
+      "$description": "Sticky elements that pin on scroll (headers, toolbars). DRAFT pending design review.",
+      "$value": 1100
+    },
+    "overlay": {
+      "$type": "number",
+      "$description": "Full-screen overlay scrims sitting behind modal content. DRAFT pending design review.",
+      "$value": 1200
+    },
+    "modal": {
+      "$type": "number",
+      "$description": "Modal dialogs and side sheets. DRAFT pending design review.",
+      "$value": 1300
+    },
+    "popover": {
+      "$type": "number",
+      "$description": "Popovers anchored to a trigger, above modals. DRAFT pending design review.",
+      "$value": 1400
+    },
+    "toast": {
+      "$type": "number",
+      "$description": "Toast and snackbar notifications. DRAFT pending design review.",
+      "$value": 1500
+    },
+    "tooltip": {
+      "$type": "number",
+      "$description": "Tooltips — the top-most interactive layer. DRAFT pending design review.",
+      "$value": 1600
+    }
+  }
+}

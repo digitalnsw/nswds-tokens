@@ -1,0 +1,12 @@
+{
+  "duration": {
+    "duration-fast": "150ms",
+    "duration-base": "250ms",
+    "duration-slow": "400ms"
+  },
+  "easing": {
+    "easing-standard": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "easing-decelerate": "cubic-bezier(0, 0, 0.2, 1)",
+    "easing-accelerate": "cubic-bezier(0.4, 0, 1, 1)"
+  }
+}
