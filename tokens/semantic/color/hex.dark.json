@@ -1,390 +1,180 @@
 {
-  "success": {
-    "50": {
+  "background": {
+    "default": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: subtle backgrounds and surfaces.",
-      "$value": "#000b00"
+      "$description": "Page canvas — the base background behind all content.",
+      "$value": "#050709"
     },
-    "100": {
+    "subtle": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: subtle backgrounds and surfaces.",
+      "$description": "Subtly differentiated background for alternating or grouped sections.",
+      "$value": "#0e1113"
+    }
+  },
+  "surface": {
+    "default": {
+      "$type": "color",
+      "$description": "Default container surface — cards, panels, and inputs on the page.",
+      "$value": "#0e1113"
+    },
+    "raised": {
+      "$type": "color",
+      "$description": "Raised surface for higher-elevation layers (menus, popovers, dialogs). Higher elevation reads lighter in dark mode.",
+      "$value": "#22272b"
+    },
+    "sunken": {
+      "$type": "color",
+      "$description": "Recessed surface for wells and inset regions.",
+      "$value": "#050709"
+    }
+  },
+  "text": {
+    "default": {
+      "$type": "color",
+      "$description": "Primary body and heading text.",
+      "$value": "#f5f5f5"
+    },
+    "muted": {
+      "$type": "color",
+      "$description": "Secondary text — supporting copy, captions, metadata.",
+      "$value": "#cdd3d6"
+    },
+    "subtle": {
+      "$type": "color",
+      "$description": "Tertiary text — placeholders and disabled labels. The mid-grey reads in both modes.",
+      "$value": "#888f92"
+    },
+    "inverse": {
+      "$type": "color",
+      "$description": "Text and icons rendered on an action or solid fill.",
+      "$value": "#050709"
+    },
+    "link": {
+      "$type": "color",
+      "$description": "Inline hyperlink text.",
+      "$value": "#8ce0ff"
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$description": "Default border for inputs, cards, and dividers.",
+      "$value": "#353b3f"
+    },
+    "subtle": {
+      "$type": "color",
+      "$description": "Low-emphasis border for subtle separation.",
+      "$value": "#22272b"
+    },
+    "strong": {
+      "$type": "color",
+      "$description": "High-emphasis border for focus and selected states.",
+      "$value": "#888f92"
+    }
+  },
+  "action": {
+    "default": {
+      "$type": "color",
+      "$description": "Primary interactive colour — buttons, links, key accents. NSW navy in light, brightened for contrast in dark.",
+      "$value": "#26aeff"
+    },
+    "hover": {
+      "$type": "color",
+      "$description": "Hover and active state for primary actions.",
+      "$value": "#8ce0ff"
+    },
+    "subtle": {
+      "$type": "color",
+      "$description": "Tinted background for low-emphasis (ghost) actions.",
+      "$value": "#001037"
+    }
+  },
+  "success": {
+    "surface": {
+      "$type": "color",
+      "$description": "Success (positive outcomes and confirmations) — tinted background.",
       "$value": "#001600"
     },
-    "150": {
+    "text": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: subtle backgrounds and surfaces.",
-      "$value": "#002200"
-    },
-    "200": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 200: Interactive components.",
-      "$value": "#002f00"
-    },
-    "250": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 250: Interactive components.",
-      "$value": "#004401"
-    },
-    "300": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 300: Interactive components.",
-      "$value": "#005a02"
-    },
-    "350": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 350: Interactive components.",
-      "$value": "#007204"
-    },
-    "400": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 400: Interactive components.",
-      "$value": "#008a07"
-    },
-    "450": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: borders, separators and icons.",
-      "$value": "#259224"
-    },
-    "500": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: borders, separators and icons.",
-      "$value": "#399936"
-    },
-    "550": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: borders, separators and icons.",
-      "$value": "#49a146"
-    },
-    "600": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: borders, separators and icons.",
-      "$value": "#58a854"
-    },
-    "650": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: borders, separators and icons.",
-      "$value": "#74b76f"
-    },
-    "700": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 700: Solid colors.",
+      "$description": "Success (positive outcomes and confirmations) — readable text on the tint.",
       "$value": "#8fc78a"
     },
-    "750": {
+    "border": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 750: Solid colors.",
-      "$value": "#aad6a5"
+      "$description": "Success (positive outcomes and confirmations) — border and divider.",
+      "$value": "#005a02"
     },
-    "800": {
+    "solid": {
       "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 800: Solid colors.",
-      "$value": "#c4e5c0"
-    },
-    "850": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: text and high emphasis.",
-      "$value": "#d2eccf"
-    },
-    "900": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: text and high emphasis.",
-      "$value": "#e0f3de"
-    },
-    "950": {
-      "$type": "color",
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: text and high emphasis.",
-      "$value": "#eff9ed"
+      "$description": "Success (positive outcomes and confirmations) — solid fill for badges and icons.",
+      "$value": "#399936"
     }
   },
   "warning": {
-    "50": {
+    "surface": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 50: subtle backgrounds and surfaces.",
-      "$value": "#170100"
-    },
-    "100": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 100: subtle backgrounds and surfaces.",
+      "$description": "Warning (caution and pending states) — tinted background.",
       "$value": "#270400"
     },
-    "150": {
+    "text": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 150: subtle backgrounds and surfaces.",
-      "$value": "#390a00"
-    },
-    "200": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 200: Interactive components.",
-      "$value": "#4b1200"
-    },
-    "250": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 250: Interactive components.",
-      "$value": "#692001"
-    },
-    "300": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 300: Interactive components.",
-      "$value": "#882f03"
-    },
-    "350": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 350: Interactive components.",
-      "$value": "#a83f03"
-    },
-    "400": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 400: Interactive components.",
-      "$value": "#c95000"
-    },
-    "450": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 450: borders, separators and icons.",
-      "$value": "#ce5c21"
-    },
-    "500": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 500: borders, separators and icons.",
-      "$value": "#d36734"
-    },
-    "550": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 550: borders, separators and icons.",
-      "$value": "#d87244"
-    },
-    "600": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 600: borders, separators and icons.",
-      "$value": "#dd7d53"
-    },
-    "650": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 650: borders, separators and icons.",
-      "$value": "#e6936f"
-    },
-    "700": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 700: Solid colors.",
+      "$description": "Warning (caution and pending states) — readable text on the tint.",
       "$value": "#eea88a"
     },
-    "750": {
+    "border": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 750: Solid colors.",
-      "$value": "#f6bda5"
+      "$description": "Warning (caution and pending states) — border and divider.",
+      "$value": "#882f03"
     },
-    "800": {
+    "solid": {
       "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 800: Solid colors.",
-      "$value": "#fdd2c0"
-    },
-    "850": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 850: text and high emphasis.",
-      "$value": "#ffddcf"
-    },
-    "900": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 900: text and high emphasis.",
-      "$value": "#ffe8de"
-    },
-    "950": {
-      "$type": "color",
-      "$description": "Warning state — caution and actions that need attention. Step 950: text and high emphasis.",
-      "$value": "#fff3ed"
+      "$description": "Warning (caution and pending states) — solid fill for badges and icons.",
+      "$value": "#d36734"
     }
   },
   "danger": {
-    "50": {
+    "surface": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 50: subtle backgrounds and surfaces.",
-      "$value": "#140001"
-    },
-    "100": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 100: subtle backgrounds and surfaces.",
+      "$description": "Danger (errors and destructive actions) — tinted background.",
       "$value": "#230002"
     },
-    "150": {
+    "text": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 150: subtle backgrounds and surfaces.",
-      "$value": "#330005"
-    },
-    "200": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 200: Interactive components.",
-      "$value": "#44000a"
-    },
-    "250": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 250: Interactive components.",
-      "$value": "#5f0214"
-    },
-    "300": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 300: Interactive components.",
-      "$value": "#7c061f"
-    },
-    "350": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 350: Interactive components.",
-      "$value": "#990b2a"
-    },
-    "400": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 400: Interactive components.",
-      "$value": "#b81237"
-    },
-    "450": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 450: borders, separators and icons.",
-      "$value": "#bf2c42"
-    },
-    "500": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 500: borders, separators and icons.",
-      "$value": "#c63f4e"
-    },
-    "550": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 550: borders, separators and icons.",
-      "$value": "#cd4e59"
-    },
-    "600": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 600: borders, separators and icons.",
-      "$value": "#d35d65"
-    },
-    "650": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 650: borders, separators and icons.",
-      "$value": "#df787c"
-    },
-    "700": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 700: Solid colors.",
+      "$description": "Danger (errors and destructive actions) — readable text on the tint.",
       "$value": "#ea9294"
     },
-    "750": {
+    "border": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 750: Solid colors.",
-      "$value": "#f4acad"
+      "$description": "Danger (errors and destructive actions) — border and divider.",
+      "$value": "#7c061f"
     },
-    "800": {
+    "solid": {
       "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 800: Solid colors.",
-      "$value": "#fdc6c6"
-    },
-    "850": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 850: text and high emphasis.",
-      "$value": "#ffd4d4"
-    },
-    "900": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 900: text and high emphasis.",
-      "$value": "#ffe2e1"
-    },
-    "950": {
-      "$type": "color",
-      "$description": "Danger state — errors and destructive or critical actions. Step 950: text and high emphasis.",
-      "$value": "#fff0ef"
+      "$description": "Danger (errors and destructive actions) — solid fill for badges and icons.",
+      "$value": "#c63f4e"
     }
   },
   "info": {
-    "50": {
+    "surface": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: subtle backgrounds and surfaces.",
-      "$value": "#00030f"
-    },
-    "100": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: subtle backgrounds and surfaces.",
+      "$description": "Info (neutral information) — tinted background.",
       "$value": "#02071c"
     },
-    "150": {
+    "text": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: subtle backgrounds and surfaces.",
-      "$value": "#040f2a"
-    },
-    "200": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 200: Interactive components.",
-      "$value": "#071738"
-    },
-    "250": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 250: Interactive components.",
-      "$value": "#10254f"
-    },
-    "300": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 300: Interactive components.",
-      "$value": "#193366"
-    },
-    "350": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 350: Interactive components.",
-      "$value": "#23427f"
-    },
-    "400": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 400: Interactive components.",
-      "$value": "#2e5299"
-    },
-    "450": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: borders, separators and icons.",
-      "$value": "#385b9e"
-    },
-    "500": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: borders, separators and icons.",
-      "$value": "#4264a4"
-    },
-    "550": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: borders, separators and icons.",
-      "$value": "#4d6ca9"
-    },
-    "600": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: borders, separators and icons.",
-      "$value": "#5775ae"
-    },
-    "650": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: borders, separators and icons.",
-      "$value": "#6b86b8"
-    },
-    "700": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 700: Solid colors.",
+      "$description": "Info (neutral information) — readable text on the tint.",
       "$value": "#8098c2"
     },
-    "750": {
+    "border": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 750: Solid colors.",
-      "$value": "#96a9cc"
+      "$description": "Info (neutral information) — border and divider.",
+      "$value": "#193366"
     },
-    "800": {
+    "solid": {
       "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 800: Solid colors.",
-      "$value": "#acbbd5"
-    },
-    "850": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: text and high emphasis.",
-      "$value": "#c0cce0"
-    },
-    "900": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: text and high emphasis.",
-      "$value": "#d4ddeb"
-    },
-    "950": {
-      "$type": "color",
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: text and high emphasis.",
-      "$value": "#e9eef7"
+      "$description": "Info (neutral information) — solid fill for badges and icons.",
+      "$value": "#4264a4"
     }
   }
 }

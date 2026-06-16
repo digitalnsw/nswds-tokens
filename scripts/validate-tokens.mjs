@@ -67,6 +67,14 @@ const filesForSpace = (space, mode) => {
     const p = resolve(tokensDir, layer, 'color', modeFile(space, mode))
     if (existsSync(p)) files.push({ label: `${layer}/${space}${suffix}`, path: p })
   }
+  // The global palette is mode-agnostic, so dark semantic aliases ({nsw-grey.900}) resolve
+  // against the LIGHT global view. Pull it in resolveOnly (alias targets only — it's already
+  // validated in light mode, so its shape/duplicate checks are skipped here).
+  if (mode !== 'light') {
+    const lightGlobal = resolve(tokensDir, 'global', 'color', modeFile(space, 'light'))
+    if (existsSync(lightGlobal))
+      files.push({ label: `global/${space}`, path: lightGlobal, resolveOnly: true })
+  }
   const themesRoot = resolve(tokensDir, 'themes', 'color')
   if (existsSync(themesRoot)) {
     for (const theme of readdirSync(themesRoot, { withFileTypes: true })) {
@@ -109,6 +117,23 @@ const checkModeParity = () => {
   }
 }
 checkModeParity()
+
+// Alias-only contract: the semantic colour layer is role tokens that MUST reference a
+// global primitive ({nsw-grey.900}, {success.50}, …) — never a literal colour. Checked on
+// the canonical source (the per-space views are intentionally resolved to hex). Both modes.
+const checkSemanticAliasesOnly = () => {
+  for (const file of ['canonical.json', 'canonical.dark.json']) {
+    const p = resolve(tokensDir, 'semantic', 'color', file)
+    if (!existsSync(p)) continue
+    for (const [path, leaf] of Object.entries(flatten(readJson(p), '', {}))) {
+      if (typeof leaf.$value !== 'string' || !ALIAS_PATTERN.test(leaf.$value))
+        errors.push(
+          `semantic/${file} ${path}: semantic colour must be an {alias}, got ${JSON.stringify(leaf.$value)}`,
+        )
+    }
+  }
+}
+checkSemanticAliasesOnly()
 
 const aliasTarget = (leaf) =>
   typeof leaf.$value === 'string' ? (leaf.$value.match(ALIAS_PATTERN)?.[1] ?? null) : null
@@ -444,9 +469,15 @@ for (const space of SPACES) {
     const leafByPath = {} // path -> leaf (O(1) alias resolution)
     const allLeaves = [] // { label, path, leaf }
 
-    for (const { label, path } of files) {
+    for (const { label, path, resolveOnly } of files) {
       const flat = flatten(readJson(path), '', {})
       for (const [tokenPath, leaf] of Object.entries(flat)) {
+        // resolveOnly sources (light global pulled into a dark namespace for alias targets)
+        // are already validated in their own mode — register them for resolution and move on.
+        if (resolveOnly) {
+          leafByPath[tokenPath] = leaf
+          continue
+        }
         allLeaves.push({ label, path: tokenPath, leaf })
         leafByPath[tokenPath] = leaf
 

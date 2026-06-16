@@ -53,10 +53,9 @@ const FORMATS = [
   { key: 'ts', infix: 'Ts', ext: 'js' },
 ]
 
-// Dark mode (D1): global + semantic expose a nested dark sub-object per format
-// (tokens.css.global.dark.hex, …). Themes follow in D3; tailwind has no dark outputs
-// (light-only platform in the SD config).
-const DARK_GROUPS = new Set(['global', 'semantic'])
+// Dark mode: only the semantic role layer is mode-aware (tokens.css.semantic.dark.hex, …).
+// The global palette is mode-agnostic (no dark outputs); tailwind has no dark outputs.
+const DARK_GROUPS = new Set(['semantic'])
 const hasDark = (fmt, ent) => fmt.key !== 'tailwind' && DARK_GROUPS.has(ent.group)
 // The media-query flavour of the dark stylesheets is CSS-only (scss/less/js consumers
 // compose their own scoping; tailwind re-resolves via var() chains).

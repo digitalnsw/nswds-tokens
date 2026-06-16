@@ -1,84 +1,50 @@
+export declare const background: {
+  default: string
+  subtle: string
+}
+export declare const surface: {
+  default: string
+  raised: string
+  sunken: string
+}
+export declare const text: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
+}
+export declare const border: {
+  default: string
+  subtle: string
+  strong: string
+}
+export declare const action: {
+  default: string
+  hover: string
+  subtle: string
+}
 export declare const success: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 export declare const warning: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 export declare const danger: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 export declare const info: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+  surface: string
+  text: string
+  border: string
+  solid: string
 }

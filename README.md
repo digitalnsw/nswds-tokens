@@ -19,7 +19,9 @@ The published package ships:
 
 ## Features
 
-- Global, semantic, and themed NSW **colour** tokens (hex, rgb, hsl, and oklch outputs)
+- NSW **colour** primitives (global palette + status ramps) and **themed** outputs (hex,
+  rgb, hsl, oklch), plus **semantic colour roles** (background/surface/text/border/action/
+  feedback) with a single-palette, alias-driven **dark mode**
 - **Spacing** (4px-grid rem scale), **radius**, **breakpoints**, **border widths**,
   **shadows** (elevation ramp + inset rings), and **typography** (font stacks, sizes,
   weights, line-heights, tracking) — with semantic typography styles (`heading-1`…`code`)
@@ -65,6 +67,9 @@ console.log(tokens.js.space.global) // { space: { 4: '1rem', ... } }
 
 ### 2. CSS custom properties
 
+The **global** palette is the raw, mode-agnostic colour scales (`--nsw-blue-500`,
+`--success-500`, …) — one set of values, no dark variant.
+
 ```css
 @import '@nswds/tokens/css/colors/global/hex.css';
 @import '@nswds/tokens/css/colors/themes/masterbrand/hex.css';
@@ -73,6 +78,38 @@ console.log(tokens.js.space.global) // { space: { 4: '1rem', ... } }
   background-color: var(--nsw-blue-500);
 }
 ```
+
+### 2a. Semantic colour roles + dark mode
+
+Build UI against the **semantic role tokens**, not the raw palette. Each role aliases a
+global primitive, and the role layer is the _only_ thing that changes between light and
+dark — so the same `var(--text-default)` is correct in both modes.
+
+| Group                                     | Tokens                                          | Use for                                        |
+| ----------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
+| `background`                              | `default`, `subtle`                             | page canvas                                    |
+| `surface`                                 | `default`, `raised`, `sunken`                   | cards, menus, wells (raised = lighter in dark) |
+| `text`                                    | `default`, `muted`, `subtle`, `inverse`, `link` | text (`inverse` = on action fills)             |
+| `border`                                  | `default`, `subtle`, `strong`                   | dividers and outlines                          |
+| `action`                                  | `default`, `hover`, `subtle`                    | primary interactive colour                     |
+| `success` / `warning` / `danger` / `info` | `surface`, `text`, `border`, `solid`            | status / feedback                              |
+
+```css
+@import '@nswds/tokens/css/colors/semantic/hex.css'; /* light (default) */
+@import '@nswds/tokens/css/colors/semantic/hex.dark.css'; /* [data-theme='dark'] overrides */
+
+.card {
+  background: var(--surface-default);
+  color: var(--text-default);
+  border: 1px solid var(--border-default);
+}
+```
+
+Toggle the theme with `document.documentElement.dataset.theme = 'dark'`. Prefer the
+system setting instead? Load `hex.dark-media.css` (a `prefers-color-scheme: dark` variant)
+rather than the attribute file. Dark values are AA-checked against their surfaces; note
+`border.default`/`border.subtle` are intentionally **decorative** (below 3:1) — use
+`border.strong` for input outlines and focus rings, which meets WCAG 1.4.11.
 
 ### 3. Spacing, radius, breakpoints, borders, and shadows
 
