@@ -1,4 +1,4 @@
-declare const nswGrey$f: {
+declare const nswGrey$7: {
   '50': string
   '100': string
   '150': string
@@ -19,7 +19,7 @@ declare const nswGrey$f: {
   '900': string
   '950': string
 }
-declare const nswGreen$f: {
+declare const nswGreen$7: {
   '50': string
   '100': string
   '150': string
@@ -40,7 +40,7 @@ declare const nswGreen$f: {
   '900': string
   '950': string
 }
-declare const nswTeal$f: {
+declare const nswTeal$7: {
   '50': string
   '100': string
   '150': string
@@ -61,7 +61,7 @@ declare const nswTeal$f: {
   '900': string
   '950': string
 }
-declare const nswBlue$f: {
+declare const nswBlue$7: {
   '50': string
   '100': string
   '150': string
@@ -82,7 +82,7 @@ declare const nswBlue$f: {
   '900': string
   '950': string
 }
-declare const nswPurple$f: {
+declare const nswPurple$7: {
   '50': string
   '100': string
   '150': string
@@ -103,7 +103,7 @@ declare const nswPurple$f: {
   '900': string
   '950': string
 }
-declare const nswFuchsia$f: {
+declare const nswFuchsia$7: {
   '50': string
   '100': string
   '150': string
@@ -124,7 +124,7 @@ declare const nswFuchsia$f: {
   '900': string
   '950': string
 }
-declare const nswRed$f: {
+declare const nswRed$7: {
   '50': string
   '100': string
   '150': string
@@ -145,7 +145,7 @@ declare const nswRed$f: {
   '900': string
   '950': string
 }
-declare const nswOrange$f: {
+declare const nswOrange$7: {
   '50': string
   '100': string
   '150': string
@@ -166,7 +166,7 @@ declare const nswOrange$f: {
   '900': string
   '950': string
 }
-declare const nswYellow$f: {
+declare const nswYellow$7: {
   '50': string
   '100': string
   '150': string
@@ -187,7 +187,7 @@ declare const nswYellow$f: {
   '900': string
   '950': string
 }
-declare const nswBrown$f: {
+declare const nswBrown$7: {
   '50': string
   '100': string
   '150': string
@@ -208,7 +208,7 @@ declare const nswBrown$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGrey$f: {
+declare const nswAboriginalGrey$7: {
   '50': string
   '100': string
   '150': string
@@ -229,7 +229,7 @@ declare const nswAboriginalGrey$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalRed$f: {
+declare const nswAboriginalRed$7: {
   '50': string
   '100': string
   '150': string
@@ -250,7 +250,7 @@ declare const nswAboriginalRed$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalOrange$f: {
+declare const nswAboriginalOrange$7: {
   '50': string
   '100': string
   '150': string
@@ -271,7 +271,7 @@ declare const nswAboriginalOrange$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBrown$f: {
+declare const nswAboriginalBrown$7: {
   '50': string
   '100': string
   '150': string
@@ -292,7 +292,7 @@ declare const nswAboriginalBrown$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalYellow$f: {
+declare const nswAboriginalYellow$7: {
   '50': string
   '100': string
   '150': string
@@ -313,7 +313,7 @@ declare const nswAboriginalYellow$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGreen$f: {
+declare const nswAboriginalGreen$7: {
   '50': string
   '100': string
   '150': string
@@ -334,7 +334,7 @@ declare const nswAboriginalGreen$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBlue$f: {
+declare const nswAboriginalBlue$7: {
   '50': string
   '100': string
   '150': string
@@ -355,7 +355,7 @@ declare const nswAboriginalBlue$f: {
   '900': string
   '950': string
 }
-declare const nswAboriginalPurple$f: {
+declare const nswAboriginalPurple$7: {
   '50': string
   '100': string
   '150': string
@@ -376,14 +376,98 @@ declare const nswAboriginalPurple$f: {
   '900': string
   '950': string
 }
-declare const white$f: string
-declare const black$f: string
+declare const success$n: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const warning$n: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const danger$n: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const info$n: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const white$7: string
+declare const black$7: string
 
 declare namespace globalJsHex {
-  export { black$f as black, nswAboriginalBlue$f as nswAboriginalBlue, nswAboriginalBrown$f as nswAboriginalBrown, nswAboriginalGreen$f as nswAboriginalGreen, nswAboriginalGrey$f as nswAboriginalGrey, nswAboriginalOrange$f as nswAboriginalOrange, nswAboriginalPurple$f as nswAboriginalPurple, nswAboriginalRed$f as nswAboriginalRed, nswAboriginalYellow$f as nswAboriginalYellow, nswBlue$f as nswBlue, nswBrown$f as nswBrown, nswFuchsia$f as nswFuchsia, nswGreen$f as nswGreen, nswGrey$f as nswGrey, nswOrange$f as nswOrange, nswPurple$f as nswPurple, nswRed$f as nswRed, nswTeal$f as nswTeal, nswYellow$f as nswYellow, white$f as white };
+  export { black$7 as black, danger$n as danger, info$n as info, nswAboriginalBlue$7 as nswAboriginalBlue, nswAboriginalBrown$7 as nswAboriginalBrown, nswAboriginalGreen$7 as nswAboriginalGreen, nswAboriginalGrey$7 as nswAboriginalGrey, nswAboriginalOrange$7 as nswAboriginalOrange, nswAboriginalPurple$7 as nswAboriginalPurple, nswAboriginalRed$7 as nswAboriginalRed, nswAboriginalYellow$7 as nswAboriginalYellow, nswBlue$7 as nswBlue, nswBrown$7 as nswBrown, nswFuchsia$7 as nswFuchsia, nswGreen$7 as nswGreen, nswGrey$7 as nswGrey, nswOrange$7 as nswOrange, nswPurple$7 as nswPurple, nswRed$7 as nswRed, nswTeal$7 as nswTeal, nswYellow$7 as nswYellow, success$n as success, warning$n as warning, white$7 as white };
 }
 
-declare const nswGrey$e: {
+declare const nswGrey$6: {
   '50': string
   '100': string
   '150': string
@@ -404,7 +488,7 @@ declare const nswGrey$e: {
   '900': string
   '950': string
 }
-declare const nswGreen$e: {
+declare const nswGreen$6: {
   '50': string
   '100': string
   '150': string
@@ -425,7 +509,7 @@ declare const nswGreen$e: {
   '900': string
   '950': string
 }
-declare const nswTeal$e: {
+declare const nswTeal$6: {
   '50': string
   '100': string
   '150': string
@@ -446,7 +530,7 @@ declare const nswTeal$e: {
   '900': string
   '950': string
 }
-declare const nswBlue$e: {
+declare const nswBlue$6: {
   '50': string
   '100': string
   '150': string
@@ -467,7 +551,7 @@ declare const nswBlue$e: {
   '900': string
   '950': string
 }
-declare const nswPurple$e: {
+declare const nswPurple$6: {
   '50': string
   '100': string
   '150': string
@@ -488,7 +572,7 @@ declare const nswPurple$e: {
   '900': string
   '950': string
 }
-declare const nswFuchsia$e: {
+declare const nswFuchsia$6: {
   '50': string
   '100': string
   '150': string
@@ -509,7 +593,7 @@ declare const nswFuchsia$e: {
   '900': string
   '950': string
 }
-declare const nswRed$e: {
+declare const nswRed$6: {
   '50': string
   '100': string
   '150': string
@@ -530,7 +614,7 @@ declare const nswRed$e: {
   '900': string
   '950': string
 }
-declare const nswOrange$e: {
+declare const nswOrange$6: {
   '50': string
   '100': string
   '150': string
@@ -551,7 +635,7 @@ declare const nswOrange$e: {
   '900': string
   '950': string
 }
-declare const nswYellow$e: {
+declare const nswYellow$6: {
   '50': string
   '100': string
   '150': string
@@ -572,7 +656,7 @@ declare const nswYellow$e: {
   '900': string
   '950': string
 }
-declare const nswBrown$e: {
+declare const nswBrown$6: {
   '50': string
   '100': string
   '150': string
@@ -593,7 +677,7 @@ declare const nswBrown$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGrey$e: {
+declare const nswAboriginalGrey$6: {
   '50': string
   '100': string
   '150': string
@@ -614,7 +698,7 @@ declare const nswAboriginalGrey$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalRed$e: {
+declare const nswAboriginalRed$6: {
   '50': string
   '100': string
   '150': string
@@ -635,7 +719,7 @@ declare const nswAboriginalRed$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalOrange$e: {
+declare const nswAboriginalOrange$6: {
   '50': string
   '100': string
   '150': string
@@ -656,7 +740,7 @@ declare const nswAboriginalOrange$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBrown$e: {
+declare const nswAboriginalBrown$6: {
   '50': string
   '100': string
   '150': string
@@ -677,7 +761,7 @@ declare const nswAboriginalBrown$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalYellow$e: {
+declare const nswAboriginalYellow$6: {
   '50': string
   '100': string
   '150': string
@@ -698,7 +782,7 @@ declare const nswAboriginalYellow$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGreen$e: {
+declare const nswAboriginalGreen$6: {
   '50': string
   '100': string
   '150': string
@@ -719,7 +803,7 @@ declare const nswAboriginalGreen$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBlue$e: {
+declare const nswAboriginalBlue$6: {
   '50': string
   '100': string
   '150': string
@@ -740,7 +824,7 @@ declare const nswAboriginalBlue$e: {
   '900': string
   '950': string
 }
-declare const nswAboriginalPurple$e: {
+declare const nswAboriginalPurple$6: {
   '50': string
   '100': string
   '150': string
@@ -761,14 +845,98 @@ declare const nswAboriginalPurple$e: {
   '900': string
   '950': string
 }
-declare const white$e: string
-declare const black$e: string
+declare const success$m: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const warning$m: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const danger$m: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const info$m: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const white$6: string
+declare const black$6: string
 
 declare namespace globalJsHsl {
-  export { black$e as black, nswAboriginalBlue$e as nswAboriginalBlue, nswAboriginalBrown$e as nswAboriginalBrown, nswAboriginalGreen$e as nswAboriginalGreen, nswAboriginalGrey$e as nswAboriginalGrey, nswAboriginalOrange$e as nswAboriginalOrange, nswAboriginalPurple$e as nswAboriginalPurple, nswAboriginalRed$e as nswAboriginalRed, nswAboriginalYellow$e as nswAboriginalYellow, nswBlue$e as nswBlue, nswBrown$e as nswBrown, nswFuchsia$e as nswFuchsia, nswGreen$e as nswGreen, nswGrey$e as nswGrey, nswOrange$e as nswOrange, nswPurple$e as nswPurple, nswRed$e as nswRed, nswTeal$e as nswTeal, nswYellow$e as nswYellow, white$e as white };
+  export { black$6 as black, danger$m as danger, info$m as info, nswAboriginalBlue$6 as nswAboriginalBlue, nswAboriginalBrown$6 as nswAboriginalBrown, nswAboriginalGreen$6 as nswAboriginalGreen, nswAboriginalGrey$6 as nswAboriginalGrey, nswAboriginalOrange$6 as nswAboriginalOrange, nswAboriginalPurple$6 as nswAboriginalPurple, nswAboriginalRed$6 as nswAboriginalRed, nswAboriginalYellow$6 as nswAboriginalYellow, nswBlue$6 as nswBlue, nswBrown$6 as nswBrown, nswFuchsia$6 as nswFuchsia, nswGreen$6 as nswGreen, nswGrey$6 as nswGrey, nswOrange$6 as nswOrange, nswPurple$6 as nswPurple, nswRed$6 as nswRed, nswTeal$6 as nswTeal, nswYellow$6 as nswYellow, success$m as success, warning$m as warning, white$6 as white };
 }
 
-declare const nswGrey$d: {
+declare const nswGrey$5: {
   '50': string
   '100': string
   '150': string
@@ -789,7 +957,7 @@ declare const nswGrey$d: {
   '900': string
   '950': string
 }
-declare const nswGreen$d: {
+declare const nswGreen$5: {
   '50': string
   '100': string
   '150': string
@@ -810,7 +978,7 @@ declare const nswGreen$d: {
   '900': string
   '950': string
 }
-declare const nswTeal$d: {
+declare const nswTeal$5: {
   '50': string
   '100': string
   '150': string
@@ -831,7 +999,7 @@ declare const nswTeal$d: {
   '900': string
   '950': string
 }
-declare const nswBlue$d: {
+declare const nswBlue$5: {
   '50': string
   '100': string
   '150': string
@@ -852,7 +1020,7 @@ declare const nswBlue$d: {
   '900': string
   '950': string
 }
-declare const nswPurple$d: {
+declare const nswPurple$5: {
   '50': string
   '100': string
   '150': string
@@ -873,7 +1041,7 @@ declare const nswPurple$d: {
   '900': string
   '950': string
 }
-declare const nswFuchsia$d: {
+declare const nswFuchsia$5: {
   '50': string
   '100': string
   '150': string
@@ -894,7 +1062,7 @@ declare const nswFuchsia$d: {
   '900': string
   '950': string
 }
-declare const nswRed$d: {
+declare const nswRed$5: {
   '50': string
   '100': string
   '150': string
@@ -915,7 +1083,7 @@ declare const nswRed$d: {
   '900': string
   '950': string
 }
-declare const nswOrange$d: {
+declare const nswOrange$5: {
   '50': string
   '100': string
   '150': string
@@ -936,7 +1104,7 @@ declare const nswOrange$d: {
   '900': string
   '950': string
 }
-declare const nswYellow$d: {
+declare const nswYellow$5: {
   '50': string
   '100': string
   '150': string
@@ -957,7 +1125,7 @@ declare const nswYellow$d: {
   '900': string
   '950': string
 }
-declare const nswBrown$d: {
+declare const nswBrown$5: {
   '50': string
   '100': string
   '150': string
@@ -978,7 +1146,7 @@ declare const nswBrown$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGrey$d: {
+declare const nswAboriginalGrey$5: {
   '50': string
   '100': string
   '150': string
@@ -999,7 +1167,7 @@ declare const nswAboriginalGrey$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalRed$d: {
+declare const nswAboriginalRed$5: {
   '50': string
   '100': string
   '150': string
@@ -1020,7 +1188,7 @@ declare const nswAboriginalRed$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalOrange$d: {
+declare const nswAboriginalOrange$5: {
   '50': string
   '100': string
   '150': string
@@ -1041,7 +1209,7 @@ declare const nswAboriginalOrange$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBrown$d: {
+declare const nswAboriginalBrown$5: {
   '50': string
   '100': string
   '150': string
@@ -1062,7 +1230,7 @@ declare const nswAboriginalBrown$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalYellow$d: {
+declare const nswAboriginalYellow$5: {
   '50': string
   '100': string
   '150': string
@@ -1083,7 +1251,7 @@ declare const nswAboriginalYellow$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGreen$d: {
+declare const nswAboriginalGreen$5: {
   '50': string
   '100': string
   '150': string
@@ -1104,7 +1272,7 @@ declare const nswAboriginalGreen$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBlue$d: {
+declare const nswAboriginalBlue$5: {
   '50': string
   '100': string
   '150': string
@@ -1125,7 +1293,7 @@ declare const nswAboriginalBlue$d: {
   '900': string
   '950': string
 }
-declare const nswAboriginalPurple$d: {
+declare const nswAboriginalPurple$5: {
   '50': string
   '100': string
   '150': string
@@ -1146,14 +1314,98 @@ declare const nswAboriginalPurple$d: {
   '900': string
   '950': string
 }
-declare const white$d: string
-declare const black$d: string
+declare const success$l: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const warning$l: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const danger$l: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const info$l: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const white$5: string
+declare const black$5: string
 
 declare namespace globalJsOklch {
-  export { black$d as black, nswAboriginalBlue$d as nswAboriginalBlue, nswAboriginalBrown$d as nswAboriginalBrown, nswAboriginalGreen$d as nswAboriginalGreen, nswAboriginalGrey$d as nswAboriginalGrey, nswAboriginalOrange$d as nswAboriginalOrange, nswAboriginalPurple$d as nswAboriginalPurple, nswAboriginalRed$d as nswAboriginalRed, nswAboriginalYellow$d as nswAboriginalYellow, nswBlue$d as nswBlue, nswBrown$d as nswBrown, nswFuchsia$d as nswFuchsia, nswGreen$d as nswGreen, nswGrey$d as nswGrey, nswOrange$d as nswOrange, nswPurple$d as nswPurple, nswRed$d as nswRed, nswTeal$d as nswTeal, nswYellow$d as nswYellow, white$d as white };
+  export { black$5 as black, danger$l as danger, info$l as info, nswAboriginalBlue$5 as nswAboriginalBlue, nswAboriginalBrown$5 as nswAboriginalBrown, nswAboriginalGreen$5 as nswAboriginalGreen, nswAboriginalGrey$5 as nswAboriginalGrey, nswAboriginalOrange$5 as nswAboriginalOrange, nswAboriginalPurple$5 as nswAboriginalPurple, nswAboriginalRed$5 as nswAboriginalRed, nswAboriginalYellow$5 as nswAboriginalYellow, nswBlue$5 as nswBlue, nswBrown$5 as nswBrown, nswFuchsia$5 as nswFuchsia, nswGreen$5 as nswGreen, nswGrey$5 as nswGrey, nswOrange$5 as nswOrange, nswPurple$5 as nswPurple, nswRed$5 as nswRed, nswTeal$5 as nswTeal, nswYellow$5 as nswYellow, success$l as success, warning$l as warning, white$5 as white };
 }
 
-declare const nswGrey$c: {
+declare const nswGrey$4: {
   '50': string
   '100': string
   '150': string
@@ -1174,7 +1426,7 @@ declare const nswGrey$c: {
   '900': string
   '950': string
 }
-declare const nswGreen$c: {
+declare const nswGreen$4: {
   '50': string
   '100': string
   '150': string
@@ -1195,7 +1447,7 @@ declare const nswGreen$c: {
   '900': string
   '950': string
 }
-declare const nswTeal$c: {
+declare const nswTeal$4: {
   '50': string
   '100': string
   '150': string
@@ -1216,7 +1468,7 @@ declare const nswTeal$c: {
   '900': string
   '950': string
 }
-declare const nswBlue$c: {
+declare const nswBlue$4: {
   '50': string
   '100': string
   '150': string
@@ -1237,7 +1489,7 @@ declare const nswBlue$c: {
   '900': string
   '950': string
 }
-declare const nswPurple$c: {
+declare const nswPurple$4: {
   '50': string
   '100': string
   '150': string
@@ -1258,7 +1510,7 @@ declare const nswPurple$c: {
   '900': string
   '950': string
 }
-declare const nswFuchsia$c: {
+declare const nswFuchsia$4: {
   '50': string
   '100': string
   '150': string
@@ -1279,7 +1531,7 @@ declare const nswFuchsia$c: {
   '900': string
   '950': string
 }
-declare const nswRed$c: {
+declare const nswRed$4: {
   '50': string
   '100': string
   '150': string
@@ -1300,7 +1552,7 @@ declare const nswRed$c: {
   '900': string
   '950': string
 }
-declare const nswOrange$c: {
+declare const nswOrange$4: {
   '50': string
   '100': string
   '150': string
@@ -1321,7 +1573,7 @@ declare const nswOrange$c: {
   '900': string
   '950': string
 }
-declare const nswYellow$c: {
+declare const nswYellow$4: {
   '50': string
   '100': string
   '150': string
@@ -1342,7 +1594,7 @@ declare const nswYellow$c: {
   '900': string
   '950': string
 }
-declare const nswBrown$c: {
+declare const nswBrown$4: {
   '50': string
   '100': string
   '150': string
@@ -1363,7 +1615,7 @@ declare const nswBrown$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGrey$c: {
+declare const nswAboriginalGrey$4: {
   '50': string
   '100': string
   '150': string
@@ -1384,7 +1636,7 @@ declare const nswAboriginalGrey$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalRed$c: {
+declare const nswAboriginalRed$4: {
   '50': string
   '100': string
   '150': string
@@ -1405,7 +1657,7 @@ declare const nswAboriginalRed$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalOrange$c: {
+declare const nswAboriginalOrange$4: {
   '50': string
   '100': string
   '150': string
@@ -1426,7 +1678,7 @@ declare const nswAboriginalOrange$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBrown$c: {
+declare const nswAboriginalBrown$4: {
   '50': string
   '100': string
   '150': string
@@ -1447,7 +1699,7 @@ declare const nswAboriginalBrown$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalYellow$c: {
+declare const nswAboriginalYellow$4: {
   '50': string
   '100': string
   '150': string
@@ -1468,7 +1720,7 @@ declare const nswAboriginalYellow$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalGreen$c: {
+declare const nswAboriginalGreen$4: {
   '50': string
   '100': string
   '150': string
@@ -1489,7 +1741,7 @@ declare const nswAboriginalGreen$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalBlue$c: {
+declare const nswAboriginalBlue$4: {
   '50': string
   '100': string
   '150': string
@@ -1510,7 +1762,7 @@ declare const nswAboriginalBlue$c: {
   '900': string
   '950': string
 }
-declare const nswAboriginalPurple$c: {
+declare const nswAboriginalPurple$4: {
   '50': string
   '100': string
   '150': string
@@ -1531,2263 +1783,535 @@ declare const nswAboriginalPurple$c: {
   '900': string
   '950': string
 }
-declare const white$c: string
-declare const black$c: string
+declare const success$k: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const warning$k: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const danger$k: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const info$k: {
+  '50': string
+  '100': string
+  '150': string
+  '200': string
+  '250': string
+  '300': string
+  '350': string
+  '400': string
+  '450': string
+  '500': string
+  '550': string
+  '600': string
+  '650': string
+  '700': string
+  '750': string
+  '800': string
+  '850': string
+  '900': string
+  '950': string
+}
+declare const white$4: string
+declare const black$4: string
 
 declare namespace globalJsRgb {
-  export { black$c as black, nswAboriginalBlue$c as nswAboriginalBlue, nswAboriginalBrown$c as nswAboriginalBrown, nswAboriginalGreen$c as nswAboriginalGreen, nswAboriginalGrey$c as nswAboriginalGrey, nswAboriginalOrange$c as nswAboriginalOrange, nswAboriginalPurple$c as nswAboriginalPurple, nswAboriginalRed$c as nswAboriginalRed, nswAboriginalYellow$c as nswAboriginalYellow, nswBlue$c as nswBlue, nswBrown$c as nswBrown, nswFuchsia$c as nswFuchsia, nswGreen$c as nswGreen, nswGrey$c as nswGrey, nswOrange$c as nswOrange, nswPurple$c as nswPurple, nswRed$c as nswRed, nswTeal$c as nswTeal, nswYellow$c as nswYellow, white$c as white };
+  export { black$4 as black, danger$k as danger, info$k as info, nswAboriginalBlue$4 as nswAboriginalBlue, nswAboriginalBrown$4 as nswAboriginalBrown, nswAboriginalGreen$4 as nswAboriginalGreen, nswAboriginalGrey$4 as nswAboriginalGrey, nswAboriginalOrange$4 as nswAboriginalOrange, nswAboriginalPurple$4 as nswAboriginalPurple, nswAboriginalRed$4 as nswAboriginalRed, nswAboriginalYellow$4 as nswAboriginalYellow, nswBlue$4 as nswBlue, nswBrown$4 as nswBrown, nswFuchsia$4 as nswFuchsia, nswGreen$4 as nswGreen, nswGrey$4 as nswGrey, nswOrange$4 as nswOrange, nswPurple$4 as nswPurple, nswRed$4 as nswRed, nswTeal$4 as nswTeal, nswYellow$4 as nswYellow, success$k as success, warning$k as warning, white$4 as white };
 }
 
-declare const nswGrey$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswGreen$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswTeal$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBlue$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswPurple$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswFuchsia$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswRed$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswOrange$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswYellow$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBrown$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGrey$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalRed$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalOrange$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBrown$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalYellow$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGreen$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBlue$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalPurple$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const white$b: string
-declare const black$b: string
-
-declare namespace globalJsHexDark {
-  export { black$b as black, nswAboriginalBlue$b as nswAboriginalBlue, nswAboriginalBrown$b as nswAboriginalBrown, nswAboriginalGreen$b as nswAboriginalGreen, nswAboriginalGrey$b as nswAboriginalGrey, nswAboriginalOrange$b as nswAboriginalOrange, nswAboriginalPurple$b as nswAboriginalPurple, nswAboriginalRed$b as nswAboriginalRed, nswAboriginalYellow$b as nswAboriginalYellow, nswBlue$b as nswBlue, nswBrown$b as nswBrown, nswFuchsia$b as nswFuchsia, nswGreen$b as nswGreen, nswGrey$b as nswGrey, nswOrange$b as nswOrange, nswPurple$b as nswPurple, nswRed$b as nswRed, nswTeal$b as nswTeal, nswYellow$b as nswYellow, white$b as white };
-}
-
-declare const nswGrey$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswGreen$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswTeal$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBlue$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswPurple$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswFuchsia$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswRed$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswOrange$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswYellow$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBrown$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGrey$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalRed$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalOrange$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBrown$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalYellow$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGreen$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBlue$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalPurple$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const white$a: string
-declare const black$a: string
-
-declare namespace globalJsHslDark {
-  export { black$a as black, nswAboriginalBlue$a as nswAboriginalBlue, nswAboriginalBrown$a as nswAboriginalBrown, nswAboriginalGreen$a as nswAboriginalGreen, nswAboriginalGrey$a as nswAboriginalGrey, nswAboriginalOrange$a as nswAboriginalOrange, nswAboriginalPurple$a as nswAboriginalPurple, nswAboriginalRed$a as nswAboriginalRed, nswAboriginalYellow$a as nswAboriginalYellow, nswBlue$a as nswBlue, nswBrown$a as nswBrown, nswFuchsia$a as nswFuchsia, nswGreen$a as nswGreen, nswGrey$a as nswGrey, nswOrange$a as nswOrange, nswPurple$a as nswPurple, nswRed$a as nswRed, nswTeal$a as nswTeal, nswYellow$a as nswYellow, white$a as white };
-}
-
-declare const nswGrey$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswGreen$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswTeal$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBlue$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswPurple$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswFuchsia$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswRed$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswOrange$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswYellow$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBrown$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGrey$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalRed$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalOrange$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBrown$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalYellow$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGreen$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBlue$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalPurple$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const white$9: string
-declare const black$9: string
-
-declare namespace globalJsOklchDark {
-  export { black$9 as black, nswAboriginalBlue$9 as nswAboriginalBlue, nswAboriginalBrown$9 as nswAboriginalBrown, nswAboriginalGreen$9 as nswAboriginalGreen, nswAboriginalGrey$9 as nswAboriginalGrey, nswAboriginalOrange$9 as nswAboriginalOrange, nswAboriginalPurple$9 as nswAboriginalPurple, nswAboriginalRed$9 as nswAboriginalRed, nswAboriginalYellow$9 as nswAboriginalYellow, nswBlue$9 as nswBlue, nswBrown$9 as nswBrown, nswFuchsia$9 as nswFuchsia, nswGreen$9 as nswGreen, nswGrey$9 as nswGrey, nswOrange$9 as nswOrange, nswPurple$9 as nswPurple, nswRed$9 as nswRed, nswTeal$9 as nswTeal, nswYellow$9 as nswYellow, white$9 as white };
-}
-
-declare const nswGrey$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswGreen$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswTeal$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBlue$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswPurple$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswFuchsia$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswRed$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswOrange$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswYellow$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswBrown$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGrey$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalRed$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalOrange$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBrown$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalYellow$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalGreen$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalBlue$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const nswAboriginalPurple$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const white$8: string
-declare const black$8: string
-
-declare namespace globalJsRgbDark {
-  export { black$8 as black, nswAboriginalBlue$8 as nswAboriginalBlue, nswAboriginalBrown$8 as nswAboriginalBrown, nswAboriginalGreen$8 as nswAboriginalGreen, nswAboriginalGrey$8 as nswAboriginalGrey, nswAboriginalOrange$8 as nswAboriginalOrange, nswAboriginalPurple$8 as nswAboriginalPurple, nswAboriginalRed$8 as nswAboriginalRed, nswAboriginalYellow$8 as nswAboriginalYellow, nswBlue$8 as nswBlue, nswBrown$8 as nswBrown, nswFuchsia$8 as nswFuchsia, nswGreen$8 as nswGreen, nswGrey$8 as nswGrey, nswOrange$8 as nswOrange, nswPurple$8 as nswPurple, nswRed$8 as nswRed, nswTeal$8 as nswTeal, nswYellow$8 as nswYellow, white$8 as white };
-}
-
-declare const success$f: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const warning$f: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const danger$f: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
-}
-declare const info$f: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$f: {
+  default: string
+  subtle: string
+}
+declare const surface$f: {
+  default: string
+  raised: string
+  sunken: string
+}
+declare const text$f: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
+}
+declare const border$f: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$f: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$j: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$j: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$j: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$j: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsHex {
-  export { danger$f as danger, info$f as info, success$f as success, warning$f as warning };
+  export { action$f as action, background$f as background, border$f as border, danger$j as danger, info$j as info, success$j as success, surface$f as surface, text$f as text, warning$j as warning };
 }
 
-declare const success$e: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$e: {
+  default: string
+  subtle: string
 }
-declare const warning$e: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const surface$e: {
+  default: string
+  raised: string
+  sunken: string
 }
-declare const danger$e: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const text$e: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
 }
-declare const info$e: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const border$e: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$e: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$i: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$i: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$i: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$i: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsHsl {
-  export { danger$e as danger, info$e as info, success$e as success, warning$e as warning };
+  export { action$e as action, background$e as background, border$e as border, danger$i as danger, info$i as info, success$i as success, surface$e as surface, text$e as text, warning$i as warning };
 }
 
-declare const success$d: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$d: {
+  default: string
+  subtle: string
 }
-declare const warning$d: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const surface$d: {
+  default: string
+  raised: string
+  sunken: string
 }
-declare const danger$d: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const text$d: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
 }
-declare const info$d: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const border$d: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$d: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$h: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$h: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$h: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$h: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsOklch {
-  export { danger$d as danger, info$d as info, success$d as success, warning$d as warning };
+  export { action$d as action, background$d as background, border$d as border, danger$h as danger, info$h as info, success$h as success, surface$d as surface, text$d as text, warning$h as warning };
 }
 
-declare const success$c: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$c: {
+  default: string
+  subtle: string
 }
-declare const warning$c: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const surface$c: {
+  default: string
+  raised: string
+  sunken: string
 }
-declare const danger$c: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const text$c: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
 }
-declare const info$c: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const border$c: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$c: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$g: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$g: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$g: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$g: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsRgb {
-  export { danger$c as danger, info$c as info, success$c as success, warning$c as warning };
+  export { action$c as action, background$c as background, border$c as border, danger$g as danger, info$g as info, success$g as success, surface$c as surface, text$c as text, warning$g as warning };
 }
 
-declare const success$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$b: {
+  default: string
+  subtle: string
 }
-declare const warning$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const surface$b: {
+  default: string
+  raised: string
+  sunken: string
 }
-declare const danger$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const text$b: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
 }
-declare const info$b: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const border$b: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$b: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$f: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$f: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$f: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$f: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsHexDark {
-  export { danger$b as danger, info$b as info, success$b as success, warning$b as warning };
+  export { action$b as action, background$b as background, border$b as border, danger$f as danger, info$f as info, success$f as success, surface$b as surface, text$b as text, warning$f as warning };
 }
 
-declare const success$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$a: {
+  default: string
+  subtle: string
 }
-declare const warning$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const surface$a: {
+  default: string
+  raised: string
+  sunken: string
 }
-declare const danger$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const text$a: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
 }
-declare const info$a: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const border$a: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$a: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$e: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$e: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$e: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$e: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsHslDark {
-  export { danger$a as danger, info$a as info, success$a as success, warning$a as warning };
+  export { action$a as action, background$a as background, border$a as border, danger$e as danger, info$e as info, success$e as success, surface$a as surface, text$a as text, warning$e as warning };
 }
 
-declare const success$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$9: {
+  default: string
+  subtle: string
 }
-declare const warning$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const surface$9: {
+  default: string
+  raised: string
+  sunken: string
 }
-declare const danger$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const text$9: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
 }
-declare const info$9: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const border$9: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$9: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$d: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$d: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$d: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$d: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsOklchDark {
-  export { danger$9 as danger, info$9 as info, success$9 as success, warning$9 as warning };
+  export { action$9 as action, background$9 as background, border$9 as border, danger$d as danger, info$d as info, success$d as success, surface$9 as surface, text$9 as text, warning$d as warning };
 }
 
-declare const success$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const background$8: {
+  default: string
+  subtle: string
 }
-declare const warning$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const surface$8: {
+  default: string
+  raised: string
+  sunken: string
 }
-declare const danger$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const text$8: {
+  default: string
+  muted: string
+  subtle: string
+  inverse: string
+  link: string
 }
-declare const info$8: {
-  '50': string
-  '100': string
-  '150': string
-  '200': string
-  '250': string
-  '300': string
-  '350': string
-  '400': string
-  '450': string
-  '500': string
-  '550': string
-  '600': string
-  '650': string
-  '700': string
-  '750': string
-  '800': string
-  '850': string
-  '900': string
-  '950': string
+declare const border$8: {
+  default: string
+  subtle: string
+  strong: string
+}
+declare const action$8: {
+  default: string
+  hover: string
+  subtle: string
+}
+declare const success$c: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const warning$c: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const danger$c: {
+  surface: string
+  text: string
+  border: string
+  solid: string
+}
+declare const info$c: {
+  surface: string
+  text: string
+  border: string
+  solid: string
 }
 
 declare namespace semanticJsRgbDark {
-  export { danger$8 as danger, info$8 as info, success$8 as success, warning$8 as warning };
+  export { action$8 as action, background$8 as background, border$8 as border, danger$c as danger, info$c as info, success$c as success, surface$8 as surface, text$8 as text, warning$c as warning };
 }
 
 declare const primary$n: {
@@ -5759,1546 +4283,6 @@ declare namespace zIndexJsGlobal {
   export { zIndex$1 as zIndex };
 }
 
-declare const nswGrey$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswGreen$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswTeal$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBlue$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswPurple$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswFuchsia$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswRed$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswOrange$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswYellow$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBrown$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGrey$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalRed$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalOrange$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBrown$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalYellow$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGreen$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBlue$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalPurple$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const white$7 = "#ffffff";
-declare const black$7 = "#000000";
-
-declare namespace globalTsHex {
-  export { black$7 as black, nswAboriginalBlue$7 as nswAboriginalBlue, nswAboriginalBrown$7 as nswAboriginalBrown, nswAboriginalGreen$7 as nswAboriginalGreen, nswAboriginalGrey$7 as nswAboriginalGrey, nswAboriginalOrange$7 as nswAboriginalOrange, nswAboriginalPurple$7 as nswAboriginalPurple, nswAboriginalRed$7 as nswAboriginalRed, nswAboriginalYellow$7 as nswAboriginalYellow, nswBlue$7 as nswBlue, nswBrown$7 as nswBrown, nswFuchsia$7 as nswFuchsia, nswGreen$7 as nswGreen, nswGrey$7 as nswGrey, nswOrange$7 as nswOrange, nswPurple$7 as nswPurple, nswRed$7 as nswRed, nswTeal$7 as nswTeal, nswYellow$7 as nswYellow, white$7 as white };
-}
-
-declare const nswGrey$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswGreen$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswTeal$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBlue$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswPurple$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswFuchsia$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswRed$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswOrange$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswYellow$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBrown$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGrey$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalRed$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalOrange$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBrown$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalYellow$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGreen$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBlue$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalPurple$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const white$6 = "hsl(0, 0%, 100%)";
-declare const black$6 = "hsl(0, 0%, 0%)";
-
-declare namespace globalTsHsl {
-  export { black$6 as black, nswAboriginalBlue$6 as nswAboriginalBlue, nswAboriginalBrown$6 as nswAboriginalBrown, nswAboriginalGreen$6 as nswAboriginalGreen, nswAboriginalGrey$6 as nswAboriginalGrey, nswAboriginalOrange$6 as nswAboriginalOrange, nswAboriginalPurple$6 as nswAboriginalPurple, nswAboriginalRed$6 as nswAboriginalRed, nswAboriginalYellow$6 as nswAboriginalYellow, nswBlue$6 as nswBlue, nswBrown$6 as nswBrown, nswFuchsia$6 as nswFuchsia, nswGreen$6 as nswGreen, nswGrey$6 as nswGrey, nswOrange$6 as nswOrange, nswPurple$6 as nswPurple, nswRed$6 as nswRed, nswTeal$6 as nswTeal, nswYellow$6 as nswYellow, white$6 as white };
-}
-
-declare const nswGrey$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswGreen$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswTeal$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBlue$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswPurple$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswFuchsia$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswRed$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswOrange$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswYellow$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBrown$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGrey$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalRed$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalOrange$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBrown$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalYellow$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGreen$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBlue$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalPurple$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const white$5 = "oklch(1 0 0)";
-declare const black$5 = "oklch(0 0 0)";
-
-declare namespace globalTsOklch {
-  export { black$5 as black, nswAboriginalBlue$5 as nswAboriginalBlue, nswAboriginalBrown$5 as nswAboriginalBrown, nswAboriginalGreen$5 as nswAboriginalGreen, nswAboriginalGrey$5 as nswAboriginalGrey, nswAboriginalOrange$5 as nswAboriginalOrange, nswAboriginalPurple$5 as nswAboriginalPurple, nswAboriginalRed$5 as nswAboriginalRed, nswAboriginalYellow$5 as nswAboriginalYellow, nswBlue$5 as nswBlue, nswBrown$5 as nswBrown, nswFuchsia$5 as nswFuchsia, nswGreen$5 as nswGreen, nswGrey$5 as nswGrey, nswOrange$5 as nswOrange, nswPurple$5 as nswPurple, nswRed$5 as nswRed, nswTeal$5 as nswTeal, nswYellow$5 as nswYellow, white$5 as white };
-}
-
-declare const nswGrey$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswGreen$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswTeal$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBlue$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswPurple$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswFuchsia$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswRed$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswOrange$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswYellow$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswBrown$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGrey$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalRed$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalOrange$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBrown$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalYellow$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalGreen$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalBlue$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const nswAboriginalPurple$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
-};
-declare const white$4 = "rgb(255, 255, 255)";
-declare const black$4 = "rgb(0, 0, 0)";
-
-declare namespace globalTsRgb {
-  export { black$4 as black, nswAboriginalBlue$4 as nswAboriginalBlue, nswAboriginalBrown$4 as nswAboriginalBrown, nswAboriginalGreen$4 as nswAboriginalGreen, nswAboriginalGrey$4 as nswAboriginalGrey, nswAboriginalOrange$4 as nswAboriginalOrange, nswAboriginalPurple$4 as nswAboriginalPurple, nswAboriginalRed$4 as nswAboriginalRed, nswAboriginalYellow$4 as nswAboriginalYellow, nswBlue$4 as nswBlue, nswBrown$4 as nswBrown, nswFuchsia$4 as nswFuchsia, nswGreen$4 as nswGreen, nswGrey$4 as nswGrey, nswOrange$4 as nswOrange, nswPurple$4 as nswPurple, nswRed$4 as nswRed, nswTeal$4 as nswTeal, nswYellow$4 as nswYellow, white$4 as white };
-}
-
 declare const nswGrey$3: {
     '50': string;
     '100': string;
@@ -7677,11 +4661,95 @@ declare const nswAboriginalPurple$3: {
     '900': string;
     '950': string;
 };
+declare const success$b: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning$b: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger$b: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info$b: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
 declare const white$3 = "#ffffff";
 declare const black$3 = "#000000";
 
-declare namespace globalTsHexDark {
-  export { black$3 as black, nswAboriginalBlue$3 as nswAboriginalBlue, nswAboriginalBrown$3 as nswAboriginalBrown, nswAboriginalGreen$3 as nswAboriginalGreen, nswAboriginalGrey$3 as nswAboriginalGrey, nswAboriginalOrange$3 as nswAboriginalOrange, nswAboriginalPurple$3 as nswAboriginalPurple, nswAboriginalRed$3 as nswAboriginalRed, nswAboriginalYellow$3 as nswAboriginalYellow, nswBlue$3 as nswBlue, nswBrown$3 as nswBrown, nswFuchsia$3 as nswFuchsia, nswGreen$3 as nswGreen, nswGrey$3 as nswGrey, nswOrange$3 as nswOrange, nswPurple$3 as nswPurple, nswRed$3 as nswRed, nswTeal$3 as nswTeal, nswYellow$3 as nswYellow, white$3 as white };
+declare namespace globalTsHex {
+  export { black$3 as black, danger$b as danger, info$b as info, nswAboriginalBlue$3 as nswAboriginalBlue, nswAboriginalBrown$3 as nswAboriginalBrown, nswAboriginalGreen$3 as nswAboriginalGreen, nswAboriginalGrey$3 as nswAboriginalGrey, nswAboriginalOrange$3 as nswAboriginalOrange, nswAboriginalPurple$3 as nswAboriginalPurple, nswAboriginalRed$3 as nswAboriginalRed, nswAboriginalYellow$3 as nswAboriginalYellow, nswBlue$3 as nswBlue, nswBrown$3 as nswBrown, nswFuchsia$3 as nswFuchsia, nswGreen$3 as nswGreen, nswGrey$3 as nswGrey, nswOrange$3 as nswOrange, nswPurple$3 as nswPurple, nswRed$3 as nswRed, nswTeal$3 as nswTeal, nswYellow$3 as nswYellow, success$b as success, warning$b as warning, white$3 as white };
 }
 
 declare const nswGrey$2: {
@@ -8062,11 +5130,95 @@ declare const nswAboriginalPurple$2: {
     '900': string;
     '950': string;
 };
+declare const success$a: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning$a: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger$a: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info$a: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
 declare const white$2 = "hsl(0, 0%, 100%)";
 declare const black$2 = "hsl(0, 0%, 0%)";
 
-declare namespace globalTsHslDark {
-  export { black$2 as black, nswAboriginalBlue$2 as nswAboriginalBlue, nswAboriginalBrown$2 as nswAboriginalBrown, nswAboriginalGreen$2 as nswAboriginalGreen, nswAboriginalGrey$2 as nswAboriginalGrey, nswAboriginalOrange$2 as nswAboriginalOrange, nswAboriginalPurple$2 as nswAboriginalPurple, nswAboriginalRed$2 as nswAboriginalRed, nswAboriginalYellow$2 as nswAboriginalYellow, nswBlue$2 as nswBlue, nswBrown$2 as nswBrown, nswFuchsia$2 as nswFuchsia, nswGreen$2 as nswGreen, nswGrey$2 as nswGrey, nswOrange$2 as nswOrange, nswPurple$2 as nswPurple, nswRed$2 as nswRed, nswTeal$2 as nswTeal, nswYellow$2 as nswYellow, white$2 as white };
+declare namespace globalTsHsl {
+  export { black$2 as black, danger$a as danger, info$a as info, nswAboriginalBlue$2 as nswAboriginalBlue, nswAboriginalBrown$2 as nswAboriginalBrown, nswAboriginalGreen$2 as nswAboriginalGreen, nswAboriginalGrey$2 as nswAboriginalGrey, nswAboriginalOrange$2 as nswAboriginalOrange, nswAboriginalPurple$2 as nswAboriginalPurple, nswAboriginalRed$2 as nswAboriginalRed, nswAboriginalYellow$2 as nswAboriginalYellow, nswBlue$2 as nswBlue, nswBrown$2 as nswBrown, nswFuchsia$2 as nswFuchsia, nswGreen$2 as nswGreen, nswGrey$2 as nswGrey, nswOrange$2 as nswOrange, nswPurple$2 as nswPurple, nswRed$2 as nswRed, nswTeal$2 as nswTeal, nswYellow$2 as nswYellow, success$a as success, warning$a as warning, white$2 as white };
 }
 
 declare const nswGrey$1: {
@@ -8447,11 +5599,95 @@ declare const nswAboriginalPurple$1: {
     '900': string;
     '950': string;
 };
+declare const success$9: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning$9: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger$9: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info$9: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
 declare const white$1 = "oklch(1 0 0)";
 declare const black$1 = "oklch(0 0 0)";
 
-declare namespace globalTsOklchDark {
-  export { black$1 as black, nswAboriginalBlue$1 as nswAboriginalBlue, nswAboriginalBrown$1 as nswAboriginalBrown, nswAboriginalGreen$1 as nswAboriginalGreen, nswAboriginalGrey$1 as nswAboriginalGrey, nswAboriginalOrange$1 as nswAboriginalOrange, nswAboriginalPurple$1 as nswAboriginalPurple, nswAboriginalRed$1 as nswAboriginalRed, nswAboriginalYellow$1 as nswAboriginalYellow, nswBlue$1 as nswBlue, nswBrown$1 as nswBrown, nswFuchsia$1 as nswFuchsia, nswGreen$1 as nswGreen, nswGrey$1 as nswGrey, nswOrange$1 as nswOrange, nswPurple$1 as nswPurple, nswRed$1 as nswRed, nswTeal$1 as nswTeal, nswYellow$1 as nswYellow, white$1 as white };
+declare namespace globalTsOklch {
+  export { black$1 as black, danger$9 as danger, info$9 as info, nswAboriginalBlue$1 as nswAboriginalBlue, nswAboriginalBrown$1 as nswAboriginalBrown, nswAboriginalGreen$1 as nswAboriginalGreen, nswAboriginalGrey$1 as nswAboriginalGrey, nswAboriginalOrange$1 as nswAboriginalOrange, nswAboriginalPurple$1 as nswAboriginalPurple, nswAboriginalRed$1 as nswAboriginalRed, nswAboriginalYellow$1 as nswAboriginalYellow, nswBlue$1 as nswBlue, nswBrown$1 as nswBrown, nswFuchsia$1 as nswFuchsia, nswGreen$1 as nswGreen, nswGrey$1 as nswGrey, nswOrange$1 as nswOrange, nswPurple$1 as nswPurple, nswRed$1 as nswRed, nswTeal$1 as nswTeal, nswYellow$1 as nswYellow, success$9 as success, warning$9 as warning, white$1 as white };
 }
 
 declare const nswGrey: {
@@ -8832,747 +6068,564 @@ declare const nswAboriginalPurple: {
     '900': string;
     '950': string;
 };
+declare const success$8: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const warning$8: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const danger$8: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
+declare const info$8: {
+    '50': string;
+    '100': string;
+    '150': string;
+    '200': string;
+    '250': string;
+    '300': string;
+    '350': string;
+    '400': string;
+    '450': string;
+    '500': string;
+    '550': string;
+    '600': string;
+    '650': string;
+    '700': string;
+    '750': string;
+    '800': string;
+    '850': string;
+    '900': string;
+    '950': string;
+};
 declare const white = "rgb(255, 255, 255)";
 declare const black = "rgb(0, 0, 0)";
 
-declare const globalTsRgbDark_black: typeof black;
-declare const globalTsRgbDark_nswAboriginalBlue: typeof nswAboriginalBlue;
-declare const globalTsRgbDark_nswAboriginalBrown: typeof nswAboriginalBrown;
-declare const globalTsRgbDark_nswAboriginalGreen: typeof nswAboriginalGreen;
-declare const globalTsRgbDark_nswAboriginalGrey: typeof nswAboriginalGrey;
-declare const globalTsRgbDark_nswAboriginalOrange: typeof nswAboriginalOrange;
-declare const globalTsRgbDark_nswAboriginalPurple: typeof nswAboriginalPurple;
-declare const globalTsRgbDark_nswAboriginalRed: typeof nswAboriginalRed;
-declare const globalTsRgbDark_nswAboriginalYellow: typeof nswAboriginalYellow;
-declare const globalTsRgbDark_nswBlue: typeof nswBlue;
-declare const globalTsRgbDark_nswBrown: typeof nswBrown;
-declare const globalTsRgbDark_nswFuchsia: typeof nswFuchsia;
-declare const globalTsRgbDark_nswGreen: typeof nswGreen;
-declare const globalTsRgbDark_nswGrey: typeof nswGrey;
-declare const globalTsRgbDark_nswOrange: typeof nswOrange;
-declare const globalTsRgbDark_nswPurple: typeof nswPurple;
-declare const globalTsRgbDark_nswRed: typeof nswRed;
-declare const globalTsRgbDark_nswTeal: typeof nswTeal;
-declare const globalTsRgbDark_nswYellow: typeof nswYellow;
-declare const globalTsRgbDark_white: typeof white;
-declare namespace globalTsRgbDark {
-  export { globalTsRgbDark_black as black, globalTsRgbDark_nswAboriginalBlue as nswAboriginalBlue, globalTsRgbDark_nswAboriginalBrown as nswAboriginalBrown, globalTsRgbDark_nswAboriginalGreen as nswAboriginalGreen, globalTsRgbDark_nswAboriginalGrey as nswAboriginalGrey, globalTsRgbDark_nswAboriginalOrange as nswAboriginalOrange, globalTsRgbDark_nswAboriginalPurple as nswAboriginalPurple, globalTsRgbDark_nswAboriginalRed as nswAboriginalRed, globalTsRgbDark_nswAboriginalYellow as nswAboriginalYellow, globalTsRgbDark_nswBlue as nswBlue, globalTsRgbDark_nswBrown as nswBrown, globalTsRgbDark_nswFuchsia as nswFuchsia, globalTsRgbDark_nswGreen as nswGreen, globalTsRgbDark_nswGrey as nswGrey, globalTsRgbDark_nswOrange as nswOrange, globalTsRgbDark_nswPurple as nswPurple, globalTsRgbDark_nswRed as nswRed, globalTsRgbDark_nswTeal as nswTeal, globalTsRgbDark_nswYellow as nswYellow, globalTsRgbDark_white as white };
+declare const globalTsRgb_black: typeof black;
+declare const globalTsRgb_nswAboriginalBlue: typeof nswAboriginalBlue;
+declare const globalTsRgb_nswAboriginalBrown: typeof nswAboriginalBrown;
+declare const globalTsRgb_nswAboriginalGreen: typeof nswAboriginalGreen;
+declare const globalTsRgb_nswAboriginalGrey: typeof nswAboriginalGrey;
+declare const globalTsRgb_nswAboriginalOrange: typeof nswAboriginalOrange;
+declare const globalTsRgb_nswAboriginalPurple: typeof nswAboriginalPurple;
+declare const globalTsRgb_nswAboriginalRed: typeof nswAboriginalRed;
+declare const globalTsRgb_nswAboriginalYellow: typeof nswAboriginalYellow;
+declare const globalTsRgb_nswBlue: typeof nswBlue;
+declare const globalTsRgb_nswBrown: typeof nswBrown;
+declare const globalTsRgb_nswFuchsia: typeof nswFuchsia;
+declare const globalTsRgb_nswGreen: typeof nswGreen;
+declare const globalTsRgb_nswGrey: typeof nswGrey;
+declare const globalTsRgb_nswOrange: typeof nswOrange;
+declare const globalTsRgb_nswPurple: typeof nswPurple;
+declare const globalTsRgb_nswRed: typeof nswRed;
+declare const globalTsRgb_nswTeal: typeof nswTeal;
+declare const globalTsRgb_nswYellow: typeof nswYellow;
+declare const globalTsRgb_white: typeof white;
+declare namespace globalTsRgb {
+  export { globalTsRgb_black as black, danger$8 as danger, info$8 as info, globalTsRgb_nswAboriginalBlue as nswAboriginalBlue, globalTsRgb_nswAboriginalBrown as nswAboriginalBrown, globalTsRgb_nswAboriginalGreen as nswAboriginalGreen, globalTsRgb_nswAboriginalGrey as nswAboriginalGrey, globalTsRgb_nswAboriginalOrange as nswAboriginalOrange, globalTsRgb_nswAboriginalPurple as nswAboriginalPurple, globalTsRgb_nswAboriginalRed as nswAboriginalRed, globalTsRgb_nswAboriginalYellow as nswAboriginalYellow, globalTsRgb_nswBlue as nswBlue, globalTsRgb_nswBrown as nswBrown, globalTsRgb_nswFuchsia as nswFuchsia, globalTsRgb_nswGreen as nswGreen, globalTsRgb_nswGrey as nswGrey, globalTsRgb_nswOrange as nswOrange, globalTsRgb_nswPurple as nswPurple, globalTsRgb_nswRed as nswRed, globalTsRgb_nswTeal as nswTeal, globalTsRgb_nswYellow as nswYellow, success$8 as success, warning$8 as warning, globalTsRgb_white as white };
 }
 
+declare const background$7: {
+    default: string;
+    subtle: string;
+};
+declare const surface$7: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text$7: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border$7: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action$7: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info$7: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
 declare namespace semanticTsHex {
-  export { danger$7 as danger, info$7 as info, success$7 as success, warning$7 as warning };
+  export { action$7 as action, background$7 as background, border$7 as border, danger$7 as danger, info$7 as info, success$7 as success, surface$7 as surface, text$7 as text, warning$7 as warning };
 }
 
+declare const background$6: {
+    default: string;
+    subtle: string;
+};
+declare const surface$6: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text$6: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border$6: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action$6: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info$6: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
 declare namespace semanticTsHsl {
-  export { danger$6 as danger, info$6 as info, success$6 as success, warning$6 as warning };
+  export { action$6 as action, background$6 as background, border$6 as border, danger$6 as danger, info$6 as info, success$6 as success, surface$6 as surface, text$6 as text, warning$6 as warning };
 }
 
+declare const background$5: {
+    default: string;
+    subtle: string;
+};
+declare const surface$5: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text$5: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border$5: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action$5: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info$5: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
 declare namespace semanticTsOklch {
-  export { danger$5 as danger, info$5 as info, success$5 as success, warning$5 as warning };
+  export { action$5 as action, background$5 as background, border$5 as border, danger$5 as danger, info$5 as info, success$5 as success, surface$5 as surface, text$5 as text, warning$5 as warning };
 }
 
+declare const background$4: {
+    default: string;
+    subtle: string;
+};
+declare const surface$4: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text$4: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border$4: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action$4: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info$4: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
 declare namespace semanticTsRgb {
-  export { danger$4 as danger, info$4 as info, success$4 as success, warning$4 as warning };
+  export { action$4 as action, background$4 as background, border$4 as border, danger$4 as danger, info$4 as info, success$4 as success, surface$4 as surface, text$4 as text, warning$4 as warning };
 }
 
+declare const background$3: {
+    default: string;
+    subtle: string;
+};
+declare const surface$3: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text$3: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border$3: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action$3: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success$3: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning$3: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger$3: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info$3: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
 declare namespace semanticTsHexDark {
-  export { danger$3 as danger, info$3 as info, success$3 as success, warning$3 as warning };
+  export { action$3 as action, background$3 as background, border$3 as border, danger$3 as danger, info$3 as info, success$3 as success, surface$3 as surface, text$3 as text, warning$3 as warning };
 }
 
+declare const background$2: {
+    default: string;
+    subtle: string;
+};
+declare const surface$2: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text$2: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border$2: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action$2: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success$2: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning$2: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger$2: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info$2: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
 declare namespace semanticTsHslDark {
-  export { danger$2 as danger, info$2 as info, success$2 as success, warning$2 as warning };
+  export { action$2 as action, background$2 as background, border$2 as border, danger$2 as danger, info$2 as info, success$2 as success, surface$2 as surface, text$2 as text, warning$2 as warning };
 }
 
+declare const background$1: {
+    default: string;
+    subtle: string;
+};
+declare const surface$1: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text$1: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border$1: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action$1: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success$1: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning$1: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger$1: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info$1: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
 declare namespace semanticTsOklchDark {
-  export { danger$1 as danger, info$1 as info, success$1 as success, warning$1 as warning };
+  export { action$1 as action, background$1 as background, border$1 as border, danger$1 as danger, info$1 as info, success$1 as success, surface$1 as surface, text$1 as text, warning$1 as warning };
 }
 
+declare const background: {
+    default: string;
+    subtle: string;
+};
+declare const surface: {
+    default: string;
+    raised: string;
+    sunken: string;
+};
+declare const text: {
+    default: string;
+    muted: string;
+    subtle: string;
+    inverse: string;
+    link: string;
+};
+declare const border: {
+    default: string;
+    subtle: string;
+    strong: string;
+};
+declare const action: {
+    default: string;
+    hover: string;
+    subtle: string;
+};
 declare const success: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const warning: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const danger: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 declare const info: {
-    '50': string;
-    '100': string;
-    '150': string;
-    '200': string;
-    '250': string;
-    '300': string;
-    '350': string;
-    '400': string;
-    '450': string;
-    '500': string;
-    '550': string;
-    '600': string;
-    '650': string;
-    '700': string;
-    '750': string;
-    '800': string;
-    '850': string;
-    '900': string;
-    '950': string;
+    surface: string;
+    text: string;
+    border: string;
+    solid: string;
 };
 
+declare const semanticTsRgbDark_action: typeof action;
+declare const semanticTsRgbDark_background: typeof background;
+declare const semanticTsRgbDark_border: typeof border;
 declare const semanticTsRgbDark_danger: typeof danger;
 declare const semanticTsRgbDark_info: typeof info;
 declare const semanticTsRgbDark_success: typeof success;
+declare const semanticTsRgbDark_surface: typeof surface;
+declare const semanticTsRgbDark_text: typeof text;
 declare const semanticTsRgbDark_warning: typeof warning;
 declare namespace semanticTsRgbDark {
-  export { semanticTsRgbDark_danger as danger, semanticTsRgbDark_info as info, semanticTsRgbDark_success as success, semanticTsRgbDark_warning as warning };
+  export { semanticTsRgbDark_action as action, semanticTsRgbDark_background as background, semanticTsRgbDark_border as border, semanticTsRgbDark_danger as danger, semanticTsRgbDark_info as info, semanticTsRgbDark_success as success, semanticTsRgbDark_surface as surface, semanticTsRgbDark_text as text, semanticTsRgbDark_warning as warning };
 }
 
 declare const primary$b: {
@@ -11589,12 +8642,6 @@ declare const tokens: {
             hsl: any;
             oklch: any;
             rgb: any;
-            dark: {
-                hex: any;
-                hsl: any;
-                oklch: any;
-                rgb: any;
-            };
         };
         semantic: {
             hex: any;
@@ -11641,18 +8688,6 @@ declare const tokens: {
             hsl: string;
             oklch: string;
             rgb: string;
-            dark: {
-                hex: string;
-                hsl: string;
-                oklch: string;
-                rgb: string;
-            };
-            darkMedia: {
-                hex: string;
-                hsl: string;
-                oklch: string;
-                rgb: string;
-            };
         };
         semantic: {
             hex: string;
@@ -11730,12 +8765,6 @@ declare const tokens: {
             hsl: typeof globalJsHsl;
             oklch: typeof globalJsOklch;
             rgb: typeof globalJsRgb;
-            dark: {
-                hex: typeof globalJsHexDark;
-                hsl: typeof globalJsHslDark;
-                oklch: typeof globalJsOklchDark;
-                rgb: typeof globalJsRgbDark;
-            };
         };
         semantic: {
             hex: typeof semanticJsHex;
@@ -11807,12 +8836,6 @@ declare const tokens: {
             hsl: any;
             oklch: any;
             rgb: any;
-            dark: {
-                hex: any;
-                hsl: any;
-                oklch: any;
-                rgb: any;
-            };
         };
         semantic: {
             hex: any;
@@ -11884,12 +8907,6 @@ declare const tokens: {
             hsl: string;
             oklch: string;
             rgb: string;
-            dark: {
-                hex: string;
-                hsl: string;
-                oklch: string;
-                rgb: string;
-            };
         };
         semantic: {
             hex: string;
@@ -11961,12 +8978,6 @@ declare const tokens: {
             hsl: string;
             oklch: string;
             rgb: string;
-            dark: {
-                hex: string;
-                hsl: string;
-                oklch: string;
-                rgb: string;
-            };
         };
         semantic: {
             hex: string;
@@ -12102,12 +9113,6 @@ declare const tokens: {
             hsl: typeof globalTsHsl;
             oklch: typeof globalTsOklch;
             rgb: typeof globalTsRgb;
-            dark: {
-                hex: typeof globalTsHexDark;
-                hsl: typeof globalTsHslDark;
-                oklch: typeof globalTsOklchDark;
-                rgb: typeof globalTsRgbDark;
-            };
         };
         semantic: {
             hex: typeof semanticTsHex;
@@ -12180,12 +9185,6 @@ declare const colorTokens: {
         hsl: any;
         oklch: any;
         rgb: any;
-        dark: {
-            hex: any;
-            hsl: any;
-            oklch: any;
-            rgb: any;
-        };
     };
     semantic: {
         hex: any;
@@ -12232,18 +9231,6 @@ declare const cssTokens: {
         hsl: string;
         oklch: string;
         rgb: string;
-        dark: {
-            hex: string;
-            hsl: string;
-            oklch: string;
-            rgb: string;
-        };
-        darkMedia: {
-            hex: string;
-            hsl: string;
-            oklch: string;
-            rgb: string;
-        };
     };
     semantic: {
         hex: string;
@@ -12321,12 +9308,6 @@ declare const jsTokens: {
         hsl: typeof globalJsHsl;
         oklch: typeof globalJsOklch;
         rgb: typeof globalJsRgb;
-        dark: {
-            hex: typeof globalJsHexDark;
-            hsl: typeof globalJsHslDark;
-            oklch: typeof globalJsOklchDark;
-            rgb: typeof globalJsRgbDark;
-        };
     };
     semantic: {
         hex: typeof semanticJsHex;
@@ -12398,12 +9379,6 @@ declare const jsonTokens: {
         hsl: any;
         oklch: any;
         rgb: any;
-        dark: {
-            hex: any;
-            hsl: any;
-            oklch: any;
-            rgb: any;
-        };
     };
     semantic: {
         hex: any;
@@ -12475,12 +9450,6 @@ declare const lessTokens: {
         hsl: string;
         oklch: string;
         rgb: string;
-        dark: {
-            hex: string;
-            hsl: string;
-            oklch: string;
-            rgb: string;
-        };
     };
     semantic: {
         hex: string;
@@ -12552,12 +9521,6 @@ declare const scssTokens: {
         hsl: string;
         oklch: string;
         rgb: string;
-        dark: {
-            hex: string;
-            hsl: string;
-            oklch: string;
-            rgb: string;
-        };
     };
     semantic: {
         hex: string;
@@ -12693,12 +9656,6 @@ declare const tsTokens: {
         hsl: typeof globalTsHsl;
         oklch: typeof globalTsOklch;
         rgb: typeof globalTsRgb;
-        dark: {
-            hex: typeof globalTsHexDark;
-            hsl: typeof globalTsHslDark;
-            oklch: typeof globalTsOklchDark;
-            rgb: typeof globalTsRgbDark;
-        };
     };
     semantic: {
         hex: typeof semanticTsHex;

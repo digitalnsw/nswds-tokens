@@ -45,7 +45,6 @@ const TARGETS = [
   { staging: 'tokens/typography.base.json', canonical: 'tokens/global/typography/canonical.json' },
   { staging: 'tokens/border.base.json', canonical: 'tokens/global/border/canonical.json' },
   // D2 (requires manifest entries first — see NOTE above):
-  // { staging: 'tokens/primitives-global.dark.json', canonical: 'tokens/global/color/canonical.dark.json', extensionsFrom: 'tokens/primitives-global.light.json' },
   // { staging: 'tokens/primitives-semantic.dark.json', canonical: 'tokens/semantic/color/canonical.dark.json', extensionsFrom: 'tokens/primitives-semantic.light.json' },
 ]
 

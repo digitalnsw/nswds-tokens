@@ -4823,6 +4823,1078 @@
       }
     }
   },
+  "success": {
+    "50": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.97135,
+          0.019006,
+          140.501237
+        ],
+        "alpha": 1,
+        "hex": "#eff9ed"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.944414,
+          0.03435,
+          142.617675
+        ],
+        "alpha": 1,
+        "hex": "#e0f3de"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.916251,
+          0.047557,
+          142.315326
+        ],
+        "alpha": 1,
+        "hex": "#d2eccf"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.888142,
+          0.060884,
+          142.11755
+        ],
+        "alpha": 1,
+        "hex": "#c4e5c0"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.831935,
+          0.081627,
+          142.168533
+        ],
+        "alpha": 1,
+        "hex": "#aad6a5"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.775209,
+          0.103098,
+          142.532525
+        ],
+        "alpha": 1,
+        "hex": "#8fc78a"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.716492,
+          0.122642,
+          142.635863
+        ],
+        "alpha": 1,
+        "hex": "#74b76f"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.660489,
+          0.143002,
+          142.833374
+        ],
+        "alpha": 1,
+        "hex": "#58a854"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.633907,
+          0.153727,
+          142.929021
+        ],
+        "alpha": 1,
+        "hex": "#49a146"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.604784,
+          0.163709,
+          142.769697
+        ],
+        "alpha": 1,
+        "hex": "#399936"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.57829,
+          0.174808,
+          142.795704
+        ],
+        "alpha": 1,
+        "hex": "#259224"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.549041,
+          0.184944,
+          142.800761
+        ],
+        "alpha": 1,
+        "hex": "#008a07"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.478504,
+          0.161407,
+          142.758807
+        ],
+        "alpha": 1,
+        "hex": "#007204"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.40526,
+          0.136911,
+          142.712023
+        ],
+        "alpha": 1,
+        "hex": "#005a02"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.335094,
+          0.113301,
+          142.686907
+        ],
+        "alpha": 1,
+        "hex": "#004401"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.26443,
+          0.089979,
+          142.495345
+        ],
+        "alpha": 1,
+        "hex": "#002f00"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.218312,
+          0.074286,
+          142.495345
+        ],
+        "alpha": 1,
+        "hex": "#002200"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.173455,
+          0.059022,
+          142.495345
+        ],
+        "alpha": 1,
+        "hex": "#001600"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.1296,
+          0.044099,
+          142.495345
+        ],
+        "alpha": 1,
+        "hex": "#000b00"
+      }
+    }
+  },
+  "warning": {
+    "50": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.971893,
+          0.01526,
+          48.562489
+        ],
+        "alpha": 1,
+        "hex": "#fff3ed"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.946835,
+          0.028629,
+          45.030952
+        ],
+        "alpha": 1,
+        "hex": "#ffe8de"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.922108,
+          0.042396,
+          43.676216
+        ],
+        "alpha": 1,
+        "hex": "#ffddcf"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.895911,
+          0.054446,
+          43.945452
+        ],
+        "alpha": 1,
+        "hex": "#fdd2c0"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.843843,
+          0.073851,
+          43.908489
+        ],
+        "alpha": 1,
+        "hex": "#f6bda5"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.791422,
+          0.092884,
+          44.093664
+        ],
+        "alpha": 1,
+        "hex": "#eea88a"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.739959,
+          0.112378,
+          44.054533
+        ],
+        "alpha": 1,
+        "hex": "#e6936f"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.686894,
+          0.13202,
+          43.712861
+        ],
+        "alpha": 1,
+        "hex": "#dd7d53"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.660361,
+          0.141466,
+          43.83103
+        ],
+        "alpha": 1,
+        "hex": "#d87244"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.634409,
+          0.150779,
+          43.925238
+        ],
+        "alpha": 1,
+        "hex": "#d36734"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.609132,
+          0.159967,
+          44.109192
+        ],
+        "alpha": 1,
+        "hex": "#ce5c21"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.58333,
+          0.169705,
+          43.997259
+        ],
+        "alpha": 1,
+        "hex": "#c95000"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.507151,
+          0.15026,
+          42.423427
+        ],
+        "alpha": 1,
+        "hex": "#a83f03"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.431173,
+          0.130695,
+          40.89405
+        ],
+        "alpha": 1,
+        "hex": "#882f03"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.354963,
+          0.110993,
+          39.686374
+        ],
+        "alpha": 1,
+        "hex": "#692001"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.278045,
+          0.090492,
+          38.267541
+        ],
+        "alpha": 1,
+        "hex": "#4b1200"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.230061,
+          0.077034,
+          36.983064
+        ],
+        "alpha": 1,
+        "hex": "#390a00"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.18011,
+          0.062518,
+          35.437897
+        ],
+        "alpha": 1,
+        "hex": "#270400"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Warning state — caution and actions that need attention. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.132509,
+          0.049077,
+          32.856899
+        ],
+        "alpha": 1,
+        "hex": "#170100"
+      }
+    }
+  },
+  "danger": {
+    "50": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.966669,
+          0.016317,
+          22.079707
+        ],
+        "alpha": 1,
+        "hex": "#fff0ef"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.936228,
+          0.032074,
+          20.106519
+        ],
+        "alpha": 1,
+        "hex": "#ffe2e1"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.90654,
+          0.04838,
+          18.081137
+        ],
+        "alpha": 1,
+        "hex": "#ffd4d4"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.875232,
+          0.062981,
+          18.428147
+        ],
+        "alpha": 1,
+        "hex": "#fdc6c6"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.813013,
+          0.084945,
+          18.165704
+        ],
+        "alpha": 1,
+        "hex": "#f4acad"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.75077,
+          0.106785,
+          18.43901
+        ],
+        "alpha": 1,
+        "hex": "#ea9294"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.689178,
+          0.12804,
+          18.526045
+        ],
+        "alpha": 1,
+        "hex": "#df787c"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.62753,
+          0.149171,
+          18.309398
+        ],
+        "alpha": 1,
+        "hex": "#d35d65"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.596213,
+          0.160938,
+          18.339163
+        ],
+        "alpha": 1,
+        "hex": "#cd4e59"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.565284,
+          0.170522,
+          18.2478
+        ],
+        "alpha": 1,
+        "hex": "#c63f4e"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.532839,
+          0.182017,
+          18.232802
+        ],
+        "alpha": 1,
+        "hex": "#bf2c42"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.501996,
+          0.192725,
+          18.079135
+        ],
+        "alpha": 1,
+        "hex": "#b81237"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.436904,
+          0.169068,
+          18.82836
+        ],
+        "alpha": 1,
+        "hex": "#990b2a"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.374388,
+          0.145685,
+          19.336218
+        ],
+        "alpha": 1,
+        "hex": "#7c061f"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.30874,
+          0.121759,
+          19.939515
+        ],
+        "alpha": 1,
+        "hex": "#5f0214"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.244464,
+          0.098267,
+          20.667881
+        ],
+        "alpha": 1,
+        "hex": "#44000a"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.202838,
+          0.081665,
+          21.65418
+        ],
+        "alpha": 1,
+        "hex": "#330005"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.161611,
+          0.065248,
+          23.141473
+        ],
+        "alpha": 1,
+        "hex": "#230002"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Danger state — errors and destructive or critical actions. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.120777,
+          0.048658,
+          22.023968
+        ],
+        "alpha": 1,
+        "hex": "#140001"
+      }
+    }
+  },
+  "info": {
+    "50": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.947933,
+          0.013249,
+          262.378766
+        ],
+        "alpha": 1,
+        "hex": "#e9eef7"
+      }
+    },
+    "100": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.894885,
+          0.02153,
+          259.191552
+        ],
+        "alpha": 1,
+        "hex": "#d4ddeb"
+      }
+    },
+    "150": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: subtle backgrounds and surfaces.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.84226,
+          0.030869,
+          260.704222
+        ],
+        "alpha": 1,
+        "hex": "#c0cce0"
+      }
+    },
+    "200": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 200: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.788988,
+          0.040588,
+          261.491472
+        ],
+        "alpha": 1,
+        "hex": "#acbbd5"
+      }
+    },
+    "250": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 250: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.732279,
+          0.055255,
+          262.600626
+        ],
+        "alpha": 1,
+        "hex": "#96a9cc"
+      }
+    },
+    "300": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 300: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.676764,
+          0.068234,
+          261.470834
+        ],
+        "alpha": 1,
+        "hex": "#8098c2"
+      }
+    },
+    "350": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 350: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.619287,
+          0.082332,
+          262.339289
+        ],
+        "alpha": 1,
+        "hex": "#6b86b8"
+      }
+    },
+    "400": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 400: Interactive components.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.564226,
+          0.095527,
+          262.52779
+        ],
+        "alpha": 1,
+        "hex": "#5775ae"
+      }
+    },
+    "450": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.535493,
+          0.102893,
+          262.922919
+        ],
+        "alpha": 1,
+        "hex": "#4d6ca9"
+      }
+    },
+    "500": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.508435,
+          0.109592,
+          262.050185
+        ],
+        "alpha": 1,
+        "hex": "#4264a4"
+      }
+    },
+    "550": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.479149,
+          0.115698,
+          262.137071
+        ],
+        "alpha": 1,
+        "hex": "#385b9e"
+      }
+    },
+    "600": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.450622,
+          0.123283,
+          262.351496
+        ],
+        "alpha": 1,
+        "hex": "#2e5299"
+      }
+    },
+    "650": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: borders, separators and icons.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.390336,
+          0.109632,
+          262.276763
+        ],
+        "alpha": 1,
+        "hex": "#23427f"
+      }
+    },
+    "700": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 700: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.331327,
+          0.095363,
+          262.195822
+        ],
+        "alpha": 1,
+        "hex": "#193366"
+      }
+    },
+    "750": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 750: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.274244,
+          0.081954,
+          262.38017
+        ],
+        "alpha": 1,
+        "hex": "#10254f"
+      }
+    },
+    "800": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 800: Solid colors.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.213923,
+          0.06809,
+          262.409405
+        ],
+        "alpha": 1,
+        "hex": "#071738"
+      }
+    },
+    "850": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.177247,
+          0.057971,
+          262.994032
+        ],
+        "alpha": 1,
+        "hex": "#040f2a"
+      }
+    },
+    "900": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.137795,
+          0.047857,
+          264.580497
+        ],
+        "alpha": 1,
+        "hex": "#02071c"
+      }
+    },
+    "950": {
+      "$type": "color",
+      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: text and high emphasis.",
+      "$value": {
+        "colorSpace": "oklch",
+        "components": [
+          0.101112,
+          0.036894,
+          257.665016
+        ],
+        "alpha": 1,
+        "hex": "#00030f"
+      }
+    }
+  },
   "white": {
     "$type": "color",
     "$description": "Pure white — page backgrounds, content surfaces, and text on dark or solid fills.",

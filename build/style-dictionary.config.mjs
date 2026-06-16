@@ -96,10 +96,13 @@ const outName = (space, mode, ext) =>
 
 const makeConfig = (space, layer, mode = 'light') => {
   const view = viewFile(space, mode)
+  // The global palette is mode-agnostic (one light copy), so a non-global layer always
+  // loads the LIGHT global view for alias resolution — even in dark mode, where its own
+  // view is `*.dark.json` but `tokens/global/color/*.dark.json` no longer exists.
   const source =
     layer.key === 'global'
       ? [`tokens/global/color/${view}`]
-      : [`tokens/${layer.src}/${view}`, `tokens/global/color/${view}`]
+      : [`tokens/${layer.src}/${view}`, `tokens/global/color/${viewFile(space, 'light')}`]
   const filter = fromFile(`/${layer.src}/${view}`)
 
   const platform = (transforms, destination, format, options) => ({
@@ -177,8 +180,9 @@ const makeConfig = (space, layer, mode = 'light') => {
   }
 }
 
-// Layers that have a dark canonical today (global + semantic; themes follow in D3).
-const DARK_LAYER_KEYS = new Set(['global', 'semantic'])
+// Only the semantic role layer is mode-aware now — it re-aliases the single global palette
+// per mode. The global palette has no dark canonical (mode-agnostic); themes follow later.
+const DARK_LAYER_KEYS = new Set(['semantic'])
 
 // ── Non-colour categories (Phase 4) ────────────────────────────────────────────────────
 // One config per category — no colour-space dimension (there is exactly one representation
