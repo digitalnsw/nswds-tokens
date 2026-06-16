@@ -1,3 +1,23 @@
+## 4.0.0 (2026-06-16)
+
+* feat(tokens)!: semantic-driven dark mode — single palette, role tokens (#112) ([ebcc800](https://github.com/digitalnsw/nswds-tokens/commit/ebcc800)), closes [#112](https://github.com/digitalnsw/nswds-tokens/issues/112) [000/#fff](https://github.com/digitalnsw/nswds-tokens/issues/fff)
+
+### BREAKING CHANGE
+
+* replaces the naive-invert dark mode (parallel global +
+semantic .dark files with mechanically inverted literal hex) with the
+industry-standard 3-layer model. Only the semantic layer is mode-aware.
+
+- global/color: now the single, mode-agnostic palette. The status ramps
+  (success/warning/danger/info) move here as primitives. canonical.dark
+  and all global dark/dark-media outputs are removed.
+- semantic/color: re-architected from literal status ramps into
+  ALIAS-ONLY role tokens — background/surface/text/border/action +
+  feedback (success/warning/danger/info × surface/text/border/solid).
+  canonical.json (light) and canonical.dark.json (dark) both alias the
+  single global palette; dark = the same roles pointing at different
+  primitive steps. Best-practice scheme: elevation inverts (raised =
+
 ## 3.9.0 (2026-06-15)
 
 * feat(tokens): motion brief — expanded scale, transition composites, reduced motion (approved) (#111) ([92e0e87](https://github.com/digitalnsw/nswds-tokens/commit/92e0e87)), closes [#111](https://github.com/digitalnsw/nswds-tokens/issues/111)
