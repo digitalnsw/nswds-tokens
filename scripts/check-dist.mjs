@@ -55,8 +55,9 @@ if (distStatus) {
 // consumer's bundle-analyzer. Raise the budget deliberately when new categories land.
 // Raised 3 -> 4 MiB for the M1 colour descriptions: 342 intent comments embed into
 // every colour-space CSS file, which embed into the bundle as text (~3.1 MiB after).
-// Raised 4 -> 5 MiB for dark mode (D1): global + semantic gain a full dark output per
-// colour space and format (~4.3 MiB after). Expect another bump when themes go dark (D3).
+// Raised 4 -> 5 MiB for the first dark-mode pass. The semantic-driven re-architecture
+// then REMOVED the duplicated global dark outputs (only the semantic role layer is
+// mode-aware now), so the bundle dropped back; 5 MiB stays as comfortable headroom.
 const BUNDLE_BUDGET_BYTES = 5 * 1024 * 1024
 for (const bundle of ['dist/index.js', 'dist/index.cjs']) {
   const bytes = statSync(bundle).size

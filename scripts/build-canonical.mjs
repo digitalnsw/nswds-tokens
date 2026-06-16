@@ -35,7 +35,9 @@ const buildLayer = (hexObj) => {
 
 const LAYERS = [
   { hex: 'tokens/global/color/hex.json', out: 'tokens/global/color/canonical.json' },
-  { hex: 'tokens/semantic/color/hex.json', out: 'tokens/semantic/color/canonical.json' },
+  // NOTE: semantic/color is NOT listed. Since the dark-mode re-architecture, semantic is a
+  // hand-authored ALIAS-ONLY role layer ({nsw-grey.900}, …); regenerating it from hex.json
+  // would clobber the aliases back into resolved hex. Global + masterbrand stay generated.
   {
     hex: 'tokens/themes/color/masterbrand/hex.json',
     out: 'tokens/themes/color/masterbrand/canonical.json',

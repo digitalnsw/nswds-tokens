@@ -30,8 +30,9 @@ const canonicalPath = (dir, mode) =>
 const viewPath = (dir, file, mode) =>
   mode === 'light' ? `${dir}/${file}.json` : `${dir}/${file}.${mode}.json`
 
-// Per-mode lookups for resolving theme aliases ({nsw-blue.50}) to the matching mode's
-// global canonical sRGB value.
+// Per-mode lookups for resolving aliases ({nsw-blue.50}) to a global canonical sRGB value.
+// The global palette is mode-AGNOSTIC (one copy, no canonical.dark.json), so dark semantic
+// and theme aliases resolve against the single light global palette (see resolveAlias).
 const lookups = {}
 for (const mode of MODES) {
   const p = canonicalPath('tokens/global/color', mode)
@@ -49,12 +50,13 @@ for (const mode of MODES) {
   }
   lookups[mode] = lookup
 }
-// Fail fast with the alias and mode in the message: a missing per-mode global canonical
-// or a misspelled alias would otherwise surface as an undefined-property TypeError far
-// from the cause (latent until D3, when theme layers — which alias — gain dark canonicals).
+// The global palette is mode-agnostic, so any mode without its own global canonical (i.e.
+// every non-light mode) resolves aliases against the light global palette. The remaining
+// throws still fail fast with the alias/mode in the message — a missing light lookup or a
+// misspelled alias key would otherwise surface as an opaque undefined-property TypeError.
 const resolveAlias = (v, mode) => {
   if (!isAlias(v)) return v
-  const lookup = lookups[mode]
+  const lookup = lookups[mode] ?? lookups.light
   if (!lookup)
     throw new Error(
       `cannot resolve alias ${v}: no global colour canonical exists for mode "${mode}"`,

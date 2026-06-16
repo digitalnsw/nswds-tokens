@@ -206,11 +206,11 @@ export const nswFigma = ({ dictionary }) => {
 }
 
 // tailwind/colors/.../hex.css — Tailwind v4 @theme block. Layer-dependent:
-//   - concrete layers (global, semantic): `--color-X: var(--X)` + a :root block defining
-//     `--X: #hex`. The `inline` option adds `@theme inline {` (semantic only).
-//   - alias layers (masterbrand): `--color-<local>: var(--<aliasTarget>)` (e.g.
-//     primary-50 -> var(--nsw-blue-50)) and NO :root block — it relies on the referenced
-//     layer's vars being imported.
+//   - concrete layer (global): `--color-X: var(--X)` + a :root block defining `--X: #hex`.
+//   - alias layers (semantic role tokens, masterbrand theme): `--color-<local>:
+//     var(--<aliasTarget>)` (e.g. text-default -> var(--nsw-grey-900), primary-50 ->
+//     var(--nsw-blue-50)) and NO :root block — it relies on the referenced layer's vars
+//     being imported. semantic also gets `@theme inline {` via the `inline` option.
 // tailwind/<category>/global.css — Tailwind v4 @theme block for non-colour categories.
 // Unlike colours there is no :root indirection: dimension/typography namespaces
 // (--spacing-*, --radius-*, --text-*, …) get direct values. The token family maps to the

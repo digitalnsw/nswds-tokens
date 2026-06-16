@@ -31,13 +31,9 @@ const documentedSpecifiers = [
   // Phase 4d border + shadow
   '@nswds/tokens/css/border/global.css',
   '@nswds/tokens/tailwind/shadow/global.css',
-  // Dark mode (D1)
-  '@nswds/tokens/css/colors/global/hex.dark.css',
-  '@nswds/tokens/css/colors/global/hex.dark-media.css',
+  // Dark mode (semantic role layer)
   '@nswds/tokens/css/colors/semantic/hex.dark.css',
   '@nswds/tokens/css/colors/semantic/hex.dark-media.css',
-  '@nswds/tokens/js/colors/global/hex.dark.js',
-  '@nswds/tokens/tokens/global/color/hex.dark.json',
   // 2a Tailwind preset
   '@nswds/tokens/tailwind/preset.css',
   // 2c motion + z-index
@@ -150,12 +146,7 @@ for (const [label, mod] of [['ESM', esmModule], ['CJS', cjsModule]]) {
   assert.equal(typeof leaf, 'string', label + ': tokens.css.global.hex must be a plain string, got ' + typeof leaf)
   assert.ok(leaf.startsWith(':root'), label + ': tokens.css.global.hex must contain the stylesheet text')
   assert.equal(typeof mod.tokens.tailwind.space.global, 'string', label + ': tailwind leaves must be plain strings')
-  const dark = mod.tokens.css.global.dark.hex
-  assert.equal(typeof dark, 'string', label + ': tokens.css.global.dark.hex must be a plain string')
-  assert.ok(dark.startsWith("[data-theme='dark']"), label + ': dark CSS must scope under the dark selector')
-  const media = mod.tokens.css.global.darkMedia.hex
-  assert.ok(media.startsWith('@media (prefers-color-scheme: dark)'), label + ': darkMedia CSS must scope under the media query')
-  // Semantic dark outputs come from a separate SD config + file — guard them too.
+  // Dark mode lives only on the semantic role layer now (the global palette is mode-agnostic).
   const semanticDark = mod.tokens.css.semantic.dark.hex
   assert.ok(semanticDark.startsWith("[data-theme='dark']"), label + ': semantic dark CSS must scope under the dark selector')
   const semanticMedia = mod.tokens.css.semantic.darkMedia.hex
@@ -204,9 +195,7 @@ for (const [specifier, resolvedPath] of resolvedPaths) {
       'const md: string = radius.md',
       'const weight: number = heading1.fontWeight',
       'const css: string = tokens.css.global.hex // style leaves are plain typed strings',
-      'const darkCss: string = tokens.css.global.dark.hex // dark mode (D1) nested sub-object',
-      'const darkMediaCss: string = tokens.css.global.darkMedia.hex // prefers-color-scheme flavour',
-      'export { root, blue, md, weight, css, darkCss, darkMediaCss }',
+      'export { root, blue, md, weight, css }',
       '',
     ].join('\n'),
     'utf8',
