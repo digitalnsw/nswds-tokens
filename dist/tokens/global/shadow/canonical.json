@@ -108,7 +108,7 @@
   "shadow": {
     "sm": {
       "$type": "shadow",
-      "$description": "Small elevation — cards and raised controls (Tailwind shadow-sm geometry). DRAFT pending design review.",
+      "$description": "Small elevation — cards and raised controls (Tailwind shadow-sm geometry).",
       "$value": [
         {
           "offsetX": {
@@ -152,7 +152,7 @@
     },
     "md": {
       "$type": "shadow",
-      "$description": "Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry). DRAFT pending design review.",
+      "$description": "Medium elevation — dropdowns and popovers (Tailwind shadow-md geometry).",
       "$value": [
         {
           "offsetX": {
@@ -196,7 +196,7 @@
     },
     "lg": {
       "$type": "shadow",
-      "$description": "Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry). DRAFT pending design review.",
+      "$description": "Large elevation — dialogs and floating panels (Tailwind shadow-lg geometry).",
       "$value": [
         {
           "offsetX": {
@@ -240,7 +240,7 @@
     },
     "xl": {
       "$type": "shadow",
-      "$description": "Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry). DRAFT pending design review.",
+      "$description": "Extra-large elevation — modals and full overlays (Tailwind shadow-xl geometry).",
       "$value": [
         {
           "offsetX": {
