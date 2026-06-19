@@ -8,8 +8,10 @@ else
   REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 fi
 CONFIG_FILE="${CONVENTIONAL_CONFIG_FILE:-${REPO_ROOT}/git-conventional-commits.yaml}"
-# The YAML is only required when we can't read types from commitlint (checked
-# below). A commitlint-only repo with no YAML is valid.
+COMMIT_TYPES_JS="${CONVENTIONAL_COMMIT_TYPES_FILE:-${CONVENTIONAL_COMMIT_TYPES_JS:-${REPO_ROOT}/commit-types.cjs}}"
+# The YAML is only required when we can't read types from commit-types.cjs or
+# commitlint (checked below). A repo with neither YAML nor commit-types.cjs is
+# valid as long as commitlint resolves.
 
 extract_types() {
   awk '
@@ -129,6 +131,33 @@ to_csv() {
   '
 }
 
+# Read the single source of truth (commit-types.cjs) directly. Prefers Node, but
+# falls back to a quote-aware awk parse so the source stays readable in non-Node
+# environments. Returns non-zero (emitting nothing) when the file is absent or
+# unparseable, so callers fall through to commitlint/YAML.
+extract_types_from_js() {
+  [[ -f "$COMMIT_TYPES_JS" ]] || return 1
+  if command -v node >/dev/null 2>&1; then
+    node -e '
+      const t = require(process.argv[1]);
+      if (!Array.isArray(t) || t.length === 0) process.exit(1);
+      process.stdout.write(t.map(String).join("\n") + "\n");
+    ' "$COMMIT_TYPES_JS" 2>/dev/null && return 0
+  fi
+  # Node-less fallback: pull every quoted token between the array brackets.
+  awk '
+    /\[/ { in_arr = 1 }
+    in_arr {
+      line = $0;
+      while (match(line, /["'"'"']([^"'"'"']+)["'"'"']/)) {
+        print substr(line, RSTART + 1, RLENGTH - 2);
+        line = substr(line, RSTART + RLENGTH);
+      }
+    }
+    /\]/ { in_arr = 0 }
+  ' "$COMMIT_TYPES_JS"
+}
+
 # Prefer commitlint's resolved config so the shell tooling enforces exactly the
 # same type list as the commit-msg hook. Requires npx + a locally-installed
 # commitlint + jq. Returns non-zero (and emits nothing) when unavailable, so the
@@ -145,12 +174,20 @@ extract_types_from_commitlint() {
   ' 2>/dev/null
 }
 
-# Source selection. Default "auto" prefers commitlint, falls back to YAML.
-# Force a single source with CONVENTIONAL_CONFIG_SOURCE=commitlint|yaml — used by
-# the sync check to read each side independently.
+# Source selection. Default "auto" prefers commit-types.cjs (the source of
+# truth), then commitlint, then the YAML fallback. Force a single source with
+# CONVENTIONAL_CONFIG_SOURCE=js|commitlint|yaml — used by the sync check to read
+# each side independently.
 CONVENTIONAL_CONFIG_SOURCE="${CONVENTIONAL_CONFIG_SOURCE:-auto}"
 types=""
 case "$CONVENTIONAL_CONFIG_SOURCE" in
+  js)
+    types="$(extract_types_from_js || true)"
+    if [[ -z "$types" ]]; then
+      printf "❌ CONVENTIONAL_CONFIG_SOURCE=js but could not read types from %s\n" "$COMMIT_TYPES_JS" >&2
+      exit 1
+    fi
+    ;;
   commitlint)
     types="$(extract_types_from_commitlint || true)"
     if [[ -z "$types" ]]; then
@@ -166,17 +203,20 @@ case "$CONVENTIONAL_CONFIG_SOURCE" in
     types="$(extract_types)"
     ;;
   auto)
-    types="$(extract_types_from_commitlint || true)"
+    types="$(extract_types_from_js || true)"
+    if [[ -z "$types" ]]; then
+      types="$(extract_types_from_commitlint || true)"
+    fi
     if [[ -z "$types" ]]; then
       if [[ ! -f "$CONFIG_FILE" ]]; then
-        printf "❌ No commit types available: commitlint not resolvable and no YAML at %s\n" "$CONFIG_FILE" >&2
+        printf "❌ No commit types available: commit-types.cjs unreadable, commitlint not resolvable, and no YAML at %s\n" "$CONFIG_FILE" >&2
         exit 1
       fi
       types="$(extract_types)"
     fi
     ;;
   *)
-    printf "❌ Invalid CONVENTIONAL_CONFIG_SOURCE: %s (expected auto|commitlint|yaml)\n" "$CONVENTIONAL_CONFIG_SOURCE" >&2
+    printf "❌ Invalid CONVENTIONAL_CONFIG_SOURCE: %s (expected auto|js|commitlint|yaml)\n" "$CONVENTIONAL_CONFIG_SOURCE" >&2
     exit 1
     ;;
 esac

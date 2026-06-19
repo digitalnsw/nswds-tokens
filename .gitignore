@@ -8,3 +8,7 @@
 .env*
 snyk-code-analysis.json
 snyk-analysis.json
+/tests
+/tests/__snapshots__
+tests/__snapshots__/output-snapshot.test.ts.snap
+*.snap

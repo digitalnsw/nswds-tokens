@@ -1,4 +1,4 @@
-[data-theme='dark'] {
+[data-theme='dark'], .dark {
   --background-default: hsl(210, 28.571429%, 2.745098%); /** Page canvas — the base background behind all content. */
   --background-subtle: hsl(204, 15.151515%, 6.470588%); /** Subtly differentiated background for alternating or grouped sections. */
   --surface-default: hsl(204, 15.151515%, 6.470588%); /** Default container surface — cards, panels, and inputs on the page. */

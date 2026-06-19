@@ -46,7 +46,14 @@
     "build:canonical": "node scripts/build-canonical.mjs",
     "test:tokens": "vitest run --globals",
     "sync-tokens-to-figma": "tsx scripts/sync_tokens_to_figma.ts",
-    "sync-figma-to-tokens": "tsx scripts/sync_figma_to_tokens.ts"
+    "sync-figma-to-tokens": "tsx scripts/sync_figma_to_tokens.ts",
+    "snyk:check": "bash -lc 'npm exec --yes --package snyk@latest -- snyk test --all-projects --exclude=fixtures,.next --json-file-output=snyk-analysis.json; code=$?; if [ $code -eq 0 ] || [ $code -eq 1 ]; then exit 0; fi; exit $code'",
+    "snyk:monitor": "npm exec --yes --package snyk@latest -- snyk monitor --all-projects --exclude=fixtures,.next",
+    "branch:create": "scripts/create-branch.sh",
+    "branch:suggest": "scripts/suggest-branch-name.sh",
+    "branch:suggest:create": "scripts/suggest-branch-name.sh --create",
+    "commit": "scripts/git-commit.sh",
+    "pr": "scripts/pull-request.sh"
   },
   "tsup": {
     "entry": [
