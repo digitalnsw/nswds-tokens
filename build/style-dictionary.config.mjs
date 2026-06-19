@@ -86,7 +86,8 @@ const OBJECT_XF = ['name/kebab']
 // Modes (dark-mode milestone D1): mode 'light' is the implicit default (unsuffixed files,
 // byte-identical to the pre-mode outputs). Dark configs read the *.dark.json views and
 // write .dark-suffixed siblings for css/scss/less/js/ts/json. The dark CSS uses the
-// css/variables built-in `selector` option with [data-theme='dark']. figma and tailwind
+// css/variables built-in `selector` option, scoped to both [data-theme='dark'] and the
+// .dark class so it aligns with @nswds/ui's `@custom-variant dark (&:is(.dark *))`. figma and tailwind
 // platforms are deliberately light-only for now: Figma carries dark as a MODE on the same
 // variables (staging files, milestone D2), and the colour Tailwind files reference
 // var(--nsw-*) so they re-resolve when the dark CSS is loaded.
@@ -149,7 +150,7 @@ const makeConfig = (space, layer, mode = 'light') => {
         `css/colors/${layer.dir}/${outName(space, mode, 'css')}`,
         'css/variables',
         {
-          ...(mode !== 'light' ? { selector: "[data-theme='dark']" } : {}),
+          ...(mode !== 'light' ? { selector: "[data-theme='dark'], .dark" } : {}),
         },
       ),
       scss: platform(

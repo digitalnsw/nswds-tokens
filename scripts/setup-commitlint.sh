@@ -29,7 +29,38 @@ fi
 printf "📦 Installing commitlint + husky (dev dependencies)…\n"
 npm install --save-dev @commitlint/cli @commitlint/config-conventional husky
 
-# commitlint config: reuse the shared one if present, else write a sensible default.
+# commit-types.js is the single source of truth for the allowed types; the
+# commitlint config imports it. Provision it first so the config resolves.
+# Reuse the shared file if present, else write the canonical default.
+if [[ -f commit-types.js ]]; then
+  printf "✅ commit-types.js already present — leaving it untouched.\n"
+elif [[ -f "${SCRIPT_DIR}/../commit-types.js" ]]; then
+  cp "${SCRIPT_DIR}/../commit-types.js" commit-types.js
+  printf "✅ Copied shared commit-types.js into the repo.\n"
+else
+  cat > commit-types.js <<'EOF'
+// Single source of truth for the allowed conventional-commit types.
+// commitlint.config.mjs imports this array; edit the list here only.
+module.exports = [
+  'feat',
+  'fix',
+  'refactor',
+  'perf',
+  'style',
+  'test',
+  'build',
+  'ops',
+  'docs',
+  'chore',
+  'merge',
+  'revert',
+];
+EOF
+  printf "✅ Wrote a default commit-types.js.\n"
+fi
+
+# commitlint config: reuse the shared one if present, else write a sensible
+# default. Either way it imports the allowed types from commit-types.js above.
 if [[ -f commitlint.config.js || -f commitlint.config.cjs || -f commitlint.config.mjs || -f .commitlintrc.js || -f .commitlintrc.json || -f .commitlintrc.yml || -f .commitlintrc.yaml ]]; then
   printf "✅ commitlint config already present — leaving it untouched.\n"
 elif [[ -f "${SCRIPT_DIR}/../commitlint.config.mjs" ]]; then
@@ -37,18 +68,14 @@ elif [[ -f "${SCRIPT_DIR}/../commitlint.config.mjs" ]]; then
   printf "✅ Copied shared commitlint.config.mjs into the repo.\n"
 else
   cat > commitlint.config.mjs <<'EOF'
+// Allowed commit types come from commit-types.js — the single source of truth.
+import COMMIT_TYPES from './commit-types.js'
+
 /** @type {import('@commitlint/types').UserConfig} */
 const config = {
   extends: ['@commitlint/config-conventional'],
   rules: {
-    'type-enum': [
-      2,
-      'always',
-      [
-        'feat', 'fix', 'refactor', 'perf', 'style', 'test',
-        'build', 'ops', 'docs', 'chore', 'merge', 'revert',
-      ],
-    ],
+    'type-enum': [2, 'always', COMMIT_TYPES],
   },
 };
 
