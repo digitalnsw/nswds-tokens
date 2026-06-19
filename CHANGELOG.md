@@ -1,3 +1,9 @@
+## 4.1.0 (2026-06-19)
+
+* feat(tokens): emit dark mode tokens under .dark class ([3d5b2d5](https://github.com/digitalnsw/nswds-tokens/commit/3d5b2d5)), closes [#114](https://github.com/digitalnsw/nswds-tokens/issues/114)
+* chore(style): update style dictionary configs for dark mode support (#114) ([cb80a15](https://github.com/digitalnsw/nswds-tokens/commit/cb80a15)), closes [#114](https://github.com/digitalnsw/nswds-tokens/issues/114)
+* docs(tokens): mark shadow scale approved — drop draft suffix (#113) ([4373657](https://github.com/digitalnsw/nswds-tokens/commit/4373657)), closes [#113](https://github.com/digitalnsw/nswds-tokens/issues/113)
+
 ## 4.0.0 (2026-06-16)
 
 * feat(tokens)!: semantic-driven dark mode — single palette, role tokens (#112) ([ebcc800](https://github.com/digitalnsw/nswds-tokens/commit/ebcc800)), closes [#112](https://github.com/digitalnsw/nswds-tokens/issues/112) [000/#fff](https://github.com/digitalnsw/nswds-tokens/issues/fff)
