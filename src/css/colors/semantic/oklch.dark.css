@@ -1,4 +1,4 @@
-[data-theme='dark'] {
+[data-theme='dark'], .dark {
   --background-default: oklch(0.126543 0.006953 243.792325); /** Page canvas — the base background behind all content. */
   --background-subtle: oklch(0.175228 0.006346 236.981786); /** Subtly differentiated background for alternating or grouped sections. */
   --surface-default: oklch(0.175228 0.006346 236.981786); /** Default container surface — cards, panels, and inputs on the page. */

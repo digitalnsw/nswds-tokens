@@ -1,6 +1,8 @@
-// Source of truth for allowed commit types. scripts/conventional-commit-config.sh
-// reads this via `commitlint --print-config`, and CI checks it against
-// git-conventional-commits.yaml — keep the type-enum below in sync with the YAML.
+// Allowed commit types come from commit-types.cjs — the single source of truth.
+// Importing it here (rather than re-listing the enum) means commitlint can't drift
+// from the SoT; CI then checks the SoT against git-conventional-commits.yaml.
+import COMMIT_TYPES from './commit-types.cjs'
+
 /** @type {import('@commitlint/types').UserConfig} */
 const config = {
   extends: ['@commitlint/config-conventional'],
@@ -24,24 +26,7 @@ const config = {
     // OpenCommit emit unwrapped prose, so this keeps the readability nudge
     // without blocking CI. Raise to severity 2 once messages are wrapped.
     'body-max-line-length': [1, 'always', 100],
-    'type-enum': [
-      2,
-      'always',
-      [
-        'feat',
-        'fix',
-        'refactor',
-        'perf',
-        'style',
-        'test',
-        'build',
-        'ops',
-        'docs',
-        'chore',
-        'merge',
-        'revert',
-      ],
-    ],
+    'type-enum': [2, 'always', COMMIT_TYPES],
   },
 }
 
