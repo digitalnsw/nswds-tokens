@@ -8,9 +8,9 @@ else
   REPO_ROOT="$(cd "${SCRIPT_DIR}/.." && pwd)"
 fi
 CONFIG_FILE="${CONVENTIONAL_CONFIG_FILE:-${REPO_ROOT}/git-conventional-commits.yaml}"
-COMMIT_TYPES_JS="${CONVENTIONAL_COMMIT_TYPES_JS:-${REPO_ROOT}/commit-types.js}"
-# The YAML is only required when we can't read types from commit-types.js or
-# commitlint (checked below). A repo with neither YAML nor commit-types.js is
+COMMIT_TYPES_JS="${CONVENTIONAL_COMMIT_TYPES_FILE:-${CONVENTIONAL_COMMIT_TYPES_JS:-${REPO_ROOT}/commit-types.cjs}}"
+# The YAML is only required when we can't read types from commit-types.cjs or
+# commitlint (checked below). A repo with neither YAML nor commit-types.cjs is
 # valid as long as commitlint resolves.
 
 extract_types() {
@@ -131,7 +131,7 @@ to_csv() {
   '
 }
 
-# Read the single source of truth (commit-types.js) directly. Prefers Node, but
+# Read the single source of truth (commit-types.cjs) directly. Prefers Node, but
 # falls back to a quote-aware awk parse so the source stays readable in non-Node
 # environments. Returns non-zero (emitting nothing) when the file is absent or
 # unparseable, so callers fall through to commitlint/YAML.
@@ -174,7 +174,7 @@ extract_types_from_commitlint() {
   ' 2>/dev/null
 }
 
-# Source selection. Default "auto" prefers commit-types.js (the source of
+# Source selection. Default "auto" prefers commit-types.cjs (the source of
 # truth), then commitlint, then the YAML fallback. Force a single source with
 # CONVENTIONAL_CONFIG_SOURCE=js|commitlint|yaml — used by the sync check to read
 # each side independently.
@@ -209,7 +209,7 @@ case "$CONVENTIONAL_CONFIG_SOURCE" in
     fi
     if [[ -z "$types" ]]; then
       if [[ ! -f "$CONFIG_FILE" ]]; then
-        printf "❌ No commit types available: commit-types.js unreadable, commitlint not resolvable, and no YAML at %s\n" "$CONFIG_FILE" >&2
+        printf "❌ No commit types available: commit-types.cjs unreadable, commitlint not resolvable, and no YAML at %s\n" "$CONFIG_FILE" >&2
         exit 1
       fi
       types="$(extract_types)"

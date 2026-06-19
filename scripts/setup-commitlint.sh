@@ -29,16 +29,18 @@ fi
 printf "📦 Installing commitlint + husky (dev dependencies)…\n"
 npm install --save-dev @commitlint/cli @commitlint/config-conventional husky
 
-# commit-types.js is the single source of truth for the allowed types; the
-# commitlint config imports it. Provision it first so the config resolves.
+# commit-types.cjs is the single source of truth for the allowed types; the
+# commitlint config imports it. Provision it first so the config resolves. The
+# .cjs extension keeps it CommonJS (`module.exports`) regardless of the target
+# repo's package "type", so both `require()` and ESM default-import work.
 # Reuse the shared file if present, else write the canonical default.
-if [[ -f commit-types.js ]]; then
-  printf "✅ commit-types.js already present — leaving it untouched.\n"
-elif [[ -f "${SCRIPT_DIR}/../commit-types.js" ]]; then
-  cp "${SCRIPT_DIR}/../commit-types.js" commit-types.js
-  printf "✅ Copied shared commit-types.js into the repo.\n"
+if [[ -f commit-types.cjs ]]; then
+  printf "✅ commit-types.cjs already present — leaving it untouched.\n"
+elif [[ -f "${SCRIPT_DIR}/../commit-types.cjs" ]]; then
+  cp "${SCRIPT_DIR}/../commit-types.cjs" commit-types.cjs
+  printf "✅ Copied shared commit-types.cjs into the repo.\n"
 else
-  cat > commit-types.js <<'EOF'
+  cat > commit-types.cjs <<'EOF'
 // Single source of truth for the allowed conventional-commit types.
 // commitlint.config.mjs imports this array; edit the list here only.
 module.exports = [
@@ -56,11 +58,11 @@ module.exports = [
   'revert',
 ];
 EOF
-  printf "✅ Wrote a default commit-types.js.\n"
+  printf "✅ Wrote a default commit-types.cjs.\n"
 fi
 
 # commitlint config: reuse the shared one if present, else write a sensible
-# default. Either way it imports the allowed types from commit-types.js above.
+# default. Either way it imports the allowed types from commit-types.cjs above.
 if [[ -f commitlint.config.js || -f commitlint.config.cjs || -f commitlint.config.mjs || -f .commitlintrc.js || -f .commitlintrc.json || -f .commitlintrc.yml || -f .commitlintrc.yaml ]]; then
   printf "✅ commitlint config already present — leaving it untouched.\n"
 elif [[ -f "${SCRIPT_DIR}/../commitlint.config.mjs" ]]; then
@@ -68,8 +70,8 @@ elif [[ -f "${SCRIPT_DIR}/../commitlint.config.mjs" ]]; then
   printf "✅ Copied shared commitlint.config.mjs into the repo.\n"
 else
   cat > commitlint.config.mjs <<'EOF'
-// Allowed commit types come from commit-types.js — the single source of truth.
-import COMMIT_TYPES from './commit-types.js'
+// Allowed commit types come from commit-types.cjs — the single source of truth.
+import COMMIT_TYPES from './commit-types.cjs'
 
 /** @type {import('@commitlint/types').UserConfig} */
 const config = {
