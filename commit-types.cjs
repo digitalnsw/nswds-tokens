@@ -24,4 +24,4 @@ module.exports = [
   'chore',
   'merge',
   'revert',
-];
+]

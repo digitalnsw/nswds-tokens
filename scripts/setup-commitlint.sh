@@ -56,7 +56,7 @@ module.exports = [
   'chore',
   'merge',
   'revert',
-];
+]
 EOF
   printf "✅ Wrote a default commit-types.cjs.\n"
 fi
