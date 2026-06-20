@@ -35,11 +35,33 @@ const read = (p) => JSON.parse(readFileSync(p, 'utf8'))
 // Rounded to 7dp to match token_export's snapFloat so the round-trip stays byte-stable.
 const typographyFigmaValue = ([family], value) => {
   if (family === 'font-family') return Array.isArray(value) ? value[0] : value
-  if (family === 'line-height' || family === 'letter-spacing')
+  // Guard against non-numbers (e.g. an alias `{...}` string): `value * 100` would be NaN,
+  // which JSON serialises to `null` and silently corrupts the staging file. Pass any
+  // non-numeric value through untouched — the import resolves aliases on its own.
+  if ((family === 'line-height' || family === 'letter-spacing') && typeof value === 'number')
     // Snap through float32 (Figma's storage precision) so the percent matches the value the
     // export round-trips — e.g. 1.3333333×100 = 133.33333 stores as float32 133.3333282.
     return Number(Math.fround(value * 100).toFixed(7))
   return value
+}
+
+// Figma-representation transform for typography DESCRIPTIONS. The staging $value is now
+// Figma-shaped (primary family / percent line-height / percent letter-spacing), but the
+// canonical $description describes the CSS-shaped value — misleading for a designer reading
+// the variable in Figma. Rewrite the Figma-facing copy here so the canonical (and every
+// css/js/scss/… output built from it) keeps its CSS-accurate descriptions. `value` is the
+// CANONICAL value (the multiplier / em), so the percent is derived cleanly.
+const typographyFigmaDescription = ([family], value, description) => {
+  if (family === 'font-family')
+    // Figma binds the primary font file only — drop the CSS fallback-stack clause.
+    return description.replace(/ with [^.]*?fallbacks?/, '')
+  if ((family === 'line-height' || family === 'letter-spacing') && typeof value === 'number') {
+    const pct = Number((value * 100).toFixed(2)) // human-readable percent for the label
+    return description
+      .replace(/\(-?\d*\.?\d+em\)|\(\d*\.?\d+\)/, `(${pct}%)`)
+      .replace(/\s*Value is an em multiplier; string outputs render it with the em unit\.$/, '')
+  }
+  return description
 }
 
 // staging file -> canonical source (+ where to copy per-variable extensions from).
@@ -73,6 +95,7 @@ const TARGETS = [
     staging: 'tokens/typography.base.json',
     canonical: 'tokens/global/typography/canonical.json',
     figmaValue: typographyFigmaValue,
+    figmaDescription: typographyFigmaDescription,
   },
   { staging: 'tokens/border.base.json', canonical: 'tokens/global/border/canonical.json' },
   // Motion: only the `duration` family syncs to Figma (as FLOAT ms). easing (cubicBezier)
@@ -85,7 +108,14 @@ const TARGETS = [
   { staging: 'tokens/z-index.base.json', canonical: 'tokens/global/z-index/canonical.json' },
 ]
 
-const generate = ({ staging, canonical, extensionsFrom, families: only, figmaValue }) => {
+const generate = ({
+  staging,
+  canonical,
+  extensionsFrom,
+  families: only,
+  figmaValue,
+  figmaDescription,
+}) => {
   const fullSource = read(canonical)
   // `families` restricts which canonical families reach Figma (e.g. Motion syncs only
   // `duration`; cubicBezier easings / transition composites stay code-side).
@@ -130,10 +160,13 @@ const generate = ({ staging, canonical, extensionsFrom, families: only, figmaVal
           },
         }
       : undefined
+    const description = tok.$description ?? ''
     return {
       $type: tok.$type,
       $value: figmaValue ? figmaValue(pathSegments, tok.$value) : tok.$value,
-      $description: tok.$description ?? '',
+      $description: figmaDescription
+        ? figmaDescription(pathSegments, tok.$value, description)
+        : description,
       ...(extensions ? { $extensions: extensions } : {}),
     }
   }
