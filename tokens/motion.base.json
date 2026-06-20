@@ -1,0 +1,118 @@
+{
+  "duration": {
+    "none": {
+      "$type": "duration",
+      "$value": {
+        "value": 0,
+        "unit": "ms"
+      },
+      "$description": "No motion. Used as the reduced-motion target and the default transition delay.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--duration-none)"
+          }
+        }
+      }
+    },
+    "instant": {
+      "$type": "duration",
+      "$value": {
+        "value": 100,
+        "unit": "ms"
+      },
+      "$description": "Micro-feedback on small elements — hover, focus rings, toggles, small fades.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--duration-instant)"
+          }
+        }
+      }
+    },
+    "fast": {
+      "$type": "duration",
+      "$value": {
+        "value": 150,
+        "unit": "ms"
+      },
+      "$description": "Quick transitions over short distances — dropdowns, popovers, exits.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--duration-fast)"
+          }
+        }
+      }
+    },
+    "base": {
+      "$type": "duration",
+      "$value": {
+        "value": 250,
+        "unit": "ms"
+      },
+      "$description": "Default duration for most UI transitions.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--duration-base)"
+          }
+        }
+      }
+    },
+    "slow": {
+      "$type": "duration",
+      "$value": {
+        "value": 400,
+        "unit": "ms"
+      },
+      "$description": "Larger surfaces entering or leaving — modals, drawers, sheets.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--duration-slow)"
+          }
+        }
+      }
+    },
+    "slower": {
+      "$type": "duration",
+      "$value": {
+        "value": 600,
+        "unit": "ms"
+      },
+      "$description": "Full-screen transitions and background dimming behind overlays.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--duration-slower)"
+          }
+        }
+      }
+    }
+  }
+}

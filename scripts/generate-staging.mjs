@@ -51,12 +51,23 @@ const TARGETS = [
   },
   { staging: 'tokens/typography.base.json', canonical: 'tokens/global/typography/canonical.json' },
   { staging: 'tokens/border.base.json', canonical: 'tokens/global/border/canonical.json' },
-  // D2 (requires manifest entries first — see NOTE above):
-  // { staging: 'tokens/primitives-semantic.dark.json', canonical: 'tokens/semantic/color/canonical.dark.json', extensionsFrom: 'tokens/primitives-semantic.light.json' },
+  // Motion: only the `duration` family syncs to Figma (as FLOAT ms). easing (cubicBezier)
+  // and transition (composite) stay code-side, like shadows — `families` filters them out.
+  {
+    staging: 'tokens/motion.base.json',
+    canonical: 'tokens/global/motion/canonical.json',
+    families: ['duration'],
+  },
+  { staging: 'tokens/z-index.base.json', canonical: 'tokens/global/z-index/canonical.json' },
 ]
 
-const generate = ({ staging, canonical, extensionsFrom }) => {
-  const source = read(canonical)
+const generate = ({ staging, canonical, extensionsFrom, families: only }) => {
+  const fullSource = read(canonical)
+  // `families` restricts which canonical families reach Figma (e.g. Motion syncs only
+  // `duration`; cubicBezier easings / transition composites stay code-side).
+  const source = only
+    ? Object.fromEntries(Object.entries(fullSource).filter(([fam]) => only.includes(fam)))
+    : fullSource
   const extensionsSource = existsSync(extensionsFrom ?? staging)
     ? read(extensionsFrom ?? staging)
     : {}

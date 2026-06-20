@@ -67,6 +67,9 @@ function tokenValueFromVariable(
       ? { value: snapFloat(px / FIGMA_REM_PX), unit: 'rem' as const }
       : { value: px, unit: 'px' as const }
   }
+  if (rule?.$type === 'duration' && typeof value === 'number') {
+    return { value: snapFloat(value), unit: rule.unit }
+  }
   if (rule?.$type === 'fontFamily' && typeof value === 'string') {
     return value.includes(', ') ? value.split(', ') : value
   }
