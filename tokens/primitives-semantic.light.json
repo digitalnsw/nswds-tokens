@@ -1,18 +1,9 @@
 {
   "success": {
-    "50": {
+    "surface": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9372549019607843,
-          0.9764705882352941,
-          0.9294117647058824
-        ],
-        "alpha": 1,
-        "hex": "#eff9ed"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 50: subtle backgrounds and surfaces.",
+      "$value": "{success.50}",
+      "$description": "Success (positive outcomes and confirmations) — tinted background.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -20,24 +11,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--success-50)"
+            "WEB": "var(--success-surface)"
           }
         }
       }
     },
-    "100": {
+    "text": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8784313725490196,
-          0.9529411764705882,
-          0.8705882352941177
-        ],
-        "alpha": 1,
-        "hex": "#e0f3de"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 100: subtle backgrounds and surfaces.",
+      "$value": "{success.700}",
+      "$description": "Success (positive outcomes and confirmations) — readable text on the tint.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -45,24 +27,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--success-100)"
+            "WEB": "var(--success-text)"
           }
         }
       }
     },
-    "150": {
+    "border": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8235294117647058,
-          0.9254901960784314,
-          0.8117647058823529
-        ],
-        "alpha": 1,
-        "hex": "#d2eccf"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 150: subtle backgrounds and surfaces.",
+      "$value": "{success.300}",
+      "$description": "Success (positive outcomes and confirmations) — border and divider.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -70,24 +43,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--success-150)"
+            "WEB": "var(--success-border)"
           }
         }
       }
     },
-    "200": {
+    "solid": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.7686274509803922,
-          0.8980392156862745,
-          0.7529411764705882
-        ],
-        "alpha": 1,
-        "hex": "#c4e5c0"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 200: Interactive components.",
+      "$value": "{success.600}",
+      "$description": "Success (positive outcomes and confirmations) — solid fill for badges and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -95,401 +59,17 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--success-200)"
-          }
-        }
-      }
-    },
-    "250": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6666666666666666,
-          0.8392156862745098,
-          0.6470588235294118
-        ],
-        "alpha": 1,
-        "hex": "#aad6a5"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 250: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-250)"
-          }
-        }
-      }
-    },
-    "300": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.5607843137254902,
-          0.7803921568627451,
-          0.5411764705882353
-        ],
-        "alpha": 1,
-        "hex": "#8fc78a"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 300: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-300)"
-          }
-        }
-      }
-    },
-    "350": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4549019607843137,
-          0.7176470588235294,
-          0.43529411764705883
-        ],
-        "alpha": 1,
-        "hex": "#74b76f"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 350: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-350)"
-          }
-        }
-      }
-    },
-    "400": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.34509803921568627,
-          0.6588235294117647,
-          0.32941176470588235
-        ],
-        "alpha": 1,
-        "hex": "#58a854"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 400: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-400)"
-          }
-        }
-      }
-    },
-    "450": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.28627450980392155,
-          0.6313725490196078,
-          0.27450980392156865
-        ],
-        "alpha": 1,
-        "hex": "#49a146"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 450: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-450)"
-          }
-        }
-      }
-    },
-    "500": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.2235294117647059,
-          0.6,
-          0.21176470588235294
-        ],
-        "alpha": 1,
-        "hex": "#399936"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 500: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-500)"
-          }
-        }
-      }
-    },
-    "550": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.1450980392156863,
-          0.5725490196078431,
-          0.1411764705882353
-        ],
-        "alpha": 1,
-        "hex": "#259224"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 550: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-550)"
-          }
-        }
-      }
-    },
-    "600": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.5411764705882353,
-          0.027450980392156862
-        ],
-        "alpha": 1,
-        "hex": "#008a07"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 600: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-600)"
-          }
-        }
-      }
-    },
-    "650": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.4470588235294118,
-          0.01568627450980392
-        ],
-        "alpha": 1,
-        "hex": "#007204"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 650: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-650)"
-          }
-        }
-      }
-    },
-    "700": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.35294117647058826,
-          0.00784313725490196
-        ],
-        "alpha": 1,
-        "hex": "#005a02"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 700: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-700)"
-          }
-        }
-      }
-    },
-    "750": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.26666666666666666,
-          0.00392156862745098
-        ],
-        "alpha": 1,
-        "hex": "#004401"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 750: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-750)"
-          }
-        }
-      }
-    },
-    "800": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.1843137254901961,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#002f00"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 800: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-800)"
-          }
-        }
-      }
-    },
-    "850": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.13333333333333333,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#002200"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 850: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-850)"
-          }
-        }
-      }
-    },
-    "900": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.08627450980392157,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#001600"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 900: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-900)"
-          }
-        }
-      }
-    },
-    "950": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.043137254901960784,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#000b00"
-      },
-      "$description": "Success state — positive outcomes, confirmations, and completed actions. Step 950: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--success-950)"
+            "WEB": "var(--success-solid)"
           }
         }
       }
     }
   },
   "warning": {
-    "50": {
+    "surface": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          0.9529411764705882,
-          0.9294117647058824
-        ],
-        "alpha": 1,
-        "hex": "#fff3ed"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 50: subtle backgrounds and surfaces.",
+      "$value": "{warning.50}",
+      "$description": "Warning (caution and pending states) — tinted background.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -497,24 +77,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--warning-50)"
+            "WEB": "var(--warning-surface)"
           }
         }
       }
     },
-    "100": {
+    "text": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          0.9098039215686274,
-          0.8705882352941177
-        ],
-        "alpha": 1,
-        "hex": "#ffe8de"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 100: subtle backgrounds and surfaces.",
+      "$value": "{warning.700}",
+      "$description": "Warning (caution and pending states) — readable text on the tint.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -522,24 +93,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--warning-100)"
+            "WEB": "var(--warning-text)"
           }
         }
       }
     },
-    "150": {
+    "border": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          0.8666666666666667,
-          0.8117647058823529
-        ],
-        "alpha": 1,
-        "hex": "#ffddcf"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 150: subtle backgrounds and surfaces.",
+      "$value": "{warning.300}",
+      "$description": "Warning (caution and pending states) — border and divider.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -547,24 +109,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--warning-150)"
+            "WEB": "var(--warning-border)"
           }
         }
       }
     },
-    "200": {
+    "solid": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9921568627450981,
-          0.8235294117647058,
-          0.7529411764705882
-        ],
-        "alpha": 1,
-        "hex": "#fdd2c0"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 200: Interactive components.",
+      "$value": "{warning.600}",
+      "$description": "Warning (caution and pending states) — solid fill for badges and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -572,401 +125,17 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--warning-200)"
-          }
-        }
-      }
-    },
-    "250": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9647058823529412,
-          0.7411764705882353,
-          0.6470588235294118
-        ],
-        "alpha": 1,
-        "hex": "#f6bda5"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 250: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-250)"
-          }
-        }
-      }
-    },
-    "300": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9333333333333333,
-          0.6588235294117647,
-          0.5411764705882353
-        ],
-        "alpha": 1,
-        "hex": "#eea88a"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 300: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-300)"
-          }
-        }
-      }
-    },
-    "350": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9019607843137255,
-          0.5764705882352941,
-          0.43529411764705883
-        ],
-        "alpha": 1,
-        "hex": "#e6936f"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 350: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-350)"
-          }
-        }
-      }
-    },
-    "400": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8666666666666667,
-          0.49019607843137253,
-          0.3254901960784314
-        ],
-        "alpha": 1,
-        "hex": "#dd7d53"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 400: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-400)"
-          }
-        }
-      }
-    },
-    "450": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8470588235294118,
-          0.4470588235294118,
-          0.26666666666666666
-        ],
-        "alpha": 1,
-        "hex": "#d87244"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 450: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-450)"
-          }
-        }
-      }
-    },
-    "500": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8274509803921568,
-          0.403921568627451,
-          0.20392156862745098
-        ],
-        "alpha": 1,
-        "hex": "#d36734"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 500: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-500)"
-          }
-        }
-      }
-    },
-    "550": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.807843137254902,
-          0.3607843137254902,
-          0.12941176470588237
-        ],
-        "alpha": 1,
-        "hex": "#ce5c21"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 550: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-550)"
-          }
-        }
-      }
-    },
-    "600": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.788235294117647,
-          0.3137254901960784,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#c95000"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 600: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-600)"
-          }
-        }
-      }
-    },
-    "650": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6588235294117647,
-          0.24705882352941178,
-          0.011764705882352941
-        ],
-        "alpha": 1,
-        "hex": "#a83f03"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 650: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-650)"
-          }
-        }
-      }
-    },
-    "700": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.5333333333333333,
-          0.1843137254901961,
-          0.011764705882352941
-        ],
-        "alpha": 1,
-        "hex": "#882f03"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 700: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-700)"
-          }
-        }
-      }
-    },
-    "750": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4117647058823529,
-          0.12549019607843137,
-          0.00392156862745098
-        ],
-        "alpha": 1,
-        "hex": "#692001"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 750: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-750)"
-          }
-        }
-      }
-    },
-    "800": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.29411764705882354,
-          0.07058823529411765,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#4b1200"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 800: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-800)"
-          }
-        }
-      }
-    },
-    "850": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.2235294117647059,
-          0.0392156862745098,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#390a00"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 850: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-850)"
-          }
-        }
-      }
-    },
-    "900": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.15294117647058825,
-          0.01568627450980392,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#270400"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 900: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-900)"
-          }
-        }
-      }
-    },
-    "950": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.09019607843137255,
-          0.00392156862745098,
-          0
-        ],
-        "alpha": 1,
-        "hex": "#170100"
-      },
-      "$description": "Warning state — caution and actions that need attention. Step 950: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--warning-950)"
+            "WEB": "var(--warning-solid)"
           }
         }
       }
     }
   },
   "danger": {
-    "50": {
+    "surface": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          0.9411764705882353,
-          0.9372549019607843
-        ],
-        "alpha": 1,
-        "hex": "#fff0ef"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 50: subtle backgrounds and surfaces.",
+      "$value": "{danger.50}",
+      "$description": "Danger (errors and destructive actions) — tinted background.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -974,24 +143,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--danger-50)"
+            "WEB": "var(--danger-surface)"
           }
         }
       }
     },
-    "100": {
+    "text": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          0.8862745098039215,
-          0.8823529411764706
-        ],
-        "alpha": 1,
-        "hex": "#ffe2e1"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 100: subtle backgrounds and surfaces.",
+      "$value": "{danger.700}",
+      "$description": "Danger (errors and destructive actions) — readable text on the tint.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -999,24 +159,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--danger-100)"
+            "WEB": "var(--danger-text)"
           }
         }
       }
     },
-    "150": {
+    "border": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          1,
-          0.8313725490196079,
-          0.8313725490196079
-        ],
-        "alpha": 1,
-        "hex": "#ffd4d4"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 150: subtle backgrounds and surfaces.",
+      "$value": "{danger.300}",
+      "$description": "Danger (errors and destructive actions) — border and divider.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1024,24 +175,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--danger-150)"
+            "WEB": "var(--danger-border)"
           }
         }
       }
     },
-    "200": {
+    "solid": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9921568627450981,
-          0.7764705882352941,
-          0.7764705882352941
-        ],
-        "alpha": 1,
-        "hex": "#fdc6c6"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 200: Interactive components.",
+      "$value": "{danger.600}",
+      "$description": "Danger (errors and destructive actions) — solid fill for badges and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1049,401 +191,17 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--danger-200)"
-          }
-        }
-      }
-    },
-    "250": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9568627450980393,
-          0.6745098039215687,
-          0.6784313725490196
-        ],
-        "alpha": 1,
-        "hex": "#f4acad"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 250: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-250)"
-          }
-        }
-      }
-    },
-    "300": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9176470588235294,
-          0.5725490196078431,
-          0.5803921568627451
-        ],
-        "alpha": 1,
-        "hex": "#ea9294"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 300: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-300)"
-          }
-        }
-      }
-    },
-    "350": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8745098039215686,
-          0.47058823529411764,
-          0.48627450980392156
-        ],
-        "alpha": 1,
-        "hex": "#df787c"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 350: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-350)"
-          }
-        }
-      }
-    },
-    "400": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8274509803921568,
-          0.36470588235294116,
-          0.396078431372549
-        ],
-        "alpha": 1,
-        "hex": "#d35d65"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 400: Interactive components.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-400)"
-          }
-        }
-      }
-    },
-    "450": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.803921568627451,
-          0.3058823529411765,
-          0.34901960784313724
-        ],
-        "alpha": 1,
-        "hex": "#cd4e59"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 450: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-450)"
-          }
-        }
-      }
-    },
-    "500": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.7764705882352941,
-          0.24705882352941178,
-          0.3058823529411765
-        ],
-        "alpha": 1,
-        "hex": "#c63f4e"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 500: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-500)"
-          }
-        }
-      }
-    },
-    "550": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.7490196078431373,
-          0.17254901960784313,
-          0.25882352941176473
-        ],
-        "alpha": 1,
-        "hex": "#bf2c42"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 550: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-550)"
-          }
-        }
-      }
-    },
-    "600": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.7215686274509804,
-          0.07058823529411765,
-          0.21568627450980393
-        ],
-        "alpha": 1,
-        "hex": "#b81237"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 600: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-600)"
-          }
-        }
-      }
-    },
-    "650": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6,
-          0.043137254901960784,
-          0.16470588235294117
-        ],
-        "alpha": 1,
-        "hex": "#990b2a"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 650: borders, separators and icons.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-650)"
-          }
-        }
-      }
-    },
-    "700": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.48627450980392156,
-          0.023529411764705882,
-          0.12156862745098039
-        ],
-        "alpha": 1,
-        "hex": "#7c061f"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 700: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-700)"
-          }
-        }
-      }
-    },
-    "750": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.37254901960784315,
-          0.00784313725490196,
-          0.0784313725490196
-        ],
-        "alpha": 1,
-        "hex": "#5f0214"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 750: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-750)"
-          }
-        }
-      }
-    },
-    "800": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.26666666666666666,
-          0,
-          0.0392156862745098
-        ],
-        "alpha": 1,
-        "hex": "#44000a"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 800: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-800)"
-          }
-        }
-      }
-    },
-    "850": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.2,
-          0,
-          0.0196078431372549
-        ],
-        "alpha": 1,
-        "hex": "#330005"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 850: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-850)"
-          }
-        }
-      }
-    },
-    "900": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.13725490196078433,
-          0,
-          0.00784313725490196
-        ],
-        "alpha": 1,
-        "hex": "#230002"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 900: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-900)"
-          }
-        }
-      }
-    },
-    "950": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.0784313725490196,
-          0,
-          0.00392156862745098
-        ],
-        "alpha": 1,
-        "hex": "#140001"
-      },
-      "$description": "Danger state — errors and destructive or critical actions. Step 950: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--danger-950)"
+            "WEB": "var(--danger-solid)"
           }
         }
       }
     }
   },
   "info": {
-    "50": {
+    "surface": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.9137254901960784,
-          0.9333333333333333,
-          0.9686274509803922
-        ],
-        "alpha": 1,
-        "hex": "#e9eef7"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 50: subtle backgrounds and surfaces.",
+      "$value": "{info.50}",
+      "$description": "Info (neutral information) — tinted background.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1451,24 +209,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-50)"
+            "WEB": "var(--info-surface)"
           }
         }
       }
     },
-    "100": {
+    "text": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.8313725490196079,
-          0.8666666666666667,
-          0.9215686274509803
-        ],
-        "alpha": 1,
-        "hex": "#d4ddeb"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 100: subtle backgrounds and surfaces.",
+      "$value": "{info.700}",
+      "$description": "Info (neutral information) — readable text on the tint.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1476,24 +225,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-100)"
+            "WEB": "var(--info-text)"
           }
         }
       }
     },
-    "150": {
+    "border": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.7529411764705882,
-          0.8,
-          0.8784313725490196
-        ],
-        "alpha": 1,
-        "hex": "#c0cce0"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 150: subtle backgrounds and surfaces.",
+      "$value": "{info.300}",
+      "$description": "Info (neutral information) — border and divider.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1501,24 +241,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-150)"
+            "WEB": "var(--info-border)"
           }
         }
       }
     },
-    "200": {
+    "solid": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.6745098039215687,
-          0.7333333333333333,
-          0.8352941176470589
-        ],
-        "alpha": 1,
-        "hex": "#acbbd5"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 200: Interactive components.",
+      "$value": "{info.600}",
+      "$description": "Info (neutral information) — solid fill for badges and icons.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1526,24 +257,33 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-200)"
+            "WEB": "var(--info-solid)"
+          }
+        }
+      }
+    }
+  },
+  "background": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-grey.50}",
+      "$description": "Page canvas — the base background behind all content.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--background-default)"
           }
         }
       }
     },
-    "250": {
+    "subtle": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.5882352941176471,
-          0.6627450980392157,
-          0.8
-        ],
-        "alpha": 1,
-        "hex": "#96a9cc"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 250: Interactive components.",
+      "$value": "{nsw-grey.100}",
+      "$description": "Subtly differentiated background for alternating or grouped sections.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1551,24 +291,33 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-250)"
+            "WEB": "var(--background-subtle)"
+          }
+        }
+      }
+    }
+  },
+  "surface": {
+    "default": {
+      "$type": "color",
+      "$value": "{white}",
+      "$description": "Default container surface — cards, panels, and inputs on the page.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--surface-default)"
           }
         }
       }
     },
-    "300": {
+    "raised": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.5019607843137255,
-          0.596078431372549,
-          0.7607843137254902
-        ],
-        "alpha": 1,
-        "hex": "#8098c2"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 300: Interactive components.",
+      "$value": "{white}",
+      "$description": "Raised surface for higher-elevation layers (menus, popovers, dialogs). Higher elevation reads lighter in dark mode.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1576,24 +325,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-300)"
+            "WEB": "var(--surface-raised)"
           }
         }
       }
     },
-    "350": {
+    "sunken": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.4196078431372549,
-          0.5254901960784314,
-          0.7215686274509804
-        ],
-        "alpha": 1,
-        "hex": "#6b86b8"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 350: Interactive components.",
+      "$value": "{nsw-grey.100}",
+      "$description": "Recessed surface for wells and inset regions.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1601,24 +341,33 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-350)"
+            "WEB": "var(--surface-sunken)"
+          }
+        }
+      }
+    }
+  },
+  "text": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-grey.900}",
+      "$description": "Primary body and heading text.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--text-default)"
           }
         }
       }
     },
-    "400": {
+    "muted": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.3411764705882353,
-          0.4588235294117647,
-          0.6823529411764706
-        ],
-        "alpha": 1,
-        "hex": "#5775ae"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 400: Interactive components.",
+      "$value": "{nsw-grey.600}",
+      "$description": "Secondary text — supporting copy, captions, metadata.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1626,24 +375,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-400)"
+            "WEB": "var(--text-muted)"
           }
         }
       }
     },
-    "450": {
+    "subtle": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.30196078431372547,
-          0.4235294117647059,
-          0.6627450980392157
-        ],
-        "alpha": 1,
-        "hex": "#4d6ca9"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 450: borders, separators and icons.",
+      "$value": "{nsw-grey.500}",
+      "$description": "Tertiary text — placeholders and disabled labels. The mid-grey reads in both modes.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1651,24 +391,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-450)"
+            "WEB": "var(--text-subtle)"
           }
         }
       }
     },
-    "500": {
+    "inverse": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.25882352941176473,
-          0.39215686274509803,
-          0.6431372549019608
-        ],
-        "alpha": 1,
-        "hex": "#4264a4"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 500: borders, separators and icons.",
+      "$value": "{white}",
+      "$description": "Text and icons rendered on an action or solid fill.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1676,24 +407,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-500)"
+            "WEB": "var(--text-inverse)"
           }
         }
       }
     },
-    "550": {
+    "link": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.2196078431372549,
-          0.3568627450980392,
-          0.6196078431372549
-        ],
-        "alpha": 1,
-        "hex": "#385b9e"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 550: borders, separators and icons.",
+      "$value": "{nsw-blue.800}",
+      "$description": "Inline hyperlink text.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1701,24 +423,33 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-550)"
+            "WEB": "var(--text-link)"
+          }
+        }
+      }
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-grey.300}",
+      "$description": "Default border for inputs, cards, and dividers.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-default)"
           }
         }
       }
     },
-    "600": {
+    "subtle": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.1803921568627451,
-          0.3215686274509804,
-          0.6
-        ],
-        "alpha": 1,
-        "hex": "#2e5299"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 600: borders, separators and icons.",
+      "$value": "{nsw-grey.200}",
+      "$description": "Low-emphasis border for subtle separation.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1726,24 +457,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-600)"
+            "WEB": "var(--border-subtle)"
           }
         }
       }
     },
-    "650": {
+    "strong": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.13725490196078433,
-          0.25882352941176473,
-          0.4980392156862745
-        ],
-        "alpha": 1,
-        "hex": "#23427f"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 650: borders, separators and icons.",
+      "$value": "{nsw-grey.500}",
+      "$description": "High-emphasis border for focus and selected states.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1751,24 +473,33 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-650)"
+            "WEB": "var(--border-strong)"
+          }
+        }
+      }
+    }
+  },
+  "action": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-blue.800}",
+      "$description": "Primary interactive colour — buttons, links, key accents. NSW navy in light, brightened for contrast in dark.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--action-default)"
           }
         }
       }
     },
-    "700": {
+    "hover": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.09803921568627451,
-          0.2,
-          0.4
-        ],
-        "alpha": 1,
-        "hex": "#193366"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 700: Solid colors.",
+      "$value": "{nsw-blue.900}",
+      "$description": "Hover and active state for primary actions.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1776,24 +507,15 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-700)"
+            "WEB": "var(--action-hover)"
           }
         }
       }
     },
-    "750": {
+    "subtle": {
       "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.06274509803921569,
-          0.1450980392156863,
-          0.30980392156862746
-        ],
-        "alpha": 1,
-        "hex": "#10254f"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 750: Solid colors.",
+      "$value": "{nsw-blue.50}",
+      "$description": "Tinted background for low-emphasis (ghost) actions.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -1801,107 +523,7 @@
             "ALL_SCOPES"
           ],
           "codeSyntax": {
-            "WEB": "var(--info-750)"
-          }
-        }
-      }
-    },
-    "800": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.027450980392156862,
-          0.09019607843137255,
-          0.2196078431372549
-        ],
-        "alpha": 1,
-        "hex": "#071738"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 800: Solid colors.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--info-800)"
-          }
-        }
-      }
-    },
-    "850": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.01568627450980392,
-          0.058823529411764705,
-          0.16470588235294117
-        ],
-        "alpha": 1,
-        "hex": "#040f2a"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 850: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--info-850)"
-          }
-        }
-      }
-    },
-    "900": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0.00784313725490196,
-          0.027450980392156862,
-          0.10980392156862745
-        ],
-        "alpha": 1,
-        "hex": "#02071c"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 900: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--info-900)"
-          }
-        }
-      }
-    },
-    "950": {
-      "$type": "color",
-      "$value": {
-        "colorSpace": "srgb",
-        "components": [
-          0,
-          0.011764705882352941,
-          0.058823529411764705
-        ],
-        "alpha": 1,
-        "hex": "#00030f"
-      },
-      "$description": "Informational state — neutral highlights, tips, and in-progress notices. Step 950: text and high emphasis.",
-      "$extensions": {
-        "com.figma": {
-          "hiddenFromPublishing": false,
-          "scopes": [
-            "ALL_SCOPES"
-          ],
-          "codeSyntax": {
-            "WEB": "var(--info-950)"
+            "WEB": "var(--action-subtle)"
           }
         }
       }

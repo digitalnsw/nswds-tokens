@@ -1234,6 +1234,19 @@ describe('collectionAndModeFromFileName', () => {
     })
   })
 
+  it('maps the light and dark semantic files to two modes of one collection', () => {
+    // The semantic role layer is mode-aware: both files map to the same collection so the
+    // push merges them into light + dark mode columns.
+    expect(collectionAndModeFromFileName('primitives-semantic.light.json')).toEqual({
+      collectionName: 'Primitives — semantic',
+      modeName: 'light',
+    })
+    expect(collectionAndModeFromFileName('primitives-semantic.dark.json')).toEqual({
+      collectionName: 'Primitives — semantic',
+      modeName: 'dark',
+    })
+  })
+
   it('falls back to deriving {collection}.{mode} from unmapped file names', () => {
     expect(collectionAndModeFromFileName('collection1.mode1.json')).toEqual({
       collectionName: 'collection1',
