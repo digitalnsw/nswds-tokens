@@ -1,3 +1,8 @@
+## 4.2.0 (2026-06-20)
+
+* feat(tokens): sync motion durations and z-index to Figma as FLOATs (#116) ([5cf2d96](https://github.com/digitalnsw/nswds-tokens/commit/5cf2d96)), closes [#116](https://github.com/digitalnsw/nswds-tokens/issues/116)
+* chore(tokens): regenerate colour staging for the v4 semantic structure (Phase A) (#115) ([911d6c8](https://github.com/digitalnsw/nswds-tokens/commit/911d6c8)), closes [#115](https://github.com/digitalnsw/nswds-tokens/issues/115)
+
 ## 4.1.0 (2026-06-19)
 
 * feat(tokens): emit dark mode tokens under .dark class ([3d5b2d5](https://github.com/digitalnsw/nswds-tokens/commit/3d5b2d5)), closes [#114](https://github.com/digitalnsw/nswds-tokens/issues/114)
