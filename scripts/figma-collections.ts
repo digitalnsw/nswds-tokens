@@ -24,6 +24,10 @@ export const FIGMA_COLLECTIONS: Record<string, FigmaCollectionRef> = {
   'breakpoints.base.json': { collectionName: 'Breakpoints', modeName: 'base' },
   'typography.base.json': { collectionName: 'Typography', modeName: 'base' },
   'border.base.json': { collectionName: 'Border', modeName: 'base' },
+  // Motion durations sync as FLOATs (ms); easings (cubicBezier) and transition composites
+  // stay code-side, like shadows. z-index syncs as plain number FLOATs.
+  'motion.base.json': { collectionName: 'Motion', modeName: 'base' },
+  'z-index.base.json': { collectionName: 'Z-index', modeName: 'base' },
 }
 
 // Reverse of FIGMA_COLLECTIONS for the export direction (Figma -> tokens): a manifest-
@@ -48,6 +52,7 @@ export const FIGMA_REM_PX = 16
 // path segment), with "*" as the family wildcard.
 export type FigmaValueRule =
   | { $type: 'dimension'; unit: 'px' | 'rem' }
+  | { $type: 'duration'; unit: 'ms' | 's' }
   | { $type: 'fontFamily' }
   | { $type: 'fontWeight' }
   | { $type: 'number' }
@@ -64,6 +69,8 @@ export const FIGMA_EXPORT_RULES: Record<string, Record<string, FigmaValueRule>> 
     'line-height': { $type: 'number' },
     'letter-spacing': { $type: 'number' },
   },
+  Motion: { duration: { $type: 'duration', unit: 'ms' } },
+  'Z-index': { '*': { $type: 'number' } },
 }
 // Figma variable scopes per collection family (review item M4): scopes filter which
 // Figma pickers offer a variable (a radius token shouldn't appear in the letter-spacing

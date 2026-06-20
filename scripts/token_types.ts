@@ -15,6 +15,12 @@ export type DtcgDimension = {
   unit: 'px' | 'rem'
 }
 
+// DTCG 2025.10 duration object (motion category). Syncs to Figma as a unitless FLOAT.
+export type DtcgDuration = {
+  value: number
+  unit: 'ms' | 's'
+}
+
 export interface Token {
   /**
    * The [type](https://tr.designtokens.org/format/#type-0) of the token.
@@ -22,7 +28,15 @@ export interface Token {
    * We allow `string` and `boolean` types in addition to the draft W3C spec's `color` and `number` types
    * to align with the resolved types for Figma variables.
    */
-  $type: 'color' | 'number' | 'string' | 'boolean' | 'dimension' | 'fontFamily' | 'fontWeight'
+  $type:
+    | 'color'
+    | 'number'
+    | 'string'
+    | 'boolean'
+    | 'dimension'
+    | 'duration'
+    | 'fontFamily'
+    | 'fontWeight'
   /**
    * For `color` tokens written in the DTCG 2025.10 shape, `$value` is a {@link DtcgColor}
    * object (`{ colorSpace, components, alpha, hex }`); `dimension` tokens carry a
@@ -30,7 +44,7 @@ export interface Token {
    * fallback-stack array of strings. Aliases remain `{group.token}` strings;
    * `number`/`fontWeight`/`string`/`boolean` tokens keep their primitive values.
    */
-  $value: string | number | boolean | string[] | DtcgColor | DtcgDimension
+  $value: string | number | boolean | string[] | DtcgColor | DtcgDimension | DtcgDuration
   $description?: string
   $extensions?: {
     /**

@@ -43,6 +43,48 @@ describe('tokenFilesFromLocalVariables', () => {
     expect(tokenFiles).toEqual({})
   })
 
+  it('reconstructs a Motion FLOAT back to a DTCG duration object (ms)', () => {
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: {
+        variableCollections: {
+          'VariableCollectionId:9:1': {
+            id: 'VariableCollectionId:9:1',
+            name: 'Motion',
+            modes: [{ modeId: '9:0', name: 'base' }],
+            defaultModeId: '9:0',
+            remote: false,
+            key: 'motionKey',
+            hiddenFromPublishing: false,
+            variableIds: ['VariableID:9:1'],
+          },
+        },
+        variables: {
+          'VariableID:9:1': {
+            id: 'VariableID:9:1',
+            name: 'duration/fast',
+            key: 'duration_fast',
+            variableCollectionId: 'VariableCollectionId:9:1',
+            resolvedType: 'FLOAT',
+            valuesByMode: { '9:0': 150 },
+            remote: false,
+            description: 'Fast',
+            hiddenFromPublishing: false,
+            scopes: ['ALL_SCOPES'],
+            codeSyntax: {},
+          },
+        },
+      },
+    }
+
+    const tokenFiles = tokenFilesFromLocalVariables(localVariablesResponse)
+    // The Motion export rule reattaches the unit the unitless Figma FLOAT dropped.
+    expect(tokenFiles['motion.base.json'].duration).toMatchObject({
+      fast: { $type: 'duration', $value: { value: 150, unit: 'ms' } },
+    })
+  })
+
   it('ignores deleted-but-referenced variables', () => {
     // Variables deleted in Figma linger in the API while a layer/style still references
     // them (deletedButReferenced: true). Exporting them would resurrect deleted variables

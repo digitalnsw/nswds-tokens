@@ -1,0 +1,132 @@
+{
+  "z-index": {
+    "base": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "Base stacking level (0) — default in-flow content.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-base)"
+          }
+        }
+      }
+    },
+    "dropdown": {
+      "$type": "number",
+      "$value": 1000,
+      "$description": "Dropdown menus and select popups.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-dropdown)"
+          }
+        }
+      }
+    },
+    "sticky": {
+      "$type": "number",
+      "$value": 1100,
+      "$description": "Sticky elements that pin on scroll (headers, toolbars).",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-sticky)"
+          }
+        }
+      }
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": 1200,
+      "$description": "Full-screen overlay scrims sitting behind modal content.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-overlay)"
+          }
+        }
+      }
+    },
+    "modal": {
+      "$type": "number",
+      "$value": 1300,
+      "$description": "Modal dialogs and side sheets.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-modal)"
+          }
+        }
+      }
+    },
+    "popover": {
+      "$type": "number",
+      "$value": 1400,
+      "$description": "Popovers anchored to a trigger, above modals.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-popover)"
+          }
+        }
+      }
+    },
+    "toast": {
+      "$type": "number",
+      "$value": 1500,
+      "$description": "Toast and snackbar notifications.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-toast)"
+          }
+        }
+      }
+    },
+    "tooltip": {
+      "$type": "number",
+      "$value": 1600,
+      "$description": "Tooltips — the top-most interactive layer.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--z-index-tooltip)"
+          }
+        }
+      }
+    }
+  }
+}
