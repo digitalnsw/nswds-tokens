@@ -13,6 +13,9 @@ export type FigmaCollectionRef = { collectionName: string; modeName: string }
 export const FIGMA_COLLECTIONS: Record<string, FigmaCollectionRef> = {
   'primitives-global.light.json': { collectionName: 'Primitives — global', modeName: 'light' },
   'primitives-semantic.light.json': { collectionName: 'Primitives — semantic', modeName: 'light' },
+  // Semantic role tokens are mode-aware: light + dark map to two mode columns on the same
+  // collection. The push CREATEs the dark mode and its values on the existing collection.
+  'primitives-semantic.dark.json': { collectionName: 'Primitives — semantic', modeName: 'dark' },
   'themes-masterbrand.light.json': { collectionName: 'Themes — masterbrand', modeName: 'light' },
   // Phase 4 dimension collections (single "base" mode — values don't vary by theme/mode).
   // The first sync-tokens-to-figma push CREATEs these collections in the Figma file.
