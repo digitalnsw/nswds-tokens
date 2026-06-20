@@ -195,7 +195,10 @@ function variableValueFromToken(
   } else if (token.$type === 'dimension' && isDtcgDimension(token.$value)) {
     return figmaFloatFromDimension(token.$value)
   } else if (token.$type === 'duration' && isDtcgDuration(token.$value)) {
-    return token.$value.value
+    // Figma stores durations as unit-less ms FLOATs (the export rule reconstructs `ms`), so
+    // a seconds-authored duration must convert: { value: 0.15, unit: 's' } -> 150. Symmetric
+    // with the rem -> px dimension normalisation above.
+    return token.$value.unit === 's' ? token.$value.value * 1000 : token.$value.value
   } else if (
     token.$type === 'fontFamily' &&
     Array.isArray(token.$value) &&

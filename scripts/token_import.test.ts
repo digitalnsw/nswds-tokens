@@ -313,6 +313,30 @@ describe('generatePostVariablesPayload', () => {
     ])
   })
 
+  it('normalises a seconds-authored duration to its ms FLOAT for Figma', () => {
+    // Figma stores durations as unit-less ms FLOATs (the Motion export rule reconstructs
+    // `ms`). A seconds-authored duration must convert so it round-trips at the right scale:
+    // { value: 0.15, unit: 's' } is 150ms, NOT 0.15ms. ms durations pass through unchanged.
+    const localVariablesResponse: GetLocalVariablesResponse = {
+      status: 200,
+      error: false,
+      meta: { variableCollections: {}, variables: {} },
+    }
+
+    const tokensByFile: FlattenedTokensByFile = {
+      'motion.base.json': {
+        'duration/fast': { $type: 'duration', $value: { value: 0.15, unit: 's' } },
+        'duration/base': { $type: 'duration', $value: { value: 250, unit: 'ms' } },
+      },
+    }
+
+    const result = generatePostVariablesPayload(tokensByFile, localVariablesResponse)
+    expect(result.variableModeValues).toEqual([
+      { variableId: 'duration/fast', modeId: 'Motion:base', value: 150 },
+      { variableId: 'duration/base', modeId: 'Motion:base', value: 250 },
+    ])
+  })
+
   it('does an in-place update', async () => {
     const localVariablesResponse: GetLocalVariablesResponse = {
       status: 200,
