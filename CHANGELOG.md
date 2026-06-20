@@ -1,3 +1,7 @@
+## <small>4.2.1 (2026-06-20)</small>
+
+* fix(tokens): correct typography variable representation in Figma (#117) ([f08fba3](https://github.com/digitalnsw/nswds-tokens/commit/f08fba3)), closes [#117](https://github.com/digitalnsw/nswds-tokens/issues/117)
+
 ## 4.2.0 (2026-06-20)
 
 * feat(tokens): sync motion durations and z-index to Figma as FLOATs (#116) ([5cf2d96](https://github.com/digitalnsw/nswds-tokens/commit/5cf2d96)), closes [#116](https://github.com/digitalnsw/nswds-tokens/issues/116)
