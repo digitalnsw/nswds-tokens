@@ -1,0 +1,180 @@
+{
+  "success": {
+    "surface": {
+      "$type": "color",
+      "$value": "{success.900}",
+      "$description": "Success (positive outcomes and confirmations) — tinted background."
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{success.300}",
+      "$description": "Success (positive outcomes and confirmations) — readable text on the tint."
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{success.700}",
+      "$description": "Success (positive outcomes and confirmations) — border and divider."
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{success.500}",
+      "$description": "Success (positive outcomes and confirmations) — solid fill for badges and icons."
+    }
+  },
+  "warning": {
+    "surface": {
+      "$type": "color",
+      "$value": "{warning.900}",
+      "$description": "Warning (caution and pending states) — tinted background."
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{warning.300}",
+      "$description": "Warning (caution and pending states) — readable text on the tint."
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{warning.700}",
+      "$description": "Warning (caution and pending states) — border and divider."
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{warning.500}",
+      "$description": "Warning (caution and pending states) — solid fill for badges and icons."
+    }
+  },
+  "danger": {
+    "surface": {
+      "$type": "color",
+      "$value": "{danger.900}",
+      "$description": "Danger (errors and destructive actions) — tinted background."
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{danger.300}",
+      "$description": "Danger (errors and destructive actions) — readable text on the tint."
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{danger.700}",
+      "$description": "Danger (errors and destructive actions) — border and divider."
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{danger.500}",
+      "$description": "Danger (errors and destructive actions) — solid fill for badges and icons."
+    }
+  },
+  "info": {
+    "surface": {
+      "$type": "color",
+      "$value": "{info.900}",
+      "$description": "Info (neutral information) — tinted background."
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{info.300}",
+      "$description": "Info (neutral information) — readable text on the tint."
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{info.700}",
+      "$description": "Info (neutral information) — border and divider."
+    },
+    "solid": {
+      "$type": "color",
+      "$value": "{info.500}",
+      "$description": "Info (neutral information) — solid fill for badges and icons."
+    }
+  },
+  "background": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-grey.950}",
+      "$description": "Page canvas — the base background behind all content."
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{nsw-grey.900}",
+      "$description": "Subtly differentiated background for alternating or grouped sections."
+    }
+  },
+  "surface": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-grey.900}",
+      "$description": "Default container surface — cards, panels, and inputs on the page."
+    },
+    "raised": {
+      "$type": "color",
+      "$value": "{nsw-grey.800}",
+      "$description": "Raised surface for higher-elevation layers (menus, popovers, dialogs). Higher elevation reads lighter in dark mode."
+    },
+    "sunken": {
+      "$type": "color",
+      "$value": "{nsw-grey.950}",
+      "$description": "Recessed surface for wells and inset regions."
+    }
+  },
+  "text": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-grey.100}",
+      "$description": "Primary body and heading text."
+    },
+    "muted": {
+      "$type": "color",
+      "$value": "{nsw-grey.400}",
+      "$description": "Secondary text — supporting copy, captions, metadata."
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{nsw-grey.500}",
+      "$description": "Tertiary text — placeholders and disabled labels. The mid-grey reads in both modes."
+    },
+    "inverse": {
+      "$type": "color",
+      "$value": "{nsw-grey.950}",
+      "$description": "Text and icons rendered on an action or solid fill."
+    },
+    "link": {
+      "$type": "color",
+      "$value": "{nsw-blue.400}",
+      "$description": "Inline hyperlink text."
+    }
+  },
+  "border": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-grey.700}",
+      "$description": "Default border for inputs, cards, and dividers."
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{nsw-grey.800}",
+      "$description": "Low-emphasis border for subtle separation."
+    },
+    "strong": {
+      "$type": "color",
+      "$value": "{nsw-grey.500}",
+      "$description": "High-emphasis border for focus and selected states."
+    }
+  },
+  "action": {
+    "default": {
+      "$type": "color",
+      "$value": "{nsw-blue.500}",
+      "$description": "Primary interactive colour — buttons, links, key accents. NSW navy in light, brightened for contrast in dark."
+    },
+    "hover": {
+      "$type": "color",
+      "$value": "{nsw-blue.400}",
+      "$description": "Hover and active state for primary actions."
+    },
+    "subtle": {
+      "$type": "color",
+      "$value": "{nsw-blue.900}",
+      "$description": "Tinted background for low-emphasis (ghost) actions."
+    }
+  }
+}

@@ -33,6 +33,13 @@ const TARGETS = [
     canonical: 'tokens/semantic/color/canonical.json',
   },
   {
+    // Dark mode column on the Primitives — semantic collection. Per-variable Figma metadata
+    // (scopes/codeSyntax) is shared across modes, so it's copied from the light sibling.
+    staging: 'tokens/primitives-semantic.dark.json',
+    canonical: 'tokens/semantic/color/canonical.dark.json',
+    extensionsFrom: 'tokens/primitives-semantic.light.json',
+  },
+  {
     staging: 'tokens/themes-masterbrand.light.json',
     canonical: 'tokens/themes/color/masterbrand/canonical.json',
   },
