@@ -3,178 +3,530 @@
     "surface": {
       "$type": "color",
       "$value": "{success.50}",
-      "$description": "Success (positive outcomes and confirmations) — tinted background."
+      "$description": "Success (positive outcomes and confirmations) — tinted background.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--success-surface)"
+          }
+        }
+      }
     },
     "text": {
       "$type": "color",
       "$value": "{success.700}",
-      "$description": "Success (positive outcomes and confirmations) — readable text on the tint."
+      "$description": "Success (positive outcomes and confirmations) — readable text on the tint.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--success-text)"
+          }
+        }
+      }
     },
     "border": {
       "$type": "color",
       "$value": "{success.300}",
-      "$description": "Success (positive outcomes and confirmations) — border and divider."
+      "$description": "Success (positive outcomes and confirmations) — border and divider.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--success-border)"
+          }
+        }
+      }
     },
     "solid": {
       "$type": "color",
       "$value": "{success.600}",
-      "$description": "Success (positive outcomes and confirmations) — solid fill for badges and icons."
+      "$description": "Success (positive outcomes and confirmations) — solid fill for badges and icons.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--success-solid)"
+          }
+        }
+      }
     }
   },
   "warning": {
     "surface": {
       "$type": "color",
       "$value": "{warning.50}",
-      "$description": "Warning (caution and pending states) — tinted background."
+      "$description": "Warning (caution and pending states) — tinted background.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--warning-surface)"
+          }
+        }
+      }
     },
     "text": {
       "$type": "color",
       "$value": "{warning.700}",
-      "$description": "Warning (caution and pending states) — readable text on the tint."
+      "$description": "Warning (caution and pending states) — readable text on the tint.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--warning-text)"
+          }
+        }
+      }
     },
     "border": {
       "$type": "color",
       "$value": "{warning.300}",
-      "$description": "Warning (caution and pending states) — border and divider."
+      "$description": "Warning (caution and pending states) — border and divider.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--warning-border)"
+          }
+        }
+      }
     },
     "solid": {
       "$type": "color",
       "$value": "{warning.600}",
-      "$description": "Warning (caution and pending states) — solid fill for badges and icons."
+      "$description": "Warning (caution and pending states) — solid fill for badges and icons.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--warning-solid)"
+          }
+        }
+      }
     }
   },
   "danger": {
     "surface": {
       "$type": "color",
       "$value": "{danger.50}",
-      "$description": "Danger (errors and destructive actions) — tinted background."
+      "$description": "Danger (errors and destructive actions) — tinted background.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--danger-surface)"
+          }
+        }
+      }
     },
     "text": {
       "$type": "color",
       "$value": "{danger.700}",
-      "$description": "Danger (errors and destructive actions) — readable text on the tint."
+      "$description": "Danger (errors and destructive actions) — readable text on the tint.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--danger-text)"
+          }
+        }
+      }
     },
     "border": {
       "$type": "color",
       "$value": "{danger.300}",
-      "$description": "Danger (errors and destructive actions) — border and divider."
+      "$description": "Danger (errors and destructive actions) — border and divider.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--danger-border)"
+          }
+        }
+      }
     },
     "solid": {
       "$type": "color",
       "$value": "{danger.600}",
-      "$description": "Danger (errors and destructive actions) — solid fill for badges and icons."
+      "$description": "Danger (errors and destructive actions) — solid fill for badges and icons.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--danger-solid)"
+          }
+        }
+      }
     }
   },
   "info": {
     "surface": {
       "$type": "color",
       "$value": "{info.50}",
-      "$description": "Info (neutral information) — tinted background."
+      "$description": "Info (neutral information) — tinted background.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--info-surface)"
+          }
+        }
+      }
     },
     "text": {
       "$type": "color",
       "$value": "{info.700}",
-      "$description": "Info (neutral information) — readable text on the tint."
+      "$description": "Info (neutral information) — readable text on the tint.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--info-text)"
+          }
+        }
+      }
     },
     "border": {
       "$type": "color",
       "$value": "{info.300}",
-      "$description": "Info (neutral information) — border and divider."
+      "$description": "Info (neutral information) — border and divider.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--info-border)"
+          }
+        }
+      }
     },
     "solid": {
       "$type": "color",
       "$value": "{info.600}",
-      "$description": "Info (neutral information) — solid fill for badges and icons."
+      "$description": "Info (neutral information) — solid fill for badges and icons.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--info-solid)"
+          }
+        }
+      }
     }
   },
   "background": {
     "default": {
       "$type": "color",
       "$value": "{nsw-grey.50}",
-      "$description": "Page canvas — the base background behind all content."
+      "$description": "Page canvas — the base background behind all content.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--background-default)"
+          }
+        }
+      }
     },
     "subtle": {
       "$type": "color",
       "$value": "{nsw-grey.100}",
-      "$description": "Subtly differentiated background for alternating or grouped sections."
+      "$description": "Subtly differentiated background for alternating or grouped sections.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--background-subtle)"
+          }
+        }
+      }
     }
   },
   "surface": {
     "default": {
       "$type": "color",
       "$value": "{white}",
-      "$description": "Default container surface — cards, panels, and inputs on the page."
+      "$description": "Default container surface — cards, panels, and inputs on the page.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--surface-default)"
+          }
+        }
+      }
     },
     "raised": {
       "$type": "color",
       "$value": "{white}",
-      "$description": "Raised surface for higher-elevation layers (menus, popovers, dialogs). Higher elevation reads lighter in dark mode."
+      "$description": "Raised surface for higher-elevation layers (menus, popovers, dialogs). Higher elevation reads lighter in dark mode.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--surface-raised)"
+          }
+        }
+      }
     },
     "sunken": {
       "$type": "color",
       "$value": "{nsw-grey.100}",
-      "$description": "Recessed surface for wells and inset regions."
+      "$description": "Recessed surface for wells and inset regions.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--surface-sunken)"
+          }
+        }
+      }
     }
   },
   "text": {
     "default": {
       "$type": "color",
       "$value": "{nsw-grey.900}",
-      "$description": "Primary body and heading text."
+      "$description": "Primary body and heading text.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--text-default)"
+          }
+        }
+      }
     },
     "muted": {
       "$type": "color",
       "$value": "{nsw-grey.600}",
-      "$description": "Secondary text — supporting copy, captions, metadata."
+      "$description": "Secondary text — supporting copy, captions, metadata.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--text-muted)"
+          }
+        }
+      }
     },
     "subtle": {
       "$type": "color",
       "$value": "{nsw-grey.500}",
-      "$description": "Tertiary text — placeholders and disabled labels. The mid-grey reads in both modes."
+      "$description": "Tertiary text — placeholders and disabled labels. The mid-grey reads in both modes.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--text-subtle)"
+          }
+        }
+      }
     },
     "inverse": {
       "$type": "color",
       "$value": "{white}",
-      "$description": "Text and icons rendered on an action or solid fill."
+      "$description": "Text and icons rendered on an action or solid fill.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--text-inverse)"
+          }
+        }
+      }
     },
     "link": {
       "$type": "color",
       "$value": "{nsw-blue.800}",
-      "$description": "Inline hyperlink text."
+      "$description": "Inline hyperlink text.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--text-link)"
+          }
+        }
+      }
     }
   },
   "border": {
     "default": {
       "$type": "color",
       "$value": "{nsw-grey.300}",
-      "$description": "Default border for inputs, cards, and dividers."
+      "$description": "Default border for inputs, cards, and dividers.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-default)"
+          }
+        }
+      }
     },
     "subtle": {
       "$type": "color",
       "$value": "{nsw-grey.200}",
-      "$description": "Low-emphasis border for subtle separation."
+      "$description": "Low-emphasis border for subtle separation.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-subtle)"
+          }
+        }
+      }
     },
     "strong": {
       "$type": "color",
       "$value": "{nsw-grey.500}",
-      "$description": "High-emphasis border for focus and selected states."
+      "$description": "High-emphasis border for focus and selected states.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--border-strong)"
+          }
+        }
+      }
     }
   },
   "action": {
     "default": {
       "$type": "color",
       "$value": "{nsw-blue.800}",
-      "$description": "Primary interactive colour — buttons, links, key accents. NSW navy in light, brightened for contrast in dark."
+      "$description": "Primary interactive colour — buttons, links, key accents. NSW navy in light, brightened for contrast in dark.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--action-default)"
+          }
+        }
+      }
     },
     "hover": {
       "$type": "color",
       "$value": "{nsw-blue.900}",
-      "$description": "Hover and active state for primary actions."
+      "$description": "Hover and active state for primary actions.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--action-hover)"
+          }
+        }
+      }
     },
     "subtle": {
       "$type": "color",
       "$value": "{nsw-blue.50}",
-      "$description": "Tinted background for low-emphasis (ghost) actions."
+      "$description": "Tinted background for low-emphasis (ghost) actions.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {
+            "WEB": "var(--action-subtle)"
+          }
+        }
+      }
     }
   }
 }
