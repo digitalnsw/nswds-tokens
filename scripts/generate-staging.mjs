@@ -22,6 +22,26 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 
 const read = (p) => JSON.parse(readFileSync(p, 'utf8'))
 
+// Figma-representation transform for the Typography collection. Figma variables are
+// unitless FLOATs / single STRINGs, so a few CSS-shaped values must be translated for the
+// Figma view ONLY — the canonical (and every css/js/scss/… output built from it) keeps the
+// web-correct values untouched:
+//   font-family    -> primary family only (Figma binds real font files, not CSS fallback
+//                     stacks; the joined stack is an unloadable font name).
+//   line-height    -> percent (×100): a unitless multiplier (1.0) reads as 1px in Figma;
+//                     100 renders as 100% on text whose line-height unit is %.
+//   letter-spacing -> percent (×100): an em value (0.025) reads as 0.025px; 2.5 renders as
+//                     2.5% on text whose letter-spacing unit is %.
+// Rounded to 7dp to match token_export's snapFloat so the round-trip stays byte-stable.
+const typographyFigmaValue = ([family], value) => {
+  if (family === 'font-family') return Array.isArray(value) ? value[0] : value
+  if (family === 'line-height' || family === 'letter-spacing')
+    // Snap through float32 (Figma's storage precision) so the percent matches the value the
+    // export round-trips — e.g. 1.3333333×100 = 133.33333 stores as float32 133.3333282.
+    return Number(Math.fround(value * 100).toFixed(7))
+  return value
+}
+
 // staging file -> canonical source (+ where to copy per-variable extensions from).
 const TARGETS = [
   {
@@ -49,13 +69,17 @@ const TARGETS = [
     staging: 'tokens/breakpoints.base.json',
     canonical: 'tokens/global/breakpoints/canonical.json',
   },
-  { staging: 'tokens/typography.base.json', canonical: 'tokens/global/typography/canonical.json' },
+  {
+    staging: 'tokens/typography.base.json',
+    canonical: 'tokens/global/typography/canonical.json',
+    figmaValue: typographyFigmaValue,
+  },
   { staging: 'tokens/border.base.json', canonical: 'tokens/global/border/canonical.json' },
   // D2 (requires manifest entries first — see NOTE above):
   // { staging: 'tokens/primitives-semantic.dark.json', canonical: 'tokens/semantic/color/canonical.dark.json', extensionsFrom: 'tokens/primitives-semantic.light.json' },
 ]
 
-const generate = ({ staging, canonical, extensionsFrom }) => {
+const generate = ({ staging, canonical, extensionsFrom, figmaValue }) => {
   const source = read(canonical)
   const extensionsSource = existsSync(extensionsFrom ?? staging)
     ? read(extensionsFrom ?? staging)
@@ -97,7 +121,7 @@ const generate = ({ staging, canonical, extensionsFrom }) => {
       : undefined
     return {
       $type: tok.$type,
-      $value: tok.$value,
+      $value: figmaValue ? figmaValue(pathSegments, tok.$value) : tok.$value,
       $description: tok.$description ?? '',
       ...(extensions ? { $extensions: extensions } : {}),
     }
