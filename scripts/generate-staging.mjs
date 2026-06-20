@@ -53,8 +53,9 @@ const typographyFigmaValue = ([family], value) => {
 // CANONICAL value (the multiplier / em), so the percent is derived cleanly.
 const typographyFigmaDescription = ([family], value, description) => {
   if (family === 'font-family')
-    // Figma binds the primary font file only — drop the CSS fallback-stack clause.
-    return description.replace(/ with [^.]*?fallbacks?/, '')
+    // Figma binds the primary font file only — drop the CSS fallback-stack clause and
+    // reword "stack" (which implies a fallback list) to "typeface" for the single-family view.
+    return description.replace(/ with [^.]*?fallbacks?/, '').replace(/\bstack\b/g, 'typeface')
   if ((family === 'line-height' || family === 'letter-spacing') && typeof value === 'number') {
     const pct = Number((value * 100).toFixed(2)) // human-readable percent for the label
     return description

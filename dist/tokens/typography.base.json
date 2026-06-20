@@ -19,7 +19,7 @@
     "display": {
       "$type": "fontFamily",
       "$value": "Public Sans",
-      "$description": "Display typeface — currently the same stack as sans; a separate token so display/heading type can diverge from body text later without a breaking change.",
+      "$description": "Display typeface — currently the same typeface as sans; a separate token so display/heading type can diverge from body text later without a breaking change.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -35,7 +35,7 @@
     "system": {
       "$type": "fontFamily",
       "$value": "Public Sans",
-      "$description": "System typeface — currently the same stack as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.",
+      "$description": "System typeface — currently the same typeface as sans; a separate token for system-chrome contexts (toasts, native-feeling UI) that may diverge later.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
@@ -51,7 +51,7 @@
     "mono": {
       "$type": "fontFamily",
       "$value": "JetBrains Mono",
-      "$description": "Monospace stack — JetBrains Mono for code, tabular data, and technical content.",
+      "$description": "Monospace typeface — JetBrains Mono for code, tabular data, and technical content.",
       "$extensions": {
         "com.figma": {
           "hiddenFromPublishing": false,
