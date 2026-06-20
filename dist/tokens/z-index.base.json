@@ -1,0 +1,44 @@
+{
+  "z-index": {
+    "base": {
+      "$type": "number",
+      "$value": 0,
+      "$description": "Base stacking level (0) — default in-flow content."
+    },
+    "dropdown": {
+      "$type": "number",
+      "$value": 1000,
+      "$description": "Dropdown menus and select popups."
+    },
+    "sticky": {
+      "$type": "number",
+      "$value": 1100,
+      "$description": "Sticky elements that pin on scroll (headers, toolbars)."
+    },
+    "overlay": {
+      "$type": "number",
+      "$value": 1200,
+      "$description": "Full-screen overlay scrims sitting behind modal content."
+    },
+    "modal": {
+      "$type": "number",
+      "$value": 1300,
+      "$description": "Modal dialogs and side sheets."
+    },
+    "popover": {
+      "$type": "number",
+      "$value": 1400,
+      "$description": "Popovers anchored to a trigger, above modals."
+    },
+    "toast": {
+      "$type": "number",
+      "$value": 1500,
+      "$description": "Toast and snackbar notifications."
+    },
+    "tooltip": {
+      "$type": "number",
+      "$value": 1600,
+      "$description": "Tooltips — the top-most interactive layer."
+    }
+  }
+}

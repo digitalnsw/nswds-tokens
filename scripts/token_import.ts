@@ -121,6 +121,7 @@ function variableResolvedTypeFromToken(token: Token) {
       return 'COLOR'
     case 'number':
     case 'dimension': // Figma variables have no unit concept — dimensions sync as FLOAT px
+    case 'duration': // duration syncs as a unitless FLOAT (the ms value)
     case 'fontWeight': // numeric weight (400/700) syncs as FLOAT
       return 'FLOAT'
     case 'string':
@@ -138,6 +139,14 @@ function isDtcgDimension(value: unknown): value is DtcgDimension {
   if (typeof value !== 'object' || value === null) return false
   const v = value as Record<string, unknown>
   return typeof v.value === 'number' && (v.unit === 'px' || v.unit === 'rem')
+}
+
+// Narrow an unknown $value to a DTCG duration object ({ value, unit: "ms" | "s" }). Syncs
+// as a unitless FLOAT (the raw value); the unit is reattached on export via the manifest.
+function isDtcgDuration(value: unknown): value is { value: number; unit: 'ms' | 's' } {
+  if (typeof value !== 'object' || value === null) return false
+  const v = value as Record<string, unknown>
+  return typeof v.value === 'number' && (v.unit === 'ms' || v.unit === 's')
 }
 
 // Figma variables are unitless floats; the px convention is what Figma's own UI uses for
@@ -185,6 +194,8 @@ function variableValueFromToken(
     return parseColor(token.$value) // back-compat: hex string colours
   } else if (token.$type === 'dimension' && isDtcgDimension(token.$value)) {
     return figmaFloatFromDimension(token.$value)
+  } else if (token.$type === 'duration' && isDtcgDuration(token.$value)) {
+    return token.$value.value
   } else if (
     token.$type === 'fontFamily' &&
     Array.isArray(token.$value) &&
@@ -206,6 +217,11 @@ function variableValueFromToken(
       if (token.$type === 'dimension') {
         throw new Error(
           `Invalid dimension token $value (expected { value: number, unit: "px" | "rem" } or an alias): ${JSON.stringify(token.$value)}`,
+        )
+      }
+      if (token.$type === 'duration') {
+        throw new Error(
+          `Invalid duration token $value (expected { value: number, unit: "ms" | "s" } or an alias): ${JSON.stringify(token.$value)}`,
         )
       }
       if (token.$type === 'fontFamily') {
