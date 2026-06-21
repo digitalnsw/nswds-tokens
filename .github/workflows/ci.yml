@@ -103,3 +103,46 @@ jobs:
 
       - name: Run tests
         run: npm run test:tokens
+
+  check-staging:
+    name: Check Figma staging
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm clean-install
+
+      - name: Verify Figma staging files match their canonical sources
+        run: npm run check:staging
+
+  package-surface:
+    name: Package surface
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm clean-install
+
+      - name: Build outputs
+        run: npm run build
+
+      - name: Smoke-test the published package surface
+        run: npm run smoke:package-surface
