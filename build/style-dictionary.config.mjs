@@ -7,10 +7,10 @@
 // Each config generates css/scss/less (built-ins) + js/ts/json/figma/tailwind (custom
 // formats in ./formats.mjs) for the global, semantic, and masterbrand layers.
 //
-// hsl/rgb/oklch read the object-form source ({colorSpace,channels,alpha}); the string
-// outputs format it via the nsw/color-string transform, Figma keeps the object. (Re-deriving
-// these from hex via culori per decision #2 is deferred to Phase 3, where H1 collapses the
-// source trees and the value drift belongs with the breaking change.)
+// The per-space token views (hex/hsl/rgb/oklch.json) are derived from the single
+// canonical.json per layer by scripts/build-token-views.mjs (culori; see build/color-derive.mjs)
+// before this config runs. hsl/rgb/oklch carry the DTCG object form ({colorSpace,components,alpha});
+// the string outputs format it via the nsw/color-string transform, while Figma keeps the object.
 //
 // Consumed by scripts/generate-styles.mjs, which overrides each platform's buildPath to
 // write the generated files into src/ (the OUT default below is only a placeholder).
