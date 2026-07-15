@@ -1,7 +1,7 @@
-// Allowed commit types come from commit-types.cjs — the single source of truth.
-// Importing it here (rather than re-listing the enum) means commitlint can't drift
-// from the SoT; CI then checks the SoT against git-conventional-commits.yaml.
-import COMMIT_TYPES from './commit-types.cjs'
+// Allowed commit types come from commit-types.mjs — the single source of truth.
+// CI (scripts/check-commit-types-sync.sh) checks that file against
+// git-conventional-commits.yaml, so edit the type list in commit-types.mjs only.
+import COMMIT_TYPES from './commit-types.mjs'
 
 /** @type {import('@commitlint/types').UserConfig} */
 const config = {
@@ -12,14 +12,19 @@ const config = {
   // hand-written, so skip linting them entirely. (defaultIgnores stays on, so
   // merge/revert/etc. remain ignored too.)
   ignores: [
-    (message) =>
-      // The release-commit predicate the comment above promises. It was missing in
-      // practice: the v3.5.0 release died in CI when the husky commit-msg hook ran
-      // commitlint against semantic-release's changelog commit (footer-max-line-length).
-      message.trim().startsWith('chore(release):') ||
-      /^Potential fix for code scanning alert no\. \d+: /u.test(message.trim()) ||
-      message.trim().startsWith('Potential fix for pull request finding') ||
-      message.trim() === 'Initial plan',
+    (message) => {
+      const subject = message.trim()
+      return (
+        /^chore\(release\):/.test(message) ||
+        // GitHub code-scanning / Copilot bots open PRs whose commit subjects
+        // aren't Conventional Commits ("Potential fix for…", "Initial plan").
+        // Commitlint CI lints the whole PR range, so without these exemptions
+        // every bot-authored PR fails the check.
+        /^Potential fix for code scanning alert no\. \d+: /u.test(subject) ||
+        subject.startsWith('Potential fix for pull request finding') ||
+        subject === 'Initial plan'
+      )
+    },
   ],
   rules: {
     // Warn (not error) on body lines over 100 chars. AI commit tools like

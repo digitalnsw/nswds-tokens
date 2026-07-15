@@ -26,14 +26,22 @@ fi
 CONVENTIONAL_COMMIT_REGEX="$("$CONVENTIONAL_CONFIG_SCRIPT" regex)"
 CONVENTIONAL_COMMIT_TYPES_CSV="$("$CONVENTIONAL_CONFIG_SCRIPT" csv)"
 
-# Set model and endpoint. Override the model via the OPENAI_MODEL env var.
-MODEL="${OPENAI_MODEL:-gpt-4o}"
-ENDPOINT="https://api.openai.com/v1/chat/completions"
+# Shared OpenAI request helper (model defaults + openai_responses_text()).
+# Override the model via the OPENAI_MODEL env var.
+OPENAI_REQUEST_SCRIPT="${SCRIPT_DIR}/openai-request.sh"
+if [[ ! -f "$OPENAI_REQUEST_SCRIPT" ]]; then
+  echo "❌ OpenAI request helper not found: ${OPENAI_REQUEST_SCRIPT}"
+  exit 1
+fi
+# shellcheck source=./openai-request.sh
+source "$OPENAI_REQUEST_SCRIPT"
 
-# Use --fail-with-body if available; fall back to --fail for BSD/macOS curl.
-CURL_FAIL_FLAG="--fail-with-body"
-if ! curl --help all 2>/dev/null | grep -q -- '--fail-with-body'; then
-  CURL_FAIL_FLAG="--fail"
+# A PR title is short, but reasoning models spend output tokens on hidden
+# reasoning before emitting it, so they need a far larger budget.
+if [[ "$OPENAI_MODEL_FAMILY" == "reasoning" ]]; then
+  OPENAI_MAX_OUTPUT_TOKENS="${OPENAI_MAX_OUTPUT_TOKENS:-2000}"
+else
+  OPENAI_MAX_OUTPUT_TOKENS="${OPENAI_MAX_OUTPUT_TOKENS:-80}"
 fi
 
 # Get current branch and base branch.
@@ -52,57 +60,28 @@ if [ -z "$commits" ]; then
   exit 1
 fi
 
-# Prepare JSON payload with Conventional Commit title prompt
-messages=$(jq -n \
-  --arg commits "$commits" \
-  --arg allowedTypes "$CONVENTIONAL_COMMIT_TYPES_CSV" \
-  '[
-    {
-      "role": "system",
-      "content": "You are an assistant that writes pull request titles in the Conventional Commits format (https://www.conventionalcommits.org/en/v1.0.0/)."
-    },
-    {
-      "role": "user",
-      "content": "Here are the commit messages:\n\n\($commits)\n\nWrite a concise PR title that summarizes the changes and follows the Conventional Commits format. Allowed types: \($allowedTypes). Include a scope in parentheses if applicable. Return only the title and nothing else."
-    }
-  ]'
-)
+# Build the prompt and hand off to the shared helper, which shapes the payload,
+# makes the request, and runs all the transport/non-JSON/.error guards.
+user_prompt="Here are the commit messages:
 
-# Call OpenAI API
+${commits}
+
+Write a concise PR title that summarizes the changes and follows the Conventional Commits format. Allowed types: ${CONVENTIONAL_COMMIT_TYPES_CSV}. Include a scope in parentheses if applicable. Return only the title and nothing else."
+
 set +e
-response=$(curl -sS "$CURL_FAIL_FLAG" "$ENDPOINT" \
-  -H "Authorization: Bearer $OPENAI_API_KEY" \
-  -H "Content-Type: application/json" \
-  -d "{\"model\": \"$MODEL\", \"messages\": $messages, \"temperature\": 0.4}"
-)
-curl_status=$?
+title=$(openai_responses_text \
+  "You are an assistant that writes pull request titles in the Conventional Commits format (https://www.conventionalcommits.org/en/v1.0.0/)." \
+  "$user_prompt" \
+  "$OPENAI_MAX_OUTPUT_TOKENS")
+request_status=$?
 set -e
 
-if [[ $curl_status -ne 0 ]]; then
-  echo "❌ OpenAI API request failed (curl exit code: $curl_status)."
-  echo "$response" | head -c 400
-  echo
+if [[ $request_status -ne 0 ]]; then
   exit 1
 fi
 
-# Fail clearly if the response isn't valid JSON (auth/proxy errors can be HTML).
-if ! echo "$response" | jq -e . >/dev/null 2>&1; then
-  echo "❌ OpenAI API returned a non-JSON response."
-  echo "$response" | head -c 400
-  echo
-  exit 1
-fi
-
-# Surface API-level errors instead of proceeding with a null title.
-if echo "$response" | jq -e '.error' >/dev/null; then
-  err_type=$(echo "$response" | jq -r '.error.type // "unknown"')
-  err_msg=$(echo "$response" | jq -r '.error.message // ""' | head -c 200)
-  echo "❌ OpenAI API error ($err_type): $err_msg"
-  exit 1
-fi
-
-# Extract title; bail if content is missing/null rather than creating a PR titled "null".
-title=$(echo "$response" | jq -r '.choices[0].message.content // empty' | head -n 1)
+# Keep only the first line; bail if empty rather than creating a PR titled "null".
+title=$(printf '%s' "$title" | head -n 1)
 if [[ -z "$title" ]]; then
   echo "❌ OpenAI API did not return a title."
   exit 1
@@ -112,6 +91,7 @@ fi
 # "Title:", wrapping quotes/backticks/code fences, collapse whitespace, and trim.
 title="$(printf '%s' "$title" | sed -E 's/^Title:[[:space:]]*//I')"
 title="$(printf '%s' "$title" | sed -E 's/^["'\''`]+|["'\''`]+$//g')"
+# shellcheck disable=SC2016  # backticks are literal (markdown fence stripping)
 title="$(printf '%s' "$title" | sed -E 's/^```[a-zA-Z0-9_-]*//; s/```$//')"
 title="$(printf '%s' "$title" | sed -E 's/[[:space:]]+/ /g')"
 title="$(printf '%s' "$title" | sed -E 's/^[[:space:]]+|[[:space:]]+$//g')"
@@ -137,7 +117,7 @@ echo "$title"
 echo ""
 
 # Optionally prompt to confirm and create PR
-read -p "📝 Use this title to create the PR? [y/N]: " confirm
+read -r -p "📝 Use this title to create the PR? [y/N]: " confirm
 if [[ $confirm =~ ^[Yy]$ ]]; then
   gh pr create --title "$title" --body "" --head "$branch"
 else
