@@ -1,6 +1,10 @@
+# Synced from digitalnsw/nswds-devops — DO NOT EDIT in this repo.
+# The implementation lives in that repo's reusable-openai-pr-description.yml.
 name: Autofill PR description
 
-on: pull_request
+on:
+  pull_request:
+    types: [opened]
 
 permissions:
   contents: read
@@ -8,12 +12,5 @@ permissions:
 
 jobs:
   openai-pr-description:
-    runs-on: ubuntu-22.04
-    # Skip for fork PRs — secrets are not available there
-    if: github.event.pull_request.head.repo.full_name == github.event.pull_request.base.repo.full_name
-
-    steps:
-      - uses: platisd/openai-pr-description@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-openai-pr-description.yml@main
+    secrets: inherit

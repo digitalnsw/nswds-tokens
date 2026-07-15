@@ -29,21 +29,23 @@ fi
 printf "📦 Installing commitlint + husky (dev dependencies)…\n"
 npm install --save-dev @commitlint/cli @commitlint/config-conventional husky
 
-# commit-types.cjs is the single source of truth for the allowed types; the
+# commit-types.mjs is the single source of truth for the allowed types; the
 # commitlint config imports it. Provision it first so the config resolves. The
-# .cjs extension keeps it CommonJS (`module.exports`) regardless of the target
-# repo's package "type", so both `require()` and ESM default-import work.
-# Reuse the shared file if present, else write the canonical default.
-if [[ -f commit-types.cjs ]]; then
-  printf "✅ commit-types.cjs already present — leaving it untouched.\n"
-elif [[ -f "${SCRIPT_DIR}/../commit-types.cjs" ]]; then
-  cp "${SCRIPT_DIR}/../commit-types.cjs" commit-types.cjs
-  printf "✅ Copied shared commit-types.cjs into the repo.\n"
+# .mjs extension pins it to ES modules regardless of the target repo's
+# package.json "type", so it loads the same way in CommonJS and ESM repos.
+# Reuse the shared file if present, else write the canonical default. Accept any
+# existing commit-types.{mjs,js,cjs} so re-running against a repo set up by an
+# older version doesn't drop a second, conflicting source of truth.
+if [[ -f commit-types.mjs || -f commit-types.js || -f commit-types.cjs ]]; then
+  printf "✅ commit-types.* already present — leaving it untouched.\n"
+elif [[ -f "${SCRIPT_DIR}/../commit-types.mjs" ]]; then
+  cp "${SCRIPT_DIR}/../commit-types.mjs" commit-types.mjs
+  printf "✅ Copied shared commit-types.mjs into the repo.\n"
 else
-  cat > commit-types.cjs <<'EOF'
+  cat > commit-types.mjs <<'EOF'
 // Single source of truth for the allowed conventional-commit types.
 // commitlint.config.mjs imports this array; edit the list here only.
-module.exports = [
+export default [
   'feat',
   'fix',
   'refactor',
@@ -56,13 +58,13 @@ module.exports = [
   'chore',
   'merge',
   'revert',
-]
+];
 EOF
-  printf "✅ Wrote a default commit-types.cjs.\n"
+  printf "✅ Wrote a default commit-types.mjs.\n"
 fi
 
 # commitlint config: reuse the shared one if present, else write a sensible
-# default. Either way it imports the allowed types from commit-types.cjs above.
+# default. Either way it imports the allowed types from commit-types.mjs above.
 if [[ -f commitlint.config.js || -f commitlint.config.cjs || -f commitlint.config.mjs || -f .commitlintrc.js || -f .commitlintrc.json || -f .commitlintrc.yml || -f .commitlintrc.yaml ]]; then
   printf "✅ commitlint config already present — leaving it untouched.\n"
 elif [[ -f "${SCRIPT_DIR}/../commitlint.config.mjs" ]]; then
@@ -70,8 +72,8 @@ elif [[ -f "${SCRIPT_DIR}/../commitlint.config.mjs" ]]; then
   printf "✅ Copied shared commitlint.config.mjs into the repo.\n"
 else
   cat > commitlint.config.mjs <<'EOF'
-// Allowed commit types come from commit-types.cjs — the single source of truth.
-import COMMIT_TYPES from './commit-types.cjs'
+// Allowed commit types come from commit-types.mjs — the single source of truth.
+import COMMIT_TYPES from './commit-types.mjs'
 
 /** @type {import('@commitlint/types').UserConfig} */
 const config = {
@@ -105,7 +107,7 @@ HOOK_TEMPLATE_DIR="${SCRIPT_DIR}/husky"
 for hook in prepare-commit-msg commit-msg; do
   src="${HOOK_TEMPLATE_DIR}/${hook}"
   if [[ ! -f "$src" ]]; then
-    printf "❌ Missing hook template: %s (sync scripts/husky/ from shared-build-scripts).\n" "$src" >&2
+    printf "❌ Missing hook template: %s (sync scripts/husky/ from nswds-devops).\n" "$src" >&2
     exit 1
   fi
   cp "$src" ".husky/${hook}"

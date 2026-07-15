@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Dependencies
-REQUIRED_CMDS=(git jq curl sed grep wc tr head awk cat paste mktemp rm)
+REQUIRED_CMDS=(git jq curl sed grep wc tr head awk cat paste)
 for cmd in "${REQUIRED_CMDS[@]}"; do
   if ! command -v "$cmd" >/dev/null 2>&1; then
     printf "❌ Missing dependency: %s\n" "$cmd"
@@ -27,9 +27,31 @@ if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   exit 1
 fi
 
-# OpenAI model + output token limit (tunable)
-OPENAI_MODEL="${OPENAI_MODEL:-gpt-4o-mini}"
-OPENAI_MAX_OUTPUT_TOKENS="${OPENAI_MAX_OUTPUT_TOKENS:-250}"
+# Shared OpenAI request helper (model defaults + openai_responses_text()).
+OPENAI_REQUEST_SCRIPT="${SCRIPT_DIR}/openai-request.sh"
+if [[ ! -f "$OPENAI_REQUEST_SCRIPT" ]]; then
+  printf "❌ OpenAI request helper not found: %s\n" "$OPENAI_REQUEST_SCRIPT"
+  exit 1
+fi
+# shellcheck source=./openai-request.sh
+source "$OPENAI_REQUEST_SCRIPT"
+
+# Shared secret detection + redaction (single source of truth).
+SECRET_REDACTION_SCRIPT="${SCRIPT_DIR}/secret-redaction.sh"
+if [[ ! -f "$SECRET_REDACTION_SCRIPT" ]]; then
+  printf "❌ Secret redaction helper not found: %s\n" "$SECRET_REDACTION_SCRIPT"
+  exit 1
+fi
+# shellcheck source=./secret-redaction.sh
+source "$SECRET_REDACTION_SCRIPT"
+
+# Reasoning models spend output tokens on hidden reasoning, so they need a
+# larger budget than the gpt-4 family to actually emit the commit message.
+if [[ "$OPENAI_MODEL_FAMILY" == "reasoning" ]]; then
+  OPENAI_MAX_OUTPUT_TOKENS="${OPENAI_MAX_OUTPUT_TOKENS:-2000}"
+else
+  OPENAI_MAX_OUTPUT_TOKENS="${OPENAI_MAX_OUTPUT_TOKENS:-250}"
+fi
 OPENAI_DIFF_MAX_LINES="${OPENAI_DIFF_MAX_LINES:-1500}"
 OPENAI_DIFF_MAX_BYTES="${OPENAI_DIFF_MAX_BYTES:-120000}"
 
@@ -46,27 +68,6 @@ fi
 if ! [[ "$OPENAI_DIFF_MAX_BYTES" =~ ^[1-9][0-9]*$ ]]; then
   printf "❌ OPENAI_DIFF_MAX_BYTES must be a positive integer (>= 1) (got: %s)\n" "$OPENAI_DIFF_MAX_BYTES"
   exit 1
-fi
-
-TMP_FILES=()
-cleanup_tmp_files() {
-  if [[ ${#TMP_FILES[@]} -gt 0 ]]; then
-    rm -f "${TMP_FILES[@]}"
-  fi
-}
-trap cleanup_tmp_files EXIT
-
-new_tmp_file() {
-  local tmp_file
-  tmp_file="$(mktemp)"
-  TMP_FILES+=("$tmp_file")
-  printf '%s\n' "$tmp_file"
-}
-
-# Use --fail-with-body if available; fall back to --fail for BSD/macOS curl.
-CURL_FAIL_FLAG="--fail-with-body"
-if ! curl --help all 2>/dev/null | grep -q -- '--fail-with-body'; then
-  CURL_FAIL_FLAG="--fail"
 fi
 
 # Detect a locally-installed commitlint so we can validate candidate messages
@@ -140,7 +141,7 @@ if [[ -z "$DIFF" ]]; then
 fi
 
 # Basic sensitive-pattern detection to prevent accidental data/code leakage.
-SENSITIVE_REGEX='(-----BEGIN (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|xox[baprs]-[0-9A-Za-z-]{10,}|gh[pousr]_[0-9A-Za-z]{20,}|github_pat_[0-9A-Za-z_]{20,}|password[[:space:]]*[:=]|api[_-]?key[[:space:]]*[:=]|secret[[:space:]]*[:=]|token[[:space:]]*[:=]|authorization[[:space:]]*[:=])'
+# SENSITIVE_REGEX comes from secret-redaction.sh (sourced above).
 if git diff --cached | sed -n '1,5000p' | grep -Eqi "$SENSITIVE_REGEX"; then
   printf "⚠️ Potential secrets detected in the staged diff.\n"
   printf "This script will send code to the OpenAI API.\n"
@@ -152,47 +153,8 @@ if git diff --cached | sed -n '1,5000p' | grep -Eqi "$SENSITIVE_REGEX"; then
 fi
 
 # Redact common secret patterns before sending to the API (best-effort).
-DIFF_REDACTED="$DIFF"
-
-# High-signal tokens/keys
-DIFF_REDACTED="$(printf '%s' "$DIFF_REDACTED" | sed -E \
-  -e 's/AKIA[0-9A-Z]{16}/[REDACTED_AWS_KEY]/g' \
-  -e 's/ASIA[0-9A-Z]{16}/[REDACTED_AWS_KEY]/g' \
-  -e 's/xox[baprs]-[0-9A-Za-z-]{10,}/[REDACTED_SLACK_TOKEN]/g' \
-  -e 's/gh[pousr]_[0-9A-Za-z]{20,}/[REDACTED_GITHUB_TOKEN]/g' \
-  -e 's/github_pat_[0-9A-Za-z_]{20,}/[REDACTED_GITHUB_TOKEN]/g' \
-)"
-
-# Private key blocks (redact the entire block)
-DIFF_REDACTED="$(printf '%s' "$DIFF_REDACTED" | awk '
-  /-----BEGIN (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----/ {
-    in_private_key = 1;
-    print "[REDACTED_PRIVATE_KEY_BLOCK]";
-    next;
-  }
-  in_private_key && /-----END (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----/ {
-    in_private_key = 0;
-    next;
-  }
-  in_private_key { next; }
-  { print; }
-' | sed -E \
-  -e 's/-----BEGIN (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----/[REDACTED_PRIVATE_KEY]/g' \
-  -e 's/-----END (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----/[REDACTED_PRIVATE_KEY_END]/g' \
-)"
-
-# Common "key/value" secrets (env/yaml/ini/json) (best-effort broad)
-DIFF_REDACTED="$(printf '%s' "$DIFF_REDACTED" | sed -E \
-  -e 's/("password"[[:space:]]*:[[:space:]]*")[^"]*"/\1[REDACTED]"/g' \
-  -e 's/("api[_-]?key"[[:space:]]*:[[:space:]]*")[^"]*"/\1[REDACTED]"/g' \
-  -e 's/("secret"[[:space:]]*:[[:space:]]*")[^"]*"/\1[REDACTED]"/g' \
-  -e 's/("token"[[:space:]]*:[[:space:]]*")[^"]*"/\1[REDACTED]"/g' \
-  -e 's/([Pp]assword[[:space:]]*[:=][[:space:]]*)[^[:space:]"'\''#]+/\1[REDACTED]/g' \
-  -e 's/(api[_-]?[Kk]ey[[:space:]]*[:=][[:space:]]*)[^[:space:]"'\''#]+/\1[REDACTED]/g' \
-  -e 's/([Ss]ecret[[:space:]]*[:=][[:space:]]*)[^[:space:]"'\''#]+/\1[REDACTED]/g' \
-  -e 's/([Tt]oken[[:space:]]*[:=][[:space:]]*)[^[:space:]"'\''#]+/\1[REDACTED]/g' \
-  -e 's/([Aa]uthorization[[:space:]]*[:=][[:space:]]*Bearer[[:space:]]+)[^[:space:]"'\''#]+/\1[REDACTED]/g' \
-)"
+# redact_sensitive_diff comes from secret-redaction.sh (sourced above).
+DIFF_REDACTED="$(redact_sensitive_diff "$DIFF")"
 
 # Preview should show redacted diff (Fix #3)
 printf "🧾 Staged diff preview (first 300 lines, redacted):\n"
@@ -244,62 +206,26 @@ max_attempts=2
 COMMIT_MSG=""
 
 while [[ $attempt -le $max_attempts ]]; do
-  PROMPT_FILE="$(new_tmp_file)"
-  PAYLOAD_FILE="$(new_tmp_file)"
-  generate_prompt >"$PROMPT_FILE"
+  PROMPT="$(generate_prompt)"
 
-  jq -n --rawfile prompt "$PROMPT_FILE" --arg model "$OPENAI_MODEL" --argjson max_output_tokens "${OPENAI_MAX_OUTPUT_TOKENS}" '{
-    model: $model,
-    input: [
-      {
-        role: "system",
-        content: [
-          { type: "input_text", text: "You write high-quality Conventional Commit messages. Output only the commit message (subject + optional body)." }
-        ]
-      },
-      { role: "user", content: [ { type: "input_text", text: $prompt } ] }
-    ],
-    temperature: 0.4,
-    max_output_tokens: $max_output_tokens
-  }' >"$PAYLOAD_FILE"
-
+  # Single shared helper handles payload shaping, the request, and all the
+  # transport/non-JSON/.error guards; it returns 1 on any failure.
   set +e
-  RESPONSE="$(curl -sS "$CURL_FAIL_FLAG" https://api.openai.com/v1/responses \
-  -H "Authorization: Bearer $OPENAI_API_KEY" \
-  -H "Content-Type: application/json" \
-  --data-binary @"$PAYLOAD_FILE" 2>&1)"
-curl_status=$?
-set -e
+  COMMIT_MSG="$(openai_responses_text \
+    "You write high-quality Conventional Commit messages. Output only the commit message (subject + optional body)." \
+    "$PROMPT" \
+    "$OPENAI_MAX_OUTPUT_TOKENS")"
+  request_status=$?
+  set -e
 
-  if [[ $curl_status -ne 0 ]]; then
-    printf "❌ OpenAI API request failed (curl exit code: %s).\n" "$curl_status"
-    echo "$RESPONSE" | head -c 400
-    echo
+  if [[ $request_status -ne 0 ]]; then
     exit 1
   fi
-
-  # Non-JSON guard (Fix #4)
-  if ! echo "$RESPONSE" | jq -e . >/dev/null 2>&1; then
-    printf "❌ OpenAI API returned a non-JSON response.\n"
-    echo "$RESPONSE" | head -c 400
-    echo
-    exit 1
-  fi
-
-  if echo "$RESPONSE" | jq -e '.error' >/dev/null 2>&1; then
-    errType="$(echo "$RESPONSE" | jq -r '.error.type // "unknown"')"
-    errMsg="$(echo "$RESPONSE" | jq -r '.error.message // ""' | head -c 200)"
-    printf "❌ OpenAI API error (%s): %s\n" "$errType" "$errMsg"
-    exit 1
-  fi
-
-  COMMIT_MSG="$(echo "$RESPONSE" | jq -r '
-    [(.output[]? | select(.type=="message") | .content[]? | select(.type=="output_text") | .text)] | join("")
-  ')"
 
   COMMIT_MSG="$(printf "%s" "$COMMIT_MSG" | sed -e 's/\r//g')"
   COMMIT_MSG="$(printf "%s" "$COMMIT_MSG" | sed -e 's/^Title:[[:space:]]*//I')"
   COMMIT_MSG="$(printf "%s" "$COMMIT_MSG" | sed -E 's/^['\''\"`]+//; s/['\''\"`]+$//')"
+  # shellcheck disable=SC2016  # backticks are literal (markdown fence stripping)
   COMMIT_MSG="$(printf "%s" "$COMMIT_MSG" | sed -e 's/^```[a-zA-Z0-9_-]*//; s/```$//')"
   COMMIT_MSG="$(printf "%s" "$COMMIT_MSG" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')"
 

@@ -96,17 +96,29 @@ if [[ -z "${OPENAI_API_KEY:-}" ]]; then
   USE_OPENAI_API="false"
 fi
 
-OPENAI_MODEL="${OPENAI_MODEL:-gpt-5.5}"
+# Shared OpenAI model default + family detection (single source of truth).
+OPENAI_REQUEST_SCRIPT="${SCRIPT_DIR}/openai-request.sh"
+if [[ ! -f "$OPENAI_REQUEST_SCRIPT" ]]; then
+  printf "❌ OpenAI request helper not found: %s\n" "$OPENAI_REQUEST_SCRIPT" >&2
+  exit 1
+fi
+# Branch names should be near-deterministic, so use a lower temperature than the
+# repo default before sourcing the helper (it honours OPENAI_TEMPERATURE).
+export OPENAI_TEMPERATURE="${OPENAI_TEMPERATURE:-0.2}"
+# shellcheck source=./openai-request.sh
+source "$OPENAI_REQUEST_SCRIPT"
 
-# Newer reasoning-style models (gpt-5*, o1/o3/o4*) differ from the gpt-4 family:
-# they use max_completion_tokens instead of max_tokens, reject a custom
-# temperature, and spend output tokens on hidden reasoning, so they need a far
-# larger token budget to actually emit a branch name.
-OPENAI_MODEL_FAMILY="legacy"
-case "$OPENAI_MODEL" in
-  gpt-5*|o1*|o3*|o4*) OPENAI_MODEL_FAMILY="reasoning" ;;
-esac
+# Shared secret detection + redaction (single source of truth).
+SECRET_REDACTION_SCRIPT="${SCRIPT_DIR}/secret-redaction.sh"
+if [[ ! -f "$SECRET_REDACTION_SCRIPT" ]]; then
+  printf "❌ Secret redaction helper not found: %s\n" "$SECRET_REDACTION_SCRIPT" >&2
+  exit 1
+fi
+# shellcheck source=./secret-redaction.sh
+source "$SECRET_REDACTION_SCRIPT"
 
+# Reasoning models spend output tokens on hidden reasoning, so they need a far
+# larger budget than the gpt-4 family to actually emit a branch name.
 if [[ "$OPENAI_MODEL_FAMILY" == "reasoning" ]]; then
   OPENAI_MAX_OUTPUT_TOKENS="${OPENAI_MAX_OUTPUT_TOKENS:-2000}"
 else
@@ -125,11 +137,6 @@ if [[ "$USE_OPENAI_API" == "true" ]]; then
       exit 1
     fi
   done
-
-  CURL_FAIL_FLAG="--fail-with-body"
-  if ! curl --help all 2>/dev/null | grep -q -- '--fail-with-body'; then
-    CURL_FAIL_FLAG="--fail"
-  fi
 fi
 
 MAX_DIFF_PREVIEW_LINES=1500
@@ -279,7 +286,7 @@ if [[ "$ignored_paths_count" -gt 0 ]]; then
   printf "ℹ️ Filtered %s collected candidate path(s) with %s.\n" "$ignored_paths_count" "$ignore_filter_description"
 fi
 
-SENSITIVE_REGEX='(-----BEGIN (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----|AKIA[0-9A-Z]{16}|ASIA[0-9A-Z]{16}|xox[baprs]-[0-9A-Za-z-]{10,}|gh[pousr]_[0-9A-Za-z]{20,}|github_pat_[0-9A-Za-z_]{20,}|password[[:space:]]*[:=]|api[_-]?key[[:space:]]*[:=]|secret[[:space:]]*[:=]|token[[:space:]]*[:=]|authorization[[:space:]]*[:=])'
+# SENSITIVE_REGEX comes from secret-redaction.sh (sourced above).
 if [[ "$USE_OPENAI_API" == "true" ]] && printf '%s\n' "$full_diff" | grep -Eqi "$SENSITIVE_REGEX"; then
   printf "⚠️ Potential secrets detected in the diff.\n"
   printf "This script sends a diff preview to the OpenAI API.\n"
@@ -293,38 +300,7 @@ if [[ "$USE_OPENAI_API" == "true" ]] && printf '%s\n' "$full_diff" | grep -Eqi "
   fi
 fi
 
-redact_sensitive_diff() {
-  local input="$1"
-  local redacted
-  redacted="$(printf '%s\n' "$input" | sed -E \
-    -e 's/AKIA[0-9A-Z]{16}/[REDACTED_AWS_KEY]/g' \
-    -e 's/ASIA[0-9A-Z]{16}/[REDACTED_AWS_KEY]/g' \
-    -e 's/xox[baprs]-[0-9A-Za-z-]{10,}/[REDACTED_SLACK_TOKEN]/g' \
-    -e 's/gh[pousr]_[0-9A-Za-z]{20,}/[REDACTED_GITHUB_TOKEN]/g' \
-    -e 's/github_pat_[0-9A-Za-z_]{20,}/[REDACTED_GITHUB_TOKEN]/g' \
-    -e 's/(([Pp]assword|[Aa]pi[_-]?[Kk]ey|[Ss]ecret|[Tt]oken|[Aa]uthorization)[[:space:]]*[:=][[:space:]]*)[^[:space:]"'\''#]+/\1[REDACTED]/g')"
-
-  printf '%s\n' "$redacted" | awk '
-    BEGIN { in_key = 0 }
-    /-----BEGIN (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----/ {
-      print "[REDACTED_PRIVATE_KEY_BLOCK]"
-      in_key = 1
-      next
-    }
-    /-----END (RSA|OPENSSH|EC|DSA)? ?PRIVATE KEY-----/ {
-      if (in_key) {
-        in_key = 0
-        next
-      }
-    }
-    {
-      if (!in_key) {
-        print
-      }
-    }
-  '
-}
-
+# redact_sensitive_diff comes from secret-redaction.sh (sourced above).
 full_diff_redacted="$(redact_sensitive_diff "$full_diff")"
 if [[ -n "$full_diff_redacted" ]]; then
   total_lines="$(printf '%s\n' "$full_diff_redacted" | wc -l | tr -d ' ')"
@@ -360,13 +336,18 @@ sanitize_branch_name() {
 sanitize_slug() {
   local value="$1"
   local fallback="${2:-}"
+  # Preserve dots so version slugs (e.g. v1.2.0) survive; everything else that
+  # isn't [a-z0-9.] collapses to a hyphen. Any run of mixed/repeated separators
+  # is then collapsed to a single hyphen and leading/trailing separators are
+  # stripped, so output always matches the strict branch slug regex
+  # [a-z0-9]+([.-][a-z0-9]+)* in branch-name-config.sh.
   value="$(printf '%s' "$value" | tr '[:upper:]' '[:lower:]' | sed -E \
-    -e 's/[^a-z0-9]+/-/g' \
-    -e 's/^-+//' \
-    -e 's/-+$//' \
-    -e 's/-{2,}/-/g' \
+    -e 's/[^a-z0-9.]+/-/g' \
+    -e 's/[.-]{2,}/-/g' \
+    -e 's/^[.-]+//' \
+    -e 's/[.-]+$//' \
   )"
-  value="$(printf '%s' "$value" | cut -c1-80 | sed -E 's/-+$//')"
+  value="$(printf '%s' "$value" | cut -c1-80 | sed -E 's/[.-]+$//')"
   if [[ -z "$value" && -n "$fallback" ]]; then
     value="$fallback"
   fi
@@ -413,9 +394,9 @@ map_branch_type() {
   token="$(printf '%s' "$token" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z]+/-/g; s/^-+//; s/-+$//')"
 
   case "$token" in
-    feature|features|feat) printf "feature" ;;
+    feature|features|feat) printf "feat" ;;
     hotfix|hot-fix) printf "hotfix" ;;
-    fix|bug|bugfix|bug-fix) printf "bugfix" ;;
+    fix|bug|bugfix|bug-fix) printf "fix" ;;
     release) printf "release" ;;
     docs|doc|documentation) printf "docs" ;;
     build|ci|deps|dependency|dependencies) printf "build" ;;
@@ -424,7 +405,17 @@ map_branch_type() {
     style|format|formatting) printf "style" ;;
     chore|ops|maintenance|maint|merge) printf "chore" ;;
     revert) printf "hotfix" ;;
-    *) printf "" ;;
+    *)
+      # Pass through any token that is already a valid configured branch type
+      # (e.g. export, ai, copilot, cursor, claude, codex) so AI suggestions
+      # using those prefixes aren't silently remapped to the default type.
+      # BRANCH_TYPES_REGEX (from branch-name-config.sh) is the single source of truth.
+      if [[ "$token" =~ ^(${BRANCH_TYPES_REGEX})$ ]]; then
+        printf '%s' "$token"
+      else
+        printf ""
+      fi
+      ;;
   esac
 }
 
@@ -494,7 +485,7 @@ normalize_candidate_branch() {
     mapped_type="$default_type"
   fi
   if [[ -z "$mapped_type" ]]; then
-    mapped_type="feature"
+    mapped_type="feat"
   fi
 
   start_index=1
@@ -593,7 +584,7 @@ infer_fallback_branch_type() {
   fi
 
   if (( template_count * 100 >= total * 60 )); then
-    printf "feature"
+    printf "feat"
     return
   fi
 
@@ -602,7 +593,7 @@ infer_fallback_branch_type() {
     return
   fi
 
-  printf "feature"
+  printf "feat"
 }
 
 generate_fallback_branch_name() {
@@ -723,7 +714,6 @@ changed_files_count="$(printf '%s\n' "$changed_files" | sed '/^$/d' | wc -l | tr
 untracked_files_count="$(printf '%s\n' "$untracked_files" | sed '/^$/d' | wc -l | tr -d ' ')"
 change_scope_summary="$(summarize_changed_paths "$files_context")"
 preferred_branch_type="$(infer_fallback_branch_type "$files_context")"
-preferred_fallback_branch="$(generate_fallback_branch_name "$files_context")"
 ignored_paths_sample="$(printf '%s\n' "$ignored_paths" | sed '/^$/d' | sed -n '1,8p')"
 if [[ "$ignored_paths_count" -gt 0 ]]; then
   ignore_filter_summary="Filtered ${ignored_paths_count} collected candidate path(s) with ${ignore_filter_description}.
@@ -762,9 +752,9 @@ Output requirements:
 - Allowed branch types (prefix): ${BRANCH_TYPES_CSV}
 - Conventional Commit types configured in this repo: ${CONVENTIONAL_COMMIT_TYPES_CSV}
 - Use this mapping to align branch type to commit intent:
-  feat->feature, fix->bugfix, refactor->refactor, perf->refactor, style->style, test->test, build->build, ops->chore, docs->docs, chore->chore, merge->chore, revert->hotfix
+  feat->feat, fix->fix, refactor->refactor, perf->refactor, style->style, test->test, build->build, ops->chore, docs->docs, chore->chore, merge->chore, revert->hotfix
 - CRITICAL: Branch names must be either <type>/<slug> or <type>/(issue|ticket)/<id>/<slug>. Do not include any additional "/" segments.
-- Keep the slug concise, lowercase, and hyphenated ([a-z0-9-] only).
+- Keep the slug concise, lowercase, and hyphenated ([a-z0-9.-]; dots only for version numbers like v1.2.0; no leading, trailing, or consecutive dots/hyphens).
 - Describe what the change actually DOES, inferred from the diff: name the dominant action or theme (e.g. bump-dependency-locks, migrate-button-variants, fix-callout-spacing), not the folder layout.
 - Even when many files change, pick the most specific theme that covers them. Do NOT fall back to generic placeholders like "multi-area-updates", "update-code", or anything ending in "-updates"; those are reserved for the deterministic fallback only.
 - Avoid filler words: no "update", "updates", "changes", "misc", "various", or "multi-area" unless the diff genuinely has no identifiable theme.
@@ -773,14 +763,14 @@ ${issue_requirement}
 ${validation_error}
 
 Valid examples:
-- feature/update-callout-defaults
-- docs/issue/ABC-123/update-component-guides
+- feat/revise-callout-defaults
+- docs/issue/ABC-123/revise-component-guides
 - chore/ticket/ENG-77/refresh-kitchen-sink-emails
 
 Invalid examples:
-- feature/subfolder/component/update-callout-defaults
-- feature/update callout defaults
-- Branch name: feature/update-callout-defaults
+- feat/subfolder/component/revise-callout-defaults
+- feat/revise callout defaults
+- Branch name: feat/revise-callout-defaults
 
 Change scope summary:
 ${change_scope_summary}
@@ -811,84 +801,19 @@ if [[ "$USE_OPENAI_API" == "true" ]]; then
   while [[ $attempt -le $max_attempts ]]; do
     prompt_text="$(build_prompt "$validation_error")"
 
-    if [[ "$OPENAI_MODEL_FAMILY" == "reasoning" ]]; then
-      # Reasoning models: max_completion_tokens, default temperature only.
-      payload="$(jq -n \
-        --arg model "$OPENAI_MODEL" \
-        --arg prompt "$prompt_text" \
-        --argjson max_tokens "$OPENAI_MAX_OUTPUT_TOKENS" \
-        '{
-          model: $model,
-          messages: [
-            {
-              role: "system",
-              content: "You are strict about output format and only output a valid branch name."
-            },
-            {
-              role: "user",
-              content: $prompt
-            }
-          ],
-          max_completion_tokens: $max_tokens
-        }')"
-    else
-      payload="$(jq -n \
-        --arg model "$OPENAI_MODEL" \
-        --arg prompt "$prompt_text" \
-        --argjson max_tokens "$OPENAI_MAX_OUTPUT_TOKENS" \
-        '{
-          model: $model,
-          messages: [
-            {
-              role: "system",
-              content: "You are strict about output format and only output a valid branch name."
-            },
-            {
-              role: "user",
-              content: $prompt
-            }
-          ],
-          temperature: 0.2,
-          max_tokens: $max_tokens
-        }')"
-    fi
-
+    # Single shared helper shapes the payload, makes the request, and runs all
+    # the transport/non-JSON/.error guards; it returns 1 on any failure.
     set +e
-    response="$(curl -sS "$CURL_FAIL_FLAG" https://api.openai.com/v1/chat/completions \
-      -H "Authorization: Bearer $OPENAI_API_KEY" \
-      -H "Content-Type: application/json" \
-      -d "$payload" 2>&1)"
-    curl_status=$?
+    model_output="$(openai_responses_text \
+      "You are strict about output format and only output a valid branch name." \
+      "$prompt_text" \
+      "$OPENAI_MAX_OUTPUT_TOKENS")"
+    request_status=$?
     set -e
 
-    if [[ $curl_status -ne 0 ]]; then
-      printf "❌ OpenAI API request failed (curl exit code: %s).\n" "$curl_status" >&2
-      printf '%s\n' "$response" | head -c 500 >&2
-      printf '\n' >&2
+    if [[ $request_status -ne 0 ]]; then
       exit 1
     fi
-
-    if ! printf '%s' "$response" | jq -e . >/dev/null 2>&1; then
-      printf "❌ OpenAI API returned non-JSON output.\n" >&2
-      printf '%s\n' "$response" | head -c 500 >&2
-      printf '\n' >&2
-      exit 1
-    fi
-
-    if printf '%s' "$response" | jq -e '.error' >/dev/null 2>&1; then
-      err_type="$(printf '%s' "$response" | jq -r '.error.type // "unknown"')"
-      err_msg="$(printf '%s' "$response" | jq -r '.error.message // ""' | head -c 300)"
-      printf "❌ OpenAI API error (%s): %s\n" "$err_type" "$err_msg" >&2
-      exit 1
-    fi
-
-    model_output="$(printf '%s' "$response" | jq -r '
-      if ((.choices[0].message.content // "") | type) == "string" then
-        .choices[0].message.content // ""
-      else
-        [(.choices[0].message.content[]? | .text // "")] | join("")
-      end
-    ')"
 
     raw_candidate="$(sanitize_branch_name "$model_output")"
     candidate="$(normalize_candidate_branch "$raw_candidate" "$preferred_branch_type")"

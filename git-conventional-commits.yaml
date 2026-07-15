@@ -1,5 +1,10 @@
 ---
 convention:
+  # This list mirrors commit-types.mjs (the single source of truth). This YAML is
+  # the live config read by the git-conventional-commits CLI in downstream repos,
+  # and the shell tooling's offline fallback when commit-types.mjs isn't present.
+  # scripts/check-commit-types-sync.sh fails CI if this list drifts from
+  # commit-types.mjs. Edit commit-types.mjs, not this.
   commitTypes:
     - feat # Commits, that add or remove a new feature to the API or UI
     - fix # Commits, that fix a API or UI bug of a preceded feat commit

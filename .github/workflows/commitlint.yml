@@ -1,3 +1,5 @@
+# Synced from digitalnsw/nswds-devops — DO NOT EDIT in this repo.
+# The implementation lives in that repo's reusable-commitlint.yml.
 name: Commitlint
 
 on:
@@ -8,20 +10,5 @@ permissions:
 
 jobs:
   commitlint:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v6
-        with:
-          # commitlint here comes from the repo lockfile (v19, Node-20 compatible);
-          # Node from .nvmrc so the floor moves deliberately and in one place.
-          node-version-file: .nvmrc
-      - run: npm clean-install
-      - name: Validate PR commit messages
-        run: >-
-          npx commitlint
-          --from ${{ github.event.pull_request.base.sha }}
-          --to ${{ github.event.pull_request.head.sha }}
-          --verbose
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-commitlint.yml@main
+    secrets: inherit
