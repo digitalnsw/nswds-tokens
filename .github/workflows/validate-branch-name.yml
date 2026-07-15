@@ -11,5 +11,5 @@ permissions:
 
 jobs:
   check-branch-name:
-    uses: digitalnsw/nswds-devops/.github/workflows/reusable-validate-branch-name.yml@main
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-validate-branch-name.yml@v1
     secrets: inherit

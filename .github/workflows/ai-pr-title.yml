@@ -12,5 +12,5 @@ permissions:
 
 jobs:
   generate-title:
-    uses: digitalnsw/nswds-devops/.github/workflows/reusable-ai-pr-title.yml@main
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-ai-pr-title.yml@v1
     secrets: inherit

@@ -12,5 +12,5 @@ permissions:
 
 jobs:
   openai-pr-description:
-    uses: digitalnsw/nswds-devops/.github/workflows/reusable-openai-pr-description.yml@main
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-openai-pr-description.yml@v1
     secrets: inherit

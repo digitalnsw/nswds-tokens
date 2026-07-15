@@ -23,5 +23,5 @@ permissions:
 
 jobs:
   check:
-    uses: digitalnsw/nswds-devops/.github/workflows/reusable-commit-types-sync.yml@main
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-commit-types-sync.yml@v1
     secrets: inherit
