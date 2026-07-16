@@ -22,8 +22,21 @@ jobs:
       issues: write
       pull-requests: write
       id-token: write
+    env:
+      # main is ruleset-protected: semantic-release pushes the changelog
+      # commit over SSH as a deploy key that's a bypass actor on the ruleset
+      # (GITHUB_TOKEN can't push once required status checks are enforced).
+      # Mirrors nswds-devops reusable-release.yml.
+      HAS_DEPLOY_KEY: ${{ secrets.RELEASE_DEPLOY_KEY != '' }}
     steps:
+      - name: Checkout (deploy key)
+        if: ${{ env.HAS_DEPLOY_KEY == 'true' }}
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          ssh-key: ${{ secrets.RELEASE_DEPLOY_KEY }}
       - name: Checkout
+        if: ${{ env.HAS_DEPLOY_KEY != 'true' }}
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
