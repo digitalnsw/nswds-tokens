@@ -1,0 +1,6 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Synced from digitalnsw/nswds-devops — DO NOT EDIT in this repo. Policy lives in that repo's default.json preset.",
+  "extends": ["github>digitalnsw/nswds-devops"],
+  "enabledManagers": ["npm"]
+}
