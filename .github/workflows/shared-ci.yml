@@ -1,0 +1,16 @@
+# Synced from digitalnsw/nswds-devops — DO NOT EDIT in this repo.
+# The implementation lives in that repo's reusable-ci.yml.
+# Branch rulesets require this job ("install / install") — renaming the job
+# here orphans every ruleset that references it.
+name: CI
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  install:
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-ci.yml@v1
+    secrets: inherit
