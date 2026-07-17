@@ -1,3 +1,13 @@
+## <small>4.2.2 (2026-07-17)</small>
+
+* fix(release): use the ssh repository url so releases push via the deploy key (#127) ([5c987db](https://github.com/digitalnsw/nswds-tokens/commit/5c987db)), closes [#127](https://github.com/digitalnsw/nswds-tokens/issues/127) [digitalnsw/nswds-devops#10](https://github.com/digitalnsw/nswds-devops/issues/10)
+* chore: dependency hygiene and CI gates for staging + package surface (#118) ([20b0419](https://github.com/digitalnsw/nswds-tokens/commit/20b0419)), closes [#118](https://github.com/digitalnsw/nswds-tokens/issues/118)
+* chore(ci): synced file(s) with digitalnsw/nswds-devops (#119) ([6a71d6f](https://github.com/digitalnsw/nswds-tokens/commit/6a71d6f)), closes [#119](https://github.com/digitalnsw/nswds-tokens/issues/119)
+* chore(ci): synced file(s) with digitalnsw/nswds-devops (#120) ([d923399](https://github.com/digitalnsw/nswds-tokens/commit/d923399)), closes [#120](https://github.com/digitalnsw/nswds-tokens/issues/120)
+* chore(ci): synced file(s) with digitalnsw/nswds-devops (#123) ([942edd9](https://github.com/digitalnsw/nswds-tokens/commit/942edd9)), closes [#123](https://github.com/digitalnsw/nswds-tokens/issues/123)
+* chore(ci): synced file(s) with digitalnsw/nswds-devops (#125) ([065f1f5](https://github.com/digitalnsw/nswds-tokens/commit/065f1f5)), closes [#125](https://github.com/digitalnsw/nswds-tokens/issues/125)
+* ops: push release commits via RELEASE_DEPLOY_KEY when present (#124) ([b8bb36b](https://github.com/digitalnsw/nswds-tokens/commit/b8bb36b)), closes [#124](https://github.com/digitalnsw/nswds-tokens/issues/124)
+
 ## <small>4.2.1 (2026-06-20)</small>
 
 * fix(tokens): correct typography variable representation in Figma (#117) ([f08fba3](https://github.com/digitalnsw/nswds-tokens/commit/f08fba3)), closes [#117](https://github.com/digitalnsw/nswds-tokens/issues/117)
