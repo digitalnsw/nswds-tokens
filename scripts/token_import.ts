@@ -241,6 +241,11 @@ function variableValueFromToken(
 }
 
 function compareVariableValues(a: VariableValue, b: VariableValue) {
+  // @figma/rest-api-spec >= 0.35.0 widened VariableValue to include null, and
+  // `typeof null === 'object'`, so null must be excluded before the `in` checks below.
+  if (a === null || b === null) {
+    return a === b
+  }
   if (typeof a === 'object' && typeof b === 'object') {
     if ('type' in a && 'type' in b && a.type === 'VARIABLE_ALIAS' && b.type === 'VARIABLE_ALIAS') {
       return a.id === b.id
