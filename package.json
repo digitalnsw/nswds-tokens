@@ -135,7 +135,7 @@
     "less-loader": "^13.0.0",
     "prettier": "^3.5.3",
     "sass": "^1.86.1",
-    "sass-loader": "^16.0.5",
+    "sass-loader": "^17.0.0",
     "semantic-release": "^25.0.3",
     "style-dictionary": "^4.4.0",
     "style-loader": "^4.0.0",
