@@ -112,7 +112,7 @@
   "devDependencies": {
     "@commitlint/cli": "^21.0.0",
     "@commitlint/config-conventional": "^21.0.0",
-    "@eslint/js": "^9.23.0",
+    "@eslint/js": "^10.0.0",
     "@figma/rest-api-spec": "^0.41.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^13.0.1",
