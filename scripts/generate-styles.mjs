@@ -35,8 +35,25 @@ for (const dir of ownedDirs) {
   rmSync(resolve(SRC, dir), { recursive: true, force: true })
 }
 
+// `warnings: 'error'` keeps a throwing transform fatal. Style Dictionary 5 changed this:
+// where v4 let a transform's error propagate and fail the build, v5 catches it, logs a
+// warning at the end and substitutes a fallback — so the run still exits 0. Our transforms
+// throw on purpose (formats.mjs `colorFunction` rejects an unsupported colour space), and
+// the fallback stringifies the untransformed object, which would put a literal
+// "[object Object]" into the emitted CSS. validate-tokens doesn't allowlist colour spaces
+// and check:dist compares a regeneration against the commit, so both would wave that
+// through to the published package. Fail the build instead.
+//
+// `verbosity: 'verbose'` is what makes that failure actionable: the default message only
+// says "Some token transformations (1) could not be applied correctly", while verbose names
+// the token and its file (`Transform Error: token "x.500" (tokens/global/color/hsl.json)`).
+// It costs nothing on a green build — SD only expands the transform-error detail, so the
+// successful output is identical line for line.
 for (const config of configs) {
-  await new StyleDictionary(config).buildAllPlatforms()
+  await new StyleDictionary({
+    ...config,
+    log: { warnings: 'error', verbosity: 'verbose' },
+  }).buildAllPlatforms()
 }
 
 // Reduced-motion override (motion brief, accessibility — WCAG 2.1 AA). A token can't carry
