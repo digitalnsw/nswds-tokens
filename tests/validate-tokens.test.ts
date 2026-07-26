@@ -43,6 +43,12 @@ describe('validate-tokens', () => {
     ['color-channels-regression', 'uses "channels"; DTCG expects "components"'],
     ['color-channels-regression', 'colorSpace "rgb"; DTCG expects "srgb"'],
     ['color-channels-regression', 'sRGB components appear to be 0–255'],
+    // The formats render an object colour via formats.mjs `colorFunction`, which supports
+    // srgb/hsl/oklch only. Style Dictionary 5 turns its throw into a warning plus a
+    // fallback, so an unsupported (or absent) space would otherwise reach the built CSS as
+    // "[object Object]" — catch it at the source instead.
+    ['color-unsupported-space', 'unsupported colorSpace "lab"'],
+    ['color-missing-space', 'object colour has no colorSpace'],
     ['duplicate-conflict', 'duplicate token "space.4" with conflicting values'],
   ]
 
