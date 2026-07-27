@@ -1,0 +1,13 @@
+{
+  "nsw-blue": {
+    "500": {
+      "$type": "color",
+      "$value": {
+        "colorSpace": "lab",
+        "components": [50, 20, -30],
+        "alpha": 1,
+        "hex": "#26aeff"
+      }
+    }
+  }
+}

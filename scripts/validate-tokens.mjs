@@ -12,6 +12,8 @@
 //       (not `rgb`), components 0–1, powerless components as the string "none". The
 //       sources have complied since v3.0.0 (review item C1) — these are ERRORS so a
 //       regression cannot land silently.
+//     - object colours declare a colorSpace the build can render (see COLOR_SPACES); an
+//       unsupported or absent one otherwise reaches the outputs as "[object Object]"
 //   WARNINGS (informational; do not fail CI):
 //     - missing $type on a leaf
 //     - missing `hex` fallback on a colour (recommended, not required, by DTCG)
@@ -165,6 +167,19 @@ const checkAliasChains = (allLeaves, leafByPath) => {
   for (const { path, leaf } of allLeaves) resolveAlias(path, leaf)
 }
 
+// The colour spaces the build can actually render. An object colour reaches the string
+// outputs (css/scss/less/js/ts/json) through the nsw/color-string transform, which calls
+// build/formats.mjs `colorFunction` — and that handles exactly these three, throwing on
+// anything else. Style Dictionary 5 downgrades a transform throw to a warning and
+// substitutes a fallback, which stringifies the untransformed object into a literal
+// "[object Object]". generate-styles.mjs sets log.warnings: 'error' so that still fails the
+// build; this gate catches the same mistake earlier, at the source, naming the space.
+//
+// Style Dictionary 5.3.0 widened its own colour support to the 14 DTCG spaces, so a token
+// carrying `display-p3` or `lab` is now something SD will happily parse and hand us — our
+// formats are the narrower constraint, and this list is what they encode.
+const COLOR_SPACES = ['srgb', 'hsl', 'oklch']
+
 // DTCG 2025.10 Color-module conformance (errors; hex fallback is a warning).
 const checkColorShape = (label, path, leaf) => {
   const v = leaf.$value
@@ -172,6 +187,18 @@ const checkColorShape = (label, path, leaf) => {
   if ('channels' in v && !('components' in v))
     errors.push(`${label} ${path}: uses "channels"; DTCG expects "components"`)
   if (v.colorSpace === 'rgb') errors.push(`${label} ${path}: colorSpace "rgb"; DTCG expects "srgb"`)
+  // A missing colorSpace is the same corruption by a quieter route: nsw/color-string
+  // filters on `'colorSpace' in $value`, so the transform skips the token entirely and the
+  // raw object reaches the formatter untouched — no throw to catch.
+  else if (!('colorSpace' in v))
+    errors.push(
+      `${label} ${path}: object colour has no colorSpace; expected one of ${COLOR_SPACES.join(', ')}`,
+    )
+  // "rgb" already has its own migration message above; don't report it twice.
+  else if (!COLOR_SPACES.includes(v.colorSpace))
+    errors.push(
+      `${label} ${path}: unsupported colorSpace "${v.colorSpace}"; expected one of ${COLOR_SPACES.join(', ')}`,
+    )
   const comps = v.components ?? v.channels
   // Check both the legacy "rgb" and DTCG-preferred "srgb" so the range check still
   // fires on a half-migrated regression (renamed space, 0–255 values left behind).
