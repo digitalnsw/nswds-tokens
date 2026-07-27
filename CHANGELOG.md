@@ -1,3 +1,17 @@
+## <small>4.2.3 (2026-07-27)</small>
+
+* fix(build): fail the build when a Style Dictionary transform throws (#142) ([818018d](https://github.com/digitalnsw/nswds-tokens/commit/818018d)), closes [#142](https://github.com/digitalnsw/nswds-tokens/issues/142)
+* chore: pin Node to 24.16.0 (#129) ([81dadf5](https://github.com/digitalnsw/nswds-tokens/commit/81dadf5)), closes [#129](https://github.com/digitalnsw/nswds-tokens/issues/129) [digitalnsw/nswds-devops#31](https://github.com/digitalnsw/nswds-devops/issues/31)
+* chore(ci): synced file(s) with digitalnsw/nswds-devops (#128) ([2babf1e](https://github.com/digitalnsw/nswds-tokens/commit/2babf1e)), closes [#128](https://github.com/digitalnsw/nswds-tokens/issues/128)
+* chore(deps): update all non-major dependencies (#130) ([277c237](https://github.com/digitalnsw/nswds-tokens/commit/277c237)), closes [#130](https://github.com/digitalnsw/nswds-tokens/issues/130) [hi#severity](https://github.com/hi/issues/severity)
+* chore(deps): update commitlint monorepo to v21 (#131) ([6431244](https://github.com/digitalnsw/nswds-tokens/commit/6431244)), closes [#131](https://github.com/digitalnsw/nswds-tokens/issues/131)
+* chore(deps): update dependency @types/node to v24 (#133) ([6a0e079](https://github.com/digitalnsw/nswds-tokens/commit/6a0e079)), closes [#133](https://github.com/digitalnsw/nswds-tokens/issues/133)
+* chore(deps): update dependency globals to v17 (#134) ([2df602f](https://github.com/digitalnsw/nswds-tokens/commit/2df602f)), closes [#134](https://github.com/digitalnsw/nswds-tokens/issues/134)
+* chore(deps): update dependency less-loader to v13 (#135) ([216a7fc](https://github.com/digitalnsw/nswds-tokens/commit/216a7fc)), closes [#135](https://github.com/digitalnsw/nswds-tokens/issues/135)
+* chore(deps): update dependency sass-loader to v17 (#136) ([94a5048](https://github.com/digitalnsw/nswds-tokens/commit/94a5048)), closes [#136](https://github.com/digitalnsw/nswds-tokens/issues/136)
+* chore(deps): update dependency style-dictionary to v5 (#137) ([8a65ab3](https://github.com/digitalnsw/nswds-tokens/commit/8a65ab3)), closes [#137](https://github.com/digitalnsw/nswds-tokens/issues/137)
+* chore(deps): update eslint and @eslint/js to v10 (#140) ([f0048f6](https://github.com/digitalnsw/nswds-tokens/commit/f0048f6)), closes [#140](https://github.com/digitalnsw/nswds-tokens/issues/140) [#132](https://github.com/digitalnsw/nswds-tokens/issues/132)
+
 ## <small>4.2.2 (2026-07-17)</small>
 
 * fix(release): use the ssh repository url so releases push via the deploy key (#127) ([5c987db](https://github.com/digitalnsw/nswds-tokens/commit/5c987db)), closes [#127](https://github.com/digitalnsw/nswds-tokens/issues/127) [digitalnsw/nswds-devops#10](https://github.com/digitalnsw/nswds-devops/issues/10)
