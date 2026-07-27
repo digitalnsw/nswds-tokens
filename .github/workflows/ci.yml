@@ -61,8 +61,10 @@ jobs:
       - name: Install dependencies
         run: npm clean-install
 
-      # Exercises the changelog + git plugin hooks in a temp repo. Hermetic:
-      # no network, no npm auth, no publish token in PR CI.
+      # Exercises the changelog + git plugin hooks in a throwaway repo whose
+      # remote is a local bare repo: the guard makes no network calls and needs
+      # no registry auth or publish token. The install step above is this job's
+      # only registry access.
       - name: Assert the release plugins write and push the release commit
         run: npm run check:release-plugins
 
