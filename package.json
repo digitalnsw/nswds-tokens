@@ -42,6 +42,7 @@
     "smoke:package-surface": "node scripts/smoke-package-surface.mjs",
     "check:version-sync": "node scripts/check-release-metadata.mjs",
     "check:release-rules": "node scripts/assert-release-rules.mjs",
+    "check:release-plugins": "node scripts/assert-release-plugins.mjs",
     "validate:tokens": "node scripts/validate-tokens.mjs",
     "check:staging": "node scripts/generate-staging.mjs --check",
     "build:canonical": "node scripts/build-canonical.mjs",

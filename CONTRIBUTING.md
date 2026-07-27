@@ -31,6 +31,8 @@ Common scripts:
 | `npm run check:dist`            | Verify `dist/` matches a fresh build (fails if stale).                                                                                      |
 | `npm run smoke:package-surface` | Pack the tarball, install it, and verify every public export resolves.                                                                      |
 | `npm run check:version-sync`    | Verify `package.json` / `package-lock.json` / git tag agree.                                                                                |
+| `npm run check:release-rules`   | Assert breaking commits (`!` / `BREAKING CHANGE:`) map to a major bump.                                                                     |
+| `npm run check:release-plugins` | Exercise the changelog + git release plugins in a temp repo (hermetic; no tokens).                                                          |
 
 ---
 
