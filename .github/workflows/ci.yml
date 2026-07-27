@@ -44,6 +44,45 @@ jobs:
       - name: Assert breaking commits map to a major bump
         run: npm run check:release-rules
 
+  release-plugins:
+    name: Release plugins
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm clean-install
+
+      # Exercises the changelog + git plugin hooks in a temp repo. Hermetic:
+      # no network, no npm auth, no publish token in PR CI.
+      - name: Assert the release plugins write and push the release commit
+        run: npm run check:release-plugins
+
+      # Complements the above by resolving EVERY configured plugin, including
+      # @semantic-release/npm and /github which the hermetic guard cannot
+      # exercise without a registry. All 15 plugin hooks load, then
+      # semantic-release stops before verifyConditions — on `pull_request`
+      # because it is a PR, on `merge_group` because the queue branch is not
+      # `main` — and exits 0. That is the point: no npm publish token is needed
+      # in PR CI, and a plugin that fails to resolve (a bad ESM major, a missing
+      # dependency) still fails here.
+      #
+      # Do NOT add --no-ci. It makes semantic-release resolve the detached PR
+      # HEAD as `main`, run verifyConditions, and fail on @semantic-release/npm's
+      # registry auth check (E401) — a permanently red job.
+      - name: Resolve every configured release plugin
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release --dry-run
+
   lint:
     name: Lint
     runs-on: ubuntu-latest
