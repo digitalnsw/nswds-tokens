@@ -18,6 +18,9 @@
 // commit-message change that eats `[skip ci]`, passes every other gate.
 //
 // Companion to assert-release-rules.mjs, which guards the version-bump decision.
+//
+// Run it with `npm run check:release-plugins`. The `Release plugins` CI job
+// that invokes it on every PR lands with #145.
 
 import { execFileSync } from 'node:child_process'
 import fs from 'node:fs'
@@ -39,11 +42,32 @@ const NOTES = [
   '* chore(deps): bump `style-dictionary`',
 ].join('\n')
 
+// "Hermetic" has to mean the caller's git config too. A developer with
+// `commit.gpgsign = true` (common) or a `core.hooksPath` pointing at husky
+// otherwise gets a crash that reads like a release-plugin regression — the
+// worst failure mode for a guard whose whole value is trustworthy signal.
+// This env is passed to BOTH our own git calls and, via contextFor(), to
+// @semantic-release/git: the plugin runs the actual release commit itself,
+// so hardening only this helper would leave the operation under test exposed.
+// (GIT_CONFIG_GLOBAL needs git >= 2.32; makeRepo() also sets the two settings
+// per-repo so older git is still covered.)
+const GIT_ENV = {
+  ...process.env,
+  GIT_CONFIG_GLOBAL: '/dev/null',
+  GIT_CONFIG_SYSTEM: '/dev/null',
+  GIT_TERMINAL_PROMPT: '0',
+}
+
 // stderr is piped, not inherited: `git push` chatters on stderr even when it
 // succeeds, and that noise buries the ✓/✗ lines. Failures still surface via the
 // thrown error, which carries stderr.
 const git = (args, cwd) =>
-  execFileSync('git', args, { cwd, encoding: 'utf8', stdio: ['ignore', 'pipe', 'pipe'] }).trim()
+  execFileSync('git', args, {
+    cwd,
+    env: GIT_ENV,
+    encoding: 'utf8',
+    stdio: ['ignore', 'pipe', 'pipe'],
+  }).trim()
 const quiet = { log: () => {}, error: () => {}, warn: () => {}, info: () => {}, debug: () => {} }
 
 /** Pull a plugin's config out of release.config.mjs, whether bare or `[name, config]`. */
@@ -69,10 +93,14 @@ function check(ok, label, detail) {
 }
 
 function reportAndExit() {
+  // reportAndExit() can be reached via process.exit(), which does not run the
+  // finally block below — so sweep here too. Idempotent: rmSync is force:true
+  // and the list is emptied.
+  removeTempDirs()
   if (failed > 0) {
     console.error(
       `\n✗ Release-plugin assertion FAILED (${failed} check(s)). ` +
-        `${CHANGELOG_PLUGIN} and ${GIT_PLUGIN} drive CHANGELOG.md and the version-bump ` +
+        `${CHANGELOG_PLUGIN} and ${GIT_PLUGIN} drive ${changelogFile} and the version-bump ` +
         `commit pushed to main — a failure here means the next release breaks. Check the ` +
         `plugin majors and their config in release.config.mjs.`,
     )
@@ -84,14 +112,31 @@ function reportAndExit() {
   )
 }
 
+// Every temp dir created, registered the moment it exists. Deliberately not
+// populated by the caller after makeRepo() returns: a throw partway through
+// makeRepo() would then leak both dirs, since the finally block would never
+// see them.
+const cleanup = []
+
+function removeTempDirs() {
+  while (cleanup.length > 0) {
+    fs.rmSync(cleanup.pop(), { recursive: true, force: true })
+  }
+}
+
 /** A temp repo wired to a bare remote, seeded with every configured asset. */
 function makeRepo() {
   const cwd = fs.mkdtempSync(path.join(os.tmpdir(), 'nswds-release-'))
+  cleanup.push(cwd)
   const remote = fs.mkdtempSync(path.join(os.tmpdir(), 'nswds-release-remote-'))
+  cleanup.push(remote)
   git(['init', '--bare', '-b', 'main', remote])
   git(['init', '-b', 'main'], cwd)
   git(['config', 'user.email', 'ci@example.invalid'], cwd)
   git(['config', 'user.name', 'Release Guard'], cwd)
+  // Belt and braces alongside GIT_ENV, for git older than 2.32.
+  git(['config', 'commit.gpgsign', 'false'], cwd)
+  git(['config', 'core.hooksPath', '/dev/null'], cwd)
   git(['remote', 'add', 'origin', remote], cwd)
   for (const asset of assets) {
     fs.writeFileSync(path.join(cwd, asset), asset === changelogFile ? '# Changelog\n' : 'seed\n')
@@ -105,7 +150,7 @@ function makeRepo() {
 function contextFor({ cwd, remote }) {
   return {
     cwd,
-    env: process.env,
+    env: GIT_ENV,
     branch: { name: 'main' },
     options: { repositoryUrl: remote, branch: 'main' },
     lastRelease: { version: '9.9.8', gitTag: 'v9.9.8' },
@@ -114,7 +159,6 @@ function contextFor({ cwd, remote }) {
   }
 }
 
-const cleanup = []
 try {
   const changelogPlugin = await import(CHANGELOG_PLUGIN)
   const gitPlugin = await import(GIT_PLUGIN)
@@ -138,7 +182,6 @@ try {
 
   // 2. The happy path: changelog writes, git commits and pushes.
   const repo = makeRepo()
-  cleanup.push(repo)
   const context = contextFor(repo)
 
   await changelogPlugin.verifyConditions(changelogConfig, context)
@@ -162,8 +205,11 @@ try {
   await gitPlugin.verifyConditions(gitConfig, context)
   await gitPlugin.prepare(gitConfig, context)
 
+  // Not the git() helper: the raw body must not be trimmed. Still GIT_ENV —
+  // a global `log.showSignature` would otherwise contaminate the output.
   const message = execFileSync('git', ['log', '-1', '--pretty=%B'], {
     cwd: repo.cwd,
+    env: GIT_ENV,
     encoding: 'utf8',
   })
   check(
@@ -206,7 +252,6 @@ try {
 
   // 3. Nothing to commit must be a no-op, not a crash or an empty commit.
   const clean = makeRepo()
-  cleanup.push(clean)
   const before = git(['rev-parse', 'HEAD'], clean.cwd)
   await gitPlugin.prepare(gitConfig, contextFor(clean))
   check(
@@ -214,11 +259,19 @@ try {
     `${GIT_PLUGIN} makes no commit when no asset changed`,
     'an empty release commit was created',
   )
+} catch (error) {
+  // An unexpected throw — a git invocation dying, a plugin API change — must
+  // still report as a legible ✗ rather than a raw Node stack trace, and must
+  // still reach the cleanup below.
+  failed++
+  const detail = String(error?.stderr || error?.message || error)
+    .trim()
+    .split('\n')
+    .filter(Boolean)
+    .slice(-1)[0]
+  console.log(`✗ the guard did not finish — ${detail ?? 'unknown error'}`)
 } finally {
-  for (const { cwd, remote } of cleanup) {
-    fs.rmSync(cwd, { recursive: true, force: true })
-    fs.rmSync(remote, { recursive: true, force: true })
-  }
+  removeTempDirs()
 }
 
 reportAndExit()
