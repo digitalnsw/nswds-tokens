@@ -67,8 +67,8 @@ jobs:
         run: npm run check:release-plugins
 
       # Complements the above by resolving EVERY configured plugin, including
-      # @semantic-release/npm and /github which the hermetic guard cannot
-      # exercise without a registry. All 15 plugin hooks load, then
+      # @semantic-release/npm and @semantic-release/github, which the hermetic
+      # guard cannot exercise without a registry. All 15 plugin hooks load, then
       # semantic-release stops before verifyConditions — on `pull_request`
       # because it is a PR, on `merge_group` because the queue branch is not
       # `main` — and exits 0. That is the point: no npm publish token is needed
