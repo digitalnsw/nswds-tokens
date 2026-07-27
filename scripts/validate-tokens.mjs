@@ -169,11 +169,11 @@ const checkAliasChains = (allLeaves, leafByPath) => {
 
 // The colour spaces the build can actually render. An object colour reaches the string
 // outputs (css/scss/less/js/ts/json) through the nsw/color-string transform, which calls
-// formats.mjs `colorFunction` — and that handles exactly these three, throwing on anything
-// else. Style Dictionary 5 downgrades a transform throw to a warning and substitutes a
-// fallback, which stringifies the untransformed object into a literal "[object Object]".
-// generate-styles.mjs sets log.warnings: 'error' so that still fails the build; this gate
-// catches the same mistake earlier, at the source, with a message that names the space.
+// build/formats.mjs `colorFunction` — and that handles exactly these three, throwing on
+// anything else. Style Dictionary 5 downgrades a transform throw to a warning and
+// substitutes a fallback, which stringifies the untransformed object into a literal
+// "[object Object]". generate-styles.mjs sets log.warnings: 'error' so that still fails the
+// build; this gate catches the same mistake earlier, at the source, naming the space.
 //
 // Style Dictionary 5.3.0 widened its own colour support to the 14 DTCG spaces, so a token
 // carrying `display-p3` or `lab` is now something SD will happily parse and hand us — our
