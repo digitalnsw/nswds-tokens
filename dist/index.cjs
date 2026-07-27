@@ -12,7 +12,7 @@ var __export = (target, all) => {
 
 // tokens/global/color/hex.json
 var require_hex = __commonJS({
-  "tokens/global/color/hex.json"(exports$1, module) {
+  "tokens/global/color/hex.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "50": {
@@ -2164,7 +2164,7 @@ var require_hex = __commonJS({
 
 // tokens/global/color/hsl.json
 var require_hsl = __commonJS({
-  "tokens/global/color/hsl.json"(exports$1, module) {
+  "tokens/global/color/hsl.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "50": {
@@ -8096,7 +8096,7 @@ var require_hsl = __commonJS({
 
 // tokens/global/color/oklch.json
 var require_oklch = __commonJS({
-  "tokens/global/color/oklch.json"(exports$1, module) {
+  "tokens/global/color/oklch.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "50": {
@@ -14028,7 +14028,7 @@ var require_oklch = __commonJS({
 
 // tokens/global/color/rgb.json
 var require_rgb = __commonJS({
-  "tokens/global/color/rgb.json"(exports$1, module) {
+  "tokens/global/color/rgb.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "50": {
@@ -19960,7 +19960,7 @@ var require_rgb = __commonJS({
 
 // tokens/semantic/color/hex.json
 var require_hex2 = __commonJS({
-  "tokens/semantic/color/hex.json"(exports$1, module) {
+  "tokens/semantic/color/hex.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -20146,7 +20146,7 @@ var require_hex2 = __commonJS({
 
 // tokens/semantic/color/hsl.json
 var require_hsl2 = __commonJS({
-  "tokens/semantic/color/hsl.json"(exports$1, module) {
+  "tokens/semantic/color/hsl.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -20620,7 +20620,7 @@ var require_hsl2 = __commonJS({
 
 // tokens/semantic/color/oklch.json
 var require_oklch2 = __commonJS({
-  "tokens/semantic/color/oklch.json"(exports$1, module) {
+  "tokens/semantic/color/oklch.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -21094,7 +21094,7 @@ var require_oklch2 = __commonJS({
 
 // tokens/semantic/color/rgb.json
 var require_rgb2 = __commonJS({
-  "tokens/semantic/color/rgb.json"(exports$1, module) {
+  "tokens/semantic/color/rgb.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -21568,7 +21568,7 @@ var require_rgb2 = __commonJS({
 
 // tokens/semantic/color/hex.dark.json
 var require_hex_dark = __commonJS({
-  "tokens/semantic/color/hex.dark.json"(exports$1, module) {
+  "tokens/semantic/color/hex.dark.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -21754,7 +21754,7 @@ var require_hex_dark = __commonJS({
 
 // tokens/semantic/color/hsl.dark.json
 var require_hsl_dark = __commonJS({
-  "tokens/semantic/color/hsl.dark.json"(exports$1, module) {
+  "tokens/semantic/color/hsl.dark.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -22228,7 +22228,7 @@ var require_hsl_dark = __commonJS({
 
 // tokens/semantic/color/oklch.dark.json
 var require_oklch_dark = __commonJS({
-  "tokens/semantic/color/oklch.dark.json"(exports$1, module) {
+  "tokens/semantic/color/oklch.dark.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -22702,7 +22702,7 @@ var require_oklch_dark = __commonJS({
 
 // tokens/semantic/color/rgb.dark.json
 var require_rgb_dark = __commonJS({
-  "tokens/semantic/color/rgb.dark.json"(exports$1, module) {
+  "tokens/semantic/color/rgb.dark.json"(exports, module) {
     module.exports = {
       background: {
         default: {
@@ -23176,7 +23176,7 @@ var require_rgb_dark = __commonJS({
 
 // tokens/themes/color/masterbrand/hex.json
 var require_hex3 = __commonJS({
-  "tokens/themes/color/masterbrand/hex.json"(exports$1, module) {
+  "tokens/themes/color/masterbrand/hex.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -23475,7 +23475,7 @@ var require_hex3 = __commonJS({
 
 // tokens/themes/color/masterbrand/hsl.json
 var require_hsl3 = __commonJS({
-  "tokens/themes/color/masterbrand/hsl.json"(exports$1, module) {
+  "tokens/themes/color/masterbrand/hsl.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -24287,7 +24287,7 @@ var require_hsl3 = __commonJS({
 
 // tokens/themes/color/masterbrand/oklch.json
 var require_oklch3 = __commonJS({
-  "tokens/themes/color/masterbrand/oklch.json"(exports$1, module) {
+  "tokens/themes/color/masterbrand/oklch.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -25099,7 +25099,7 @@ var require_oklch3 = __commonJS({
 
 // tokens/themes/color/masterbrand/rgb.json
 var require_rgb3 = __commonJS({
-  "tokens/themes/color/masterbrand/rgb.json"(exports$1, module) {
+  "tokens/themes/color/masterbrand/rgb.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -25911,7 +25911,7 @@ var require_rgb3 = __commonJS({
 
 // tokens/themes/color/fuchsia-blue/hex.json
 var require_hex4 = __commonJS({
-  "tokens/themes/color/fuchsia-blue/hex.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-blue/hex.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -26153,7 +26153,7 @@ var require_hex4 = __commonJS({
 
 // tokens/themes/color/fuchsia-blue/hsl.json
 var require_hsl4 = __commonJS({
-  "tokens/themes/color/fuchsia-blue/hsl.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-blue/hsl.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -26908,7 +26908,7 @@ var require_hsl4 = __commonJS({
 
 // tokens/themes/color/fuchsia-blue/oklch.json
 var require_oklch4 = __commonJS({
-  "tokens/themes/color/fuchsia-blue/oklch.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-blue/oklch.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -27663,7 +27663,7 @@ var require_oklch4 = __commonJS({
 
 // tokens/themes/color/fuchsia-blue/rgb.json
 var require_rgb4 = __commonJS({
-  "tokens/themes/color/fuchsia-blue/rgb.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-blue/rgb.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -28418,7 +28418,7 @@ var require_rgb4 = __commonJS({
 
 // tokens/themes/color/fuchsia-orange/hex.json
 var require_hex5 = __commonJS({
-  "tokens/themes/color/fuchsia-orange/hex.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-orange/hex.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -28660,7 +28660,7 @@ var require_hex5 = __commonJS({
 
 // tokens/themes/color/fuchsia-orange/hsl.json
 var require_hsl5 = __commonJS({
-  "tokens/themes/color/fuchsia-orange/hsl.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-orange/hsl.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -29415,7 +29415,7 @@ var require_hsl5 = __commonJS({
 
 // tokens/themes/color/fuchsia-orange/oklch.json
 var require_oklch5 = __commonJS({
-  "tokens/themes/color/fuchsia-orange/oklch.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-orange/oklch.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -30170,7 +30170,7 @@ var require_oklch5 = __commonJS({
 
 // tokens/themes/color/fuchsia-orange/rgb.json
 var require_rgb5 = __commonJS({
-  "tokens/themes/color/fuchsia-orange/rgb.json"(exports$1, module) {
+  "tokens/themes/color/fuchsia-orange/rgb.json"(exports, module) {
     module.exports = {
       primary: {
         "50": {
@@ -30925,7 +30925,7 @@ var require_rgb5 = __commonJS({
 
 // tokens/themes/color/data-visualisation/hex.json
 var require_hex6 = __commonJS({
-  "tokens/themes/color/data-visualisation/hex.json"(exports$1, module) {
+  "tokens/themes/color/data-visualisation/hex.json"(exports, module) {
     module.exports = {
       ember: {
         "50": {
@@ -31777,7 +31777,7 @@ var require_hex6 = __commonJS({
 
 // tokens/themes/color/data-visualisation/hsl.json
 var require_hsl6 = __commonJS({
-  "tokens/themes/color/data-visualisation/hsl.json"(exports$1, module) {
+  "tokens/themes/color/data-visualisation/hsl.json"(exports, module) {
     module.exports = {
       ember: {
         "50": {
@@ -34483,7 +34483,7 @@ var require_hsl6 = __commonJS({
 
 // tokens/themes/color/data-visualisation/oklch.json
 var require_oklch6 = __commonJS({
-  "tokens/themes/color/data-visualisation/oklch.json"(exports$1, module) {
+  "tokens/themes/color/data-visualisation/oklch.json"(exports, module) {
     module.exports = {
       ember: {
         "50": {
@@ -37189,7 +37189,7 @@ var require_oklch6 = __commonJS({
 
 // tokens/themes/color/data-visualisation/rgb.json
 var require_rgb6 = __commonJS({
-  "tokens/themes/color/data-visualisation/rgb.json"(exports$1, module) {
+  "tokens/themes/color/data-visualisation/rgb.json"(exports, module) {
     module.exports = {
       ember: {
         "50": {
@@ -39895,7 +39895,7 @@ var require_rgb6 = __commonJS({
 
 // src/json/colors/global/hex.json
 var require_hex7 = __commonJS({
-  "src/json/colors/global/hex.json"(exports$1, module) {
+  "src/json/colors/global/hex.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "nsw-grey-50": "#fafafa",
@@ -40367,7 +40367,7 @@ var require_hex7 = __commonJS({
 
 // src/json/colors/global/hsl.json
 var require_hsl7 = __commonJS({
-  "src/json/colors/global/hsl.json"(exports$1, module) {
+  "src/json/colors/global/hsl.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "nsw-grey-50": "hsl(0, 0%, 98.039216%)",
@@ -40839,7 +40839,7 @@ var require_hsl7 = __commonJS({
 
 // src/json/colors/global/oklch.json
 var require_oklch7 = __commonJS({
-  "src/json/colors/global/oklch.json"(exports$1, module) {
+  "src/json/colors/global/oklch.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "nsw-grey-50": "oklch(0.985104 0 0)",
@@ -41311,7 +41311,7 @@ var require_oklch7 = __commonJS({
 
 // src/json/colors/global/rgb.json
 var require_rgb7 = __commonJS({
-  "src/json/colors/global/rgb.json"(exports$1, module) {
+  "src/json/colors/global/rgb.json"(exports, module) {
     module.exports = {
       "nsw-grey": {
         "nsw-grey-50": "rgb(250, 250, 250)",
@@ -41783,7 +41783,7 @@ var require_rgb7 = __commonJS({
 
 // src/json/colors/semantic/hex.json
 var require_hex8 = __commonJS({
-  "src/json/colors/semantic/hex.json"(exports$1, module) {
+  "src/json/colors/semantic/hex.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "#fafafa",
@@ -41841,7 +41841,7 @@ var require_hex8 = __commonJS({
 
 // src/json/colors/semantic/hsl.json
 var require_hsl8 = __commonJS({
-  "src/json/colors/semantic/hsl.json"(exports$1, module) {
+  "src/json/colors/semantic/hsl.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "hsl(0, 0%, 98.039216%)",
@@ -41899,7 +41899,7 @@ var require_hsl8 = __commonJS({
 
 // src/json/colors/semantic/oklch.json
 var require_oklch8 = __commonJS({
-  "src/json/colors/semantic/oklch.json"(exports$1, module) {
+  "src/json/colors/semantic/oklch.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "oklch(0.985104 0 0)",
@@ -41957,7 +41957,7 @@ var require_oklch8 = __commonJS({
 
 // src/json/colors/semantic/rgb.json
 var require_rgb8 = __commonJS({
-  "src/json/colors/semantic/rgb.json"(exports$1, module) {
+  "src/json/colors/semantic/rgb.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "rgb(250, 250, 250)",
@@ -42015,7 +42015,7 @@ var require_rgb8 = __commonJS({
 
 // src/json/colors/semantic/hex.dark.json
 var require_hex_dark2 = __commonJS({
-  "src/json/colors/semantic/hex.dark.json"(exports$1, module) {
+  "src/json/colors/semantic/hex.dark.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "#050709",
@@ -42073,7 +42073,7 @@ var require_hex_dark2 = __commonJS({
 
 // src/json/colors/semantic/hsl.dark.json
 var require_hsl_dark2 = __commonJS({
-  "src/json/colors/semantic/hsl.dark.json"(exports$1, module) {
+  "src/json/colors/semantic/hsl.dark.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "hsl(210, 28.571429%, 2.745098%)",
@@ -42131,7 +42131,7 @@ var require_hsl_dark2 = __commonJS({
 
 // src/json/colors/semantic/oklch.dark.json
 var require_oklch_dark2 = __commonJS({
-  "src/json/colors/semantic/oklch.dark.json"(exports$1, module) {
+  "src/json/colors/semantic/oklch.dark.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "oklch(0.126543 0.006953 243.792325)",
@@ -42189,7 +42189,7 @@ var require_oklch_dark2 = __commonJS({
 
 // src/json/colors/semantic/rgb.dark.json
 var require_rgb_dark2 = __commonJS({
-  "src/json/colors/semantic/rgb.dark.json"(exports$1, module) {
+  "src/json/colors/semantic/rgb.dark.json"(exports, module) {
     module.exports = {
       background: {
         "background-default": "rgb(5, 7, 9)",
@@ -42247,7 +42247,7 @@ var require_rgb_dark2 = __commonJS({
 
 // src/json/colors/themes/masterbrand/hex.json
 var require_hex9 = __commonJS({
-  "src/json/colors/themes/masterbrand/hex.json"(exports$1, module) {
+  "src/json/colors/themes/masterbrand/hex.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "#f0fbff",
@@ -42318,7 +42318,7 @@ var require_hex9 = __commonJS({
 
 // src/json/colors/themes/masterbrand/hsl.json
 var require_hsl9 = __commonJS({
-  "src/json/colors/themes/masterbrand/hsl.json"(exports$1, module) {
+  "src/json/colors/themes/masterbrand/hsl.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "hsl(196, 100%, 97.058824%)",
@@ -42389,7 +42389,7 @@ var require_hsl9 = __commonJS({
 
 // src/json/colors/themes/masterbrand/oklch.json
 var require_oklch9 = __commonJS({
-  "src/json/colors/themes/masterbrand/oklch.json"(exports$1, module) {
+  "src/json/colors/themes/masterbrand/oklch.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "oklch(0.981046 0.012805 221.42319)",
@@ -42460,7 +42460,7 @@ var require_oklch9 = __commonJS({
 
 // src/json/colors/themes/masterbrand/rgb.json
 var require_rgb9 = __commonJS({
-  "src/json/colors/themes/masterbrand/rgb.json"(exports$1, module) {
+  "src/json/colors/themes/masterbrand/rgb.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "rgb(240, 251, 255)",
@@ -42531,7 +42531,7 @@ var require_rgb9 = __commonJS({
 
 // src/json/colors/themes/fuchsia-blue/hex.json
 var require_hex10 = __commonJS({
-  "src/json/colors/themes/fuchsia-blue/hex.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-blue/hex.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "#fff6fd",
@@ -42602,7 +42602,7 @@ var require_hex10 = __commonJS({
 
 // src/json/colors/themes/fuchsia-blue/hsl.json
 var require_hsl10 = __commonJS({
-  "src/json/colors/themes/fuchsia-blue/hsl.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-blue/hsl.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "hsl(313.333333, 100%, 98.235294%)",
@@ -42673,7 +42673,7 @@ var require_hsl10 = __commonJS({
 
 // src/json/colors/themes/fuchsia-blue/oklch.json
 var require_oklch10 = __commonJS({
-  "src/json/colors/themes/fuchsia-blue/oklch.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-blue/oklch.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "oklch(0.982084 0.013244 333.034319)",
@@ -42744,7 +42744,7 @@ var require_oklch10 = __commonJS({
 
 // src/json/colors/themes/fuchsia-blue/rgb.json
 var require_rgb10 = __commonJS({
-  "src/json/colors/themes/fuchsia-blue/rgb.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-blue/rgb.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "rgb(255, 246, 253)",
@@ -42815,7 +42815,7 @@ var require_rgb10 = __commonJS({
 
 // src/json/colors/themes/fuchsia-orange/hex.json
 var require_hex11 = __commonJS({
-  "src/json/colors/themes/fuchsia-orange/hex.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-orange/hex.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "#fff6fd",
@@ -42886,7 +42886,7 @@ var require_hex11 = __commonJS({
 
 // src/json/colors/themes/fuchsia-orange/hsl.json
 var require_hsl11 = __commonJS({
-  "src/json/colors/themes/fuchsia-orange/hsl.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-orange/hsl.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "hsl(313.333333, 100%, 98.235294%)",
@@ -42957,7 +42957,7 @@ var require_hsl11 = __commonJS({
 
 // src/json/colors/themes/fuchsia-orange/oklch.json
 var require_oklch11 = __commonJS({
-  "src/json/colors/themes/fuchsia-orange/oklch.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-orange/oklch.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "oklch(0.982084 0.013244 333.034319)",
@@ -43028,7 +43028,7 @@ var require_oklch11 = __commonJS({
 
 // src/json/colors/themes/fuchsia-orange/rgb.json
 var require_rgb11 = __commonJS({
-  "src/json/colors/themes/fuchsia-orange/rgb.json"(exports$1, module) {
+  "src/json/colors/themes/fuchsia-orange/rgb.json"(exports, module) {
     module.exports = {
       primary: {
         "primary-50": "rgb(255, 246, 253)",
@@ -43099,7 +43099,7 @@ var require_rgb11 = __commonJS({
 
 // src/json/colors/themes/data-visualisation/hex.json
 var require_hex12 = __commonJS({
-  "src/json/colors/themes/data-visualisation/hex.json"(exports$1, module) {
+  "src/json/colors/themes/data-visualisation/hex.json"(exports, module) {
     module.exports = {
       ember: {
         "ember-50": "#22272b",
@@ -43333,7 +43333,7 @@ var require_hex12 = __commonJS({
 
 // src/json/colors/themes/data-visualisation/hsl.json
 var require_hsl12 = __commonJS({
-  "src/json/colors/themes/data-visualisation/hsl.json"(exports$1, module) {
+  "src/json/colors/themes/data-visualisation/hsl.json"(exports, module) {
     module.exports = {
       ember: {
         "ember-50": "hsl(206.666667, 11.688312%, 15.098039%)",
@@ -43567,7 +43567,7 @@ var require_hsl12 = __commonJS({
 
 // src/json/colors/themes/data-visualisation/oklch.json
 var require_oklch12 = __commonJS({
-  "src/json/colors/themes/data-visualisation/oklch.json"(exports$1, module) {
+  "src/json/colors/themes/data-visualisation/oklch.json"(exports, module) {
     module.exports = {
       ember: {
         "ember-50": "oklch(0.269413 0.01036 242.083865)",
@@ -43801,7 +43801,7 @@ var require_oklch12 = __commonJS({
 
 // src/json/colors/themes/data-visualisation/rgb.json
 var require_rgb12 = __commonJS({
-  "src/json/colors/themes/data-visualisation/rgb.json"(exports$1, module) {
+  "src/json/colors/themes/data-visualisation/rgb.json"(exports, module) {
     module.exports = {
       ember: {
         "ember-50": "rgb(34, 39, 43)",
@@ -44035,7 +44035,7 @@ var require_rgb12 = __commonJS({
 
 // src/json/space/global.json
 var require_global = __commonJS({
-  "src/json/space/global.json"(exports$1, module) {
+  "src/json/space/global.json"(exports, module) {
     module.exports = {
       space: {
         "space-0": "0rem",
@@ -44057,7 +44057,7 @@ var require_global = __commonJS({
 
 // src/json/radius/global.json
 var require_global2 = __commonJS({
-  "src/json/radius/global.json"(exports$1, module) {
+  "src/json/radius/global.json"(exports, module) {
     module.exports = {
       radius: {
         "radius-none": "0px",
@@ -44072,7 +44072,7 @@ var require_global2 = __commonJS({
 
 // src/json/breakpoints/global.json
 var require_global3 = __commonJS({
-  "src/json/breakpoints/global.json"(exports$1, module) {
+  "src/json/breakpoints/global.json"(exports, module) {
     module.exports = {
       breakpoint: {
         "breakpoint-xs": "480px",
@@ -44087,7 +44087,7 @@ var require_global3 = __commonJS({
 
 // src/json/typography/global.json
 var require_global4 = __commonJS({
-  "src/json/typography/global.json"(exports$1, module) {
+  "src/json/typography/global.json"(exports, module) {
     module.exports = {
       "font-family": {
         "font-family-sans": "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
@@ -44136,7 +44136,7 @@ var require_global4 = __commonJS({
 
 // src/json/typography/semantic.json
 var require_semantic = __commonJS({
-  "src/json/typography/semantic.json"(exports$1, module) {
+  "src/json/typography/semantic.json"(exports, module) {
     module.exports = {
       "heading-1": {
         fontFamily: "'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji'",
@@ -44207,7 +44207,7 @@ var require_semantic = __commonJS({
 
 // src/json/border/global.json
 var require_global5 = __commonJS({
-  "src/json/border/global.json"(exports$1, module) {
+  "src/json/border/global.json"(exports, module) {
     module.exports = {
       "border-width": {
         "border-width-thin": "0.0625rem",
@@ -44221,7 +44221,7 @@ var require_global5 = __commonJS({
 
 // src/json/shadow/global.json
 var require_global6 = __commonJS({
-  "src/json/shadow/global.json"(exports$1, module) {
+  "src/json/shadow/global.json"(exports, module) {
     module.exports = {
       "box-shadow": {
         "box-shadow-thin": "inset 0 0 0 0.0625rem",
@@ -44245,7 +44245,7 @@ var require_global6 = __commonJS({
 
 // src/json/motion/global.json
 var require_global7 = __commonJS({
-  "src/json/motion/global.json"(exports$1, module) {
+  "src/json/motion/global.json"(exports, module) {
     module.exports = {
       duration: {
         "duration-none": "0ms",
@@ -44273,7 +44273,7 @@ var require_global7 = __commonJS({
 
 // src/json/z-index/global.json
 var require_global8 = __commonJS({
-  "src/json/z-index/global.json"(exports$1, module) {
+  "src/json/z-index/global.json"(exports, module) {
     module.exports = {
       "z-index": {
         "z-index-base": 0,
