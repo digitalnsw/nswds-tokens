@@ -23,7 +23,7 @@
     "url": "git+ssh://git@github.com/digitalnsw/nswds-tokens.git"
   },
   "engines": {
-    "node": "^22.14.0 || >=24.10.0"
+    "node": "^22.22.2 || >=24.15.0"
   },
   "files": [
     "dist"
