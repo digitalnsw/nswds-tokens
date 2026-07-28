@@ -78,6 +78,7 @@
     ],
     "onSuccess": "npm run copy-styles"
   },
+  "prettier": "@nswds/prettier-config",
   "author": "NSW Design System",
   "type": "module",
   "sideEffects": [
@@ -115,6 +116,7 @@
     "@commitlint/config-conventional": "^21.0.0",
     "@eslint/js": "^10.0.0",
     "@figma/rest-api-spec": "^0.41.0",
+    "@nswds/prettier-config": "^1.0.1",
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^11.0.0",
