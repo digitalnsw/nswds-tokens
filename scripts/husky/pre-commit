@@ -1,0 +1,27 @@
+#!/usr/bin/env sh
+# Block committing unresolved merge conflict markers. Scans the index — what is
+# actually about to be committed — rather than the staged diff, so it also
+# catches a marker you `git add`-ed while resolving a conflict, which is how one
+# usually reaches a commit. The shared CI merge gate runs the same pattern on
+# every PR and stays the enforced backstop: GitHub's web "Resolve conflicts"
+# editor commits server-side and never runs this hook.
+#
+# All four marker types: `=======` closes every conflict block, and `|||||||`
+# appears under merge.conflictStyle=diff3/zdiff3. The `( .*)?$` tail is
+# load-bearing, not tidiness — `=======` ends its line with no label, so the
+# pattern has to accept end-of-line, and anchoring it is what stops a bare
+# `^={7}` prefix from matching a Markdown setext underline or the `=` rule
+# under a LICENSE title. Do not relax it to a prefix match.
+#
+# git grep has three outcomes, not two: 0 found, 1 none, >1 the scan itself
+# failed. Testing it with a plain `if` would read that third case as "clean"
+# and let the commit through without having looked at anything.
+status=0
+git grep --cached -InE '^(<{7}|={7}|>{7}|\|{7})( .*)?$' || status=$?
+if [ "$status" -eq 0 ]; then
+  echo "✖ Unresolved merge conflict markers in the files above." >&2
+  exit 1
+elif [ "$status" -ne 1 ]; then
+  echo "✖ git grep exited $status, so the scan never ran. Refusing to commit." >&2
+  exit 1
+fi
