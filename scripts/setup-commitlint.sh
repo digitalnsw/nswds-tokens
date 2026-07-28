@@ -89,11 +89,12 @@ EOF
 fi
 
 # Husky v9: `husky init` creates .husky/ and adds a `prepare` script so hooks
-# install on every `npm install`. It seeds a pre-commit hook we don't need.
+# install on every `npm install`. It seeds a sample pre-commit hook; drop it
+# so the copy below installs our tracked pre-commit template in its place.
 if [[ ! -d .husky ]]; then
   printf "🐶 Initializing Husky…\n"
   npx husky init
-  # Remove the default sample pre-commit hook (we only want commit-msg here).
+  # Remove husky's sample pre-commit hook — ours is copied in below.
   rm -f .husky/pre-commit
 fi
 
@@ -102,9 +103,10 @@ fi
 
 # Install hooks by copying the tracked templates verbatim, so the exact hook
 # content is reviewable in version control rather than generated inline.
-#   prepare-commit-msg → wraps the body   |   commit-msg → lints the message
+#   pre-commit → blocks conflict markers | prepare-commit-msg → wraps the body
+#   commit-msg → lints the message
 HOOK_TEMPLATE_DIR="${SCRIPT_DIR}/husky"
-for hook in prepare-commit-msg commit-msg; do
+for hook in pre-commit prepare-commit-msg commit-msg; do
   src="${HOOK_TEMPLATE_DIR}/${hook}"
   if [[ ! -f "$src" ]]; then
     printf "❌ Missing hook template: %s (sync scripts/husky/ from nswds-devops).\n" "$src" >&2
