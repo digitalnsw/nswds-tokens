@@ -18,3 +18,11 @@ dist
 scripts/index.ts
 package-lock.json
 public
+CHANGELOG.md
+src/css/
+src/less/
+src/scss/
+src/tailwind/
+src/index.ts
+tokens/
+tests/fixtures/
