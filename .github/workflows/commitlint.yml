@@ -11,4 +11,3 @@ permissions:
 jobs:
   commitlint:
     uses: digitalnsw/nswds-devops/.github/workflows/reusable-commitlint.yml@v1
-    secrets: inherit

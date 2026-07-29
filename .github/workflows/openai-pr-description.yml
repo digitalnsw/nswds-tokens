@@ -13,4 +13,7 @@ permissions:
 jobs:
   openai-pr-description:
     uses: digitalnsw/nswds-devops/.github/workflows/reusable-openai-pr-description.yml@v1
-    secrets: inherit
+    secrets:
+      # Explicit mapping, not inherit — this workflow needs exactly one secret,
+      # and inherit would hand every repo secret to the called workflow.
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}

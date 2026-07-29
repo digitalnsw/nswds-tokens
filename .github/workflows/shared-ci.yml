@@ -13,4 +13,3 @@ permissions:
 jobs:
   install:
     uses: digitalnsw/nswds-devops/.github/workflows/reusable-ci.yml@v1
-    secrets: inherit
