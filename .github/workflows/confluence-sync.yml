@@ -1,0 +1,29 @@
+# Synced from digitalnsw/nswds-devops — DO NOT EDIT in this repo.
+# The implementation lives in that repo's reusable-confluence-sync.yml.
+# Publishes the markdown mapped in .github/confluence-sync.yml (if this repo
+# has one) to Confluence on every merge to main; without that manifest this
+# is a fast no-op. Opting in, the manifest format and the caveats:
+# ONBOARDING.md and MAINTENANCE.md in nswds-devops.
+name: Confluence docs sync
+
+on:
+  push:
+    branches: [main]
+    # Anything that can change a published page: the markdown itself, the
+    # page map, or the publisher script.
+    paths:
+      - '**.md'
+      - .github/confluence-sync.yml
+      - scripts/confluence-sync.sh
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    uses: digitalnsw/nswds-devops/.github/workflows/reusable-confluence-sync.yml@v1
+    secrets:
+      # Explicit mapping, not inherit — the publish needs exactly these two.
+      CONFLUENCE_USER: ${{ secrets.CONFLUENCE_USER }}
+      CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
