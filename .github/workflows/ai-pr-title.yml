@@ -14,7 +14,9 @@ jobs:
   generate-title:
     uses: digitalnsw/nswds-devops/.github/workflows/reusable-ai-pr-title.yml@v1
     secrets:
-      # Explicit mapping, not inherit — this workflow needs exactly one secret,
-      # and inherit would hand every repo secret to the called workflow.
+      # Explicit mapping, not inherit — this workflow gets only the secrets it
+      # uses; inherit would hand every repo secret to the called workflow.
       # AI_GATEWAY_API_KEY is an org-level secret (Vercel AI Gateway).
       AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
+      # Optional Azure OpenAI fallback key (used only on gateway HTTP 402).
+      AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}

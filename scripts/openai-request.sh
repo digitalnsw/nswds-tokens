@@ -10,6 +10,13 @@
 # without a second source line.
 #
 # Requires: jq, curl, and a non-empty AI_GATEWAY_API_KEY in the environment.
+#
+# Optional Azure OpenAI fallback: when the gateway answers HTTP 402 (out of
+# credits) and AZURE_OPENAI_API_KEY + AZURE_OPENAI_ENDPOINT are set, the
+# request is retried against Azure OpenAI's v1 surface using the
+# AZURE_OPENAI_DEPLOYMENT model deployment (default: gpt-5.6-sol). Any other
+# failure — auth, transport, API error — is NOT failed over, so
+# misconfiguration stays loud instead of being masked by the fallback.
 
 OPENAI_REQUEST_LIB_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=./openai-config.sh
@@ -21,13 +28,63 @@ source "${OPENAI_REQUEST_LIB_DIR}/openai-config.sh"
 # a lower value for more deterministic output).
 OPENAI_TEMPERATURE="${OPENAI_TEMPERATURE:-0.4}"
 
-# Detect --fail-with-body once. It makes curl return the response body on HTTP
-# errors (so we can surface the API's .error), but it's newer than the --fail
-# shipped with BSD/macOS curl, so fall back when it's unavailable.
-OPENAI_CURL_FAIL_FLAG="--fail-with-body"
-if ! curl --help all 2>/dev/null | grep -q -- '--fail-with-body'; then
-  OPENAI_CURL_FAIL_FLAG="--fail"
-fi
+# Azure fallback deployment name (the v1 surface takes the deployment name as
+# the model). Only consulted when the fallback triggers.
+AZURE_OPENAI_DEPLOYMENT="${AZURE_OPENAI_DEPLOYMENT:-gpt-5.6-sol}"
+
+# _openai_responses_post <url> <auth_header> <payload> <label>
+#
+# POSTs a Responses API payload and prints the response body on stdout.
+# Returns 0 on success, 42 when the service answered HTTP 402 (out of
+# credits — the caller may fail over), and 1 on any other failure
+# (transport, non-JSON, or an API-level .error). Diagnostics go to stderr.
+_openai_responses_post() {
+  local url="$1" auth_header="$2" payload="$3" label="$4"
+
+  # `|| curl_status=$?` keeps a transport failure from tripping the caller's
+  # errexit. The -w sentinel carries the HTTP status so 402 is detectable
+  # without --fail (which would discard the distinction).
+  local raw curl_status=0
+  raw="$(curl -sS "$url" \
+    -H "$auth_header" \
+    -H "Content-Type: application/json" \
+    -w $'\n__HTTP_STATUS__:%{http_code}' \
+    -d "$payload" 2>&1)" || curl_status=$?
+
+  if [[ $curl_status -ne 0 ]]; then
+    printf "❌ %s request failed (curl exit code: %s).\n" "$label" "$curl_status" >&2
+    printf '%s' "$raw" | head -c 400 >&2
+    printf '\n' >&2
+    return 1
+  fi
+
+  local http_status="${raw##*__HTTP_STATUS__:}"
+  local body="${raw%$'\n'__HTTP_STATUS__:*}"
+
+  if [[ "$http_status" == "402" ]]; then
+    printf "⚠️ %s returned HTTP 402 — account is out of credits.\n" "$label" >&2
+    return 42
+  fi
+
+  # Auth/proxy failures can return HTML; fail clearly instead of feeding
+  # garbage to the extractor.
+  if ! printf '%s' "$body" | jq -e . >/dev/null 2>&1; then
+    printf "❌ %s returned a non-JSON response (HTTP %s).\n" "$label" "$http_status" >&2
+    printf '%s' "$body" | head -c 400 >&2
+    printf '\n' >&2
+    return 1
+  fi
+
+  if printf '%s' "$body" | jq -e '.error' >/dev/null 2>&1; then
+    local err_type err_msg
+    err_type="$(printf '%s' "$body" | jq -r '.error.type // "unknown"')"
+    err_msg="$(printf '%s' "$body" | jq -r '.error.message // ""' | head -c 200)"
+    printf "❌ %s API error (%s): %s\n" "$label" "$err_type" "$err_msg" >&2
+    return 1
+  fi
+
+  printf '%s' "$body"
+}
 
 # openai_responses_text <system_prompt> <user_prompt> [max_output_tokens]
 #
@@ -58,37 +115,25 @@ openai_responses_text() {
     + (if $max_tokens != "" then { max_output_tokens: ($max_tokens | tonumber) } else {} end)
     + (if $supports_temp == "true" then { temperature: ($temperature | tonumber) } else {} end)')"
 
-  # `... || curl_status=$?` keeps a transport failure from tripping the caller's
-  # errexit without us having to toggle (and risk clobbering) the global set -e.
-  local response curl_status=0
-  response="$(curl -sS "$OPENAI_CURL_FAIL_FLAG" https://ai-gateway.vercel.sh/v1/responses \
-    -H "Authorization: Bearer $AI_GATEWAY_API_KEY" \
-    -H "Content-Type: application/json" \
-    -d "$payload" 2>&1)" || curl_status=$?
+  local response rc=0
+  response="$(_openai_responses_post "https://ai-gateway.vercel.sh/v1/responses" \
+    "Authorization: Bearer ${AI_GATEWAY_API_KEY}" "$payload" "AI Gateway")" || rc=$?
 
-  if [[ $curl_status -ne 0 ]]; then
-    printf "❌ AI Gateway request failed (curl exit code: %s).\n" "$curl_status" >&2
-    printf '%s' "$response" | head -c 400 >&2
-    printf '\n' >&2
-    return 1
+  # Out of gateway credits → retry on Azure OpenAI when it's configured.
+  # Azure's v1 surface takes the deployment name as the model; temperature is
+  # dropped because reasoning-family deployments reject a custom value (and
+  # legacy deployments just use their default).
+  if [[ $rc -eq 42 && -n "${AZURE_OPENAI_API_KEY:-}" && -n "${AZURE_OPENAI_ENDPOINT:-}" ]]; then
+    printf "↪️ Falling back to Azure OpenAI (deployment: %s).\n" "$AZURE_OPENAI_DEPLOYMENT" >&2
+    local azure_payload
+    azure_payload="$(printf '%s' "$payload" \
+      | jq --arg m "$AZURE_OPENAI_DEPLOYMENT" '.model = $m | del(.temperature)')"
+    rc=0
+    response="$(_openai_responses_post "${AZURE_OPENAI_ENDPOINT%/}/openai/v1/responses" \
+      "api-key: ${AZURE_OPENAI_API_KEY}" "$azure_payload" "Azure OpenAI")" || rc=$?
   fi
 
-  # Auth/proxy failures can return HTML; fail clearly instead of feeding garbage
-  # to the extractor below.
-  if ! printf '%s' "$response" | jq -e . >/dev/null 2>&1; then
-    printf "❌ AI Gateway returned a non-JSON response.\n" >&2
-    printf '%s' "$response" | head -c 400 >&2
-    printf '\n' >&2
-    return 1
-  fi
-
-  if printf '%s' "$response" | jq -e '.error' >/dev/null 2>&1; then
-    local err_type err_msg
-    err_type="$(printf '%s' "$response" | jq -r '.error.type // "unknown"')"
-    err_msg="$(printf '%s' "$response" | jq -r '.error.message // ""' | head -c 200)"
-    printf "❌ AI Gateway API error (%s): %s\n" "$err_type" "$err_msg" >&2
-    return 1
-  fi
+  [[ $rc -eq 0 ]] || return 1
 
   printf '%s' "$response" | jq -r '
     [(.output[]? | select(.type=="message") | .content[]? | select(.type=="output_text") | .text)] | join("")
