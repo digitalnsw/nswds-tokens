@@ -91,8 +91,8 @@ fi
 source "$BRANCH_CONFIG_SCRIPT"
 
 USE_OPENAI_API="true"
-if [[ -z "${OPENAI_API_KEY:-}" ]]; then
-  printf "ℹ️ OPENAI_API_KEY is not set; skipping AI suggestion and using fallback.\n" >&2
+if [[ -z "${AI_GATEWAY_API_KEY:-}" ]]; then
+  printf "ℹ️ AI_GATEWAY_API_KEY is not set; skipping AI suggestion and using fallback.\n" >&2
   USE_OPENAI_API="false"
 fi
 

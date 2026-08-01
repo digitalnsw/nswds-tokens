@@ -1,13 +1,15 @@
 # shellcheck shell=bash
-# Shared OpenAI request helper. Source this file (instead of openai-config.sh
+# Shared AI request helper. Source this file (instead of openai-config.sh
 # directly) to get the model defaults *and* a single openai_responses_text()
-# function that every script in this repo uses to talk to the API.
+# function that every script in this repo uses to talk to the API. Requests
+# go to the Vercel AI Gateway, which serves the OpenAI Responses API shape
+# for any provider/model in its catalog.
 #
 # Sourcing this also sources openai-config.sh from the same directory, so
 # callers get OPENAI_MODEL / OPENAI_MODEL_FAMILY / OPENAI_SUPPORTS_TEMPERATURE
 # without a second source line.
 #
-# Requires: jq, curl, and a non-empty OPENAI_API_KEY in the environment.
+# Requires: jq, curl, and a non-empty AI_GATEWAY_API_KEY in the environment.
 
 OPENAI_REQUEST_LIB_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=./openai-config.sh
@@ -59,13 +61,13 @@ openai_responses_text() {
   # `... || curl_status=$?` keeps a transport failure from tripping the caller's
   # errexit without us having to toggle (and risk clobbering) the global set -e.
   local response curl_status=0
-  response="$(curl -sS "$OPENAI_CURL_FAIL_FLAG" https://api.openai.com/v1/responses \
-    -H "Authorization: Bearer $OPENAI_API_KEY" \
+  response="$(curl -sS "$OPENAI_CURL_FAIL_FLAG" https://ai-gateway.vercel.sh/v1/responses \
+    -H "Authorization: Bearer $AI_GATEWAY_API_KEY" \
     -H "Content-Type: application/json" \
     -d "$payload" 2>&1)" || curl_status=$?
 
   if [[ $curl_status -ne 0 ]]; then
-    printf "❌ OpenAI API request failed (curl exit code: %s).\n" "$curl_status" >&2
+    printf "❌ AI Gateway request failed (curl exit code: %s).\n" "$curl_status" >&2
     printf '%s' "$response" | head -c 400 >&2
     printf '\n' >&2
     return 1
@@ -74,7 +76,7 @@ openai_responses_text() {
   # Auth/proxy failures can return HTML; fail clearly instead of feeding garbage
   # to the extractor below.
   if ! printf '%s' "$response" | jq -e . >/dev/null 2>&1; then
-    printf "❌ OpenAI API returned a non-JSON response.\n" >&2
+    printf "❌ AI Gateway returned a non-JSON response.\n" >&2
     printf '%s' "$response" | head -c 400 >&2
     printf '\n' >&2
     return 1
@@ -84,7 +86,7 @@ openai_responses_text() {
     local err_type err_msg
     err_type="$(printf '%s' "$response" | jq -r '.error.type // "unknown"')"
     err_msg="$(printf '%s' "$response" | jq -r '.error.message // ""' | head -c 200)"
-    printf "❌ OpenAI API error (%s): %s\n" "$err_type" "$err_msg" >&2
+    printf "❌ AI Gateway API error (%s): %s\n" "$err_type" "$err_msg" >&2
     return 1
   fi
 

@@ -1,6 +1,6 @@
 # shellcheck shell=bash
 # shellcheck disable=SC2034  # SENSITIVE_REGEX is consumed by the sourcing scripts
-# Shared secret detection + redaction for diffs sent to the OpenAI API.
+# Shared secret detection + redaction for diffs sent to the AI Gateway.
 # Source this file to get a single, consistent implementation across every
 # script in this repo (same pattern as openai-config.sh). Keeping one copy
 # means a fix here can't silently drift from a second hand-maintained copy.

@@ -11,8 +11,8 @@ for cmd in "${REQUIRED_CMDS[@]}"; do
 done
 
 # Ensure API key is set
-if [ -z "${OPENAI_API_KEY:-}" ]; then
-  echo "❌ Please set your OPENAI_API_KEY environment variable."
+if [ -z "${AI_GATEWAY_API_KEY:-}" ]; then
+  echo "❌ Please set your AI_GATEWAY_API_KEY environment variable (Vercel AI Gateway key)."
   exit 1
 fi
 
