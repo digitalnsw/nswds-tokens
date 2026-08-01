@@ -21,9 +21,9 @@ CONVENTIONAL_COMMIT_REGEX="$("$CONVENTIONAL_CONFIG_SCRIPT" regex)"
 CONVENTIONAL_COMMIT_TYPES_CSV="$("$CONVENTIONAL_CONFIG_SCRIPT" csv)"
 DEFAULT_CONVENTIONAL_COMMIT_TYPE="$("$CONVENTIONAL_CONFIG_SCRIPT" safe-default)"
 
-# OpenAI credentials (Fix #2)
-if [[ -z "${OPENAI_API_KEY:-}" ]]; then
-  printf "❌ OPENAI_API_KEY is not set. Export it in your shell before running this script.\n"
+# AI Gateway credentials (Fix #2)
+if [[ -z "${AI_GATEWAY_API_KEY:-}" ]]; then
+  printf "❌ AI_GATEWAY_API_KEY is not set. Export it in your shell before running this script.\n"
   exit 1
 fi
 
