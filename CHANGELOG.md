@@ -1,3 +1,32 @@
+## <small>4.2.4 (2026-08-03)</small>
+
+* Merge pull request #152 from digitalnsw/chore/repo-sync/default ([f66f096](https://github.com/digitalnsw/nswds-tokens/commit/f66f096)), closes [#152](https://github.com/digitalnsw/nswds-tokens/issues/152)
+* Merge pull request #153 from digitalnsw/docs/eslint-divergence-and-format-check ([f705de7](https://github.com/digitalnsw/nswds-tokens/commit/f705de7)), closes [#153](https://github.com/digitalnsw/nswds-tokens/issues/153)
+* Merge pull request #154 from digitalnsw/chore/repo-sync/default ([98e7625](https://github.com/digitalnsw/nswds-tokens/commit/98e7625)), closes [#154](https://github.com/digitalnsw/nswds-tokens/issues/154)
+* Merge pull request #155 from digitalnsw/chore/repo-sync/default ([2132765](https://github.com/digitalnsw/nswds-tokens/commit/2132765)), closes [#155](https://github.com/digitalnsw/nswds-tokens/issues/155)
+* Merge pull request #157 from digitalnsw/chore/repo-sync/default ([a88764b](https://github.com/digitalnsw/nswds-tokens/commit/a88764b)), closes [#157](https://github.com/digitalnsw/nswds-tokens/issues/157)
+* Merge pull request #163 from digitalnsw/chore/snyk-nanoid-policy ([c841907](https://github.com/digitalnsw/nswds-tokens/commit/c841907)), closes [#163](https://github.com/digitalnsw/nswds-tokens/issues/163)
+* fix(security): path-scope the nanoid ignores and correct the 5.1.16 rationale ([b42fd65](https://github.com/digitalnsw/nswds-tokens/commit/b42fd65))
+* chore(ci): sync canonical .npmrc from nswds-devops (#146) ([8267238](https://github.com/digitalnsw/nswds-tokens/commit/8267238)), closes [#146](https://github.com/digitalnsw/nswds-tokens/issues/146)
+* chore(ci): synced file(s) with digitalnsw/nswds-devops ([3776047](https://github.com/digitalnsw/nswds-tokens/commit/3776047))
+* chore(ci): synced file(s) with digitalnsw/nswds-devops ([f87fe32](https://github.com/digitalnsw/nswds-tokens/commit/f87fe32))
+* chore(ci): synced file(s) with digitalnsw/nswds-devops ([da25f62](https://github.com/digitalnsw/nswds-tokens/commit/da25f62))
+* chore(ci): synced file(s) with digitalnsw/nswds-devops (#149) ([1adee2d](https://github.com/digitalnsw/nswds-tokens/commit/1adee2d)), closes [#149](https://github.com/digitalnsw/nswds-tokens/issues/149)
+* chore(ci): synced file(s) with digitalnsw/nswds-devops (#158) ([4e894d2](https://github.com/digitalnsw/nswds-tokens/commit/4e894d2)), closes [#158](https://github.com/digitalnsw/nswds-tokens/issues/158)
+* chore(deps): lock file maintenance (#139) ([fab1b0e](https://github.com/digitalnsw/nswds-tokens/commit/fab1b0e)), closes [#139](https://github.com/digitalnsw/nswds-tokens/issues/139)
+* chore(deps): lock file maintenance (#148) ([e025598](https://github.com/digitalnsw/nswds-tokens/commit/e025598)), closes [#148](https://github.com/digitalnsw/nswds-tokens/issues/148)
+* chore(deps): lock file maintenance (#156) ([a368178](https://github.com/digitalnsw/nswds-tokens/commit/a368178)), closes [#156](https://github.com/digitalnsw/nswds-tokens/issues/156)
+* chore(deps): update all non-major dependencies (#141) ([7e2aa09](https://github.com/digitalnsw/nswds-tokens/commit/7e2aa09)), closes [#141](https://github.com/digitalnsw/nswds-tokens/issues/141)
+* chore(deps): update dependency less to v4.8.1 (#147) ([35bf90a](https://github.com/digitalnsw/nswds-tokens/commit/35bf90a)), closes [#147](https://github.com/digitalnsw/nswds-tokens/issues/147)
+* chore(deps): update semantic-release monorepo (#138) ([b91cce7](https://github.com/digitalnsw/nswds-tokens/commit/b91cce7)), closes [#138](https://github.com/digitalnsw/nswds-tokens/issues/138)
+* chore(security): accept both nanoid CWE-835 advisories in Snyk policy ([91f7de5](https://github.com/digitalnsw/nswds-tokens/commit/91f7de5))
+* docs(lint): record why the eslint config diverges and add format:check ([7322b5f](https://github.com/digitalnsw/nswds-tokens/commit/7322b5f))
+* build(engines): narrow the node range to what the release plugins support (#143) ([4277af5](https://github.com/digitalnsw/nswds-tokens/commit/4277af5)), closes [#143](https://github.com/digitalnsw/nswds-tokens/issues/143) [#138](https://github.com/digitalnsw/nswds-tokens/issues/138)
+* build(github-actions): pin create-pull-request to a commit sha (#151) ([f5e6e73](https://github.com/digitalnsw/nswds-tokens/commit/f5e6e73)), closes [#151](https://github.com/digitalnsw/nswds-tokens/issues/151)
+* refactor(config): use @nswds/prettier-config instead of local .prettierrc (#150) ([c42f468](https://github.com/digitalnsw/nswds-tokens/commit/c42f468)), closes [#150](https://github.com/digitalnsw/nswds-tokens/issues/150)
+* ops(ci): run the release-plugin guard on every PR (#145) ([7ee522c](https://github.com/digitalnsw/nswds-tokens/commit/7ee522c)), closes [#145](https://github.com/digitalnsw/nswds-tokens/issues/145) [#138](https://github.com/digitalnsw/nswds-tokens/issues/138) [#144](https://github.com/digitalnsw/nswds-tokens/issues/144) [#144](https://github.com/digitalnsw/nswds-tokens/issues/144) [#144](https://github.com/digitalnsw/nswds-tokens/issues/144) [#145](https://github.com/digitalnsw/nswds-tokens/issues/145) [#144](https://github.com/digitalnsw/nswds-tokens/issues/144)
+* test(release): add a hermetic guard for the release plugins (#144) ([abf6e16](https://github.com/digitalnsw/nswds-tokens/commit/abf6e16)), closes [#144](https://github.com/digitalnsw/nswds-tokens/issues/144) [#138](https://github.com/digitalnsw/nswds-tokens/issues/138) [#145](https://github.com/digitalnsw/nswds-tokens/issues/145)
+
 ## <small>4.2.3 (2026-07-27)</small>
 
 * fix(build): fail the build when a Style Dictionary transform throws (#142) ([818018d](https://github.com/digitalnsw/nswds-tokens/commit/818018d)), closes [#142](https://github.com/digitalnsw/nswds-tokens/issues/142)
