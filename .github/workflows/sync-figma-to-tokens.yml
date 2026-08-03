@@ -30,7 +30,9 @@ jobs:
         run: npm run sync-figma-to-tokens -- --output tokens
         env:
           FILE_KEY: ${{ github.event.inputs.file_key }}
-          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          # Same #94 regression as sync-tokens-to-figma.yml: the env var name is
+          # right, the secret it pointed at was never created.
+          FIGMA_TOKEN: ${{ secrets.GH_ACTION_VARIABLES_SYNC_FIGMA_TOKEN }}
 
       - name: Rebuild committed package outputs
         run: npm run build
