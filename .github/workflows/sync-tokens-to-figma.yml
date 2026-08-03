@@ -13,16 +13,20 @@ jobs:
   sync-tokens-to-figma:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Node.js
+      # Checkout must stay first: setup-node resolves node-version-file (and the
+      # npm cache's lockfile) against GITHUB_WORKSPACE and throws when they are
+      # missing. #97 swapped this job's literal node-version for .nvmrc without
+      # reordering the steps; it has not been dispatched since, so the break is
+      # latent rather than observed — the next dispatch would die at step 1.
+      # #67 made this same repair to sync-figma-to-tokens.yml and missed this file.
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
           node-version-file: .nvmrc
-
-      - name: Set NPM version
-        run: npm install -g npm@9.5.1
-
-      - name: Clone repo
-        uses: actions/checkout@v7
+          cache: npm
 
       - name: Install dependencies
         run: npm clean-install
@@ -31,4 +35,10 @@ jobs:
         run: npm run sync-tokens-to-figma
         env:
           FILE_KEY: ${{ github.event.inputs.file_key }}
-          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          # The script reads FIGMA_TOKEN, but the secret that actually exists is
+          # still GH_ACTION_VARIABLES_SYNC_FIGMA_TOKEN. #94 renamed the env var
+          # (correct) and the secret reference (to a secret nobody created) in one
+          # go. A missing secret expands to an empty string with no warning, so
+          # both sync workflows would install everything and then die on the
+          # script's own env guard. See docs/phase-4-non-colour-tokens.md (4e).
+          FIGMA_TOKEN: ${{ secrets.GH_ACTION_VARIABLES_SYNC_FIGMA_TOKEN }}
