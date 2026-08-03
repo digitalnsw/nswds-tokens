@@ -1,6 +1,68 @@
 # Snyk (https://snyk.io) policy file
 version: v1.25.0
 ignore:
+
+  # ── Canonical base (from nswds-devops: repo-files/.snyk) ────────────────
+  # ── nanoid CWE-835 — TWO DIFFERENT BUGS. Do not merge these reasons. ──
+  #
+  # Both advisories name nanoid@3.3.16, both say "upgrade to 5.1.16", and both
+  # are titled "Infinite loop". They are not the same finding and do not have
+  # the same answer. Verified against the published tarballs.
+  #
+  # Neither is fixed by an overrides entry pinning nanoid to ^5.1.16. nanoid
+  # 5's exports map has no `require` condition — it is ESM-only, and postcss
+  # (CJS, declares `nanoid: ^3.3.16`) consumes it via require(). That
+  # resolution only works on Node >=22.12 and was never tested upstream.
+
+  # -894 / CVE-2026-67214 — ALREADY PATCHED. `customAlphabet` and `nanoid` in
+  # the `nanoid/non-secure` entry point hang on a negative size. Fixed in the
+  # 3.x line by 3.3.16, which backports the same one-line change as 5.1.16:
+  #
+  #     -  while (i--) {
+  #     +  while (i-- > 0) {
+  #
+  # 3.3.15..3.3.16 and 5.1.15..5.1.16 are the identical two-line patch in the
+  # identical file. Snyk's `<5.1.16` range simply omits the backport.
+  #
+  # This entry is only correct where nanoid resolves to >=3.3.16. An older
+  # 3.x is genuinely vulnerable and needs a lockfile refresh, not an ignore.
+  # Check with `npm ls nanoid` before landing this block in a repo.
+  SNYK-JS-NANOID-18506894:
+    - '*':
+        reason: >-
+          False positive against nanoid@3.3.16. CVE-2026-67214 is the negative-size
+          infinite loop in nanoid/non-secure, backported to the 3.x line in 3.3.16
+          (`while (i--)` -> `while (i-- > 0)`) — the same patch 5.1.16 carries.
+          Snyk's `<5.1.16` range does not account for the backport.
+        expires: 2026-10-31T00:00:00.000Z
+
+  # -897 / CVE-2026-67213 — NOT FIXED, NOT REACHABLE. A different function:
+  # `customRandom` hangs on a size of 0. It is NOT patched in 3.3.16 —
+  # `customRandom` is byte-identical between 3.3.15 and 3.3.16, and there is
+  # no 3.x release that fixes it. The 5.x line was never affected: the
+  # `if (!size) return ''` guard is present in 5.1.15 as well as 5.1.16, which
+  # is why Snyk names 5.1.16 (the -894 fix) as the remediation for both.
+  #
+  # Accepted on reachability, not on version:
+  #   * `customRandom` is exported only from nanoid's MAIN entry —
+  #     `nanoid/non-secure` exports `{ nanoid, customAlphabet }` and nothing else.
+  #   * postcss reaches nanoid only via `require('nanoid/non-secure')`
+  #     (lib/input.js) and calls `nanoid(6)` with a hardcoded constant.
+  # So the vulnerable function is not importable on the path that introduces
+  # the finding. Re-check this if anything starts importing nanoid's main
+  # entry — that changes the analysis, and the ignore stops being valid.
+  SNYK-JS-NANOID-18506897:
+    - '*':
+        reason: >-
+          Not reachable. CVE-2026-67213 is an infinite loop in `customRandom`, which
+          is exported only from nanoid's main entry. The consumer that introduces
+          nanoid here is postcss, which imports `nanoid/non-secure` — that entry
+          point does not export `customRandom` — and calls `nanoid(6)` with a
+          hardcoded constant, never attacker-controlled input. Not fixed in any
+          3.x release; accepted on reachability.
+        expires: 2026-10-31T00:00:00.000Z
+
+  # repo-specific
   # Catch-all: ignore every license issue, regardless of package or license type
   '*:lic:*':
     - '*':
