@@ -24,6 +24,24 @@ jobs:
       - name: Validate token references, duplicates, and shape
         run: npm run validate:tokens
 
+  # Deliberately installs nothing: the whole point is to catch a lockfile that
+  # `npm ci` cannot parse, so this must not itself depend on `npm ci` working.
+  lockfile:
+    name: Lockfile
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+
+      - name: Assert every lockfile entry is well-formed
+        run: npm run check:lockfile
+
   release-rules:
     name: Release rules
     runs-on: ubuntu-latest
