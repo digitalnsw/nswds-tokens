@@ -9,10 +9,30 @@ ignore:
   # are titled "Infinite loop". They are not the same finding and do not have
   # the same answer. Verified against the published tarballs.
   #
-  # Neither is fixed by an overrides entry pinning nanoid to ^5.1.16. nanoid
-  # 5's exports map has no `require` condition — it is ESM-only, and postcss
-  # (CJS, declares `nanoid: ^3.3.16`) consumes it via require(). That
-  # resolution only works on Node >=22.12 and was never tested upstream.
+  # Do NOT remediate either by pinning nanoid to ^5.1.16 in `overrides`.
+  # 5.1.16 DOES contain both fixes — its non-secure loop rejects a negative
+  # size, and its `customRandom` returns early on size 0. The objection is
+  # compatibility, not correctness: nanoid 5's exports map has no `require`
+  # condition (it is ESM-only), while postcss is CJS, declares
+  # `nanoid: ^3.3.16`, and reaches it via require(). That resolution only
+  # works on Node >=22.12 and was never tested upstream.
+  #
+  # SCOPING: both entries are scoped to the postcss path rather than a bare
+  # '*', so they fail CLOSED. A bare wildcard would suppress these advisories
+  # on ANY future path — including a genuinely vulnerable nanoid <3.3.16
+  # arriving through an unrelated dependency, or something importing nanoid's
+  # main entry and making -897 reachable. Both rationales below are
+  # conditional, so the scope has to encode that.
+  #
+  # Snyk matches paths from the ROOT: 'postcss > nanoid' matches only where
+  # postcss is a DIRECT dependency, and '* > postcss > nanoid' matches any
+  # non-empty prefix. Repos where postcss is both direct and transitive need
+  # both entries. Verified empirically — 'postcss > nanoid' alone does not
+  # match a transitive introduction.
+  #
+  # Before changing this block, enumerate the repo's real paths with:
+  #     npx snyk test --ignore-policy --json
+  # An incomplete path set does not error; the advisory just reappears.
 
   # -894 / CVE-2026-67214 — ALREADY PATCHED. `customAlphabet` and `nanoid` in
   # the `nanoid/non-secure` entry point hang on a negative size. Fixed in the
@@ -28,7 +48,7 @@ ignore:
   # 3.x is genuinely vulnerable and needs a lockfile refresh, not an ignore.
   # Check with `npm ls nanoid` before landing this block in a repo.
   SNYK-JS-NANOID-18506894:
-    - '*':
+    - '* > postcss > nanoid':
         reason: >-
           False positive against nanoid@3.3.16. CVE-2026-67214 is the negative-size
           infinite loop in nanoid/non-secure, backported to the 3.x line in 3.3.16
@@ -52,7 +72,7 @@ ignore:
   # the finding. Re-check this if anything starts importing nanoid's main
   # entry — that changes the analysis, and the ignore stops being valid.
   SNYK-JS-NANOID-18506897:
-    - '*':
+    - '* > postcss > nanoid':
         reason: >-
           Not reachable. CVE-2026-67213 is an infinite loop in `customRandom`, which
           is exported only from nanoid's main entry. The consumer that introduces
