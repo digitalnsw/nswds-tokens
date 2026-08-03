@@ -31,13 +31,13 @@ jobs:
     steps:
       - name: Checkout (deploy key)
         if: ${{ env.HAS_DEPLOY_KEY == 'true' }}
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
           ssh-key: ${{ secrets.RELEASE_DEPLOY_KEY }}
       - name: Checkout
         if: ${{ env.HAS_DEPLOY_KEY != 'true' }}
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - name: Setup Node.js
