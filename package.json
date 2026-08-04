@@ -41,6 +41,7 @@
     "check:dist": "node scripts/check-dist.mjs",
     "smoke:package-surface": "node scripts/smoke-package-surface.mjs",
     "check:version-sync": "node scripts/check-release-metadata.mjs",
+    "check:lockfile": "node scripts/check-lockfile.mjs",
     "check:release-rules": "node scripts/assert-release-rules.mjs",
     "check:release-plugins": "node scripts/assert-release-plugins.mjs",
     "validate:tokens": "node scripts/validate-tokens.mjs",
