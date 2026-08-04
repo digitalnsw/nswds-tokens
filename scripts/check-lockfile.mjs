@@ -12,18 +12,30 @@
 // so it never reaches the dedupe path that trips the malformed node, while PR
 // jobs use `cache: npm` and do. A green release run is therefore NOT evidence
 // that the lockfile is sound — which is exactly why this check is cheap, runs
-// without installing anything, and gates every PR.
+// without installing anything, and runs on every PR. Note it does not yet *gate*
+// merges: the Lockfile context has to be added to the required status checks on
+// the "Protect main" ruleset for that, which is a repo-settings change.
 //
 // npm cannot self-repair this: `npm install --package-lock-only` parses the bad
 // entry first and throws the same error. The fix is to delete the offending
 // entry from package-lock.json, then re-run `npm install --package-lock-only`.
 
 import { readFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
 
-const lockfileUrl = new URL('../package-lock.json', import.meta.url)
-const packageLock = JSON.parse(readFileSync(lockfileUrl, 'utf8'))
+// Defaults to this repo's lockfile; the optional argument exists so the tests can
+// point it at a fixture without copying the script around.
+const lockfilePath =
+  process.argv[2] ?? fileURLToPath(new URL('../package-lock.json', import.meta.url))
+const packageLock = JSON.parse(readFileSync(lockfilePath, 'utf8'))
 const issues = []
 let hasEntryIssue = false
+
+const describeValue = (value) => {
+  if (value === null) return 'null'
+  if (Array.isArray(value)) return 'an array'
+  return `a ${typeof value}`
+}
 
 const packages = packageLock.packages
 
@@ -35,6 +47,18 @@ if (!packages || typeof packages !== 'object') {
   )
 } else {
   for (const [path, entry] of Object.entries(packages)) {
+    // Check the shape BEFORE touching any property. A null entry would throw a
+    // TypeError and lose every diagnostic below it, and — less obviously — a string
+    // entry would be silently SKIPPED, because strings inherit the legacy
+    // String.prototype.link method, which is a function and therefore truthy, so it
+    // satisfies the workspace-symlink test below. Silently passing a corrupt lockfile
+    // is the one outcome this script must never produce.
+    if (entry === null || typeof entry !== 'object' || Array.isArray(entry)) {
+      issues.push(`${path} is ${describeValue(entry)}, not an object — the lockfile is corrupt.`)
+      hasEntryIssue = true
+      continue
+    }
+
     // The root entry ("") takes its version from package.json — check-release-metadata.mjs
     // already asserts those agree. `link: true` entries are workspace symlinks that
     // legitimately carry a target path instead of a version.
