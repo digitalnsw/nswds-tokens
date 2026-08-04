@@ -5,6 +5,10 @@ on:
       file_key:
         description: 'The file key of the Figma file to be updated'
         required: true
+      dry_run:
+        description: 'Summarise the payload without writing anything to Figma'
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -31,9 +35,19 @@ jobs:
       - name: Install dependencies
         run: npm clean-install
 
+      # This job writes straight to the production Figma file, so the dry run is the
+      # default and the real push has to be asked for. Step 2 of the 4e runbook in
+      # docs/phase-4-non-colour-tokens.md says to inspect the payload summary before
+      # anything is written; until now that was only reachable by running the script
+      # locally with a token in .env.
       - name: Sync tokens to Figma file
-        run: npm run sync-tokens-to-figma
         env:
+          # `inputs.dry_run`, NOT `github.event.inputs.dry_run`. The latter yields the
+          # STRING "false" for a boolean input, and a non-empty string is truthy, so
+          # the guard below would never turn the dry run off. Only the `inputs`
+          # context applies the declared type. `file_key` is an untyped string, so
+          # both forms are equivalent there and it is left as-is.
+          DRY_RUN: ${{ inputs.dry_run }}
           FILE_KEY: ${{ github.event.inputs.file_key }}
           # The script reads FIGMA_TOKEN, but the secret that actually exists is
           # still GH_ACTION_VARIABLES_SYNC_FIGMA_TOKEN. #94 renamed the env var
@@ -42,3 +56,16 @@ jobs:
           # both sync workflows would install everything and then die on the
           # script's own env guard. See docs/phase-4-non-colour-tokens.md (4e).
           FIGMA_TOKEN: ${{ secrets.GH_ACTION_VARIABLES_SYNC_FIGMA_TOKEN }}
+        # Branching in the shell rather than interpolating ${{ }} into the command:
+        # the value reaches the script as an env var, so nothing user-supplied is
+        # ever spliced into the command text.
+        #
+        # Testing for 'false' rather than 'true' so the fallback is the harmless one.
+        # Only an explicit false writes to Figma; anything else — empty, unset, a
+        # value we did not anticipate — takes the dry run.
+        run: |
+          if [ "$DRY_RUN" = 'false' ]; then
+            npm run sync-tokens-to-figma
+          else
+            npm run sync-tokens-to-figma -- --dry-run
+          fi
