@@ -36,9 +36,9 @@ const baseLockfile = (packages: Packages) => ({
   },
 })
 
-const runCheck = (name: string, packages: Packages) => {
+const runRaw = (name: string, contents: string) => {
   const lockfile = join(workspace, `${name}.json`)
-  writeFileSync(lockfile, JSON.stringify(baseLockfile(packages), null, 2))
+  writeFileSync(lockfile, contents)
 
   const result = spawnSync(process.execPath, [script, lockfile], { encoding: 'utf8' })
   // Spawn failures (bad path, permissions) set `error` with a null status — surface
@@ -46,6 +46,9 @@ const runCheck = (name: string, packages: Packages) => {
   if (result.error) throw result.error
   return { status: result.status ?? -1, output: `${result.stdout}\n${result.stderr}` }
 }
+
+const runCheck = (name: string, packages: Packages) =>
+  runRaw(name, JSON.stringify(baseLockfile(packages), null, 2))
 
 describe('check-lockfile', () => {
   it('passes a well-formed lockfile', () => {
@@ -60,6 +63,27 @@ describe('check-lockfile', () => {
     })
     expect(output).toContain('well-formed')
     expect(status).toBe(0)
+  })
+
+  // The symlink skip tests `link === true`, not truthiness. npm only ever writes the
+  // boolean, so a truthy non-boolean is itself corruption — and skipping on it would
+  // mask whatever else is wrong with the entry. Both cases below were fail-open until
+  // the second Copilot review on #169.
+  it('does not let a non-boolean link mask a missing version', () => {
+    const { status, output } = runCheck('link-masks-version', {
+      'node_modules/broken': { link: 'oops' },
+    })
+    expect(output).toContain('node_modules/broken has no version')
+    expect(output).not.toContain('well-formed')
+    expect(status).toBe(1)
+  })
+
+  it('does not let a non-boolean link mask an extraneous entry', () => {
+    const { status, output } = runCheck('link-masks-extraneous', {
+      'node_modules/broken': { link: 1, version: '1.0.0', extraneous: true },
+    })
+    expect(output).toContain('node_modules/broken is marked extraneous')
+    expect(status).toBe(1)
   })
 
   // The regression that broke main in #164: arborist's canDedupe() calls semver.eq()
@@ -133,16 +157,42 @@ describe('check-lockfile', () => {
   })
 
   it('rejects a lockfile with no packages map', () => {
-    const lockfile = join(workspace, 'v1.json')
-    writeFileSync(lockfile, JSON.stringify({ name: 'x', version: '1', lockfileVersion: 1 }))
-
-    const result = spawnSync(process.execPath, [script, lockfile], { encoding: 'utf8' })
-    if (result.error) throw result.error
-    const output = `${result.stdout}\n${result.stderr}`
-
-    expect(output).toContain('has no "packages" map')
+    const { status, output } = runRaw(
+      'v1',
+      JSON.stringify({ name: 'x', version: '1', lockfileVersion: 1 }),
+    )
+    expect(output).toContain('"packages" is undefined, not an object')
     // The entry-level repair recipe makes no sense for a whole-file shape problem.
     expect(output).not.toContain('npm install --package-lock-only')
-    expect(result.status).toBe(1)
+    expect(status).toBe(1)
   })
+
+  // `typeof [] === 'object'` and a non-empty array is truthy, so an array passes the
+  // obvious shape tests and then iterates zero entries — the script would report a
+  // corrupt lockfile as well-formed. Fail-open until the second Copilot review on #169.
+  it('rejects a packages map that is an array', () => {
+    const { status, output } = runRaw(
+      'packages-array',
+      JSON.stringify({ name: 'x', version: '1', lockfileVersion: 3, packages: [] }),
+    )
+    expect(output).toContain('"packages" is an array, not an object')
+    expect(output).not.toContain('well-formed')
+    expect(status).toBe(1)
+  })
+
+  const badLockfiles: Array<[label: string, contents: string, described: string]> = [
+    ['null', 'null', 'package-lock.json is null, not an object'],
+    ['an array', '[]', 'package-lock.json is an array, not an object'],
+    ['a string', '"oops"', 'package-lock.json is a string, not an object'],
+  ]
+
+  // Reading `.packages` off a null lockfile threw a TypeError and lost the diagnostic.
+  for (const [label, contents, described] of badLockfiles) {
+    it(`reports a lockfile that is ${label}`, () => {
+      const { status, output } = runRaw(`root-${label.replace(/\s/g, '-')}`, contents)
+      expect(output).toContain(described)
+      expect(output).not.toContain('TypeError')
+      expect(status).toBe(1)
+    })
+  }
 })

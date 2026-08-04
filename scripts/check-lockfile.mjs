@@ -33,17 +33,29 @@ let hasEntryIssue = false
 
 const describeValue = (value) => {
   if (value === null) return 'null'
+  if (value === undefined) return 'undefined'
   if (Array.isArray(value)) return 'an array'
   return `a ${typeof value}`
 }
 
-const packages = packageLock.packages
+// Every shape test below rejects arrays explicitly. `typeof [] === 'object'` and a
+// non-empty array is truthy, so an array slips through the obvious checks and then
+// iterates zero entries — reporting a corrupt lockfile as well-formed. This script
+// must fail closed: when the shape is not what we expect, say so and exit non-zero.
+const isPlainObject = (value) =>
+  value !== null && typeof value === 'object' && !Array.isArray(value)
 
-if (!packages || typeof packages !== 'object') {
+// Read through the guard, not around it: a null lockfile would throw a TypeError on
+// `.packages` and lose the diagnostic entirely.
+const packages = isPlainObject(packageLock) ? packageLock.packages : undefined
+
+if (!isPlainObject(packageLock)) {
+  issues.push(`package-lock.json is ${describeValue(packageLock)}, not an object.`)
+} else if (!isPlainObject(packages)) {
   // lockfileVersion 1 has no `packages` map; this repo is on 3 and the release
   // metadata check pins the shape, so treat its absence as a defect, not a skip.
   issues.push(
-    `package-lock.json has no "packages" map (lockfileVersion ${packageLock.lockfileVersion}); expected lockfileVersion 2 or 3.`,
+    `package-lock.json "packages" is ${describeValue(packages)}, not an object (lockfileVersion ${packageLock.lockfileVersion}); expected lockfileVersion 2 or 3.`,
   )
 } else {
   for (const [path, entry] of Object.entries(packages)) {
@@ -53,7 +65,7 @@ if (!packages || typeof packages !== 'object') {
     // String.prototype.link method, which is a function and therefore truthy, so it
     // satisfies the workspace-symlink test below. Silently passing a corrupt lockfile
     // is the one outcome this script must never produce.
-    if (entry === null || typeof entry !== 'object' || Array.isArray(entry)) {
+    if (!isPlainObject(entry)) {
       issues.push(`${path} is ${describeValue(entry)}, not an object — the lockfile is corrupt.`)
       hasEntryIssue = true
       continue
@@ -62,7 +74,12 @@ if (!packages || typeof packages !== 'object') {
     // The root entry ("") takes its version from package.json — check-release-metadata.mjs
     // already asserts those agree. `link: true` entries are workspace symlinks that
     // legitimately carry a target path instead of a version.
-    if (path === '' || entry.link) {
+    //
+    // `=== true`, not truthy: npm only ever writes the boolean. A truthy non-boolean
+    // (`"link": "oops"`) is itself corruption, and skipping on it would mask whatever
+    // else is wrong with the entry — a missing version, or an extraneous marker. Let
+    // such an entry fall through to the checks below instead.
+    if (path === '' || entry.link === true) {
       continue
     }
 
