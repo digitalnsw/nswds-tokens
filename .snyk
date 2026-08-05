@@ -88,3 +88,18 @@ ignore:
     - '*':
       reason: All license issues are considered acceptable for this project
       expires: 2026-12-31T00:00:00.000Z
+
+  # ── Snyk Code (SAST) ────────────────────────────────────────────────────
+  # CWE-23 path traversal on argv[2] -> readFileSync in the lockfile check.
+  # False positive: this is a developer/CI script, and the optional argument
+  # exists so the tests can point it at fixture lockfiles. The invoker already
+  # has direct filesystem access (they could `cat` any file), so there is no
+  # privilege boundary and no untrusted input source. Scoped to the one script
+  # rather than '*' so a real traversal elsewhere still surfaces.
+  'javascript/PT':
+    - 'scripts/check-lockfile.mjs':
+        reason: >-
+          False positive: CLI argument on a developer/CI script is trusted
+          operator input, not attacker-controlled — argv[2] exists so tests can
+          target fixture lockfiles, and the invoker already has full filesystem
+          access. No privilege boundary is crossed.
