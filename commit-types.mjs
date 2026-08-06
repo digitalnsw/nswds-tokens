@@ -10,7 +10,7 @@
 //   - scripts/conventional-commit-config.sh  reads this file as the preferred source
 //
 // Edit this list here only; the YAML is enforced against it in CI.
-export default [
+const commitTypes = [
   'feat',
   'fix',
   'refactor',
@@ -24,3 +24,5 @@ export default [
   'merge',
   'revert',
 ]
+
+export default commitTypes
