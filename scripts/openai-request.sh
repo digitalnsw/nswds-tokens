@@ -99,7 +99,8 @@ openai_responses_text() {
 
   local payload
   payload="$(jq -n \
-    --arg model "$OPENAI_MODEL" \
+    --arg model "$AI_MODEL" \
+    --arg provider "${AI_PROVIDER:-}" \
     --arg system "$system_prompt" \
     --arg user "$user_prompt" \
     --arg max_tokens "$max_output_tokens" \
@@ -113,7 +114,8 @@ openai_responses_text() {
       ]
     }
     + (if $max_tokens != "" then { max_output_tokens: ($max_tokens | tonumber) } else {} end)
-    + (if $supports_temp == "true" then { temperature: ($temperature | tonumber) } else {} end)')"
+    + (if $supports_temp == "true" then { temperature: ($temperature | tonumber) } else {} end)
+    + (if $provider != "" then { providerOptions: { gateway: { only: [$provider] } } } else {} end)')"
 
   local response rc=0
   response="$(_openai_responses_post "https://ai-gateway.vercel.sh/v1/responses" \
@@ -125,9 +127,10 @@ openai_responses_text() {
   # legacy deployments just use their default).
   if [[ $rc -eq 42 && -n "${AZURE_OPENAI_API_KEY:-}" && -n "${AZURE_OPENAI_ENDPOINT:-}" ]]; then
     printf "↪️ Falling back to Azure OpenAI (deployment: %s).\n" "$AZURE_OPENAI_DEPLOYMENT" >&2
+    # providerOptions is gateway-only routing metadata — Azure would reject it.
     local azure_payload
     azure_payload="$(printf '%s' "$payload" \
-      | jq --arg m "$AZURE_OPENAI_DEPLOYMENT" '.model = $m | del(.temperature)')"
+      | jq --arg m "$AZURE_OPENAI_DEPLOYMENT" '.model = $m | del(.temperature) | del(.providerOptions)')"
     rc=0
     response="$(_openai_responses_post "${AZURE_OPENAI_ENDPOINT%/}/openai/v1/responses" \
       "api-key: ${AZURE_OPENAI_API_KEY}" "$azure_payload" "Azure OpenAI")" || rc=$?

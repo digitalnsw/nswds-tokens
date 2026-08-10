@@ -10,8 +10,15 @@ for cmd in "${REQUIRED_CMDS[@]}"; do
   fi
 done
 
-# Conventional Commits: type(scope)!: description
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Load .env (repo root) before any env check, so AI_MODEL / AI_PROVIDER — and
+# the key itself — can live there instead of the shell profile.
+# shellcheck source=./load-dotenv.sh
+source "${SCRIPT_DIR}/load-dotenv.sh"
+load_dotenv "$(git rev-parse --show-toplevel 2>/dev/null || echo .)/.env"
+
+# Conventional Commits: type(scope)!: description
 CONVENTIONAL_CONFIG_SCRIPT="${SCRIPT_DIR}/conventional-commit-config.sh"
 if [[ ! -x "$CONVENTIONAL_CONFIG_SCRIPT" ]]; then
   printf "❌ Missing helper script: %s\n" "$CONVENTIONAL_CONFIG_SCRIPT"
