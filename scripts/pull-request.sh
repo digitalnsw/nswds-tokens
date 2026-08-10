@@ -10,6 +10,13 @@ for cmd in "${REQUIRED_CMDS[@]}"; do
   fi
 done
 
+# Load .env (repo root) before any env check, so AI_MODEL / AI_PROVIDER — and
+# the key itself — can live there instead of the shell profile.
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=./load-dotenv.sh
+source "${SCRIPT_DIR}/load-dotenv.sh"
+load_dotenv "$(git rev-parse --show-toplevel 2>/dev/null || echo .)/.env"
+
 # Ensure API key is set
 if [ -z "${AI_GATEWAY_API_KEY:-}" ]; then
   echo "❌ Please set your AI_GATEWAY_API_KEY environment variable (Vercel AI Gateway key)."
@@ -17,7 +24,6 @@ if [ -z "${AI_GATEWAY_API_KEY:-}" ]; then
 fi
 
 # Load Conventional Commit config
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 CONVENTIONAL_CONFIG_SCRIPT="${SCRIPT_DIR}/conventional-commit-config.sh"
 if [[ ! -x "$CONVENTIONAL_CONFIG_SCRIPT" ]]; then
   echo "❌ Missing helper script: ${CONVENTIONAL_CONFIG_SCRIPT}"

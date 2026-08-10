@@ -23,6 +23,13 @@ EOF
 }
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+# Load .env (repo root) before any env check, so AI_MODEL / AI_PROVIDER — and
+# the key itself — can live there instead of the shell profile.
+# shellcheck source=./load-dotenv.sh
+source "${SCRIPT_DIR}/load-dotenv.sh"
+load_dotenv "$(git rev-parse --show-toplevel 2>/dev/null || echo .)/.env"
+
 issue_kind=""
 issue_id=""
 staged_only="false"
