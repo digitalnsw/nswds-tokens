@@ -105,11 +105,20 @@ dark — so the same `var(--text-default)` is correct in both modes.
 }
 ```
 
-Toggle the theme with `document.documentElement.dataset.theme = 'dark'`. Prefer the
+Toggle the theme with `document.documentElement.dataset.theme = 'dark'`, or with a `dark`
+class — the dark file scopes to both, and matches the element carrying the marker as well
+as its descendants, so a scoped `<div class="dark">` darkens just that subtree. Prefer the
 system setting instead? Load `hex.dark-media.css` (a `prefers-color-scheme: dark` variant)
 rather than the attribute file. Dark values are AA-checked against their surfaces; note
 `border.default`/`border.subtle` are intentionally **decorative** (below 3:1) — use
 `border.strong` for input outlines and focus rings, which meets WCAG 1.4.11.
+
+The dark file's selector is deliberately written as a doubled `:is()` —
+`:is([data-theme='dark'], .dark):is([data-theme='dark'], .dark)`. That is specificity
+(0,2,0) against the light values' (0,1,0) `:root`, so dark wins on specificity rather than
+on source order and cannot be undercut by a later `:root` block — including the one bundled
+into `tailwind/colors/semantic/*.css`. If you override a dark value yourself, match or beat
+that specificity; a bare `[data-theme='dark'] { … }` will no longer take effect.
 
 ### 3. Spacing, radius, breakpoints, borders, and shadows
 
