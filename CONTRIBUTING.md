@@ -90,9 +90,10 @@ Branch names are validated (`validate-branch-name.yml`). Use:
 - Examples: `feat/add-spacing-tokens`, `docs/issue/42/tailwind-usage`,
   `fix/ticket/ABC-1/grey-500-value`, `release/v1.2.0`
 
-Bot branches bypass the pattern above and are accepted as-is: `dependabot/…`,
-`renovate/…`, `alert-autofix-…`, `chore/repo-sync` (with or without a trailing path), and
-`snyk-upgrade-<32 hex chars>`.
+Bot branches bypass the pattern above. `dependabot/…`, `renovate/…`, `alert-autofix-…`
+and `chore/repo-sync` (with or without a trailing path) accept anything after the prefix.
+Snyk's is the exception — strict rather than free-form: `snyk-upgrade-` followed by exactly
+32 **lowercase** hex characters (`[0-9a-f]{32}`), so uppercase `A`–`F` is rejected.
 
 The single source of truth is [`scripts/branch-name-config.sh`](scripts/branch-name-config.sh)
 — `npm run branch:create` and `npm run branch:suggest` read it, and so does CI, which
