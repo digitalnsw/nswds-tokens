@@ -1764,7 +1764,7 @@ exports[`built output snapshots > dist/css/colors/semantic/hex.css 1`] = `
 `;
 
 exports[`built output snapshots > dist/css/colors/semantic/hex.dark.css 1`] = `
-"[data-theme='dark'], .dark {
+":is([data-theme='dark'], .dark):is([data-theme='dark'], .dark) {
   --background-default: #050709; /** Page canvas — the base background behind all content. */
   --background-subtle: #0e1113; /** Subtly differentiated background for alternating or grouped sections. */
   --surface-default: #0e1113; /** Default container surface — cards, panels, and inputs on the page. */
@@ -1803,7 +1803,7 @@ exports[`built output snapshots > dist/css/colors/semantic/hex.dark.css 1`] = `
 
 exports[`built output snapshots > dist/css/colors/semantic/hex.dark-media.css 1`] = `
 "@media (prefers-color-scheme: dark) {
-  :root {
+  :root:is(:root) {
     --background-default: #050709; /** Page canvas — the base background behind all content. */
     --background-subtle: #0e1113; /** Subtly differentiated background for alternating or grouped sections. */
     --surface-default: #0e1113; /** Default container surface — cards, panels, and inputs on the page. */
@@ -1880,7 +1880,7 @@ exports[`built output snapshots > dist/css/colors/semantic/hsl.css 1`] = `
 `;
 
 exports[`built output snapshots > dist/css/colors/semantic/hsl.dark.css 1`] = `
-"[data-theme='dark'], .dark {
+":is([data-theme='dark'], .dark):is([data-theme='dark'], .dark) {
   --background-default: hsl(210, 28.571429%, 2.745098%); /** Page canvas — the base background behind all content. */
   --background-subtle: hsl(204, 15.151515%, 6.470588%); /** Subtly differentiated background for alternating or grouped sections. */
   --surface-default: hsl(204, 15.151515%, 6.470588%); /** Default container surface — cards, panels, and inputs on the page. */
@@ -1919,7 +1919,7 @@ exports[`built output snapshots > dist/css/colors/semantic/hsl.dark.css 1`] = `
 
 exports[`built output snapshots > dist/css/colors/semantic/hsl.dark-media.css 1`] = `
 "@media (prefers-color-scheme: dark) {
-  :root {
+  :root:is(:root) {
     --background-default: hsl(210, 28.571429%, 2.745098%); /** Page canvas — the base background behind all content. */
     --background-subtle: hsl(204, 15.151515%, 6.470588%); /** Subtly differentiated background for alternating or grouped sections. */
     --surface-default: hsl(204, 15.151515%, 6.470588%); /** Default container surface — cards, panels, and inputs on the page. */
@@ -1996,7 +1996,7 @@ exports[`built output snapshots > dist/css/colors/semantic/oklch.css 1`] = `
 `;
 
 exports[`built output snapshots > dist/css/colors/semantic/oklch.dark.css 1`] = `
-"[data-theme='dark'], .dark {
+":is([data-theme='dark'], .dark):is([data-theme='dark'], .dark) {
   --background-default: oklch(0.126543 0.006953 243.792325); /** Page canvas — the base background behind all content. */
   --background-subtle: oklch(0.175228 0.006346 236.981786); /** Subtly differentiated background for alternating or grouped sections. */
   --surface-default: oklch(0.175228 0.006346 236.981786); /** Default container surface — cards, panels, and inputs on the page. */
@@ -2035,7 +2035,7 @@ exports[`built output snapshots > dist/css/colors/semantic/oklch.dark.css 1`] = 
 
 exports[`built output snapshots > dist/css/colors/semantic/oklch.dark-media.css 1`] = `
 "@media (prefers-color-scheme: dark) {
-  :root {
+  :root:is(:root) {
     --background-default: oklch(0.126543 0.006953 243.792325); /** Page canvas — the base background behind all content. */
     --background-subtle: oklch(0.175228 0.006346 236.981786); /** Subtly differentiated background for alternating or grouped sections. */
     --surface-default: oklch(0.175228 0.006346 236.981786); /** Default container surface — cards, panels, and inputs on the page. */
@@ -2112,7 +2112,7 @@ exports[`built output snapshots > dist/css/colors/semantic/rgb.css 1`] = `
 `;
 
 exports[`built output snapshots > dist/css/colors/semantic/rgb.dark.css 1`] = `
-"[data-theme='dark'], .dark {
+":is([data-theme='dark'], .dark):is([data-theme='dark'], .dark) {
   --background-default: rgb(5, 7, 9); /** Page canvas — the base background behind all content. */
   --background-subtle: rgb(14, 17, 19); /** Subtly differentiated background for alternating or grouped sections. */
   --surface-default: rgb(14, 17, 19); /** Default container surface — cards, panels, and inputs on the page. */
@@ -2151,7 +2151,7 @@ exports[`built output snapshots > dist/css/colors/semantic/rgb.dark.css 1`] = `
 
 exports[`built output snapshots > dist/css/colors/semantic/rgb.dark-media.css 1`] = `
 "@media (prefers-color-scheme: dark) {
-  :root {
+  :root:is(:root) {
     --background-default: rgb(5, 7, 9); /** Page canvas — the base background behind all content. */
     --background-subtle: rgb(14, 17, 19); /** Subtly differentiated background for alternating or grouped sections. */
     --surface-default: rgb(14, 17, 19); /** Default container surface — cards, panels, and inputs on the page. */

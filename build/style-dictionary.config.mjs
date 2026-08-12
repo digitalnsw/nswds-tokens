@@ -87,10 +87,33 @@ const OBJECT_XF = ['name/kebab']
 // byte-identical to the pre-mode outputs). Dark configs read the *.dark.json views and
 // write .dark-suffixed siblings for css/scss/less/js/ts/json. The dark CSS uses the
 // css/variables built-in `selector` option, scoped to both [data-theme='dark'] and the
-// .dark class so it aligns with @nswds/ui's `@custom-variant dark (&:is(.dark *))`. figma and tailwind
+// .dark class so it aligns with @nswds/ui's `dark:` variant. figma and tailwind
 // platforms are deliberately light-only for now: Figma carries dark as a MODE on the same
 // variables (staging files, milestone D2), and the colour Tailwind files reference
 // var(--nsw-*) so they re-resolve when the dark CSS is loaded.
+
+// Dark scope, deliberately specificity-doubled.
+//
+// The light values are declared on `:root` — specificity (0,1,0). A plain
+// `[data-theme='dark'], .dark` is ALSO (0,1,0), so the two tie and the cascade
+// falls back to source order: whichever block the browser sees last wins. That
+// made dark mode a property of import order rather than of the markup, and it
+// broke silently — no error, no warning, just role tokens stuck on their light
+// values while everything else went dark. The trap is easy to fall into because
+// `tailwind/colors/semantic/*.css` bundles its own unlayered `:root` of light
+// values (consumers import it so their Tailwind build knows the NSW scales), so
+// loading the bridge after a stylesheet carrying this dark block reverted it.
+//
+// Repeating the `:is()` doubles specificity to (0,2,0) without changing which
+// elements match — `:is()` takes the specificity of its most specific argument,
+// and matching the same list twice is the same set. No bare `:root` can undercut
+// it now, whatever the order.
+//
+// NOT `:root:is(...)`: that would also reach (0,2,0), but it would anchor dark to
+// the document element and kill scoped dark regions — a `<div class="dark">`
+// darkening one section of an otherwise light page is a supported pattern.
+const DARK_SELECTOR = ":is([data-theme='dark'], .dark):is([data-theme='dark'], .dark)"
+
 const viewFile = (space, mode) => (mode === 'light' ? `${space}.json` : `${space}.${mode}.json`)
 const outName = (space, mode, ext) =>
   mode === 'light' ? `${space}.${ext}` : `${space}.${mode}.${ext}`
@@ -150,7 +173,7 @@ const makeConfig = (space, layer, mode = 'light') => {
         `css/colors/${layer.dir}/${outName(space, mode, 'css')}`,
         'css/variables',
         {
-          ...(mode !== 'light' ? { selector: "[data-theme='dark'], .dark" } : {}),
+          ...(mode !== 'light' ? { selector: DARK_SELECTOR } : {}),
         },
       ),
       scss: platform(
