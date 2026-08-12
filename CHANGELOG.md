@@ -1,3 +1,16 @@
+## [5.0.0](https://github.com/digitalnsw/nswds-tokens/compare/v4.2.4...v5.0.0) (2026-08-12)
+
+### ⚠ BREAKING CHANGES
+
+* **css:** an override of a dark role token written as a bare
+`[data-theme='dark'] { … }` or `.dark { … }` no longer wins — it is now half the
+specificity of the block it is overriding. Match it with the same doubled `:is()`,
+or any selector of specificity (0,2,0) or higher.
+
+### Bug Fixes
+
+* **css:** out-specify :root on the semantic dark block ([#180](https://github.com/digitalnsw/nswds-tokens/issues/180)) ([1e7daf8](https://github.com/digitalnsw/nswds-tokens/commit/1e7daf8556f739fe7c3f261d4908de5bfd900f6c))
+
 ## <small>4.2.4 (2026-08-03)</small>
 
 * Merge pull request #152 from digitalnsw/chore/repo-sync/default ([f66f096](https://github.com/digitalnsw/nswds-tokens/commit/f66f096)), closes [#152](https://github.com/digitalnsw/nswds-tokens/issues/152)
