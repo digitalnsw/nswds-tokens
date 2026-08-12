@@ -76,15 +76,29 @@ The pipeline is category-generic; a new category (e.g. `duration`) needs:
 Branch names are validated (`validate-branch-name.yml`). Use:
 
 ```
-<type>[/(issue|ticket)/<id>]/<kebab-case-description>
+<type>[/(issue|ticket)/<id>]/<description>
 ```
 
-- **type**: one of `feature`, `bugfix`, `hotfix`, `release`, `docs`, `build`, `test`,
-  `refactor`, `style`, `chore`
-- Automation branches are also allowed: `copilot/<description>`, `dependabot/<...>`,
-  and `alert-autofix-...` (optionally prefixed with `fix/`).
-- Examples: `feature/add-spacing-tokens`, `docs/issue/42/tailwind-usage`,
-  `bugfix/ticket/ABC-1/grey-500-value`
+- **type**: one of `feat`, `fix`, `hotfix`, `release`, `docs`, `build`, `test`,
+  `refactor`, `style`, `chore`, `export`, `ai`, `copilot`, `cursor`, `claude`, `codex`.
+  Note `feat` and `fix`, not `feature` and `bugfix` — they match the commit types.
+- **id** (optional segment): letters, digits, `_` or `-`, e.g. `docs/issue/42/…`,
+  `fix/ticket/ABC-1/…`
+- **description**: lowercase letters and digits, separated by single `-` or `.`. No
+  uppercase, no leading or trailing separator, no two in a row. Dots are allowed so
+  release branches can carry a version (`release/v1.2.0`).
+- Examples: `feat/add-spacing-tokens`, `docs/issue/42/tailwind-usage`,
+  `fix/ticket/ABC-1/grey-500-value`, `release/v1.2.0`
+
+Bot branches bypass the pattern above and are accepted as-is: `dependabot/…`,
+`renovate/…`, `alert-autofix-…`, `chore/repo-sync` (with or without a trailing path), and
+`snyk-upgrade-<32 hex chars>`.
+
+The single source of truth is [`scripts/branch-name-config.sh`](scripts/branch-name-config.sh)
+— `npm run branch:create` and `npm run branch:suggest` read it, and so does CI, which
+sources it from the pull request's **base** commit. Editing it inside a PR therefore does
+not change how that PR's own branch name is judged; the new rules apply from the merge
+onwards. Update that file first and this list second.
 
 ---
 
