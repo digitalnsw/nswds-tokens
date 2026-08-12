@@ -148,7 +148,12 @@ for (const [label, mod] of [['ESM', esmModule], ['CJS', cjsModule]]) {
   assert.equal(typeof mod.tokens.tailwind.space.global, 'string', label + ': tailwind leaves must be plain strings')
   // Dark mode lives only on the semantic role layer now (the global palette is mode-agnostic).
   const semanticDark = mod.tokens.css.semantic.dark.hex
-  assert.ok(semanticDark.startsWith("[data-theme='dark']"), label + ': semantic dark CSS must scope under the dark selector')
+  // The doubled :is() is the point, not incidental formatting: it puts the block at
+  // specificity (0,2,0) so a bare :root of light values cannot undercut it whatever
+  // the import order. Assert the whole selector so a regression to the single form —
+  // which ties with :root and reintroduces the order dependency — fails here.
+  // (No backticks in this comment: it lives inside the verify.mjs template literal.)
+  assert.ok(semanticDark.startsWith(":is([data-theme='dark'], .dark):is([data-theme='dark'], .dark)"), label + ': semantic dark CSS must scope under the specificity-doubled dark selector')
   const semanticMedia = mod.tokens.css.semantic.darkMedia.hex
   assert.ok(semanticMedia.startsWith('@media (prefers-color-scheme: dark)'), label + ': semantic darkMedia CSS must scope under the media query')
   // Motion: the transition composites and the appended reduced-motion override are added

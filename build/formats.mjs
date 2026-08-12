@@ -348,5 +348,11 @@ export const nswCssMedia = ({ dictionary, options }) => {
     usesDtcg: options?.usesDtcg ?? true,
     formatting: { indentation: '    ' },
   })
-  return `@media (prefers-color-scheme: dark) {\n  :root {\n${vars}\n  }\n}\n`
+  // `:root:is(:root)` rather than a bare `:root`: same element, specificity (0,2,0)
+  // instead of (0,1,0). A media query does not raise specificity, so as a bare
+  // `:root` this block tied with every light `:root` and lost to any that loaded
+  // after it — including the one bundled into tailwind/colors/semantic/*.css.
+  // Matches the doubling applied to the attribute-scoped sibling (DARK_SELECTOR
+  // in build/style-dictionary.config.mjs).
+  return `@media (prefers-color-scheme: dark) {\n  :root:is(:root) {\n${vars}\n  }\n}\n`
 }
