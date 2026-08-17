@@ -69,7 +69,15 @@ restore() {
   fi
   rm -rf "$BACKUP_DIR"
 }
-trap restore EXIT INT TERM
+# A trap handler RETURNS to where it interrupted — it does not exit. Wiring
+# INT and TERM to bare `restore` therefore restored the rulesets and then
+# dropped straight back to whatever read prompt was blocking, leaving the
+# process looking unkillable (and immune to a second signal, since RESTORED
+# is already 1 by then). INT and TERM must restore *and then* exit; EXIT
+# stays bare, and its RESTORED guard makes the second pass a no-op.
+trap restore EXIT
+trap 'restore; exit 130' INT
+trap 'restore; exit 143' TERM
 
 # --- pick the repo ---------------------------------------------------------
 REPO="${1:-}"
@@ -147,8 +155,16 @@ fi
 
 echo
 echo "Backups: $BACKUP_DIR"
-read -r -p "Disable ${#IDS[@]} ruleset(s) on $REPO:$BRANCH? [y/N] " ok
-[[ "$ok" =~ ^[Yy]$ ]] || { echo "Aborted."; exit 0; }
+echo
+# This prompt is the one place the script waits on a human. Earlier the last
+# line before it was the "Backups:" path, which reads like a completion
+# message — easy to walk away from and then push by hand, which fails because
+# nothing has been disabled yet. Scope the claim to rulesets: the backup
+# directory has just been written and its path printed directly above, so an
+# unqualified "nothing has changed" contradicts the line above it.
+echo ">>> No rulesets have been changed yet — waiting for your answer. <<<"
+read -r -p "Disable ${#IDS[@]} ruleset(s) on $REPO:$BRANCH and push $BRANCH? [y/N] " ok
+[[ "$ok" =~ ^[Yy]$ ]] || { echo "Aborted — no rulesets were changed."; exit 0; }
 
 # --- disable ---------------------------------------------------------------
 for id in "${IDS[@]}"; do
