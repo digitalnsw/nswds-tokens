@@ -11,12 +11,17 @@
 #
 # Requires: jq, curl, and a non-empty AI_GATEWAY_API_KEY in the environment.
 #
-# Optional Azure OpenAI fallback: when the gateway answers HTTP 402 (out of
-# credits) and AZURE_OPENAI_API_KEY + AZURE_OPENAI_ENDPOINT are set, the
-# request is retried against Azure OpenAI's v1 surface using the
-# AZURE_OPENAI_DEPLOYMENT model deployment (default: gpt-5.6-sol). Any other
-# failure — auth, transport, API error — is NOT failed over, so
-# misconfiguration stays loud instead of being masked by the fallback.
+# Optional Azure OpenAI fallback: when the gateway fails in a way that retrying
+# elsewhere can fix, and AZURE_OPENAI_API_KEY + AZURE_OPENAI_ENDPOINT are set,
+# the request is retried against Azure OpenAI's v1 surface using the
+# AZURE_OPENAI_DEPLOYMENT model deployment (default: gpt-5.6-sol).
+#
+# "Can be fixed by retrying elsewhere" means transient: out of credits (402),
+# rate limiting (429), an upstream 5xx, a transient .error type such as
+# service_unavailable_error, or a transport failure. Deterministic failures —
+# auth (401/403), a malformed request (400), an unknown model or deployment
+# (404) — are NOT failed over: Azure would reject them too, and masking them
+# would turn a loud misconfiguration into a silent one.
 
 OPENAI_REQUEST_LIB_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck source=./openai-config.sh
@@ -35,14 +40,14 @@ AZURE_OPENAI_DEPLOYMENT="${AZURE_OPENAI_DEPLOYMENT:-gpt-5.6-sol}"
 # _openai_responses_post <url> <auth_header> <payload> <label>
 #
 # POSTs a Responses API payload and prints the response body on stdout.
-# Returns 0 on success, 42 when the service answered HTTP 402 (out of
-# credits — the caller may fail over), and 1 on any other failure
-# (transport, non-JSON, or an API-level .error). Diagnostics go to stderr.
+# Returns 0 on success, 42 when the failure is transient (the caller may fail
+# over — see the header for what counts), and 1 on any other failure.
+# Diagnostics go to stderr.
 _openai_responses_post() {
   local url="$1" auth_header="$2" payload="$3" label="$4"
 
   # `|| curl_status=$?` keeps a transport failure from tripping the caller's
-  # errexit. The -w sentinel carries the HTTP status so 402 is detectable
+  # errexit. The -w sentinel carries the HTTP status so it stays classifiable
   # without --fail (which would discard the distinction).
   local raw curl_status=0
   raw="$(curl -sS "$url" \
@@ -51,20 +56,33 @@ _openai_responses_post() {
     -w $'\n__HTTP_STATUS__:%{http_code}' \
     -d "$payload" 2>&1)" || curl_status=$?
 
+  # Transport failure — DNS, connection refused, TLS, timeout. The URL is
+  # hardcoded, so this is a reachability problem rather than a config one:
+  # worth trying the other endpoint.
   if [[ $curl_status -ne 0 ]]; then
-    printf "❌ %s request failed (curl exit code: %s).\n" "$label" "$curl_status" >&2
+    printf "⚠️ %s request failed (curl exit code: %s).\n" "$label" "$curl_status" >&2
     printf '%s' "$raw" | head -c 400 >&2
     printf '\n' >&2
-    return 1
+    return 42
   fi
 
   local http_status="${raw##*__HTTP_STATUS__:}"
   local body="${raw%$'\n'__HTTP_STATUS__:*}"
 
-  if [[ "$http_status" == "402" ]]; then
-    printf "⚠️ %s returned HTTP 402 — account is out of credits.\n" "$label" >&2
-    return 42
-  fi
+  case "$http_status" in
+    402)
+      printf "⚠️ %s returned HTTP 402 — account is out of credits.\n" "$label" >&2
+      return 42
+      ;;
+    429)
+      printf "⚠️ %s returned HTTP 429 — rate limited.\n" "$label" >&2
+      return 42
+      ;;
+    5??)
+      printf "⚠️ %s returned HTTP %s — service unavailable.\n" "$label" "$http_status" >&2
+      return 42
+      ;;
+  esac
 
   # Auth/proxy failures can return HTML; fail clearly instead of feeding
   # garbage to the extractor.
@@ -79,6 +97,17 @@ _openai_responses_post() {
     local err_type err_msg
     err_type="$(printf '%s' "$body" | jq -r '.error.type // "unknown"')"
     err_msg="$(printf '%s' "$body" | jq -r '.error.message // ""' | head -c 200)"
+
+    # The gateway does not always put a transient failure behind a 5xx — it can
+    # answer HTTP 200 with an .error body — so classify on the type as well as
+    # the status, or the case above is missed.
+    case "$err_type" in
+      service_unavailable_error|overloaded_error|rate_limit_error|internal_server_error|timeout_error|api_connection_error)
+        printf "⚠️ %s is temporarily unavailable (%s): %s\n" "$label" "$err_type" "$err_msg" >&2
+        return 42
+        ;;
+    esac
+
     printf "❌ %s API error (%s): %s\n" "$label" "$err_type" "$err_msg" >&2
     return 1
   fi
@@ -89,9 +118,15 @@ _openai_responses_post() {
 # openai_responses_text <system_prompt> <user_prompt> [max_output_tokens]
 #
 # Builds a Responses API payload, POSTs it, and echoes the model's combined
-# output text on stdout. On any failure (transport, non-JSON, or an API-level
-# .error) it prints a diagnostic to stderr and returns 1 — callers decide
-# whether to exit or fall back.
+# output text on stdout.
+#
+# Failover happens HERE, not in the caller: a transient failure is retried
+# against Azure OpenAI when AZURE_OPENAI_API_KEY + AZURE_OPENAI_ENDPOINT are
+# set (see the header for what counts as transient). The internal 42 code
+# never reaches a caller — this function returns only 0 or 1.
+#
+# Returns 1 when the request failed and no failover succeeded, after printing
+# a diagnostic to stderr; callers decide whether to exit or degrade.
 openai_responses_text() {
   local system_prompt="$1"
   local user_prompt="$2"
@@ -121,19 +156,25 @@ openai_responses_text() {
   response="$(_openai_responses_post "https://ai-gateway.vercel.sh/v1/responses" \
     "Authorization: Bearer ${AI_GATEWAY_API_KEY}" "$payload" "AI Gateway")" || rc=$?
 
-  # Out of gateway credits → retry on Azure OpenAI when it's configured.
+  # Transient gateway failure → retry on Azure OpenAI when it's configured.
   # Azure's v1 surface takes the deployment name as the model; temperature is
   # dropped because reasoning-family deployments reject a custom value (and
   # legacy deployments just use their default).
-  if [[ $rc -eq 42 && -n "${AZURE_OPENAI_API_KEY:-}" && -n "${AZURE_OPENAI_ENDPOINT:-}" ]]; then
-    printf "↪️ Falling back to Azure OpenAI (deployment: %s).\n" "$AZURE_OPENAI_DEPLOYMENT" >&2
-    # providerOptions is gateway-only routing metadata — Azure would reject it.
-    local azure_payload
-    azure_payload="$(printf '%s' "$payload" \
-      | jq --arg m "$AZURE_OPENAI_DEPLOYMENT" '.model = $m | del(.temperature) | del(.providerOptions)')"
-    rc=0
-    response="$(_openai_responses_post "${AZURE_OPENAI_ENDPOINT%/}/openai/v1/responses" \
-      "api-key: ${AZURE_OPENAI_API_KEY}" "$azure_payload" "Azure OpenAI")" || rc=$?
+  if [[ $rc -eq 42 ]]; then
+    if [[ -n "${AZURE_OPENAI_API_KEY:-}" && -n "${AZURE_OPENAI_ENDPOINT:-}" ]]; then
+      printf "↪️ Falling back to Azure OpenAI (deployment: %s).\n" "$AZURE_OPENAI_DEPLOYMENT" >&2
+      # providerOptions is gateway-only routing metadata — Azure would reject it.
+      local azure_payload
+      azure_payload="$(printf '%s' "$payload" \
+        | jq --arg m "$AZURE_OPENAI_DEPLOYMENT" '.model = $m | del(.temperature) | del(.providerOptions)')"
+      rc=0
+      response="$(_openai_responses_post "${AZURE_OPENAI_ENDPOINT%/}/openai/v1/responses" \
+        "api-key: ${AZURE_OPENAI_API_KEY}" "$azure_payload" "Azure OpenAI")" || rc=$?
+    else
+      # Say so rather than failing silently: an unconfigured fallback and an
+      # untriggered one look identical from the caller's side otherwise.
+      printf "ℹ️ No Azure OpenAI fallback configured — set AZURE_OPENAI_API_KEY and AZURE_OPENAI_ENDPOINT in the environment to enable it.\n" >&2
+    fi
   fi
 
   [[ $rc -eq 0 ]] || return 1
