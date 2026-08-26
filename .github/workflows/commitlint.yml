@@ -4,6 +4,13 @@ name: Commitlint
 
 on:
   pull_request:
+    # `edited` matters: the job below validates the PR title, and a bare
+    # `pull_request` defaults to opened/synchronize/reopened. Without it a
+    # title rejected here can never be re-checked by correcting it — the only
+    # ways to clear the check are an unrelated push or closing and reopening
+    # the PR. ai-pr-title.yml and validate-branch-name.yml already listen for
+    # it for the same reason.
+    types: [opened, reopened, synchronize, edited]
 
 permissions:
   contents: read
