@@ -1,94 +1,173 @@
-# Snyk (https://snyk.io) policy file
+# Snyk policy — https://docs.snyk.io/scan-fix-and-prevent/prevent/policies/the-.snyk-file
 version: v1.25.0
+
+# ── Canonical base (generated from nswds-devops snyk-policy/base.snyk) ─────
+# DO NOT EDIT THIS BLOCK IN A CONSUMER REPO. It is regenerated and delivered
+# by nswds-devops (.github/workflows/snyk-policy-sync.yml); local edits are
+# overwritten on the next fan-out and reported by the weekly canary.
+#
+# Repo-specific policy goes BELOW the "# repo-specific" marker that closes
+# this block, and is preserved verbatim by the sync. That split is the whole
+# reason this file is not carried by the ordinary file-sync in
+# .github/sync.yml: BetaHuhn/repo-file-sync-action overwrites whole files,
+# and several repos carry policy that is genuinely theirs (nswds-email-
+# framework's Snyk Code exclude for generated output, nswds-tokens' one
+# javascript/PT acceptance, nswds-app's transitive postcss ignores, and
+# dtl-sandbox's path-scoped js-yaml and npm-bundled entries).
+# See docs/config-single-source-of-truth.md — Mechanism C.
+#
+# NOTE: never add a '*:lic:*' catch-all. Snyk matches ignore keys as exact
+# issue IDs and does not support globs, so a catch-all is dead config that
+# reads as protection. Licence findings have to be enumerated, as below.
+
 ignore:
+  # The nanoid CWE-835 ignores (SNYK-JS-NANOID-18506894 / -18506897) were
+  # removed on 2026-08-31. They are obsolete, not merely expired: with the
+  # policy disabled entirely, neither advisory fires any more at the nanoid
+  # versions now in the tree (3.3.17 and 3.3.18 under postcss, verified by
+  # scanning with --ignore-policy). Snyk has since corrected the affected
+  # range, which had been <5.1.16 and wrongly swallowed the patched 3.x line.
+  # Do not re-add them speculatively -- if either advisory ever returns, it
+  # should be reported and re-triaged on the evidence at that time.
 
-  # ── Canonical base (from nswds-devops: repo-files/.snyk) ────────────────
-  # ── nanoid CWE-835 — TWO DIFFERENT BUGS. Do not merge these reasons. ──
+  # ── Licence acceptances ─────────────────────────────────────────────────
+  # Weak-copyleft (MPL-2.0 / LGPL-3.0) and permissive (Artistic-2.0) licences
+  # on unmodified, transitively-installed build, CI and dev dependencies. They
+  # are not modified and not redistributed: the private apps in this fleet are
+  # not distributed at all, and the published @nswds/* packages ship only their
+  # own build output (`files: ["dist"]`), which does not embed them. The
+  # first-party @nswds/* MPL-2.0 findings are our own licence, chosen
+  # deliberately.
   #
-  # Both advisories name nanoid@3.3.16, both say "upgrade to 5.1.16", and both
-  # are titled "Infinite loop". They are not the same finding and do not have
-  # the same answer. Verified against the published tarballs.
+  # Do NOT reduce this to "the app is private": nswds-tokens, nswds-app and
+  # nswds-ui publish to npm, so a fleet-wide non-distribution claim is false.
   #
-  # Do NOT remediate either by pinning nanoid to ^5.1.16 in `overrides`.
-  # 5.1.16 DOES contain both fixes — its non-secure loop rejects a negative
-  # size, and its `customRandom` returns early on size 0. The objection is
-  # compatibility, not correctness: nanoid 5's exports map has no `require`
-  # condition (it is ESM-only), while postcss is CJS, declares
-  # `nanoid: ^3.3.16`, and reaches it via require(). That resolution only
-  # works on Node >=22.12 and was never tested upstream.
-  #
-  # SCOPING: both entries are scoped to the postcss path rather than a bare
-  # '*', so they fail CLOSED. A bare wildcard would suppress these advisories
-  # on ANY future path — including a genuinely vulnerable nanoid <3.3.16
-  # arriving through an unrelated dependency, or something importing nanoid's
-  # main entry and making -897 reachable. Both rationales below are
-  # conditional, so the scope has to encode that.
-  #
-  # Snyk matches paths from the ROOT: 'postcss > nanoid' matches only where
-  # postcss is a DIRECT dependency, and '* > postcss > nanoid' matches any
-  # non-empty prefix. Repos where postcss is both direct and transitive need
-  # both entries. Verified empirically — 'postcss > nanoid' alone does not
-  # match a transitive introduction.
-  #
-  # Before changing this block, enumerate the repo's real paths with:
-  #     npx snyk test --ignore-policy --json
-  # An incomplete path set does not error; the advisory just reappears.
+  # Snyk matches ignore keys as EXACT issue IDs -- it does NOT support globs
+  # like '*:lic:*', which silently match nothing. Every ID must be listed.
+  # Regenerate with:
+  #   snyk test --all-projects --dev --ignore-policy --exclude=fixtures,.next
 
-  # -894 / CVE-2026-67214 — ALREADY PATCHED. `customAlphabet` and `nanoid` in
-  # the `nanoid/non-secure` entry point hang on a negative size. Fixed in the
-  # 3.x line by 3.3.16, which backports the same one-line change as 5.1.16:
-  #
-  #     -  while (i--) {
-  #     +  while (i-- > 0) {
-  #
-  # 3.3.15..3.3.16 and 5.1.15..5.1.16 are the identical two-line patch in the
-  # identical file. Snyk's `<5.1.16` range simply omits the backport.
-  #
-  # This entry is only correct where nanoid resolves to >=3.3.16. An older
-  # 3.x is genuinely vulnerable and needs a lockfile refresh, not an ignore.
-  # Check with `npm ls nanoid` before landing this block in a repo.
-  SNYK-JS-NANOID-18506894:
-    - '* > postcss > nanoid':
-        reason: >-
-          False positive against nanoid@3.3.16. CVE-2026-67214 is the negative-size
-          infinite loop in nanoid/non-secure, backported to the 3.x line in 3.3.16
-          (`while (i--)` -> `while (i-- > 0)`) — the same patch 5.1.16 carries.
-          Snyk's `<5.1.16` range does not account for the backport.
-        expires: 2026-10-31T00:00:00.000Z
+  # LGPL-3.0 -- sharp libvips platform binaries (via next)
+  snyk:lic:npm:img:sharp-libvips-darwin-arm64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-darwin-x64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linux-arm64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linux-arm:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linux-ppc64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linux-riscv64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linux-s390x:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linux-x64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linuxmusl-arm64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:img:sharp-libvips-linuxmusl-x64:LGPL-3.0:
+    - '*':
+        reason: Unmodified dynamically-linked native library; not redistributed (build/runtime dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
 
-  # -897 / CVE-2026-67213 — NOT FIXED, NOT REACHABLE. A different function:
-  # `customRandom` hangs on a size of 0. It is NOT patched in 3.3.16 —
-  # `customRandom` is byte-identical between 3.3.15 and 3.3.16, and there is
-  # no 3.x release that fixes it. The 5.x line was never affected: the
-  # `if (!size) return ''` guard is present in 5.1.15 as well as 5.1.16, which
-  # is why Snyk names 5.1.16 (the -894 fix) as the remediation for both.
-  #
-  # Accepted on reachability, not on version:
-  #   * `customRandom` is exported only from nanoid's MAIN entry —
-  #     `nanoid/non-secure` exports `{ nanoid, customAlphabet }` and nothing else.
-  #   * postcss reaches nanoid only via `require('nanoid/non-secure')`
-  #     (lib/input.js) and calls `nanoid(6)` with a hardcoded constant.
-  # So the vulnerable function is not importable on the path that introduces
-  # the finding. Re-check this if anything starts importing nanoid's main
-  # entry — that changes the analysis, and the ignore stops being valid.
-  SNYK-JS-NANOID-18506897:
-    - '* > postcss > nanoid':
-        reason: >-
-          Not reachable. CVE-2026-67213 is an infinite loop in `customRandom`, which
-          is exported only from nanoid's main entry. The consumer that introduces
-          nanoid here is postcss, which imports `nanoid/non-secure` — that entry
-          point does not export `customRandom` — and calls `nanoid(6)` with a
-          hardcoded constant, never attacker-controlled input. Not fixed in any
-          3.x release; accepted on reachability.
-        expires: 2026-10-31T00:00:00.000Z
+  # MPL-2.0 -- lightningcss and its platform binaries (via Tailwind)
+  snyk:lic:npm:lightningcss-android-arm64:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-darwin-arm64:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-darwin-x64:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-freebsd-x64:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-linux-arm-gnueabihf:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-linux-arm64-gnu:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-linux-arm64-musl:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-linux-x64-gnu:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-linux-x64-musl:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-win32-arm64-msvc:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss-win32-x64-msvc:MPL-2.0:
+    - '*':
+        reason: Prebuilt platform binary of lightningcss; unmodified, and not redistributed (build dependency, absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:lightningcss:MPL-2.0:
+    - '*':
+        reason: Unmodified weak-copyleft build-time dependency; not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+
+  # MPL-2.0 -- axe-core (via eslint-config-next) and our own NSW DS packages
+  snyk:lic:npm:axe-core:MPL-2.0:
+    - '*':
+        reason: Unmodified weak-copyleft dev dependency; not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:nswds:eslint-config:MPL-2.0:
+    - '*':
+        reason: First-party NSW DS package; licence is our own and intentional
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:nswds:metadata:MPL-2.0:
+    - '*':
+        reason: First-party NSW DS package; licence is our own and intentional
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:nswds:prettier-config:MPL-2.0:
+    - '*':
+        reason: First-party NSW DS package; licence is our own and intentional
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:nswds:tokens:MPL-2.0:
+    - '*':
+        reason: First-party NSW DS package; licence is our own and intentional
+        expires: 2027-08-31T00:00:00.000Z
+
+  # Artistic-2.0 -- npm, bundled inside semantic-release
+  snyk:lic:npm:npm:Artistic-2.0:
+    - '*':
+        reason: Permissive licence on a dev/CI-only dependency; not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
 
   # repo-specific
-  # Catch-all: ignore every license issue, regardless of package or license type
-  '*:lic:*':
-    - '*':
-      reason: All license issues are considered acceptable for this project
-      expires: 2026-12-31T00:00:00.000Z
-
   # ── Snyk Code (SAST) ────────────────────────────────────────────────────
   # CWE-23 path traversal on argv[2] -> readFileSync in the lockfile check.
   # False positive: this is a developer/CI script, and the optional argument
