@@ -54,8 +54,13 @@ ignore:
   # reported. Verified empirically against agile:
   #   '* > npm > * > undici'                  suppressed all three
   #   '* > bogus-not-a-package > * > undici'  suppressed nothing
-  #   '* > npm > node-gyp > undici'           suppressed nothing (the real
-  #                                           paths run through @npmcli/*)
+  #   '* > npm > node-gyp > undici'           suppressed nothing ON AGILE,
+  #                                           whose paths all run through
+  #                                           @npmcli/*. Do NOT read that as
+  #                                           fleet-wide: 'npm > node-gyp >
+  #                                           undici' IS a real path in 11
+  #                                           repos, so that scope is narrow,
+  #                                           not inert.
   # A bare '*' would suppress undici everywhere and must never be used here.
   #
   # The leading '*' needs a non-empty prefix, which holds because `npm` is a
@@ -73,13 +78,13 @@ ignore:
   #    .snyk either, so an unenrolled repo receives NOTHING -- not even its
   #    root file.
   #
-  #    Snapshot 2026-09-07: 23 of the fleet's 29 repos are enrolled. The six
-  #    that are not -- data, nswds-community, nswds-email-builder,
-  #    nswds-eslint-config, nswds-public-sans and nswds-signature -- carry
-  #    these same three advisories unsuppressed. Each already has a .snyk
-  #    predating this convention, so enrolling one needs a migrate directive
-  #    carrying its fromSha (see repos.json), and wants the repo confirmed as
-  #    imported into the Snyk org first.
+  #    Snapshot 2026-09-07: all 29 repos in the fleet are enrolled, so every
+  #    repo carrying these advisories also carries this acceptance. That is a
+  #    snapshot, not an invariant -- a repo added to the fleet later receives
+  #    NOTHING until it is keyed in repos.json too, and one that already has a
+  #    .snyk needs a migrate directive carrying its fromSha to be converted
+  #    safely. Enrolling also wants the repo confirmed as imported into the
+  #    Snyk org.
   #
   # 2. DEPTH. Inside a repo that DOES receive it, the fan-out writes only the
   #    ROOT .snyk (POLICY_PATH in .github/scripts/snyk-policy.mjs) while Snyk
@@ -104,13 +109,17 @@ ignore:
   # Weak-copyleft (MPL-2.0 / LGPL-3.0) and permissive (Artistic-2.0) licences
   # on unmodified, transitively-installed build, CI and dev dependencies. They
   # are not modified and not redistributed: the private apps in this fleet are
-  # not distributed at all, and the published @nswds/* packages ship only their
-  # own build output (`files: ["dist"]`), which does not embed them. The
-  # first-party @nswds/* MPL-2.0 findings are our own licence, chosen
-  # deliberately.
+  # not distributed at all, and every published package declares a narrow
+  # `files` allowlist that embeds none of them. The first-party @nswds/*
+  # MPL-2.0 findings are our own licence, chosen deliberately.
   #
-  # Do NOT reduce this to "the app is private": nswds-tokens, nswds-app and
-  # nswds-ui publish to npm, so a fleet-wide non-distribution claim is false.
+  # Do NOT reduce this to "the app is private". Six packages here publish to
+  # npm -- @nswds/tokens, @nswds/ui, @nswds/app, @nswds/eslint-config,
+  # @nswds/metadata and @nswds/prettier-config -- so a fleet-wide
+  # non-distribution claim is false. Nor is `files: ["dist"]` the shared
+  # shape: only @nswds/tokens uses exactly that. The others allowlist their
+  # own entry points instead, which is why the claim above is about the
+  # allowlist being narrow rather than about any one spelling of it.
   #
   # Snyk matches ignore keys as EXACT issue IDs -- it does NOT support globs
   # like '*:lic:*', which silently match nothing. Every ID must be listed.
