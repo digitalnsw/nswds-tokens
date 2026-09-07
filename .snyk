@@ -30,6 +30,72 @@ ignore:
   # Do not re-add them speculatively -- if either advisory ever returns, it
   # should be reported and re-triaged on the evidence at that time.
 
+  # ── Vulnerability acceptances ───────────────────────────────────────────
+  # undici, as vendored INSIDE the published `npm` package. semantic-release
+  # pulls @semantic-release/npm, which depends on the npm CLI, which bundles
+  # its own undici -- so `npm update undici` does not touch it and an
+  # `overrides` pin does not reach it. There is no local fix.
+  #
+  # This ACCEPTS A REAL VULNERABILITY; it is not a false positive. What makes
+  # it acceptable is the blast radius, not the severity: the path is release
+  # tooling that runs in CI against npm's own registry, never an app serving
+  # user traffic, and nothing here is shipped -- the published @nswds/*
+  # packages carry only their `files: ["dist"]` build output.
+  #
+  # Verified 2026-09-07: npm 11.19.1 is the newest 11.x and its own lockfile
+  # still pins undici 6.28.0, while @semantic-release/npm@13.1.5 requires
+  # `npm: ^11.6.2`. default.json blocks npm majors fleet-wide, so no Renovate
+  # PR can move it either. ON EXPIRY, re-check whether npm has bumped its
+  # vendored copy and DELETE these three entries if it has -- do not extend
+  # them reflexively.
+  #
+  # SCOPING -- these fail CLOSED. The `npm` segment is required, so a
+  # genuinely vulnerable undici arriving by any other route is still
+  # reported. Verified empirically against agile:
+  #   '* > npm > * > undici'                  suppressed all three
+  #   '* > bogus-not-a-package > * > undici'  suppressed nothing
+  #   '* > npm > node-gyp > undici'           suppressed nothing (the real
+  #                                           paths run through @npmcli/*)
+  # A bare '*' would suppress undici everywhere and must never be used here.
+  #
+  # The leading '*' needs a non-empty prefix, which holds because `npm` is a
+  # direct dependency of NO repo in the fleet -- it is always reached through
+  # semantic-release, @semantic-release/npm or @workspace/semantic-release-
+  # config. A twin 'npm > * > undici' entry would be dead config today; add
+  # one only if npm ever becomes a direct dependency.
+  #
+  # WHERE THIS DOES AND DOES NOT LAND -- two separate gaps, both verified
+  # 2026-09-07. Neither is closed here.
+  #
+  # 1. REACH. This block is delivered only to the 13 repos enrolled in
+  #    snyk-policy/repos.json. The other 16 scanned in the fleet sweep -- 15
+  #    consumer repos plus nswds-devops itself -- carry these same three
+  #    advisories and receive NOTHING from it. nswds-email-design is the case
+  #    to watch: it has no .snyk at all, so neither its root nor its
+  #    workspaces are covered, and the ordinary file-sync in
+  #    .github/sync.yml deliberately does not carry .snyk either. Enrolling a
+  #    repo is a separate decision -- it also wants the repo confirmed as
+  #    imported into the Snyk org -- and is not made here.
+  #
+  # 2. DEPTH. Inside a repo that DOES receive it, the fan-out writes only the
+  #    ROOT .snyk (POLICY_PATH in .github/scripts/snyk-policy.mjs) while Snyk
+  #    resolves a policy per project directory. So in the workspace monorepo
+  #    nswds-ui the root project is covered but packages/semantic-release-
+  #    config still reports all three; clearing that needs its own .snyk, the
+  #    way apps/web/.snyk already exists there.
+  SNYK-JS-UNDICI-19635210:
+    - '* > npm > * > undici':
+        reason: undici vendored inside the npm CLI, reached only via semantic-release; no upstream fix (npm 11.19.1 still ships undici 6.28.0) and absent from every published artifact
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-UNDICI-19635212:
+    - '* > npm > * > undici':
+        reason: undici vendored inside the npm CLI, reached only via semantic-release; no upstream fix (npm 11.19.1 still ships undici 6.28.0) and absent from every published artifact
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-UNDICI-19635226:
+    - '* > npm > * > undici':
+        reason: undici vendored inside the npm CLI, reached only via semantic-release; no upstream fix (npm 11.19.1 still ships undici 6.28.0) and absent from every published artifact
+        expires: 2026-12-31T00:00:00.000Z
+
   # ── Licence acceptances ─────────────────────────────────────────────────
   # Weak-copyleft (MPL-2.0 / LGPL-3.0) and permissive (Artistic-2.0) licences
   # on unmodified, transitively-installed build, CI and dev dependencies. They
