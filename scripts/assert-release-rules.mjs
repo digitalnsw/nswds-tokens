@@ -31,6 +31,20 @@ const cases = [
   ['refactor(tokens)!: move Figma-sync files to sRGB shape', 'major'],
   // Breaking: footer form must also work.
   ['fix(api): tweak\n\nBREAKING CHANGE: response shape changed', 'major'],
+  // Prose about breaking things is NOT a footer. The bundled parser accepts a
+  // space where the Conventional Commits footer requires a colon, so these two
+  // shapes shipped false majors elsewhere in the fleet — engagement v2.0.0 off
+  // a Renovate bump whose body said the changes did not affect that repo, and
+  // nswds-email v3.0.0 off a refactor. parserOpts.notesPattern requires the
+  // colon; without it both of these resolve to major.
+  [
+    'fix(deps): update dependency resend to v6\n\nThe upstream notes list several changes.\nbreaking changes across v5 and v6 do not affect this repo.',
+    'patch',
+  ],
+  [
+    'refactor(tokens): pin the convention\n\nChecked both ways: one fails, and\nbreaking the derivation fails on the guard rather than passing.',
+    null,
+  ],
   // Non-breaking baselines.
   ['feat(color): add token', 'minor'],
   ['fix(color): correct value', 'patch'],
