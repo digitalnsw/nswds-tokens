@@ -13,7 +13,14 @@
 // but what to re-verify on an upgrade is that `feat!:` still majors, not that
 // this line is what makes it. That guard is the thing to trust.
 const parserOpts = {
-  noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
+  // `BREAKING-CHANGE` is the Conventional Commits spec's synonym for
+  // `BREAKING CHANGE`. The preset honours it by default; replacing the default
+  // with this hand-written list dropped it, so a correctly written
+  // `BREAKING-CHANGE:` footer released as a PATCH. This package publishes to
+  // npm, so that is the worse direction: consumers upgrade automatically into
+  // the break. notesPattern requires the colon, so it cannot match prose.
+  // See digitalnsw/nswds-devops#130.
+  noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING-CHANGE', 'BREAKING'],
   // notesPattern requires the COLON that the Conventional Commits footer
   // specifies. semantic-release bundles conventional-commits-parser v6, whose
   // default note regex is `^[\\s|*]*(KEYWORDS)[:\\s]+(.*)` — that `[:\\s]+`
