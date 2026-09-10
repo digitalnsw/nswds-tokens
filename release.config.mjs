@@ -1,12 +1,17 @@
 // Shared Conventional-Commits parsing options.
 //
-// IMPORTANT: `breakingHeaderPattern` is required for the `!` bang notation
-// (e.g. `feat!:`, `build(tokens)!:`) to be detected as a breaking change.
-// The `conventionalcommits` preset alone does NOT honour `!` with the version
-// of conventional-commits-parser that semantic-release v25 bundles — without
-// this pattern, a `build(tokens)!` commit is treated as non-breaking. That bug
-// shipped the DTCG shape change (#79) as a minor (v2.33.0) instead of a major.
-// See scripts/assert-release-rules.mjs for the regression guard.
+// `breakingHeaderPattern` is a DEFENSIVE FALLBACK for the `!` bang notation
+// (e.g. `feat!:`, `build(tokens)!:`). It was required when it was added: the
+// `conventionalcommits` preset did not honour `!`, a `build(tokens)!` commit
+// was treated as non-breaking, and that shipped the DTCG shape change (#79) as
+// a minor (v2.33.0) instead of a major.
+//
+// It is no longer what makes the bang work. Measured on semantic-release 25.0.9
+// as installed here: deleting the pattern leaves every `!` case in
+// scripts/assert-release-rules.mjs still resolving to major, because the preset
+// now handles the bang itself. Keep it for the version that stops doing so —
+// but what to re-verify on an upgrade is that `feat!:` still majors, not that
+// this line is what makes it. That guard is the thing to trust.
 const parserOpts = {
   noteKeywords: ['BREAKING CHANGE', 'BREAKING CHANGES', 'BREAKING'],
   // notesPattern requires the COLON that the Conventional Commits footer
