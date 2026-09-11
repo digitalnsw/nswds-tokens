@@ -1,3 +1,9 @@
+## [5.0.2](https://github.com/digitalnsw/nswds-tokens/compare/v5.0.1...v5.0.2) (2026-09-11)
+
+### Bug Fixes
+
+* **release:** honour the spec's hyphenated breaking-change footer ([#217](https://github.com/digitalnsw/nswds-tokens/issues/217)) ([4079175](https://github.com/digitalnsw/nswds-tokens/commit/407917500c6572117f687118b75bbcea2032f2d0))
+
 ## [5.0.1](https://github.com/digitalnsw/nswds-tokens/compare/v5.0.0...v5.0.1) (2026-09-10)
 
 ### Bug Fixes
