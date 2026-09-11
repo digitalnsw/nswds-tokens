@@ -31,6 +31,9 @@ const cases = [
   ['refactor(tokens)!: move Figma-sync files to sRGB shape', 'major'],
   // Breaking: footer form must also work.
   ['fix(api): tweak\n\nBREAKING CHANGE: response shape changed', 'major'],
+  // The spec's hyphenated synonym, which a hand-written keyword list dropped.
+  ['fix(api): tweak\n\nBREAKING-CHANGE: response shape changed', 'major'],
+  ['fix(api): tidy\n\nContext first.\nbreaking-change handling is unchanged here.', 'patch'],
   // Prose about breaking things is NOT a footer. The bundled parser accepts a
   // space where the Conventional Commits footer requires a colon, so these two
   // shapes shipped false majors elsewhere in the fleet — engagement v2.0.0 off
