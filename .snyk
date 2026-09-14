@@ -78,7 +78,7 @@ ignore:
   #    .snyk either, so an unenrolled repo receives NOTHING -- not even its
   #    root file.
   #
-  #    Snapshot 2026-09-07: all 29 repos in the fleet are enrolled, so every
+  #    Snapshot 2026-09-14: all 28 repos in the fleet are enrolled, so every
   #    repo carrying these advisories also carries this acceptance. That is a
   #    snapshot, not an invariant -- a repo added to the fleet later receives
   #    NOTHING until it is keyed in repos.json too, and one that already has a
