@@ -140,6 +140,18 @@ while IFS=$'\t' read -r _ f; do
     echo "::error file=${f}::no H1 heading — cannot derive a Confluence page title"
     exit 1
   fi
+  # Other pages link here with mark's ac: shorthand, [text](<ac:TITLE>), whose
+  # target is delimited by < and >. A title containing either can't be
+  # represented in that shorthand — a '>' closes the target early and spills the
+  # rest of the title (and the ')') into the body as malformed/injected markup.
+  # There is no escaping within the shorthand, so reject such a title loudly
+  # rather than publish a broken link.
+  case "$title" in
+    *'<'* | *'>'*)
+      echo "::error file=${f}::page title '${title}' contains '<' or '>', which breaks the Confluence ac: page-link shorthand (<ac:TITLE>) — rename the H1"
+      exit 1
+      ;;
+  esac
   printf '%s\t%s\n' "$f" "$title" >>"$WORKDIR/titles.tsv"
 done <"$WORKDIR/files.tsv"
 

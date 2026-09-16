@@ -163,6 +163,12 @@ fi
 # redact_sensitive_diff comes from secret-redaction.sh (sourced above).
 DIFF_REDACTED="$(redact_sensitive_diff "$DIFF")"
 
+# Change metadata is sent to the gateway too, so redact it as well — only the
+# diff body was redacted before, leaving a secret in a branch name or a
+# key=value path in the file list to leak unmasked.
+BRANCH_REDACTED="$(redact_sensitive_diff "$BRANCH")"
+STAGED_REDACTED="$(redact_sensitive_diff "$STAGED")"
+
 # Preview should show redacted diff (Fix #3)
 printf "🧾 Staged diff preview (first 300 lines, redacted):\n"
 head -n 300 <<<"$DIFF_REDACTED"
@@ -195,10 +201,10 @@ Task:
 - For a breaking change, use "type!: ..." or a "BREAKING CHANGE: ..." footer.
 - Do NOT use code fences. Do NOT wrap in quotes. Do NOT prefix with "Title:" or similar.
 
-Branch name: ${BRANCH}
+Branch name: ${BRANCH_REDACTED}
 
 Staged file list:
-${STAGED}
+${STAGED_REDACTED}
 
 Staged diff:
 ${DIFF_REDACTED}

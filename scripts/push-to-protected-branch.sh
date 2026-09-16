@@ -182,7 +182,15 @@ here=$(git rev-parse --show-toplevel 2>/dev/null || true)
 here_repo=$(gh repo view --json nameWithOwner --jq .nameWithOwner 2>/dev/null || true)
 if [ -n "$here" ] && [ "$here_repo" = "$REPO" ]; then
   echo "Pushing $BRANCH from $here …"
-  git push origin "$BRANCH" || echo "!! push failed — restoring anyway" >&2
+  # Capture the push status instead of swallowing it: the EXIT trap restores
+  # protection either way, but a failed push (auth, rejected update, network)
+  # must leave the script with a nonzero status, not a misleading success.
+  push_status=0
+  git push origin "$BRANCH" || push_status=$?
+  if [ "$push_status" -ne 0 ]; then
+    echo "!! push failed (git exit $push_status) — restoring protection, then exiting nonzero" >&2
+    exit "$push_status"
+  fi
 else
   echo "Protection is OFF. Push now from your clone, then press Enter."
   echo "(auto-restoring in 5 minutes if you don't)"
