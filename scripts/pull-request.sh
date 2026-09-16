@@ -42,6 +42,15 @@ fi
 # shellcheck source=./openai-request.sh
 source "$OPENAI_REQUEST_SCRIPT"
 
+# Shared secret detection + redaction (redact_sensitive_diff()).
+SECRET_REDACTION_SCRIPT="${SCRIPT_DIR}/secret-redaction.sh"
+if [[ ! -f "$SECRET_REDACTION_SCRIPT" ]]; then
+  echo "❌ Secret redaction helper not found: ${SECRET_REDACTION_SCRIPT}"
+  exit 1
+fi
+# shellcheck source=./secret-redaction.sh
+source "$SECRET_REDACTION_SCRIPT"
+
 # A PR title is short, but reasoning models spend output tokens on hidden
 # reasoning before emitting it, so they need a far larger budget.
 if [[ "$OPENAI_MODEL_FAMILY" == "reasoning" ]]; then
@@ -58,13 +67,25 @@ branch=$(git rev-parse --abbrev-ref HEAD)
 default_branch="$(git symbolic-ref --short refs/remotes/origin/HEAD 2>/dev/null | sed 's#^origin/##' || true)"
 default_branch="${default_branch:-main}"
 
+# Prefer the remote-tracking base over the local branch: a stale local
+# <default_branch> (behind or diverged from origin) would pull already-merged
+# commits into the range or drop current ones, skewing the title. origin/<...>
+# is a local ref updated by fetch, so this stays network-free; fall back to the
+# local branch when the remote-tracking ref isn't present.
+base_ref="origin/${default_branch}"
+git rev-parse --verify --quiet "refs/remotes/${base_ref}" >/dev/null || base_ref="$default_branch"
+
 # Extract commits from current branch
-commits=$(git log "$default_branch"..HEAD --pretty=format:"%s" | grep -E "$CONVENTIONAL_COMMIT_REGEX" || true)
+commits=$(git log "${base_ref}..HEAD" --pretty=format:"%s" | grep -E "$CONVENTIONAL_COMMIT_REGEX" || true)
 
 if [ -z "$commits" ]; then
   echo "❌ No Conventional Commits found on this branch."
   exit 1
 fi
+
+# Commit subjects are change metadata that reach the gateway (and the fallback
+# title). Redact before use so a secret pasted into a subject can't leak.
+commits="$(redact_sensitive_diff "$commits")"
 
 # Build the prompt and hand off to the shared helper, which shapes the payload,
 # makes the request, and runs all the transport/non-JSON/.error guards.
