@@ -148,9 +148,14 @@ if [[ -z "$DIFF" ]]; then
 fi
 
 # Basic sensitive-pattern detection to prevent accidental data/code leakage.
-# SENSITIVE_REGEX comes from secret-redaction.sh (sourced above).
-if git diff --cached | sed -n '1,5000p' | grep -Eqi "$SENSITIVE_REGEX"; then
-  printf "⚠️ Potential secrets detected in the staged diff.\n"
+# contains_sensitive comes from secret-redaction.sh (sourced above) and is the
+# single, SIGPIPE-safe implementation of the scan. Pass exactly what will be
+# sent — the diff body ("$DIFF", not a fixed 5000-line window, so a larger
+# OPENAI_DIFF_MAX_LINES can't send unscanned lines) plus the branch name and
+# staged file list, which are sent as prompt metadata too and would otherwise let
+# a secret in a branch name or a key=value path slip past the warning.
+if contains_sensitive "$DIFF" "$BRANCH" "$STAGED"; then
+  printf "⚠️ Potential secrets detected in the staged diff or change metadata.\n"
   printf "This script will send code to the OpenAI API.\n"
   read -r -p "Proceed anyway? (y/N) " _ans
   if [[ ! "${_ans:-}" =~ ^[Yy]$ ]]; then
