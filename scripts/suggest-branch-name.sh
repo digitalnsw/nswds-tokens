@@ -293,8 +293,19 @@ if [[ "$ignored_paths_count" -gt 0 ]]; then
   printf "ℹ️ Filtered %s collected candidate path(s) with %s.\n" "$ignored_paths_count" "$ignore_filter_description"
 fi
 
-# SENSITIVE_REGEX comes from secret-redaction.sh (sourced above).
-if [[ "$USE_OPENAI_API" == "true" ]] && printf '%s\n' "$full_diff" | grep -Eqi "$SENSITIVE_REGEX"; then
+# contains_sensitive comes from secret-redaction.sh (sourced above) and is the
+# single, SIGPIPE-safe implementation of the scan. Pass every gateway-bound
+# source, not just the diff: build_prompt also sends path-derived metadata (the
+# changed/untracked file lists, the change-scope and ignore-filter summaries
+# incl. an ignored-path sample), so a secret in a file path — e.g.
+# `config/api_key=xyz` — would otherwise reach the prompt without tripping this
+# warning. Those summaries are derived from these raw path sources, so scanning
+# the sources here covers them (they are built later, after this check).
+# ignore_filter_description is also sent (it embeds $OPENCOMMIT_IGNORE_FILE in
+# ignore_filter_summary) and is not path-derived, so it is scanned explicitly.
+# NB: this argument list must mirror every dynamic value build_prompt sends —
+# add new ones here too.
+if [[ "$USE_OPENAI_API" == "true" ]] && contains_sensitive "$full_diff" "$changed_files" "$untracked_files" "$ignored_paths" "$ignore_filter_description"; then
   printf "⚠️ Potential secrets detected in the diff.\n"
   printf "This script sends a diff preview to the OpenAI API.\n"
   proceed=""
