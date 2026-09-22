@@ -140,6 +140,66 @@ ignore:
         reason: undici vendored inside the npm CLI, reached only via semantic-release; no upstream fix (npm 11.19.1 still ships undici 6.28.0) and absent from every published artifact
         expires: 2026-12-31T00:00:00.000Z
 
+  # ── deepmerge Prototype Pollution (no fix) ──────────────────────────────
+  # deepmerge@4.3.1 via react-email. No fixed release. Low reachability:
+  # react-email deep-merges developer-authored props/styles at render, not
+  # attacker-controlled objects. Scoped to the react-email family so a
+  # deepmerge arriving any other way is still reported. Clears on a react-email
+  # bump that ships a fixed deepmerge.
+  SNYK-JS-DEEPMERGE-19964053:
+    - '* > react-email > * > deepmerge':
+        reason: Prototype pollution in deepmerge@4.3.1 via react-email; no upstream fix, low reachability (developer-authored props, not untrusted input).
+        expires: 2026-12-31T00:00:00.000Z
+    - '* > @react-email/render > * > deepmerge':
+        reason: Same deepmerge advisory via @react-email/render. See above.
+        expires: 2026-12-31T00:00:00.000Z
+    - '* > @nswds/email > * > deepmerge':
+        reason: Same deepmerge advisory via @nswds/email (depends on react-email). See above.
+        expires: 2026-12-31T00:00:00.000Z
+
+  # ── http-cache-semantics (no fix) ───────────────────────────────────────
+  # http-cache-semantics@4.2.0 via deploy/release tooling only: @pulumi/pulumi
+  # (IaC, deploy-time) and @semantic-release/npm (CI release). Not shipped or
+  # request-exposed. No fixed release. Two advisory IDs, same package.
+  SNYK-JS-HTTPCACHESEMANTICS-19964064:
+    - '* > @pulumi/pulumi > * > http-cache-semantics':
+        reason: http-cache-semantics@4.2.0 via @pulumi/pulumi; deploy-time IaC, not shipped; no upstream fix.
+        expires: 2026-12-31T00:00:00.000Z
+    - '* > @semantic-release/npm > * > http-cache-semantics':
+        reason: http-cache-semantics@4.2.0 via @semantic-release/npm; CI release tooling, not shipped; no upstream fix.
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-HTTPCACHESEMANTICS-19964068:
+    - '* > @pulumi/pulumi > * > http-cache-semantics':
+        reason: Second http-cache-semantics advisory, same package/route as -19964064. See above.
+        expires: 2026-12-31T00:00:00.000Z
+    - '* > @semantic-release/npm > * > http-cache-semantics':
+        reason: Second http-cache-semantics advisory via @semantic-release/npm. See above.
+        expires: 2026-12-31T00:00:00.000Z
+
+  # ── braces (no fix) ─────────────────────────────────────────────────────
+  # braces@3.0.3 reached through build/lint tooling only (maizzle, tailwindcss,
+  # eslint-config-next, semantic-release), always via micromatch or chokidar.
+  # Scoped on the immediate parent so every root path is covered without
+  # enumerating each tool. Build-time only, not shipped. No fixed release.
+  SNYK-JS-BRACES-19963945:
+    - '* > micromatch > braces':
+        reason: braces@3.0.3 via micromatch (build/lint tooling); not shipped; no upstream fix.
+        expires: 2026-12-31T00:00:00.000Z
+    - '* > chokidar > braces':
+        reason: braces@3.0.3 via chokidar (build/watch tooling); not shipped; no upstream fix.
+        expires: 2026-12-31T00:00:00.000Z
+
+  # ── uri-js (no fix) ─────────────────────────────────────────────────────
+  # uri-js@4.4.1 via eslint. Lint tooling, not shipped. No fixed release.
+  SNYK-JS-URIJS-19963963:
+    - '* > eslint > * > uri-js':
+        reason: uri-js@4.4.1 via eslint; lint tooling, not shipped; no upstream fix.
+        expires: 2026-12-31T00:00:00.000Z
+  SNYK-JS-URIJS-19963961:
+    - '* > eslint > * > uri-js':
+        reason: Second uri-js advisory, same package/route as -19963963. See above.
+        expires: 2026-12-31T00:00:00.000Z
+
   # ── Licence acceptances ─────────────────────────────────────────────────
   # Weak-copyleft (MPL-2.0 / LGPL-3.0) and permissive (Artistic-2.0) licences
   # on unmodified, transitively-installed build, CI and dev dependencies. They
@@ -281,6 +341,27 @@ ignore:
         reason: Permissive licence on a dev/CI-only dependency; not redistributed (absent from published artifacts)
         expires: 2027-08-31T00:00:00.000Z
 
+  # Artistic-2.0 -- Maizzle build-tooling transitives (via @maizzle/framework)
+  snyk:lic:npm:binaryextensions:Artistic-2.0:
+    - '*':
+        reason: Permissive licence on an unmodified build-tooling transitive (Maizzle); not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:editions:Artistic-2.0:
+    - '*':
+        reason: Permissive licence on an unmodified build-tooling transitive (Maizzle); not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:istextorbinary:Artistic-2.0:
+    - '*':
+        reason: Permissive licence on an unmodified build-tooling transitive (Maizzle); not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:textextensions:Artistic-2.0:
+    - '*':
+        reason: Permissive licence on an unmodified build-tooling transitive (Maizzle); not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
+  snyk:lic:npm:version-range:Artistic-2.0:
+    - '*':
+        reason: Permissive licence on an unmodified build-tooling transitive (Maizzle); not redistributed (absent from published artifacts)
+        expires: 2027-08-31T00:00:00.000Z
   # repo-specific
   # ── Snyk Code (SAST) ────────────────────────────────────────────────────
   # CWE-23 path traversal on argv[2] -> readFileSync in the lockfile check.
