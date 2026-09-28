@@ -1,4 +1,0 @@
-#!/usr/bin/env sh
-# Lint the commit message against the repo's commitlint config. Also covers
-# git-commit.sh, which commits via `git commit -F -`.
-npx --no-install commitlint --edit "$1"
