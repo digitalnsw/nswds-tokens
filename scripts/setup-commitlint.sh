@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Install and wire up commitlint + a Husky commit-msg hook in the current repo.
+# Install and wire up commitlint + Husky in the current repo.
 # Idempotent: safe to re-run. Run from the repo you want to configure:
 #   ./scripts/setup-commitlint.sh
 
@@ -88,34 +88,28 @@ EOF
   printf "✅ Wrote a default commitlint.config.mjs.\n"
 fi
 
-# Husky v9: `husky init` creates .husky/ and adds a `prepare` script so hooks
-# install on every `npm install`. It seeds a sample pre-commit hook; drop it
-# so the copy below installs our tracked pre-commit template in its place.
-if [[ ! -d .husky ]]; then
-  printf "🐶 Initializing Husky…\n"
-  npx husky init
-  # Remove husky's sample pre-commit hook — ours is copied in below.
-  rm -f .husky/pre-commit
+# Husky v9. The hooks themselves (pre-commit blocks conflict markers,
+# prepare-commit-msg wraps the body, commit-msg lints the message) arrive in
+# .husky/ with the nswds-devops sync, which is their single source of truth, so
+# nothing here writes them. This only wires Husky up: the `prepare` script that
+# reinstalls it on every `npm install` (left alone if the repo has its own),
+# and `npx husky`, which sets core.hooksPath. Not `husky init`: it seeds a
+# sample pre-commit hook.
+if [[ "$(npm pkg get scripts.prepare)" == "{}" ]]; then
+  npm pkg set scripts.prepare=husky
 fi
+npx husky
 
 # Make sure the body-wrap helper the prepare-commit-msg hook calls is executable.
 [[ -f scripts/wrap-commit-body.sh ]] && chmod +x scripts/wrap-commit-body.sh
 
-# Install hooks by copying the tracked templates verbatim, so the exact hook
-# content is reviewable in version control rather than generated inline.
-#   pre-commit → blocks conflict markers | prepare-commit-msg → wraps the body
-#   commit-msg → lints the message
-HOOK_TEMPLATE_DIR="${SCRIPT_DIR}/husky"
 for hook in pre-commit prepare-commit-msg commit-msg; do
-  src="${HOOK_TEMPLATE_DIR}/${hook}"
-  if [[ ! -f "$src" ]]; then
-    printf "❌ Missing hook template: %s (sync scripts/husky/ from nswds-devops).\n" "$src" >&2
+  if [[ ! -f ".husky/${hook}" ]]; then
+    printf "❌ Missing .husky/%s. The hooks arrive with the nswds-devops sync PR; merge it first.\n" "$hook" >&2
     exit 1
   fi
-  cp "$src" ".husky/${hook}"
-  chmod +x ".husky/${hook}"
-  printf "✅ Installed .husky/%s\n" "$hook"
 done
+printf "✅ Husky is wired up to the synced hooks in .husky/.\n"
 
 printf "\n🎉 commitlint is set up. Test it with:\n"
 printf "   echo \"bad message\" | npx --no-install commitlint   # should fail\n"
