@@ -200,6 +200,26 @@ ignore:
         reason: Second uri-js advisory, same package/route as -19963963. See above.
         expires: 2026-12-31T00:00:00.000Z
 
+  # ── gray-matter Arbitrary Code Injection (no fix) ───────────────────────
+  # gray-matter@4.0.3 (critical) evals front matter fenced as `---js`. No
+  # fixed release exists, and 4.0.3 (2021) is the latest. Reached only through
+  # @maizzle/framework 5, which exists only in nswds-email-framework and
+  # nswds-email-starter. They stay on Maizzle 5 permanently (MAINTENANCE.md
+  # exceptions register), and Maizzle 6 is the release that drops gray-matter.
+  #
+  # Maizzle calls gray-matter only in parseFrontMatter() on the HTML it
+  # renders. Verified 2026-10-14: both repos invoke Maizzle solely via its CLI
+  # (build/serve) over their own templates, never call render() themselves,
+  # and run no server. So the evaluated input is developer-authored source,
+  # whose author can already run arbitrary build code. Scoped to the direct
+  # @maizzle/framework edge (the path `snyk test` reports), so gray-matter
+  # arriving any other way is still reported. ON EXPIRY, delete this if both
+  # repos are archived (nswds-email-design replaces them) rather than extend it.
+  SNYK-JS-GRAYMATTER-20532010:
+    - '@maizzle/framework > gray-matter':
+        reason: gray-matter@4.0.3 via Maizzle 5 CLI builds of developer-authored templates only; no upstream fix; the repos stay on Maizzle 5 by decision.
+        expires: 2027-04-30T00:00:00.000Z
+
   # ── Licence acceptances ─────────────────────────────────────────────────
   # Weak-copyleft (MPL-2.0 / LGPL-3.0) and permissive (Artistic-2.0) licences
   # on unmodified, transitively-installed build, CI and dev dependencies. They
