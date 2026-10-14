@@ -140,6 +140,39 @@ ignore:
         reason: undici vendored inside the npm CLI, reached only via semantic-release; no upstream fix (npm 11.19.1 still ships undici 6.28.0) and absent from every published artifact
         expires: 2026-12-31T00:00:00.000Z
 
+  # ── postcss-selector-parser bundled inside the npm CLI (no reachable fix) ─
+  # Every npm the fleet resolves bundles postcss-selector-parser 7.1.4 (via
+  # @npmcli/arborist > @npmcli/query). Verified 2026-10-14: npm 11.21.0 and
+  # 12.2.0, then the latest, both still bundle it. That is below the 7.1.6
+  # fix for SNYK-JS-POSTCSSSELECTORPARSER-20510276. The copy is `inBundle`,
+  # so neither `npm update` nor `overrides`
+  # can move it. The reasoning matches the undici entries above: release
+  # tooling reached only through semantic-release, run in CI, never shipped.
+  #
+  # The scope fails CLOSED. The `npm` segment is required, so this accepts
+  # only the bundled copy. Any other copy (one a repo installs itself) is
+  # still reported and must be fixed in that repo: by a lockfile refresh, or
+  # by an override scoped under its parent (MAINTENANCE.md exceptions
+  # register).
+  #
+  # Never try to reach this copy with a REPO-WIDE override. Snyk's lockfile
+  # parser then applies the override to the bundled edge, finds no match, and
+  # rejects the lockfile as out of sync. `snyk test --dev` reports nothing at
+  # all for that repo.
+  #
+  # EXPIRY is staggered with the gray-matter entry, away from the 2026-12-31
+  # batch. npm has shipped no fix yet, so this one will almost certainly
+  # need extending too.
+  #
+  # ON EXPIRY, DELETE this entry once EVERY enrolled lockfile resolves an npm
+  # that bundles postcss-selector-parser >= 7.1.6. A fixed npm release is not
+  # enough on its own: each lockfile keeps its older npm until refreshed.
+  # Until then, extend it.
+  SNYK-JS-POSTCSSSELECTORPARSER-20510276:
+    - '* > npm > * > postcss-selector-parser':
+        reason: postcss-selector-parser 7.1.4 bundled inside the npm CLI, reached only via semantic-release; not overridable and absent from every published artifact
+        expires: 2027-03-31T00:00:00.000Z
+
   # ── deepmerge Prototype Pollution (no fix) ──────────────────────────────
   # deepmerge@4.3.1 via react-email. No fixed release. Low reachability:
   # react-email deep-merges developer-authored props/styles at render, not
@@ -208,17 +241,56 @@ ignore:
   # exceptions register), and Maizzle 6 is the release that drops gray-matter.
   #
   # Maizzle calls gray-matter only in parseFrontMatter() on the HTML it
-  # renders. Verified 2026-10-14: both repos invoke Maizzle solely via its CLI
-  # (build/serve) over their own templates, never call render() themselves,
-  # and run no server. So the evaluated input is developer-authored source,
-  # whose author can already run arbitrary build code. Scoped to the direct
-  # @maizzle/framework edge (the path `snyk test` reports), so gray-matter
-  # arriving any other way is still reported. ON EXPIRY, delete this if both
-  # repos are archived (nswds-email-design replaces them) rather than extend it.
+  # renders. Verified 2026-10-14: both repos invoke Maizzle solely via its
+  # CLI, `maizzle build` and (as `npm run dev`) `maizzle serve`, and never call
+  # render() themselves.
+  #
+  # The dev server binds all interfaces, but it renders only files found in
+  # the configured templatePaths:
+  #   - the request URL only selects an existing template;
+  #   - its 404 page renders Maizzle's own view;
+  #   - it also statically serves every project subdirectory except
+  #     node_modules and `build_*` folders: scripts/, templates/, tests/ and
+  #     so on, and in nswds-email-framework also docs/, where its production
+  #     build is written (dot-directories and root files are not served);
+  #   - its websocket JSON-parses any client message and relays it to every
+  #     connected client (that is how scroll sync works).
+  # So while `npm run dev` runs, anyone on the network can read those project
+  # folders, push content into an open preview, or crash the server with a
+  # malformed frame. That is a dev-server exposure, not a gray-matter path:
+  # nothing a client sends reaches gray-matter. The evaluated input is always
+  # developer-authored source, whose author can already run arbitrary build
+  # code.
+  #
+  # Scoped to the direct @maizzle/framework edge (the path `snyk test`
+  # reports), so gray-matter arriving any other way is still reported.
+  #
+  # WHY THE BASE. Only two repos reach this today. It still lives here rather
+  # than in their repo-specific tails, because the base is the single source of
+  # truth for fleet .snyk policy and an acceptance in a tail is invisible to
+  # fleet review. The cost: the scope limits the ROUTE, not the repo. Any
+  # future repo that adopts Maizzle 5 inherits this CRITICAL acceptance. If it
+  # also passes untrusted HTML to render(), the reasoning above no longer
+  # holds. Adopting Maizzle 5 anywhere else therefore requires re-reviewing
+  # this entry first. The MAINTENANCE.md exceptions register sanctions
+  # Maizzle 5 for these two repos only, so Maizzle 5 anywhere else is drift.
+  #
+  # EXPIRY is deliberately staggered from the 2026-12-31 batch above. This is
+  # a CRITICAL with no fix that will be re-extended for as long as the repos
+  # live. Letting it lapse at the same instant as every other acceptance, in
+  # the holiday shutdown, would turn the required Snyk checks red for nothing.
+  #
+  # ON EXPIRY: delete it if both repos are archived (nswds-email-design
+  # replaces them). Otherwise re-check three things and extend only if all
+  # three hold:
+  #   1. gray-matter still has no fixed release;
+  #   2. Maizzle is still reached only through the CLI over the repos' own
+  #      templates;
+  #   3. they are still on Maizzle 5.
   SNYK-JS-GRAYMATTER-20532010:
     - '@maizzle/framework > gray-matter':
-        reason: gray-matter@4.0.3 via Maizzle 5 CLI builds of developer-authored templates only; no upstream fix; the repos stay on Maizzle 5 by decision.
-        expires: 2027-04-30T00:00:00.000Z
+        reason: gray-matter@4.0.3 via the Maizzle 5 CLI (build/serve) over developer-authored templates only; no upstream fix; the repos stay on Maizzle 5 by decision.
+        expires: 2027-03-31T00:00:00.000Z
 
   # ── Licence acceptances ─────────────────────────────────────────────────
   # Weak-copyleft (MPL-2.0 / LGPL-3.0) and permissive (Artistic-2.0) licences
