@@ -145,9 +145,9 @@ ignore:
   # @npmcli/arborist > @npmcli/query). Verified 2026-10-14: npm 11.21.0 and
   # 12.2.0, then the latest, both still bundle it. That is below the 7.1.6
   # fix for SNYK-JS-POSTCSSSELECTORPARSER-20510276. The copy is `inBundle`,
-  # so neither `npm update` nor `overrides`
-  # can move it. The reasoning matches the undici entries above: release
-  # tooling reached only through semantic-release, run in CI, never shipped.
+  # so neither `npm update` nor `overrides` can move it. The reasoning matches
+  # the undici entries above: release tooling reached only through
+  # semantic-release, run in CI, never shipped.
   #
   # The scope fails CLOSED. The `npm` segment is required, so this accepts
   # only the bundled copy. Any other copy (one a repo installs itself) is
@@ -290,6 +290,58 @@ ignore:
   SNYK-JS-GRAYMATTER-20532010:
     - '@maizzle/framework > gray-matter':
         reason: gray-matter@4.0.3 via the Maizzle 5 CLI (build/serve) over developer-authored templates only; no upstream fix; the repos stay on Maizzle 5 by decision.
+        expires: 2027-03-31T00:00:00.000Z
+
+  # ── js-beautify Memory Allocation with Excessive Size Value (no fix) ────
+  # Availability only (CVSS A:L): Snyk says a crafted input can make the
+  # formatter allocate without bound "via an unknown function". It marks every
+  # version vulnerable (>=0.0.0) and lists no fix; its only reference is
+  # beautifier/js-beautify#2522, a request for a private disclosure channel,
+  # not a tracked fix. Verified 2026-10-14 on main of each repo below:
+  #
+  #   '@maizzle/framework > pretty > js-beautify' (1.15.4)
+  #       nswds-email-framework and nswds-email-starter, the gray-matter repos
+  #       above. Maizzle 5 reaches `pretty` two ways, and neither repo uses
+  #       either: its build runs it only when the merged config (a template's
+  #       front matter included) has a truthy `prettify`, and both repos set
+  #       `prettify: false` in production, leave it unset in dev, and no
+  #       template sets it; and the exported prettify() helper, which neither
+  #       repo calls. The build route would only ever format the repos' own
+  #       templates.
+  #   '* > mjml-core > js-beautify' (2.0.3)
+  #       nswds-email-design apps/builder, via its mjml devDependency. mjml is
+  #       a test oracle only (unit and e2e tests); mjml-core calls js-beautify
+  #       only with `beautify: true`, which defaults to false and no caller
+  #       sets. Dev-only, so only `snyk test --dev` reports it.
+  #
+  # Neither route reaches a deployed runtime or a published package, and the
+  # input is always developer-authored.
+  #
+  # WHAT THE SCOPES DO NOT DO. A scope decides which PROJECTS the entry applies
+  # to. Within a project where one path matches, the Snyk CLI suppresses this
+  # advisory on every path, including routes not listed here (verified
+  # 2026-10-14, CLI 1.1308.0: the Maizzle scope alone also hid a direct
+  # js-beautify). So a new js-beautify route in one of these three repos would
+  # go unreported. Review this entry before adding js-beautify to any of them
+  # by another route, or turning on Maizzle's prettify or mjml's beautify.
+  #
+  # EXPIRY is staggered with gray-matter, away from the 2026-12-31 batch: the
+  # Maizzle route lasts as long as the repos stay on Maizzle 5, so this will
+  # be extended too.
+  #
+  # ON EXPIRY: bump and delete this entry if js-beautify has a fixed release,
+  # and drop any scope whose route is gone. Otherwise extend only if all hold:
+  #   1. js-beautify still has no fixed release;
+  #   2. neither Maizzle repo sets `prettify` (config or front matter) or
+  #      calls Maizzle's prettify();
+  #   3. nswds-email-design still uses mjml only in tests, without `beautify`;
+  #   4. none of the three repos has gained another js-beautify route.
+  SNYK-JS-JSBEAUTIFY-20883334:
+    - '@maizzle/framework > pretty > js-beautify':
+        reason: js-beautify via Maizzle 5's `pretty`, which neither Maizzle repo enables (prettify off) or calls. No upstream fix; availability-only.
+        expires: 2027-03-31T00:00:00.000Z
+    - '* > mjml-core > js-beautify':
+        reason: js-beautify via mjml in nswds-email-design tests only; mjml-core calls it only with beautify:true, which nothing sets. No upstream fix; availability-only.
         expires: 2027-03-31T00:00:00.000Z
 
   # ── Licence acceptances ─────────────────────────────────────────────────
